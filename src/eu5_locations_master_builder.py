@@ -619,6 +619,47 @@ def build_lake_adjacency_from_edges(edges_u32: np.ndarray, rgb_to_id: dict, lake
     return adjacent
 
 
+def detect_adjacent_to_lake_ids_image(
+    edges_u32: np.ndarray,
+    rgb_to_id: dict,
+    lake_ids_set: set,
+    sea_ids_set: set,
+) -> set:
+    """Authoritative lake-adjacency detection based on the locations image.
+
+    This function must remain the single source of truth for lake adjacency.
+    Future auxiliary sources (e.g., text triggers) may be consulted elsewhere,
+    but MUST NOT override this result.
+
+    NOTE: Refactor-only boundary. No logic change is permitted here.
+    """
+    return build_lake_adjacency_from_edges(
+        edges_u32, rgb_to_id, lake_ids_set, sea_ids_set
+    )
+
+
+def resolve_adjacent_to_lake_ids(
+    edges_u32: np.ndarray,
+    rgb_to_id: dict,
+    lake_ids_set: set,
+    sea_ids_set: set,
+    *,
+    trigger_hints=None,
+    logger=None,
+) -> set:
+    """Resolve lake adjacency with image as the final authority.
+
+    - Current behavior: image-only (identical to v1.0 / current accuracy-first).
+    - Extension point (future): optional trigger hints / logging / multi-source validation.
+      Image result must always be the final decision.
+
+    NOTE: Refactor-only boundary. No logic change is permitted here.
+    """
+    return detect_adjacent_to_lake_ids_image(
+        edges_u32, rgb_to_id, lake_ids_set, sea_ids_set
+    )
+
+
 def build_coastal_flags_from_edges(edges_u32: np.ndarray, rgb_to_id: dict, land_ids: set, sea_ids: set):
     """Return (coastal_land_set, coastal_sea_set)."""
     # Build int sets
@@ -888,9 +929,10 @@ def main():
 
     # --- Lake adjacency from edges
     t = time.time()
-    adjacent_to_lake_ids = build_lake_adjacency_from_edges(edges_u32, rgb_to_id, lake_ids_set, sea_ids_set)
+    adjacent_to_lake_ids = resolve_adjacent_to_lake_ids(edges_u32, rgb_to_id, lake_ids_set, sea_ids_set)
     lake_stats = {**edge_stats}
     mark('lake_adjacency', t)
+
 
     # --- Build master
     t = time.time()
