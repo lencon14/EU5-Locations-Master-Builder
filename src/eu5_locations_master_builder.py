@@ -655,9 +655,22 @@ def resolve_adjacent_to_lake_ids(
 
     NOTE: Refactor-only boundary. No logic change is permitted here.
     """
-    return detect_adjacent_to_lake_ids_image(
+    adjacent = detect_adjacent_to_lake_ids_image(
         edges_u32, rgb_to_id, lake_ids_set, sea_ids_set
     )
+
+    # Optional diagnostic logging (no effect on results)
+    if logger is not None:
+        try:
+            logger.info(
+                "lake_adjacency(image): %d locations adjacent to lakes",
+                len(adjacent),
+            )
+        except Exception:
+            # Logging must never affect execution
+            pass
+
+    return adjacent
 
 
 def build_coastal_flags_from_edges(edges_u32: np.ndarray, rgb_to_id: dict, land_ids: set, sea_ids: set):
