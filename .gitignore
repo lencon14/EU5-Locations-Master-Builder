@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.json
+
+# EU5 outputs
+output/
+reports/
+
+# local paths
+.env
