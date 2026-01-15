@@ -563,6 +563,37 @@ def build_adjacency_edges(loc_img_path: str, palette_rgb_set: set) -> tuple:
     return edges, {'valid_pixel_ratio': float(valid.mean()), 'unique_edges': int(edges.shape[0])}
 
 
+def get_adjacency_edges_cached(loc_img_path: str, palette_rgb_set: set, cache_load_fn, cache_save_fn):
+    """Load or build location adjacency edges from the locations image.
+
+    NOTE: Refactor only. Logic must be identical to v1.0.
+    """
+    adj_sig = {
+        'cache_format': CACHE_FORMAT_ADJ,
+        'tool': {'name': TOOL_NAME, 'version': TOOL_VERSION},
+        'schema': SCHEMA_VERSION,
+        'locations_image_sha256': safe_stat_and_hash(loc_img_path).get('sha256'),
+        '00_default_sha256': safe_stat_and_hash(FILE_00_DEFAULT).get('sha256'),
+    }
+
+    adj_cache = cache_load_fn('adjacency_edges', adj_sig)
+    adj_cache_used = False
+
+    if adj_cache:
+        adj_cache_used = True
+        edges_list = adj_cache.get('edges_u32', [])
+        edges_u32 = np.array(edges_list, dtype=np.uint32) if edges_list else np.empty((0,2), dtype=np.uint32)
+        edge_stats = adj_cache.get('edge_stats', {})
+    else:
+        edges_u32, edge_stats = build_adjacency_edges(loc_img_path, palette_rgb_set)
+        cache_save_fn('adjacency_edges', adj_sig, {
+            'edges_u32': edges_u32.astype(int).tolist(),
+            'edge_stats': edge_stats,
+        })
+
+    return edges_u32, edge_stats, adj_cache_used
+
+
 def build_lake_adjacency_from_edges(edges_u32: np.ndarray, rgb_to_id: dict, lake_ids_set: set, sea_ids_set: set):
     lake_rgbs = [rgb for rgb, loc_id in rgb_to_id.items() if loc_id in lake_ids_set]
     lake_ints = {((r<<16)|(g<<8)|b) for (r,g,b) in lake_rgbs}
@@ -849,28 +880,9 @@ def main():
 
     # --- Adjacency edges (cache)
     t = time.time()
-    adj_sig = {
-        'cache_format': CACHE_FORMAT_ADJ,
-        'tool': {'name': TOOL_NAME, 'version': TOOL_VERSION},
-        'schema': SCHEMA_VERSION,
-        'locations_image_sha256': safe_stat_and_hash(loc_img_path).get('sha256'),
-        '00_default_sha256': safe_stat_and_hash(FILE_00_DEFAULT).get('sha256'),
-    }
-
-    adj_cache = cache_load('adjacency_edges', adj_sig)
-    adj_cache_used = False
-
-    if adj_cache:
-        adj_cache_used = True
-        edges_list = adj_cache.get('edges_u32', [])
-        edges_u32 = np.array(edges_list, dtype=np.uint32) if edges_list else np.empty((0,2), dtype=np.uint32)
-        edge_stats = adj_cache.get('edge_stats', {})
-    else:
-        edges_u32, edge_stats = build_adjacency_edges(loc_img_path, palette_rgb_set)
-        cache_save('adjacency_edges', adj_sig, {
-            'edges_u32': edges_u32.astype(int).tolist(),
-            'edge_stats': edge_stats,
-        })
+    edges_u32, edge_stats, adj_cache_used = get_adjacency_edges_cached(
+        loc_img_path, palette_rgb_set, cache_load, cache_save
+    )
 
     mark('adjacency_edges', t)
 
