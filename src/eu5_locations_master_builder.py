@@ -67,6 +67,7 @@ from collections import defaultdict
 import numpy as np
 import pandas as pd
 from PIL import Image
+import logging
 
 Image.MAX_IMAGE_PIXELS = None
 
@@ -563,6 +564,37 @@ def build_adjacency_edges(loc_img_path: str, palette_rgb_set: set) -> tuple:
     return edges, {'valid_pixel_ratio': float(valid.mean()), 'unique_edges': int(edges.shape[0])}
 
 
+def get_adjacency_edges_cached(loc_img_path: str, palette_rgb_set: set, cache_load_fn, cache_save_fn):
+    """Load or build location adjacency edges from the locations image.
+
+    NOTE: Refactor only. Logic must be identical to v1.0.
+    """
+    adj_sig = {
+        'cache_format': CACHE_FORMAT_ADJ,
+        'tool': {'name': TOOL_NAME, 'version': TOOL_VERSION},
+        'schema': SCHEMA_VERSION,
+        'locations_image_sha256': safe_stat_and_hash(loc_img_path).get('sha256'),
+        '00_default_sha256': safe_stat_and_hash(FILE_00_DEFAULT).get('sha256'),
+    }
+
+    adj_cache = cache_load_fn('adjacency_edges', adj_sig)
+    adj_cache_used = False
+
+    if adj_cache:
+        adj_cache_used = True
+        edges_list = adj_cache.get('edges_u32', [])
+        edges_u32 = np.array(edges_list, dtype=np.uint32) if edges_list else np.empty((0,2), dtype=np.uint32)
+        edge_stats = adj_cache.get('edge_stats', {})
+    else:
+        edges_u32, edge_stats = build_adjacency_edges(loc_img_path, palette_rgb_set)
+        cache_save_fn('adjacency_edges', adj_sig, {
+            'edges_u32': edges_u32.astype(int).tolist(),
+            'edge_stats': edge_stats,
+        })
+
+    return edges_u32, edge_stats, adj_cache_used
+
+
 def build_lake_adjacency_from_edges(edges_u32: np.ndarray, rgb_to_id: dict, lake_ids_set: set, sea_ids_set: set):
     lake_rgbs = [rgb for rgb, loc_id in rgb_to_id.items() if loc_id in lake_ids_set]
     lake_ints = {((r<<16)|(g<<8)|b) for (r,g,b) in lake_rgbs}
@@ -586,6 +618,132 @@ def build_lake_adjacency_from_edges(edges_u32: np.ndarray, rgb_to_id: dict, lake
             adjacent.add(other_id)
 
     return adjacent
+
+
+def detect_adjacent_to_lake_ids_image(
+    edges_u32: np.ndarray,
+    rgb_to_id: dict,
+    lake_ids_set: set,
+    sea_ids_set: set,
+) -> set:
+    """Authoritative lake-adjacency detection based on the locations image.
+
+    This function must remain the single source of truth for lake adjacency.
+    Future auxiliary sources (e.g., text triggers) may be consulted elsewhere,
+    but MUST NOT override this result.
+
+    NOTE: Refactor-only boundary. No logic change is permitted here.
+    """
+    return build_lake_adjacency_from_edges(
+        edges_u32, rgb_to_id, lake_ids_set, sea_ids_set
+    )
+
+
+# -----------------------------------------------------------------------------
+# Diagnostic logging (opt-in; must not affect results)
+# -----------------------------------------------------------------------------
+_DIAGNOSTIC_LOGGER = None
+
+
+def _diagnostic_enabled(argv) -> bool:
+    # Minimal argv scan. Default behavior must remain identical when absent.
+    try:
+        return "--diagnostic" in argv[1:]
+    except Exception:
+        return False
+
+
+def _enable_diagnostic_logger():
+    """
+    Enable file-only diagnostic logger.
+    Must not change stdout/stderr output or any computation results.
+    """
+    global _DIAGNOSTIC_LOGGER
+    if _DIAGNOSTIC_LOGGER is not None:
+        return _DIAGNOSTIC_LOGGER
+
+    log_path = os.path.join(".", "artifacts", "diagnostic_lake_adjacency.log")
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
+
+    logger = logging.getLogger("eu5_locations_master.diagnostic")
+    logger.setLevel(logging.INFO)
+    logger.propagate = False
+
+    # Avoid duplicate handlers if main() is executed multiple times in one process
+    if not any(
+        isinstance(h, logging.FileHandler)
+        and getattr(h, "baseFilename", "").endswith("diagnostic_lake_adjacency.log")
+        for h in logger.handlers
+    ):
+        fh = logging.FileHandler(log_path, encoding="utf-8")
+        fh.setLevel(logging.INFO)
+        fh.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
+        logger.addHandler(fh)
+
+    _DIAGNOSTIC_LOGGER = logger
+    return logger
+
+
+def resolve_adjacent_to_lake_ids(
+    edges_u32: np.ndarray,
+    rgb_to_id: dict,
+    lake_ids_set: set,
+    sea_ids_set: set,
+    *,
+    trigger_hints=None,
+    logger=None,
+) -> set:
+    """Resolve lake adjacency with image as the final authority.
+
+    - Current behavior: image-only (identical to v1.0 / current accuracy-first).
+    - Extension point (future): optional trigger hints / logging / multi-source validation.
+      Image result must always be the final decision.
+
+    NOTE: Refactor-only boundary. No logic change is permitted here.
+    """
+    adjacent = detect_adjacent_to_lake_ids_image(
+        edges_u32, rgb_to_id, lake_ids_set, sea_ids_set
+    )
+
+    # Optional diagnostic logging (no effect on results)
+    # If --diagnostic is enabled, allow global file-only logger when logger is not explicitly provided.
+    if logger is None and _DIAGNOSTIC_LOGGER is not None:
+        logger = _DIAGNOSTIC_LOGGER
+    # Optional diagnostic logging (no effect on results)
+    if logger is not None:
+        try:
+            logger.info(
+                "lake_adjacency(image): %d locations adjacent to lakes",
+                len(adjacent),
+            )
+
+            # Diagnostic-only: compare with trigger-derived hints (must not override image result)
+            hint_ids = None
+            if trigger_hints is not None:
+                try:
+                    hint_ids = trigger_hints if isinstance(trigger_hints, set) else set(trigger_hints)
+                except Exception:
+                    hint_ids = None
+
+            if hint_ids is not None:
+                logger.info(
+                    "lake_adjacency(hints): %d hinted locations",
+                    len(hint_ids),
+                )
+                overlap = len(adjacent & hint_ids)
+                image_only = len(adjacent - hint_ids)
+                hint_only = len(hint_ids - adjacent)
+                logger.info(
+                    "lake_adjacency(compare): overlap=%d image_only=%d hint_only=%d",
+                    overlap, image_only, hint_only,
+                )
+
+        except Exception:
+            # Logging must never affect execution
+            pass
+
+    return adjacent
+
 
 
 def build_coastal_flags_from_edges(edges_u32: np.ndarray, rgb_to_id: dict, land_ids: set, sea_ids: set):
@@ -737,6 +895,11 @@ def main():
 
     print(f"[INFO] {TOOL_NAME} {TOOL_VERSION}")
 
+    # Diagnostic flag: opt-in only; must not affect results/output when absent.
+    if _diagnostic_enabled(sys.argv):
+        _enable_diagnostic_logger()
+
+
     required = [FILE_00_DEFAULT, FILE_DEFINITIONS, FILE_TEMPLATES, FILE_PORTS]
     missing = [p for p in required if not os.path.exists(p)]
     if missing:
@@ -849,36 +1012,18 @@ def main():
 
     # --- Adjacency edges (cache)
     t = time.time()
-    adj_sig = {
-        'cache_format': CACHE_FORMAT_ADJ,
-        'tool': {'name': TOOL_NAME, 'version': TOOL_VERSION},
-        'schema': SCHEMA_VERSION,
-        'locations_image_sha256': safe_stat_and_hash(loc_img_path).get('sha256'),
-        '00_default_sha256': safe_stat_and_hash(FILE_00_DEFAULT).get('sha256'),
-    }
-
-    adj_cache = cache_load('adjacency_edges', adj_sig)
-    adj_cache_used = False
-
-    if adj_cache:
-        adj_cache_used = True
-        edges_list = adj_cache.get('edges_u32', [])
-        edges_u32 = np.array(edges_list, dtype=np.uint32) if edges_list else np.empty((0,2), dtype=np.uint32)
-        edge_stats = adj_cache.get('edge_stats', {})
-    else:
-        edges_u32, edge_stats = build_adjacency_edges(loc_img_path, palette_rgb_set)
-        cache_save('adjacency_edges', adj_sig, {
-            'edges_u32': edges_u32.astype(int).tolist(),
-            'edge_stats': edge_stats,
-        })
+    edges_u32, edge_stats, adj_cache_used = get_adjacency_edges_cached(
+        loc_img_path, palette_rgb_set, cache_load, cache_save
+    )
 
     mark('adjacency_edges', t)
 
     # --- Lake adjacency from edges
     t = time.time()
-    adjacent_to_lake_ids = build_lake_adjacency_from_edges(edges_u32, rgb_to_id, lake_ids_set, sea_ids_set)
+    adjacent_to_lake_ids = resolve_adjacent_to_lake_ids(edges_u32, rgb_to_id, lake_ids_set, sea_ids_set)
     lake_stats = {**edge_stats}
     mark('lake_adjacency', t)
+
 
     # --- Build master
     t = time.time()
