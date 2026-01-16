@@ -118,9 +118,6 @@ DEBUG_RIVERS_OVERLAY = os.path.join(os.getcwd(), f"debug_rivers_overlay_{OUT_TAG
 DEBUG_LAKE_OVERLAY   = os.path.join(os.getcwd(), f"debug_lake_adjacency_overlay_{OUT_TAG}.png")
 
 PREV_CSV_CANDIDATES = [
-    os.path.join(os.getcwd(), "eu5_locations_master_v2_0.csv"),
-    os.path.join(os.getcwd(), "eu5_locations_master_v1_2.csv"),
-    os.path.join(os.getcwd(), "eu5_locations_master_v1_1.csv"),
 ]
 
 # =============================================================================
