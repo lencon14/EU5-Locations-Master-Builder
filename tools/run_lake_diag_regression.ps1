@@ -18,6 +18,20 @@ Usage:
   powershell -ExecutionPolicy Bypass -File .\tools\run_lake_diag_regression.ps1 -BaselineMaxAgeDays 30
 #>
 
+
+
+# -----------------------------------------------------------------------------
+# Exit code policy
+# -----------------------------------------------------------------------------
+# 0 : PASS (no deltas)
+# 1 : Baseline missing / baseline precondition not satisfied
+# 2 : Analyzer missing / tool precondition not satisfied
+# 3 : Baseline stale (freshness threshold exceeded)
+# 4 : Builder execution failed
+# 5 : Compare failed (metric deltas / anomalies / parse failure)
+# 9 : Unexpected failure
+# -----------------------------------------------------------------------------
+
 [CmdletBinding()]
 param(
   [string]$Baseline = ".\artifacts\diag_baseline.log",
@@ -29,12 +43,13 @@ param(
   [switch]$NonStrict,
   [switch]$KeepDiagLog
 )
-
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
 function Fail([string]$Message, [int]$Code = 1) {
-  Write-Error $Message
+  # Ensure exit code is preserved even if $ErrorActionPreference='Stop'.
+  Write-Error -Message $Message -ErrorAction Continue
   exit $Code
 }
-
 function Write-BaselineFreshness([string]$BaselinePath, [int]$MaxAgeDays) {
   try {
     $item = Get-Item -LiteralPath $BaselinePath -ErrorAction Stop
@@ -117,7 +132,7 @@ if (-not (Test-Path $Analyzer)) { Fail "Analyzer not found: $Analyzer" 2 }
 if (-not (Test-Path $Builder))  { Fail "Builder not found:  $Builder" 2 }
 if (-not (Test-Path $ArtifactsDir)) { Fail "Artifacts dir not found: $ArtifactsDir" 2 }
 if (-not (Test-Path $Baseline)) {
-  Fail "Baseline log not found: $Baseline`nCreate it first: Copy-Item $DiagLog $Baseline" 2
+  Fail "Baseline log not found: $Baseline`nCreate it first: Copy-Item $DiagLog $Baseline" 1
 }
 
 # Baseline freshness check (informational, non-fatal)
