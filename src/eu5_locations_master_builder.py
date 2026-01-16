@@ -67,6 +67,7 @@ from collections import defaultdict
 import numpy as np
 import pandas as pd
 from PIL import Image
+import logging
 
 Image.MAX_IMAGE_PIXELS = None
 
@@ -638,6 +639,51 @@ def detect_adjacent_to_lake_ids_image(
     )
 
 
+# -----------------------------------------------------------------------------
+# Diagnostic logging (opt-in; must not affect results)
+# -----------------------------------------------------------------------------
+_DIAGNOSTIC_LOGGER = None
+
+
+def _diagnostic_enabled(argv) -> bool:
+    # Minimal argv scan. Default behavior must remain identical when absent.
+    try:
+        return "--diagnostic" in argv[1:]
+    except Exception:
+        return False
+
+
+def _enable_diagnostic_logger():
+    """
+    Enable file-only diagnostic logger.
+    Must not change stdout/stderr output or any computation results.
+    """
+    global _DIAGNOSTIC_LOGGER
+    if _DIAGNOSTIC_LOGGER is not None:
+        return _DIAGNOSTIC_LOGGER
+
+    log_path = os.path.join(".", "artifacts", "diagnostic_lake_adjacency.log")
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
+
+    logger = logging.getLogger("eu5_locations_master.diagnostic")
+    logger.setLevel(logging.INFO)
+    logger.propagate = False
+
+    # Avoid duplicate handlers if main() is executed multiple times in one process
+    if not any(
+        isinstance(h, logging.FileHandler)
+        and getattr(h, "baseFilename", "").endswith("diagnostic_lake_adjacency.log")
+        for h in logger.handlers
+    ):
+        fh = logging.FileHandler(log_path, encoding="utf-8")
+        fh.setLevel(logging.INFO)
+        fh.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
+        logger.addHandler(fh)
+
+    _DIAGNOSTIC_LOGGER = logger
+    return logger
+
+
 def resolve_adjacent_to_lake_ids(
     edges_u32: np.ndarray,
     rgb_to_id: dict,
@@ -660,6 +706,9 @@ def resolve_adjacent_to_lake_ids(
     )
 
     # Optional diagnostic logging (no effect on results)
+    # If --diagnostic is enabled, allow global file-only logger when logger is not explicitly provided.
+    if logger is None and _DIAGNOSTIC_LOGGER is not None:
+        logger = _DIAGNOSTIC_LOGGER
     # Optional diagnostic logging (no effect on results)
     if logger is not None:
         try:
@@ -845,6 +894,11 @@ def main():
         step_times[name] = round(time.time() - t_start, 3)
 
     print(f"[INFO] {TOOL_NAME} {TOOL_VERSION}")
+
+    # Diagnostic flag: opt-in only; must not affect results/output when absent.
+    if _diagnostic_enabled(sys.argv):
+        _enable_diagnostic_logger()
+
 
     required = [FILE_00_DEFAULT, FILE_DEFINITIONS, FILE_TEMPLATES, FILE_PORTS]
     missing = [p for p in required if not os.path.exists(p)]
