@@ -712,6 +712,25 @@ def resolve_adjacent_to_lake_ids(
     # Optional diagnostic logging (no effect on results)
     if logger is not None:
         try:
+            # Input / palette sizes (pure observation)
+            edges_n = int(getattr(edges_u32, "shape", [0])[0]) if edges_u32 is not None else 0
+            rgb_n = len(rgb_to_id) if rgb_to_id is not None else 0
+            lake_n = len(lake_ids_set) if lake_ids_set is not None else 0
+            sea_n = len(sea_ids_set) if sea_ids_set is not None else 0
+
+            # Palette-derived counts (cheap recompute; avoids threading logger through builders)
+            lake_rgbs_n = 0
+            sea_rgbs_n = 0
+            if rgb_to_id is not None and lake_ids_set is not None:
+                lake_rgbs_n = sum(1 for _, loc_id in rgb_to_id.items() if loc_id in lake_ids_set)
+            if rgb_to_id is not None and sea_ids_set is not None:
+                sea_rgbs_n = sum(1 for _, loc_id in rgb_to_id.items() if loc_id in sea_ids_set)
+
+            logger.info(
+                "lake_adjacency(input): edges=%d rgb_map=%d lake_ids=%d sea_ids=%d lake_rgbs=%d sea_rgbs=%d",
+                edges_n, rgb_n, lake_n, sea_n, lake_rgbs_n, sea_rgbs_n,
+            )
+
             logger.info(
                 "lake_adjacency(image): %d locations adjacent to lakes",
                 len(adjacent),
