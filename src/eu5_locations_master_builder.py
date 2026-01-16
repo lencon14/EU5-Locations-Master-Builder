@@ -86,11 +86,9 @@ FILE_PORTS       = os.path.join(MAP_DATA_DIR, "ports.csv")
 
 LOCATIONS_IMG_CANDIDATES = [
     os.path.join(MAP_DATA_DIR, "locations.png"),
-    os.path.join(MAP_DATA_DIR, "locations.tga"),
 ]
 RIVERS_IMG_CANDIDATES = [
     os.path.join(MAP_DATA_DIR, "rivers.png"),
-    os.path.join(MAP_DATA_DIR, "rivers.tga"),
 ]
 
 # =============================================================================
