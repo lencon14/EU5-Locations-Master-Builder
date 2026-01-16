@@ -10,3 +10,4 @@ reports/
 
 # local paths
 .env
+_untracked_backup/
