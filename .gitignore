@@ -11,3 +11,14 @@ reports/
 # local paths
 .env
 _untracked_backup/
+# ---------------------------------------------------------------------
+# Generated outputs (do not commit)
+# ---------------------------------------------------------------------
+artifacts/
+debug_*_overlay_*.png
+eu5_locations_raw_*.txt
+eu5_locations_master_*.csv
+
+# Local helper / scratch files (do not commit)
+patch_*.diff
+tools/apply_*.py
