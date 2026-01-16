@@ -212,7 +212,7 @@ def safe_stat_and_hash(path: str) -> dict:
     return {
         'exists': True,
         'bytes': int(st.st_size),
-        'mtime_utc': datetime.datetime.utcfromtimestamp(st.st_mtime).isoformat() + 'Z',
+        'mtime_utc': datetime.datetime.fromtimestamp(st.st_mtime, datetime.UTC).isoformat().replace('+00:00', 'Z'),
         'sha256': file_sha256(path),
     }
 
@@ -1182,7 +1182,7 @@ def main():
     report = {
         'tool': {'name': TOOL_NAME, 'version': TOOL_VERSION},
         'schema': {'version': SCHEMA_VERSION, 'csv_columns': list(df.columns)},
-        'generated_utc': datetime.datetime.utcnow().isoformat() + 'Z',
+        'generated_utc': datetime.datetime.now(datetime.UTC).isoformat().replace('+00:00', 'Z'),
         'python': {'version': sys.version, 'executable': sys.executable},
         'platform': {'system': platform.system(), 'release': platform.release(), 'machine': platform.machine()},
         'paths': {
