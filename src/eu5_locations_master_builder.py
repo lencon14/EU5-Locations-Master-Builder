@@ -660,17 +660,41 @@ def resolve_adjacent_to_lake_ids(
     )
 
     # Optional diagnostic logging (no effect on results)
+    # Optional diagnostic logging (no effect on results)
     if logger is not None:
         try:
             logger.info(
                 "lake_adjacency(image): %d locations adjacent to lakes",
                 len(adjacent),
             )
+
+            # Diagnostic-only: compare with trigger-derived hints (must not override image result)
+            hint_ids = None
+            if trigger_hints is not None:
+                try:
+                    hint_ids = trigger_hints if isinstance(trigger_hints, set) else set(trigger_hints)
+                except Exception:
+                    hint_ids = None
+
+            if hint_ids is not None:
+                logger.info(
+                    "lake_adjacency(hints): %d hinted locations",
+                    len(hint_ids),
+                )
+                overlap = len(adjacent & hint_ids)
+                image_only = len(adjacent - hint_ids)
+                hint_only = len(hint_ids - adjacent)
+                logger.info(
+                    "lake_adjacency(compare): overlap=%d image_only=%d hint_only=%d",
+                    overlap, image_only, hint_only,
+                )
+
         except Exception:
             # Logging must never affect execution
             pass
 
     return adjacent
+
 
 
 def build_coastal_flags_from_edges(edges_u32: np.ndarray, rgb_to_id: dict, land_ids: set, sea_ids: set):
