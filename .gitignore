@@ -16,7 +16,7 @@ _untracked_backup/
 # ---------------------------------------------------------------------
 artifacts/
 debug_*_overlay_*.png
-eu5_locations_raw_*.txt
+*_raw.csv
 eu5_locations_master_*.csv
 
 # Local helper / scratch files (do not commit)

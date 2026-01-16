@@ -23,7 +23,7 @@ EU5のマップデータ（named_locations / definitions / location_templates / 
   - 河川インクを検出して Has River を決定
 
 出力（カレントディレクトリ）
-- eu5_locations_raw_1.0.10.txt
+- {OUT_PREFIX}_raw.csv
   - MASTER 一覧
   - 重要列：
     - Has Coast : ports.csv（LandProvince）由来。沿岸扱い（港/沿岸条件）に対応する想定。
@@ -102,7 +102,7 @@ SCHEMA_VERSION = "v1.0"   # bump only when MASTER CSV schema changes
 OUT_TAG = "v1_0"          # filesystem-friendly tag
 OUT_PREFIX = "eu5_locations_master"
 
-OUTPUT_CSV          = os.path.join(os.getcwd(), f"eu5_locations_raw_1.0.10.txt")
+OUTPUT_CSV          = os.path.join(os.getcwd(), f"{OUT_PREFIX}_raw.csv")
 OUTPUT_RUN_REPORT   = os.path.join(os.getcwd(), f"{OUT_PREFIX}_run_report_{OUT_TAG}.json")
 OUTPUT_QC_FLAGS     = os.path.join(os.getcwd(), f"{OUT_PREFIX}_qc_flags_{OUT_TAG}.csv")
 OUTPUT_DIFF_SUMMARY = os.path.join(os.getcwd(), f"{OUT_PREFIX}_diff_summary_{OUT_TAG}.json")
