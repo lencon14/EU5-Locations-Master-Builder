@@ -17,3 +17,4 @@ debug_*_overlay_*.png
 eu5_locations_master_*.csv
 eu5_locations_master_run_report_*.json
 eu5_locations_raw_*.txt
+.gitignore.bak.*
