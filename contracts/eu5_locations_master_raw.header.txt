@@ -1,0 +1,1 @@
+ID,Region,Area,Province,Type,Type Reason,Topography,Vegetation,Climate,Raw Material,Harbor,Has Coast,Has River,Is Adjacent To Lake

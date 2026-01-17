@@ -146,7 +146,16 @@ Remove-Item $DiagLog -ErrorAction SilentlyContinue
 
 # 2) Run builder with --diagnostic (do not suppress stdout/stderr)
 python $Builder --diagnostic
-if ($LASTEXITCODE -ne 0) { Fail "Builder failed with exit code $LASTEXITCODE" $LASTEXITCODE }
+$builderCode = $LASTEXITCODE
+if ($builderCode -ne 0) { Fail "Builder failed with exit code $builderCode" $builderCode }
+
+# CSV schema contract check (P0)
+pwsh -NoProfile -ExecutionPolicy Bypass -File .\tools\check_csv_schema_contract.ps1 | Out-Null
+$schemaCode = $LASTEXITCODE
+if ($schemaCode -ne 0) {
+  Write-Host "[STRICT FAIL] CSV schema contract violated. exit=$schemaCode"
+  exit $schemaCode
+}
 
 # 3) Confirm diagnostic log exists
 if (-not (Test-Path $DiagLog)) { Fail "Diagnostic log was not created: $DiagLog" 3 }
@@ -201,3 +210,4 @@ if ($Strict) {
 if (-not $KeepDiagLog) {
   Remove-Item $DiagLog -ErrorAction SilentlyContinue
 }
+
