@@ -14,7 +14,9 @@ _untracked_backup/
 # ---------------------------------------------------------------------
 # Generated outputs (do not commit)
 # ---------------------------------------------------------------------
-artifacts/
+artifacts/*
+!artifacts/diag_baseline.log
+!artifacts/diag_baseline.meta.json
 debug_*_overlay_*.png
 *_raw.csv
 eu5_locations_master_*.csv
