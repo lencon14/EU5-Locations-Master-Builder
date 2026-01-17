@@ -23,7 +23,7 @@ EU5のマップデータ（named_locations / definitions / location_templates / 
   - 河川インクを検出して Has River を決定
 
 出力（カレントディレクトリ）
-- eu5_locations_raw_1.0.10.txt
+- {OUT_PREFIX}_raw.csv
   - MASTER 一覧
   - 重要列：
     - Has Coast : ports.csv（LandProvince）由来。沿岸扱い（港/沿岸条件）に対応する想定。
@@ -86,11 +86,9 @@ FILE_PORTS       = os.path.join(MAP_DATA_DIR, "ports.csv")
 
 LOCATIONS_IMG_CANDIDATES = [
     os.path.join(MAP_DATA_DIR, "locations.png"),
-    os.path.join(MAP_DATA_DIR, "locations.tga"),
 ]
 RIVERS_IMG_CANDIDATES = [
     os.path.join(MAP_DATA_DIR, "rivers.png"),
-    os.path.join(MAP_DATA_DIR, "rivers.tga"),
 ]
 
 # =============================================================================
@@ -104,7 +102,7 @@ SCHEMA_VERSION = "v1.0"   # bump only when MASTER CSV schema changes
 OUT_TAG = "v1_0"          # filesystem-friendly tag
 OUT_PREFIX = "eu5_locations_master"
 
-OUTPUT_CSV          = os.path.join(os.getcwd(), f"eu5_locations_raw_1.0.10.txt")
+OUTPUT_CSV          = os.path.join(os.getcwd(), f"{OUT_PREFIX}_raw.csv")
 OUTPUT_RUN_REPORT   = os.path.join(os.getcwd(), f"{OUT_PREFIX}_run_report_{OUT_TAG}.json")
 OUTPUT_QC_FLAGS     = os.path.join(os.getcwd(), f"{OUT_PREFIX}_qc_flags_{OUT_TAG}.csv")
 OUTPUT_DIFF_SUMMARY = os.path.join(os.getcwd(), f"{OUT_PREFIX}_diff_summary_{OUT_TAG}.json")
@@ -116,13 +114,6 @@ OUTPUT_RIVER_OVERLAP_WATER_CSV = os.path.join(os.getcwd(), f"{OUT_PREFIX}_river_
 
 DEBUG_RIVERS_OVERLAY = os.path.join(os.getcwd(), f"debug_rivers_overlay_{OUT_TAG}.png")
 DEBUG_LAKE_OVERLAY   = os.path.join(os.getcwd(), f"debug_lake_adjacency_overlay_{OUT_TAG}.png")
-
-PREV_CSV_CANDIDATES = [
-    os.path.join(os.getcwd(), "eu5_locations_master_v2_0.csv"),
-    os.path.join(os.getcwd(), "eu5_locations_master_v1_2.csv"),
-    os.path.join(os.getcwd(), "eu5_locations_master_v1_1.csv"),
-]
-
 # =============================================================================
 # 2) Parameters (accuracy-first)
 # =============================================================================
@@ -217,7 +208,7 @@ def safe_stat_and_hash(path: str) -> dict:
     return {
         'exists': True,
         'bytes': int(st.st_size),
-        'mtime_utc': datetime.datetime.utcfromtimestamp(st.st_mtime).isoformat() + 'Z',
+        'mtime_utc': datetime.datetime.fromtimestamp(st.st_mtime, datetime.UTC).isoformat().replace('+00:00', 'Z'),
         'sha256': file_sha256(path),
     }
 
@@ -712,6 +703,25 @@ def resolve_adjacent_to_lake_ids(
     # Optional diagnostic logging (no effect on results)
     if logger is not None:
         try:
+            # Input / palette sizes (pure observation)
+            edges_n = int(getattr(edges_u32, "shape", [0])[0]) if edges_u32 is not None else 0
+            rgb_n = len(rgb_to_id) if rgb_to_id is not None else 0
+            lake_n = len(lake_ids_set) if lake_ids_set is not None else 0
+            sea_n = len(sea_ids_set) if sea_ids_set is not None else 0
+
+            # Palette-derived counts (cheap recompute; avoids threading logger through builders)
+            lake_rgbs_n = 0
+            sea_rgbs_n = 0
+            if rgb_to_id is not None and lake_ids_set is not None:
+                lake_rgbs_n = sum(1 for _, loc_id in rgb_to_id.items() if loc_id in lake_ids_set)
+            if rgb_to_id is not None and sea_ids_set is not None:
+                sea_rgbs_n = sum(1 for _, loc_id in rgb_to_id.items() if loc_id in sea_ids_set)
+
+            logger.info(
+                "lake_adjacency(input): edges=%d rgb_map=%d lake_ids=%d sea_ids=%d lake_rgbs=%d sea_rgbs=%d",
+                edges_n, rgb_n, lake_n, sea_n, lake_rgbs_n, sea_rgbs_n,
+            )
+
             logger.info(
                 "lake_adjacency(image): %d locations adjacent to lakes",
                 len(adjacent),
@@ -1148,9 +1158,9 @@ def main():
 
     # --- Diff summary
     t = time.time()
-    prev_csv = next((p for p in PREV_CSV_CANDIDATES if os.path.exists(p)), None)
+    prev_csv = os.environ.get("EU5_PREV_CSV")
     diff_summary = None
-    if prev_csv:
+    if prev_csv and os.path.exists(prev_csv):
         try:
             diff_summary = build_diff_summary(prev_csv, df)
             with open(OUTPUT_DIFF_SUMMARY, 'w', encoding='utf-8') as f:
@@ -1168,7 +1178,7 @@ def main():
     report = {
         'tool': {'name': TOOL_NAME, 'version': TOOL_VERSION},
         'schema': {'version': SCHEMA_VERSION, 'csv_columns': list(df.columns)},
-        'generated_utc': datetime.datetime.utcnow().isoformat() + 'Z',
+        'generated_utc': datetime.datetime.now(datetime.UTC).isoformat().replace('+00:00', 'Z'),
         'python': {'version': sys.version, 'executable': sys.executable},
         'platform': {'system': platform.system(), 'release': platform.release(), 'machine': platform.machine()},
         'paths': {
