@@ -1,8 +1,9 @@
 ﻿{
-    "updated_utc":  "2026-01-17T10:03:52Z",
-    "git_commit":  "814f509126f47a72c7b623fb843aeaa7d407c2ac",
+    "updated_utc":  "2026-01-17T10:37:32Z",
+    "reason":  "Accept baseline after STRICT PASS (no deltas)",
+    "git_commit":  "d075362d5da44c9619cf8f5cecd51db5b3749301",
     "git_branch":  "accuracy-first",
     "python":  "Python 3.14.2",
-    "snapshot_file":  "diag_20260117_185808.log",
-    "snapshot_mtime":  "2026-01-17T18:40:05+09:00"
+    "snapshot_file":  "diag_20260117_193721.log",
+    "snapshot_mtime":  "2026-01-17T19:19:18+09:00"
 }
