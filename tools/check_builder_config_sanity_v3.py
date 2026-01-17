@@ -9,7 +9,6 @@ What it checks
 --------------
 - Resolves EU5_ROOT and MAP_DATA_DIR from the builder (best-effort).
 - Lists expected candidate assets (locations/rivers png/tga) and whether they exist.
-- Lists PREV_CSV_CANDIDATES entries and whether they exist.
 - Highlights potentially confusing configuration (e.g., v2_0 as a "previous" CSV).
 
 Safety
@@ -44,11 +43,6 @@ class Finding:
 RE_EU5_ROOT = re.compile(r'^\s*EU5_ROOT\s*=\s*r?"([^"]+)"\s*$', re.MULTILINE)
 RE_MAP_DATA_DIR = re.compile(r'^\s*MAP_DATA_DIR\s*=\s*os\.path\.join\(\s*EU5_ROOT\s*,\s*r?"([^"]+)"\s*\)\s*$', re.MULTILINE)
 RE_OUT_TAG = re.compile(r'^\s*OUT_TAG\s*=\s*"([^"]+)"\s*$', re.MULTILINE)
-
-RE_PREV_CSV_BLOCK = re.compile(
-    r'^\s*PREV_CSV_CANDIDATES\s*=\s*\[(?P<body>.*?)\]\s*$',
-    re.MULTILINE | re.DOTALL
-)
 RE_JOIN_CWD = re.compile(r'os\.path\.join\(\s*os\.getcwd\(\)\s*,\s*"([^"]+)"\s*\)')
 
 
@@ -69,12 +63,6 @@ def _extract(builder_text: str) -> Tuple[Optional[str], Optional[str], Optional[
     m = RE_OUT_TAG.search(builder_text)
     if m:
         out_tag = m.group(1)
-
-    m = RE_PREV_CSV_BLOCK.search(builder_text)
-    if m:
-        body = m.group("body")
-        prev_names = RE_JOIN_CWD.findall(body)
-
     return eu5_root, map_rel, out_tag, prev_names
 
 
@@ -167,14 +155,7 @@ def main() -> int:
             if m:
                 cur = (int(m.group(1)), int(m.group(2)))
             if cur:
-                higher = []
-                for name in prev_names:
-                    v = _ver_from_csv(name)
-                    if v and v > cur:
-                        higher.append(name)
-                if higher:
-                    findings.append(Finding("WARN", "PREV_CSV_HIGHER_VERSION", f"PREV_CSV_CANDIDATES includes higher version(s) than OUT_TAG={out_tag}: {', '.join(higher)}"))
-
+                    pass  # legacy check removed
     print("")
     print("Findings")
     print("-" * 60)

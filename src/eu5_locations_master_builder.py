@@ -114,10 +114,6 @@ OUTPUT_RIVER_OVERLAP_WATER_CSV = os.path.join(os.getcwd(), f"{OUT_PREFIX}_river_
 
 DEBUG_RIVERS_OVERLAY = os.path.join(os.getcwd(), f"debug_rivers_overlay_{OUT_TAG}.png")
 DEBUG_LAKE_OVERLAY   = os.path.join(os.getcwd(), f"debug_lake_adjacency_overlay_{OUT_TAG}.png")
-
-PREV_CSV_CANDIDATES = [
-]
-
 # =============================================================================
 # 2) Parameters (accuracy-first)
 # =============================================================================
@@ -1162,9 +1158,9 @@ def main():
 
     # --- Diff summary
     t = time.time()
-    prev_csv = next((p for p in PREV_CSV_CANDIDATES if os.path.exists(p)), None)
+    prev_csv = os.environ.get("EU5_PREV_CSV")
     diff_summary = None
-    if prev_csv:
+    if prev_csv and os.path.exists(prev_csv):
         try:
             diff_summary = build_diff_summary(prev_csv, df)
             with open(OUTPUT_DIFF_SUMMARY, 'w', encoding='utf-8') as f:
