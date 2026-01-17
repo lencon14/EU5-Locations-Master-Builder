@@ -1,7 +1,7 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$base = "origin/accuracy-first"
+$base = if ($env:BASE_REF) { $env:BASE_REF } else { "origin/accuracy-first" }
 
 $changed = (git diff --name-only "$base...HEAD" | Out-String) -split "`r?`n" | Where-Object { $_ -ne "" }
 
