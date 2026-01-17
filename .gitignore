@@ -10,3 +10,11 @@ reports/
 
 # local paths
 .env
+artifacts/*
+!artifacts/diag_baseline.log
+!artifacts/diag_baseline.meta.json
+_untracked_backup/
+debug_*_overlay_*.png
+*_raw.csv
+eu5_locations_master_*.csv
+eu5_locations_master_run_report_*.json
