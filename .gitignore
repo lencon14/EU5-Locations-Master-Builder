@@ -1,8 +1,6 @@
 __pycache__/
 *.pyc
-*.log
 *.tmp
-*.json
 
 # EU5 outputs
 output/
@@ -18,3 +16,4 @@ debug_*_overlay_*.png
 *_raw.csv
 eu5_locations_master_*.csv
 eu5_locations_master_run_report_*.json
+eu5_locations_raw_*.txt
