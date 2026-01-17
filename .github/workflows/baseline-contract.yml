@@ -111,4 +111,4 @@ jobs:
           BASE_REF: ${{ env.BASE_REF }}
         run: |
           if ([string]::IsNullOrWhiteSpace($env:BASE_REF)) { throw "BASE_REF is empty (CI contract broken)" }
-pwsh -ExecutionPolicy Bypass -File ./tools/check_baseline_change_contract.ps1
+          pwsh -ExecutionPolicy Bypass -File ./tools/check_baseline_change_contract.ps1
