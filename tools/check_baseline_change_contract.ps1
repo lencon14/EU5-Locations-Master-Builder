@@ -3,6 +3,13 @@ $ErrorActionPreference = "Stop"
 
 $base = if ($env:BASE_REF) { $env:BASE_REF } else { "origin/accuracy-first" }
 
+git rev-parse --verify $base 1>$null 2>$null
+if ($LASTEXITCODE -ne 0) {
+  Write-Error "BASE_REF '$base' not found. Run 'git branch -r' or 'git fetch --all --prune'."
+  exit 4
+}
+
+
 $changed = (git diff --name-only "$base...HEAD" | Out-String) -split "`r?`n" | Where-Object { $_ -ne "" }
 
 $hasLog  = $changed -contains "artifacts/diag_baseline.log"
