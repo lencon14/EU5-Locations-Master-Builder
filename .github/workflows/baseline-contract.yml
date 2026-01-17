@@ -15,46 +15,95 @@ jobs:
       - name: Determine BASE_REF (required in CI)
         shell: pwsh
         run: |
+          $ErrorActionPreference = "Stop"
+          $PSNativeCommandUseErrorActionPreference = $false
+
+          # Best-effort set origin/HEAD (actions/checkout fetch may not create it)
+          try { git remote set-head origin -a 2>$null } catch {}
+          $global:LASTEXITCODE = 0
+
           # Default base ref from origin/HEAD (falls back to origin/master)
-          $defaultBaseRef = (& git symbolic-ref -q refs/remotes/origin/HEAD 2>$null) -replace '^refs/remotes/', ''
+          $defaultBaseRef = ""
+          try { $defaultBaseRef = (git symbolic-ref -q refs/remotes/origin/HEAD 2>$null) } catch {}
+          $global:LASTEXITCODE = 0
+
+          $defaultBaseRef = ($defaultBaseRef -replace '^refs/remotes/', '')
           if ([string]::IsNullOrWhiteSpace($defaultBaseRef)) { $defaultBaseRef = 'origin/master' }
 
           if ($env:GITHUB_BASE_REF) {
+            # pull_request
             $baseBranch = $env:GITHUB_BASE_REF
             $baseRef = "origin/$baseBranch"
           } else {
+            # push: prefer github.event.before SHA
+            $baseBranch = $defaultBaseRef -replace '^origin/', ''
             $baseRef = $defaultBaseRef
-            $baseBranch = $baseRef -replace '^origin/', ''
+
+            try {
+              $event = Get-Content $env:GITHUB_EVENT_PATH -Raw | ConvertFrom-Json
+              $before = $event.before
+              if ($before -and ($before -match '^[0-9a-f]{40}$') -and ($before -ne ('0' * 40))) {
+                $baseRef = $before
+              }
+            } catch {
+              # ignore
+            }
           }
 
           "BASE_BRANCH=$baseBranch" >> $env:GITHUB_ENV
           "BASE_REF=$baseRef" >> $env:GITHUB_ENV
+          Write-Host "BASE_BRANCH=$baseBranch"
+          Write-Host "BASE_REF=$baseRef"
 
       - name: Fetch base ref explicitly (avoid missing origin/<base>)
         shell: pwsh
         run: |
           git fetch origin ("+refs/heads/{0}:refs/remotes/origin/{0}" -f $env:BASE_BRANCH) --prune
 
+      - name: Detect EU5 map assets (optional)
+        shell: pwsh
+        run: |
+          $gameDir = $env:EU5_GAME_DIR
+          $has = $false
+          if (-not [string]::IsNullOrWhiteSpace($gameDir)) {
+            $mapDir = Join-Path $gameDir "game/in_game/map_data"
+            $loc = Join-Path $mapDir "locations.png"
+            $riv = Join-Path $mapDir "rivers.png"
+            $has = (Test-Path $loc) -and (Test-Path $riv)
+          }
+          $hasStr = if ($has) { "true" } else { "false" }
+          "HAS_EU5_ASSETS=$hasStr" >> $env:GITHUB_ENV
+          if (-not $has) {
+            Write-Host "[SKIP] EU5 assets not available. Set EU5_GAME_DIR to enable lake diag regression."
+          } else {
+            Write-Host "[OK] EU5 assets detected."
+          }
+
       - name: Setup Python
+        if: ${{ env.HAS_EU5_ASSETS == 'true' }}
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
       - name: Install Python deps (optional)
+        if: ${{ env.HAS_EU5_ASSETS == 'true' }}
         shell: pwsh
         run: |
           python -m pip install --upgrade pip
           if (Test-Path ./requirements.txt) { python -m pip install -r ./requirements.txt } else { Write-Host "No requirements.txt (skip)" }
 
       - name: Lake diag regression (STRICT PASS)
+        if: ${{ env.HAS_EU5_ASSETS == 'true' }}
         shell: pwsh
         run: |
           pwsh -ExecutionPolicy Bypass -File ./tools/run_lake_diag_regression.ps1
 
       - name: CSV schema contract check
+        if: ${{ env.HAS_EU5_ASSETS == 'true' }}
         shell: pwsh
         run: |
           pwsh -ExecutionPolicy Bypass -File ./tools/check_csv_schema_contract.ps1
+
       - name: Baseline contract check
         shell: pwsh
         env:
