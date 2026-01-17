@@ -1,0 +1,44 @@
+name: baseline-contract
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  baseline-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine BASE_REF (required in CI)
+        shell: pwsh
+        run: |
+          # Default base ref from origin/HEAD (falls back to origin/master)
+          $defaultBaseRef = (& git symbolic-ref -q refs/remotes/origin/HEAD 2>$null) -replace '^refs/remotes/', ''
+          if ([string]::IsNullOrWhiteSpace($defaultBaseRef)) { $defaultBaseRef = 'origin/master' }
+
+          if ($env:GITHUB_BASE_REF) {
+            $baseBranch = $env:GITHUB_BASE_REF
+            $baseRef = "origin/$baseBranch"
+          } else {
+            $baseRef = $defaultBaseRef
+            $baseBranch = $baseRef -replace '^origin/', ''
+          }
+
+          "BASE_BRANCH=$baseBranch" >> $env:GITHUB_ENV
+          "BASE_REF=$baseRef" >> $env:GITHUB_ENV
+
+      - name: Fetch base ref explicitly (avoid missing origin/<base>)
+        shell: pwsh
+        run: |
+          git fetch origin ("+refs/heads/{0}:refs/remotes/origin/{0}" -f $env:BASE_BRANCH) --prune
+
+      - name: Baseline contract check
+        shell: pwsh
+        env:
+          CI: "true"
+          BASE_REF: ${{ env.BASE_REF }}
+        run: |
+          pwsh -ExecutionPolicy Bypass -File ./tools/check_baseline_change_contract.ps1
