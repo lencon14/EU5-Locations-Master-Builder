@@ -1,5 +1,15 @@
+param(
+  [Parameter(Mandatory = $true)]
+  [string]$Reason
+)
+
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
+
+if ([string]::IsNullOrWhiteSpace($Reason)) {
+  Write-Error 'Reason is required. Use: -Reason "why baseline is updated"'
+  exit 2
+}
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
 Push-Location $repoRoot
@@ -12,6 +22,7 @@ try {
   $baseline = Join-Path $artDir "diag_baseline.log"
   $metaPath = Join-Path $artDir "diag_baseline.meta.json"
 
+  # Pick latest snapshot by filename (stable), exclude diag_baseline.log
   $snap = Get-ChildItem -Path (Join-Path $artDir "diag_*.log") -File -ErrorAction SilentlyContinue |
           Where-Object { $_.Name -match '^diag_\d{8}_\d{6}\.log$' } |
           Sort-Object Name -Descending |
@@ -29,6 +40,7 @@ try {
 
   $meta = [ordered]@{
     updated_utc    = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+    reason         = $Reason
     git_commit     = $gitCommit
     git_branch     = $gitBranch
     python         = $pyVer

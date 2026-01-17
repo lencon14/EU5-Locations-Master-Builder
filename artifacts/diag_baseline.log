@@ -1,2 +1,2 @@
-2026-01-17 18:58:05,992 INFO lake_adjacency(input): edges=84378 rgb_map=28581 lake_ids=784 sea_ids=4794 lake_rgbs=784 sea_rgbs=4794
-2026-01-17 18:58:05,993 INFO lake_adjacency(image): 1467 locations adjacent to lakes
+2026-01-17 19:37:19,031 INFO lake_adjacency(input): edges=84378 rgb_map=28581 lake_ids=784 sea_ids=4794 lake_rgbs=784 sea_rgbs=4794
+2026-01-17 19:37:19,032 INFO lake_adjacency(image): 1467 locations adjacent to lakes
