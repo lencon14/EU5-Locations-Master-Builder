@@ -1,7 +1,13 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$base = if ($env:BASE_REF) { $env:BASE_REF } else { "origin/accuracy-first" }
+$IsCI = ($env:GITHUB_ACTIONS -eq 'true') -or ($env:CI -eq 'true')
+if ([string]::IsNullOrWhiteSpace($env:BASE_REF)) {
+  if ($IsCI) { throw "BASE_REF is empty (CI contract broken)" }
+  # local fallback
+  $env:BASE_REF = "origin/master"
+}
+$base = $env:BASE_REF
 
 git rev-parse --verify $base 1>$null 2>$null
 if ($LASTEXITCODE -ne 0) {

@@ -13,46 +13,141 @@ jobs:
           fetch-depth: 0
 
       - name: Determine BASE_REF (required in CI)
+
         shell: pwsh
+
+        env:
+
+          EVENT_NAME: ${{ github.event_name }}
+
+          GITHUB_REF_FULL: ${{ github.ref }}
+
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+
+          PUSH_BEFORE: ${{ github.event.before }}
+
+          PUSH_CREATED: ${{ github.event.created }}
+
+          PUSH_DELETED: ${{ github.event.deleted }}
+
+          PUSH_FORCED: ${{ github.event.forced }}
+
+          PR_BASE_REF: ${{ github.base_ref }}
+
         run: |
-          $ErrorActionPreference = "Stop"
-          $PSNativeCommandUseErrorActionPreference = $false
 
-          # Best-effort set origin/HEAD (actions/checkout fetch may not create it)
-          try { git remote set-head origin -a 2>$null } catch {}
-          $global:LASTEXITCODE = 0
+          $ErrorActionPreference = 'Stop'
 
-          # Default base ref from origin/HEAD (falls back to origin/master)
-          $defaultBaseRef = ""
-          try { $defaultBaseRef = (git symbolic-ref -q refs/remotes/origin/HEAD 2>$null) } catch {}
-          $global:LASTEXITCODE = 0
+      
 
-          $defaultBaseRef = ($defaultBaseRef -replace '^refs/remotes/', '')
-          if ([string]::IsNullOrWhiteSpace($defaultBaseRef)) { $defaultBaseRef = 'origin/master' }
+          $baseBranch = ''
 
-          if ($env:GITHUB_BASE_REF) {
-            # pull_request
-            $baseBranch = $env:GITHUB_BASE_REF
+          $baseRef = ''
+
+      
+
+          if ($env:EVENT_NAME -eq 'pull_request') {
+
+            $baseBranch = $env:PR_BASE_REF
+
             $baseRef = "origin/$baseBranch"
-          } else {
-            # push: prefer github.event.before SHA
-            $baseBranch = $defaultBaseRef -replace '^origin/', ''
-            $baseRef = $defaultBaseRef
 
-            try {
-              $event = Get-Content $env:GITHUB_EVENT_PATH -Raw | ConvertFrom-Json
-              $before = $event.before
-              if ($before -and ($before -match '^[0-9a-f]{40}$') -and ($before -ne ('0' * 40))) {
-                $baseRef = $before
-              }
-            } catch {
-              # ignore
-            }
           }
 
-          "BASE_BRANCH=$baseBranch" >> $env:GITHUB_ENV
-          "BASE_REF=$baseRef" >> $env:GITHUB_ENV
+          elseif ($env:EVENT_NAME -eq 'push') {
+
+            # タグ等（refs/tags/*）でも落とさず、default branch を基準に安全に倒す
+
+            if (-not ($env:GITHUB_REF_FULL -like 'refs/heads/*')) {
+
+              $baseBranch = $env:DEFAULT_BRANCH
+
+              $baseRef = "origin/$baseBranch"
+
+              Write-Host "Non-branch push ref=$($env:GITHUB_REF_FULL) -> BASE_REF=$baseRef"
+
+            }
+
+            else {
+
+              $pushedBranch = ($env:GITHUB_REF_FULL -replace '^refs/heads/','')
+
+              $baseBranch = $pushedBranch
+
+      
+
+              if ($env:PUSH_DELETED -eq 'true') {
+
+                $baseBranch = $env:DEFAULT_BRANCH
+
+                $baseRef = "origin/$baseBranch"
+
+              }
+
+              else {
+
+                $before = $env:PUSH_BEFORE
+
+                if ($env:PUSH_CREATED -eq 'true' -or $before -match '^(0){40}$') {
+
+                  $baseBranch = $env:DEFAULT_BRANCH
+
+                  $baseRef = "origin/$baseBranch"
+
+                }
+
+                else {
+
+                  $baseRef = $before
+
+                  # force-push 等で before が到達不能な場合は default branch に倒す
+
+                  try {
+
+                    & git cat-file -e "$baseRef^{commit}" 2>$null
+
+                    if ($LASTEXITCODE -ne 0) { throw "missing" }
+
+                  }
+
+                  catch {
+
+                    $baseBranch = $env:DEFAULT_BRANCH
+
+                    $baseRef = "origin/$baseBranch"
+
+                  }
+
+                  finally {
+
+                    $global:LASTEXITCODE = 0
+
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+
+          else {
+
+            throw "Unsupported event: $($env:EVENT_NAME)"
+
+          }
+
+      
+
+          "BASE_BRANCH=$baseBranch" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+          "BASE_REF=$baseRef" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      
+
           Write-Host "BASE_BRANCH=$baseBranch"
+
           Write-Host "BASE_REF=$baseRef"
 
       - name: Fetch base ref explicitly (avoid missing origin/<base>)
