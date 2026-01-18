@@ -3,10 +3,11 @@ name: baseline-contract
 on:
   pull_request:
   push:
-
+    branches:
+      - '**'
 jobs:
   baseline-contract:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
