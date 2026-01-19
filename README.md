@@ -1,49 +1,40 @@
 # EU5 Locations Master Builder
 
-EU5 Locations Master Builder generates a master CSV of Europa Universalis V (EU5) locations by joining multiple map data sources from an EU5 installation.
+EU5 Locations Master Builder generates a master CSV of Europa Universalis V (EU5) locations by joining EU5 `map_data` sources and deriving image-based features from the map textures.
 
-This repository is intended to produce a high-fidelity, analysis-ready location table that stays aligned with in-game geography rules (especially coastline/coastal eligibility).
+## Outputs
 
-## What it produces
+Running the builder writes the following files to the current working directory:
 
-When you run the builder, it writes these files to the current working directory:
-
-- `eu5_locations_master_raw.csv`
-  - The master location table.
-- `eu5_locations_master_river_overlap_water_v1_0.csv`
-  - Diagnostics: river ink overlap over non-land tiles (useful for validating the river mask).
-- `eu5_locations_master_qc_flags_v1_0.csv`
-  - Quality-control flags (missing templates, unexpected mappings, etc.).
-- `eu5_locations_master_run_report_v1_0.json`
-  - Run metadata (inputs seen, cache status, timings).
-- `debug_rivers_overlay_v1_0.png`
-  - Debug visualization of the river mask.
-- `debug_lake_adjacency_overlay_v1_0.png`
-  - Debug visualization of lake adjacency detection.
+- `eu5_locations_master_raw.csv` - Master location table
+- `eu5_locations_master_river_overlap_water_v1_0.csv` - Diagnostics: river ink overlap over non-land tiles
+- `eu5_locations_master_qc_flags_v1_0.csv` - Quality-control flags (missing templates, unexpected mappings)
+- `eu5_locations_master_run_report_v1_0.json` - Run metadata (inputs seen, cache status, timings)
+- `debug_rivers_overlay_v1_0.png` - Debug visualization of the river mask
+- `debug_lake_adjacency_overlay_v1_0.png` - Debug visualization of lake adjacency
 
 ## Requirements
 
 - Windows 10/11
-- Python 3.11+ (recommended)
-- EU5 installed locally (Steam default path is supported out of the box)
+- Python 3.11+ recommended
+- EU5 installed locally
 
 Python dependencies are listed in `requirements.txt`.
 
-## Quick start (recommended)
+## Quick start
 
 1. Clone this repository.
-2. Ensure EU5 is installed.
-3. Run the wrapper script:
+2. Install Python dependencies.
+3. Run the builder.
 
 ```powershell
-pwsh -NoProfile -File .\run.ps1
+python -m pip install -r requirements.txt
+python .\src\eu5_locations_master_builder.py
 ```
-
-The first run may take longer because it builds persistent cache files. Subsequent runs are typically much faster.
 
 ## EU5 installation path
 
-By default, the builder expects EU5 at:
+By default, the builder expects EU5 at the Steam default path:
 
 - `C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis V`
 
@@ -51,66 +42,73 @@ If your EU5 install is elsewhere, set `EU5_ROOT` before running:
 
 ```powershell
 $env:EU5_ROOT = "D:\\SteamLibrary\\steamapps\\common\\Europa Universalis V"
-pwsh -NoProfile -File .\run.ps1
+python .\src\eu5_locations_master_builder.py
 ```
 
 ## Persistent cache (enabled by default)
 
-The builder uses a persistent cache to avoid recomputing expensive intermediate results.
+The builder uses a persistent cache to avoid recomputing expensive intermediate results. This typically makes the second and subsequent runs much faster.
 
 - Default cache location: `.tmp\eu5_locations_cache_v1_0\`
-- You can override the cache directory:
+- Override cache directory:
 
 ```powershell
 $env:EU5_CACHE_DIR = "C:\\work\\eu5_cache"
-pwsh -NoProfile -File .\run.ps1
+python .\src\eu5_locations_master_builder.py
 ```
 
-To disable caching for a single run:
+- Disable caching for one run:
 
 ```powershell
 $env:EU5_NO_CACHE = "1"
-pwsh -NoProfile -File .\run.ps1
+python .\src\eu5_locations_master_builder.py
 Remove-Item Env:EU5_NO_CACHE -ErrorAction SilentlyContinue
 ```
 
 ### Cache invalidation policy
 
-To keep cached runs fast, the default invalidation policy hashes only small input files (up to 10 MB) and uses size/mtime for larger files.
+For speed, the default invalidation policy hashes only small input files (up to 10 MB) and uses file size and modification time for larger files.
 
-- Hash everything (stricter, slower):
+- Hash all inputs (stricter, slower):
 
 ```powershell
 $env:EU5_HASH_INPUTS = "1"
-pwsh -NoProfile -File .\run.ps1
+python .\src\eu5_locations_master_builder.py
+Remove-Item Env:EU5_HASH_INPUTS -ErrorAction SilentlyContinue
 ```
 
 - Change the maximum hashed size (bytes):
 
 ```powershell
 $env:EU5_HASH_MAX_BYTES = "20971520"  # 20 MB
-pwsh -NoProfile -File .\run.ps1
+python .\src\eu5_locations_master_builder.py
+Remove-Item Env:EU5_HASH_MAX_BYTES -ErrorAction SilentlyContinue
 ```
 
-## Notes on key fields
+## Key columns
 
-- `Has Coast` is derived from `ports.csv` (LandProvince) and is treated as authoritative.
-- `Has River` is derived from river ink overlap on land tiles in `rivers.png`.
-- `Is Adjacent To Lake` is derived from pixel adjacency between land tiles and lake tiles in `locations.png`.
+- `Has Coast` - Derived from `ports.csv` (`LandProvince`).
+- `Has River` - Derived from river ink overlap in `rivers.png` (land only).
+- `Is Adjacent To Lake` - Derived from pixel adjacency between land tiles and lake tiles in `locations.png`, and only when `Has Coast` is `Yes`.
 
 ## Troubleshooting
 
-### "[ERROR] ... not found" for EU5 files
+### Missing EU5 input files
 
-Confirm your `EU5_ROOT` is correct and points to the EU5 installation folder.
+If the run prints `[ERROR] Missing required files`, confirm `EU5_ROOT` points to the EU5 installation folder.
+
+### Cache seems stale
+
+If you suspect the cache is out of date, delete the cache directory and run again:
+
+```powershell
+Remove-Item -Recurse -Force .\.tmp\eu5_locations_cache_v1_0
+python .\src\eu5_locations_master_builder.py
+```
 
 ### SciPy is not installed
 
-SciPy is optional. If installed, it enables a faster/more accurate distance-transform mode for coastline guarding.
-
-### Large image warnings
-
-The script disables Pillow's image pixel limit (`Image.MAX_IMAGE_PIXELS = None`) because EU5 map images can be large.
+SciPy is optional. If installed, it can be used for distance-transform based coastline guarding.
 
 ## License
 

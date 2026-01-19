@@ -1,54 +1,34 @@
 # -*- coding: utf-8 -*-
 """EU5 Locations Master Builder v1.0
 
-EU5のマップデータ（named_locations / definitions / location_templates / ports.csv / locations画像 / rivers画像）を
-突き合わせて、ロケーション一覧CSV（MASTER）と診断用CSVを生成します。
+Build a master CSV of Europa Universalis V (EU5) locations by joining map_data
+sources from an EU5 installation and deriving image-based features.
 
-目的
-- 後段（分析・レビュー・都市化スコア等）が、ゲーム内の地理判定に近い入力列を利用できるようにする。
-- 特に「沿岸」は ports.csv 由来の判定を正とし、MASTER CSV に `Has Coast` として出力する。
+Inputs (under the EU5 installation directory):
+  - game/in_game/map_data/named_locations/00_default.txt
+  - game/in_game/map_data/definitions.txt
+  - game/in_game/map_data/location_templates.txt
+  - game/in_game/map_data/ports.csv
+  - game/in_game/map_data/locations.png
+  - game/in_game/map_data/rivers.png
 
-入力（EU5インストール配下）
-- game/in_game/map_data/named_locations/00_default.txt
-  - location_id ↔ 色（RGB/HEX）の対応
-- game/in_game/map_data/definitions.txt
-  - Region/Area/Province の階層
-- game/in_game/map_data/location_templates.txt
-  - Topography/Vegetation/Climate/Raw Material/Harbor 等
-- game/in_game/map_data/ports.csv
-  - 沿岸（Has Coast）判定の根拠
-- game/in_game/map_data/locations.(png|tga)
-  - 位置（色）から隣接関係を計算
-- game/in_game/map_data/rivers.(png|tga)
-  - 河川インクを検出して Has River を決定
+Outputs (current working directory):
+  - eu5_locations_master_raw.csv
+  - eu5_locations_master_river_overlap_water_v1_0.csv
+  - eu5_locations_master_qc_flags_v1_0.csv
+  - eu5_locations_master_run_report_v1_0.json
+  - debug_rivers_overlay_v1_0.png
+  - debug_lake_adjacency_overlay_v1_0.png
 
-出力（カレントディレクトリ）
-- {OUT_PREFIX}_raw.csv
-  - MASTER 一覧
-  - 重要列：
-    - Has Coast : ports.csv（LandProvince）由来。沿岸扱い（港/沿岸条件）に対応する想定。
-    - Harbor : natural_harbor_suitability 等（テンプレ由来、文字列）。後段で数値化推奨。
-    - Has River : rivers 画像の河川インク検出（陸地のみ Yes）。
-    - Is Adjacent To Lake : locations 画像の隣接判定で湖に接する陸地（Yes）。
+Key columns:
+  - Has Coast: derived from ports.csv (LandProvince).
+  - Has River: derived from rivers.png ink detection (land only).
+  - Is Adjacent To Lake: derived from locations.png land/lake pixel adjacency,
+    and only when Has Coast is Yes.
 
-- eu5_locations_master_river_overlap_water_v1_0.csv
-  - 診断用（two-track）
-  - 非陸地（sea/lake/wasteland）上に河川インクが重なった量を Raw/Guarded で出力
-
-- eu5_locations_master_qc_flags_v1_0.csv
-  - QC用（テンプレ欠落など）
-
-- eu5_locations_master_run_report_v1_0.json
-  - 入力ファイルのハッシュ、件数、処理時間などの実行レポート
-
-判定ポリシー
-- 沿岸（Has Coast）は ports.csv を唯一の根拠とする。
-- 説明用の地形ラベル（例: Coastal Land / Estuary Land など）は出力しない。
-  - ゲーム内判定と一致しない可能性があり、後段スコアリングでノイズになるため。
-
-Dependencies
-- Required: pillow, numpy, pandas
-- Optional: scipy（COAST_GUARD_MODE='edt' または 'auto' の場合に使用）
+Dependencies:
+  - Required: pillow, numpy, pandas
+  - Optional: scipy (used when COAST_GUARD_MODE is 'edt' or 'auto')
 """
 # =============================================================================
 # Imports
@@ -72,7 +52,7 @@ import logging
 Image.MAX_IMAGE_PIXELS = None
 
 # =============================================================================
-# 0) Fixed paths (NO CLI args)
+# 0) Paths
 # =============================================================================
 
 EU5_ROOT = r"C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis V"
@@ -96,7 +76,7 @@ RIVERS_IMG_CANDIDATES = [
 # =============================================================================
 
 TOOL_NAME = "EU5 Locations Master Builder"
-TOOL_VERSION = "v1.0"     # stays v1.0 until final release is confirmed
+TOOL_VERSION = "v1.0"
 SCHEMA_VERSION = "v1.0"   # bump only when MASTER CSV schema changes
 
 OUT_TAG = "v1_0"          # filesystem-friendly tag
@@ -568,10 +548,9 @@ def build_adjacency_edges(loc_img_path: str, palette_rgb_set: set) -> tuple:
 
 
 def get_adjacency_edges_cached(loc_img_path: str, palette_rgb_set: set, cache_load_fn, cache_save_fn):
-    """Load or build location adjacency edges from the locations image.
+    """Load or build location adjacency edges from the locations image, optionally using the persistent cache.
 
-    NOTE: Refactor only. Logic must be identical to v1.0.
-    """
+"""
     adj_sig = {
         'cache_format': CACHE_FORMAT_ADJ,
         'tool': {'name': TOOL_NAME, 'version': TOOL_VERSION},
@@ -632,10 +611,7 @@ def detect_adjacent_to_lake_ids_image(
     """Authoritative lake-adjacency detection based on the locations image.
 
     This function must remain the single source of truth for lake adjacency.
-    Future auxiliary sources (e.g., text triggers) may be consulted elsewhere,
-    but MUST NOT override this result.
 
-    NOTE: Refactor-only boundary. No logic change is permitted here.
     """
     return build_lake_adjacency_from_edges(
         edges_u32, rgb_to_id, lake_ids_set, sea_ids_set
@@ -643,13 +619,12 @@ def detect_adjacent_to_lake_ids_image(
 
 
 # -----------------------------------------------------------------------------
-# Diagnostic logging (opt-in; must not affect results)
 # -----------------------------------------------------------------------------
 _DIAGNOSTIC_LOGGER = None
 
 
 def _diagnostic_enabled(argv) -> bool:
-    # Minimal argv scan. Default behavior must remain identical when absent.
+    # Return True if --diagnostic is present.
     try:
         return "--diagnostic" in argv[1:]
     except Exception:
@@ -657,10 +632,9 @@ def _diagnostic_enabled(argv) -> bool:
 
 
 def _enable_diagnostic_logger():
-    """
-    Enable file-only diagnostic logger.
-    Must not change stdout/stderr output or any computation results.
-    """
+    """Enable file-only diagnostic logging (optional).
+
+"""
     global _DIAGNOSTIC_LOGGER
     if _DIAGNOSTIC_LOGGER is not None:
         return _DIAGNOSTIC_LOGGER
@@ -699,10 +673,8 @@ def resolve_adjacent_to_lake_ids(
     """Resolve lake adjacency with image as the final authority.
 
     - Current behavior: image-only (identical to v1.0 / current accuracy-first).
-    - Extension point (future): optional trigger hints / logging / multi-source validation.
       Image result must always be the final decision.
 
-    NOTE: Refactor-only boundary. No logic change is permitted here.
     """
     adjacent = detect_adjacent_to_lake_ids_image(
         edges_u32, rgb_to_id, lake_ids_set, sea_ids_set
@@ -739,7 +711,7 @@ def resolve_adjacent_to_lake_ids(
                 len(adjacent),
             )
 
-            # Diagnostic-only: compare with trigger-derived hints (must not override image result)
+            # Optional diagnostic: compare with trigger-derived hints.
             hint_ids = None
             if trigger_hints is not None:
                 try:
@@ -917,7 +889,7 @@ def main():
 
     print(f"[INFO] {TOOL_NAME} {TOOL_VERSION}")
 
-    # Diagnostic flag: opt-in only; must not affect results/output when absent.
+    # Enable diagnostic logging when requested.
     if _diagnostic_enabled(sys.argv):
         _enable_diagnostic_logger()
 
@@ -1042,7 +1014,8 @@ def main():
 
     # --- Lake adjacency from edges
     t = time.time()
-    adjacent_to_lake_ids = resolve_adjacent_to_lake_ids(edges_u32, rgb_to_id, lake_ids_set, sea_ids_set)
+    adjacent_to_lake_ids_image = resolve_adjacent_to_lake_ids(edges_u32, rgb_to_id, lake_ids_set, sea_ids_set)
+    adjacent_to_lake_ids = {x for x in adjacent_to_lake_ids_image if x in ports}
     lake_stats = {**edge_stats}
     mark('lake_adjacency', t)
 
@@ -1076,7 +1049,7 @@ def main():
             'Harbor': td.get('Harbor',''),
             'Has Coast': 'Yes' if loc_id in ports else '',
             'Has River': has_river,
-            'Is Adjacent To Lake': 'Yes' if (loc_id in adjacent_to_lake_ids and typ == 'land') else '',
+            'Is Adjacent To Lake': 'Yes' if (loc_id in adjacent_to_lake_ids and typ == 'land' and loc_id in ports) else '',
         })
 
     df = pd.DataFrame(rows)
