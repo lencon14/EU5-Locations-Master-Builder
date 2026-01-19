@@ -7,11 +7,10 @@ EU5 Locations Master Builder generates a master CSV of Europa Universalis V (EU5
 Running the builder writes the following files to the current working directory:
 
 - `eu5_locations_master_raw.csv` - Master location table
-- `eu5_locations_master_river_overlap_water_v1_0.csv` - Diagnostics: river ink overlap over non-land tiles
-- `eu5_locations_master_qc_flags_v1_0.csv` - Quality-control flags (missing templates, unexpected mappings)
-- `eu5_locations_master_run_report_v1_0.json` - Run metadata (inputs seen, cache status, timings)
-- `debug_rivers_overlay_v1_0.png` - Debug visualization of the river mask
-- `debug_lake_adjacency_overlay_v1_0.png` - Debug visualization of lake adjacency
+- `eu5_locations_master_river_overlap_water_v1_1.csv` - Diagnostics: river ink overlap over non-land tiles
+- `eu5_locations_master_qc_flags_v1_1.csv` - Quality-control flags (missing templates, unexpected mappings)
+- `eu5_locations_master_run_report_v1_1.json` - Run metadata (inputs seen, cache status, timings)
+- `debug_rivers_overlay_v1_1.png` - Debug visualization of the river mask
 
 ## Requirements
 
@@ -41,7 +40,7 @@ By default, the builder expects EU5 at the Steam default path:
 If your EU5 install is elsewhere, set `EU5_ROOT` before running:
 
 ```powershell
-$env:EU5_ROOT = "D:\\SteamLibrary\\steamapps\\common\\Europa Universalis V"
+$env:EU5_ROOT = "D:\SteamLibrary\steamapps\common\Europa Universalis V"
 python .\src\eu5_locations_master_builder.py
 ```
 
@@ -49,11 +48,11 @@ python .\src\eu5_locations_master_builder.py
 
 The builder uses a persistent cache to avoid recomputing expensive intermediate results. This typically makes the second and subsequent runs much faster.
 
-- Default cache location: `.tmp\eu5_locations_cache_v1_0\`
+- Default cache location: `.tmp\eu5_locations_cache_v1_1\`
 - Override cache directory:
 
 ```powershell
-$env:EU5_CACHE_DIR = "C:\\work\\eu5_cache"
+$env:EU5_CACHE_DIR = "C:\work\eu5_cache"
 python .\src\eu5_locations_master_builder.py
 ```
 
@@ -89,7 +88,6 @@ Remove-Item Env:EU5_HASH_MAX_BYTES -ErrorAction SilentlyContinue
 
 - `Has Coast` - Derived from `ports.csv` (`LandProvince`).
 - `Has River` - Derived from river ink overlap in `rivers.png` (land only).
-- `Is Adjacent To Lake` - Derived from pixel adjacency between land tiles and lake tiles in `locations.png`, and only when `Has Coast` is `Yes`.
 
 ## Troubleshooting
 
@@ -102,7 +100,7 @@ If the run prints `[ERROR] Missing required files`, confirm `EU5_ROOT` points to
 If you suspect the cache is out of date, delete the cache directory and run again:
 
 ```powershell
-Remove-Item -Recurse -Force .\.tmp\eu5_locations_cache_v1_0
+Remove-Item -Recurse -Force .\.tmp\eu5_locations_cache_v1_1
 python .\src\eu5_locations_master_builder.py
 ```
 
