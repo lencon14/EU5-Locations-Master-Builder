@@ -128,9 +128,9 @@ COAST_GUARD_MODE = 'auto'  # 'dilate' | 'edt' | 'auto'
 
 DEBUG_DOWNSAMPLE = 4
 
-CACHE_ENABLE = False
-CACHE_DIR = os.path.join(os.getcwd(), f"eu5_locations_cache_{OUT_TAG}")
-
+CACHE_ENABLE = (os.environ.get('EU5_CACHE') or '1').strip().lower() in ('1','true','yes','on')
+CACHE_ENABLE = CACHE_ENABLE and (os.environ.get('EU5_NO_CACHE') or '').strip().lower() not in ('1','true','yes','on')
+CACHE_DIR = os.environ.get('EU5_CACHE_DIR') or os.path.join(os.getcwd(), '.tmp', f"eu5_locations_cache_{OUT_TAG}")
 # Cache schema tag for rivers payload (two-track)
 CACHE_FORMAT_RIVERS = "rivers_cache_v2_two_track"
 
@@ -200,16 +200,28 @@ def file_sha256(path: str, chunk_size: int = 1024 * 1024) -> str:
             h.update(chunk)
     return h.hexdigest()
 
+# - Hashing policy (speed-first)
+#   - EU5_HASH_INPUTS=1 : hash all inputs (strict but slower)
+#   - EU5_HASH_MAX_BYTES: hash small files only (default 10MB)
+HASH_INPUTS = (os.environ.get('EU5_HASH_INPUTS') or '').strip().lower() in ('1','true','yes','on')
+HASH_MAX_BYTES = int(os.environ.get('EU5_HASH_MAX_BYTES') or str(10 * 1024 * 1024))
+
 
 def safe_stat_and_hash(path: str) -> dict:
     if not path or not os.path.exists(path):
         return {'exists': False}
     st = os.stat(path)
+    sha = None
+    try:
+        if HASH_INPUTS or int(st.st_size) <= HASH_MAX_BYTES:
+            sha = file_sha256(path)
+    except Exception:
+        sha = None
     return {
         'exists': True,
         'bytes': int(st.st_size),
         'mtime_utc': datetime.datetime.fromtimestamp(st.st_mtime, datetime.UTC).isoformat().replace('+00:00', 'Z'),
-        'sha256': file_sha256(path),
+        'sha256': sha,
     }
 
 # =============================================================================
