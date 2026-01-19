@@ -1,34 +1,30 @@
 # -*- coding: utf-8 -*-
-"""EU5 Locations Master Builder v1.0
+"""EU5 Locations Master Builder v1.1
 
-Build a master CSV of Europa Universalis V (EU5) locations by joining map_data
-sources from an EU5 installation and deriving image-based features.
+EU5 Locations Master Builder generates a master CSV of Europa Universalis V (EU5) locations by joining the game's map_data sources and deriving image-based features from textures.
 
 Inputs (under the EU5 installation directory):
   - game/in_game/map_data/named_locations/00_default.txt
   - game/in_game/map_data/definitions.txt
   - game/in_game/map_data/location_templates.txt
   - game/in_game/map_data/ports.csv
-  - game/in_game/map_data/locations.png
-  - game/in_game/map_data/rivers.png
+  - game/in_game/map_data/locations.(png|tga)
+  - game/in_game/map_data/rivers.(png|tga)
 
-Outputs (current working directory):
+Outputs (written to the current working directory):
   - eu5_locations_master_raw.csv
-  - eu5_locations_master_river_overlap_water_v1_0.csv
-  - eu5_locations_master_qc_flags_v1_0.csv
-  - eu5_locations_master_run_report_v1_0.json
-  - debug_rivers_overlay_v1_0.png
-  - debug_lake_adjacency_overlay_v1_0.png
+  - eu5_locations_master_river_overlap_water_v1_1.csv
+  - eu5_locations_master_qc_flags_v1_1.csv
+  - eu5_locations_master_run_report_v1_1.json
+  - debug_rivers_overlay_v1_1.png
 
-Key columns:
+Key derived columns:
   - Has Coast: derived from ports.csv (LandProvince).
-  - Has River: derived from rivers.png ink detection (land only).
-  - Is Adjacent To Lake: derived from locations.png land/lake pixel adjacency,
-    and only when Has Coast is Yes.
+  - Has River: derived from rivers ink detection (land only).
 
 Dependencies:
   - Required: pillow, numpy, pandas
-  - Optional: scipy (used when COAST_GUARD_MODE is 'edt' or 'auto')
+  - Optional: scipy (used when COAST_GUARD_MODE is "edt" or "auto")
 """
 # =============================================================================
 # Imports
@@ -52,7 +48,7 @@ import logging
 Image.MAX_IMAGE_PIXELS = None
 
 # =============================================================================
-# 0) Paths
+# 0) Paths and configuration
 # =============================================================================
 
 EU5_ROOT = r"C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis V"
@@ -76,10 +72,10 @@ RIVERS_IMG_CANDIDATES = [
 # =============================================================================
 
 TOOL_NAME = "EU5 Locations Master Builder"
-TOOL_VERSION = "v1.0"
-SCHEMA_VERSION = "v1.0"   # bump only when MASTER CSV schema changes
+TOOL_VERSION = "v1.1"
+SCHEMA_VERSION = "v1.1"
 
-OUT_TAG = "v1_0"          # filesystem-friendly tag
+OUT_TAG = "v1_1"
 OUT_PREFIX = "eu5_locations_master"
 
 OUTPUT_CSV          = os.path.join(os.getcwd(), f"{OUT_PREFIX}_raw.csv")
@@ -93,7 +89,6 @@ OUTPUT_RIVER_OVERLAP_WATER_CSV = os.path.join(os.getcwd(), f"{OUT_PREFIX}_river_
 # Features: estuary/coastal flags for all Types
 
 DEBUG_RIVERS_OVERLAY = os.path.join(os.getcwd(), f"debug_rivers_overlay_{OUT_TAG}.png")
-DEBUG_LAKE_OVERLAY   = os.path.join(os.getcwd(), f"debug_lake_adjacency_overlay_{OUT_TAG}.png")
 # =============================================================================
 # 2) Parameters (accuracy-first)
 # =============================================================================
@@ -108,14 +103,27 @@ COAST_GUARD_MODE = 'auto'  # 'dilate' | 'edt' | 'auto'
 
 DEBUG_DOWNSAMPLE = 4
 
-CACHE_ENABLE = (os.environ.get('EU5_CACHE') or '1').strip().lower() in ('1','true','yes','on')
-CACHE_ENABLE = CACHE_ENABLE and (os.environ.get('EU5_NO_CACHE') or '').strip().lower() not in ('1','true','yes','on')
-CACHE_DIR = os.environ.get('EU5_CACHE_DIR') or os.path.join(os.getcwd(), '.tmp', f"eu5_locations_cache_{OUT_TAG}")
+# Persistent cache: speeds up 2nd+ runs dramatically by reusing heavy image-derived artifacts.
+# Default: enabled. Disable by setting EU5_NO_CACHE=1 or EU5_CACHE=0.
+_cache_env = (os.environ.get("EU5_CACHE") or "").strip().lower()
+_no_cache_env = (os.environ.get("EU5_NO_CACHE") or "").strip().lower()
+
+if _no_cache_env in ("1", "true", "yes", "on"):
+    CACHE_ENABLE = False
+elif _cache_env in ("0", "false", "no", "off"):
+    CACHE_ENABLE = False
+elif _cache_env in ("1", "true", "yes", "on"):
+    CACHE_ENABLE = True
+else:
+    CACHE_ENABLE = True
+
+# Keep caches under .tmp by default so they don't show up as untracked files.
+CACHE_DIR = os.environ.get("EU5_CACHE_DIR") or os.path.join(os.getcwd(), ".tmp", f"eu5_locations_cache_{OUT_TAG}")
+
 # Cache schema tag for rivers payload (two-track)
-CACHE_FORMAT_RIVERS = "rivers_cache_v2_two_track"
+CACHE_FORMAT_RIVERS = "rivers_cache_v3_fpfast"
 
 # Cache schema tag for adjacency payloads (coastal)
-CACHE_FORMAT_ADJ = "adjacency_cache_v1"
 
 # =============================================================================
 # 3) Domain constants
@@ -180,11 +188,13 @@ def file_sha256(path: str, chunk_size: int = 1024 * 1024) -> str:
             h.update(chunk)
     return h.hexdigest()
 
-# - Hashing policy (speed-first)
-#   - EU5_HASH_INPUTS=1 : hash all inputs (strict but slower)
-#   - EU5_HASH_MAX_BYTES: hash small files only (default 10MB)
-HASH_INPUTS = (os.environ.get('EU5_HASH_INPUTS') or '').strip().lower() in ('1','true','yes','on')
-HASH_MAX_BYTES = int(os.environ.get('EU5_HASH_MAX_BYTES') or str(10 * 1024 * 1024))
+
+# Input fingerprinting
+# - By default, large files (e.g., locations.png / rivers.png) are NOT hashed because that defeats caching speedups.
+# - Small files are hashed (up to EU5_HASH_MAX_BYTES) to keep cache invalidation robust.
+# - Force hashing for all inputs with EU5_HASH_INPUTS=1.
+HASH_INPUTS = (os.environ.get("EU5_HASH_INPUTS") or "").strip().lower() in ("1", "true", "yes", "on")
+HASH_MAX_BYTES = int(os.environ.get("EU5_HASH_MAX_BYTES") or str(10 * 1024 * 1024))
 
 
 def safe_stat_and_hash(path: str) -> dict:
@@ -242,10 +252,18 @@ def cache_save(prefix: str, signature: dict, data_obj):
         return
     _cache_mkdir()
     meta_path, data_path = _cache_paths(prefix)
-    with open(meta_path, 'w', encoding='utf-8') as f:
+
+    # Atomic write to avoid partial cache files on interruption.
+    meta_tmp = meta_path + '.tmp'
+    data_tmp = data_path + '.tmp'
+
+    with open(meta_tmp, 'w', encoding='utf-8') as f:
         json.dump({'signature': signature}, f, ensure_ascii=False, indent=2)
-    with open(data_path, 'w', encoding='utf-8') as f:
+    os.replace(meta_tmp, meta_path)
+
+    with open(data_tmp, 'w', encoding='utf-8') as f:
         json.dump(data_obj, f, ensure_ascii=False)
+    os.replace(data_tmp, data_path)
 
 # =============================================================================
 # 6) Parse EU5 text assets
@@ -516,271 +534,6 @@ def finalize_river_locs_from_counts(guarded_counts: dict, id_to_rgb: dict, area_
     return river_locs
 
 # =============================================================================
-# 9) Adjacency (coastal / lake)
-# =============================================================================
-
-def build_adjacency_edges(loc_img_path: str, palette_rgb_set: set) -> tuple:
-    """Return unique undirected edges between palette colors (packed uint32) using 4-neighborhood."""
-    img = Image.open(loc_img_path).convert('RGB')
-    A = np.array(img, dtype=np.uint8)
-
-    Ai = (A[:,:,0].astype(np.uint32)<<16) | (A[:,:,1].astype(np.uint32)<<8) | A[:,:,2].astype(np.uint32)
-    palette_ints = np.fromiter(((r<<16)|(g<<8)|b for (r,g,b) in palette_rgb_set), dtype=np.uint32)
-    valid = np.isin(Ai, palette_ints)
-
-    left = Ai[:,:-1]; right = Ai[:,1:]
-    v_h = valid[:,:-1] & valid[:,1:] & (left != right)
-    hp = np.stack([left[v_h], right[v_h]], axis=1) if np.any(v_h) else np.empty((0,2), dtype=np.uint32)
-
-    up = Ai[:-1,:]; down = Ai[1:,:]
-    v_v = valid[:-1,:] & valid[1:,:] & (up != down)
-    vp = np.stack([up[v_v], down[v_v]], axis=1) if np.any(v_v) else np.empty((0,2), dtype=np.uint32)
-
-    allp = np.vstack([hp, vp]) if (hp.size or vp.size) else np.empty((0,2), dtype=np.uint32)
-    if allp.size == 0:
-        return np.empty((0,2), dtype=np.uint32), {'valid_pixel_ratio': float(valid.mean()), 'unique_edges': 0}
-
-    mn = np.minimum(allp[:,0], allp[:,1])
-    mx = np.maximum(allp[:,0], allp[:,1])
-    edges = np.unique(np.stack([mn,mx], axis=1), axis=0)
-
-    return edges, {'valid_pixel_ratio': float(valid.mean()), 'unique_edges': int(edges.shape[0])}
-
-
-def get_adjacency_edges_cached(loc_img_path: str, palette_rgb_set: set, cache_load_fn, cache_save_fn):
-    """Load or build location adjacency edges from the locations image, optionally using the persistent cache.
-
-"""
-    adj_sig = {
-        'cache_format': CACHE_FORMAT_ADJ,
-        'tool': {'name': TOOL_NAME, 'version': TOOL_VERSION},
-        'schema': SCHEMA_VERSION,
-        'locations_image_sha256': safe_stat_and_hash(loc_img_path).get('sha256'),
-        '00_default_sha256': safe_stat_and_hash(FILE_00_DEFAULT).get('sha256'),
-    }
-
-    adj_cache = cache_load_fn('adjacency_edges', adj_sig)
-    adj_cache_used = False
-
-    if adj_cache:
-        adj_cache_used = True
-        edges_list = adj_cache.get('edges_u32', [])
-        edges_u32 = np.array(edges_list, dtype=np.uint32) if edges_list else np.empty((0,2), dtype=np.uint32)
-        edge_stats = adj_cache.get('edge_stats', {})
-    else:
-        edges_u32, edge_stats = build_adjacency_edges(loc_img_path, palette_rgb_set)
-        cache_save_fn('adjacency_edges', adj_sig, {
-            'edges_u32': edges_u32.astype(int).tolist(),
-            'edge_stats': edge_stats,
-        })
-
-    return edges_u32, edge_stats, adj_cache_used
-
-
-def build_lake_adjacency_from_edges(edges_u32: np.ndarray, rgb_to_id: dict, lake_ids_set: set, sea_ids_set: set):
-    lake_rgbs = [rgb for rgb, loc_id in rgb_to_id.items() if loc_id in lake_ids_set]
-    lake_ints = {((r<<16)|(g<<8)|b) for (r,g,b) in lake_rgbs}
-
-    sea_rgbs = [rgb for rgb, loc_id in rgb_to_id.items() if loc_id in sea_ids_set]
-    sea_ints = {((r<<16)|(g<<8)|b) for (r,g,b) in sea_rgbs}
-
-    adjacent = set()
-    for u,v in edges_u32.tolist():
-        u=int(u); v=int(v)
-        u_is_lake = u in lake_ints
-        v_is_lake = v in lake_ints
-        if u_is_lake == v_is_lake:
-            continue
-        other = v if u_is_lake else u
-        if other in lake_ints or other in sea_ints:
-            continue
-        rgb_other = ((other>>16)&255, (other>>8)&255, other&255)
-        other_id = rgb_to_id.get(rgb_other)
-        if other_id:
-            adjacent.add(other_id)
-
-    return adjacent
-
-
-def detect_adjacent_to_lake_ids_image(
-    edges_u32: np.ndarray,
-    rgb_to_id: dict,
-    lake_ids_set: set,
-    sea_ids_set: set,
-) -> set:
-    """Authoritative lake-adjacency detection based on the locations image.
-
-    This function must remain the single source of truth for lake adjacency.
-
-    """
-    return build_lake_adjacency_from_edges(
-        edges_u32, rgb_to_id, lake_ids_set, sea_ids_set
-    )
-
-
-# -----------------------------------------------------------------------------
-# -----------------------------------------------------------------------------
-_DIAGNOSTIC_LOGGER = None
-
-
-def _diagnostic_enabled(argv) -> bool:
-    # Return True if --diagnostic is present.
-    try:
-        return "--diagnostic" in argv[1:]
-    except Exception:
-        return False
-
-
-def _enable_diagnostic_logger():
-    """Enable file-only diagnostic logging (optional).
-
-"""
-    global _DIAGNOSTIC_LOGGER
-    if _DIAGNOSTIC_LOGGER is not None:
-        return _DIAGNOSTIC_LOGGER
-
-    log_path = os.path.join(".", "artifacts", "diagnostic_lake_adjacency.log")
-    os.makedirs(os.path.dirname(log_path), exist_ok=True)
-
-    logger = logging.getLogger("eu5_locations_master.diagnostic")
-    logger.setLevel(logging.INFO)
-    logger.propagate = False
-
-    # Avoid duplicate handlers if main() is executed multiple times in one process
-    if not any(
-        isinstance(h, logging.FileHandler)
-        and getattr(h, "baseFilename", "").endswith("diagnostic_lake_adjacency.log")
-        for h in logger.handlers
-    ):
-        fh = logging.FileHandler(log_path, encoding="utf-8")
-        fh.setLevel(logging.INFO)
-        fh.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
-        logger.addHandler(fh)
-
-    _DIAGNOSTIC_LOGGER = logger
-    return logger
-
-
-def resolve_adjacent_to_lake_ids(
-    edges_u32: np.ndarray,
-    rgb_to_id: dict,
-    lake_ids_set: set,
-    sea_ids_set: set,
-    *,
-    trigger_hints=None,
-    logger=None,
-) -> set:
-    """Resolve lake adjacency with image as the final authority.
-
-    - Current behavior: image-only (identical to v1.0 / current accuracy-first).
-      Image result must always be the final decision.
-
-    """
-    adjacent = detect_adjacent_to_lake_ids_image(
-        edges_u32, rgb_to_id, lake_ids_set, sea_ids_set
-    )
-
-    # Optional diagnostic logging (no effect on results)
-    # If --diagnostic is enabled, allow global file-only logger when logger is not explicitly provided.
-    if logger is None and _DIAGNOSTIC_LOGGER is not None:
-        logger = _DIAGNOSTIC_LOGGER
-    # Optional diagnostic logging (no effect on results)
-    if logger is not None:
-        try:
-            # Input / palette sizes (pure observation)
-            edges_n = int(getattr(edges_u32, "shape", [0])[0]) if edges_u32 is not None else 0
-            rgb_n = len(rgb_to_id) if rgb_to_id is not None else 0
-            lake_n = len(lake_ids_set) if lake_ids_set is not None else 0
-            sea_n = len(sea_ids_set) if sea_ids_set is not None else 0
-
-            # Palette-derived counts (cheap recompute; avoids threading logger through builders)
-            lake_rgbs_n = 0
-            sea_rgbs_n = 0
-            if rgb_to_id is not None and lake_ids_set is not None:
-                lake_rgbs_n = sum(1 for _, loc_id in rgb_to_id.items() if loc_id in lake_ids_set)
-            if rgb_to_id is not None and sea_ids_set is not None:
-                sea_rgbs_n = sum(1 for _, loc_id in rgb_to_id.items() if loc_id in sea_ids_set)
-
-            logger.info(
-                "lake_adjacency(input): edges=%d rgb_map=%d lake_ids=%d sea_ids=%d lake_rgbs=%d sea_rgbs=%d",
-                edges_n, rgb_n, lake_n, sea_n, lake_rgbs_n, sea_rgbs_n,
-            )
-
-            logger.info(
-                "lake_adjacency(image): %d locations adjacent to lakes",
-                len(adjacent),
-            )
-
-            # Optional diagnostic: compare with trigger-derived hints.
-            hint_ids = None
-            if trigger_hints is not None:
-                try:
-                    hint_ids = trigger_hints if isinstance(trigger_hints, set) else set(trigger_hints)
-                except Exception:
-                    hint_ids = None
-
-            if hint_ids is not None:
-                logger.info(
-                    "lake_adjacency(hints): %d hinted locations",
-                    len(hint_ids),
-                )
-                overlap = len(adjacent & hint_ids)
-                image_only = len(adjacent - hint_ids)
-                hint_only = len(hint_ids - adjacent)
-                logger.info(
-                    "lake_adjacency(compare): overlap=%d image_only=%d hint_only=%d",
-                    overlap, image_only, hint_only,
-                )
-
-        except Exception:
-            # Logging must never affect execution
-            pass
-
-    return adjacent
-
-
-
-def build_coastal_flags_from_edges(edges_u32: np.ndarray, rgb_to_id: dict, land_ids: set, sea_ids: set):
-    """Return (coastal_land_set, coastal_sea_set)."""
-    # Build int sets
-    land_rgbs = [rgb for rgb, loc_id in rgb_to_id.items() if loc_id in land_ids]
-    sea_rgbs  = [rgb for rgb, loc_id in rgb_to_id.items() if loc_id in sea_ids]
-    land_ints = {((r<<16)|(g<<8)|b) for (r,g,b) in land_rgbs}
-    sea_ints  = {((r<<16)|(g<<8)|b) for (r,g,b) in sea_rgbs}
-
-    coastal_land = set()
-    coastal_sea = set()
-
-    for u,v in edges_u32.tolist():
-        u=int(u); v=int(v)
-        u_land = u in land_ints
-        v_land = v in land_ints
-        u_sea  = u in sea_ints
-        v_sea  = v in sea_ints
-
-        # land-sea adjacency
-        if u_land and v_sea:
-            land_rgb = ((u>>16)&255, (u>>8)&255, u&255)
-            sea_rgb  = ((v>>16)&255, (v>>8)&255, v&255)
-            land_id = rgb_to_id.get(land_rgb)
-            sea_id  = rgb_to_id.get(sea_rgb)
-            if land_id:
-                coastal_land.add(land_id)
-            if sea_id:
-                coastal_sea.add(sea_id)
-        elif v_land and u_sea:
-            land_rgb = ((v>>16)&255, (v>>8)&255, v&255)
-            sea_rgb  = ((u>>16)&255, (u>>8)&255, u&255)
-            land_id = rgb_to_id.get(land_rgb)
-            sea_id  = rgb_to_id.get(sea_rgb)
-            if land_id:
-                coastal_land.add(land_id)
-            if sea_id:
-                coastal_sea.add(sea_id)
-
-    return coastal_land, coastal_sea
-
-# =============================================================================
 # 10) Debug overlays
 # =============================================================================
 
@@ -799,23 +552,6 @@ def write_rivers_debug_overlay(art: dict, out_path: str, downsample: int):
     out[river_mask]= (255,60,60)
     Image.fromarray(out, mode='RGB').save(out_path)
 
-
-def write_lake_debug_overlay(loc_img_path: str, adjacent_ids: set, id_to_rgb: dict,
-                            out_path: str, downsample: int):
-    base = np.array(Image.open(loc_img_path).convert('RGB'), dtype=np.uint8)
-    base = base[::downsample, ::downsample] if downsample > 1 else base
-
-    adj_rgbs = [id_to_rgb.get(i) for i in adjacent_ids]
-    adj_rgbs = [x for x in adj_rgbs if x is not None]
-    adj_set = set((int(r),int(g),int(b)) for (r,g,b) in adj_rgbs)
-
-    packed = (base[:,:,0].astype(np.uint32)<<16) | (base[:,:,1].astype(np.uint32)<<8) | base[:,:,2].astype(np.uint32)
-    adj_ints = np.fromiter(((r<<16)|(g<<8)|b for (r,g,b) in adj_set), dtype=np.uint32)
-
-    mask = np.isin(packed, adj_ints)
-    out = base.copy()
-    out[mask] = (60,255,60)
-    Image.fromarray(out, mode='RGB').save(out_path)
 
 # =============================================================================
 # 11) QC flags
@@ -863,7 +599,7 @@ def build_diff_summary(prev_csv_path: str, curr_df: pd.DataFrame) -> dict:
         'counts': {},
     }
 
-    for col in ['Has Coast','Has River','Is Adjacent To Lake']:
+    for col in ['Has Coast','Has River']:
         summary['counts'][col] = {'prev': yes_count(prev_df, col), 'curr': yes_count(curr_df, col)}
         if summary['counts'][col]['prev'] is not None:
             summary['counts'][col]['delta'] = summary['counts'][col]['curr'] - summary['counts'][col]['prev']
@@ -888,11 +624,6 @@ def main():
         step_times[name] = round(time.time() - t_start, 3)
 
     print(f"[INFO] {TOOL_NAME} {TOOL_VERSION}")
-
-    # Enable diagnostic logging when requested.
-    if _diagnostic_enabled(sys.argv):
-        _enable_diagnostic_logger()
-
 
     required = [FILE_00_DEFAULT, FILE_DEFINITIONS, FILE_TEMPLATES, FILE_PORTS]
     missing = [p for p in required if not os.path.exists(p)]
@@ -932,30 +663,15 @@ def main():
     palette_rgb_set = set(rgb_to_id.keys())
     mark('build_palette_maps', t)
 
-    # --- Type sets
-    t = time.time()
-    lake_ids_set = {loc_id for loc_id, td in templates.items() if (td.get('Topography','') or '').lower() == 'lakes'}
-
-    sea_ids_set = set()
-    for loc_id in hex_map.keys():
-        topo = (templates.get(loc_id, {}).get('Topography','') or '').lower()
-        if topo in SEA_TOPO:
-            sea_ids_set.add(loc_id)
-        elif is_explicit_sea_id(loc_id, hierarchy.get(loc_id, {})):
-            sea_ids_set.add(loc_id)
-
-    # land IDs will be resolved after we build the master df (safer if any missing template)
-    mark('build_water_id_sets', t)
-
     # --- Rivers (two-track, cache)
     t = time.time()
     rivers_sig = {
         'cache_format': CACHE_FORMAT_RIVERS,
         'tool': {'name': TOOL_NAME, 'version': TOOL_VERSION},
         'schema': SCHEMA_VERSION,
-        'locations_image_sha256': safe_stat_and_hash(loc_img_path).get('sha256'),
-        'rivers_image_sha256': safe_stat_and_hash(riv_img_path).get('sha256'),
-        '00_default_sha256': safe_stat_and_hash(FILE_00_DEFAULT).get('sha256'),
+        'locations_image_fp': safe_stat_and_hash(loc_img_path),
+        'rivers_image_fp': safe_stat_and_hash(riv_img_path),
+        '00_default_fp': safe_stat_and_hash(FILE_00_DEFAULT),
         'SEA_TOL': SEA_TOL,
         'LAND_TOL': LAND_TOL,
         'COAST_GUARD': COAST_GUARD,
@@ -1004,20 +720,8 @@ def main():
 
     mark('detect_rivers', t)
 
-    # --- Adjacency edges (cache)
-    t = time.time()
-    edges_u32, edge_stats, adj_cache_used = get_adjacency_edges_cached(
-        loc_img_path, palette_rgb_set, cache_load, cache_save
-    )
-
-    mark('adjacency_edges', t)
-
-    # --- Lake adjacency from edges
-    t = time.time()
-    adjacent_to_lake_ids_image = resolve_adjacent_to_lake_ids(edges_u32, rgb_to_id, lake_ids_set, sea_ids_set)
-    adjacent_to_lake_ids = {x for x in adjacent_to_lake_ids_image if x in ports}
-    lake_stats = {**edge_stats}
-    mark('lake_adjacency', t)
+    edge_stats = {}
+    adj_cache_used = False
 
 
     # --- Build master
@@ -1049,7 +753,6 @@ def main():
             'Harbor': td.get('Harbor',''),
             'Has Coast': 'Yes' if loc_id in ports else '',
             'Has River': has_river,
-            'Is Adjacent To Lake': 'Yes' if (loc_id in adjacent_to_lake_ids and typ == 'land' and loc_id in ports) else '',
         })
 
     df = pd.DataFrame(rows)
@@ -1057,13 +760,13 @@ def main():
     df = df[df['ID'] != '']
     df = df.drop_duplicates(subset=['ID'], keep='first')
 
-    cols = ['ID','Region','Area','Province','Type','Type Reason','Topography','Vegetation','Climate','Raw Material','Harbor','Has Coast','Has River','Is Adjacent To Lake']
+    cols = ['ID','Region','Area','Province','Type','Type Reason','Topography','Vegetation','Climate','Raw Material','Harbor','Has Coast','Has River']
     df = df.reindex(columns=cols)
     df.to_csv(OUTPUT_CSV, index=False, encoding='utf-8-sig')
     mark('build_and_write_csv', t)
 
 
-    # --- Diagnostic: river overlap on non-land (sea/lake/wasteland), two-track
+    # --- Diagnostic: river overlap on non-land tiles (two-track)
     t = time.time()
     df_idx = df.set_index('ID', drop=False)
     diag_rows = []
@@ -1136,7 +839,6 @@ def main():
     try:
         if rivers_meta.get('sea_like') is not None:
             write_rivers_debug_overlay(rivers_meta, DEBUG_RIVERS_OVERLAY, DEBUG_DOWNSAMPLE)
-        write_lake_debug_overlay(loc_img_path, adjacent_to_lake_ids, id_to_rgb, DEBUG_LAKE_OVERLAY, DEBUG_DOWNSAMPLE)
     except Exception as e:
         print('[WARN] debug overlay failed:', e)
     mark('debug_overlays', t)
@@ -1201,7 +903,6 @@ def main():
             'type_counts': df['Type'].value_counts(dropna=False).to_dict(),
             'has_coast_yes': int((df['Has Coast'].fillna('')=='Yes').sum()),
             'has_river_yes': int((df['Has River'].fillna('')=='Yes').sum()),
-            'adjacent_to_lake_yes': int((df['Is Adjacent To Lake'].fillna('')=='Yes').sum()),
             'rivers': {
                 'estimated_sea_rgb': list(rivers_meta.get('sea_rgb')) if rivers_meta.get('sea_rgb') else None,
                 'exact_mode': bool(rivers_meta.get('exact_mode', False)),
@@ -1233,7 +934,6 @@ def main():
             'diff_summary': OUTPUT_DIFF_SUMMARY if diff_summary else None,
             'river_overlap_water_csv': OUTPUT_RIVER_OVERLAP_WATER_CSV,
             'debug_rivers_overlay': DEBUG_RIVERS_OVERLAY,
-            'debug_lake_overlay': DEBUG_LAKE_OVERLAY,
         },
     }
 
@@ -1251,7 +951,6 @@ def main():
     if diff_summary:
         print('[DONE] wrote:', OUTPUT_DIFF_SUMMARY)
     print('[DONE] wrote:', DEBUG_RIVERS_OVERLAY)
-    print('[DONE] wrote:', DEBUG_LAKE_OVERLAY)
     print(f"[DONE] rows={len(df)} time={report['timing_seconds']['total']:.1f}s")
 
 
