@@ -1,31 +1,30 @@
 # -*- coding: utf-8 -*-
 """EU5 Locations Master Builder v1.1
 
-Build a master CSV of Europa Universalis V (EU5) locations by joining map_data
-sources from an EU5 installation and deriving image-based features.
+EU5 Locations Master Builder generates a master CSV of Europa Universalis V (EU5) locations by joining the game's map_data sources and deriving image-based features from textures.
 
 Inputs (under the EU5 installation directory):
   - game/in_game/map_data/named_locations/00_default.txt
   - game/in_game/map_data/definitions.txt
   - game/in_game/map_data/location_templates.txt
   - game/in_game/map_data/ports.csv
-  - game/in_game/map_data/locations.png
-  - game/in_game/map_data/rivers.png
+  - game/in_game/map_data/locations.(png|tga)
+  - game/in_game/map_data/rivers.(png|tga)
 
-Outputs (current working directory):
+Outputs (written to the current working directory):
   - eu5_locations_master_raw.csv
   - eu5_locations_master_river_overlap_water_v1_1.csv
   - eu5_locations_master_qc_flags_v1_1.csv
   - eu5_locations_master_run_report_v1_1.json
   - debug_rivers_overlay_v1_1.png
 
-Key columns:
+Key derived columns:
   - Has Coast: derived from ports.csv (LandProvince).
-  - Has River: derived from rivers.png ink detection (land only).
+  - Has River: derived from rivers ink detection (land only).
 
 Dependencies:
   - Required: pillow, numpy, pandas
-  - Optional: scipy (used when COAST_GUARD_MODE is 'edt' or 'auto')
+  - Optional: scipy (used when COAST_GUARD_MODE is "edt" or "auto")
 """
 # =============================================================================
 # Imports
@@ -44,10 +43,12 @@ from collections import defaultdict
 import numpy as np
 import pandas as pd
 from PIL import Image
+import logging
+
 Image.MAX_IMAGE_PIXELS = None
 
 # =============================================================================
-# 0) Paths
+# 0) Paths and configuration
 # =============================================================================
 
 EU5_ROOT = r"C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis V"
@@ -72,9 +73,9 @@ RIVERS_IMG_CANDIDATES = [
 
 TOOL_NAME = "EU5 Locations Master Builder"
 TOOL_VERSION = "v1.1"
-SCHEMA_VERSION = "v1.1"   # bump only when MASTER CSV schema changes
+SCHEMA_VERSION = "v1.1"
 
-OUT_TAG = "v1_1"          # filesystem-friendly tag
+OUT_TAG = "v1_1"
 OUT_PREFIX = "eu5_locations_master"
 
 OUTPUT_CSV          = os.path.join(os.getcwd(), f"{OUT_PREFIX}_raw.csv")
@@ -102,11 +103,25 @@ COAST_GUARD_MODE = 'auto'  # 'dilate' | 'edt' | 'auto'
 
 DEBUG_DOWNSAMPLE = 4
 
-CACHE_ENABLE = (os.environ.get('EU5_CACHE') or '1').strip().lower() in ('1','true','yes','on')
-CACHE_ENABLE = CACHE_ENABLE and (os.environ.get('EU5_NO_CACHE') or '').strip().lower() not in ('1','true','yes','on')
-CACHE_DIR = os.environ.get('EU5_CACHE_DIR') or os.path.join(os.getcwd(), '.tmp', f"eu5_locations_cache_{OUT_TAG}")
+# Persistent cache: speeds up 2nd+ runs dramatically by reusing heavy image-derived artifacts.
+# Default: enabled. Disable by setting EU5_NO_CACHE=1 or EU5_CACHE=0.
+_cache_env = (os.environ.get("EU5_CACHE") or "").strip().lower()
+_no_cache_env = (os.environ.get("EU5_NO_CACHE") or "").strip().lower()
+
+if _no_cache_env in ("1", "true", "yes", "on"):
+    CACHE_ENABLE = False
+elif _cache_env in ("0", "false", "no", "off"):
+    CACHE_ENABLE = False
+elif _cache_env in ("1", "true", "yes", "on"):
+    CACHE_ENABLE = True
+else:
+    CACHE_ENABLE = True
+
+# Keep caches under .tmp by default so they don't show up as untracked files.
+CACHE_DIR = os.environ.get("EU5_CACHE_DIR") or os.path.join(os.getcwd(), ".tmp", f"eu5_locations_cache_{OUT_TAG}")
+
 # Cache schema tag for rivers payload (two-track)
-CACHE_FORMAT_RIVERS = "rivers_cache_v2_two_track"
+CACHE_FORMAT_RIVERS = "rivers_cache_v3_fpfast"
 
 # Cache schema tag for adjacency payloads (coastal)
 
@@ -173,11 +188,13 @@ def file_sha256(path: str, chunk_size: int = 1024 * 1024) -> str:
             h.update(chunk)
     return h.hexdigest()
 
-# - Hashing policy (speed-first)
-#   - EU5_HASH_INPUTS=1 : hash all inputs (strict but slower)
-#   - EU5_HASH_MAX_BYTES: hash small files only (default 10MB)
-HASH_INPUTS = (os.environ.get('EU5_HASH_INPUTS') or '').strip().lower() in ('1','true','yes','on')
-HASH_MAX_BYTES = int(os.environ.get('EU5_HASH_MAX_BYTES') or str(10 * 1024 * 1024))
+
+# Input fingerprinting
+# - By default, large files (e.g., locations.png / rivers.png) are NOT hashed because that defeats caching speedups.
+# - Small files are hashed (up to EU5_HASH_MAX_BYTES) to keep cache invalidation robust.
+# - Force hashing for all inputs with EU5_HASH_INPUTS=1.
+HASH_INPUTS = (os.environ.get("EU5_HASH_INPUTS") or "").strip().lower() in ("1", "true", "yes", "on")
+HASH_MAX_BYTES = int(os.environ.get("EU5_HASH_MAX_BYTES") or str(10 * 1024 * 1024))
 
 
 def safe_stat_and_hash(path: str) -> dict:
@@ -235,10 +252,18 @@ def cache_save(prefix: str, signature: dict, data_obj):
         return
     _cache_mkdir()
     meta_path, data_path = _cache_paths(prefix)
-    with open(meta_path, 'w', encoding='utf-8') as f:
+
+    # Atomic write to avoid partial cache files on interruption.
+    meta_tmp = meta_path + '.tmp'
+    data_tmp = data_path + '.tmp'
+
+    with open(meta_tmp, 'w', encoding='utf-8') as f:
         json.dump({'signature': signature}, f, ensure_ascii=False, indent=2)
-    with open(data_path, 'w', encoding='utf-8') as f:
+    os.replace(meta_tmp, meta_path)
+
+    with open(data_tmp, 'w', encoding='utf-8') as f:
         json.dump(data_obj, f, ensure_ascii=False)
+    os.replace(data_tmp, data_path)
 
 # =============================================================================
 # 6) Parse EU5 text assets
@@ -600,11 +625,6 @@ def main():
 
     print(f"[INFO] {TOOL_NAME} {TOOL_VERSION}")
 
-    # Enable diagnostic logging when requested.
-    if _diagnostic_enabled(sys.argv):
-        _enable_diagnostic_logger()
-
-
     required = [FILE_00_DEFAULT, FILE_DEFINITIONS, FILE_TEMPLATES, FILE_PORTS]
     missing = [p for p in required if not os.path.exists(p)]
     if missing:
@@ -649,9 +669,9 @@ def main():
         'cache_format': CACHE_FORMAT_RIVERS,
         'tool': {'name': TOOL_NAME, 'version': TOOL_VERSION},
         'schema': SCHEMA_VERSION,
-        'locations_image_sha256': safe_stat_and_hash(loc_img_path).get('sha256'),
-        'rivers_image_sha256': safe_stat_and_hash(riv_img_path).get('sha256'),
-        '00_default_sha256': safe_stat_and_hash(FILE_00_DEFAULT).get('sha256'),
+        'locations_image_fp': safe_stat_and_hash(loc_img_path),
+        'rivers_image_fp': safe_stat_and_hash(riv_img_path),
+        '00_default_fp': safe_stat_and_hash(FILE_00_DEFAULT),
         'SEA_TOL': SEA_TOL,
         'LAND_TOL': LAND_TOL,
         'COAST_GUARD': COAST_GUARD,
@@ -700,6 +720,8 @@ def main():
 
     mark('detect_rivers', t)
 
+    edge_stats = {}
+    adj_cache_used = False
 
 
     # --- Build master
@@ -744,7 +766,7 @@ def main():
     mark('build_and_write_csv', t)
 
 
-    # --- Diagnostic: river overlap on non-land (sea/lake/wasteland), two-track
+    # --- Diagnostic: river overlap on non-land tiles (two-track)
     t = time.time()
     df_idx = df.set_index('ID', drop=False)
     diag_rows = []
@@ -893,6 +915,10 @@ def main():
                 'counts_by_type': df_diag['Type'].value_counts().to_dict() if not df_diag.empty else {},
                 'raw_threshold_hits': raw_hits,
                 'guarded_threshold_hits': grd_hits,
+            },
+            'coastal': {
+                'adjacency_edges': edge_stats,
+                'adj_cache_used': bool(adj_cache_used),
             },
             'qc': {
                 'qc_flag_rows': int(df_qc.shape[0]),
