@@ -1,0 +1,298 @@
+{
+  "horses": {
+    "name": "Pferde",
+    "desc": "Pferde wurden vor etwa sechstausend Jahren irgendwo auf der eurasischen Steppe domestiziert. Seit damals setzen Menschen sie für eine breite Palette an Tätigkeiten ein – darunter wohl am wichtigsten: das Führen von Kriegen. In dieser Hinsicht herrschten im Mittelalter goldene Zeiten für die Reiterei, da ihre Entwicklung eng mit der Feudalgesellschaft verflochten war."
+  },
+  "clay": {
+    "name": "Lehm",
+    "desc": "Lehm ist eine Bodenart, die schon in der Vorgeschichte von Menschen genutzt wurde, um Töpferwaren und Keramik herzustellen. Ansonsten wird er vor allem für den Bau eingesetzt, entweder in Verbindung mit anderen Materialien oder in Form von Ziegeln. Tontafeln waren die ersten Schreibinstrumente, deren Auswirkung auf die Entwicklung der Zivilisation unbestreitbar ist."
+  },
+  "sand": {
+    "name": "Sand",
+    "desc": "Sand zählt zu den am weitesten verbreiteten Materialien der Erde und lässt sich auf vielfältige Arten und Weisen verwenden. Er ist das wohl gebräuchlichste Schleifmaterial, um Stein und Metall in Form zu bringen, da er rau und grob genug dafür ist. Er findet allerdings zudem in vielen Baumaterialien Verwendung und ist unter anderem auch der Hauptrohstoff für die Herstellung von Glas."
+  },
+  "coal": {
+    "name": "Kohle",
+    "desc": "Kohle hat eine lange Geschichte als Brennstoff, doch erst mit der Erfindung und Verbreitung praktikabler Dampfmaschinen zog die Nachfrage wirklich an. Sobald die industrielle Revolution Europa erfasst, werden Einsatz, Einfuhr und Ausfuhr von Kohle zu einem großen Geschäft und einem wesentlichen Bestandteil der modernen Wirtschaft."
+  },
+  "iron": {
+    "name": "Eisen",
+    "desc": "Eisen stellt nicht nur einfach Eisen dar, sondern auch andere eisenhaltige Metalle. Eisen ist die Grundlage der Metallindustrie und wird in erheblichem Maß für Waffen und andere Militärausrüstung verwendet."
+  },
+  "copper": {
+    "name": "Kupfer",
+    "desc": "Kupfer ist seit der Erfindung und Verbreitung der Metallurgie vor Jahrtausenden einer der wichtigsten Werkstoffe. Es lässt sich vielfältig nutzen, da man es sowohl in Reinform als auch in Legierungen wie Bronze verarbeiten kann. So wird es zu einem wichtigen Werkstoff für die Waffenherstellung, denn frühe Kanonen hatten Bronzerohre."
+  },
+  "goods_gold": {
+    "name": "Gold",
+    "desc": "Gold ist seit jeher das wertvollste Metall und wird in großem Maß für den Handel und die Anhäufung von Reichtum in Form von Münzen oder verschiedenen Arten von Schmuckstücken verwendet. Es fungiert oft als Hauptwährung in Doppel- oder Dreifachwährungen, sodass eine sehr große Nachfrage danach herrscht und es zu einem Objekt der Begierde bei der Entdeckung neuer Territorien geworden ist."
+  },
+  "silver": {
+    "name": "Silber",
+    "desc": "Silber war eines der ersten Metalle, die als Zahlungsmittel verwendet wurden und in dieser Hinsicht ebenso erfolgreich wie Gold. Mitteleuropa wurde im Mittelalter zum Zentrum der Silberproduktion, doch der Kolumbianische Austausch verschob den Schwerpunkt der Weltproduktion in die beiden Amerikas, wo sich seit dem 16. Jahrhundert die Hauptproduktionszentren befinden."
+  },
+  "stone": {
+    "name": "Stein",
+    "desc": "Stein war seit jeher eines der Hauptbaumaterialien der Menschheit. Er ist stärker und haltbarer als Lehm oder Holz und bot sich daher für alle Bauwerke an, die Bestand haben sollten. Gebäude aus längst vergangen Zeiten (wie die Pyramiden) haben aufgrund der Haltbarkeit des Materials, aus dem sie errichtet wurden, bis in unsere Zeit überdauert."
+  },
+  "tin": {
+    "name": "Zinn",
+    "desc": "Zinn wurde erstmals in größerem Maß verwendet, als es vor etwa 5.000 Jahren zu Bronze legiert wurde. Später wurde Zinn weithin genutzt, um andere Metalle und Legierungen zu überziehen und vor Rost zu schützen (darunter Eisen, Blei und Stahl). Zinn wird allerdings auch in Form von Hartzinn für Besteck verwendet."
+  },
+  "lead": {
+    "name": "Blei",
+    "desc": "Blei gewinnt man schon seit der Antike als Nebenerzeugnis des Verbrennens von Galenit bei der Silberextraktion. Es fand dann auch eine breite Verwendung bei der Herstellung diverser Haushaltswaren. Insbesondere die Römer hatten eine Bleiproduktion, deren Ausmaße erst wieder während der industriellen Revolution erreicht werden sollten. In der Neuzeit wird Blei schließlich das Hauptmaterial für die Kugeln von Feuerwaffen."
+  },
+  "silk": {
+    "name": "Seide",
+    "desc": "Das edelste aller Tücher des Ostens war die Seide, die man in Indien, China und Ostasien herstellte. Sie mag zwar weniger ikonisch als Gewürze sein, doch die Gewinne mit Seide und fein gewobenen Baumwollstoffen sollten für die Ostindien-Kompanien Europas bald den Gewürzhandel in den Schatten stellen.\\nAufgrund der steigenden Nachfrage versuchte man auch, Material vor Ort im merkantilistischen Europa herzustellen, was allerdings nicht immer von Erfolg gekrönt war."
+  },
+  "dyes": {
+    "name": "Färbemittel",
+    "desc": "Solange man Tuch webte, gab es bereits einen Markt für gute Färbemittel. Im späten Mittelalter waren teure Färbemittel wie Indigo ein Vermögen wert, weil seine Quelle in Indien so weit entfernt war.\\nAls die Welt sich öffnete, wurde es auch leichter, Färbemittel zu beschaffen, da man sie nun in Amerika herstellen konnte und weil der indische Markt einfacher zu erreichen war. Trotzdem blieben Färbemittel bis ins frühe 19. Jahrhundert teuer, doch als die Färbemittelplantagen in Indien in europäische Hände fielen, kam es zu einem richtiggehenden Goldrausch."
+  },
+  "incense": {
+    "name": "Weihrauch",
+    "desc": "Rauch und Düfte durch das Verbrennen von Materialien zu verbreiten, ist schon seit Jahrhunderten bei Zeremonien üblich. Weihrauch, Adlerholz, Sandelholz, Myrrhe und andere Waren, die sich hierfür verwenden lassen, kommen an recht wenigen Orten vor, sodass ihre Verbreitung einen wichtigen Beitrag zur Entstehung von Handelsnetzwerken wie der Seidenstraße oder der entsprechend benannten Weihrauchstraße leistete."
+  },
+  "tea": {
+    "name": "Tee",
+    "desc": "Tee war ein wichtiges Luxusgetränk in China, Indien und Südostasien. Es wurde oft bei religiösen und gesellschaftlichen Ritualen verwendet. Die Engländer machten den Tee in Europa populär. Das Trinken von Tee galt nie als so edel wie das Trinken von Kaffee, doch es brachte große Gewinne ein, allein schon deshalb, weil das Angebot weltweit so klein war."
+  },
+  "cocoa": {
+    "name": "Kakao",
+    "desc": "Kakao wurde von Azteken, Inka und indianischen Herrschern schon seit dem frühen Mittelalter als belebendes Genussmittel verwendet. In Europa wurde er im frühen 16. Jahrhundert beliebt, als die Spanier ihn aus den amerikanischen Kolonien einführten. Kakao wurde rasch ein Luxus, den die Reichen genossen."
+  },
+  "coffee": {
+    "name": "Kaffee",
+    "desc": "Kaffee wurde im Nordosten Äthiopiens entdeckt, und die Kaffeekultivierung erfolgte dann erstmals im Süden Arabiens. Vom Nahen Osten aus verbreitete sich der Kaffee im 17. Jahrhundert nach Italien und wurde danach im Rest Europas eingeführt. Kaffee wurde weithin akzeptiert, nachdem es von Papst Clemens VIII. im Jahr 1600 zum „christlichen Getränk“ erklärt wurde, obwohl es Bestrebungen gab, ihn als muslimisches Getränk zu verbieten."
+  },
+  "fiber_crops": {
+    "name": "Faserpflanzen",
+    "desc": "Viele verschiedene Faserpflanzen werden weltweit verwendet, um eine Vielzahl von Waren herzustellen, darunter Seile, Taue, Fischernetze und Kleidung. Neben ihrer Nutzung als grober Stoff waren viele aber auch Teil von edleren Tüchern, die bei Zeremonien, im Haushalt oder sonst wo Verwendung fanden. Beispiele sind Hanf, Flachs, Jute und Sisal."
+  },
+  "ivory": {
+    "name": "Elfenbein",
+    "desc": "Elfenbein war neben Sklaven eines der Hauptausfuhrgüter Afrikas. Es war hoch begehrt bei Europäern, die es für verschiedene Waren wie Besteck, Geschenkartikel, kleine Kunstwerke und Möbel verwendeten."
+  },
+  "lumber": {
+    "name": "Nutzholz",
+    "desc": "Nutzholz war im Lauf der menschlichen Geschichte seit jeher eines der wichtigsten Baumaterialien. Es ist zwar weniger haltbar als Stein, doch da es so viel verfügbarer ist, wird es in der ganzen Welt verwendet. Selbst Gebäude, die eigentlich möglichst standfest sein sollten (wie Burgen und Befestigungen) haben Varianten, die aus Holz anstelle von Stein bestehen."
+  },
+  "salt": {
+    "name": "Salz",
+    "desc": "Salz ist unverzichtbar für das menschliche Leben. Noch dazu war Pökeln die am weitesten verbreitete Methode, um Nahrung für die Wintermonate haltbar zu machen. Dafür nutzte man entweder Steinsalz, das aus den Minen Mitteleuropas stammte, oder Natursalz, das in salzigen Feuchtgebieten an sonnigen Küstenregionen durch Verdunstung gewonnen wurde."
+  },
+  "medicaments": {
+    "name": "Heilmittel",
+    "desc": "Im Lauf der Geschichte wurden vielfältigste Tier- und Pflanzenteile genutzt, um allerlei Krankheiten zu behandeln. Manche hatten heilende Wirkung, anderen sagte man diese nur nach – und in manchen Fällen war offenbar allein der Glaube entscheidend für die Wirksamkeit."
+  },
+  "gems": {
+    "name": "Edelsteine",
+    "desc": "Seit frühesten Zeiten werden Steine wie Rubine, Saphire, Diamanten, Smaragde und Jade für Schmuck und Zeremoniengewänder verwendet. Jahrhundertelang lag die einzige weltweit bekannte Quelle von Diamanten bei den berühmten Minen von Golkonda. Nicht alle Edelsteine sind derart selten, doch sie alle sind ein stark gesuchtes Gut."
+  },
+  "pearls": {
+    "name": "Perlen",
+    "desc": "Perlen entstehen in unterschiedlichen Formen von Schalentieren. Das Endergebnis ist ein harter, glänzender Gegenstand, der idealerweise rund ist, aber auch andere Formen aufweisen kann. Perlen werden für ihre Schönheit geschätzt und ähnlich wie Edelsteine als Schmuck überall auf der Welt und zu allen Zeiten der Menschheitsgeschichte genutzt."
+  },
+  "amber": {
+    "name": "Bernstein",
+    "desc": "Bernstein ist versteinertes Harz, das man vor allem für die Herstellung von Schmuck und Verzierungen nutzt, was es zu einer wertvollen Ware macht. Seine Hauptquelle stellen Vorkommen vor der preußischen Küste dar, die erstmals in einem Schriftstück aus dem 12. Jahrhundert Erwähnung finden."
+  },
+  "saltpeter": {
+    "name": "Salpeter",
+    "desc": "Salpeter ist schon seit der Antike bekannt und wurde als Dünger oder auch als Salz in der Fleischverarbeitung verwendet. Durch die Erfindung der Feuerwaffen und des Schießpulvers im Mittelalter ist seine Bedeutung jedoch deutlich gewachsen, denn schließlich ist er für Letzteres eine der Hauptzutaten neben Holzkohle und Schwefel. Er wird in großen Mengen in der ganzen Welt abgebaut und soll noch durchaus berüchtigt werden."
+  },
+  "alum": {
+    "name": "Alaune",
+    "desc": "Alaune ist eine entscheidende Zutat für die Herstellung von Färbemitteln sowie für das Gerben. Sie wird in vielen künstlerischen und handwerklichen Zusammenhängen verwendet, vor allem aber beim Malen und Illuminieren. Ursprünglich stammt sie aus der Tschad-Region und wurde auf Märkten in der gesamten islamischen Welt gehandelt. Im Spätmittelalter beutete man aber auch andere Quellen in Europa aus."
+  },
+  "wine": {
+    "name": "Wein",
+    "desc": "Wein wird schon seit undenkbar langer Zeit im Südteil von Europa hergestellt. Er ist immer noch ein wichtiger Teil der täglichen Ernährung (außer in der muslimischen Welt). Wein gilt dabei nicht als Luxusprodukt, sondern dient vor allem als angenehme Abwechslung bei einer ansonsten eintönigen Ernährung."
+  },
+  "elephants": {
+    "name": "Elefanten",
+    "desc": "Elefanten werden seit der Antike in Indien, Südostasien, dem Nahen Osten und Nordafrika auch im Krieg eingesetzt. In einigen Regionen setzte sich ihr Einsatz bis ins Mittelalter fort, doch das Aufkommen der Schießpulverkriegsführung in der Neuzeit überholte irgendwann ihren Nutzen."
+  },
+  "marble": {
+    "name": "Marmor",
+    "desc": "Marmor wird seit der Antike für Standbilder und beim Gebäudebau verwendet und gilt aufgrund seiner Erscheinung und seiner Formbarkeit als Luxusmaterial. Einige der besten Werke von Künstlern der Renaissance und des Barocks (wie etwa Michelangelo und Bernini) wurden aus Marmor gefertigt."
+  },
+  "mercury": {
+    "name": "Quecksilber",
+    "desc": "$mercury$ wird in der Medizin verwendet, vor allem aber zur Raffinierung von Gold- und Silbererzen minderer Qualität, um sie zu veredeln und Gewinne mit ihnen erzielen zu können."
+  },
+  "saffron": {
+    "name": "Safran",
+    "desc": "Schon in der Antike war Safran bekannt und wurde trotz seiner hohen Kosten nicht nur in der Küche verwendet, sondern auch als Form der Naturmedizin und Färbemittel für Kleidung."
+  },
+  "pepper": {
+    "name": "Pfeffer",
+    "desc": "Auch wenn es viele Arten von Pflanzen gibt, die man als ‚Pfeffer‘ bezeichnet, haben sie alle einen beißenden, scharfen Geschmack gemein, der sie ideal zum Würzen, aber auch zu einem Naturheilmittel macht."
+  },
+  "cloves": {
+    "name": "Nelken",
+    "desc": "Nelken sind die aromatischen Blütenknospen eines Baums, den man auf den Molukken finden. Sie wurden zu einem der kostbarsten und beliebtesten Gewürze im eurasischen Handelsnetzwerk, sodass die Europäer im Spätmittelalter begannen, nach neuen Versorgungsquellen für dieses und andere Gewürze zu suchen."
+  },
+  "chili": {
+    "name": "Chili",
+    "desc": "Einige Arten dieser Pflanzen stammen aus Mittel- und Südamerika. Sie sind bekannt für ihren kräftigen Geschmack und den Umstand, dass sie jedem Gericht Schärfe verleihen können. Man baut sie schon seit der Antike in Amerika an, sodass es eine breite Palette an Geschmäckern und Schärfegraden bei diesem gesuchten Gewürz gibt."
+  },
+  "cotton": {
+    "name": "Baumwolle",
+    "desc": "Die ursprünglich aus Zentralasien stammende Baumwolle wurde in Europa erst großflächig genutzt, nachdem sie in den amerikanischen Kolonien eingeführt worden war, um danach in der Tuchindustrie des späten 18. Jahrhunderts als günstiger, aber guter Ersatz für oder Ergänzung von Wolle Verwendung zu finden."
+  },
+  "sugar": {
+    "name": "Zucker",
+    "desc": "Zucker wurde nicht nur als Süßungsmittel verwendet, sondern auch zur Haltbarmachung von Nahrung. Zuckerrohr war zu jener Zeit die einzig bekannte Quelle der Zuckergewinnung und wurde ursprünglich auf einigen Mittelmeerinseln angebaut. Doch schon bald verlegte man das arbeitsintensive Plantagensystem in die beiden Amerikas (und dort insbesondere auf die karibischen Inseln), sodass Zucker danach hauptsächlich in Übersee produziert wurde."
+  },
+  "tobacco": {
+    "name": "Tabak",
+    "desc": "Tabak war in Europa unbekannt, bevor man ihn im späten 16. Jahrhundert von den Amerikanern kaufte. Er kam bei der Oberschicht, die ihn sich leisten konnte, rasch in Mode und sicherte das schnelle und gewinnträchtige Wachstum der britischen Kolonien in Nordamerika und Portugiesisch-Brasilien. Niemand wusste genau, was man sich da in die Pfeife stopfte, doch keiner konnte aufhören, es zu rauchen."
+  },
+  "tar": {
+    "name": "Pech",
+    "desc": "Dieser Stoff wird aus Pflanzen hergestellt und ist besonders wertvoll für den Schiffbau. Er sieht wie eine zähe, schwarze Flüssigkeit aus, die durch starkes Destillieren entsteht. Pech wird zur Versiegelung von Schiffsrümpfen und als billiges Mittel verwendet, um Segel wasserabweisend zu machen."
+  },
+  "porcelain": {
+    "name": "Porzellan",
+    "desc": "Porzellan ist eine Art der Keramik, die sich durch ihre Stärke und Lichtdurchlässigkeit auszeichnet und durch die Verglasung der Ausgangsmaterialien bei hohen Temperaturen entsteht. Sie wurde in China über einen langen Zeitraum hinweg entwickelt, der mehr als dreitausend Jahre in die Vergangenheit reicht. Richtiges Porzellan wurde jedoch bereits vor fast zweitausend Jahren entwickelt und breitete sich schließlich als hoch begehrte Ware über die ganze Welt aus."
+  },
+  "naval_supplies": {
+    "name": "Schiffsausrüstung",
+    "desc": "Schiffsausrüstung stellt alles dar, was man für den Bau von Schiffen braucht – von einfachem Holz bis hin zu Pech, Seilen, Planen, Segeln und verschiedenen anderen Materialien. Die Ostsee war anfangs einer der Hauptlieferanten, bis Nordamerika ab dem frühen 18. Jahrhundert eine Alternative darstellte. Die Kolonialexpansion in Amerika diente in Teilen dazu, die Versorgung mit dieser wichtigen Ware sicherzustellen."
+  },
+  "firearms": {
+    "name": "Feuerwaffen",
+    "desc": "Die Entwicklung und Einführung von Gewehren veränderte die Dynamik auf den Schlachtfeldern. Kriege, die in Asien und Europa stattfinden, erfordern nun die Herstellung, die Einfuhr und die Nutzung des mächtigen Schießpulvers. Schusswaffen sind zu einer natürlichen Weiterentwicklung der Kriegsführung geworden und zu einem entscheidenden Werkzeug, um die Souveränität von Domänen rund um den Globus zu bewahren."
+  },
+  "cannons": {
+    "name": "Kanonen",
+    "desc": "Obwohl es Belagerungswaffen schon seit der Antike gibt, sorgte die Entdeckung des Schießpulvers für den Aufstieg einiger Waffen mit einem ungeheuren und bislang noch nie gekannten Zerstörungspotenzial. Man kann nun größere Gegenstände mit einer höheren Geschwindigkeit auf größere Entfernungen „schleudern“ als je, sodass sie selbst stabile Befestigungen rasch in die Knie zwingen. Und ganz zu schweigen davon, was diese Geschosse anrichten können, wenn man sie gegen eine Armee richtet …"
+  },
+  "weaponry": {
+    "name": "Waffen",
+    "desc": "Verschiedene Waffen wie Schwerter, Piken und Bögen stellen die Kernbewaffnung aller Armeen dar. Die Techniken bei ihrer Anfertigung sind eine Kunst, die im Lauf der Zeitalter ständig weiter verfeinert wurde. Ungeachtet der Unterschiede zwischen den verschiedenen Epochen werden Waffen immer ein entscheidendes Mittel bleiben, um die eigene Unabhängigkeit zu wahren."
+  },
+  "glass": {
+    "name": "Glas",
+    "desc": "Glas wird schon seit vielen Jahrhunderten als nützliches Material für Kunst und Architektur oder einfach als Gefäß für die tägliche Verwendung geschätzt. Die Technik des Glasmachens verfeinerte sich immer weiter, sodass Glas auch wichtig in der Optik wurde, um Brillen, Teleskope sowie eine Vielzahl anderer Gerätschaften herzustellen, die von der Navigation auf See bis hin zu den Naturwissenschaften eine wichtige Bedeutung erlangen sollten."
+  },
+  "steel": {
+    "name": "Stahl",
+    "desc": "Stahl wird weithin für die Herstellung von Waffen – darunter auch Schusswaffen – eingesetzt. Unterschiedliche Waffen nutzen dabei auch unterschiedliche Gütegrade: stumpfer Stahl für Äxte und hochwertiger Stahl für Schwerter und Messer. Stahl wird zudem als Hauptmaterial für das Schmieden von Ausrüstung und Werkzeugen verwendet."
+  },
+  "cloth": {
+    "name": "Stoff",
+    "desc": "Stoff stellt die verschiedenen Tuche und Kleidungsformen dar, die man aus Wolle und Leinen fertigt. Später wird aus Indien und den beiden Amerikas eingeführte Baumwolle das wichtigste Material für Stoff."
+  },
+  "fine_cloth": {
+    "name": "Feinstoff",
+    "desc": "Edle Kleidung war ein Statussymbol für die reichen Eliten. Tuche wie Damast, Musselin und Brokat wurden im Mittelalter und in der Neuzeit in der ganzen Welt als sehr lohnenswerte Geschäftsgüter verkauft und nachgeahmt."
+  },
+  "liquor": {
+    "name": "Spirituosen",
+    "desc": "Spirituosen sind alkoholische Getränke, die man durch das „Brennen“ (also Destillieren) verschiedener Pflanzen oder Früchte herstellt. Durch das Brennen erhöht sich der Alkoholanteil. Zu den beliebten Spirituosen, die in der Welt gebrannt und getrunken werden, zählen unter anderem Gin, Rum, Whisky, Wodka, Tequila und Shōchū."
+  },
+  "beer": {
+    "name": "Bier",
+    "desc": "Bier ist seit der Jungsteinzeit ein fester Bestandteil der Ernährung. Es verbreitete sich im Mittelalter weiter und war Gegenstand einer der ältesten bekannten Nahrungsmittelverordnungen: des bayrischen Reinheitsgebots."
+  },
+  "paper": {
+    "name": "Papier",
+    "desc": "Papier ist unverzichtbar, was eine Buchhaltung, Verwaltung oder Wissensverbreitung auf gehobenem Niveau angeht. Das Verfahren zu seiner Herstellung wurde ursprünglich in China entwickelt und breitete sich danach langsam in alle Winkel der Alten Welt aus. Es ist anderen Schreibmaterialien wie Pergament bei Weitem überlegen, doch eine groß angelegte Produktion erfordert besondere Kenntnisse und Ausrüstung, sodass Papier trotzdem eine rare und gesuchte Ware bleibt."
+  },
+  "books": {
+    "name": "Bücher",
+    "desc": "Bücher sind die wichtigsten Bewahrer menschlichen Wissen, seitdem vor Tausenden von Jahren die Schrift entwickelt wurde. Bücher wurden meist aus Pergament, Papier und anderen Pflanzenfasern hergestellt. Die Erfindung und Verbreitung von Drucktechniken mit beweglichen Lettern im Mittelalter sorgte dafür, dass Bücher sich sehr viel weiter verbreiteten und zugänglicher für die Bevölkerung wurden."
+  },
+  "jewelry": {
+    "name": "Schmuck",
+    "desc": "Schmuck steht für Insignien und Ziergegenstände, die geübte Schmiede aus Juwelen und Edelmetallen herstellten. Seines hohen Werts wegen wird Schmuck meist mit hohem gesellschaftlichem Stand und sogar dem Hochadel in Verbindung gebracht."
+  },
+  "leather": {
+    "name": "Leder",
+    "desc": "Als eine der ersten Entdeckungen der Menschheit wird Leder vor allem für die Herstellung von Kleidung, Fußbedeckungen sowie Ziergegenständen verwendet. Seinen Erfolg kann man vorranging seinem Tragekomfort und seiner Haltbarkeit zuschreiben. Leder wird schließlich auch zum bevorzugten Material für Speisemöbel, da es leicht zu pflegen ist, aber kaum Essensgerüche annimmt."
+  },
+  "tools": {
+    "name": "Werkzeuge",
+    "desc": "Die Herstellung von Werkzeugen ist einer der Hauptantriebe, die unserer Gesellschaft das Gedeihen erlauben. Angefangen von den einfachen und primitiven Steinwerkzeugen bis hin zu den fortschrittlichsten und präzisesten Hilfsmitteln, die durch die Nutzung der Metallurgie entwickelt wurden und nun die Schaffung neuer Ausrüstung und Waffen erlauben."
+  },
+  "masonry": {
+    "name": "Mauerwerk",
+    "desc": "Es gibt die vielfältigsten Bautechniken, was Form und Größen anbelangt. Die Möglichkeit, kleinere Mauerteile von gleichmäßiger Größe und Form herzustellen, machte Gebäude allerdings leichter zu errichten und steigerte auch ihre Lebensdauer."
+  },
+  "lacquerware": {
+    "name": "Lackwaren",
+    "desc": "Lackwaren wurden wohl schon in der Jungsteinzeit vor mehr als zehntausend Jahren in China und Japan entwickelt. Bei ihrer Fertigung überzieht man einen Gegenstand aus Holz oder Metall mit einer zierenden Lackschicht. Den Lack selbst macht man aus Baumharz und Wachs; die Deckschicht lässt sich anschließend weiter mit Malereien, Gravuren oder Gold- und Silberstaub verzieren, um so eine Luxusware herzustellen."
+  },
+  "pottery": {
+    "name": "Keramik",
+    "desc": "Einer der ältesten Belege für eine menschliche Gesellschaft ist die Fähigkeit, Ton in verschiedene Objekte zu verwandeln, die danach entscheidend für die weitere Entwicklung der Menschheit wurden. Angefangen bei kruden irdenen Vasen aus vorgeschichtlicher Zeit bis zu komplexeren Formen ist Keramik schlichweg in allen Kulturen allgegenwärtig."
+  },
+  "furniture": {
+    "name": "Möbel",
+    "desc": "Möbel erfüllen den Wunsch der Menschen danach, nicht nur ein Dach über dem Kopf zu haben. Angefangen bei einfachen Betten und Tischen bis hin zu kunstvollen Diwanen, von schlichtem Holz und Stein bis hin zu kostbaren Edelhölzern: Möbel erfüllen unterschiedlichste Zwecke und passen zu verschiedensten Geschmäckern und Geldbeuteln."
+  },
+  "wool": {
+    "name": "Wolle",
+    "desc": "Wolle stammt meistens von Schafen, die man auf kargeren Böden weiden lässt, welche sich nicht für andere Formen der Landwirtschaft eignen. Bevor man zu Baumwolle wechselte, war Wolle der Hauptrohstoff für Kleidung."
+  },
+  "wild_game": {
+    "name": "Jagdwild",
+    "desc": "Jagdwild ist eine Quelle von Nahrung und Nährstoffen für die örtliche Bevölkerung, insbesondere in wenig bewohnten ländlichen Gemeinden. Die Jagd auf Wildtiere wie Elche, Hirsche, Wildschweine und andere sind ein Eckpfeiler der Gesellschaft, da die genannten Tiere die Menschen mit Leder, Bein, Därmen und Nährstoffen versorgen."
+  },
+  "fur": {
+    "name": "Pelze",
+    "desc": "Pelze waren einer der Grundbestandteile hochwertiger und warmer Kleidung. Anfangs versorgte vor allem Russland Europa, doch mehr und mehr Pelze kamen aus Nordamerika, wo vor allem Biber die bevorzugte Beute waren, zumindest bis in die zweite Hälfte des 18. Jahrhunderts."
+  },
+  "fish": {
+    "name": "Fisch",
+    "desc": "Fisch ist zu jener Zeit eines der Grundnahrungsmittel der europäischen Bevölkerung, Fleisch hingegen ein Luxus für die große Mehrheit. Fischer sind auch die Grundlage der Handels- und Marineflotten der meisten Nationen."
+  },
+  "wheat": {
+    "name": "Weizen",
+    "desc": "Weizen steht für Pflanzennahrung, die sowohl Mensch als auch Tier ernährt. Ohne sie kommt es unausweichlich zu Aufständen und Unruhe. Andere Getreideformen und pflanzliche Nahrung sollten später um Tomaten, Mais und sogar Kartoffeln aus Amerika ergänzt, sodass es mehr Abwechslung in der Ernährung und beim Ackerbau gab."
+  },
+  "maize": {
+    "name": "Mais",
+    "desc": "Diese Kulturpflanze wurde ursprünglich vor Jahrtausenden in Mexiko erstmals für den Ackerbau genutzt. Mit dem Eintreffen der Europäer wird Mais ab dem 15. Jahrhundert auch zwischen der Alten und Neuen Welt gehandelt. Aufgrund seiner Zähigkeit und seines hohen Nährwerts sollte Mais bald zu einer weltweit gehandelten Ware werden."
+  },
+  "rice": {
+    "name": "Reis",
+    "desc": "Reis ist eine Getreideart, die man in Asien seit über zehntausend Jahren zum täglichen Verzehr nutzt. Vor mehr als dreitausend Jahren wurde er aber auch unabhängig davon in Afrika domestiziert und ist seitdem auch dort eine wichtige Nahrungsquelle. Durch den Handel mit Asien kam er in der Antike nach Europa, konnte dort jedoch andere Formen des Getreides nicht verdrängen."
+  },
+  "millet": {
+    "name": "Urkorn",
+    "desc": "Urkorn meint verschiedene Arten von Grasgetreide, die in vielen Teilen der Welt zu unterschiedlichen Zeiten seit der Jungsteinzeit domestiziert wurden. Ihre größere Verträglichkeit gegenüber kargen Böden und trockenen Umgebungen macht sie zur wichtigsten Nahrungsquelle in halbariden Regionen (im Vergleich zu anderen Formen des Getreides)."
+  },
+  "legumes": {
+    "name": "Hülsenfrüchte",
+    "desc": "Verschiedene Zivilisationen nutzten Hülsenfrüchte über Tausende von Jahren hinweg als wichtige Nahrungsquelle. Ähnlich wie Mais und Getreide kamen schließlich neue Arten von den Ufern der Neuen Welt nach Europa. Hülsenfrüchte machen nicht nur satt, sondern sind auch leicht anzubauen und mit Schiffen zu transportieren."
+  },
+  "potato": {
+    "name": "Kartoffeln",
+    "desc": "Die Kartoffel ist ein stärkehaltiges Wurzelgemüse, das am Titicaca-See von den Ureinwohnern der Anden domestiziert wurde. Aufgrund ihrer Widerstandsfähigkeit und ihres hohen Kaloriengehalts verhalf sie den Andenzivilisationen mit zum Aufstieg. Nach dem Kolumbianischen Austausch verbreitete sie sich um die ganze Welt und war ab 1750 ein übliches Nahrungsmittel in Europa, das das sprunghafte Bevölkerungswachstum im 19. Jahrhundert beförderte."
+  },
+  "livestock": {
+    "name": "Vieh",
+    "desc": "Seit Anbruch der Geschichte ist die Domestizierung von Tieren eine der wichtigsten Betätigungen der Menschheit. Zum Vieh zählen die Kühe und Schweine in reichen Ackerbaugebieten, aber auch die Herden von Weidetieren auf den Great Plains und in den Wüsten der Welt."
+  },
+  "olives": {
+    "name": "Oliven",
+    "desc": "Oliven werden von den gleichnamigen Bäumen geerntet, die man seit Jahrtausenden um das Mittelmeer herum anbaut. Sie werden vor allem in der Küche verwendet – insbesondere Olivenöl dient in der mediterranen Küche zum Kochen und Anmachen von Speisen."
+  },
+  "fruit": {
+    "name": "Obst",
+    "desc": "Obst deckt eine Reihe unterschiedlicher Früchte ab, die man von Bäumen erntet, darunter Zitronen, süße wie bittere Orangen, Äpfel und vieles mehr. Für viele sind diese Erzeugnisse unerreichbar, und sie dienen nur den Eliten als Speise. Fast überall in der Welt gibt es unterschiedliche Früchte, und das Aufkommen des Welthandels sollte diverse Völker mit ganz neuen Früchten versorgen."
+  },
+  "beeswax": {
+    "name": "Bienenwachs",
+    "desc": "Bienen waren schon in vorgeschichtlichen Zeiten Freunde der Menschen, und ihr Wachs wird auf vielfältige Arten und Weisen verwendet. Angefangen bei Kerzen bis zu Gußformen, von der Politur bis zu Schreibtafeln: Bienenwachs ist in der menschlichen Gesellschaft allgegenwärtig."
+  },
+  "slaves_goods": {
+    "name": "Sklaven",
+    "desc": "Sklaven sind seit der Antike eine Handelsware, doch im 16. Jahrhundert steigt die Nachfrage sprunghaft an, da Sklaven mit die billigsten Arbeitskräfte auf den europäischen Plantagen in den beiden Amerikas darstellten."
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "horses": {
+    "name": "Chevaux",
+    "desc": "C'est il y a environ six mille ans, dans les steppes eurasiennes, que les chevaux furent domestiqués. Depuis, l'espèce humaine leur a réservé de nombreuses tâches, dont la plus marquante est l'art de la guerre. Dans ce sens, il ne serait pas incorrect de dire que la cavalerie connut son âge d'or au Moyen Âge, où elle influença directement le développement des sociétés féodales."
+  },
+  "clay": {
+    "name": "Argile",
+    "desc": "L'argile est un type de sol exploité par l'Homme depuis l'ère préhistorique pour la poterie et la fabrication de céramiques. Associé à d'autres matériaux, il peut également être utilisé pour la construction ou la production de briques. En outre, les tablettes d'argile étant l'une des premières méthodes d'écriture inventées, nul ne saurait nier l'impact de ce matériau sur le développement de la civilisation."
+  },
+  "sand": {
+    "name": "Sable",
+    "desc": "Le sable est l'un des matériaux les plus communs sur Terre, et ses usages sont nombreux et variés. Du fait de sa nature rugueuse, il s'agit du matériau abrasif le plus couramment employé pour façonner la pierre ou le métal. Il est notamment utilisé pour la fabrication de nombreux matériaux de construction ou comme composant de base du verre, parmi bien d'autres usages."
+  },
+  "coal": {
+    "name": "Charbon",
+    "desc": "Le charbon est un combustible connu depuis longtemps, mais ce n'est pas avant l'invention et la propagation des machines à vapeur que la demande s'envolera. Lorsque la Révolution industrielle balayera l'Europe, son usage et ses exports-imports deviendront une affaire de première importance et un véritable pan de toute économie moderne."
+  },
+  "iron": {
+    "name": "Fer",
+    "desc": "Le fer représente également tous les métaux ferreux et les alliages tels que l'acier. Le fer fut à l'origine de l'industrie métallurgique et était d'un emploi courant dans la production d'armes et d'équipement militaire."
+  },
+  "copper": {
+    "name": "Cuivre",
+    "desc": "Le cuivre est l'un des matériaux les plus importants depuis l'invention et la diffusion de la métallurgie il y a des milliers d'années. Son utilisation est très variée, car il peut être travaillé seul, mais aussi dans des alliages, tels que le bronze, qui a joué un rôle particulièrement important dans la production des premiers canons."
+  },
+  "goods_gold": {
+    "name": "Or",
+    "desc": "L'or est traditionnellement considéré comme le métal le plus précieux. Il est largement utilisé dans le commerce et pour l'accumulation de richesses sous forme de pièces de monnaie ou d'objets de luxe. Son rôle de monnaie principale dans les systèmes bimétalliques ou trimétalliques suscite une forte demande, ce qui en fait un métal très recherché lors de l'exploration de nouveaux territoires."
+  },
+  "silver": {
+    "name": "Argent",
+    "desc": "L'argent est l'un des premiers métaux utilisés en tant que monnaie et la devise la plus prédominante avec l'or. Bien que l'Europe centrale fût au centre de la production d'argent au Moyen Âge, le grand échange réorienta cette activité vers les Amériques, donnant naissance à un nouveau pôle de production mondiale à partir du XVIe siècle."
+  },
+  "stone": {
+    "name": "Pierre",
+    "desc": "Plus résistante et plus durable que l'argile ou le bois, la pierre s'est de tout temps imposée comme un matériau d'excellence pour tout bâtiment fait pour durer. Si les structures des temps anciens telles que les pyramides ont pu perdurer jusqu'à notre époque, c'est sans aucun doute grâce à sa pérennité."
+  },
+  "tin": {
+    "name": "Étain",
+    "desc": "C'est il y a 5 000 ans que l'étain fut utilisé pour la première fois en métallurgie dans la fabrication du bronze. Plus tard, l'Homme s'en est servi pour recouvrir d'autres métaux et alliages, tels que le fer, le plomb ou l'acier, afin d'éviter la corrosion, ou encore pour fabriquer de l'alliage plomb-étain, très répandu dans les articles de table."
+  },
+  "lead": {
+    "name": "Plomb",
+    "desc": "Obtenu en faisant fondre de la galène, le plomb a été découvert dans l'Antiquité en tant que sous-produit de l'extraction de l'argent. Il a par la suite été utilisé dans la fabrication de multiples articles, notamment par les Romains, dont nul n'a égalé la capacité de production jusqu'à la Révolution industrielle. À l'ère moderne, le plomb est devenu le principal composant de la fabrication de munitions."
+  },
+  "silk": {
+    "name": "Soie",
+    "desc": "La soie la plus luxueuse de tout l'Orient était produite en Inde, en Chine et en Extrême-Orient. Moins connus que ceux dégagés par le commerce des épices, les profits liés à la soie et aux étoffes de coton finement tissées n'allaient pas tarder à les éclipser pour les compagnies européennes des Indes orientales.\\nDu fait de la demande accrue, des tentatives furent faites de produire ces matériaux dans l'Europe mercantiliste, avec des degrés de réussite variables toutefois."
+  },
+  "dyes": {
+    "name": "Teintures",
+    "desc": "Aussi longtemps que les textiles ont été tissés, il y a eu un marché réservé aux teintures haut de gamme. À la fin du Moyen Âge, des teintures très coûteuses, telles que l'indigo, valaient une véritable fortune, du fait de l'éloignement des régions productrices, en Inde.\\nPuis, à mesure que le monde s'ouvrait, les teintures devinrent plus faciles d'accès, à la fois par la possibilité de les produire en Amérique et par l'accès facilité au marché indien. Néanmoins, les teintures restèrent rares, et aux prémices du XIXe siècle, lorsque les Européens s'emparèrent des plantations de plantes tinctoriales, une véritable ruée vers l'or s'ensuivit."
+  },
+  "incense": {
+    "name": "Encens",
+    "desc": "Cela fait des millénaires que l'on brûle des matières pour répandre de la fumée et des parfums. Encens, bois d'agar ou de santal, myrrhe et autres matériaux appropriés à cet usage peuvent être trouvés en quelques lieux, et leur diffusion a contribué à l'établissement de réseaux commerciaux tels que la Route de la soie ou la bien nommée Route de l'encens."
+  },
+  "tea": {
+    "name": "Thé",
+    "desc": "Le thé était une boisson de luxe très prisée en Chine, en Inde et en Asie du Sud-est, souvent utilisée lors de cérémonies religieuses ou sociales. Les Britanniques le popularisèrent en Europe ; s'il ne fut jamais considéré comme aussi noble que le café, sa rareté en faisait le prix et fut à la source de véritables fortunes."
+  },
+  "cocoa": {
+    "name": "Cacao",
+    "desc": "Le cacao était utilisé comme stimulant par les dirigeants aztèques, incas et amérindiens depuis les débuts du Moyen Âge. Il fut popularisé en Europe au début du XVIe siècle, lorsque les Espagnols l'importèrent de leurs colonies américaines, devenant ainsi un produit de luxe dont seuls pouvaient profiter les plus riches."
+  },
+  "coffee": {
+    "name": "Café",
+    "desc": "Découverte dans le nord-est de l'Éthiopie, la culture du café se développa dans le sud de la péninsule arabique. De là, le café se répandit en Italie au cours du XVIIe siècle, puis en Europe. Avant 1600, il était considéré comme un « breuvage des infidèles », mais à partir du moment où le pape Clément VIII l'eut goûté et apprécié, il fut considéré comme tout à fait catholique."
+  },
+  "fiber_crops": {
+    "name": "Plantes textiles",
+    "desc": "Les plantes à fibres sont utilisées aux quatre coins du monde pour la fabrication de produits tels que les voiles, les cordes, les filets et les vêtements. En plus de donner le jour à des textiles rugueux, de nombreuses plantes à fibres permettent de produire des tissus plus raffinés employés lors de cérémonies, chez soi ou ailleurs. C'est par exemple le cas du chanvre, du lin, du jute et du sisal."
+  },
+  "ivory": {
+    "name": "Ivoire",
+    "desc": "Hormis les esclaves, l'ivoire fut l'une des principales exportations africaines. Il était très recherché par les Européens pour la fabrication d'objets manufacturés, servant dans la coutellerie, comme cadeau, comme petits objets d'art ou encore le mobilier."
+  },
+  "lumber": {
+    "name": "Bois",
+    "desc": "Dans l'histoire de l'humanité, le bois a toujours été l'un des principaux matériaux de construction utilisés. Bien qu'il soit moins robuste que la pierre, sa facilité d'acquisition en a fait une ressource incontournable dans le monde entier. Même les structures destinées à résister autant que des châteaux ou fortifications possèdent une version en bois plutôt qu'en pierre."
+  },
+  "salt": {
+    "name": "Sel",
+    "desc": "En plus d'être essentiel à la vie de l'Homme, c'était aussi le moyen le plus commun pour conserver les aliments durant les longs hivers. Il pouvait être extrait des mines d'Europe centrale ou produit par évaporation dans les marais salants."
+  },
+  "medicaments": {
+    "name": "Médicaments",
+    "desc": "À travers l'Histoire, l'Homme a fait usage de nombreux types de plantes et produits d'origine animale pour traiter les maladies, du fait de leurs propriétés médicinales avérées ou présumées. Si certains médicaments étaient basés sur des vertus attestées, d'autres pouvaient davantage relever d'une question de croyance."
+  },
+  "gems": {
+    "name": "Pierres précieuses",
+    "desc": "Depuis les époques les plus anciennes, les pierres précieuses telles que le rubis, le saphir, le diamant, l'émeraude, le jade ont été utilisées pour fabriquer bijoux et parures cérémonielles. Durant des siècles, la seule source connue de diamant a été la célèbre mine de Golkonda. Si toutes ces pierres n'ont pas la même rareté, elles n'en sont pas moins des biens de luxe recherchés."
+  },
+  "pearls": {
+    "name": "Perles",
+    "desc": "Les perles se forment à l'intérieur de différents types de mollusques à coquille. Il s'agit de corps durs, luisants et idéalement ronds, bien qu'ils puissent prendre de nombreuses formes. Appréciées pour leur beauté, les perles sont utilisées comme décorations dans le monde entier depuis les temps anciens."
+  },
+  "amber": {
+    "name": "Ambre",
+    "desc": "Formé à partir de résine fossilisée, l'ambre est un bien précieux principalement utilisé dans la fabrication de bijoux et d'ornements. On l'extrait surtout de dépôts situés sur la côte prussienne, mentionnés pour la première fois dans un document datant du XIIe siècle."
+  },
+  "saltpeter": {
+    "name": "Salpêtre",
+    "desc": "Connu depuis l'Antiquité, le salpêtre présente de nombreux usages et peut servir à fertiliser les terres ou à conserver la viande. C'est toutefois l'invention de la poudre à canon au Moyen Âge qui a véritablement provoqué son ascension, car le salpêtre en est l'un des composants, avec le charbon de bois et le soufre. Pouvant être extrait en grande quantité dans le monde entier, ce minéral n'a pas fini de jouir d'une réputation sulfureuse."
+  },
+  "alum": {
+    "name": "Alun",
+    "desc": "L'alun est un ingrédient essentiel de la production de teintures et du processus de tannage. On le retrouve également dans divers contextes artistiques et artisanaux, où il est principalement utilisé en peinture et à des fins d'illumination. Provenant majoritairement de la région du Tchad, l'alun était vendu dans l'ensemble du monde islamique, mais à la fin du Moyen Âge, d'autres sources ont commencé à être exploitées en Europe."
+  },
+  "wine": {
+    "name": "Vin",
+    "desc": "La vigne est cultivée depuis la plus haute Antiquité dans les régions du sud de l'Europe. Le vin était un élément essentiel du régime alimentaire, sauf peut-être dans le monde musulman. Il n'était pas considéré comme un produit de luxe, mais plutôt comme un moyen de diversifier un régime quotidien plutôt monotone."
+  },
+  "elephants": {
+    "name": "Éléphants",
+    "desc": "Les éléphants sont utilisés pour la guerre depuis les temps anciens en Inde, en Asie du Sud-Est, au Moyen-Orient et en Afrique du Nord. Bien que cette coutume ait perduré dans certaines de ces régions durant le Moyen Âge, l'apparition de la poudre à l'ère moderne a rapidement fait décliner leur popularité."
+  },
+  "marble": {
+    "name": "Marbre",
+    "desc": "Utilisé en sculpture et en maçonnerie depuis l'Antiquité, le marbre est considéré comme un matériau de luxe de par son apparence et sa malléabilité. Certains des plus beaux chefs-d'œuvre réalisés par des artistes de la Renaissance et du baroque, tels que Michel-Ange ou le Bernin, sont faits de marbre."
+  },
+  "mercury": {
+    "name": "Mercure",
+    "desc": "Utilisé en médecine, le $mercury$ est aussi essentiel au raffinement de l'or et des minerais d'argent de faible qualité afin d'en accroître la valeur."
+  },
+  "saffron": {
+    "name": "Safran",
+    "desc": "Connu depuis l'Antiquité, le safran est utilisé en cuisine, mais également dans des médications traditionnelles ou comme teinture dans l'habillement, en dépit de son coût élevé."
+  },
+  "pepper": {
+    "name": "Poivre",
+    "desc": "De nombreuses plantes sont connues sous le nom de poivre, mais toutes partagent ce goût piquant qui en fait un assaisonnement de choix, ainsi qu'un ingrédient prisé dans les médecines traditionnelles."
+  },
+  "cloves": {
+    "name": "Clous de girofle",
+    "desc": "Les clous de girofle sont les boutons floraux aromatiques d'un arbre que l'on trouve dans les Moluques. Ils sont devenus l'une des épices les plus prisées et les plus chères des réseaux commerciaux eurasiatiques, incitant les Européens à trouver de nouvelles sources d'approvisionnement pour cette épice et d'autres à la fin du Moyen Âge."
+  },
+  "chili": {
+    "name": "Piment",
+    "desc": "Certaines variétés de plantes originaires d'Amérique centrale et du Sud sont connues pour leur piquant et leur capacité à relever n'importe quel plat. Cultivé depuis des temps anciens en Amérique, ses nombreuses variétés offrent une large gamme de saveurs et d'intensités qui en font une épice très recherchée."
+  },
+  "cotton": {
+    "name": "Coton",
+    "desc": "Le coton était originaire d'Asie centrale, mais ne fut guère utilisé en Europe avant son introduction dans les colonies américaines pour être utilisé comme un produit complémentaire ou de substitution à la laine par l'industrie textile de la fin du XVIIIe siècle."
+  },
+  "sugar": {
+    "name": "Sucre",
+    "desc": "Le sucre était utilisé non seulement comme douceur, mais aussi pour conserver les aliments. La canne à sucre, seul moyen connu à l'époque pour obtenir du sucre, était à l'origine cultivée sur quelques îles méditerranéennes. Toutefois, la mise en place du système des plantations aux Amériques, notamment dans les Caraïbes, qui s'appuyait sur un travail intensif, déplaça les principales régions de production outre-mer."
+  },
+  "tobacco": {
+    "name": "Tabac",
+    "desc": "Le tabac était totalement inconnu de l'Europe, jusqu'à ce qu'il soit ramené des Amériques à la fin du XVIe siècle. Il devint très vite une mode pour les élites, synonyme de prospérité économique rapide pour les colonies britanniques d'Amérique du Nord ou du Brésil portugais. Nul ne savait ce qu'il y avait dedans, et nul ne pouvait s'arrêter d'en fumer."
+  },
+  "tar": {
+    "name": "Goudron",
+    "desc": "Traité à l'origine comme une culture commerciale, le goudron est un matériau très prisé dans la construction navale. Ce liquide noir et épais tient son apparence du processus agressif de distillation requis pour sa production. Il est couramment utilisé pour calfater la coque des navires et permet d'imperméabiliser les voiles à bas coût."
+  },
+  "porcelain": {
+    "name": "Porcelaine",
+    "desc": "La porcelaine est un type de céramique qui se caractérise par sa dureté et sa translucidité causée par la vitrification de matériaux à haute température. Son développement a commencé en Chine il y a plus de trois mille ans, avant d'atteindre sa forme parfaite il y a près de deux mille ans. Depuis, la porcelaine s'est répandue à travers le monde jusqu'à devenir une marchandise très recherchée."
+  },
+  "naval_supplies": {
+    "name": "Fournitures navales",
+    "desc": "Les fournitures navales représentent tout ce qui est nécessaire à la construction navale, du bois au goudron en passant par les cordages, le lin ou les voiles. La Baltique en fut le fournisseur principal, jusqu'à ce que l'Amérique du Nord en fournisse à son tour au début du XVIIIe siècle. L'expansion coloniale en Amérique visait en partie à assurer la fourniture de ces biens essentiels."
+  },
+  "firearms": {
+    "name": "Armes à feu",
+    "desc": "L'invention des armes à feu a complètement bouleversé la dynamique du champ de bataille. L'issue des conflits en Europe et en Asie sera désormais dépendante de la production, de l'importation et de la maîtrise de la poudre. S'inscrivant comme une évolution naturelle de la guerre, ces armes sont devenues un élément essentiel à la protection de la souveraineté territoriale."
+  },
+  "cannons": {
+    "name": "Canons",
+    "desc": "Même si les armes de siège existent depuis l'Antiquité, l'invention de la poudre à canon a donné naissance à des armes au potentiel destructeur inouï. Les immenses projectiles envoyés à une vitesse et à une distance encore jamais atteintes sont capables de réduire en poussière jusqu'aux plus solides fortifications et, bien entendu, de pulvériser les armées qui les reçoivent de front."
+  },
+  "weaponry": {
+    "name": "Armes",
+    "desc": "Toute armée digne de ce nom possède un arsenal constitué d'épées, de piques et d'arcs, dont la fabrication relève d'un art perfectionné à travers les âges. Malgré la technicité requise et quelle que soit l'ère, les armes seront toujours des instruments cruciaux pour protéger sa propre indépendance."
+  },
+  "glass": {
+    "name": "Verre",
+    "desc": "Le verre a été durant des siècles un matériau apprécié pour l'art, l'architecture ou simplement la fabrication de vaisselle. Avec le développement des techniques, ce matériau est aussi devenu de première importance dans le domaine des sciences de l'optique, permettant de fabriquer de simples lunettes, des télescopes, des microscopes, aux usages nombreux et divers, aussi bien pour la navigation en mer que pour les sciences naturelles."
+  },
+  "steel": {
+    "name": "Acier",
+    "desc": "L'acier est largement utilisé dans la fabrication d'armes et de canons. En fonction de sa qualité, il permet de produire différents types d'armes, l'acier grossier étant destiné aux haches et l'acier de haute qualité aux épées et couteaux. De fait, il s'agit du principal métal employé pour forger des équipements et outils."
+  },
+  "cloth": {
+    "name": "Étoffes",
+    "desc": "Les étoffes représentent les divers textiles et pièces vestimentaires tissés à partir de laine ou de fibres végétales comme le lin ou le chanvre. Le coton, importé d'Inde et des Amériques, supplanta par la suite ces matériaux."
+  },
+  "fine_cloth": {
+    "name": "Tissus fins",
+    "desc": "Les vêtements raffinés étaient traditionnellement un marqueur de statut pour les élites et les classes aisées. Les tissus tels que le damas, la mousseline ou le brocard ont été commercialisés et reproduits dans le monde entier, donnant naissance à un marché très lucratif au Moyen Âge et à l'époque moderne."
+  },
+  "liquor": {
+    "name": "Spiritueux",
+    "desc": "Un spiritueux est une boisson alcoolisée obtenue via la distillation de produits divers et variés d'origine végétale. Cette distillation est effectuée afin d'accroître le volume d'alcool. Parmi les spiritueux les plus populaires consommés à travers le monde figurent le gin, le rhum, le whisky, la vodka, la tequila ou encore le shōchū."
+  },
+  "beer": {
+    "name": "Bière",
+    "desc": "Depuis la première fois qu'elle a été brassée à l'époque du Néolithique, la bière a toujours été un pilier de la gastronomie. Ce breuvage s'est fortement répandu au Moyen Âge et a même engendré l'un des plus anciens décrets alimentaires encore en vigueur, le « Reinheitsgebot » bavarois."
+  },
+  "paper": {
+    "name": "Papier",
+    "desc": "Le papier est une nécessité pour tous les types de comptabilité perfectionnée, l'administration et la diffusion des connaissances. La façon de le produire a été à l'origine inventée en Chine, avant de se répandre progressivement partout dans le Vieux Monde. Nettement supérieur à tous les autres types de matériaux pour l'écrit, tels le parchemin, la production de masse du papier requiert autant un savoir-faire que du matériel spécifique, ce qui en fait un bien rare et recherché."
+  },
+  "books": {
+    "name": "Livres",
+    "desc": "Depuis l'invention de l'écriture il y a de cela des millénaires, les livres sont les principaux gardiens de la connaissance humaine. Ils étaient généralement faits à partir de cuir, de parchemin et d'autres fibres végétales. L'invention et la diffusion des systèmes d'impression à caractères mobiles au Moyen Âge ont permis de rendre les livres bien plus accessibles à la population."
+  },
+  "jewelry": {
+    "name": "Bijoux",
+    "desc": "Les bijoux sont des ornements ou accessoires d'apparat fabriqués par de talentueux forgerons à l'aide de pierres précieuses. Leur valeur en fait souvent l'apanage des hautes sphères sociales et même de la royauté."
+  },
+  "leather": {
+    "name": "Cuir",
+    "desc": "Figurant parmi les premières découvertes de l'humanité, le cuir est principalement utilisé dans la production de vêtements, chaussures et décorations. Son succès provient essentiellement du haut niveau de confort et de la durabilité qu'il propose, mais sa facilité d'entretien et sa résistance aux odeurs de nourriture en ont également fait un matériau de choix pour les meubles destinés à accueillir des aliments."
+  },
+  "tools": {
+    "name": "Outils",
+    "desc": "La production d'outils est le principal facteur qui a permis à la société humaine de s'épanouir. Des outils de pierre les plus simples et les plus primitifs aux outils les plus avancés et les plus précis mis au point grâce à la métallurgie, ils permettent la création d'équipements et d'armes."
+  },
+  "masonry": {
+    "name": "Maçonnerie",
+    "desc": "Il existe une infinité de techniques de maçonnerie. La capacité à fabriquer de petits objets de taille et de forme régulières permet non seulement d'accroître considérablement l'efficacité de construction des bâtiments, mais aussi leur durabilité."
+  },
+  "lacquerware": {
+    "name": "Objets laqués",
+    "desc": "Déjà fabriqués en Chine et au Japon au Néolithique, il y a plus de dix mille ans, les objets laqués sont des articles en bois ou en métal que l'on recouvre d'une couche décorative de laque, obtenue à partir de résine ou de cire. Cette couche de laque peut ensuite être peinte, gravée ou ornée de poussière d'or ou d'argent, raison pour laquelle les objets laqués sont considérés comme des produits de luxe."
+  },
+  "pottery": {
+    "name": "Poterie",
+    "desc": "L'une des marques les plus anciennes des sociétés humaines, la capacité à façonner l'argile en objets est l'un des facteurs clés du développement de l'humanité. Des vases en terre crue de la préhistoire aux formes les plus complexes, la poterie est présente dans toutes les cultures."
+  },
+  "furniture": {
+    "name": "Meubles",
+    "desc": "Le mobilier répond au besoin des individus d'avoir plus qu'un simple toit au-dessus de leur tête. Des lits et tables les plus simples aux plus élaborés, en passant par le bois brut ou même la pierre jusqu'aux matériaux plus luxueux, le mobilier sert à tous les usages et s'adapte à tous les goûts et tous les budgets."
+  },
+  "wool": {
+    "name": "Laine",
+    "desc": "La laine provenait pour l'essentiel des moutons qui paissaient sur les terres pauvres, peu propices à d'autres formes d'agriculture. Avant l'utilisation du coton, elle constituait l'essentiel des matières premières utilisées pour fabriquer les vêtements."
+  },
+  "wild_game": {
+    "name": "Gibier",
+    "desc": "Le gibier est la source de nutrition des populations locales, notamment dans les communautés rurales peu peuplées. La chasse d'animaux sauvages tels que l'élan, le cerf, le sanglier et autres constitue un pilier important de la société, dans la mesure où elle permet également d'acquérir du cuir, des os et des viscères."
+  },
+  "fur": {
+    "name": "Fourrures",
+    "desc": "Les fourrures étaient l'un des éléments de base de tout vêtement chaud de qualité. Les peaux de toutes sortes d'animaux vinrent d'abord de Russie, puis de plus en plus d'Amérique du Nord, où le castor devint très recherché jusqu'après le milieu du XVIIIe siècle."
+  },
+  "fish": {
+    "name": "Poisson",
+    "desc": "Le poisson était l'un des aliments essentiels de l'époque, car la viande était un produit de luxe pour la grande majorité de la population. Par ailleurs, les pêcheurs constituaient un vivier dans lequel étaient recrutés les marins des marines militaires et marchandes de la plupart des pays."
+  },
+  "wheat": {
+    "name": "Blé",
+    "desc": "Le blé est l'aliment végétal qui constitue le régime alimentaire de base, aussi bien pour les hommes que pour le bétail. La moindre pénurie déclenchait invariablement révoltes et émeutes. Plus tard, d'autres produits tels que la tomate, le maïs ou les pommes de terre provenant des Amériques, vinrent enrichir les choix, aussi bien en matière alimentaire que pour la production agricole."
+  },
+  "maize": {
+    "name": "Maïs",
+    "desc": "Issu du Mexique et cultivé depuis des dizaines de milliers d'années, le maïs a transité de l'Ancien Monde jusqu'au Nouveau Monde à l'arrivée des Européens au XVe siècle. Du fait de sa résistance et de sa haute valeur nutritionnelle, cette plante est vouée à devenir une ressource mondiale."
+  },
+  "rice": {
+    "name": "Riz",
+    "desc": "Le riz est un type de céréale qui prédomine en Asie depuis ses origines il y a plus de dix mille ans. L'Afrique a également commencé à le cultiver il y a plus de trois mille ans, et il s'est inscrit comme une importante source de nourriture depuis. C'est dès l'Antiquité classique, via le commerce avec l'Asie, que le riz a été introduit en Europe, même s'il n'a jamais réussi à supplanter les autres types de céréales cultivées sur place."
+  },
+  "millet": {
+    "name": "Céréales robustes",
+    "desc": "Les céréales robustes désignent divers types d'herbes céréalières cultivées dans de nombreuses régions du monde depuis le Néolithique. Leur résistance à la sécheresse et aux sols pauvres en a fait une source de nourriture plus intéressante que d'autres céréales dans les zones semi-arides."
+  },
+  "legumes": {
+    "name": "Légumineuses",
+    "desc": "À travers l'Histoire et au fil des millénaires, de nombreuses civilisations ont adopté les légumineuses comme importante source de nutrition. Tout comme pour le maïs, les Européens en ont découvert de nouveaux types à leur arrivée sur les rivages du Nouveau Monde. Outre leur nature rassasiante, les légumineuses sont peu coûteuses à produire et faciles à transporter sur les navires."
+  },
+  "potato": {
+    "name": "Pomme de terre",
+    "desc": "La pomme de terre est un tubercule farineux cultivé à l'origine à proximité du lac Titicaca par les indigènes des Andes. Elle a contribué à l'ascension des civilisations andines grâce à sa robustesse et sa haute densité énergétique. La pomme de terre s'est répandue à travers le monde au lendemain du grand échange, jusqu'à devenir en 1750 un aliment de base en Europe qui a facilité l'explosion démographique du XIXe siècle."
+  },
+  "livestock": {
+    "name": "Bétail",
+    "desc": "Depuis les époques les plus reculées de l'Histoire, le soin apporté aux animaux domestiqués a été l'une des principales occupations des hommes. Le Bétail inclut tout ce qui va des vaches aux porcs dans les régions de culture, jusqu'aux troupeaux des nomades pastoraux des grandes plaines et des vastes déserts."
+  },
+  "olives": {
+    "name": "Olives",
+    "desc": "Le fruit de l'olivier, que l'on cultive depuis des milliers d'années autour de la Méditerranée. Elles sont très appréciées en gastronomie, en particulier l'huile d'olive qui permet de cuisiner et de relever une grande variété de plats méditerranéens."
+  },
+  "fruit": {
+    "name": "Fruits",
+    "desc": "Les fruits désignent toutes sortes d'aliments cueillis sur les arbres, tels que les agrumes, les pommes et bien plus encore. Pour beaucoup, ces produits étaient considérés comme des aliments inaccessibles, car réservés aux élites. Si presque chaque région du monde possède ses propres types de fruits, c'est l'avènement du commerce mondial qui a permis de les faire découvrir à différentes populations."
+  },
+  "beeswax": {
+    "name": "Cire d'abeille",
+    "desc": "Les abeilles sont les alliées de l'humanité depuis la préhistoire, et leur cire est utilisée à de nombreuses fins. Des bougies aux moules, en passant par les produits de polissage et les tablettes d'écriture, la cire d'abeille est omniprésente dans la société humaine."
+  },
+  "slaves_goods": {
+    "name": "Esclaves",
+    "desc": "Les esclaves ont toujours été, depuis l'Antiquité, une marchandise commerciale ; mais la demande explosa à la fin du XVIe siècle, lorsque les esclaves devinrent la main-d'œuvre la moins chère pour les plantations européennes aux Amériques."
+  }
+}

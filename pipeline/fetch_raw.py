@@ -19,6 +19,8 @@ EU5_BASE = r"C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis V"
 GAME = rf"{EU5_BASE}\game\in_game"
 LOC = rf"{EU5_BASE}\game\main_menu\localization"
 
+from languages import LANGUAGES
+
 
 def ssh_cmd(cmd: str) -> str:
     """Run a command on winpc via SSH and return stdout."""
@@ -71,12 +73,12 @@ def fetch_dir(remote_dir: str, local_dir: Path, pattern: str = "*.txt") -> int:
 
 
 def fetch_loc(loc_name: str) -> None:
-    """Fetch English and Japanese localization for a given name."""
+    """Fetch localization for all supported languages."""
     loc_dir = RAW_DIR / "localization"
     loc_dir.mkdir(parents=True, exist_ok=True)
-    for lang in ("english", "japanese"):
-        fname = f"{loc_name}_l_{lang}.yml"
-        remote_path = rf"{LOC}\{lang}\{fname}"
+    for _url_code, game_code, _display in LANGUAGES:
+        fname = f"{loc_name}_l_{game_code}.yml"
+        remote_path = rf"{LOC}\{game_code}\{fname}"
         try:
             content = ssh_read_file(remote_path)
             if content.strip():
@@ -129,6 +131,7 @@ def fetch_countries():
     fetch_dir(rf"{GAME}\setup\countries", RAW_DIR / "countries")
     fetch_loc("countries")
     fetch_loc("country_names")
+    fetch_loc("country_description_category")
 
 
 @category("cultures")
@@ -144,6 +147,8 @@ def fetch_government_types():
     print("[government_types]")
     fetch_dir(rf"{GAME}\common\government_types", RAW_DIR / "government_types")
     fetch_loc("government")
+    fetch_loc("government_names")
+    fetch_loc("government_reforms")
 
 
 @category("laws")
@@ -151,6 +156,15 @@ def fetch_laws():
     print("[laws]")
     fetch_dir(rf"{GAME}\common\laws", RAW_DIR / "laws")
     fetch_loc("laws")
+    fetch_loc("laws_and_policies")
+
+
+@category("game_terms")
+def fetch_game_terms():
+    """Fetch loc files needed for game terminology (pop types, concepts, etc.)."""
+    print("[game_terms]")
+    fetch_loc("pops")
+    fetch_loc("game_concepts")
 
 
 def fetch_version():

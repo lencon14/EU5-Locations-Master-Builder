@@ -1,0 +1,22 @@
+{
+  "monarchy": {
+    "name": "군주국",
+    "desc": "$monarchy$은 한 사람이 분산되지 않은 통치권을 갖는 것을 원칙으로 하는 government_type으로, ruler는 지배층에서 가장 지위가 높습니다. heir는 보통 $game_concept_monarch$의 dynasty에 의해 결정되며 대부분의 경우 평생 동안 통치합니다.\\n\\n$game_concept_monarchs$는 royal_marriages을 활용해 alliances을 확보할 수 있으며 personal_unions을 통해 다른 countries의 왕위를 상속받는 것도 가능합니다. 그러나 승계 문제는 골치 아픈 사안으로 번질 때가 많아, 군주제는 쉽게 regencies 상태에 빠지거나 타국 $game_concept_dynasties$의 영향 아래 놓일 수 있습니다."
+  },
+  "republic": {
+    "name": "공화국",
+    "desc": "$republic$은 rulers가 election로 선출되어 시민의 대표로서 일정 기간 봉사하는 government_type입니다. $game_concept_ruler$는 [Concept('heir_selection', '선출 방식')|e]에 따라 어느 estates에도 속할 수 있습니다.\\n\\n공화정은 탄탄한 정치 제도 덕분에 권력 승계 문제에 탄력적으로 대응할 수 있지만 통치자가 왕처럼 마음대로 할 수 없기 때문에 자유롭게 활용할 수 있는 외교적 수단이 제한됩니다. 이런 이유로 [Concept('dynasties', '통치 가문')|e]의 역할이 크지 않으며 royal_marriages으로 이득을 볼 수 없습니다."
+  },
+  "theocracy": {
+    "name": "신정국",
+    "desc": "$theocracy$은 통치자가 신에게서 권력을 받았다는 관념을 기초로 하는 government_type입니다. ruler는 믿음의 종 사이에서 배출되며 세속적인 문제도 종교 지도자의 손에 결정됩니다.\\n\\n$game_concept_rulers$는 대개 election의 형태로 선출되어 평생 동안 통치하는데, 덕분에 권력 이양에 따른 분열의 여지가 적습니다."
+  },
+  "steppe_horde": {
+    "name": "스텝 지대 유목민",
+    "desc": "$steppe_horde$은 ruler의 군사력을 기반으로 하는 government_type입니다. 현 $game_concept_ruler$의 친척은 높은 확률로 heir가 될 수 있지만 연공서열과 개인적 abilities도 크게 고려됩니다.\\n\\n$game_concept_rulers$는 사회의 지배층에서 배출되는데, 동족의 충성심을 유지하기 위해서는 이웃 countries를 복속하고 말살하고 약탈할 수 있는 능력을 입증해야만 합니다. 따라서 권력 계승은 $steppe_horde$에 중대한 사건이며 $game_concept_ruler$가 자신의 힘을 입증하지 못할 경우 체제 붕괴로 이어질 수 있습니다."
+  },
+  "tribe": {
+    "name": "부족",
+    "desc": "$tribe$은 직접적인 혈연이든 사회적으로 인정되는 혈통이든 친족 개념을 중심으로 정치권력이 구조화되는 government_type입니다.\\n\\n따라서 [Concept('dynasties', '통치 가문')|e]과 가족 관계는 heir를 결정하는 데 가장 중요한 요소로 작용하며, 계승자는 반드시 사회의 지배층에 속해 있어야 하지만 연공서열, 개인적 abilities, 군사적 기량 역시 크게 고려됩니다."
+  }
+}

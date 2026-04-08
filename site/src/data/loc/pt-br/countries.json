@@ -1,0 +1,8910 @@
+{
+  "DUMMY": {
+    "name": "(placeholder)",
+    "desc": ""
+  },
+  "PIR": {
+    "name": "Piratas",
+    "desc": ""
+  },
+  "MER": {
+    "name": "Mercenários",
+    "desc": ""
+  },
+  "SWE": {
+    "name": "Suécia",
+    "desc": ""
+  },
+  "DAN": {
+    "name": "Dinamarca",
+    "desc": ""
+  },
+  "SKE": {
+    "name": "Escânia",
+    "desc": ""
+  },
+  "NOR": {
+    "name": "Noruega",
+    "desc": ""
+  },
+  "FIN": {
+    "name": "Finlândia",
+    "desc": ""
+  },
+  "BJA": {
+    "name": "Biármia",
+    "desc": ""
+  },
+  "TAV": {
+    "name": "Taváscia",
+    "desc": ""
+  },
+  "KVE": {
+    "name": "Kvenland",
+    "desc": ""
+  },
+  "SVO": {
+    "name": "Savoláxia",
+    "desc": ""
+  },
+  "ICE": {
+    "name": "Islândia",
+    "desc": ""
+  },
+  "GRL": {
+    "name": "Groenlândia",
+    "desc": ""
+  },
+  "SMI": {
+    "name": "Sápmi",
+    "desc": ""
+  },
+  "AHI": {
+    "name": "Ahis",
+    "desc": ""
+  },
+  "ALY": {
+    "name": "Alânia",
+    "desc": ""
+  },
+  "ATQ": {
+    "name": "Artuquidas",
+    "desc": ""
+  },
+  "AYD": {
+    "name": "Aidin",
+    "desc": ""
+  },
+  "BFR": {
+    "name": "Bafra",
+    "desc": ""
+  },
+  "CIL": {
+    "name": "Cilícia",
+    "desc": ""
+  },
+  "CND": {
+    "name": "Candaridas",
+    "desc": ""
+  },
+  "CYP": {
+    "name": "Chipre",
+    "desc": ""
+  },
+  "DIL": {
+    "name": "Dilmaçidas",
+    "desc": ""
+  },
+  "DUL": {
+    "name": "Dulkadiridas",
+    "desc": ""
+  },
+  "ERE": {
+    "name": "Eretnidas",
+    "desc": ""
+  },
+  "GRM": {
+    "name": "Germiyanidas",
+    "desc": ""
+  },
+  "HMD": {
+    "name": "Hamididas",
+    "desc": ""
+  },
+  "HCI": {
+    "name": "Haciemiridas",
+    "desc": ""
+  },
+  "HSN": {
+    "name": "Aiúbidas",
+    "desc": ""
+  },
+  "INA": {
+    "name": "İnançidas",
+    "desc": ""
+  },
+  "KAR": {
+    "name": "Caramânia",
+    "desc": ""
+  },
+  "KBD": {
+    "name": "Kubadidas",
+    "desc": ""
+  },
+  "KRD": {
+    "name": "Karasidas",
+    "desc": ""
+  },
+  "MEN": {
+    "name": "Menteşeidas",
+    "desc": ""
+  },
+  "SHP": {
+    "name": "Sahib Ataidas",
+    "desc": ""
+  },
+  "SRU": {
+    "name": "Saruhanidas",
+    "desc": ""
+  },
+  "SUT": {
+    "name": "Sutayidas",
+    "desc": ""
+  },
+  "TDJ": {
+    "name": "Tacettinidas",
+    "desc": ""
+  },
+  "TEK": {
+    "name": "Teke",
+    "desc": ""
+  },
+  "TRE": {
+    "name": "Trebizonda",
+    "desc": ""
+  },
+  "TUR": {
+    "name": "Otomanos",
+    "desc": ""
+  },
+  "BHT": {
+    "name": "Bohtan",
+    "desc": ""
+  },
+  "BIN": {
+    "name": "Çapakçur",
+    "desc": ""
+  },
+  "BIT": {
+    "name": "Bitlisse",
+    "desc": ""
+  },
+  "CEM": {
+    "name": "Çemişgezek",
+    "desc": ""
+  },
+  "DSN": {
+    "name": "Dasni",
+    "desc": ""
+  },
+  "DMB": {
+    "name": "Domboli-Bokht",
+    "desc": ""
+  },
+  "EGL": {
+    "name": "Egil",
+    "desc": ""
+  },
+  "HKK": {
+    "name": "Hakkari",
+    "desc": ""
+  },
+  "HZN": {
+    "name": "Hizan",
+    "desc": ""
+  },
+  "HZR": {
+    "name": "Hazro",
+    "desc": ""
+  },
+  "JLM": {
+    "name": "Jolemark",
+    "desc": ""
+  },
+  "MZJ": {
+    "name": "Mazenjani",
+    "desc": ""
+  },
+  "MUS": {
+    "name": "Mus",
+    "desc": ""
+  },
+  "SOH": {
+    "name": "Sohri",
+    "desc": ""
+  },
+  "ZRQ": {
+    "name": "Zirqan",
+    "desc": ""
+  },
+  "ZZR": {
+    "name": "Zerzari",
+    "desc": ""
+  },
+  "KIL": {
+    "name": "Kilis",
+    "desc": ""
+  },
+  "TVS": {
+    "name": "Tavas",
+    "desc": ""
+  },
+  "QTO": {
+    "name": "Quito",
+    "desc": ""
+  },
+  "CHM": {
+    "name": "Chimu",
+    "desc": ""
+  },
+  "XLL": {
+    "name": "Xllang",
+    "desc": ""
+  },
+  "CYA": {
+    "name": "Sacha-p-qulla",
+    "desc": ""
+  },
+  "TLN": {
+    "name": "Tallan",
+    "desc": ""
+  },
+  "ICM": {
+    "name": "Ichma",
+    "desc": ""
+  },
+  "WAN": {
+    "name": "Huanca",
+    "desc": ""
+  },
+  "HNK": {
+    "name": "Hanan Chanka",
+    "desc": ""
+  },
+  "URC": {
+    "name": "Urin Chanka",
+    "desc": ""
+  },
+  "CIC": {
+    "name": "Chincha",
+    "desc": ""
+  },
+  "CSU": {
+    "name": "Cusco",
+    "desc": ""
+  },
+  "AYA": {
+    "name": "Ayarmaca",
+    "desc": ""
+  },
+  "PIG": {
+    "name": "Pinagua",
+    "desc": ""
+  },
+  "PCJ": {
+    "name": "Paka Jaqis",
+    "desc": ""
+  },
+  "LUP": {
+    "name": "Lupijaki",
+    "desc": ""
+  },
+  "OMG": {
+    "name": "Omaguaca",
+    "desc": ""
+  },
+  "CAV": {
+    "name": "Calva",
+    "desc": ""
+  },
+  "MLT": {
+    "name": "Malacato",
+    "desc": ""
+  },
+  "GRR": {
+    "name": "Garrochamba",
+    "desc": ""
+  },
+  "MNT": {
+    "name": "Manta",
+    "desc": ""
+  },
+  "GCV": {
+    "name": "Guancavilca",
+    "desc": ""
+  },
+  "BBA": {
+    "name": "Baba",
+    "desc": ""
+  },
+  "SLL": {
+    "name": "Shabalula",
+    "desc": ""
+  },
+  "HKR": {
+    "name": "Hatun Kañar",
+    "desc": ""
+  },
+  "CAX": {
+    "name": "Cara",
+    "desc": ""
+  },
+  "PUU": {
+    "name": "Puruhá",
+    "desc": ""
+  },
+  "CRA": {
+    "name": "Charka",
+    "desc": ""
+  },
+  "KNA": {
+    "name": "Kana",
+    "desc": ""
+  },
+  "KRK": {
+    "name": "Karanka",
+    "desc": ""
+  },
+  "QUL": {
+    "name": "Qulla",
+    "desc": ""
+  },
+  "SUR": {
+    "name": "Sura",
+    "desc": ""
+  },
+  "PUK": {
+    "name": "Pukamuru",
+    "desc": ""
+  },
+  "BAG": {
+    "name": "Bagua",
+    "desc": ""
+  },
+  "HCH": {
+    "name": "Huamachuco",
+    "desc": ""
+  },
+  "CUI": {
+    "name": "Cuismancu",
+    "desc": ""
+  },
+  "HUA": {
+    "name": "Huaylas",
+    "desc": ""
+  },
+  "XAU": {
+    "name": "Xauxa",
+    "desc": ""
+  },
+  "CSA": {
+    "name": "Casma",
+    "desc": ""
+  },
+  "CLQ": {
+    "name": "Collique",
+    "desc": ""
+  },
+  "NTA": {
+    "name": "Canta",
+    "desc": ""
+  },
+  "ATV": {
+    "name": "Atavillos",
+    "desc": ""
+  },
+  "YAW": {
+    "name": "Yawyu",
+    "desc": ""
+  },
+  "CCY": {
+    "name": "Chancay",
+    "desc": ""
+  },
+  "HPP": {
+    "name": "Huancapampa",
+    "desc": ""
+  },
+  "HCR": {
+    "name": "Huacrachuco",
+    "desc": ""
+  },
+  "HRC": {
+    "name": "Huarco",
+    "desc": ""
+  },
+  "SRA": {
+    "name": "Sora",
+    "desc": ""
+  },
+  "MYM": {
+    "name": "Mayonmarka",
+    "desc": ""
+  },
+  "PCR": {
+    "name": "Pocra",
+    "desc": ""
+  },
+  "PCO": {
+    "name": "Parinacochas",
+    "desc": ""
+  },
+  "ANI": {
+    "name": "Aruni",
+    "desc": ""
+  },
+  "CHJ": {
+    "name": "Churajon",
+    "desc": ""
+  },
+  "CBY": {
+    "name": "Chiribaya",
+    "desc": ""
+  },
+  "CNC": {
+    "name": "Canchi",
+    "desc": ""
+  },
+  "LLG": {
+    "name": "Collagua",
+    "desc": ""
+  },
+  "AMN": {
+    "name": "Camaná",
+    "desc": ""
+  },
+  "UMA": {
+    "name": "Umasuyus",
+    "desc": ""
+  },
+  "QQH": {
+    "name": "Qhara Qhara",
+    "desc": ""
+  },
+  "CCT": {
+    "name": "Ccantumarcani",
+    "desc": ""
+  },
+  "TUP": {
+    "name": "Tupiza",
+    "desc": ""
+  },
+  "CHW": {
+    "name": "Chuwi",
+    "desc": ""
+  },
+  "KWY": {
+    "name": "Kallawaya",
+    "desc": ""
+  },
+  "KLL": {
+    "name": "Killaka",
+    "desc": ""
+  },
+  "KKE": {
+    "name": "Killke",
+    "desc": ""
+  },
+  "CNO": {
+    "name": "Chonos",
+    "desc": ""
+  },
+  "BAU": {
+    "name": "Bauré",
+    "desc": ""
+  },
+  "ALC": {
+    "name": "Allentiac",
+    "desc": ""
+  },
+  "MYC": {
+    "name": "Millcayac",
+    "desc": ""
+  },
+  "PHE": {
+    "name": "Picunche",
+    "desc": ""
+  },
+  "CPU": {
+    "name": "Cuquimpu",
+    "desc": ""
+  },
+  "CYC": {
+    "name": "Copayacu",
+    "desc": ""
+  },
+  "CCH": {
+    "name": "Calchaqui",
+    "desc": ""
+  },
+  "QIM": {
+    "name": "Quimes",
+    "desc": ""
+  },
+  "QTR": {
+    "name": "Quitor",
+    "desc": ""
+  },
+  "YEM": {
+    "name": "Iêmen",
+    "desc": ""
+  },
+  "JRW": {
+    "name": "Jarwanids",
+    "desc": ""
+  },
+  "OMA": {
+    "name": "Omã",
+    "desc": ""
+  },
+  "MEC": {
+    "name": "Meca",
+    "desc": ""
+  },
+  "SHM": {
+    "name": "Shammar",
+    "desc": ""
+  },
+  "ANZ": {
+    "name": "Anizah",
+    "desc": ""
+  },
+  "HUT": {
+    "name": "Hutaym",
+    "desc": ""
+  },
+  "HRB": {
+    "name": "Harb",
+    "desc": ""
+  },
+  "MUT": {
+    "name": "Mutayr",
+    "desc": ""
+  },
+  "UTB": {
+    "name": "Otaibah",
+    "desc": ""
+  },
+  "DWS": {
+    "name": "Dawasir",
+    "desc": ""
+  },
+  "QHT": {
+    "name": "Qahtān",
+    "desc": ""
+  },
+  "SBY": {
+    "name": "Subay",
+    "desc": ""
+  },
+  "MRH": {
+    "name": "Al Murrah",
+    "desc": ""
+  },
+  "YAM": {
+    "name": "Yām",
+    "desc": ""
+  },
+  "YAS": {
+    "name": "Yas",
+    "desc": ""
+  },
+  "MDA": {
+    "name": "Medina",
+    "desc": ""
+  },
+  "KLB": {
+    "name": "Kilab",
+    "desc": ""
+  },
+  "AAD": {
+    "name": "Al A'idh",
+    "desc": ""
+  },
+  "BNL": {
+    "name": "Lam",
+    "desc": ""
+  },
+  "AZF": {
+    "name": "Zafir",
+    "desc": ""
+  },
+  "ZIB": {
+    "name": "Zi'b",
+    "desc": ""
+  },
+  "DHF": {
+    "name": "Dofar",
+    "desc": ""
+  },
+  "ACX": {
+    "name": "Acaxee",
+    "desc": ""
+  },
+  "COP": {
+    "name": "Xawiƚƚ Kwñchawaay",
+    "desc": ""
+  },
+  "GUC": {
+    "name": "Cuauchichil",
+    "desc": ""
+  },
+  "YRM": {
+    "name": "Yoreme",
+    "desc": ""
+  },
+  "EUD": {
+    "name": "Eudeve",
+    "desc": ""
+  },
+  "TGU": {
+    "name": "Tegüis",
+    "desc": ""
+  },
+  "JOV": {
+    "name": "Jovas",
+    "desc": ""
+  },
+  "TEG": {
+    "name": "Tegüima",
+    "desc": ""
+  },
+  "CNH": {
+    "name": "Caüinachis",
+    "desc": ""
+  },
+  "PIM": {
+    "name": "Pimas",
+    "desc": ""
+  },
+  "HHK": {
+    "name": "Hohokam",
+    "desc": ""
+  },
+  "SOB": {
+    "name": "Sobaipuri",
+    "desc": ""
+  },
+  "TOO": {
+    "name": "Tohono O'odham",
+    "desc": ""
+  },
+  "OOB": {
+    "name": "O'ob",
+    "desc": ""
+  },
+  "RAR": {
+    "name": "Tarahumaras",
+    "desc": ""
+  },
+  "YAQ": {
+    "name": "Yaquis",
+    "desc": ""
+  },
+  "HOP": {
+    "name": "Hopis",
+    "desc": ""
+  },
+  "DNE": {
+    "name": "Diné",
+    "desc": ""
+  },
+  "ZNI": {
+    "name": "Zuni",
+    "desc": ""
+  },
+  "TEY": {
+    "name": "Teypana",
+    "desc": ""
+  },
+  "ISL": {
+    "name": "Shiewhibak",
+    "desc": ""
+  },
+  "ACO": {
+    "name": "Áak'u",
+    "desc": ""
+  },
+  "KER": {
+    "name": "Tsi'ya",
+    "desc": ""
+  },
+  "TNN": {
+    "name": "Tano",
+    "desc": ""
+  },
+  "TAO": {
+    "name": "Iałopháybo",
+    "desc": ""
+  },
+  "TST": {
+    "name": "Tuf Shur Tia",
+    "desc": ""
+  },
+  "OHK": {
+    "name": "Ohkwee Ówîngeh",
+    "desc": ""
+  },
+  "TTR": {
+    "name": "Totorame",
+    "desc": ""
+  },
+  "XIX": {
+    "name": "Xixime",
+    "desc": ""
+  },
+  "TAE": {
+    "name": "Tahue",
+    "desc": ""
+  },
+  "GUV": {
+    "name": "Guasave",
+    "desc": ""
+  },
+  "TPH": {
+    "name": "Tepehuan",
+    "desc": ""
+  },
+  "XUM": {
+    "name": "Xumanos",
+    "desc": ""
+  },
+  "TML": {
+    "name": "Tamauliteco",
+    "desc": ""
+  },
+  "CAD": {
+    "name": "Hasíinay",
+    "desc": ""
+  },
+  "KIH": {
+    "name": "K'itaish",
+    "desc": ""
+  },
+  "HTS": {
+    "name": "Hisatsinom",
+    "desc": ""
+  },
+  "NUW": {
+    "name": "Nuwuvi",
+    "desc": ""
+  },
+  "NWV": {
+    "name": "Nuwuvu",
+    "desc": ""
+  },
+  "CRO": {
+    "name": "Croácia",
+    "desc": ""
+  },
+  "ACH": {
+    "name": "Acaia",
+    "desc": ""
+  },
+  "ATH": {
+    "name": "Atenas",
+    "desc": ""
+  },
+  "CEP": {
+    "name": "Cefalônia",
+    "desc": ""
+  },
+  "LAT": {
+    "name": "Constantinopla",
+    "desc": ""
+  },
+  "NAX": {
+    "name": "Naxos",
+    "desc": ""
+  },
+  "EPI": {
+    "name": "Épiro",
+    "desc": ""
+  },
+  "BYZ": {
+    "name": "Bizâncio",
+    "desc": ""
+  },
+  "THE": {
+    "name": "Tessalônica",
+    "desc": ""
+  },
+  "THS": {
+    "name": "Tessália",
+    "desc": ""
+  },
+  "SER": {
+    "name": "Sérvia",
+    "desc": ""
+  },
+  "ALB": {
+    "name": "Albânia",
+    "desc": ""
+  },
+  "THP": {
+    "name": "Thopia",
+    "desc": ""
+  },
+  "MZK": {
+    "name": "Muzaka",
+    "desc": ""
+  },
+  "ANT": {
+    "name": "Arianiti",
+    "desc": ""
+  },
+  "MTR": {
+    "name": "Mataranga",
+    "desc": ""
+  },
+  "BOS": {
+    "name": "Bósnia",
+    "desc": ""
+  },
+  "RAG": {
+    "name": "Ragusa",
+    "desc": ""
+  },
+  "BUL": {
+    "name": "Bulgária",
+    "desc": ""
+  },
+  "VID": {
+    "name": "Vidin",
+    "desc": ""
+  },
+  "CLI": {
+    "name": "Cilli",
+    "desc": ""
+  },
+  "NEO": {
+    "name": "Neopátria",
+    "desc": ""
+  },
+  "BOD": {
+    "name": "Bodonitsa",
+    "desc": ""
+  },
+  "ARG": {
+    "name": "Argos",
+    "desc": ""
+  },
+  "KNI": {
+    "name": "Cavaleiros Hospitalários",
+    "desc": ""
+  },
+  "CRT": {
+    "name": "Candia",
+    "desc": ""
+  },
+  "NEG": {
+    "name": "Negroponte",
+    "desc": ""
+  },
+  "SAO": {
+    "name": "Salona",
+    "desc": ""
+  },
+  "CAR": {
+    "name": "Carniola",
+    "desc": ""
+  },
+  "TRO": {
+    "name": "Travunija",
+    "desc": ""
+  },
+  "GOR": {
+    "name": "Gorizia",
+    "desc": ""
+  },
+  "LIV": {
+    "name": "Livônia",
+    "desc": ""
+  },
+  "TEU": {
+    "name": "Teutões",
+    "desc": ""
+  },
+  "ERM": {
+    "name": "Vármia",
+    "desc": ""
+  },
+  "CHL": {
+    "name": "Chełmno",
+    "desc": ""
+  },
+  "PMS": {
+    "name": "Pomesânia",
+    "desc": ""
+  },
+  "SMD": {
+    "name": "Samland",
+    "desc": ""
+  },
+  "BIO": {
+    "name": "Ösel",
+    "desc": ""
+  },
+  "KUR": {
+    "name": "Curlândia",
+    "desc": ""
+  },
+  "BID": {
+    "name": "Dorpat",
+    "desc": ""
+  },
+  "RIG": {
+    "name": "Riga",
+    "desc": ""
+  },
+  "ARR": {
+    "name": "Riga da Letônia",
+    "desc": ""
+  },
+  "KRL": {
+    "name": "Carélia",
+    "desc": ""
+  },
+  "LIT": {
+    "name": "Lituânia",
+    "desc": ""
+  },
+  "SXM": {
+    "name": "Samogícia",
+    "desc": ""
+  },
+  "SGN": {
+    "name": "Sonargaon",
+    "desc": ""
+  },
+  "GAU": {
+    "name": "Gaur",
+    "desc": ""
+  },
+  "STN": {
+    "name": "Saptagram",
+    "desc": ""
+  },
+  "AHO": {
+    "name": "Ahom",
+    "desc": ""
+  },
+  "KMA": {
+    "name": "Kamata",
+    "desc": ""
+  },
+  "DIM": {
+    "name": "Dimasa",
+    "desc": ""
+  },
+  "TWI": {
+    "name": "Twipra",
+    "desc": ""
+  },
+  "CUT": {
+    "name": "Chutia",
+    "desc": ""
+  },
+  "JNT": {
+    "name": "Jaintia",
+    "desc": ""
+  },
+  "TRF": {
+    "name": "Taraf",
+    "desc": ""
+  },
+  "LUR": {
+    "name": "Laur",
+    "desc": ""
+  },
+  "BHP": {
+    "name": "Mallabhum",
+    "desc": ""
+  },
+  "CER": {
+    "name": "Chero",
+    "desc": ""
+  },
+  "UJJ": {
+    "name": "Ujjainiya",
+    "desc": ""
+  },
+  "RKS": {
+    "name": "Raksel",
+    "desc": ""
+  },
+  "ONW": {
+    "name": "Oiniwar",
+    "desc": ""
+  },
+  "KKR": {
+    "name": "Khokhra",
+    "desc": ""
+  },
+  "GWL": {
+    "name": "Garhwal",
+    "desc": ""
+  },
+  "KHS": {
+    "name": "Khasa",
+    "desc": ""
+  },
+  "KMN": {
+    "name": "Kumaon",
+    "desc": ""
+  },
+  "KTU": {
+    "name": "Catmandu",
+    "desc": ""
+  },
+  "DTI": {
+    "name": "Doti",
+    "desc": ""
+  },
+  "SRM": {
+    "name": "Nahan",
+    "desc": ""
+  },
+  "JBL": {
+    "name": "Jubbal",
+    "desc": ""
+  },
+  "LWA": {
+    "name": "Limbuwan",
+    "desc": ""
+  },
+  "CDD": {
+    "name": "Chaundandi",
+    "desc": ""
+  },
+  "DGL": {
+    "name": "Maldivas",
+    "desc": ""
+  },
+  "KUI": {
+    "name": "Cuicuros",
+    "desc": ""
+  },
+  "MRJ": {
+    "name": "Marajoaras",
+    "desc": ""
+  },
+  "TPA": {
+    "name": "Tupinambá",
+    "desc": ""
+  },
+  "TPQ": {
+    "name": "Tupiniquim",
+    "desc": ""
+  },
+  "CRJ": {
+    "name": "Carijó",
+    "desc": ""
+  },
+  "NDV": {
+    "name": "Ñandeva",
+    "desc": ""
+  },
+  "KIO": {
+    "name": "Kaiowá",
+    "desc": ""
+  },
+  "XTA": {
+    "name": "Xetá",
+    "desc": ""
+  },
+  "AVA": {
+    "name": "Ava",
+    "desc": ""
+  },
+  "GCZ": {
+    "name": "Goitacá",
+    "desc": ""
+  },
+  "AIM": {
+    "name": "Aimoré",
+    "desc": ""
+  },
+  "KRR": {
+    "name": "Kiriri",
+    "desc": ""
+  },
+  "CAE": {
+    "name": "Caeté",
+    "desc": ""
+  },
+  "SUC": {
+    "name": "Sucuru",
+    "desc": ""
+  },
+  "POT": {
+    "name": "potiguara",
+    "desc": ""
+  },
+  "ENG": {
+    "name": "Inglaterra",
+    "desc": ""
+  },
+  "SCO": {
+    "name": "Escócia",
+    "desc": ""
+  },
+  "SBL": {
+    "name": "Balliol",
+    "desc": ""
+  },
+  "CLA": {
+    "name": "Clandeboye",
+    "desc": ""
+  },
+  "CLR": {
+    "name": "Clanricarde",
+    "desc": ""
+  },
+  "CWM": {
+    "name": "Clanwilliam",
+    "desc": ""
+  },
+  "ULS": {
+    "name": "Úlster",
+    "desc": ""
+  },
+  "ORD": {
+    "name": "Ormond",
+    "desc": ""
+  },
+  "DMS": {
+    "name": "Desmond",
+    "desc": ""
+  },
+  "KID": {
+    "name": "Kildare",
+    "desc": ""
+  },
+  "BEA": {
+    "name": "Beare",
+    "desc": ""
+  },
+  "CMA": {
+    "name": "Connacht Ocidental",
+    "desc": ""
+  },
+  "UMH": {
+    "name": "Owill",
+    "desc": ""
+  },
+  "OSS": {
+    "name": "Ossory",
+    "desc": ""
+  },
+  "MCM": {
+    "name": "Munster",
+    "desc": ""
+  },
+  "OIL": {
+    "name": "Oriel",
+    "desc": ""
+  },
+  "AMA": {
+    "name": "Armagh",
+    "desc": ""
+  },
+  "DHM": {
+    "name": "Durham",
+    "desc": ""
+  },
+  "CET": {
+    "name": "Chester",
+    "desc": ""
+  },
+  "LAN": {
+    "name": "Lancaster",
+    "desc": ""
+  },
+  "CNN": {
+    "name": "Connacht",
+    "desc": ""
+  },
+  "MTH": {
+    "name": "Meath",
+    "desc": ""
+  },
+  "ANN": {
+    "name": "Annaly",
+    "desc": ""
+  },
+  "PLE": {
+    "name": "Pale",
+    "desc": ""
+  },
+  "WLS": {
+    "name": "País de Gales",
+    "desc": ""
+  },
+  "TYR": {
+    "name": "Tyrone",
+    "desc": ""
+  },
+  "AMH": {
+    "name": "Ardmire",
+    "desc": ""
+  },
+  "INI": {
+    "name": "Inishowen",
+    "desc": ""
+  },
+  "LEI": {
+    "name": "Leinster",
+    "desc": ""
+  },
+  "TRY": {
+    "name": "Tyrconnell",
+    "desc": ""
+  },
+  "GLS": {
+    "name": "Glens",
+    "desc": ""
+  },
+  "IVG": {
+    "name": "Iveagh",
+    "desc": ""
+  },
+  "HYM": {
+    "name": "Hy Many",
+    "desc": ""
+  },
+  "IMA": {
+    "name": "Imaal",
+    "desc": ""
+  },
+  "DCI": {
+    "name": "Decies",
+    "desc": ""
+  },
+  "TGH": {
+    "name": "Tireragh",
+    "desc": ""
+  },
+  "ELY": {
+    "name": "Ely",
+    "desc": ""
+  },
+  "FCL": {
+    "name": "Firceall",
+    "desc": ""
+  },
+  "LOI": {
+    "name": "Ilhas",
+    "desc": ""
+  },
+  "FMA": {
+    "name": "Fermanagh",
+    "desc": ""
+  },
+  "BFN": {
+    "name": "Breifne Ocidental",
+    "desc": ""
+  },
+  "CVN": {
+    "name": "Breifne Oriental",
+    "desc": ""
+  },
+  "MYO": {
+    "name": "Mayo",
+    "desc": ""
+  },
+  "THO": {
+    "name": "Thomond",
+    "desc": ""
+  },
+  "SLN": {
+    "name": "Carbury",
+    "desc": ""
+  },
+  "FLY": {
+    "name": "Offaly",
+    "desc": ""
+  },
+  "CRN": {
+    "name": "Cornualha",
+    "desc": ""
+  },
+  "GWR": {
+    "name": "Gower",
+    "desc": ""
+  },
+  "GMG": {
+    "name": "Glamorgan",
+    "desc": ""
+  },
+  "MAC": {
+    "name": "March",
+    "desc": ""
+  },
+  "AUD": {
+    "name": "Arundel",
+    "desc": ""
+  },
+  "BRO": {
+    "name": "Brecknock",
+    "desc": ""
+  },
+  "POS": {
+    "name": "Powis",
+    "desc": ""
+  },
+  "EWY": {
+    "name": "Ewyas",
+    "desc": ""
+  },
+  "CMS": {
+    "name": "Cemais",
+    "desc": ""
+  },
+  "PMB": {
+    "name": "Pembroke",
+    "desc": ""
+  },
+  "DEN": {
+    "name": "Denbigh",
+    "desc": ""
+  },
+  "GDD": {
+    "name": "Gwynedd",
+    "desc": ""
+  },
+  "PWS": {
+    "name": "Powys",
+    "desc": ""
+  },
+  "DHB": {
+    "name": "Deheubarth",
+    "desc": ""
+  },
+  "MWG": {
+    "name": "Morgannwg",
+    "desc": ""
+  },
+  "BCN": {
+    "name": "Brycheiniog",
+    "desc": ""
+  },
+  "GWT": {
+    "name": "Gwent",
+    "desc": ""
+  },
+  "MNN": {
+    "name": "Man",
+    "desc": ""
+  },
+  "ORK": {
+    "name": "Órcades",
+    "desc": ""
+  },
+  "MOY": {
+    "name": "Moray",
+    "desc": ""
+  },
+  "ROS": {
+    "name": "Ross",
+    "desc": ""
+  },
+  "NOL": {
+    "name": "Nortúmbria",
+    "desc": ""
+  },
+  "GLY": {
+    "name": "Galloway",
+    "desc": ""
+  },
+  "TRT": {
+    "name": "Taontaenrat",
+    "desc": ""
+  },
+  "AGW": {
+    "name": "Attignawantan",
+    "desc": ""
+  },
+  "ARN": {
+    "name": "Arendaronon",
+    "desc": ""
+  },
+  "ATG": {
+    "name": "Attigneenonghahac",
+    "desc": ""
+  },
+  "ATC": {
+    "name": "Ataronchronon",
+    "desc": ""
+  },
+  "ADR": {
+    "name": "Aondironon",
+    "desc": ""
+  },
+  "ONG": {
+    "name": "Onghniaahra",
+    "desc": ""
+  },
+  "TIO": {
+    "name": "Tionontate",
+    "desc": ""
+  },
+  "OSG": {
+    "name": "Osheaga",
+    "desc": ""
+  },
+  "MAS": {
+    "name": "Maisouna",
+    "desc": ""
+  },
+  "STD": {
+    "name": "Stadacona",
+    "desc": ""
+  },
+  "AGJ": {
+    "name": "Agojuda",
+    "desc": ""
+  },
+  "SOK": {
+    "name": "Mazipskoiak",
+    "desc": ""
+  },
+  "PNS": {
+    "name": "Arosaguntacook",
+    "desc": ""
+  },
+  "MLS": {
+    "name": "Wolastokwewiyik",
+    "desc": ""
+  },
+  "AKW": {
+    "name": "Atikamekw",
+    "desc": ""
+  },
+  "TMG": {
+    "name": "Temikaming",
+    "desc": ""
+  },
+  "ABT": {
+    "name": "Abitibi",
+    "desc": ""
+  },
+  "OJI": {
+    "name": "Ojíbuas",
+    "desc": ""
+  },
+  "ODW": {
+    "name": "Odawa",
+    "desc": ""
+  },
+  "NPS": {
+    "name": "Niipsing",
+    "desc": ""
+  },
+  "MSG": {
+    "name": "Missisage",
+    "desc": ""
+  },
+  "HUN": {
+    "name": "Hungria",
+    "desc": ""
+  },
+  "WAL": {
+    "name": "Valáquia",
+    "desc": ""
+  },
+  "BIA": {
+    "name": "Baia",
+    "desc": ""
+  },
+  "BLD": {
+    "name": "Bârlad",
+    "desc": ""
+  },
+  "HTN": {
+    "name": "Hotin",
+    "desc": ""
+  },
+  "HSC": {
+    "name": "Hansca",
+    "desc": ""
+  },
+  "IAS": {
+    "name": "Iaşi",
+    "desc": ""
+  },
+  "SRC": {
+    "name": "Soroca",
+    "desc": ""
+  },
+  "SSI": {
+    "name": "Străşineţ",
+    "desc": ""
+  },
+  "TRA": {
+    "name": "Transilvânia",
+    "desc": ""
+  },
+  "GEO": {
+    "name": "Geórgia",
+    "desc": ""
+  },
+  "AAI": {
+    "name": "Alastani",
+    "desc": ""
+  },
+  "IME": {
+    "name": "Imerícia",
+    "desc": ""
+  },
+  "SME": {
+    "name": "Mósquia",
+    "desc": ""
+  },
+  "SRV": {
+    "name": "Xirvã",
+    "desc": ""
+  },
+  "AVR": {
+    "name": "Avaria",
+    "desc": ""
+  },
+  "TRK": {
+    "name": "Tarki",
+    "desc": ""
+  },
+  "ARM": {
+    "name": "Armênia",
+    "desc": ""
+  },
+  "AMB": {
+    "name": "Fortaleza de Amberde",
+    "desc": ""
+  },
+  "VDZ": {
+    "name": "Vaiose Zor",
+    "desc": ""
+  },
+  "CIR": {
+    "name": "Circássia",
+    "desc": ""
+  },
+  "CPA": {
+    "name": "Copa",
+    "desc": ""
+  },
+  "HTY": {
+    "name": "Hatukay",
+    "desc": ""
+  },
+  "HYT": {
+    "name": "Hytuk",
+    "desc": ""
+  },
+  "KDA": {
+    "name": "Cabárdia",
+    "desc": ""
+  },
+  "KIP": {
+    "name": "Kipike",
+    "desc": ""
+  },
+  "TEM": {
+    "name": "Temirgoy",
+    "desc": ""
+  },
+  "SKI": {
+    "name": "Shaki",
+    "desc": ""
+  },
+  "KCN": {
+    "name": "Khachen",
+    "desc": ""
+  },
+  "SYU": {
+    "name": "Siunique",
+    "desc": ""
+  },
+  "ALN": {
+    "name": "Alânia",
+    "desc": ""
+  },
+  "DZK": {
+    "name": "Durdzuketia",
+    "desc": ""
+  },
+  "SMS": {
+    "name": "Simsir",
+    "desc": ""
+  },
+  "KAI": {
+    "name": "Kaitag",
+    "desc": ""
+  },
+  "LEK": {
+    "name": "Lekia",
+    "desc": ""
+  },
+  "RUT": {
+    "name": "Rutul",
+    "desc": ""
+  },
+  "TBA": {
+    "name": "Tabassarão",
+    "desc": ""
+  },
+  "HAA": {
+    "name": "Haaninin",
+    "desc": ""
+  },
+  "ASH": {
+    "name": "Ashalaho",
+    "desc": ""
+  },
+  "ASP": {
+    "name": "Ashshipite",
+    "desc": ""
+  },
+  "KTK": {
+    "name": "Kitikiti'sh",
+    "desc": ""
+  },
+  "TVY": {
+    "name": "Taovaya",
+    "desc": ""
+  },
+  "PTW": {
+    "name": "Pitahwarita",
+    "desc": ""
+  },
+  "KIA": {
+    "name": "Kitkehaki",
+    "desc": ""
+  },
+  "SII": {
+    "name": "Skiri",
+    "desc": ""
+  },
+  "TSW": {
+    "name": "Tsawi",
+    "desc": ""
+  },
+  "SHH": {
+    "name": "Sahnish",
+    "desc": ""
+  },
+  "NUE": {
+    "name": "Numakaki",
+    "desc": ""
+  },
+  "HIR": {
+    "name": "Hiraaca",
+    "desc": ""
+  },
+  "PCH": {
+    "name": "Pacaha",
+    "desc": ""
+  },
+  "CSQ": {
+    "name": "Casqui",
+    "desc": ""
+  },
+  "ANL": {
+    "name": "Anilco",
+    "desc": ""
+  },
+  "COL": {
+    "name": "Coligua",
+    "desc": ""
+  },
+  "CYS": {
+    "name": "Tanico",
+    "desc": ""
+  },
+  "CTI": {
+    "name": "Chitimacha",
+    "desc": ""
+  },
+  "BYG": {
+    "name": "Bayagoula",
+    "desc": ""
+  },
+  "NST": {
+    "name": "Nashit'ush",
+    "desc": ""
+  },
+  "AVY": {
+    "name": "Avoyel",
+    "desc": ""
+  },
+  "KDW": {
+    "name": "Kadawdaachuh",
+    "desc": ""
+  },
+  "TUA": {
+    "name": "Tula",
+    "desc": ""
+  },
+  "ISH": {
+    "name": "Ishak",
+    "desc": ""
+  },
+  "QMG": {
+    "name": "Quasmigdo",
+    "desc": ""
+  },
+  "TWK": {
+    "name": "Tawakoni",
+    "desc": ""
+  },
+  "HNO": {
+    "name": "Hinono'eino",
+    "desc": ""
+  },
+  "NWN": {
+    "name": "Nanwuine'nan",
+    "desc": ""
+  },
+  "NDA": {
+    "name": "Nakoda",
+    "desc": ""
+  },
+  "LKT": {
+    "name": "Dacota",
+    "desc": ""
+  },
+  "IKW": {
+    "name": "Ithanktunwanna",
+    "desc": ""
+  },
+  "IUW": {
+    "name": "Ithaktunwan",
+    "desc": ""
+  },
+  "NCH": {
+    "name": "Niuachi",
+    "desc": ""
+  },
+  "NKW": {
+    "name": "Nakawe",
+    "desc": ""
+  },
+  "TTS": {
+    "name": "Tsetsehesahese",
+    "desc": ""
+  },
+  "SOO": {
+    "name": "So'taeo'o",
+    "desc": ""
+  },
+  "BKT": {
+    "name": "Bdewekhantunwan",
+    "desc": ""
+  },
+  "STW": {
+    "name": "Sisithunwan",
+    "desc": ""
+  },
+  "WKH": {
+    "name": "Wahpekhute",
+    "desc": ""
+  },
+  "WPW": {
+    "name": "Wahpetunwan",
+    "desc": ""
+  },
+  "MIK": {
+    "name": "Micmac",
+    "desc": ""
+  },
+  "PEN": {
+    "name": "Penobscot",
+    "desc": ""
+  },
+  "PQD": {
+    "name": "Passamaquoddy",
+    "desc": ""
+  },
+  "WSK": {
+    "name": "Weskarini",
+    "desc": ""
+  },
+  "KSP": {
+    "name": "Kichesipirini",
+    "desc": ""
+  },
+  "KUS": {
+    "name": "Kuskatan",
+    "desc": ""
+  },
+  "QUA": {
+    "name": "Cuauhtemallan",
+    "desc": ""
+  },
+  "LNC": {
+    "name": "Lenca",
+    "desc": ""
+  },
+  "XIN": {
+    "name": "Xinca",
+    "desc": ""
+  },
+  "GAR": {
+    "name": "Garabito",
+    "desc": ""
+  },
+  "GUO": {
+    "name": "Guarco",
+    "desc": ""
+  },
+  "PAC": {
+    "name": "Pacaca",
+    "desc": ""
+  },
+  "NEK": {
+    "name": "Nekok Yaotl",
+    "desc": ""
+  },
+  "CTO": {
+    "name": "Coto",
+    "desc": ""
+  },
+  "TRC": {
+    "name": "Tariaca",
+    "desc": ""
+  },
+  "CBC": {
+    "name": "Cabecar",
+    "desc": ""
+  },
+  "MOX": {
+    "name": "Moxo",
+    "desc": ""
+  },
+  "MPC": {
+    "name": "Mapuche",
+    "desc": ""
+  },
+  "CUA": {
+    "name": "Charrua",
+    "desc": ""
+  },
+  "TAI": {
+    "name": "Taironas",
+    "desc": ""
+  },
+  "ZIP": {
+    "name": "Muyquyta",
+    "desc": ""
+  },
+  "ZAQ": {
+    "name": "Chunsua",
+    "desc": ""
+  },
+  "ZEN": {
+    "name": "Zenúes",
+    "desc": ""
+  },
+  "QBY": {
+    "name": "Quimbaya",
+    "desc": ""
+  },
+  "GYP": {
+    "name": "Guayupe",
+    "desc": ""
+  },
+  "CMG": {
+    "name": "Cumanagoto",
+    "desc": ""
+  },
+  "PMN": {
+    "name": "Pemons",
+    "desc": ""
+  },
+  "CUC": {
+    "name": "Cuica",
+    "desc": ""
+  },
+  "TTY": {
+    "name": "Tatuy",
+    "desc": ""
+  },
+  "THM": {
+    "name": "Tahami",
+    "desc": ""
+  },
+  "NUT": {
+    "name": "Nutabes",
+    "desc": ""
+  },
+  "PIJ": {
+    "name": "Pijao",
+    "desc": ""
+  },
+  "COY": {
+    "name": "Coyaima",
+    "desc": ""
+  },
+  "TAM": {
+    "name": "Tama",
+    "desc": ""
+  },
+  "CIM": {
+    "name": "Calima",
+    "desc": ""
+  },
+  "PUB": {
+    "name": "Puben",
+    "desc": ""
+  },
+  "CML": {
+    "name": "Chimila",
+    "desc": ""
+  },
+  "TNO": {
+    "name": "Magua",
+    "desc": ""
+  },
+  "MAE": {
+    "name": "Marien",
+    "desc": ""
+  },
+  "MGU": {
+    "name": "Maguana",
+    "desc": ""
+  },
+  "JRG": {
+    "name": "Jaraguá",
+    "desc": ""
+  },
+  "HGY": {
+    "name": "Higuey",
+    "desc": ""
+  },
+  "GAY": {
+    "name": "Guaynia",
+    "desc": ""
+  },
+  "BRK": {
+    "name": "Borinquém",
+    "desc": ""
+  },
+  "CBO": {
+    "name": "Cibonei",
+    "desc": ""
+  },
+  "LCY": {
+    "name": "Lucaia",
+    "desc": ""
+  },
+  "MCX": {
+    "name": "Macoris",
+    "desc": ""
+  },
+  "CGY": {
+    "name": "Ciguayo",
+    "desc": ""
+  },
+  "IGR": {
+    "name": "Igneri",
+    "desc": ""
+  },
+  "KGN": {
+    "name": "Iñeri",
+    "desc": ""
+  },
+  "AAL": {
+    "name": "Al 'Alī",
+    "desc": ""
+  },
+  "AMR": {
+    "name": "Al Mira",
+    "desc": ""
+  },
+  "DGE": {
+    "name": "Döger",
+    "desc": ""
+  },
+  "FDL": {
+    "name": "Āl Faḍl",
+    "desc": ""
+  },
+  "JAL": {
+    "name": "Jalayiridas",
+    "desc": ""
+  },
+  "HLL": {
+    "name": "Hila",
+    "desc": ""
+  },
+  "KOJ": {
+    "name": "Jerusalém",
+    "desc": ""
+  },
+  "ARD": {
+    "name": "Ardalan",
+    "desc": ""
+  },
+  "ATZ": {
+    "name": "Artaz",
+    "desc": ""
+  },
+  "DML": {
+    "name": "Domboli",
+    "desc": ""
+  },
+  "HBN": {
+    "name": "Hasbani",
+    "desc": ""
+  },
+  "HDR": {
+    "name": "Hadhur",
+    "desc": ""
+  },
+  "HNY": {
+    "name": "Hasnuya",
+    "desc": ""
+  },
+  "IHB": {
+    "name": "Ispahbad",
+    "desc": ""
+  },
+  "KLR": {
+    "name": "Kalhor",
+    "desc": ""
+  },
+  "KTW": {
+    "name": "Kartawi",
+    "desc": ""
+  },
+  "KEL": {
+    "name": "Kelali",
+    "desc": ""
+  },
+  "KKL": {
+    "name": "Khalkhal",
+    "desc": ""
+  },
+  "KRI": {
+    "name": "Kurani",
+    "desc": ""
+  },
+  "MKW": {
+    "name": "Merkewan",
+    "desc": ""
+  },
+  "RKL": {
+    "name": "Rankali",
+    "desc": ""
+  },
+  "SLI": {
+    "name": "Sabuli",
+    "desc": ""
+  },
+  "SYY": {
+    "name": "Saqiyya",
+    "desc": ""
+  },
+  "ZBR": {
+    "name": "Zebari",
+    "desc": ""
+  },
+  "AQQ": {
+    "name": "Aq Qoyunlu",
+    "desc": ""
+  },
+  "QAR": {
+    "name": "Qara Qoyunlu",
+    "desc": ""
+  },
+  "ZAN": {
+    "name": "Kilwa",
+    "desc": ""
+  },
+  "PTE": {
+    "name": "Pate",
+    "desc": ""
+  },
+  "MLI": {
+    "name": "Malindi",
+    "desc": ""
+  },
+  "INH": {
+    "name": "Inhambane",
+    "desc": ""
+  },
+  "SFA": {
+    "name": "Sofala",
+    "desc": ""
+  },
+  "MBA": {
+    "name": "Mombassa",
+    "desc": ""
+  },
+  "GED": {
+    "name": "Gedi",
+    "desc": ""
+  },
+  "UGW": {
+    "name": "Ungwana",
+    "desc": ""
+  },
+  "LAM": {
+    "name": "Lamu",
+    "desc": ""
+  },
+  "VOH": {
+    "name": "Vohemar",
+    "desc": ""
+  },
+  "NYM": {
+    "name": "Boeny",
+    "desc": ""
+  },
+  "VIL": {
+    "name": "vili",
+    "desc": ""
+  },
+  "TKE": {
+    "name": "Bateke",
+    "desc": ""
+  },
+  "ABD": {
+    "name": "Ambundo",
+    "desc": ""
+  },
+  "CBD": {
+    "name": "cabindino",
+    "desc": ""
+  },
+  "YAK": {
+    "name": "yaka",
+    "desc": ""
+  },
+  "CEW": {
+    "name": "chewa",
+    "desc": ""
+  },
+  "PEM": {
+    "name": "Pemba",
+    "desc": ""
+  },
+  "ZZB": {
+    "name": "Zanzibar",
+    "desc": ""
+  },
+  "BMB": {
+    "name": "Bambao",
+    "desc": ""
+  },
+  "MOZ": {
+    "name": "Moçambique",
+    "desc": ""
+  },
+  "AGH": {
+    "name": "Angoche",
+    "desc": ""
+  },
+  "QLM": {
+    "name": "Quelimane",
+    "desc": ""
+  },
+  "ZMW": {
+    "name": "Zimbábue",
+    "desc": ""
+  },
+  "TNA": {
+    "name": "Tonga",
+    "desc": ""
+  },
+  "SEN": {
+    "name": "Sena",
+    "desc": ""
+  },
+  "TSG": {
+    "name": "Tsonga",
+    "desc": ""
+  },
+  "MNY": {
+    "name": "Ndau",
+    "desc": ""
+  },
+  "ZEZ": {
+    "name": "Zezuru",
+    "desc": ""
+  },
+  "NBY": {
+    "name": "Nambya",
+    "desc": ""
+  },
+  "TBK": {
+    "name": "Tumbuka",
+    "desc": ""
+  },
+  "MRA": {
+    "name": "Maravi",
+    "desc": ""
+  },
+  "LDU": {
+    "name": "Lundu",
+    "desc": ""
+  },
+  "MKU": {
+    "name": "Makua",
+    "desc": ""
+  },
+  "VAZ": {
+    "name": "Vazimba",
+    "desc": ""
+  },
+  "MIR": {
+    "name": "Imerina",
+    "desc": ""
+  },
+  "NTL": {
+    "name": "Mahajangā",
+    "desc": ""
+  },
+  "MTO": {
+    "name": "Maintirano",
+    "desc": ""
+  },
+  "AHY": {
+    "name": "Antsohihy",
+    "desc": ""
+  },
+  "MHL": {
+    "name": "Mahilaka",
+    "desc": ""
+  },
+  "IRD": {
+    "name": "Irodo",
+    "desc": ""
+  },
+  "BMK": {
+    "name": "Bemanevika",
+    "desc": ""
+  },
+  "ZFI": {
+    "name": "Vohipeno",
+    "desc": ""
+  },
+  "ABV": {
+    "name": "Ambovombe",
+    "desc": ""
+  },
+  "MBD": {
+    "name": "Manabondro",
+    "desc": ""
+  },
+  "BTS": {
+    "name": "Betsimisaraka",
+    "desc": ""
+  },
+  "VEZ": {
+    "name": "Vezo",
+    "desc": ""
+  },
+  "SKA": {
+    "name": "Sakalava",
+    "desc": ""
+  },
+  "MNB": {
+    "name": "Menabe",
+    "desc": ""
+  },
+  "BOI": {
+    "name": "Boina",
+    "desc": ""
+  },
+  "ANK": {
+    "name": "Antankarana",
+    "desc": ""
+  },
+  "BEZ": {
+    "name": "Bezanozano",
+    "desc": ""
+  },
+  "SIH": {
+    "name": "Sihanaka",
+    "desc": ""
+  },
+  "TND": {
+    "name": "Tandroy",
+    "desc": ""
+  },
+  "ATK": {
+    "name": "Antesaka",
+    "desc": ""
+  },
+  "BAA": {
+    "name": "Bara",
+    "desc": ""
+  },
+  "ATM": {
+    "name": "Antemoro",
+    "desc": ""
+  },
+  "ATF": {
+    "name": "Antaifasy",
+    "desc": ""
+  },
+  "ATB": {
+    "name": "Antambahoaka",
+    "desc": ""
+  },
+  "TAL": {
+    "name": "Tanala",
+    "desc": ""
+  },
+  "BET": {
+    "name": "Betsileo",
+    "desc": ""
+  },
+  "KIT": {
+    "name": "Kitara",
+    "desc": ""
+  },
+  "WNA": {
+    "name": "Wanga",
+    "desc": ""
+  },
+  "BNY": {
+    "name": "Bunyoro",
+    "desc": ""
+  },
+  "BUG": {
+    "name": "Buganda",
+    "desc": ""
+  },
+  "BSG": {
+    "name": "Busoga",
+    "desc": ""
+  },
+  "NKO": {
+    "name": "Nkore",
+    "desc": ""
+  },
+  "RWA": {
+    "name": "Ruanda",
+    "desc": ""
+  },
+  "KRW": {
+    "name": "Karagwe",
+    "desc": ""
+  },
+  "UBH": {
+    "name": "Buha",
+    "desc": ""
+  },
+  "BUU": {
+    "name": "Burundi",
+    "desc": ""
+  },
+  "MAA": {
+    "name": "Massai",
+    "desc": ""
+  },
+  "KOR": {
+    "name": "Goryeo",
+    "desc": ""
+  },
+  "SSG": {
+    "name": "Ssangseong",
+    "desc": ""
+  },
+  "TMN": {
+    "name": "Tamna",
+    "desc": ""
+  },
+  "JAP": {
+    "name": "Japão",
+    "desc": ""
+  },
+  "NTC": {
+    "name": "Jimyōin",
+    "desc": ""
+  },
+  "STC": {
+    "name": "Daikakuji",
+    "desc": ""
+  },
+  "YMT": {
+    "name": "Yamato",
+    "desc": ""
+  },
+  "KOU": {
+    "name": "Kō",
+    "desc": ""
+  },
+  "HSK": {
+    "name": "Hosokawa",
+    "desc": ""
+  },
+  "AKM": {
+    "name": "Akamatsu",
+    "desc": ""
+  },
+  "NKI": {
+    "name": "Nitsuki",
+    "desc": ""
+  },
+  "KTB": {
+    "name": "Kitabatake",
+    "desc": ""
+  },
+  "CJO": {
+    "name": "Chūjō",
+    "desc": ""
+  },
+  "IMG": {
+    "name": "Imagawa",
+    "desc": ""
+  },
+  "ISD": {
+    "name": "Ishidō",
+    "desc": ""
+  },
+  "TKD": {
+    "name": "Takeda",
+    "desc": ""
+  },
+  "SBA": {
+    "name": "Shiba",
+    "desc": ""
+  },
+  "CBA": {
+    "name": "Chiba",
+    "desc": ""
+  },
+  "STK": {
+    "name": "Satake",
+    "desc": ""
+  },
+  "KGK": {
+    "name": "Kyōgoku",
+    "desc": ""
+  },
+  "TKI": {
+    "name": "Toki",
+    "desc": ""
+  },
+  "OGS": {
+    "name": "Ogasawara",
+    "desc": ""
+  },
+  "UES": {
+    "name": "Uesugi",
+    "desc": ""
+  },
+  "OYM": {
+    "name": "Oyama",
+    "desc": ""
+  },
+  "TGS": {
+    "name": "Togashi",
+    "desc": ""
+  },
+  "YSM": {
+    "name": "Yoshimi",
+    "desc": ""
+  },
+  "MMI": {
+    "name": "Momonoi",
+    "desc": ""
+  },
+  "KRA": {
+    "name": "Kira",
+    "desc": ""
+  },
+  "YMN": {
+    "name": "Yamana",
+    "desc": ""
+  },
+  "ENY": {
+    "name": "En'ya",
+    "desc": ""
+  },
+  "UEN": {
+    "name": "Ueno",
+    "desc": ""
+  },
+  "MTD": {
+    "name": "Matsuda",
+    "desc": ""
+  },
+  "MNM": {
+    "name": "Minami",
+    "desc": ""
+  },
+  "ASY": {
+    "name": "Asayama",
+    "desc": ""
+  },
+  "WSZ": {
+    "name": "Washizu",
+    "desc": ""
+  },
+  "KTO": {
+    "name": "Kotō",
+    "desc": ""
+  },
+  "HTK": {
+    "name": "Hatakeyama",
+    "desc": ""
+  },
+  "KNO": {
+    "name": "Kawano",
+    "desc": ""
+  },
+  "SHN": {
+    "name": "Shōni",
+    "desc": ""
+  },
+  "KII": {
+    "name": "Kii",
+    "desc": ""
+  },
+  "OTM": {
+    "name": "Ōtomo",
+    "desc": ""
+  },
+  "SMZ": {
+    "name": "Shimazu",
+    "desc": ""
+  },
+  "NBU": {
+    "name": "Nanbu",
+    "desc": ""
+  },
+  "KDO": {
+    "name": "Kudō",
+    "desc": ""
+  },
+  "OKI": {
+    "name": "Ōsaki",
+    "desc": ""
+  },
+  "MGM": {
+    "name": "Mogami",
+    "desc": ""
+  },
+  "KSI": {
+    "name": "Kasai",
+    "desc": ""
+  },
+  "SOM": {
+    "name": "Sōma",
+    "desc": ""
+  },
+  "DTE": {
+    "name": "Date",
+    "desc": ""
+  },
+  "ASN": {
+    "name": "Ashina",
+    "desc": ""
+  },
+  "YUK": {
+    "name": "Yūki",
+    "desc": ""
+  },
+  "OID": {
+    "name": "Ōida",
+    "desc": ""
+  },
+  "OGU": {
+    "name": "Oguni",
+    "desc": ""
+  },
+  "UTN": {
+    "name": "Utsunomiya",
+    "desc": ""
+  },
+  "IIX": {
+    "name": "Ii",
+    "desc": ""
+  },
+  "AKJ": {
+    "name": "Anenokōji",
+    "desc": ""
+  },
+  "KSN": {
+    "name": "Kusunoki",
+    "desc": ""
+  },
+  "ISK": {
+    "name": "Isshiki",
+    "desc": ""
+  },
+  "NAW": {
+    "name": "Nawa",
+    "desc": ""
+  },
+  "MSD": {
+    "name": "Masuda",
+    "desc": ""
+  },
+  "OUC": {
+    "name": "Ōuchi",
+    "desc": ""
+  },
+  "TKN": {
+    "name": "Tokunō",
+    "desc": ""
+  },
+  "DOI": {
+    "name": "Doi",
+    "desc": ""
+  },
+  "KNT": {
+    "name": "Kutsuna",
+    "desc": ""
+  },
+  "SHJ": {
+    "name": "Shijō",
+    "desc": ""
+  },
+  "YSR": {
+    "name": "Yamashiro",
+    "desc": ""
+  },
+  "KKC": {
+    "name": "Kikuchi",
+    "desc": ""
+  },
+  "ASO": {
+    "name": "Aso",
+    "desc": ""
+  },
+  "SGR": {
+    "name": "Sagara",
+    "desc": ""
+  },
+  "IJU": {
+    "name": "Ijūin",
+    "desc": ""
+  },
+  "KMT": {
+    "name": "Kimotsuki",
+    "desc": ""
+  },
+  "SOU": {
+    "name": "Sō",
+    "desc": ""
+  },
+  "NAI": {
+    "name": "Nagai",
+    "desc": ""
+  },
+  "HEI": {
+    "name": "Hei",
+    "desc": ""
+  },
+  "ANM": {
+    "name": "Asonuma",
+    "desc": ""
+  },
+  "TZW": {
+    "name": "Tozawa",
+    "desc": ""
+  },
+  "WAG": {
+    "name": "Waga",
+    "desc": ""
+  },
+  "HIE": {
+    "name": "Hienuki",
+    "desc": ""
+  },
+  "SGE": {
+    "name": "Sagae",
+    "desc": ""
+  },
+  "DHJ": {
+    "name": "Daihōji",
+    "desc": ""
+  },
+  "NGM": {
+    "name": "Naganuma",
+    "desc": ""
+  },
+  "NKD": {
+    "name": "Nikaidō",
+    "desc": ""
+  },
+  "TMR": {
+    "name": "Tamura",
+    "desc": ""
+  },
+  "IWS": {
+    "name": "Inawashiro",
+    "desc": ""
+  },
+  "ISW": {
+    "name": "Ishikawa",
+    "desc": ""
+  },
+  "MIU": {
+    "name": "Miura",
+    "desc": ""
+  },
+  "SUW": {
+    "name": "Suwa",
+    "desc": ""
+  },
+  "RKK": {
+    "name": "Rokkaku",
+    "desc": ""
+  },
+  "MIY": {
+    "name": "Miya",
+    "desc": ""
+  },
+  "KKW": {
+    "name": "Kikkawa",
+    "desc": ""
+  },
+  "MKT": {
+    "name": "Munakata",
+    "desc": ""
+  },
+  "ASA": {
+    "name": "Asakura",
+    "desc": ""
+  },
+  "CSK": {
+    "name": "Chōsokabe",
+    "desc": ""
+  },
+  "ISE": {
+    "name": "Ise",
+    "desc": ""
+  },
+  "IKE": {
+    "name": "Ikeda",
+    "desc": ""
+  },
+  "ITO": {
+    "name": "Itō",
+    "desc": ""
+  },
+  "MRI": {
+    "name": "Mōri",
+    "desc": ""
+  },
+  "ODA": {
+    "name": "Oda",
+    "desc": ""
+  },
+  "AKT": {
+    "name": "Andō",
+    "desc": ""
+  },
+  "ISA": {
+    "name": "Isa",
+    "desc": ""
+  },
+  "TAK": {
+    "name": "Daijō",
+    "desc": ""
+  },
+  "KNB": {
+    "name": "Kawanobe",
+    "desc": ""
+  },
+  "HTA": {
+    "name": "Hatta",
+    "desc": ""
+  },
+  "MKO": {
+    "name": "Mashiko",
+    "desc": ""
+  },
+  "TKO": {
+    "name": "Takō",
+    "desc": ""
+  },
+  "NAS": {
+    "name": "Nasu",
+    "desc": ""
+  },
+  "OGO": {
+    "name": "Ōgo",
+    "desc": ""
+  },
+  "NIT": {
+    "name": "Nitta",
+    "desc": ""
+  },
+  "YMG": {
+    "name": "Yamaguchi",
+    "desc": ""
+  },
+  "TOS": {
+    "name": "Toshima",
+    "desc": ""
+  },
+  "HNM": {
+    "name": "Honma",
+    "desc": ""
+  },
+  "UNN": {
+    "name": "Unnō",
+    "desc": ""
+  },
+  "KOK": {
+    "name": "Kōsaka",
+    "desc": ""
+  },
+  "TOY": {
+    "name": "Tōyama",
+    "desc": ""
+  },
+  "HIG": {
+    "name": "Tō",
+    "desc": ""
+  },
+  "EMA": {
+    "name": "Ema",
+    "desc": ""
+  },
+  "NKJ": {
+    "name": "Nakajima",
+    "desc": ""
+  },
+  "OBA": {
+    "name": "Ōba",
+    "desc": ""
+  },
+  "NGN": {
+    "name": "Nagano",
+    "desc": ""
+  },
+  "TKM": {
+    "name": "Takashima",
+    "desc": ""
+  },
+  "AIS": {
+    "name": "Aisu",
+    "desc": ""
+  },
+  "YUS": {
+    "name": "Yuasa",
+    "desc": ""
+  },
+  "YAB": {
+    "name": "Yabe",
+    "desc": ""
+  },
+  "OGA": {
+    "name": "Ogamo",
+    "desc": ""
+  },
+  "STU": {
+    "name": "Suetsugu",
+    "desc": ""
+  },
+  "MZW": {
+    "name": "Mizawa",
+    "desc": ""
+  },
+  "MTY": {
+    "name": "Mitoya",
+    "desc": ""
+  },
+  "AKN": {
+    "name": "Akana",
+    "desc": ""
+  },
+  "GTO": {
+    "name": "Gotō",
+    "desc": ""
+  },
+  "SHO": {
+    "name": "Shō",
+    "desc": ""
+  },
+  "HRG": {
+    "name": "Hiraga",
+    "desc": ""
+  },
+  "KBK": {
+    "name": "Kobayakawa",
+    "desc": ""
+  },
+  "WCH": {
+    "name": "Wachi",
+    "desc": ""
+  },
+  "MYH": {
+    "name": "Miyoshi",
+    "desc": ""
+  },
+  "SUE": {
+    "name": "Sue",
+    "desc": ""
+  },
+  "MIG": {
+    "name": "Migita",
+    "desc": ""
+  },
+  "KAG": {
+    "name": "Kagawa",
+    "desc": ""
+  },
+  "KOZ": {
+    "name": "Kōzai",
+    "desc": ""
+  },
+  "KNE": {
+    "name": "Kaneko",
+    "desc": ""
+  },
+  "AKI": {
+    "name": "Aki",
+    "desc": ""
+  },
+  "OHR": {
+    "name": "Ōhira",
+    "desc": ""
+  },
+  "BZG": {
+    "name": "Buzen Nagano",
+    "desc": ""
+  },
+  "AKZ": {
+    "name": "Akizuki",
+    "desc": ""
+  },
+  "AKU": {
+    "name": "Taku",
+    "desc": ""
+  },
+  "AHT": {
+    "name": "Hata",
+    "desc": ""
+  },
+  "ARI": {
+    "name": "Arima",
+    "desc": ""
+  },
+  "OKR": {
+    "name": "Ōkura",
+    "desc": ""
+  },
+  "TMD": {
+    "name": "Tsuchimochi",
+    "desc": ""
+  },
+  "KJK": {
+    "name": "Kajiki",
+    "desc": ""
+  },
+  "HSR": {
+    "name": "Hishikari",
+    "desc": ""
+  },
+  "ANU": {
+    "name": "Ainu",
+    "desc": ""
+  },
+  "HKZ": {
+    "name": "Hokuzan",
+    "desc": ""
+  },
+  "CHZ": {
+    "name": "Chūzan",
+    "desc": ""
+  },
+  "NZN": {
+    "name": "Nanzan",
+    "desc": ""
+  },
+  "CHI": {
+    "name": "China",
+    "desc": ""
+  },
+  "YUA": {
+    "name": "Yuan",
+    "desc": ""
+  },
+  "MNG": {
+    "name": "Ming",
+    "desc": ""
+  },
+  "CSO": {
+    "name": "Sòng",
+    "desc": ""
+  },
+  "WUU": {
+    "name": "Wú",
+    "desc": ""
+  },
+  "CTW": {
+    "name": "Tiānwán",
+    "desc": ""
+  },
+  "CHE": {
+    "name": "Chén",
+    "desc": ""
+  },
+  "CSH": {
+    "name": "Shùn",
+    "desc": ""
+  },
+  "CXI": {
+    "name": "Xià",
+    "desc": ""
+  },
+  "CTG": {
+    "name": "Tûng-nèn",
+    "desc": ""
+  },
+  "CFN": {
+    "name": "Fāng",
+    "desc": ""
+  },
+  "CMO": {
+    "name": "Máo",
+    "desc": ""
+  },
+  "CGU": {
+    "name": "Guō",
+    "desc": ""
+  },
+  "CNP": {
+    "name": "Nanping",
+    "desc": ""
+  },
+  "CDN": {
+    "name": "Dongguan",
+    "desc": ""
+  },
+  "CSI": {
+    "name": "Lǐ",
+    "desc": ""
+  },
+  "CKO": {
+    "name": "Köke Temür",
+    "desc": ""
+  },
+  "CNA": {
+    "name": "Naghachu",
+    "desc": ""
+  },
+  "MMA": {
+    "name": "Möng Mao",
+    "desc": ""
+  },
+  "MHK": {
+    "name": "Möng Hkeng",
+    "desc": ""
+  },
+  "MHN": {
+    "name": "Möng Hten",
+    "desc": ""
+  },
+  "MTG": {
+    "name": "Möng Ting",
+    "desc": ""
+  },
+  "MGN": {
+    "name": "Möng Ngüm",
+    "desc": ""
+  },
+  "MHA": {
+    "name": "Möng Hsa",
+    "desc": ""
+  },
+  "MWO": {
+    "name": "Möng Wo",
+    "desc": ""
+  },
+  "MGK": {
+    "name": "Mong Kung",
+    "desc": ""
+  },
+  "YNJ": {
+    "name": "Yuanjiang",
+    "desc": ""
+  },
+  "NWU": {
+    "name": "Niuwu",
+    "desc": ""
+  },
+  "NLU": {
+    "name": "Nalou",
+    "desc": ""
+  },
+  "YJI": {
+    "name": "Yánjǐng",
+    "desc": ""
+  },
+  "XLG": {
+    "name": "Xianlong",
+    "desc": ""
+  },
+  "CDL": {
+    "name": "Dali",
+    "desc": ""
+  },
+  "CHH": {
+    "name": "Chiang Hung",
+    "desc": ""
+  },
+  "TIB": {
+    "name": "Tibete",
+    "desc": ""
+  },
+  "GUG": {
+    "name": "Gugê",
+    "desc": ""
+  },
+  "PUR": {
+    "name": "Burang",
+    "desc": ""
+  },
+  "MAR": {
+    "name": "Maryul",
+    "desc": ""
+  },
+  "ZNK": {
+    "name": "Zanskar",
+    "desc": ""
+  },
+  "CHG": {
+    "name": "Chagatai",
+    "desc": ""
+  },
+  "TIM": {
+    "name": "Timúrida",
+    "desc": ""
+  },
+  "QCH": {
+    "name": "Qocho",
+    "desc": ""
+  },
+  "MNL": {
+    "name": "Mangalai",
+    "desc": ""
+  },
+  "MGG": {
+    "name": "Mangyül Gungthang",
+    "desc": ""
+  },
+  "POO": {
+    "name": "Powo",
+    "desc": ""
+  },
+  "HOR": {
+    "name": "Hor I",
+    "desc": ""
+  },
+  "LGT": {
+    "name": "Lingtsang",
+    "desc": ""
+  },
+  "DRG": {
+    "name": "Derge",
+    "desc": ""
+  },
+  "NCN": {
+    "name": "Nangchen",
+    "desc": ""
+  },
+  "GNJ": {
+    "name": "Gonjo",
+    "desc": ""
+  },
+  "BTG": {
+    "name": "Batang",
+    "desc": ""
+  },
+  "NBH": {
+    "name": "Nubhor",
+    "desc": ""
+  },
+  "LTN": {
+    "name": "Litang",
+    "desc": ""
+  },
+  "NYA": {
+    "name": "Nyarong",
+    "desc": ""
+  },
+  "GYT": {
+    "name": "Gyelthang",
+    "desc": ""
+  },
+  "TNQ": {
+    "name": "Tiānquán",
+    "desc": ""
+  },
+  "MCI": {
+    "name": "Muchi",
+    "desc": ""
+  },
+  "WMO": {
+    "name": "Wēimào",
+    "desc": ""
+  },
+  "TSK": {
+    "name": "Tsakho",
+    "desc": ""
+  },
+  "SNP": {
+    "name": "Songpan",
+    "desc": ""
+  },
+  "LGZ": {
+    "name": "Lóngzhōu",
+    "desc": ""
+  },
+  "MNZ": {
+    "name": "Minzhou",
+    "desc": ""
+  },
+  "TAZ": {
+    "name": "Taozhou",
+    "desc": ""
+  },
+  "KHG": {
+    "name": "Khagya",
+    "desc": ""
+  },
+  "HEZ": {
+    "name": "Hezhou",
+    "desc": ""
+  },
+  "JIZ": {
+    "name": "Jīshízhōu",
+    "desc": ""
+  },
+  "BIR": {
+    "name": "Biri",
+    "desc": ""
+  },
+  "GYE": {
+    "name": "Gyelrong",
+    "desc": ""
+  },
+  "GOL": {
+    "name": "Golog",
+    "desc": ""
+  },
+  "CKL": {
+    "name": "Minyag",
+    "desc": ""
+  },
+  "AMD": {
+    "name": "Amdo",
+    "desc": ""
+  },
+  "MSH": {
+    "name": "Mishimi",
+    "desc": ""
+  },
+  "TAN": {
+    "name": "Tani",
+    "desc": ""
+  },
+  "MNP": {
+    "name": "Monpa",
+    "desc": ""
+  },
+  "LMN": {
+    "name": "Lho Mon",
+    "desc": ""
+  },
+  "LJG": {
+    "name": "Cidade Antiga de Lijiang",
+    "desc": ""
+  },
+  "SKK": {
+    "name": "Siquim",
+    "desc": ""
+  },
+  "DUR": {
+    "name": "Daur",
+    "desc": ""
+  },
+  "EVK": {
+    "name": "Evenk",
+    "desc": ""
+  },
+  "NVK": {
+    "name": "Nivkhe",
+    "desc": ""
+  },
+  "ORC": {
+    "name": "Oroch",
+    "desc": ""
+  },
+  "ORQ": {
+    "name": "Orochom",
+    "desc": ""
+  },
+  "SIB": {
+    "name": "Sibe",
+    "desc": ""
+  },
+  "UDE": {
+    "name": "Udege",
+    "desc": ""
+  },
+  "ULC": {
+    "name": "Ulch",
+    "desc": ""
+  },
+  "HDA": {
+    "name": "Hada",
+    "desc": ""
+  },
+  "HOI": {
+    "name": "Hoifa",
+    "desc": ""
+  },
+  "ULA": {
+    "name": "Ula",
+    "desc": ""
+  },
+  "YEH": {
+    "name": "Yehe",
+    "desc": ""
+  },
+  "DNG": {
+    "name": "Donggo",
+    "desc": ""
+  },
+  "HJN": {
+    "name": "Holjaon",
+    "desc": ""
+  },
+  "HNE": {
+    "name": "Hunehe",
+    "desc": ""
+  },
+  "HUL": {
+    "name": "Huligai",
+    "desc": ""
+  },
+  "JEC": {
+    "name": "Jecen",
+    "desc": ""
+  },
+  "JUS": {
+    "name": "Jusheri",
+    "desc": ""
+  },
+  "MAO": {
+    "name": "Maolian",
+    "desc": ""
+  },
+  "NEY": {
+    "name": "Neyen",
+    "desc": ""
+  },
+  "ODO": {
+    "name": "Odoli",
+    "desc": ""
+  },
+  "SSH": {
+    "name": "Suksuhu",
+    "desc": ""
+  },
+  "URY": {
+    "name": "Uryangkhad",
+    "desc": ""
+  },
+  "WGG": {
+    "name": "Wanggiya",
+    "desc": ""
+  },
+  "YAL": {
+    "name": "Yalu",
+    "desc": ""
+  },
+  "AAR": {
+    "name": "Abdari",
+    "desc": ""
+  },
+  "AID": {
+    "name": "Aidan",
+    "desc": ""
+  },
+  "ASU": {
+    "name": "Asu",
+    "desc": ""
+  },
+  "BAY": {
+    "name": "Bayan",
+    "desc": ""
+  },
+  "DLA": {
+    "name": "Dala",
+    "desc": ""
+  },
+  "EJI": {
+    "name": "Ejimi",
+    "desc": ""
+  },
+  "FLN": {
+    "name": "Fulun",
+    "desc": ""
+  },
+  "FUT": {
+    "name": "Futi",
+    "desc": ""
+  },
+  "FUY": {
+    "name": "Fuyu",
+    "desc": ""
+  },
+  "GIL": {
+    "name": "Gilemi",
+    "desc": ""
+  },
+  "HIJ": {
+    "name": "Hijan",
+    "desc": ""
+  },
+  "HIY": {
+    "name": "Haiyan",
+    "desc": ""
+  },
+  "HLN": {
+    "name": "Halan",
+    "desc": ""
+  },
+  "HNC": {
+    "name": "Huncun",
+    "desc": ""
+  },
+  "HOT": {
+    "name": "Hotonggi",
+    "desc": ""
+  },
+  "HRO": {
+    "name": "Horo",
+    "desc": ""
+  },
+  "HUI": {
+    "name": "Huiba",
+    "desc": ""
+  },
+  "HUR": {
+    "name": "Hūrga",
+    "desc": ""
+  },
+  "ILU": {
+    "name": "Ilu",
+    "desc": ""
+  },
+  "IMN": {
+    "name": "Imanka",
+    "desc": ""
+  },
+  "ITU": {
+    "name": "Itun",
+    "desc": ""
+  },
+  "JHT": {
+    "name": "Juru Hoton",
+    "desc": ""
+  },
+  "LAL": {
+    "name": "Lalin",
+    "desc": ""
+  },
+  "LEF": {
+    "name": "Lefu",
+    "desc": ""
+  },
+  "LLU": {
+    "name": "Lalu",
+    "desc": ""
+  },
+  "MAH": {
+    "name": "Mahiyan",
+    "desc": ""
+  },
+  "MIC": {
+    "name": "Michen",
+    "desc": ""
+  },
+  "MRE": {
+    "name": "Muren",
+    "desc": ""
+  },
+  "MUH": {
+    "name": "Muhiya",
+    "desc": ""
+  },
+  "MUU": {
+    "name": "Mulun",
+    "desc": ""
+  },
+  "NAL": {
+    "name": "Nalaji",
+    "desc": ""
+  },
+  "NEM": {
+    "name": "Nemer",
+    "desc": ""
+  },
+  "NRO": {
+    "name": "Noro",
+    "desc": ""
+  },
+  "SHI": {
+    "name": "Shilin",
+    "desc": ""
+  },
+  "SIR": {
+    "name": "Sirin",
+    "desc": ""
+  },
+  "SMN": {
+    "name": "Shilimian",
+    "desc": ""
+  },
+  "SNC": {
+    "name": "Sancaha",
+    "desc": ""
+  },
+  "SUI": {
+    "name": "Suifun",
+    "desc": ""
+  },
+  "TAS": {
+    "name": "Tashan",
+    "desc": ""
+  },
+  "TOD": {
+    "name": "Todo",
+    "desc": ""
+  },
+  "TOX": {
+    "name": "Ton",
+    "desc": ""
+  },
+  "USS": {
+    "name": "Ussuri",
+    "desc": ""
+  },
+  "WEJ": {
+    "name": "Weji",
+    "desc": ""
+  },
+  "WEK": {
+    "name": "Weken",
+    "desc": ""
+  },
+  "WNL": {
+    "name": "Wanlin",
+    "desc": ""
+  },
+  "WUY": {
+    "name": "Wuyewu",
+    "desc": ""
+  },
+  "YRN": {
+    "name": "Yaran",
+    "desc": ""
+  },
+  "YIM": {
+    "name": "Yimahu",
+    "desc": ""
+  },
+  "YOO": {
+    "name": "Yoose",
+    "desc": ""
+  },
+  "KAD": {
+    "name": "Kam",
+    "desc": ""
+  },
+  "TUJ": {
+    "name": "Tujia",
+    "desc": ""
+  },
+  "MNE": {
+    "name": "Yáo",
+    "desc": ""
+  },
+  "MIO": {
+    "name": "Hmong",
+    "desc": ""
+  },
+  "HQQ": {
+    "name": "Hani",
+    "desc": ""
+  },
+  "YII": {
+    "name": "Yi",
+    "desc": ""
+  },
+  "DDI": {
+    "name": "Dai",
+    "desc": ""
+  },
+  "OIR": {
+    "name": "Oirata",
+    "desc": ""
+  },
+  "OGE": {
+    "name": "Ögedei",
+    "desc": ""
+  },
+  "BAT": {
+    "name": "Baatud",
+    "desc": ""
+  },
+  "CRS": {
+    "name": "Choros",
+    "desc": ""
+  },
+  "KHD": {
+    "name": "Khoid",
+    "desc": ""
+  },
+  "TRH": {
+    "name": "Torghut",
+    "desc": ""
+  },
+  "TVA": {
+    "name": "Tuva",
+    "desc": ""
+  },
+  "BGT": {
+    "name": "Belgutei",
+    "desc": ""
+  },
+  "HCN": {
+    "name": "Hachiun",
+    "desc": ""
+  },
+  "OTC": {
+    "name": "Otchigin",
+    "desc": ""
+  },
+  "QAS": {
+    "name": "Qasar",
+    "desc": ""
+  },
+  "BKH": {
+    "name": "Badakhshan",
+    "desc": ""
+  },
+  "DGH": {
+    "name": "Dughlat",
+    "desc": ""
+  },
+  "KRG": {
+    "name": "Karategin",
+    "desc": ""
+  },
+  "SRL": {
+    "name": "Sarikol",
+    "desc": ""
+  },
+  "COO": {
+    "name": "Coosa",
+    "desc": ""
+  },
+  "OTL": {
+    "name": "Otali",
+    "desc": ""
+  },
+  "COW": {
+    "name": "Coweta",
+    "desc": ""
+  },
+  "TUC": {
+    "name": "Tuckabutchee",
+    "desc": ""
+  },
+  "EUF": {
+    "name": "Eufaula",
+    "desc": ""
+  },
+  "CPQ": {
+    "name": "Capachequi",
+    "desc": ""
+  },
+  "TOA": {
+    "name": "Toa",
+    "desc": ""
+  },
+  "OCT": {
+    "name": "Ocute",
+    "desc": ""
+  },
+  "HIT": {
+    "name": "Atcik-Hata",
+    "desc": ""
+  },
+  "ALA": {
+    "name": "Albaamaha",
+    "desc": ""
+  },
+  "KST": {
+    "name": "Koasati",
+    "desc": ""
+  },
+  "CHC": {
+    "name": "Choctaw",
+    "desc": ""
+  },
+  "CHS": {
+    "name": "Chickasha",
+    "desc": ""
+  },
+  "MCG": {
+    "name": "Muscogee",
+    "desc": ""
+  },
+  "QGM": {
+    "name": "Quigualtam",
+    "desc": ""
+  },
+  "QUZ": {
+    "name": "Quizquiz",
+    "desc": ""
+  },
+  "NCZ": {
+    "name": "Natchez",
+    "desc": ""
+  },
+  "GUL": {
+    "name": "Guale",
+    "desc": ""
+  },
+  "APA": {
+    "name": "Apalachee",
+    "desc": ""
+  },
+  "KSK": {
+    "name": "Kaskinampo",
+    "desc": ""
+  },
+  "KAW": {
+    "name": "Kaw",
+    "desc": ""
+  },
+  "UMO": {
+    "name": "Umoho",
+    "desc": ""
+  },
+  "WZZ": {
+    "name": "Wazhazhe",
+    "desc": ""
+  },
+  "PPK": {
+    "name": "Ppanka",
+    "desc": ""
+  },
+  "UGX": {
+    "name": "Ugaxpah",
+    "desc": ""
+  },
+  "GWY": {
+    "name": "Guwayihi",
+    "desc": ""
+  },
+  "GDW": {
+    "name": "Giduwa",
+    "desc": ""
+  },
+  "TSO": {
+    "name": "Tsoyaha",
+    "desc": ""
+  },
+  "CFQ": {
+    "name": "Cofitachequi",
+    "desc": ""
+  },
+  "JOA": {
+    "name": "Joara",
+    "desc": ""
+  },
+  "TSN": {
+    "name": "Tsenacommacah",
+    "desc": ""
+  },
+  "ACL": {
+    "name": "Acolapissa",
+    "desc": ""
+  },
+  "MBL": {
+    "name": "Tohomé",
+    "desc": ""
+  },
+  "CTT": {
+    "name": "Chatot",
+    "desc": ""
+  },
+  "YMS": {
+    "name": "Yamasee",
+    "desc": ""
+  },
+  "CSB": {
+    "name": "Cusabo",
+    "desc": ""
+  },
+  "CHK": {
+    "name": "Cahokia",
+    "desc": ""
+  },
+  "HCK": {
+    "name": "Hoocak",
+    "desc": ""
+  },
+  "BXJ": {
+    "name": "Baxoje",
+    "desc": ""
+  },
+  "WGH": {
+    "name": "Waghtochtatta",
+    "desc": ""
+  },
+  "OFO": {
+    "name": "Ofo",
+    "desc": ""
+  },
+  "TKS": {
+    "name": "Taneks",
+    "desc": ""
+  },
+  "MTN": {
+    "name": "Moneton",
+    "desc": ""
+  },
+  "MNC": {
+    "name": "Monacan",
+    "desc": ""
+  },
+  "TTL": {
+    "name": "Tutelo",
+    "desc": ""
+  },
+  "WCM": {
+    "name": "Waccamaw",
+    "desc": ""
+  },
+  "TMC": {
+    "name": "Timucua",
+    "desc": ""
+  },
+  "CLS": {
+    "name": "Calusa",
+    "desc": ""
+  },
+  "AIX": {
+    "name": "Ais",
+    "desc": ""
+  },
+  "TBG": {
+    "name": "Tocobaga",
+    "desc": ""
+  },
+  "NTT": {
+    "name": "Nottoway",
+    "desc": ""
+  },
+  "SKR": {
+    "name": "Skarùre",
+    "desc": ""
+  },
+  "WRO": {
+    "name": "Wenrohronon",
+    "desc": ""
+  },
+  "KEN": {
+    "name": "Kentaientonga",
+    "desc": ""
+  },
+  "ERI": {
+    "name": "Erielhonan",
+    "desc": ""
+  },
+  "HON": {
+    "name": "Honniasont",
+    "desc": ""
+  },
+  "ONJ": {
+    "name": "Onojutta",
+    "desc": ""
+  },
+  "CTN": {
+    "name": "Carantouan",
+    "desc": ""
+  },
+  "AKY": {
+    "name": "Atrakwaye",
+    "desc": ""
+  },
+  "KKA": {
+    "name": "Kanien'kehaka",
+    "desc": ""
+  },
+  "ONY": {
+    "name": "Onyota'aka",
+    "desc": ""
+  },
+  "ONO": {
+    "name": "Ononda'gega'",
+    "desc": ""
+  },
+  "GYO": {
+    "name": "Gayogohono",
+    "desc": ""
+  },
+  "ONN": {
+    "name": "Onondowa'ga",
+    "desc": ""
+  },
+  "PML": {
+    "name": "Pamlico",
+    "desc": ""
+  },
+  "DOE": {
+    "name": "Doeg",
+    "desc": ""
+  },
+  "PSC": {
+    "name": "Piscataway",
+    "desc": ""
+  },
+  "NTK": {
+    "name": "Nentego",
+    "desc": ""
+  },
+  "RPP": {
+    "name": "Rappahannock",
+    "desc": ""
+  },
+  "CAA": {
+    "name": "Croatan",
+    "desc": ""
+  },
+  "NSM": {
+    "name": "Nansemond",
+    "desc": ""
+  },
+  "ACW": {
+    "name": "Accawmacke",
+    "desc": ""
+  },
+  "MMQ": {
+    "name": "Mamaceqtaw",
+    "desc": ""
+  },
+  "OSK": {
+    "name": "Osaakiiwaki",
+    "desc": ""
+  },
+  "MSK": {
+    "name": "Meskawki",
+    "desc": ""
+  },
+  "KIW": {
+    "name": "kiwigapawa",
+    "desc": ""
+  },
+  "MCT": {
+    "name": "Mascouten",
+    "desc": ""
+  },
+  "CLG": {
+    "name": "Chalahgawtha",
+    "desc": ""
+  },
+  "MKC": {
+    "name": "Mekoche",
+    "desc": ""
+  },
+  "KPK": {
+    "name": "Kispoko",
+    "desc": ""
+  },
+  "PKW": {
+    "name": "Pekowi",
+    "desc": ""
+  },
+  "HAT": {
+    "name": "Hathawekela",
+    "desc": ""
+  },
+  "BDK": {
+    "name": "Bodewadomik",
+    "desc": ""
+  },
+  "TMW": {
+    "name": "Tamarowa",
+    "desc": ""
+  },
+  "KHK": {
+    "name": "Kahokiaki",
+    "desc": ""
+  },
+  "KKH": {
+    "name": "Kaskankaham",
+    "desc": ""
+  },
+  "PEO": {
+    "name": "Peewareewa",
+    "desc": ""
+  },
+  "AKG": {
+    "name": "Atchakangouen",
+    "desc": ""
+  },
+  "PIA": {
+    "name": "Piankeshaw",
+    "desc": ""
+  },
+  "PEP": {
+    "name": "Pepikokia",
+    "desc": ""
+  },
+  "WEA": {
+    "name": "Waayaahtanwa",
+    "desc": ""
+  },
+  "UNA": {
+    "name": "Wënami",
+    "desc": ""
+  },
+  "MNS": {
+    "name": "Monsii",
+    "desc": ""
+  },
+  "UNL": {
+    "name": "W'nalātchtko",
+    "desc": ""
+  },
+  "MCN": {
+    "name": "Muhhekunneuw",
+    "desc": ""
+  },
+  "QRP": {
+    "name": "Quiripi",
+    "desc": ""
+  },
+  "PCT": {
+    "name": "Pocomtuc",
+    "desc": ""
+  },
+  "PQT": {
+    "name": "Pequot",
+    "desc": ""
+  },
+  "NRG": {
+    "name": "Naiganset",
+    "desc": ""
+  },
+  "WMG": {
+    "name": "Wopanaak",
+    "desc": ""
+  },
+  "MSC": {
+    "name": "Massachuseuck",
+    "desc": ""
+  },
+  "PCK": {
+    "name": "Penakuk",
+    "desc": ""
+  },
+  "BQA": {
+    "name": "Barqa",
+    "desc": ""
+  },
+  "BKZ": {
+    "name": "Banu Kanz",
+    "desc": ""
+  },
+  "FZA": {
+    "name": "Fezzan",
+    "desc": ""
+  },
+  "MAM": {
+    "name": "Egito",
+    "desc": ""
+  },
+  "SKN": {
+    "name": "Suakin",
+    "desc": ""
+  },
+  "TRP": {
+    "name": "Trípoli",
+    "desc": ""
+  },
+  "BRI": {
+    "name": "Bretanha",
+    "desc": ""
+  },
+  "FRA": {
+    "name": "França",
+    "desc": ""
+  },
+  "BUR": {
+    "name": "Borgonha",
+    "desc": ""
+  },
+  "FCB": {
+    "name": "Franco-Condado",
+    "desc": ""
+  },
+  "AQN": {
+    "name": "Aquitânia",
+    "desc": ""
+  },
+  "ALE": {
+    "name": "Alençon",
+    "desc": ""
+  },
+  "AUX": {
+    "name": "Auxerre",
+    "desc": ""
+  },
+  "SAN": {
+    "name": "Sancerre",
+    "desc": ""
+  },
+  "AMG": {
+    "name": "Armagnac",
+    "desc": ""
+  },
+  "AUV": {
+    "name": "Auvérnia",
+    "desc": ""
+  },
+  "BOU": {
+    "name": "Bourbon",
+    "desc": ""
+  },
+  "CHP": {
+    "name": "Champanha",
+    "desc": ""
+  },
+  "DAU": {
+    "name": "Viennois",
+    "desc": ""
+  },
+  "EVR": {
+    "name": "Evreux",
+    "desc": ""
+  },
+  "FOI": {
+    "name": "Foix",
+    "desc": ""
+  },
+  "GUY": {
+    "name": "Gascônia",
+    "desc": ""
+  },
+  "NEV": {
+    "name": "Nevers",
+    "desc": ""
+  },
+  "NRB": {
+    "name": "Narbonne",
+    "desc": ""
+  },
+  "NRM": {
+    "name": "Normandia",
+    "desc": ""
+  },
+  "JER": {
+    "name": "Jersey",
+    "desc": ""
+  },
+  "ORL": {
+    "name": "Orleães",
+    "desc": ""
+  },
+  "PIC": {
+    "name": "Picardia",
+    "desc": ""
+  },
+  "PRO": {
+    "name": "Provença",
+    "desc": ""
+  },
+  "ORA": {
+    "name": "Orange",
+    "desc": ""
+  },
+  "TOU": {
+    "name": "Toulouse",
+    "desc": ""
+  },
+  "BER": {
+    "name": "Berry",
+    "desc": ""
+  },
+  "LOR": {
+    "name": "Lorena",
+    "desc": ""
+  },
+  "BAR": {
+    "name": "Bar",
+    "desc": ""
+  },
+  "DRE": {
+    "name": "Dreux",
+    "desc": ""
+  },
+  "MRT": {
+    "name": "Mortain",
+    "desc": ""
+  },
+  "POI": {
+    "name": "Poitou",
+    "desc": ""
+  },
+  "ANJ": {
+    "name": "Anjou",
+    "desc": ""
+  },
+  "MIE": {
+    "name": "Maine",
+    "desc": ""
+  },
+  "VLS": {
+    "name": "Valois",
+    "desc": ""
+  },
+  "PRC": {
+    "name": "Perche",
+    "desc": ""
+  },
+  "FRZ": {
+    "name": "Forez",
+    "desc": ""
+  },
+  "BLS": {
+    "name": "Blois",
+    "desc": ""
+  },
+  "VDM": {
+    "name": "Vendôme",
+    "desc": ""
+  },
+  "ETA": {
+    "name": "Étampes",
+    "desc": ""
+  },
+  "AST": {
+    "name": "Astarac",
+    "desc": ""
+  },
+  "COM": {
+    "name": "Comminges",
+    "desc": ""
+  },
+  "IJO": {
+    "name": "L'Isle-Jourdain",
+    "desc": ""
+  },
+  "VLN": {
+    "name": "Valentinois",
+    "desc": ""
+  },
+  "PER": {
+    "name": "Périgord",
+    "desc": ""
+  },
+  "TON": {
+    "name": "Tonnerre",
+    "desc": ""
+  },
+  "MON": {
+    "name": "Montfort",
+    "desc": ""
+  },
+  "AUM": {
+    "name": "Aumale",
+    "desc": ""
+  },
+  "ROU": {
+    "name": "Roucy",
+    "desc": ""
+  },
+  "BSC": {
+    "name": "Besançon",
+    "desc": ""
+  },
+  "ALS": {
+    "name": "Estrasburgo",
+    "desc": ""
+  },
+  "MTB": {
+    "name": "Montbéliard",
+    "desc": ""
+  },
+  "TUL": {
+    "name": "Toul",
+    "desc": ""
+  },
+  "VDU": {
+    "name": "Verdun",
+    "desc": ""
+  },
+  "MTZ": {
+    "name": "Metz",
+    "desc": ""
+  },
+  "SLM": {
+    "name": "Salm",
+    "desc": ""
+  },
+  "MOU": {
+    "name": "Mouzon",
+    "desc": ""
+  },
+  "RET": {
+    "name": "Rethel",
+    "desc": ""
+  },
+  "CAM": {
+    "name": "Cambrésis",
+    "desc": ""
+  },
+  "BRR": {
+    "name": "Bearne",
+    "desc": ""
+  },
+  "MDM": {
+    "name": "Marsan",
+    "desc": ""
+  },
+  "FRT": {
+    "name": "Ferrette",
+    "desc": ""
+  },
+  "MRC": {
+    "name": "La Marche",
+    "desc": ""
+  },
+  "VNT": {
+    "name": "Ventadour",
+    "desc": ""
+  },
+  "RCC": {
+    "name": "Rochechouart",
+    "desc": ""
+  },
+  "CLT": {
+    "name": "Carlat",
+    "desc": ""
+  },
+  "ANG": {
+    "name": "Angoulême",
+    "desc": ""
+  },
+  "DAM": {
+    "name": "Damot",
+    "desc": ""
+  },
+  "ENN": {
+    "name": "Ennarea",
+    "desc": ""
+  },
+  "DBE": {
+    "name": "Dobe'a",
+    "desc": ""
+  },
+  "END": {
+    "name": "Enderta",
+    "desc": ""
+  },
+  "ETH": {
+    "name": "Etiópia",
+    "desc": ""
+  },
+  "GJJ": {
+    "name": "Gojjam",
+    "desc": ""
+  },
+  "MED": {
+    "name": "Medri Bahri",
+    "desc": ""
+  },
+  "BTI": {
+    "name": "Simien",
+    "desc": ""
+  },
+  "ADA": {
+    "name": "Adal",
+    "desc": ""
+  },
+  "AFA": {
+    "name": "Dankali",
+    "desc": ""
+  },
+  "ABB": {
+    "name": "Arbabni",
+    "desc": ""
+  },
+  "AWS": {
+    "name": "Aussa",
+    "desc": ""
+  },
+  "BLE": {
+    "name": "Bale",
+    "desc": ""
+  },
+  "DHK": {
+    "name": "Dahlak",
+    "desc": ""
+  },
+  "DRA": {
+    "name": "Dara",
+    "desc": ""
+  },
+  "DAW": {
+    "name": "Dawaro",
+    "desc": ""
+  },
+  "HDY": {
+    "name": "Hadiya",
+    "desc": ""
+  },
+  "IFA": {
+    "name": "Ifat",
+    "desc": ""
+  },
+  "HRL": {
+    "name": "Harla",
+    "desc": ""
+  },
+  "SHK": {
+    "name": "Sharkha",
+    "desc": ""
+  },
+  "SOA": {
+    "name": "Shewa",
+    "desc": ""
+  },
+  "AJU": {
+    "name": "Ajuran",
+    "desc": ""
+  },
+  "GLE": {
+    "name": "Geledi",
+    "desc": ""
+  },
+  "MDI": {
+    "name": "Mogadíscio",
+    "desc": ""
+  },
+  "WAR": {
+    "name": "Warsangali",
+    "desc": ""
+  },
+  "TDE": {
+    "name": "Tanade",
+    "desc": ""
+  },
+  "ABW": {
+    "name": "Al-Abwab",
+    "desc": ""
+  },
+  "ALO": {
+    "name": "Alodia",
+    "desc": ""
+  },
+  "MAK": {
+    "name": "Makúria",
+    "desc": ""
+  },
+  "BQL": {
+    "name": "Baqlin",
+    "desc": ""
+  },
+  "BZN": {
+    "name": "Bazin",
+    "desc": ""
+  },
+  "JRN": {
+    "name": "Jarin",
+    "desc": ""
+  },
+  "NQS": {
+    "name": "Naqis",
+    "desc": ""
+  },
+  "QTA": {
+    "name": "Qata",
+    "desc": ""
+  },
+  "DAJ": {
+    "name": "Daju",
+    "desc": ""
+  },
+  "ORO": {
+    "name": "oromo",
+    "desc": ""
+  },
+  "AFR": {
+    "name": "Afre",
+    "desc": ""
+  },
+  "SDQ": {
+    "name": "Sadaqa",
+    "desc": ""
+  },
+  "FNJ": {
+    "name": "Berta",
+    "desc": ""
+  },
+  "GUM": {
+    "name": "Gumuz",
+    "desc": ""
+  },
+  "KUN": {
+    "name": "Kunama",
+    "desc": ""
+  },
+  "CAT": {
+    "name": "Catalunha",
+    "desc": ""
+  },
+  "ANR": {
+    "name": "Andorra",
+    "desc": ""
+  },
+  "ARA": {
+    "name": "Aragão",
+    "desc": ""
+  },
+  "VAL": {
+    "name": "Valência",
+    "desc": ""
+  },
+  "MLL": {
+    "name": "Maiorca",
+    "desc": ""
+  },
+  "CAS": {
+    "name": "Castela",
+    "desc": ""
+  },
+  "POR": {
+    "name": "Portugal",
+    "desc": ""
+  },
+  "LON": {
+    "name": "Leão",
+    "desc": ""
+  },
+  "GLC": {
+    "name": "Galícia",
+    "desc": ""
+  },
+  "GRA": {
+    "name": "Granada",
+    "desc": ""
+  },
+  "NAV": {
+    "name": "Navarra",
+    "desc": ""
+  },
+  "DLH": {
+    "name": "Deli",
+    "desc": ""
+  },
+  "HSL": {
+    "name": "Hoysala",
+    "desc": ""
+  },
+  "SMV": {
+    "name": "Sambuvarayar",
+    "desc": ""
+  },
+  "VIJ": {
+    "name": "Vijaianagara",
+    "desc": ""
+  },
+  "MAB": {
+    "name": "Ma'bar",
+    "desc": ""
+  },
+  "TNK": {
+    "name": "Pandya",
+    "desc": ""
+  },
+  "RDY": {
+    "name": "Reddi",
+    "desc": ""
+  },
+  "YDR": {
+    "name": "Yadavaraya",
+    "desc": ""
+  },
+  "ZMR": {
+    "name": "Kozhikode",
+    "desc": ""
+  },
+  "KLT": {
+    "name": "Kolathunadu",
+    "desc": ""
+  },
+  "PDU": {
+    "name": "Cochim",
+    "desc": ""
+  },
+  "VND": {
+    "name": "Venad",
+    "desc": ""
+  },
+  "KTN": {
+    "name": "Kuttanad",
+    "desc": ""
+  },
+  "KDU": {
+    "name": "Padinjattedathu",
+    "desc": ""
+  },
+  "KYA": {
+    "name": "Kottayam",
+    "desc": ""
+  },
+  "VLD": {
+    "name": "Valluvanad",
+    "desc": ""
+  },
+  "ELA": {
+    "name": "Elayadathu",
+    "desc": ""
+  },
+  "TKU": {
+    "name": "Thekkumkur",
+    "desc": ""
+  },
+  "VDK": {
+    "name": "Vadakkumkur",
+    "desc": ""
+  },
+  "ALU": {
+    "name": "Alupa",
+    "desc": ""
+  },
+  "STR": {
+    "name": "Santara",
+    "desc": ""
+  },
+  "KPL": {
+    "name": "Koppula",
+    "desc": ""
+  },
+  "MSN": {
+    "name": "Musuniri",
+    "desc": ""
+  },
+  "RCH": {
+    "name": "Recherla",
+    "desc": ""
+  },
+  "ORI": {
+    "name": "Orissa",
+    "desc": ""
+  },
+  "KNK": {
+    "name": "Kanker",
+    "desc": ""
+  },
+  "BST": {
+    "name": "Bastar",
+    "desc": ""
+  },
+  "JPO": {
+    "name": "Nandapur",
+    "desc": ""
+  },
+  "BGL": {
+    "name": "Baglana",
+    "desc": ""
+  },
+  "CHD": {
+    "name": "Chanda",
+    "desc": ""
+  },
+  "BGR": {
+    "name": "Bandhugara",
+    "desc": ""
+  },
+  "WRG": {
+    "name": "Wairagarh",
+    "desc": ""
+  },
+  "GOA": {
+    "name": "Goa",
+    "desc": ""
+  },
+  "HNV": {
+    "name": "Honnavara",
+    "desc": ""
+  },
+  "DRP": {
+    "name": "Ramnagar",
+    "desc": ""
+  },
+  "JWR": {
+    "name": "Jawhar",
+    "desc": ""
+  },
+  "DGR": {
+    "name": "Bagar",
+    "desc": ""
+  },
+  "MEW": {
+    "name": "Mewar",
+    "desc": ""
+  },
+  "IDR": {
+    "name": "Idar",
+    "desc": ""
+  },
+  "JLR": {
+    "name": "Jalore",
+    "desc": ""
+  },
+  "CMN": {
+    "name": "Champaner",
+    "desc": ""
+  },
+  "RJI": {
+    "name": "Rajpipla",
+    "desc": ""
+  },
+  "KUT": {
+    "name": "Kutch",
+    "desc": ""
+  },
+  "SMA": {
+    "name": "Samma",
+    "desc": ""
+  },
+  "SND": {
+    "name": "Sinde",
+    "desc": ""
+  },
+  "RNP": {
+    "name": "Ranpur",
+    "desc": ""
+  },
+  "GHL": {
+    "name": "Gohilvad",
+    "desc": ""
+  },
+  "PLT": {
+    "name": "Palitana",
+    "desc": ""
+  },
+  "JNG": {
+    "name": "Junagarh",
+    "desc": ""
+  },
+  "BHD": {
+    "name": "Bhanvad",
+    "desc": ""
+  },
+  "JLW": {
+    "name": "Jhalawad",
+    "desc": ""
+  },
+  "MRW": {
+    "name": "Marwar",
+    "desc": ""
+  },
+  "HAD": {
+    "name": "de Hadoti",
+    "desc": ""
+  },
+  "JSL": {
+    "name": "Jaisalmer",
+    "desc": ""
+  },
+  "PGL": {
+    "name": "Pugal",
+    "desc": ""
+  },
+  "KLI": {
+    "name": "Karauli",
+    "desc": ""
+  },
+  "SHR": {
+    "name": "Saara",
+    "desc": ""
+  },
+  "DRW": {
+    "name": "Dadrewa",
+    "desc": ""
+  },
+  "BWL": {
+    "name": "Beniwal",
+    "desc": ""
+  },
+  "JHI": {
+    "name": "Johiya",
+    "desc": ""
+  },
+  "GDA": {
+    "name": "Godara",
+    "desc": ""
+  },
+  "PNA": {
+    "name": "Punia",
+    "desc": ""
+  },
+  "BHA": {
+    "name": "Bhatnir",
+    "desc": ""
+  },
+  "DOG": {
+    "name": "Dogra",
+    "desc": ""
+  },
+  "DHU": {
+    "name": "Dhundhar",
+    "desc": ""
+  },
+  "GWA": {
+    "name": "Gwalior",
+    "desc": ""
+  },
+  "JJK": {
+    "name": "Jejakabhukti",
+    "desc": ""
+  },
+  "BND": {
+    "name": "Bundelkhand",
+    "desc": ""
+  },
+  "BGK": {
+    "name": "Bagelkhand",
+    "desc": ""
+  },
+  "MAU": {
+    "name": "Mau Ganj",
+    "desc": ""
+  },
+  "KHR": {
+    "name": "Kherla",
+    "desc": ""
+  },
+  "GHR": {
+    "name": "Garha",
+    "desc": ""
+  },
+  "RTP": {
+    "name": "Ratnapura",
+    "desc": ""
+  },
+  "BAD": {
+    "name": "Baudh",
+    "desc": ""
+  },
+  "NRS": {
+    "name": "Narsinghpur",
+    "desc": ""
+  },
+  "KJA": {
+    "name": "Keonjhar",
+    "desc": ""
+  },
+  "PTN": {
+    "name": "Patna",
+    "desc": ""
+  },
+  "PRT": {
+    "name": "Mandore",
+    "desc": ""
+  },
+  "KLH": {
+    "name": "Kalahandi",
+    "desc": ""
+  },
+  "SRG": {
+    "name": "Sarangarh",
+    "desc": ""
+  },
+  "PLA": {
+    "name": "Pal Lahara",
+    "desc": ""
+  },
+  "BNA": {
+    "name": "de Bonai",
+    "desc": ""
+  },
+  "MJU": {
+    "name": "Mayurbhanj",
+    "desc": ""
+  },
+  "DBD": {
+    "name": "Dambadeniya",
+    "desc": ""
+  },
+  "JFN": {
+    "name": "Jaffna",
+    "desc": ""
+  },
+  "NAG": {
+    "name": "Nagar",
+    "desc": ""
+  },
+  "SWT": {
+    "name": "Swat",
+    "desc": ""
+  },
+  "HNZ": {
+    "name": "Hunza",
+    "desc": ""
+  },
+  "CTR": {
+    "name": "Chitral",
+    "desc": ""
+  },
+  "CRL": {
+    "name": "Urtsun",
+    "desc": ""
+  },
+  "GLI": {
+    "name": "Guilguite",
+    "desc": ""
+  },
+  "KSH": {
+    "name": "Caxemira",
+    "desc": ""
+  },
+  "RJR": {
+    "name": "Rajauri",
+    "desc": ""
+  },
+  "PNC": {
+    "name": "Poonch",
+    "desc": ""
+  },
+  "CBH": {
+    "name": "Bhimber",
+    "desc": ""
+  },
+  "CAB": {
+    "name": "Chamba",
+    "desc": ""
+  },
+  "LHL": {
+    "name": "Lahaul",
+    "desc": ""
+  },
+  "KLU": {
+    "name": "Kulu",
+    "desc": ""
+  },
+  "KSW": {
+    "name": "Kishtwar",
+    "desc": ""
+  },
+  "SKT": {
+    "name": "Suket",
+    "desc": ""
+  },
+  "BSP": {
+    "name": "Bilaspur",
+    "desc": ""
+  },
+  "KTL": {
+    "name": "Kutlehar",
+    "desc": ""
+  },
+  "KGR": {
+    "name": "Kangra",
+    "desc": ""
+  },
+  "NRP": {
+    "name": "Nurpur",
+    "desc": ""
+  },
+  "MAJ": {
+    "name": "Império de Majapait",
+    "desc": ""
+  },
+  "BLI": {
+    "name": "Bali",
+    "desc": ""
+  },
+  "SUN": {
+    "name": "Sunda",
+    "desc": ""
+  },
+  "JMB": {
+    "name": "Melayu",
+    "desc": ""
+  },
+  "ATJ": {
+    "name": "Achém",
+    "desc": ""
+  },
+  "PSA": {
+    "name": "Pacém",
+    "desc": ""
+  },
+  "ARU": {
+    "name": "Aru",
+    "desc": ""
+  },
+  "PNI": {
+    "name": "Panai",
+    "desc": ""
+  },
+  "BUS": {
+    "name": "Barus",
+    "desc": ""
+  },
+  "INR": {
+    "name": "Indragiri",
+    "desc": ""
+  },
+  "SGT": {
+    "name": "Siguntur",
+    "desc": ""
+  },
+  "PLB": {
+    "name": "Palimbão",
+    "desc": ""
+  },
+  "LGE": {
+    "name": "Linge",
+    "desc": ""
+  },
+  "TJP": {
+    "name": "Tanjungpura",
+    "desc": ""
+  },
+  "NSR": {
+    "name": "Nan Sarunai",
+    "desc": ""
+  },
+  "KRP": {
+    "name": "Kuripan",
+    "desc": ""
+  },
+  "MRP": {
+    "name": "Kutai Martapura",
+    "desc": ""
+  },
+  "KKG": {
+    "name": "Kutai Kartanegara",
+    "desc": ""
+  },
+  "SMB": {
+    "name": "Sambas",
+    "desc": ""
+  },
+  "TDG": {
+    "name": "Tidung",
+    "desc": ""
+  },
+  "BEI": {
+    "name": "Brunei",
+    "desc": ""
+  },
+  "MNU": {
+    "name": "Melanau",
+    "desc": ""
+  },
+  "SBG": {
+    "name": "Santubong",
+    "desc": ""
+  },
+  "SGU": {
+    "name": "Sanggau",
+    "desc": ""
+  },
+  "LNK": {
+    "name": "Landak",
+    "desc": ""
+  },
+  "SBU": {
+    "name": "Selimbau",
+    "desc": ""
+  },
+  "SLA": {
+    "name": "Silat",
+    "desc": ""
+  },
+  "BLN": {
+    "name": "Bolaang",
+    "desc": ""
+  },
+  "GRT": {
+    "name": "Gorontalo",
+    "desc": ""
+  },
+  "PJT": {
+    "name": "Pudjananti",
+    "desc": ""
+  },
+  "BGG": {
+    "name": "Bangga",
+    "desc": ""
+  },
+  "LUW": {
+    "name": "Luwu",
+    "desc": ""
+  },
+  "BAI": {
+    "name": "Bangai",
+    "desc": ""
+  },
+  "BTE": {
+    "name": "Bantaeng",
+    "desc": ""
+  },
+  "GOW": {
+    "name": "Gowa",
+    "desc": ""
+  },
+  "BOW": {
+    "name": "Bowontehu",
+    "desc": ""
+  },
+  "BTN": {
+    "name": "Buton",
+    "desc": ""
+  },
+  "MKG": {
+    "name": "Mekongga",
+    "desc": ""
+  },
+  "KNW": {
+    "name": "Konawe",
+    "desc": ""
+  },
+  "MRN": {
+    "name": "Moronene",
+    "desc": ""
+  },
+  "CIN": {
+    "name": "Cina",
+    "desc": ""
+  },
+  "KLS": {
+    "name": "Kalisusu",
+    "desc": ""
+  },
+  "WUN": {
+    "name": "Muna",
+    "desc": ""
+  },
+  "BNE": {
+    "name": "Bone",
+    "desc": ""
+  },
+  "SDR": {
+    "name": "Sidenreng",
+    "desc": ""
+  },
+  "RRU": {
+    "name": "Barru",
+    "desc": ""
+  },
+  "SIG": {
+    "name": "Siang",
+    "desc": ""
+  },
+  "PKR": {
+    "name": "Passokkorang",
+    "desc": ""
+  },
+  "SLP": {
+    "name": "Selaparang",
+    "desc": ""
+  },
+  "BIM": {
+    "name": "Bima",
+    "desc": ""
+  },
+  "DOM": {
+    "name": "Dompu",
+    "desc": ""
+  },
+  "NGL": {
+    "name": "Ngali",
+    "desc": ""
+  },
+  "TLW": {
+    "name": "Taliwang",
+    "desc": ""
+  },
+  "LRT": {
+    "name": "Larantuca",
+    "desc": ""
+  },
+  "WHL": {
+    "name": "Veale",
+    "desc": ""
+  },
+  "BAC": {
+    "name": "Bacan",
+    "desc": ""
+  },
+  "TER": {
+    "name": "Ternate",
+    "desc": ""
+  },
+  "TID": {
+    "name": "Tidore",
+    "desc": ""
+  },
+  "LOL": {
+    "name": "Loloda",
+    "desc": ""
+  },
+  "JLO": {
+    "name": "Jailolo",
+    "desc": ""
+  },
+  "MOO": {
+    "name": "Moro",
+    "desc": ""
+  },
+  "SUL": {
+    "name": "Lupah Sug",
+    "desc": ""
+  },
+  "MYI": {
+    "name": "Ma-i",
+    "desc": ""
+  },
+  "CEB": {
+    "name": "Cebu",
+    "desc": ""
+  },
+  "TDO": {
+    "name": "Tondo",
+    "desc": ""
+  },
+  "MNA": {
+    "name": "Manila",
+    "desc": ""
+  },
+  "MDY": {
+    "name": "Madya-as",
+    "desc": ""
+  },
+  "PGS": {
+    "name": "Caboloan",
+    "desc": ""
+  },
+  "BTU": {
+    "name": "Butuan",
+    "desc": ""
+  },
+  "MGD": {
+    "name": "Wenduling",
+    "desc": ""
+  },
+  "KIM": {
+    "name": "Kiliman",
+    "desc": ""
+  },
+  "LNO": {
+    "name": "Lanao",
+    "desc": ""
+  },
+  "IBL": {
+    "name": "Ibalon",
+    "desc": ""
+  },
+  "PLL": {
+    "name": "Pulilu",
+    "desc": ""
+  },
+  "TYY": {
+    "name": "Taytay",
+    "desc": ""
+  },
+  "KML": {
+    "name": "Kumalarang",
+    "desc": ""
+  },
+  "CNT": {
+    "name": "Cainta",
+    "desc": ""
+  },
+  "KAM": {
+    "name": "Kaimana",
+    "desc": ""
+  },
+  "BOL": {
+    "name": "Dapitan",
+    "desc": ""
+  },
+  "SML": {
+    "name": "Sanmalan",
+    "desc": ""
+  },
+  "ILC": {
+    "name": "Ilocos",
+    "desc": ""
+  },
+  "WGE": {
+    "name": "Waigeo",
+    "desc": ""
+  },
+  "MAD": {
+    "name": "Maden",
+    "desc": ""
+  },
+  "MSL": {
+    "name": "Misool",
+    "desc": ""
+  },
+  "ABA": {
+    "name": "Alba",
+    "desc": ""
+  },
+  "ANC": {
+    "name": "Ancona",
+    "desc": ""
+  },
+  "AQU": {
+    "name": "Aquileia",
+    "desc": ""
+  },
+  "ARB": {
+    "name": "Arbórea",
+    "desc": ""
+  },
+  "ARZ": {
+    "name": "Arezzo",
+    "desc": ""
+  },
+  "ASC": {
+    "name": "Ascoli",
+    "desc": ""
+  },
+  "ASD": {
+    "name": "Alessandria",
+    "desc": ""
+  },
+  "ATI": {
+    "name": "Asti",
+    "desc": ""
+  },
+  "BLG": {
+    "name": "Bolonha",
+    "desc": ""
+  },
+  "BRS": {
+    "name": "Brescia",
+    "desc": ""
+  },
+  "CAG": {
+    "name": "Cagliari",
+    "desc": ""
+  },
+  "CDC": {
+    "name": "Città di Castello",
+    "desc": ""
+  },
+  "CEN": {
+    "name": "Ceneda",
+    "desc": ""
+  },
+  "CES": {
+    "name": "Cesena",
+    "desc": ""
+  },
+  "CEV": {
+    "name": "Ceva",
+    "desc": ""
+  },
+  "CHX": {
+    "name": "Chieri",
+    "desc": ""
+  },
+  "CMR": {
+    "name": "Camerino",
+    "desc": ""
+  },
+  "CNV": {
+    "name": "Canavese",
+    "desc": ""
+  },
+  "COR": {
+    "name": "Córsega",
+    "desc": ""
+  },
+  "COT": {
+    "name": "Cortona",
+    "desc": ""
+  },
+  "CRM": {
+    "name": "Cremona",
+    "desc": ""
+  },
+  "CRR": {
+    "name": "Finale",
+    "desc": ""
+  },
+  "FAB": {
+    "name": "Fabriano",
+    "desc": ""
+  },
+  "FAE": {
+    "name": "Faenza",
+    "desc": ""
+  },
+  "FEL": {
+    "name": "Feltre",
+    "desc": ""
+  },
+  "FER": {
+    "name": "Ferrara",
+    "desc": ""
+  },
+  "FLO": {
+    "name": "Florença",
+    "desc": ""
+  },
+  "FRM": {
+    "name": "Fermo",
+    "desc": ""
+  },
+  "GAL": {
+    "name": "Gallura",
+    "desc": ""
+  },
+  "GEN": {
+    "name": "Gênova",
+    "desc": ""
+  },
+  "GUB": {
+    "name": "Gubbio",
+    "desc": ""
+  },
+  "IMO": {
+    "name": "Imola",
+    "desc": ""
+  },
+  "LUC": {
+    "name": "Lucca",
+    "desc": ""
+  },
+  "MAN": {
+    "name": "Mântua",
+    "desc": ""
+  },
+  "MFA": {
+    "name": "Montferrat",
+    "desc": ""
+  },
+  "MLO": {
+    "name": "Milão",
+    "desc": ""
+  },
+  "MND": {
+    "name": "Mondovi",
+    "desc": ""
+  },
+  "MOD": {
+    "name": "Módena",
+    "desc": ""
+  },
+  "MSP": {
+    "name": "Malaspina",
+    "desc": ""
+  },
+  "MTA": {
+    "name": "Macerata",
+    "desc": ""
+  },
+  "NAP": {
+    "name": "Nápoles",
+    "desc": ""
+  },
+  "PAD": {
+    "name": "Pádua",
+    "desc": ""
+  },
+  "PAP": {
+    "name": "Roma",
+    "desc": ""
+  },
+  "PAR": {
+    "name": "Parma",
+    "desc": ""
+  },
+  "PAV": {
+    "name": "Pavia",
+    "desc": ""
+  },
+  "PEA": {
+    "name": "Perugia",
+    "desc": ""
+  },
+  "PES": {
+    "name": "Pesaro",
+    "desc": ""
+  },
+  "PIE": {
+    "name": "Piemonte",
+    "desc": ""
+  },
+  "PIO": {
+    "name": "Piombino",
+    "desc": ""
+  },
+  "PIS": {
+    "name": "Pisa",
+    "desc": ""
+  },
+  "PRA": {
+    "name": "Prato",
+    "desc": ""
+  },
+  "RAV": {
+    "name": "Ravena",
+    "desc": ""
+  },
+  "RGG": {
+    "name": "Reggio",
+    "desc": ""
+  },
+  "RIM": {
+    "name": "Rimini",
+    "desc": ""
+  },
+  "SAL": {
+    "name": "Saluzzo",
+    "desc": ""
+  },
+  "SAV": {
+    "name": "Saboia",
+    "desc": ""
+  },
+  "SCL": {
+    "name": "Saint-Claude",
+    "desc": ""
+  },
+  "GNV": {
+    "name": "Genebra",
+    "desc": ""
+  },
+  "SIC": {
+    "name": "Sicília",
+    "desc": ""
+  },
+  "SIE": {
+    "name": "Siena",
+    "desc": ""
+  },
+  "SPL": {
+    "name": "Spoleto",
+    "desc": ""
+  },
+  "PTG": {
+    "name": "Pitigliano",
+    "desc": ""
+  },
+  "SSP": {
+    "name": "Sansepolcro",
+    "desc": ""
+  },
+  "TNT": {
+    "name": "Trento",
+    "desc": ""
+  },
+  "TOR": {
+    "name": "Torres",
+    "desc": ""
+  },
+  "TRV": {
+    "name": "Treviso",
+    "desc": ""
+  },
+  "TTE": {
+    "name": "Trieste",
+    "desc": ""
+  },
+  "TTN": {
+    "name": "Tortona",
+    "desc": ""
+  },
+  "URB": {
+    "name": "Urbino",
+    "desc": ""
+  },
+  "VEN": {
+    "name": "Veneza",
+    "desc": ""
+  },
+  "VER": {
+    "name": "Verona",
+    "desc": ""
+  },
+  "VIN": {
+    "name": "Vicenza",
+    "desc": ""
+  },
+  "VLT": {
+    "name": "Volterra",
+    "desc": ""
+  },
+  "PRZ": {
+    "name": "Peruzzi",
+    "desc": ""
+  },
+  "BRD": {
+    "name": "Bardi",
+    "desc": ""
+  },
+  "ACC": {
+    "name": "Acciaioli",
+    "desc": ""
+  },
+  "PST": {
+    "name": "Pistoia",
+    "desc": ""
+  },
+  "VUN": {
+    "name": "Vungu",
+    "desc": ""
+  },
+  "NSU": {
+    "name": "Nsudi",
+    "desc": ""
+  },
+  "MPE": {
+    "name": "Maguela",
+    "desc": ""
+  },
+  "VNA": {
+    "name": "Vunda",
+    "desc": ""
+  },
+  "MBT": {
+    "name": "Mbata",
+    "desc": ""
+  },
+  "SOY": {
+    "name": "Soyo",
+    "desc": ""
+  },
+  "MOM": {
+    "name": "Momboares",
+    "desc": ""
+  },
+  "CHO": {
+    "name": "Chócue",
+    "desc": ""
+  },
+  "OVI": {
+    "name": "Ovimbundos",
+    "desc": ""
+  },
+  "LND": {
+    "name": "Lunda",
+    "desc": ""
+  },
+  "LBA": {
+    "name": "Luba",
+    "desc": ""
+  },
+  "KUB": {
+    "name": "Kuba",
+    "desc": ""
+  },
+  "LEG": {
+    "name": "Lega",
+    "desc": ""
+  },
+  "SIK": {
+    "name": "Shilluk",
+    "desc": ""
+  },
+  "HOL": {
+    "name": "Holanda",
+    "desc": ""
+  },
+  "ZEE": {
+    "name": "Zeeland",
+    "desc": ""
+  },
+  "BRB": {
+    "name": "Brabante",
+    "desc": ""
+  },
+  "FLA": {
+    "name": "Flandres",
+    "desc": ""
+  },
+  "LUX": {
+    "name": "Luxemburgo",
+    "desc": ""
+  },
+  "LIE": {
+    "name": "Liège",
+    "desc": ""
+  },
+  "CHN": {
+    "name": "Chiny",
+    "desc": ""
+  },
+  "LIM": {
+    "name": "Limburgo",
+    "desc": ""
+  },
+  "NAM": {
+    "name": "Namur",
+    "desc": ""
+  },
+  "LOO": {
+    "name": "Loon",
+    "desc": ""
+  },
+  "VBG": {
+    "name": "Valkenburgo",
+    "desc": ""
+  },
+  "HRN": {
+    "name": "Horne",
+    "desc": ""
+  },
+  "CJK": {
+    "name": "Cuijk",
+    "desc": ""
+  },
+  "UTR": {
+    "name": "Utreque",
+    "desc": ""
+  },
+  "FRI": {
+    "name": "Frísia",
+    "desc": ""
+  },
+  "STV": {
+    "name": "Stavelot-Malmedy",
+    "desc": ""
+  },
+  "HAI": {
+    "name": "Hainaut",
+    "desc": ""
+  },
+  "ARS": {
+    "name": "Artésia",
+    "desc": ""
+  },
+  "STP": {
+    "name": "Saint-Pol",
+    "desc": ""
+  },
+  "BGN": {
+    "name": "Boulogne",
+    "desc": ""
+  },
+  "BNT": {
+    "name": "Bentheim",
+    "desc": ""
+  },
+  "BLL": {
+    "name": "Bouillon",
+    "desc": ""
+  },
+  "HBG": {
+    "name": "Heinsberg",
+    "desc": ""
+  },
+  "MOR": {
+    "name": "Marrocos",
+    "desc": ""
+  },
+  "FEZ": {
+    "name": "Fez",
+    "desc": ""
+  },
+  "CNR": {
+    "name": "Guanche",
+    "desc": ""
+  },
+  "MRK": {
+    "name": "Marraquexe",
+    "desc": ""
+  },
+  "TET": {
+    "name": "Tetuão",
+    "desc": ""
+  },
+  "SLE": {
+    "name": "Salé",
+    "desc": ""
+  },
+  "TFL": {
+    "name": "Tafilete",
+    "desc": ""
+  },
+  "SOS": {
+    "name": "Sus",
+    "desc": ""
+  },
+  "TLE": {
+    "name": "Tlemcen",
+    "desc": ""
+  },
+  "ALG": {
+    "name": "Argel",
+    "desc": ""
+  },
+  "TGT": {
+    "name": "Touggourt",
+    "desc": ""
+  },
+  "KUK": {
+    "name": "Kuku",
+    "desc": ""
+  },
+  "AIT": {
+    "name": "Aït Abbas",
+    "desc": ""
+  },
+  "MZB": {
+    "name": "Mzab",
+    "desc": ""
+  },
+  "TUN": {
+    "name": "Túnis",
+    "desc": ""
+  },
+  "DJE": {
+    "name": "Djerid",
+    "desc": ""
+  },
+  "GFS": {
+    "name": "Gafsa",
+    "desc": ""
+  },
+  "GBS": {
+    "name": "Gabès",
+    "desc": ""
+  },
+  "BTL": {
+    "name": "Tellīs",
+    "desc": ""
+  },
+  "ZAB": {
+    "name": "Zab",
+    "desc": ""
+  },
+  "OGL": {
+    "name": "Ouargla",
+    "desc": ""
+  },
+  "TAT": {
+    "name": "Touat",
+    "desc": ""
+  },
+  "TAR": {
+    "name": "Purépecha",
+    "desc": ""
+  },
+  "CRK": {
+    "name": "Churumekua",
+    "desc": ""
+  },
+  "CTE": {
+    "name": "Cuitzeo",
+    "desc": ""
+  },
+  "TUZ": {
+    "name": "Tozantlan",
+    "desc": ""
+  },
+  "TZI": {
+    "name": "Tzitacuaro",
+    "desc": ""
+  },
+  "TAX": {
+    "name": "Taximaroa",
+    "desc": ""
+  },
+  "TNC": {
+    "name": "Tenochtitlán",
+    "desc": ""
+  },
+  "TTZ": {
+    "name": "Acolhuacan",
+    "desc": ""
+  },
+  "CUL": {
+    "name": "Culhuacan",
+    "desc": ""
+  },
+  "TEP": {
+    "name": "Tepanecapan",
+    "desc": ""
+  },
+  "TCP": {
+    "name": "Tlacōpan",
+    "desc": ""
+  },
+  "OTO": {
+    "name": "Xaltocan",
+    "desc": ""
+  },
+  "AXO": {
+    "name": "Axocopan",
+    "desc": ""
+  },
+  "MET": {
+    "name": "Metztitlan",
+    "desc": ""
+  },
+  "HYC": {
+    "name": "Hueyacocotla",
+    "desc": ""
+  },
+  "TUT": {
+    "name": "Tototepec",
+    "desc": ""
+  },
+  "XIL": {
+    "name": "Xilotepec",
+    "desc": ""
+  },
+  "ZIN": {
+    "name": "Zinapecuaro",
+    "desc": ""
+  },
+  "MAT": {
+    "name": "Tollohcan",
+    "desc": ""
+  },
+  "MLN": {
+    "name": "Malinalco",
+    "desc": ""
+  },
+  "TLA": {
+    "name": "Tixtla",
+    "desc": ""
+  },
+  "YPZ": {
+    "name": "Yopitzinco",
+    "desc": ""
+  },
+  "CLP": {
+    "name": "Chilapa",
+    "desc": ""
+  },
+  "OAP": {
+    "name": "Oapan",
+    "desc": ""
+  },
+  "TLX": {
+    "name": "Tlaxcalteca",
+    "desc": ""
+  },
+  "ZAP": {
+    "name": "Zaachila",
+    "desc": ""
+  },
+  "TPL": {
+    "name": "Teposcocula",
+    "desc": ""
+  },
+  "IXL": {
+    "name": "Ixtlán",
+    "desc": ""
+  },
+  "YDZ": {
+    "name": "Yodzocahi",
+    "desc": ""
+  },
+  "YAU": {
+    "name": "Yautepec",
+    "desc": ""
+  },
+  "THT": {
+    "name": "Tehuantepec",
+    "desc": ""
+  },
+  "MIX": {
+    "name": "Yucu Dzaa",
+    "desc": ""
+  },
+  "QIG": {
+    "name": "Quiegoqui",
+    "desc": ""
+  },
+  "TZL": {
+    "name": "Teozacoalco",
+    "desc": ""
+  },
+  "JUX": {
+    "name": "Yodzo Cuiya",
+    "desc": ""
+  },
+  "TCQ": {
+    "name": "Ndisi Nuu",
+    "desc": ""
+  },
+  "YCH": {
+    "name": "Yucu Satuta",
+    "desc": ""
+  },
+  "COI": {
+    "name": "Yodzo Coo",
+    "desc": ""
+  },
+  "CCN": {
+    "name": "Cuicatlán",
+    "desc": ""
+  },
+  "NND": {
+    "name": "Ñuu Ndiyi",
+    "desc": ""
+  },
+  "MHT": {
+    "name": "Miahuatlán",
+    "desc": ""
+  },
+  "TEO": {
+    "name": "Teotitlán",
+    "desc": ""
+  },
+  "CLM": {
+    "name": "Coliman",
+    "desc": ""
+  },
+  "TOT": {
+    "name": "Cempohuallan",
+    "desc": ""
+  },
+  "MZT": {
+    "name": "Mizantla",
+    "desc": ""
+  },
+  "PPT": {
+    "name": "Papantlan",
+    "desc": ""
+  },
+  "QHZ": {
+    "name": "Quiahuiztlan",
+    "desc": ""
+  },
+  "HST": {
+    "name": "Teayotlan",
+    "desc": ""
+  },
+  "MCC": {
+    "name": "Michuachapanco",
+    "desc": ""
+  },
+  "TTC": {
+    "name": "Tamtoc",
+    "desc": ""
+  },
+  "TXP": {
+    "name": "Tuxpan",
+    "desc": ""
+  },
+  "OZL": {
+    "name": "Ozuluama",
+    "desc": ""
+  },
+  "OXT": {
+    "name": "Oxtlipan",
+    "desc": ""
+  },
+  "TZH": {
+    "name": "Tziuhcoac",
+    "desc": ""
+  },
+  "TZP": {
+    "name": "Tetzapotitlan",
+    "desc": ""
+  },
+  "XAL": {
+    "name": "Xalisco",
+    "desc": ""
+  },
+  "TAA": {
+    "name": "Tlalpan",
+    "desc": ""
+  },
+  "TZZ": {
+    "name": "Tzapotzingo",
+    "desc": ""
+  },
+  "SNT": {
+    "name": "Sentispac",
+    "desc": ""
+  },
+  "PAM": {
+    "name": "Xi'oi",
+    "desc": ""
+  },
+  "TNL": {
+    "name": "Tonallan",
+    "desc": ""
+  },
+  "MXT": {
+    "name": "Mexticacan",
+    "desc": ""
+  },
+  "YAH": {
+    "name": "Yahualican",
+    "desc": ""
+  },
+  "TPN": {
+    "name": "Tecpatitlan",
+    "desc": ""
+  },
+  "MIT": {
+    "name": "Mitic",
+    "desc": ""
+  },
+  "XLT": {
+    "name": "Xalostotitlan",
+    "desc": ""
+  },
+  "CON": {
+    "name": "Coinan",
+    "desc": ""
+  },
+  "ACA": {
+    "name": "Acatic",
+    "desc": ""
+  },
+  "TPC": {
+    "name": "Tepecan",
+    "desc": ""
+  },
+  "TEL": {
+    "name": "Caxcan",
+    "desc": ""
+  },
+  "XOC": {
+    "name": "Xochipillan",
+    "desc": ""
+  },
+  "ZAC": {
+    "name": "Zacateca",
+    "desc": ""
+  },
+  "ZAI": {
+    "name": "Zaín",
+    "desc": ""
+  },
+  "GAM": {
+    "name": "Guamar",
+    "desc": ""
+  },
+  "SAU": {
+    "name": "Sauzas",
+    "desc": ""
+  },
+  "GUX": {
+    "name": "Guaxaban",
+    "desc": ""
+  },
+  "IZT": {
+    "name": "Iztachichimeca",
+    "desc": ""
+  },
+  "ATO": {
+    "name": "Atocpan",
+    "desc": ""
+  },
+  "TZC": {
+    "name": "Tollantzinco",
+    "desc": ""
+  },
+  "CLC": {
+    "name": "Chalco",
+    "desc": ""
+  },
+  "HUX": {
+    "name": "Huaxtepec",
+    "desc": ""
+  },
+  "CUU": {
+    "name": "Cuauhnahuac",
+    "desc": ""
+  },
+  "TCH": {
+    "name": "Tlachco",
+    "desc": ""
+  },
+  "OZT": {
+    "name": "Oztoman",
+    "desc": ""
+  },
+  "TMS": {
+    "name": "Temascaltepec",
+    "desc": ""
+  },
+  "TCC": {
+    "name": "Tepecoacuilco",
+    "desc": ""
+  },
+  "CTL": {
+    "name": "Chiyautla",
+    "desc": ""
+  },
+  "TLL": {
+    "name": "Tetellan",
+    "desc": ""
+  },
+  "ZOM": {
+    "name": "Tzompanco",
+    "desc": ""
+  },
+  "TLZ": {
+    "name": "Tlalcozauhtitlan",
+    "desc": ""
+  },
+  "UAU": {
+    "name": "Cuauhteopan",
+    "desc": ""
+  },
+  "YOH": {
+    "name": "Yohualtepec",
+    "desc": ""
+  },
+  "TPT": {
+    "name": "Tecpantepec",
+    "desc": ""
+  },
+  "CIH": {
+    "name": "Cihuatlan",
+    "desc": ""
+  },
+  "ZCT": {
+    "name": "Zacatollan",
+    "desc": ""
+  },
+  "AJC": {
+    "name": "Axochitlan",
+    "desc": ""
+  },
+  "TLP": {
+    "name": "Tlapan",
+    "desc": ""
+  },
+  "AYO": {
+    "name": "Ayotlan",
+    "desc": ""
+  },
+  "OMT": {
+    "name": "Ometepec",
+    "desc": ""
+  },
+  "CTC": {
+    "name": "Coatlicamac",
+    "desc": ""
+  },
+  "CTZ": {
+    "name": "Coatzacualco",
+    "desc": ""
+  },
+  "TPY": {
+    "name": "Tepeyacac",
+    "desc": ""
+  },
+  "CTX": {
+    "name": "Cuetlaxtlan",
+    "desc": ""
+  },
+  "CLL": {
+    "name": "Cholollan",
+    "desc": ""
+  },
+  "HJZ": {
+    "name": "Huexotzinco",
+    "desc": ""
+  },
+  "XCH": {
+    "name": "Xochimilco",
+    "desc": ""
+  },
+  "IXT": {
+    "name": "Ixtacamaxtitlan",
+    "desc": ""
+  },
+  "TEE": {
+    "name": "Tetela",
+    "desc": ""
+  },
+  "ZAT": {
+    "name": "Zacatlan",
+    "desc": ""
+  },
+  "TLQ": {
+    "name": "Tlatlauquitepec",
+    "desc": ""
+  },
+  "TCY": {
+    "name": "Tlapacoyan",
+    "desc": ""
+  },
+  "AHU": {
+    "name": "Ahuacatlan",
+    "desc": ""
+  },
+  "GCH": {
+    "name": "Cuauhchinanco",
+    "desc": ""
+  },
+  "ETZ": {
+    "name": "Etzatlan",
+    "desc": ""
+  },
+  "XCT": {
+    "name": "Xochitepec",
+    "desc": ""
+  },
+  "AME": {
+    "name": "Amecan",
+    "desc": ""
+  },
+  "TNX": {
+    "name": "Tenamaztlan",
+    "desc": ""
+  },
+  "AML": {
+    "name": "Amol",
+    "desc": ""
+  },
+  "CZL": {
+    "name": "Cozalapan",
+    "desc": ""
+  },
+  "TMT": {
+    "name": "Tomatlán",
+    "desc": ""
+  },
+  "MHC": {
+    "name": "Melahuacan",
+    "desc": ""
+  },
+  "XIH": {
+    "name": "Xiuhtlan",
+    "desc": ""
+  },
+  "ATL": {
+    "name": "Autlan",
+    "desc": ""
+  },
+  "CCL": {
+    "name": "Cocollan",
+    "desc": ""
+  },
+  "HTZ": {
+    "name": "Huitzquilic",
+    "desc": ""
+  },
+  "AZL": {
+    "name": "Aztatlan",
+    "desc": ""
+  },
+  "TZM": {
+    "name": "Tamazollan",
+    "desc": ""
+  },
+  "TLY": {
+    "name": "Tlapacoya",
+    "desc": ""
+  },
+  "CAU": {
+    "name": "Cuauhtlan",
+    "desc": ""
+  },
+  "AMP": {
+    "name": "Amapila",
+    "desc": ""
+  },
+  "SAY": {
+    "name": "Sayollan",
+    "desc": ""
+  },
+  "PTP": {
+    "name": "Pantepec",
+    "desc": ""
+  },
+  "XAP": {
+    "name": "Xalapan",
+    "desc": ""
+  },
+  "CUO": {
+    "name": "Cuauhtochco",
+    "desc": ""
+  },
+  "XIC": {
+    "name": "Xicochimalco",
+    "desc": ""
+  },
+  "TOH": {
+    "name": "Tochtepec",
+    "desc": ""
+  },
+  "TTA": {
+    "name": "Teutila",
+    "desc": ""
+  },
+  "PTL": {
+    "name": "Puctlan",
+    "desc": ""
+  },
+  "CSM": {
+    "name": "Cozamaloapan",
+    "desc": ""
+  },
+  "OTA": {
+    "name": "Otatitlan",
+    "desc": ""
+  },
+  "TLT": {
+    "name": "Tlacotlalpan",
+    "desc": ""
+  },
+  "TOZ": {
+    "name": "Toztlan",
+    "desc": ""
+  },
+  "IZC": {
+    "name": "Iztachacalapan",
+    "desc": ""
+  },
+  "TSE": {
+    "name": "Tesechoacan",
+    "desc": ""
+  },
+  "CCP": {
+    "name": "Cuauhcuetzpaltepec",
+    "desc": ""
+  },
+  "OZU": {
+    "name": "Ozumatzin",
+    "desc": ""
+  },
+  "ATP": {
+    "name": "Atepec",
+    "desc": ""
+  },
+  "CPN": {
+    "name": "Tzoapan",
+    "desc": ""
+  },
+  "XCP": {
+    "name": "Xochiapan",
+    "desc": ""
+  },
+  "ATT": {
+    "name": "Atitlan",
+    "desc": ""
+  },
+  "IXA": {
+    "name": "Iztapan",
+    "desc": ""
+  },
+  "CUZ": {
+    "name": "Cutzamala",
+    "desc": ""
+  },
+  "TLO": {
+    "name": "Teloloapan",
+    "desc": ""
+  },
+  "AMT": {
+    "name": "Amacoztitlan",
+    "desc": ""
+  },
+  "QLL": {
+    "name": "Quauhquechollan",
+    "desc": ""
+  },
+  "IZO": {
+    "name": "Itzohcan",
+    "desc": ""
+  },
+  "AXC": {
+    "name": "Axochiapan",
+    "desc": ""
+  },
+  "TPX": {
+    "name": "Tepexic",
+    "desc": ""
+  },
+  "ZCZ": {
+    "name": "Zacazonapan",
+    "desc": ""
+  },
+  "ITZ": {
+    "name": "Itza",
+    "desc": ""
+  },
+  "COC": {
+    "name": "Cocom",
+    "desc": ""
+  },
+  "XIU": {
+    "name": "Tutul-Xiu",
+    "desc": ""
+  },
+  "CNL": {
+    "name": "Ah Canul",
+    "desc": ""
+  },
+  "CKP": {
+    "name": "Chakan Putum",
+    "desc": ""
+  },
+  "HEL": {
+    "name": "Chel",
+    "desc": ""
+  },
+  "UAY": {
+    "name": "Uaymil",
+    "desc": ""
+  },
+  "MOP": {
+    "name": "Mopan",
+    "desc": ""
+  },
+  "CTM": {
+    "name": "Cháak te' éemal",
+    "desc": ""
+  },
+  "KOW": {
+    "name": "Kowoj",
+    "desc": ""
+  },
+  "YOK": {
+    "name": "Yoko t'aanob",
+    "desc": ""
+  },
+  "XOL": {
+    "name": "Ch'ol",
+    "desc": ""
+  },
+  "QEQ": {
+    "name": "Q'eqchi'",
+    "desc": ""
+  },
+  "KIC": {
+    "name": "Quiché",
+    "desc": ""
+  },
+  "CHT": {
+    "name": "Chorti",
+    "desc": ""
+  },
+  "LAC": {
+    "name": "Sotz'leb",
+    "desc": ""
+  },
+  "KAQ": {
+    "name": "Kaqchikel",
+    "desc": ""
+  },
+  "MMM": {
+    "name": "Mam",
+    "desc": ""
+  },
+  "TOJ": {
+    "name": "Tojolabal",
+    "desc": ""
+  },
+  "TZE": {
+    "name": "Tzeltal",
+    "desc": ""
+  },
+  "TZU": {
+    "name": "Tz'utujil",
+    "desc": ""
+  },
+  "QAN": {
+    "name": "Q'anjob'al",
+    "desc": ""
+  },
+  "TOQ": {
+    "name": "Toquegua",
+    "desc": ""
+  },
+  "DIT": {
+    "name": "Dithmarschen",
+    "desc": ""
+  },
+  "HSA": {
+    "name": "Hansa",
+    "desc": ""
+  },
+  "LUB": {
+    "name": "Lübeck",
+    "desc": ""
+  },
+  "LBB": {
+    "name": "Lubeca",
+    "desc": ""
+  },
+  "BRA": {
+    "name": "Brandemburgo",
+    "desc": ""
+  },
+  "ALL": {
+    "name": "Allstedt",
+    "desc": ""
+  },
+  "MAG": {
+    "name": "Magdeburgo",
+    "desc": ""
+  },
+  "THU": {
+    "name": "Turíngia",
+    "desc": ""
+  },
+  "BRE": {
+    "name": "Brema",
+    "desc": ""
+  },
+  "BRM": {
+    "name": "Brema",
+    "desc": ""
+  },
+  "MDN": {
+    "name": "Minden",
+    "desc": ""
+  },
+  "NSA": {
+    "name": "Nassau",
+    "desc": ""
+  },
+  "NSH": {
+    "name": "Nassau-Hadamar",
+    "desc": ""
+  },
+  "NSS": {
+    "name": "Nassau-Siegen",
+    "desc": ""
+  },
+  "NSD": {
+    "name": "Nassau-Dillenburg",
+    "desc": ""
+  },
+  "BRG": {
+    "name": "Berg",
+    "desc": ""
+  },
+  "KTZ": {
+    "name": "Katzenelnbogen",
+    "desc": ""
+  },
+  "MAI": {
+    "name": "Mainz",
+    "desc": ""
+  },
+  "SAA": {
+    "name": "Saarbrücken",
+    "desc": ""
+  },
+  "STE": {
+    "name": "Stettin",
+    "desc": ""
+  },
+  "HPL": {
+    "name": "Holsácia-Plön",
+    "desc": ""
+  },
+  "HTR": {
+    "name": "Holsácia-Rendsburg",
+    "desc": ""
+  },
+  "SLV": {
+    "name": "Eslévico",
+    "desc": ""
+  },
+  "HNB": {
+    "name": "Henneberg",
+    "desc": ""
+  },
+  "SPY": {
+    "name": "Spira",
+    "desc": ""
+  },
+  "PLN": {
+    "name": "Plauen",
+    "desc": ""
+  },
+  "MEI": {
+    "name": "Meissen",
+    "desc": ""
+  },
+  "LDB": {
+    "name": "Landsberg",
+    "desc": ""
+  },
+  "GLA": {
+    "name": "Glauchau",
+    "desc": ""
+  },
+  "SOR": {
+    "name": "Lusácia",
+    "desc": ""
+  },
+  "SPB": {
+    "name": "Spremberg",
+    "desc": ""
+  },
+  "SWB": {
+    "name": "Saxônia-Wittenberg",
+    "desc": ""
+  },
+  "RUP": {
+    "name": "Ruppin",
+    "desc": ""
+  },
+  "HVB": {
+    "name": "Havelberg",
+    "desc": ""
+  },
+  "SWR": {
+    "name": "Schwerin",
+    "desc": ""
+  },
+  "WRN": {
+    "name": "Waren",
+    "desc": ""
+  },
+  "MKL": {
+    "name": "Meclemburgo",
+    "desc": ""
+  },
+  "RZB": {
+    "name": "Ratzeburg",
+    "desc": ""
+  },
+  "RST": {
+    "name": "Rostock",
+    "desc": ""
+  },
+  "GSW": {
+    "name": "Güstrow",
+    "desc": ""
+  },
+  "WOL": {
+    "name": "Wolgast",
+    "desc": ""
+  },
+  "KMM": {
+    "name": "Cammin",
+    "desc": ""
+  },
+  "NWG": {
+    "name": "Naugard",
+    "desc": ""
+  },
+  "LAU": {
+    "name": "Saxe-Lauenburg",
+    "desc": ""
+  },
+  "HAM": {
+    "name": "Hamburgo",
+    "desc": ""
+  },
+  "HBS": {
+    "name": "Halberstadt",
+    "desc": ""
+  },
+  "BBG": {
+    "name": "Blankenburg",
+    "desc": ""
+  },
+  "ANH": {
+    "name": "Anhalt",
+    "desc": ""
+  },
+  "BNB": {
+    "name": "Bernburg",
+    "desc": ""
+  },
+  "MFE": {
+    "name": "Mansfeld",
+    "desc": ""
+  },
+  "MRB": {
+    "name": "Merseburgo",
+    "desc": ""
+  },
+  "NMB": {
+    "name": "Naumburgo",
+    "desc": ""
+  },
+  "QUB": {
+    "name": "Gera",
+    "desc": ""
+  },
+  "WMA": {
+    "name": "Weimar",
+    "desc": ""
+  },
+  "SWZ": {
+    "name": "Schwarzburgo",
+    "desc": ""
+  },
+  "FLD": {
+    "name": "Fulda",
+    "desc": ""
+  },
+  "SHS": {
+    "name": "Sondershausen",
+    "desc": ""
+  },
+  "NHS": {
+    "name": "Nordhausen",
+    "desc": ""
+  },
+  "MLH": {
+    "name": "Mühlhausen",
+    "desc": ""
+  },
+  "ERF": {
+    "name": "Erfurt",
+    "desc": ""
+  },
+  "HSF": {
+    "name": "Hersfeld",
+    "desc": ""
+  },
+  "HES": {
+    "name": "Hesse",
+    "desc": ""
+  },
+  "PDB": {
+    "name": "Paderborn",
+    "desc": ""
+  },
+  "ZIG": {
+    "name": "Ziegenhain",
+    "desc": ""
+  },
+  "HNA": {
+    "name": "Hanau",
+    "desc": ""
+  },
+  "BUD": {
+    "name": "Büdingen",
+    "desc": ""
+  },
+  "WTZ": {
+    "name": "Wetzlar",
+    "desc": ""
+  },
+  "TRI": {
+    "name": "Trier",
+    "desc": ""
+  },
+  "DIE": {
+    "name": "Diez",
+    "desc": ""
+  },
+  "FRN": {
+    "name": "Frankfurt",
+    "desc": ""
+  },
+  "ERB": {
+    "name": "Erbach",
+    "desc": ""
+  },
+  "WRM": {
+    "name": "Vorm�cia",
+    "desc": ""
+  },
+  "SYE": {
+    "name": "Espira",
+    "desc": ""
+  },
+  "ZWE": {
+    "name": "Zweibrücken",
+    "desc": ""
+  },
+  "LNN": {
+    "name": "Leiningen",
+    "desc": ""
+  },
+  "SPO": {
+    "name": "Sponheim",
+    "desc": ""
+  },
+  "SYN": {
+    "name": "Sayn",
+    "desc": ""
+  },
+  "KOL": {
+    "name": "Colônia",
+    "desc": ""
+  },
+  "DUN": {
+    "name": "Daun",
+    "desc": ""
+  },
+  "APR": {
+    "name": "Prüm",
+    "desc": ""
+  },
+  "AAC": {
+    "name": "Aquisgrano",
+    "desc": ""
+  },
+  "JUL": {
+    "name": "Jülich",
+    "desc": ""
+  },
+  "GEL": {
+    "name": "Gueldres",
+    "desc": ""
+  },
+  "ZUT": {
+    "name": "Zutphen",
+    "desc": ""
+  },
+  "GMK": {
+    "name": "Mark",
+    "desc": ""
+  },
+  "WTG": {
+    "name": "Wittgenstein",
+    "desc": ""
+  },
+  "DTM": {
+    "name": "Dortmund",
+    "desc": ""
+  },
+  "ESS": {
+    "name": "Essen",
+    "desc": ""
+  },
+  "MRS": {
+    "name": "Moers",
+    "desc": ""
+  },
+  "KLE": {
+    "name": "Cléves",
+    "desc": ""
+  },
+  "ANB": {
+    "name": "Arnsberg",
+    "desc": ""
+  },
+  "LPP": {
+    "name": "Lippe",
+    "desc": ""
+  },
+  "HOX": {
+    "name": "Corvey",
+    "desc": ""
+  },
+  "RVB": {
+    "name": "Ravensberg",
+    "desc": ""
+  },
+  "OSN": {
+    "name": "Osnabruque",
+    "desc": ""
+  },
+  "TCK": {
+    "name": "Tecklenburg",
+    "desc": ""
+  },
+  "MUN": {
+    "name": "Münster",
+    "desc": ""
+  },
+  "LUN": {
+    "name": "Luneburgo",
+    "desc": ""
+  },
+  "BRU": {
+    "name": "Brunsvique",
+    "desc": ""
+  },
+  "GBH": {
+    "name": "Grubenhagen",
+    "desc": ""
+  },
+  "HDH": {
+    "name": "Hildesheim",
+    "desc": ""
+  },
+  "GOS": {
+    "name": "Goslar",
+    "desc": ""
+  },
+  "SCB": {
+    "name": "Schauenburg",
+    "desc": ""
+  },
+  "HOY": {
+    "name": "Hoya",
+    "desc": ""
+  },
+  "NIE": {
+    "name": "Nienburg",
+    "desc": ""
+  },
+  "DPH": {
+    "name": "Diepholz",
+    "desc": ""
+  },
+  "VRD": {
+    "name": "Verden",
+    "desc": ""
+  },
+  "RTB": {
+    "name": "Ritzebüttel",
+    "desc": ""
+  },
+  "OLD": {
+    "name": "Oldemburgo",
+    "desc": ""
+  },
+  "BMS": {
+    "name": "Mísnia",
+    "desc": ""
+  },
+  "BLB": {
+    "name": "Lebus",
+    "desc": ""
+  },
+  "BBD": {
+    "name": "Brandemburgo",
+    "desc": ""
+  },
+  "HSP": {
+    "name": "Holsácia-Pinneberg",
+    "desc": ""
+  },
+  "BSK": {
+    "name": "Beeskow-Starkow",
+    "desc": ""
+  },
+  "WGO": {
+    "name": "Wernigerode",
+    "desc": ""
+  },
+  "BHL": {
+    "name": "Beichlingen",
+    "desc": ""
+  },
+  "GLN": {
+    "name": "Gleichen",
+    "desc": ""
+  },
+  "WDE": {
+    "name": "Waldeck",
+    "desc": ""
+  },
+  "RBG": {
+    "name": "Rietberg",
+    "desc": ""
+  },
+  "NSW": {
+    "name": "Nassau-Weilburg",
+    "desc": ""
+  },
+  "NSI": {
+    "name": "de Nassau-Weilburg",
+    "desc": ""
+  },
+  "RDL": {
+    "name": "Riedesel",
+    "desc": ""
+  },
+  "NID": {
+    "name": "Nidda",
+    "desc": ""
+  },
+  "EVS": {
+    "name": "Everstein",
+    "desc": ""
+  },
+  "JEV": {
+    "name": "Jever",
+    "desc": ""
+  },
+  "WIE": {
+    "name": "Wied",
+    "desc": ""
+  },
+  "CHB": {
+    "name": "Reino Chupânida",
+    "desc": ""
+  },
+  "MZF": {
+    "name": "Muzaffarids",
+    "desc": ""
+  },
+  "KRM": {
+    "name": "Carmânia",
+    "desc": ""
+  },
+  "INJ": {
+    "name": "Injuids",
+    "desc": ""
+  },
+  "KHU": {
+    "name": "Khunj",
+    "desc": ""
+  },
+  "KRT": {
+    "name": "Kartids",
+    "desc": ""
+  },
+  "SRB": {
+    "name": "Sarbadars",
+    "desc": ""
+  },
+  "GRG": {
+    "name": "Gurgan",
+    "desc": ""
+  },
+  "MIH": {
+    "name": "Mihrabanids",
+    "desc": ""
+  },
+  "KHN": {
+    "name": "Kharan",
+    "desc": ""
+  },
+  "SHB": {
+    "name": "Shabankara",
+    "desc": ""
+  },
+  "JUR": {
+    "name": "Jurmanids",
+    "desc": ""
+  },
+  "UGH": {
+    "name": "Ughanids",
+    "desc": ""
+  },
+  "HZP": {
+    "name": "Hazaraspids",
+    "desc": ""
+  },
+  "ORM": {
+    "name": "Ormuz",
+    "desc": ""
+  },
+  "FAL": {
+    "name": "Fal",
+    "desc": ""
+  },
+  "JSK": {
+    "name": "Jask",
+    "desc": ""
+  },
+  "MZN": {
+    "name": "Tabaristão",
+    "desc": ""
+  },
+  "BDS": {
+    "name": "Baduspanids",
+    "desc": ""
+  },
+  "MKR": {
+    "name": "Macrão",
+    "desc": ""
+  },
+  "BMP": {
+    "name": "Bampūr",
+    "desc": ""
+  },
+  "BLA": {
+    "name": "Buleda",
+    "desc": ""
+  },
+  "KLW": {
+    "name": "Kolwa",
+    "desc": ""
+  },
+  "KHZ": {
+    "name": "Khuzdar",
+    "desc": ""
+  },
+  "KLA": {
+    "name": "Kalāt",
+    "desc": ""
+  },
+  "LCK": {
+    "name": "Khorshidi",
+    "desc": ""
+  },
+  "LST": {
+    "name": "Laristão",
+    "desc": ""
+  },
+  "ERA": {
+    "name": "Ērānšahr",
+    "desc": ""
+  },
+  "HDN": {
+    "name": "$hamadan$",
+    "desc": ""
+  },
+  "QOM": {
+    "name": "$qom$",
+    "desc": ""
+  },
+  "KSA": {
+    "name": "$kashan$",
+    "desc": ""
+  },
+  "ASR": {
+    "name": "$astarabad$",
+    "desc": ""
+  },
+  "JKR": {
+    "name": "Jauni Kurban",
+    "desc": ""
+  },
+  "SFR": {
+    "name": "$esfarayen$",
+    "desc": ""
+  },
+  "SBZ": {
+    "name": "$sabzevar$",
+    "desc": ""
+  },
+  "KHT": {
+    "name": "$quhestan_area$",
+    "desc": ""
+  },
+  "MRV": {
+    "name": "$merv$",
+    "desc": ""
+  },
+  "KHF": {
+    "name": "Khaf",
+    "desc": ""
+  },
+  "HLG": {
+    "name": "Hüleguids",
+    "desc": ""
+  },
+  "NGD": {
+    "name": "Negüderi",
+    "desc": ""
+  },
+  "QUN": {
+    "name": "Qara'unas",
+    "desc": ""
+  },
+  "BSD": {
+    "name": "Besüd",
+    "desc": ""
+  },
+  "ART": {
+    "name": "Arlat",
+    "desc": ""
+  },
+  "APD": {
+    "name": "Apardi",
+    "desc": ""
+  },
+  "SLD": {
+    "name": "Suldus",
+    "desc": ""
+  },
+  "BRL": {
+    "name": "Barlas",
+    "desc": ""
+  },
+  "YSU": {
+    "name": "Yasa'uri",
+    "desc": ""
+  },
+  "KTT": {
+    "name": "Khuttal",
+    "desc": ""
+  },
+  "JLY": {
+    "name": "Jalayirs",
+    "desc": ""
+  },
+  "LHJ": {
+    "name": "Lahijan",
+    "desc": ""
+  },
+  "RNK": {
+    "name": "Ranekouh",
+    "desc": ""
+  },
+  "FMN": {
+    "name": "Fuman",
+    "desc": ""
+  },
+  "RSH": {
+    "name": "Resht",
+    "desc": ""
+  },
+  "TLM": {
+    "name": "Tulam",
+    "desc": ""
+  },
+  "ABL": {
+    "name": "Ardabil",
+    "desc": ""
+  },
+  "POL": {
+    "name": "Polônia",
+    "desc": ""
+  },
+  "SDZ": {
+    "name": "Sieradz",
+    "desc": ""
+  },
+  "LCZ": {
+    "name": "Łęczyca",
+    "desc": ""
+  },
+  "PLK": {
+    "name": "Płock",
+    "desc": ""
+  },
+  "RAW": {
+    "name": "Rawa",
+    "desc": ""
+  },
+  "CZK": {
+    "name": "Czersk",
+    "desc": ""
+  },
+  "INO": {
+    "name": "Inowrocław",
+    "desc": ""
+  },
+  "VOL": {
+    "name": "Volínia",
+    "desc": ""
+  },
+  "HAL": {
+    "name": "Aliche",
+    "desc": ""
+  },
+  "KIE": {
+    "name": "Kiev",
+    "desc": ""
+  },
+  "POK": {
+    "name": "Polatsk",
+    "desc": ""
+  },
+  "TUV": {
+    "name": "Turov",
+    "desc": ""
+  },
+  "PNK": {
+    "name": "Pinsk",
+    "desc": ""
+  },
+  "SSK": {
+    "name": "Slutsk",
+    "desc": ""
+  },
+  "VBK": {
+    "name": "Vitebsk",
+    "desc": ""
+  },
+  "MSV": {
+    "name": "Miecislau",
+    "desc": ""
+  },
+  "MIS": {
+    "name": "Minsk",
+    "desc": ""
+  },
+  "NRK": {
+    "name": "Navahrudak",
+    "desc": ""
+  },
+  "DRU": {
+    "name": "Drutsk",
+    "desc": ""
+  },
+  "ZAZ": {
+    "name": "Zaporizhia",
+    "desc": ""
+  },
+  "ZAG": {
+    "name": "Żagań",
+    "desc": ""
+  },
+  "JAW": {
+    "name": "Jawor",
+    "desc": ""
+  },
+  "LGC": {
+    "name": "Legnica",
+    "desc": ""
+  },
+  "OEL": {
+    "name": "Oleśnica",
+    "desc": ""
+  },
+  "OPL": {
+    "name": "Opole",
+    "desc": ""
+  },
+  "PDK": {
+    "name": "Prudnik",
+    "desc": ""
+  },
+  "OSW": {
+    "name": "Oświęcim",
+    "desc": ""
+  },
+  "TES": {
+    "name": "Cieszyn",
+    "desc": ""
+  },
+  "BYM": {
+    "name": "Bytom",
+    "desc": ""
+  },
+  "RCB": {
+    "name": "Racibórz",
+    "desc": ""
+  },
+  "SWD": {
+    "name": "Świdnica",
+    "desc": ""
+  },
+  "SCI": {
+    "name": "Ścinawa",
+    "desc": ""
+  },
+  "ZIE": {
+    "name": "Ziębica",
+    "desc": ""
+  },
+  "BRZ": {
+    "name": "Brzeg",
+    "desc": ""
+  },
+  "NMS": {
+    "name": "Namysłów",
+    "desc": ""
+  },
+  "STZ": {
+    "name": "Strzelce",
+    "desc": ""
+  },
+  "NMD": {
+    "name": "Niemodlin",
+    "desc": ""
+  },
+  "SIZ": {
+    "name": "Siewierz",
+    "desc": ""
+  },
+  "WRC": {
+    "name": "Breslávia",
+    "desc": ""
+  },
+  "GLO": {
+    "name": "Glogóvia",
+    "desc": ""
+  },
+  "NYS": {
+    "name": "Nysa",
+    "desc": ""
+  },
+  "OPV": {
+    "name": "Opava",
+    "desc": ""
+  },
+  "WAI": {
+    "name": "Waitaha",
+    "desc": ""
+  },
+  "NPO": {
+    "name": "Ngāti Porou",
+    "desc": ""
+  },
+  "NKH": {
+    "name": "Ngāti Kahungunu",
+    "desc": ""
+  },
+  "NTH": {
+    "name": "Ngāi Tūhoe",
+    "desc": ""
+  },
+  "NGI": {
+    "name": "Ngā Oho",
+    "desc": ""
+  },
+  "RAP": {
+    "name": "Te Rapuwai",
+    "desc": ""
+  },
+  "NGR": {
+    "name": "Ngāti Ranginui",
+    "desc": ""
+  },
+  "HWE": {
+    "name": "Hawea",
+    "desc": ""
+  },
+  "TNI": {
+    "name": "Tainui",
+    "desc": ""
+  },
+  "ARW": {
+    "name": "Te Arawa",
+    "desc": ""
+  },
+  "PUH": {
+    "name": "Ngāpuhi",
+    "desc": ""
+  },
+  "RGT": {
+    "name": "Rangitāne",
+    "desc": ""
+  },
+  "AWA": {
+    "name": "Te Āti Awa",
+    "desc": ""
+  },
+  "RUA": {
+    "name": "Ngāti Ruanui",
+    "desc": ""
+  },
+  "HAW": {
+    "name": "Havaí",
+    "desc": ""
+  },
+  "MUI": {
+    "name": "Maui",
+    "desc": ""
+  },
+  "LHN": {
+    "name": "Lahaina",
+    "desc": ""
+  },
+  "MLK": {
+    "name": "Molokai",
+    "desc": ""
+  },
+  "OAH": {
+    "name": "Oahu",
+    "desc": ""
+  },
+  "KAU": {
+    "name": "Kauai",
+    "desc": ""
+  },
+  "TOG": {
+    "name": "Tu'i Tonga",
+    "desc": ""
+  },
+  "YAP": {
+    "name": "Yap",
+    "desc": ""
+  },
+  "SAM": {
+    "name": "Samoa",
+    "desc": ""
+  },
+  "BUB": {
+    "name": "Burebasaga",
+    "desc": ""
+  },
+  "KBN": {
+    "name": "Kubuna",
+    "desc": ""
+  },
+  "TOV": {
+    "name": "Tovata",
+    "desc": ""
+  },
+  "NOV": {
+    "name": "Velikiy Novogárdia",
+    "desc": ""
+  },
+  "PSK": {
+    "name": "Pskov",
+    "desc": ""
+  },
+  "ORE": {
+    "name": "Oreshek",
+    "desc": ""
+  },
+  "SMO": {
+    "name": "Smolensk",
+    "desc": ""
+  },
+  "FMB": {
+    "name": "Fomin-Berezuesk",
+    "desc": ""
+  },
+  "MOS": {
+    "name": "Moscóvia",
+    "desc": ""
+  },
+  "PZL": {
+    "name": "Pereyaslavl-Zalessky",
+    "desc": ""
+  },
+  "KLM": {
+    "name": "Kolomna",
+    "desc": ""
+  },
+  "VLR": {
+    "name": "Vladimir",
+    "desc": ""
+  },
+  "UGL": {
+    "name": "Uglich",
+    "desc": ""
+  },
+  "YRV": {
+    "name": "Yuriev-Polsky",
+    "desc": ""
+  },
+  "TPS": {
+    "name": "Toropets",
+    "desc": ""
+  },
+  "BLO": {
+    "name": "Beloozero",
+    "desc": ""
+  },
+  "YAR": {
+    "name": "Yaroslavl",
+    "desc": ""
+  },
+  "RSO": {
+    "name": "Rostov",
+    "desc": ""
+  },
+  "TVE": {
+    "name": "Tver",
+    "desc": ""
+  },
+  "KAS": {
+    "name": "Kashin",
+    "desc": ""
+  },
+  "KLN": {
+    "name": "Klin",
+    "desc": ""
+  },
+  "ZUB": {
+    "name": "Zubtsov",
+    "desc": ""
+  },
+  "DMI": {
+    "name": "Dmitrov",
+    "desc": ""
+  },
+  "GLM": {
+    "name": "Galich-Mersky",
+    "desc": ""
+  },
+  "RZH": {
+    "name": "Rzhev",
+    "desc": ""
+  },
+  "VYA": {
+    "name": "Vyazma",
+    "desc": ""
+  },
+  "TRB": {
+    "name": "Trubchevsk",
+    "desc": ""
+  },
+  "BRY": {
+    "name": "Bryansk",
+    "desc": ""
+  },
+  "CHR": {
+    "name": "Chernigóvia",
+    "desc": ""
+  },
+  "STS": {
+    "name": "Starodub-Siverskyi",
+    "desc": ""
+  },
+  "NVS": {
+    "name": "Novogárdia-Siverskyi",
+    "desc": ""
+  },
+  "RYL": {
+    "name": "Rylsk",
+    "desc": ""
+  },
+  "NSL": {
+    "name": "Novosil",
+    "desc": ""
+  },
+  "KCH": {
+    "name": "Karachev",
+    "desc": ""
+  },
+  "KZK": {
+    "name": "Kozelsk",
+    "desc": ""
+  },
+  "TRS": {
+    "name": "Tarusa",
+    "desc": ""
+  },
+  "RYA": {
+    "name": "Riazan",
+    "desc": ""
+  },
+  "PRK": {
+    "name": "Pronsk",
+    "desc": ""
+  },
+  "SKY": {
+    "name": "Starodub",
+    "desc": ""
+  },
+  "NZH": {
+    "name": "Nizhny Novogárdia",
+    "desc": ""
+  },
+  "GRS": {
+    "name": "Gorodets",
+    "desc": ""
+  },
+  "SZL": {
+    "name": "Suzdal",
+    "desc": ""
+  },
+  "MRM": {
+    "name": "Murom",
+    "desc": ""
+  },
+  "KOS": {
+    "name": "Kostroma",
+    "desc": ""
+  },
+  "MOG": {
+    "name": "Mologa",
+    "desc": ""
+  },
+  "PRM": {
+    "name": "Perm",
+    "desc": ""
+  },
+  "VYT": {
+    "name": "Viatka",
+    "desc": ""
+  },
+  "OBD": {
+    "name": "Obdor",
+    "desc": ""
+  },
+  "PLY": {
+    "name": "Pelym",
+    "desc": ""
+  },
+  "BAK": {
+    "name": "Bardak",
+    "desc": ""
+  },
+  "KND": {
+    "name": "Konda",
+    "desc": ""
+  },
+  "BGJ": {
+    "name": "Belogorye",
+    "desc": ""
+  },
+  "KOD": {
+    "name": "Koda",
+    "desc": ""
+  },
+  "SVA": {
+    "name": "Sosva",
+    "desc": ""
+  },
+  "KZY": {
+    "name": "Kazym",
+    "desc": ""
+  },
+  "LYA": {
+    "name": "Lyapin",
+    "desc": ""
+  },
+  "TBY": {
+    "name": "Tabary",
+    "desc": ""
+  },
+  "SLK": {
+    "name": "Selkup",
+    "desc": ""
+  },
+  "BRT": {
+    "name": "Buriátia",
+    "desc": ""
+  },
+  "HGO": {
+    "name": "Khongorai",
+    "desc": ""
+  },
+  "ALT": {
+    "name": "Altai",
+    "desc": ""
+  },
+  "KMG": {
+    "name": "Camague",
+    "desc": ""
+  },
+  "SAK": {
+    "name": "Sakha",
+    "desc": ""
+  },
+  "EVE": {
+    "name": "Even",
+    "desc": ""
+  },
+  "YKG": {
+    "name": "Yukaghir",
+    "desc": ""
+  },
+  "KYK": {
+    "name": "Koriaque",
+    "desc": ""
+  },
+  "XHO": {
+    "name": "Xossa",
+    "desc": ""
+  },
+  "NGU": {
+    "name": "Angune",
+    "desc": ""
+  },
+  "TWA": {
+    "name": "Tsuana",
+    "desc": ""
+  },
+  "SOT": {
+    "name": "Sesoto",
+    "desc": ""
+  },
+  "VED": {
+    "name": "Venda",
+    "desc": ""
+  },
+  "KLG": {
+    "name": "Kalanga",
+    "desc": ""
+  },
+  "KHM": {
+    "name": "Khmer",
+    "desc": ""
+  },
+  "CHA": {
+    "name": "Champa",
+    "desc": ""
+  },
+  "DAI": {
+    "name": "Đại Việt",
+    "desc": ""
+  },
+  "SUK": {
+    "name": "Sucotai",
+    "desc": ""
+  },
+  "LNA": {
+    "name": "Lanna",
+    "desc": ""
+  },
+  "LAV": {
+    "name": "Lavo",
+    "desc": ""
+  },
+  "ADH": {
+    "name": "Aiódia",
+    "desc": ""
+  },
+  "PEG": {
+    "name": "Hanthawaddy",
+    "desc": ""
+  },
+  "SNG": {
+    "name": "Singapura",
+    "desc": ""
+  },
+  "LIG": {
+    "name": "Ligor",
+    "desc": ""
+  },
+  "LGK": {
+    "name": "Langkasuka",
+    "desc": ""
+  },
+  "KED": {
+    "name": "Quedá",
+    "desc": ""
+  },
+  "PAH": {
+    "name": "Pahang",
+    "desc": ""
+  },
+  "SPN": {
+    "name": "Suphanburi",
+    "desc": ""
+  },
+  "ARK": {
+    "name": "Launggyet",
+    "desc": ""
+  },
+  "PIN": {
+    "name": "Pinya",
+    "desc": ""
+  },
+  "SAG": {
+    "name": "Sagaingue",
+    "desc": ""
+  },
+  "TNG": {
+    "name": "Taungû",
+    "desc": ""
+  },
+  "BPR": {
+    "name": "Prome",
+    "desc": ""
+  },
+  "PHY": {
+    "name": "Phayao",
+    "desc": ""
+  },
+  "PUA": {
+    "name": "Pua",
+    "desc": ""
+  },
+  "MUA": {
+    "name": "Muang Sua",
+    "desc": ""
+  },
+  "VTN": {
+    "name": "Vientiane",
+    "desc": ""
+  },
+  "CBK": {
+    "name": "Cobra",
+    "desc": ""
+  },
+  "MYA": {
+    "name": "Möng Yang",
+    "desc": ""
+  },
+  "MKA": {
+    "name": "Möng Kawng",
+    "desc": ""
+  },
+  "HKM": {
+    "name": "Hkamti",
+    "desc": ""
+  },
+  "MKN": {
+    "name": "Möng Köng",
+    "desc": ""
+  },
+  "HHP": {
+    "name": "Hsawng Hsup",
+    "desc": ""
+  },
+  "HSE": {
+    "name": "Hsweni",
+    "desc": ""
+  },
+  "HSI": {
+    "name": "Hsipaw",
+    "desc": ""
+  },
+  "MNI": {
+    "name": "Möng Nai",
+    "desc": ""
+  },
+  "MGT": {
+    "name": "Möng Mit",
+    "desc": ""
+  },
+  "KAL": {
+    "name": "Kale",
+    "desc": ""
+  },
+  "WNT": {
+    "name": "Wuntho",
+    "desc": ""
+  },
+  "BHM": {
+    "name": "Bhamo",
+    "desc": ""
+  },
+  "KTG": {
+    "name": "Kengtung",
+    "desc": ""
+  },
+  "MLM": {
+    "name": "Mong Lem",
+    "desc": ""
+  },
+  "WAS": {
+    "name": "Wa",
+    "desc": ""
+  },
+  "JGP": {
+    "name": "Jingpo",
+    "desc": ""
+  },
+  "KRN": {
+    "name": "Karen",
+    "desc": ""
+  },
+  "MUO": {
+    "name": "Muong",
+    "desc": ""
+  },
+  "ASL": {
+    "name": "Orang Asli",
+    "desc": ""
+  },
+  "ZOO": {
+    "name": "Zo",
+    "desc": ""
+  },
+  "ZHU": {
+    "name": "Zhuang",
+    "desc": ""
+  },
+  "MLB": {
+    "name": "Kangleipak",
+    "desc": ""
+  },
+  "BES": {
+    "name": "Beruas",
+    "desc": ""
+  },
+  "MNJ": {
+    "name": "Manjung",
+    "desc": ""
+  },
+  "PTC": {
+    "name": "Phetchaburi",
+    "desc": ""
+  },
+  "TSM": {
+    "name": "Tenasserim",
+    "desc": ""
+  },
+  "DEG": {
+    "name": "Degar",
+    "desc": ""
+  },
+  "BHN": {
+    "name": "Bahnar",
+    "desc": ""
+  },
+  "SED": {
+    "name": "Sedang",
+    "desc": ""
+  },
+  "BVK": {
+    "name": "Bru",
+    "desc": ""
+  },
+  "KUY": {
+    "name": "Kuy",
+    "desc": ""
+  },
+  "KMU": {
+    "name": "Khmu",
+    "desc": ""
+  },
+  "NAA": {
+    "name": "Naga",
+    "desc": ""
+  },
+  "HAB": {
+    "name": "Áustria",
+    "desc": ""
+  },
+  "BOH": {
+    "name": "Boêmia",
+    "desc": ""
+  },
+  "MVA": {
+    "name": "Morávia",
+    "desc": ""
+  },
+  "PSS": {
+    "name": "Passau",
+    "desc": ""
+  },
+  "AUG": {
+    "name": "Augusta dos Vindélicos",
+    "desc": ""
+  },
+  "AGC": {
+    "name": "Augsburgo",
+    "desc": ""
+  },
+  "UBV": {
+    "name": "Baviera Superior",
+    "desc": ""
+  },
+  "LBV": {
+    "name": "Baviera Inferior",
+    "desc": ""
+  },
+  "SLZ": {
+    "name": "Salzburgo",
+    "desc": ""
+  },
+  "BAM": {
+    "name": "Bamberg",
+    "desc": ""
+  },
+  "STY": {
+    "name": "Estíria",
+    "desc": ""
+  },
+  "CRH": {
+    "name": "Caríntia",
+    "desc": ""
+  },
+  "TIR": {
+    "name": "Tirol",
+    "desc": ""
+  },
+  "WER": {
+    "name": "Werdenberg",
+    "desc": ""
+  },
+  "MBZ": {
+    "name": "Bregenz",
+    "desc": ""
+  },
+  "MFK": {
+    "name": "Feldkirch",
+    "desc": ""
+  },
+  "BCH": {
+    "name": "Coira",
+    "desc": ""
+  },
+  "STG": {
+    "name": "São Galo",
+    "desc": ""
+  },
+  "ZUR": {
+    "name": "Zurique",
+    "desc": ""
+  },
+  "SYZ": {
+    "name": "Schwyz",
+    "desc": ""
+  },
+  "GLR": {
+    "name": "Glarona",
+    "desc": ""
+  },
+  "LCA": {
+    "name": "Como",
+    "desc": ""
+  },
+  "URI": {
+    "name": "Uri",
+    "desc": ""
+  },
+  "OBW": {
+    "name": "Obwalden",
+    "desc": ""
+  },
+  "LCU": {
+    "name": "Lucerna",
+    "desc": ""
+  },
+  "SIT": {
+    "name": "Sião",
+    "desc": ""
+  },
+  "SWI": {
+    "name": "Suíça",
+    "desc": ""
+  },
+  "BRN": {
+    "name": "Berna",
+    "desc": ""
+  },
+  "SLT": {
+    "name": "Soloturna",
+    "desc": ""
+  },
+  "NEU": {
+    "name": "Neuchâtel",
+    "desc": ""
+  },
+  "BAS": {
+    "name": "Basileia",
+    "desc": ""
+  },
+  "LSA": {
+    "name": "Lausana",
+    "desc": ""
+  },
+  "KYB": {
+    "name": "Kyburg",
+    "desc": ""
+  },
+  "TRN": {
+    "name": "Turim",
+    "desc": ""
+  },
+  "BRC": {
+    "name": "Berchtesgaden",
+    "desc": ""
+  },
+  "GRF": {
+    "name": "Grafenau",
+    "desc": ""
+  },
+  "PAL": {
+    "name": "Reno",
+    "desc": ""
+  },
+  "REG": {
+    "name": "Regensburg",
+    "desc": ""
+  },
+  "ANS": {
+    "name": "Ansbach",
+    "desc": ""
+  },
+  "FRE": {
+    "name": "Freising",
+    "desc": ""
+  },
+  "EIC": {
+    "name": "Eichstätt",
+    "desc": ""
+  },
+  "WEI": {
+    "name": "Weißenburg",
+    "desc": ""
+  },
+  "NUR": {
+    "name": "Nuremberg",
+    "desc": ""
+  },
+  "WBG": {
+    "name": "Würzburg",
+    "desc": ""
+  },
+  "RIE": {
+    "name": "Rieneck",
+    "desc": ""
+  },
+  "MSB": {
+    "name": "Mosbach",
+    "desc": ""
+  },
+  "UFF": {
+    "name": "Hohenlohe",
+    "desc": ""
+  },
+  "ROT": {
+    "name": "Rothenburg",
+    "desc": ""
+  },
+  "DNB": {
+    "name": "Dinkelsbühl",
+    "desc": ""
+  },
+  "MEM": {
+    "name": "Memmingen",
+    "desc": ""
+  },
+  "KMP": {
+    "name": "Kempten",
+    "desc": ""
+  },
+  "ULM": {
+    "name": "Ulm",
+    "desc": ""
+  },
+  "KNZ": {
+    "name": "Constança",
+    "desc": ""
+  },
+  "WUR": {
+    "name": "Vurtemberga",
+    "desc": ""
+  },
+  "OET": {
+    "name": "Oettingen",
+    "desc": ""
+  },
+  "SWH": {
+    "name": "Schwäbisch Hall",
+    "desc": ""
+  },
+  "HBR": {
+    "name": "Heilbronn",
+    "desc": ""
+  },
+  "BDE": {
+    "name": "Baden",
+    "desc": ""
+  },
+  "WDB": {
+    "name": "Waldberg",
+    "desc": ""
+  },
+  "RVA": {
+    "name": "Ravensburg",
+    "desc": ""
+  },
+  "BIB": {
+    "name": "Biberach",
+    "desc": ""
+  },
+  "UBL": {
+    "name": "Überlingen",
+    "desc": ""
+  },
+  "HHB": {
+    "name": "Hohenberg",
+    "desc": ""
+  },
+  "FBG": {
+    "name": "Friburgo",
+    "desc": ""
+  },
+  "OFB": {
+    "name": "Offenburg",
+    "desc": ""
+  },
+  "WLD": {
+    "name": "Waldsassen",
+    "desc": ""
+  },
+  "OGK": {
+    "name": "Sacro Romano",
+    "desc": ""
+  },
+  "ORT": {
+    "name": "Ortenburg",
+    "desc": ""
+  },
+  "BXN": {
+    "name": "Bressanone",
+    "desc": ""
+  },
+  "VUD": {
+    "name": "Vaud",
+    "desc": ""
+  },
+  "MSO": {
+    "name": "Mesocco",
+    "desc": ""
+  },
+  "SGL": {
+    "name": "Liga Cinza",
+    "desc": ""
+  },
+  "AOS": {
+    "name": "Aosta",
+    "desc": ""
+  },
+  "FLK": {
+    "name": "Falkenstein",
+    "desc": ""
+  },
+  "MDS": {
+    "name": "Manderscheid",
+    "desc": ""
+  },
+  "LDA": {
+    "name": "Landau",
+    "desc": ""
+  },
+  "VEL": {
+    "name": "Veldenz",
+    "desc": ""
+  },
+  "GRY": {
+    "name": "Gruyère",
+    "desc": ""
+  },
+  "TGG": {
+    "name": "Toggenburg",
+    "desc": ""
+  },
+  "PSZ": {
+    "name": "Simmern",
+    "desc": ""
+  },
+  "HLE": {
+    "name": "Liga da Casa de Deus",
+    "desc": ""
+  },
+  "SFC": {
+    "name": "Estrasburgo",
+    "desc": ""
+  },
+  "CFC": {
+    "name": "Colmar",
+    "desc": ""
+  },
+  "MUR": {
+    "name": "Murbach",
+    "desc": ""
+  },
+  "HAG": {
+    "name": "Haguenau",
+    "desc": ""
+  },
+  "MUL": {
+    "name": "Mulhouse",
+    "desc": ""
+  },
+  "LIC": {
+    "name": "Lichtenberg",
+    "desc": ""
+  },
+  "BLM": {
+    "name": "Belmonte",
+    "desc": ""
+  },
+  "DIS": {
+    "name": "Disentis",
+    "desc": ""
+  },
+  "FUR": {
+    "name": "Fürstenberg",
+    "desc": ""
+  },
+  "GRK": {
+    "name": "Gurk",
+    "desc": ""
+  },
+  "HAC": {
+    "name": "Hachberg",
+    "desc": ""
+  },
+  "SAW": {
+    "name": "Saarwerden",
+    "desc": ""
+  },
+  "SAB": {
+    "name": "Sausenberg",
+    "desc": ""
+  },
+  "THD": {
+    "name": "Truhendingen",
+    "desc": ""
+  },
+  "ELL": {
+    "name": "Ellwangen",
+    "desc": ""
+  },
+  "HEH": {
+    "name": "Heidenheim",
+    "desc": ""
+  },
+  "HLF": {
+    "name": "Helfenstein",
+    "desc": ""
+  },
+  "HOH": {
+    "name": "Hohenzollern",
+    "desc": ""
+  },
+  "KIR": {
+    "name": "Kirchberg",
+    "desc": ""
+  },
+  "NEL": {
+    "name": "Nellenburg",
+    "desc": ""
+  },
+  "TUB": {
+    "name": "Tübingen",
+    "desc": ""
+  },
+  "LEU": {
+    "name": "Leuchtenberg",
+    "desc": ""
+  },
+  "GLH": {
+    "name": "Jochi",
+    "desc": ""
+  },
+  "CRI": {
+    "name": "Crimeia",
+    "desc": ""
+  },
+  "NOG": {
+    "name": "Nogai",
+    "desc": ""
+  },
+  "ATR": {
+    "name": "Astracã",
+    "desc": ""
+  },
+  "FEO": {
+    "name": "Theodoro",
+    "desc": ""
+  },
+  "BSH": {
+    "name": "Bashkir",
+    "desc": ""
+  },
+  "MGE": {
+    "name": "Mongólia",
+    "desc": ""
+  },
+  "GAZ": {
+    "name": "Gazária",
+    "desc": ""
+  },
+  "JOL": {
+    "name": "Jolof",
+    "desc": ""
+  },
+  "FUL": {
+    "name": "Grão-Fulo",
+    "desc": ""
+  },
+  "MPR": {
+    "name": "Mamprugu",
+    "desc": ""
+  },
+  "DGB": {
+    "name": "Dagbon",
+    "desc": ""
+  },
+  "KNG": {
+    "name": "Kong",
+    "desc": ""
+  },
+  "BON": {
+    "name": "Bonoman",
+    "desc": ""
+  },
+  "GYA": {
+    "name": "Gyaaman",
+    "desc": ""
+  },
+  "MNK": {
+    "name": "Mankessim",
+    "desc": ""
+  },
+  "ZZZ": {
+    "name": "Zazzau",
+    "desc": ""
+  },
+  "NUP": {
+    "name": "Nupé",
+    "desc": ""
+  },
+  "BEN": {
+    "name": "Benim",
+    "desc": ""
+  },
+  "OYO": {
+    "name": "Oyo",
+    "desc": ""
+  },
+  "IFE": {
+    "name": "Ife",
+    "desc": ""
+  },
+  "OWO": {
+    "name": "Owo",
+    "desc": ""
+  },
+  "IJB": {
+    "name": "Ijebu",
+    "desc": ""
+  },
+  "ISO": {
+    "name": "Isedo",
+    "desc": ""
+  },
+  "IYA": {
+    "name": "Ila Yara",
+    "desc": ""
+  },
+  "OKE": {
+    "name": "Oke-Ila",
+    "desc": ""
+  },
+  "IJE": {
+    "name": "Ijero",
+    "desc": ""
+  },
+  "ADO": {
+    "name": "Ado",
+    "desc": ""
+  },
+  "IJS": {
+    "name": "Ijexá",
+    "desc": ""
+  },
+  "AKR": {
+    "name": "Acurê",
+    "desc": ""
+  },
+  "OND": {
+    "name": "Ondô",
+    "desc": ""
+  },
+  "AWO": {
+    "name": "Awori",
+    "desc": ""
+  },
+  "KET": {
+    "name": "Ketu",
+    "desc": ""
+  },
+  "NRI": {
+    "name": "Nri",
+    "desc": ""
+  },
+  "BMR": {
+    "name": "Bambara",
+    "desc": ""
+  },
+  "KBR": {
+    "name": "Kabura",
+    "desc": ""
+  },
+  "ZGH": {
+    "name": "Zagha",
+    "desc": ""
+  },
+  "BBK": {
+    "name": "Bambuque",
+    "desc": ""
+  },
+  "DFN": {
+    "name": "Diafunu",
+    "desc": ""
+  },
+  "GHA": {
+    "name": "Gana",
+    "desc": ""
+  },
+  "KAB": {
+    "name": "Kaabu",
+    "desc": ""
+  },
+  "MAL": {
+    "name": "Mali",
+    "desc": ""
+  },
+  "SGH": {
+    "name": "Sanghana",
+    "desc": ""
+  },
+  "TKR": {
+    "name": "Tacrur",
+    "desc": ""
+  },
+  "TMK": {
+    "name": "Tadmekka",
+    "desc": ""
+  },
+  "TMB": {
+    "name": "Tombuctu",
+    "desc": ""
+  },
+  "TRG": {
+    "name": "Tuaregue",
+    "desc": ""
+  },
+  "SON": {
+    "name": "Songai",
+    "desc": ""
+  },
+  "TFK": {
+    "name": "Tirafka",
+    "desc": ""
+  },
+  "BOR": {
+    "name": "Borgu",
+    "desc": ""
+  },
+  "OUA": {
+    "name": "Uagadugu",
+    "desc": ""
+  },
+  "GWI": {
+    "name": "Guirico",
+    "desc": ""
+  },
+  "LIP": {
+    "name": "Liptako",
+    "desc": ""
+  },
+  "YAT": {
+    "name": "Yatenga",
+    "desc": ""
+  },
+  "TEN": {
+    "name": "Tenkodogo",
+    "desc": ""
+  },
+  "BSM": {
+    "name": "Bussuma",
+    "desc": ""
+  },
+  "GUR": {
+    "name": "Fada N'gourma",
+    "desc": ""
+  },
+  "KAN": {
+    "name": "Kano",
+    "desc": ""
+  },
+  "KTS": {
+    "name": "Katsina",
+    "desc": ""
+  },
+  "ZAM": {
+    "name": "Zamfara",
+    "desc": ""
+  },
+  "KEB": {
+    "name": "Kebbi",
+    "desc": ""
+  },
+  "RAN": {
+    "name": "Rano",
+    "desc": ""
+  },
+  "GOB": {
+    "name": "Gobir",
+    "desc": ""
+  },
+  "DAA": {
+    "name": "Daura",
+    "desc": ""
+  },
+  "KBO": {
+    "name": "Canem",
+    "desc": ""
+  },
+  "YAO": {
+    "name": "Bilala",
+    "desc": ""
+  },
+  "KOT": {
+    "name": "Sao",
+    "desc": ""
+  },
+  "BGI": {
+    "name": "Baguirmi",
+    "desc": ""
+  },
+  "MDR": {
+    "name": "Mandara",
+    "desc": ""
+  },
+  "ZGW": {
+    "name": "zagaua",
+    "desc": ""
+  },
+  "WAD": {
+    "name": "Uadai",
+    "desc": ""
+  },
+  "DAH": {
+    "name": "Reino do Daomé",
+    "desc": ""
+  },
+  "KLP": {
+    "name": "Kalapuya",
+    "desc": ""
+  },
+  "CNK": {
+    "name": "Chinook",
+    "desc": ""
+  },
+  "TSA": {
+    "name": "Tsamosa",
+    "desc": ""
+  },
+  "MKH": {
+    "name": "Makah",
+    "desc": ""
+  },
+  "SKL": {
+    "name": "S'Klallam",
+    "desc": ""
+  },
+  "TWN": {
+    "name": "Twana",
+    "desc": ""
+  },
+  "LHT": {
+    "name": "Lushootseed",
+    "desc": ""
+  },
+  "LHQ": {
+    "name": "Lhaq'temish",
+    "desc": ""
+  },
+  "HLM": {
+    "name": "Halkomelem",
+    "desc": ""
+  },
+  "SQH": {
+    "name": "Squamish",
+    "desc": ""
+  },
+  "KMK": {
+    "name": "K'omoks",
+    "desc": ""
+  },
+  "NOO": {
+    "name": "Nootkah",
+    "desc": ""
+  },
+  "KWA": {
+    "name": "Kwakiutl",
+    "desc": ""
+  },
+  "OOW": {
+    "name": "Oowekyala",
+    "desc": ""
+  },
+  "NUX": {
+    "name": "Nuxalc",
+    "desc": ""
+  },
+  "HLK": {
+    "name": "Heiltsuk",
+    "desc": ""
+  },
+  "HLA": {
+    "name": "Haisla",
+    "desc": ""
+  },
+  "TMH": {
+    "name": "Tsimishia",
+    "desc": ""
+  },
+  "XDA": {
+    "name": "Xaayda",
+    "desc": ""
+  },
+  "TLG": {
+    "name": "Tlingit",
+    "desc": ""
+  }
+}

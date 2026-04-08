@@ -1,10 +1,12 @@
-"""Extract EU5 country data and merge with localization into site-ready JSON.
+"""Extract EU5 country data into core + per-language loc files.
 
 Usage:
     python pipeline/extract_countries.py
 
 Output:
-    pipeline/output/countries.json
+    pipeline/output/core/countries.json
+    pipeline/output/loc/{lang}/countries.json
+    pipeline/output/countries.json               — legacy merged format
 """
 
 from __future__ import annotations
@@ -14,6 +16,7 @@ from pathlib import Path
 
 from paradox_parser import parse_file
 from loc_parser import parse_loc_file, strip_markup
+from languages import LANGUAGES
 
 PIPELINE_DIR = Path(__file__).parent
 RAW_DIR = PIPELINE_DIR / "raw"
@@ -22,12 +25,26 @@ OUTPUT_DIR = PIPELINE_DIR / "output"
 SKIP_FILES = {"readme.txt", "00_readme.info"}
 
 
-def build_countries() -> list[dict]:
-    """Parse country setup files and merge with localization."""
+def load_all_loc(*loc_names: str) -> dict[str, dict[str, str]]:
+    """Load and merge multiple loc files for all languages."""
+    result: dict[str, dict[str, str]] = {}
+    loc_dir = RAW_DIR / "localization"
+    for url_code, game_code, _ in LANGUAGES:
+        merged: dict[str, str] = {}
+        for loc_name in loc_names:
+            path = loc_dir / f"{loc_name}_l_{game_code}.yml"
+            if path.exists():
+                merged.update(parse_loc_file(path))
+        result[url_code] = merged
+    return result
+
+
+def build_countries() -> tuple[list[dict], dict[str, dict]]:
+    """Parse country setup files. Returns (core_list, loc_per_lang)."""
     ctr_dir = RAW_DIR / "countries"
     if not ctr_dir.exists():
         print(f"[WARN] {ctr_dir} not found, skipping")
-        return []
+        return [], {}
 
     all_countries: dict[str, dict] = {}
     for f in sorted(ctr_dir.glob("*.txt")):
@@ -37,38 +54,18 @@ def build_countries() -> list[dict]:
         for key, val in data.items():
             if isinstance(val, dict):
                 val["_source_file"] = f.name
-                # Derive region from filename
                 val["_region"] = f.stem
                 all_countries[key] = val
 
-    # Localization
-    loc_en: dict[str, str] = {}
-    loc_ja: dict[str, str] = {}
-    loc_dir = RAW_DIR / "localization"
-    for pattern in (
-        "country_names_l_english.yml",
-        "country_description_category_l_english.yml",
-    ):
-        for path in loc_dir.glob(pattern):
-            loc_en.update(parse_loc_file(path))
-    for pattern in (
-        "country_names_l_japanese.yml",
-        "country_description_category_l_japanese.yml",
-    ):
-        for path in loc_dir.glob(pattern):
-            loc_ja.update(parse_loc_file(path))
+    all_loc = load_all_loc("country_names", "country_description_category")
 
-    result = []
+    # Core
+    core_list = []
     for tag, props in all_countries.items():
         entry: dict = {
             "tag": tag,
-            "name_en": loc_en.get(tag, tag),
-            "name_ja": loc_ja.get(tag, tag),
-            "desc_en": strip_markup(loc_en.get(f"{tag}_desc", "")),
-            "desc_ja": strip_markup(loc_ja.get(f"{tag}_desc", "")),
             "region": props.get("_region", ""),
         }
-
         for field in (
             "culture_definition",
             "religion_definition",
@@ -77,22 +74,54 @@ def build_countries() -> list[dict]:
         ):
             if field in props:
                 entry[field] = props[field]
-
         entry["source_file"] = props.get("_source_file", "")
-        result.append(entry)
+        core_list.append(entry)
 
-    return result
+    # Per-language loc
+    tags = [c["tag"] for c in core_list]
+    loc_per_lang: dict[str, dict] = {}
+    for url_code, loc_data in all_loc.items():
+        lang_loc = {}
+        for tag in tags:
+            name = loc_data.get(tag, "")
+            desc = strip_markup(loc_data.get(f"{tag}_desc", ""))
+            if name or desc:
+                lang_loc[tag] = {"name": name, "desc": desc}
+        loc_per_lang[url_code] = lang_loc
+
+    return core_list, loc_per_lang
+
+
+def write_json(path: Path, data) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 def main():
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    countries = build_countries()
-    out_path = OUTPUT_DIR / "countries.json"
-    out_path.write_text(
-        json.dumps(countries, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
-    print(f"Wrote {len(countries)} countries to {out_path}")
+    core_list, loc_per_lang = build_countries()
+
+    write_json(OUTPUT_DIR / "core" / "countries.json", core_list)
+    print(f"Wrote {len(core_list)} countries to core/countries.json")
+
+    for url_code, loc_data in loc_per_lang.items():
+        write_json(OUTPUT_DIR / "loc" / url_code / "countries.json", loc_data)
+    lang_count = sum(1 for v in loc_per_lang.values() if v)
+    print(f"Wrote countries loc for {lang_count} languages")
+
+    # Legacy merged format
+    en_loc = loc_per_lang.get("en", {})
+    ja_loc = loc_per_lang.get("ja", {})
+    legacy = []
+    for item in core_list:
+        merged = dict(item)
+        tag = item["tag"]
+        merged["name_en"] = en_loc.get(tag, {}).get("name", tag)
+        merged["name_ja"] = ja_loc.get(tag, {}).get("name", tag)
+        merged["desc_en"] = en_loc.get(tag, {}).get("desc", "")
+        merged["desc_ja"] = ja_loc.get(tag, {}).get("desc", "")
+        legacy.append(merged)
+    write_json(OUTPUT_DIR / "countries.json", legacy)
+    print(f"Wrote legacy countries.json")
 
 
 if __name__ == "__main__":

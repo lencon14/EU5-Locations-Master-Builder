@@ -1,108 +1,67 @@
 ---
-import Base from "../layouts/Base.astro";
-import goods from "../data/goods.json";
-import buildings from "../data/buildings.json";
+/**
+ * Root page — redirects to /{detected-lang}/eu5/
+ * Priority: cookie → Accept-Language → en fallback
+ * Uses 302 (not 301) per SEO guidelines
+ */
+import { LANG_CODES, DEFAULT_LANG } from "../i18n/config";
 ---
 
-<Base title="トップ">
-  <div class="hero">
-    <h1>EU5 攻略DB</h1>
-    <p class="lead">Europa Universalis V のゲームデータベース & 攻略ガイド</p>
-  </div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paradoxpedia — Europa Universalis V Database</title>
+    <meta name="robots" content="noindex" />
+    <script is:inline define:vars={{ langCodes: LANG_CODES, defaultLang: DEFAULT_LANG }}>
+      (function () {
+        // Check cookie first
+        const cookieMatch = document.cookie.match(/(?:^|;\s*)lang=([^;]+)/);
+        if (cookieMatch && langCodes.includes(cookieMatch[1])) {
+          window.location.replace("/" + cookieMatch[1] + "/eu5/");
+          return;
+        }
 
-  <section class="card-grid">
-    <a href="/goods/" class="card">
-      <span class="card-label">DATABASE</span>
-      <h2>交易品</h2>
-      <p class="stat">{goods.length}</p>
-      <p class="card-desc">原材料、加工品、食料など全交易品のデータ一覧</p>
-    </a>
+        // Parse Accept-Language from navigator.languages
+        const browserLangs = navigator.languages || [navigator.language || "en"];
+        for (const raw of browserLangs) {
+          const lower = raw.toLowerCase();
+          // Exact match
+          if (langCodes.includes(lower)) {
+            window.location.replace("/" + lower + "/eu5/");
+            return;
+          }
+          // pt-BR → pt-br
+          const normalized = lower.replace("_", "-");
+          if (langCodes.includes(normalized)) {
+            window.location.replace("/" + normalized + "/eu5/");
+            return;
+          }
+          // zh-CN/zh-SG → zh-hans
+          if (lower.startsWith("zh")) {
+            window.location.replace("/zh-hans/eu5/");
+            return;
+          }
+          // pt → pt-br
+          if (lower === "pt") {
+            window.location.replace("/pt-br/eu5/");
+            return;
+          }
+          // Primary subtag match (e.g., "en-US" → "en")
+          const primary = lower.split("-")[0];
+          if (langCodes.includes(primary)) {
+            window.location.replace("/" + primary + "/eu5/");
+            return;
+          }
+        }
 
-    <a href="/buildings/" class="card">
-      <span class="card-label">DATABASE</span>
-      <h2>建物</h2>
-      <p class="stat">{buildings.length}</p>
-      <p class="card-desc">防衛施設、生産施設、政府施設などの建物データ</p>
-    </a>
-
-    <div class="card card--disabled">
-      <span class="card-label">COMING SOON</span>
-      <h2>国家</h2>
-      <p class="card-desc">各国の初期設定、文化、宗教などの基本情報</p>
-    </div>
-  </section>
-
-  <style>
-    .hero {
-      margin-bottom: 3rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid var(--gold-thread);
-    }
-
-    .hero h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-      color: var(--royal-gold);
-      margin-bottom: 0.5rem;
-    }
-
-    .lead {
-      color: var(--dusty-silver);
-      font-size: 1rem;
-    }
-
-    .card-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1rem;
-    }
-
-    .card {
-      display: block;
-      background: var(--dark-walnut);
-      border: 1px solid var(--iron-edge);
-      border-radius: 4px;
-      padding: 1.25rem;
-      transition: border-color 0.2s;
-    }
-
-    a.card:hover {
-      border-color: var(--royal-gold);
-      text-decoration: none;
-    }
-
-    .card--disabled {
-      opacity: 0.45;
-      cursor: default;
-    }
-
-    .card-label {
-      display: inline-block;
-      font-family: var(--font-body);
-      font-size: 0.75rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--dusty-silver);
-      margin-bottom: 0.5rem;
-    }
-
-    .card h2 {
-      font-size: 1.15rem;
-      margin-bottom: 0.25rem;
-    }
-
-    .stat {
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--royal-gold);
-      line-height: 1.2;
-      margin-bottom: 0.5rem;
-    }
-
-    .card-desc {
-      color: var(--dusty-silver);
-      font-size: 0.875rem;
-    }
-  </style>
-</Base>
+        // Fallback
+        window.location.replace("/" + defaultLang + "/eu5/");
+      })();
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content={`0;url=/${DEFAULT_LANG}/eu5/`} />
+    </noscript>
+  </head>
+  <body></body>
+</html>

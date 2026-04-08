@@ -1,0 +1,999 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import buildings from "../../../../data/buildings.json";
+import { LANG_CODES, type Lang } from "../../../../i18n/config";
+import { t } from "../../../../i18n/ui";
+
+export function getStaticPaths() {
+  return LANG_CODES.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+
+const categoryLabels: Record<string, string> = {
+  basic_industry_category: "基本産業",
+  colonial_category: "植民地建造物",
+  consumer_goods_category: "民需品",
+  cultural_category: "文化的建造物",
+  defense_category: "防衛建造物",
+  estate_category: "階級建造物",
+  government_category: "政府建造物",
+  infrastructure_category: "インフラ建造物",
+  military_category: "軍事施設",
+  naval_category: "海軍建造物",
+  religious_category: "宗教施設",
+  rgo_building_category: "原材料生産",
+  trade_category: "交易施設",
+  village_category: "村",
+  weapons_industry_category: "武器産業",
+};
+
+const categoryOrder = [
+  "government_category",
+  "military_category",
+  "defense_category",
+  "naval_category",
+  "trade_category",
+  "basic_industry_category",
+  "consumer_goods_category",
+  "weapons_industry_category",
+  "rgo_building_category",
+  "infrastructure_category",
+  "religious_category",
+  "cultural_category",
+  "estate_category",
+  "colonial_category",
+  "village_category",
+];
+
+const popTypeLabels: Record<string, string> = {
+  nobles: "貴族",
+  burghers: "市民",
+  clergy: "聖職者",
+  soldiers: "兵士",
+  laborers: "労働者",
+  peasants: "農民",
+  slaves: "奴隷",
+  tribesmen: "部族民",
+};
+
+const settlementLabels: Record<string, string> = {
+  rural_settlement: "農村",
+  town: "町",
+  city: "都市",
+};
+
+// ── ツールチップ辞書 ──
+const categoryTips: Record<string, string> = {
+  government_category: "裁判所・議会・総督府など統治系の建物",
+  military_category: "兵舎・士官学校・軍港など軍事力に関わる施設",
+  defense_category: "城砦・要塞・城壁など防衛用の建物",
+  naval_category: "海軍造船所・提督府など海軍専用の施設",
+  trade_category: "市場・交易所・関税施設など通商に関わる建物",
+  basic_industry_category: "鍛冶場・製材所など基礎的な産業施設",
+  consumer_goods_category: "織物工房・窯業所など民需品を生産する施設",
+  weapons_industry_category: "兵器工場・火薬製造所など武器を生産する施設",
+  rgo_building_category: "鉱山・農場・漁港など原材料を直接産出する施設",
+  infrastructure_category: "道路・港湾設備などインフラ整備の建物",
+  religious_category: "教会・モスク・寺院など宗教施設",
+  cultural_category: "大学・劇場・図書館など文化・教育施設",
+  estate_category: "貴族や聖職者など特定階級向けの建物",
+  colonial_category: "植民地統治のための建物",
+  village_category: "村レベルの小規模な生産施設",
+};
+
+const settlementTips: Record<string, string> = {
+  rural_settlement: "農地を中心とした小規模な集落",
+  town: "市場を持つ中規模の拠点",
+  city: "大都市。最も多くの建物スロットを持つ",
+};
+
+const availTips: Record<string, string> = {
+  "通常建設可": "プレイヤーが通常の建設メニューから建てられる建物",
+  "イベント限定": "イベント・ディシジョン等でのみ建設される特殊な建物",
+};
+
+// 条件項目のツールチップ（自明でないものだけ定義）
+const condTips: Record<string, string> = {
+  "首都のみ": "国家の首都がある拠点にのみ建設可能",
+  "首都以外": "首都以外の拠点にのみ建設可能",
+  "首都への道路接続が必要": "首都まで街道ネットワークで繋がっている拠点が必要",
+  "港湾都市のみ": "港湾を持つ都市（town/city）の拠点にのみ建設可能",
+  "沿岸のみ": "海に面した沿岸の拠点にのみ建設可能",
+  "河川沿いのみ": "河川が通っている拠点にのみ建設可能",
+  "湖沿いのみ": "湖に面した拠点にのみ建設可能",
+  "荘園建設不可": "この建物は荘園（estate）として建設できない",
+  "特殊建物": "国家固有またはイベント限定の特別な建物",
+  "交易圏内であること": "自国の交易圏に含まれる拠点でのみ建設可能",
+};
+
+// Pre-compute category counts
+const catCounts: Record<string, number> = {};
+for (const b of buildings) {
+  catCounts[b.category] = (catCounts[b.category] || 0) + 1;
+}
+
+// Collect all unique condition texts by category with counts
+// Use filter_conds (decomposed) and exclude "いずれか:" compound entries
+type CondOption = { text: string; count: number };
+const condByGroup: Record<string, CondOption[]> = {};
+for (const b of buildings as any[]) {
+  for (const c of b.filter_conds || []) {
+    const cat = c.category as string;
+    const text = c.text as string;
+    if (text === "イベント限定（通常建設不可）") continue;
+    if (text.startsWith("いずれか:")) continue; // skip compounds, parts are already listed
+    if (!condByGroup[cat]) condByGroup[cat] = [];
+    const existing = condByGroup[cat].find((o) => o.text === text);
+    if (existing) existing.count++;
+    else condByGroup[cat].push({ text, count: 1 });
+  }
+}
+// Sort each group by count desc
+for (const cat of Object.keys(condByGroup)) {
+  condByGroup[cat].sort((a, b) => b.count - a.count);
+}
+
+// Availability counts
+const availCounts = {
+  normal: buildings.filter((b: any) => b.filter_tags?.availability?.[0] === "通常建設可").length,
+  event: buildings.filter((b: any) => b.filter_tags?.availability?.[0] === "イベント限定").length,
+};
+
+// Hierarchical grouping for conditions
+type SubGroup = { label: string; items: CondOption[] };
+
+function buildHierarchy(options: CondOption[], rules: [string, (t: string) => boolean][]): SubGroup[] {
+  const groups: SubGroup[] = [];
+  const used = new Set<string>();
+  for (const [label, matcher] of rules) {
+    const items = options.filter((o) => matcher(o.text) && !used.has(o.text));
+    if (items.length > 0) {
+      items.forEach((i) => used.add(i.text));
+      groups.push({ label, items });
+    }
+  }
+  const rest = options.filter((o) => !used.has(o.text));
+  if (rest.length > 0) groups.push({ label: "その他", items: rest });
+  return groups;
+}
+
+const locationHierarchy = buildHierarchy(condByGroup["location"] || [], [
+  ["首都", (t) => t.includes("首都")],
+  ["港湾・沿岸", (t) => t.includes("港湾") || t.includes("沿岸")],
+  ["河川・湖", (t) => t.includes("河川") || t.includes("湖")],
+  ["市場", (t) => t.includes("市場")],
+  ["海外", (t) => t.includes("海外")],
+  ["地形・植生", (t) => t.includes("地形") || t.includes("植生")],
+  ["特定地域", (t) => t.includes("特定地域")],
+  ["文化", (t) => t.includes("文化")],
+]);
+
+const countryHierarchy = buildHierarchy(condByGroup["country"] || [], [
+  ["政体", (t) => t.startsWith("政体:") || (t.includes("政体") && !t.includes("改革"))],
+  ["政体改革", (t) => t.includes("政体改革")],
+  ["宗教", (t) => t.includes("宗教")],
+  ["国家", (t) => t.startsWith("国家:") || t.includes("国家:")],
+  ["進歩", (t) => t.includes("進歩")],
+  ["文化", (t) => t.includes("文化")],
+  ["所有地域", (t) => t.includes("所有地域")],
+  ["要補正", (t) => t.includes("要補正")],
+]);
+---
+
+<Base lang={lang} title={t(lang, "buildings.title")} canonicalPath="/buildings/" wide>
+  <div class="page-layout">
+    <!-- ═══ LEFT SIDEBAR ═══ -->
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <!-- Search -->
+        <div class="sb-section">
+          <div class="search-wrap">
+            <svg class="search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="8.5" cy="8.5" r="5.5" /><path d="M12.5 12.5L17 17" stroke-linecap="round" />
+            </svg>
+            <input type="text" id="search" placeholder="建物名で検索..." />
+          </div>
+        </div>
+
+        <!-- 建設可否 -->
+        <div class="sb-section">
+          <h3 class="sb-heading">建設可否</h3>
+          <div class="sb-options">
+            <label class="sb-check" data-tip={availTips["通常建設可"]}><input type="checkbox" data-group="avail" value="通常建設可" checked /> 通常建設可 <span class="sb-count">{availCounts.normal}</span></label>
+            <label class="sb-check" data-tip={availTips["イベント限定"]}><input type="checkbox" data-group="avail" value="イベント限定" checked /> イベント限定 <span class="sb-count">{availCounts.event}</span></label>
+          </div>
+        </div>
+
+        <!-- カテゴリ -->
+        <div class="sb-section">
+          <h3 class="sb-heading">カテゴリ</h3>
+          <div class="sb-options sb-scroll">
+            {categoryOrder.map((cat) => (
+              <label class="sb-check" data-tip={categoryTips[cat]}>
+                <input type="checkbox" data-group="category" value={cat} checked />
+                {categoryLabels[cat]} <span class="sb-count">{catCounts[cat] || 0}</span>
+              </label>
+            ))}
+          </div>
+        </div>
+
+        <!-- 入植地 -->
+        <div class="sb-section">
+          <h3 class="sb-heading">入植地</h3>
+          <div class="sb-options">
+            {["rural_settlement", "town", "city"].map((s) => (
+              <label class="sb-check" data-tip={settlementTips[s]}>
+                <input type="checkbox" data-group="settlement" value={s} checked />
+                {settlementLabels[s]}
+              </label>
+            ))}
+          </div>
+        </div>
+
+        <!-- 立地条件（ツリー） -->
+        <details class="sb-section sb-collapsible" open>
+          <summary class="sb-heading">立地条件</summary>
+          <div class="sb-tree">
+            {locationHierarchy.map((sg) => (
+              <details class="sb-subgroup" open={sg.items.length <= 5}>
+                <summary class="sb-subheading">
+                  {sg.label}
+                  <span class="sb-count">{sg.items.reduce((s, i) => s + i.count, 0)}</span>
+                </summary>
+                <div class="sb-options">
+                  {sg.items.map((opt) => (
+                    <label class="sb-check" {...(condTips[opt.text] ? {"data-tip": condTips[opt.text]} : {})}>
+                      <input type="checkbox" data-group="cond-location" value={opt.text} checked />
+                      <span class="sb-label-text">{opt.text}</span>
+                      <span class="sb-count">{opt.count}</span>
+                    </label>
+                  ))}
+                </div>
+              </details>
+            ))}
+          </div>
+        </details>
+
+        <!-- 国家条件（ツリー） -->
+        <details class="sb-section sb-collapsible">
+          <summary class="sb-heading">国家条件</summary>
+          <div class="sb-tree">
+            {countryHierarchy.map((sg) => (
+              <details class="sb-subgroup">
+                <summary class="sb-subheading">
+                  {sg.label}
+                  <span class="sb-count">{sg.items.reduce((s, i) => s + i.count, 0)}</span>
+                </summary>
+                <div class="sb-options">
+                  {sg.items.map((opt) => (
+                    <label class="sb-check" {...(condTips[opt.text] ? {"data-tip": condTips[opt.text]} : {})}>
+                      <input type="checkbox" data-group="cond-country" value={opt.text} checked />
+                      <span class="sb-label-text">{opt.text}</span>
+                      <span class="sb-count">{opt.count}</span>
+                    </label>
+                  ))}
+                </div>
+              </details>
+            ))}
+          </div>
+        </details>
+
+        <!-- 許可条件（全値） -->
+        <details class="sb-section sb-collapsible">
+          <summary class="sb-heading">許可条件 <span class="sb-count">{(condByGroup["allow"] || []).length}種</span></summary>
+          <div class="sb-options sb-scroll">
+            {(condByGroup["allow"] || []).map((opt) => (
+              <label class="sb-check" {...(condTips[opt.text] ? {"data-tip": condTips[opt.text]} : {})}>
+                <input type="checkbox" data-group="cond-allow" value={opt.text} checked />
+                {opt.text} <span class="sb-count">{opt.count}</span>
+              </label>
+            ))}
+          </div>
+        </details>
+
+        <!-- 属性フラグ -->
+        <div class="sb-section">
+          <h3 class="sb-heading">属性フラグ</h3>
+          <div class="sb-options">
+            {(condByGroup["flag"] || []).map((opt) => (
+              <label class="sb-check" {...(condTips[opt.text] ? {"data-tip": condTips[opt.text]} : {})}>
+                <input type="checkbox" data-group="cond-flag" value={opt.text} checked />
+                {opt.text} <span class="sb-count">{opt.count}</span>
+              </label>
+            ))}
+          </div>
+        </details>
+
+        <button class="sb-reset" id="reset-all">全条件をクリア</button>
+      </div>
+    </aside>
+
+    <!-- ═══ RIGHT RESULTS ═══ -->
+    <div class="results">
+      <div class="results-toolbar">
+        <h1>建物一覧</h1>
+        <div class="toolbar-right">
+          <span class="result-count" id="result-count"></span>
+          <div class="active-chips" id="active-chips"></div>
+        </div>
+      </div>
+
+      <div class="table-wrap" id="table-wrap">
+        <table id="buildings-table">
+          <thead>
+            <tr>
+              <th class="col-icon"></th>
+              <th class="col-name">名前</th>
+              <th class="col-en">EN</th>
+              <th class="col-cat">カテゴリ</th>
+              <th class="col-pop">担当階層</th>
+              <th class="col-settle">入植地</th>
+              <th class="col-avail">建設</th>
+              <th class="col-conds">主要条件</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+
+      <div class="no-results" id="no-results" style="display:none">
+        <p>条件に一致する建物がありません</p>
+        <button class="undo-btn" id="undo-filter">最後のフィルターを解除</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Building data as JS -->
+  <script is:inline define:vars={{ currentLang: lang, buildingsJson: JSON.stringify(buildings.map((b: any) => ({
+    id: b.id, ja: b.name_ja, en: b.name_en, cat: b.category,
+    pop: b.pop_type, settle: b.settlements || [],
+    avail: b.filter_tags?.availability?.[0] || "通常建設可",
+    icon: b.icon,
+    conds: (b.filter_conds || []).filter((c: any) => !c.text.startsWith("いずれか:")).map((c: any) => c.category + "::" + c.text),
+    search: `${b.name_ja} ${b.name_en} ${b.id} ${(b.conditions || []).map((c: any) => c.text).join(" ")}`.toLowerCase(),
+  }))), catLabels: JSON.stringify(categoryLabels), popLabels: JSON.stringify(popTypeLabels), settleLabels: JSON.stringify(settlementLabels) }}>
+    const ALL_BUILDINGS = JSON.parse(buildingsJson);
+    const CAT_LABELS = JSON.parse(catLabels);
+    const POP_LABELS = JSON.parse(popLabels);
+    const SETTLE_LABELS = JSON.parse(settleLabels);
+
+    // Pre-index conditions by category for each building
+    for (const b of ALL_BUILDINGS) {
+      b._condsByCat = {};
+      for (const c of b.conds) {
+        const i = c.indexOf("::");
+        const cat = c.slice(0, i), text = c.slice(i + 2);
+        (b._condsByCat[cat] || (b._condsByCat[cat] = [])).push(text);
+      }
+    }
+
+    const tbody = document.getElementById("tbody");
+    const countEl = document.getElementById("result-count");
+    const chipsEl = document.getElementById("active-chips");
+    const noResults = document.getElementById("no-results");
+    const tableWrap = document.getElementById("table-wrap");
+    const searchInput = document.getElementById("search");
+    const resetBtn = document.getElementById("reset-all");
+    const undoBtn = document.getElementById("undo-filter");
+
+    const condGroupNames = ["cond-location", "cond-country", "cond-allow", "cond-flag"];
+
+    // Cache checkbox arrays once
+    const cbCache = {};
+    for (const g of ["avail", "category", "settlement", ...condGroupNames]) {
+      cbCache[g] = Array.from(document.querySelectorAll(`input[data-group="${g}"]`));
+    }
+
+    function getUncheckedSet(group) {
+      const s = new Set();
+      for (const el of cbCache[group]) { if (!el.checked) s.add(el.value); }
+      return s;
+    }
+
+    let lastAction = null;
+    let debounceTimer = 0;
+
+    function scheduleFilter() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(render, 16);
+    }
+
+    function render() {
+      const q = searchInput.value.toLowerCase();
+      const uAvail = getUncheckedSet("avail");
+      const uCat = getUncheckedSet("category");
+      const uSettle = getUncheckedSet("settlement");
+
+      const uConds = {};
+      for (const g of condGroupNames) {
+        const u = getUncheckedSet(g);
+        if (u.size > 0) uConds[g.slice(5)] = u; // "cond-location" -> "location"
+      }
+
+      // Filter (pure array, no DOM)
+      const filtered = [];
+      for (const b of ALL_BUILDINGS) {
+        if (q && !b.search.includes(q)) continue;
+        if (uAvail.size === 1 && uAvail.has(b.avail)) continue;
+        if (uCat.has(b.cat)) continue;
+        if (uSettle.size > 0 && !b.settle.some(s => !uSettle.has(s))) continue;
+        let excl = false;
+        for (const cat in uConds) {
+          const rc = b._condsByCat[cat];
+          if (rc) { for (const r of rc) { if (uConds[cat].has(r)) { excl = true; break; } } }
+          if (excl) break;
+        }
+        if (excl) continue;
+        filtered.push(b);
+      }
+
+      // Render into DOM (single innerHTML assignment)
+      const html = [];
+      for (const b of filtered) {
+        const settleHtml = b.settle.map(s =>
+          `<span class="s-badge">${SETTLE_LABELS[s] || s}</span>`
+        ).join("");
+        // 建設可否: アイコンバッジ
+        const isEvent = b.avail === "イベント限定";
+        const availHtml = isEvent
+          ? '<span class="avail-badge avail-event" title="イベント限定">EV</span>'
+          : '<span class="avail-badge avail-ok" title="通常建設可">OK</span>';
+        // 主要条件: conds（filter_conds）から表示（最大2件、超過分は+N）
+        const keyConds = b.conds.map(c => c.slice(c.indexOf("::") + 2))
+          .filter(t => t !== "通常建設可" && t !== "イベント限定（通常建設不可）" && t !== "特殊建物");
+        let condsHtml = "";
+        if (keyConds.length > 0) {
+          const shown = keyConds.slice(0, 2);
+          condsHtml = shown.map(t => `<span class="cond-chip cond-misc">${t}</span>`).join("");
+          if (keyConds.length > 2) condsHtml += `<span class="cond-more">+${keyConds.length - 2}</span>`;
+        }
+        const displayName = currentLang === "ja" ? b.ja : b.en;
+        const subName = currentLang === "ja" ? b.en : "";
+        html.push(`<tr><td class="cell-icon"><img src="/${b.icon}" alt="" width="24" height="24" loading="lazy"></td><td class="cell-name"><a href="/${currentLang}/eu5/buildings/${b.id}/">${displayName}</a></td><td class="cell-en">${subName}</td><td class="cell-cat"><span class="cat-badge">${CAT_LABELS[b.cat] || b.cat}</span></td><td class="cell-pop"><span class="pop-tag">${POP_LABELS[b.pop] || b.pop}</span></td><td class="cell-settle">${settleHtml}</td><td class="cell-avail">${availHtml}</td><td class="cell-conds">${condsHtml}</td></tr>`);
+      }
+      tbody.innerHTML = html.join("");
+
+      countEl.textContent = `${filtered.length} / ${ALL_BUILDINGS.length} 件`;
+      tableWrap.style.display = filtered.length > 0 ? "" : "none";
+      noResults.style.display = filtered.length === 0 ? "" : "none";
+
+      // Chips
+      const chips = [];
+      if (uAvail.size === 1) chips.push(Array.from(uAvail)[0] + " 除外");
+      if (uCat.size > 0 && uCat.size <= 3) uCat.forEach(v => chips.push(v + " 除外"));
+      else if (uCat.size > 3) chips.push("カテゴリ " + uCat.size + "件除外");
+      if (uSettle.size > 0) uSettle.forEach(v => chips.push((SETTLE_LABELS[v]||v) + " 除外"));
+      for (const cat in uConds) {
+        const u = uConds[cat];
+        if (u.size <= 3) u.forEach(v => chips.push(v + " 除外"));
+        else chips.push(cat + " " + u.size + "件除外");
+      }
+      if (q) chips.push(`"${q}"`);
+      chipsEl.innerHTML = chips.map(c => `<span class="chip">${c}</span>`).join("");
+    }
+
+    // Event listeners
+    searchInput.addEventListener("input", scheduleFilter);
+    for (const g in cbCache) {
+      for (const el of cbCache[g]) {
+        el.addEventListener("change", () => {
+          lastAction = () => { el.checked = !el.checked; render(); };
+          render();
+        });
+      }
+    }
+    resetBtn.addEventListener("click", () => {
+      searchInput.value = "";
+      for (const g in cbCache) for (const el of cbCache[g]) el.checked = true;
+      lastAction = null;
+      render();
+    });
+    undoBtn.addEventListener("click", () => { if (lastAction) { lastAction(); lastAction = null; } });
+
+    // Initial render
+    render();
+
+    // ── Tooltip ──
+    const tip = document.createElement("div");
+    Object.assign(tip.style, {
+      position: "fixed",
+      background: "#1a1410",
+      border: "1px solid #c9a84c",
+      color: "#f5f0e8",
+      fontSize: "0.75rem",
+      lineHeight: "1.4",
+      padding: "0.4rem 0.6rem",
+      borderRadius: "4px",
+      whiteSpace: "nowrap",
+      zIndex: "1000",
+      pointerEvents: "none",
+      opacity: "0",
+      transition: "opacity 0.15s",
+    });
+    document.body.appendChild(tip);
+    let tipTimer;
+
+    document.querySelectorAll("[data-tip]").forEach((el) => {
+      el.addEventListener("mouseenter", () => {
+        const text = el.dataset.tip;
+        if (!text) return;
+        tip.textContent = text;
+        const r = el.getBoundingClientRect();
+        tip.style.left = `${r.right + 8}px`;
+        tip.style.top = `${r.top + r.height / 2}px`;
+        tip.style.transform = "translateY(-50%)";
+        tipTimer = window.setTimeout(() => {
+          const tr = tip.getBoundingClientRect();
+          if (tr.right > window.innerWidth - 8) {
+            tip.style.left = `${r.left - tr.width - 8}px`;
+          }
+          tip.style.opacity = "1";
+        }, 300);
+      });
+      el.addEventListener("mouseleave", () => {
+        clearTimeout(tipTimer);
+        tip.style.opacity = "0";
+      });
+    });
+  </script>
+
+  <!-- JS動的生成要素のスタイル（Astroスコープ外） -->
+  <style is:global>
+    /* Category badge */
+    .cat-badge {
+      display: inline-block;
+      background: rgba(201, 168, 76, 0.12);
+      color: #e8d5a3;
+      border-radius: 2px;
+      padding: 0.1rem 0.4rem;
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+
+    /* Pop tags */
+    .pop-tag {
+      display: inline-block;
+      background: rgba(201, 168, 76, 0.15);
+      color: #e8d5a3;
+      border-radius: 2px;
+      padding: 0.1rem 0.4rem;
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+
+    /* Settlement badges */
+    .s-badge {
+      display: inline-block;
+      background: #2a3042;
+      color: #9a9bab;
+      border-radius: 2px;
+      padding: 0.1rem 0.35rem;
+      font-size: 0.68rem;
+      font-weight: 500;
+      margin-right: 0.15rem;
+    }
+
+    /* Availability badge */
+    .avail-badge {
+      display: inline-block;
+      border-radius: 2px;
+      padding: 0.1rem 0.35rem;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+
+    .avail-ok { background: rgba(76,154,90,0.18); color: #8cc89a; }
+    .avail-event { background: rgba(196,79,79,0.18); color: #e09090; }
+
+    /* Condition chips */
+    .cond-chip {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 500;
+      padding: 0.1rem 0.35rem;
+      border-radius: 2px;
+      margin: 0.08rem 0.1rem;
+      white-space: nowrap;
+      background: rgba(74,142,201,0.1);
+      color: #8cbde8;
+      border: 1px solid rgba(74,142,201,0.15);
+    }
+
+    .cond-more {
+      display: inline-block;
+      font-size: 0.6rem;
+      color: #5c5f72;
+      margin-left: 0.2rem;
+      vertical-align: middle;
+    }
+
+    /* Cell styles (JS動的生成) */
+    .cell-icon {
+      text-align: center;
+      padding: 0.3rem 0.25rem;
+    }
+
+    .cell-icon img {
+      image-rendering: pixelated;
+      vertical-align: middle;
+    }
+
+    .cell-name a {
+      color: #4a8ec9;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .cell-name a:hover {
+      color: #e8d5a3;
+      text-decoration: underline;
+    }
+
+    .cell-en {
+      color: #5c5f72;
+      font-size: 0.8rem;
+    }
+
+    .cell-avail { text-align: center; }
+
+    /* Row hover */
+    #buildings-table tbody tr {
+      transition: background 0.1s;
+    }
+
+    #buildings-table tbody tr:hover {
+      background: #2a3042;
+    }
+  </style>
+
+  <style>
+    /* ═══ PAGE LAYOUT ═══ */
+    .page-layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    /* ═══ SIDEBAR ═══ */
+    .sidebar {
+      position: sticky;
+      top: 72px;
+      max-height: calc(100vh - 88px);
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--slate) transparent;
+    }
+
+    .sidebar-inner {
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      padding: 1rem;
+    }
+
+    .sb-section {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .sb-section:last-of-type {
+      border-bottom: none;
+      margin-bottom: 0.5rem;
+    }
+
+    .sb-heading {
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--pale-gold);
+      margin-bottom: 0.5rem;
+      cursor: default;
+    }
+
+    .sb-collapsible > summary {
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .sb-collapsible > summary::before {
+      content: "\25B6";
+      font-size: 0.6rem;
+      margin-right: 0.4rem;
+      color: var(--dim-stone);
+      display: inline-block;
+      transition: transform 0.15s;
+    }
+
+    .sb-collapsible[open] > summary::before {
+      transform: rotate(90deg);
+    }
+
+    .sb-options {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .sb-scroll {
+      max-height: 240px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--slate) transparent;
+    }
+
+    .sb-check,
+    .sb-radio {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.85rem;
+      color: var(--dusty-silver);
+      padding: 0.2rem 0.3rem;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+
+    .sb-check:hover,
+    .sb-radio:hover {
+      background: var(--charred-oak);
+      color: var(--ivory);
+    }
+
+    /* Tooltip: styles applied inline via JS (scoped CSS can't reach dynamic body children) */
+
+    .sb-check input,
+    .sb-radio input {
+      accent-color: var(--royal-gold);
+      cursor: pointer;
+    }
+
+    .sb-count {
+      margin-left: auto;
+      font-size: 0.7rem;
+      color: var(--dim-stone);
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Tree structure */
+    .sb-tree {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+      max-height: 320px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--slate) transparent;
+    }
+
+    .sb-subgroup {
+      border-left: 2px solid var(--iron-edge);
+      padding-left: 0.5rem;
+      margin-left: 0.2rem;
+    }
+
+    .sb-subgroup[open] {
+      border-left-color: var(--royal-gold);
+    }
+
+    .sb-subheading {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--dusty-silver);
+      cursor: pointer;
+      padding: 0.2rem 0.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      list-style: none;
+    }
+
+    .sb-subheading:hover {
+      color: var(--ivory);
+    }
+
+    .sb-subheading::before {
+      content: "\25B8";
+      font-size: 0.6rem;
+      color: var(--dim-stone);
+      transition: transform 0.1s;
+    }
+
+    .sb-subgroup[open] > .sb-subheading::before {
+      transform: rotate(90deg);
+    }
+
+    .sb-subgroup .sb-options {
+      padding-left: 0.4rem;
+    }
+
+    .sb-label-text {
+      flex: 1;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .sb-reset {
+      width: 100%;
+      padding: 0.4rem;
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--dusty-silver);
+      background: none;
+      border: 1px solid var(--iron-edge);
+      border-radius: 3px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .sb-reset:hover {
+      color: var(--ivory);
+      border-color: var(--royal-gold);
+    }
+
+    /* Search */
+    .search-wrap {
+      position: relative;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.6rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 14px;
+      height: 14px;
+      color: var(--dim-stone);
+      pointer-events: none;
+    }
+
+    #search {
+      width: 100%;
+      padding: 0.45rem 0.5rem 0.45rem 2rem;
+      font-size: 0.85rem;
+      font-family: var(--font-body);
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 3px;
+      color: var(--ivory);
+    }
+
+    #search::placeholder { color: var(--dim-stone); }
+
+    #search:focus {
+      outline: none;
+      border-color: var(--royal-gold);
+      box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.15);
+    }
+
+    /* ═══ RESULTS ═══ */
+    .results-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--gold-thread);
+      flex-wrap: wrap;
+    }
+
+    .results-toolbar h1 {
+      font-family: var(--font-display);
+      font-size: 1.75rem;
+      letter-spacing: 0.03em;
+      color: var(--royal-gold);
+      white-space: nowrap;
+    }
+
+    .toolbar-right {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+
+    .result-count {
+      font-size: 0.9rem;
+      color: var(--dusty-silver);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .active-chips {
+      display: flex;
+      gap: 0.3rem;
+      flex-wrap: wrap;
+    }
+
+    .chip {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 500;
+      padding: 0.1rem 0.45rem;
+      border-radius: 2px;
+      background: rgba(201, 168, 76, 0.12);
+      color: var(--pale-gold);
+      border: 1px solid rgba(201, 168, 76, 0.25);
+    }
+
+    /* ═══ TABLE ═══ */
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+    }
+
+    #buildings-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    #buildings-table thead {
+      background: var(--charred-oak);
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+
+    #buildings-table th {
+      padding: 0.55rem 0.6rem;
+      text-align: left;
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 0.78rem;
+      color: var(--dusty-silver);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--iron-edge);
+      white-space: nowrap;
+    }
+
+    #buildings-table td {
+      padding: 0.45rem 0.6rem;
+      font-size: 0.9rem;
+      border-bottom: 1px solid rgba(46, 52, 71, 0.5);
+      vertical-align: middle;
+    }
+
+    .col-icon { width: 32px; }
+    .col-en { color: var(--dusty-silver); }
+    .col-avail { width: 48px; text-align: center; }
+    .col-conds { min-width: 100px; }
+
+    /* cell-* and row hover → moved to <style is:global> */
+
+    /* No results */
+    .no-results {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--dusty-silver);
+    }
+
+    .undo-btn {
+      margin-top: 1rem;
+      padding: 0.4rem 1rem;
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      color: var(--pale-gold);
+      background: none;
+      border: 1px solid var(--royal-gold);
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .undo-btn:hover {
+      background: rgba(201, 168, 76, 0.1);
+    }
+  </style>
+</Base>

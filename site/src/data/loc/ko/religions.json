@@ -1,0 +1,1261 @@
+{
+  "bon": {
+    "name": "본교",
+    "desc": "$buddhist$ 전래보다 앞서 $tibet_region$에 존재했던 종교 전통에 뿌리를 두고 있으며, 전래 후에는 $tibetan_buddhism$에 큰 영향을 받았습니다. $SECT_NYIGMA_NAME$와 특히나 가까운 형태지만, 여전히 $buddhist$ 전래 이전 시대의 여러 요소를 간직하고 있습니다. 카르마와 윤회, 그리고 깨달음을 얻는 방법에 초점을 둔 가르침을 설파합니다."
+  },
+  "mahayana": {
+    "name": "동아시아 불교",
+    "desc": "마하야나, 다시 말해 많은 중생을 구제하는 '큰 수레(대승)'라는 의미에서 '대승 불교'라고도 불린 동아시아 불교는 초기 $buddhist_ADJ$ 경전뿐만 아니라 마하야나 $sutra$라는 문헌까지도 함께 받아들인 $buddhist$ 종파입니다. $bodhisattva$의 존재를 특히나 강조하며, $bodhisattva$의 길을 따르면 누구나 부처의 경지에 이를 수 있다고 이해합니다. 본래 $india$에서 생겨났지만 $china$과 실크 로드를 통해 널리 전파되었고, 현재는 $chinese_group$ 경전이 모든 $mahayana$의 근간을 이루고 있습니다."
+  },
+  "shinto": {
+    "name": "신토",
+    "desc": "$japan_region$에 $buddhist$가 전래되자, 기존에 $japan_region$에 존재했던 다양한 카미(신) 숭배 중심의 신앙 및 관습은 $buddhist_ADJ$ 관습 및 개념과 뒤섞이고 결합했습니다. 카미와 $buddhist_ADJ$ 신격은 각기 대응되어 동일시되었고, 시간이 흐르자 두 신앙 체계는 사실상 구별할 수 없는 정도에 이르렀습니다. 그 결과 $buddhist$에 영향을 받은 카미 숭배와 $buddhist$ 요소가 혼합된, $japanese_group$ 특유의 $buddhist$ 양상이 등장하게 되었습니다."
+  },
+  "theravada": {
+    "name": "상좌부 불교",
+    "desc": "'테라와다'라고도 불리는 상좌부 불교는 $buddhist$ 내에서도 가장 오래된 전통을 고수합니다. 대승 불교의 $sutra$와 대승 불교가 제시한 여러 $bodhisattva$을 거부하며, $bodhisattva$의 길이 만인에게 열려 있다는 대승 불교의 사상 또한 인정하지 않습니다. 그 대신 깨달음을 얻는 가장 좋은 방법으로 승가 공동체를 내세웁니다."
+  },
+  "sammitiya": {
+    "name": "정량부",
+    "desc": "초기 $india$ $buddhist$의 여러 분파 중 하나인 $sammitiya$는 $sindh_area$에서 발전을 이뤄, 날란다 대승원과도 어깨를 나란히 하는 초기 $buddhist_ADJ$ 학파의 중심지가 되었습니다. 대승 불교에 속하지 않는 $india$ $buddhist$ 종파 중에서 가장 큰 규모를 자랑했지만, $muslim_ADJ$의 침공을 겪으며 쇠락하고 말았습니다."
+  },
+  "tibetan_buddhism": {
+    "name": "티베트 불교",
+    "desc": "대승 불교의 전통을 바탕으로 히말라야산맥 일대에서 발전을 이룬 $buddhist$의 한 형태입니다. 인도와 밀접하게 접촉한 결과 후기 인도 $buddhist$의 발전상에 영향을 받아, 여러 밀교적 관습과도 결합하게 되었습니다."
+  },
+  "sanjiao": {
+    "name": "삼교",
+    "desc": "'삼교'라고 하는 개념은 $confucianism_policy$, $daoism_policy$, $buddhist$가 서로 영향을 주고받으며 섞인 결과물입니다. 이 세 가지 가르침은 수 세기에 걸쳐 $china$에 뿌리 내리며, 다른 여러 $chinese_group$ 민속 신앙과 신들의 영향을 받았습니다. 비록 항상 조화롭게 공존했던 것은 아니지만, 삼교는 언제나 $chinese_group$인들 삶의 일부였습니다."
+  },
+  "anglican": {
+    "name": "성공회",
+    "desc": "$anglican$는 $christian$의 한 종파로, 국가의 수반이 교회의 최고 통치자를 겸합니다. 신학적으로나 제도적으로나 $catholic$의 요소를 많이 유지하고 있지만, 청교도와 $lutheran_ADJ$ 신앙에도 영향을 받았습니다."
+  },
+  "bogomilism": {
+    "name": "보고밀파",
+    "desc": "신영지주의와 이원론을 주창하는 $christian$ 종파인 $bogomilism$는 존재란 영적 영역과 물질 영역으로 나뉘어 있다고 가르칩니다. $bogomilism$ 추종자들은 자신의 몸을 거룩한 신전으로 여기며, 정화 의식을 통해 주님께 다가가려고 노력합니다. 이러한 수행법에는 금식과 춤 등이 포함되며, 과도한 물적 추구를 멀리하고 영적 성장에 집중합니다."
+  },
+  "bosnian_church": {
+    "name": "크르스트야니",
+    "desc": "$catholic_ADJ$교회에서 갈라져 나온 종파인 $bosnian_church$는 오랜 시간 주류 기독교의 흐름으로부터 떨어져 고립되어 있던 탓에 독자적인 신학 체계를 구축했습니다. 묵시론적 주제에 중심을 두고, 신비주의를 받아들였으며 초기 $christian$의 고풍스러운 관습을 상당수 이어받았습니다. 이러한 특징으로 인해 $catholic_ADJ$과 $orthodox_ADJ$ 양쪽 모두에서 이단으로 배척당하기도 했습니다."
+  },
+  "calvinist": {
+    "name": "칼뱅파",
+    "desc": "장 칼뱅의 이름을 딴 $calvinist$는 간소한 예배와 성서무오설에 기반을 둔 성경의 권위를 중요시하는 개신교의 주요 분파입니다. 교리상으로는 예정론을 강조해, 신께서 모든 피조물의 운명을 미리 정하셨다고 주장합니다."
+  },
+  "catharism": {
+    "name": "카타리파",
+    "desc": "$catharism$는 자애로운 하늘의 신과 악의로 가득 찬 신이라는 두 명의 신이 존재한다고 믿는 이원론적 종파입니다. 카타리파 신도들은 우주적 규모로 벌어지는 투쟁으로 인해 영혼이 물리적 신체에 갇혀 버린 것이라고 믿습니다. 금욕적인 생활 방식을 고수하며, 엄격한 규율을 통해 영적 정화를 이루는 것이 구원에 이르는 유일한 방법이라고 여깁니다."
+  },
+  "catholic": {
+    "name": "가톨릭",
+    "desc": "니케아 신경에 뿌리를 둔 $catholic$은 $christian$ 교파 중에서도 가장 큰 규모를 자랑하며, 성 베드로의 영적 후계자인 교황이 이끕니다. 교황은 교회의 수장인 동시에 $christian_ADJ$ 통치자 사이의 분쟁을 해결하는 중재자이기도 합니다. 서구 세계의 종교와 문화 중 상당 부분은 가톨릭의 교리와 전통에 기반해 형성되었습니다."
+  },
+  "hussite": {
+    "name": "후스파",
+    "desc": "$BOH$에서 얀 후스에 의해 초기 개신교 운동의 형태로 처음 그 모습을 드러낸 $hussite_ADJ$는 $BYZ_ADJ$ 의례의 여러 요소를 존 위클리프의 가르침과 접목했습니다. $hussite_ADJ$는 포도주와 빵을 모두 사용하는 양형 영성체의 사용을 강조했으며, 성경이 교회 전통보다 더 우선시되어야 함을 주장했습니다."
+  },
+  "lollardy": {
+    "name": "롤러드파",
+    "desc": "존 위클리프가 이끈 $lollardy$는 보편 사제직을 옹호하고 세례나 고해 성사 같은 성례 없이도 구원에 이를 수 있다고 설파한 개혁주의 교파입니다. $lollardy$는 자국어로 번역한 성경을 읽으며 개개인이 신에게 직접 가닿을 수 있음을 강조했습니다. 이러한 번역 성경 덕분에 평민들도 쉽게 신학을 쉽게 접할 수 있게 되었고, 이는 종교 개혁의 효시가 되었습니다."
+  },
+  "lutheran": {
+    "name": "루터교",
+    "desc": "마르틴 루터의 95개조 반박문에 기반한 $lutheran$는 본래 $catholic_ADJ$ 교회에 대한 개혁 운동으로 출발했지만, 이후 별도의 개신교 교단으로 발전했습니다. $lutheran$는 구약과 신약 성경만이 $christian_ADJ$ 교리에 있어 유일무이한 무오류의 권위라고 설파했습니다."
+  },
+  "miaphysite": {
+    "name": "오리엔트 정교회",
+    "desc": "$miaphysite$, 다시 말해 합성론은 그리스도의 안에 신성과 인성이 불가분한 하나의 본성으로 결합해 존재한다고 주장합니다. 에페소 공의회에 뿌리를 둔 이 교리는 아르메니아, 이집트, 에티오피아 등 여러 지역에 널리 퍼졌습니다. $miaphysite_ADJ$ 사회는 고유한 전례와 전통을 오랫동안 보존해 왔으며, 그리스도가 신과 인간의 내적 합일을 이룬 존재라는 점을 강조합니다."
+  },
+  "nestorianism": {
+    "name": "네스토리우스파",
+    "desc": "네스토리우스의 이름을 딴 $nestorianism$는 그리스도의 신성과 인성은 명백히 구분되어 공존한다고 주장합니다. 이 교리는 에페소 공의회에서 배척을 받았지만, 페르시아와 그 너머에서는 많은 추종자를 얻었습니다. 이후 네스토리우스파 교도들은 $asia$ 전역에 자신들의 믿음을 퍼뜨렸고, 점유한 땅만을 기준으로 본다면 가장 큰 $christian_ADJ$ 교파가 되었습니다."
+  },
+  "orthodox": {
+    "name": "정교회",
+    "desc": "초기 $christian_ADJ$의 공의회 전통에 뿌리를 둔 $orthodox_ADJ$는 사도들의 가르침과 거룩한 전통이 계속 이어져야 한다고 주장합니다. $BYZ_ADJ$ 의례를 중심으로 예배, 도상, 신비주의를 매우 중요시하기도 합니다. $orthodox_ADJ$의 지도자는 총대주교라 부르며, 특히 콘스탄티노플의 세계 총대주교가 동등한 가운데 가장 으뜸으로 여겨집니다."
+  },
+  "paulicianism": {
+    "name": "바오로파",
+    "desc": "$paulicianism$는 물질세계를 사악한 존재의 창조물로 여기며 배척하는 이원론 기반 $christian_ADJ$ 종파입니다. 오직 정신세계만이 순결하다고 주장하며, 신약 성경을 신앙의 근거로 삼는 반면 구약 성경은 철저히 거부합니다. $paulicianism_ADJ$는 $catholic_ADJ$과 $orthodox_ADJ$ 교단 양쪽 모두에서 박해를 받았지만, 동화되는 것을 계속해서 거부했습니다. 이러한 저항은 이후 등장한 종교 개혁 운동에 영감을 주었습니다."
+  },
+  "strigolniki": {
+    "name": "스트리골니체스트보",
+    "desc": "중세 $russian_region$에서 출현한 $strigolniki$는 기존 $orthodox_ADJ$ 교회에 비판적인 입장을 견지한 개혁주의 종파입니다. 이들은 사제의 부패, 성례 매매, 성직자의 재산 축적을 규탄했으며, 개인의 신심에 중심을 둔 소박한 신앙을 강조했습니다. 이러한 탓에 $strigolniki_ADJ$는 $orthodox_ADJ$와 국가 정부의 표적이 되어 핍박받기도 했습니다."
+  },
+  "waldensian": {
+    "name": "발도파",
+    "desc": "흔히 피터 발도라 불리는 페르투스 발데스가 창시한 $waldensian$는 소박함과 청빈함, 그리고 성경의 권위를 강조한 개혁주의 $christian_ADJ$ 운동입니다. $waldensian$는 성직자의 재산 축적과 성인 숭배를 배척하고, 구원에 성례가 필수적이라는 주장도 거부했습니다. $waldensian_ADJ$ 신도들은 이후 수 세기 동안 이단으로 몰려 박해와 억압을 받았지만, 탄압을 견디며 계속해서 $europe$ 전역에 자신들의 가르침을 전파했습니다."
+  },
+  "hindu": {
+    "name": "힌두교",
+    "desc": "단일 종교라기보다 다양한 신앙을 아울러 부르는 명칭에 가까운 $hindu$는 일반적으로 세계에서 가장 오래된 종교 전통으로 여겨집니다. $hindu$의 모든 신념과 관습은 고대 문헌인 '베다'에 기초하며, 우주의 질서인 $dharmic$에 대한 설명을 중심으로 합니다. 다양한 신앙이 한데 모인 만큼 모셔지는 신도 많지만 모든 신이 평등하게 경배받는 것은 아니며, $hindu_ADJ$ 신도들의 믿음과 성향에 따라 아예 인정받지 못하는 신도 존재합니다. $hindu$의 네 가지 주요 분파로 $vaishnavism$, $shaktism$, $shaivism$, 및 $smartism$가 있습니다."
+  },
+  "jain": {
+    "name": "자이나교",
+    "desc": "세계에서 가장 오래된 종교 중 하나인 $jain$는 죽음과 윤회의 순환에서 벗어나 자아실현과 해탈에 이르는 것에 중점을 둔 인도의 $dharmic_ADJ$ 계열 종교입니다. $dharma$를 가르치는 최고위 스승인 티르탕카라의 가르침을 받아, 비폭력주의와 금욕주의를 중시합니다. 종파는 디감바라와 스베탐바라 두 가지로 나뉘는데, '하늘 옷을 입은 자'라는 뜻의 디감바라는 물질에 대한 집착과 소유를 거부했고, 실제로 디감바라 수도승은 옷을 전혀 입지 않았으며 디감바라 종파에서 사용되는 도상은 훨씬 더 단순한 형태였습니다. 반면에 수도승이 흰옷을 입는다는 이유로 '흰옷을 입은 자'라는 뜻의 이름을 취한 스베탐바라는 남성 중시적인 디감바라와 달리 남성과 여성 수도승을 더 평등하게 대우했습니다."
+  },
+  "sikhism": {
+    "name": "시크교",
+    "desc": "$character_title_guru$의 가르침에 기반을 둔 종교로, $india$의 다양한 $hindu_ADJ$ 신앙에서 유래되었지만 $muslim$에서도 많은 영향을 받았습니다. $sikhism_god_name$를 유일한 창조신으로 섬기며, 만인을 위해 정직하고 이타적으로 살아갈 것을 강조했습니다. 또한 사색과 명상을 통해 신과 연결되고, 낭송과 음악을 통해 신의 존재를 의식하는 수행법을 장려했습니다."
+  },
+  "druzism": {
+    "name": "드루즈",
+    "desc": "$druzism_ADJ$ 신도들은 $ismaili_school$에서 유래했지만 스스로를 $muslim_ADJ$교도로 여기지 않습니다. $muslim$의 영향은 뚜렷하게 남아 있지만 다른 아브라함 계통 종교 및 비아브라함 계통 종교에서도 영향을 받았으며, 그 결과 수많은 윤회를 거쳐 모든 영혼이 다시 하나로 재결합한다는 우주적 정신과 신비주의에 중점을 둔 독자적인 신앙이 탄생했습니다."
+  },
+  "bantu_religion": {
+    "name": "반투",
+    "desc": "$bantu_religion$ $common_folk_religion_desc$"
+  },
+  "lugbara_religion": {
+    "name": "아드로아-아드로",
+    "desc": "$lugbara_religion$ $common_folk_religion_desc$"
+  },
+  "cwezi_religion": {
+    "name": "추웨지",
+    "desc": "$cwezi_religion$ $common_folk_religion_desc$"
+  },
+  "bori_religion": {
+    "name": "보리",
+    "desc": "$bori_religion$ $common_folk_religion_desc$"
+  },
+  "muonyjang_religion": {
+    "name": "무오니장",
+    "desc": "$muonyjang_religion$ $common_folk_religion_desc$"
+  },
+  "fomba_gasy_religion": {
+    "name": "폼바 가시",
+    "desc": "$fomba_gasy_religion$ $common_folk_religion_desc$"
+  },
+  "maasai_religion": {
+    "name": "므웨네 냐가",
+    "desc": "$maasai_religion$ $common_folk_religion_desc$"
+  },
+  "asis_religion": {
+    "name": "아시스",
+    "desc": "$asis_religion$ $common_folk_religion_desc$"
+  },
+  "waaqeffanna_religion": {
+    "name": "와케파나",
+    "desc": "$waaqeffanna_religion$ $common_folk_religion_desc$"
+  },
+  "badimo_religion": {
+    "name": "바디모",
+    "desc": "$badimo_religion$ $common_folk_religion_desc$"
+  },
+  "kaggen_religion": {
+    "name": "카겐",
+    "desc": "$kaggen_religion$ $common_folk_religion_desc$"
+  },
+  "akuj_religion": {
+    "name": "아쿠지",
+    "desc": "$akuj_religion$ $common_folk_religion_desc$"
+  },
+  "akan_religion": {
+    "name": "아콤",
+    "desc": "$akan_religion$ $common_folk_religion_desc$"
+  },
+  "vodun_religion": {
+    "name": "보둔",
+    "desc": "$vodun_religion$ $common_folk_religion_desc$"
+  },
+  "abwoi_religion": {
+    "name": "아보이",
+    "desc": "$abwoi_religion$ $common_folk_religion_desc$"
+  },
+  "isese_religion": {
+    "name": "이세세",
+    "desc": "$isese_religion$ $common_folk_religion_desc$"
+  },
+  "ijaw_religion": {
+    "name": "이자우",
+    "desc": "$ijaw_religion$ $common_folk_religion_desc$"
+  },
+  "odinala_religion": {
+    "name": "오디날라",
+    "desc": "$odinala_religion$ $common_folk_religion_desc$"
+  },
+  "a_fat_roog_religion": {
+    "name": "아 파트 루그",
+    "desc": "$a_fat_roog_religion$ $common_folk_religion_desc$"
+  },
+  "dogon_religion": {
+    "name": "도곤",
+    "desc": "$dogon_religion$ $common_folk_religion_desc$"
+  },
+  "nyama_religion": {
+    "name": "냐마",
+    "desc": "$nyama_religion$ $common_folk_religion_desc$"
+  },
+  "nyesoa_religion": {
+    "name": "니예소아",
+    "desc": "$nyesoa_religion$ $common_folk_religion_desc$"
+  },
+  "karama_religion": {
+    "name": "카라마",
+    "desc": "$karama_religion$ $common_folk_religion_desc$"
+  },
+  "buyli_religion": {
+    "name": "부흘리",
+    "desc": "$buyli_religion$ $common_folk_religion_desc$"
+  },
+  "ebore_religion": {
+    "name": "에보레",
+    "desc": "$ebore_religion$ $common_folk_religion_desc$"
+  },
+  "adamawa_religion": {
+    "name": "아다마와",
+    "desc": "$adamawa_religion$ $common_folk_religion_desc$"
+  },
+  "geno_religion": {
+    "name": "게노",
+    "desc": "$geno_religion$ $common_folk_religion_desc$"
+  },
+  "emit_religion": {
+    "name": "에미트",
+    "desc": "$emit_religion$ $common_folk_religion_desc$"
+  },
+  "nhaala_religion": {
+    "name": "느하알라",
+    "desc": "$nhaala_religion$ $common_folk_religion_desc$"
+  },
+  "eso_religion": {
+    "name": "에소",
+    "desc": "$eso_religion$ $common_folk_religion_desc$"
+  },
+  "naa_wuni_religion": {
+    "name": "나아우니",
+    "desc": "$naa_wuni_religion$ $common_folk_religion_desc$"
+  },
+  "kuru_masaba_religion": {
+    "name": "쿠루 마사바",
+    "desc": "$kuru_masaba_religion$ $common_folk_religion_desc$"
+  },
+  "sao_religion": {
+    "name": "사오",
+    "desc": "$sao_religion$ $common_folk_religion_desc$"
+  },
+  "rogo_miki_religion": {
+    "name": "로고 미키",
+    "desc": "$rogo_miki_religion$ $common_folk_religion_desc$"
+  },
+  "songhai_religion": {
+    "name": "송가이",
+    "desc": "$songhai_religion$ $common_folk_religion_desc$"
+  },
+  "godala_religion": {
+    "name": "고달라",
+    "desc": "$godala_religion$ $common_folk_religion_desc$"
+  },
+  "nyasaye_religion": {
+    "name": "냐사예",
+    "desc": "$nyasaye_religion$ $common_folk_religion_desc$"
+  },
+  "anna_religion": {
+    "name": "안나",
+    "desc": "$anna_religion$ $common_folk_religion_desc$"
+  },
+  "rebba_religion": {
+    "name": "레바",
+    "desc": "$rebba_religion$ $common_folk_religion_desc$"
+  },
+  "omo_religion": {
+    "name": "오모",
+    "desc": "$omo_religion$ $common_folk_religion_desc$"
+  },
+  "musala_religion": {
+    "name": "무살라",
+    "desc": "$musala_religion$ $common_folk_religion_desc$"
+  },
+  "kalge_religion": {
+    "name": "칼게",
+    "desc": "$kalge_religion$ $common_folk_religion_desc$"
+  },
+  "mbori_religion": {
+    "name": "음보리",
+    "desc": "$mbori_religion$ $common_folk_religion_desc$"
+  },
+  "ori_religion": {
+    "name": "오리",
+    "desc": "$ori_religion$ $common_folk_religion_desc$"
+  },
+  "ngbandi_religion": {
+    "name": "응반디",
+    "desc": "$ngbandi_religion$ $common_folk_religion_desc$"
+  },
+  "bua_religion": {
+    "name": "부아",
+    "desc": "$bua_religion$ $common_folk_religion_desc$"
+  },
+  "fang_religion": {
+    "name": "메베게",
+    "desc": "$fang_religion$ $common_folk_religion_desc$"
+  },
+  "ajok_religion": {
+    "name": "아족",
+    "desc": "$ajok_religion$ $common_folk_religion_desc$"
+  },
+  "banda_religion": {
+    "name": "반다",
+    "desc": "$banda_religion$ $common_folk_religion_desc$"
+  },
+  "guanche_religion": {
+    "name": "관체",
+    "desc": "$guanche_religion$ $common_folk_religion_desc$"
+  },
+  "kenos_religion": {
+    "name": "케노스",
+    "desc": "$kenos_religion$ $common_folk_religion_desc$"
+  },
+  "tain_feyentun_religion": {
+    "name": "타인 페옌툰",
+    "desc": "$tain_feyentun_religion$ $common_folk_religion_desc$"
+  },
+  "tokuah_religion": {
+    "name": "토쿠아",
+    "desc": "$tokuah_religion$ $common_folk_religion_desc$"
+  },
+  "kilyikhama_religion": {
+    "name": "킬리카마",
+    "desc": "$kilyikhama_religion$ $common_folk_religion_desc$"
+  },
+  "pabichu_religion": {
+    "name": "파비추",
+    "desc": "$pabichu_religion$ $common_folk_religion_desc$"
+  },
+  "mororuma_religion": {
+    "name": "모로루마",
+    "desc": "$mororuma_religion$ $common_folk_religion_desc$"
+  },
+  "pericu_religion": {
+    "name": "니파라야",
+    "desc": "$pericu_religion$ $common_folk_religion_desc$"
+  },
+  "yuman_religion": {
+    "name": "유만",
+    "desc": "$yuman_religion$ $common_folk_religion_desc$"
+  },
+  "cahita_religion": {
+    "name": "카이타",
+    "desc": "$cahita_religion$ $common_folk_religion_desc$"
+  },
+  "seri_religion": {
+    "name": "콤카크",
+    "desc": "$seri_religion$ $common_folk_religion_desc$"
+  },
+  "guasave_religion": {
+    "name": "과사베",
+    "desc": "$guasave_religion$ $common_folk_religion_desc$"
+  },
+  "tepehuan_religion": {
+    "name": "오다미",
+    "desc": "$tepehuan_religion$ $common_folk_religion_desc$"
+  },
+  "coahuilteco_religion": {
+    "name": "코아우일테코",
+    "desc": "$coahuilteco_religion$ $common_folk_religion_desc$"
+  },
+  "irritila_religion": {
+    "name": "이리틸라",
+    "desc": "$irritila_religion$ $common_folk_religion_desc$"
+  },
+  "karankawa_religion": {
+    "name": "카란카와",
+    "desc": "$karankawa_religion$ $common_folk_religion_desc$"
+  },
+  "atakapa_religion": {
+    "name": "아타카파",
+    "desc": "$atakapa_religion$ $common_folk_religion_desc$"
+  },
+  "kachina_religion": {
+    "name": "카치나",
+    "desc": "$kachina_religion$ $common_folk_religion_desc$"
+  },
+  "dongba_religion": {
+    "name": "동바교",
+    "desc": "$dongba_religion$ $common_folk_religion_desc$"
+  },
+  "bimoism": {
+    "name": "",
+    "desc": "$bimoism$ $common_folk_religion_desc$"
+  },
+  "ka_niam_khasi_religion": {
+    "name": "카 니암 카시",
+    "desc": "$ka_niam_khasi_religion$ $common_folk_religion_desc$"
+  },
+  "muong_religion": {
+    "name": "므엉",
+    "desc": "$muong_religion$ $common_folk_religion_desc$"
+  },
+  "sarna_religion": {
+    "name": "사르나교",
+    "desc": "$sarna_religion$ $common_folk_religion_desc$"
+  },
+  "ainu_religion": {
+    "name": "아이누",
+    "desc": "$ainu_religion$ $common_folk_religion_desc$"
+  },
+  "utaki_religion": {
+    "name": "우타키",
+    "desc": "$utaki_religion$ $common_folk_religion_desc$"
+  },
+  "koyapunem_religion": {
+    "name": "코야푸넴",
+    "desc": "$koyapunem_religion$ $common_folk_religion_desc$"
+  },
+  "bathou_religion": {
+    "name": "바투교",
+    "desc": "$bathou_religion$ $common_folk_religion_desc$"
+  },
+  "donyi_polo_religion": {
+    "name": "도니 폴로",
+    "desc": "$donyi_polo_religion$ $common_folk_religion_desc$"
+  },
+  "kirat_mundhum_religion": {
+    "name": "키라트 문둠",
+    "desc": "$kirat_mundhum_religion$ $common_folk_religion_desc$"
+  },
+  "mizo_religion": {
+    "name": "미조",
+    "desc": "$mizo_religion$ $common_folk_religion_desc$"
+  },
+  "gosain_religion": {
+    "name": "고사인",
+    "desc": "$gosain_religion$ $common_folk_religion_desc$"
+  },
+  "khond_religion": {
+    "name": "콘드",
+    "desc": "$khond_religion$ $common_folk_religion_desc$"
+  },
+  "wu_religion": {
+    "name": "무교",
+    "desc": "$wu_religion$ $common_folk_religion_desc$"
+  },
+  "yao_religion": {
+    "name": "야오",
+    "desc": "$yao_religion$ $common_folk_religion_desc$"
+  },
+  "nuo_religion": {
+    "name": "누오",
+    "desc": "$nuo_religion$ $common_folk_religion_desc$"
+  },
+  "vedda_religion": {
+    "name": "베다",
+    "desc": "$vedda_religion$ $common_folk_religion_desc$"
+  },
+  "kam_religion": {
+    "name": "캄",
+    "desc": "$kam_religion$ $common_folk_religion_desc$"
+  },
+  "formosan_religion": {
+    "name": "포르모사",
+    "desc": "$formosan_religion$ $common_folk_religion_desc$"
+  },
+  "mulam_religion": {
+    "name": "무라오",
+    "desc": "$mulam_religion$ $common_folk_religion_desc$"
+  },
+  "maonan_religion": {
+    "name": "마오난",
+    "desc": "$maonan_religion$ $common_folk_religion_desc$"
+  },
+  "sui_religion": {
+    "name": "수이",
+    "desc": "$sui_religion$ $common_folk_religion_desc$"
+  },
+  "lisu_religion": {
+    "name": "리수",
+    "desc": "$lisu_religion$ $common_folk_religion_desc$"
+  },
+  "ngacang_religion": {
+    "name": "아창",
+    "desc": "$ngacang_religion$ $common_folk_religion_desc$"
+  },
+  "blang_religion": {
+    "name": "부랑",
+    "desc": "$blang_religion$ $common_folk_religion_desc$"
+  },
+  "hani_religion": {
+    "name": "하니",
+    "desc": "$hani_religion$ $common_folk_religion_desc$"
+  },
+  "jino_religion": {
+    "name": "지눠",
+    "desc": "$jino_religion$ $common_folk_religion_desc$"
+  },
+  "lahu_religion": {
+    "name": "라후",
+    "desc": "$lahu_religion$ $common_folk_religion_desc$"
+  },
+  "nu_religion": {
+    "name": "누",
+    "desc": "$nu_religion$ $common_folk_religion_desc$"
+  },
+  "jingpo_religion": {
+    "name": "징포",
+    "desc": "$jingpo_religion$ $common_folk_religion_desc$"
+  },
+  "wa_religion": {
+    "name": "와",
+    "desc": "$wa_religion$ $common_folk_religion_desc$"
+  },
+  "monpa_religion": {
+    "name": "몬파",
+    "desc": "$monpa_religion$ $common_folk_religion_desc$"
+  },
+  "mishmi_religion": {
+    "name": "미슈미",
+    "desc": "$mishmi_religion$ $common_folk_religion_desc$"
+  },
+  "palaung_religion": {
+    "name": "팔라웅",
+    "desc": "$palaung_religion$ $common_folk_religion_desc$"
+  },
+  "kundism_religion": {
+    "name": "쿤디즘",
+    "desc": "$kundism_religion$ $common_folk_religion_desc$"
+  },
+  "songsarek_religion": {
+    "name": "송사레크",
+    "desc": "$songsarek_religion$ $common_folk_religion_desc$"
+  },
+  "tiwa_religion": {
+    "name": "티와",
+    "desc": "$tiwa_religion$ $common_folk_religion_desc$"
+  },
+  "koch_religion": {
+    "name": "코치",
+    "desc": "$koch_religion$ $common_folk_religion_desc$"
+  },
+  "rabha_religion": {
+    "name": "라바",
+    "desc": "$rabha_religion$ $common_folk_religion_desc$"
+  },
+  "chutia_religion": {
+    "name": "추티아",
+    "desc": "$chutia_religion$ $common_folk_religion_desc$"
+  },
+  "dimasa_religion": {
+    "name": "디마사",
+    "desc": "$dimasa_religion$ $common_folk_religion_desc$"
+  },
+  "karbi_religion": {
+    "name": "카르비",
+    "desc": "$karbi_religion$ $common_folk_religion_desc$"
+  },
+  "sora_religion": {
+    "name": "소라",
+    "desc": "$sora_religion$ $common_folk_religion_desc$"
+  },
+  "juang_religion": {
+    "name": "주앙",
+    "desc": "$juang_religion$ $common_folk_religion_desc$"
+  },
+  "kharia_religion": {
+    "name": "카리아",
+    "desc": "$kharia_religion$ $common_folk_religion_desc$"
+  },
+  "naga_religion": {
+    "name": "나가",
+    "desc": "$naga_religion$ $common_folk_religion_desc$"
+  },
+  "karen_religion": {
+    "name": "카렌",
+    "desc": "$karen_religion$ $common_folk_religion_desc$"
+  },
+  "sedang_religion": {
+    "name": "세당",
+    "desc": "$sedang_religion$ $common_folk_religion_desc$"
+  },
+  "bahnar_religion": {
+    "name": "바나",
+    "desc": "$bahnar_religion$ $common_folk_religion_desc$"
+  },
+  "bru_religion": {
+    "name": "브루",
+    "desc": "$bru_religion$ $common_folk_religion_desc$"
+  },
+  "orang_asli_religion": {
+    "name": "오랑 아슬리",
+    "desc": "$orang_asli_religion$ $common_folk_religion_desc$"
+  },
+  "andamanese_religion": {
+    "name": "안다만",
+    "desc": "$andamanese_religion$ $common_folk_religion_desc$"
+  },
+  "nicobarese_religion": {
+    "name": "니코바르",
+    "desc": "$nicobarese_religion$ $common_folk_religion_desc$"
+  },
+  "chukchi_shamanism": {
+    "name": "축치 샤머니즘",
+    "desc": "$chukchi_shamanism$ $common_folk_religion_desc$"
+  },
+  "hmongism": {
+    "name": "",
+    "desc": "$hmongism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
+  },
+  "moism": {
+    "name": "",
+    "desc": "$moism$ $common_folk_religion_desc$"
+  },
+  "rmaism": {
+    "name": "",
+    "desc": "$rmaism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
+  },
+  "shamanism": {
+    "name": "샤머니즘",
+    "desc": "영혼계와 교류하고 영혼이나 영적인 에너지를 사용해 실제 세계에 영향을 미칠 수 있는 인물인 샤먼을 중심으로 하는 여러 의식 및 신앙을 한데 묶어 일컫는 개념입니다. 정령, 신, 의식 등 구체적인 양상은 매우 다양하지만, 영적 세계와 물질세계의 상호 작용이라는 핵심 개념만은 모든 $shamanism_ADJ$ 의식에서 공통적으로 나타납니다."
+  },
+  "tengri": {
+    "name": "텡그리 신앙",
+    "desc": "$tengri$은 $turkic_group$ 및 $mongolian_group$ 민족의 $shamanism_ADJ$ 계열 종교로, 우주를 인격화한 하늘의 신인 $tengri_god_name$를 주신으로 모십니다. 하지만 유일신교는 아니며, 자연과 자연 안에 깃든 여러 신을 숭배하고 선조들을 기리는 등 다양한 신격을 포용합니다."
+  },
+  "tungusic_shamanism": {
+    "name": "퉁구스 샤머니즘",
+    "desc": "$tungusic_shamanism$ $common_folk_religion_desc$"
+  },
+  "yukaghir_shamanism": {
+    "name": "유카기르 샤머니즘",
+    "desc": "$yukaghir_shamanism$ $common_folk_religion_desc$"
+  },
+  "yupik_shamanism": {
+    "name": "유픽 샤머니즘",
+    "desc": "$yupik_shamanism$ $common_folk_religion_desc$"
+  },
+  "dreamtime_religion": {
+    "name": "주쿠르파",
+    "desc": "$dreamtime_religion$ $common_folk_religion_desc$"
+  },
+  "akinha_ekugu_religion": {
+    "name": "아킨하 에쿠구",
+    "desc": "$akinha_ekugu_religion$ $common_folk_religion_desc$"
+  },
+  "namandu_religion": {
+    "name": "나만두",
+    "desc": "$namandu_religion$ $common_folk_religion_desc$"
+  },
+  "tunpa_religion": {
+    "name": "툰파",
+    "desc": "$tunpa_religion$ $common_folk_religion_desc$"
+  },
+  "doi_wahire_religion": {
+    "name": "도이 와히레",
+    "desc": "$doi_wahire_religion$ $common_folk_religion_desc$"
+  },
+  "jurema_religion": {
+    "name": "주레마",
+    "desc": "$jurema_religion$ $common_folk_religion_desc$"
+  },
+  "nallagdigua_religion": {
+    "name": "날라그디구아",
+    "desc": "$nallagdigua_religion$ $common_folk_religion_desc$"
+  },
+  "txapakura_religion": {
+    "name": "차파쿠라",
+    "desc": "$txapakura_religion$ $common_folk_religion_desc$"
+  },
+  "zemi_religion": {
+    "name": "제미",
+    "desc": "$zemi_religion$ $common_folk_religion_desc$"
+  },
+  "lenca_religion": {
+    "name": "렌카",
+    "desc": "$lenca_religion$ $common_folk_religion_desc$"
+  },
+  "pech_religion": {
+    "name": "무아 무아",
+    "desc": "$pech_religion$ $common_folk_religion_desc$"
+  },
+  "wan_aisa_religion": {
+    "name": "완 아이사",
+    "desc": "$wan_aisa_religion$ $common_folk_religion_desc$"
+  },
+  "maleku_religion": {
+    "name": "말레쿠",
+    "desc": "$maleku_religion$ $common_folk_religion_desc$"
+  },
+  "suwo_religion": {
+    "name": "수오",
+    "desc": "$suwo_religion$ $common_folk_religion_desc$"
+  },
+  "chibcha_religion": {
+    "name": "치브차",
+    "desc": "$chibcha_religion$ $common_folk_religion_desc$"
+  },
+  "votian_religion": {
+    "name": "보트",
+    "desc": "$votian_religion$ $common_folk_religion_desc$"
+  },
+  "hellenism_religion": {
+    "name": "헬레니즘",
+    "desc": "$hellenism_religion$ $common_folk_religion_desc$"
+  },
+  "karachay_balkar_paganism": {
+    "name": "카라차이-발카르 이교",
+    "desc": "$karachay_balkar_paganism$ $common_folk_religion_desc$"
+  },
+  "khabzeism": {
+    "name": "",
+    "desc": "$khabzeism$ $common_folk_religion_desc$"
+  },
+  "lezgin_paganism": {
+    "name": "레즈긴 이교",
+    "desc": "$lezgin_paganism$ $common_folk_religion_desc$"
+  },
+  "norse": {
+    "name": "북유럽 이교",
+    "desc": "$scandinavian_region$의 $germanic_language_family$에 속하는 고대 종교로, 유명한 오딘과 토르를 포함해 애시르 신족과 바니르 신족에 속한 여러 신들을 숭배합니다. 우주가 세계수인 이그드라실 안에 존재하는 아홉 개의 영역으로 이루어졌다고 하며, 그중 인간은 미드가르드라 불리는 영역에 거주한다고 여겨집니다."
+  },
+  "alan_paganism": {
+    "name": "알란 이교",
+    "desc": "$alan_paganism$ $common_folk_religion_desc$"
+  },
+  "romuva": {
+    "name": "로무바",
+    "desc": "$lithuanian_group$ 민족의 전통 종교로, 다양한 신을 모시는 한편 자연과 조상을 숭배하기도 합니다. 제단에 불을 피우고 의례용 찬송가인 '다이노'를 부르며 의식을 진행합니다."
+  },
+  "sapmi_shamanism": {
+    "name": "사미 샤머니즘",
+    "desc": "$sapmi$ 민족의 전통 종교로, 망자를 기리는 한편 다양한 자연과 동물에 깃들어 있는 정령의 개념 또한 존재합니다. 순록과 곰 같은 일부 동물의 경우 특별한 경배의 대상이 되기도 합니다."
+  },
+  "muinaisusko": {
+    "name": "뮈나이수스코",
+    "desc": "핀란드 민족의 전통 신앙으로, 하늘의 신이자 천둥의 신인 우코를 중심으로 한 다신교입니다. 망자 숭배나 샤머니즘적 관습도 포용하고 있으며, 주변 지역의 다른 종교들과 몇몇 특징을 공유합니다."
+  },
+  "vainakh_paganism": {
+    "name": "바이나흐 이교",
+    "desc": "$vainakh_paganism$ $common_folk_religion_desc$"
+  },
+  "mari_paganism": {
+    "name": "치마리 율라",
+    "desc": "$mari_paganism$ $common_folk_religion_desc$"
+  },
+  "udmurt_paganism": {
+    "name": "인마르 신앙",
+    "desc": "$udmurt_paganism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
+  },
+  "komi_paganism": {
+    "name": "바제스쾸",
+    "desc": "$komi_paganism$ $common_folk_religion_desc$"
+  },
+  "samoyedic_paganism": {
+    "name": "사모예드 샤머니즘",
+    "desc": "$samoyedic_paganism$ $common_folk_religion_desc$"
+  },
+  "obian_paganism": {
+    "name": "오비 샤머니즘",
+    "desc": "$obian_paganism$ $common_folk_religion_desc$"
+  },
+  "arosi_religion": {
+    "name": "아로시",
+    "desc": "$arosi_religion$ $common_folk_religion_desc$"
+  },
+  "abu_religion": {
+    "name": "콰이오",
+    "desc": "$abu_religion$ $common_folk_religion_desc$"
+  },
+  "ghari_religion": {
+    "name": "가리",
+    "desc": "$ghari_religion$ $common_folk_religion_desc$"
+  },
+  "nduke_religion": {
+    "name": "은두케",
+    "desc": "$nduke_religion$ $common_folk_religion_desc$"
+  },
+  "cheke_holo_religion": {
+    "name": "체케 홀로",
+    "desc": "$cheke_holo_religion$ $common_folk_religion_desc$"
+  },
+  "vaghua_religion": {
+    "name": "바구아",
+    "desc": "$vaghua_religion$ $common_folk_religion_desc$"
+  },
+  "mu_ngava_religion": {
+    "name": "무 응가바",
+    "desc": "$mu_ngava_religion$ $common_folk_religion_desc$"
+  },
+  "natugu_religion": {
+    "name": "나투구",
+    "desc": "$natugu_religion$ $common_folk_religion_desc$"
+  },
+  "qat_religion": {
+    "name": "카트",
+    "desc": "$qat_religion$ $common_folk_religion_desc$"
+  },
+  "itaukei_religion": {
+    "name": "이타우케이",
+    "desc": "$itaukei_religion$ $common_folk_religion_desc$"
+  },
+  "kanak_religion": {
+    "name": "카나크",
+    "desc": "$kanak_religion$ $common_folk_religion_desc$"
+  },
+  "puntan_religion": {
+    "name": "푼탄",
+    "desc": "$puntan_religion$ $common_folk_religion_desc$"
+  },
+  "kajoor_ri_majel_religion": {
+    "name": "마셜",
+    "desc": "$kajoor_ri_majel_religion$ $common_folk_religion_desc$"
+  },
+  "yanolop_religion": {
+    "name": "야놀로프",
+    "desc": "$yanolop_religion$ $common_folk_religion_desc$"
+  },
+  "inuit_religion": {
+    "name": "이누이트",
+    "desc": "$inuit_religion$ $common_folk_religion_desc$"
+  },
+  "dene_religion": {
+    "name": "데네",
+    "desc": "$dene_religion$ $common_folk_religion_desc$"
+  },
+  "midewiwin_religion": {
+    "name": "",
+    "desc": "$midewiwin_religion$ $common_folk_religion_desc$"
+  },
+  "dene_shamanism": {
+    "name": "",
+    "desc": "$dene_shamanism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
+  },
+  "dene_totemism": {
+    "name": "데네 토테미즘",
+    "desc": "$dene_totemism$ $common_folk_religion_desc$"
+  },
+  "great_plains_shamanism": {
+    "name": "",
+    "desc": "$great_plains_shamanism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
+  },
+  "iroquoian_totemism": {
+    "name": "",
+    "desc": "$iroquoian_totemism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
+  },
+  "mississippian_ceremonial": {
+    "name": "",
+    "desc": "$mississippian_ceremonial$ $common_folk_religion_desc$"
+  },
+  "paiute_shamanism": {
+    "name": "",
+    "desc": "$paiute_shamanism$ $common_folk_religion_desc$"
+  },
+  "pomo_shamanism": {
+    "name": "사미 샤머니즘",
+    "desc": "$pomo_shamanism$ $common_folk_religion_desc$"
+  },
+  "salishan_totemism": {
+    "name": "살리시 토테미즘",
+    "desc": "$salishan_totemism$ $common_folk_religion_desc$"
+  },
+  "totemism": {
+    "name": "토테미즘",
+    "desc": "$totemism$ $common_folk_religion_desc$"
+  },
+  "imunu_religion": {
+    "name": "이무누",
+    "desc": "$imunu_religion$ $common_folk_religion_desc$"
+  },
+  "moksha_religion": {
+    "name": "슈카이",
+    "desc": "$moksha_religion$ $common_folk_religion_desc$"
+  },
+  "erzya_religion": {
+    "name": "파존 코이",
+    "desc": "$erzya_religion$ $common_folk_religion_desc$"
+  },
+  "inti": {
+    "name": "인티",
+    "desc": "$inti_god$는 $viracocha$와 함께 $andes_region$ 민족을 인도하고 보호하는 주신입니다."
+  },
+  "naylamp_religion": {
+    "name": "나일람프",
+    "desc": "$naylamp_religion$ $common_folk_religion_desc$"
+  },
+  "umina_religion": {
+    "name": "우미냐",
+    "desc": "$umina_religion$ $common_folk_religion_desc$"
+  },
+  "jama_religion": {
+    "name": "하마",
+    "desc": "$jama_religion$ $common_folk_religion_desc$"
+  },
+  "pi_religion": {
+    "name": "파이",
+    "desc": "$pi_religion$ $common_folk_religion_desc$"
+  },
+  "arutam_religion": {
+    "name": "아루탐",
+    "desc": "$arutam_religion$ $common_folk_religion_desc$"
+  },
+  "chango_religion": {
+    "name": "샹고",
+    "desc": "$chango_religion$ $common_folk_religion_desc$"
+  },
+  "cebil_religion": {
+    "name": "세빌",
+    "desc": "$cebil_religion$ $common_folk_religion_desc$"
+  },
+  "yastay_religion": {
+    "name": "야스타이",
+    "desc": "$yastay_religion$ $common_folk_religion_desc$"
+  },
+  "gos_religion": {
+    "name": "고스",
+    "desc": "$gos_religion$ $common_folk_religion_desc$"
+  },
+  "pava_religion": {
+    "name": "파바",
+    "desc": "$pava_religion$ $common_folk_religion_desc$"
+  },
+  "chanka_religion": {
+    "name": "창카",
+    "desc": "$chanka_religion$ $common_folk_religion_desc$"
+  },
+  "chincha_religion": {
+    "name": "친차",
+    "desc": "$chincha_religion$ $common_folk_religion_desc$"
+  },
+  "tapu_religion": {
+    "name": "타푸",
+    "desc": "$tapu_religion$ $common_folk_religion_desc$"
+  },
+  "tokelauan_religion": {
+    "name": "토케라우",
+    "desc": "$tokelauan_religion$ $common_folk_religion_desc$"
+  },
+  "kaharingan_religion": {
+    "name": "카하링안",
+    "desc": "$kaharingan_religion$ $common_folk_religion_desc$"
+  },
+  "kan_khwan_religion": {
+    "name": "깐 콴",
+    "desc": "$kan_khwan_religion$ $common_folk_religion_desc$"
+  },
+  "adat_puun_religion": {
+    "name": "아닷 푸운",
+    "desc": "$adat_puun_religion$ $common_folk_religion_desc$"
+  },
+  "momolianism_religion": {
+    "name": "모몰리아니즘",
+    "desc": "$momolianism_religion$ $common_folk_religion_desc$"
+  },
+  "besavik_religion": {
+    "name": "베사비크",
+    "desc": "$besavik_religion$ $common_folk_religion_desc$"
+  },
+  "aluk_religion": {
+    "name": "알루크",
+    "desc": "$aluk_religion$ $common_folk_religion_desc$"
+  },
+  "malesung_religion": {
+    "name": "말레숭",
+    "desc": "$malesung_religion$ $common_folk_religion_desc$"
+  },
+  "marapu_religion": {
+    "name": "마라푸",
+    "desc": "$marapu_religion$ $common_folk_religion_desc$"
+  },
+  "arat_sabulungan_religion": {
+    "name": "아라트 사불룽안",
+    "desc": "$arat_sabulungan_religion$ $common_folk_religion_desc$"
+  },
+  "pengarap_asal_religion": {
+    "name": "펭아라프 아살",
+    "desc": "$pengarap_asal_religion$ $common_folk_religion_desc$"
+  },
+  "ipok_religion": {
+    "name": "이포크",
+    "desc": "$ipok_religion$ $common_folk_religion_desc$"
+  },
+  "banunut_religion": {
+    "name": "바누넛",
+    "desc": "$banunut_religion$ $common_folk_religion_desc$"
+  },
+  "lamoa_religion": {
+    "name": "라모아",
+    "desc": "$lamoa_religion$ $common_folk_religion_desc$"
+  },
+  "tolotang_religion": {
+    "name": "톨로탕",
+    "desc": "$tolotang_religion$ $common_folk_religion_desc$"
+  },
+  "tolaki_religion": {
+    "name": "톨라키",
+    "desc": "$tolaki_religion$ $common_folk_religion_desc$"
+  },
+  "buton_religion": {
+    "name": "부톤",
+    "desc": "$buton_religion$ $common_folk_religion_desc$"
+  },
+  "tomanuru_religion": {
+    "name": "토마누루",
+    "desc": "$tomanuru_religion$ $common_folk_religion_desc$"
+  },
+  "gorontalo_religion": {
+    "name": "고론탈로",
+    "desc": "$gorontalo_religion$ $common_folk_religion_desc$"
+  },
+  "adat_musi_religion": {
+    "name": "아닷 무시",
+    "desc": "$adat_musi_religion$ $common_folk_religion_desc$"
+  },
+  "sangirese_religion": {
+    "name": "상이헤",
+    "desc": "$sangirese_religion$ $common_folk_religion_desc$"
+  },
+  "wetarese_religion": {
+    "name": "웨타르",
+    "desc": "$wetarese_religion$ $common_folk_religion_desc$"
+  },
+  "kirin_koda_religion": {
+    "name": "키린 코다",
+    "desc": "$kirin_koda_religion$ $common_folk_religion_desc$"
+  },
+  "dua_nggae_religion": {
+    "name": "두아 은가에",
+    "desc": "$dua_nggae_religion$ $common_folk_religion_desc$"
+  },
+  "lamatuan_religion": {
+    "name": "라마투안",
+    "desc": "$lamatuan_religion$ $common_folk_religion_desc$"
+  },
+  "naurus_religion": {
+    "name": "나우루스",
+    "desc": "$naurus_religion$ $common_folk_religion_desc$"
+  },
+  "mitu_religion": {
+    "name": "미투",
+    "desc": "$mitu_religion$ $common_folk_religion_desc$"
+  },
+  "sula_religion": {
+    "name": "술라",
+    "desc": "$sula_religion$ $common_folk_religion_desc$"
+  },
+  "kolano_religion": {
+    "name": "콜라노",
+    "desc": "$kolano_religion$ $common_folk_religion_desc$"
+  },
+  "goma_religion": {
+    "name": "고마",
+    "desc": "$goma_religion$ $common_folk_religion_desc$"
+  },
+  "anitism_religion": {
+    "name": "아니토",
+    "desc": "$anitism_religion$ $common_folk_religion_desc$"
+  },
+  "orang_laut_religion": {
+    "name": "오랑 라우트",
+    "desc": "$orang_laut_religion$ $common_folk_religion_desc$"
+  },
+  "minangkabau_religion": {
+    "name": "미낭카바우",
+    "desc": "$minangkabau_religion$ $common_folk_religion_desc$"
+  },
+  "pelebegu_religion": {
+    "name": "페레베구",
+    "desc": "$pelebegu_religion$ $common_folk_religion_desc$"
+  },
+  "nyang_serai_religion": {
+    "name": "니앙 세라이",
+    "desc": "$nyang_serai_religion$ $common_folk_religion_desc$"
+  },
+  "piil_pesenggiri_religion": {
+    "name": "필 페셍기리",
+    "desc": "$piil_pesenggiri_religion$ $common_folk_religion_desc$"
+  },
+  "orang_rimba_religion": {
+    "name": "오랑 림바",
+    "desc": "$orang_rimba_religion$ $common_folk_religion_desc$"
+  },
+  "enggano_religion": {
+    "name": "엥가노",
+    "desc": "$enggano_religion$ $common_folk_religion_desc$"
+  },
+  "degar_religion": {
+    "name": "데가",
+    "desc": "$degar_religion$ $common_folk_religion_desc$"
+  },
+  "sanamahism": {
+    "name": "",
+    "desc": "$sanamahism$ $common_folk_religion_desc$"
+  },
+  "satsana_phi": {
+    "name": "",
+    "desc": "$satsana_phi$ $common_folk_religion_desc$"
+  },
+  "maleiwa_religion": {
+    "name": "말레이와",
+    "desc": "$maleiwa_religion$ $common_folk_religion_desc$"
+  },
+  "yopo_religion": {
+    "name": "요포",
+    "desc": "$yopo_religion$ $common_folk_religion_desc$"
+  },
+  "sinu_religion": {
+    "name": "시누",
+    "desc": "$sinu_religion$ $common_folk_religion_desc$"
+  },
+  "warao_religion": {
+    "name": "와라오",
+    "desc": "$warao_religion$ $common_folk_religion_desc$"
+  },
+  "naoma_religion": {
+    "name": "나오마",
+    "desc": "$naoma_religion$ $common_folk_religion_desc$"
+  },
+  "muisca_religion": {
+    "name": "보지츠 이에",
+    "desc": "$muisca_religion$ $common_folk_religion_desc$"
+  },
+  "nacuco_religion": {
+    "name": "나쿠코",
+    "desc": "$nacuco_religion$ $common_folk_religion_desc$"
+  },
+  "jai_religion": {
+    "name": "자이",
+    "desc": "$jai_religion$ $common_folk_religion_desc$"
+  },
+  "yage_religion": {
+    "name": "야게",
+    "desc": "$yage_religion$ $common_folk_religion_desc$"
+  },
+  "judaism": {
+    "name": "유대교",
+    "desc": "원조 아브라함 계통 종교라고 부를 수 있는 $judaism$는 하느님과 모세 사이의 언약을 굳게 따르는 종교입니다. $judaism_ADJ$는 '타나크'라는 히브리 성경을 경전으로 사용하는데, 그중 첫 다섯 권인 토라(모세오경)는 모든 $judaism_ADJ$ 신앙과 실천의 기초를 이룹니다."
+  },
+  "samaritanism": {
+    "name": "사마리아교",
+    "desc": "$samaritan_culture$의 전통 종교로, 이스라엘 왕국의 멸망 후 $judaism$에서 갈라져 나왔습니다. $samaritanism$ 신도들은 $judaism$의 경전은 변질된 것이라고 여기며, 자신들이야말로 $israelite_group$ 민족의 신앙을 모세 시대부터 한 치의 변화 없이 수호해 왔다고 주장합니다."
+  },
+  "mandeaism": {
+    "name": "만다야교",
+    "desc": "세례 요한을 마지막 선지자로 여기는 영지주의 종교인 $mandeaism$에는 $greek_culture$와 $iranian_group$의 영향도 다소 남아 있습니다. 다른 아브라함 계통 종교의 선지자도 일부 인정하지만, 아브라함, 모세, 예수는 $mandeaism_ADJ$의 선지자로 여겨지지 않습니다. $mandeaism_ADJ$는 우주에 깃든 창조의 힘을 나타낸 존재인 $mandeaism_god_name$를 신으로 섬기는데, 이 이름에는 '위대한 생명'이라는 의미가 담겨 있습니다."
+  },
+  "manichaeism": {
+    "name": "마니교",
+    "desc": "$manichaeism$는 선지자 마니가 사산 제국에서 창시한 $iranian_group$ 종교입니다. 영지주의, $zoroastrian$, $christian$, $buddhist$ 등 다양한 종교의 영향을 받았으나, 마니를 조로아스터, 부처, 예수를 잇는 마지막 선지자로 여깁니다. 이원론적 신학을 주장하며, 우주를 빛과 어둠 사이의 영적 투쟁으로 설명합니다."
+  },
+  "ibadi": {
+    "name": "이바디파",
+    "desc": "$ibadi_school_desc$"
+  },
+  "shia": {
+    "name": "시아파",
+    "desc": "$shia_ADJ$ 신앙의 기저에는 선지자 무함마드가 알리 이븐 아비 탈리브를 $muslim$ 세계의 영적, 정치적 지도자가 될 후계자로 점지했다는 믿음이 깔려 있습니다. 따라서 $shia_ADJ$에 의하면 $imamate$은 아부 바크르가 사키파에서 무함마드의 동료들에 의해 $rank_empire_muslim_ruler_male$로 선출되었을 당시 정립된 계보가 아니라 알리의 계보를 따라야 합니다."
+  },
+  "sunni": {
+    "name": "수니파",
+    "desc": "$sunni$는 선지자 무함마드는 스스로 후계자를 점지한 바가 없다고 주장합니다. 이들의 입장에 따르면 아부 바크르는 사키파에서 무함마드의 동료들에 의해 $rank_empire_muslim_ruler_male$로 선출되었으니 무함마드로부터 $muslim$ 지도자의 지위를 물려받은 것이나 마찬가지라고 합니다. 따라서 $sunni$는 무함마드의 뒤를 이은 네 명의 $rank_empire_muslim_ruler_male$인 알라시둔을 통치자의 모범으로 숭상합니다."
+  },
+  "nahuatl": {
+    "name": "나와족 의식",
+    "desc": "최고신인 오메테오틀 아래에 여러 신, 다시 말해 $nahuatl_god_name$이 체계를 이루고 있는 $nahua_group$ 종교입니다. $huitzilopochtli_god$, $tlaloc_god$, $quetzalcoatl_god$ 등 많은 신을 계층이나 민족의 수호자로서 받들어 모십니다. 이 종교의 핵심 의식은 바로 인신 공양으로, 신들을 기리는 동시에 신들의 총애를 잃지 않기 위해 행해집니다."
+  },
+  "mesoamerican": {
+    "name": "토날",
+    "desc": "$mesoamerican$ $common_folk_religion_desc$"
+  },
+  "mayan": {
+    "name": "마야 의식",
+    "desc": "$mayan$ $common_folk_religion_desc$"
+  },
+  "chichimecah_religion": {
+    "name": "치치멕",
+    "desc": "$chichimecah_religion$ $common_folk_religion_desc$"
+  },
+  "yazidism": {
+    "name": "야지디교",
+    "desc": "$iranian_group$ 전통에서 유래한 종교로, $judaism$, $christian$, $muslim$의 요소도 일부 포함되어 있습니다. 유일신이 우주를 창조한 뒤 공작의 모습으로 현신한 천사인 '타우셰 멜렉'을 두어 다스리게 했다고 믿습니다. 신비주의적 요소를 포함해 다른 종교에서 많은 영향을 받았지만, 그 핵심만큼은 고대 $iranian_group$ 종교에 굳건히 뿌리내리고 있습니다."
+  },
+  "zoroastrian": {
+    "name": "조로아스터교",
+    "desc": "자라투스트라라고도 불리는 조로아스터의 가르침을 따르는 고대 $iranian_group$의 종교로, 아베스타를 경전으로 삼습니다. 선과 악이라는 이원론적 우주론을 바탕으로 하며, 창조신 아후라 마즈다와 파괴의 악신인 앙그라 마이뉴가 벌이는 영원한 싸움과 끝끝내 찾아올 악에 맞선 선의 궁극적 승리를 예언합니다."
+  },
+  "folk_melanesian_group": {
+    "name": "멜라네시아 민속 종교"
+  },
+  "folk_brazilian_group": {
+    "name": "브라질 민속 종교"
+  },
+  "folk_papuan_group": {
+    "name": "파푸아 민속 종교"
+  },
+  "folk_se_asian_group": {
+    "name": "동남아시아 민속 종교"
+  },
+  "yazidi_group": {
+    "name": "야지디교"
+  },
+  "folk_african_group": {
+    "name": "아프리카 민속 종교"
+  },
+  "folk_north_american_group": {
+    "name": "북아메리카 민속 종교"
+  },
+  "israelite_group": {
+    "name": "이스라엘"
+  },
+  "dharmic": {
+    "name": "다르마"
+  },
+  "buddhist": {
+    "name": "불교"
+  },
+  "manichaean_group": {
+    "name": "마니교"
+  },
+  "folk_argentinian_group": {
+    "name": "아르헨티나 민속 종교"
+  },
+  "folk_micronesian_group": {
+    "name": "미크로네시아 민속 종교"
+  },
+  "folk_caribbean_group": {
+    "name": "카리브해 민속 종교"
+  },
+  "folk_central_american_group": {
+    "name": "중앙아메리카 민속 종교"
+  },
+  "folk_south_american_group": {
+    "name": "남아메리카 민속 종교"
+  },
+  "zoroastrian_group": {
+    "name": "조로아스터교"
+  },
+  "folk_polynesian_group": {
+    "name": "폴리네시아 민속 종교"
+  },
+  "christian": {
+    "name": "기독교"
+  },
+  "folk_aridoamerica_group": {
+    "name": "아리도아메리카 민속 종교"
+  },
+  "muslim": {
+    "name": "이슬람"
+  },
+  "tonal_group": {
+    "name": "토날 종교"
+  },
+  "folk_european_group": {
+    "name": "유럽 민속 종교"
+  },
+  "folk_peruvian_group": {
+    "name": "안데스 민속 종교"
+  },
+  "folk_permic_group": {
+    "name": "페름 민속 종교"
+  },
+  "mandean_group": {
+    "name": "만다야교"
+  },
+  "druze_group": {
+    "name": "드루즈"
+  },
+  "folk_asian_group": {
+    "name": "아시아 민속 종교"
+  },
+  "folk_australian_group": {
+    "name": "호주 민속 종교"
+  }
+}

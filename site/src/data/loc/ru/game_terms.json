@@ -1,0 +1,23 @@
+{
+  "pop.nobles": "Аристократы",
+  "pop.clergy": "Священники",
+  "pop.burghers": "Горожане",
+  "pop.laborers": "Рабочие",
+  "pop.soldiers": "Солдаты",
+  "pop.peasants": "Крестьяне",
+  "pop.slaves": "Рабы",
+  "pop.tribesmen": "Соплеменники",
+  "pop.upper": "Высшее общество",
+  "goods.cat.raw_material": "Ресурсы",
+  "goods.cat.produced": "Производимые товары",
+  "goods.cat.food": "Пища",
+  "goods.method.farming": "Фермерство",
+  "goods.method.mining": "Горные работы",
+  "goods.method.gathering": "Собирательство",
+  "goods.method.hunting": "Охота",
+  "goods.method.forestry": "Заготовка леса",
+  "goods.origin.old_world": "Товары Старого Света",
+  "goods.origin.new_world": "Товары Нового Света",
+  "field.demand": "Спрос",
+  "field.base_production": "Базовое производство"
+}

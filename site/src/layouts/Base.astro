@@ -1,13 +1,27 @@
 ---
+import { type Lang, DEFAULT_LANG, LANG_CODES, getHreflang, localePath } from "../i18n/config";
+import { t } from "../i18n/ui";
+import LangSwitcher from "../components/LangSwitcher.astro";
+
 interface Props {
+  lang: Lang;
   title: string;
+  description?: string;
+  /** Path portion after /{lang}/eu5 — e.g. "/goods/horses/" */
+  canonicalPath?: string;
   wide?: boolean;
+  /** If true, use title as-is without appending the suffix */
+  fullTitle?: boolean;
 }
 
-const { title, wide = false } = Astro.props;
+const { lang, title, description, canonicalPath, wide = false, fullTitle: isFullTitle = false } = Astro.props;
+const siteUrl = Astro.site?.origin ?? '';
+const fullTitle = isFullTitle ? title : `${title} | ${t(lang, 'meta.title_suffix')}`;
+const metaDesc = description ?? t(lang, 'site.description');
+const canonical = canonicalPath ? `${siteUrl}${localePath(lang, canonicalPath)}` : undefined;
 ---
 
-<html lang="ja">
+<html lang={getHreflang(lang)}>
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -17,7 +31,15 @@ const { title, wide = false } = Astro.props;
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <title>{title} | EU5 攻略DB</title>
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDesc} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    {canonicalPath && LANG_CODES.map((l) => (
+      <link rel="alternate" hreflang={getHreflang(l)} href={`${siteUrl}${localePath(l, canonicalPath)}`} />
+    ))}
+    {canonicalPath && (
+      <link rel="alternate" hreflang="x-default" href={`${siteUrl}${localePath(DEFAULT_LANG, canonicalPath)}`} />
+    )}
     <style is:global>
       :root {
         /* Surface */
@@ -89,11 +111,12 @@ const { title, wide = false } = Astro.props;
   <body>
     <header>
       <nav>
-        <a href="/" class="site-title">EU5 攻略DB</a>
+        <a href={localePath(lang)} class="site-title">{t(lang, 'site.title')}</a>
         <ul>
-          <li><a href="/goods/">交易品</a></li>
-          <li><a href="/buildings/">建物</a></li>
+          <li><a href={localePath(lang, '/goods/')}>{t(lang, 'nav.goods')}</a></li>
+          <li><a href={localePath(lang, '/buildings/')}>{t(lang, 'nav.buildings')}</a></li>
         </ul>
+        <LangSwitcher lang={lang} currentPath={canonicalPath} />
       </nav>
     </header>
     <main class={wide ? "wide" : ""}>
@@ -101,7 +124,7 @@ const { title, wide = false } = Astro.props;
     </main>
     <footer>
       <div class="footer-inner">
-        <p>EU5 攻略DB &mdash; Fan-made guide for Europa Universalis V</p>
+        <p>{t(lang, 'footer.tagline')}</p>
       </div>
     </footer>
     <style>

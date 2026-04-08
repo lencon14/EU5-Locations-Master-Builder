@@ -1,0 +1,22 @@
+{
+  "pop.nobles": "Nobles",
+  "pop.clergy": "Clerics",
+  "pop.burghers": "Burghers",
+  "pop.laborers": "Laborers",
+  "pop.soldiers": "Soldiers",
+  "pop.peasants": "Peasants",
+  "pop.slaves": "Slaves",
+  "pop.tribesmen": "Tribesmen",
+  "pop.upper": "Upper Class",
+  "goods.cat.raw_material": "Raw Material",
+  "goods.cat.produced": "Produced Goods",
+  "goods.cat.food": "Food",
+  "goods.method.farming": "Farming",
+  "goods.method.mining": "Mining",
+  "goods.method.gathering": "Gathering",
+  "goods.method.hunting": "Hunting",
+  "goods.method.forestry": "Logging",
+  "goods.origin.old_world": "Old World Goods",
+  "goods.origin.new_world": "New World Goods",
+  "field.base_production": "Base Production"
+}

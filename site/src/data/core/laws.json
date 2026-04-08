@@ -1,0 +1,957 @@
+[
+  {
+    "id": "feudal_de_jure_law",
+    "icon": "icons/laws/feudal_de_jure_law.png",
+    "source_file": "00_monarchy.txt"
+  },
+  {
+    "id": "medieval_levy_law",
+    "icon": "icons/laws/medieval_levy_law.png",
+    "source_file": "00_monarchy.txt"
+  },
+  {
+    "id": "royal_court_customs_law",
+    "icon": "icons/laws/royal_court_customs_law.png",
+    "source_file": "00_monarchy.txt"
+  },
+  {
+    "id": "legitimization_of_power_law",
+    "icon": "icons/laws/legitimization_of_power_law.png",
+    "source_file": "00_monarchy.txt"
+  },
+  {
+    "id": "harem_law",
+    "icon": "icons/laws/harem_law.png",
+    "source_file": "00_monarchy.txt"
+  },
+  {
+    "id": "iqta_law",
+    "icon": "icons/laws/iqta_law.png",
+    "source_file": "00_religious.txt"
+  },
+  {
+    "id": "inquisition_law",
+    "icon": "icons/laws/inquisition_law.png",
+    "source_file": "00_religious.txt"
+  },
+  {
+    "id": "society_of_jesus",
+    "icon": "icons/laws/society_of_jesus.png",
+    "source_file": "00_religious.txt"
+  },
+  {
+    "id": "patriarchate_law",
+    "icon": "icons/laws/patriarchate_law.png",
+    "source_file": "00_religious.txt"
+  },
+  {
+    "id": "censorship",
+    "icon": "icons/laws/censorship.png",
+    "source_file": "00_religious.txt"
+  },
+  {
+    "id": "slave_conversion",
+    "icon": "icons/laws/slave_conversion.png",
+    "source_file": "00_religious.txt"
+  },
+  {
+    "id": "republican_foundation_law",
+    "icon": "icons/laws/republican_foundation_law.png",
+    "source_file": "00_republic.txt"
+  },
+  {
+    "id": "republican_election_law",
+    "icon": "icons/laws/republican_election_law.png",
+    "source_file": "00_republic.txt"
+  },
+  {
+    "id": "republican_power_law",
+    "icon": "icons/laws/republican_power_law.png",
+    "source_file": "00_republic.txt"
+  },
+  {
+    "id": "principle_of_administration_law",
+    "icon": "icons/laws/principle_of_administration_law.png",
+    "source_file": "00_republic.txt"
+  },
+  {
+    "id": "republican_electorate_law",
+    "icon": "icons/laws/republican_electorate_law.png",
+    "source_file": "00_republic.txt"
+  },
+  {
+    "id": "theocratic_leadership",
+    "icon": "icons/laws/theocratic_leadership.png",
+    "source_file": "00_theocracies.txt"
+  },
+  {
+    "id": "holy_mission_law",
+    "icon": "icons/laws/holy_mission_law.png",
+    "source_file": "00_theocracies.txt"
+  },
+  {
+    "id": "nature_of_our_faith_law",
+    "icon": "icons/laws/nature_of_our_faith_law.png",
+    "source_file": "00_theocracies.txt"
+  },
+  {
+    "id": "divine_cause_law",
+    "icon": "icons/laws/divine_cause_law.png",
+    "source_file": "00_theocracies.txt"
+  },
+  {
+    "id": "tribal_legal_basis_law",
+    "icon": "icons/laws/tribal_legal_basis_law.png",
+    "source_file": "00_tribes.txt"
+  },
+  {
+    "id": "tribal_organization_law",
+    "icon": "icons/laws/tribal_organization_law.png",
+    "source_file": "00_tribes.txt"
+  },
+  {
+    "id": "tribal_religious_values_law",
+    "icon": "icons/laws/tribal_religious_values_law.png",
+    "source_file": "00_tribes.txt"
+  },
+  {
+    "id": "tribal_migration_law",
+    "icon": "icons/laws/tribal_migration_law.png",
+    "source_file": "00_tribes.txt"
+  },
+  {
+    "id": "tribal_cultural_identity_law",
+    "icon": "icons/laws/tribal_cultural_identity_law.png",
+    "source_file": "00_tribes.txt"
+  },
+  {
+    "id": "tribal_modernization_law",
+    "icon": "icons/laws/tribal_modernization_law.png",
+    "source_file": "00_tribes.txt"
+  },
+  {
+    "id": "education_elites_law",
+    "icon": "icons/laws/education_elites_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "education_masses_law",
+    "icon": "icons/laws/education_masses_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "slavery_laws",
+    "icon": "icons/laws/slavery_laws.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "colonial_policy",
+    "icon": "icons/laws/colonial_policy.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "native_policy",
+    "icon": "icons/laws/native_policy.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "administrative_system",
+    "icon": "icons/laws/administrative_system.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "intelligence_agency",
+    "icon": "icons/laws/intelligence_agency.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "bureaucracy_law",
+    "icon": "icons/laws/bureaucracy_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "cabinet_laws",
+    "icon": "icons/laws/cabinet_laws.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "economical_policies_law",
+    "icon": "icons/laws/economical_policies_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "cultural_traditions_law",
+    "icon": "icons/laws/cultural_traditions_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "foreign_cultural_law",
+    "icon": "icons/laws/foreign_cultural_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "marriage_law",
+    "icon": "icons/laws/marriage_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "heir_religion_law",
+    "icon": "icons/laws/heir_religion_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "coin_laws",
+    "icon": "icons/laws/coin_laws.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "precious_metal_distribution_law",
+    "icon": "icons/laws/precious_metal_distribution_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "press_law",
+    "icon": "icons/laws/press_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "mining_law",
+    "icon": "icons/laws/mining_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "amazigh_familial_connections",
+    "icon": "icons/laws/amazigh_familial_connections.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "immigration_law",
+    "icon": "icons/laws/immigration_law.png",
+    "source_file": "01_common.txt"
+  },
+  {
+    "id": "legal_code_law",
+    "icon": "icons/laws/legal_code_law.png",
+    "source_file": "01_legal_system.txt"
+  },
+  {
+    "id": "language_of_pleading",
+    "icon": "icons/laws/language_of_pleading.png",
+    "source_file": "01_legal_system.txt"
+  },
+  {
+    "id": "sharia_law",
+    "icon": "icons/laws/sharia_law.png",
+    "source_file": "01_legal_system.txt"
+  },
+  {
+    "id": "recruitment_law",
+    "icon": "icons/laws/recruitment_law.png",
+    "source_file": "01_military_laws.txt"
+  },
+  {
+    "id": "battle_leadership_law",
+    "icon": "icons/laws/battle_leadership_law.png",
+    "source_file": "01_military_laws.txt"
+  },
+  {
+    "id": "army_doctrine_law",
+    "icon": "icons/laws/army_doctrine_law.png",
+    "source_file": "01_military_laws.txt"
+  },
+  {
+    "id": "mamluk_rank_system_laws",
+    "icon": "icons/laws/mamluk_rank_system_laws.png",
+    "source_file": "01_military_laws.txt"
+  },
+  {
+    "id": "mamluk_army_law",
+    "icon": "icons/laws/mamluk_army_law.png",
+    "source_file": "01_military_laws.txt"
+  },
+  {
+    "id": "mamluk_promotion_law",
+    "icon": "icons/laws/mamluk_promotion_law.png",
+    "source_file": "01_military_laws.txt"
+  },
+  {
+    "id": "maritime_law",
+    "icon": "icons/laws/maritime_law.png",
+    "source_file": "01_naval_laws.txt"
+  },
+  {
+    "id": "piracy_law",
+    "icon": "icons/laws/piracy_law.png",
+    "source_file": "01_naval_laws.txt"
+  },
+  {
+    "id": "naval_doctrine_law",
+    "icon": "icons/laws/naval_doctrine_law.png",
+    "source_file": "01_naval_laws.txt"
+  },
+  {
+    "id": "sumptuary_law",
+    "icon": "icons/laws/sumptuary_law.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "eng_order_of_the_garter_law",
+    "icon": "icons/laws/eng_order_of_the_garter_law.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "fra_fouage_tax",
+    "icon": "icons/laws/fra_fouage_tax.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "fra_taille",
+    "icon": "icons/laws/fra_taille.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "fra_5_percent_tax",
+    "icon": "icons/laws/fra_5_percent_tax.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "fra_reformation_tolerance_edicts",
+    "icon": "icons/laws/fra_reformation_tolerance_edicts.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "french_colonial_ambition_focus",
+    "icon": "icons/laws/french_colonial_ambition_focus.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "fra_jansenism_legality",
+    "icon": "icons/laws/fra_jansenism_legality.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "guilds_of_florence",
+    "icon": "icons/laws/guilds_of_florence.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "por_estudo_geral_law",
+    "icon": "icons/laws/por_estudo_geral_law.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "teu_amber_monopoly_law",
+    "icon": "icons/laws/teu_amber_monopoly_law.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "nav_adaptability",
+    "icon": "icons/laws/nav_adaptability.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "six_ministries_overseer_law",
+    "icon": "icons/laws/six_ministries_overseer_law.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "ashta_pradhan_council_law",
+    "icon": "icons/laws/ashta_pradhan_council_law.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "kor_currency",
+    "icon": "icons/laws/kor_currency.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "mesta_council_law",
+    "icon": "icons/laws/mesta_council_law.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "imperial_examination_law",
+    "icon": "icons/laws/imperial_examination_law.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "status_of_the_han_law",
+    "icon": "icons/laws/status_of_the_han_law.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "sco_clan_holdings",
+    "icon": "icons/laws/sco_clan_holdings.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "sco_authority_over_the_clergy",
+    "icon": "icons/laws/sco_authority_over_the_clergy.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "sco_colonial_affairs_law",
+    "icon": "icons/laws/sco_colonial_affairs_law.png",
+    "source_file": "02_country_specific.txt"
+  },
+  {
+    "id": "distribution_of_power_law",
+    "icon": "icons/laws/distribution_of_power_law.png",
+    "source_file": "02_distribution_of_power.txt"
+  },
+  {
+    "id": "nobles_rights_laws",
+    "icon": "icons/laws/nobles_rights_laws.png",
+    "source_file": "03_estate_laws.txt"
+  },
+  {
+    "id": "burghers_rights_laws",
+    "icon": "icons/laws/burghers_rights_laws.png",
+    "source_file": "03_estate_laws.txt"
+  },
+  {
+    "id": "clergy_rights_laws",
+    "icon": "icons/laws/clergy_rights_laws.png",
+    "source_file": "03_estate_laws.txt"
+  },
+  {
+    "id": "crown_rights_laws",
+    "icon": "icons/laws/crown_rights_laws.png",
+    "source_file": "03_estate_laws.txt"
+  },
+  {
+    "id": "peasants_rights_laws",
+    "icon": "icons/laws/peasants_rights_laws.png",
+    "source_file": "03_estate_laws.txt"
+  },
+  {
+    "id": "order_of_chivalry_law",
+    "icon": "icons/laws/order_of_chivalry_law.png",
+    "source_file": "04_order_of_chivalry.txt"
+  },
+  {
+    "id": "witchcraft_act",
+    "icon": "icons/laws/witchcraft_act.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "venetian_papal_relation_law",
+    "icon": "icons/laws/venetian_papal_relation_law.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "hun_frontier_fortresses",
+    "icon": "icons/laws/hun_frontier_fortresses.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "enclosure_movement",
+    "icon": "icons/laws/enclosure_movement.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "eng_taxation_law",
+    "icon": "icons/laws/eng_taxation_law.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "factory_working_conditions_law",
+    "icon": "icons/laws/factory_working_conditions_law.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "trade_unions_law",
+    "icon": "icons/laws/trade_unions_law.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "vestiarium",
+    "icon": "icons/laws/vestiarium.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "mch_queue_hair",
+    "icon": "icons/laws/mch_queue_hair.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "monastic_reformation_movement",
+    "icon": "icons/laws/monastic_reformation_movement.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "intellectual_movements",
+    "icon": "icons/laws/intellectual_movements.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "dahsala_system",
+    "icon": "icons/laws/dahsala_system.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "hab_military_frontier",
+    "icon": "icons/laws/hab_military_frontier.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "ira_alcohol_ban",
+    "icon": "icons/laws/ira_alcohol_ban.png",
+    "source_file": "10_reforms_from_events.txt"
+  },
+  {
+    "id": "golden_bull",
+    "icon": "icons/laws/golden_bull.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "monetary_contribution",
+    "icon": "icons/laws/monetary_contribution.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "military_contribution",
+    "icon": "icons/laws/military_contribution.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "imperial_religion",
+    "icon": "icons/laws/imperial_religion.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "electorate_religion_law",
+    "icon": "icons/laws/electorate_religion_law.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "imperial_succession_law",
+    "icon": "icons/laws/imperial_succession_law.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "imperial_voting_law",
+    "icon": "icons/laws/imperial_voting_law.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "electorate_organization_law",
+    "icon": "icons/laws/electorate_organization_law.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "free_city_law",
+    "icon": "icons/laws/free_city_law.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "free_city_rights_law",
+    "icon": "icons/laws/free_city_rights_law.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "landfriede_law",
+    "icon": "icons/laws/landfriede_law.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "imperial_diet_law",
+    "icon": "icons/laws/imperial_diet_law.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "perpetual_diet_law",
+    "icon": "icons/laws/perpetual_diet_law.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "power_of_the_emperor_law",
+    "icon": "icons/laws/power_of_the_emperor_law.png",
+    "source_file": "20_hre.txt"
+  },
+  {
+    "id": "civil_registration",
+    "icon": "icons/laws/civil_registration.png",
+    "source_file": "20_middle_kingdom.txt"
+  },
+  {
+    "id": "tax_base_system",
+    "icon": "icons/laws/tax_base_system.png",
+    "source_file": "20_middle_kingdom.txt"
+  },
+  {
+    "id": "provincial_governorship",
+    "icon": "icons/laws/provincial_governorship.png",
+    "source_file": "20_middle_kingdom.txt"
+  },
+  {
+    "id": "cefeng_tizhi",
+    "icon": "icons/laws/cefeng_tizhi.png",
+    "source_file": "20_middle_kingdom.txt"
+  },
+  {
+    "id": "keju_examination",
+    "icon": "icons/laws/keju_examination.png",
+    "source_file": "20_middle_kingdom.txt"
+  },
+  {
+    "id": "outwards_view",
+    "icon": "icons/laws/outwards_view.png",
+    "source_file": "20_middle_kingdom.txt"
+  },
+  {
+    "id": "tianxia",
+    "icon": "icons/laws/tianxia.png",
+    "source_file": "20_middle_kingdom.txt"
+  },
+  {
+    "id": "jakun_gusa",
+    "icon": "icons/laws/jakun_gusa.png",
+    "source_file": "20_middle_kingdom.txt"
+  },
+  {
+    "id": "six_ministries",
+    "icon": "icons/laws/six_ministries.png",
+    "source_file": "20_middle_kingdom.txt"
+  },
+  {
+    "id": "middle_kingdom_decrees",
+    "icon": "icons/laws/middle_kingdom_decrees.png",
+    "source_file": "20_middle_kingdom.txt"
+  },
+  {
+    "id": "clan_residence",
+    "icon": "icons/laws/clan_residence.png",
+    "source_file": "20_shogunate.txt"
+  },
+  {
+    "id": "jap_sakoku_law",
+    "icon": "icons/laws/jap_sakoku_law.png",
+    "source_file": "20_shogunate.txt"
+  },
+  {
+    "id": "jap_buke_shohatto",
+    "icon": "icons/laws/jap_buke_shohatto.png",
+    "source_file": "20_shogunate.txt"
+  },
+  {
+    "id": "local_administration",
+    "icon": "icons/laws/local_administration.png",
+    "source_file": "21_jurchen_confederation.txt"
+  },
+  {
+    "id": "tax_obligations",
+    "icon": "icons/laws/tax_obligations.png",
+    "source_file": "21_jurchen_confederation.txt"
+  },
+  {
+    "id": "court_etiquette",
+    "icon": "icons/laws/court_etiquette.png",
+    "source_file": "21_jurchen_confederation.txt"
+  },
+  {
+    "id": "formal_script",
+    "icon": "icons/laws/formal_script.png",
+    "source_file": "21_jurchen_confederation.txt"
+  },
+  {
+    "id": "legal_framework",
+    "icon": "icons/laws/legal_framework.png",
+    "source_file": "21_jurchen_confederation.txt"
+  },
+  {
+    "id": "economic_framework",
+    "icon": "icons/laws/economic_framework.png",
+    "source_file": "21_jurchen_confederation.txt"
+  },
+  {
+    "id": "trade_relations",
+    "icon": "icons/laws/trade_relations.png",
+    "source_file": "21_jurchen_confederation.txt"
+  },
+  {
+    "id": "clan_diplomacy",
+    "icon": "icons/laws/clan_diplomacy.png",
+    "source_file": "21_jurchen_confederation.txt"
+  },
+  {
+    "id": "unification_law",
+    "icon": "icons/laws/unification_law.png",
+    "source_file": "21_jurchen_confederation.txt"
+  },
+  {
+    "id": "sc_policy_proposal_frequency",
+    "icon": "icons/laws/sc_policy_proposal_frequency.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_representative",
+    "icon": "icons/laws/sc_representative.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_power_of_the_sovereign",
+    "icon": "icons/laws/sc_power_of_the_sovereign.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_election_method",
+    "icon": "icons/laws/sc_election_method.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_ruling_period",
+    "icon": "icons/laws/sc_ruling_period.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_election_frequency",
+    "icon": "icons/laws/sc_election_frequency.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_internal_politics",
+    "icon": "icons/laws/sc_internal_politics.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_membership_regulation",
+    "icon": "icons/laws/sc_membership_regulation.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_war_politics",
+    "icon": "icons/laws/sc_war_politics.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_religious_affairs",
+    "icon": "icons/laws/sc_religious_affairs.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_relations_with_hre",
+    "icon": "icons/laws/sc_relations_with_hre.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "sc_unification",
+    "icon": "icons/laws/sc_unification.png",
+    "source_file": "22_swiss_confederation.txt"
+  },
+  {
+    "id": "lordship_of_ireland_rule_law",
+    "icon": "icons/laws/lordship_of_ireland_rule_law.png",
+    "source_file": "23_lordship_of_ireland.txt"
+  },
+  {
+    "id": "colonial_federation_unification",
+    "icon": "icons/laws/colonial_federation_unification.png",
+    "source_file": "24_colonial_federation.txt"
+  },
+  {
+    "id": "hindu_branch_spec",
+    "icon": "icons/laws/hindu_branch_spec.png",
+    "source_file": "30_hindu.txt"
+  },
+  {
+    "id": "cc_indulgences",
+    "icon": "icons/laws/cc_indulgences.png",
+    "source_file": "31_catholic_church.txt"
+  },
+  {
+    "id": "cc_papal_authority",
+    "icon": "icons/laws/cc_papal_authority.png",
+    "source_file": "31_catholic_church.txt"
+  },
+  {
+    "id": "cc_veneration_of_saints_and_reliquaries",
+    "icon": "icons/laws/cc_veneration_of_saints_and_reliquaries.png",
+    "source_file": "31_catholic_church.txt"
+  },
+  {
+    "id": "cc_simony",
+    "icon": "icons/laws/cc_simony.png",
+    "source_file": "31_catholic_church.txt"
+  },
+  {
+    "id": "cc_society_of_jesus",
+    "icon": "icons/laws/cc_society_of_jesus.png",
+    "source_file": "31_catholic_church.txt"
+  },
+  {
+    "id": "cc_witchcraft",
+    "icon": "icons/laws/cc_witchcraft.png",
+    "source_file": "31_catholic_church.txt"
+  },
+  {
+    "id": "cc_marriage_of_priest",
+    "icon": "icons/laws/cc_marriage_of_priest.png",
+    "source_file": "31_catholic_church.txt"
+  },
+  {
+    "id": "union_foundation_law",
+    "icon": "icons/laws/union_foundation_law.png",
+    "source_file": "40_personal_unions.txt"
+  },
+  {
+    "id": "union_codified_inheritance_law",
+    "icon": "icons/laws/union_codified_inheritance_law.png",
+    "source_file": "40_personal_unions.txt"
+  },
+  {
+    "id": "union_economic_law",
+    "icon": "icons/laws/union_economic_law.png",
+    "source_file": "40_personal_unions.txt"
+  },
+  {
+    "id": "union_diplomatic_law",
+    "icon": "icons/laws/union_diplomatic_law.png",
+    "source_file": "40_personal_unions.txt"
+  },
+  {
+    "id": "union_legislature_law",
+    "icon": "icons/laws/union_legislature_law.png",
+    "source_file": "40_personal_unions.txt"
+  },
+  {
+    "id": "union_unification_of_crowns_law",
+    "icon": "icons/laws/union_unification_of_crowns_law.png",
+    "source_file": "40_personal_unions.txt"
+  },
+  {
+    "id": "union_mutual_offense_law",
+    "icon": "icons/laws/union_mutual_offense_law.png",
+    "source_file": "40_personal_unions.txt"
+  },
+  {
+    "id": "nature_tenet",
+    "icon": "icons/laws/nature_tenet.png",
+    "source_file": "christian_tenets.txt"
+  },
+  {
+    "id": "christology",
+    "icon": "icons/laws/christology.png",
+    "source_file": "christian_tenets.txt"
+  },
+  {
+    "id": "liturgical_practices",
+    "icon": "icons/laws/liturgical_practices.png",
+    "source_file": "christian_tenets.txt"
+  },
+  {
+    "id": "essence_tenet",
+    "icon": "icons/laws/essence_tenet.png",
+    "source_file": "christian_tenets.txt"
+  },
+  {
+    "id": "person_tenet",
+    "icon": "icons/laws/person_tenet.png",
+    "source_file": "christian_tenets.txt"
+  },
+  {
+    "id": "prosopon_tenet",
+    "icon": "icons/laws/prosopon_tenet.png",
+    "source_file": "christian_tenets.txt"
+  },
+  {
+    "id": "christological_debates_tenet",
+    "icon": "icons/laws/christological_debates_tenet.png",
+    "source_file": "christian_tenets.txt"
+  },
+  {
+    "id": "double_sabbath_tenet",
+    "icon": "icons/laws/double_sabbath_tenet.png",
+    "source_file": "christian_tenets.txt"
+  },
+  {
+    "id": "colonial_representation_law",
+    "icon": "icons/laws/colonial_representation_law.png",
+    "source_file": "colonial_laws.txt"
+  },
+  {
+    "id": "mutual_defense_law",
+    "icon": "icons/laws/mutual_defense_law.png",
+    "source_file": "io_alliances_law.txt"
+  },
+  {
+    "id": "mutual_offense_law",
+    "icon": "icons/laws/mutual_offense_law.png",
+    "source_file": "io_alliances_law.txt"
+  },
+  {
+    "id": "main_philosophy_law",
+    "icon": "icons/laws/main_philosophy_law.png",
+    "source_file": "sects.txt"
+  },
+  {
+    "id": "vajrayana_law",
+    "icon": "icons/laws/vajrayana_law.png",
+    "source_file": "sects.txt"
+  },
+  {
+    "id": "sect_school_law",
+    "icon": "icons/laws/sect_school_law.png",
+    "source_file": "sects.txt"
+  },
+  {
+    "id": "guru_nanak_guruship",
+    "icon": "icons/laws/guru_nanak_guruship.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "guru_angad_guruship",
+    "icon": "icons/laws/guru_angad_guruship.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "guru_amar_das_guruship",
+    "icon": "icons/laws/guru_amar_das_guruship.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "guru_ram_das_guruship",
+    "icon": "icons/laws/guru_ram_das_guruship.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "guru_arjan_guruship",
+    "icon": "icons/laws/guru_arjan_guruship.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "guru_hargobind_guruship",
+    "icon": "icons/laws/guru_hargobind_guruship.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "guru_har_rai_guruship",
+    "icon": "icons/laws/guru_har_rai_guruship.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "guru_har_krishan_guruship",
+    "icon": "icons/laws/guru_har_krishan_guruship.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "guru_tegh_bahadur_guruship",
+    "icon": "icons/laws/guru_tegh_bahadur_guruship.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "guru_gobind_singh_guruship",
+    "icon": "icons/laws/guru_gobind_singh_guruship.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "khalsa_law",
+    "icon": "icons/laws/khalsa_law.png",
+    "source_file": "sikhism.txt"
+  },
+  {
+    "id": "guru_granth_sahib_guruship",
+    "icon": "icons/laws/guru_granth_sahib_guruship.png",
+    "source_file": "sikhism.txt"
+  }
+]

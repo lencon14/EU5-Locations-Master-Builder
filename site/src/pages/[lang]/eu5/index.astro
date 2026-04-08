@@ -1,0 +1,117 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { LANG_CODES, type Lang, localePath } from "../../../i18n/config";
+import { loadCore } from "../../../i18n/data";
+import { t } from "../../../i18n/ui";
+
+export function getStaticPaths() {
+  return LANG_CODES.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const goodsCount = loadCore("goods").length;
+const buildingsCount = 439; // legacy JSON count, until buildings core/loc ready
+---
+
+<Base lang={lang} title="Europa Universalis V (EU5) — Paradoxpedia" fullTitle canonicalPath="/">
+  <div class="hero">
+    <h1>{t(lang, "home.hero_title")}</h1>
+    <p class="lead">{t(lang, "home.hero_lead")}</p>
+  </div>
+
+  <section class="card-grid">
+    <a href={localePath(lang, "/goods/")} class="card">
+      <span class="card-label">{t(lang, "common.database")}</span>
+      <h2>{t(lang, "nav.goods")}</h2>
+      <p class="stat">{goodsCount}</p>
+      <p class="card-desc">{t(lang, "home.card.goods_desc")}</p>
+    </a>
+
+    <a href={localePath(lang, "/buildings/")} class="card">
+      <span class="card-label">{t(lang, "common.database")}</span>
+      <h2>{t(lang, "nav.buildings")}</h2>
+      <p class="stat">{buildingsCount}</p>
+      <p class="card-desc">{t(lang, "home.card.buildings_desc")}</p>
+    </a>
+
+    <div class="card card--disabled">
+      <span class="card-label">{t(lang, "common.coming_soon")}</span>
+      <h2>{t(lang, "home.card.countries")}</h2>
+      <p class="card-desc">{t(lang, "home.card.countries_desc")}</p>
+    </div>
+  </section>
+
+  <style>
+    .hero {
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--gold-thread);
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--royal-gold);
+      margin-bottom: 0.5rem;
+    }
+
+    .lead {
+      color: var(--dusty-silver);
+      font-size: 1rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      display: block;
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      padding: 1.25rem;
+      transition: border-color 0.2s;
+    }
+
+    a.card:hover {
+      border-color: var(--royal-gold);
+      text-decoration: none;
+    }
+
+    .card--disabled {
+      opacity: 0.45;
+      cursor: default;
+    }
+
+    .card-label {
+      display: inline-block;
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--dusty-silver);
+      margin-bottom: 0.5rem;
+    }
+
+    .card h2 {
+      font-size: 1.15rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .stat {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--royal-gold);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-desc {
+      color: var(--dusty-silver);
+      font-size: 0.875rem;
+    }
+  </style>
+</Base>

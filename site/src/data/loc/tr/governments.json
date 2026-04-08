@@ -1,0 +1,22 @@
+{
+  "monarchy": {
+    "name": "Monarşi",
+    "desc": "$monarchy$, [Concept('ruler', 'Hükümdarın')|e] seçkinler arasında en başta olduğu ve tüm gücü elinde bulundurduğu bir [Concept('government_type', 'Hükûmet Türüdür')|e]. heirs genellikle $game_concept_monarch$ın [Concept('dynasty', 'Hanedanından')|e] seçilir ve çoğunlukla ömür boyu hüküm sürerler.\\n\\n$game_concept_monarchs$, royal_marriages aracılığıyla alliances kurabilir. Hatta personal_unions sayesinde yabancı [Concept('country', 'Ülkeleri')|e] miras alabilir. Ancak veraset sıkıntılı bir meseledir. Monarşiler kolaylıkla regency sistemine geçebilir veya yabancı $game_concept_dynasties$ın etkisi altına girebilir."
+  },
+  "republic": {
+    "name": "Cumhuriyet",
+    "desc": "$republic$, [Concept('ruler', 'Hükümdarların')|e] belirli bir süreliğine vatandaşların temsilcisi olarak görev alması için election ile başa getirildiği bir [Concept('government_type', 'Hükûmet Türüdür')|e]. $game_concept_ruler$, [Concept('heir_selection', 'Veliaht Seçimine')|e] bağlı olarak [Concept('estate', 'Zümrelerin')|e] herhangi birinden olabilir.\\n\\nSiyasi kurumların gücü, Cumhuriyetleri halefiyet meselelerine karşı daha dirençli kılsa da yönetim anlayışının daha az şahsi olması nedeniyle faydalanabilecekleri diplomatik araçlar sınırlıdır. Bu nedenle [Concept('dynasty', 'Hanedanların')|e] rolü daha küçüktür ve Cumhuriyetler [Concept('royal_marriage', 'Hanedan Evliliklerinden')|e] faydalanamaz."
+  },
+  "theocracy": {
+    "name": "Teokrasi",
+    "desc": "$theocracy$; ilahi egemenlik ilkesine dayanan, [Concept('ruler', 'Hükümdarın')|e] din adamları arasından seçildiği ve seküler meselelerin dinî otoriteye tabi olduğu bir [Concept('government_type', 'Hükûmet Türüdür')|e].\\n\\n$game_concept_rulers$, genellikle bir tür election ile ömür boyu yönetmek üzere başa gelirler. Böylece iktidar değişimi, daha az yıkıcı bir şekilde yapılabilir."
+  },
+  "steppe_horde": {
+    "name": "Bozkır Ordası",
+    "desc": "$steppe_horde$, [Concept('ruler', 'Hükümdarın')|e] askerî gücüne dayanan bir [Concept('government_type', 'Hükûmet Türüdür')|e]. Mevcut $game_concept_ruler$ın akrabalarının heir olma ihtimali daha yüksektir ancak yaş ve kişisel abilities de göz önünde bulundurulur.\\n\\n$game_concept_rulers$ toplumun seçkin üyeleri arasından seçilir ve komşu [Concept('country', 'Ülkelere')|e] boyun eğdirerek, yakıp yıkarak ve yağmalayarak kendilerini kanıtladıkları sürece çevrelerindeki kişilerin sadakatini güvence altına alabilirler. Bu nedenle $steppe_horde$ için halefiyet meselesi mühim bir meseledir ve yeni bir $game_concept_ruler$ın kudretini sergileyememesi çöküşe yol açabilir."
+  },
+  "tribe": {
+    "name": "Kabile",
+    "desc": "$tribe$, siyasi gücün her şeyden önce doğrudan kan bağı veya kabul gören soy bağı üzerinden olmak üzere akrabalık kavramının çevresine kurulduğu bir [Concept('government_type', 'Hükûmet Türüdür')|e].\\n\\nBu nedenle dynasties ve aile bağları, daima toplumun seçkin üyeleri arasından seçilen [Concept('heir', 'Veliahdın')|e] belirlenmesinde en önemli unsurlardır. Ancak çoğu zaman yaş, kişisel abilities ve askerî hüner de göz önünde bulundurulur."
+  }
+}

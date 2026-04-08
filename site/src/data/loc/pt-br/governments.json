@@ -1,0 +1,22 @@
+{
+  "monarchy": {
+    "name": "Monarquia",
+    "desc": "Uma $monarchy$ é um government_type baseado no princípio da soberania individual unificada, em que o(a) ruler é o(a) primeiro(a) entre as elites. O heir normalmente é determinado pela dynasty do $game_concept_monarch$ e, na maioria dos casos, tem um governo vitalício.\\n\\n$game_concept_monarchs$ podem usar royal_marriages para garantir alliances, podendo até mesmo herdar countries estrangeiros por meio de personal_unions. Entretanto, a sucessão costuma ser problemática, e as Monarquias podem facilmente se transformar em regencies ou ficarem sujeitas à influência de $game_concept_dynasties$ estrangeiras."
+  },
+  "republic": {
+    "name": "República",
+    "desc": "Uma $republic$ é um government_type no qual os rulers são escolhidos por meio de uma election para atuarem como representantes da população por um período determinado. Dependendo da heir_selection, o $game_concept_ruler$ pode pertencer a qualquer um dos estates.\\n\\nA força das instituições políticas deixa as Repúblicas mais resilientes com relação a problemas de sucessão, mas a natureza de governo menos individual limita as ferramentas diplomáticas ao seu dispor. Assim, as dynasties exercem um papel menor, e as Repúblicas não se beneficiam com royal_marriages."
+  },
+  "theocracy": {
+    "name": "Teocracia",
+    "desc": "Uma $theocracy$ é um government_type baseado no princípio da soberania divina, no qual o ruler é escolhido a partir dos seguidores da fé, e as questões seculares ficam subordinadas à autoridade religiosa.\\n\\nOs $game_concept_rulers$ costumam ser escolhidos para um governo vitalício por meio de um tipo de election, o que permite uma transferência de poder menos tumultuada."
+  },
+  "steppe_horde": {
+    "name": "Horda da Estepe",
+    "desc": "Uma $steppe_horde$ é um government_type baseado no poderio militar de seu ruler. Os parentes do $game_concept_ruler$ atual têm uma chance maior de se tornarem heirs, mas a experiência e abilities pessoais também são fortemente consideradas.\\n\\nOs $game_concept_rulers$ são escolhidos entre os membros da elite da sociedade, e só mantêm a lealdade de seus pares caso eles se provem capazes de subjugar, destruir e saquear countries vizinhos. Por esse motivo, a sucessão é um grande evento para uma $steppe_horde$, podendo até entrar em colapso se o novo $game_concept_ruler$ fracassar em demonstrar seu poder."
+  },
+  "tribe": {
+    "name": "Tribo",
+    "desc": "Uma $tribe$ é um government_type no qual a potência política é estruturada acima de tudo em torno do conceito de parentesco, seja por consanguinidade ou ancestralidade inferida.\\n\\nPortanto, as dynasties e os vínculos familiares são de extrema importância na determinação do heir, que estará sempre entre os membros da elite da sociedade. Porém a experiência, as abilities pessoais e a proeza militar também são fatores fortemente considerados."
+  }
+}

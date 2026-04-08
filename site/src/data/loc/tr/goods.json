@@ -1,0 +1,298 @@
+{
+  "horses": {
+    "name": "Atlar",
+    "desc": "Atlar, yaklaşık altı bin yıl önce Avrasya Bozkırlarının bilinmeyen bir noktasında ehlîleştirilmiştir. O zamandan beridir çeşitli alanlarda insanlar tarafından kullanılmışlardır ancak en önemli kullanım alanları savaş olmuştur. Bu manada Orta Çağlar, biniciliğin Altın Çağı sayılabilir çünkü feodal toplumların oluşmasıyla çok yakından bağlantısı bulunur."
+  },
+  "clay": {
+    "name": "Kil",
+    "desc": "Kil, insanlar tarafından tarih öncesi zamanlardan beri çömlekçilik ve seramik üretimi için kullanılan bir tür topraktır. Diğer temel kullanımlarından biri ise inşaattır. Diğer malzemelerle birlikte veya tuğla yapımında kullanılır. Kil plakalar, aynı zamanda icat edilen ilk yazım yöntemlerinden biridir, dolayısıyla medeniyetin gelişiminde inkâr edilemez bir etkisi bulunmaktadır."
+  },
+  "sand": {
+    "name": "Kum",
+    "desc": "Kum, dünyadaki en yaygın malzemelerden biridir ve çeşitli birçok kullanım alanına sahiptir. Taneli ve pürüzlü yapısı nedeniyle her türden taşın veya metalin şekillendirilmesinde kullanılan en yaygın aşındırma malzemesidir. Diğer kullanımlarının yanı sıra cam üretiminin temel malzemesidir ve birçok yapı malzemesinin üretiminde kullanılır."
+  },
+  "coal": {
+    "name": "Kömür",
+    "desc": "Kömürün bir yakıt olarak uzun geçmişi bulunur ancak kullanımı, pratik buharlı motorların icat edilmesi ve yayılmasıyla büyük bir sıçrayışa geçmiştir. Avrupa'yı Sanayi Devrimi kasıp kavururken kömür ihracatı ve ithalatı büyük bir iş kolu hâline gelmiş ve modern ekonominin dâhilî bir parçası olmuştur."
+  },
+  "iron": {
+    "name": "Demir",
+    "desc": "Demir yalnızca demir madenini değil aynı zamanda demir tabanlı diğer metalleri de temsil eder. Demir, metalurji sanayisinin temelini oluşturmuş ve silah ile diğer askerî ekipmanların üretiminde büyük çapta kullanılmıştır."
+  },
+  "copper": {
+    "name": "Bakır",
+    "desc": "Bakır, binlerce yıl önce metalürjinin icadından ve yayılmasından bu yana en önemli malzemelerden biri olmuştur. Tek başına işlenebilmesine ilaveten bronz gibi çeşitli alaşımların üretiminde de kullanılır. İlk topların üretiminde gerekli malzemelerden biri olduğundan özellikle silah sanayinde çok önemli bir konumda bulunur."
+  },
+  "goods_gold": {
+    "name": "Altın",
+    "desc": "Altın tarih boyunca en değerli metal olmuştur. Madeni para ve prestij göstergesi eşyalar gibi çeşitli biçimlerde hem ticarette hem de servet biriktirmek için kullanılmıştır. İki metalli ve üç metalli sistemlerde ana para birimi olarak kullanılması nedeniyle yüksek talep görmüş ve yeni bölgelerin keşfi sırasında bulunmak istenen kaynaklardan biri hâline gelmiştir."
+  },
+  "silver": {
+    "name": "Gümüş",
+    "desc": "Gümüş, para olarak kullanılan ilk metallerden biridir ve altınla birlikte bu metallerden en başarılı olanları arasındadır. Orta Avrupa, Orta Çağlarda gümüş üretimi için bir merkez hâline gelmiştir ancak Kolomb Takası ile dünyadaki üretim Amerika'ya kaymış ve 16. yüzyıl itibariyle yeni doğan küresel ağın ana üretim merkezi Amerika olmuştur."
+  },
+  "stone": {
+    "name": "Taş",
+    "desc": "Taş, insanlık tarihindeki ana inşaat malzemelerinden biri olmuştur. Kil veya oduna kıyasla daha güçlü ve dayanıklı bir seçenek olan taş, uzun ömürlü olması beklenen tüm inşaatların ana malzemesi olmuştur. Piramitler gibi eski yapılar, inşa edildiklerin taşların dayanıklılıklarından dolayı günümüze kadar ulaşabilmiştir."
+  },
+  "tin": {
+    "name": "Kalay",
+    "desc": "Kalay, 5000 yıl önce tunç üretmek için yapılan alaşımın bir parçası olarak metalurji alanında geniş çapta kullanılmıştır. Sonrasında paslanmayı önlemek için demir, kurşun ve çelik gibi diğer metalleri ve alaşımları kaplamak için geniş çapta bir kullanım görmüştür. Aynı zamanda yemek takımlarında kullanılan kalaylı alaşımlarda da yaygın olarak kullanılmıştır."
+  },
+  "lead": {
+    "name": "Kurşun",
+    "desc": "Kurşun, kadim zamanlardan beri galenit taşının yakılmasıyla gümüş çıkarma sürecinin bir parçası olarak elde edilmiştir. Kurşun, çeşitli ev ve sanayi ürünlerinde özellikle Romalılar tarafından çokca kullanılmıştır, öyle ki anca Sanayi Devrimi'yle birlikte Romalıların kurşun üretim hacmine ulaşılmıştır. Modern Çağ'da silahlar için üretilen mühimmatların temel malzemesi olarak kullanılmaktadır."
+  },
+  "silk": {
+    "name": "İpek",
+    "desc": "Doğudaki tüm kumaşların en kalitelisi; Hindistan, Çin ve Doğu Asya'da üretilen ipektir. Baharatlar kadar simgeleşmiş olmasa da ipek ve kaliteli bir şekilde dokunan pamuk kumaşlardan elde edilen kârlar, Avrupalı Doğu Hindistan Şirketlerinin baharat ticaretini bile geride bırakmıştır.\\nTaleplerin giderek artması, malzemenin aynı zamanda merkantilist Avrupa'da yerel olarak üretilmesine yol açmıştır ancak her yerde başarılı olmamıştır."
+  },
+  "dyes": {
+    "name": "Boyalar",
+    "desc": "Kumaşlar dokunduğu sürece pazarda kaliteli boyalara olan talep bitmemiştir. Orta Çağların sonlarında çivit mavisi gibi pahalı boyalar, Hindistan'dan geldiği ve çok uzak olduğu için çok değerliydi.\\nHem Amerika'da üretim olanaklarının hem de Hindistan pazarına olan erişimin artmasıyla dünyada boyalara erişim giderek daha da kolaylaşmıştır. Yine de boyalar, 19. yüzyılın başlarına kadar ender olmayı sürdürmüştür. Hindistan'daki boya imalathaneleri, Avrupalıların ellerine düştüğünde büyük kârlar kazandırmıştır."
+  },
+  "incense": {
+    "name": "Tütsü",
+    "desc": "Yanan malzemelerle duman ve koku yaymak, asırlar boyunca törenlerin değişmez bir parçası olmuştur. Bu kullanıma uygun olan buhur, öd ağacı, sandal ağacı, mür ve diğer mallar, yalnızca birkaç yerde bulunabilmektedir ve yayılması İpek Yolu ve adının hakkını veren Tütsü Yolu gibi ticaret ağlarının oluşmasında büyük bir rol oynamıştır."
+  },
+  "tea": {
+    "name": "Çay",
+    "desc": "Çay; Çin, Hindistan ve Güneydoğu Asya'da önemli bir keyif içeceğidir. Genelde dinî ve sosyal ayinlerde kullanılmıştır. Avrupa'da çayı popülerleştiren İngilizler olmuştur. Hiçbir zaman kahve kadar soylu bir içecek olarak görülmese de sırf dünyadaki arzının az olmasından dolayı büyük kârlar getirmiştir."
+  },
+  "cocoa": {
+    "name": "Kakao",
+    "desc": "Kakao, orta çağlardan beri Aztek, İnka ve Kızılderili hükümdarlar tarafından bir uyarıcı olarak kullanılmıştır. Avrupa'da İspanyolların Amerika kolonilerinden getirmesiyle 16. yüzyılın başlarında popülerleştirilmiştir. Kakao, zenginlerin keyfini sürdüğü lüks bir ürün hâline gelmiştir."
+  },
+  "coffee": {
+    "name": "Kahve",
+    "desc": "Kahve, Etiyopya'nın kuzeydoğu bölgesinde keşfedilmiştir ve ilk kez güney Arabistan'da yetiştirilmeye başlanmıştır. Kahve, Orta Doğu'dan İtalya'ya 17. yüzyılda yayılmaya başlamıştır ve sonrasında Avrupa'nın geri kalanına tanıtılmıştır. 1600 yılında \\\"Müslüman içeceklerini\\\" yasaklama çağrılarına rağmen kahve, Papa VIII. Clemens tarafından bir Hristiyan içeceği olarak kabul edilmiş ve daha geniş kitlelere yayılmıştır."
+  },
+  "fiber_crops": {
+    "name": "Lifli Ekinler",
+    "desc": "Birçok farklı lifli ekin; yelken, halat, balık ağı ve kıyafet gibi çeşitli ürünlerin üretilmesinde dünyanın dört bir yanında kullanılmıştır. Sert kumaşların üretiminde kullanılmaları dışında birçoğu; aslında törenlerde, evlerde ve benzeri yerlerde kullanılan daha kaliteli kumaşların üretiminde de temel bir parça olmuştur. Bu ekinlerin arasında kenevir, keten, mühliye ve sisal bulunmaktadır."
+  },
+  "ivory": {
+    "name": "Fildişi",
+    "desc": "Fildişi, Afrika'nın köleden sonraki en büyük ihracatlarından biridir. Sofra takımı, hediyelik eşya, küçük sanat eserleri, mobilya gibi çeşitli malların üretiminde kullanılmasıyla Avrupalılar tarafından büyük talep görmüştür."
+  },
+  "lumber": {
+    "name": "Kereste",
+    "desc": "Kereste, tarih boyunca insanlık için ana inşaat malzemelerinden biri olmuştur. Taştan daha az dayanıklı olsa da daha kolay erişilebilir olması, keresteyi dünyanın dört bir yanındaki çoğu yapının temel malzemesi hâline getirmiştir. Kale ve tahkimatlar gibi dayanıklı olması beklenen yapıların bile taş yerine odundan yapılmış versiyonları bulunmaktadır."
+  },
+  "salt": {
+    "name": "Tuz",
+    "desc": "Tuz, insanlar için temel bir malzemedir. Buna ek olarak uzun kış aylarında yiyecekleri saklamanın en yaygın yoludur. Tuz ya Orta Avrupa'daki madenlerden çıkarılan minerallerden ya da güneş alan kıyıların buharlaştırılmasıyla oluşturulan tuz tavalarından doğal yollarla elde ediliyordu."
+  },
+  "medicaments": {
+    "name": "İlaç",
+    "desc": "İnsanlık tarihi boyunca türlü hastalığı tedavi etmek için iyileştirici nitelikler barındıran veya böyle nitelikler barındırdığına inanılan muhtelif bitkisel ve hayvansal ürünler kullanılmıştır. Bazıları hakikaten tedavi edici olsa da bazıları teselli ilacı olmaktan öteye gidememiştir."
+  },
+  "gems": {
+    "name": "Değerli Taşlar",
+    "desc": "En eski zamanlardan beri yakut, safir, elmas veya yeşim gibi taşlar mücevher ve gösterişli giyim alanlarında kullanılmıştır. Asırlar boyunca elmasların dünyadaki tek kaynağı, Golconda'nın meşhur madenleri olmuştur. Her taş, elmas kadar ender olmasa da hepsi çok talep gören ticari ürünler konumunda bulunur."
+  },
+  "pearls": {
+    "name": "İnci",
+    "desc": "İnci, kabuklu yumuşakçaların farklı türlerinin içerisinde üretilen sert ve parlak cisimdir. Genellikle yuvarlak olanları tercih edilse de inciler, farklı şekillerde meydana gelebilir. Güzel görüntüsü nedeniyle insanlık tarihi boyunca tüm dünyada beğeni görmüş ve değerli taşlar olarak aksesuar niyetine kullanılmıştır."
+  },
+  "amber": {
+    "name": "Kehribar",
+    "desc": "Kehribar, fosilleşmiş reçineden yapılan ve esasen mücevherat ve süs eşyası yapımında kullanılan değerli bir maldır. Ana kaynağı, ilk kez 12. yüzyıldan kalma bir belgede bahsedildiği üzere Prusya kıyısındaki yataklardır."
+  },
+  "saltpeter": {
+    "name": "Güherçile",
+    "desc": "Güherçile, insanlar tarafından antik çağlardan beri gübre olarak veya etlerin muhafazasında tuz olarak muhtelif şekillerde kullanılmıştır. Odun kömürü ve kükürt ile birlikte barutun ana bileşenlerini oluşturan güherçile, Orta Çağ'da barut ve ateşli silahların icadıyla asıl önemini kazanmıştır. Dünyanın her köşesinde büyük miktarlarda çıkarılan bu metal, ileride kötü bir şöhrete sahip olacaktır."
+  },
+  "alum": {
+    "name": "Şap",
+    "desc": "Şap, boya yapımında ve tabaklama sürecinde kullanılan önemli malzemelerden biridir. Hem sanat hem de zanaat alanlarında muhtelif şekillerde faydalanılsa da esasen boya ve aydınlatma işlemlerinde kullanılır. Aslen Çad bölgesinden elde edilen bu madde, İslam âlemindeki tüm pazarlarda bulunurdu ama Geç Orta Çağ döneminde Avrupa'daki diğer kaynaklardan çıkarılmaya başlandı."
+  },
+  "wine": {
+    "name": "Şarap",
+    "desc": "Şarap, antik zamanlardan beri Avrupa'nın güney topraklarında üretilmektedir. Müslüman âleminin dışındaki toplumların günlük beslenmesinde hâlâ önemli bir yeri vardır. Şarap, lüks olarak görülmüyordu ancak halkın sıkıcı sofrasına muhtemelen hoş bir ferahlık hissi getiriyordu."
+  },
+  "elephants": {
+    "name": "Fil",
+    "desc": "Filler antik dönemlerden beri Hindistan, Güneydoğu Asya, Orta Doğu ve Kuzey Afrika'daki savaşlarda kullanılmıştır. Fillerin savaşlarda kullanılması, bu bölgelerin bazılarında Orta Çağ'da da devam etmiştir. Yeni Çağ'daki barut temelli muharebeler fillerin savaşlardaki etkinliğini sonlandırmıştır."
+  },
+  "marble": {
+    "name": "Mermer",
+    "desc": "Mermer, Antik Çağ'dan beri heykellerde ve inşaatlarda kullanılır, görüntüsü ve yumuşaklığı nedeniyle lüks bir malzeme olarak görülür. Michelangelo ve Bernini gibi Rönesans ve Barok sanatçılarının başyapıtlarının bazıları mermerden yapılmıştır."
+  },
+  "mercury": {
+    "name": "Cıva",
+    "desc": "$mercury$, ilaç olarak kullanılmasının yanı sıra, düşük kaliteli altın ve gümüş cevherlerinin saflaştırılmasında da büyük bir öneme sahiptir."
+  },
+  "saffron": {
+    "name": "Safran",
+    "desc": "Antik çağlardan beri bilinen safran, yemeklerde kullanılmasının yanı sıra geleneksel ilaçların ve yüksek maliyetine rağmen kumaş boyası olarak da kullanılmıştır."
+  },
+  "pepper": {
+    "name": "Karabiber",
+    "desc": "Biber adıyla bilinen birçok bitki olsa da hepsinde kendi tatlarını keskinleştiren aynı özellikler bulunmaktadır. Karabiber bu nedenle hem baharat olarak hem de geleneksel ilaçların üretiminde kullanılmak için idealdir."
+  },
+  "cloves": {
+    "name": "Karanfil",
+    "desc": "Karanfil, Maluku'da yetişen bir ağacın aromatik goncalarıdır. Avrasya ticaret ağlarının en çok rağbet gören ve dolayısıyla en pahalı baharatlarından biri hâline gelerek Avrupalıların Geç Orta Çağ Dönemi'nde diğer baharatların yanında karanfil için de yeni tedarik kaynakları aramasına neden olmuştur."
+  },
+  "chili": {
+    "name": "Acı Biber",
+    "desc": "Kökeni Orta ve Güney Amerika'ya dayanan bazı bitki çeşitleri, yoğun tatları ve her türlü yemeği acı yapabilmeleriyle bilinmektedir. Amerika kıtasında antik çağlardan beri yetiştirilen, birbirlerinden farklı tat ve acılık seviyelerine sahip olan bu biberlere gösterilen talep yüksektir."
+  },
+  "cotton": {
+    "name": "Pamuk",
+    "desc": "Pamuk, Orta Asya'dan gelmiş ancak Amerikan kolonilerinde tanınana dek Avrupa'da geniş çapta kullanılmamıştır ve 18. yüzyılın sonlarında giyim endüstrisindeki yünün yerini alan ucuz ancak kaliteli bir malzeme hâline gelmiştir."
+  },
+  "sugar": {
+    "name": "Şeker",
+    "desc": "Şeker, yalnızca yiyecekleri tatlandırmak için değil aynı zamanda gıdaları korumak için kullanılmaktadır. Bu devirlerde şeker elde etmenin bilinen tek yolu şeker kamışlarıydı, bu kamışlar, ilk başlarda Akdeniz adalarında yetiştiriliyordu. Ancak başta Karayip adaları olmak üzere Amerika'daki işçi dolu plantasyonlar ile üretimin büyük bir kısmı Amerika'ya taşınmıştır."
+  },
+  "tobacco": {
+    "name": "Tütün",
+    "desc": "Tütün, 16. yüzyılın sonlarında Amerika'dan getirilene dek Avrupa'da bilinmiyordu. Maddi gücü olan üst sınıflar arasında bir anda moda hâline geldi. Portekiz Brezilyası ile birlikte Amerika'daki İngiliz kolonilerinin ekonomik gelişiminde rol oynayan hızlı ve kârlı bir etken hâline geldi. İçinde ne olduğunu kimsenin bilmemesine rağmen kimse tüttürmeye hayır diyemiyordu."
+  },
+  "tar": {
+    "name": "Katran",
+    "desc": "Aslen ihracat ürünü olarak üretilen katran, gemi imalatında çok değerli bir malzemedir. Yoğun, siyah bir sıvı olarak görünmesinin sebebi, üretimi sırasındaki yoğun damıtma işleminden kaynaklanmaktadır. Gemi gövdelerinin sızdırmaması için kullanılmaktadır ve su geçirmez yelkenler için ucuz bir tercihtir."
+  },
+  "porcelain": {
+    "name": "Porselen",
+    "desc": "Porselen, ham maddesi yüksek sıcaklıklarda vitrifiye edilerek dayanıklı ve yarı saydam hâle gelmiş bir seramik türüdür. Üretimine üç bin yılı aşkın bir süre önce Çin'de başlanan ve yaklaşık iki bin yıldır düzgünce üretilebilen porselen, çokça rağbet gören bir ürün olarak tüm dünyaya Çin'den yayılmıştır."
+  },
+  "naval_supplies": {
+    "name": "Denizcilik Malzemeleri",
+    "desc": "Denizcilik malzemeleri, gemi yapımında gereken tahta, katran, halat, keten, yelken ve diğer muhtelif malzemelerin hepsini kapsar. Kuzey Amerika, 18. yüzyılın başlarında bir tedarik kaynağına dönüşmeden önce Baltık bölgesi, mevzubahis malzemelerin tedarik edildiği başlıca yerdi. Bu gibi elzem malların tedarik kaynaklarını güvenceye almak, Amerika kıtasındaki kolonici faaliyetlerin artışındaki sebeplerden biridir."
+  },
+  "firearms": {
+    "name": "Ateşli Silahlar",
+    "desc": "Ateşli silahların icadı ve kullanımı, savaş meydanındaki devinimi değiştirdi. Asya ve Avrupa'da verilen savaşlar artık barutu işleme, ithal etme ve barutun tesirinden faydalanabilmeye tabidir. Ateşli silahlar, savaşın doğal evriminin bir parçası hâline gelmiştir ve dünyanın her köşesindeki devletlerin egemenlik savunmasında vazgeçilmez bir unsur olmuştur."
+  },
+  "cannons": {
+    "name": "Top",
+    "desc": "Kuşatma silahları Antik Çağ'dan beridir kullanılsa da barutun keşfi, daha önce hiç görülmemiş bir yıkım gücüne sahip bazı silahların ortaya çıkmasına sebep oldu. Mermileri hiç olmadığı kadar hızlı ve uzağa atabilme kabiliyeti, en sağlam tahkimatı bile süratle yıkacaktır. Elbette bu mermilerin ordulara doğru ateşlendiğinde oluşturacağı etkiyi de unutmamak gerek."
+  },
+  "weaponry": {
+    "name": "Silah",
+    "desc": "Kılıç, kargı ve yay gibi muhtelif silahlar, her ordunun temel donanımını oluşturur. Üretim sürecinin ardındaki yöntemler, çağlar boyunca geliştirilmiş birer sanat türüdür. Buna rağmen ve dönemin farklılıklarından bağımsız olarak muhtelif silahlar, her daim bağımsızlığın korunmasında hayati birer gereç olacaktır."
+  },
+  "glass": {
+    "name": "Cam",
+    "desc": "Cam, asırlardır sanatta, mimaride ve gündelik eşyaların üretiminde kullanılan faydalı bir malzemedir. Cam üretim yöntemleri geliştikçe cam mercekler, gözlüklerde, teleskoplarda ve denizcilikten tabiat bilimlerine kadar geniş kullanım alanlarına sahip muhtelif aygıtlarda kullanılıp optik biliminin de hayati bir parçası hâline gelecekti."
+  },
+  "steel": {
+    "name": "Çelik",
+    "desc": "Çelik hem ateşli hem de ateşsiz silahların üretiminde yaygınca kullanılır. Çeliğin niteliğine göre kullanıldığı silah da değişir. Baltalarda kör çelik, kılıç ve bıçaklardaysa yüksek kaliteli çelik tercih edilir. Çelik bu sebeple alet edevat üretiminde kullanılan başlıca maden olmuştur."
+  },
+  "cloth": {
+    "name": "Kumaş",
+    "desc": "Kumaş, yün ve ketenden üretilen muhtelif bez ve kıyafetleri kapsar. Daha ileride Hindistan ve Amerika kıtasından getirilen pamuk, kumaş üretiminde önemli bir malzeme olmuştur."
+  },
+  "fine_cloth": {
+    "name": "Kaliteli Kumaş",
+    "desc": "Kaliteli kumaşlar, genellikle seçkin ve zengin sınıfların işaretçisidir. Damasko, muslin ve brokar gibi kumaşlar, Orta Çağ ve Yeni Çağ'da tüm dünyada ticareti yapılarak ve taklit edilerek çok kâr ettirmiştir."
+  },
+  "liquor": {
+    "name": "Likör",
+    "desc": "Likör, farklı türlerde muhtelif bitkisel ürünlerin damıtılmasıyla elde edilen alkollü bir içkidir. Damıtma işlemi, alkol hacmini artırmak için yapılır. Cin, rom, viski, votka, tekila ve shōchū, dünya çapında damıtılan ve tüketilen popüler likörlere örnek olarak verilebilir."
+  },
+  "beer": {
+    "name": "Bira",
+    "desc": "Bira, ilk defa Cilalı Taş Devri'nde üretildiğinden beri gastronominin temel taşlarından biri olmuştur. Orta Çağ'da çokça tüketilen bir içkiye dönüşmüştür. Bavyera'da ortaya çıkan, bugün Alman Saflık Yasası olarak da bilinen ve hâlâ kullanımda olan en eski gıda kalitesi yönetmeliği \\\"Reinheitsgebot\\\"a da konu olmuştur."
+  },
+  "paper": {
+    "name": "Kâğıt",
+    "desc": "Kâğıt, her türlü ileri düzey muhasebe, idare ve bilgi yayımı faaliyetinde gerekli bir malzemedir. Üretim süreci aslen Çin'de geliştirilmiştir ve Eski Dünya'nın her köşesine yavaşça yayılmıştır. Parşömen gibi diğer yazı malzemesi türlerine kıyasla üstün olan kâğıdın büyük ölçekli üretimi için özel beceriler ve alet edevat gerekir. Bu nedenle çokça rağbet gören nadir bir ticari mal olmuştur."
+  },
+  "books": {
+    "name": "Kitap",
+    "desc": "Kitaplar, yazının binlerce yıl önceki icadından beri insanlığın bilgi birikiminin ana koruyucusu olmuştur. Genellikle deri parşömenden, kâğıttan ve diğer bitki liflerinden üretilir. Orta Çağ'da hurufatın icadı ve yayılmasıyla kitaplar, halk arasında daha yaygın ve erişilebilir hâle gelmiştir."
+  },
+  "jewelry": {
+    "name": "Mücevher",
+    "desc": "Mücevher, hünerli ustalarca kıymetli taşlardan üretilen aksesuarları kapsar. Değeri, genellikle yüksek toplumsal mevkiler ve hatta hanedan mensuplarıyla ilişkilendirilir."
+  },
+  "leather": {
+    "name": "Deri",
+    "desc": "İnsanlığın ilk keşiflerinden biri olan deri, çoğunlukla kıyafetlerin, ayakkabıların ve dekorasyonların üretiminde kullanılır. Başarısı genellikle, sağladığı rahatlığa ve dayanıklılığına atfedilir. Bakımının kolay ve yiyecek kokularına karşı dirençli olması sebebiyle yemek nizamıyla ilgili mobilyaların üretiminde tercih edilen bir malzemeye dönüşmüştür."
+  },
+  "tools": {
+    "name": "Aletler",
+    "desc": "İnsan toplumunun gelişmesini sağlayan temel etken alet üretimidir. En basit ve ilkel taş aletlerden metalürji sayesinde geliştirilen son derece gelişmiş ve hassas araçlara kadar tüm bu aletler, daha gelişmiş teçhizatların ve silahların üretilmesine olanak sağlamaktadır."
+  },
+  "masonry": {
+    "name": "Tuğla",
+    "desc": "İnşaat yöntemleri türlü türlüdür. İnşaatlarda kullanılmak üzere düzenli boyut ve şekillerde küçük parçaların üretilebilmesi, yapıların inşaat hızına ilaveten inşaat bittikten sonraki dayanıklılıklarını da büyük ölçüde artırır."
+  },
+  "lacquerware": {
+    "name": "Lake Emtia",
+    "desc": "Eşyaların lak ile cilalanması, on bin yılı aşkın bir süre önce, Cilalı Taş Devri'nde Çin ve Japonya'da ortaya çıkmıştır. Ahşap ve madenî eşyalar, reçine ve bal mumundan elde edilen lak ile cilalanırdı. Eşyanın daha lüks görünmesi için üzerindeki lak katmanı; resimler, oymalar, altın veya gümüş tozuyla süslenirdi."
+  },
+  "pottery": {
+    "name": "Çömlek",
+    "desc": "İnsanlığa işaret eden en eski izlerden biridir. Kilin birçok farklı nesneye dönüştürülebilmesi, insanlığın gelişiminde hayati bir rol oynamıştır. Tarih öncesi basit toprak vazolardan çok daha karmaşık biçimlere büründürülen çömleklere tüm kültürlerde her daim rastlanmaktadır."
+  },
+  "furniture": {
+    "name": "Mobilya",
+    "desc": "Mobilyalar sayesinde insanlar dört duvar ve bir çatıdan fazlasına sahip olabiliyorlar. Basit yataklar ve masalardan daha karmaşık tasarımlara, sade ahşap ve hatta taştan daha pahalı malzemelerden üretilmiş eşyalara kadar her türlü amaca, zevke ve bütçeye uygun mobilyalar bulunabilmektedir."
+  },
+  "wool": {
+    "name": "Yün",
+    "desc": "Yün, çoğunlukla tarıma elverişsiz topraklarda otlanan koyunlardan elde edilir. Pamuk üretiminden önce giyim alanındaki ana ham madde olarak kullanılıyordu."
+  },
+  "wild_game": {
+    "name": "Av Eti",
+    "desc": "Av eti, başta seyrek nüfuslu kırsal topluluklar olmak üzere yerel toplulukların yiyecek ve besin kaynağıdır. Geyik ve yaban domuzu gibi vahşi hayvanların avlanması, bir toplumun önemli esaslarından biridir çünkü mevzubahis hayvanları avlamak, toplumların deri, kemik, iç organ ve besin ihtiyacını karşılar."
+  },
+  "fur": {
+    "name": "Kürk",
+    "desc": "Kürk, yüksek kaliteli ve sıcak tutan giysilerin üretimindeki temel malzemelerden biridir. Her türlü hayvandan elde edilen deriler, ilk başta Rusya'dan temin ediliyordu ancak Kuzey Amerika'daki kunduzların daha cazip bir hâle gelmesiyle 18. yüzyılın ortalarında bu ticaretin akış yönü değişti."
+  },
+  "fish": {
+    "name": "Balık",
+    "desc": "Etin nüfusun çoğunluğu için lüksten bile öte olduğu bu çağda balıklar, Avrupa nüfusunun en temel besin kaynaklarından biriydi. Ayrıca balıkçılar, birçok ulusun tüccarları ve donanması için temel istihdam kaynaklarıydı."
+  },
+  "wheat": {
+    "name": "Buğday",
+    "desc": "Buğday, insanların ve hayvanların beslenme düzeninin temelini oluşturan bitkisel gıda maddelerini kapsar. Buğday kıtlığı, her daim ayaklanmalara ve isyanlara sebep olur. Diğer tahıllara ve sebzevata ileride Amerika'dan gelecek domatesin, mısırın ve patatesin de katılmasıyla hem gıda hem de tarım ürünlerinin çeşitliliği artacaktır."
+  },
+  "maize": {
+    "name": "Mısır",
+    "desc": "Aslen binlerce yıl önce Meksika'da ehlîleştirilen mısır, 15. yüzyılda Avrupalıların gelmesiyle Yeni ve Eski Dünya arasında ticaretine başlanan bir kültür bitkisidir. Dayanıklı tabiatı ve yüksek besin değeri nedeniyle dünya çapında ticareti yapılan bir ürüne dönüşmesi kaçınılmazdı."
+  },
+  "rice": {
+    "name": "Pirinç",
+    "desc": "Bir tahıl çeşidi olan pirinç, on bin yılı aşkın bir süre önce ehlîleştirilmesinden bu yana Asya'da temel bir gıda maddesi olmuştur. Ayrıca, Asya'dan bağımsız olarak Afrika'da da üç bin yılı aşkın bir süre önce ehlîleştirilmiş ve o zamandan beri önemli bir gıda kaynağı olmuştur. Asya ile Klasik Antik Çağ'a kadar uzanan ticari ilişkiler aracılığıyla Avrupa'ya ulaşmış, ancak burada diğer tahıl türlerinin yerini alamamıştır."
+  },
+  "millet": {
+    "name": "Dayanıklı Tahıl",
+    "desc": "Dayanıklı tahıllar, Cilalı Taş Devri'nden itibaren farklı dönemlerde ve dünyanın farklı bölgelerinde ehlîleştirilen farklı tahıl bitkisi türleridir. Düşük kaliteli toprağa ve kurak koşullara karşı daha dirençli olmaları sebebiyle yarı kurak bölgelerde diğer tahıllardan daha önemli bir gıda kaynağı hâline gelmiştir."
+  },
+  "legumes": {
+    "name": "Baklagil",
+    "desc": "Binlerce yıl boyunca baklagiller, tarihteki birçok uygarlık için önemli bir besin kaynağı olmuştur. Avrupalılar, tıpkı mısırla olduğu gibi, yeni baklagil türleriyle Yeni Dünya'nın kıyılarına vardıklarında tanıştılar. Baklagiller, hem doyurucuydu hem de üretimi ve gemilerde taşınması kolaydı."
+  },
+  "potato": {
+    "name": "Patates",
+    "desc": "Patates, Titikaka Gölü civarında yerel And halkı tarafından ehlîleştirilen, karbonhidrat açısından zengin bir yumrulu bitki türüdür. Dayanıklılığı ve yüksek kalorili yapısıyla And Dağları bölgesindeki medeniyetlerin gelişmesine yardımcı olmuştur. Kolomb Takası ardından tüm dünyaya yayılmış ve 1750'ye kadar Avrupa'nın temel gıda maddelerinden birine dönüşerek 19. yüzyıldaki nüfus patlamasına olanak sağlamıştır."
+  },
+  "livestock": {
+    "name": "Çiftlik Hayvanı",
+    "desc": "Ehlîleştirilmiş hayvanların bakımı ezelden beridir insanlığın esas meşguliyetlerinden biri olmuştur. Çiftlik hayvanları, bereketli tarım arazilerindeki inekler ve domuzlardan engin ovalar ve çöllerdeki göçebe çobanların sürülerine kadar her şeyi kapsar."
+  },
+  "olives": {
+    "name": "Zeytin",
+    "desc": "Zeytin, binlerce yıldır Akdeniz civarında yetiştirilen zeytin ağaçlarından toplanır. Akdeniz mutfağının engin yelpazesindeki yemeklere katılan zeytinyağı hâli başta olmak üzere zeytin, gastronomi alanında oldukça rağbet görür."
+  },
+  "fruit": {
+    "name": "Meyve",
+    "desc": "Meyve, ağaçlarda bulunan turunç, portakal ve elma da dâhil olmak üzere muhtelif mahsulleri kapsar. Çoğu insan için bu meyveler, yalnızca seçkinlerin erişebildiği besin kaynaklarıdır. Dünyanın neredeyse her bölgesi, farklı bir türden meyveye ev sahipliği yapar ve küresel ticaretin ortaya çıkışı, birçok topluluğun yeni meyvelerle tanışmasına imkân sağlamıştır."
+  },
+  "beeswax": {
+    "name": "Bal Mumu",
+    "desc": "Arılar antik çağlardan beri insanların dostudur. Mumlardan kalıplara, cilalardan yazı tabletlerine kadar çeşitli alanlarda kullanılan bal mumu, insan topluluğunun vazgeçilmez kaynaklarından biri olmuştur."
+  },
+  "slaves_goods": {
+    "name": "Köle",
+    "desc": "Köleler, Antik Çağ'dan beri alınıp satılabilen birer mal olarak görülmüştür. 16. yüzyılda Amerika kıtasındaki Avrupalıların plantasyonları için mümkün olan en ucuz iş gücü olarak görülmeye başlandıktan sonra kölelere duyulan talep büyük oranda artmıştır."
+  }
+}

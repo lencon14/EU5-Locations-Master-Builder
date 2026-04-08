@@ -1,0 +1,8910 @@
+{
+  "DUMMY": {
+    "name": "(플레이스홀더)",
+    "desc": ""
+  },
+  "PIR": {
+    "name": "해적단",
+    "desc": ""
+  },
+  "MER": {
+    "name": "용병단",
+    "desc": ""
+  },
+  "SWE": {
+    "name": "스웨덴",
+    "desc": ""
+  },
+  "DAN": {
+    "name": "덴마크",
+    "desc": ""
+  },
+  "SKE": {
+    "name": "스코네",
+    "desc": ""
+  },
+  "NOR": {
+    "name": "노르웨이",
+    "desc": ""
+  },
+  "FIN": {
+    "name": "핀란드",
+    "desc": ""
+  },
+  "BJA": {
+    "name": "뱌르미아",
+    "desc": ""
+  },
+  "TAV": {
+    "name": "타바스틀란드",
+    "desc": ""
+  },
+  "KVE": {
+    "name": "크벤란드",
+    "desc": ""
+  },
+  "SVO": {
+    "name": "사볼락스",
+    "desc": ""
+  },
+  "ICE": {
+    "name": "아이슬란드",
+    "desc": ""
+  },
+  "GRL": {
+    "name": "그린란드",
+    "desc": ""
+  },
+  "SMI": {
+    "name": "사미",
+    "desc": ""
+  },
+  "AHI": {
+    "name": "아히",
+    "desc": ""
+  },
+  "ALY": {
+    "name": "알라이예",
+    "desc": ""
+  },
+  "ATQ": {
+    "name": "아르투크",
+    "desc": ""
+  },
+  "AYD": {
+    "name": "아이딘",
+    "desc": ""
+  },
+  "BFR": {
+    "name": "바프라",
+    "desc": ""
+  },
+  "CIL": {
+    "name": "킬리키아",
+    "desc": ""
+  },
+  "CND": {
+    "name": "잔다르",
+    "desc": ""
+  },
+  "CYP": {
+    "name": "키프로스",
+    "desc": ""
+  },
+  "DIL": {
+    "name": "딜마치",
+    "desc": ""
+  },
+  "DUL": {
+    "name": "둘카디르",
+    "desc": ""
+  },
+  "ERE": {
+    "name": "에레트나",
+    "desc": ""
+  },
+  "GRM": {
+    "name": "게르미얀",
+    "desc": ""
+  },
+  "HMD": {
+    "name": "하미드",
+    "desc": ""
+  },
+  "HCI": {
+    "name": "하치에미르",
+    "desc": ""
+  },
+  "HSN": {
+    "name": "아이유브",
+    "desc": ""
+  },
+  "INA": {
+    "name": "이난치",
+    "desc": ""
+  },
+  "KAR": {
+    "name": "카라만",
+    "desc": ""
+  },
+  "KBD": {
+    "name": "쿠바디",
+    "desc": ""
+  },
+  "KRD": {
+    "name": "카라시",
+    "desc": ""
+  },
+  "MEN": {
+    "name": "멘테셰",
+    "desc": ""
+  },
+  "SHP": {
+    "name": "사히브 아타",
+    "desc": ""
+  },
+  "SRU": {
+    "name": "사루한",
+    "desc": ""
+  },
+  "SUT": {
+    "name": "수타이",
+    "desc": ""
+  },
+  "TDJ": {
+    "name": "타체틴",
+    "desc": ""
+  },
+  "TEK": {
+    "name": "테케",
+    "desc": ""
+  },
+  "TRE": {
+    "name": "트라페준타",
+    "desc": ""
+  },
+  "TUR": {
+    "name": "오스만",
+    "desc": ""
+  },
+  "BHT": {
+    "name": "보탄",
+    "desc": ""
+  },
+  "BIN": {
+    "name": "차팍쿠르",
+    "desc": ""
+  },
+  "BIT": {
+    "name": "비틀리스",
+    "desc": ""
+  },
+  "CEM": {
+    "name": "체미슈게제크",
+    "desc": ""
+  },
+  "DSN": {
+    "name": "다스니",
+    "desc": ""
+  },
+  "DMB": {
+    "name": "돔볼리-보크트",
+    "desc": ""
+  },
+  "EGL": {
+    "name": "에길",
+    "desc": ""
+  },
+  "HKK": {
+    "name": "하카리",
+    "desc": ""
+  },
+  "HZN": {
+    "name": "히잔",
+    "desc": ""
+  },
+  "HZR": {
+    "name": "하즈로",
+    "desc": ""
+  },
+  "JLM": {
+    "name": "졸마크",
+    "desc": ""
+  },
+  "MZJ": {
+    "name": "마젠자니",
+    "desc": ""
+  },
+  "MUS": {
+    "name": "무스",
+    "desc": ""
+  },
+  "SOH": {
+    "name": "소흐리",
+    "desc": ""
+  },
+  "ZRQ": {
+    "name": "지르칸",
+    "desc": ""
+  },
+  "ZZR": {
+    "name": "제르자리",
+    "desc": ""
+  },
+  "KIL": {
+    "name": "킬리스",
+    "desc": ""
+  },
+  "TVS": {
+    "name": "타바스",
+    "desc": ""
+  },
+  "QTO": {
+    "name": "키토",
+    "desc": ""
+  },
+  "CHM": {
+    "name": "치무",
+    "desc": ""
+  },
+  "XLL": {
+    "name": "슐랑",
+    "desc": ""
+  },
+  "CYA": {
+    "name": "사차프쿨라",
+    "desc": ""
+  },
+  "TLN": {
+    "name": "탈란",
+    "desc": ""
+  },
+  "ICM": {
+    "name": "이크마",
+    "desc": ""
+  },
+  "WAN": {
+    "name": "완카",
+    "desc": ""
+  },
+  "HNK": {
+    "name": "하난 창카",
+    "desc": ""
+  },
+  "URC": {
+    "name": "우린 창카",
+    "desc": ""
+  },
+  "CIC": {
+    "name": "친차",
+    "desc": ""
+  },
+  "CSU": {
+    "name": "하난 쿠스코",
+    "desc": ""
+  },
+  "AYA": {
+    "name": "아야르마카",
+    "desc": ""
+  },
+  "PIG": {
+    "name": "피나과",
+    "desc": ""
+  },
+  "PCJ": {
+    "name": "파카 자키스",
+    "desc": ""
+  },
+  "LUP": {
+    "name": "루피자키",
+    "desc": ""
+  },
+  "OMG": {
+    "name": "오마과카",
+    "desc": ""
+  },
+  "CAV": {
+    "name": "칼바",
+    "desc": ""
+  },
+  "MLT": {
+    "name": "말라카토",
+    "desc": ""
+  },
+  "GRR": {
+    "name": "가로참바",
+    "desc": ""
+  },
+  "MNT": {
+    "name": "만타",
+    "desc": ""
+  },
+  "GCV": {
+    "name": "관카빌카",
+    "desc": ""
+  },
+  "BBA": {
+    "name": "바바",
+    "desc": ""
+  },
+  "SLL": {
+    "name": "샤발룰라",
+    "desc": ""
+  },
+  "HKR": {
+    "name": "하툰 카냐르",
+    "desc": ""
+  },
+  "CAX": {
+    "name": "카라",
+    "desc": ""
+  },
+  "PUU": {
+    "name": "푸루아",
+    "desc": ""
+  },
+  "CRA": {
+    "name": "차르카",
+    "desc": ""
+  },
+  "KNA": {
+    "name": "카나",
+    "desc": ""
+  },
+  "KRK": {
+    "name": "카란카",
+    "desc": ""
+  },
+  "QUL": {
+    "name": "쿨라",
+    "desc": ""
+  },
+  "SUR": {
+    "name": "수라",
+    "desc": ""
+  },
+  "PUK": {
+    "name": "푸카무루",
+    "desc": ""
+  },
+  "BAG": {
+    "name": "바과",
+    "desc": ""
+  },
+  "HCH": {
+    "name": "우아마추코",
+    "desc": ""
+  },
+  "CUI": {
+    "name": "쿠이스만쿠",
+    "desc": ""
+  },
+  "HUA": {
+    "name": "우아일라스",
+    "desc": ""
+  },
+  "XAU": {
+    "name": "사우사",
+    "desc": ""
+  },
+  "CSA": {
+    "name": "카스마",
+    "desc": ""
+  },
+  "CLQ": {
+    "name": "콜리케",
+    "desc": ""
+  },
+  "NTA": {
+    "name": "칸타",
+    "desc": ""
+  },
+  "ATV": {
+    "name": "아타비요스",
+    "desc": ""
+  },
+  "YAW": {
+    "name": "야우유",
+    "desc": ""
+  },
+  "CCY": {
+    "name": "찬카이",
+    "desc": ""
+  },
+  "HPP": {
+    "name": "우안카팜파",
+    "desc": ""
+  },
+  "HCR": {
+    "name": "우아크라추코",
+    "desc": ""
+  },
+  "HRC": {
+    "name": "와르코",
+    "desc": ""
+  },
+  "SRA": {
+    "name": "소라",
+    "desc": ""
+  },
+  "MYM": {
+    "name": "마욘마르카",
+    "desc": ""
+  },
+  "PCR": {
+    "name": "포크라",
+    "desc": ""
+  },
+  "PCO": {
+    "name": "파리나코차",
+    "desc": ""
+  },
+  "ANI": {
+    "name": "아루니",
+    "desc": ""
+  },
+  "CHJ": {
+    "name": "추라혼",
+    "desc": ""
+  },
+  "CBY": {
+    "name": "치리바야",
+    "desc": ""
+  },
+  "CNC": {
+    "name": "칸치",
+    "desc": ""
+  },
+  "LLG": {
+    "name": "코야과",
+    "desc": ""
+  },
+  "AMN": {
+    "name": "카마나",
+    "desc": ""
+  },
+  "UMA": {
+    "name": "우마수유스",
+    "desc": ""
+  },
+  "QQH": {
+    "name": "카라 카라",
+    "desc": ""
+  },
+  "CCT": {
+    "name": "칸투마르카니",
+    "desc": ""
+  },
+  "TUP": {
+    "name": "투피사",
+    "desc": ""
+  },
+  "CHW": {
+    "name": "추위",
+    "desc": ""
+  },
+  "KWY": {
+    "name": "칼라와야",
+    "desc": ""
+  },
+  "KLL": {
+    "name": "킬라카",
+    "desc": ""
+  },
+  "KKE": {
+    "name": "킬케",
+    "desc": ""
+  },
+  "CNO": {
+    "name": "초노",
+    "desc": ""
+  },
+  "BAU": {
+    "name": "바우레",
+    "desc": ""
+  },
+  "ALC": {
+    "name": "알렌티악",
+    "desc": ""
+  },
+  "MYC": {
+    "name": "밀카야크",
+    "desc": ""
+  },
+  "PHE": {
+    "name": "피쿤체",
+    "desc": ""
+  },
+  "CPU": {
+    "name": "쿠킴푸",
+    "desc": ""
+  },
+  "CYC": {
+    "name": "코파야쿠",
+    "desc": ""
+  },
+  "CCH": {
+    "name": "칼차키",
+    "desc": ""
+  },
+  "QIM": {
+    "name": "키메스",
+    "desc": ""
+  },
+  "QTR": {
+    "name": "키토르",
+    "desc": ""
+  },
+  "YEM": {
+    "name": "예멘",
+    "desc": ""
+  },
+  "JRW": {
+    "name": "자르완",
+    "desc": ""
+  },
+  "OMA": {
+    "name": "오만",
+    "desc": ""
+  },
+  "MEC": {
+    "name": "메카",
+    "desc": ""
+  },
+  "SHM": {
+    "name": "샴마르",
+    "desc": ""
+  },
+  "ANZ": {
+    "name": "아니자",
+    "desc": ""
+  },
+  "HUT": {
+    "name": "후타임",
+    "desc": ""
+  },
+  "HRB": {
+    "name": "하르브",
+    "desc": ""
+  },
+  "MUT": {
+    "name": "무타이르",
+    "desc": ""
+  },
+  "UTB": {
+    "name": "오타이바흐",
+    "desc": ""
+  },
+  "DWS": {
+    "name": "다와시르",
+    "desc": ""
+  },
+  "QHT": {
+    "name": "까흐탄",
+    "desc": ""
+  },
+  "SBY": {
+    "name": "수바이",
+    "desc": ""
+  },
+  "MRH": {
+    "name": "알 무라흐",
+    "desc": ""
+  },
+  "YAM": {
+    "name": "얌",
+    "desc": ""
+  },
+  "YAS": {
+    "name": "야스",
+    "desc": ""
+  },
+  "MDA": {
+    "name": "메디나",
+    "desc": ""
+  },
+  "KLB": {
+    "name": "킬랍",
+    "desc": ""
+  },
+  "AAD": {
+    "name": "알 아이드",
+    "desc": ""
+  },
+  "BNL": {
+    "name": "람",
+    "desc": ""
+  },
+  "AZF": {
+    "name": "알자피르",
+    "desc": ""
+  },
+  "ZIB": {
+    "name": "지브",
+    "desc": ""
+  },
+  "DHF": {
+    "name": "도파르",
+    "desc": ""
+  },
+  "ACX": {
+    "name": "아카시",
+    "desc": ""
+  },
+  "COP": {
+    "name": "샤윌출 쿠냐차와이",
+    "desc": ""
+  },
+  "GUC": {
+    "name": "쿠아우치칠",
+    "desc": ""
+  },
+  "YRM": {
+    "name": "요레메",
+    "desc": ""
+  },
+  "EUD": {
+    "name": "에우데베",
+    "desc": ""
+  },
+  "TGU": {
+    "name": "테귀스",
+    "desc": ""
+  },
+  "JOV": {
+    "name": "조바스",
+    "desc": ""
+  },
+  "TEG": {
+    "name": "테귀마",
+    "desc": ""
+  },
+  "CNH": {
+    "name": "카위나치스",
+    "desc": ""
+  },
+  "PIM": {
+    "name": "아키멜 오오담",
+    "desc": ""
+  },
+  "HHK": {
+    "name": "호호캄",
+    "desc": ""
+  },
+  "SOB": {
+    "name": "소바이푸리",
+    "desc": ""
+  },
+  "TOO": {
+    "name": "토호노 오오담",
+    "desc": ""
+  },
+  "OOB": {
+    "name": "오옵",
+    "desc": ""
+  },
+  "RAR": {
+    "name": "라라무리",
+    "desc": ""
+  },
+  "YAQ": {
+    "name": "야키",
+    "desc": ""
+  },
+  "HOP": {
+    "name": "호피",
+    "desc": ""
+  },
+  "DNE": {
+    "name": "디네",
+    "desc": ""
+  },
+  "ZNI": {
+    "name": "주니",
+    "desc": ""
+  },
+  "TEY": {
+    "name": "테이파나",
+    "desc": ""
+  },
+  "ISL": {
+    "name": "쉬에휘박",
+    "desc": ""
+  },
+  "ACO": {
+    "name": "아아쿠",
+    "desc": ""
+  },
+  "KER": {
+    "name": "치야",
+    "desc": ""
+  },
+  "TNN": {
+    "name": "타노",
+    "desc": ""
+  },
+  "TAO": {
+    "name": "이아츌로파이보",
+    "desc": ""
+  },
+  "TST": {
+    "name": "투프 슈르 티아",
+    "desc": ""
+  },
+  "OHK": {
+    "name": "오크위 오윈게",
+    "desc": ""
+  },
+  "TTR": {
+    "name": "토토라메",
+    "desc": ""
+  },
+  "XIX": {
+    "name": "시시메",
+    "desc": ""
+  },
+  "TAE": {
+    "name": "타우에",
+    "desc": ""
+  },
+  "GUV": {
+    "name": "과사베",
+    "desc": ""
+  },
+  "TPH": {
+    "name": "테페우안",
+    "desc": ""
+  },
+  "XUM": {
+    "name": "슈마노스",
+    "desc": ""
+  },
+  "TML": {
+    "name": "타마울리테코",
+    "desc": ""
+  },
+  "CAD": {
+    "name": "아시이나이",
+    "desc": ""
+  },
+  "KIH": {
+    "name": "키타이시",
+    "desc": ""
+  },
+  "HTS": {
+    "name": "히사치놈",
+    "desc": ""
+  },
+  "NUW": {
+    "name": "누우비",
+    "desc": ""
+  },
+  "NWV": {
+    "name": "누우부",
+    "desc": ""
+  },
+  "CRO": {
+    "name": "크로아티아",
+    "desc": ""
+  },
+  "ACH": {
+    "name": "아카이아",
+    "desc": ""
+  },
+  "ATH": {
+    "name": "아테네",
+    "desc": ""
+  },
+  "CEP": {
+    "name": "케팔로니아",
+    "desc": ""
+  },
+  "LAT": {
+    "name": "콘스탄티노플",
+    "desc": ""
+  },
+  "NAX": {
+    "name": "낙소스",
+    "desc": ""
+  },
+  "EPI": {
+    "name": "에페이로스",
+    "desc": ""
+  },
+  "BYZ": {
+    "name": "비잔티움",
+    "desc": ""
+  },
+  "THE": {
+    "name": "테살로니카",
+    "desc": ""
+  },
+  "THS": {
+    "name": "테살리아",
+    "desc": ""
+  },
+  "SER": {
+    "name": "세르비아",
+    "desc": ""
+  },
+  "ALB": {
+    "name": "알바니아",
+    "desc": ""
+  },
+  "THP": {
+    "name": "토피아",
+    "desc": ""
+  },
+  "MZK": {
+    "name": "무자카",
+    "desc": ""
+  },
+  "ANT": {
+    "name": "아리아니티",
+    "desc": ""
+  },
+  "MTR": {
+    "name": "마타랑가",
+    "desc": ""
+  },
+  "BOS": {
+    "name": "보스니아",
+    "desc": ""
+  },
+  "RAG": {
+    "name": "라구사",
+    "desc": ""
+  },
+  "BUL": {
+    "name": "불가리아",
+    "desc": ""
+  },
+  "VID": {
+    "name": "비딘",
+    "desc": ""
+  },
+  "CLI": {
+    "name": "첼레",
+    "desc": ""
+  },
+  "NEO": {
+    "name": "네오파트리아",
+    "desc": ""
+  },
+  "BOD": {
+    "name": "보도니차",
+    "desc": ""
+  },
+  "ARG": {
+    "name": "아르고스",
+    "desc": ""
+  },
+  "KNI": {
+    "name": "구호 수도회",
+    "desc": ""
+  },
+  "CRT": {
+    "name": "칸디아",
+    "desc": ""
+  },
+  "NEG": {
+    "name": "네그로폰테",
+    "desc": ""
+  },
+  "SAO": {
+    "name": "살로나",
+    "desc": ""
+  },
+  "CAR": {
+    "name": "카르니올라",
+    "desc": ""
+  },
+  "TRO": {
+    "name": "트라부니아",
+    "desc": ""
+  },
+  "GOR": {
+    "name": "고리치아",
+    "desc": ""
+  },
+  "LIV": {
+    "name": "리보니아",
+    "desc": ""
+  },
+  "TEU": {
+    "name": "튜튼",
+    "desc": ""
+  },
+  "ERM": {
+    "name": "바르미아",
+    "desc": ""
+  },
+  "CHL": {
+    "name": "헤움노",
+    "desc": ""
+  },
+  "PMS": {
+    "name": "포메사니아",
+    "desc": ""
+  },
+  "SMD": {
+    "name": "자믈란트",
+    "desc": ""
+  },
+  "BIO": {
+    "name": "외젤",
+    "desc": ""
+  },
+  "KUR": {
+    "name": "쿠를란트",
+    "desc": ""
+  },
+  "BID": {
+    "name": "도르파트",
+    "desc": ""
+  },
+  "RIG": {
+    "name": "리가",
+    "desc": ""
+  },
+  "ARR": {
+    "name": "리가 라트비아",
+    "desc": ""
+  },
+  "KRL": {
+    "name": "카렐리아",
+    "desc": ""
+  },
+  "LIT": {
+    "name": "리투아니아",
+    "desc": ""
+  },
+  "SXM": {
+    "name": "사모기티아",
+    "desc": ""
+  },
+  "SGN": {
+    "name": "소나르가온",
+    "desc": ""
+  },
+  "GAU": {
+    "name": "가우르",
+    "desc": ""
+  },
+  "STN": {
+    "name": "삽타그람",
+    "desc": ""
+  },
+  "AHO": {
+    "name": "아홈",
+    "desc": ""
+  },
+  "KMA": {
+    "name": "카마타",
+    "desc": ""
+  },
+  "DIM": {
+    "name": "디마사",
+    "desc": ""
+  },
+  "TWI": {
+    "name": "트위프라",
+    "desc": ""
+  },
+  "CUT": {
+    "name": "추티아",
+    "desc": ""
+  },
+  "JNT": {
+    "name": "자인티아",
+    "desc": ""
+  },
+  "TRF": {
+    "name": "타라프",
+    "desc": ""
+  },
+  "LUR": {
+    "name": "라우르",
+    "desc": ""
+  },
+  "BHP": {
+    "name": "말라붐",
+    "desc": ""
+  },
+  "CER": {
+    "name": "체로",
+    "desc": ""
+  },
+  "UJJ": {
+    "name": "우자이니야",
+    "desc": ""
+  },
+  "RKS": {
+    "name": "락셀",
+    "desc": ""
+  },
+  "ONW": {
+    "name": "오이니와르",
+    "desc": ""
+  },
+  "KKR": {
+    "name": "코크라",
+    "desc": ""
+  },
+  "GWL": {
+    "name": "가르왈",
+    "desc": ""
+  },
+  "KHS": {
+    "name": "카사",
+    "desc": ""
+  },
+  "KMN": {
+    "name": "쿠마온",
+    "desc": ""
+  },
+  "KTU": {
+    "name": "카트만두",
+    "desc": ""
+  },
+  "DTI": {
+    "name": "도티",
+    "desc": ""
+  },
+  "SRM": {
+    "name": "나한",
+    "desc": ""
+  },
+  "JBL": {
+    "name": "주발",
+    "desc": ""
+  },
+  "LWA": {
+    "name": "림부완",
+    "desc": ""
+  },
+  "CDD": {
+    "name": "차운단디",
+    "desc": ""
+  },
+  "DGL": {
+    "name": "몰디브",
+    "desc": ""
+  },
+  "KUI": {
+    "name": "쿠이쿠로",
+    "desc": ""
+  },
+  "MRJ": {
+    "name": "마라조아라",
+    "desc": ""
+  },
+  "TPA": {
+    "name": "투피남바",
+    "desc": ""
+  },
+  "TPQ": {
+    "name": "투피니킹",
+    "desc": ""
+  },
+  "CRJ": {
+    "name": "카리조",
+    "desc": ""
+  },
+  "NDV": {
+    "name": "난데바",
+    "desc": ""
+  },
+  "KIO": {
+    "name": "카이오와",
+    "desc": ""
+  },
+  "XTA": {
+    "name": "셰타",
+    "desc": ""
+  },
+  "AVA": {
+    "name": "아바",
+    "desc": ""
+  },
+  "GCZ": {
+    "name": "고이타카스",
+    "desc": ""
+  },
+  "AIM": {
+    "name": "아이모레",
+    "desc": ""
+  },
+  "KRR": {
+    "name": "키리리",
+    "desc": ""
+  },
+  "CAE": {
+    "name": "카에테",
+    "desc": ""
+  },
+  "SUC": {
+    "name": "수쿠루",
+    "desc": ""
+  },
+  "POT": {
+    "name": "포티구아라",
+    "desc": ""
+  },
+  "ENG": {
+    "name": "잉글랜드",
+    "desc": ""
+  },
+  "SCO": {
+    "name": "스코틀랜드",
+    "desc": ""
+  },
+  "SBL": {
+    "name": "발리올",
+    "desc": ""
+  },
+  "CLA": {
+    "name": "클랜더보이",
+    "desc": ""
+  },
+  "CLR": {
+    "name": "클랜리카르드",
+    "desc": ""
+  },
+  "CWM": {
+    "name": "클랜윌리엄",
+    "desc": ""
+  },
+  "ULS": {
+    "name": "얼스터",
+    "desc": ""
+  },
+  "ORD": {
+    "name": "오먼드",
+    "desc": ""
+  },
+  "DMS": {
+    "name": "데스먼드",
+    "desc": ""
+  },
+  "KID": {
+    "name": "킬데어",
+    "desc": ""
+  },
+  "BEA": {
+    "name": "베아라",
+    "desc": ""
+  },
+  "CMA": {
+    "name": "서코노트",
+    "desc": ""
+  },
+  "UMH": {
+    "name": "오윌",
+    "desc": ""
+  },
+  "OSS": {
+    "name": "오소리",
+    "desc": ""
+  },
+  "MCM": {
+    "name": "먼스터",
+    "desc": ""
+  },
+  "OIL": {
+    "name": "오리엘",
+    "desc": ""
+  },
+  "AMA": {
+    "name": "아르마",
+    "desc": ""
+  },
+  "DHM": {
+    "name": "더럼",
+    "desc": ""
+  },
+  "CET": {
+    "name": "체스터",
+    "desc": ""
+  },
+  "LAN": {
+    "name": "랭커스터",
+    "desc": ""
+  },
+  "CNN": {
+    "name": "코노트",
+    "desc": ""
+  },
+  "MTH": {
+    "name": "미스",
+    "desc": ""
+  },
+  "ANN": {
+    "name": "애널리",
+    "desc": ""
+  },
+  "PLE": {
+    "name": "페일",
+    "desc": ""
+  },
+  "WLS": {
+    "name": "웨일스",
+    "desc": ""
+  },
+  "TYR": {
+    "name": "타이론",
+    "desc": ""
+  },
+  "AMH": {
+    "name": "아르드마이어",
+    "desc": ""
+  },
+  "INI": {
+    "name": "이니쇼언",
+    "desc": ""
+  },
+  "LEI": {
+    "name": "렌스터",
+    "desc": ""
+  },
+  "TRY": {
+    "name": "티르코넬",
+    "desc": ""
+  },
+  "GLS": {
+    "name": "글렌즈",
+    "desc": ""
+  },
+  "IVG": {
+    "name": "아이베",
+    "desc": ""
+  },
+  "HYM": {
+    "name": "하이 매니",
+    "desc": ""
+  },
+  "IMA": {
+    "name": "이말",
+    "desc": ""
+  },
+  "DCI": {
+    "name": "데시스",
+    "desc": ""
+  },
+  "TGH": {
+    "name": "티레라",
+    "desc": ""
+  },
+  "ELY": {
+    "name": "일리",
+    "desc": ""
+  },
+  "FCL": {
+    "name": "피르컬",
+    "desc": ""
+  },
+  "LOI": {
+    "name": "군도",
+    "desc": ""
+  },
+  "FMA": {
+    "name": "페르마나",
+    "desc": ""
+  },
+  "BFN": {
+    "name": "서브레프니",
+    "desc": ""
+  },
+  "CVN": {
+    "name": "동브레프니",
+    "desc": ""
+  },
+  "MYO": {
+    "name": "메이요",
+    "desc": ""
+  },
+  "THO": {
+    "name": "토먼드",
+    "desc": ""
+  },
+  "SLN": {
+    "name": "카버리",
+    "desc": ""
+  },
+  "FLY": {
+    "name": "오팔리",
+    "desc": ""
+  },
+  "CRN": {
+    "name": "콘월",
+    "desc": ""
+  },
+  "GWR": {
+    "name": "고웨르",
+    "desc": ""
+  },
+  "GMG": {
+    "name": "글러모건",
+    "desc": ""
+  },
+  "MAC": {
+    "name": "마르치",
+    "desc": ""
+  },
+  "AUD": {
+    "name": "아룬델",
+    "desc": ""
+  },
+  "BRO": {
+    "name": "브레크녹",
+    "desc": ""
+  },
+  "POS": {
+    "name": "포이스",
+    "desc": ""
+  },
+  "EWY": {
+    "name": "에위아스",
+    "desc": ""
+  },
+  "CMS": {
+    "name": "케마이스",
+    "desc": ""
+  },
+  "PMB": {
+    "name": "펨브로크",
+    "desc": ""
+  },
+  "DEN": {
+    "name": "덴비그흐",
+    "desc": ""
+  },
+  "GDD": {
+    "name": "귀네드",
+    "desc": ""
+  },
+  "PWS": {
+    "name": "포이스",
+    "desc": ""
+  },
+  "DHB": {
+    "name": "데헤이바쓰",
+    "desc": ""
+  },
+  "MWG": {
+    "name": "모르간누그",
+    "desc": ""
+  },
+  "BCN": {
+    "name": "브러허이뇨그",
+    "desc": ""
+  },
+  "GWT": {
+    "name": "그웬트",
+    "desc": ""
+  },
+  "MNN": {
+    "name": "맨",
+    "desc": ""
+  },
+  "ORK": {
+    "name": "오크니",
+    "desc": ""
+  },
+  "MOY": {
+    "name": "모레이",
+    "desc": ""
+  },
+  "ROS": {
+    "name": "로스",
+    "desc": ""
+  },
+  "NOL": {
+    "name": "노섬벌랜드",
+    "desc": ""
+  },
+  "GLY": {
+    "name": "갤러웨이",
+    "desc": ""
+  },
+  "TRT": {
+    "name": "타온타엔랏",
+    "desc": ""
+  },
+  "AGW": {
+    "name": "아티그나완탄",
+    "desc": ""
+  },
+  "ARN": {
+    "name": "아렌다로논",
+    "desc": ""
+  },
+  "ATG": {
+    "name": "아티그니농나학",
+    "desc": ""
+  },
+  "ATC": {
+    "name": "아타론크로논",
+    "desc": ""
+  },
+  "ADR": {
+    "name": "아온디로논",
+    "desc": ""
+  },
+  "ONG": {
+    "name": "옹니아아라",
+    "desc": ""
+  },
+  "TIO": {
+    "name": "티오논타테",
+    "desc": ""
+  },
+  "OSG": {
+    "name": "오셰아가",
+    "desc": ""
+  },
+  "MAS": {
+    "name": "마이수나",
+    "desc": ""
+  },
+  "STD": {
+    "name": "스타다코나",
+    "desc": ""
+  },
+  "AGJ": {
+    "name": "아고주다",
+    "desc": ""
+  },
+  "SOK": {
+    "name": "마지프스코이악",
+    "desc": ""
+  },
+  "PNS": {
+    "name": "아로사군타쿡",
+    "desc": ""
+  },
+  "MLS": {
+    "name": "월라스토크웨위윅",
+    "desc": ""
+  },
+  "AKW": {
+    "name": "아티카메크",
+    "desc": ""
+  },
+  "TMG": {
+    "name": "테미카밍",
+    "desc": ""
+  },
+  "ABT": {
+    "name": "아비티비",
+    "desc": ""
+  },
+  "OJI": {
+    "name": "오지브웨",
+    "desc": ""
+  },
+  "ODW": {
+    "name": "오다와",
+    "desc": ""
+  },
+  "NPS": {
+    "name": "니입싱",
+    "desc": ""
+  },
+  "MSG": {
+    "name": "미시사게",
+    "desc": ""
+  },
+  "HUN": {
+    "name": "헝가리",
+    "desc": ""
+  },
+  "WAL": {
+    "name": "왈라키아",
+    "desc": ""
+  },
+  "BIA": {
+    "name": "바이아",
+    "desc": ""
+  },
+  "BLD": {
+    "name": "브를라드",
+    "desc": ""
+  },
+  "HTN": {
+    "name": "호틴",
+    "desc": ""
+  },
+  "HSC": {
+    "name": "한스카",
+    "desc": ""
+  },
+  "IAS": {
+    "name": "이아시",
+    "desc": ""
+  },
+  "SRC": {
+    "name": "소로카",
+    "desc": ""
+  },
+  "SSI": {
+    "name": "스트러시네츠",
+    "desc": ""
+  },
+  "TRA": {
+    "name": "트란실바니아",
+    "desc": ""
+  },
+  "GEO": {
+    "name": "조지아",
+    "desc": ""
+  },
+  "AAI": {
+    "name": "알라스타니",
+    "desc": ""
+  },
+  "IME": {
+    "name": "이메레티",
+    "desc": ""
+  },
+  "SME": {
+    "name": "삼츠헤",
+    "desc": ""
+  },
+  "SRV": {
+    "name": "시르반",
+    "desc": ""
+  },
+  "AVR": {
+    "name": "아바리아",
+    "desc": ""
+  },
+  "TRK": {
+    "name": "타르키",
+    "desc": ""
+  },
+  "ARM": {
+    "name": "아르메니아",
+    "desc": ""
+  },
+  "AMB": {
+    "name": "암베르드",
+    "desc": ""
+  },
+  "VDZ": {
+    "name": "바요츠조르",
+    "desc": ""
+  },
+  "CIR": {
+    "name": "체르케스",
+    "desc": ""
+  },
+  "CPA": {
+    "name": "코파",
+    "desc": ""
+  },
+  "HTY": {
+    "name": "하투카이",
+    "desc": ""
+  },
+  "HYT": {
+    "name": "히투크",
+    "desc": ""
+  },
+  "KDA": {
+    "name": "카바르디아",
+    "desc": ""
+  },
+  "KIP": {
+    "name": "키피케",
+    "desc": ""
+  },
+  "TEM": {
+    "name": "테미르고이",
+    "desc": ""
+  },
+  "SKI": {
+    "name": "셰키",
+    "desc": ""
+  },
+  "KCN": {
+    "name": "카첸",
+    "desc": ""
+  },
+  "SYU": {
+    "name": "슈니크",
+    "desc": ""
+  },
+  "ALN": {
+    "name": "알라니아",
+    "desc": ""
+  },
+  "DZK": {
+    "name": "두르주케티아",
+    "desc": ""
+  },
+  "SMS": {
+    "name": "심시르",
+    "desc": ""
+  },
+  "KAI": {
+    "name": "카이타그",
+    "desc": ""
+  },
+  "LEK": {
+    "name": "레키아",
+    "desc": ""
+  },
+  "RUT": {
+    "name": "루툴",
+    "desc": ""
+  },
+  "TBA": {
+    "name": "타바사란",
+    "desc": ""
+  },
+  "HAA": {
+    "name": "하아니닌",
+    "desc": ""
+  },
+  "ASH": {
+    "name": "아샬라호",
+    "desc": ""
+  },
+  "ASP": {
+    "name": "아시시피테",
+    "desc": ""
+  },
+  "KTK": {
+    "name": "키티키티시",
+    "desc": ""
+  },
+  "TVY": {
+    "name": "타오바야",
+    "desc": ""
+  },
+  "PTW": {
+    "name": "피타와리타",
+    "desc": ""
+  },
+  "KIA": {
+    "name": "킷케하키",
+    "desc": ""
+  },
+  "SII": {
+    "name": "스키리",
+    "desc": ""
+  },
+  "TSW": {
+    "name": "차위",
+    "desc": ""
+  },
+  "SHH": {
+    "name": "사니시",
+    "desc": ""
+  },
+  "NUE": {
+    "name": "누마카키",
+    "desc": ""
+  },
+  "HIR": {
+    "name": "히라차",
+    "desc": ""
+  },
+  "PCH": {
+    "name": "파카하",
+    "desc": ""
+  },
+  "CSQ": {
+    "name": "카스키",
+    "desc": ""
+  },
+  "ANL": {
+    "name": "아닐코",
+    "desc": ""
+  },
+  "COL": {
+    "name": "콜리과",
+    "desc": ""
+  },
+  "CYS": {
+    "name": "타니코",
+    "desc": ""
+  },
+  "CTI": {
+    "name": "치티머샤",
+    "desc": ""
+  },
+  "BYG": {
+    "name": "바야굴라",
+    "desc": ""
+  },
+  "NST": {
+    "name": "나시투시",
+    "desc": ""
+  },
+  "AVY": {
+    "name": "아보옐",
+    "desc": ""
+  },
+  "KDW": {
+    "name": "카다우다추",
+    "desc": ""
+  },
+  "TUA": {
+    "name": "툴라",
+    "desc": ""
+  },
+  "ISH": {
+    "name": "이샤크",
+    "desc": ""
+  },
+  "QMG": {
+    "name": "쿠아스미그도",
+    "desc": ""
+  },
+  "TWK": {
+    "name": "타와코니",
+    "desc": ""
+  },
+  "HNO": {
+    "name": "히노노에이노",
+    "desc": ""
+  },
+  "NWN": {
+    "name": "난우이네난",
+    "desc": ""
+  },
+  "NDA": {
+    "name": "나코다",
+    "desc": ""
+  },
+  "LKT": {
+    "name": "라코타",
+    "desc": ""
+  },
+  "IKW": {
+    "name": "이탱크툰와나",
+    "desc": ""
+  },
+  "IUW": {
+    "name": "이택툰완",
+    "desc": ""
+  },
+  "NCH": {
+    "name": "니우아치",
+    "desc": ""
+  },
+  "NKW": {
+    "name": "나카웨",
+    "desc": ""
+  },
+  "TTS": {
+    "name": "체체헤사헤세",
+    "desc": ""
+  },
+  "SOO": {
+    "name": "수타이오",
+    "desc": ""
+  },
+  "BKT": {
+    "name": "브데웨칸툰완",
+    "desc": ""
+  },
+  "STW": {
+    "name": "시시툰완",
+    "desc": ""
+  },
+  "WKH": {
+    "name": "와페쿠테",
+    "desc": ""
+  },
+  "WPW": {
+    "name": "와페툰완",
+    "desc": ""
+  },
+  "MIK": {
+    "name": "미크맥",
+    "desc": ""
+  },
+  "PEN": {
+    "name": "페놉스콧",
+    "desc": ""
+  },
+  "PQD": {
+    "name": "파사마쿼디",
+    "desc": ""
+  },
+  "WSK": {
+    "name": "웨스카리니",
+    "desc": ""
+  },
+  "KSP": {
+    "name": "키체시피리니",
+    "desc": ""
+  },
+  "KUS": {
+    "name": "쿠스카탄",
+    "desc": ""
+  },
+  "QUA": {
+    "name": "쿠아우테말란",
+    "desc": ""
+  },
+  "LNC": {
+    "name": "렌카",
+    "desc": ""
+  },
+  "XIN": {
+    "name": "신카",
+    "desc": ""
+  },
+  "GAR": {
+    "name": "가라비토",
+    "desc": ""
+  },
+  "GUO": {
+    "name": "과르코",
+    "desc": ""
+  },
+  "PAC": {
+    "name": "파카카",
+    "desc": ""
+  },
+  "NEK": {
+    "name": "네콕 야오틀",
+    "desc": ""
+  },
+  "CTO": {
+    "name": "코토",
+    "desc": ""
+  },
+  "TRC": {
+    "name": "타리아카",
+    "desc": ""
+  },
+  "CBC": {
+    "name": "카베카르",
+    "desc": ""
+  },
+  "MOX": {
+    "name": "목소",
+    "desc": ""
+  },
+  "MPC": {
+    "name": "마푸체",
+    "desc": ""
+  },
+  "CUA": {
+    "name": "차루아",
+    "desc": ""
+  },
+  "TAI": {
+    "name": "타이로나",
+    "desc": ""
+  },
+  "ZIP": {
+    "name": "무이키타",
+    "desc": ""
+  },
+  "ZAQ": {
+    "name": "춘수아",
+    "desc": ""
+  },
+  "ZEN": {
+    "name": "세누",
+    "desc": ""
+  },
+  "QBY": {
+    "name": "킴바야",
+    "desc": ""
+  },
+  "GYP": {
+    "name": "과유페",
+    "desc": ""
+  },
+  "CMG": {
+    "name": "쿠마나고토",
+    "desc": ""
+  },
+  "PMN": {
+    "name": "페몬",
+    "desc": ""
+  },
+  "CUC": {
+    "name": "쿠이카",
+    "desc": ""
+  },
+  "TTY": {
+    "name": "타투이",
+    "desc": ""
+  },
+  "THM": {
+    "name": "타하미",
+    "desc": ""
+  },
+  "NUT": {
+    "name": "누타베스",
+    "desc": ""
+  },
+  "PIJ": {
+    "name": "피하오",
+    "desc": ""
+  },
+  "COY": {
+    "name": "코야이마",
+    "desc": ""
+  },
+  "TAM": {
+    "name": "타마",
+    "desc": ""
+  },
+  "CIM": {
+    "name": "칼리마",
+    "desc": ""
+  },
+  "PUB": {
+    "name": "푸벤",
+    "desc": ""
+  },
+  "CML": {
+    "name": "치밀라",
+    "desc": ""
+  },
+  "TNO": {
+    "name": "마구아",
+    "desc": ""
+  },
+  "MAE": {
+    "name": "마리엔",
+    "desc": ""
+  },
+  "MGU": {
+    "name": "마구아나",
+    "desc": ""
+  },
+  "JRG": {
+    "name": "하라구아",
+    "desc": ""
+  },
+  "HGY": {
+    "name": "이궤이",
+    "desc": ""
+  },
+  "GAY": {
+    "name": "과이니아",
+    "desc": ""
+  },
+  "BRK": {
+    "name": "보리켄",
+    "desc": ""
+  },
+  "CBO": {
+    "name": "시보네이",
+    "desc": ""
+  },
+  "LCY": {
+    "name": "루카얀",
+    "desc": ""
+  },
+  "MCX": {
+    "name": "마코릭스",
+    "desc": ""
+  },
+  "CGY": {
+    "name": "시과요",
+    "desc": ""
+  },
+  "IGR": {
+    "name": "이그네리",
+    "desc": ""
+  },
+  "KGN": {
+    "name": "칼리나고",
+    "desc": ""
+  },
+  "AAL": {
+    "name": "알 알리",
+    "desc": ""
+  },
+  "AMR": {
+    "name": "알 미라",
+    "desc": ""
+  },
+  "DGE": {
+    "name": "되에르",
+    "desc": ""
+  },
+  "FDL": {
+    "name": "알 파들",
+    "desc": ""
+  },
+  "JAL": {
+    "name": "잘라이르",
+    "desc": ""
+  },
+  "HLL": {
+    "name": "힐라",
+    "desc": ""
+  },
+  "KOJ": {
+    "name": "예루살렘",
+    "desc": ""
+  },
+  "ARD": {
+    "name": "아르달란",
+    "desc": ""
+  },
+  "ATZ": {
+    "name": "아르타즈",
+    "desc": ""
+  },
+  "DML": {
+    "name": "돔볼리",
+    "desc": ""
+  },
+  "HBN": {
+    "name": "하스바니",
+    "desc": ""
+  },
+  "HDR": {
+    "name": "하두르",
+    "desc": ""
+  },
+  "HNY": {
+    "name": "하스누야",
+    "desc": ""
+  },
+  "IHB": {
+    "name": "이스파바드",
+    "desc": ""
+  },
+  "KLR": {
+    "name": "칼호르",
+    "desc": ""
+  },
+  "KTW": {
+    "name": "카르타위",
+    "desc": ""
+  },
+  "KEL": {
+    "name": "켈랄리",
+    "desc": ""
+  },
+  "KKL": {
+    "name": "칼할",
+    "desc": ""
+  },
+  "KRI": {
+    "name": "쿠라니",
+    "desc": ""
+  },
+  "MKW": {
+    "name": "메르케완",
+    "desc": ""
+  },
+  "RKL": {
+    "name": "란칼리",
+    "desc": ""
+  },
+  "SLI": {
+    "name": "사불리",
+    "desc": ""
+  },
+  "SYY": {
+    "name": "사키야",
+    "desc": ""
+  },
+  "ZBR": {
+    "name": "제바리",
+    "desc": ""
+  },
+  "AQQ": {
+    "name": "아그 코윤루",
+    "desc": ""
+  },
+  "QAR": {
+    "name": "카라 코윤루",
+    "desc": ""
+  },
+  "ZAN": {
+    "name": "킬와",
+    "desc": ""
+  },
+  "PTE": {
+    "name": "파테",
+    "desc": ""
+  },
+  "MLI": {
+    "name": "말린디",
+    "desc": ""
+  },
+  "INH": {
+    "name": "이냠바느",
+    "desc": ""
+  },
+  "SFA": {
+    "name": "소팔라",
+    "desc": ""
+  },
+  "MBA": {
+    "name": "몸바사",
+    "desc": ""
+  },
+  "GED": {
+    "name": "게디",
+    "desc": ""
+  },
+  "UGW": {
+    "name": "웅와나",
+    "desc": ""
+  },
+  "LAM": {
+    "name": "라무",
+    "desc": ""
+  },
+  "VOH": {
+    "name": "보헤마르",
+    "desc": ""
+  },
+  "NYM": {
+    "name": "보에니",
+    "desc": ""
+  },
+  "VIL": {
+    "name": "빌리",
+    "desc": ""
+  },
+  "TKE": {
+    "name": "바테케",
+    "desc": ""
+  },
+  "ABD": {
+    "name": "암분두",
+    "desc": ""
+  },
+  "CBD": {
+    "name": "카빈다",
+    "desc": ""
+  },
+  "YAK": {
+    "name": "야카",
+    "desc": ""
+  },
+  "CEW": {
+    "name": "체와",
+    "desc": ""
+  },
+  "PEM": {
+    "name": "펨바",
+    "desc": ""
+  },
+  "ZZB": {
+    "name": "잔지바르",
+    "desc": ""
+  },
+  "BMB": {
+    "name": "밤바오",
+    "desc": ""
+  },
+  "MOZ": {
+    "name": "모잠비크",
+    "desc": ""
+  },
+  "AGH": {
+    "name": "앙고시",
+    "desc": ""
+  },
+  "QLM": {
+    "name": "켈리마느",
+    "desc": ""
+  },
+  "ZMW": {
+    "name": "짐바브웨",
+    "desc": ""
+  },
+  "TNA": {
+    "name": "통가",
+    "desc": ""
+  },
+  "SEN": {
+    "name": "세나",
+    "desc": ""
+  },
+  "TSG": {
+    "name": "총가",
+    "desc": ""
+  },
+  "MNY": {
+    "name": "은다우",
+    "desc": ""
+  },
+  "ZEZ": {
+    "name": "제주루",
+    "desc": ""
+  },
+  "NBY": {
+    "name": "남비야",
+    "desc": ""
+  },
+  "TBK": {
+    "name": "툼부카",
+    "desc": ""
+  },
+  "MRA": {
+    "name": "마라비",
+    "desc": ""
+  },
+  "LDU": {
+    "name": "룬두",
+    "desc": ""
+  },
+  "MKU": {
+    "name": "마쿠아",
+    "desc": ""
+  },
+  "VAZ": {
+    "name": "바짐바",
+    "desc": ""
+  },
+  "MIR": {
+    "name": "이메리나",
+    "desc": ""
+  },
+  "NTL": {
+    "name": "마하장가",
+    "desc": ""
+  },
+  "MTO": {
+    "name": "마인티라노",
+    "desc": ""
+  },
+  "AHY": {
+    "name": "안초히히",
+    "desc": ""
+  },
+  "MHL": {
+    "name": "마힐라카",
+    "desc": ""
+  },
+  "IRD": {
+    "name": "이로도",
+    "desc": ""
+  },
+  "BMK": {
+    "name": "베마네비카",
+    "desc": ""
+  },
+  "ZFI": {
+    "name": "보히페노",
+    "desc": ""
+  },
+  "ABV": {
+    "name": "암보본타니",
+    "desc": ""
+  },
+  "MBD": {
+    "name": "마나본드로",
+    "desc": ""
+  },
+  "BTS": {
+    "name": "베치미사라카",
+    "desc": ""
+  },
+  "VEZ": {
+    "name": "베조",
+    "desc": ""
+  },
+  "SKA": {
+    "name": "사칼라바",
+    "desc": ""
+  },
+  "MNB": {
+    "name": "메나베",
+    "desc": ""
+  },
+  "BOI": {
+    "name": "보이나",
+    "desc": ""
+  },
+  "ANK": {
+    "name": "안탄카라나",
+    "desc": ""
+  },
+  "BEZ": {
+    "name": "베자노자노",
+    "desc": ""
+  },
+  "SIH": {
+    "name": "시하나카",
+    "desc": ""
+  },
+  "TND": {
+    "name": "탄드로이",
+    "desc": ""
+  },
+  "ATK": {
+    "name": "안테사카",
+    "desc": ""
+  },
+  "BAA": {
+    "name": "바라",
+    "desc": ""
+  },
+  "ATM": {
+    "name": "안테모로",
+    "desc": ""
+  },
+  "ATF": {
+    "name": "안타이파시",
+    "desc": ""
+  },
+  "ATB": {
+    "name": "안탐바호아카",
+    "desc": ""
+  },
+  "TAL": {
+    "name": "타날라",
+    "desc": ""
+  },
+  "BET": {
+    "name": "베칠레오",
+    "desc": ""
+  },
+  "KIT": {
+    "name": "키타라",
+    "desc": ""
+  },
+  "WNA": {
+    "name": "왕가",
+    "desc": ""
+  },
+  "BNY": {
+    "name": "부뇨로",
+    "desc": ""
+  },
+  "BUG": {
+    "name": "부간다",
+    "desc": ""
+  },
+  "BSG": {
+    "name": "부소가",
+    "desc": ""
+  },
+  "NKO": {
+    "name": "은코레",
+    "desc": ""
+  },
+  "RWA": {
+    "name": "르완다",
+    "desc": ""
+  },
+  "KRW": {
+    "name": "카라그웨",
+    "desc": ""
+  },
+  "UBH": {
+    "name": "부하",
+    "desc": ""
+  },
+  "BUU": {
+    "name": "부룬디",
+    "desc": ""
+  },
+  "MAA": {
+    "name": "마사이",
+    "desc": ""
+  },
+  "KOR": {
+    "name": "고려",
+    "desc": ""
+  },
+  "SSG": {
+    "name": "쌍성",
+    "desc": ""
+  },
+  "TMN": {
+    "name": "탐라",
+    "desc": ""
+  },
+  "JAP": {
+    "name": "일본",
+    "desc": ""
+  },
+  "NTC": {
+    "name": "지묘인",
+    "desc": ""
+  },
+  "STC": {
+    "name": "다이카쿠지",
+    "desc": ""
+  },
+  "YMT": {
+    "name": "야마토",
+    "desc": ""
+  },
+  "KOU": {
+    "name": "코우",
+    "desc": ""
+  },
+  "HSK": {
+    "name": "호소카와",
+    "desc": ""
+  },
+  "AKM": {
+    "name": "아카마츠",
+    "desc": ""
+  },
+  "NKI": {
+    "name": "니츠키",
+    "desc": ""
+  },
+  "KTB": {
+    "name": "키타바타케",
+    "desc": ""
+  },
+  "CJO": {
+    "name": "츄죠",
+    "desc": ""
+  },
+  "IMG": {
+    "name": "이마가와",
+    "desc": ""
+  },
+  "ISD": {
+    "name": "이시도",
+    "desc": ""
+  },
+  "TKD": {
+    "name": "타케다",
+    "desc": ""
+  },
+  "SBA": {
+    "name": "시바",
+    "desc": ""
+  },
+  "CBA": {
+    "name": "치바",
+    "desc": ""
+  },
+  "STK": {
+    "name": "사타케",
+    "desc": ""
+  },
+  "KGK": {
+    "name": "쿄고쿠",
+    "desc": ""
+  },
+  "TKI": {
+    "name": "토키",
+    "desc": ""
+  },
+  "OGS": {
+    "name": "오가사와라",
+    "desc": ""
+  },
+  "UES": {
+    "name": "우에스기",
+    "desc": ""
+  },
+  "OYM": {
+    "name": "오야마",
+    "desc": ""
+  },
+  "TGS": {
+    "name": "토가시",
+    "desc": ""
+  },
+  "YSM": {
+    "name": "요시미",
+    "desc": ""
+  },
+  "MMI": {
+    "name": "모모노이",
+    "desc": ""
+  },
+  "KRA": {
+    "name": "키라",
+    "desc": ""
+  },
+  "YMN": {
+    "name": "야마나",
+    "desc": ""
+  },
+  "ENY": {
+    "name": "엔야",
+    "desc": ""
+  },
+  "UEN": {
+    "name": "우에노",
+    "desc": ""
+  },
+  "MTD": {
+    "name": "마츠다",
+    "desc": ""
+  },
+  "MNM": {
+    "name": "미나미",
+    "desc": ""
+  },
+  "ASY": {
+    "name": "아사야마",
+    "desc": ""
+  },
+  "WSZ": {
+    "name": "와시즈",
+    "desc": ""
+  },
+  "KTO": {
+    "name": "코토",
+    "desc": ""
+  },
+  "HTK": {
+    "name": "하타케야마",
+    "desc": ""
+  },
+  "KNO": {
+    "name": "카와노",
+    "desc": ""
+  },
+  "SHN": {
+    "name": "쇼니",
+    "desc": ""
+  },
+  "KII": {
+    "name": "기이",
+    "desc": ""
+  },
+  "OTM": {
+    "name": "오토모",
+    "desc": ""
+  },
+  "SMZ": {
+    "name": "시마즈",
+    "desc": ""
+  },
+  "NBU": {
+    "name": "난부",
+    "desc": ""
+  },
+  "KDO": {
+    "name": "쿠도",
+    "desc": ""
+  },
+  "OKI": {
+    "name": "오사키",
+    "desc": ""
+  },
+  "MGM": {
+    "name": "모가미",
+    "desc": ""
+  },
+  "KSI": {
+    "name": "카사이",
+    "desc": ""
+  },
+  "SOM": {
+    "name": "소우마",
+    "desc": ""
+  },
+  "DTE": {
+    "name": "다테",
+    "desc": ""
+  },
+  "ASN": {
+    "name": "아시나",
+    "desc": ""
+  },
+  "YUK": {
+    "name": "유우키",
+    "desc": ""
+  },
+  "OID": {
+    "name": "오이다",
+    "desc": ""
+  },
+  "OGU": {
+    "name": "오구니",
+    "desc": ""
+  },
+  "UTN": {
+    "name": "우츠노미야",
+    "desc": ""
+  },
+  "IIX": {
+    "name": "이이",
+    "desc": ""
+  },
+  "AKJ": {
+    "name": "아네노코우지",
+    "desc": ""
+  },
+  "KSN": {
+    "name": "쿠스노키",
+    "desc": ""
+  },
+  "ISK": {
+    "name": "잇시키",
+    "desc": ""
+  },
+  "NAW": {
+    "name": "나와",
+    "desc": ""
+  },
+  "MSD": {
+    "name": "마스다",
+    "desc": ""
+  },
+  "OUC": {
+    "name": "오우치",
+    "desc": ""
+  },
+  "TKN": {
+    "name": "토쿠노",
+    "desc": ""
+  },
+  "DOI": {
+    "name": "도이",
+    "desc": ""
+  },
+  "KNT": {
+    "name": "쿠츠나",
+    "desc": ""
+  },
+  "SHJ": {
+    "name": "시죠",
+    "desc": ""
+  },
+  "YSR": {
+    "name": "야마시로",
+    "desc": ""
+  },
+  "KKC": {
+    "name": "키쿠치",
+    "desc": ""
+  },
+  "ASO": {
+    "name": "아소",
+    "desc": ""
+  },
+  "SGR": {
+    "name": "사가라",
+    "desc": ""
+  },
+  "IJU": {
+    "name": "이쥬인",
+    "desc": ""
+  },
+  "KMT": {
+    "name": "키모츠키",
+    "desc": ""
+  },
+  "SOU": {
+    "name": "소우",
+    "desc": ""
+  },
+  "NAI": {
+    "name": "나가이",
+    "desc": ""
+  },
+  "HEI": {
+    "name": "헤이",
+    "desc": ""
+  },
+  "ANM": {
+    "name": "아소누마",
+    "desc": ""
+  },
+  "TZW": {
+    "name": "토자와",
+    "desc": ""
+  },
+  "WAG": {
+    "name": "와가",
+    "desc": ""
+  },
+  "HIE": {
+    "name": "히에누키",
+    "desc": ""
+  },
+  "SGE": {
+    "name": "사가에",
+    "desc": ""
+  },
+  "DHJ": {
+    "name": "다이호우지",
+    "desc": ""
+  },
+  "NGM": {
+    "name": "나가누마",
+    "desc": ""
+  },
+  "NKD": {
+    "name": "니카이도",
+    "desc": ""
+  },
+  "TMR": {
+    "name": "타무라",
+    "desc": ""
+  },
+  "IWS": {
+    "name": "이나와시로",
+    "desc": ""
+  },
+  "ISW": {
+    "name": "이시카와",
+    "desc": ""
+  },
+  "MIU": {
+    "name": "미우라",
+    "desc": ""
+  },
+  "SUW": {
+    "name": "스와",
+    "desc": ""
+  },
+  "RKK": {
+    "name": "롯카쿠",
+    "desc": ""
+  },
+  "MIY": {
+    "name": "미야",
+    "desc": ""
+  },
+  "KKW": {
+    "name": "킷카와",
+    "desc": ""
+  },
+  "MKT": {
+    "name": "무나카타",
+    "desc": ""
+  },
+  "ASA": {
+    "name": "아사쿠라",
+    "desc": ""
+  },
+  "CSK": {
+    "name": "쵸소카베",
+    "desc": ""
+  },
+  "ISE": {
+    "name": "이세",
+    "desc": ""
+  },
+  "IKE": {
+    "name": "이케다",
+    "desc": ""
+  },
+  "ITO": {
+    "name": "이토",
+    "desc": ""
+  },
+  "MRI": {
+    "name": "모리",
+    "desc": ""
+  },
+  "ODA": {
+    "name": "오다",
+    "desc": ""
+  },
+  "AKT": {
+    "name": "안도",
+    "desc": ""
+  },
+  "ISA": {
+    "name": "이사",
+    "desc": ""
+  },
+  "TAK": {
+    "name": "다이조",
+    "desc": ""
+  },
+  "KNB": {
+    "name": "카와노베",
+    "desc": ""
+  },
+  "HTA": {
+    "name": "하타",
+    "desc": ""
+  },
+  "MKO": {
+    "name": "마시코",
+    "desc": ""
+  },
+  "TKO": {
+    "name": "타코",
+    "desc": ""
+  },
+  "NAS": {
+    "name": "나스",
+    "desc": ""
+  },
+  "OGO": {
+    "name": "오고",
+    "desc": ""
+  },
+  "NIT": {
+    "name": "닛타",
+    "desc": ""
+  },
+  "YMG": {
+    "name": "야마구치",
+    "desc": ""
+  },
+  "TOS": {
+    "name": "토시마",
+    "desc": ""
+  },
+  "HNM": {
+    "name": "혼마",
+    "desc": ""
+  },
+  "UNN": {
+    "name": "운노",
+    "desc": ""
+  },
+  "KOK": {
+    "name": "코사카",
+    "desc": ""
+  },
+  "TOY": {
+    "name": "토야마",
+    "desc": ""
+  },
+  "HIG": {
+    "name": "토우",
+    "desc": ""
+  },
+  "EMA": {
+    "name": "에마",
+    "desc": ""
+  },
+  "NKJ": {
+    "name": "나카지마",
+    "desc": ""
+  },
+  "OBA": {
+    "name": "오바",
+    "desc": ""
+  },
+  "NGN": {
+    "name": "나가노",
+    "desc": ""
+  },
+  "TKM": {
+    "name": "타카시마",
+    "desc": ""
+  },
+  "AIS": {
+    "name": "아이스",
+    "desc": ""
+  },
+  "YUS": {
+    "name": "유아사",
+    "desc": ""
+  },
+  "YAB": {
+    "name": "야베",
+    "desc": ""
+  },
+  "OGA": {
+    "name": "오가모",
+    "desc": ""
+  },
+  "STU": {
+    "name": "스에츠구",
+    "desc": ""
+  },
+  "MZW": {
+    "name": "미자와",
+    "desc": ""
+  },
+  "MTY": {
+    "name": "미토야",
+    "desc": ""
+  },
+  "AKN": {
+    "name": "아카나",
+    "desc": ""
+  },
+  "GTO": {
+    "name": "고토",
+    "desc": ""
+  },
+  "SHO": {
+    "name": "쇼우",
+    "desc": ""
+  },
+  "HRG": {
+    "name": "히라가",
+    "desc": ""
+  },
+  "KBK": {
+    "name": "코바야카와",
+    "desc": ""
+  },
+  "WCH": {
+    "name": "와치",
+    "desc": ""
+  },
+  "MYH": {
+    "name": "미요시",
+    "desc": ""
+  },
+  "SUE": {
+    "name": "스에",
+    "desc": ""
+  },
+  "MIG": {
+    "name": "미기타",
+    "desc": ""
+  },
+  "KAG": {
+    "name": "카가와",
+    "desc": ""
+  },
+  "KOZ": {
+    "name": "코자이",
+    "desc": ""
+  },
+  "KNE": {
+    "name": "카네코",
+    "desc": ""
+  },
+  "AKI": {
+    "name": "아키",
+    "desc": ""
+  },
+  "OHR": {
+    "name": "오히라",
+    "desc": ""
+  },
+  "BZG": {
+    "name": "부젠 나가노",
+    "desc": ""
+  },
+  "AKZ": {
+    "name": "아키즈키",
+    "desc": ""
+  },
+  "AKU": {
+    "name": "타쿠",
+    "desc": ""
+  },
+  "AHT": {
+    "name": "하타",
+    "desc": ""
+  },
+  "ARI": {
+    "name": "아리마",
+    "desc": ""
+  },
+  "OKR": {
+    "name": "오쿠라",
+    "desc": ""
+  },
+  "TMD": {
+    "name": "츠치모치",
+    "desc": ""
+  },
+  "KJK": {
+    "name": "카지키",
+    "desc": ""
+  },
+  "HSR": {
+    "name": "히시카리",
+    "desc": ""
+  },
+  "ANU": {
+    "name": "아이누",
+    "desc": ""
+  },
+  "HKZ": {
+    "name": "호쿠잔",
+    "desc": ""
+  },
+  "CHZ": {
+    "name": "츄잔",
+    "desc": ""
+  },
+  "NZN": {
+    "name": "난잔",
+    "desc": ""
+  },
+  "CHI": {
+    "name": "중국",
+    "desc": ""
+  },
+  "YUA": {
+    "name": "원",
+    "desc": ""
+  },
+  "MNG": {
+    "name": "명",
+    "desc": ""
+  },
+  "CSO": {
+    "name": "송",
+    "desc": ""
+  },
+  "WUU": {
+    "name": "오",
+    "desc": ""
+  },
+  "CTW": {
+    "name": "천완",
+    "desc": ""
+  },
+  "CHE": {
+    "name": "진",
+    "desc": ""
+  },
+  "CSH": {
+    "name": "순",
+    "desc": ""
+  },
+  "CXI": {
+    "name": "하",
+    "desc": ""
+  },
+  "CTG": {
+    "name": "동녕",
+    "desc": ""
+  },
+  "CFN": {
+    "name": "방",
+    "desc": ""
+  },
+  "CMO": {
+    "name": "모",
+    "desc": ""
+  },
+  "CGU": {
+    "name": "곽",
+    "desc": ""
+  },
+  "CNP": {
+    "name": "남평",
+    "desc": ""
+  },
+  "CDN": {
+    "name": "둥관",
+    "desc": ""
+  },
+  "CSI": {
+    "name": "리",
+    "desc": ""
+  },
+  "CKO": {
+    "name": "코케 테무르",
+    "desc": ""
+  },
+  "CNA": {
+    "name": "나하추",
+    "desc": ""
+  },
+  "MMA": {
+    "name": "몽 마오",
+    "desc": ""
+  },
+  "MHK": {
+    "name": "몽 켕",
+    "desc": ""
+  },
+  "MHN": {
+    "name": "몽 텐",
+    "desc": ""
+  },
+  "MTG": {
+    "name": "몽 팅",
+    "desc": ""
+  },
+  "MGN": {
+    "name": "몽 응음",
+    "desc": ""
+  },
+  "MHA": {
+    "name": "몽 싸",
+    "desc": ""
+  },
+  "MWO": {
+    "name": "몽 워",
+    "desc": ""
+  },
+  "MGK": {
+    "name": "몽 쿠",
+    "desc": ""
+  },
+  "YNJ": {
+    "name": "위안장",
+    "desc": ""
+  },
+  "NWU": {
+    "name": "니우우",
+    "desc": ""
+  },
+  "NLU": {
+    "name": "나로우",
+    "desc": ""
+  },
+  "YJI": {
+    "name": "옌징",
+    "desc": ""
+  },
+  "XLG": {
+    "name": "시엔롱",
+    "desc": ""
+  },
+  "CDL": {
+    "name": "다리",
+    "desc": ""
+  },
+  "CHH": {
+    "name": "치앙 훙",
+    "desc": ""
+  },
+  "TIB": {
+    "name": "티베트",
+    "desc": ""
+  },
+  "GUG": {
+    "name": "구게",
+    "desc": ""
+  },
+  "PUR": {
+    "name": "푸랑",
+    "desc": ""
+  },
+  "MAR": {
+    "name": "마르율",
+    "desc": ""
+  },
+  "ZNK": {
+    "name": "잔스카르",
+    "desc": ""
+  },
+  "CHG": {
+    "name": "차가타이",
+    "desc": ""
+  },
+  "TIM": {
+    "name": "티무르",
+    "desc": ""
+  },
+  "QCH": {
+    "name": "코초",
+    "desc": ""
+  },
+  "MNL": {
+    "name": "망갈라이",
+    "desc": ""
+  },
+  "MGG": {
+    "name": "망율 궁탕",
+    "desc": ""
+  },
+  "POO": {
+    "name": "포보",
+    "desc": ""
+  },
+  "HOR": {
+    "name": "호르",
+    "desc": ""
+  },
+  "LGT": {
+    "name": "링창",
+    "desc": ""
+  },
+  "DRG": {
+    "name": "데르게",
+    "desc": ""
+  },
+  "NCN": {
+    "name": "낭첸",
+    "desc": ""
+  },
+  "GNJ": {
+    "name": "곤조",
+    "desc": ""
+  },
+  "BTG": {
+    "name": "바탕",
+    "desc": ""
+  },
+  "NBH": {
+    "name": "눕호르",
+    "desc": ""
+  },
+  "LTN": {
+    "name": "리탕",
+    "desc": ""
+  },
+  "NYA": {
+    "name": "냐롱",
+    "desc": ""
+  },
+  "GYT": {
+    "name": "걀탕",
+    "desc": ""
+  },
+  "TNQ": {
+    "name": "톈취안",
+    "desc": ""
+  },
+  "MCI": {
+    "name": "무치",
+    "desc": ""
+  },
+  "WMO": {
+    "name": "웨이마오",
+    "desc": ""
+  },
+  "TSK": {
+    "name": "차코",
+    "desc": ""
+  },
+  "SNP": {
+    "name": "쑹판",
+    "desc": ""
+  },
+  "LGZ": {
+    "name": "룽저우",
+    "desc": ""
+  },
+  "MNZ": {
+    "name": "민저우",
+    "desc": ""
+  },
+  "TAZ": {
+    "name": "타오저우",
+    "desc": ""
+  },
+  "KHG": {
+    "name": "카갸",
+    "desc": ""
+  },
+  "HEZ": {
+    "name": "허저우",
+    "desc": ""
+  },
+  "JIZ": {
+    "name": "지스저우",
+    "desc": ""
+  },
+  "BIR": {
+    "name": "비리",
+    "desc": ""
+  },
+  "GYE": {
+    "name": "껼롱",
+    "desc": ""
+  },
+  "GOL": {
+    "name": "궈러",
+    "desc": ""
+  },
+  "CKL": {
+    "name": "미냑",
+    "desc": ""
+  },
+  "AMD": {
+    "name": "암도",
+    "desc": ""
+  },
+  "MSH": {
+    "name": "미시미",
+    "desc": ""
+  },
+  "TAN": {
+    "name": "타니",
+    "desc": ""
+  },
+  "MNP": {
+    "name": "몬파",
+    "desc": ""
+  },
+  "LMN": {
+    "name": "로 몬",
+    "desc": ""
+  },
+  "LJG": {
+    "name": "리장",
+    "desc": ""
+  },
+  "SKK": {
+    "name": "시킴",
+    "desc": ""
+  },
+  "DUR": {
+    "name": "다우르",
+    "desc": ""
+  },
+  "EVK": {
+    "name": "에벤크",
+    "desc": ""
+  },
+  "NVK": {
+    "name": "니브흐",
+    "desc": ""
+  },
+  "ORC": {
+    "name": "오로치",
+    "desc": ""
+  },
+  "ORQ": {
+    "name": "오르촌",
+    "desc": ""
+  },
+  "SIB": {
+    "name": "시버",
+    "desc": ""
+  },
+  "UDE": {
+    "name": "우데게",
+    "desc": ""
+  },
+  "ULC": {
+    "name": "울치",
+    "desc": ""
+  },
+  "HDA": {
+    "name": "하다",
+    "desc": ""
+  },
+  "HOI": {
+    "name": "호이파",
+    "desc": ""
+  },
+  "ULA": {
+    "name": "울라",
+    "desc": ""
+  },
+  "YEH": {
+    "name": "여허",
+    "desc": ""
+  },
+  "DNG": {
+    "name": "동고",
+    "desc": ""
+  },
+  "HJN": {
+    "name": "홀라온",
+    "desc": ""
+  },
+  "HNE": {
+    "name": "후너허",
+    "desc": ""
+  },
+  "HUL": {
+    "name": "훌리가이",
+    "desc": ""
+  },
+  "JEC": {
+    "name": "저천",
+    "desc": ""
+  },
+  "JUS": {
+    "name": "주사리",
+    "desc": ""
+  },
+  "MAO": {
+    "name": "마올리안",
+    "desc": ""
+  },
+  "NEY": {
+    "name": "네옌",
+    "desc": ""
+  },
+  "ODO": {
+    "name": "악다리",
+    "desc": ""
+  },
+  "SSH": {
+    "name": "숙수후",
+    "desc": ""
+  },
+  "URY": {
+    "name": "우량카이",
+    "desc": ""
+  },
+  "WGG": {
+    "name": "왕기야",
+    "desc": ""
+  },
+  "YAL": {
+    "name": "얄루",
+    "desc": ""
+  },
+  "AAR": {
+    "name": "압다리",
+    "desc": ""
+  },
+  "AID": {
+    "name": "아이단",
+    "desc": ""
+  },
+  "ASU": {
+    "name": "아수",
+    "desc": ""
+  },
+  "BAY": {
+    "name": "바얀",
+    "desc": ""
+  },
+  "DLA": {
+    "name": "달라",
+    "desc": ""
+  },
+  "EJI": {
+    "name": "에지미",
+    "desc": ""
+  },
+  "FLN": {
+    "name": "후룬",
+    "desc": ""
+  },
+  "FUT": {
+    "name": "푸티",
+    "desc": ""
+  },
+  "FUY": {
+    "name": "부유",
+    "desc": ""
+  },
+  "GIL": {
+    "name": "길레미",
+    "desc": ""
+  },
+  "HIJ": {
+    "name": "히잔",
+    "desc": ""
+  },
+  "HIY": {
+    "name": "하이얀",
+    "desc": ""
+  },
+  "HLN": {
+    "name": "할란",
+    "desc": ""
+  },
+  "HNC": {
+    "name": "훈춘",
+    "desc": ""
+  },
+  "HOT": {
+    "name": "호통기",
+    "desc": ""
+  },
+  "HRO": {
+    "name": "호로",
+    "desc": ""
+  },
+  "HUI": {
+    "name": "후이바",
+    "desc": ""
+  },
+  "HUR": {
+    "name": "후르가",
+    "desc": ""
+  },
+  "ILU": {
+    "name": "이루",
+    "desc": ""
+  },
+  "IMN": {
+    "name": "이만카",
+    "desc": ""
+  },
+  "ITU": {
+    "name": "이툰",
+    "desc": ""
+  },
+  "JHT": {
+    "name": "주루 호톤",
+    "desc": ""
+  },
+  "LAL": {
+    "name": "랄린",
+    "desc": ""
+  },
+  "LEF": {
+    "name": "레푸",
+    "desc": ""
+  },
+  "LLU": {
+    "name": "랄루",
+    "desc": ""
+  },
+  "MAH": {
+    "name": "마히얀",
+    "desc": ""
+  },
+  "MIC": {
+    "name": "미첸",
+    "desc": ""
+  },
+  "MRE": {
+    "name": "무렌",
+    "desc": ""
+  },
+  "MUH": {
+    "name": "무히야",
+    "desc": ""
+  },
+  "MUU": {
+    "name": "물룬",
+    "desc": ""
+  },
+  "NAL": {
+    "name": "나라지",
+    "desc": ""
+  },
+  "NEM": {
+    "name": "네메르",
+    "desc": ""
+  },
+  "NRO": {
+    "name": "노로",
+    "desc": ""
+  },
+  "SHI": {
+    "name": "실린",
+    "desc": ""
+  },
+  "SIR": {
+    "name": "시린",
+    "desc": ""
+  },
+  "SMN": {
+    "name": "실리미안",
+    "desc": ""
+  },
+  "SNC": {
+    "name": "산차하",
+    "desc": ""
+  },
+  "SUI": {
+    "name": "수이푼",
+    "desc": ""
+  },
+  "TAS": {
+    "name": "타산",
+    "desc": ""
+  },
+  "TOD": {
+    "name": "토도",
+    "desc": ""
+  },
+  "TOX": {
+    "name": "톤",
+    "desc": ""
+  },
+  "USS": {
+    "name": "우수리",
+    "desc": ""
+  },
+  "WEJ": {
+    "name": "웨지",
+    "desc": ""
+  },
+  "WEK": {
+    "name": "워켄",
+    "desc": ""
+  },
+  "WNL": {
+    "name": "완린",
+    "desc": ""
+  },
+  "WUY": {
+    "name": "우예우",
+    "desc": ""
+  },
+  "YRN": {
+    "name": "야란",
+    "desc": ""
+  },
+  "YIM": {
+    "name": "이마후",
+    "desc": ""
+  },
+  "YOO": {
+    "name": "요세",
+    "desc": ""
+  },
+  "KAD": {
+    "name": "둥",
+    "desc": ""
+  },
+  "TUJ": {
+    "name": "투자",
+    "desc": ""
+  },
+  "MNE": {
+    "name": "야오",
+    "desc": ""
+  },
+  "MIO": {
+    "name": "몽",
+    "desc": ""
+  },
+  "HQQ": {
+    "name": "하니",
+    "desc": ""
+  },
+  "YII": {
+    "name": "이",
+    "desc": ""
+  },
+  "DDI": {
+    "name": "다이",
+    "desc": ""
+  },
+  "OIR": {
+    "name": "오이라트",
+    "desc": ""
+  },
+  "OGE": {
+    "name": "우구데이",
+    "desc": ""
+  },
+  "BAT": {
+    "name": "바아투드",
+    "desc": ""
+  },
+  "CRS": {
+    "name": "초로스",
+    "desc": ""
+  },
+  "KHD": {
+    "name": "호이드",
+    "desc": ""
+  },
+  "TRH": {
+    "name": "토르구트",
+    "desc": ""
+  },
+  "TVA": {
+    "name": "투바",
+    "desc": ""
+  },
+  "BGT": {
+    "name": "벨구테이",
+    "desc": ""
+  },
+  "HCN": {
+    "name": "하치운",
+    "desc": ""
+  },
+  "OTC": {
+    "name": "옷치긴",
+    "desc": ""
+  },
+  "QAS": {
+    "name": "카사르",
+    "desc": ""
+  },
+  "BKH": {
+    "name": "바다흐샨",
+    "desc": ""
+  },
+  "DGH": {
+    "name": "두글라트",
+    "desc": ""
+  },
+  "KRG": {
+    "name": "카라테긴",
+    "desc": ""
+  },
+  "SRL": {
+    "name": "사리콜",
+    "desc": ""
+  },
+  "COO": {
+    "name": "쿠사",
+    "desc": ""
+  },
+  "OTL": {
+    "name": "오탈리",
+    "desc": ""
+  },
+  "COW": {
+    "name": "코웨타",
+    "desc": ""
+  },
+  "TUC": {
+    "name": "터카바치",
+    "desc": ""
+  },
+  "EUF": {
+    "name": "유폴라",
+    "desc": ""
+  },
+  "CPQ": {
+    "name": "카파체키",
+    "desc": ""
+  },
+  "TOA": {
+    "name": "토아",
+    "desc": ""
+  },
+  "OCT": {
+    "name": "오큐트",
+    "desc": ""
+  },
+  "HIT": {
+    "name": "아치크하타",
+    "desc": ""
+  },
+  "ALA": {
+    "name": "알바마하",
+    "desc": ""
+  },
+  "KST": {
+    "name": "코아사티",
+    "desc": ""
+  },
+  "CHC": {
+    "name": "촉토",
+    "desc": ""
+  },
+  "CHS": {
+    "name": "치카샤",
+    "desc": ""
+  },
+  "MCG": {
+    "name": "머스코지",
+    "desc": ""
+  },
+  "QGM": {
+    "name": "키괄탐",
+    "desc": ""
+  },
+  "QUZ": {
+    "name": "퀴즈퀴즈",
+    "desc": ""
+  },
+  "NCZ": {
+    "name": "나체즈",
+    "desc": ""
+  },
+  "GUL": {
+    "name": "괄레",
+    "desc": ""
+  },
+  "APA": {
+    "name": "아팔라치",
+    "desc": ""
+  },
+  "KSK": {
+    "name": "카스키남포",
+    "desc": ""
+  },
+  "KAW": {
+    "name": "코",
+    "desc": ""
+  },
+  "UMO": {
+    "name": "우모호",
+    "desc": ""
+  },
+  "WZZ": {
+    "name": "와자제",
+    "desc": ""
+  },
+  "PPK": {
+    "name": "팬카",
+    "desc": ""
+  },
+  "UGX": {
+    "name": "우각스파",
+    "desc": ""
+  },
+  "GWY": {
+    "name": "구와이히",
+    "desc": ""
+  },
+  "GDW": {
+    "name": "기두와",
+    "desc": ""
+  },
+  "TSO": {
+    "name": "초야하",
+    "desc": ""
+  },
+  "CFQ": {
+    "name": "코피타체키",
+    "desc": ""
+  },
+  "JOA": {
+    "name": "조아라",
+    "desc": ""
+  },
+  "TSN": {
+    "name": "체나코마카",
+    "desc": ""
+  },
+  "ACL": {
+    "name": "아콜라피사",
+    "desc": ""
+  },
+  "MBL": {
+    "name": "토호메",
+    "desc": ""
+  },
+  "CTT": {
+    "name": "차톳",
+    "desc": ""
+  },
+  "YMS": {
+    "name": "야마시",
+    "desc": ""
+  },
+  "CSB": {
+    "name": "쿠사보",
+    "desc": ""
+  },
+  "CHK": {
+    "name": "카호키아",
+    "desc": ""
+  },
+  "HCK": {
+    "name": "후착",
+    "desc": ""
+  },
+  "BXJ": {
+    "name": "바쇼제",
+    "desc": ""
+  },
+  "WGH": {
+    "name": "와그톡챠타",
+    "desc": ""
+  },
+  "OFO": {
+    "name": "오포",
+    "desc": ""
+  },
+  "TKS": {
+    "name": "타넥스",
+    "desc": ""
+  },
+  "MTN": {
+    "name": "모네톤",
+    "desc": ""
+  },
+  "MNC": {
+    "name": "모나칸",
+    "desc": ""
+  },
+  "TTL": {
+    "name": "투텔로",
+    "desc": ""
+  },
+  "WCM": {
+    "name": "와카모",
+    "desc": ""
+  },
+  "TMC": {
+    "name": "티무쿠아",
+    "desc": ""
+  },
+  "CLS": {
+    "name": "칼루사",
+    "desc": ""
+  },
+  "AIX": {
+    "name": "아이스",
+    "desc": ""
+  },
+  "TBG": {
+    "name": "토코바가",
+    "desc": ""
+  },
+  "NTT": {
+    "name": "노토웨이",
+    "desc": ""
+  },
+  "SKR": {
+    "name": "스카루레",
+    "desc": ""
+  },
+  "WRO": {
+    "name": "웬로로논",
+    "desc": ""
+  },
+  "KEN": {
+    "name": "켄타이엔통가",
+    "desc": ""
+  },
+  "ERI": {
+    "name": "이릴호난",
+    "desc": ""
+  },
+  "HON": {
+    "name": "호니아손트",
+    "desc": ""
+  },
+  "ONJ": {
+    "name": "오노주타",
+    "desc": ""
+  },
+  "CTN": {
+    "name": "카란투안",
+    "desc": ""
+  },
+  "AKY": {
+    "name": "아트라콰예",
+    "desc": ""
+  },
+  "KKA": {
+    "name": "카니엔케하카",
+    "desc": ""
+  },
+  "ONY": {
+    "name": "오뇨타아카",
+    "desc": ""
+  },
+  "ONO": {
+    "name": "오논다게가",
+    "desc": ""
+  },
+  "GYO": {
+    "name": "가요고호노",
+    "desc": ""
+  },
+  "ONN": {
+    "name": "오논다가",
+    "desc": ""
+  },
+  "PML": {
+    "name": "팜리코",
+    "desc": ""
+  },
+  "DOE": {
+    "name": "도에그",
+    "desc": ""
+  },
+  "PSC": {
+    "name": "피스카타웨이",
+    "desc": ""
+  },
+  "NTK": {
+    "name": "넨테고",
+    "desc": ""
+  },
+  "RPP": {
+    "name": "래퍼핸녹",
+    "desc": ""
+  },
+  "CAA": {
+    "name": "크로아탄",
+    "desc": ""
+  },
+  "NSM": {
+    "name": "낸스몬드",
+    "desc": ""
+  },
+  "ACW": {
+    "name": "아카우마케",
+    "desc": ""
+  },
+  "MMQ": {
+    "name": "마마체크타우",
+    "desc": ""
+  },
+  "OSK": {
+    "name": "오사키이와키",
+    "desc": ""
+  },
+  "MSK": {
+    "name": "메스카우키",
+    "desc": ""
+  },
+  "KIW": {
+    "name": "키위가파와",
+    "desc": ""
+  },
+  "MCT": {
+    "name": "마스쿠텐",
+    "desc": ""
+  },
+  "CLG": {
+    "name": "찰라가우타",
+    "desc": ""
+  },
+  "MKC": {
+    "name": "메코체",
+    "desc": ""
+  },
+  "KPK": {
+    "name": "키스포코",
+    "desc": ""
+  },
+  "PKW": {
+    "name": "페코위",
+    "desc": ""
+  },
+  "HAT": {
+    "name": "하타웨켈라",
+    "desc": ""
+  },
+  "BDK": {
+    "name": "보데와도믹",
+    "desc": ""
+  },
+  "TMW": {
+    "name": "타마로와",
+    "desc": ""
+  },
+  "KHK": {
+    "name": "카호키아키",
+    "desc": ""
+  },
+  "KKH": {
+    "name": "카스칸카함",
+    "desc": ""
+  },
+  "PEO": {
+    "name": "피와리와",
+    "desc": ""
+  },
+  "AKG": {
+    "name": "아차캉구엔",
+    "desc": ""
+  },
+  "PIA": {
+    "name": "피안케쇼",
+    "desc": ""
+  },
+  "PEP": {
+    "name": "페피코키아",
+    "desc": ""
+  },
+  "WEA": {
+    "name": "와야아탄와",
+    "desc": ""
+  },
+  "UNA": {
+    "name": "웬아미",
+    "desc": ""
+  },
+  "MNS": {
+    "name": "몬시",
+    "desc": ""
+  },
+  "UNL": {
+    "name": "우날라츠코",
+    "desc": ""
+  },
+  "MCN": {
+    "name": "무헤쿤느우",
+    "desc": ""
+  },
+  "QRP": {
+    "name": "퀴리피",
+    "desc": ""
+  },
+  "PCT": {
+    "name": "포컴턱",
+    "desc": ""
+  },
+  "PQT": {
+    "name": "피쿼트",
+    "desc": ""
+  },
+  "NRG": {
+    "name": "나이간셋",
+    "desc": ""
+  },
+  "WMG": {
+    "name": "왐파노악",
+    "desc": ""
+  },
+  "MSC": {
+    "name": "매사추세크",
+    "desc": ""
+  },
+  "PCK": {
+    "name": "페나쿡",
+    "desc": ""
+  },
+  "BQA": {
+    "name": "바르카",
+    "desc": ""
+  },
+  "BKZ": {
+    "name": "바누 칸즈",
+    "desc": ""
+  },
+  "FZA": {
+    "name": "페잔",
+    "desc": ""
+  },
+  "MAM": {
+    "name": "이집트",
+    "desc": ""
+  },
+  "SKN": {
+    "name": "수아킨",
+    "desc": ""
+  },
+  "TRP": {
+    "name": "트리폴리",
+    "desc": ""
+  },
+  "BRI": {
+    "name": "브르타뉴",
+    "desc": ""
+  },
+  "FRA": {
+    "name": "프랑스",
+    "desc": ""
+  },
+  "BUR": {
+    "name": "부르고뉴",
+    "desc": ""
+  },
+  "FCB": {
+    "name": "프랑슈콩테",
+    "desc": ""
+  },
+  "AQN": {
+    "name": "아키텐",
+    "desc": ""
+  },
+  "ALE": {
+    "name": "알랑송",
+    "desc": ""
+  },
+  "AUX": {
+    "name": "오세르",
+    "desc": ""
+  },
+  "SAN": {
+    "name": "상세르",
+    "desc": ""
+  },
+  "AMG": {
+    "name": "아르마냑",
+    "desc": ""
+  },
+  "AUV": {
+    "name": "오베르뉴",
+    "desc": ""
+  },
+  "BOU": {
+    "name": "부르봉",
+    "desc": ""
+  },
+  "CHP": {
+    "name": "샹파뉴",
+    "desc": ""
+  },
+  "DAU": {
+    "name": "비엔누아",
+    "desc": ""
+  },
+  "EVR": {
+    "name": "에브뢰",
+    "desc": ""
+  },
+  "FOI": {
+    "name": "푸아",
+    "desc": ""
+  },
+  "GUY": {
+    "name": "가스코뉴",
+    "desc": ""
+  },
+  "NEV": {
+    "name": "느베르",
+    "desc": ""
+  },
+  "NRB": {
+    "name": "나르본",
+    "desc": ""
+  },
+  "NRM": {
+    "name": "노르망디",
+    "desc": ""
+  },
+  "JER": {
+    "name": "저지",
+    "desc": ""
+  },
+  "ORL": {
+    "name": "오를레앙",
+    "desc": ""
+  },
+  "PIC": {
+    "name": "피카르디",
+    "desc": ""
+  },
+  "PRO": {
+    "name": "프로방스",
+    "desc": ""
+  },
+  "ORA": {
+    "name": "오랑주",
+    "desc": ""
+  },
+  "TOU": {
+    "name": "툴루즈",
+    "desc": ""
+  },
+  "BER": {
+    "name": "베리",
+    "desc": ""
+  },
+  "LOR": {
+    "name": "로렌",
+    "desc": ""
+  },
+  "BAR": {
+    "name": "바르",
+    "desc": ""
+  },
+  "DRE": {
+    "name": "드뢰",
+    "desc": ""
+  },
+  "MRT": {
+    "name": "모르탱",
+    "desc": ""
+  },
+  "POI": {
+    "name": "푸아투",
+    "desc": ""
+  },
+  "ANJ": {
+    "name": "앙주",
+    "desc": ""
+  },
+  "MIE": {
+    "name": "멘",
+    "desc": ""
+  },
+  "VLS": {
+    "name": "발루아",
+    "desc": ""
+  },
+  "PRC": {
+    "name": "페르슈",
+    "desc": ""
+  },
+  "FRZ": {
+    "name": "포레즈",
+    "desc": ""
+  },
+  "BLS": {
+    "name": "블루아",
+    "desc": ""
+  },
+  "VDM": {
+    "name": "방돔",
+    "desc": ""
+  },
+  "ETA": {
+    "name": "에탕프",
+    "desc": ""
+  },
+  "AST": {
+    "name": "아스타락",
+    "desc": ""
+  },
+  "COM": {
+    "name": "코망주",
+    "desc": ""
+  },
+  "IJO": {
+    "name": "릴주르댕",
+    "desc": ""
+  },
+  "VLN": {
+    "name": "발랑티누아",
+    "desc": ""
+  },
+  "PER": {
+    "name": "페리고르",
+    "desc": ""
+  },
+  "TON": {
+    "name": "토네르",
+    "desc": ""
+  },
+  "MON": {
+    "name": "몽포르",
+    "desc": ""
+  },
+  "AUM": {
+    "name": "오말",
+    "desc": ""
+  },
+  "ROU": {
+    "name": "루시",
+    "desc": ""
+  },
+  "BSC": {
+    "name": "브장송",
+    "desc": ""
+  },
+  "ALS": {
+    "name": "스트라스보우르굼",
+    "desc": ""
+  },
+  "MTB": {
+    "name": "몽벨리아르",
+    "desc": ""
+  },
+  "TUL": {
+    "name": "툴",
+    "desc": ""
+  },
+  "VDU": {
+    "name": "베르됭",
+    "desc": ""
+  },
+  "MTZ": {
+    "name": "메스",
+    "desc": ""
+  },
+  "SLM": {
+    "name": "잘름",
+    "desc": ""
+  },
+  "MOU": {
+    "name": "무종",
+    "desc": ""
+  },
+  "RET": {
+    "name": "레텔",
+    "desc": ""
+  },
+  "CAM": {
+    "name": "캉브레지",
+    "desc": ""
+  },
+  "BRR": {
+    "name": "베아른",
+    "desc": ""
+  },
+  "MDM": {
+    "name": "마르상",
+    "desc": ""
+  },
+  "FRT": {
+    "name": "피리트",
+    "desc": ""
+  },
+  "MRC": {
+    "name": "라마르슈",
+    "desc": ""
+  },
+  "VNT": {
+    "name": "방타두르",
+    "desc": ""
+  },
+  "RCC": {
+    "name": "로슈슈아르",
+    "desc": ""
+  },
+  "CLT": {
+    "name": "카를라",
+    "desc": ""
+  },
+  "ANG": {
+    "name": "앙굴렘",
+    "desc": ""
+  },
+  "DAM": {
+    "name": "다모트",
+    "desc": ""
+  },
+  "ENN": {
+    "name": "엔나레아",
+    "desc": ""
+  },
+  "DBE": {
+    "name": "도베아",
+    "desc": ""
+  },
+  "END": {
+    "name": "엔데르타",
+    "desc": ""
+  },
+  "ETH": {
+    "name": "에티오피아",
+    "desc": ""
+  },
+  "GJJ": {
+    "name": "고잠",
+    "desc": ""
+  },
+  "MED": {
+    "name": "메드리 바흐리",
+    "desc": ""
+  },
+  "BTI": {
+    "name": "시미엔",
+    "desc": ""
+  },
+  "ADA": {
+    "name": "아달",
+    "desc": ""
+  },
+  "AFA": {
+    "name": "단칼리",
+    "desc": ""
+  },
+  "ABB": {
+    "name": "아르바브니",
+    "desc": ""
+  },
+  "AWS": {
+    "name": "아우사",
+    "desc": ""
+  },
+  "BLE": {
+    "name": "발레",
+    "desc": ""
+  },
+  "DHK": {
+    "name": "달락",
+    "desc": ""
+  },
+  "DRA": {
+    "name": "다라",
+    "desc": ""
+  },
+  "DAW": {
+    "name": "다와로",
+    "desc": ""
+  },
+  "HDY": {
+    "name": "하디야",
+    "desc": ""
+  },
+  "IFA": {
+    "name": "이파트",
+    "desc": ""
+  },
+  "HRL": {
+    "name": "할라",
+    "desc": ""
+  },
+  "SHK": {
+    "name": "샤르카",
+    "desc": ""
+  },
+  "SOA": {
+    "name": "셰와",
+    "desc": ""
+  },
+  "AJU": {
+    "name": "아주란",
+    "desc": ""
+  },
+  "GLE": {
+    "name": "겔레디",
+    "desc": ""
+  },
+  "MDI": {
+    "name": "모가디슈",
+    "desc": ""
+  },
+  "WAR": {
+    "name": "와르상갈리",
+    "desc": ""
+  },
+  "TDE": {
+    "name": "타나데",
+    "desc": ""
+  },
+  "ABW": {
+    "name": "알아브와브",
+    "desc": ""
+  },
+  "ALO": {
+    "name": "알로디아",
+    "desc": ""
+  },
+  "MAK": {
+    "name": "마쿠리아",
+    "desc": ""
+  },
+  "BQL": {
+    "name": "바클린",
+    "desc": ""
+  },
+  "BZN": {
+    "name": "바진",
+    "desc": ""
+  },
+  "JRN": {
+    "name": "자린",
+    "desc": ""
+  },
+  "NQS": {
+    "name": "나키스",
+    "desc": ""
+  },
+  "QTA": {
+    "name": "카타",
+    "desc": ""
+  },
+  "DAJ": {
+    "name": "다주",
+    "desc": ""
+  },
+  "ORO": {
+    "name": "오로모",
+    "desc": ""
+  },
+  "AFR": {
+    "name": "아프레",
+    "desc": ""
+  },
+  "SDQ": {
+    "name": "사다카",
+    "desc": ""
+  },
+  "FNJ": {
+    "name": "베르타",
+    "desc": ""
+  },
+  "GUM": {
+    "name": "구무즈",
+    "desc": ""
+  },
+  "KUN": {
+    "name": "쿠나마",
+    "desc": ""
+  },
+  "CAT": {
+    "name": "카탈루냐",
+    "desc": ""
+  },
+  "ANR": {
+    "name": "안도라",
+    "desc": ""
+  },
+  "ARA": {
+    "name": "아라곤",
+    "desc": ""
+  },
+  "VAL": {
+    "name": "발렌시아",
+    "desc": ""
+  },
+  "MLL": {
+    "name": "마요르카",
+    "desc": ""
+  },
+  "CAS": {
+    "name": "카스티야",
+    "desc": ""
+  },
+  "POR": {
+    "name": "포르투갈",
+    "desc": ""
+  },
+  "LON": {
+    "name": "레온",
+    "desc": ""
+  },
+  "GLC": {
+    "name": "갈리시아",
+    "desc": ""
+  },
+  "GRA": {
+    "name": "그라나다",
+    "desc": ""
+  },
+  "NAV": {
+    "name": "나바라",
+    "desc": ""
+  },
+  "DLH": {
+    "name": "델리",
+    "desc": ""
+  },
+  "HSL": {
+    "name": "호이살라",
+    "desc": ""
+  },
+  "SMV": {
+    "name": "삼부바라야르",
+    "desc": ""
+  },
+  "VIJ": {
+    "name": "비자야나가라",
+    "desc": ""
+  },
+  "MAB": {
+    "name": "마바르",
+    "desc": ""
+  },
+  "TNK": {
+    "name": "판디아",
+    "desc": ""
+  },
+  "RDY": {
+    "name": "레디",
+    "desc": ""
+  },
+  "YDR": {
+    "name": "야다바라야",
+    "desc": ""
+  },
+  "ZMR": {
+    "name": "코지코드",
+    "desc": ""
+  },
+  "KLT": {
+    "name": "콜라투나두",
+    "desc": ""
+  },
+  "PDU": {
+    "name": "코친",
+    "desc": ""
+  },
+  "VND": {
+    "name": "베나드",
+    "desc": ""
+  },
+  "KTN": {
+    "name": "쿠타나드",
+    "desc": ""
+  },
+  "KDU": {
+    "name": "파딘자테다투",
+    "desc": ""
+  },
+  "KYA": {
+    "name": "코타얌",
+    "desc": ""
+  },
+  "VLD": {
+    "name": "발루바나드",
+    "desc": ""
+  },
+  "ELA": {
+    "name": "엘라야다투",
+    "desc": ""
+  },
+  "TKU": {
+    "name": "테쿰쿠르",
+    "desc": ""
+  },
+  "VDK": {
+    "name": "바다쿰쿠르",
+    "desc": ""
+  },
+  "ALU": {
+    "name": "알루파",
+    "desc": ""
+  },
+  "STR": {
+    "name": "산타라",
+    "desc": ""
+  },
+  "KPL": {
+    "name": "코풀라",
+    "desc": ""
+  },
+  "MSN": {
+    "name": "무수누리",
+    "desc": ""
+  },
+  "RCH": {
+    "name": "레체를라",
+    "desc": ""
+  },
+  "ORI": {
+    "name": "오리사",
+    "desc": ""
+  },
+  "KNK": {
+    "name": "캉케르",
+    "desc": ""
+  },
+  "BST": {
+    "name": "바스타르",
+    "desc": ""
+  },
+  "JPO": {
+    "name": "난다푸르",
+    "desc": ""
+  },
+  "BGL": {
+    "name": "바글라나",
+    "desc": ""
+  },
+  "CHD": {
+    "name": "찬다",
+    "desc": ""
+  },
+  "BGR": {
+    "name": "반두가라",
+    "desc": ""
+  },
+  "WRG": {
+    "name": "와이라가르",
+    "desc": ""
+  },
+  "GOA": {
+    "name": "고아",
+    "desc": ""
+  },
+  "HNV": {
+    "name": "혼나바라",
+    "desc": ""
+  },
+  "DRP": {
+    "name": "람나가르",
+    "desc": ""
+  },
+  "JWR": {
+    "name": "자우하르",
+    "desc": ""
+  },
+  "DGR": {
+    "name": "바가르",
+    "desc": ""
+  },
+  "MEW": {
+    "name": "메와르",
+    "desc": ""
+  },
+  "IDR": {
+    "name": "이다르",
+    "desc": ""
+  },
+  "JLR": {
+    "name": "잘로르",
+    "desc": ""
+  },
+  "CMN": {
+    "name": "참파네르",
+    "desc": ""
+  },
+  "RJI": {
+    "name": "라지피플라",
+    "desc": ""
+  },
+  "KUT": {
+    "name": "쿠치",
+    "desc": ""
+  },
+  "SMA": {
+    "name": "삼마",
+    "desc": ""
+  },
+  "SND": {
+    "name": "신드",
+    "desc": ""
+  },
+  "RNP": {
+    "name": "란푸르",
+    "desc": ""
+  },
+  "GHL": {
+    "name": "고힐바드",
+    "desc": ""
+  },
+  "PLT": {
+    "name": "팔리타나",
+    "desc": ""
+  },
+  "JNG": {
+    "name": "주나가르",
+    "desc": ""
+  },
+  "BHD": {
+    "name": "반바드",
+    "desc": ""
+  },
+  "JLW": {
+    "name": "잘라와드",
+    "desc": ""
+  },
+  "MRW": {
+    "name": "마르와르",
+    "desc": ""
+  },
+  "HAD": {
+    "name": "하도티",
+    "desc": ""
+  },
+  "JSL": {
+    "name": "자이살메르",
+    "desc": ""
+  },
+  "PGL": {
+    "name": "푸갈",
+    "desc": ""
+  },
+  "KLI": {
+    "name": "카라울리",
+    "desc": ""
+  },
+  "SHR": {
+    "name": "사하란",
+    "desc": ""
+  },
+  "DRW": {
+    "name": "다드레와",
+    "desc": ""
+  },
+  "BWL": {
+    "name": "베니왈",
+    "desc": ""
+  },
+  "JHI": {
+    "name": "조히야",
+    "desc": ""
+  },
+  "GDA": {
+    "name": "고다라",
+    "desc": ""
+  },
+  "PNA": {
+    "name": "푸니아",
+    "desc": ""
+  },
+  "BHA": {
+    "name": "바트니르",
+    "desc": ""
+  },
+  "DOG": {
+    "name": "도그라",
+    "desc": ""
+  },
+  "DHU": {
+    "name": "둔다르",
+    "desc": ""
+  },
+  "GWA": {
+    "name": "괄리오르",
+    "desc": ""
+  },
+  "JJK": {
+    "name": "제자카부크티",
+    "desc": ""
+  },
+  "BND": {
+    "name": "분델칸드",
+    "desc": ""
+  },
+  "BGK": {
+    "name": "바겔칸드",
+    "desc": ""
+  },
+  "MAU": {
+    "name": "마우 간지",
+    "desc": ""
+  },
+  "KHR": {
+    "name": "케를라",
+    "desc": ""
+  },
+  "GHR": {
+    "name": "가르하",
+    "desc": ""
+  },
+  "RTP": {
+    "name": "라트나푸라",
+    "desc": ""
+  },
+  "BAD": {
+    "name": "바우드",
+    "desc": ""
+  },
+  "NRS": {
+    "name": "나르싱푸르",
+    "desc": ""
+  },
+  "KJA": {
+    "name": "케온자르",
+    "desc": ""
+  },
+  "PTN": {
+    "name": "파트나",
+    "desc": ""
+  },
+  "PRT": {
+    "name": "만도르",
+    "desc": ""
+  },
+  "KLH": {
+    "name": "칼라한디",
+    "desc": ""
+  },
+  "SRG": {
+    "name": "사랑가르",
+    "desc": ""
+  },
+  "PLA": {
+    "name": "팔 라하라",
+    "desc": ""
+  },
+  "BNA": {
+    "name": "보나이",
+    "desc": ""
+  },
+  "MJU": {
+    "name": "마유르반지",
+    "desc": ""
+  },
+  "DBD": {
+    "name": "담바데니야",
+    "desc": ""
+  },
+  "JFN": {
+    "name": "자프나",
+    "desc": ""
+  },
+  "NAG": {
+    "name": "나가르",
+    "desc": ""
+  },
+  "SWT": {
+    "name": "스와트",
+    "desc": ""
+  },
+  "HNZ": {
+    "name": "훈자",
+    "desc": ""
+  },
+  "CTR": {
+    "name": "치트랄",
+    "desc": ""
+  },
+  "CRL": {
+    "name": "웃순",
+    "desc": ""
+  },
+  "GLI": {
+    "name": "길기트",
+    "desc": ""
+  },
+  "KSH": {
+    "name": "카슈미르",
+    "desc": ""
+  },
+  "RJR": {
+    "name": "라주리",
+    "desc": ""
+  },
+  "PNC": {
+    "name": "푼치",
+    "desc": ""
+  },
+  "CBH": {
+    "name": "빔버",
+    "desc": ""
+  },
+  "CAB": {
+    "name": "참바",
+    "desc": ""
+  },
+  "LHL": {
+    "name": "라훌",
+    "desc": ""
+  },
+  "KLU": {
+    "name": "쿨루",
+    "desc": ""
+  },
+  "KSW": {
+    "name": "키슈트와르",
+    "desc": ""
+  },
+  "SKT": {
+    "name": "수켓",
+    "desc": ""
+  },
+  "BSP": {
+    "name": "빌라스푸르",
+    "desc": ""
+  },
+  "KTL": {
+    "name": "쿠틀레하르",
+    "desc": ""
+  },
+  "KGR": {
+    "name": "캉그라",
+    "desc": ""
+  },
+  "NRP": {
+    "name": "누르푸르",
+    "desc": ""
+  },
+  "MAJ": {
+    "name": "마자파힛",
+    "desc": ""
+  },
+  "BLI": {
+    "name": "발리",
+    "desc": ""
+  },
+  "SUN": {
+    "name": "순다",
+    "desc": ""
+  },
+  "JMB": {
+    "name": "믈라유",
+    "desc": ""
+  },
+  "ATJ": {
+    "name": "아체",
+    "desc": ""
+  },
+  "PSA": {
+    "name": "파사이",
+    "desc": ""
+  },
+  "ARU": {
+    "name": "아루",
+    "desc": ""
+  },
+  "PNI": {
+    "name": "판나이",
+    "desc": ""
+  },
+  "BUS": {
+    "name": "바루스",
+    "desc": ""
+  },
+  "INR": {
+    "name": "인드라기리",
+    "desc": ""
+  },
+  "SGT": {
+    "name": "시군투르",
+    "desc": ""
+  },
+  "PLB": {
+    "name": "팔렘방",
+    "desc": ""
+  },
+  "LGE": {
+    "name": "링게",
+    "desc": ""
+  },
+  "TJP": {
+    "name": "탄중푸라",
+    "desc": ""
+  },
+  "NSR": {
+    "name": "난 사루나이",
+    "desc": ""
+  },
+  "KRP": {
+    "name": "쿠리판",
+    "desc": ""
+  },
+  "MRP": {
+    "name": "쿠타이 마르타푸라",
+    "desc": ""
+  },
+  "KKG": {
+    "name": "쿠타이 카르타느가라",
+    "desc": ""
+  },
+  "SMB": {
+    "name": "삼바스",
+    "desc": ""
+  },
+  "TDG": {
+    "name": "티둥",
+    "desc": ""
+  },
+  "BEI": {
+    "name": "브루나이",
+    "desc": ""
+  },
+  "MNU": {
+    "name": "멜라나우",
+    "desc": ""
+  },
+  "SBG": {
+    "name": "산투봉",
+    "desc": ""
+  },
+  "SGU": {
+    "name": "상가우",
+    "desc": ""
+  },
+  "LNK": {
+    "name": "란닥",
+    "desc": ""
+  },
+  "SBU": {
+    "name": "슬림바우",
+    "desc": ""
+  },
+  "SLA": {
+    "name": "실랏",
+    "desc": ""
+  },
+  "BLN": {
+    "name": "볼라앙",
+    "desc": ""
+  },
+  "GRT": {
+    "name": "고론탈로",
+    "desc": ""
+  },
+  "PJT": {
+    "name": "푸자난티",
+    "desc": ""
+  },
+  "BGG": {
+    "name": "방가",
+    "desc": ""
+  },
+  "LUW": {
+    "name": "루우",
+    "desc": ""
+  },
+  "BAI": {
+    "name": "방가이",
+    "desc": ""
+  },
+  "BTE": {
+    "name": "반타엥",
+    "desc": ""
+  },
+  "GOW": {
+    "name": "고와",
+    "desc": ""
+  },
+  "BOW": {
+    "name": "보원테후",
+    "desc": ""
+  },
+  "BTN": {
+    "name": "부톤",
+    "desc": ""
+  },
+  "MKG": {
+    "name": "메콩가",
+    "desc": ""
+  },
+  "KNW": {
+    "name": "코나웨",
+    "desc": ""
+  },
+  "MRN": {
+    "name": "모로네네",
+    "desc": ""
+  },
+  "CIN": {
+    "name": "치나",
+    "desc": ""
+  },
+  "KLS": {
+    "name": "칼리수수",
+    "desc": ""
+  },
+  "WUN": {
+    "name": "무나",
+    "desc": ""
+  },
+  "BNE": {
+    "name": "보네",
+    "desc": ""
+  },
+  "SDR": {
+    "name": "시덴렝",
+    "desc": ""
+  },
+  "RRU": {
+    "name": "바루",
+    "desc": ""
+  },
+  "SIG": {
+    "name": "시앙",
+    "desc": ""
+  },
+  "PKR": {
+    "name": "파쏘꼬랑",
+    "desc": ""
+  },
+  "SLP": {
+    "name": "셀라파랑",
+    "desc": ""
+  },
+  "BIM": {
+    "name": "비마",
+    "desc": ""
+  },
+  "DOM": {
+    "name": "돔푸",
+    "desc": ""
+  },
+  "NGL": {
+    "name": "응알리",
+    "desc": ""
+  },
+  "TLW": {
+    "name": "탈리왕",
+    "desc": ""
+  },
+  "LRT": {
+    "name": "라란투카",
+    "desc": ""
+  },
+  "WHL": {
+    "name": "웨할레",
+    "desc": ""
+  },
+  "BAC": {
+    "name": "바칸",
+    "desc": ""
+  },
+  "TER": {
+    "name": "테르나테",
+    "desc": ""
+  },
+  "TID": {
+    "name": "티도레",
+    "desc": ""
+  },
+  "LOL": {
+    "name": "로로다",
+    "desc": ""
+  },
+  "JLO": {
+    "name": "자일롤로",
+    "desc": ""
+  },
+  "MOO": {
+    "name": "모로",
+    "desc": ""
+  },
+  "SUL": {
+    "name": "루파 수그",
+    "desc": ""
+  },
+  "MYI": {
+    "name": "마이",
+    "desc": ""
+  },
+  "CEB": {
+    "name": "세부",
+    "desc": ""
+  },
+  "TDO": {
+    "name": "톤도",
+    "desc": ""
+  },
+  "MNA": {
+    "name": "마닐라",
+    "desc": ""
+  },
+  "MDY": {
+    "name": "마자야스",
+    "desc": ""
+  },
+  "PGS": {
+    "name": "카볼로안",
+    "desc": ""
+  },
+  "BTU": {
+    "name": "부투안",
+    "desc": ""
+  },
+  "MGD": {
+    "name": "웬두링",
+    "desc": ""
+  },
+  "KIM": {
+    "name": "킬리만",
+    "desc": ""
+  },
+  "LNO": {
+    "name": "라나오",
+    "desc": ""
+  },
+  "IBL": {
+    "name": "이발론",
+    "desc": ""
+  },
+  "PLL": {
+    "name": "풀릴루",
+    "desc": ""
+  },
+  "TYY": {
+    "name": "타이타이",
+    "desc": ""
+  },
+  "KML": {
+    "name": "쿠말라랑",
+    "desc": ""
+  },
+  "CNT": {
+    "name": "카인타",
+    "desc": ""
+  },
+  "KAM": {
+    "name": "카이마나",
+    "desc": ""
+  },
+  "BOL": {
+    "name": "다피탄",
+    "desc": ""
+  },
+  "SML": {
+    "name": "산말란",
+    "desc": ""
+  },
+  "ILC": {
+    "name": "일로코스",
+    "desc": ""
+  },
+  "WGE": {
+    "name": "와이게오",
+    "desc": ""
+  },
+  "MAD": {
+    "name": "마덴",
+    "desc": ""
+  },
+  "MSL": {
+    "name": "미솔",
+    "desc": ""
+  },
+  "ABA": {
+    "name": "알바",
+    "desc": ""
+  },
+  "ANC": {
+    "name": "안코나",
+    "desc": ""
+  },
+  "AQU": {
+    "name": "아퀼레이아",
+    "desc": ""
+  },
+  "ARB": {
+    "name": "아르보레아",
+    "desc": ""
+  },
+  "ARZ": {
+    "name": "아레초",
+    "desc": ""
+  },
+  "ASC": {
+    "name": "아스콜리",
+    "desc": ""
+  },
+  "ASD": {
+    "name": "알레산드리아",
+    "desc": ""
+  },
+  "ATI": {
+    "name": "아스티",
+    "desc": ""
+  },
+  "BLG": {
+    "name": "볼로냐",
+    "desc": ""
+  },
+  "BRS": {
+    "name": "브레시아",
+    "desc": ""
+  },
+  "CAG": {
+    "name": "칼리아리",
+    "desc": ""
+  },
+  "CDC": {
+    "name": "치타 디 카스텔로",
+    "desc": ""
+  },
+  "CEN": {
+    "name": "체네다",
+    "desc": ""
+  },
+  "CES": {
+    "name": "체세나",
+    "desc": ""
+  },
+  "CEV": {
+    "name": "체바",
+    "desc": ""
+  },
+  "CHX": {
+    "name": "키에리",
+    "desc": ""
+  },
+  "CMR": {
+    "name": "카메리노",
+    "desc": ""
+  },
+  "CNV": {
+    "name": "카나베세",
+    "desc": ""
+  },
+  "COR": {
+    "name": "코르시카",
+    "desc": ""
+  },
+  "COT": {
+    "name": "코르토나",
+    "desc": ""
+  },
+  "CRM": {
+    "name": "크레모나",
+    "desc": ""
+  },
+  "CRR": {
+    "name": "피날레",
+    "desc": ""
+  },
+  "FAB": {
+    "name": "파브리아노",
+    "desc": ""
+  },
+  "FAE": {
+    "name": "파엔차",
+    "desc": ""
+  },
+  "FEL": {
+    "name": "펠트레",
+    "desc": ""
+  },
+  "FER": {
+    "name": "페라라",
+    "desc": ""
+  },
+  "FLO": {
+    "name": "피렌체",
+    "desc": ""
+  },
+  "FRM": {
+    "name": "페르모",
+    "desc": ""
+  },
+  "GAL": {
+    "name": "갈루라",
+    "desc": ""
+  },
+  "GEN": {
+    "name": "제노바",
+    "desc": ""
+  },
+  "GUB": {
+    "name": "구비오",
+    "desc": ""
+  },
+  "IMO": {
+    "name": "이몰라",
+    "desc": ""
+  },
+  "LUC": {
+    "name": "루카",
+    "desc": ""
+  },
+  "MAN": {
+    "name": "만토바",
+    "desc": ""
+  },
+  "MFA": {
+    "name": "몬페라토",
+    "desc": ""
+  },
+  "MLO": {
+    "name": "밀라노",
+    "desc": ""
+  },
+  "MND": {
+    "name": "몬도비",
+    "desc": ""
+  },
+  "MOD": {
+    "name": "모데나",
+    "desc": ""
+  },
+  "MSP": {
+    "name": "말라스피나",
+    "desc": ""
+  },
+  "MTA": {
+    "name": "마체라타",
+    "desc": ""
+  },
+  "NAP": {
+    "name": "나폴리",
+    "desc": ""
+  },
+  "PAD": {
+    "name": "파도바",
+    "desc": ""
+  },
+  "PAP": {
+    "name": "로마",
+    "desc": ""
+  },
+  "PAR": {
+    "name": "파르마",
+    "desc": ""
+  },
+  "PAV": {
+    "name": "파비아",
+    "desc": ""
+  },
+  "PEA": {
+    "name": "페루자",
+    "desc": ""
+  },
+  "PES": {
+    "name": "페사로",
+    "desc": ""
+  },
+  "PIE": {
+    "name": "피에몬테",
+    "desc": ""
+  },
+  "PIO": {
+    "name": "피옴비노",
+    "desc": ""
+  },
+  "PIS": {
+    "name": "피사",
+    "desc": ""
+  },
+  "PRA": {
+    "name": "프라토",
+    "desc": ""
+  },
+  "RAV": {
+    "name": "라벤나",
+    "desc": ""
+  },
+  "RGG": {
+    "name": "레조",
+    "desc": ""
+  },
+  "RIM": {
+    "name": "리미니",
+    "desc": ""
+  },
+  "SAL": {
+    "name": "살루초",
+    "desc": ""
+  },
+  "SAV": {
+    "name": "사보이아",
+    "desc": ""
+  },
+  "SCL": {
+    "name": "생클로드",
+    "desc": ""
+  },
+  "GNV": {
+    "name": "제네바",
+    "desc": ""
+  },
+  "SIC": {
+    "name": "시칠리아",
+    "desc": ""
+  },
+  "SIE": {
+    "name": "시에나",
+    "desc": ""
+  },
+  "SPL": {
+    "name": "스폴레토",
+    "desc": ""
+  },
+  "PTG": {
+    "name": "피틸리아노",
+    "desc": ""
+  },
+  "SSP": {
+    "name": "산세폴크로",
+    "desc": ""
+  },
+  "TNT": {
+    "name": "트렌토",
+    "desc": ""
+  },
+  "TOR": {
+    "name": "토레스",
+    "desc": ""
+  },
+  "TRV": {
+    "name": "트레비소",
+    "desc": ""
+  },
+  "TTE": {
+    "name": "트리에스테",
+    "desc": ""
+  },
+  "TTN": {
+    "name": "토르토나",
+    "desc": ""
+  },
+  "URB": {
+    "name": "우르비노",
+    "desc": ""
+  },
+  "VEN": {
+    "name": "베네치아",
+    "desc": ""
+  },
+  "VER": {
+    "name": "베로나",
+    "desc": ""
+  },
+  "VIN": {
+    "name": "비첸차",
+    "desc": ""
+  },
+  "VLT": {
+    "name": "볼테라",
+    "desc": ""
+  },
+  "PRZ": {
+    "name": "페루치",
+    "desc": ""
+  },
+  "BRD": {
+    "name": "바르디",
+    "desc": ""
+  },
+  "ACC": {
+    "name": "아차이올리",
+    "desc": ""
+  },
+  "PST": {
+    "name": "피스토이아",
+    "desc": ""
+  },
+  "VUN": {
+    "name": "붕구",
+    "desc": ""
+  },
+  "NSU": {
+    "name": "응수디",
+    "desc": ""
+  },
+  "MPE": {
+    "name": "마구엘라",
+    "desc": ""
+  },
+  "VNA": {
+    "name": "분다",
+    "desc": ""
+  },
+  "MBT": {
+    "name": "음바타",
+    "desc": ""
+  },
+  "SOY": {
+    "name": "소요",
+    "desc": ""
+  },
+  "MOM": {
+    "name": "몸보아레스",
+    "desc": ""
+  },
+  "CHO": {
+    "name": "초크웨",
+    "desc": ""
+  },
+  "OVI": {
+    "name": "오빔분두",
+    "desc": ""
+  },
+  "LND": {
+    "name": "룬다",
+    "desc": ""
+  },
+  "LBA": {
+    "name": "루바",
+    "desc": ""
+  },
+  "KUB": {
+    "name": "쿠바",
+    "desc": ""
+  },
+  "LEG": {
+    "name": "레가",
+    "desc": ""
+  },
+  "SIK": {
+    "name": "씰룩",
+    "desc": ""
+  },
+  "HOL": {
+    "name": "홀란트",
+    "desc": ""
+  },
+  "ZEE": {
+    "name": "제일란트",
+    "desc": ""
+  },
+  "BRB": {
+    "name": "브라반트",
+    "desc": ""
+  },
+  "FLA": {
+    "name": "플란데런",
+    "desc": ""
+  },
+  "LUX": {
+    "name": "룩셈부르크",
+    "desc": ""
+  },
+  "LIE": {
+    "name": "$liege$",
+    "desc": ""
+  },
+  "CHN": {
+    "name": "치니",
+    "desc": ""
+  },
+  "LIM": {
+    "name": "림뷔르흐",
+    "desc": ""
+  },
+  "NAM": {
+    "name": "나뮈르",
+    "desc": ""
+  },
+  "LOO": {
+    "name": "룬",
+    "desc": ""
+  },
+  "VBG": {
+    "name": "발켄부르크",
+    "desc": ""
+  },
+  "HRN": {
+    "name": "호르네",
+    "desc": ""
+  },
+  "CJK": {
+    "name": "카위크",
+    "desc": ""
+  },
+  "UTR": {
+    "name": "위트레흐트",
+    "desc": ""
+  },
+  "FRI": {
+    "name": "프리슬란트",
+    "desc": ""
+  },
+  "STV": {
+    "name": "스타벨로-말메디",
+    "desc": ""
+  },
+  "HAI": {
+    "name": "에노",
+    "desc": ""
+  },
+  "ARS": {
+    "name": "아르투아",
+    "desc": ""
+  },
+  "STP": {
+    "name": "생폴",
+    "desc": ""
+  },
+  "BGN": {
+    "name": "불로뉴",
+    "desc": ""
+  },
+  "BNT": {
+    "name": "벤트하임",
+    "desc": ""
+  },
+  "BLL": {
+    "name": "부용",
+    "desc": ""
+  },
+  "HBG": {
+    "name": "하인스베르크",
+    "desc": ""
+  },
+  "MOR": {
+    "name": "모로코",
+    "desc": ""
+  },
+  "FEZ": {
+    "name": "페스",
+    "desc": ""
+  },
+  "CNR": {
+    "name": "관체",
+    "desc": ""
+  },
+  "MRK": {
+    "name": "마라케시",
+    "desc": ""
+  },
+  "TET": {
+    "name": "테투안",
+    "desc": ""
+  },
+  "SLE": {
+    "name": "살레",
+    "desc": ""
+  },
+  "TFL": {
+    "name": "타필랄트",
+    "desc": ""
+  },
+  "SOS": {
+    "name": "슈쉬",
+    "desc": ""
+  },
+  "TLE": {
+    "name": "틀렘센",
+    "desc": ""
+  },
+  "ALG": {
+    "name": "알제",
+    "desc": ""
+  },
+  "TGT": {
+    "name": "투구르트",
+    "desc": ""
+  },
+  "KUK": {
+    "name": "쿠쿠",
+    "desc": ""
+  },
+  "AIT": {
+    "name": "아이트 압바스",
+    "desc": ""
+  },
+  "MZB": {
+    "name": "므자브",
+    "desc": ""
+  },
+  "TUN": {
+    "name": "튀니스",
+    "desc": ""
+  },
+  "DJE": {
+    "name": "제리드",
+    "desc": ""
+  },
+  "GFS": {
+    "name": "가프사",
+    "desc": ""
+  },
+  "GBS": {
+    "name": "가베스",
+    "desc": ""
+  },
+  "BTL": {
+    "name": "텔리스",
+    "desc": ""
+  },
+  "ZAB": {
+    "name": "자브",
+    "desc": ""
+  },
+  "OGL": {
+    "name": "우아르글라",
+    "desc": ""
+  },
+  "TAT": {
+    "name": "투아트",
+    "desc": ""
+  },
+  "TAR": {
+    "name": "푸레페차",
+    "desc": ""
+  },
+  "CRK": {
+    "name": "추루메쿠아",
+    "desc": ""
+  },
+  "CTE": {
+    "name": "쿠이체오",
+    "desc": ""
+  },
+  "TUZ": {
+    "name": "토산틀란",
+    "desc": ""
+  },
+  "TZI": {
+    "name": "치타쿠아로",
+    "desc": ""
+  },
+  "TAX": {
+    "name": "타시마로아",
+    "desc": ""
+  },
+  "TNC": {
+    "name": "테노치티틀란",
+    "desc": ""
+  },
+  "TTZ": {
+    "name": "아콜루아칸",
+    "desc": ""
+  },
+  "CUL": {
+    "name": "쿨루아칸",
+    "desc": ""
+  },
+  "TEP": {
+    "name": "테파네카판",
+    "desc": ""
+  },
+  "TCP": {
+    "name": "틀라코판",
+    "desc": ""
+  },
+  "OTO": {
+    "name": "샬토칸",
+    "desc": ""
+  },
+  "AXO": {
+    "name": "아쇼코판",
+    "desc": ""
+  },
+  "MET": {
+    "name": "메츠티틀란",
+    "desc": ""
+  },
+  "HYC": {
+    "name": "우에야코코틀라",
+    "desc": ""
+  },
+  "TUT": {
+    "name": "토토테펙",
+    "desc": ""
+  },
+  "XIL": {
+    "name": "실로테펙",
+    "desc": ""
+  },
+  "ZIN": {
+    "name": "시나페쿠아로",
+    "desc": ""
+  },
+  "MAT": {
+    "name": "톨로칸",
+    "desc": ""
+  },
+  "MLN": {
+    "name": "말리날코",
+    "desc": ""
+  },
+  "TLA": {
+    "name": "틱스틀라",
+    "desc": ""
+  },
+  "YPZ": {
+    "name": "요피친코",
+    "desc": ""
+  },
+  "CLP": {
+    "name": "칠라파",
+    "desc": ""
+  },
+  "OAP": {
+    "name": "오아판",
+    "desc": ""
+  },
+  "TLX": {
+    "name": "틀라스칼란",
+    "desc": ""
+  },
+  "ZAP": {
+    "name": "사치라",
+    "desc": ""
+  },
+  "TPL": {
+    "name": "테포스코쿨라",
+    "desc": ""
+  },
+  "IXL": {
+    "name": "익스틀란",
+    "desc": ""
+  },
+  "YDZ": {
+    "name": "요초카히",
+    "desc": ""
+  },
+  "YAU": {
+    "name": "야우테펙",
+    "desc": ""
+  },
+  "THT": {
+    "name": "테우안테펙",
+    "desc": ""
+  },
+  "MIX": {
+    "name": "유쿠 자아",
+    "desc": ""
+  },
+  "QIG": {
+    "name": "키에고키",
+    "desc": ""
+  },
+  "TZL": {
+    "name": "테오사코알코",
+    "desc": ""
+  },
+  "JUX": {
+    "name": "요조 쿠이야",
+    "desc": ""
+  },
+  "TCQ": {
+    "name": "은디시 누",
+    "desc": ""
+  },
+  "YCH": {
+    "name": "유쿠 사투타",
+    "desc": ""
+  },
+  "COI": {
+    "name": "요조 쿠",
+    "desc": ""
+  },
+  "CCN": {
+    "name": "쿠이카틀란",
+    "desc": ""
+  },
+  "NND": {
+    "name": "뉴 은디이",
+    "desc": ""
+  },
+  "MHT": {
+    "name": "미아우아틀란",
+    "desc": ""
+  },
+  "TEO": {
+    "name": "테오티틀란",
+    "desc": ""
+  },
+  "CLM": {
+    "name": "콜리만",
+    "desc": ""
+  },
+  "TOT": {
+    "name": "셈포우알란",
+    "desc": ""
+  },
+  "MZT": {
+    "name": "미산틀라",
+    "desc": ""
+  },
+  "PPT": {
+    "name": "파판틀란",
+    "desc": ""
+  },
+  "QHZ": {
+    "name": "키아위스틀란",
+    "desc": ""
+  },
+  "HST": {
+    "name": "테아요틀란",
+    "desc": ""
+  },
+  "MCC": {
+    "name": "미추아차판코",
+    "desc": ""
+  },
+  "TTC": {
+    "name": "탐톡",
+    "desc": ""
+  },
+  "TXP": {
+    "name": "툭스판",
+    "desc": ""
+  },
+  "OZL": {
+    "name": "오술루아마",
+    "desc": ""
+  },
+  "OXT": {
+    "name": "옥스틀리판",
+    "desc": ""
+  },
+  "TZH": {
+    "name": "치우코악",
+    "desc": ""
+  },
+  "TZP": {
+    "name": "테차포티틀란",
+    "desc": ""
+  },
+  "XAL": {
+    "name": "샬리스코",
+    "desc": ""
+  },
+  "TAA": {
+    "name": "틀랄판",
+    "desc": ""
+  },
+  "TZZ": {
+    "name": "차포친고",
+    "desc": ""
+  },
+  "SNT": {
+    "name": "센티스팍",
+    "desc": ""
+  },
+  "PAM": {
+    "name": "시오이",
+    "desc": ""
+  },
+  "TNL": {
+    "name": "토날란",
+    "desc": ""
+  },
+  "MXT": {
+    "name": "메스티카칸",
+    "desc": ""
+  },
+  "YAH": {
+    "name": "야우알리칸",
+    "desc": ""
+  },
+  "TPN": {
+    "name": "테크파티틀란",
+    "desc": ""
+  },
+  "MIT": {
+    "name": "미틱",
+    "desc": ""
+  },
+  "XLT": {
+    "name": "샬로스토티틀란",
+    "desc": ""
+  },
+  "CON": {
+    "name": "코이난",
+    "desc": ""
+  },
+  "ACA": {
+    "name": "아카틱",
+    "desc": ""
+  },
+  "TPC": {
+    "name": "테페칸",
+    "desc": ""
+  },
+  "TEL": {
+    "name": "카스칸",
+    "desc": ""
+  },
+  "XOC": {
+    "name": "쇼치필란",
+    "desc": ""
+  },
+  "ZAC": {
+    "name": "사카테카",
+    "desc": ""
+  },
+  "ZAI": {
+    "name": "사인",
+    "desc": ""
+  },
+  "GAM": {
+    "name": "과마르",
+    "desc": ""
+  },
+  "SAU": {
+    "name": "사우사스",
+    "desc": ""
+  },
+  "GUX": {
+    "name": "과사반",
+    "desc": ""
+  },
+  "IZT": {
+    "name": "이스타치치메카",
+    "desc": ""
+  },
+  "ATO": {
+    "name": "아토크판",
+    "desc": ""
+  },
+  "TZC": {
+    "name": "톨란친코",
+    "desc": ""
+  },
+  "CLC": {
+    "name": "찰코",
+    "desc": ""
+  },
+  "HUX": {
+    "name": "와스테펙",
+    "desc": ""
+  },
+  "CUU": {
+    "name": "쿠아우나우악",
+    "desc": ""
+  },
+  "TCH": {
+    "name": "틀라치코",
+    "desc": ""
+  },
+  "OZT": {
+    "name": "오스토만",
+    "desc": ""
+  },
+  "TMS": {
+    "name": "테마스칼테펙",
+    "desc": ""
+  },
+  "TCC": {
+    "name": "테페코아퀼코",
+    "desc": ""
+  },
+  "CTL": {
+    "name": "치야우틀라",
+    "desc": ""
+  },
+  "TLL": {
+    "name": "테텔란",
+    "desc": ""
+  },
+  "ZOM": {
+    "name": "촘판코",
+    "desc": ""
+  },
+  "TLZ": {
+    "name": "틀랄코사우티틀란",
+    "desc": ""
+  },
+  "UAU": {
+    "name": "쿠아우테오판",
+    "desc": ""
+  },
+  "YOH": {
+    "name": "요왈테펙",
+    "desc": ""
+  },
+  "TPT": {
+    "name": "테크판테펙",
+    "desc": ""
+  },
+  "CIH": {
+    "name": "시우아틀란",
+    "desc": ""
+  },
+  "ZCT": {
+    "name": "사카톨란",
+    "desc": ""
+  },
+  "AJC": {
+    "name": "아쇼치틀란",
+    "desc": ""
+  },
+  "TLP": {
+    "name": "틀라판",
+    "desc": ""
+  },
+  "AYO": {
+    "name": "아요틀란",
+    "desc": ""
+  },
+  "OMT": {
+    "name": "오메테펙",
+    "desc": ""
+  },
+  "CTC": {
+    "name": "코아틀리카막",
+    "desc": ""
+  },
+  "CTZ": {
+    "name": "코아차쿠알코",
+    "desc": ""
+  },
+  "TPY": {
+    "name": "테페야칵",
+    "desc": ""
+  },
+  "CTX": {
+    "name": "쿠에틀라스틀란",
+    "desc": ""
+  },
+  "CLL": {
+    "name": "촐롤란",
+    "desc": ""
+  },
+  "HJZ": {
+    "name": "우에쇼친코",
+    "desc": ""
+  },
+  "XCH": {
+    "name": "쇼치밀코",
+    "desc": ""
+  },
+  "IXT": {
+    "name": "이스타카마스티틀란",
+    "desc": ""
+  },
+  "TEE": {
+    "name": "테텔라",
+    "desc": ""
+  },
+  "ZAT": {
+    "name": "사카틀란",
+    "desc": ""
+  },
+  "TLQ": {
+    "name": "틀랄라우키테펙",
+    "desc": ""
+  },
+  "TCY": {
+    "name": "틀라파코얀",
+    "desc": ""
+  },
+  "AHU": {
+    "name": "아우아카틀란",
+    "desc": ""
+  },
+  "GCH": {
+    "name": "쿠아우치난코",
+    "desc": ""
+  },
+  "ETZ": {
+    "name": "에차틀란",
+    "desc": ""
+  },
+  "XCT": {
+    "name": "쇼치테펙",
+    "desc": ""
+  },
+  "AME": {
+    "name": "아메칸",
+    "desc": ""
+  },
+  "TNX": {
+    "name": "테나마스틀란",
+    "desc": ""
+  },
+  "AML": {
+    "name": "아몰란",
+    "desc": ""
+  },
+  "CZL": {
+    "name": "코살라판",
+    "desc": ""
+  },
+  "TMT": {
+    "name": "토마틀란",
+    "desc": ""
+  },
+  "MHC": {
+    "name": "멜라우아칸",
+    "desc": ""
+  },
+  "XIH": {
+    "name": "시우틀란",
+    "desc": ""
+  },
+  "ATL": {
+    "name": "아우틀란",
+    "desc": ""
+  },
+  "CCL": {
+    "name": "코콜란",
+    "desc": ""
+  },
+  "HTZ": {
+    "name": "위츠킬릭",
+    "desc": ""
+  },
+  "AZL": {
+    "name": "아스타틀란",
+    "desc": ""
+  },
+  "TZM": {
+    "name": "타마솔란",
+    "desc": ""
+  },
+  "TLY": {
+    "name": "틀라파코야",
+    "desc": ""
+  },
+  "CAU": {
+    "name": "쿠아우틀란",
+    "desc": ""
+  },
+  "AMP": {
+    "name": "아마필라",
+    "desc": ""
+  },
+  "SAY": {
+    "name": "사욜란",
+    "desc": ""
+  },
+  "PTP": {
+    "name": "판테펙",
+    "desc": ""
+  },
+  "XAP": {
+    "name": "샬라판",
+    "desc": ""
+  },
+  "CUO": {
+    "name": "쿠아우토츠코",
+    "desc": ""
+  },
+  "XIC": {
+    "name": "시코치말코",
+    "desc": ""
+  },
+  "TOH": {
+    "name": "토치테펙",
+    "desc": ""
+  },
+  "TTA": {
+    "name": "테우틸라",
+    "desc": ""
+  },
+  "PTL": {
+    "name": "푹틀란",
+    "desc": ""
+  },
+  "CSM": {
+    "name": "코사말로아판",
+    "desc": ""
+  },
+  "OTA": {
+    "name": "오타티틀란",
+    "desc": ""
+  },
+  "TLT": {
+    "name": "틀라코틀랄판",
+    "desc": ""
+  },
+  "TOZ": {
+    "name": "토스틀란",
+    "desc": ""
+  },
+  "IZC": {
+    "name": "이스타차칼라판",
+    "desc": ""
+  },
+  "TSE": {
+    "name": "테세초아칸",
+    "desc": ""
+  },
+  "CCP": {
+    "name": "쿠아우쿠에츠팔테펙",
+    "desc": ""
+  },
+  "OZU": {
+    "name": "오수마친",
+    "desc": ""
+  },
+  "ATP": {
+    "name": "아테펙",
+    "desc": ""
+  },
+  "CPN": {
+    "name": "초아판",
+    "desc": ""
+  },
+  "XCP": {
+    "name": "쇼치아판",
+    "desc": ""
+  },
+  "ATT": {
+    "name": "아티틀란",
+    "desc": ""
+  },
+  "IXA": {
+    "name": "이스타판",
+    "desc": ""
+  },
+  "CUZ": {
+    "name": "쿠차말라",
+    "desc": ""
+  },
+  "TLO": {
+    "name": "텔롤로아판",
+    "desc": ""
+  },
+  "AMT": {
+    "name": "아마코스티틀란",
+    "desc": ""
+  },
+  "QLL": {
+    "name": "쿠아우케촐란",
+    "desc": ""
+  },
+  "IZO": {
+    "name": "이초칸",
+    "desc": ""
+  },
+  "AXC": {
+    "name": "아쇼치아판",
+    "desc": ""
+  },
+  "TPX": {
+    "name": "테페식",
+    "desc": ""
+  },
+  "ZCZ": {
+    "name": "사카소나판",
+    "desc": ""
+  },
+  "ITZ": {
+    "name": "이차",
+    "desc": ""
+  },
+  "COC": {
+    "name": "코콤",
+    "desc": ""
+  },
+  "XIU": {
+    "name": "투툴시우",
+    "desc": ""
+  },
+  "CNL": {
+    "name": "아 카눌",
+    "desc": ""
+  },
+  "CKP": {
+    "name": "차칸 푸툼",
+    "desc": ""
+  },
+  "HEL": {
+    "name": "첼",
+    "desc": ""
+  },
+  "UAY": {
+    "name": "우아이밀",
+    "desc": ""
+  },
+  "MOP": {
+    "name": "모판",
+    "desc": ""
+  },
+  "CTM": {
+    "name": "차악 테 에말",
+    "desc": ""
+  },
+  "KOW": {
+    "name": "코워흐",
+    "desc": ""
+  },
+  "YOK": {
+    "name": "요코 타아놉",
+    "desc": ""
+  },
+  "XOL": {
+    "name": "촐",
+    "desc": ""
+  },
+  "QEQ": {
+    "name": "케크치",
+    "desc": ""
+  },
+  "KIC": {
+    "name": "키체",
+    "desc": ""
+  },
+  "CHT": {
+    "name": "초르티",
+    "desc": ""
+  },
+  "LAC": {
+    "name": "소츠렙",
+    "desc": ""
+  },
+  "KAQ": {
+    "name": "카크치켈",
+    "desc": ""
+  },
+  "MMM": {
+    "name": "맘",
+    "desc": ""
+  },
+  "TOJ": {
+    "name": "토홀라발",
+    "desc": ""
+  },
+  "TZE": {
+    "name": "첼탈",
+    "desc": ""
+  },
+  "TZU": {
+    "name": "츠우투힐",
+    "desc": ""
+  },
+  "QAN": {
+    "name": "칸호발",
+    "desc": ""
+  },
+  "TOQ": {
+    "name": "토케과",
+    "desc": ""
+  },
+  "DIT": {
+    "name": "디트마르셴",
+    "desc": ""
+  },
+  "HSA": {
+    "name": "한자",
+    "desc": ""
+  },
+  "LUB": {
+    "name": "뤼베크",
+    "desc": ""
+  },
+  "LBB": {
+    "name": "루베카",
+    "desc": ""
+  },
+  "BRA": {
+    "name": "브란덴부르크",
+    "desc": ""
+  },
+  "ALL": {
+    "name": "알슈테트",
+    "desc": ""
+  },
+  "MAG": {
+    "name": "마그데부르크",
+    "desc": ""
+  },
+  "THU": {
+    "name": "튀링겐",
+    "desc": ""
+  },
+  "BRE": {
+    "name": "브레마",
+    "desc": ""
+  },
+  "BRM": {
+    "name": "브레멘",
+    "desc": ""
+  },
+  "MDN": {
+    "name": "민덴",
+    "desc": ""
+  },
+  "NSA": {
+    "name": "나사우",
+    "desc": ""
+  },
+  "NSH": {
+    "name": "나사우-하다마르",
+    "desc": ""
+  },
+  "NSS": {
+    "name": "나사우-지겐",
+    "desc": ""
+  },
+  "NSD": {
+    "name": "나사우-딜렌부르크",
+    "desc": ""
+  },
+  "BRG": {
+    "name": "베르크",
+    "desc": ""
+  },
+  "KTZ": {
+    "name": "카체넬른보겐",
+    "desc": ""
+  },
+  "MAI": {
+    "name": "마인츠",
+    "desc": ""
+  },
+  "SAA": {
+    "name": "자르브뤼켄",
+    "desc": ""
+  },
+  "STE": {
+    "name": "슈테틴",
+    "desc": ""
+  },
+  "HPL": {
+    "name": "홀슈타인-플뢴",
+    "desc": ""
+  },
+  "HTR": {
+    "name": "홀슈타인-렌츠부르크",
+    "desc": ""
+  },
+  "SLV": {
+    "name": "슐레스비히",
+    "desc": ""
+  },
+  "HNB": {
+    "name": "헨네베르크",
+    "desc": ""
+  },
+  "SPY": {
+    "name": "슈피라",
+    "desc": ""
+  },
+  "PLN": {
+    "name": "플라우엔",
+    "desc": ""
+  },
+  "MEI": {
+    "name": "마이센",
+    "desc": ""
+  },
+  "LDB": {
+    "name": "란츠베르크",
+    "desc": ""
+  },
+  "GLA": {
+    "name": "글라우하우",
+    "desc": ""
+  },
+  "SOR": {
+    "name": "루사티아",
+    "desc": ""
+  },
+  "SPB": {
+    "name": "슈프렘베르크",
+    "desc": ""
+  },
+  "SWB": {
+    "name": "작센-비텐베르크",
+    "desc": ""
+  },
+  "RUP": {
+    "name": "루핀",
+    "desc": ""
+  },
+  "HVB": {
+    "name": "하펠베르크",
+    "desc": ""
+  },
+  "SWR": {
+    "name": "슈베린",
+    "desc": ""
+  },
+  "WRN": {
+    "name": "바렌",
+    "desc": ""
+  },
+  "MKL": {
+    "name": "메클렌부르크",
+    "desc": ""
+  },
+  "RZB": {
+    "name": "라체부르크",
+    "desc": ""
+  },
+  "RST": {
+    "name": "로스토크",
+    "desc": ""
+  },
+  "GSW": {
+    "name": "귀스트로",
+    "desc": ""
+  },
+  "WOL": {
+    "name": "볼가스트",
+    "desc": ""
+  },
+  "KMM": {
+    "name": "카민",
+    "desc": ""
+  },
+  "NWG": {
+    "name": "나우가르트",
+    "desc": ""
+  },
+  "LAU": {
+    "name": "작센-라우엔부르크",
+    "desc": ""
+  },
+  "HAM": {
+    "name": "함부르크",
+    "desc": ""
+  },
+  "HBS": {
+    "name": "할버슈타트",
+    "desc": ""
+  },
+  "BBG": {
+    "name": "블랑켄부르크",
+    "desc": ""
+  },
+  "ANH": {
+    "name": "안할트",
+    "desc": ""
+  },
+  "BNB": {
+    "name": "베른부르크",
+    "desc": ""
+  },
+  "MFE": {
+    "name": "만스펠트",
+    "desc": ""
+  },
+  "MRB": {
+    "name": "메르제부르크",
+    "desc": ""
+  },
+  "NMB": {
+    "name": "나움부르크",
+    "desc": ""
+  },
+  "QUB": {
+    "name": "게라",
+    "desc": ""
+  },
+  "WMA": {
+    "name": "바이마르",
+    "desc": ""
+  },
+  "SWZ": {
+    "name": "슈바르츠부르크",
+    "desc": ""
+  },
+  "FLD": {
+    "name": "풀다",
+    "desc": ""
+  },
+  "SHS": {
+    "name": "존더스하우젠",
+    "desc": ""
+  },
+  "NHS": {
+    "name": "노르트하우젠",
+    "desc": ""
+  },
+  "MLH": {
+    "name": "뮐하우젠",
+    "desc": ""
+  },
+  "ERF": {
+    "name": "에르푸르트",
+    "desc": ""
+  },
+  "HSF": {
+    "name": "헤르스펠트",
+    "desc": ""
+  },
+  "HES": {
+    "name": "헤센",
+    "desc": ""
+  },
+  "PDB": {
+    "name": "파더보른",
+    "desc": ""
+  },
+  "ZIG": {
+    "name": "치겐하인",
+    "desc": ""
+  },
+  "HNA": {
+    "name": "하나우",
+    "desc": ""
+  },
+  "BUD": {
+    "name": "뷔딩겐",
+    "desc": ""
+  },
+  "WTZ": {
+    "name": "베츨라",
+    "desc": ""
+  },
+  "TRI": {
+    "name": "트리어",
+    "desc": ""
+  },
+  "DIE": {
+    "name": "디츠",
+    "desc": ""
+  },
+  "FRN": {
+    "name": "프랑크푸르트",
+    "desc": ""
+  },
+  "ERB": {
+    "name": "에르바흐",
+    "desc": ""
+  },
+  "WRM": {
+    "name": "보름스",
+    "desc": ""
+  },
+  "SYE": {
+    "name": "슈파이어",
+    "desc": ""
+  },
+  "ZWE": {
+    "name": "츠바이브뤼켄",
+    "desc": ""
+  },
+  "LNN": {
+    "name": "라이닝겐",
+    "desc": ""
+  },
+  "SPO": {
+    "name": "슈폰하임",
+    "desc": ""
+  },
+  "SYN": {
+    "name": "자인",
+    "desc": ""
+  },
+  "KOL": {
+    "name": "쾰른",
+    "desc": ""
+  },
+  "DUN": {
+    "name": "다운",
+    "desc": ""
+  },
+  "APR": {
+    "name": "프뤔",
+    "desc": ""
+  },
+  "AAC": {
+    "name": "아헨",
+    "desc": ""
+  },
+  "JUL": {
+    "name": "율리히",
+    "desc": ""
+  },
+  "GEL": {
+    "name": "헬러",
+    "desc": ""
+  },
+  "ZUT": {
+    "name": "쥐트펀",
+    "desc": ""
+  },
+  "GMK": {
+    "name": "마르크",
+    "desc": ""
+  },
+  "WTG": {
+    "name": "비트겐슈타인",
+    "desc": ""
+  },
+  "DTM": {
+    "name": "도르트문트",
+    "desc": ""
+  },
+  "ESS": {
+    "name": "에센",
+    "desc": ""
+  },
+  "MRS": {
+    "name": "뫼르스",
+    "desc": ""
+  },
+  "KLE": {
+    "name": "클레페",
+    "desc": ""
+  },
+  "ANB": {
+    "name": "아른스베르크",
+    "desc": ""
+  },
+  "LPP": {
+    "name": "리페",
+    "desc": ""
+  },
+  "HOX": {
+    "name": "코르바이",
+    "desc": ""
+  },
+  "RVB": {
+    "name": "라펜스베르크",
+    "desc": ""
+  },
+  "OSN": {
+    "name": "오스나브뤼크",
+    "desc": ""
+  },
+  "TCK": {
+    "name": "테클렌부르크",
+    "desc": ""
+  },
+  "MUN": {
+    "name": "뮌스터",
+    "desc": ""
+  },
+  "LUN": {
+    "name": "뤼네부르크",
+    "desc": ""
+  },
+  "BRU": {
+    "name": "브라운슈바이크",
+    "desc": ""
+  },
+  "GBH": {
+    "name": "그루벤하겐",
+    "desc": ""
+  },
+  "HDH": {
+    "name": "힐데스하임",
+    "desc": ""
+  },
+  "GOS": {
+    "name": "고슬라르",
+    "desc": ""
+  },
+  "SCB": {
+    "name": "샤우엔부르크",
+    "desc": ""
+  },
+  "HOY": {
+    "name": "호이아",
+    "desc": ""
+  },
+  "NIE": {
+    "name": "닌부르크",
+    "desc": ""
+  },
+  "DPH": {
+    "name": "디폴츠",
+    "desc": ""
+  },
+  "VRD": {
+    "name": "페르덴",
+    "desc": ""
+  },
+  "RTB": {
+    "name": "리체뷔텔",
+    "desc": ""
+  },
+  "OLD": {
+    "name": "올덴부르크",
+    "desc": ""
+  },
+  "BMS": {
+    "name": "미스니아",
+    "desc": ""
+  },
+  "BLB": {
+    "name": "레부스",
+    "desc": ""
+  },
+  "BBD": {
+    "name": "브란덴부르굼",
+    "desc": ""
+  },
+  "HSP": {
+    "name": "홀슈타인-피네베르크",
+    "desc": ""
+  },
+  "BSK": {
+    "name": "베스코브-슈타르코브",
+    "desc": ""
+  },
+  "WGO": {
+    "name": "베르니게로데",
+    "desc": ""
+  },
+  "BHL": {
+    "name": "바이힐링겐",
+    "desc": ""
+  },
+  "GLN": {
+    "name": "글라이헨",
+    "desc": ""
+  },
+  "WDE": {
+    "name": "발데크",
+    "desc": ""
+  },
+  "RBG": {
+    "name": "리트베르크",
+    "desc": ""
+  },
+  "NSW": {
+    "name": "나사우-바일부르크",
+    "desc": ""
+  },
+  "NSI": {
+    "name": "나사우-이드슈타인",
+    "desc": ""
+  },
+  "RDL": {
+    "name": "리데젤",
+    "desc": ""
+  },
+  "NID": {
+    "name": "니다",
+    "desc": ""
+  },
+  "EVS": {
+    "name": "에베르슈타인",
+    "desc": ""
+  },
+  "JEV": {
+    "name": "예퍼",
+    "desc": ""
+  },
+  "WIE": {
+    "name": "비트",
+    "desc": ""
+  },
+  "CHB": {
+    "name": "추판",
+    "desc": ""
+  },
+  "MZF": {
+    "name": "무자파르",
+    "desc": ""
+  },
+  "KRM": {
+    "name": "케르만",
+    "desc": ""
+  },
+  "INJ": {
+    "name": "인주",
+    "desc": ""
+  },
+  "KHU": {
+    "name": "쿤지",
+    "desc": ""
+  },
+  "KRT": {
+    "name": "카르트",
+    "desc": ""
+  },
+  "SRB": {
+    "name": "사르바다르",
+    "desc": ""
+  },
+  "GRG": {
+    "name": "고르간",
+    "desc": ""
+  },
+  "MIH": {
+    "name": "미라반",
+    "desc": ""
+  },
+  "KHN": {
+    "name": "카란",
+    "desc": ""
+  },
+  "SHB": {
+    "name": "샤반카라",
+    "desc": ""
+  },
+  "JUR": {
+    "name": "주르만",
+    "desc": ""
+  },
+  "UGH": {
+    "name": "우간",
+    "desc": ""
+  },
+  "HZP": {
+    "name": "하자라습",
+    "desc": ""
+  },
+  "ORM": {
+    "name": "오르무스",
+    "desc": ""
+  },
+  "FAL": {
+    "name": "팔",
+    "desc": ""
+  },
+  "JSK": {
+    "name": "자스크",
+    "desc": ""
+  },
+  "MZN": {
+    "name": "타바리스탄",
+    "desc": ""
+  },
+  "BDS": {
+    "name": "바두스판",
+    "desc": ""
+  },
+  "MKR": {
+    "name": "마크란",
+    "desc": ""
+  },
+  "BMP": {
+    "name": "밤푸르",
+    "desc": ""
+  },
+  "BLA": {
+    "name": "부레다",
+    "desc": ""
+  },
+  "KLW": {
+    "name": "콜와",
+    "desc": ""
+  },
+  "KHZ": {
+    "name": "쿠흐다",
+    "desc": ""
+  },
+  "KLA": {
+    "name": "칼라트",
+    "desc": ""
+  },
+  "LCK": {
+    "name": "코르시디",
+    "desc": ""
+  },
+  "LST": {
+    "name": "라레스탄",
+    "desc": ""
+  },
+  "ERA": {
+    "name": "에란샤흐르",
+    "desc": ""
+  },
+  "HDN": {
+    "name": "$hamadan$",
+    "desc": ""
+  },
+  "QOM": {
+    "name": "$qom$",
+    "desc": ""
+  },
+  "KSA": {
+    "name": "$kashan$",
+    "desc": ""
+  },
+  "ASR": {
+    "name": "$astarabad$",
+    "desc": ""
+  },
+  "JKR": {
+    "name": "자우니 쿠르반",
+    "desc": ""
+  },
+  "SFR": {
+    "name": "$esfarayen$",
+    "desc": ""
+  },
+  "SBZ": {
+    "name": "$sabzevar$",
+    "desc": ""
+  },
+  "KHT": {
+    "name": "$quhestan_area$",
+    "desc": ""
+  },
+  "MRV": {
+    "name": "$merv$",
+    "desc": ""
+  },
+  "KHF": {
+    "name": "카프",
+    "desc": ""
+  },
+  "HLG": {
+    "name": "훌라구",
+    "desc": ""
+  },
+  "NGD": {
+    "name": "네구데리",
+    "desc": ""
+  },
+  "QUN": {
+    "name": "카라우나스",
+    "desc": ""
+  },
+  "BSD": {
+    "name": "베수드",
+    "desc": ""
+  },
+  "ART": {
+    "name": "알랏",
+    "desc": ""
+  },
+  "APD": {
+    "name": "아파르디",
+    "desc": ""
+  },
+  "SLD": {
+    "name": "술두스",
+    "desc": ""
+  },
+  "BRL": {
+    "name": "바르라스",
+    "desc": ""
+  },
+  "YSU": {
+    "name": "야사우리",
+    "desc": ""
+  },
+  "KTT": {
+    "name": "쿠탈",
+    "desc": ""
+  },
+  "JLY": {
+    "name": "잘라이르",
+    "desc": ""
+  },
+  "LHJ": {
+    "name": "라히잔",
+    "desc": ""
+  },
+  "RNK": {
+    "name": "라네쿠흐",
+    "desc": ""
+  },
+  "FMN": {
+    "name": "푸만",
+    "desc": ""
+  },
+  "RSH": {
+    "name": "라슈트",
+    "desc": ""
+  },
+  "TLM": {
+    "name": "툴람",
+    "desc": ""
+  },
+  "ABL": {
+    "name": "아르다빌",
+    "desc": ""
+  },
+  "POL": {
+    "name": "폴란드",
+    "desc": ""
+  },
+  "SDZ": {
+    "name": "시에라츠",
+    "desc": ""
+  },
+  "LCZ": {
+    "name": "웽치차",
+    "desc": ""
+  },
+  "PLK": {
+    "name": "프워츠크",
+    "desc": ""
+  },
+  "RAW": {
+    "name": "라바",
+    "desc": ""
+  },
+  "CZK": {
+    "name": "체르스크",
+    "desc": ""
+  },
+  "INO": {
+    "name": "이노브로츠와프",
+    "desc": ""
+  },
+  "VOL": {
+    "name": "볼히니아",
+    "desc": ""
+  },
+  "HAL": {
+    "name": "할리치",
+    "desc": ""
+  },
+  "KIE": {
+    "name": "키예프",
+    "desc": ""
+  },
+  "POK": {
+    "name": "폴로츠크",
+    "desc": ""
+  },
+  "TUV": {
+    "name": "투로프",
+    "desc": ""
+  },
+  "PNK": {
+    "name": "핀스크",
+    "desc": ""
+  },
+  "SSK": {
+    "name": "슬루츠크",
+    "desc": ""
+  },
+  "VBK": {
+    "name": "비텝스크",
+    "desc": ""
+  },
+  "MSV": {
+    "name": "므스티슬라블",
+    "desc": ""
+  },
+  "MIS": {
+    "name": "민스크",
+    "desc": ""
+  },
+  "NRK": {
+    "name": "나우가르두카스",
+    "desc": ""
+  },
+  "DRU": {
+    "name": "드루츠크",
+    "desc": ""
+  },
+  "ZAZ": {
+    "name": "자포리자",
+    "desc": ""
+  },
+  "ZAG": {
+    "name": "자간",
+    "desc": ""
+  },
+  "JAW": {
+    "name": "야보르",
+    "desc": ""
+  },
+  "LGC": {
+    "name": "레그니차",
+    "desc": ""
+  },
+  "OEL": {
+    "name": "올레시니차",
+    "desc": ""
+  },
+  "OPL": {
+    "name": "오폴레",
+    "desc": ""
+  },
+  "PDK": {
+    "name": "프루드니크",
+    "desc": ""
+  },
+  "OSW": {
+    "name": "오시비엥침",
+    "desc": ""
+  },
+  "TES": {
+    "name": "치에신",
+    "desc": ""
+  },
+  "BYM": {
+    "name": "비톰",
+    "desc": ""
+  },
+  "RCB": {
+    "name": "라치부시",
+    "desc": ""
+  },
+  "SWD": {
+    "name": "시비드니차",
+    "desc": ""
+  },
+  "SCI": {
+    "name": "시치나바",
+    "desc": ""
+  },
+  "ZIE": {
+    "name": "지엥비차",
+    "desc": ""
+  },
+  "BRZ": {
+    "name": "브제크",
+    "desc": ""
+  },
+  "NMS": {
+    "name": "나미수프",
+    "desc": ""
+  },
+  "STZ": {
+    "name": "스트셸체",
+    "desc": ""
+  },
+  "NMD": {
+    "name": "니에모들린",
+    "desc": ""
+  },
+  "SIZ": {
+    "name": "시에비에시",
+    "desc": ""
+  },
+  "WRC": {
+    "name": "브로츠와프",
+    "desc": ""
+  },
+  "GLO": {
+    "name": "그워구프",
+    "desc": ""
+  },
+  "NYS": {
+    "name": "니사",
+    "desc": ""
+  },
+  "OPV": {
+    "name": "오파바",
+    "desc": ""
+  },
+  "WAI": {
+    "name": "와이타하",
+    "desc": ""
+  },
+  "NPO": {
+    "name": "응아티 포로우",
+    "desc": ""
+  },
+  "NKH": {
+    "name": "응아티 카훈구누",
+    "desc": ""
+  },
+  "NTH": {
+    "name": "응아이 투호에",
+    "desc": ""
+  },
+  "NGI": {
+    "name": "응아 오호",
+    "desc": ""
+  },
+  "RAP": {
+    "name": "테 라푸와이",
+    "desc": ""
+  },
+  "NGR": {
+    "name": "응아티 랑기누이",
+    "desc": ""
+  },
+  "HWE": {
+    "name": "하웨아",
+    "desc": ""
+  },
+  "TNI": {
+    "name": "타이누이",
+    "desc": ""
+  },
+  "ARW": {
+    "name": "테 아라와",
+    "desc": ""
+  },
+  "PUH": {
+    "name": "응아푸히",
+    "desc": ""
+  },
+  "RGT": {
+    "name": "랑기타네",
+    "desc": ""
+  },
+  "AWA": {
+    "name": "테 아티 아와",
+    "desc": ""
+  },
+  "RUA": {
+    "name": "응아티 루아누이",
+    "desc": ""
+  },
+  "HAW": {
+    "name": "하와이",
+    "desc": ""
+  },
+  "MUI": {
+    "name": "마우이",
+    "desc": ""
+  },
+  "LHN": {
+    "name": "라하이나",
+    "desc": ""
+  },
+  "MLK": {
+    "name": "몰로카이",
+    "desc": ""
+  },
+  "OAH": {
+    "name": "오아후",
+    "desc": ""
+  },
+  "KAU": {
+    "name": "카우아이",
+    "desc": ""
+  },
+  "TOG": {
+    "name": "투이 통가",
+    "desc": ""
+  },
+  "YAP": {
+    "name": "얍",
+    "desc": ""
+  },
+  "SAM": {
+    "name": "사모아",
+    "desc": ""
+  },
+  "BUB": {
+    "name": "부르바사가",
+    "desc": ""
+  },
+  "KBN": {
+    "name": "쿠부나",
+    "desc": ""
+  },
+  "TOV": {
+    "name": "토바타",
+    "desc": ""
+  },
+  "NOV": {
+    "name": "벨리키 노브고로드",
+    "desc": ""
+  },
+  "PSK": {
+    "name": "프스코프",
+    "desc": ""
+  },
+  "ORE": {
+    "name": "오레셰크",
+    "desc": ""
+  },
+  "SMO": {
+    "name": "스몰렌스크",
+    "desc": ""
+  },
+  "FMB": {
+    "name": "포민-베레주에스크",
+    "desc": ""
+  },
+  "MOS": {
+    "name": "모스크바",
+    "desc": ""
+  },
+  "PZL": {
+    "name": "페레야슬라블-잘레스키",
+    "desc": ""
+  },
+  "KLM": {
+    "name": "콜롬나",
+    "desc": ""
+  },
+  "VLR": {
+    "name": "블라디미르",
+    "desc": ""
+  },
+  "UGL": {
+    "name": "우글리치",
+    "desc": ""
+  },
+  "YRV": {
+    "name": "유리예프-폴스키",
+    "desc": ""
+  },
+  "TPS": {
+    "name": "토로페츠",
+    "desc": ""
+  },
+  "BLO": {
+    "name": "벨루제로",
+    "desc": ""
+  },
+  "YAR": {
+    "name": "야로슬라블",
+    "desc": ""
+  },
+  "RSO": {
+    "name": "로스토프",
+    "desc": ""
+  },
+  "TVE": {
+    "name": "트베리",
+    "desc": ""
+  },
+  "KAS": {
+    "name": "카신",
+    "desc": ""
+  },
+  "KLN": {
+    "name": "클린",
+    "desc": ""
+  },
+  "ZUB": {
+    "name": "줍초프",
+    "desc": ""
+  },
+  "DMI": {
+    "name": "드미트로프",
+    "desc": ""
+  },
+  "GLM": {
+    "name": "갈리치-메르스키",
+    "desc": ""
+  },
+  "RZH": {
+    "name": "르제프",
+    "desc": ""
+  },
+  "VYA": {
+    "name": "뱌지마",
+    "desc": ""
+  },
+  "TRB": {
+    "name": "트룹쳅스크",
+    "desc": ""
+  },
+  "BRY": {
+    "name": "브랸스크",
+    "desc": ""
+  },
+  "CHR": {
+    "name": "체르니고프",
+    "desc": ""
+  },
+  "STS": {
+    "name": "스타로두프-시베르스키",
+    "desc": ""
+  },
+  "NVS": {
+    "name": "노브고로드-시베르스키",
+    "desc": ""
+  },
+  "RYL": {
+    "name": "릴스크",
+    "desc": ""
+  },
+  "NSL": {
+    "name": "노보실",
+    "desc": ""
+  },
+  "KCH": {
+    "name": "카라체프",
+    "desc": ""
+  },
+  "KZK": {
+    "name": "코젤스크",
+    "desc": ""
+  },
+  "TRS": {
+    "name": "타루사",
+    "desc": ""
+  },
+  "RYA": {
+    "name": "랴잔",
+    "desc": ""
+  },
+  "PRK": {
+    "name": "프론스크",
+    "desc": ""
+  },
+  "SKY": {
+    "name": "스타로두프",
+    "desc": ""
+  },
+  "NZH": {
+    "name": "니즈니노브고로드",
+    "desc": ""
+  },
+  "GRS": {
+    "name": "고로데츠",
+    "desc": ""
+  },
+  "SZL": {
+    "name": "수즈달",
+    "desc": ""
+  },
+  "MRM": {
+    "name": "무롬",
+    "desc": ""
+  },
+  "KOS": {
+    "name": "코스트로마",
+    "desc": ""
+  },
+  "MOG": {
+    "name": "몰로가",
+    "desc": ""
+  },
+  "PRM": {
+    "name": "페름",
+    "desc": ""
+  },
+  "VYT": {
+    "name": "뱟카",
+    "desc": ""
+  },
+  "OBD": {
+    "name": "오브도르",
+    "desc": ""
+  },
+  "PLY": {
+    "name": "펠림",
+    "desc": ""
+  },
+  "BAK": {
+    "name": "바르다크",
+    "desc": ""
+  },
+  "KND": {
+    "name": "콘다",
+    "desc": ""
+  },
+  "BGJ": {
+    "name": "벨로고리예",
+    "desc": ""
+  },
+  "KOD": {
+    "name": "코다",
+    "desc": ""
+  },
+  "SVA": {
+    "name": "소시바",
+    "desc": ""
+  },
+  "KZY": {
+    "name": "카짐",
+    "desc": ""
+  },
+  "LYA": {
+    "name": "랴핀",
+    "desc": ""
+  },
+  "TBY": {
+    "name": "타보리",
+    "desc": ""
+  },
+  "SLK": {
+    "name": "셀쿠프",
+    "desc": ""
+  },
+  "BRT": {
+    "name": "부랴티야",
+    "desc": ""
+  },
+  "HGO": {
+    "name": "콩고라이",
+    "desc": ""
+  },
+  "ALT": {
+    "name": "알타이",
+    "desc": ""
+  },
+  "KMG": {
+    "name": "카마그",
+    "desc": ""
+  },
+  "SAK": {
+    "name": "사하",
+    "desc": ""
+  },
+  "EVE": {
+    "name": "에벤",
+    "desc": ""
+  },
+  "YKG": {
+    "name": "유카기르",
+    "desc": ""
+  },
+  "KYK": {
+    "name": "코랴크",
+    "desc": ""
+  },
+  "XHO": {
+    "name": "코사",
+    "desc": ""
+  },
+  "NGU": {
+    "name": "응구니",
+    "desc": ""
+  },
+  "TWA": {
+    "name": "츠와나",
+    "desc": ""
+  },
+  "SOT": {
+    "name": "소토",
+    "desc": ""
+  },
+  "VED": {
+    "name": "벤다",
+    "desc": ""
+  },
+  "KLG": {
+    "name": "칼랑가",
+    "desc": ""
+  },
+  "KHM": {
+    "name": "크메르",
+    "desc": ""
+  },
+  "CHA": {
+    "name": "참파",
+    "desc": ""
+  },
+  "DAI": {
+    "name": "대월",
+    "desc": ""
+  },
+  "SUK": {
+    "name": "수코타이",
+    "desc": ""
+  },
+  "LNA": {
+    "name": "란나",
+    "desc": ""
+  },
+  "LAV": {
+    "name": "라보",
+    "desc": ""
+  },
+  "ADH": {
+    "name": "아요디아",
+    "desc": ""
+  },
+  "PEG": {
+    "name": "한따와디",
+    "desc": ""
+  },
+  "SNG": {
+    "name": "싱가푸라",
+    "desc": ""
+  },
+  "LIG": {
+    "name": "리고르",
+    "desc": ""
+  },
+  "LGK": {
+    "name": "랑카수카",
+    "desc": ""
+  },
+  "KED": {
+    "name": "케다",
+    "desc": ""
+  },
+  "PAH": {
+    "name": "파항",
+    "desc": ""
+  },
+  "SPN": {
+    "name": "수판부리",
+    "desc": ""
+  },
+  "ARK": {
+    "name": "라웅옛",
+    "desc": ""
+  },
+  "PIN": {
+    "name": "피냐",
+    "desc": ""
+  },
+  "SAG": {
+    "name": "사가잉",
+    "desc": ""
+  },
+  "TNG": {
+    "name": "퉁구",
+    "desc": ""
+  },
+  "BPR": {
+    "name": "프롬",
+    "desc": ""
+  },
+  "PHY": {
+    "name": "파야오",
+    "desc": ""
+  },
+  "PUA": {
+    "name": "푸아",
+    "desc": ""
+  },
+  "MUA": {
+    "name": "무앙 수아",
+    "desc": ""
+  },
+  "VTN": {
+    "name": "비엔티안",
+    "desc": ""
+  },
+  "CBK": {
+    "name": "코브라",
+    "desc": ""
+  },
+  "MYA": {
+    "name": "몽 양",
+    "desc": ""
+  },
+  "MKA": {
+    "name": "몽 카웅",
+    "desc": ""
+  },
+  "HKM": {
+    "name": "캄티",
+    "desc": ""
+  },
+  "MKN": {
+    "name": "몽 콩",
+    "desc": ""
+  },
+  "HHP": {
+    "name": "싸웅 쑵",
+    "desc": ""
+  },
+  "HSE": {
+    "name": "센위",
+    "desc": ""
+  },
+  "HSI": {
+    "name": "시포",
+    "desc": ""
+  },
+  "MNI": {
+    "name": "몽 나이",
+    "desc": ""
+  },
+  "MGT": {
+    "name": "몽 밋",
+    "desc": ""
+  },
+  "KAL": {
+    "name": "칼레",
+    "desc": ""
+  },
+  "WNT": {
+    "name": "운토",
+    "desc": ""
+  },
+  "BHM": {
+    "name": "바모",
+    "desc": ""
+  },
+  "KTG": {
+    "name": "켕퉁",
+    "desc": ""
+  },
+  "MLM": {
+    "name": "몽 렘",
+    "desc": ""
+  },
+  "WAS": {
+    "name": "와",
+    "desc": ""
+  },
+  "JGP": {
+    "name": "징포",
+    "desc": ""
+  },
+  "KRN": {
+    "name": "카렌",
+    "desc": ""
+  },
+  "MUO": {
+    "name": "므엉",
+    "desc": ""
+  },
+  "ASL": {
+    "name": "오랑 아슬리",
+    "desc": ""
+  },
+  "ZOO": {
+    "name": "조",
+    "desc": ""
+  },
+  "ZHU": {
+    "name": "장",
+    "desc": ""
+  },
+  "MLB": {
+    "name": "캉레이팍",
+    "desc": ""
+  },
+  "BES": {
+    "name": "베루아스",
+    "desc": ""
+  },
+  "MNJ": {
+    "name": "만중",
+    "desc": ""
+  },
+  "PTC": {
+    "name": "펫차부리",
+    "desc": ""
+  },
+  "TSM": {
+    "name": "테나세림",
+    "desc": ""
+  },
+  "DEG": {
+    "name": "데가",
+    "desc": ""
+  },
+  "BHN": {
+    "name": "바나",
+    "desc": ""
+  },
+  "SED": {
+    "name": "세당",
+    "desc": ""
+  },
+  "BVK": {
+    "name": "브루",
+    "desc": ""
+  },
+  "KUY": {
+    "name": "쿠이",
+    "desc": ""
+  },
+  "KMU": {
+    "name": "크무",
+    "desc": ""
+  },
+  "NAA": {
+    "name": "나가",
+    "desc": ""
+  },
+  "HAB": {
+    "name": "오스트리아",
+    "desc": ""
+  },
+  "BOH": {
+    "name": "보헤미아",
+    "desc": ""
+  },
+  "MVA": {
+    "name": "모라비아",
+    "desc": ""
+  },
+  "PSS": {
+    "name": "파사우",
+    "desc": ""
+  },
+  "AUG": {
+    "name": "아우구스타 빈델리코룸",
+    "desc": ""
+  },
+  "AGC": {
+    "name": "아우크스부르크",
+    "desc": ""
+  },
+  "UBV": {
+    "name": "오버바이에른",
+    "desc": ""
+  },
+  "LBV": {
+    "name": "니더바이에른",
+    "desc": ""
+  },
+  "SLZ": {
+    "name": "잘츠부르크",
+    "desc": ""
+  },
+  "BAM": {
+    "name": "밤베르크",
+    "desc": ""
+  },
+  "STY": {
+    "name": "슈타이어마르크",
+    "desc": ""
+  },
+  "CRH": {
+    "name": "케른텐",
+    "desc": ""
+  },
+  "TIR": {
+    "name": "티롤",
+    "desc": ""
+  },
+  "WER": {
+    "name": "베르덴베르크",
+    "desc": ""
+  },
+  "MBZ": {
+    "name": "브레겐츠",
+    "desc": ""
+  },
+  "MFK": {
+    "name": "펠트키르히",
+    "desc": ""
+  },
+  "BCH": {
+    "name": "쿠어",
+    "desc": ""
+  },
+  "STG": {
+    "name": "장크트갈렌",
+    "desc": ""
+  },
+  "ZUR": {
+    "name": "취리히",
+    "desc": ""
+  },
+  "SYZ": {
+    "name": "슈비츠",
+    "desc": ""
+  },
+  "GLR": {
+    "name": "글라루스",
+    "desc": ""
+  },
+  "LCA": {
+    "name": "코모",
+    "desc": ""
+  },
+  "URI": {
+    "name": "우리",
+    "desc": ""
+  },
+  "OBW": {
+    "name": "옵발덴",
+    "desc": ""
+  },
+  "LCU": {
+    "name": "루체른",
+    "desc": ""
+  },
+  "SIT": {
+    "name": "시옹",
+    "desc": ""
+  },
+  "SWI": {
+    "name": "스위스",
+    "desc": ""
+  },
+  "BRN": {
+    "name": "베른",
+    "desc": ""
+  },
+  "SLT": {
+    "name": "졸로투른",
+    "desc": ""
+  },
+  "NEU": {
+    "name": "뇌샤텔",
+    "desc": ""
+  },
+  "BAS": {
+    "name": "바젤",
+    "desc": ""
+  },
+  "LSA": {
+    "name": "로잔",
+    "desc": ""
+  },
+  "KYB": {
+    "name": "키부르크",
+    "desc": ""
+  },
+  "TRN": {
+    "name": "투른",
+    "desc": ""
+  },
+  "BRC": {
+    "name": "베르히테스가덴",
+    "desc": ""
+  },
+  "GRF": {
+    "name": "그라페나우",
+    "desc": ""
+  },
+  "PAL": {
+    "name": "라인",
+    "desc": ""
+  },
+  "REG": {
+    "name": "레겐스부르크",
+    "desc": ""
+  },
+  "ANS": {
+    "name": "안스바흐",
+    "desc": ""
+  },
+  "FRE": {
+    "name": "프라이징",
+    "desc": ""
+  },
+  "EIC": {
+    "name": "아이히슈테트",
+    "desc": ""
+  },
+  "WEI": {
+    "name": "바이센부르크",
+    "desc": ""
+  },
+  "NUR": {
+    "name": "뉘른베르크",
+    "desc": ""
+  },
+  "WBG": {
+    "name": "뷔르츠부르크",
+    "desc": ""
+  },
+  "RIE": {
+    "name": "리네크",
+    "desc": ""
+  },
+  "MSB": {
+    "name": "모스바흐",
+    "desc": ""
+  },
+  "UFF": {
+    "name": "호엔로헤",
+    "desc": ""
+  },
+  "ROT": {
+    "name": "로텐부르크",
+    "desc": ""
+  },
+  "DNB": {
+    "name": "딩켈스뷜",
+    "desc": ""
+  },
+  "MEM": {
+    "name": "메밍겐",
+    "desc": ""
+  },
+  "KMP": {
+    "name": "켐프텐",
+    "desc": ""
+  },
+  "ULM": {
+    "name": "울름",
+    "desc": ""
+  },
+  "KNZ": {
+    "name": "콘스탄츠",
+    "desc": ""
+  },
+  "WUR": {
+    "name": "뷔르템베르크",
+    "desc": ""
+  },
+  "OET": {
+    "name": "외팅겐",
+    "desc": ""
+  },
+  "SWH": {
+    "name": "슈베비슈할",
+    "desc": ""
+  },
+  "HBR": {
+    "name": "하일브론",
+    "desc": ""
+  },
+  "BDE": {
+    "name": "바덴",
+    "desc": ""
+  },
+  "WDB": {
+    "name": "발트베르크",
+    "desc": ""
+  },
+  "RVA": {
+    "name": "라벤스부르크",
+    "desc": ""
+  },
+  "BIB": {
+    "name": "비베라흐",
+    "desc": ""
+  },
+  "UBL": {
+    "name": "위버링겐",
+    "desc": ""
+  },
+  "HHB": {
+    "name": "호엔베르크",
+    "desc": ""
+  },
+  "FBG": {
+    "name": "프라이부르크",
+    "desc": ""
+  },
+  "OFB": {
+    "name": "오펜부르크",
+    "desc": ""
+  },
+  "WLD": {
+    "name": "발트자센",
+    "desc": ""
+  },
+  "OGK": {
+    "name": "신성 로마",
+    "desc": ""
+  },
+  "ORT": {
+    "name": "오르텐부르크",
+    "desc": ""
+  },
+  "BXN": {
+    "name": "브릭센",
+    "desc": ""
+  },
+  "VUD": {
+    "name": "보주",
+    "desc": ""
+  },
+  "MSO": {
+    "name": "메소코",
+    "desc": ""
+  },
+  "SGL": {
+    "name": "회색 동맹",
+    "desc": ""
+  },
+  "AOS": {
+    "name": "아오스타",
+    "desc": ""
+  },
+  "FLK": {
+    "name": "팔켄슈타인",
+    "desc": ""
+  },
+  "MDS": {
+    "name": "만더샤이트",
+    "desc": ""
+  },
+  "LDA": {
+    "name": "란다우",
+    "desc": ""
+  },
+  "VEL": {
+    "name": "펠덴츠",
+    "desc": ""
+  },
+  "GRY": {
+    "name": "그뤼에르",
+    "desc": ""
+  },
+  "TGG": {
+    "name": "토겐부르크",
+    "desc": ""
+  },
+  "PSZ": {
+    "name": "지메른",
+    "desc": ""
+  },
+  "HLE": {
+    "name": "하느님의 집 동맹",
+    "desc": ""
+  },
+  "SFC": {
+    "name": "스트라스부르크",
+    "desc": ""
+  },
+  "CFC": {
+    "name": "콜마르",
+    "desc": ""
+  },
+  "MUR": {
+    "name": "무르바흐",
+    "desc": ""
+  },
+  "HAG": {
+    "name": "아그노",
+    "desc": ""
+  },
+  "MUL": {
+    "name": "뮐루즈",
+    "desc": ""
+  },
+  "LIC": {
+    "name": "리히텐베르크",
+    "desc": ""
+  },
+  "BLM": {
+    "name": "벨몽",
+    "desc": ""
+  },
+  "DIS": {
+    "name": "디젠티스",
+    "desc": ""
+  },
+  "FUR": {
+    "name": "퓌르스텐베르크",
+    "desc": ""
+  },
+  "GRK": {
+    "name": "구르크",
+    "desc": ""
+  },
+  "HAC": {
+    "name": "하흐베르크",
+    "desc": ""
+  },
+  "SAW": {
+    "name": "자르베르덴",
+    "desc": ""
+  },
+  "SAB": {
+    "name": "자우젠베르크",
+    "desc": ""
+  },
+  "THD": {
+    "name": "트루엔딩거",
+    "desc": ""
+  },
+  "ELL": {
+    "name": "엘방겐",
+    "desc": ""
+  },
+  "HEH": {
+    "name": "하이덴하임",
+    "desc": ""
+  },
+  "HLF": {
+    "name": "헬펜슈타인",
+    "desc": ""
+  },
+  "HOH": {
+    "name": "호엔촐레른",
+    "desc": ""
+  },
+  "KIR": {
+    "name": "키르히베르크",
+    "desc": ""
+  },
+  "NEL": {
+    "name": "넬렌부르크",
+    "desc": ""
+  },
+  "TUB": {
+    "name": "튀빙겐",
+    "desc": ""
+  },
+  "LEU": {
+    "name": "로이히텐베르크",
+    "desc": ""
+  },
+  "GLH": {
+    "name": "주치",
+    "desc": ""
+  },
+  "CRI": {
+    "name": "크림",
+    "desc": ""
+  },
+  "NOG": {
+    "name": "노가이",
+    "desc": ""
+  },
+  "ATR": {
+    "name": "아스트라한",
+    "desc": ""
+  },
+  "FEO": {
+    "name": "테오도로",
+    "desc": ""
+  },
+  "BSH": {
+    "name": "바시키르",
+    "desc": ""
+  },
+  "MGE": {
+    "name": "몽골",
+    "desc": ""
+  },
+  "GAZ": {
+    "name": "가자리아",
+    "desc": ""
+  },
+  "JOL": {
+    "name": "졸로프",
+    "desc": ""
+  },
+  "FUL": {
+    "name": "대풀로",
+    "desc": ""
+  },
+  "MPR": {
+    "name": "맘프루구",
+    "desc": ""
+  },
+  "DGB": {
+    "name": "다그본",
+    "desc": ""
+  },
+  "KNG": {
+    "name": "콩",
+    "desc": ""
+  },
+  "BON": {
+    "name": "보노만",
+    "desc": ""
+  },
+  "GYA": {
+    "name": "기아만",
+    "desc": ""
+  },
+  "MNK": {
+    "name": "만케심",
+    "desc": ""
+  },
+  "ZZZ": {
+    "name": "자자우",
+    "desc": ""
+  },
+  "NUP": {
+    "name": "누페",
+    "desc": ""
+  },
+  "BEN": {
+    "name": "베냉",
+    "desc": ""
+  },
+  "OYO": {
+    "name": "오요",
+    "desc": ""
+  },
+  "IFE": {
+    "name": "이페",
+    "desc": ""
+  },
+  "OWO": {
+    "name": "오워",
+    "desc": ""
+  },
+  "IJB": {
+    "name": "이제부",
+    "desc": ""
+  },
+  "ISO": {
+    "name": "이세도",
+    "desc": ""
+  },
+  "IYA": {
+    "name": "일라 야라",
+    "desc": ""
+  },
+  "OKE": {
+    "name": "오케 일라",
+    "desc": ""
+  },
+  "IJE": {
+    "name": "이제로",
+    "desc": ""
+  },
+  "ADO": {
+    "name": "아도",
+    "desc": ""
+  },
+  "IJS": {
+    "name": "이제샤",
+    "desc": ""
+  },
+  "AKR": {
+    "name": "아쿠레",
+    "desc": ""
+  },
+  "OND": {
+    "name": "온도",
+    "desc": ""
+  },
+  "AWO": {
+    "name": "아워리",
+    "desc": ""
+  },
+  "KET": {
+    "name": "케투",
+    "desc": ""
+  },
+  "NRI": {
+    "name": "느리",
+    "desc": ""
+  },
+  "BMR": {
+    "name": "밤바라",
+    "desc": ""
+  },
+  "KBR": {
+    "name": "카부라",
+    "desc": ""
+  },
+  "ZGH": {
+    "name": "자가",
+    "desc": ""
+  },
+  "BBK": {
+    "name": "밤북",
+    "desc": ""
+  },
+  "DFN": {
+    "name": "디아푸누",
+    "desc": ""
+  },
+  "GHA": {
+    "name": "가나",
+    "desc": ""
+  },
+  "KAB": {
+    "name": "카부",
+    "desc": ""
+  },
+  "MAL": {
+    "name": "말리",
+    "desc": ""
+  },
+  "SGH": {
+    "name": "상하나",
+    "desc": ""
+  },
+  "TKR": {
+    "name": "타크루르",
+    "desc": ""
+  },
+  "TMK": {
+    "name": "타드메카",
+    "desc": ""
+  },
+  "TMB": {
+    "name": "팀북투",
+    "desc": ""
+  },
+  "TRG": {
+    "name": "투아레그",
+    "desc": ""
+  },
+  "SON": {
+    "name": "송가이",
+    "desc": ""
+  },
+  "TFK": {
+    "name": "티라프카",
+    "desc": ""
+  },
+  "BOR": {
+    "name": "보르구",
+    "desc": ""
+  },
+  "OUA": {
+    "name": "와가두구",
+    "desc": ""
+  },
+  "GWI": {
+    "name": "귀리코",
+    "desc": ""
+  },
+  "LIP": {
+    "name": "립타코",
+    "desc": ""
+  },
+  "YAT": {
+    "name": "야텡가",
+    "desc": ""
+  },
+  "TEN": {
+    "name": "텐코도고",
+    "desc": ""
+  },
+  "BSM": {
+    "name": "부수마",
+    "desc": ""
+  },
+  "GUR": {
+    "name": "파다 응구르마",
+    "desc": ""
+  },
+  "KAN": {
+    "name": "카노",
+    "desc": ""
+  },
+  "KTS": {
+    "name": "카치나",
+    "desc": ""
+  },
+  "ZAM": {
+    "name": "잠파라",
+    "desc": ""
+  },
+  "KEB": {
+    "name": "케비",
+    "desc": ""
+  },
+  "RAN": {
+    "name": "라노",
+    "desc": ""
+  },
+  "GOB": {
+    "name": "고비르",
+    "desc": ""
+  },
+  "DAA": {
+    "name": "다우라",
+    "desc": ""
+  },
+  "KBO": {
+    "name": "카넴",
+    "desc": ""
+  },
+  "YAO": {
+    "name": "빌랄라",
+    "desc": ""
+  },
+  "KOT": {
+    "name": "사오",
+    "desc": ""
+  },
+  "BGI": {
+    "name": "바기르미",
+    "desc": ""
+  },
+  "MDR": {
+    "name": "만다라",
+    "desc": ""
+  },
+  "ZGW": {
+    "name": "자가와",
+    "desc": ""
+  },
+  "WAD": {
+    "name": "와다이",
+    "desc": ""
+  },
+  "DAH": {
+    "name": "다호메이",
+    "desc": ""
+  },
+  "KLP": {
+    "name": "칼라푸야",
+    "desc": ""
+  },
+  "CNK": {
+    "name": "치누크",
+    "desc": ""
+  },
+  "TSA": {
+    "name": "차모산",
+    "desc": ""
+  },
+  "MKH": {
+    "name": "마카",
+    "desc": ""
+  },
+  "SKL": {
+    "name": "스클랄람",
+    "desc": ""
+  },
+  "TWN": {
+    "name": "트와나",
+    "desc": ""
+  },
+  "LHT": {
+    "name": "루슈치드",
+    "desc": ""
+  },
+  "LHQ": {
+    "name": "락테미시",
+    "desc": ""
+  },
+  "HLM": {
+    "name": "할코멜렘",
+    "desc": ""
+  },
+  "SQH": {
+    "name": "스쿼미시",
+    "desc": ""
+  },
+  "KMK": {
+    "name": "코목스",
+    "desc": ""
+  },
+  "NOO": {
+    "name": "누트카",
+    "desc": ""
+  },
+  "KWA": {
+    "name": "콰키우틀",
+    "desc": ""
+  },
+  "OOW": {
+    "name": "우이크알라",
+    "desc": ""
+  },
+  "NUX": {
+    "name": "누살크",
+    "desc": ""
+  },
+  "HLK": {
+    "name": "헤일추크",
+    "desc": ""
+  },
+  "HLA": {
+    "name": "하이슬라",
+    "desc": ""
+  },
+  "TMH": {
+    "name": "침시안",
+    "desc": ""
+  },
+  "XDA": {
+    "name": "하이다",
+    "desc": ""
+  },
+  "TLG": {
+    "name": "틀링깃",
+    "desc": ""
+  }
+}

@@ -1,1721 +1,1721 @@
 [
   {
     "id": "feudal_de_jure_law",
+    "icon": "icons/laws/feudal_de_jure_law.png",
+    "source_file": "00_monarchy.txt",
     "name_en": "Feudal 'De Jure' Laws",
     "name_ja": "封建的慣習法",
     "desc_en": "These are the laws that organize the feudal society of our country.",
-    "desc_ja": "わが国の封建社会をまとめる法律。",
-    "icon": "icons/laws/feudal_de_jure_law.png",
-    "source_file": "00_monarchy.txt"
+    "desc_ja": "わが国の封建社会をまとめる法律。"
   },
   {
     "id": "medieval_levy_law",
+    "icon": "icons/laws/medieval_levy_law.png",
+    "source_file": "00_monarchy.txt",
     "name_en": "Levy Law",
     "name_ja": "召集法",
-    "desc_en": "Our army is made up mainly of levies that are recruited from certain of our country, who will fight for us until we disband them.",
-    "desc_ja": "わが軍隊は、主にわが国の特定のより徴兵された召集軍により構成されている。彼らは解散するまで戦いつづける。",
-    "icon": "icons/laws/medieval_levy_law.png",
-    "source_file": "00_monarchy.txt"
+    "desc_en": "Our army is made up mainly of levies that are recruited from certain estates of our country, who will fight for us until we disband them.",
+    "desc_ja": "わが軍隊は、主にわが国の特定のestatesより徴兵された召集軍により構成されている。彼らは解散するまで戦いつづける。"
   },
   {
     "id": "royal_court_customs_law",
+    "icon": "icons/laws/royal_court_customs_law.png",
+    "source_file": "00_monarchy.txt",
     "name_en": "Royal Court Customs",
     "name_ja": "王宮の慣習",
     "desc_en": "The traditions and the culture of the court play a significant role in the stability of the . These customs will ensure the safe transition of power from ruler to heir, and limit the court intrigues significantly.",
-    "desc_ja": "宮廷の伝統と文化は、の安定に重要な役割を果たす。これらの慣習は、統治者から後継者への権力の移行を安全なものにし、陰謀を大幅に制限する。",
-    "icon": "icons/laws/royal_court_customs_law.png",
-    "source_file": "00_monarchy.txt"
+    "desc_ja": "宮廷の伝統と文化は、の安定に重要な役割を果たす。これらの慣習は、統治者から後継者への権力の移行を安全なものにし、陰謀を大幅に制限する。"
   },
   {
     "id": "legitimization_of_power_law",
+    "icon": "icons/laws/legitimization_of_power_law.png",
+    "source_file": "00_monarchy.txt",
     "name_en": "Legitimization of Power",
     "name_ja": "権力の正当化",
     "desc_en": "A monarchy can only survive as long as its subjects believe in the legitimacy of their ruler. There are many ways in which rulers justify their power. As time goes on, new political philosophies will arise which explain the need for a strong government in their own ways.",
-    "desc_ja": "君主制は、臣民が統治者の正統性を信じているかぎり存続することができる。統治者が権力を正当化する方法は数多くあるが、時が経つにつれ、独自の方法で強い政府の必要性を説明する新たな政治哲学がさらに生み出されていく。",
-    "icon": "icons/laws/legitimization_of_power_law.png",
-    "source_file": "00_monarchy.txt"
+    "desc_ja": "君主制は、臣民が統治者の正統性を信じているかぎり存続することができる。統治者が権力を正当化する方法は数多くあるが、時が経つにつれ、独自の方法で強い政府の必要性を説明する新たな政治哲学がさらに生み出されていく。"
   },
   {
     "id": "harem_law",
+    "icon": "icons/laws/harem_law.png",
+    "source_file": "00_monarchy.txt",
     "name_en": "Harem Laws",
     "name_ja": "ハーレム法",
     "desc_en": "The harem is a significant institution within the royal household, and secures the production of heirs for the succession.",
-    "desc_ja": "ハーレムは王室の重要な制度であり、王位後継者の輩出を確保するためのものである。",
-    "icon": "icons/laws/harem_law.png",
-    "source_file": "00_monarchy.txt"
+    "desc_ja": "ハーレムは王室の重要な制度であり、王位後継者の輩出を確保するためのものである。"
   },
   {
     "id": "iqta_law",
+    "icon": "icons/laws/iqta_law.png",
+    "source_file": "00_religious.txt",
     "name_en": "Iqṭā'",
     "name_ja": "イクター",
     "desc_en": "$iqta_law$ is the practice of 'tax farming': collecting land revenues from the as part of Zakāh, the giving of alms, which states generally collect to form their base income.",
-    "desc_ja": "$iqta_law$はの租税慣行であり、「ザカート」の一環としてから土地収入を徴収する。ザカートとは、国家が基本収入として広く徴収する、施し用の資金のこと。",
-    "icon": "icons/laws/iqta_law.png",
-    "source_file": "00_religious.txt"
+    "desc_ja": "$iqta_law$はの租税慣行であり、「ザカート」の一環としてから土地収入を徴収する。ザカートとは、国家が基本収入として広く徴収する、施し用の資金のこと。"
   },
   {
     "id": "inquisition_law",
+    "icon": "icons/laws/inquisition_law.png",
+    "source_file": "00_religious.txt",
     "name_en": "Inquisition Law",
     "name_ja": "異端審問法",
     "desc_en": "Originally established to combat the heresy of , the Inquisition has become the Church's primary tool for investigating and prosecuting heresy. Via specialized ecclesiastical courts, trained inquisitors investigate potential heretics, extract confessions of religious or moral transgression, and impose punishments ranging from penance to execution, for violating Catholic mores.",
-    "desc_ja": "もとはの異端を弾圧するために設けられた異端審問は、いまや教会が異端を調査し訴追するための主な手段となっている。特別な宗教裁判所に所属する訓練を受けた異端審問官が、異端の疑いのある者を尋問して信仰上または道徳上の逸脱を自白させ、カトリックの規範に背いた者には悔悛から死刑に至るまでのさまざまな刑罰を科すのである。",
-    "icon": "icons/laws/inquisition_law.png",
-    "source_file": "00_religious.txt"
+    "desc_ja": "もとはの異端を弾圧するために設けられた異端審問は、いまや教会が異端を調査し訴追するための主な手段となっている。特別な宗教裁判所に所属する訓練を受けた異端審問官が、異端の疑いのある者を尋問して信仰上または道徳上の逸脱を自白させ、カトリックの規範に背いた者には悔悛から死刑に至るまでのさまざまな刑罰を科すのである。"
   },
   {
     "id": "society_of_jesus",
+    "icon": "icons/laws/society_of_jesus.png",
+    "source_file": "00_religious.txt",
     "name_en": "Society of Jesus",
     "name_ja": "イエズス会",
     "desc_en": "The Society of Jesus, commonly known as the Jesuits, is a religious order founded by Ignatius of Loyola as part of the Counter-Reformation. Jesuits are distinguished from other Catholic orders by their emphasis on education, scholarship, and performing missionary work.",
-    "desc_ja": "かつては「耶蘇会」とも呼ばれたイエズス会は、反宗教改革の流れの一環として、イグナティウス・ロヨラによって設立された宗教団体である。イエズス会は、教育、学問、宣教活動を重んじる点において、ほかのカトリック系教団とは一線を画している。",
-    "icon": "icons/laws/society_of_jesus.png",
-    "source_file": "00_religious.txt"
+    "desc_ja": "かつては「耶蘇会」とも呼ばれたイエズス会は、反宗教改革の流れの一環として、イグナティウス・ロヨラによって設立された宗教団体である。イエズス会は、教育、学問、宣教活動を重んじる点において、ほかのカトリック系教団とは一線を画している。"
   },
   {
     "id": "patriarchate_law",
+    "icon": "icons/laws/patriarchate_law.png",
+    "source_file": "00_religious.txt",
     "name_en": "Role of the Patriarchate",
     "name_ja": "総主教区の役割",
     "desc_en": "The Patriarchate is a major pillar of our faith, and an institution with considerable influence over the state.",
-    "desc_ja": "総主教区はわが国の信仰の重大な柱であり、国家においてかなりの影響力をもつ組織である。",
-    "icon": "icons/laws/patriarchate_law.png",
-    "source_file": "00_religious.txt"
+    "desc_ja": "総主教区はわが国の信仰の重大な柱であり、国家においてかなりの影響力をもつ組織である。"
   },
   {
     "id": "censorship",
+    "icon": "icons/laws/censorship.png",
+    "source_file": "00_religious.txt",
     "name_en": "Censorship",
     "name_ja": "検閲",
-    "desc_en": "The ability to control which literary works can be distributed, and whether opinions counter to established dogma are allowed, is essential to religious cohesion and generally favored by the . However, these restrictions are frowned upon by free thinkers and creative professionals, and can have profound consequences for the availability of and for any deemed heretical.",
-    "desc_ja": "どの文学作品の出版を許可するか、また確立された教義に反する意見を許容するか否かを統制する能力は、宗教的結束を実現するうえで不可欠であり、一般的にによって支持されている。ただし、こうした制限は自由思想家や創作に携わる職人からは嫌われており、の供給や異端とみなされるに深刻な影響を及ぼしうる。",
-    "icon": "icons/laws/censorship.png",
-    "source_file": "00_religious.txt"
+    "desc_en": "The ability to control which literary works can be distributed, and whether opinions counter to established dogma are allowed, is essential to religious cohesion and generally favored by the . However, these restrictions are frowned upon by free thinkers and creative professionals, and can have profound consequences for the availability of artists and for any work_of_art deemed heretical.",
+    "desc_ja": "どの文学作品の出版を許可するか、また確立された教義に反する意見を許容するか否かを統制する能力は、宗教的結束を実現するうえで不可欠であり、一般的にによって支持されている。ただし、こうした制限は自由思想家や創作に携わる職人からは嫌われており、artistsの供給や異端とみなされるwork_of_artに深刻な影響を及ぼしうる。"
   },
   {
     "id": "slave_conversion",
+    "icon": "icons/laws/slave_conversion.png",
+    "source_file": "00_religious.txt",
     "name_en": "Slave Conversion",
     "name_ja": "奴隷の改宗",
     "desc_en": "Our slaves come from many different lands, and thus bring with them diverse beliefs. We may need to regulate those closely, lest we risk corrupting our own populace by permitting their exposure to deviant practices and rituals.",
-    "desc_ja": "わが国の奴隷の出身地はさまざまであり、それぞれが異なる信仰を持ち込んでくる。これらの信仰を厳しく統制しなければ、誤った儀式や習俗が民を堕落させるおそれがある。",
-    "icon": "icons/laws/slave_conversion.png",
-    "source_file": "00_religious.txt"
+    "desc_ja": "わが国の奴隷の出身地はさまざまであり、それぞれが異なる信仰を持ち込んでくる。これらの信仰を厳しく統制しなければ、誤った儀式や習俗が民を堕落させるおそれがある。"
   },
   {
     "id": "republican_foundation_law",
+    "icon": "icons/laws/republican_foundation_law.png",
+    "source_file": "00_republic.txt",
     "name_en": "Foundation of Republic",
     "name_ja": "共和国の基礎",
     "desc_en": "Our Republic is founded on the principle that power should be in the hands of the people, not a single absolutist ruler. Yet as with any government, its laws and decisions must be respected and obeyed to maintain order, necessitating the creation of complex administrations in order to govern.",
-    "desc_ja": "わが共和国は、絶対的な統治者を置かずに国民に権力を与える、という理念に基づいて建国されている。しかし、いかなる政体であれ秩序を維持するには、その法と決定が尊重され、遵守されなければならない。そのためには、統治のための複雑な行政機構を整備する必要がある。",
-    "icon": "icons/laws/republican_foundation_law.png",
-    "source_file": "00_republic.txt"
+    "desc_ja": "わが共和国は、絶対的な統治者を置かずに国民に権力を与える、という理念に基づいて建国されている。しかし、いかなる政体であれ秩序を維持するには、その法と決定が尊重され、遵守されなければならない。そのためには、統治のための複雑な行政機構を整備する必要がある。"
   },
   {
     "id": "republican_election_law",
+    "icon": "icons/laws/republican_election_law.png",
+    "source_file": "00_republic.txt",
     "name_en": "Election",
     "name_ja": "選挙",
     "desc_en": "Elections are the cornerstone of our republic, ensuring that there are reasonable limits on those in power while giving the people the ability to select rulers that best serve their interests.",
-    "desc_ja": "共和国の礎は選挙である。権力を握る者に対して妥当な制限を設けるとともに、自らの利益に最もかなう統治者を選ぶ権利を国民に与える。",
-    "icon": "icons/laws/republican_election_law.png",
-    "source_file": "00_republic.txt"
+    "desc_ja": "共和国の礎は選挙である。権力を握る者に対して妥当な制限を設けるとともに、自らの利益に最もかなう統治者を選ぶ権利を国民に与える。"
   },
   {
     "id": "republican_power_law",
+    "icon": "icons/laws/republican_power_law.png",
+    "source_file": "00_republic.txt",
     "name_en": "Republican Power",
     "name_ja": "共和的権力",
     "desc_en": "As any government, the Republic must not only make decisions, but also act upon them. To do so, it needs a way of exercising its executive capabilities so that they reach even the furthest areas of the country.",
-    "desc_ja": "あらゆる政府と同じように、共和国は決定を下すだけでなく、それに基づいて行動しなければならない。そのためには、その決定が国家の隅々にまで届くように執行能力を行使する方法が必要だ。",
-    "icon": "icons/laws/republican_power_law.png",
-    "source_file": "00_republic.txt"
+    "desc_ja": "あらゆる政府と同じように、共和国は決定を下すだけでなく、それに基づいて行動しなければならない。そのためには、その決定が国家の隅々にまで届くように執行能力を行使する方法が必要だ。"
   },
   {
     "id": "principle_of_administration_law",
+    "icon": "icons/laws/principle_of_administration_law.png",
+    "source_file": "00_republic.txt",
     "name_en": "Administrative Principles",
     "name_ja": "統治的原則",
     "desc_en": "If we wish to be an example for all our citizens, the Republic must uphold principles which dictate the course of action we take with our policies.",
-    "desc_ja": "我々が国民の模範となるためには、共和国は政策の方向性を定める原則を守らなければならない。",
-    "icon": "icons/laws/principle_of_administration_law.png",
-    "source_file": "00_republic.txt"
+    "desc_ja": "我々が国民の模範となるためには、共和国は政策の方向性を定める原則を守らなければならない。"
   },
   {
     "id": "republican_electorate_law",
+    "icon": "icons/laws/republican_electorate_law.png",
+    "source_file": "00_republic.txt",
     "name_en": "Republican Electorate Law",
     "name_ja": "共和国有権者法",
     "desc_en": "Elections are the foundational concept of our republic, and as such, the most important factor in determining the course of the Republic is deciding who is eligible vote in those elections.",
-    "desc_ja": "わが共和国の基本概念は選挙にある。したがって、共和国の進路を決定するうえで最も重要なことは、その選挙で誰が投票できるのかを適切に決めることだ。",
-    "icon": "icons/laws/republican_electorate_law.png",
-    "source_file": "00_republic.txt"
+    "desc_ja": "わが共和国の基本概念は選挙にある。したがって、共和国の進路を決定するうえで最も重要なことは、その選挙で誰が投票できるのかを適切に決めることだ。"
   },
   {
     "id": "theocratic_leadership",
+    "icon": "icons/laws/theocratic_leadership.png",
+    "source_file": "00_theocracies.txt",
     "name_en": "Theocratic Leadership",
     "name_ja": "神権政治の指導者",
     "desc_en": "A Theocratic Leadership governs this country, where religious authorities hold political power and religious law often supersedes secular law.",
-    "desc_ja": "この国家は神権政治体制のもとで統治されており、宗教的権威が政治権力を掌握し、宗教法はしばしば世俗法に優先して適用される。",
-    "icon": "icons/laws/theocratic_leadership.png",
-    "source_file": "00_theocracies.txt"
+    "desc_ja": "この国家は神権政治体制のもとで統治されており、宗教的権威が政治権力を掌握し、宗教法はしばしば世俗法に優先して適用される。"
   },
   {
     "id": "holy_mission_law",
+    "icon": "icons/laws/holy_mission_law.png",
+    "source_file": "00_theocracies.txt",
     "name_en": "Holy Mission",
     "name_ja": "神聖なる使命",
     "desc_en": "The guideline for our every action is the Holy Mission we have been granted from our divine ruler. The vision the higher power has foreseen for us shall come to fruition!",
-    "desc_ja": "我らのあらゆる行動の指針は、神聖な統治者より授かった聖なる使命である。至高の存在が我らのために予見したビジョンは、必ずや成就するだろう！",
-    "icon": "icons/laws/holy_mission_law.png",
-    "source_file": "00_theocracies.txt"
+    "desc_ja": "我らのあらゆる行動の指針は、神聖な統治者より授かった聖なる使命である。至高の存在が我らのために予見したビジョンは、必ずや成就するだろう！"
   },
   {
     "id": "nature_of_our_faith_law",
+    "icon": "icons/laws/nature_of_our_faith_law.png",
+    "source_file": "00_theocracies.txt",
     "name_en": "Nature of our Faith",
     "name_ja": "信仰の性質",
     "desc_en": "Religion is the pillar of our entire society, and as such, the nature of our faith plays a role in all facets of our culture. No major decisions can be made without carefully considering the religious perspective of taking these actions.",
-    "desc_ja": "宗教はわが国の社会全体の柱であり、信仰のあり方は文化のあらゆる側面に影響を与える。ゆえに、いかなる重大な決定も、宗教的観点からの慎重な検討なしに下すことはできない。",
-    "icon": "icons/laws/nature_of_our_faith_law.png",
-    "source_file": "00_theocracies.txt"
+    "desc_ja": "宗教はわが国の社会全体の柱であり、信仰のあり方は文化のあらゆる側面に影響を与える。ゆえに、いかなる重大な決定も、宗教的観点からの慎重な検討なしに下すことはできない。"
   },
   {
     "id": "divine_cause_law",
+    "icon": "icons/laws/divine_cause_law.png",
+    "source_file": "00_theocracies.txt",
     "name_en": "Divine Cause",
     "name_ja": "神聖なる大義",
     "desc_en": "While monarchies and republics may be content to simply exist in the world, a Holy State requires a deeper, more spiritual calling. This Divine Cause shall guide our hand towards a glorious destiny.",
-    "desc_ja": "君主国や共和国は現世に存在するだけで満足かもしれないが、聖なる国家にはより深い精神的な使命が必要である。この「神聖なる大義」こそが、我々を栄光ある運命へと導くだろう。",
-    "icon": "icons/laws/divine_cause_law.png",
-    "source_file": "00_theocracies.txt"
+    "desc_ja": "君主国や共和国は現世に存在するだけで満足かもしれないが、聖なる国家にはより深い精神的な使命が必要である。この「神聖なる大義」こそが、我々を栄光ある運命へと導くだろう。"
   },
   {
     "id": "tribal_legal_basis_law",
+    "icon": "icons/laws/tribal_legal_basis_law.png",
+    "source_file": "00_tribes.txt",
     "name_en": "Legal Basis",
     "name_ja": "法的根拠",
     "desc_en": "This legal foundation will serve as the basis for the state's first formal code of law. Its goal is simple, yet noble: to secure a just society where all may live in peace and prosperity.",
-    "desc_ja": "法的根拠は、国家初の正式な法典の礎となる。その目標は単純でありながら崇高で、誰もが平和と繁栄のなかで暮らせる公正な社会を確保することである。",
-    "icon": "icons/laws/tribal_legal_basis_law.png",
-    "source_file": "00_tribes.txt"
+    "desc_ja": "法的根拠は、国家初の正式な法典の礎となる。その目標は単純でありながら崇高で、誰もが平和と繁栄のなかで暮らせる公正な社会を確保することである。"
   },
   {
     "id": "tribal_organization_law",
+    "icon": "icons/laws/tribal_organization_law.png",
+    "source_file": "00_tribes.txt",
     "name_en": "Tribal Organization",
     "name_ja": "部族組織",
     "desc_en": "Any group of people requires some form of organization in order to survive and thrive. Tribal organization emphasizes collective identity and customary law, and can be small- or large-scale.",
-    "desc_ja": "どのような集団であっても、生き延びて繁栄するためにはなんらかの組織が必要となる。部族組織は共同体意識と慣習法を重んじ、小規模なものや大規模なものが存在する。",
-    "icon": "icons/laws/tribal_organization_law.png",
-    "source_file": "00_tribes.txt"
+    "desc_ja": "どのような集団であっても、生き延びて繁栄するためにはなんらかの組織が必要となる。部族組織は共同体意識と慣習法を重んじ、小規模なものや大規模なものが存在する。"
   },
   {
     "id": "tribal_religious_values_law",
+    "icon": "icons/laws/tribal_religious_values_law.png",
+    "source_file": "00_tribes.txt",
     "name_en": "Tribal Religious Values",
     "name_ja": "部族の宗教的価値",
     "desc_en": "The religious values of our tribe dictate not only how we live, but how we treat those who do not share our beliefs and traditions, both within and outside of our territory.",
-    "desc_ja": "わが部族の宗教的価値観は、我らの生き方のみならず、我らとは信仰と伝統を異にする領土内外の者への扱いも規定する。",
-    "icon": "icons/laws/tribal_religious_values_law.png",
-    "source_file": "00_tribes.txt"
+    "desc_ja": "わが部族の宗教的価値観は、我らの生き方のみならず、我らとは信仰と伝統を異にする領土内外の者への扱いも規定する。"
   },
   {
     "id": "tribal_migration_law",
+    "icon": "icons/laws/tribal_migration_law.png",
+    "source_file": "00_tribes.txt",
     "name_en": "Tribal Migration",
     "name_ja": "移住部族",
     "desc_en": "Our people do not permanently occupy out lands. Instead, we travel freely, as fate and our people's needs dictate.",
-    "desc_ja": "わが民は特定の場所に定住せず、運命と民の必要に応じて、自由に旅するのである。",
-    "icon": "icons/laws/tribal_migration_law.png",
-    "source_file": "00_tribes.txt"
+    "desc_ja": "わが民は特定の場所に定住せず、運命と民の必要に応じて、自由に旅するのである。"
   },
   {
     "id": "tribal_cultural_identity_law",
+    "icon": "icons/laws/tribal_cultural_identity_law.png",
+    "source_file": "00_tribes.txt",
     "name_en": "Tribal Cultural Identity",
     "name_ja": "部族の文化的独自性",
     "desc_en": "As time progresses, so does our understanding of our culture and identity. We no longer have to fear neighboring tribes; we have tamed the wilderness and have become its master. Now it is time to embrace who we are as a people.",
-    "desc_ja": "時が経つにつれ、我々の文化と独自性に対する理解も深まる。もはや近隣の部族を恐れる必要はない——我らは荒野を征服し、支配者となったのだ。いまこそ、我らがいかなる民であるかを受け入れる時だ。",
-    "icon": "icons/laws/tribal_cultural_identity_law.png",
-    "source_file": "00_tribes.txt"
+    "desc_ja": "時が経つにつれ、我々の文化と独自性に対する理解も深まる。もはや近隣の部族を恐れる必要はない——我らは荒野を征服し、支配者となったのだ。いまこそ、我らがいかなる民であるかを受け入れる時だ。"
   },
   {
     "id": "tribal_modernization_law",
+    "icon": "icons/laws/tribal_modernization_law.png",
+    "source_file": "00_tribes.txt",
     "name_en": "Tribal Modernization",
     "name_ja": "部族の近代化",
     "desc_en": "The time has come to discard our old ways and embrace a position in the larger world. No longer seen as a mere tribe, we shall officially become a country, one that represents and defends our people and the way we live.",
-    "desc_ja": "旧来のあり方を捨て去り、大いなる世界における立場を受け入れる時が来た。我々はもはや単なる部族ではなく、国民とその生き方を代表し、国民を守る正式な国家となるのだ。",
-    "icon": "icons/laws/tribal_modernization_law.png",
-    "source_file": "00_tribes.txt"
+    "desc_ja": "旧来のあり方を捨て去り、大いなる世界における立場を受け入れる時が来た。我々はもはや単なる部族ではなく、国民とその生き方を代表し、国民を守る正式な国家となるのだ。"
   },
   {
     "id": "education_elites_law",
+    "icon": "icons/laws/education_elites_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Education of the Elites",
     "name_ja": "エリート層の教育",
     "desc_en": "The education of our elites is of vital importance. By providing our upper-class citizens with ample access to appropriate works of art, we will further our cultural goals, both at home and abroad, through the creation of legendary works and the amplification of our splendor!",
-    "desc_ja": "エリート層の教育は極めて重要だ。上流階級の市民が適切な芸術作品に触れられる環境が十分に整えば、不朽の名作が創造され、わが国の素晴らしさがいっそう高まるだろう。これは国内外において、我々の文化的目標を推し進めることにもつながる。",
-    "icon": "icons/laws/education_elites_law.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "エリート層の教育は極めて重要だ。上流階級の市民が適切な芸術作品に触れられる環境が十分に整えば、不朽の名作が創造され、わが国の素晴らしさがいっそう高まるだろう。これは国内外において、我々の文化的目標を推し進めることにもつながる。"
   },
   {
     "id": "education_masses_law",
+    "icon": "icons/laws/education_masses_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Education of the Masses",
     "name_ja": "大衆の教育",
     "desc_en": "The education of our population is of vital importance. By providing our people with ample access to the appropriate materials, regardless of their place in the social hierarchy, we will create a more educated and artistically fluent population, and further our governmental goals both at home and abroad.",
-    "desc_ja": "国民の教育は極めて重要だ。社会的身分を問わず、すべての民が適切な教材に触れられる環境を整えることで、より高い教養と芸術的素養を備えた民を育てることができる。そうすることで、国内外における国家の目標達成がより容易になるだろう。",
-    "icon": "icons/laws/education_masses_law.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "国民の教育は極めて重要だ。社会的身分を問わず、すべての民が適切な教材に触れられる環境を整えることで、より高い教養と芸術的素養を備えた民を育てることができる。そうすることで、国内外における国家の目標達成がより容易になるだろう。"
   },
   {
     "id": "slavery_laws",
+    "icon": "icons/laws/slavery_laws.png",
+    "source_file": "01_common.txt",
     "name_en": "Slavery Laws",
     "name_ja": "奴隷法",
     "desc_en": "The influx of workers and cheap labor from external sources has long been a cornerstone of our economy, both at home and abroad. The matter of embracing or banning is a clear reflection of what place the lower strata, and slaves in particular, occupy in our society.",
-    "desc_ja": "外部からの労働者や安価な労働力の流入は、長いあいだ国内外の経済を支える柱となってきた。それを受け入れるか否かという問題は、我々の社会における下層階級、とりわけ奴隷がいかなる社会的地位を占めているかを明確に映し出している。",
-    "icon": "icons/laws/slavery_laws.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "外部からの労働者や安価な労働力の流入は、長いあいだ国内外の経済を支える柱となってきた。それを受け入れるか否かという問題は、我々の社会における下層階級、とりわけ奴隷がいかなる社会的地位を占めているかを明確に映し出している。"
   },
   {
     "id": "colonial_policy",
+    "icon": "icons/laws/colonial_policy.png",
+    "source_file": "01_common.txt",
     "name_en": "Colonial Policy",
     "name_ja": "植民地政策",
     "desc_en": "This establishes the policy that our country will follow for colonial affairs.",
-    "desc_ja": "これにより、わが国が植民地問題に関して従う政策が確立される。",
-    "icon": "icons/laws/colonial_policy.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "これにより、わが国が植民地問題に関して従う政策が確立される。"
   },
   {
     "id": "native_policy",
+    "icon": "icons/laws/native_policy.png",
+    "source_file": "01_common.txt",
     "name_en": "Native Policy",
     "name_ja": "対原住民政策",
     "desc_en": "This establishes the policy that our country will follow regarding the native people inhabiting our colonies.",
-    "desc_ja": "これにより、わが国が植民地に居住する先住民に関して従うべき政策が確立される。",
-    "icon": "icons/laws/native_policy.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "これにより、わが国が植民地に居住する先住民に関して従うべき政策が確立される。"
   },
   {
     "id": "administrative_system",
+    "icon": "icons/laws/administrative_system.png",
+    "source_file": "01_common.txt",
     "name_en": "Administrative System",
     "name_ja": "行政制度",
     "desc_en": "Any kind of state requires a system to administrate and organize its territory. By selecting an appropriate structure, we can ensure that our authority is enforced in even the most remote parts of our state.",
-    "desc_ja": "どのような国家であっても、その領土を管理し組織するための制度が必要である。適切な構造を選択することにより、国家の隅々で権限が確実に行使される。",
-    "icon": "icons/laws/administrative_system.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "どのような国家であっても、その領土を管理し組織するための制度が必要である。適切な構造を選択することにより、国家の隅々で権限が確実に行使される。"
   },
   {
     "id": "intelligence_agency",
+    "icon": "icons/laws/intelligence_agency.png",
+    "source_file": "01_common.txt",
     "name_en": "Intelligence Agency",
     "name_ja": "情報機関",
     "desc_en": "The intelligence agency is an organization within the state which conducts spycraft activities such as espionage, cryptography, and providing security from internal threats.",
-    "desc_ja": "情報機関は、諜報、暗号解読、内部脅威からの安全保障などの、スパイ活動をおこなう国家内の組織である。",
-    "icon": "icons/laws/intelligence_agency.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "情報機関は、諜報、暗号解読、内部脅威からの安全保障などの、スパイ活動をおこなう国家内の組織である。"
   },
   {
     "id": "bureaucracy_law",
+    "icon": "icons/laws/bureaucracy_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Bureaucracy",
     "name_ja": "官僚制度",
     "desc_en": "$modern_bureaucracy_desc$",
-    "desc_ja": "$modern_bureaucracy_desc$",
-    "icon": "icons/laws/bureaucracy_law.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "$modern_bureaucracy_desc$"
   },
   {
     "id": "cabinet_laws",
+    "icon": "icons/laws/cabinet_laws.png",
+    "source_file": "01_common.txt",
     "name_en": "Cabinet Laws",
     "name_ja": "内閣法",
     "desc_en": "The cabinet is the highest office in the government and our ruler's personal advisors. Cabinet ministers and secretaries enjoy special privileges and rights.",
-    "desc_ja": "内閣は政府の最高機関にして、君主の個人顧問団である。閣僚や長官は特別な特権と権利を有する。",
-    "icon": "icons/laws/cabinet_laws.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "内閣は政府の最高機関にして、君主の個人顧問団である。閣僚や長官は特別な特権と権利を有する。"
   },
   {
     "id": "economical_policies_law",
+    "icon": "icons/laws/economical_policies_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Economic Policy",
     "name_ja": "経済政策",
     "desc_en": "A nation's economic policy sets out specific economic objectives and means to achieve them, and makes decisions and creates regulations for taxation, spending, currency, trade, and more.",
-    "desc_ja": "国家の経済政策は、具体的な経済目標とその達成手段を定め、課税・支出・通貨・交易などに関する決定を下し、規則を制定する。",
-    "icon": "icons/laws/economical_policies_law.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "国家の経済政策は、具体的な経済目標とその達成手段を定め、課税・支出・通貨・交易などに関する決定を下し、規則を制定する。"
   },
   {
     "id": "cultural_traditions_law",
+    "icon": "icons/laws/cultural_traditions_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Cultural Traditions",
     "name_ja": "文化的伝統",
     "desc_en": "Ancient tradition is the foundation of many cultures and civilizations. While progress is what will drive us to greatness, our traditions will always serve us as the reminder of our origins, and as a source for the strength and unity of our people.",
-    "desc_ja": "古い伝統は多くの文化や文明の礎である。進歩は我々を偉大な存在へと導くものだが、伝統はつねに原点を思い出させるもの、国民に力と団結を与えるものとなる。",
-    "icon": "icons/laws/cultural_traditions_law.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "古い伝統は多くの文化や文明の礎である。進歩は我々を偉大な存在へと導くものだが、伝統はつねに原点を思い出させるもの、国民に力と団結を与えるものとなる。"
   },
   {
     "id": "foreign_cultural_law",
+    "icon": "icons/laws/foreign_cultural_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Foreign Cultural Law",
     "name_ja": "外国の文化と法律",
     "desc_en": "As our state grows in size, so does the complexity of our social structures. Cultural unity within our state is no longer a given, and we now require policies to establish and maintain internal peace.",
-    "desc_ja": "わが国の規模が拡大するにつれ、社会構造の複雑さも増している。国家内の文化的一体性はもはや自明ではなく、国内の平和を確立し維持するための政策が求められている。",
-    "icon": "icons/laws/foreign_cultural_law.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "わが国の規模が拡大するにつれ、社会構造の複雑さも増している。国家内の文化的一体性はもはや自明ではなく、国内の平和を確立し維持するための政策が求められている。"
   },
   {
     "id": "marriage_law",
+    "icon": "icons/laws/marriage_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Marriage Law",
     "name_ja": "婚姻法",
     "desc_en": "Marriage law refers to the legal framework that governs the institution of marriage within a particular jurisdiction.",
-    "desc_ja": "婚姻法とは、特定の管轄区域内での婚姻制度を規定する法的枠組みを指す。",
-    "icon": "icons/laws/marriage_law.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "婚姻法とは、特定の管轄区域内での婚姻制度を規定する法的枠組みを指す。"
   },
   {
     "id": "heir_religion_law",
+    "icon": "icons/laws/heir_religion_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Heir Religion",
     "name_ja": "後継者の宗教",
-    "desc_en": "The ability to decide the religion of the holds significant importance in matters of succession and governance. It allows rulers and governments to maintain religious stability, ensuring that the beliefs and practices of the ruler align with those of the majority of their subjects. Ultimately, the power to determine the religion of the heir represents an important element in the fine balance of religious freedom, governance, and societal harmony.",
-    "desc_ja": "が保持する宗教を決定する権限は、継承と統治の問題において非常に重要な意味をもつ。これにより、統治者と政府は宗教的安定を維持し、統治者の信念と活動を大多数の国民と一致させることができる。最終的に、後継者の宗教を決定する権限は、宗教の自由、統治、および社会の調和の微妙なバランスを保つための重要な要素となる。",
-    "icon": "icons/laws/heir_religion_law.png",
-    "source_file": "01_common.txt"
+    "desc_en": "The ability to decide the religion of the heir holds significant importance in matters of succession and governance. It allows rulers and governments to maintain religious stability, ensuring that the beliefs and practices of the ruler align with those of the majority of their subjects. Ultimately, the power to determine the religion of the heir represents an important element in the fine balance of religious freedom, governance, and societal harmony.",
+    "desc_ja": "heirが保持する宗教を決定する権限は、継承と統治の問題において非常に重要な意味をもつ。これにより、統治者と政府は宗教的安定を維持し、統治者の信念と活動を大多数の国民と一致させることができる。最終的に、後継者の宗教を決定する権限は、宗教の自由、統治、および社会の調和の微妙なバランスを保つための重要な要素となる。"
   },
   {
     "id": "coin_laws",
+    "icon": "icons/laws/coin_laws.png",
+    "source_file": "01_common.txt",
     "name_en": "Coinage Law",
     "name_ja": "貨幣鋳造法",
     "desc_en": "This law determines the resources our country will use to mint its currency. The most common coins are made of gold, silver, and copper, with different mixtures of each material and also different monetary values. However, other exchange systems exist throughout the world that do not depend on this type of currency, but rather on other materials, such as livestock, cloth, shells, cacao, etc.",
-    "desc_ja": "この法律は、わが国が通貨を鋳造するために用いる資源を定めるものである。一般的な硬貨は金、銀、銅から作られており、各素材の配合や貨幣価値が異なる。しかし世界には、この種の通貨に依存しない取引制度も存在しており、そこでは家畜、生地、貝殻、カカオなど、別の資源が用いられる。",
-    "icon": "icons/laws/coin_laws.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "この法律は、わが国が通貨を鋳造するために用いる資源を定めるものである。一般的な硬貨は金、銀、銅から作られており、各素材の配合や貨幣価値が異なる。しかし世界には、この種の通貨に依存しない取引制度も存在しており、そこでは家畜、生地、貝殻、カカオなど、別の資源が用いられる。"
   },
   {
     "id": "precious_metal_distribution_law",
+    "icon": "icons/laws/precious_metal_distribution_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Precious Metal Distribution",
     "name_ja": "貴金属の分配",
     "desc_en": "and are the materials necessary for the minting of coins. As our state is in the highly enviable position to gather these precious metals ourselves, it is our right to decide who gains access to these resources.",
-    "desc_ja": "とは、貨幣の鋳造に必要な資源だ。わが国はこれらの貴金属を国内で採取できる非常に恵まれた立場にあるため、誰がこの資源を入手できるかを決定するのは我々の権利である。",
-    "icon": "icons/laws/precious_metal_distribution_law.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "とは、貨幣の鋳造に必要な資源だ。わが国はこれらの貴金属を国内で採取できる非常に恵まれた立場にあるため、誰がこの資源を入手できるかを決定するのは我々の権利である。"
   },
   {
     "id": "press_law",
+    "icon": "icons/laws/press_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Press Laws",
     "name_ja": "新聞条令",
     "desc_en": "This determines how print media outlets in a country are run and regulated.",
-    "desc_ja": "国内の出版機関がいかに運営され、いかに規制されるかを定める条令。",
-    "icon": "icons/laws/press_law.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "国内の出版機関がいかに運営され、いかに規制されるかを定める条令。"
   },
   {
     "id": "mining_law",
+    "icon": "icons/laws/mining_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Mining Law",
     "name_ja": "鉱業法",
     "desc_en": "This law determines who owns the mining operations in our country.",
-    "desc_ja": "わが国の鉱業事業の所有者を定める法律。",
-    "icon": "icons/laws/mining_law.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "わが国の鉱業事業の所有者を定める法律。"
   },
   {
     "id": "amazigh_familial_connections",
+    "icon": "icons/laws/amazigh_familial_connections.png",
+    "source_file": "01_common.txt",
     "name_en": "Amazigh Familial Connections",
     "name_ja": "アマジグ人の血縁的なつながり",
     "desc_en": "The many tribes across our land hold certain authority over local affairs. Our stance towards them may define the course of our history.",
-    "desc_ja": "わが国の領土に暮らすさまざまな部族は、地域の問題に対して一定の権限を保持している。我々が彼らにどのような態度をとるかによって、わが国の未来が決まるかもしれない。",
-    "icon": "icons/laws/amazigh_familial_connections.png",
-    "source_file": "01_common.txt"
+    "desc_ja": "わが国の領土に暮らすさまざまな部族は、地域の問題に対して一定の権限を保持している。我々が彼らにどのような態度をとるかによって、わが国の未来が決まるかもしれない。"
   },
   {
     "id": "immigration_law",
+    "icon": "icons/laws/immigration_law.png",
+    "source_file": "01_common.txt",
     "name_en": "Border Controls",
     "name_ja": "国境管理法",
-    "desc_en": "This Law determines if is allowed in or out of the country.",
-    "desc_ja": "この法律はが出入国できるかどうかを定める。",
-    "icon": "icons/laws/immigration_law.png",
-    "source_file": "01_common.txt"
+    "desc_en": "This Law determines if migration is allowed in or out of the country.",
+    "desc_ja": "この法律はmigrationが出入国できるかどうかを定める。"
   },
   {
     "id": "legal_code_law",
+    "icon": "icons/laws/legal_code_law.png",
+    "source_file": "01_legal_system.txt",
     "name_en": "Legal Code",
     "name_ja": "法典",
     "desc_en": "For as long as people have gathered together in societies, they have created laws to govern their actions and interactions. Legal codes are a reflection of the values and beliefs of a society, shaping everything from how people conduct business to how they treat each other. They are the very fabric that holds a society together, providing a framework for order and justice. Despite their differences, people tend to share a common goal: to create a just and fair society where everyone can live in peace and prosperity.",
-    "desc_ja": "社会というかたちで集まるようになって以来、人々は自分たちの行動や交流を規制する法律を作り上げてきた。法典は社会の価値観や信念を反映し、商売のやり方から互いとの接し方まで、あらゆるものを形作る。社会をまとめる基盤であり、秩序と正義の枠組みとなるのだ。人々は互いに異なる点を抱えながらも、おおむね共通の目標をもっている——それは誰もが平和と繁栄のなかで暮らせる、公正で公平な社会を作ることだ。",
-    "icon": "icons/laws/legal_code_law.png",
-    "source_file": "01_legal_system.txt"
+    "desc_ja": "社会というかたちで集まるようになって以来、人々は自分たちの行動や交流を規制する法律を作り上げてきた。法典は社会の価値観や信念を反映し、商売のやり方から互いとの接し方まで、あらゆるものを形作る。社会をまとめる基盤であり、秩序と正義の枠組みとなるのだ。人々は互いに異なる点を抱えながらも、おおむね共通の目標をもっている——それは誰もが平和と繁栄のなかで暮らせる、公正で公平な社会を作ることだ。"
   },
   {
     "id": "language_of_pleading",
+    "icon": "icons/laws/language_of_pleading.png",
+    "source_file": "01_legal_system.txt",
     "name_en": "Language of Pleading",
     "name_ja": "書面言語",
     "desc_en": "The customs of our social hierarchy and legal proceedings must be concisely and uniformly written down in the language we find most appropriate.",
-    "desc_ja": "社会の階層構造に関する慣習や法制度に関する手続きは、我々が適切と考える言語で簡潔かつ統一的に記述されなければならない。",
-    "icon": "icons/laws/language_of_pleading.png",
-    "source_file": "01_legal_system.txt"
+    "desc_ja": "社会の階層構造に関する慣習や法制度に関する手続きは、我々が適切と考える言語で簡潔かつ統一的に記述されなければならない。"
   },
   {
     "id": "sharia_law",
+    "icon": "icons/laws/sharia_law.png",
+    "source_file": "01_legal_system.txt",
     "name_en": "$sharia$ Jurisprudence",
     "name_ja": "$sharia$法学",
     "desc_en": "$sharia_law_policy_desc$",
-    "desc_ja": "$sharia_law_policy_desc$",
-    "icon": "icons/laws/sharia_law.png",
-    "source_file": "01_legal_system.txt"
+    "desc_ja": "$sharia_law_policy_desc$"
   },
   {
     "id": "recruitment_law",
+    "icon": "icons/laws/recruitment_law.png",
+    "source_file": "01_military_laws.txt",
     "name_en": "Recruitment Law",
     "name_ja": "徴兵制度",
     "desc_en": "Battles cannot be won with no soldiers on the field! Recruiting fighters is an absolute necessity. As time goes on, how we recruit soldiers may change, and our forces will adapt to it as needed.",
-    "desc_ja": "戦場に兵士がいなければ勝つことはできないため、兵士の徴兵は絶対的に不可欠な活動である。時が経つにつれて兵士を集める方法は変化し、軍も自然とそれに適応していくだろう。",
-    "icon": "icons/laws/recruitment_law.png",
-    "source_file": "01_military_laws.txt"
+    "desc_ja": "戦場に兵士がいなければ勝つことはできないため、兵士の徴兵は絶対的に不可欠な活動である。時が経つにつれて兵士を集める方法は変化し、軍も自然とそれに適応していくだろう。"
   },
   {
     "id": "battle_leadership_law",
+    "icon": "icons/laws/battle_leadership_law.png",
+    "source_file": "01_military_laws.txt",
     "name_en": "Battle Leadership Law",
     "name_ja": "戦闘指導者の法則",
     "desc_en": "An army is only as good as its leadership. An incompetent general can be the bane of their nation, while a military leader of great prowess will be known and feared on every battlefield.",
-    "desc_ja": "軍隊の力は指導者に左右される。無能な将軍は国家の悩みの種となりうるが、偉大な武勇を備えた軍事指導者はあらゆる戦場で知られ、恐れられることになる。",
-    "icon": "icons/laws/battle_leadership_law.png",
-    "source_file": "01_military_laws.txt"
+    "desc_ja": "軍隊の力は指導者に左右される。無能な将軍は国家の悩みの種となりうるが、偉大な武勇を備えた軍事指導者はあらゆる戦場で知られ、恐れられることになる。"
   },
   {
     "id": "army_doctrine_law",
+    "icon": "icons/laws/army_doctrine_law.png",
+    "source_file": "01_military_laws.txt",
     "name_en": "Army Doctrine",
     "name_ja": "陸軍ドクトリン",
-    "desc_en": "Army doctrines represent skillsets in which our can specialize. The longer we work under these doctrines, the more entrenched they become in our military culture, and the more skilled we become at them. Over time, this can lead to powerful benefits for our glorious forces.",
-    "desc_ja": "陸軍ドクトリンは、自国のが専門的に扱えるスキルセットを指す。これに取り組む時間が長くなるほど、ドクトリンは軍事文化に定着し、より優れたスキルを習得できる。時間が経つにつれて、自国の陸軍に強力なボーナスが付与されるようになる。",
-    "icon": "icons/laws/army_doctrine_law.png",
-    "source_file": "01_military_laws.txt"
+    "desc_en": "Army doctrines represent skillsets in which our army can specialize. The longer we work under these doctrines, the more entrenched they become in our military culture, and the more skilled we become at them. Over time, this can lead to powerful benefits for our glorious forces.",
+    "desc_ja": "陸軍ドクトリンは、自国のarmyが専門的に扱えるスキルセットを指す。これに取り組む時間が長くなるほど、ドクトリンは軍事文化に定着し、より優れたスキルを習得できる。時間が経つにつれて、自国の陸軍に強力なボーナスが付与されるようになる。"
   },
   {
     "id": "mamluk_rank_system_laws",
+    "icon": "icons/laws/mamluk_rank_system_laws.png",
+    "source_file": "01_military_laws.txt",
     "name_en": "$mamluk$ Rank System",
     "name_ja": "$mamluk$階層制度",
     "desc_en": "The hierarchy within our military is the framework that makes up the most important institution of our land.",
-    "desc_ja": "わが軍隊内の階層制度は、わが国の最も重要な制度を構成する枠組みだ。",
-    "icon": "icons/laws/mamluk_rank_system_laws.png",
-    "source_file": "01_military_laws.txt"
+    "desc_ja": "わが軍隊内の階層制度は、わが国の最も重要な制度を構成する枠組みだ。"
   },
   {
     "id": "mamluk_army_law",
+    "icon": "icons/laws/mamluk_army_law.png",
+    "source_file": "01_military_laws.txt",
     "name_en": "$mamluk$ Army Law",
     "name_ja": "$mamluk$軍法",
     "desc_en": "The heart of our stratocratic administration is none other than the army. By drafting laws and stipulations to carefully form it, we will defend our people efficiently against outside threats.",
-    "desc_ja": "わが国の軍政の中核は、ほかでもない軍隊だ。軍隊を綿密に編制するための法律や規定を制定することにより、外部の脅威から国民を効果的に守るのだ。",
-    "icon": "icons/laws/mamluk_army_law.png",
-    "source_file": "01_military_laws.txt"
+    "desc_ja": "わが国の軍政の中核は、ほかでもない軍隊だ。軍隊を綿密に編制するための法律や規定を制定することにより、外部の脅威から国民を効果的に守るのだ。"
   },
   {
     "id": "mamluk_promotion_law",
+    "icon": "icons/laws/mamluk_promotion_law.png",
+    "source_file": "01_military_laws.txt",
     "name_en": "$mamluk$ Promotion Law",
     "name_ja": "$mamluk$の昇格に関する法律",
     "desc_en": "The legalities that premiate promotion within our military ranks are an important cornerstone of our country.",
-    "desc_ja": "軍隊内での昇進に適用される法律は、わが国の重要な基礎である。",
-    "icon": "icons/laws/mamluk_promotion_law.png",
-    "source_file": "01_military_laws.txt"
+    "desc_ja": "軍隊内での昇進に適用される法律は、わが国の重要な基礎である。"
   },
   {
     "id": "maritime_law",
+    "icon": "icons/laws/maritime_law.png",
+    "source_file": "01_naval_laws.txt",
     "name_en": "Maritime Law",
     "name_ja": "海事法",
     "desc_en": "Maritime laws, also known as admiralty laws or marine laws, are a specialized set of legal principles and regulations that govern various aspects of maritime activities and commerce. These laws encompass a broad range of matters related to navigation, shipping, trade, and maritime activities taking place on oceans, seas, and other navigable waterways. They cover areas such as maritime contracts, vessel ownership and registration, marine insurance, salvage and wrecks, liability and compensation for maritime accidents, crew rights and responsibilities, and many other aspects that pertain to maritime affairs. Maritime laws are designed to ensure safe, orderly, and fair practices in the maritime industry and resolve disputes that may arise in the context of maritime activities.",
-    "desc_ja": "海事法は、海事活動や商業のさまざまな側面を規定する、一連の専門的な法的原則および規制である。これらの法律は、大洋、海、その他の航行可能な水路でおこなわれる航行、海運、交易、および海事活動に関連する幅広い事項を包含している。海事契約、船舶の所有権と登録、海上保険、救助と難破、海上事故の責任と補償、乗組員の権利と責任など、海事に関する多くの側面も網羅している。海事法は、海事産業における安全で秩序ある公正な慣行を確保し、海事活動に関連して発生する可能性のある紛争を解決するために制定されている。",
-    "icon": "icons/laws/maritime_law.png",
-    "source_file": "01_naval_laws.txt"
+    "desc_ja": "海事法は、海事活動や商業のさまざまな側面を規定する、一連の専門的な法的原則および規制である。これらの法律は、大洋、海、その他の航行可能な水路でおこなわれる航行、海運、交易、および海事活動に関連する幅広い事項を包含している。海事契約、船舶の所有権と登録、海上保険、救助と難破、海上事故の責任と補償、乗組員の権利と責任など、海事に関する多くの側面も網羅している。海事法は、海事産業における安全で秩序ある公正な慣行を確保し、海事活動に関連して発生する可能性のある紛争を解決するために制定されている。"
   },
   {
     "id": "piracy_law",
+    "icon": "icons/laws/piracy_law.png",
+    "source_file": "01_naval_laws.txt",
     "name_en": "Piracy Law",
     "name_ja": "海賊法",
     "desc_en": "Piracy laws define the official position our nation adopts when addressing the challenges posed by piracy. These laws encompass statutes, regulations, and legal doctrines aimed at combating or managing piracy effectively. They embody the collective strategy and measures our nation implements to uphold maritime security and protect our waters from piracy threats. Or perhaps they are just the rules we stick to when committing acts of piracy...",
-    "desc_ja": "海賊法は、海賊行為がもたらす課題に対処するためにわが国が採用する公式の立場を定める。これらの法律には、海賊行為と効果的に闘う、または管理することを目的とした法令、規制、および法原理が含まれ、わが国が海上安全保障を維持し、海賊の脅威から海域を保護するために実施する総合的な戦略と対策を具体化している。または、単に海賊行為をおこなう際に遵守する規則ともいえる。",
-    "icon": "icons/laws/piracy_law.png",
-    "source_file": "01_naval_laws.txt"
+    "desc_ja": "海賊法は、海賊行為がもたらす課題に対処するためにわが国が採用する公式の立場を定める。これらの法律には、海賊行為と効果的に闘う、または管理することを目的とした法令、規制、および法原理が含まれ、わが国が海上安全保障を維持し、海賊の脅威から海域を保護するために実施する総合的な戦略と対策を具体化している。または、単に海賊行為をおこなう際に遵守する規則ともいえる。"
   },
   {
     "id": "naval_doctrine_law",
+    "icon": "icons/laws/naval_doctrine_law.png",
+    "source_file": "01_naval_laws.txt",
     "name_en": "Naval Doctrine",
     "name_ja": "海軍ドクトリン",
-    "desc_en": "Naval Doctrines represent skillsets in which our can specialize. The longer we work at doctrines, the more entrenched they become in our navies and the better we get at them. Over time this can lead to powerful bonuses for our glorious fleets.",
-    "desc_ja": "海軍ドクトリンは、自国のが専門的に扱えるスキルセットを指す。これに取り組む時間が長くなるほど、ドクトリンは海軍に定着し、より優れたスキルを習得できる。時間が経つにつれて、自国の艦隊に強力なボーナスが付与されるようになる。",
-    "icon": "icons/laws/naval_doctrine_law.png",
-    "source_file": "01_naval_laws.txt"
+    "desc_en": "Naval Doctrines represent skillsets in which our navy can specialize. The longer we work at doctrines, the more entrenched they become in our navies and the better we get at them. Over time this can lead to powerful bonuses for our glorious fleets.",
+    "desc_ja": "海軍ドクトリンは、自国のnavyが専門的に扱えるスキルセットを指す。これに取り組む時間が長くなるほど、ドクトリンは海軍に定着し、より優れたスキルを習得できる。時間が経つにつれて、自国の艦隊に強力なボーナスが付与されるようになる。"
   },
   {
     "id": "sumptuary_law",
+    "icon": "icons/laws/sumptuary_law.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Sumptuary Law",
     "name_ja": "奢侈禁止令",
     "desc_en": "Clothing in society reflects our social hierarchy and marks important life events such as marriage, birth, and death. The typically wear simple cotton garments, while high-ranking elites dress in far more elaborate attire decorated with brilliant colors and priceless feathers. Warriors, by contrast, are permitted to wear only plain mantles.\\n\\nThe Cihuacóatl is now establishing Sumptuary Laws that will regulate how subjects dress, what they may purchase in markets, and which ornaments they may wear, all based on their rank.",
-    "desc_ja": "社会において衣服は、社会的階級の象徴であるとともに、結婚、出産、他界といった重要な人生の節目を示すものである。は通常、簡素な綿の衣服を身につける一方で、高位のエリート層は鮮やかな色彩と高価な羽根で飾られた華麗な衣服をまとう。対照的に、戦士は飾り気のないマントしか着用できない。\\n\\n現在、シワコアトルは身分に応じて国民がどのような衣服を着用し、市場で何を購入でき、どのような装飾品を身に着けられるのかを規定する、奢侈禁止令の制定に取り組んでいる。",
-    "icon": "icons/laws/sumptuary_law.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "社会において衣服は、社会的階級の象徴であるとともに、結婚、出産、他界といった重要な人生の節目を示すものである。は通常、簡素な綿の衣服を身につける一方で、高位のエリート層は鮮やかな色彩と高価な羽根で飾られた華麗な衣服をまとう。対照的に、戦士は飾り気のないマントしか着用できない。\\n\\n現在、シワコアトルは身分に応じて国民がどのような衣服を着用し、市場で何を購入でき、どのような装飾品を身に着けられるのかを規定する、奢侈禁止令の制定に取り組んでいる。"
   },
   {
     "id": "eng_order_of_the_garter_law",
+    "icon": "icons/laws/eng_order_of_the_garter_law.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Order of the Garter",
     "name_ja": "ガーター騎士団",
     "desc_en": "The Order of the Garter is a prestigious symbol of our realm's highest ideals, transcending time and uniting worthy people of diverse backgrounds and talents.\\n\\nWhether composed of the monarch's favorites, esteemed foreign dignitaries, devout members of the clergy, gifted artisans, or valiant warriors, this venerable order is the pinnacle of nobility and virtue.",
-    "desc_ja": "栄えあるガーター騎士団は、時代を超えて多様な出自と才能をもつ者たちを結びつける、わが国の最高の理想の象徴である。\\n\\n君主の寵臣、外国の高名な高官、敬虔な聖職者、才能ある職人、あるいは勇敢な戦士などから構成されるこの由緒ある騎士団は、高貴さと美徳の極致である。",
-    "icon": "icons/laws/eng_order_of_the_garter_law.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "栄えあるガーター騎士団は、時代を超えて多様な出自と才能をもつ者たちを結びつける、わが国の最高の理想の象徴である。\\n\\n君主の寵臣、外国の高名な高官、敬虔な聖職者、才能ある職人、あるいは勇敢な戦士などから構成されるこの由緒ある騎士団は、高貴さと美徳の極致である。"
   },
   {
     "id": "fra_fouage_tax",
+    "icon": "icons/laws/fra_fouage_tax.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Fouage Tax Levy",
     "name_ja": "暖炉税の賦課",
     "desc_en": "A large Hearth Tax levied against the peasantry in order to assist in covering the growing expenses of the treasury.",
-    "desc_ja": "財政支出の増大を補うために農民に課せられた、重いかまど税。",
-    "icon": "icons/laws/fra_fouage_tax.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "財政支出の増大を補うために農民に課せられた、重いかまど税。"
   },
   {
     "id": "fra_taille",
+    "icon": "icons/laws/fra_taille.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Taille",
     "name_ja": "タイユ税",
     "desc_en": "The taille is a tax imposed on each household based on the amount of land it occupies. The and are exempt.",
-    "desc_ja": "タイユとは、とを除く、各世帯が所有する土地の広さに基づいて課される税のこと。",
-    "icon": "icons/laws/fra_taille.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "タイユとは、とを除く、各世帯が所有する土地の広さに基づいて課される税のこと。"
   },
   {
     "id": "fra_5_percent_tax",
+    "icon": "icons/laws/fra_5_percent_tax.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Machault's Five Percent Tax",
     "name_ja": "マショーの5%税",
     "desc_en": "A new tax proposed by the Minister of Finance, accounting for one-twentieth of the annual income.",
-    "desc_ja": "フランスの財務総監が提案した、年収の20分の1を占める新税。",
-    "icon": "icons/laws/fra_5_percent_tax.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "フランスの財務総監が提案した、年収の20分の1を占める新税。"
   },
   {
     "id": "fra_reformation_tolerance_edicts",
+    "icon": "icons/laws/fra_reformation_tolerance_edicts.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Reformation Edicts",
     "name_ja": "宗教改革に関する勅令",
     "desc_en": "",
-    "desc_ja": "宗教改革が全土に広がっており、ここも改革の瀬戸際にある。次々に現れる熱狂的な改革支持者に対する国の政策は、彼らを味方とみなすか、敵とみなすかを決めるうえで極めて重要である。",
-    "icon": "icons/laws/fra_reformation_tolerance_edicts.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "宗教改革が全土に広がっており、ここも改革の瀬戸際にある。次々に現れる熱狂的な改革支持者に対する国の政策は、彼らを味方とみなすか、敵とみなすかを決めるうえで極めて重要である。"
   },
   {
     "id": "french_colonial_ambition_focus",
+    "icon": "icons/laws/french_colonial_ambition_focus.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Colonial Aspirations",
     "name_ja": "植民地拡大の野望",
     "desc_en": "Having overcome decades of turmoil, has reached a point where it can finance overseas exploration. New policies will enable the court to pursue colonial ambitions with greater efficiency",
-    "desc_ja": "数十年にわたる動乱の時代が終わり、は海外探検に資金をつぎ込めるようになった。新たな政策を実施すれば、宮廷はより効率的に植民地拡大に取り組めるだろう。",
-    "icon": "icons/laws/french_colonial_ambition_focus.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "数十年にわたる動乱の時代が終わり、は海外探検に資金をつぎ込めるようになった。新たな政策を実施すれば、宮廷はより効率的に植民地拡大に取り組めるだろう。"
   },
   {
     "id": "fra_jansenism_legality",
+    "icon": "icons/laws/fra_jansenism_legality.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Status of Jansenism",
     "name_ja": "ヤンセニスムの地位",
     "desc_en": "A doctrine following the teachings of Saint Augustine, Jansenism emphasizes predestination, the profound and lasting effects of original sin, and rigorous morality. It has increasingly come under threat with the rise of Absolutism in , as well as having been officially condemned by the Bull Unigenitus.",
-    "desc_ja": "聖アウグスチノ修道会の教えに従う教義であるヤンセニスムは、予定説、原罪の深遠かつ永続的な影響、そして厳格な道徳を強調する。における絶対主義の台頭と、の「ウニゲニトゥス勅書」による公式の断罪により、その教義はますます脅威にさらされている。",
-    "icon": "icons/laws/fra_jansenism_legality.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "聖アウグスチノ修道会の教えに従う教義であるヤンセニスムは、予定説、原罪の深遠かつ永続的な影響、そして厳格な道徳を強調する。における絶対主義の台頭と、の「ウニゲニトゥス勅書」による公式の断罪により、その教義はますます脅威にさらされている。"
   },
   {
     "id": "guilds_of_florence",
+    "icon": "icons/laws/guilds_of_florence.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Primacy of Florentine Guilds",
     "name_ja": "フィレンツェのギルドの優位性",
     "desc_en": "The powerful mercantile institutes that make up our social fabric, the merchant guilds are an important proponent of our continued prosperity and affluence. Though all of them are important, it is undeniable that some are better at obtaining power and influence than others.",
-    "desc_ja": "我々の社会構造を構成する強力な商人ギルドは、継続的な繁栄と豊かさを支える重要な支持者だ。どのギルドも重要ではあるが、一部のギルドが大きな権力と影響力を獲得するだろうことは否定できない。",
-    "icon": "icons/laws/guilds_of_florence.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "我々の社会構造を構成する強力な商人ギルドは、継続的な繁栄と豊かさを支える重要な支持者だ。どのギルドも重要ではあるが、一部のギルドが大きな権力と影響力を獲得するだろうことは否定できない。"
   },
   {
     "id": "por_estudo_geral_law",
+    "icon": "icons/laws/por_estudo_geral_law.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Estudo Geral",
     "name_ja": "ストゥディウム・ジェネラーレ",
     "desc_en": "The is a national that aims to educate the citizens of our humble state. Its location and proximity to the capital is a crucial matter to us.",
-    "desc_ja": "は、慎ましきわが国の民を教育することを目的とした国立である。その立地や首都との近接性は、我々にとって極めて重要である。",
-    "icon": "icons/laws/por_estudo_geral_law.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "は、慎ましきわが国の民を教育することを目的とした国立である。その立地や首都との近接性は、我々にとって極めて重要である。"
   },
   {
     "id": "teu_amber_monopoly_law",
+    "icon": "icons/laws/teu_amber_monopoly_law.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "[ShowGoodsNameWithNoTooltip('amber')] Monopoly",
     "name_ja": "[ShowGoodsNameWithNoTooltip('amber')]の独占",
     "desc_en": "is amongst the most prized resources within our state. Its trade is of ample importance and must be regulated carefully.",
-    "desc_ja": "はわが国で最も貴重な資源のひとつである。その取引は極めて重要であり、慎重な管理が求められる。",
-    "icon": "icons/laws/teu_amber_monopoly_law.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "はわが国で最も貴重な資源のひとつである。その取引は極めて重要であり、慎重な管理が求められる。"
   },
   {
     "id": "nav_adaptability",
+    "icon": "icons/laws/nav_adaptability.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Navarrese Adaptability",
     "name_ja": "ナバラの適応性",
     "desc_en": "Being positioned between two larger nations has forced our nation to adapt or die. With a mixture of intelligent alliances and swift military actions, our realm has managed to survive despite its smaller size. This ability to quickly adjust our actions to suit our specific needs is an edge that we should never lose.",
-    "desc_ja": "2つの大国に挟まれているため、わが国は適応するか滅ぶかの選択を迫られている。賢明な同盟と迅速な軍事行動を組み合わせることで、我々は小国ながらも生き残ることができた。必要に応じて素早く行動を調整できるこの能力は、決して失ってはならない強みだ。",
-    "icon": "icons/laws/nav_adaptability.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "2つの大国に挟まれているため、わが国は適応するか滅ぶかの選択を迫られている。賢明な同盟と迅速な軍事行動を組み合わせることで、我々は小国ながらも生き残ることができた。必要に応じて素早く行動を調整できるこの能力は、決して失ってはならない強みだ。"
   },
   {
     "id": "six_ministries_overseer_law",
+    "icon": "icons/laws/six_ministries_overseer_law.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Six Ministries Supervision",
     "name_ja": "六部の監督",
     "desc_en": "The work of the must be supervised by another agency, or perhaps even the monarch.",
-    "desc_ja": "の業務は、別の機関か、おそらく君主の監督下に置く必要がある。",
-    "icon": "icons/laws/six_ministries_overseer_law.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "の業務は、別の機関か、おそらく君主の監督下に置く必要がある。"
   },
   {
     "id": "ashta_pradhan_council_law",
+    "icon": "icons/laws/ashta_pradhan_council_law.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Ashta Pradhan Council",
     "name_ja": "アシュタ・プラダーンの評議会",
     "desc_en": "$mhr_ashta_pradhan_desc$",
-    "desc_ja": "$mhr_ashta_pradhan_desc$",
-    "icon": "icons/laws/ashta_pradhan_council_law.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "$mhr_ashta_pradhan_desc$"
   },
   {
     "id": "kor_currency",
+    "icon": "icons/laws/kor_currency.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Dominant Currency",
     "name_ja": "基軸通貨",
     "desc_en": "A focus on different types of currencies is bound to shape our country in many diverse ways, not just economically, but socially as well.",
-    "desc_ja": "さまざまな種類の通貨に焦点を当てることで、経済面にとどまらず、社会面においても多様な方法で国家を形成できる。",
-    "icon": "icons/laws/kor_currency.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "さまざまな種類の通貨に焦点を当てることで、経済面にとどまらず、社会面においても多様な方法で国家を形成できる。"
   },
   {
     "id": "mesta_council_law",
+    "icon": "icons/laws/mesta_council_law.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Mesta Council",
     "name_ja": "メスタ会議",
     "desc_en": "The Mesta Association together with its council protects the rights and interests of the livestock owners in our country.",
-    "desc_ja": "メスタはその評議会によって、わが国の家畜所有者の権利と利益を保護する。",
-    "icon": "icons/laws/mesta_council_law.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "メスタはその評議会によって、わが国の家畜所有者の権利と利益を保護する。"
   },
   {
     "id": "imperial_examination_law",
+    "icon": "icons/laws/imperial_examination_law.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Examination System",
     "name_ja": "科挙制度",
     "desc_en": "Those wishing to enter the civil service and advance as government officials must take a series of examinations testing their knowledge of Confucian literature and statecraft.",
-    "desc_ja": "公務員となり、政府高官として昇進したい者は、儒教の文学と政治術に関する知識を試される、一連の試験を受けなければならない。",
-    "icon": "icons/laws/imperial_examination_law.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "公務員となり、政府高官として昇進したい者は、儒教の文学と政治術に関する知識を試される、一連の試験を受けなければならない。"
   },
   {
     "id": "status_of_the_han_law",
+    "icon": "icons/laws/status_of_the_han_law.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Status of the Han",
     "name_ja": "漢の地位",
     "desc_en": "Our dynasty originates from outside the core territory of the , making us outsiders to the Han majority.",
-    "desc_ja": "わが王朝はの中心地域の外で興ったため、漢民族の多数派にとってはよそ者である。",
-    "icon": "icons/laws/status_of_the_han_law.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "わが王朝はの中心地域の外で興ったため、漢民族の多数派にとってはよそ者である。"
   },
   {
     "id": "sco_clan_holdings",
+    "icon": "icons/laws/sco_clan_holdings.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Distribution of [GetCountry('SCO').GetAdjectiveWithNoTooltip] Clan Holdings",
     "name_ja": "[GetCountry('SCO').GetAdjectiveWithNoTooltip]の氏族領の分配",
     "desc_en": "The inheritance of holdings is divided proportional to clan influence, with larger clans recieving more holdings. Clan holdings are passed directly to the heir, unless a title is revoked or goes extinct.",
-    "desc_ja": "の領地は氏族の影響力に応じて比例分配され、影響力が大きい氏族ほど多くの領地が与えられる。氏族領は、称号が剥奪されたり途絶えたりしないかぎり、後継者が直接相続する。",
-    "icon": "icons/laws/sco_clan_holdings.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "の領地は氏族の影響力に応じて比例分配され、影響力が大きい氏族ほど多くの領地が与えられる。氏族領は、称号が剥奪されたり途絶えたりしないかぎり、後継者が直接相続する。"
   },
   {
     "id": "sco_authority_over_the_clergy",
+    "icon": "icons/laws/sco_authority_over_the_clergy.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "Authority over the Clergy",
     "name_ja": "聖職者の管轄",
     "desc_en": "contribution to the have become a burden on the state's finances. Seeking to curtail contributions, the state has taken direct jurisdiction over the clergymen.",
-    "desc_ja": "からへの寄付が国家の財政の負担になっている。この負担を減らすため、国家は聖職者をその直接管理下に置いた。",
-    "icon": "icons/laws/sco_authority_over_the_clergy.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "からへの寄付が国家の財政の負担になっている。この負担を減らすため、国家は聖職者をその直接管理下に置いた。"
   },
   {
     "id": "sco_colonial_affairs_law",
+    "icon": "icons/laws/sco_colonial_affairs_law.png",
+    "source_file": "02_country_specific.txt",
     "name_en": "[GetCountry('SCO').GetAdjectiveWithNoTooltip] Colonial Affairs",
     "name_ja": "[GetCountry('SCO').GetAdjectiveWithNoTooltip]の植民地事情",
     "desc_en": "With tales of riches from the new world, stands to reap the benefits should it establish a sizable colonial basis. Although an overambition may prove catastrophic for the state's economic stability.",
-    "desc_ja": "大規模な植民地基盤を確立すれば、は新大陸にあるという豊かな資源の恩恵を享受できる。しかし、過度な野心は国家の経済的安定に破壊的な打撃を与えるおそれがある。",
-    "icon": "icons/laws/sco_colonial_affairs_law.png",
-    "source_file": "02_country_specific.txt"
+    "desc_ja": "大規模な植民地基盤を確立すれば、は新大陸にあるという豊かな資源の恩恵を享受できる。しかし、過度な野心は国家の経済的安定に破壊的な打撃を与えるおそれがある。"
   },
   {
     "id": "distribution_of_power_law",
+    "icon": "icons/laws/distribution_of_power_law.png",
+    "source_file": "02_distribution_of_power.txt",
     "name_en": "Distribution of Power",
     "name_ja": "権力の分配",
     "desc_en": "Distribution of Power determines how authority is divided among the ruler, administrative bodies, and estates. The state is a complex and fragile entity — a well-balanced power distribution ensures stability, while giving any single institution too much power risks breeding tyranny or administrative paralysis.",
-    "desc_ja": "権力の分配は、統治者・行政機関・各階級のあいだで権限をいかに分けるかを定める。国家とは複雑にして脆弱な存在であり、均衡のとれた権力の分配は国家の安定を保障するが、ひとつの機関に過大な力を与えれば、圧制や統治機構の麻痺を生み出す危険がある。",
-    "icon": "icons/laws/distribution_of_power_law.png",
-    "source_file": "02_distribution_of_power.txt"
+    "desc_ja": "権力の分配は、統治者・行政機関・各階級のあいだで権限をいかに分けるかを定める。国家とは複雑にして脆弱な存在であり、均衡のとれた権力の分配は国家の安定を保障するが、ひとつの機関に過大な力を与えれば、圧制や統治機構の麻痺を生み出す危険がある。"
   },
   {
     "id": "nobles_rights_laws",
+    "icon": "icons/laws/nobles_rights_laws.png",
+    "source_file": "03_estate_laws.txt",
     "name_en": "Rights of the $nobles_estate$",
     "name_ja": "$nobles_estate$の権利",
     "desc_en": "The position of the is not only reinforced by their privileges, but also by our laws.",
-    "desc_ja": "の地位は特権だけでなく、わが国の法律によっても強化されている。",
-    "icon": "icons/laws/nobles_rights_laws.png",
-    "source_file": "03_estate_laws.txt"
+    "desc_ja": "の地位は特権だけでなく、わが国の法律によっても強化されている。"
   },
   {
     "id": "burghers_rights_laws",
+    "icon": "icons/laws/burghers_rights_laws.png",
+    "source_file": "03_estate_laws.txt",
     "name_en": "Rights of the $burghers_estate$",
     "name_ja": "$burghers_estate$の権利",
     "desc_en": "The position of the is not only reinforced by their privileges, but also by our laws.",
-    "desc_ja": "の地位は特権だけでなく、わが国の法律によっても強化されている。",
-    "icon": "icons/laws/burghers_rights_laws.png",
-    "source_file": "03_estate_laws.txt"
+    "desc_ja": "の地位は特権だけでなく、わが国の法律によっても強化されている。"
   },
   {
     "id": "clergy_rights_laws",
+    "icon": "icons/laws/clergy_rights_laws.png",
+    "source_file": "03_estate_laws.txt",
     "name_en": "Rights of the $clergy_estate$",
     "name_ja": "$clergy_estate$の権利",
     "desc_en": "The position of the is not only reinforced by their privileges, but also by our laws.",
-    "desc_ja": "の地位は特権だけでなく、わが国の法律によっても強化されている。",
-    "icon": "icons/laws/clergy_rights_laws.png",
-    "source_file": "03_estate_laws.txt"
+    "desc_ja": "の地位は特権だけでなく、わが国の法律によっても強化されている。"
   },
   {
     "id": "crown_rights_laws",
+    "icon": "icons/laws/crown_rights_laws.png",
+    "source_file": "03_estate_laws.txt",
     "name_en": "Rights of the $crown_estate$",
     "name_ja": "$crown_estate$の権利",
     "desc_en": "The position of the is not only reinforced by their privileges, but also by our laws.",
-    "desc_ja": "の地位は特権だけでなく、わが国の法律によっても強化されている。",
-    "icon": "icons/laws/crown_rights_laws.png",
-    "source_file": "03_estate_laws.txt"
+    "desc_ja": "の地位は特権だけでなく、わが国の法律によっても強化されている。"
   },
   {
     "id": "peasants_rights_laws",
+    "icon": "icons/laws/peasants_rights_laws.png",
+    "source_file": "03_estate_laws.txt",
     "name_en": "Rights of the $peasants_estate$",
     "name_ja": "$peasants_estate$の権利",
     "desc_en": "The position of the is not only reinforced by their privileges, but also by our laws.",
-    "desc_ja": "の地位は特権だけでなく、わが国の法律によっても強化されている。",
-    "icon": "icons/laws/peasants_rights_laws.png",
-    "source_file": "03_estate_laws.txt"
+    "desc_ja": "の地位は特権だけでなく、わが国の法律によっても強化されている。"
   },
   {
     "id": "order_of_chivalry_law",
+    "icon": "icons/laws/order_of_chivalry_law.png",
+    "source_file": "04_order_of_chivalry.txt",
     "name_en": "Order of Chivalry",
     "name_ja": "騎士団",
     "desc_en": "Rooted in a blend of religious and courtly traditions, this law embodies a legacy of knights dedicated to ideals and charitable missions. Originally founded to protect pilgrims to the Holy Land and uphold vows of poverty, obedience, and chastity, these orders have transformed over time, honoring distinguished individuals and becoming a prestigious symbol.",
-    "desc_ja": "宗教と宮廷の伝統が融合したこの法律は、の理想と慈善活動に身を捧げた騎士の伝統を体現している。もとは聖地を訪れる巡礼者を保護し、清貧、服従、貞潔の誓いを守るために設立されたこれらの騎士団は、時とともに変化し、著名な個人を称える名誉ある象徴となった。",
-    "icon": "icons/laws/order_of_chivalry_law.png",
-    "source_file": "04_order_of_chivalry.txt"
+    "desc_ja": "宗教と宮廷の伝統が融合したこの法律は、の理想と慈善活動に身を捧げた騎士の伝統を体現している。もとは聖地を訪れる巡礼者を保護し、清貧、服従、貞潔の誓いを守るために設立されたこれらの騎士団は、時とともに変化し、著名な個人を称える名誉ある象徴となった。"
   },
   {
     "id": "witchcraft_act",
+    "icon": "icons/laws/witchcraft_act.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "The Witchcraft Act",
     "name_ja": "魔術に関する法律",
     "desc_en": "If we are to live a life of piety and root out the corruption and evil among us, we must address the growing concerns of many around the existence of witches and the practice of the occult.",
-    "desc_ja": "我々が敬虔な生活を送り、社会から堕落と悪を根絶しようとするならば、魔女の存在や秘術の実践に関して多くの人々が抱く懸念の高まりに対処しなければならない。",
-    "icon": "icons/laws/witchcraft_act.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "我々が敬虔な生活を送り、社会から堕落と悪を根絶しようとするならば、魔女の存在や秘術の実践に関して多くの人々が抱く懸念の高まりに対処しなければならない。"
   },
   {
     "id": "venetian_papal_relation_law",
+    "icon": "icons/laws/venetian_papal_relation_law.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "The Holy Office",
     "name_ja": "検邪聖省",
     "desc_en": "The Holy Office has been requesting greater jurisdiction over religious life in the Most Serene Republic. We must now choose whether to comply with this request, or to defend the religious freedom of our subjects.",
-    "desc_ja": "検邪聖省は、最も高貴なる共和国における宗教生活に対する、より広範な管轄権を要求してきた。この要求に従うか、国民の宗教の自由を守るかは、我々の決断にかかっている。",
-    "icon": "icons/laws/venetian_papal_relation_law.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "検邪聖省は、最も高貴なる共和国における宗教生活に対する、より広範な管轄権を要求してきた。この要求に従うか、国民の宗教の自由を守るかは、我々の決断にかかっている。"
   },
   {
     "id": "hun_frontier_fortresses",
+    "icon": "icons/laws/hun_frontier_fortresses.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "The Frontier Fortresses",
     "name_ja": "国境の要塞",
     "desc_en": "",
-    "desc_ja": "わが国の領土は、多くの好戦的な隣国に囲まれている。国民を守るためには、国境の要塞の整備に力を注ぎ、そのための資金と物資を十分に投入しなければならない。",
-    "icon": "icons/laws/hun_frontier_fortresses.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "わが国の領土は、多くの好戦的な隣国に囲まれている。国民を守るためには、国境の要塞の整備に力を注ぎ、そのための資金と物資を十分に投入しなければならない。"
   },
   {
     "id": "enclosure_movement",
+    "icon": "icons/laws/enclosure_movement.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Enclosure Movement",
     "name_ja": "囲い込み運動",
     "desc_en": "The Enclosure Movement is the process by which formerly communal land is surrounded by walls or fences, and thus transformed into private property.",
-    "desc_ja": "囲い込み運動とは、それまで共有されていた土地を壁や柵で囲い、私有地に変える過程のこと。",
-    "icon": "icons/laws/enclosure_movement.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "囲い込み運動とは、それまで共有されていた土地を壁や柵で囲い、私有地に変える過程のこと。"
   },
   {
     "id": "eng_taxation_law",
+    "icon": "icons/laws/eng_taxation_law.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Taxation",
     "name_ja": "徴税",
     "desc_en": "Stable revenue is key for a functioning government. By implementing a legal taxation framework, we can regulate tax collection from individuals and entities.",
-    "desc_ja": "安定した収入は機能的な政府の鍵だ。法的な課税の枠組みを取り入れることで、個人や団体からの徴税を規制することができる。",
-    "icon": "icons/laws/eng_taxation_law.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "安定した収入は機能的な政府の鍵だ。法的な課税の枠組みを取り入れることで、個人や団体からの徴税を規制することができる。"
   },
   {
     "id": "factory_working_conditions_law",
+    "icon": "icons/laws/factory_working_conditions_law.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Factory Working Conditions",
     "name_ja": "工場の労働条件",
     "desc_en": "The expansion of our manufacturing industry is accelerating industrialization and boosting production capacity. As factory workers become increasingly central to the economy, regulating their rights in order to prevent exploitation becomes vital.",
-    "desc_ja": "わが国の製造業の拡大は産業化を加速させ、生産能力を高めている。工場労働者が経済の中核を占めるようになるにつれ、搾取を防ぐためにもその権利を法的に定めることが重要となる。",
-    "icon": "icons/laws/factory_working_conditions_law.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "わが国の製造業の拡大は産業化を加速させ、生産能力を高めている。工場労働者が経済の中核を占めるようになるにつれ、搾取を防ぐためにもその権利を法的に定めることが重要となる。"
   },
   {
     "id": "trade_unions_law",
+    "icon": "icons/laws/trade_unions_law.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Trade Unions",
     "name_ja": "労働組合",
     "desc_en": "During the early onset of industrialization, trade unions play a crucial role in shaping labor rights and working conditions. These unions negotiate with employers in order to secure better wages, shorter working hours, and safer conditions for their members through collective bargaining.",
-    "desc_ja": "産業化の初期段階では、労働組合が労働者の権利と労働条件の形成に重要な役割を果たす。組合は団体交渉を通じて雇用主と交渉し、組合員の賃金の向上、労働時間の短縮、より安全な労働条件を要求する。",
-    "icon": "icons/laws/trade_unions_law.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "産業化の初期段階では、労働組合が労働者の権利と労働条件の形成に重要な役割を果たす。組合は団体交渉を通じて雇用主と交渉し、組合員の賃金の向上、労働時間の短縮、より安全な労働条件を要求する。"
   },
   {
     "id": "vestiarium",
+    "icon": "icons/laws/vestiarium.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Vestiarium",
     "name_ja": "宝物目録",
     "desc_en": "Establishing and upholding legal regulations for managing state assets is important for efficient resource allocation and controlled spending. It is necessary for administration and helps the ruling authorities make decisions related to a variety of priorities.",
-    "desc_ja": "国有資産の管理に関する法的規制を確立し、維持することは、効率的な資源配分と支出管理にとって重要だ。これは行政に必要であり、統治当局がさまざまな優先事項に関する決定を下すのに役立つ。",
-    "icon": "icons/laws/vestiarium.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "国有資産の管理に関する法的規制を確立し、維持することは、効率的な資源配分と支出管理にとって重要だ。これは行政に必要であり、統治当局がさまざまな優先事項に関する決定を下すのに役立つ。"
   },
   {
     "id": "mch_queue_hair",
+    "icon": "icons/laws/mch_queue_hair.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Tìfāyìfú",
     "name_ja": "剃髪易服",
     "desc_en": "$mch_queue_hair$ shall be regarded as our cultural policy towards the . Amongst the chief requirements shall be for the Hàn to organize their hair in the Biànzi style.",
-    "desc_ja": "$mch_queue_hair$は、人に対する文化政策に位置づけられる。主な要件のひとつとして、漢民族は髪型を弁髪にすることが義務づけられる。",
-    "icon": "icons/laws/mch_queue_hair.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "$mch_queue_hair$は、人に対する文化政策に位置づけられる。主な要件のひとつとして、漢民族は髪型を弁髪にすることが義務づけられる。"
   },
   {
     "id": "monastic_reformation_movement",
+    "icon": "icons/laws/monastic_reformation_movement.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Monastic Reformation Movement",
     "name_ja": "修道改革運動",
     "desc_en": "The Possessors and Non-Possessors have different views on the role of wealth within the Church and its impact on the spiritual life of clergy and followers.",
-    "desc_ja": "所有派と非所有派は、教会内での富の役割とそれが聖職者と信者の精神生活に与える影響について、異なる見解をもっている。",
-    "icon": "icons/laws/monastic_reformation_movement.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "所有派と非所有派は、教会内での富の役割とそれが聖職者と信者の精神生活に与える影響について、異なる見解をもっている。"
   },
   {
     "id": "intellectual_movements",
+    "icon": "icons/laws/intellectual_movements.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Intellectual Movements",
     "name_ja": "知的運動",
     "desc_en": "The ideological perspectives of the nineteenth century divides man to such extent that entire movements emerge, each stemming from the apparent discord among different philosophical, political, and cultural viewpoints.",
-    "desc_ja": "19世紀のイデオロギー観念は人類を分裂させ、哲学的、政治的、文化的視点の明らかな不一致から生じた一連の運動が現れるほどだった。",
-    "icon": "icons/laws/intellectual_movements.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "19世紀のイデオロギー観念は人類を分裂させ、哲学的、政治的、文化的視点の明らかな不一致から生じた一連の運動が現れるほどだった。"
   },
   {
     "id": "dahsala_system",
+    "icon": "icons/laws/dahsala_system.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Dahsala Taxation",
     "name_ja": "ダーサラ税制",
     "desc_en": "Instead of allowing local taxation laws to develop for the common people within $india$, organizing them all within the $dahsala_system$ will allow us to properly tax them.",
-    "desc_ja": "$india$の庶民に対する地方税法が発展するのを許す代わりに、すべてを$dahsala_system$にまとめることで適切に課税できる。",
-    "icon": "icons/laws/dahsala_system.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "$india$の庶民に対する地方税法が発展するのを許す代わりに、すべてを$dahsala_system$にまとめることで適切に課税できる。"
   },
   {
     "id": "hab_military_frontier",
+    "icon": "icons/laws/hab_military_frontier.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Military Frontier",
     "name_ja": "軍事的国境",
     "desc_en": "We have established a military frontier to protect the nation from heathen hordes that are encroaching upon our borders.",
-    "desc_ja": "我々は国境を侵す異教徒たちから国家を守るため、軍事的国境を定めた。",
-    "icon": "icons/laws/hab_military_frontier.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "我々は国境を侵す異教徒たちから国家を守るため、軍事的国境を定めた。"
   },
   {
     "id": "ira_alcohol_ban",
+    "icon": "icons/laws/ira_alcohol_ban.png",
+    "source_file": "10_reforms_from_events.txt",
     "name_en": "Alcohol Restrictions",
     "name_ja": "酒類制限",
     "desc_en": "In order to balance out the religious duties of the servants of our faith, and the desires of our people, we must decide if the consumption alcohol is allowed or not.",
-    "desc_ja": "信仰の奉仕者の宗教的義務と、民の欲求との均衡を図るため、我々は酒類の消費を認めるか否かを決定しなければならない。",
-    "icon": "icons/laws/ira_alcohol_ban.png",
-    "source_file": "10_reforms_from_events.txt"
+    "desc_ja": "信仰の奉仕者の宗教的義務と、民の欲求との均衡を図るため、我々は酒類の消費を認めるか否かを決定しなければならない。"
   },
   {
     "id": "golden_bull",
+    "icon": "icons/laws/golden_bull.png",
+    "source_file": "20_hre.txt",
     "name_en": "Golden Bull",
     "name_ja": "金印勅書",
     "desc_en": "The $golden_bull$ is the decree of the which defines and creates the constitutional structure of the Empire, especially the Electoral College. Other laws and Imperial Reforms all build on the $golden_bull$.",
-    "desc_ja": "$golden_bull$は、帝国、とりわけ選挙人団の憲法構造を定義および作成するの布告である。ほかの法律と帝国改革は、すべて$golden_bull$に基づいて実行される。",
-    "icon": "icons/laws/golden_bull.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "$golden_bull$は、帝国、とりわけ選挙人団の憲法構造を定義および作成するの布告である。ほかの法律と帝国改革は、すべて$golden_bull$に基づいて実行される。"
   },
   {
     "id": "monetary_contribution",
+    "icon": "icons/laws/monetary_contribution.png",
+    "source_file": "20_hre.txt",
     "name_en": "Imperial Tax Law",
     "name_ja": "帝国税法",
     "desc_en": "The requires gold to function like any other political entity. A series of tax laws can be applied to siphon gold from the members to ensure financial stability of the Empire.",
-    "desc_ja": "もほかの政治的実体と同様、機能するためには金を必要とする。帝国の財政を安定させるために、一連の税法を適用してメンバーからダカットを徴収することができる。",
-    "icon": "icons/laws/monetary_contribution.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "もほかの政治的実体と同様、機能するためには金を必要とする。帝国の財政を安定させるために、一連の税法を適用してメンバーからダカットを徴収することができる。"
   },
   {
     "id": "military_contribution",
+    "icon": "icons/laws/military_contribution.png",
+    "source_file": "20_hre.txt",
     "name_en": "Imperial Register",
     "name_ja": "帝国登録簿",
     "desc_en": "The $military_contribution$ is a list that specifies the exact number of troops each estate must supply to the .",
-    "desc_ja": "$military_contribution$は、帝国諸邦がに提供しなければならない兵力の正確な数を定めた一覧である。",
-    "icon": "icons/laws/military_contribution.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "$military_contribution$は、帝国諸邦がに提供しなければならない兵力の正確な数を定めた一覧である。"
   },
   {
     "id": "imperial_religion",
+    "icon": "icons/laws/imperial_religion.png",
+    "source_file": "20_hre.txt",
     "name_en": "Imperial Religion",
     "name_ja": "帝国の宗教",
     "desc_en": "The very foundations of the are built on religious beliefs.",
-    "desc_ja": "の基盤は宗教的信念に基づく。",
-    "icon": "icons/laws/imperial_religion.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "の基盤は宗教的信念に基づく。"
   },
   {
     "id": "electorate_religion_law",
+    "icon": "icons/laws/electorate_religion_law.png",
+    "source_file": "20_hre.txt",
     "name_en": "Electorate Religious Law",
     "name_ja": "選帝侯の宗教に関する法律",
     "desc_en": "Religion is a major pillar of the for Emperors and alike.",
-    "desc_ja": "宗教は皇帝にとってもにとってもの主要な柱である。",
-    "icon": "icons/laws/electorate_religion_law.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "宗教は皇帝にとってもにとってもの主要な柱である。"
   },
   {
     "id": "imperial_succession_law",
+    "icon": "icons/laws/imperial_succession_law.png",
+    "source_file": "20_hre.txt",
     "name_en": "Imperial Succession",
     "name_ja": "皇位継承",
     "desc_en": "The succession of the is a delicate matter. The right of succession to the Imperial Throne is prescribed in the Imperial Laws.",
-    "desc_ja": "の継承は繊細な問題だ。皇位継承権は帝国の法律に規定されている。",
-    "icon": "icons/laws/imperial_succession_law.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "の継承は繊細な問題だ。皇位継承権は帝国の法律に規定されている。"
   },
   {
     "id": "imperial_voting_law",
+    "icon": "icons/laws/imperial_voting_law.png",
+    "source_file": "20_hre.txt",
     "name_en": "Imperial Voting",
     "name_ja": "皇帝の選挙",
     "desc_en": "The is built upon the principle of Imperial election. The nature of that election defines the balance of power in the Empire.",
-    "desc_ja": "は皇帝の選挙の原則に基づいており、その選挙の性質が帝国における権力の均衡を決定する。",
-    "icon": "icons/laws/imperial_voting_law.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "は皇帝の選挙の原則に基づいており、その選挙の性質が帝国における権力の均衡を決定する。"
   },
   {
     "id": "electorate_organization_law",
+    "icon": "icons/laws/electorate_organization_law.png",
+    "source_file": "20_hre.txt",
     "name_en": "Electorate Organization",
     "name_ja": "選挙組織",
     "desc_en": "The are a group of powerful and who have the privilege to vote for their next .",
-    "desc_ja": "とは、次期を選出する権利をもつ有力なとの集団である。",
-    "icon": "icons/laws/electorate_organization_law.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "とは、次期を選出する権利をもつ有力なとの集団である。"
   },
   {
     "id": "free_city_law",
+    "icon": "icons/laws/free_city_law.png",
+    "source_file": "20_hre.txt",
     "name_en": "Free Cities",
     "name_ja": "自由都市",
     "desc_en": "The Free Cities of the are self-ruling cities with autonomy. They are usually where Imperial Diet meetings are held.",
-    "desc_ja": "の自由都市は自治権をもつ自治都市であり、通常は帝国議会が開催される場所となる。",
-    "icon": "icons/laws/free_city_law.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "の自由都市は自治権をもつ自治都市であり、通常は帝国議会が開催される場所となる。"
   },
   {
     "id": "free_city_rights_law",
+    "icon": "icons/laws/free_city_rights_law.png",
+    "source_file": "20_hre.txt",
     "name_en": "Free City Rights",
     "name_ja": "自由都市の特権",
     "desc_en": "Obtaining the status of a is not easy. This exclusive title must be conferred by the .",
-    "desc_ja": "の地位を得ることは容易ではない。この特別な称号は、から直々に授けられる。",
-    "icon": "icons/laws/free_city_rights_law.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "の地位を得ることは容易ではない。この特別な称号は、から直々に授けられる。"
   },
   {
     "id": "landfriede_law",
+    "icon": "icons/laws/landfriede_law.png",
+    "source_file": "20_hre.txt",
     "name_en": "Landfriede",
     "name_ja": "ラント平和令",
     "desc_en": "The Landfriede, or 'land peace,' is a decree which dictates that disputes between members of the must be settled in the Imperial Court rather than on the battlefield. This mandate helps us stay cohesive as an empire, rather than becoming weak through petty in-fighting.",
-    "desc_ja": "ラント平和令は、のメンバー間の紛争は戦場ではなく帝国法廷で解決されるべし、と定めた法令である。この布告によって我々は、些細な内紛によって弱体化することなく、ひとつの帝国としての結束を保てるのだ。",
-    "icon": "icons/laws/landfriede_law.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "ラント平和令は、のメンバー間の紛争は戦場ではなく帝国法廷で解決されるべし、と定めた法令である。この布告によって我々は、些細な内紛によって弱体化することなく、ひとつの帝国としての結束を保てるのだ。"
   },
   {
     "id": "imperial_diet_law",
+    "icon": "icons/laws/imperial_diet_law.png",
+    "source_file": "20_hre.txt",
     "name_en": "Imperial Diet",
     "name_ja": "帝国議会",
     "desc_en": "The is an ancient system, and therefore many of its stipulations and procedures are very outdated. It is time to rework it and establish a proper that better protects the diverse interests of all members of the .",
-    "desc_ja": "は古い制度であり、その規定や手続きの多くは著しく時代遅れとなっている。いまこそこれを改め、の諸邦の利益をより的確に守る「」を制定すべきである。",
-    "icon": "icons/laws/imperial_diet_law.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "は古い制度であり、その規定や手続きの多くは著しく時代遅れとなっている。いまこそこれを改め、の諸邦の利益をより的確に守る「」を制定すべきである。"
   },
   {
     "id": "perpetual_diet_law",
+    "icon": "icons/laws/perpetual_diet_law.png",
+    "source_file": "20_hre.txt",
     "name_en": "Perpetual Diet",
     "name_ja": "常設帝国議会",
     "desc_en": "Previously, Imperial Diets convened irregularly in various cities across the , requiring the and other representatives to travel each time. By establishing a permanent, continuously-sitting Diet, we shall create a standing assembly that operates on a system of constant deliberation, rather than sporadic meetings.",
-    "desc_ja": "従来、帝国議会は各地の都市で不定期に開かれており、そのたびにと代表者たちは移動を強いられていた。恒久的かつ継続的に開かれる帝国議会を設けることで、散発的な審議ではなく、不断の審議に基づいて運営される常設の議会を築くのである。",
-    "icon": "icons/laws/perpetual_diet_law.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "従来、帝国議会は各地の都市で不定期に開かれており、そのたびにと代表者たちは移動を強いられていた。恒久的かつ継続的に開かれる帝国議会を設けることで、散発的な審議ではなく、不断の審議に基づいて運営される常設の議会を築くのである。"
   },
   {
     "id": "power_of_the_emperor_law",
+    "icon": "icons/laws/power_of_the_emperor_law.png",
+    "source_file": "20_hre.txt",
     "name_en": "Power of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]",
     "name_ja": "[GetUniqueInternationalOrganization('hre').GetLeaderTitle]の権力",
     "desc_en": "The Power of the is a complicated topic. Members of the and alike have conflicting interests with those of the , yet they recognize that a powerless is in no position to protect the Empire.",
-    "desc_ja": "の権力は、複雑な問題である。のメンバーもも、その利害はしばしばの利害と対立するが、無力なには帝国を守ることができないことも、彼らはよくわきまえている。",
-    "icon": "icons/laws/power_of_the_emperor_law.png",
-    "source_file": "20_hre.txt"
+    "desc_ja": "の権力は、複雑な問題である。のメンバーもも、その利害はしばしばの利害と対立するが、無力なには帝国を守ることができないことも、彼らはよくわきまえている。"
   },
   {
     "id": "civil_registration",
+    "icon": "icons/laws/civil_registration.png",
+    "source_file": "20_middle_kingdom.txt",
     "name_en": "Civil Registration",
     "name_ja": "戸籍制度",
     "desc_en": "A system aimed at keeping track of all our subjects within our realm as a step towards improving the quality of life for all under our banner.",
-    "desc_ja": "我々の旗のもとに集う人々の生活水準を向上させるために、領土内のすべての国民を把握することを目的とした制度。",
-    "icon": "icons/laws/civil_registration.png",
-    "source_file": "20_middle_kingdom.txt"
+    "desc_ja": "我々の旗のもとに集う人々の生活水準を向上させるために、領土内のすべての国民を把握することを目的とした制度。"
   },
   {
     "id": "tax_base_system",
+    "icon": "icons/laws/tax_base_system.png",
+    "source_file": "20_middle_kingdom.txt",
     "name_en": "Tax Base System",
     "name_ja": "税基盤制度",
     "desc_en": "Taxation is the basis of any country's economy. By establishing a proper taxation system throughout the , we can more effectively reap the wealth of our territories.",
-    "desc_ja": "課税はあらゆる国の経済の基盤である。全域で適切な税制を運用することで、わが領土からより効率的に富を取り立てられるようになる。",
-    "icon": "icons/laws/tax_base_system.png",
-    "source_file": "20_middle_kingdom.txt"
+    "desc_ja": "課税はあらゆる国の経済の基盤である。全域で適切な税制を運用することで、わが領土からより効率的に富を取り立てられるようになる。"
   },
   {
     "id": "provincial_governorship",
+    "icon": "icons/laws/provincial_governorship.png",
+    "source_file": "20_middle_kingdom.txt",
     "name_en": "Provincial Governorship",
     "name_ja": "州総督制",
     "desc_en": "The vastness of the is unparalleled. In order to effectively rule our massive holdings, we shall establish a system of provincial administrators.",
-    "desc_ja": "の広大さは他に類を見ない。この巨大な領土を効果的に統治するため、我々は地方行政官の制度を設けることとする。",
-    "icon": "icons/laws/provincial_governorship.png",
-    "source_file": "20_middle_kingdom.txt"
+    "desc_ja": "の広大さは他に類を見ない。この巨大な領土を効果的に統治するため、我々は地方行政官の制度を設けることとする。"
   },
   {
     "id": "cefeng_tizhi",
+    "icon": "icons/laws/cefeng_tizhi.png",
+    "source_file": "20_middle_kingdom.txt",
     "name_en": "Cèfēng Tǐzhì",
     "name_ja": "冊封体制",
     "desc_en": "The tributary system has been present in the since its inception, as all nations around it dutifully recognize the authority of the .",
-    "desc_ja": "には建国以来、朝貢体制が存在してきた。周辺諸国は、の権威を忠実に認めてきたのだ。",
-    "icon": "icons/laws/cefeng_tizhi.png",
-    "source_file": "20_middle_kingdom.txt"
+    "desc_ja": "には建国以来、朝貢体制が存在してきた。周辺諸国は、の権威を忠実に認めてきたのだ。"
   },
   {
     "id": "keju_examination",
+    "icon": "icons/laws/keju_examination.png",
+    "source_file": "20_middle_kingdom.txt",
     "name_en": "Kējǔ Examination",
     "name_ja": "科挙",
     "desc_en": "The Imperial Examination system aims to identify the best and most educated candidates to serve in our bureaucracy. This will ensure that only the brightest minds in our nation are the ones turning the wheels of the administration, and thus that they turn smoothly.",
-    "desc_ja": "科挙制度は、官僚機構に仕えるべき教養のある最高の人材を選抜することを目的としている。これにより、わが国でも特に優秀な人材が行政の歯車を動かし、円滑な運営が保証されることとなる。",
-    "icon": "icons/laws/keju_examination.png",
-    "source_file": "20_middle_kingdom.txt"
+    "desc_ja": "科挙制度は、官僚機構に仕えるべき教養のある最高の人材を選抜することを目的としている。これにより、わが国でも特に優秀な人材が行政の歯車を動かし、円滑な運営が保証されることとなる。"
   },
   {
     "id": "outwards_view",
+    "icon": "icons/laws/outwards_view.png",
+    "source_file": "20_middle_kingdom.txt",
     "name_en": "Outwards View",
     "name_ja": "対外展望",
     "desc_en": "The has been expanding its power outwards since its inception, but external threats mean we require a certain degree of caution about who is able to enter its borders.",
-    "desc_ja": "は建国以来、勢力を外へと拡大してきたが、外部からの脅威もあり、国境を越えてくる者に対しても一定の注意が必要となる。",
-    "icon": "icons/laws/outwards_view.png",
-    "source_file": "20_middle_kingdom.txt"
+    "desc_ja": "は建国以来、勢力を外へと拡大してきたが、外部からの脅威もあり、国境を越えてくる者に対しても一定の注意が必要となる。"
   },
   {
     "id": "tianxia",
+    "icon": "icons/laws/tianxia.png",
+    "source_file": "20_middle_kingdom.txt",
     "name_en": "Tiānxià",
     "name_ja": "天下",
     "desc_en": "The concepts of our territorial influence and expansion are guaranteed by our right to rule, which is granted by Heaven itself.",
-    "desc_ja": "我々の地域的な影響力と拡大の概念は、天から与えられた統治権によって保証されている。",
-    "icon": "icons/laws/tianxia.png",
-    "source_file": "20_middle_kingdom.txt"
+    "desc_ja": "我々の地域的な影響力と拡大の概念は、天から与えられた統治権によって保証されている。"
   },
   {
     "id": "jakun_gusa",
+    "icon": "icons/laws/jakun_gusa.png",
+    "source_file": "20_middle_kingdom.txt",
     "name_en": "Jakūn Gūsa",
     "name_ja": "八旗",
     "desc_en": "Serving mainly as our military, the Eight Banners system also function as the basis of the organization of society in the . Their role should be clearly defined, so that they do not lose their focus.",
-    "desc_ja": "主に軍事組織として機能する八旗制度は、の社会組織の基盤でもある。その役割を明確に定め、彼らが本来の任務を見失わないようにすべきである。",
-    "icon": "icons/laws/jakun_gusa.png",
-    "source_file": "20_middle_kingdom.txt"
+    "desc_ja": "主に軍事組織として機能する八旗制度は、の社会組織の基盤でもある。その役割を明確に定め、彼らが本来の任務を見失わないようにすべきである。"
   },
   {
     "id": "six_ministries",
+    "icon": "icons/laws/six_ministries.png",
+    "source_file": "20_middle_kingdom.txt",
     "name_en": "Six Ministries",
     "name_ja": "六部",
     "desc_en": "The $six_ministries$ are the distinct administrative divisions of the , each one with its own tasks and duties.",
-    "desc_ja": "$six_ministries$はの明確に区分された行政部門であり、それぞれ固有の任務と職責をもつ。",
-    "icon": "icons/laws/six_ministries.png",
-    "source_file": "20_middle_kingdom.txt"
+    "desc_ja": "$six_ministries$はの明確に区分された行政部門であり、それぞれ固有の任務と職責をもつ。"
   },
   {
     "id": "middle_kingdom_decrees",
+    "icon": "icons/laws/middle_kingdom_decrees.png",
+    "source_file": "20_middle_kingdom.txt",
     "name_en": "$middle_kingdom$",
     "name_ja": "$middle_kingdom$",
     "desc_en": "Imperial decrees are the key to the well functioning of the , ensuring that the authority of the gets enforced throughout.",
-    "desc_ja": "皇帝の勅令は、の円滑な運営の要であり、の権威が全土に行き渡ることを保証するものである。",
-    "icon": "icons/laws/middle_kingdom_decrees.png",
-    "source_file": "20_middle_kingdom.txt"
+    "desc_ja": "皇帝の勅令は、の円滑な運営の要であり、の権威が全土に行き渡ることを保証するものである。"
   },
   {
     "id": "clan_residence",
+    "icon": "icons/laws/clan_residence.png",
+    "source_file": "20_shogunate.txt",
     "name_en": "Clan Residence",
     "name_ja": "氏族の居住地",
     "desc_en": "There should be clear laws defining where the leaders of the different clans must reside, to properly keep the balance of power.",
-    "desc_ja": "権力の均衡を適切に保つためには、さまざまな氏族の指導者がどこに住むべきかを定める明確な法が必要である。",
-    "icon": "icons/laws/clan_residence.png",
-    "source_file": "20_shogunate.txt"
+    "desc_ja": "権力の均衡を適切に保つためには、さまざまな氏族の指導者がどこに住むべきかを定める明確な法が必要である。"
   },
   {
     "id": "jap_sakoku_law",
+    "icon": "icons/laws/jap_sakoku_law.png",
+    "source_file": "20_shogunate.txt",
     "name_en": "Overseas Interaction",
     "name_ja": "他国との交流",
     "desc_en": "$japan_region$ has always had the luxury of being separated from other countries by the sea. This distance makes closing our borders to the outside world very easy.",
-    "desc_ja": "$japan_region$は昔から、海によって他国と隔てられているという恵まれた環境にある。海は広大であるがゆえに、外の世界に対して国境を閉ざすことは非常に容易なのである。",
-    "icon": "icons/laws/jap_sakoku_law.png",
-    "source_file": "20_shogunate.txt"
+    "desc_ja": "$japan_region$は昔から、海によって他国と隔てられているという恵まれた環境にある。海は広大であるがゆえに、外の世界に対して国境を閉ざすことは非常に容易なのである。"
   },
   {
     "id": "jap_buke_shohatto",
+    "icon": "icons/laws/jap_buke_shohatto.png",
+    "source_file": "20_shogunate.txt",
     "name_en": "Buke Shohatto",
     "name_ja": "武家諸法度",
     "desc_en": "A series of edicts defining the proper behavior of the samurai. They are designed to inspire the samurai to improve themselves.",
-    "desc_ja": "武士のあるべき振る舞い定めた一連の布告であり、武士にいっそうの精進を促すことを意図している。",
-    "icon": "icons/laws/jap_buke_shohatto.png",
-    "source_file": "20_shogunate.txt"
+    "desc_ja": "武士のあるべき振る舞い定めた一連の布告であり、武士にいっそうの精進を促すことを意図している。"
   },
   {
     "id": "local_administration",
+    "icon": "icons/laws/local_administration.png",
+    "source_file": "21_jurchen_confederation.txt",
     "name_en": "local_administration",
     "name_ja": "local_administration",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/local_administration.png",
-    "source_file": "21_jurchen_confederation.txt"
+    "desc_ja": ""
   },
   {
     "id": "tax_obligations",
+    "icon": "icons/laws/tax_obligations.png",
+    "source_file": "21_jurchen_confederation.txt",
     "name_en": "tax_obligations",
     "name_ja": "tax_obligations",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/tax_obligations.png",
-    "source_file": "21_jurchen_confederation.txt"
+    "desc_ja": ""
   },
   {
     "id": "court_etiquette",
+    "icon": "icons/laws/court_etiquette.png",
+    "source_file": "21_jurchen_confederation.txt",
     "name_en": "court_etiquette",
     "name_ja": "court_etiquette",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/court_etiquette.png",
-    "source_file": "21_jurchen_confederation.txt"
+    "desc_ja": ""
   },
   {
     "id": "formal_script",
+    "icon": "icons/laws/formal_script.png",
+    "source_file": "21_jurchen_confederation.txt",
     "name_en": "formal_script",
     "name_ja": "formal_script",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/formal_script.png",
-    "source_file": "21_jurchen_confederation.txt"
+    "desc_ja": ""
   },
   {
     "id": "legal_framework",
+    "icon": "icons/laws/legal_framework.png",
+    "source_file": "21_jurchen_confederation.txt",
     "name_en": "legal_framework",
     "name_ja": "legal_framework",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/legal_framework.png",
-    "source_file": "21_jurchen_confederation.txt"
+    "desc_ja": ""
   },
   {
     "id": "economic_framework",
+    "icon": "icons/laws/economic_framework.png",
+    "source_file": "21_jurchen_confederation.txt",
     "name_en": "economic_framework",
     "name_ja": "economic_framework",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/economic_framework.png",
-    "source_file": "21_jurchen_confederation.txt"
+    "desc_ja": ""
   },
   {
     "id": "trade_relations",
+    "icon": "icons/laws/trade_relations.png",
+    "source_file": "21_jurchen_confederation.txt",
     "name_en": "trade_relations",
     "name_ja": "trade_relations",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/trade_relations.png",
-    "source_file": "21_jurchen_confederation.txt"
+    "desc_ja": ""
   },
   {
     "id": "clan_diplomacy",
+    "icon": "icons/laws/clan_diplomacy.png",
+    "source_file": "21_jurchen_confederation.txt",
     "name_en": "clan_diplomacy",
     "name_ja": "clan_diplomacy",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/clan_diplomacy.png",
-    "source_file": "21_jurchen_confederation.txt"
+    "desc_ja": ""
   },
   {
     "id": "unification_law",
+    "icon": "icons/laws/unification_law.png",
+    "source_file": "21_jurchen_confederation.txt",
     "name_en": "unification_law",
     "name_ja": "unification_law",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/unification_law.png",
-    "source_file": "21_jurchen_confederation.txt"
+    "desc_ja": ""
   },
   {
     "id": "sc_policy_proposal_frequency",
+    "icon": "icons/laws/sc_policy_proposal_frequency.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "Policy Proposal Frequency",
     "name_ja": "ポリシー提案の頻度",
     "desc_en": "A law regulating the administration of law proposals within the .",
-    "desc_ja": "の法案の管理について定めた法律。",
-    "icon": "icons/laws/sc_policy_proposal_frequency.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "の法案の管理について定めた法律。"
   },
   {
     "id": "sc_representative",
+    "icon": "icons/laws/sc_representative.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "[ShowCultureGroupNameWithNoTooltip('swiss_group')] Representative",
     "name_ja": "[ShowCultureGroupNameWithNoTooltip('swiss_group')]の代表",
     "desc_en": "Every kind of organization will require a spokesman - a representative - who shall be the face to the political entities inside and outside of the organization. The might pose an exception to this rule though...",
-    "desc_ja": "どのような組織にも、組織内外の政治機関に対して組織の「顔」を務める者、つまり代表者が必要である。ただし、にはこの法則は当てはまらないかもしれない……",
-    "icon": "icons/laws/sc_representative.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "どのような組織にも、組織内外の政治機関に対して組織の「顔」を務める者、つまり代表者が必要である。ただし、にはこの法則は当てはまらないかもしれない……"
   },
   {
     "id": "sc_power_of_the_sovereign",
+    "icon": "icons/laws/sc_power_of_the_sovereign.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power",
     "name_ja": "[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle]の権限",
     "desc_en": "The representative of the Confederation could request for more power and influence within the union in order to strengthen their position on the public stage.",
-    "desc_ja": "連邦の代表は、公の場での立場を強化するために、連邦における自らの権限や影響力の強化を求めることができる。",
-    "icon": "icons/laws/sc_power_of_the_sovereign.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "連邦の代表は、公の場での立場を強化するために、連邦における自らの権限や影響力の強化を求めることができる。"
   },
   {
     "id": "sc_election_method",
+    "icon": "icons/laws/sc_election_method.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "Election Method",
     "name_ja": "選出方法",
     "desc_en": "The process of electing the of the is a delicate matter which requires an exact legislature to be handled properly.",
-    "desc_ja": "のを選出する手順は、非常に繊細な問題である。そのため、適切に実施するには厳正な議会が必要となる。",
-    "icon": "icons/laws/sc_election_method.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "のを選出する手順は、非常に繊細な問題である。そのため、適切に実施するには厳正な議会が必要となる。"
   },
   {
     "id": "sc_ruling_period",
+    "icon": "icons/laws/sc_ruling_period.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "Ruling Period",
     "name_ja": "就任期間",
     "desc_en": "The Confederation might have a representing it. Yet, it must be determined if said shall serve the union lifelong or until a certain time has passed.",
-    "desc_ja": "連邦を代表するがいる場合、このが永続的にリーダーを務めるのか、任期があるのかを決める必要がある。",
-    "icon": "icons/laws/sc_ruling_period.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "連邦を代表するがいる場合、このが永続的にリーダーを務めるのか、任期があるのかを決める必要がある。"
   },
   {
     "id": "sc_election_frequency",
+    "icon": "icons/laws/sc_election_frequency.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "Election Frequency",
     "name_ja": "選挙の頻度",
     "desc_en": "As the matters of the are cleared, a new topic arises which handles the frequency of the elections of a new .",
-    "desc_ja": "の問題が解決すると、次は新しいを選出する頻度を決める必要がある。",
-    "icon": "icons/laws/sc_election_frequency.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "の問題が解決すると、次は新しいを選出する頻度を決める必要がある。"
   },
   {
     "id": "sc_internal_politics",
+    "icon": "icons/laws/sc_internal_politics.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "Internal Politics",
     "name_ja": "連邦内の政策",
     "desc_en": "While the is first and foremost a union for defensive purposes, it is clear that the internal affairs of the Confederation must be handled too.",
-    "desc_ja": "は何よりもまず防衛を目的とした連合だが、当然、連邦内の問題にも対処しなければならない。",
-    "icon": "icons/laws/sc_internal_politics.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "は何よりもまず防衛を目的とした連合だが、当然、連邦内の問題にも対処しなければならない。"
   },
   {
     "id": "sc_membership_regulation",
+    "icon": "icons/laws/sc_membership_regulation.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "Membership Regulation",
     "name_ja": "加盟規則",
     "desc_en": "The is an organization originally made by the people to defend themselves against the growing influence of the in the local region. However, the rules who can join are never set in stone...",
-    "desc_ja": "は、地域におけるの勢力拡大に対抗するために人によって設立された組織である。しかし、加盟資格に関する規則は明確には定められていない……",
-    "icon": "icons/laws/sc_membership_regulation.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "は、地域におけるの勢力拡大に対抗するために人によって設立された組織である。しかし、加盟資格に関する規則は明確には定められていない……"
   },
   {
     "id": "sc_war_politics",
+    "icon": "icons/laws/sc_war_politics.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "War Politics",
     "name_ja": "戦争に関する政策",
     "desc_en": "The external threats of the are many. Unified terms of how the defend each other are needed if the Confederation is to survive the political anarchy around it.",
-    "desc_ja": "は数多くの外的脅威にさらされている。連邦が政治的混乱のなかで生き残るには、内の相互防衛について統一された方針を定める必要がある。",
-    "icon": "icons/laws/sc_war_politics.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "は数多くの外的脅威にさらされている。連邦が政治的混乱のなかで生き残るには、内の相互防衛について統一された方針を定める必要がある。"
   },
   {
     "id": "sc_religious_affairs",
+    "icon": "icons/laws/sc_religious_affairs.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "Religious Affairs",
     "name_ja": "宗教の問題",
     "desc_en": "With the breakout of the , the religious unity of the Confederation is a precarious situation. A solution must be found or else the conflict of faith threatens to tear the union apart.",
-    "desc_ja": "の勃発により、連邦の宗教的な結束が揺らいでいる。解決策を見つけなければ、信仰の対立によって連合が分裂するおそれがある。",
-    "icon": "icons/laws/sc_religious_affairs.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "の勃発により、連邦の宗教的な結束が揺らいでいる。解決策を見つけなければ、信仰の対立によって連合が分裂するおそれがある。"
   },
   {
     "id": "sc_relations_with_hre",
+    "icon": "icons/laws/sc_relations_with_hre.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "Imperial Relations",
     "name_ja": "帝国との関係",
     "desc_en": "The has been part of the since its inception. However, the left a bitter taste for many members of the Confederation...",
-    "desc_ja": "は設立当初からの一部である。しかしは、多くの連邦メンバーに苦い思い出を残した……",
-    "icon": "icons/laws/sc_relations_with_hre.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "は設立当初からの一部である。しかしは、多くの連邦メンバーに苦い思い出を残した……"
   },
   {
     "id": "sc_unification",
+    "icon": "icons/laws/sc_unification.png",
+    "source_file": "22_swiss_confederation.txt",
     "name_en": "$SWI_ADJ$ Unification",
     "name_ja": "$SWI_ADJ$の団結",
     "desc_en": "The lands have been splintered for far too long. If the people of the Alps wish to see prosperity and security, they have to unite under a single banner.",
-    "desc_ja": "の土地は、長いあいだ分裂状態にある。アルプスの人々は、繁栄と安全を望むのであればひとつの旗のもとに団結しなければならない。",
-    "icon": "icons/laws/sc_unification.png",
-    "source_file": "22_swiss_confederation.txt"
+    "desc_ja": "の土地は、長いあいだ分裂状態にある。アルプスの人々は、繁栄と安全を望むのであればひとつの旗のもとに団結しなければならない。"
   },
   {
     "id": "lordship_of_ireland_rule_law",
+    "icon": "icons/laws/lordship_of_ireland_rule_law.png",
+    "source_file": "23_lordship_of_ireland.txt",
     "name_en": "Rule of Ireland",
     "name_ja": "アイルランドの統治",
     "desc_en": "The shape of rule in Ireland can be as wild as the great Atlantic crashing against the craggy cliffs, or as steadfast as the bogs.",
-    "desc_ja": "アイルランドの統治は、岩がちな崖に打ちつける大西洋の荒波のように猛々しくも、沼地のように不動のものにもなりうる。",
-    "icon": "icons/laws/lordship_of_ireland_rule_law.png",
-    "source_file": "23_lordship_of_ireland.txt"
+    "desc_ja": "アイルランドの統治は、岩がちな崖に打ちつける大西洋の荒波のように猛々しくも、沼地のように不動のものにもなりうる。"
   },
   {
     "id": "colonial_federation_unification",
+    "icon": "icons/laws/colonial_federation_unification.png",
+    "source_file": "24_colonial_federation.txt",
     "name_en": "Unification of the $colonial_federation$",
     "name_ja": "$colonial_federation$の統合",
     "desc_en": "With bonds forged in the fires of our struggle for independence, it is time to consider the unification of the loosly bound lands of our members.",
-    "desc_ja": "独立のための闘いのなかで結ばれた絆を胸に、我らは構成国の緩やかに結ばれた土地の統一を考える時が来た。",
-    "icon": "icons/laws/colonial_federation_unification.png",
-    "source_file": "24_colonial_federation.txt"
+    "desc_ja": "独立のための闘いのなかで結ばれた絆を胸に、我らは構成国の緩やかに結ばれた土地の統一を考える時が来た。"
   },
   {
     "id": "hindu_branch_spec",
+    "icon": "icons/laws/hindu_branch_spec.png",
+    "source_file": "30_hindu.txt",
     "name_en": "hindu_branch_spec",
     "name_ja": "hindu_branch_spec",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/hindu_branch_spec.png",
-    "source_file": "30_hindu.txt"
+    "desc_ja": ""
   },
   {
     "id": "cc_indulgences",
+    "icon": "icons/laws/cc_indulgences.png",
+    "source_file": "31_catholic_church.txt",
     "name_en": "cc_indulgences",
     "name_ja": "cc_indulgences",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/cc_indulgences.png",
-    "source_file": "31_catholic_church.txt"
+    "desc_ja": ""
   },
   {
     "id": "cc_papal_authority",
+    "icon": "icons/laws/cc_papal_authority.png",
+    "source_file": "31_catholic_church.txt",
     "name_en": "cc_papal_authority",
     "name_ja": "cc_papal_authority",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/cc_papal_authority.png",
-    "source_file": "31_catholic_church.txt"
+    "desc_ja": ""
   },
   {
     "id": "cc_veneration_of_saints_and_reliquaries",
+    "icon": "icons/laws/cc_veneration_of_saints_and_reliquaries.png",
+    "source_file": "31_catholic_church.txt",
     "name_en": "cc_veneration_of_saints_and_reliquaries",
     "name_ja": "cc_veneration_of_saints_and_reliquaries",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/cc_veneration_of_saints_and_reliquaries.png",
-    "source_file": "31_catholic_church.txt"
+    "desc_ja": ""
   },
   {
     "id": "cc_simony",
+    "icon": "icons/laws/cc_simony.png",
+    "source_file": "31_catholic_church.txt",
     "name_en": "cc_simony",
     "name_ja": "cc_simony",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/cc_simony.png",
-    "source_file": "31_catholic_church.txt"
+    "desc_ja": ""
   },
   {
     "id": "cc_society_of_jesus",
+    "icon": "icons/laws/cc_society_of_jesus.png",
+    "source_file": "31_catholic_church.txt",
     "name_en": "cc_society_of_jesus",
     "name_ja": "cc_society_of_jesus",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/cc_society_of_jesus.png",
-    "source_file": "31_catholic_church.txt"
+    "desc_ja": ""
   },
   {
     "id": "cc_witchcraft",
+    "icon": "icons/laws/cc_witchcraft.png",
+    "source_file": "31_catholic_church.txt",
     "name_en": "cc_witchcraft",
     "name_ja": "cc_witchcraft",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/cc_witchcraft.png",
-    "source_file": "31_catholic_church.txt"
+    "desc_ja": ""
   },
   {
     "id": "cc_marriage_of_priest",
+    "icon": "icons/laws/cc_marriage_of_priest.png",
+    "source_file": "31_catholic_church.txt",
     "name_en": "cc_marriage_of_priest",
     "name_ja": "cc_marriage_of_priest",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/cc_marriage_of_priest.png",
-    "source_file": "31_catholic_church.txt"
+    "desc_ja": ""
   },
   {
     "id": "union_foundation_law",
+    "icon": "icons/laws/union_foundation_law.png",
+    "source_file": "40_personal_unions.txt",
     "name_en": "Union Foundation",
     "name_ja": "連合設立",
     "desc_en": "The law of the which determines its very nature and if it should follow a centralized or federal future - if it can stand the test of time.",
-    "desc_ja": "この法律はの性格や、中央集権的か連邦的かといった将来のあり方を定め、時の試練に耐えうるかを決定する。",
-    "icon": "icons/laws/union_foundation_law.png",
-    "source_file": "40_personal_unions.txt"
+    "desc_ja": "この法律はの性格や、中央集権的か連邦的かといった将来のあり方を定め、時の試練に耐えうるかを決定する。"
   },
   {
     "id": "union_codified_inheritance_law",
+    "icon": "icons/laws/union_codified_inheritance_law.png",
+    "source_file": "40_personal_unions.txt",
     "name_en": "Codified Inheritance",
     "name_ja": "継承法の成文化",
     "desc_en": "In order to secure the stability of the , the inheritance laws of each member must be codified so that each state has the same line of succession.",
-    "desc_ja": "を安定させるには、各メンバーの継承法を成文化し、すべての国の継承制度を同じにする必要がある。",
-    "icon": "icons/laws/union_codified_inheritance_law.png",
-    "source_file": "40_personal_unions.txt"
+    "desc_ja": "を安定させるには、各メンバーの継承法を成文化し、すべての国の継承制度を同じにする必要がある。"
   },
   {
     "id": "union_economic_law",
+    "icon": "icons/laws/union_economic_law.png",
+    "source_file": "40_personal_unions.txt",
     "name_en": "Economy of the Union",
     "name_ja": "連合の経済",
     "desc_en": "One monarch might rule over multiple thrones, yet the members of the are very separated in their economy. This law shall bring all of them closer to each other.",
-    "desc_ja": "単一の君主が複数の国家を統治していても、の各メンバーは経済的に大きな隔たりがある。この法律により、彼ら全員の格差を埋めることができる。",
-    "icon": "icons/laws/union_economic_law.png",
-    "source_file": "40_personal_unions.txt"
+    "desc_ja": "単一の君主が複数の国家を統治していても、の各メンバーは経済的に大きな隔たりがある。この法律により、彼ら全員の格差を埋めることができる。"
   },
   {
     "id": "union_diplomatic_law",
+    "icon": "icons/laws/union_diplomatic_law.png",
+    "source_file": "40_personal_unions.txt",
     "name_en": "Diplomatic Liberties",
     "name_ja": "外交権",
     "desc_en": "As the is led from a single throne, so comes the question of how the diplomacy of the $union$ shall be handled.\\n\\n#Y The matters of warfare, though, are nonetheless in the hands of the Estates of our union partners.",
-    "desc_ja": "は単一の主権者のもとに統治されるため、$union$の外交をどのように扱うかが問題となる。\\n\\n#Y しかし、戦争に関する決定権は、なお同君連合国の諸階級の手にある。",
-    "icon": "icons/laws/union_diplomatic_law.png",
-    "source_file": "40_personal_unions.txt"
+    "desc_ja": "は単一の主権者のもとに統治されるため、$union$の外交をどのように扱うかが問題となる。\\n\\n#Y しかし、戦争に関する決定権は、なお同君連合国の諸階級の手にある。"
   },
   {
     "id": "union_legislature_law",
+    "icon": "icons/laws/union_legislature_law.png",
+    "source_file": "40_personal_unions.txt",
     "name_en": "Legislature of the Union",
     "name_ja": "$union$の立法制度",
     "desc_en": "The adminstration of the requires a cohesive design. An approved, unitary system of a legislature is imperative to ensure the stability of the $union$.",
-    "desc_ja": "の運営には統一的な制度設計が欠かせない。$union$の安定を保つための、承認された一元的な立法制度の確立が必要である。",
-    "icon": "icons/laws/union_legislature_law.png",
-    "source_file": "40_personal_unions.txt"
+    "desc_ja": "の運営には統一的な制度設計が欠かせない。$union$の安定を保つための、承認された一元的な立法制度の確立が必要である。"
   },
   {
     "id": "union_unification_of_crowns_law",
+    "icon": "icons/laws/union_unification_of_crowns_law.png",
+    "source_file": "40_personal_unions.txt",
     "name_en": "Question of Unification",
     "name_ja": "統一の是非",
     "desc_en": "The is in its most variations nothing but a loose confederation of different states ruled from the same throne. However, the possibility of a unification under the banner of the is not out of question...",
-    "desc_ja": "は多くの場合、同じ主権者のもとにあるとはいえ、異なる国家が緩やかに結びついた連合にすぎない。しかし、の旗のもとに真の統一を果たす可能性も、決して否定できない……",
-    "icon": "icons/laws/union_unification_of_crowns_law.png",
-    "source_file": "40_personal_unions.txt"
+    "desc_ja": "は多くの場合、同じ主権者のもとにあるとはいえ、異なる国家が緩やかに結びついた連合にすぎない。しかし、の旗のもとに真の統一を果たす可能性も、決して否定できない……"
   },
   {
     "id": "union_mutual_offense_law",
+    "icon": "icons/laws/union_mutual_offense_law.png",
+    "source_file": "40_personal_unions.txt",
     "name_en": "Mutual Offense",
     "name_ja": "共同攻撃",
     "desc_en": "Although first and foremost defensive in its nature, the military might of a can be called to support each other in military campaigns - if the state members agree to such obligation.",
-    "desc_ja": "は防衛を主目的としているが、各メンバーが支援義務に同意している場合、メンバーは軍事行動においてほかのメンバーの支援を要請できる。",
-    "icon": "icons/laws/union_mutual_offense_law.png",
-    "source_file": "40_personal_unions.txt"
+    "desc_ja": "は防衛を主目的としているが、各メンバーが支援義務に同意している場合、メンバーは軍事行動においてほかのメンバーの支援を要請できる。"
   },
   {
     "id": "nature_tenet",
+    "icon": "icons/laws/nature_tenet.png",
+    "source_file": "christian_tenets.txt",
     "name_en": "nature_tenet",
     "name_ja": "nature_tenet",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/nature_tenet.png",
-    "source_file": "christian_tenets.txt"
+    "desc_ja": ""
   },
   {
     "id": "christology",
+    "icon": "icons/laws/christology.png",
+    "source_file": "christian_tenets.txt",
     "name_en": "christology",
     "name_ja": "christology",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/christology.png",
-    "source_file": "christian_tenets.txt"
+    "desc_ja": ""
   },
   {
     "id": "liturgical_practices",
+    "icon": "icons/laws/liturgical_practices.png",
+    "source_file": "christian_tenets.txt",
     "name_en": "liturgical_practices",
     "name_ja": "liturgical_practices",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/liturgical_practices.png",
-    "source_file": "christian_tenets.txt"
+    "desc_ja": ""
   },
   {
     "id": "essence_tenet",
+    "icon": "icons/laws/essence_tenet.png",
+    "source_file": "christian_tenets.txt",
     "name_en": "essence_tenet",
     "name_ja": "essence_tenet",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/essence_tenet.png",
-    "source_file": "christian_tenets.txt"
+    "desc_ja": ""
   },
   {
     "id": "person_tenet",
+    "icon": "icons/laws/person_tenet.png",
+    "source_file": "christian_tenets.txt",
     "name_en": "person_tenet",
     "name_ja": "person_tenet",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/person_tenet.png",
-    "source_file": "christian_tenets.txt"
+    "desc_ja": ""
   },
   {
     "id": "prosopon_tenet",
+    "icon": "icons/laws/prosopon_tenet.png",
+    "source_file": "christian_tenets.txt",
     "name_en": "prosopon_tenet",
     "name_ja": "prosopon_tenet",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/prosopon_tenet.png",
-    "source_file": "christian_tenets.txt"
+    "desc_ja": ""
   },
   {
     "id": "christological_debates_tenet",
+    "icon": "icons/laws/christological_debates_tenet.png",
+    "source_file": "christian_tenets.txt",
     "name_en": "christological_debates_tenet",
     "name_ja": "christological_debates_tenet",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/christological_debates_tenet.png",
-    "source_file": "christian_tenets.txt"
+    "desc_ja": ""
   },
   {
     "id": "double_sabbath_tenet",
+    "icon": "icons/laws/double_sabbath_tenet.png",
+    "source_file": "christian_tenets.txt",
     "name_en": "double_sabbath_tenet",
     "name_ja": "double_sabbath_tenet",
     "desc_en": "",
-    "desc_ja": "",
-    "icon": "icons/laws/double_sabbath_tenet.png",
-    "source_file": "christian_tenets.txt"
+    "desc_ja": ""
   },
   {
     "id": "colonial_representation_law",
+    "icon": "icons/laws/colonial_representation_law.png",
+    "source_file": "colonial_laws.txt",
     "name_en": "Colonial Representation",
     "name_ja": "植民地代表権",
     "desc_en": "Our own influence on the land we govern is detetmined by the whims of our overlord.",
-    "desc_ja": "わが国が統治する土地に対する影響力は、植民地領主の気まぐれによって決まる。",
-    "icon": "icons/laws/colonial_representation_law.png",
-    "source_file": "colonial_laws.txt"
+    "desc_ja": "わが国が統治する土地に対する影響力は、植民地領主の気まぐれによって決まる。"
   },
   {
     "id": "mutual_defense_law",
+    "icon": "icons/laws/mutual_defense_law.png",
+    "source_file": "io_alliances_law.txt",
     "name_en": "Mutual Defense",
     "name_ja": "共同防衛",
     "desc_en": "The policy outlining how members will defend each other in the event of war being declared.",
-    "desc_ja": "戦争が宣言された場合に、メンバーがお互いをどう守るかを定めた方針。",
-    "icon": "icons/laws/mutual_defense_law.png",
-    "source_file": "io_alliances_law.txt"
+    "desc_ja": "戦争が宣言された場合に、メンバーがお互いをどう守るかを定めた方針。"
   },
   {
     "id": "mutual_offense_law",
+    "icon": "icons/laws/mutual_offense_law.png",
+    "source_file": "io_alliances_law.txt",
     "name_en": "Mutual Offense",
     "name_ja": "共同攻撃",
     "desc_en": "The policy outlining how members will support each other in the event of them declaring war against another country.",
-    "desc_ja": "他国に対し宣戦布告をおこなった場合に、メンバーがどのように支援しあうかを定めた方針。",
-    "icon": "icons/laws/mutual_offense_law.png",
-    "source_file": "io_alliances_law.txt"
+    "desc_ja": "他国に対し宣戦布告をおこなった場合に、メンバーがどのように支援しあうかを定めた方針。"
   },
   {
     "id": "main_philosophy_law",
+    "icon": "icons/laws/main_philosophy_law.png",
+    "source_file": "sects.txt",
     "name_en": "Main Philosophy",
     "name_ja": "主要哲学",
     "desc_en": "The main current of philosophy and teachings that form the core beliefs of a sect.",
-    "desc_ja": "宗派の信念の中心となる哲学的・教義的な潮流。",
-    "icon": "icons/laws/main_philosophy_law.png",
-    "source_file": "sects.txt"
+    "desc_ja": "宗派の信念の中心となる哲学的・教義的な潮流。"
   },
   {
     "id": "vajrayana_law",
+    "icon": "icons/laws/vajrayana_law.png",
+    "source_file": "sects.txt",
     "name_en": "Tantric Practices",
     "name_ja": "密教の慣行",
     "desc_en": "Vajrayāna, also called Tantric $buddhist$ or Esoteric $buddhist$, is a form of $buddhist$ that incorporates many tantric, esoteric, and ritualistic practices. Its development has been strongly influenced by other religions, especially $hindu$.",
-    "desc_ja": "秘密$buddhist$とも呼ばれる密教は、多くの密教的または秘教的、儀式的な実践を取り入れた$buddhist$の一派である。その発展にはほかの宗教、なかでも$hindu$からの多大な影響が見られる。",
-    "icon": "icons/laws/vajrayana_law.png",
-    "source_file": "sects.txt"
+    "desc_ja": "秘密$buddhist$とも呼ばれる密教は、多くの密教的または秘教的、儀式的な実践を取り入れた$buddhist$の一派である。その発展にはほかの宗教、なかでも$hindu$からの多大な影響が見られる。"
   },
   {
     "id": "sect_school_law",
+    "icon": "icons/laws/sect_school_law.png",
+    "source_file": "sects.txt",
     "name_en": "Sect School",
     "name_ja": "宗派の流派",
     "desc_en": "The particular school of this sect, which may have some differences from mainstream of teachings.",
-    "desc_ja": "この宗派の特定の流派。主流となっている教義とは細部が異なる場合がある。",
-    "icon": "icons/laws/sect_school_law.png",
-    "source_file": "sects.txt"
+    "desc_ja": "この宗派の特定の流派。主流となっている教義とは細部が異なる場合がある。"
   },
   {
     "id": "guru_nanak_guruship",
+    "icon": "icons/laws/guru_nanak_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[GetCharacter('guru_nanak').GetShortNameWithNoTooltip] Teachings",
     "name_ja": "[GetCharacter('guru_nanak').GetShortNameWithNoTooltip]の教義",
     "desc_en": "The teachings established by .",
-    "desc_ja": "によって確立された教義。",
-    "icon": "icons/laws/guru_nanak_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "によって確立された教義。"
   },
   {
     "id": "guru_angad_guruship",
+    "icon": "icons/laws/guru_angad_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[GetCharacter('guru_angad').GetShortNameWithNoTooltip] Teachings",
     "name_ja": "[GetCharacter('guru_angad').GetShortNameWithNoTooltip]の教義",
     "desc_en": "The teachings established by .",
-    "desc_ja": "によって確立された教義。",
-    "icon": "icons/laws/guru_angad_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "によって確立された教義。"
   },
   {
     "id": "guru_amar_das_guruship",
+    "icon": "icons/laws/guru_amar_das_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[GetCharacter('guru_amar_das').GetShortNameWithNoTooltip] Teachings",
     "name_ja": "[GetCharacter('guru_amar_das').GetShortNameWithNoTooltip]の教義",
     "desc_en": "The teachings established by .",
-    "desc_ja": "によって確立された教義。",
-    "icon": "icons/laws/guru_amar_das_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "によって確立された教義。"
   },
   {
     "id": "guru_ram_das_guruship",
+    "icon": "icons/laws/guru_ram_das_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[GetCharacter('guru_ram_das').GetShortNameWithNoTooltip] Teachings",
     "name_ja": "[GetCharacter('guru_ram_das').GetShortNameWithNoTooltip]の教義",
     "desc_en": "The teachings established by .",
-    "desc_ja": "によって確立された教義。",
-    "icon": "icons/laws/guru_ram_das_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "によって確立された教義。"
   },
   {
     "id": "guru_arjan_guruship",
+    "icon": "icons/laws/guru_arjan_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[GetCharacter('guru_arjan').GetShortNameWithNoTooltip] Teachings",
     "name_ja": "[GetCharacter('guru_arjan').GetShortNameWithNoTooltip]の教義",
     "desc_en": "The teachings established by .",
-    "desc_ja": "によって確立された教義。",
-    "icon": "icons/laws/guru_arjan_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "によって確立された教義。"
   },
   {
     "id": "guru_hargobind_guruship",
+    "icon": "icons/laws/guru_hargobind_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[GetCharacter('guru_hargobind').GetShortNameWithNoTooltip] Teachings",
     "name_ja": "[GetCharacter('guru_hargobind').GetShortNameWithNoTooltip]の教義",
     "desc_en": "The teachings established by .",
-    "desc_ja": "によって確立された教義。",
-    "icon": "icons/laws/guru_hargobind_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "によって確立された教義。"
   },
   {
     "id": "guru_har_rai_guruship",
+    "icon": "icons/laws/guru_har_rai_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[GetCharacter('guru_har_rai').GetShortNameWithNoTooltip] Teachings",
     "name_ja": "[GetCharacter('guru_har_rai').GetShortNameWithNoTooltip]の教義",
     "desc_en": "The teachings established by .",
-    "desc_ja": "によって確立された教義。",
-    "icon": "icons/laws/guru_har_rai_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "によって確立された教義。"
   },
   {
     "id": "guru_har_krishan_guruship",
+    "icon": "icons/laws/guru_har_krishan_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[GetCharacter('guru_har_krishan').GetShortNameWithNoTooltip] Teachings",
     "name_ja": "[GetCharacter('guru_har_krishan').GetShortNameWithNoTooltip]の教義",
     "desc_en": "The teachings established by .",
-    "desc_ja": "によって確立された教義。",
-    "icon": "icons/laws/guru_har_krishan_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "によって確立された教義。"
   },
   {
     "id": "guru_tegh_bahadur_guruship",
+    "icon": "icons/laws/guru_tegh_bahadur_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[GetCharacter('guru_tegh_bahadur').GetShortNameWithNoTooltip] Teachings",
     "name_ja": "[GetCharacter('guru_tegh_bahadur').GetShortNameWithNoTooltip]の教義",
     "desc_en": "The teachings established by .",
-    "desc_ja": "によって確立された教義。",
-    "icon": "icons/laws/guru_tegh_bahadur_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "によって確立された教義。"
   },
   {
     "id": "guru_gobind_singh_guruship",
+    "icon": "icons/laws/guru_gobind_singh_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[GetCharacter('guru_gobind_singh').GetShortNameWithNoTooltip] Teachings",
     "name_ja": "[GetCharacter('guru_gobind_singh').GetShortNameWithNoTooltip]の教義",
     "desc_en": "The teachings established by .",
-    "desc_ja": "によって確立された教義。",
-    "icon": "icons/laws/guru_gobind_singh_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "によって確立された教義。"
   },
   {
     "id": "khalsa_law",
+    "icon": "icons/laws/khalsa_law.png",
+    "source_file": "sikhism.txt",
     "name_en": "Khalsa",
     "name_ja": "カールサー",
     "desc_en": "A warrior community tasked with the defense of and its followers, its rules of conduct and initiation will set a standard for all the faithful.",
-    "desc_ja": "とその信徒の防衛を任務とする戦士団。その行動規範と入団儀式は、すべての信徒の模範となる。",
-    "icon": "icons/laws/khalsa_law.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "とその信徒の防衛を任務とする戦士団。その行動規範と入団儀式は、すべての信徒の模範となる。"
   },
   {
     "id": "guru_granth_sahib_guruship",
+    "icon": "icons/laws/guru_granth_sahib_guruship.png",
+    "source_file": "sikhism.txt",
     "name_en": "[ShowWorkOfArtNameWithNoTooltip('guru_granth_sahib')] Teachings",
     "name_ja": "[ShowWorkOfArtNameWithNoTooltip('guru_granth_sahib')]の教義",
     "desc_en": "The teachings established in the .",
-    "desc_ja": "のなかで定められた教義。",
-    "icon": "icons/laws/guru_granth_sahib_guruship.png",
-    "source_file": "sikhism.txt"
+    "desc_ja": "のなかで定められた教義。"
   }
 ]

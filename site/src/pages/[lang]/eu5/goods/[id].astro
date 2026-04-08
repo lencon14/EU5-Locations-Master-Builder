@@ -1,0 +1,354 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANG_CODES, type Lang } from "../../../../i18n/config";
+import { loadCore, loadLoc, gameTerm } from "../../../../i18n/data";
+import { t } from "../../../../i18n/ui";
+
+export function getStaticPaths() {
+  const core = loadCore("goods");
+  return LANG_CODES.flatMap((lang) =>
+    core.map((item) => ({
+      params: { lang, id: item.id },
+      props: { lang, item },
+    })),
+  );
+}
+
+const { lang, item } = Astro.props as { lang: Lang; item: any };
+const loc = loadLoc("goods", lang);
+const locEn = lang !== "en" ? loadLoc("goods", "en") : loc;
+const name = loc[item.id]?.name ?? item.id;
+const nameEn = locEn[item.id]?.name ?? item.id;
+const desc = loc[item.id]?.desc;
+---
+
+<Base
+  lang={lang}
+  title={name}
+  description={desc ? `${name} — ${desc.slice(0, 120)}` : undefined}
+  canonicalPath={`/goods/${item.id}/`}
+>
+  <nav class="breadcrumb">
+    <a href={`/${lang}/eu5/goods/`}>{t(lang, "goods.breadcrumb")}</a>
+    <span class="sep">&rsaquo;</span>
+    <span>{name}</span>
+  </nav>
+
+  <header class="good-header">
+    <div class="header-title">
+      <img src={`/${item.icon}`} alt="" width="48" height="48" class="header-icon" />
+      <h1>{name}</h1>
+    </div>
+    {lang !== "en" && <span class="en-name">{nameEn}</span>}
+    <code class="id-badge">{item.id}</code>
+  </header>
+
+  <div class="content-grid">
+    <section class="props-card">
+      <h2>{t(lang, "common.basic_info")}</h2>
+      <dl>
+        <div class="prop-row">
+          <dt>{t(lang, "common.category")}</dt>
+          <dd>{gameTerm(lang, `goods.cat.${item.category}`)}</dd>
+        </div>
+        {
+          item.method && (
+            <div class="prop-row">
+              <dt>{t(lang, "goods.method")}</dt>
+              <dd>
+                <span class="tag">
+                  {gameTerm(lang, `goods.method.${item.method}`)}
+                </span>
+              </dd>
+            </div>
+          )
+        }
+        <div class="prop-row">
+          <dt>{t(lang, "goods.base_price")}</dt>
+          <dd class="num-val">{item.default_market_price}</dd>
+        </div>
+        {
+          item.transport_cost > 0 && (
+            <div class="prop-row">
+              <dt>{t(lang, "goods.transport_cost")}</dt>
+              <dd class="num-val">{item.transport_cost}</dd>
+            </div>
+          )
+        }
+        {
+          item.base_production > 0 && (
+            <div class="prop-row">
+              <dt>{t(lang, "goods.base_production")}</dt>
+              <dd class="num-val">{item.base_production}</dd>
+            </div>
+          )
+        }
+        {
+          item.origin && (
+            <div class="prop-row">
+              <dt>{t(lang, "goods.origin")}</dt>
+              <dd>{gameTerm(lang, `goods.origin.${item.origin}`)}</dd>
+            </div>
+          )
+        }
+        {
+          item.development_threshold && (
+            <div class="prop-row">
+              <dt>{t(lang, "goods.dev_threshold")}</dt>
+              <dd class="num-val">{item.development_threshold}</dd>
+            </div>
+          )
+        }
+      </dl>
+    </section>
+
+    <div class="side-panels">
+      {
+        item.demand_add && Object.keys(item.demand_add).length > 0 && (
+          <section class="panel">
+            <h3>{t(lang, "goods.demand_add")}</h3>
+            <table>
+              <tbody>
+                {Object.entries(item.demand_add).map(([k, v]) => (
+                  <tr>
+                    <td>{gameTerm(lang, `pop.${k}`)}</td>
+                    <td class="num">{v as number}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </section>
+        )
+      }
+
+      {
+        item.demand_multiply && Object.keys(item.demand_multiply).length > 0 && (
+          <section class="panel">
+            <h3>{t(lang, "goods.demand_multiply")}</h3>
+            <table>
+              <tbody>
+                {Object.entries(item.demand_multiply).map(([k, v]) => (
+                  <tr>
+                    <td>{gameTerm(lang, `pop.${k}`)}</td>
+                    <td class="num">&times;{v as number}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </section>
+        )
+      }
+
+      {
+        item.wealth_impact_threshold &&
+          Object.keys(item.wealth_impact_threshold).length > 0 && (
+            <section class="panel">
+              <h3>{t(lang, "goods.wealth_threshold")}</h3>
+              <table>
+                <tbody>
+                  {Object.entries(item.wealth_impact_threshold).map(
+                    ([k, v]) => (
+                      <tr>
+                        <td>{gameTerm(lang, `pop.${k}`)}</td>
+                        <td class="num">{v as number}</td>
+                      </tr>
+                    ),
+                  )}
+                </tbody>
+              </table>
+            </section>
+          )
+      }
+    </div>
+  </div>
+
+  {
+    desc && (
+      <section class="description">
+        <h2>{t(lang, "common.description")}</h2>
+        <p>{desc}</p>
+      </section>
+    )
+  }
+
+  <style>
+    .breadcrumb {
+      margin-bottom: 1.5rem;
+      font-size: 0.875rem;
+      color: var(--dusty-silver);
+    }
+
+    .breadcrumb .sep {
+      margin: 0 0.4rem;
+      color: var(--dim-stone);
+    }
+
+    .breadcrumb span:last-child {
+      color: var(--ivory);
+    }
+
+    .good-header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--gold-thread);
+    }
+
+    .header-title {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header-icon {
+      image-rendering: pixelated;
+    }
+
+    .good-header h1 {
+      font-size: 2rem;
+      color: var(--royal-gold);
+      margin-bottom: 0.25rem;
+    }
+
+    .en-name {
+      color: var(--dusty-silver);
+      font-size: 1rem;
+      margin-right: 0.75rem;
+    }
+
+    .id-badge {
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 2px;
+      padding: 0.1rem 0.5rem;
+      font-size: 0.75rem;
+      color: var(--dim-stone);
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 639px) {
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .props-card,
+    .panel {
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      padding: 1.25rem;
+    }
+
+    .props-card h2,
+    .panel h3 {
+      font-size: 0.85rem;
+      font-family: var(--font-body);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--dusty-silver);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    dl {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .prop-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .prop-row:last-child {
+      border-bottom: none;
+    }
+
+    dt {
+      font-size: 0.875rem;
+      color: var(--dusty-silver);
+    }
+
+    dd {
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+
+    .num-val {
+      font-variant-numeric: tabular-nums;
+    }
+
+    .tag {
+      display: inline-block;
+      background: rgba(201, 168, 76, 0.15);
+      color: var(--pale-gold);
+      border-radius: 2px;
+      padding: 0.1rem 0.5rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+
+    .side-panels {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .panel table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .panel td {
+      padding: 0.4rem 0.5rem;
+      font-size: 0.875rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .panel tr:last-child td {
+      border-bottom: none;
+    }
+
+    .description {
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      padding: 1.25rem;
+    }
+
+    .description h2 {
+      font-size: 0.85rem;
+      font-family: var(--font-body);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--dusty-silver);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .description p {
+      color: var(--dusty-silver);
+      font-size: 0.875rem;
+      line-height: 1.8;
+    }
+  </style>
+</Base>

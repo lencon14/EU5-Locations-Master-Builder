@@ -1,0 +1,1261 @@
+{
+  "bon": {
+    "name": "Bön",
+    "desc": "Emerging from the religious traditions of $tibet_region$ before the arrival of $buddhist$, it became very influenced by $tibetan_buddhism$. It is especially close to the $SECT_NYIGMA_NAME$, but still preserves many pre-$buddhist$ elements. Its teachings focus on Karma and rebirth, and the ways of achieving enlightenment."
+  },
+  "mahayana": {
+    "name": "Eastern Buddhism",
+    "desc": "Called the 'Great Vehicle', Mahāyāna is a branch of $buddhist$ that accepts not only the early $buddhist_ADJ$ text, but also those known as the Mahāyāna $sutra$. It emphasizes the figure of the $bodhisattva$, understanding the $bodhisattva$ path as available to all as a way to achieve Buddhahood. While originally developing in $india$, it saw much of its expansion through $china$ and the Silk Road, and the $chinese_group$ Canon forms now the basis of all $mahayana$."
+  },
+  "shinto": {
+    "name": "Shintō",
+    "desc": "The diverse set of beliefs and practices revolving around Kami worship that were present in $japan_region$ before the arrival of $buddhist$ got intrinsically tied to and blended with $buddhist_ADJ$ practices and concepts as $buddhist$ spread through $japan_region$. The Kami and $buddhist_ADJ$ deities were identified with one another, with both sets of beliefs becoming functionally inseparable. This gave rise to a particularly $japanese_group$ flavor of $buddhist$ blended with a $buddhist$-influenced Kami worship."
+  },
+  "theravada": {
+    "name": "Theravāda",
+    "desc": "Called 'School of the Elders', it adheres to the oldest traditions of $buddhist$. It rejects the Mahāyāna $sutra$ and thus the many $bodhisattva$ and the $bodhisattva$ path itself as being available to all. Instead, it focuses on the monastic community as the superior way of achieving enlightenment."
+  },
+  "sammitiya": {
+    "name": "Saṃmitīya",
+    "desc": "One of the many branches of early $buddhist$ in $india$, $sammitiya$ developed in $sindh_area$ becoming a great center of early $buddhist_ADJ$ schools even rivaling the Mahāyāna Nālandā. Being the biggest non-Mahāyāna $buddhist$ in $india$, it was removed from its place of prominence with the $muslim_ADJ$ invasions."
+  },
+  "tibetan_buddhism": {
+    "name": "Tibetan Buddhism",
+    "desc": "The form of $buddhist$ developed along and around the mountains of the Himalayas emerged from the Mahāyāna tradition, but incorporated many of the esoteric practices of Vajrayāna due to its close contact with India and the later stages of development of $buddhist$ there."
+  },
+  "sanjiao": {
+    "name": "Sānjiào",
+    "desc": "Called the 'Three Teachings', it is the combined blend and influences of $confucianism_policy$, $daoism_policy$, and $buddhist$. Being all three present in $china$ for centuries, and also influencing and being influenced by many other $chinese_group$ folk beliefs and deities, they have not always been in harmony among each other, but they have always been part of the $chinese_group$ way of life."
+  },
+  "anglican": {
+    "name": "Anglicanism",
+    "desc": "$anglican$ is a form of $christian$ in which the head of state is also the Supreme Governor of the Church. Theologically and institutionally, $anglican$ retains many elements of $catholic$ while also being influenced by Reformed Puritans and continental $lutheran_ADJ$ beliefs."
+  },
+  "bogomilism": {
+    "name": "Bogomilism",
+    "desc": "A neo-gnostic and dualist branch of $christian$, $bogomilism$ teaches that existence is divided between a spiritual realm and a material one. Its followers view their bodies as sacred temples and strive for closeness to God through purification rituals. These practices include fasting, dancing, and rejecting material excess to focus on spiritual growth."
+  },
+  "bosnian_church": {
+    "name": "Krstjani",
+    "desc": "A breakaway sect of the $catholic_ADJ$ Church, the $bosnian_church$ developed its distinct theology due to prolonged isolation from mainstream Christianity. It focused heavily on apocalyptic themes, embraced mysticism, and retained many archaic practices of early $christian$. These traits led both $catholic_ADJ$ and $orthodox_ADJ$ authorities to denounce it as heretical."
+  },
+  "calvinist": {
+    "name": "Calvinism",
+    "desc": "Named after John Calvin, $calvinist$ is a significant branch of Protestantism rooted in the principles of simplicity in worship and the supremacy of the Holy Bible. Its doctrine emphasizes predestination, asserting that God has preordained the destiny of all creation."
+  },
+  "catharism": {
+    "name": "Catharism",
+    "desc": "$catharism$ is a dualist movement that believes in the existence of two Gods: a benevolent God of Heaven and a malevolent counterpart. Its adherents follow an ascetic lifestyle, holding that souls are trapped in physical bodies as part of a cosmic struggle. Spiritual purification, achieved through strict discipline, is seen as the only path to salvation."
+  },
+  "catholic": {
+    "name": "Catholicism",
+    "desc": "Rooted in the Nicene Creed, $catholic$ is the largest denomination of $christian$ and is led by the Pope, who serves as the spiritual successor to Saint Peter. The Pope acts as both the head of the Church and a mediator in conflicts among $christian_ADJ$ rulers. Its doctrine and traditions have shaped much of the Western world's religious and cultural history."
+  },
+  "hussite": {
+    "name": "Hussitism",
+    "desc": "Founded by Jan Hus, the $hussite_ADJ$ Church emerged as a proto-Protestant movement in $BOH$, blending elements of the $BYZ_ADJ$ Rite with the teachings of John Wycliffe. It emphasized communion under both kinds and the importance of scripture over Church tradition."
+  },
+  "lollardy": {
+    "name": "Lollardy",
+    "desc": "Led by John Wycliffe, $lollardy$ was a reformist movement advocating for universal priesthood and rejecting the necessity of sacraments like baptism and confession for salvation. Its teachings emphasized direct access to God through scripture, which was translated into vernacular languages. This made its theology accessible to the common people and fueled early calls for Church reform."
+  },
+  "lutheran": {
+    "name": "Lutheranism",
+    "desc": "Based on Martin Luther's Ninety-five Theses, $lutheran$ began as a call to reform the $catholic_ADJ$ Church but evolved into a distinct Protestant denomination. It teaches that the Old and New Testament scriptures are the sole infallible authority for $christian_ADJ$ doctrine."
+  },
+  "miaphysite": {
+    "name": "Miaphysitism",
+    "desc": "$miaphysite$ teaches that in the person of Christ, His divine and human natures are united into a single, indivisible nature. This doctrine, rooted in the Council of Ephesus, spread widely across regions like Armenia, Egypt, and Ethiopia. $miaphysite_ADJ$ communities have preserved their unique liturgies and traditions, emphasizing Christ's unity as both God and man."
+  },
+  "nestorianism": {
+    "name": "Nestorianism",
+    "desc": "$nestorianism$, named after Nestorius, teaches that Christ's divine and human natures are distinct and exist side by side. This doctrine was rejected by the Council of Ephesus but found a strong following in Persia and beyond. Nestorian Christians spread their faith across $asia$, becoming the largest $christian_ADJ$ religion in land area covered."
+  },
+  "orthodox": {
+    "name": "Orthodoxy",
+    "desc": "The $orthodox_ADJ$ Church, rooted in the traditions of the early $christian_ADJ$ councils, emphasizes the continuity of apostolic teachings and sacred tradition. Centered on the $BYZ_ADJ$ Rite, it places great importance on liturgy, icons, and mysticism. The $orthodox_ADJ$ faith is led by patriarchs, with the Ecumenical Patriarch of Constantinople holding a primacy of honor."
+  },
+  "paulicianism": {
+    "name": "Paulicianism",
+    "desc": "$paulicianism$ is a dualist $christian_ADJ$ sect that rejects the material world as the creation of an evil force. Its followers hold that only the spiritual realm is pure and base their beliefs on the New Testament, rejecting the Old Testament entirely. Persecuted by both $catholic_ADJ$ and $orthodox_ADJ$ authorities, the $paulicianism_ADJ$ movement resisted assimilation and inspired later reformist movements."
+  },
+  "strigolniki": {
+    "name": "Strigolnichestvo",
+    "desc": "Emerging in medieval $russian_region$, the $strigolniki$ is a reformist sect critical of the established $orthodox_ADJ$ Church. They condemn the corruption of priests, the selling of sacraments, and the accumulation of wealth by clergy. Favoring a simpler faith focused on personal piety, the $strigolniki_ADJ$ are a target by the $orthodox_ADJ$ Church and state authorities."
+  },
+  "waldensian": {
+    "name": "Waldensian",
+    "desc": "Founded by Peter Waldo, the $waldensian$ is a reformist $christian_ADJ$ movement emphasizing simplicity, poverty, and the authority of scripture. They reject clerical wealth, the veneration of saints, and the necessity of sacraments for salvation. Persecuted as heretics, the $waldensian_ADJ$ movement have endured centuries of oppression while spreading their message across $europe$."
+  },
+  "hindu": {
+    "name": "Hinduism",
+    "desc": "A collection of different beliefs rather than a unified religion, $hindu$ is often considered the oldest religious tradition in the world. All its beliefs and practices understood as explanations of the $dharmic$, the cosmic order, it stems from the ancient Vedic literature. Being so varied, it also contains a multitude of gods, although not all of them are equally venerated or even recognized by all $hindu_ADJ$ practitioners, depending on their particular beliefs and orientations. The four main branches of $hindu$ are $vaishnavism$, $shaktism$, $shaivism$, and $smartism$."
+  },
+  "jain": {
+    "name": "Jainism",
+    "desc": "One of the oldest religions, $jain$ is an Indian $dharmic_ADJ$ religion focusing on attempting self-realization and liberation from the cycle of death and rebirth. It centers in non-violence and asceticism through the teachings of the Tīrthaṅkara, the supreme preachers of the $dharma$, and it is divided in the Digambara and Śvetāmbara schools. Digambara, meaning 'sky-clad', is characterized by its rejection to attachment and possession of material goods, and thus its monks do not wear any clothes, and its iconography is more plain. Śvetāmbara, on the other hand, means 'white-clad' due to the white clothes of its monks, and has more equality between male and female monks, in opposition to the more male-oriented Digambara."
+  },
+  "sikhism": {
+    "name": "Sikhism",
+    "desc": "A religion founded by the teachings of the $character_title_guru$, it originates from the varied $hindu_ADJ$ faiths of $india$, and incorporates many influences from $muslim$. It believes in one creator, $sikhism_god_name$, and to conduct oneself honestly and selflessly for the benefit of all. It encourages connection with the divine through the use of contemplation and meditation, as well as recitation and music as ways to be conscious of God's presence."
+  },
+  "druzism": {
+    "name": "Druzism",
+    "desc": "Although emerging from $ismaili_school$, $druzism_ADJ$ people do not consider themselves $muslim_ADJ$. Besides its obvious influence from $muslim$, it also gets influence from other Abrahamic and non-Abrahamic religions, giving rise to a distinct faith with emphasis on esotericism and the Cosmic Mind which all souls reunite to after many reincarnations."
+  },
+  "bantu_religion": {
+    "name": "Bantu",
+    "desc": "The $bantu_religion$ $common_folk_religion_desc$"
+  },
+  "lugbara_religion": {
+    "name": "Adroa-Adro",
+    "desc": "The $lugbara_religion$ $common_folk_religion_desc$"
+  },
+  "cwezi_religion": {
+    "name": "Cwezi",
+    "desc": "The $cwezi_religion$ $common_folk_religion_desc$"
+  },
+  "bori_religion": {
+    "name": "Bori",
+    "desc": "The $bori_religion$ $common_folk_religion_desc$"
+  },
+  "muonyjang_religion": {
+    "name": "Muonyjang",
+    "desc": "The $muonyjang_religion$ $common_folk_religion_desc$"
+  },
+  "fomba_gasy_religion": {
+    "name": "Fomba Gasy",
+    "desc": "The $fomba_gasy_religion$ $common_folk_religion_desc$"
+  },
+  "maasai_religion": {
+    "name": "Mwene Nyaga",
+    "desc": "The $maasai_religion$ $common_folk_religion_desc$"
+  },
+  "asis_religion": {
+    "name": "Asis",
+    "desc": "The $asis_religion$ $common_folk_religion_desc$"
+  },
+  "waaqeffanna_religion": {
+    "name": "Waaqeffanna",
+    "desc": "The $waaqeffanna_religion$ $common_folk_religion_desc$"
+  },
+  "badimo_religion": {
+    "name": "Badimo",
+    "desc": "The $badimo_religion$ $common_folk_religion_desc$"
+  },
+  "kaggen_religion": {
+    "name": "Kaggen",
+    "desc": "The $kaggen_religion$ $common_folk_religion_desc$"
+  },
+  "akuj_religion": {
+    "name": "Akuj",
+    "desc": "The $akuj_religion$ $common_folk_religion_desc$"
+  },
+  "akan_religion": {
+    "name": "Akom",
+    "desc": "The $akan_religion$ $common_folk_religion_desc$"
+  },
+  "vodun_religion": {
+    "name": "Vodun",
+    "desc": "The $vodun_religion$ $common_folk_religion_desc$"
+  },
+  "abwoi_religion": {
+    "name": "Abwoi",
+    "desc": "The $abwoi_religion$ $common_folk_religion_desc$"
+  },
+  "isese_religion": {
+    "name": "Isese",
+    "desc": "The $isese_religion$ $common_folk_religion_desc$"
+  },
+  "ijaw_religion": {
+    "name": "Ijaw",
+    "desc": "The $ijaw_religion$ $common_folk_religion_desc$"
+  },
+  "odinala_religion": {
+    "name": "Odinala",
+    "desc": "The $odinala_religion$ $common_folk_religion_desc$"
+  },
+  "a_fat_roog_religion": {
+    "name": "a ƭat Roog",
+    "desc": "The $a_fat_roog_religion$ $common_folk_religion_desc$"
+  },
+  "dogon_religion": {
+    "name": "Dogon",
+    "desc": "The $dogon_religion$ $common_folk_religion_desc$"
+  },
+  "nyama_religion": {
+    "name": "Nyama",
+    "desc": "The $nyama_religion$ $common_folk_religion_desc$"
+  },
+  "nyesoa_religion": {
+    "name": "Nyesoa",
+    "desc": "The $nyesoa_religion$ $common_folk_religion_desc$"
+  },
+  "karama_religion": {
+    "name": "Karama",
+    "desc": "The $karama_religion$ $common_folk_religion_desc$"
+  },
+  "buyli_religion": {
+    "name": "Bughli",
+    "desc": "The $buyli_religion$ $common_folk_religion_desc$"
+  },
+  "ebore_religion": {
+    "name": "Ebore",
+    "desc": "The $ebore_religion$ $common_folk_religion_desc$"
+  },
+  "adamawa_religion": {
+    "name": "Adamawa",
+    "desc": "The $adamawa_religion$ $common_folk_religion_desc$"
+  },
+  "geno_religion": {
+    "name": "Geno",
+    "desc": "The $geno_religion$ $common_folk_religion_desc$"
+  },
+  "emit_religion": {
+    "name": "Emit",
+    "desc": "The $emit_religion$ $common_folk_religion_desc$"
+  },
+  "nhaala_religion": {
+    "name": "N'haala",
+    "desc": "The $nhaala_religion$ $common_folk_religion_desc$"
+  },
+  "eso_religion": {
+    "name": "Eso",
+    "desc": "The $eso_religion$ $common_folk_religion_desc$"
+  },
+  "naa_wuni_religion": {
+    "name": "Naa-wuni",
+    "desc": "The $naa_wuni_religion$ $common_folk_religion_desc$"
+  },
+  "kuru_masaba_religion": {
+    "name": "Kuru Masaba",
+    "desc": "The $kuru_masaba_religion$ $common_folk_religion_desc$"
+  },
+  "sao_religion": {
+    "name": "Sao",
+    "desc": "The $sao_religion$ $common_folk_religion_desc$"
+  },
+  "rogo_miki_religion": {
+    "name": "Rogo Miki",
+    "desc": "The $rogo_miki_religion$ $common_folk_religion_desc$"
+  },
+  "songhai_religion": {
+    "name": "Songhai",
+    "desc": "The $songhai_religion$ $common_folk_religion_desc$"
+  },
+  "godala_religion": {
+    "name": "Godala",
+    "desc": "The $godala_religion$ $common_folk_religion_desc$"
+  },
+  "nyasaye_religion": {
+    "name": "Nyasaye",
+    "desc": "The $nyasaye_religion$ $common_folk_religion_desc$"
+  },
+  "anna_religion": {
+    "name": "Anna",
+    "desc": "The $anna_religion$ $common_folk_religion_desc$"
+  },
+  "rebba_religion": {
+    "name": "Rebba",
+    "desc": "The $rebba_religion$ $common_folk_religion_desc$"
+  },
+  "omo_religion": {
+    "name": "Omo",
+    "desc": "The $omo_religion$ $common_folk_religion_desc$"
+  },
+  "musala_religion": {
+    "name": "Musala",
+    "desc": "The $musala_religion$ $common_folk_religion_desc$"
+  },
+  "kalge_religion": {
+    "name": "Kalge",
+    "desc": "The $kalge_religion$ $common_folk_religion_desc$"
+  },
+  "mbori_religion": {
+    "name": "Mbori",
+    "desc": "The $mbori_religion$ $common_folk_religion_desc$"
+  },
+  "ori_religion": {
+    "name": "Ori",
+    "desc": "The $ori_religion$ $common_folk_religion_desc$"
+  },
+  "ngbandi_religion": {
+    "name": "Ngbandi",
+    "desc": "The $ngbandi_religion$ $common_folk_religion_desc$"
+  },
+  "bua_religion": {
+    "name": "Bua",
+    "desc": "The $bua_religion$ $common_folk_religion_desc$"
+  },
+  "fang_religion": {
+    "name": "Mebege",
+    "desc": "The $fang_religion$ $common_folk_religion_desc$"
+  },
+  "ajok_religion": {
+    "name": "Ajok",
+    "desc": "The $ajok_religion$ $common_folk_religion_desc$"
+  },
+  "banda_religion": {
+    "name": "Banda",
+    "desc": "The $banda_religion$ $common_folk_religion_desc$"
+  },
+  "guanche_religion": {
+    "name": "Guanche",
+    "desc": "The $guanche_religion$ $common_folk_religion_desc$"
+  },
+  "kenos_religion": {
+    "name": "Kénos",
+    "desc": "The $kenos_religion$ $common_folk_religion_desc$"
+  },
+  "tain_feyentun_religion": {
+    "name": "Taiñ Feyentún",
+    "desc": "The $tain_feyentun_religion$ $common_folk_religion_desc$"
+  },
+  "tokuah_religion": {
+    "name": "Tokuah",
+    "desc": "The $tokuah_religion$ $common_folk_religion_desc$"
+  },
+  "kilyikhama_religion": {
+    "name": "Kilyikhama",
+    "desc": "The $kilyikhama_religion$ $common_folk_religion_desc$"
+  },
+  "pabichu_religion": {
+    "name": "Pabichu",
+    "desc": "The $pabichu_religion$ $common_folk_religion_desc$"
+  },
+  "mororuma_religion": {
+    "name": "Mororuma",
+    "desc": "The $mororuma_religion$ $common_folk_religion_desc$"
+  },
+  "pericu_religion": {
+    "name": "Niparaya",
+    "desc": "The $pericu_religion$ $common_folk_religion_desc$"
+  },
+  "yuman_religion": {
+    "name": "Yuman",
+    "desc": "The $yuman_religion$ $common_folk_religion_desc$"
+  },
+  "cahita_religion": {
+    "name": "Cáhita",
+    "desc": "The $cahita_religion$ $common_folk_religion_desc$"
+  },
+  "seri_religion": {
+    "name": "Comcaac",
+    "desc": "The $seri_religion$ $common_folk_religion_desc$"
+  },
+  "guasave_religion": {
+    "name": "Guasave",
+    "desc": "The $guasave_religion$ $common_folk_religion_desc$"
+  },
+  "tepehuan_religion": {
+    "name": "Ódami",
+    "desc": "The $tepehuan_religion$ $common_folk_religion_desc$"
+  },
+  "coahuilteco_religion": {
+    "name": "Coahuilteco",
+    "desc": "The $coahuilteco_religion$ $common_folk_religion_desc$"
+  },
+  "irritila_religion": {
+    "name": "Irritila",
+    "desc": "The $irritila_religion$ $common_folk_religion_desc$"
+  },
+  "karankawa_religion": {
+    "name": "Karankawa",
+    "desc": "The $karankawa_religion$ $common_folk_religion_desc$"
+  },
+  "atakapa_religion": {
+    "name": "Atakapa",
+    "desc": "The $atakapa_religion$ $common_folk_religion_desc$"
+  },
+  "kachina_religion": {
+    "name": "Kachina",
+    "desc": "The $kachina_religion$ $common_folk_religion_desc$"
+  },
+  "dongba_religion": {
+    "name": "Dongbaism",
+    "desc": "The $dongba_religion$ $common_folk_religion_desc$"
+  },
+  "bimoism": {
+    "name": "",
+    "desc": "The $bimoism$ $common_folk_religion_desc$"
+  },
+  "ka_niam_khasi_religion": {
+    "name": "Ka Niam Khasi",
+    "desc": "The $ka_niam_khasi_religion$ $common_folk_religion_desc$"
+  },
+  "muong_religion": {
+    "name": "Muong",
+    "desc": "The $muong_religion$ $common_folk_religion_desc$"
+  },
+  "sarna_religion": {
+    "name": "Sarnaism",
+    "desc": "The $sarna_religion$ $common_folk_religion_desc$"
+  },
+  "ainu_religion": {
+    "name": "Ainu",
+    "desc": "The $ainu_religion$ $common_folk_religion_desc$"
+  },
+  "utaki_religion": {
+    "name": "Utaki",
+    "desc": "The $utaki_religion$ $common_folk_religion_desc$"
+  },
+  "koyapunem_religion": {
+    "name": "Koyapunem",
+    "desc": "The $koyapunem_religion$ $common_folk_religion_desc$"
+  },
+  "bathou_religion": {
+    "name": "Bathouism",
+    "desc": "The $bathou_religion$ $common_folk_religion_desc$"
+  },
+  "donyi_polo_religion": {
+    "name": "Donyi Polo",
+    "desc": "The $donyi_polo_religion$ $common_folk_religion_desc$"
+  },
+  "kirat_mundhum_religion": {
+    "name": "Kirat Mundhum",
+    "desc": "The $kirat_mundhum_religion$ $common_folk_religion_desc$"
+  },
+  "mizo_religion": {
+    "name": "Mizo",
+    "desc": "The $mizo_religion$ $common_folk_religion_desc$"
+  },
+  "gosain_religion": {
+    "name": "Gosain",
+    "desc": "The $gosain_religion$ $common_folk_religion_desc$"
+  },
+  "khond_religion": {
+    "name": "Khond",
+    "desc": "The $khond_religion$ $common_folk_religion_desc$"
+  },
+  "wu_religion": {
+    "name": "Wuism",
+    "desc": "The $wu_religion$ $common_folk_religion_desc$"
+  },
+  "yao_religion": {
+    "name": "Yao",
+    "desc": "The $yao_religion$ $common_folk_religion_desc$"
+  },
+  "nuo_religion": {
+    "name": "Nuo",
+    "desc": "The $nuo_religion$ $common_folk_religion_desc$"
+  },
+  "vedda_religion": {
+    "name": "Vedda",
+    "desc": "The $vedda_religion$ $common_folk_religion_desc$"
+  },
+  "kam_religion": {
+    "name": "Kam",
+    "desc": "The $kam_religion$ $common_folk_religion_desc$"
+  },
+  "formosan_religion": {
+    "name": "Formosan",
+    "desc": "The $formosan_religion$ $common_folk_religion_desc$"
+  },
+  "mulam_religion": {
+    "name": "Mulam",
+    "desc": "The $mulam_religion$ $common_folk_religion_desc$"
+  },
+  "maonan_religion": {
+    "name": "Maonan",
+    "desc": "The $maonan_religion$ $common_folk_religion_desc$"
+  },
+  "sui_religion": {
+    "name": "Sui",
+    "desc": "The $sui_religion$ $common_folk_religion_desc$"
+  },
+  "lisu_religion": {
+    "name": "Lisu",
+    "desc": "The $lisu_religion$ $common_folk_religion_desc$"
+  },
+  "ngacang_religion": {
+    "name": "Ngac'ang",
+    "desc": "The $ngacang_religion$ $common_folk_religion_desc$"
+  },
+  "blang_religion": {
+    "name": "Blang",
+    "desc": "The $blang_religion$ $common_folk_religion_desc$"
+  },
+  "hani_religion": {
+    "name": "Hani",
+    "desc": "The $hani_religion$ $common_folk_religion_desc$"
+  },
+  "jino_religion": {
+    "name": "Jino",
+    "desc": "The $jino_religion$ $common_folk_religion_desc$"
+  },
+  "lahu_religion": {
+    "name": "Lahu",
+    "desc": "The $lahu_religion$ $common_folk_religion_desc$"
+  },
+  "nu_religion": {
+    "name": "Nu",
+    "desc": "The $nu_religion$ $common_folk_religion_desc$"
+  },
+  "jingpo_religion": {
+    "name": "Jingpo",
+    "desc": "The $jingpo_religion$ $common_folk_religion_desc$"
+  },
+  "wa_religion": {
+    "name": "Wa",
+    "desc": "The $wa_religion$ $common_folk_religion_desc$"
+  },
+  "monpa_religion": {
+    "name": "Monpa",
+    "desc": "The $monpa_religion$ $common_folk_religion_desc$"
+  },
+  "mishmi_religion": {
+    "name": "Mishmi",
+    "desc": "The $mishmi_religion$ $common_folk_religion_desc$"
+  },
+  "palaung_religion": {
+    "name": "Palaung",
+    "desc": "The $palaung_religion$ $common_folk_religion_desc$"
+  },
+  "kundism_religion": {
+    "name": "Kundism",
+    "desc": "The $kundism_religion$ $common_folk_religion_desc$"
+  },
+  "songsarek_religion": {
+    "name": "Songsarek",
+    "desc": "The $songsarek_religion$ $common_folk_religion_desc$"
+  },
+  "tiwa_religion": {
+    "name": "Tiwa",
+    "desc": "The $tiwa_religion$ $common_folk_religion_desc$"
+  },
+  "koch_religion": {
+    "name": "Koch",
+    "desc": "The $koch_religion$ $common_folk_religion_desc$"
+  },
+  "rabha_religion": {
+    "name": "Rabha",
+    "desc": "The $rabha_religion$ $common_folk_religion_desc$"
+  },
+  "chutia_religion": {
+    "name": "Chutia",
+    "desc": "The $chutia_religion$ $common_folk_religion_desc$"
+  },
+  "dimasa_religion": {
+    "name": "Dimasa",
+    "desc": "The $dimasa_religion$ $common_folk_religion_desc$"
+  },
+  "karbi_religion": {
+    "name": "Karbi",
+    "desc": "The $karbi_religion$ $common_folk_religion_desc$"
+  },
+  "sora_religion": {
+    "name": "Sora",
+    "desc": "The $sora_religion$ $common_folk_religion_desc$"
+  },
+  "juang_religion": {
+    "name": "Juang",
+    "desc": "The $juang_religion$ $common_folk_religion_desc$"
+  },
+  "kharia_religion": {
+    "name": "Kharia",
+    "desc": "The $kharia_religion$ $common_folk_religion_desc$"
+  },
+  "naga_religion": {
+    "name": "Naga",
+    "desc": "The $naga_religion$ $common_folk_religion_desc$"
+  },
+  "karen_religion": {
+    "name": "Karen",
+    "desc": "The $karen_religion$ $common_folk_religion_desc$"
+  },
+  "sedang_religion": {
+    "name": "Sedang",
+    "desc": "The $sedang_religion$ $common_folk_religion_desc$"
+  },
+  "bahnar_religion": {
+    "name": "Bahnar",
+    "desc": "The $bahnar_religion$ $common_folk_religion_desc$"
+  },
+  "bru_religion": {
+    "name": "Bru",
+    "desc": "The $bru_religion$ $common_folk_religion_desc$"
+  },
+  "orang_asli_religion": {
+    "name": "Orang Asli",
+    "desc": "The $orang_asli_religion$ $common_folk_religion_desc$"
+  },
+  "andamanese_religion": {
+    "name": "Andamanese",
+    "desc": "The $andamanese_religion$ $common_folk_religion_desc$"
+  },
+  "nicobarese_religion": {
+    "name": "Nicobarese",
+    "desc": "The $nicobarese_religion$ $common_folk_religion_desc$"
+  },
+  "chukchi_shamanism": {
+    "name": "Chukchee Shamanism",
+    "desc": "The $chukchi_shamanism$ $common_folk_religion_desc$"
+  },
+  "hmongism": {
+    "name": "",
+    "desc": "The $hmongism$ $common_folk_religion_desc$"
+  },
+  "moism": {
+    "name": "",
+    "desc": "The $moism$ $common_folk_religion_desc$"
+  },
+  "rmaism": {
+    "name": "",
+    "desc": "The $rmaism$ $common_folk_religion_desc$"
+  },
+  "shamanism": {
+    "name": "Shamanism",
+    "desc": "A shared set of practices and beliefs centering of the figure of the shaman, and individual capable of interacting with the spirit world and access the spirits or the spiritual energy to afect the physical world. Its specifics of spirits, gods, or rituals may vary, but the core concept of the spiritual world and its interactions with the material world remains in all $shamanism_ADJ$ practices."
+  },
+  "tengri": {
+    "name": "Tengrism",
+    "desc": "$tengri$ is a type of $shamanism_ADJ$ beliefs of the $turkic_group$ and $mongolian_group$ peoples, centered around the presence of the sky god $tengri_god_name$, who is worshiped as a personification of the universe. However, it also includes other deities, as it reveres nature and the deities that live in it, as well as the ancestors."
+  },
+  "tungusic_shamanism": {
+    "name": "Tungusic Shamanism",
+    "desc": "The $tungusic_shamanism$ $common_folk_religion_desc$"
+  },
+  "yukaghir_shamanism": {
+    "name": "Yukaghir Shamanism",
+    "desc": "The $yukaghir_shamanism$ $common_folk_religion_desc$"
+  },
+  "yupik_shamanism": {
+    "name": "Yupik Shamanism",
+    "desc": "The $yupik_shamanism$ $common_folk_religion_desc$"
+  },
+  "dreamtime_religion": {
+    "name": "Jukurrpa",
+    "desc": "The $dreamtime_religion$ $common_folk_religion_desc$"
+  },
+  "akinha_ekugu_religion": {
+    "name": "Akinhá Ekugu",
+    "desc": "The $akinha_ekugu_religion$ $common_folk_religion_desc$"
+  },
+  "namandu_religion": {
+    "name": "Ñamandú",
+    "desc": "The $namandu_religion$ $common_folk_religion_desc$"
+  },
+  "tunpa_religion": {
+    "name": "Tunpa",
+    "desc": "The $tunpa_religion$ $common_folk_religion_desc$"
+  },
+  "doi_wahire_religion": {
+    "name": "Doí Wahirê",
+    "desc": "The $doi_wahire_religion$ $common_folk_religion_desc$"
+  },
+  "jurema_religion": {
+    "name": "Jurema",
+    "desc": "The $jurema_religion$ $common_folk_religion_desc$"
+  },
+  "nallagdigua_religion": {
+    "name": "Nallagdigua",
+    "desc": "The $nallagdigua_religion$ $common_folk_religion_desc$"
+  },
+  "txapakura_religion": {
+    "name": "Txapakura",
+    "desc": "The $txapakura_religion$ $common_folk_religion_desc$"
+  },
+  "zemi_religion": {
+    "name": "Zemi",
+    "desc": "The $zemi_religion$ $common_folk_religion_desc$"
+  },
+  "lenca_religion": {
+    "name": "Lenca",
+    "desc": "The $lenca_religion$ $common_folk_religion_desc$"
+  },
+  "pech_religion": {
+    "name": "Mua Mua",
+    "desc": "The $pech_religion$ $common_folk_religion_desc$"
+  },
+  "wan_aisa_religion": {
+    "name": "Wan Aisa",
+    "desc": "The $wan_aisa_religion$ $common_folk_religion_desc$"
+  },
+  "maleku_religion": {
+    "name": "Maleku",
+    "desc": "The $maleku_religion$ $common_folk_religion_desc$"
+  },
+  "suwo_religion": {
+    "name": "Sũwõ'",
+    "desc": "The $suwo_religion$ $common_folk_religion_desc$"
+  },
+  "chibcha_religion": {
+    "name": "Chibcha",
+    "desc": "The $chibcha_religion$ $common_folk_religion_desc$"
+  },
+  "votian_religion": {
+    "name": "Votian",
+    "desc": "The $votian_religion$ $common_folk_religion_desc$"
+  },
+  "hellenism_religion": {
+    "name": "Hellenism",
+    "desc": "The $hellenism_religion$ $common_folk_religion_desc$"
+  },
+  "karachay_balkar_paganism": {
+    "name": "Karachay-Balkar Paganism",
+    "desc": "The $karachay_balkar_paganism$ $common_folk_religion_desc$"
+  },
+  "khabzeism": {
+    "name": "",
+    "desc": "The $khabzeism$ $common_folk_religion_desc$"
+  },
+  "lezgin_paganism": {
+    "name": "Lezgin Paganism",
+    "desc": "The $lezgin_paganism$ $common_folk_religion_desc$"
+  },
+  "norse": {
+    "name": "Norse Paganism",
+    "desc": "The old religion of the $germanic_language_family$ of $scandinavian_region$, it includes a wide array of gods as the Æsir and Vanir, including the most famous Óðinn and Þórr. It considers the universe as nine different realms in the world tree Yggdrasill, of which Miðgarðr is the one in which humans live."
+  },
+  "alan_paganism": {
+    "name": "Alan Paganism",
+    "desc": "The $alan_paganism$ $common_folk_religion_desc$"
+  },
+  "romuva": {
+    "name": "Romuva",
+    "desc": "The traditional beliefs of the $lithuanian_group$ people, it contains a whole pantheon of gods, as well as reverence for nature and the ancestors. Its ceremonies are performed with fire altars, around which ritual hymns or dainos are sung."
+  },
+  "sapmi_shamanism": {
+    "name": "Sámi Shamanism",
+    "desc": "The traditional religions practices of the $sapmi$ people, it contains a multitude of natural and animal spirits, as well as veneration of the dead. Some of the animals are particularly revered, like reindeer and bears."
+  },
+  "muinaisusko": {
+    "name": "Muinaisusko",
+    "desc": "The traditional beliefs of the $finnish_language$ peoples, it contains a multitude of deities, being the most prevalent one the sky and thunder god Ukko. It also contains veneration of the dead and shamanistic practices, while also sharing some features with other nearby religions."
+  },
+  "vainakh_paganism": {
+    "name": "Vainakh Paganism",
+    "desc": "The $vainakh_paganism$ $common_folk_religion_desc$"
+  },
+  "mari_paganism": {
+    "name": "Čimarii Jüla",
+    "desc": "The $mari_paganism$ $common_folk_religion_desc$"
+  },
+  "udmurt_paganism": {
+    "name": "Inmarism",
+    "desc": "The $udmurt_paganism$ $common_folk_religion_desc$"
+  },
+  "komi_paganism": {
+    "name": "Važesköm",
+    "desc": "The $komi_paganism$ $common_folk_religion_desc$"
+  },
+  "samoyedic_paganism": {
+    "name": "Samoyedic Shamanism",
+    "desc": "The $samoyedic_paganism$ $common_folk_religion_desc$"
+  },
+  "obian_paganism": {
+    "name": "Obian Shamanism",
+    "desc": "The $obian_paganism$ $common_folk_religion_desc$"
+  },
+  "arosi_religion": {
+    "name": "Arosi",
+    "desc": "The $arosi_religion$ $common_folk_religion_desc$"
+  },
+  "abu_religion": {
+    "name": "Kwaio",
+    "desc": "The $abu_religion$ $common_folk_religion_desc$"
+  },
+  "ghari_religion": {
+    "name": "Ghari",
+    "desc": "The $ghari_religion$ $common_folk_religion_desc$"
+  },
+  "nduke_religion": {
+    "name": "Nduke",
+    "desc": "The $nduke_religion$ $common_folk_religion_desc$"
+  },
+  "cheke_holo_religion": {
+    "name": "Cheke Holo",
+    "desc": "The $cheke_holo_religion$ $common_folk_religion_desc$"
+  },
+  "vaghua_religion": {
+    "name": "Vaghua",
+    "desc": "The $vaghua_religion$ $common_folk_religion_desc$"
+  },
+  "mu_ngava_religion": {
+    "name": "Mu Ngava",
+    "desc": "The $mu_ngava_religion$ $common_folk_religion_desc$"
+  },
+  "natugu_religion": {
+    "name": "Natugu",
+    "desc": "The $natugu_religion$ $common_folk_religion_desc$"
+  },
+  "qat_religion": {
+    "name": "Qat",
+    "desc": "The $qat_religion$ $common_folk_religion_desc$"
+  },
+  "itaukei_religion": {
+    "name": "Itaukei",
+    "desc": "The $itaukei_religion$ $common_folk_religion_desc$"
+  },
+  "kanak_religion": {
+    "name": "Kanak",
+    "desc": "The $kanak_religion$ $common_folk_religion_desc$"
+  },
+  "puntan_religion": {
+    "name": "Puntan",
+    "desc": "The $puntan_religion$ $common_folk_religion_desc$"
+  },
+  "kajoor_ri_majel_religion": {
+    "name": "Kajoor Ri Majel",
+    "desc": "The $kajoor_ri_majel_religion$ $common_folk_religion_desc$"
+  },
+  "yanolop_religion": {
+    "name": "Yanolop",
+    "desc": "The $yanolop_religion$ $common_folk_religion_desc$"
+  },
+  "inuit_religion": {
+    "name": "Inuit",
+    "desc": "The $inuit_religion$ $common_folk_religion_desc$"
+  },
+  "dene_religion": {
+    "name": "Dene",
+    "desc": "The $dene_religion$ $common_folk_religion_desc$"
+  },
+  "midewiwin_religion": {
+    "name": "",
+    "desc": "The $midewiwin_religion$ $common_folk_religion_desc$"
+  },
+  "dene_shamanism": {
+    "name": "",
+    "desc": "The $dene_shamanism$ $common_folk_religion_desc$"
+  },
+  "dene_totemism": {
+    "name": "Dene Totemism",
+    "desc": "The $dene_totemism$ $common_folk_religion_desc$"
+  },
+  "great_plains_shamanism": {
+    "name": "",
+    "desc": "The $great_plains_shamanism$ $common_folk_religion_desc$"
+  },
+  "iroquoian_totemism": {
+    "name": "",
+    "desc": "The $iroquoian_totemism$ $common_folk_religion_desc$"
+  },
+  "mississippian_ceremonial": {
+    "name": "",
+    "desc": "The $mississippian_ceremonial$ $common_folk_religion_desc$"
+  },
+  "paiute_shamanism": {
+    "name": "",
+    "desc": "The $paiute_shamanism$ $common_folk_religion_desc$"
+  },
+  "pomo_shamanism": {
+    "name": "Kuksu Shamanism",
+    "desc": "The $pomo_shamanism$ $common_folk_religion_desc$"
+  },
+  "salishan_totemism": {
+    "name": "Salishan Totemism",
+    "desc": "The $salishan_totemism$ $common_folk_religion_desc$"
+  },
+  "totemism": {
+    "name": "Totemism",
+    "desc": "The $totemism$ $common_folk_religion_desc$"
+  },
+  "imunu_religion": {
+    "name": "Imunu",
+    "desc": "The $imunu_religion$ $common_folk_religion_desc$"
+  },
+  "moksha_religion": {
+    "name": "Shkayism",
+    "desc": "The $moksha_religion$ $common_folk_religion_desc$"
+  },
+  "erzya_religion": {
+    "name": "Pazon Koy",
+    "desc": "The $erzya_religion$ $common_folk_religion_desc$"
+  },
+  "inti": {
+    "name": "Inti",
+    "desc": "$inti_god$, together with $viracocha$, are the main gods that guide and protect the people of the $andes_region$"
+  },
+  "naylamp_religion": {
+    "name": "Naylamp",
+    "desc": "The $naylamp_religion$ $common_folk_religion_desc$"
+  },
+  "umina_religion": {
+    "name": "Umiña",
+    "desc": "The $umina_religion$ $common_folk_religion_desc$"
+  },
+  "jama_religion": {
+    "name": "Jama",
+    "desc": "The $jama_religion$ $common_folk_religion_desc$"
+  },
+  "pi_religion": {
+    "name": "Pi",
+    "desc": "The $pi_religion$ $common_folk_religion_desc$"
+  },
+  "arutam_religion": {
+    "name": "Arútam",
+    "desc": "The $arutam_religion$ $common_folk_religion_desc$"
+  },
+  "chango_religion": {
+    "name": "Chango",
+    "desc": "The $chango_religion$ $common_folk_religion_desc$"
+  },
+  "cebil_religion": {
+    "name": "Cebil",
+    "desc": "The $cebil_religion$ $common_folk_religion_desc$"
+  },
+  "yastay_religion": {
+    "name": "Yastay",
+    "desc": "The $yastay_religion$ $common_folk_religion_desc$"
+  },
+  "gos_religion": {
+    "name": "Gos",
+    "desc": "The $gos_religion$ $common_folk_religion_desc$"
+  },
+  "pava_religion": {
+    "name": "Pává",
+    "desc": "The $pava_religion$ $common_folk_religion_desc$"
+  },
+  "chanka_religion": {
+    "name": "Chanka",
+    "desc": "The $chanka_religion$ $common_folk_religion_desc$"
+  },
+  "chincha_religion": {
+    "name": "Chincha",
+    "desc": "The $chincha_religion$ $common_folk_religion_desc$"
+  },
+  "tapu_religion": {
+    "name": "Tapu",
+    "desc": "The $tapu_religion$ $common_folk_religion_desc$"
+  },
+  "tokelauan_religion": {
+    "name": "Tokelauan",
+    "desc": "The $tokelauan_religion$ $common_folk_religion_desc$"
+  },
+  "kaharingan_religion": {
+    "name": "Kaharingan",
+    "desc": "The $kaharingan_religion$ $common_folk_religion_desc$"
+  },
+  "kan_khwan_religion": {
+    "name": "Kan Khwan",
+    "desc": "The $kan_khwan_religion$ $common_folk_religion_desc$"
+  },
+  "adat_puun_religion": {
+    "name": "Adat Pu'un",
+    "desc": "The $adat_puun_religion$ $common_folk_religion_desc$"
+  },
+  "momolianism_religion": {
+    "name": "Momolianism",
+    "desc": "The $momolianism_religion$ $common_folk_religion_desc$"
+  },
+  "besavik_religion": {
+    "name": "Besavik",
+    "desc": "The $besavik_religion$ $common_folk_religion_desc$"
+  },
+  "aluk_religion": {
+    "name": "Aluk",
+    "desc": "The $aluk_religion$ $common_folk_religion_desc$"
+  },
+  "malesung_religion": {
+    "name": "Malesung",
+    "desc": "The $malesung_religion$ $common_folk_religion_desc$"
+  },
+  "marapu_religion": {
+    "name": "Marapu",
+    "desc": "The $marapu_religion$ $common_folk_religion_desc$"
+  },
+  "arat_sabulungan_religion": {
+    "name": "Arat Sabulungan",
+    "desc": "The $arat_sabulungan_religion$ $common_folk_religion_desc$"
+  },
+  "pengarap_asal_religion": {
+    "name": "Pengarap Asal",
+    "desc": "The $pengarap_asal_religion$ $common_folk_religion_desc$"
+  },
+  "ipok_religion": {
+    "name": "Ipok",
+    "desc": "The $ipok_religion$ $common_folk_religion_desc$"
+  },
+  "banunut_religion": {
+    "name": "Banunut",
+    "desc": "The $banunut_religion$ $common_folk_religion_desc$"
+  },
+  "lamoa_religion": {
+    "name": "Lamoa",
+    "desc": "The $lamoa_religion$ $common_folk_religion_desc$"
+  },
+  "tolotang_religion": {
+    "name": "Tolotang",
+    "desc": "The $tolotang_religion$ $common_folk_religion_desc$"
+  },
+  "tolaki_religion": {
+    "name": "Tolaki",
+    "desc": "The $tolaki_religion$ $common_folk_religion_desc$"
+  },
+  "buton_religion": {
+    "name": "Buton",
+    "desc": "The $buton_religion$ $common_folk_religion_desc$"
+  },
+  "tomanuru_religion": {
+    "name": "Tomanuru",
+    "desc": "The $tomanuru_religion$ $common_folk_religion_desc$"
+  },
+  "gorontalo_religion": {
+    "name": "Gorontalo",
+    "desc": "The $gorontalo_religion$ $common_folk_religion_desc$"
+  },
+  "adat_musi_religion": {
+    "name": "Adat Musi",
+    "desc": "The $adat_musi_religion$ $common_folk_religion_desc$"
+  },
+  "sangirese_religion": {
+    "name": "Sangirese",
+    "desc": "The $sangirese_religion$ $common_folk_religion_desc$"
+  },
+  "wetarese_religion": {
+    "name": "Wetarese",
+    "desc": "The $wetarese_religion$ $common_folk_religion_desc$"
+  },
+  "kirin_koda_religion": {
+    "name": "Kirin Koda",
+    "desc": "The $kirin_koda_religion$ $common_folk_religion_desc$"
+  },
+  "dua_nggae_religion": {
+    "name": "Du'a Ngga'e",
+    "desc": "The $dua_nggae_religion$ $common_folk_religion_desc$"
+  },
+  "lamatuan_religion": {
+    "name": "Lamatuan",
+    "desc": "The $lamatuan_religion$ $common_folk_religion_desc$"
+  },
+  "naurus_religion": {
+    "name": "Naurus",
+    "desc": "The $naurus_religion$ $common_folk_religion_desc$"
+  },
+  "mitu_religion": {
+    "name": "Mitu",
+    "desc": "The $mitu_religion$ $common_folk_religion_desc$"
+  },
+  "sula_religion": {
+    "name": "Sula",
+    "desc": "The $sula_religion$ $common_folk_religion_desc$"
+  },
+  "kolano_religion": {
+    "name": "Kolano",
+    "desc": "The $kolano_religion$ $common_folk_religion_desc$"
+  },
+  "goma_religion": {
+    "name": "Goma",
+    "desc": "The $goma_religion$ $common_folk_religion_desc$"
+  },
+  "anitism_religion": {
+    "name": "Anitism",
+    "desc": "The $anitism_religion$ $common_folk_religion_desc$"
+  },
+  "orang_laut_religion": {
+    "name": "Orang Laut",
+    "desc": "The $orang_laut_religion$ $common_folk_religion_desc$"
+  },
+  "minangkabau_religion": {
+    "name": "Minangkabau",
+    "desc": "The $minangkabau_religion$ $common_folk_religion_desc$"
+  },
+  "pelebegu_religion": {
+    "name": "Pelebegu",
+    "desc": "The $pelebegu_religion$ $common_folk_religion_desc$"
+  },
+  "nyang_serai_religion": {
+    "name": "Nyang Serai",
+    "desc": "The $nyang_serai_religion$ $common_folk_religion_desc$"
+  },
+  "piil_pesenggiri_religion": {
+    "name": "Piil Pesenggiri",
+    "desc": "The $piil_pesenggiri_religion$ $common_folk_religion_desc$"
+  },
+  "orang_rimba_religion": {
+    "name": "Orang Rimba",
+    "desc": "The $orang_rimba_religion$ $common_folk_religion_desc$"
+  },
+  "enggano_religion": {
+    "name": "Enggano",
+    "desc": "The $enggano_religion$ $common_folk_religion_desc$"
+  },
+  "degar_religion": {
+    "name": "Degar",
+    "desc": "The $degar_religion$ $common_folk_religion_desc$"
+  },
+  "sanamahism": {
+    "name": "",
+    "desc": "The $sanamahism$ $common_folk_religion_desc$"
+  },
+  "satsana_phi": {
+    "name": "",
+    "desc": "The $satsana_phi$ $common_folk_religion_desc$"
+  },
+  "maleiwa_religion": {
+    "name": "Maleiwa",
+    "desc": "The $maleiwa_religion$ $common_folk_religion_desc$"
+  },
+  "yopo_religion": {
+    "name": "Yopo",
+    "desc": "The $yopo_religion$ $common_folk_religion_desc$"
+  },
+  "sinu_religion": {
+    "name": "Sinu",
+    "desc": "The $sinu_religion$ $common_folk_religion_desc$"
+  },
+  "warao_religion": {
+    "name": "Warao",
+    "desc": "The $warao_religion$ $common_folk_religion_desc$"
+  },
+  "naoma_religion": {
+    "name": "Naoma",
+    "desc": "The $naoma_religion$ $common_folk_religion_desc$"
+  },
+  "muisca_religion": {
+    "name": "Bozic Ie",
+    "desc": "The $muisca_religion$ $common_folk_religion_desc$"
+  },
+  "nacuco_religion": {
+    "name": "Nacuco",
+    "desc": "The $nacuco_religion$ $common_folk_religion_desc$"
+  },
+  "jai_religion": {
+    "name": "Jai",
+    "desc": "The $jai_religion$ $common_folk_religion_desc$"
+  },
+  "yage_religion": {
+    "name": "Yagé",
+    "desc": "The $yage_religion$ $common_folk_religion_desc$"
+  },
+  "judaism": {
+    "name": "Judaism",
+    "desc": "The original Abrahamic faith, $judaism$ adheres to the covenant made between God and Moses. The $judaism_ADJ$ Bible is the Tānāḵ, of which the first five books are known as the Tōrā, serving as the basis of all $judaism_ADJ$ faith and practice."
+  },
+  "samaritanism": {
+    "name": "Samaritanism",
+    "desc": "The traditional faith of the $samaritan_culture$, it emerged from $judaism$ after the fall of the Kingdom of Israel. $samaritanism$ considers itself to be the unchanged faith of the $israelite_group$ people from the times of Moses, in contrast to what they believe is a corruption of the scriptures by $judaism$."
+  },
+  "mandeaism": {
+    "name": "Mandaeaism",
+    "desc": "A gnostic religion considering John the Baptist to be the final prophet, $mandeaism$ also includes $greek_culture$ and $iranian_group$ influences. Although it considers as such some prophets of other Abrahamic religions, it does not consider Abraham, Moses, or Jesus to be $mandeaism_ADJ$ prophets. The God of $mandeaism$ is called $mandeaism_god_name$, meaning 'Great Life', and it represents the creative force of the universe."
+  },
+  "manichaeism": {
+    "name": "Manichaeism",
+    "desc": "$manichaeism$ is an $iranian_group$ religion founded by the prophet Mani in the Sasanian Empire. It has influences by many other religions, including Gnosticism, $zoroastrian$, $christian$, and $buddhist$ among others, but considers Mani to be the final prophet after Zoroaster, Buddha, and Jesus. Its theology is dualistic, describing the universe as a spiritual struggle between light and darkness."
+  },
+  "ibadi": {
+    "name": "Ibadism",
+    "desc": "$ibadi_school_desc$"
+  },
+  "shia": {
+    "name": "Shiism",
+    "desc": "The basis of the $shia_ADJ$ faith is that Muḥammad designated 'Alī ibn Abī Ṭālib as his successor as the spiritual and political leader of $muslim$. As such, the $imamate$ is to follow 'Alī's line rather than the one established by 'Abū Bakr when he was chosen as $rank_empire_muslim_ruler_male$ at the meeting of Saqīfah by the companions of Muḥammad."
+  },
+  "sunni": {
+    "name": "Sunnism",
+    "desc": "$sunni$ holds that the leadership of $muslim$ was passed to 'Abū Bakr when he was chosen as $rank_empire_muslim_ruler_male$ at the meeting of Saqīfah by the companions of Muḥammad, as the Prophet himself did not appoint any successor. It thus reveres the al-Rāshidūn, the first four $rank_empire_muslim_ruler_male$ after Muḥammad, as a model of governance."
+  },
+  "nahuatl": {
+    "name": "Nahua",
+    "desc": "The religion of the $nahua_group$, in which the many $nahuatl_god_name$ or gods are organized under the supreme god Ōmeteōtl. Many other gods, like $huitzilopochtli_god$, $tlaloc_god$, or $quetzalcoatl_god$ are commonly adopted as patron of estates or peoples. One of its key practices is that of human sacrifice, performed in honor of the gods and a necessity to keep their favor."
+  },
+  "mesoamerican": {
+    "name": "Tonal",
+    "desc": "The $mesoamerican$ $common_folk_religion_desc$"
+  },
+  "mayan": {
+    "name": "Maya",
+    "desc": "The $mayan$ $common_folk_religion_desc$"
+  },
+  "chichimecah_religion": {
+    "name": "Chīchīmēcah",
+    "desc": "The $chichimecah_religion$ $common_folk_religion_desc$"
+  },
+  "yazidism": {
+    "name": "Yazidism",
+    "desc": "Emerging from an $iranian_group$ tradition, it also contains elements from $judaism$, $christian$, and $muslim$. It beliefs that the universe was created by God but that he appointed the 'Peacock Angel' Tawûsî Melek to rule over it. Although it contains many influences by other religions, especially in its esoteric practices, its core is rooted in the ancient $iranian_group$ religions."
+  },
+  "zoroastrian": {
+    "name": "Zoroastrianism",
+    "desc": "An ancient $iranian_group$ religion following the teachings of Zoroaster, also called Zarathustra, and the texts of the Avesta. It is based on a dualistic cosmology of good and evil, with the eternal conflict of the deity Ahura Mazdā and the destructive spirit Angra Mainyu, with a predicted ultimate triumph of good over evil."
+  },
+  "folk_melanesian_group": {
+    "name": "Melanesian Folk Religions"
+  },
+  "folk_brazilian_group": {
+    "name": "Brazilian Folk Religions"
+  },
+  "folk_papuan_group": {
+    "name": "Papuan Folk Religions"
+  },
+  "folk_se_asian_group": {
+    "name": "South East Asian Folk Religions"
+  },
+  "yazidi_group": {
+    "name": "Yazidi"
+  },
+  "folk_african_group": {
+    "name": "African Folk Religions"
+  },
+  "folk_north_american_group": {
+    "name": "North American Folk Religions"
+  },
+  "israelite_group": {
+    "name": "Israelite"
+  },
+  "dharmic": {
+    "name": "Dharma"
+  },
+  "buddhist": {
+    "name": "Buddhism"
+  },
+  "manichaean_group": {
+    "name": "Manichaeism"
+  },
+  "folk_argentinian_group": {
+    "name": "Argentinian Folk Religions"
+  },
+  "folk_micronesian_group": {
+    "name": "Micronesian Folk Religions"
+  },
+  "folk_caribbean_group": {
+    "name": "Caribbean Folk Religions"
+  },
+  "folk_central_american_group": {
+    "name": "Central American Folk Religions"
+  },
+  "folk_south_american_group": {
+    "name": "South American Folk Religions"
+  },
+  "zoroastrian_group": {
+    "name": "Zoroastrianism"
+  },
+  "folk_polynesian_group": {
+    "name": "Polynesian Folk Religions"
+  },
+  "christian": {
+    "name": "Christianity"
+  },
+  "folk_aridoamerica_group": {
+    "name": "Aridoamerican Folk Religions"
+  },
+  "muslim": {
+    "name": "Islam"
+  },
+  "tonal_group": {
+    "name": "Tonal Religions"
+  },
+  "folk_european_group": {
+    "name": "European Folk Religions"
+  },
+  "folk_peruvian_group": {
+    "name": "Andean Folk Religions"
+  },
+  "folk_permic_group": {
+    "name": "Permic Folk Religions"
+  },
+  "mandean_group": {
+    "name": "Mandaean"
+  },
+  "druze_group": {
+    "name": "Druze"
+  },
+  "folk_asian_group": {
+    "name": "Asian Folk Religions"
+  },
+  "folk_australian_group": {
+    "name": "Australian Folk Religions"
+  }
+}

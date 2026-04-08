@@ -1,0 +1,22 @@
+{
+  "monarchy": {
+    "name": "Monarchia",
+    "desc": "$monarchy$ to oparty na zasadzie niepodzielnego zwierzchnictwa jednostki, w którym jest pierwszym wśród szlachty. [Concept('heir','Dziedzica')|e] wybiera zwykle rządząca i zwykle osoba ta sprawuje władzę do końca życia.\\n\\n$game_concept_monarchs$ może zawrzeć , aby zawiązać , a nawet odziedziczyć obce poprzez . Kwestie dotyczące porządku sukcesji są jednak często problematyczne, dlatego monarchie mogą łatwo dostawać się w ręce [Concept('regencies','regentów')|e] lub pod wpływ obcych dynastii."
+  },
+  "republic": {
+    "name": "Republika",
+    "desc": "$republic$ to , w którym są wybierani na drodze [Concept('election','wyborów')|e] i przez określony czas pełnią rolę reprezentantów społeczeństwa. W zależności od obowiązującego [Concept('heir_selection','porządku sukcesji')|e] władca może należeć do któregokolwiek ze [Concept('estates','stanów')|e].\\n\\nSiła instytucji politycznych czyni republikę bardziej odporną na problemy z dziedziczeniem, jednakże mniej osobista natura władzy ogranicza dostępne możliwości dyplomatyczne. Z tego względu grają tu mniejszą rolę, a ponadto republiki nie odnoszą żadnych korzyści z [Concept('royal_marriages','małżeństw królewskich')|e]."
+  },
+  "theocracy": {
+    "name": "Teokracja",
+    "desc": "$theocracy$ to oparty za zasadzie boskiego zwierzchnictwa, w którym [Concept('ruler','władca')|e] wywodzi się spośród sług wiary, a kwestie świeckie są podporządkowywane władzy religijnej.\\n\\nOsoby rządzące są zwykle wybierane na całe życie w pewnego rodzaju [Concept('election','wyborach')|e], co pozwala na mniej problematyczne przeniesienie władzy."
+  },
+  "steppe_horde": {
+    "name": "Orda stepowa",
+    "desc": "$steppe_horde$ to oparty na potędze wojskowej jego [Concept('ruler','władcy')|e]. Jego krewni mają większą szansę na zostanie [Concept('heir','dziedzicami')|e], ale znaczenie w tej kwestii mają także starszeństwo oraz osobiste.\\n\\nWładcy to zwykle przedstawiciele elity społeczeństwa, którzy cieszą się lojalnością swojego stanu tak długo, jak długo zdolni są do podporządkowywania sobie, najeżdżania i łupienia sąsiednich [Concept('countries','krajów')|e]. Z tego też powodu sukcesja stanowi w przypadku ordy doniosłe wydarzenie, a nawet może doprowadzić do jej upadku, jeśli nowy władca nie będzie w stanie zademonstrować odpowiedniej siły."
+  },
+  "tribe": {
+    "name": "Plemię",
+    "desc": "$tribe$ to , w którym siła polityczna jest zorganizowana przede wszystkim wokół idei pokrewieństwa – czy to więzów krwi, czy domniemanego pochodzenia.\\n\\ndynasties oraz relacje rodzinne są więc najważniejsze, jeśli chodzi o wybór [Concept('heir','dziedzica')|e], który zawsze będzie wywodzić się spośród elitarnych członków społeczeństwa, ale często wysoce poważane są także starszeństwo, osobiste oraz biegłość w walce."
+  }
+}

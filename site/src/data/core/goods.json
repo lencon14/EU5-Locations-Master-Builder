@@ -1,0 +1,1304 @@
+[
+  {
+    "id": "horses",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 3,
+    "transport_cost": 2,
+    "base_production": 0,
+    "origin": "old_world",
+    "tags": [
+      "old_world_goods"
+    ],
+    "demand_add": {
+      "nobles": 0.25
+    },
+    "icon": "icons/trade_goods/icon_goods_horses.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "clay",
+    "category": "raw_material",
+    "method": "gathering",
+    "default_market_price": 0.5,
+    "transport_cost": 2,
+    "base_production": 0.4,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_clay.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "sand",
+    "category": "raw_material",
+    "method": "gathering",
+    "default_market_price": 0.5,
+    "transport_cost": 2,
+    "base_production": 0.2,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_sand.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "coal",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 2,
+    "transport_cost": 2,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.0001
+    },
+    "demand_multiply": {
+      "upper": 25,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_coal.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "iron",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 3,
+    "transport_cost": 1,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_iron.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "copper",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 3,
+    "transport_cost": 1,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_copper.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "goods_gold",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 10,
+    "transport_cost": 2,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.025
+    },
+    "wealth_impact_threshold": {
+      "all": 1.05
+    },
+    "icon": "icons/trade_goods/icon_goods_goods_gold.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "silver",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 8,
+    "transport_cost": 2,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.025
+    },
+    "wealth_impact_threshold": {
+      "all": 1.05
+    },
+    "icon": "icons/trade_goods/icon_goods_silver.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "stone",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 1,
+    "transport_cost": 2,
+    "base_production": 0.2,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_stone.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "tin",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 2,
+    "transport_cost": 1,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_tin.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "lead",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 2,
+    "transport_cost": 1,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_lead.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "silk",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 4,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_silk.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "dyes",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 4,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_dyes.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "incense",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 2.5,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "clergy": 0.01
+    },
+    "wealth_impact_threshold": {
+      "all": 0.5
+    },
+    "icon": "icons/trade_goods/icon_goods_incense.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "tea",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.2,
+      "burghers": 0.01,
+      "clergy": 0.01
+    },
+    "wealth_impact_threshold": {
+      "all": 0.75
+    },
+    "icon": "icons/trade_goods/icon_goods_tea.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "cocoa",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 4,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "new_world",
+    "tags": [
+      "new_world_goods"
+    ],
+    "demand_add": {
+      "nobles": 0.1,
+      "burghers": 0.01,
+      "clergy": 0.01
+    },
+    "wealth_impact_threshold": {
+      "all": 0.75
+    },
+    "icon": "icons/trade_goods/icon_goods_cocoa.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "coffee",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "old_world",
+    "tags": [
+      "old_world_goods"
+    ],
+    "demand_add": {
+      "nobles": 0.01,
+      "burghers": 0.001,
+      "clergy": 0.0005,
+      "soldiers": 0.001
+    },
+    "wealth_impact_threshold": {
+      "all": 0.75
+    },
+    "icon": "icons/trade_goods/icon_goods_coffee.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "fiber_crops",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 2,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_fiber_crops.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "ivory",
+    "category": "raw_material",
+    "method": "hunting",
+    "default_market_price": 4,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.05
+    },
+    "wealth_impact_threshold": {
+      "all": 1.1
+    },
+    "development_threshold": 20,
+    "icon": "icons/trade_goods/icon_goods_ivory.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "lumber",
+    "category": "raw_material",
+    "method": "forestry",
+    "default_market_price": 1.5,
+    "transport_cost": 1,
+    "base_production": 0.1,
+    "tags": [],
+    "demand_add": {
+      "all": 0.00025
+    },
+    "demand_multiply": {
+      "upper": 5,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_lumber.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "salt",
+    "category": "raw_material",
+    "method": "gathering",
+    "default_market_price": 4,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.05,
+      "burghers": 0.02,
+      "clergy": 0.02
+    },
+    "wealth_impact_threshold": {
+      "all": 0.7
+    },
+    "icon": "icons/trade_goods/icon_goods_salt.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "medicaments",
+    "category": "raw_material",
+    "method": "gathering",
+    "default_market_price": 1,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.0004
+    },
+    "demand_multiply": {
+      "nobles": 5,
+      "clergy": 2.5,
+      "burghers": 1.5,
+      "slaves": 0.1,
+      "tribesmen": 0
+    },
+    "wealth_impact_threshold": {
+      "all": 1.1
+    },
+    "icon": "icons/trade_goods/icon_goods_medicaments.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "gems",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 4,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.05
+    },
+    "wealth_impact_threshold": {
+      "all": 1.25
+    },
+    "icon": "icons/trade_goods/icon_goods_gems.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "pearls",
+    "category": "raw_material",
+    "method": "gathering",
+    "default_market_price": 4,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.05,
+      "burghers": 0.0025
+    },
+    "wealth_impact_threshold": {
+      "nobles": 1.0,
+      "burghers": 1.5
+    },
+    "development_threshold": 20,
+    "icon": "icons/trade_goods/icon_goods_pearls.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "amber",
+    "category": "raw_material",
+    "method": "gathering",
+    "default_market_price": 4,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.1,
+      "burghers": 0.005
+    },
+    "wealth_impact_threshold": {
+      "nobles": 1.0,
+      "burghers": 1.5
+    },
+    "icon": "icons/trade_goods/icon_goods_amber.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "saltpeter",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 2,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_saltpeter.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "alum",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_alum.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "wine",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 2,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "old_world",
+    "tags": [
+      "old_world_goods"
+    ],
+    "demand_add": {
+      "all": 0.0004
+    },
+    "demand_multiply": {
+      "upper": 10,
+      "nobles": 1.5,
+      "slaves": 0,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_wine.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "elephants",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 10,
+    "transport_cost": 5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.1
+    },
+    "wealth_impact_threshold": {
+      "nobles": 2
+    },
+    "icon": "icons/trade_goods/icon_goods_elephants.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "marble",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 5,
+    "transport_cost": 3,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.05
+    },
+    "wealth_impact_threshold": {
+      "nobles": 1.5
+    },
+    "development_threshold": 40,
+    "icon": "icons/trade_goods/icon_goods_marble.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "mercury",
+    "category": "raw_material",
+    "method": "mining",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 5e-05
+    },
+    "demand_multiply": {
+      "tribesmen": 0
+    },
+    "wealth_impact_threshold": {
+      "all": 1.0
+    },
+    "icon": "icons/trade_goods/icon_goods_mercury.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "saffron",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 5,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.05,
+      "burghers": 0.002,
+      "clergy": 0.005
+    },
+    "wealth_impact_threshold": {
+      "all": 1.1
+    },
+    "icon": "icons/trade_goods/icon_goods_saffron.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "pepper",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 5,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.05,
+      "burghers": 0.0025,
+      "clergy": 0.005
+    },
+    "wealth_impact_threshold": {
+      "all": 1.1
+    },
+    "icon": "icons/trade_goods/icon_goods_pepper.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "cloves",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 5,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.05,
+      "burghers": 0.0025,
+      "clergy": 0.005
+    },
+    "wealth_impact_threshold": {
+      "all": 1.1
+    },
+    "icon": "icons/trade_goods/icon_goods_cloves.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "chili",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 5,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "origin": "new_world",
+    "tags": [
+      "new_world_goods"
+    ],
+    "demand_add": {
+      "nobles": 0.05,
+      "burghers": 0.0025,
+      "clergy": 0.005
+    },
+    "wealth_impact_threshold": {
+      "all": 1.1
+    },
+    "icon": "icons/trade_goods/icon_goods_chili.png",
+    "source_file": "00_raw_materials.txt"
+  },
+  {
+    "id": "cotton",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "old_world",
+    "tags": [
+      "old_world_goods"
+    ],
+    "icon": "icons/trade_goods/icon_goods_cotton.png",
+    "source_file": "01_plantation_goods.txt"
+  },
+  {
+    "id": "sugar",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "old_world",
+    "tags": [
+      "old_world_goods"
+    ],
+    "demand_add": {
+      "nobles": 0.05,
+      "burghers": 0.005,
+      "clergy": 0.005
+    },
+    "icon": "icons/trade_goods/icon_goods_sugar.png",
+    "source_file": "01_plantation_goods.txt"
+  },
+  {
+    "id": "tobacco",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "new_world",
+    "tags": [
+      "new_world_goods"
+    ],
+    "demand_add": {
+      "nobles": 0.05,
+      "burghers": 0.005,
+      "clergy": 0.005
+    },
+    "icon": "icons/trade_goods/icon_goods_tobacco.png",
+    "source_file": "01_plantation_goods.txt"
+  },
+  {
+    "id": "tar",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 2,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_tar.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "porcelain",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 3,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "upper": 0.0005
+    },
+    "demand_multiply": {
+      "nobles": 20
+    },
+    "wealth_impact_threshold": {
+      "all": 1.1
+    },
+    "development_threshold": 30,
+    "icon": "icons/trade_goods/icon_goods_porcelain.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "naval_supplies",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_naval_supplies.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "firearms",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 3,
+    "transport_cost": 1.0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.2,
+      "soldiers": 0.001
+    },
+    "wealth_impact_threshold": {
+      "all": 1.2
+    },
+    "icon": "icons/trade_goods/icon_goods_firearms.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "cannons",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 4,
+    "transport_cost": 1.0,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_cannons.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "weaponry",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.1,
+      "soldiers": 0.0025,
+      "laborers": 0.0005,
+      "peasants": 0.0005
+    },
+    "wealth_impact_threshold": {
+      "all": 1.1
+    },
+    "icon": "icons/trade_goods/icon_goods_weaponry.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "glass",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 2,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_glass.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "steel",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 5,
+    "transport_cost": 1,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_steel.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "cloth",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 3,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "peasants": 0.0005,
+      "soldiers": 0.001,
+      "laborers": 0.0005,
+      "slaves": 0.0002,
+      "burghers": 0.01,
+      "clergy": 0.02
+    },
+    "wealth_impact_threshold": {
+      "all": 1.0
+    },
+    "icon": "icons/trade_goods/icon_goods_cloth.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "fine_cloth",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 6,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.2,
+      "burghers": 0.025,
+      "clergy": 0.025
+    },
+    "wealth_impact_threshold": {
+      "all": 1.25
+    },
+    "development_threshold": 20,
+    "icon": "icons/trade_goods/icon_goods_fine_cloth.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "liquor",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 2.5,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.0008
+    },
+    "demand_multiply": {
+      "upper": 5,
+      "nobles": 2,
+      "slaves": 0,
+      "tribesmen": 0
+    },
+    "wealth_impact_threshold": {
+      "all": 0.5
+    },
+    "icon": "icons/trade_goods/icon_goods_liquor.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "beer",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 2,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.0016
+    },
+    "demand_multiply": {
+      "upper": 5,
+      "nobles": 2,
+      "slaves": 0,
+      "tribesmen": 0
+    },
+    "wealth_impact_threshold": {
+      "all": 0.75
+    },
+    "icon": "icons/trade_goods/icon_goods_beer.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "paper",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 2,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.01,
+      "burghers": 0.02,
+      "clergy": 0.04
+    },
+    "wealth_impact_threshold": {
+      "all": 1.2
+    },
+    "development_threshold": 20,
+    "icon": "icons/trade_goods/icon_goods_paper.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "books",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 5,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.01,
+      "burghers": 0.02,
+      "clergy": 0.04
+    },
+    "wealth_impact_threshold": {
+      "all": 1.1
+    },
+    "development_threshold": 30,
+    "icon": "icons/trade_goods/icon_goods_books.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "jewelry",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 5,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.1,
+      "burghers": 0.005
+    },
+    "wealth_impact_threshold": {
+      "all": 1.2
+    },
+    "icon": "icons/trade_goods/icon_goods_jewelry.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "leather",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_leather.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "tools",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 3,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "laborers": 0.001
+    },
+    "wealth_impact_threshold": {
+      "all": 0.75
+    },
+    "icon": "icons/trade_goods/icon_goods_tools.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "masonry",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 1,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 1e-05
+    },
+    "demand_multiply": {
+      "upper": 1.5,
+      "slaves": 0,
+      "tribesmen": 0
+    },
+    "wealth_impact_threshold": {
+      "all": 1.0
+    },
+    "icon": "icons/trade_goods/icon_goods_masonry.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "lacquerware",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 5,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "nobles": 0.05,
+      "burghers": 0.02
+    },
+    "wealth_impact_threshold": {
+      "all": 1.2
+    },
+    "development_threshold": 20,
+    "icon": "icons/trade_goods/icon_goods_lacquerware.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "pottery",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 1,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.002
+    },
+    "demand_multiply": {
+      "laborers": 1.1,
+      "burghers": 1.2,
+      "slaves": 0,
+      "tribesmen": 0
+    },
+    "wealth_impact_threshold": {
+      "all": 1.0
+    },
+    "icon": "icons/trade_goods/icon_goods_pottery.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "furniture",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 3,
+    "transport_cost": 0.5,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.001
+    },
+    "demand_multiply": {
+      "upper": 10,
+      "nobles": 2,
+      "slaves": 0,
+      "tribesmen": 0
+    },
+    "wealth_impact_threshold": {
+      "all": 1.0
+    },
+    "icon": "icons/trade_goods/icon_goods_furniture.png",
+    "source_file": "02_produced_goods.txt"
+  },
+  {
+    "id": "wool",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 1.25,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_wool.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "wild_game",
+    "category": "raw_material",
+    "method": "hunting",
+    "default_market_price": 1,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.0004
+    },
+    "demand_multiply": {
+      "nobles": 20,
+      "clergy": 5,
+      "burghers": 5,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_wild_game.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "fur",
+    "category": "raw_material",
+    "method": "hunting",
+    "default_market_price": 2,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "upper": 0.05
+    },
+    "demand_multiply": {
+      "nobles": 10
+    },
+    "wealth_impact_threshold": {
+      "all": 1.1
+    },
+    "icon": "icons/trade_goods/icon_goods_fur.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "fish",
+    "category": "raw_material",
+    "method": "gathering",
+    "default_market_price": 1,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.001
+    },
+    "demand_multiply": {
+      "upper": 2,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_fish.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "wheat",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 1,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "old_world",
+    "tags": [
+      "old_world_goods"
+    ],
+    "demand_add": {
+      "all": 0.001
+    },
+    "demand_multiply": {
+      "upper": 2.5,
+      "slaves": 0,
+      "tribesmen": 0
+    },
+    "wealth_impact_threshold": {
+      "peasants": 1.1,
+      "laborers": 1.1,
+      "soldiers": 1.0
+    },
+    "icon": "icons/trade_goods/icon_goods_wheat.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "maize",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 1,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "new_world",
+    "tags": [
+      "new_world_goods"
+    ],
+    "demand_add": {
+      "all": 0.008
+    },
+    "demand_multiply": {
+      "upper": 2,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_maize.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "rice",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 1,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "old_world",
+    "tags": [
+      "old_world_goods"
+    ],
+    "demand_add": {
+      "all": 0.0005
+    },
+    "demand_multiply": {
+      "upper": 2,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_rice.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "millet",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 1,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "old_world",
+    "tags": [
+      "old_world_goods"
+    ],
+    "demand_add": {
+      "all": 0.002
+    },
+    "demand_multiply": {
+      "upper": 2,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_millet.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "legumes",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 1,
+    "transport_cost": 2,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.001
+    },
+    "demand_multiply": {
+      "upper": 2,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_legumes.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "potato",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 1,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "new_world",
+    "tags": [
+      "new_world_goods"
+    ],
+    "demand_add": {
+      "peasants": 0.001,
+      "laborers": 0.001
+    },
+    "demand_multiply": {
+      "upper": 2
+    },
+    "icon": "icons/trade_goods/icon_goods_potato.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "livestock",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 1.5,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "old_world",
+    "tags": [
+      "old_world_goods"
+    ],
+    "demand_add": {
+      "all": 0.001
+    },
+    "demand_multiply": {
+      "nobles": 30,
+      "clergy": 10,
+      "burghers": 10,
+      "slaves": 0,
+      "tribesmen": 0
+    },
+    "wealth_impact_threshold": {
+      "peasants": 1.1,
+      "laborers": 1.1,
+      "soldiers": 1.1
+    },
+    "icon": "icons/trade_goods/icon_goods_livestock.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "olives",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 1,
+    "transport_cost": 0,
+    "base_production": 0,
+    "origin": "old_world",
+    "tags": [
+      "old_world_goods"
+    ],
+    "demand_add": {
+      "all": 0.001
+    },
+    "demand_multiply": {
+      "upper": 2,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_olives.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "fruit",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 1,
+    "transport_cost": 2,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.002
+    },
+    "demand_multiply": {
+      "upper": 2,
+      "tribesmen": 0
+    },
+    "icon": "icons/trade_goods/icon_goods_fruit.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "beeswax",
+    "category": "raw_material",
+    "method": "farming",
+    "default_market_price": 2,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "demand_add": {
+      "all": 0.001
+    },
+    "demand_multiply": {
+      "upper": 2,
+      "slaves": 0,
+      "tribesmen": 0
+    },
+    "wealth_impact_threshold": {
+      "peasants": 1.1,
+      "laborers": 1.1,
+      "soldiers": 1.1
+    },
+    "icon": "icons/trade_goods/icon_goods_beeswax.png",
+    "source_file": "03_food.txt"
+  },
+  {
+    "id": "slaves_goods",
+    "category": "produced",
+    "method": "",
+    "default_market_price": 3,
+    "transport_cost": 0,
+    "base_production": 0,
+    "tags": [],
+    "icon": "icons/trade_goods/icon_goods_slaves_goods.png",
+    "source_file": "04_special.txt"
+  }
+]

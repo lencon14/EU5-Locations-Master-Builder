@@ -8,3 +8,4 @@ slaves_goods = {
 
 }
 
+

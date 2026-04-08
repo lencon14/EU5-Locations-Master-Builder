@@ -1,0 +1,298 @@
+{
+  "horses": {
+    "name": "Horses",
+    "desc": "Horses were domesticated at an unknown point of the Eurasian Steppe around six thousand years ago. Since then, they have been used by people for a wide variety of tasks, although the most important has been waging war. In that sense, the Middle Ages were the Golden Age of cavalry, as it was closely linked to the development of feudal societies."
+  },
+  "clay": {
+    "name": "Clay",
+    "desc": "Clay is a type of soil that has been used by humanity for the production of pottery and ceramics since prehistoric times. Another main use is in construction, in combination with other materials, or in the creation of bricks. Clay tablets were also one of the first writing methods invented, so its impact in the development of civilization is undeniable."
+  },
+  "sand": {
+    "name": "Sand",
+    "desc": "Sand is one of the most common materials on Earth, and its uses are multiple and varied. It has been the most pervasive abrading material used to shape any kind of stone or metal due to it being coarse and rough, as a component of many building materials and as the main material for the production of glass, among many other uses."
+  },
+  "coal": {
+    "name": "Coal",
+    "desc": "Coal has a long history as a source of fuel, but it is not until the invention and dissemination of the practical steam engine that demand would take off. As the Industrial Revolution swept across Europe, the use and export or import of coal would become a major business and an integral part of a modern economy."
+  },
+  "iron": {
+    "name": "Iron",
+    "desc": "Iron represents not just iron, but other ferrous metals. Iron formed the basis of the metallurgical industry and was used extensively in the production of weapons and other military equipment."
+  },
+  "copper": {
+    "name": "Copper",
+    "desc": "Copper has been one of the most important materials since the invention and diffusion of metallurgy thousands of years ago. Its use is very varied, as it can be worked alone, but also in alloys, such as bronze. This makes it especially important for weaponry, being essential in the early production of cannons."
+  },
+  "goods_gold": {
+    "name": "Gold",
+    "desc": "Gold has traditionally been the most valued metal, widely used for trade and the accumulation of wealth in the form of coins or various types of prestige objects. Its use as the main currency in bimetallic or trimetallic systems leads to a very high demand, making it an object of desire during the exploration of new territories."
+  },
+  "silver": {
+    "name": "Silver",
+    "desc": "Silver was one of the first metals used as money and the most successful along with gold. Central Europe became the center of silver production during the Middle Ages, although the Columbian Exchange shifted the focus of world production to the Americas, making it the main production center of a newborn global network since the 16th century."
+  },
+  "stone": {
+    "name": "Stone",
+    "desc": "Stone has been one of the main building materials of humanity throughout all its history. Stronger and more durable than other options like clay or wood, it was the go-to material for any construction built to last. Buildings from long ago like the Pyramids have reached our times still standing due to the durability of the stone they were made of."
+  },
+  "tin": {
+    "name": "Tin",
+    "desc": "Tin was used extensively for the first time in metallurgy as part of the alloy to obtain bronze 5000 years ago. Later it has been widely used to coat other metals and alloys, such as iron, lead or steel, to prevent corrosion, as well as to make pewter, very common in tableware."
+  },
+  "lead": {
+    "name": "Lead",
+    "desc": "Lead has been obtained since ancient times as a by-product of silver extraction by burning galena. Lead was then used in a wide range of household and manufactured products, especially by the Romans, whose levels of lead production were not reached until the Industrial Revolution. In the Modern Age, it became the main material for making bullets for firearms."
+  },
+  "silk": {
+    "name": "Silk",
+    "desc": "The finest of all fabrics of the east was the silk produced in India, China, and East Asia. While less iconic than spices, the profits from silk and finely woven cotton cloth would in fact soon dwarf those of the spice trade for the European East India Companies.\\nDue to increasing demand attempts were also made to produce the material locally in mercantilist Europe, with very varied degrees of success."
+  },
+  "dyes": {
+    "name": "Dyes",
+    "desc": "For as long as textiles have been woven there has been a market for fine dyes. During the late Middle Ages expensive dyes such as indigo would be worth a fortune due to how distant the source in India was.\\nAs the world opened up dyes became easier to get hold of, both through the possibilities to produce them in America and the greater accessibility of the Indian market. Nonetheless, dyes remained rare and in the early 19th century; as the dye plantations in India fell into European hands, a veritable gold rush ensued."
+  },
+  "incense": {
+    "name": "Incense",
+    "desc": "To spread smoke and fragrance through the burning of materials has been common in ceremonial practices for centuries. Frankincense, agarwood, sandalwood, myrrh, and other goods suited for this use can be found in few places and their diffusion was an integral part in the formation of trade networks such as the Silk Road or the fittingly named Incense Route."
+  },
+  "tea": {
+    "name": "Tea",
+    "desc": "Tea was an important luxury drink in China, India, and South-East Asia. It was often used in religious or social rituals. The English popularized tea in Europe. Never considered as noble a drink as coffee, it still produced large profit merely from the fact that the world supply was low."
+  },
+  "cocoa": {
+    "name": "Cocoa",
+    "desc": "Cocoa was used as a stimulant by the Aztec, Incan, and Indian rulers since the early medieval times. It was popularized in Europe in the early 16th century when the Spaniards imported it from its American colonies. Cocoa became a luxury enjoyed by the rich."
+  },
+  "coffee": {
+    "name": "Coffee",
+    "desc": "Coffee was discovered in the northeast region of Ethiopia and coffee cultivation first took place in southern Arabia. From the Middle East, coffee spread to Italy in the 17th century and was then introduced to the rest of Europe. Coffee became more widely accepted after it was deemed a Christian beverage by Pope Clement VIII in 1600, despite appeals to ban the 'Muslim drink'."
+  },
+  "fiber_crops": {
+    "name": "Fiber Crops",
+    "desc": "Many different fibrous crops are used all around the world to craft a multitude of products such as sails, ropes, fishing nets, and clothes. Beyond their use to produce coarse textiles, however, many are also used as a core part of the production of finer textiles, used in ceremonies, households, and elsewhere. Some examples are hemp, flax, jute, and sisal."
+  },
+  "ivory": {
+    "name": "Ivory",
+    "desc": "Ivory was one of the main exports of Africa apart from slaves. It was highly sought after by Europeans for use in various manufactured goods such as cutlery, gifts, small pieces of art, furniture, etc."
+  },
+  "lumber": {
+    "name": "Lumber",
+    "desc": "Lumber has been one of the main building materials for humanity throughout all its history. Although less durable than stone, it is more easily accessible have made it a staple of any building in all places of the world. Even structures designed to be resistant like castles and fortifications have also their versions made out of wood rather than stone."
+  },
+  "salt": {
+    "name": "Salt",
+    "desc": "Salt is essential for human life. In addition, it was the most common means to preserve food for the long winter months. It was either mineral, brought from mines in Central Europe, or natural, from salt wetlands production via evaporation along sunny coastlines."
+  },
+  "medicaments": {
+    "name": "Medicaments",
+    "desc": "A wide variety of plants and animal products have been used throughout history to treat all kinds of illnesses, due to their medicinal properties or supposition thereof. Some were more based on actual properties than others, while in some cases it was more a matter of belief in their effectiveness."
+  },
+  "gems": {
+    "name": "Gems",
+    "desc": "Since the earliest times, stones such as rubies, sapphires, diamonds, emeralds, or jade, have been used in jewelry and ceremonial attire. For centuries the only source of diamonds in the world were the fabled mines at Golconda. While not all precious stones are as rare, they are all highly sought-after commodities."
+  },
+  "pearls": {
+    "name": "Pearls",
+    "desc": "Pearls are produced inside different kinds of shelled mollusks. The resulting product is a hard glistening object, ideally round but can take many shapes. They have been appreciated for their beauty and used like gemstones as ornaments all over the world through all human history."
+  },
+  "amber": {
+    "name": "Amber",
+    "desc": "Amber is a valuable good made from fossilized resin that was primarily used in the manufacture of jewelry and ornaments. Its main source has been depots on the Prussian coast, mentioned for the first time in a 12th-century document."
+  },
+  "saltpeter": {
+    "name": "Saltpeter",
+    "desc": "Saltpeter has been known since antiquity, and its uses have been varied such as a fertilizer or as salt for meat processing. However, it was the invention of gunpowder and firearms during the Middle Ages that really raised its importance, as it is one of the main components of it, together with charcoal and sulfur. Mined in great quantities around the world, this metal will go on to acquire an infamous reputation."
+  },
+  "alum": {
+    "name": "Alum",
+    "desc": "Alum is an essential ingredient in dye-making as well as specializing in the tanning process. Seeing use in a variety of artistic and craft contexts, it is primarily utilized in painting and illuminating processes. Originating mostly from the Chad region, it was traded in the markets of the entire Islamic world, but in the Late Middle Ages, other sources started to be exploited in Europe."
+  },
+  "wine": {
+    "name": "Wine",
+    "desc": "Wines have been produced since time immemorial in the southern parts of Europe. It still constituted an essential element of the everyday diet, except maybe in the Muslim world. Wine was not considered a luxury product but probably served as a welcome relief for hundreds to an otherwise dull diet."
+  },
+  "elephants": {
+    "name": "Elephants",
+    "desc": "Elephants have been used in warfare since ancient times in India, South East Asia, the Middle East, and North Africa. The use of elephantry persisted in some of these regions into the Middle Ages, although the advent of gunpowder warfare in the Modern Age outpaced its usefulness in battle."
+  },
+  "marble": {
+    "name": "Marble",
+    "desc": "Marble has been used in sculptures and constructions since Antiquity, being considered a type of luxurious material due to its appearance and ductility. Some of the best works of art made by Renaissance and Baroque artists, such as Michelangelo or Bernini, are made of marble."
+  },
+  "mercury": {
+    "name": "Mercury",
+    "desc": "$mercury$ is used for medicine, but will also be of great importance to refine gold and silver ores of lesser qualities in order to make them profitable."
+  },
+  "saffron": {
+    "name": "Saffron",
+    "desc": "Known since ancient times, saffron has been used not only for its culinary applications, but also as a source of traditional medicines and as coloring dye for clothes, despite its high cost."
+  },
+  "pepper": {
+    "name": "Pepper",
+    "desc": "Although there are many types of plants that have been known as pepper, they all have the same properties of pungent taste that makes pepper ideal to be used as seasoning and also as part of traditional medicines."
+  },
+  "cloves": {
+    "name": "Cloves",
+    "desc": "Cloves are the aromatic flower buds of a tree found in the Moluccas. They became one of the most valued and expensive spices in the Eurasian trade networks, prompting Europeans to find new sources of supply for this and other spices in the Late Middle Ages."
+  },
+  "chili": {
+    "name": "Chili",
+    "desc": "Some varieties of plants originating from Central and South America, it is famous for its pungency and ability to spice any dish and make it hot. Cultivated since ancient times in the Americas, its many varieties with a wide range of flavors and heat levels make it a very sought-after spice."
+  },
+  "cotton": {
+    "name": "Cotton",
+    "desc": "Cotton originated from Central Asia but was not widely used in Europe until it was introduced to the American colonies and used as a cheap but good complement or substitute for wool in the clothing industry of the late 18th century"
+  },
+  "sugar": {
+    "name": "Sugar",
+    "desc": "Sugar was used not only as a sweetener but also for food preservation. The sugar cane was the only known means of obtaining sugar at this time and had been grown initially in some Mediterranean islands. But the labor-intensive plantation system in America, especially in the Caribbean islands, would soon move the major production sources overseas."
+  },
+  "tobacco": {
+    "name": "Tobacco",
+    "desc": "Tobacco was unknown in Europe until brought from Americans in the late 16th century. It quickly became a fashion for the upper classes who could afford it and ensured the fast and profitable economic growth of the British colonies in North America, as well as in Portuguese Brazil. No one knew what they put in it, but they just couldn't stop smoking it."
+  },
+  "tar": {
+    "name": "Tar",
+    "desc": "Originally propped up as a cash crop, tar is a valuable ingredient of the ship-building business. Its appearance, that of a thick black liquid, is due to the aggressive distillation process that is required for its production. Tar is widely used as a seal for ship hulls and as a cheap way to waterproof sails."
+  },
+  "porcelain": {
+    "name": "Porcelain",
+    "desc": "Porcelain is a type of ceramics characterized by its strength and translucence due to the vitrification of the materials caused by high temperatures. It was developed in China over a period of time starting more than three thousand years ago, with proper porcelain being developed already almost two thousand years ago, and from there, it eventually spread to all over the world as a highly sought-after commodity."
+  },
+  "naval_supplies": {
+    "name": "Naval Supplies",
+    "desc": "Naval Supplies represent everything needed in ship construction, from basic wood to tar, ropes, linen, sails, and various other materials. The Baltic was initially the main supplier until North America became an alternate source of supply in the early 18th century. Colonial expansion into America was in part to secure supplies of such vital goods."
+  },
+  "firearms": {
+    "name": "Firearms",
+    "desc": "The conception and arrival of guns changed the dynamic of battlefields. Wars waged across Asia and Europe will now be subject to cultivating, importing and harnessing the potency of gunpowder. Guns have become a natural evolution of warfare and an essential part of protecting the sovereignty of domains across the earth."
+  },
+  "cannons": {
+    "name": "Cannon",
+    "desc": "Although siege weapons have existed since antiquity, the discovery of gunpowder has given rise to some weapons with a potentially destructive power that has never been seen before. The ability to throw bigger projectiles at greater speed and distances than ever before will make all but the sturdiest of fortifications quickly fall before them, without mentioning the effect those projectiles can have when fired towards armies themselves."
+  },
+  "weaponry": {
+    "name": "Weaponry",
+    "desc": "Various weapons such as swords, pikes, and bows make up the core weaponry of every army. The techniques behind their creation are an art refined throughout the ages. Despite that and regardless of how different the era may be, weaponry will always be a vital instrument to protect one's independence."
+  },
+  "glass": {
+    "name": "Glass",
+    "desc": "Glass has been valued for centuries as a useful material for art, architecture, or simply the crafting of vessels for daily use. Eventually, as glassmaking techniques improved, glass would also become crucial to the scientific field of optics, with glass lenses being used in the fabrication of spectacles, telescopes, and a plethora of other devices with wide-ranging applications from maritime navigation to the natural sciences."
+  },
+  "steel": {
+    "name": "Steel",
+    "desc": "Steel is widely used for the crafting of weaponry and guns. Various of its qualities are used for different weapons, blunt steel for axes and high-quality steel for swords and knives. As such, steel is also employed as the main metal for the forging of equipment and tools."
+  },
+  "cloth": {
+    "name": "Cloth",
+    "desc": "Cloth represents the various fabrics and clothing made from wool and linen. Later cotton, imported from India and the Americas, became a major material for cloth."
+  },
+  "fine_cloth": {
+    "name": "Fine Cloth",
+    "desc": "Fine clothing was traditionally a marker of status for the elites and wealthy classes. Textiles such as damasks, muslins, or brocades were marketed and replicated throughout the world as a very profitable business in the Middle and Modern Ages."
+  },
+  "liquor": {
+    "name": "Liquor",
+    "desc": "Liquor is an alcoholic beverage produced by distillation of very different types of products of plant origin. Distillation is done to increase the alcohol by volume. Popular liquors distilled and consumed around the world were gin, rum, whisky, vodka, tequila, or shōchū."
+  },
+  "beer": {
+    "name": "Beer",
+    "desc": "Beer has been a pillar of gastronomy since it was first brewed in the Neolithic. It became a widespread drink in the Middle Ages, and was the object of the oldest food-quality regulation still in use, the Bavarian 'Reinheitsgebot'."
+  },
+  "paper": {
+    "name": "Paper",
+    "desc": "Paper is a necessity for all types of advanced accounting, administration, and diffusion of knowledge. The process of its production was originally devised in China and then slowly made its way to all corners of the Old World. Far superior to other types of writing materials such as parchment the large scale production of paper requires a specialized set of skills and equipment, making it a rare and sought after commodity."
+  },
+  "books": {
+    "name": "Books",
+    "desc": "Books have been one of the main custodians of human knowledge since writing was invented thousands of years ago. They were usually made of leather parchment, paper, and other plant fibers. The invention and spread of movable type printing systems in the Middle Ages made books much more widespread and accessible to the population."
+  },
+  "jewelry": {
+    "name": "Jewelry",
+    "desc": "Jewelry represents a set of regalia or ornaments that are crafted by skilled smiths using jewels and precious stones. Their value is often associated with high social standing and even royalty."
+  },
+  "leather": {
+    "name": "Leather",
+    "desc": "One of humanity's earliest discoveries, leather is largely used in the manufacturing of clothes, footwear, and decoration. Its success is largely attributed to its high level of comfort and durability, eventually becoming the choice material for the making of dinner-related furniture, due to leather being easy to maintain while being resistant to absorbing food odor."
+  },
+  "tools": {
+    "name": "Tools",
+    "desc": "The production of tools is the main factor that allowed human society to flourish. From the more simple and primitive stone tools to the most advanced and precise implements developed through the use of metallurgy, they allow the further creation of equipment and weapons."
+  },
+  "masonry": {
+    "name": "Masonry",
+    "desc": "Construction techniques come in all shapes and sizes. The ability to fabricate smaller pieces with a regular size and shape to use in construction greatly increases not only the efficiency in which buildings can be constructed but also their durability once built."
+  },
+  "lacquerware": {
+    "name": "Lacquerware",
+    "desc": "Lacquerware was developed in China and Japan as far back as the Neolithic period, more than ten thousand years ago, and consists in covering products made of wood or metal with a decorative layer of lacquer, a product extracted from resin and wax. This lacquer layer can then be further decorated with paintings, carvings or dustings of gold or silver making it into a luxurious good."
+  },
+  "pottery": {
+    "name": "Pottery",
+    "desc": "One of the oldest signs of human society, the ability to turn clay into various objects it is one of the key factors in the development of humanity. From the crude earthenware vases of prehistoric times, to the more complex forms, pottery is omnipresent in any culture."
+  },
+  "furniture": {
+    "name": "Furniture",
+    "desc": "Furniture supplies the need of people to have more than just a roof over their heads. From the most simple beds and tables to more elaborated ones, from plain wood or even stone to more expensive materials, furniture will serve any purpose and fit any taste and budget."
+  },
+  "wool": {
+    "name": "Wool",
+    "desc": "Wool came mostly from sheep that grazed in the more marginal lands not suited to other forms of agriculture. Prior to the use of cotton, it was the major raw material for clothing."
+  },
+  "wild_game": {
+    "name": "Wild Game",
+    "desc": "Wild game is the source of food and nutrition for local populations, especially in sparsely populated rural communities. The hunt of wild animals such as elk, deer, boars and more, are an important cornerstone of a society due to the fact that the aforementioned animals contribute leather, bones, entrails and nutrition to the populace."
+  },
+  "fur": {
+    "name": "Fur",
+    "desc": "Furs were one of the basic elements of high quality and warm clothing. Skins from all kinds of animals were supplied initially from Russia but more and more from North America where beavers would be the prize of choice at least till the late middle 18th century."
+  },
+  "fish": {
+    "name": "Fish",
+    "desc": "Fish was one of the most basic foods for the European population in this age, as meat was more than a luxury for the great majority. Fishermen also provided the basic recruiting pool of the merchant and military navies of most nations."
+  },
+  "wheat": {
+    "name": "Wheat",
+    "desc": "Wheat represents the vegetable foodstuff that was the staple diet for humans and animals. Lack of it would always lead to revolts and riots. Other cereals and vegetable foodstuffs would later be augmented by tomatoes, corn, and even potatoes from America offering a wider choice both in food and agricultural production varieties."
+  },
+  "maize": {
+    "name": "Maize",
+    "desc": "A cultivated plant that was originally domesticated in Mexico, thousands of years ago, maize was traded between the new and the old world with the arrival of the Europeans in the 15th century. Due to its enduring nature as well as its higher dietary value, maize is destined to become a worldwide commodity."
+  },
+  "rice": {
+    "name": "Rice",
+    "desc": "Rice is a type of grain that has been the staple food for Asia since its domestication more than ten thousand years ago. It was also independently domesticated in Africa more than three thousand years ago, and it has also been an important food source there ever since. It was brought to Europe through trade with Asia as far back as Classical Antiquity, although it did not manage to supersede other types of grain there."
+  },
+  "millet": {
+    "name": "Sturdy Grains",
+    "desc": "Sturdy Grains are different kinds of cereal grasses that have been domesticated in many parts of the World at different points in time ever since the Neolithic. Their greater resistance to poor quality soils and dry conditions have made them into a more important food source in semi-arid regions compared to other kinds of grain."
+  },
+  "legumes": {
+    "name": "Legumes",
+    "desc": "Various civilizations across history have utilized legumes as a substantial source of nutrition for thousands of years. Much like maize, Europeans were introduced to new types of them with their eventual arrival on the shores of the New World. Legumes were not only filling but also cheap to produce and move on ships."
+  },
+  "potato": {
+    "name": "Potatoes",
+    "desc": "The potato is a starchy tuber domesticated around Lake Titicaca by the native people of the Andes. It helped the rise of the Andean civilizations thanks to its hardiness and high caloric density. After the Columbian exchange, it spread all around the globe and by 1750 it was a staple food in Europe facilitating its 19th-century population boom."
+  },
+  "livestock": {
+    "name": "Livestock",
+    "desc": "Since the dawn of history, the care for domesticated animals has been one of the main occupations of humanity. Livestock includes everything from cows and pigs in rich agricultural areas to the herds of pastoralists in the great plains and deserts of the world."
+  },
+  "olives": {
+    "name": "Olives",
+    "desc": "Olives are harvested from the trees of the same name, which have been cultivated around the Mediterranean Sea for thousands of years. They are highly appreciated in gastronomy, especially the olive oil that is used to cook and dress a wide range of foods in Mediterranean cuisine."
+  },
+  "fruit": {
+    "name": "Fruit",
+    "desc": "Fruits cover a wide range of products found on trees such as citrus, bitter and sweet oranges, apples and more. For many, these products would be unattainable and a source of nutrition only for the elites. Nearly every region across the world is home to a different kind of fruit and the advent of global trade would go on to introduce different populations to various new fruits."
+  },
+  "beeswax": {
+    "name": "Beeswax",
+    "desc": "Bees have been friends of humanity since prehistoric times, and their wax has been used for many purposes. From candles to molds, from polish finisher to tablets for writing, the presence of beeswax in human society is ubiquitous."
+  },
+  "slaves_goods": {
+    "name": "Slaves",
+    "desc": "Slaves had been a trading commodity since Antiquity, but demand increased sharply in the late 16th century when Slaves offered one of the cheapest sources of labor for European plantations in the Americas."
+  }
+}

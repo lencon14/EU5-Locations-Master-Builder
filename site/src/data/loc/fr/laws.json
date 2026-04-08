@@ -1,0 +1,666 @@
+{
+  "feudal_de_jure_law": {
+    "name": "Lois féodales de jure",
+    "desc": "Il s'agit des lois qui régissent la société féodale de notre pays."
+  },
+  "medieval_levy_law": {
+    "name": "Loi sur les levées",
+    "desc": "Notre armée est composée principalement de levées qui sont recrutées dans certains estates de notre pays et qui combattront en notre nom jusqu'à ce que nous les dissolvions."
+  },
+  "royal_court_customs_law": {
+    "name": "Douanes de la cour royale",
+    "desc": "Les traditions et la culture propres à la cour jouent un rôle important dans la stabilité de la . Ces coutumes assureront une transition sans danger du pouvoir du dirigeant vers l'héritier et limiteront considérablement les intrigues de la cour."
+  },
+  "legitimization_of_power_law": {
+    "name": "Légitimation du pouvoir",
+    "desc": "Une monarchie ne peut survivre que si ses vassaux croient en la légitimité de leur dirigeant. Il existe de nombreuses façons pour ces derniers de justifier leur pouvoir. Au fil du temps, de nouvelles philosophies politiques apparaîtront, qui expliqueront à leur manière la nécessité de disposer d'un gouvernement puissant."
+  },
+  "harem_law": {
+    "name": "Lois sur les harems",
+    "desc": "Institution importante au sein de la Maison du roi, le harem assure l'engendrement d'héritiers pour la succession."
+  },
+  "iqta_law": {
+    "name": "Iqtâ",
+    "desc": "L'$iqta_law$ est une forme d'affermage des impôts pratiquée en contrée . Il s'agit d'un système des revenus fonciers prélevés auprès de la dans le cadre de la zakât, l'aumône légale, qui constitue généralement le revenu de base des États de confession #L e."
+  },
+  "inquisition_law": {
+    "name": "Loi sur l'inquisition",
+    "desc": "Créée initialement pour lutter contre l'hérésie du , l'Inquisition est devenue le principal outil de l'Église pour enquêter sur les hérétiques et entamer des poursuites à leur encontre. Par l'intermédiaire de tribunaux ecclésiastiques spécialisés, des inquisiteurs formés mènent des investigations sur les hérétiques présumés, obtiennent des aveux de transgressions religieuses ou morales, et imposent des punitions allant de la pénitence à l'exécution pour violation des mœurs catholiques."
+  },
+  "society_of_jesus": {
+    "name": "Compagnie de Jésus",
+    "desc": "La Compagnie de Jésus, communément appelée les Jésuites, est un ordre religieux fondé par Ignace de Loyola dans le cadre du courant de la Contre-Réforme. Les Jésuites se distinguent des autres ordres catholiques par l'importance qu'ils accordent à l'éducation, à l'érudition et à l'œuvre missionnaire."
+  },
+  "patriarchate_law": {
+    "name": "Rôle du patriarcat",
+    "desc": "Le patriarcat est un pilier majeur de notre foi et une institution ayant une influence considérable sur l'État."
+  },
+  "censorship": {
+    "name": "Censure",
+    "desc": "La capacité à contrôler les œuvres littéraires qui peuvent être distribuées et les opinions contraires au dogme établi est essentielle à la cohésion religieuse et généralement favorisée par le . En revanche, ces restrictions sont désapprouvées par les libres-penseurs et les professionnels créatifs, et peut avoir de profondes conséquences sur la disponibilité des artists et pour toute work_of_art jugée hérétique."
+  },
+  "slave_conversion": {
+    "name": "Conversion des esclaves",
+    "desc": "Nos esclaves sont originaires de nombreux pays différents et apportent avec eux des croyances diverses. Nous devrons peut-être rigoureusement réglementer cela, afin de ne pas risquer de corrompre notre propre population en l'exposant à des pratiques marginales et à des rituels déviants."
+  },
+  "republican_foundation_law": {
+    "name": "Fondation de la République",
+    "desc": "Notre République repose sur le principe selon lequel le pouvoir doit résider entre les mains du peuple, et non entre celles d'un seul dirigeant absolutiste. Cependant, comme dans tout gouvernement, ses lois et ses décisions doivent être respectées et obéies afin de maintenir l'ordre, ce qui nécessite la création d'administrations complexes pour gouverner."
+  },
+  "republican_election_law": {
+    "name": "Élection",
+    "desc": "L'électorat est le pilier de la République. Il veille à garantir que quiconque au pouvoir est soumis à des limites raisonnables, tout en donnant au peuple la possibilité de choisir les dirigeants qui servent le mieux ses intérêts."
+  },
+  "republican_power_law": {
+    "name": "Pouvoir républicain",
+    "desc": "Comme tout gouvernement, la République doit non seulement prendre des décisions, mais également les mettre en œuvre. Pour ce faire, elle a besoin de trouver un moyen d'exercer ses capacités exécutives jusque dans les contrées les plus éloignées du pays."
+  },
+  "principle_of_administration_law": {
+    "name": "Principes administratifs",
+    "desc": "Si nous voulons être un exemple pour tous nos concitoyens, la République doit défendre des principes qui dictent la ligne de conduite à suivre dans nos politiques."
+  },
+  "republican_electorate_law": {
+    "name": "Loi de l'électorat républicain",
+    "desc": "Les élections sont le concept fondamental de notre République. À ce titre, le facteur le plus important pour déterminer le cours de la République est de décider qui est éligible pour voter lors de ces élections."
+  },
+  "theocratic_leadership": {
+    "name": "Autorité théocratique",
+    "desc": "Ce pays est gouverné par une Autorité théocratique, où les autorités religieuses détiennent la puissance politique et où la loi religieuse prévaut souvent sur la loi laïque."
+  },
+  "holy_mission_law": {
+    "name": "Mission sacrée",
+    "desc": "La ligne directrice de chacune de nos actions est la mission sacrée qui nous a été confiée par notre dirigeant divin. La vision que la puissance supérieure a anticipée pour nous se réalisera."
+  },
+  "nature_of_our_faith_law": {
+    "name": "Nature de la foi",
+    "desc": "La Religion est le pilier de notre société, et à ce titre, la nature de notre foi joue un rôle au niveau de tous les aspects propres à notre culture. Aucune décision importante ne peut être prise sans que la perspective religieuse de ces actions ne soit prise en compte."
+  },
+  "divine_cause_law": {
+    "name": "Cause divine",
+    "desc": "Si le fait d'exister dans le monde suffit à contenter les monarchies et les républiques, un Saint État a besoin d'un sacerdoce plus profond, spirituel. Cette cause divine doit guider notre main vers un destin des plus glorieux."
+  },
+  "tribal_legal_basis_law": {
+    "name": "Base légale",
+    "desc": "Cette base juridique servira de fondement au premier code de lois formel de l'État. Son objectif est simple, mais noble : assurer une société juste où tous peuvent vivre en paix et prospérité."
+  },
+  "tribal_organization_law": {
+    "name": "Organisation tribale",
+    "desc": "Tout groupe de personnes nécessite une certaine forme d'organisation afin de maintenir la cohésion de la tribu. L'organisation tribale met l'accent sur l'identité collective et le droit coutumier, et peut être appliquée à diverses échelles."
+  },
+  "tribal_religious_values_law": {
+    "name": "Valeurs religieuses tribales",
+    "desc": "Les valeurs religieuses de notre tribu dictent non seulement notre mode de vie, mais aussi la manière dont nous traitons ceux qui ne partagent pas nos croyances et nos traditions, tant à l'intérieur qu'à l'extérieur de notre territoire."
+  },
+  "tribal_migration_law": {
+    "name": "Migration tribale",
+    "desc": "Notre peuple n'occupe pas ses terres de manière permanente. Nous voyageons plutôt librement, guidés par le destin et les besoins de notre peuple."
+  },
+  "tribal_cultural_identity_law": {
+    "name": "Identité culturelle tribale",
+    "desc": "Plus le temps passe, plus nous appréhendons notre culture et notre identité. Nous n'avons plus à craindre les tribus voisines ; nous avons apprivoisé la nature sauvage et en sommes devenus les maîtres. Il est désormais temps d'assumer ce que nous sommes en tant que peuple."
+  },
+  "tribal_modernization_law": {
+    "name": "Modernisation tribale",
+    "desc": "L'heure est venue de nous débarrasser de nos anciens systèmes et d'accueillir notre position dans le monde. Nous ne serons plus considérés comme une simple tribu, mais nous deviendrons un pays qui représente et défend son peuple et son mode de vie."
+  },
+  "education_elites_law": {
+    "name": "Éducation des élites",
+    "desc": "L'éducation de nos élites est d'une importance vitale. En fournissant à nos citoyens de la classe supérieure un accès accru aux œuvres d'art appropriées, nous atteindrons peu à peu nos objectifs culturels, à la fois dans notre pays et à l'étranger, par la création d'œuvres légendaires qui amplifieront notre splendeur !"
+  },
+  "education_masses_law": {
+    "name": "Éducation des masses",
+    "desc": "L'éducation de notre peuple est d'une importance vitale. Si nous fournissons à notre peuple un accès aisé aux documents appropriés, quelle que soit leur place dans la hiérarchie sociale, nous créerons une population plus éduquée et plus adepte des arts, ce qui favorisera nos objectifs autant domestiques qu'étrangers."
+  },
+  "slavery_laws": {
+    "name": "Lois sur l'esclavage",
+    "desc": "L'afflux de travailleurs et de main-d'œuvre bon marché provenant de sources extérieures a longtemps été une pierre angulaire de notre économie, tant à l'intérieur qu'à l'extérieur de nos frontières. La question de leur acceptation ou de leur interdiction reflète clairement la place qu'occupent les couches populaires, et les esclaves en particulier, au sein de notre société."
+  },
+  "colonial_policy": {
+    "name": "Politique coloniale",
+    "desc": "Il s'agit de la politique que le pays suivra pour les affaires coloniales."
+  },
+  "native_policy": {
+    "name": "Politique indigène",
+    "desc": "Il s'agit de la politique que le pays suit pour s'occuper des indigènes vivant dans les colonies."
+  },
+  "administrative_system": {
+    "name": "Système administratif",
+    "desc": "Chaque État a besoin d'un système pour administrer et organiser son territoire. En choisissant la structure appropriée, nous pouvons nous assurer que notre autorité est imposée dans les régions les plus reculées de notre État."
+  },
+  "intelligence_agency": {
+    "name": "Agence de renseignement",
+    "desc": "L'agence de renseignement est une organisation au sein de l'État qui mène des activités telles que l'espionnage, la cryptographie et la sécurité contre les menaces internes."
+  },
+  "bureaucracy_law": {
+    "name": "Bureaucratie",
+    "desc": "$modern_bureaucracy_desc$"
+  },
+  "cabinet_laws": {
+    "name": "Lois du conseil",
+    "desc": "Le Conseil représente la plus haute fonction du gouvernement et accueille les conseillers personnels de notre dirigeant. Les ministres et les secrétaires du Conseil jouissent de privilèges et de droits particuliers."
+  },
+  "economical_policies_law": {
+    "name": "Politique économique",
+    "desc": "La politique économique d'une nation définit des objectifs économiques précis ainsi que les moyens de les atteindre, et établit des décisions et des réglementations concernant la fiscalité, les dépenses, la monnaie, le commerce et bien d'autres domaines."
+  },
+  "cultural_traditions_law": {
+    "name": "Traditions culturelles",
+    "desc": "Les traditions ancestrales sont la fondation de nombreuses cultures et civilisations. Si le progrès est ce qui nous conduira à la grandeur, nos traditions nous serviront toujours de rappel de nos origines, de source de force et d'unité pour notre peuple."
+  },
+  "foreign_cultural_law": {
+    "name": "Droit culturel étranger",
+    "desc": "La complexité des structures sociales s'accroît au fur et à mesure que notre pays se développe. Le statut d'État culturellement uni n'est plus une évidence, et des politiques visant à établir la paix interne sont nécessaires."
+  },
+  "marriage_law": {
+    "name": "Lois matrimoniales",
+    "desc": "Les lois matrimoniales font référence au cadre légal qui gouverne l'institution du mariage dans une juridiction spécifique."
+  },
+  "heir_religion_law": {
+    "name": "Religion des héritiers",
+    "desc": "La possibilité de décider de la religion de l'heir revêt une grande importance en matière de succession et de gouvernance. Elle permet aux dirigeants et aux gouvernements de maintenir la stabilité religieuse, en veillant à ce que les croyances et les pratiques du dirigeant s'alignent sur celles de la majorité de ses vassaux. À terme, le pouvoir de déterminer la religion de l'héritier représente un élément majeur dans l'équilibre délicat entre la liberté religieuse, la gouvernance et l'harmonie sociétale."
+  },
+  "coin_laws": {
+    "name": "Loi sur la monnaie",
+    "desc": "Cette loi détermine les ressources que notre pays utilisera pour frapper sa monnaie. Les pièces les plus courantes sont composées d'or, d'argent et de cuivre en proportion variable, ce qui leur confère différentes valeurs monétaires. Cependant, il existe d'autres systèmes d'échange à travers le monde qui ne dépendent pas de ce type de monnaie, mais plutôt d'autres ressources, telles que le bétail, le tissu, les coquillages, le cacao, etc."
+  },
+  "precious_metal_distribution_law": {
+    "name": "Distribution de métaux précieux",
+    "desc": "L' et l' sont les matériaux nécessaires à la frappe des pièces de monnaie. Étant donné que notre État jouit de la position très enviée de pouvoir collecter lui-même ces métaux précieux, il est de notre droit de décider qui a accès à ces ressources."
+  },
+  "press_law": {
+    "name": "Lois sur la presse",
+    "desc": "Cela détermine la façon dont la presse et l'imprimerie d'un pays sont dirigées et régulées."
+  },
+  "mining_law": {
+    "name": "Droit minier",
+    "desc": "Cette loi détermine qui possède les opérations minières de notre pays."
+  },
+  "amazigh_familial_connections": {
+    "name": "Relations familiales amazighs",
+    "desc": "Les nombreuses tribus au sein de notre territoire jouissent d'une certaine autorité sur les affaires locales. Notre position à leur égard pourrait décider du cours de notre histoire."
+  },
+  "immigration_law": {
+    "name": "Contrôles des frontières",
+    "desc": "Cette loi détermine si la migration est autorisée en provenance ou à destination du Pays."
+  },
+  "legal_code_law": {
+    "name": "Code juridique",
+    "desc": "Depuis que les hommes se sont rassemblés en sociétés, ils ont créé des lois pour régir leurs actions et leurs interactions. Les codes juridiques sont le reflet des valeurs et des croyances d'une société, et influencent tout, des méthodes des citoyens pour mener leurs affaires à la façon dont ils se traitent les uns les autres. Ils constituent le tissu même qui maintient la cohésion d'une société, en fournissant un cadre pour l'ordre et la justice. Malgré leurs différences, les peuples tendent tous vers le même objectif : créer une société juste et équitable où chacun peut mener une vie paisible et prospère."
+  },
+  "language_of_pleading": {
+    "name": "Langue de la plaidoirie",
+    "desc": "Les coutumes de notre hiérarchie sociale et de nos procédures judiciaires doivent être rédigées de manière concise et uniforme dans la langue que nous jugeons la plus appropriée."
+  },
+  "sharia_law": {
+    "name": "Jurisprudence de la $sharia$",
+    "desc": "$sharia_law_policy_desc$"
+  },
+  "recruitment_law": {
+    "name": "Loi de recrutement",
+    "desc": "Les affrontements ne peuvent être remportés sans soldats sur le champ de bataille ! Le recrutement d'hommes capables de combattre est un acte nécessaire. Au fil du temps, les méthodes de recrutement des soldats évolueront et nos forces s'y adapteront."
+  },
+  "battle_leadership_law": {
+    "name": "Loi sur le commandement des batailles",
+    "desc": "La qualité d'une armée dépend de celle de son commandement. Un général incompétent sera le fléau de sa nation, tandis qu'un chef militaire ayant accompli de grandes prouesses sera célèbre et craint sur tous les champs de bataille."
+  },
+  "army_doctrine_law": {
+    "name": "Doctrine militaire",
+    "desc": "Les doctrines militaires représentent les talents dans lesquels notre army peut se spécialiser. Plus nous améliorons nos doctrines, plus elles s'enracinent dans nos armées et plus nous y gagnons. Avec le temps, cela peut donner de puissants avantages à nos glorieuses forces terrestres."
+  },
+  "mamluk_rank_system_laws": {
+    "name": "Système de classement $mamluk$",
+    "desc": "La hiérarchie de notre armée est le cadre constituant l'institution la plus importante de notre pays."
+  },
+  "mamluk_army_law": {
+    "name": "Loi militaire $mamluk$",
+    "desc": "Le cœur de notre administration stratocratique n'est autre que l'armée. En créant des lois et des stipulations pour la former avec attention, nous défendrons notre peuple efficacement contre les menaces extérieures."
+  },
+  "mamluk_promotion_law": {
+    "name": "Loi de promotion $mamluk$",
+    "desc": "Les lois régissant les promotions au sein de nos grades militaires sont un pilier majeur de notre pays."
+  },
+  "maritime_law": {
+    "name": "Lois maritimes",
+    "desc": "Les lois maritimes, également appelées lois de l'amirauté ou lois de la marine, sont un ensemble de principes et de réglementations législatives qui gouvernent divers aspects des activités maritimes et commerciales. Ces lois englobent un grand nombre de questions relatives à la navigation, à l'expédition, au commerce et aux activités maritimes qui ont lieu sur les côtes, les mers et les autres eaux navigables. Elles couvrent des questions telles que les contrats maritimes, le contrôle et l'enregistrement des navires, les assurances des marins, la récupération et les épaves, la responsabilité et la compensation pour les incidents maritimes, les droits et les responsabilités des marins, et de nombreux autres aspects de l'industrie maritime. Ces lois sont conçues pour permettre des pratiques sûres, ordonnées et justes dans l'industrie maritime, et pour résoudre tout litige pouvant survenir dans le contexte de l'activité maritime."
+  },
+  "piracy_law": {
+    "name": "Lois sur la piraterie",
+    "desc": "Les lois sur la piraterie définissent notre position officielle par rapport aux défis posés par la piraterie. Ces lois mettent en place des valeurs, des réglementations et des doctrines judiciaires visant à combattre ou gérer efficacement les pirates. Elles constituent la stratégie collective et les mesures auxquelles notre nation a recours pour maintenir la sécurité maritime et protéger nos eaux de la piraterie. Ou peut-être que ce sont simplement les règles que nous suivons lors de notre propre piraterie..."
+  },
+  "naval_doctrine_law": {
+    "name": "Doctrine navale",
+    "desc": "Les doctrines navales représentent les talents dans lesquels notre navy peut se spécialiser. Plus nous améliorons nos doctrines, plus elles s'enracinent dans la marine et plus nous y gagnons. Avec le temps, cela peut donner de puissants avantages à nos glorieuses flottes."
+  },
+  "sumptuary_law": {
+    "name": "Loi somptuaire",
+    "desc": "Les vêtements structurent les sociétés #L es, puisque le type de fibre et l'ornementation témoignent de la position sociale des personnes. Les vêtements marquent également les événements importants de la vie des concitoyens, tels que le mariage, la naissance et la mort. Les citoyens ordinaires s'habillent principalement avec des pièces et des blouses en coton, tandis que les élites de haut rang portent des vêtements décorés de différentes couleurs et de plumes de grande valeur. En revanche, les guerriers n'ont le droit de se vêtir que de simples manteaux.\\n\\nAfin de renforcer la culture guerrière de notre peuple, le Cihuacoatl travaille actuellement à l'élaboration d'un ensemble de lois somptuaires qui régissent la façon dont nos vassaux s'habillent, ce qu'ils peuvent acheter sur les marchés ou les ornements qu'ils peuvent porter en fonction des postes qu'ils sont en mesure d'occuper au sein du gouvernement."
+  },
+  "eng_order_of_the_garter_law": {
+    "name": "Ordre de la Jarretière",
+    "desc": "L'Ordre de la Jarretière est un symbole prestigieux des idéaux les plus élevés de notre royaume, transcendant le temps et unissant des personnes d'origines et de talents multiples.\\n\\nQu'il soit composé des favoris du monarque, de dignitaires étrangers estimés, de membres dévoués du clergé, d'artisans talentueux ou de valeureux guerriers, cet ordre vénérable incarne l'apogée de la noblesse et de la vertu."
+  },
+  "fra_fouage_tax": {
+    "name": "Levée du fouage",
+    "desc": "Un important impôt sur le foyer est imposé à la paysannerie afin de pallier les dépenses toujours exponentielles de la trésorerie royale."
+  },
+  "fra_taille": {
+    "name": "Taille",
+    "desc": "La taille est une taxe imposée à chaque foyer en fonction des terres qu'il possède. Le et la en sont exemptés."
+  },
+  "fra_5_percent_tax": {
+    "name": "Impôt du vingtième de Machault",
+    "desc": "Un nouvel impôt proposé par le ministre des Finances, s'élevant à un vingtième des revenus annuels."
+  },
+  "fra_reformation_tolerance_edicts": {
+    "name": "Édits de la Réforme",
+    "desc": "La Réforme balaie actuellement l' et le royaume de est au bord de l'éclatement. La politique de l'État face à ces nouveaux fanatiques s'avérera cruciale afin de déterminer leur statut aux yeux de notre nation : celui d'amis ou d'ennemis."
+  },
+  "french_colonial_ambition_focus": {
+    "name": "Aspirations coloniales",
+    "desc": "À la suite de plusieurs décennies de troubles, la est désormais en mesure de financer des explorations outre-mer. L'adoption de nouvelles politiques permettra de répondre plus efficacement à ces ambitions."
+  },
+  "fra_jansenism_legality": {
+    "name": "Statut du jansénisme",
+    "desc": "Doctrine suivant les enseignements de Saint Augustin, le jansénisme met l'accent sur la prédestination, les effets profonds et durables du péché originel ainsi qu'une morale rigoureuse. Il est de plus en plus menacé par la montée de l'absolutisme en et a été officiellement condamné par la bulle #L e Unigenitus."
+  },
+  "guilds_of_florence": {
+    "name": "Primauté des guildes florentines",
+    "desc": "Puissantes institutions mercantilistes constituant notre tissu social, les guildes marchandes sont un composant important de notre prospérité et de notre influence. Bien qu'elles soient toutes importantes, il est indéniable que certaines d'entre elles pourront obtenir plus de pouvoir et d'influence que d'autres."
+  },
+  "por_estudo_geral_law": {
+    "name": "Estudo Geral",
+    "desc": "L' est une nationale qui cherche à éduquer les habitants de notre Pays. Sa localisation et sa proximité avec la capitale sont d'une grande importance."
+  },
+  "teu_amber_monopoly_law": {
+    "name": "Monopole de l'[ShowGoodsNameWithNoTooltip('amber')]",
+    "desc": "L' est l'une des ressources les plus prisées de notre État. Sa commercialisation est d'une grande importance et doit être réglementée avec soin."
+  },
+  "nav_adaptability": {
+    "name": "Adaptabilité de la Navarre",
+    "desc": "Notre position géographique entre deux nations plus grandes a contraint notre pays à s'adapter ou à disparaître. Grâce à un savant mélange d'alliances intelligentes et d'actions militaires rapides, notre royaume a réussi à survivre malgré sa petite taille. Cette capacité à adapter rapidement nos actions à nos besoins spécifiques est un atout que nous ne devons jamais perdre."
+  },
+  "six_ministries_overseer_law": {
+    "name": "Supervision des six ministères",
+    "desc": "Le travail des doit être supervisé par une autre institution, ou peut-être même le monarque."
+  },
+  "ashta_pradhan_council_law": {
+    "name": "Conseil d'Ashta Pradhan",
+    "desc": "$mhr_ashta_pradhan_desc$"
+  },
+  "kor_currency": {
+    "name": "Monnaie dominante",
+    "desc": "L'attention portée aux différents types de monnaies ne manquera pas de façonner notre pays de multiples façons, non seulement sur le plan économique, mais aussi sur le plan social."
+  },
+  "mesta_council_law": {
+    "name": "Conseil de la Mesta",
+    "desc": "L'Association de la Mesta, accompagnée de son conseil, protège les droits et les intérêts des propriétaires de bétail dans le pays."
+  },
+  "imperial_examination_law": {
+    "name": "Système des examens",
+    "desc": "Quiconque souhaite entrer dans le service civil et gravir les échelons au sein de l'administration doit prendre part à une série d'examens destinés à tester ses connaissances en matière de littérature et de valeurs confucéennes."
+  },
+  "status_of_the_han_law": {
+    "name": "Statut des Han",
+    "desc": "Notre dynastie est originaire de l'extérieur du territoire central de l', ce qui fait de nous des étrangers de la majorité Han."
+  },
+  "sco_clan_holdings": {
+    "name": "Distribution des possessions de clans [GetCountry('SCO').GetAdjectiveWithNoTooltip]",
+    "desc": "L'héritage des possessions #L es est divisé proportionnellement à l'influence du clan, les clans les plus importants recevant plus de possessions. Les possessions des clans sont transmises directement à l'héritier, à moins qu'un titre ne soit révoqué ou qu'il ne s'éteigne."
+  },
+  "sco_authority_over_the_clergy": {
+    "name": "Autorité sur le clergé",
+    "desc": "Les contributions #L es à la sont devenues un fardeau pour les finances de l'État. Cherchant à réduire cette part contributive, l'État a pris une juridiction directe sur les ecclésiastiques."
+  },
+  "sco_colonial_affairs_law": {
+    "name": "Affaires coloniales #L [GetCountry('SCO').GetAdjectiveWithNoTooltip]es#!",
+    "desc": "Avec les histoires de richesses du nouveau monde, l' s'apprête à récolter les fruits de l'établissement d'une base coloniale importante, bien qu'une ambition excessive puisse s'avérer catastrophique pour la stabilité économique de l'État."
+  },
+  "distribution_of_power_law": {
+    "name": "Distribution du pouvoir",
+    "desc": "La distribution du pouvoir détermine la façon dont l'autorité est divisée entre le dirigeant, les corps administratifs et les ordres. L'État est une entité complexe et fragile : une distribution de pouvoirs équilibrée assure la stabilité, tandis que donner trop de pouvoir à une seule institution risque d'amener la tyrannie ou la paralysie administrative."
+  },
+  "nobles_rights_laws": {
+    "name": "Droits de la $nobles_estate$",
+    "desc": "La position de la n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
+  },
+  "burghers_rights_laws": {
+    "name": "Droits de la $burghers_estate$",
+    "desc": "La position de la n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
+  },
+  "clergy_rights_laws": {
+    "name": "Droits du $clergy_estate$",
+    "desc": "La position du n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
+  },
+  "crown_rights_laws": {
+    "name": "Droits de la $crown_estate$",
+    "desc": "La position de la n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
+  },
+  "peasants_rights_laws": {
+    "name": "Droits de la $peasants_estate$",
+    "desc": "La position des n'est pas seulement renforcée par leurs privilèges, mais également par nos lois."
+  },
+  "order_of_chivalry_law": {
+    "name": "Ordre de chevalerie",
+    "desc": "Enraciné dans un mélange de traditions et de coutumes religieuses, cette loi incarne un héritage de chevaliers dévoués aux idéaux et aux missions charitables #L s. Fondés à l'origine pour protéger les pèlerins en route vers la Terre Sainte et faire vœu de pauvreté, d'obéissance et de chasteté, ces ordres se sont transformés avec le temps, honorant les individus éminents et devenant un vrai symbole de prestige."
+  },
+  "witchcraft_act": {
+    "name": "Loi sur la sorcellerie",
+    "desc": "Si nous voulons vivre une vie pieuse et débarrasser notre société de la corruption et du mal qui l'habitent, nous devons rassurer nos sujets en ce qui concerne l'existence des sorcières et les pratiques occultes."
+  },
+  "venetian_papal_relation_law": {
+    "name": "Le Saint-Office",
+    "desc": "Le Saint-Office a exigé une plus grande juridiction sur la vie religieuse au sein de la République sérénissime. Nous devons désormais choisir entre nous conformer à cette demande ou défendre la liberté religieuse de nos vassaux."
+  },
+  "hun_frontier_fortresses": {
+    "name": "Les forteresses frontalières",
+    "desc": "Notre domaine est entouré de nombreux voisins agressifs. Pour protéger le peuple, nous devons investir dans les fortifications de nos frontières, en veillant à ce qu'elles soient financées et approvisionnées de manière adéquate."
+  },
+  "enclosure_movement": {
+    "name": "Mouvement des enclosures",
+    "desc": "Le mouvement des enclosures est le processus par lequel des terres autrefois communales sont entourées de murs ou de clôtures, et ainsi transformées en propriété privée."
+  },
+  "eng_taxation_law": {
+    "name": "Impôts",
+    "desc": "Une source de revenus stable est nécessaire au bon fonctionnement d'un gouvernement. L'implémentation d'un cadre légal d'imposition nous permettrait de collecter des impôts auprès des individus et des entités."
+  },
+  "factory_working_conditions_law": {
+    "name": "Conditions de travail des usines",
+    "desc": "L'expansion de notre industrie manufacturière accélère l'industrialisation et stimule la capacité de production. Les ouvriers d'usine occupant une place de plus en plus centrale dans l'économie, il devient essentiel de réglementer leurs droits afin d'empêcher leur exploitation."
+  },
+  "trade_unions_law": {
+    "name": "Syndicats",
+    "desc": "Au début de l'industrialisation, les syndicats jouent un rôle crucial dans l'élaboration des droits du travail et des conditions de travail. Ces syndicats négocient avec les employeurs afin d'obtenir de meilleurs salaires, des heures de travail plus courtes et des conditions plus sûres pour leurs membres."
+  },
+  "vestiarium": {
+    "name": "Vestiarium",
+    "desc": "Il est important d'établir et de maintenir des régulations légales pour la gestion des possessions de l'État afin d'assurer une allocation de ressources efficaces et un contrôle des dépenses. C'est une étape nécessaire à l'administration pour ainsi aider les autorités dirigeantes à prendre des décisions en fonction de leurs priorités."
+  },
+  "mch_queue_hair": {
+    "name": "Tìfāyìfú",
+    "desc": "$mch_queue_hair$ doit être considérée comme notre politique culturelle à l'égard des . L'une des principales exigences sera que les Hàn organisent leurs cheveux dans le style Biànzi."
+  },
+  "monastic_reformation_movement": {
+    "name": "Mouvement de la réformation monastique",
+    "desc": "Les Possesseurs et Non-possesseurs n'ont pas la même opinion sur le rôle de la richesse dans l'Église ainsi que son impact sur la vie spirituelle du clergé et de ses disciples."
+  },
+  "intellectual_movements": {
+    "name": "Mouvements intellectuels",
+    "desc": "Les perspectives idéologiques du XIXe siècle divisent les hommes d'une telle mesure que des mouvements entiers émergent, chacun venant de la dissension entre les différents points de vue philosophiques, politiques, et culturels."
+  },
+  "dahsala_system": {
+    "name": "Dahsala",
+    "desc": "Au lieu de laisser les lois fiscales locales se développer pour les gens du peuple en $india$, les organiser toutes au sein du $dahsala_system$ nous permettra de les taxer correctement."
+  },
+  "hab_military_frontier": {
+    "name": "Frontière militaire",
+    "desc": "Nous avons établi une frontière militaire pour protéger la nation des hordes païennes qui empiètent sur nos frontières."
+  },
+  "ira_alcohol_ban": {
+    "name": "Restrictions appliquées à l'alcool",
+    "desc": "Afin d'équilibrer les devoirs religieux des serviteurs de notre foi ainsi que les aspirations de notre peuple, nous devons décider si la consommation d'alcool est autorisée ou non."
+  },
+  "golden_bull": {
+    "name": "Bulle d'or",
+    "desc": "La $golden_bull$ est le décret du qui définit et établit la structure constitutionnelle du Saint-Empire et notamment le collège électoral. Les autres lois et réformes impériales sont bâties sur la base de la $golden_bull$."
+  },
+  "monetary_contribution": {
+    "name": "Loi fiscale impériale",
+    "desc": "Comme toute autre entité politique, le a besoin d'or pour fonctionner. Une série de lois fiscales peut être appliquée pour capter l'or des membres afin d'assurer la stabilité financière de l'Empire."
+  },
+  "military_contribution": {
+    "name": "Registre impérial",
+    "desc": "La $military_contribution$ est une liste qui spécifie le nombre exact de troupes que chaque ordre doit fournir à l'."
+  },
+  "imperial_religion": {
+    "name": "Religion impériale",
+    "desc": "Les fondations mêmes de l' sont bâties sur des croyances religieuses."
+  },
+  "electorate_religion_law": {
+    "name": "Loi religieuse de l'électorat",
+    "desc": "La religion est un pilier du , pour ses empereurs et ."
+  },
+  "imperial_succession_law": {
+    "name": "Succession impériale",
+    "desc": "La succession du est une affaire délicate. Le droit de succession au trône impérial est décrit dans les lois impériales."
+  },
+  "imperial_voting_law": {
+    "name": "Vote impérial",
+    "desc": "Le repose sur le principe de l'élection impériale. La nature de cette dernière définit l'équilibre des pouvoirs au sein de l'Empire."
+  },
+  "electorate_organization_law": {
+    "name": "Organisation électorale",
+    "desc": "Les regroupent des membres puissants de la et du qui ont le privilège de voter pour le ."
+  },
+  "free_city_law": {
+    "name": "Villes libres",
+    "desc": "Les villes libres du sont autonomes. C'est généralement là que se tient la Diète impériale."
+  },
+  "free_city_rights_law": {
+    "name": "Droits des Villes libres",
+    "desc": "Il n'est pas facile d'obtenir le statut de . Ce titre exclusif doit être remis par l'."
+  },
+  "landfriede_law": {
+    "name": "Landfriede",
+    "desc": "La Landfriede, ou « paix territoriale », est un décret selon lequel les différends entre membres du doivent être réglés à la cour impériale plutôt que sur le champ de bataille. Ce cadre permet à l'empire de garder sa cohésion, plutôt que de s'affaiblir à force de conflits intestins."
+  },
+  "imperial_diet_law": {
+    "name": "Diète impériale",
+    "desc": "L' est un système ancien, et ses pratiques et procédures sont souvent désuètes. Il est temps de la réorganiser pour établir une véritable qui protègera mieux les intérêts divers des membres du ."
+  },
+  "perpetual_diet_law": {
+    "name": "Diète perpétuelle",
+    "desc": "Auparavant, la Diète impériale se rassemblait de manière irrégulière dans différentes villes du , ce qui forçait et d'autres représentants à voyager à chaque session. En établissant une Diète permanente, perpétuelle, nous créerons une assemblée permanente où se mèneront des délibérations constantes, plutôt que des réunions sporadiques."
+  },
+  "power_of_the_emperor_law": {
+    "name": "Puissance de [GetUniqueInternationalOrganization('hre').GetLeaderTitle]",
+    "desc": "Le pouvoir de est une affaire délicate car les membres de l'Empire et les Électeurs ont leurs propres intérêts en conflit avec ceux de , mais ils reconnaissent également qu'un Empereur sans aucun pouvoir ne peut protéger l'Empire face aux menaces extérieures."
+  },
+  "civil_registration": {
+    "name": "Registres civils",
+    "desc": "Un système visant à suivre tous les vassaux relevant de notre royaume afin d'améliorer la qualité de vie de tous ceux qui vivent sous notre bannière."
+  },
+  "tax_base_system": {
+    "name": "Système d'Assiette fiscale",
+    "desc": "La fiscalité est le fondement de l'économie de tout pays. En mettant en place un système fiscal adéquat dans l'ensemble de l', nous pouvons exploiter plus efficacement les richesses de nos territoires."
+  },
+  "provincial_governorship": {
+    "name": "Gouvernance provinciale",
+    "desc": "L'immensité de l' est sans pareille. Afin de gouverner efficacement nos vastes possessions, nous mettrons en place un système d'administrateurs provinciaux."
+  },
+  "cefeng_tizhi": {
+    "name": "Cèfēng Tǐzhì",
+    "desc": "Le système tributaire existe depuis son entrée en vigueur au sein de l', toutes les nations environnantes reconnaissant docilement l'autorité de l'."
+  },
+  "keju_examination": {
+    "name": "Examen Kējǔ",
+    "desc": "Le système des examens impériaux vise à sélectionner les candidats les plus brillants et les plus instruits pour servir dans notre administration. Cela garantit que seuls les esprits les plus éminents de notre nation font tourner les rouages de l'État, et que ceux-ci fonctionnent avec la plus grande efficacité."
+  },
+  "outwards_view": {
+    "name": "Regard tourné vers l'extérieur",
+    "desc": "Depuis sa création, l' étend son pouvoir au-delà de ses frontières, mais les menaces extérieures montrent que nous devons faire preuve de prudence concernant les populations autorisées à entrer sur son territoire."
+  },
+  "tianxia": {
+    "name": "Tiānxià",
+    "desc": "Les concepts de notre influence et de notre expansion territoriales sont garantis par notre droit à régner, conféré par le Ciel lui-même."
+  },
+  "jakun_gusa": {
+    "name": "Jakūn Gūsa",
+    "desc": "Structurant dès l'origine l'organisation militaire, les Huit Bannières représentent également la base organisationnelle de la société au sein de l'. Leur rôle doit être clairement défini afin que leur objectif principal reste une priorité."
+  },
+  "six_ministries": {
+    "name": "Six ministères",
+    "desc": "Les $six_ministries$ représentent les diverses divisions administratives de l', chacune disposant de ses propres tâches et fonctions."
+  },
+  "middle_kingdom_decrees": {
+    "name": "$middle_kingdom$",
+    "desc": "Les décrets impériaux sont la clé du bon fonctionnement de l', car ils garantissent que l'autorité de l' est appliquée dans tout le royaume."
+  },
+  "clan_residence": {
+    "name": "Résidence de clan",
+    "desc": "Des lois claires devraient définir les résidences des chefs de clan afin de maintenir l'équilibre des pouvoirs."
+  },
+  "jap_sakoku_law": {
+    "name": "Interaction outre-mer",
+    "desc": "Le $japan_region$ a toujours eu le luxe d'être séparé des autres pays par la mer. Cette distance rend la fermeture de nos frontières au monde extérieur bien plus simple."
+  },
+  "jap_buke_shohatto": {
+    "name": "Buke shohatto",
+    "desc": "Une série d'édits définissant le comportement approprié des samouraïs. Ils sont conçus pour inciter les samouraïs à s'améliorer."
+  },
+  "sc_policy_proposal_frequency": {
+    "name": "Fréquence des propositions de loi",
+    "desc": "Une réglementation qui régit l'administration des propositions de loi au sein de la ."
+  },
+  "sc_representative": {
+    "name": "Représentant des #L [ShowCultureGroupNameWithNoTooltip('swiss_group')]s#!",
+    "desc": "Chaque type d'organisation nécessitera un porte-parole qui représentera ses entités politiques à l'intérieur comme à l'extérieur. La pourrait néanmoins faire exception à cette règle..."
+  },
+  "sc_power_of_the_sovereign": {
+    "name": "Pouvoir du [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle]",
+    "desc": "Le représentant de la Confédération pourrait exiger davantage de pouvoir et d'influence au sein de l'union afin de renforcer sa position sur la scène publique."
+  },
+  "sc_election_method": {
+    "name": "Processus d'élection",
+    "desc": "Le processus d'élection du de la est une question délicate qui exige une législature précise afin d'éviter tout incident."
+  },
+  "sc_ruling_period": {
+    "name": "Durée de mandat",
+    "desc": "La Confédération peut avoir un qui la représente. Cependant, il est important de déterminer si celui-ci détiendra les rênes du pouvoir à vie ou seulement pour une certaine durée."
+  },
+  "sc_election_frequency": {
+    "name": "Fréquence des élections",
+    "desc": "La question de la étant désormais résolue, un nouveau problème se pose : celui de la fréquence des élections d'un nouveau ."
+  },
+  "sc_internal_politics": {
+    "name": "Politique intérieure",
+    "desc": "Bien que la ait avant tout été fondée pour des raisons défensives, il est bien entendu primordial d'en administrer les affaires intérieures."
+  },
+  "sc_membership_regulation": {
+    "name": "Réglementation des membres",
+    "desc": "La est une organisation créée à l'origine par le peuple pour se défendre contre l'influence croissante des dans la région. Cependant, les règles d'adhésion ne sont jamais figées..."
+  },
+  "sc_war_politics": {
+    "name": "Politique de guerre",
+    "desc": "Les menaces extérieures de la sont nombreuses. Afin de survivre à une anarchie politique, il est vital d'établir des conditions unifiées définissant la façon dont les peuvent se défendre les uns contre les autres."
+  },
+  "sc_religious_affairs": {
+    "name": "Affaires religieuses",
+    "desc": "En raison de la , l'unité religieuse de la Confédération se voit aujourd'hui dans une situation précaire. Si aucune solution n'est trouvée, ce conflit de foi pourrait bien déchirer l'union tout entière."
+  },
+  "sc_relations_with_hre": {
+    "name": "Relations impériales",
+    "desc": "La fait partie du depuis sa création. Cependant, la a laissé un goût amer dans la bouche de nombreux membres de la Confédération..."
+  },
+  "sc_unification": {
+    "name": "Unification $SWI_ADJ$",
+    "desc": "Les territoires #L s sont divisés depuis bien trop longtemps. Si les populations des Alpes souhaitent voir prospérité et sécurité s'installer, elles doivent s'unir sous une même bannière."
+  },
+  "lordship_of_ireland_rule_law": {
+    "name": "Autorité irlandaise",
+    "desc": "La forme du gouvernement en Irlande peut être aussi sauvage que le grand Atlantique qui s'écrase contre ses falaises escarpées, ou aussi éternelle que les tourbières."
+  },
+  "colonial_federation_unification": {
+    "name": "Unification de la $colonial_federation$",
+    "desc": "Avec des liens forgés dans les feux de notre lutte pour l'indépendance, il est temps d'envisager l'unification des terres de nos membres."
+  },
+  "union_foundation_law": {
+    "name": "Fondation de l'Union",
+    "desc": "La loi de l' qui détermine sa nature même et la voie future qu'elle doit suivre, à savoir centralisée ou fédérale, si elle résiste à l'épreuve du temps."
+  },
+  "union_codified_inheritance_law": {
+    "name": "Succession codifiée",
+    "desc": "Afin d'assurer la stabilité de l', les lois successorales de chaque membre doivent être codifiées de façon que chaque État possède le même ordre de succession."
+  },
+  "union_economic_law": {
+    "name": "Économie de l'Union",
+    "desc": "Un monarque peut régir plusieurs trônes, mais les membres de l' sont très éloignés les uns des autres sur le plan économique. Cette loi les rapprochera sans conteste."
+  },
+  "union_diplomatic_law": {
+    "name": "Libertés diplomatiques",
+    "desc": "L'union étant dirigée par un trône unique, la question se pose de savoir de quelle manière la diplomatie de l'$union$ doit être gérée.\\n\\n#Y Les questions relatives à la guerre restent toutefois entre les mains des Ordres de nos partenaires d'union."
+  },
+  "union_legislature_law": {
+    "name": "Législature de l'Union",
+    "desc": "L'administration de notre nécessite un modèle cohérent. Un système législatif unitaire et approuvé est impératif pour assurer la stabilité de l'$union$."
+  },
+  "union_unification_of_crowns_law": {
+    "name": "La question de l'unification",
+    "desc": "Dans la plupart des cas, l' n'est rien d'autre qu'une confédération lâche d'États différents gouvernés par le même trône. Cependant, la possibilité d'une unification sous la bannière du est envisageable..."
+  },
+  "union_mutual_offense_law": {
+    "name": "Attaque mutuelle",
+    "desc": "Bien que l' constitue avant tout un pacte défensif, sa puissance militaire peut être appelée en soutien lors de campagnes militaires... à condition que ses États membres le veuillent bien."
+  },
+  "colonial_representation_law": {
+    "name": "Représentation coloniale",
+    "desc": "Notre influence sur les territoires que nous gouvernons est déterminée par les caprices de notre suzerain."
+  },
+  "mutual_defense_law": {
+    "name": "Défense mutuelle",
+    "desc": "La politique définissant la façon dont les membres se défendront mutuellement en cas de guerre."
+  },
+  "mutual_offense_law": {
+    "name": "Attaque mutuelle",
+    "desc": "La politique définissant la façon dont les membres se soutiendront en cas de guerre déclarée face à un autre pays."
+  },
+  "main_philosophy_law": {
+    "name": "Philosophie principale",
+    "desc": "La philosophie principale actuelle et les enseignements qui forment les croyances centrales d'une secte."
+  },
+  "vajrayana_law": {
+    "name": "Pratiques tantriques",
+    "desc": "Vajrayāna, également appelée $buddhist$ tantrique ou $buddhist$ ésotérique, est une forme de $buddhist$ qui incorpore de nombreuses pratiques tantriques, ésotériques et rituelles. Son développement a été fortement influencé par les autres religions, notamment de type $hindu$."
+  },
+  "sect_school_law": {
+    "name": "École sectaire",
+    "desc": "L'école de cette secte, dont les enseignements peuvent diverger de la norme."
+  },
+  "guru_nanak_guruship": {
+    "name": "Enseignements de [GetCharacter('guru_nanak').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par ."
+  },
+  "guru_angad_guruship": {
+    "name": "Enseignements de [GetCharacter('guru_angad').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par ."
+  },
+  "guru_amar_das_guruship": {
+    "name": "Enseignements de [GetCharacter('guru_amar_das').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par ."
+  },
+  "guru_ram_das_guruship": {
+    "name": "Enseignements de [GetCharacter('guru_ram_das').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par ."
+  },
+  "guru_arjan_guruship": {
+    "name": "Enseignements de [GetCharacter('guru_arjan').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par ."
+  },
+  "guru_hargobind_guruship": {
+    "name": "Enseignements de [GetCharacter('guru_hargobind').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par ."
+  },
+  "guru_har_rai_guruship": {
+    "name": "Enseignements de [GetCharacter('guru_har_rai').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par ."
+  },
+  "guru_har_krishan_guruship": {
+    "name": "Enseignements de [GetCharacter('guru_har_krishan').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par ."
+  },
+  "guru_tegh_bahadur_guruship": {
+    "name": "Enseignements de [GetCharacter('guru_tegh_bahadur').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par ."
+  },
+  "guru_gobind_singh_guruship": {
+    "name": "Enseignements de [GetCharacter('guru_gobind_singh').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par ."
+  },
+  "khalsa_law": {
+    "name": "Khâlsâ",
+    "desc": "Communauté guerrière chargée de défendre le et ses adeptes, ses règles de conduite et d'initiation constitueront une norme pour tous les fidèles."
+  },
+  "guru_granth_sahib_guruship": {
+    "name": "Enseignements de [ShowWorkOfArtNameWithNoTooltip('guru_granth_sahib')]",
+    "desc": "Les enseignements établis dans le ."
+  }
+}

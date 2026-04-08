@@ -1,0 +1,23 @@
+{
+  "pop.nobles": "Soylular",
+  "pop.clergy": "Rahipler",
+  "pop.burghers": "Burjuvalar",
+  "pop.laborers": "İşçiler",
+  "pop.soldiers": "Askerler",
+  "pop.peasants": "Köylüler",
+  "pop.slaves": "Köleler",
+  "pop.tribesmen": "Kabile Askerleri",
+  "pop.upper": "Üst Tabaka",
+  "goods.cat.raw_material": "Ham Madde",
+  "goods.cat.produced": "Üretilen Mallar",
+  "goods.cat.food": "Yiyecek",
+  "goods.method.farming": "Çiftçilik",
+  "goods.method.mining": "Madencilik",
+  "goods.method.gathering": "Toplayıcılık",
+  "goods.method.hunting": "Avcılık",
+  "goods.method.forestry": "Odunculuk",
+  "goods.origin.old_world": "Eski Dünya Malları",
+  "goods.origin.new_world": "Yeni Dünya Malları",
+  "field.demand": "Talep",
+  "field.base_production": "Temel Üretim"
+}

@@ -1,0 +1,23 @@
+{
+  "pop.nobles": "귀족",
+  "pop.clergy": "성직자",
+  "pop.burghers": "도시민",
+  "pop.laborers": "노동자",
+  "pop.soldiers": "병사",
+  "pop.peasants": "농민",
+  "pop.slaves": "노예",
+  "pop.tribesmen": "부족민",
+  "pop.upper": "상류층",
+  "goods.cat.raw_material": "원재료",
+  "goods.cat.produced": "생산품",
+  "goods.cat.food": "식량",
+  "goods.method.farming": "농사",
+  "goods.method.mining": "채광",
+  "goods.method.gathering": "채집",
+  "goods.method.hunting": "사냥",
+  "goods.method.forestry": "벌목",
+  "goods.origin.old_world": "구세계 재화",
+  "goods.origin.new_world": "신세계 재화",
+  "field.demand": "수요",
+  "field.base_production": "기본 생산"
+}

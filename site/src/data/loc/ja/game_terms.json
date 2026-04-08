@@ -1,0 +1,23 @@
+{
+  "pop.nobles": "貴族",
+  "pop.clergy": "聖職者",
+  "pop.burghers": "市民",
+  "pop.laborers": "労働者",
+  "pop.soldiers": "兵士",
+  "pop.peasants": "農民",
+  "pop.slaves": "奴隷",
+  "pop.tribesmen": "部族",
+  "pop.upper": "上流階級",
+  "goods.cat.raw_material": "原材料",
+  "goods.cat.produced": "加工品",
+  "goods.cat.food": "食糧",
+  "goods.method.farming": "農業",
+  "goods.method.mining": "鉱業",
+  "goods.method.gathering": "集会",
+  "goods.method.hunting": "狩猟",
+  "goods.method.forestry": "伐採",
+  "goods.origin.old_world": "旧大陸の交易品",
+  "goods.origin.new_world": "新大陸の交易品",
+  "field.demand": "需要",
+  "field.base_production": "基本生産"
+}

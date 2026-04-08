@@ -1,0 +1,22 @@
+{
+  "monarchy": {
+    "name": "君主国",
+    "desc": "$monarchy$政府是基于不可分割的个人主权的原则组织起来的，在这一government_type下，ruler是精英阶层的首领和代表。一般情况下，统治者终身执政，并且heir沿$game_concept_monarch$的dynasty世袭产生。\\n\\n$game_concept_monarchs$可以通过royal_marriages缔结alliances，并能进一步通过personal_unions继承其他countries。然而，继承问题是君主制下的一个难题，君主制国家时常进入regencies状态，或是受到其他$game_concept_dynasties$王朝的影响。"
+  },
+  "republic": {
+    "name": "共和国",
+    "desc": "$republic$是一种由election产生rulers以代表公民团体在一定时间内执政的government_type。根据不同的heir_selection，$game_concept_ruler$可能在任何estates中产生。\\n\\n制度化的政治模式使得共和国在继任者产生问题上更具弹性，但由于政府和统治者本人的联系性较少，这一政体所能运用的外交行动相对较少。具体来讲，dynasties在共和政治中发挥的作用较小，也无法从royal_marriages中获利。"
+  },
+  "theocracy": {
+    "name": "神权国",
+    "desc": "$theocracy$是基于神圣主权原则组织起来的government_type，其ruler由信仰的仆从推举产生，同时世俗事务从属于宗教权威。\\n\\n$game_concept_rulers$通常由某种形式的election产生并终身执政，这被视为一种破坏性较小的权力转移形式。"
+  },
+  "steppe_horde": {
+    "name": "草原游牧部落",
+    "desc": "$steppe_horde$是建立在ruler军事威慑力上的government_type。现任$game_concept_ruler$的亲属有更高的机会成为heir，但是也需要重点考量资历与个人abilities。\\n\\n$game_concept_rulers$由社会的精英阶层角逐产生，只有当他们证明自己有能力对其他countries发动征服、劫掠和夷平城市时，他们才能保持部落成员的忠诚。正因如此，继承对于$steppe_horde$部落来说是一个重大事件，如果新任$game_concept_ruler$不能证明自己的能力，部落可能会四分五裂。"
+  },
+  "tribe": {
+    "name": "部落",
+    "desc": "$tribe$是一种围绕亲属关系的概念构建起来的government_type，这种亲属关系可能来自直系血脉，也可能来自祖先认同。\\n\\n因此，在确立heir时。dynasties与家庭的纽带是最优先考量的，所以社会的精英阶层往往能够继承政权，然而个人的资历、abilities和军事实力也经常被纳入考虑因素当中。"
+  }
+}

@@ -347,3 +347,4 @@ furniture  = {
 		all = 1.0
 	}
 }
+

@@ -16,6 +16,7 @@
 - Astro 静的サイト。`site/` ディレクトリ
 - デザインシステム: `site/DESIGN.md` に定義。UI変更時は必ず参照する
 - データソース: `pipeline/output/*.json` → `site/src/data/` にコピー
+- **【必須】ページの新規作成・UI変更時は frontend-design スキルを使用する。DESIGN.md を読むだけでなく、スキルの審美眼でデザイン品質を担保すること**
 
 ## データパイプライン（pipeline/）
 
@@ -65,4 +66,10 @@
 ## 課題管理
 
 - タスク一覧: `TODO.md`
-- 設計プラン: `.claude/plans/lucky-bubbling-globe.md`
+- タスク完了時・方針変更時は必ず TODO.md を更新すること
+
+## デプロイ先（決定済み）
+
+- ドメイン: `paradoxpedia.com`（ムームードメインで取得予定）
+- ホスティング: Cloudflare Workers Static Assets + R2（月$5）
+- 契約はサイト完成後。今は開発に集中

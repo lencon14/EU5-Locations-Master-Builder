@@ -1,0 +1,23 @@
+{
+  "pop.nobles": "Nobles",
+  "pop.clergy": "Clérigos",
+  "pop.burghers": "Burgueses",
+  "pop.laborers": "Trabajadores",
+  "pop.soldiers": "Soldados",
+  "pop.peasants": "Campesinos",
+  "pop.slaves": "Esclavos",
+  "pop.tribesmen": "Miembros de una tribu",
+  "pop.upper": "Clase alta",
+  "goods.cat.raw_material": "Materias primas",
+  "goods.cat.produced": "Bienes producidos",
+  "goods.cat.food": "Comida",
+  "goods.method.farming": "Agricultura",
+  "goods.method.mining": "Minería",
+  "goods.method.gathering": "Recolección",
+  "goods.method.hunting": "Caza",
+  "goods.method.forestry": "Explotación forestal",
+  "goods.origin.old_world": "Bienes del Viejo Mundo",
+  "goods.origin.new_world": "Bienes del Nuevo Mundo",
+  "field.demand": "Demanda",
+  "field.base_production": "Producción base"
+}

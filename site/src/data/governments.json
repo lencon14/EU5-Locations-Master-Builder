@@ -1,47 +1,43 @@
 [
   {
     "id": "monarchy",
-    "name_en": "Monarchy",
-    "name_ja": "君主制",
-    "desc_en": "A $monarchy$ is a based upon the principle of undivided personal sovereignty, where the is the first among the elites. The is normally determined by the of the $game_concept_monarch$ and in most cases they rule for life.\\n\\n$game_concept_monarchs$ can use to secure , and can even inherit foreign through . However, succession is often a troublesome matter, and Monarchies may easily fall into or under the influence of foreign $game_concept_dynasties$.",
-    "desc_ja": "$monarchy$は、分割不能な個人主権の原則に基づくであり、は上流階級のなかで最も高い地位にある。は通常、$game_concept_monarch$のによって決定され、ほとんどの場合で終身統治をおこなう。\\n\\n$game_concept_monarchs$は、を利用してを形成できる。また、を通じて他国を継承することもできる。しかし、継承はしばしば厄介な問題であり、君主国は容易にに陥ったり、他国の$game_concept_dynasties$の影響下に置かれたりする可能性がある。",
     "modifier": {
       "care_about_producing_heirs": true
     },
     "icon": "icons/government_types/monarchy.png",
-    "source_file": "00_default.txt"
+    "source_file": "00_default.txt",
+    "name_en": "Monarchy",
+    "name_ja": "君主制",
+    "desc_en": "A $monarchy$ is a government_type based upon the principle of undivided personal sovereignty, where the ruler is the first among the elites. The heir is normally determined by the dynasty of the $game_concept_monarch$ and in most cases they rule for life.\\n\\n$game_concept_monarchs$ can use royal_marriages to secure alliances, and can even inherit foreign countries through personal_unions. However, succession is often a troublesome matter, and Monarchies may easily fall into regencies or under the influence of foreign $game_concept_dynasties$.",
+    "desc_ja": "$monarchy$は、分割不能な個人主権の原則に基づくgovernment_typeであり、rulerは上流階級のなかで最も高い地位にある。heirは通常、$game_concept_monarch$のdynastyによって決定され、ほとんどの場合で終身統治をおこなう。\\n\\n$game_concept_monarchs$は、royal_marriagesを利用してalliancesを形成できる。また、personal_unionsを通じて他国を継承することもできる。しかし、継承はしばしば厄介な問題であり、君主国は容易にregenciesに陥ったり、他国の$game_concept_dynasties$の影響下に置かれたりする可能性がある。"
   },
   {
     "id": "republic",
-    "name_en": "Republic",
-    "name_ja": "共和国",
-    "desc_en": "A $republic$ is a where the are chosen by to serve as the representants of the citizen body for a set period of time. Depending on the the $game_concept_ruler$ may belong to any of the .\\n\\nThe strength of the political institutions makes Republics more resilient to inheritance issues, but the less personal nature of rule limits the diplomatic tools at their disposal. As such, play a lesser role and Republics cannot benefit from .",
-    "desc_ja": "$republic$はであり、がによって選ばれ、一定期間市民の代表を務める。に応じて、$game_concept_ruler$はのいずれかに属する可能性がある。\\n\\n政治制度が強固なため、共和国は相続問題に対する対応力が高いが、個人による統治ではないため、自由に使える外交手段が制限される。そのため、の役割は小さくなり、共和国はから恩恵を受けることができない。",
     "modifier": {
       "court_language_is_market_language_importance_modifier": 1
     },
     "icon": "icons/government_types/republic.png",
-    "source_file": "00_default.txt"
+    "source_file": "00_default.txt",
+    "name_en": "Republic",
+    "name_ja": "共和国",
+    "desc_en": "A $republic$ is a government_type where the rulers are chosen by election to serve as the representants of the citizen body for a set period of time. Depending on the heir_selection the $game_concept_ruler$ may belong to any of the estates.\\n\\nThe strength of the political institutions makes Republics more resilient to inheritance issues, but the less personal nature of rule limits the diplomatic tools at their disposal. As such, dynasties play a lesser role and Republics cannot benefit from royal_marriages.",
+    "desc_ja": "$republic$はgovernment_typeであり、rulersがelectionによって選ばれ、一定期間市民の代表を務める。heir_selectionに応じて、$game_concept_ruler$はestatesのいずれかに属する可能性がある。\\n\\n政治制度が強固なため、共和国は相続問題に対する対応力が高いが、個人による統治ではないため、自由に使える外交手段が制限される。そのため、dynastiesの役割は小さくなり、共和国はroyal_marriagesから恩恵を受けることができない。"
   },
   {
     "id": "theocracy",
-    "name_en": "Theocracy",
-    "name_ja": "神権制",
-    "desc_en": "A $theocracy$ is a based on the principle of divine sovereignty, where the is issued from the servants of the faith and secular matters are subordinated to religious authority.\\n\\n$game_concept_rulers$ are usually chosen to rule for life by some form of , which allows for a less disruptive transfer of power.",
-    "desc_ja": "$theocracy$は神の主権の原則に基づくであり、は聖職者たちから選ばれ、世俗的な事項は宗教的権威に従属する。\\n\\n$game_concept_rulers$は通常、なんらかの形式のによって選ばれ、生涯にわたり統治するため、混乱の少ない権力移譲が可能となる。",
     "modifier": {
       "force_convert_created_subjects": true,
       "court_language_is_liturgical_language_importance_modifier": 10
     },
     "icon": "icons/government_types/theocracy.png",
-    "source_file": "00_default.txt"
+    "source_file": "00_default.txt",
+    "name_en": "Theocracy",
+    "name_ja": "神権制",
+    "desc_en": "A $theocracy$ is a government_type based on the principle of divine sovereignty, where the ruler is issued from the servants of the faith and secular matters are subordinated to religious authority.\\n\\n$game_concept_rulers$ are usually chosen to rule for life by some form of election, which allows for a less disruptive transfer of power.",
+    "desc_ja": "$theocracy$は神の主権の原則に基づくgovernment_typeであり、rulerは聖職者たちから選ばれ、世俗的な事項は宗教的権威に従属する。\\n\\n$game_concept_rulers$は通常、なんらかの形式のelectionによって選ばれ、生涯にわたり統治するため、混乱の少ない権力移譲が可能となる。"
   },
   {
     "id": "steppe_horde",
-    "name_en": "Steppe Horde",
-    "name_ja": "ステップ遊牧民",
-    "desc_en": "A $steppe_horde$ is a based upon on military power of its . Relatives of the current $game_concept_ruler$ have a higher chance to become the , but seniority and personal are also highly regarded.\\n\\n$game_concept_rulers$ are issued from the elite members of the society and will only keep the loyalty of their peers as long as they prove themselves capable of subjugating, razing, and plundering neighboring . Because of that, succession is a momentous event for a $steppe_horde$, and might even lead to collapse if the new $game_concept_ruler$ fails to demonstrate its might.",
-    "desc_ja": "$steppe_horde$は、の軍事力に基づくである。現在の$game_concept_ruler$の親族はになる可能性が高くなるが、年功序列と個人のも非常に重視される。\\n\\n$game_concept_rulers$は社会の上流階級出身である。そして、近隣諸国を征服、破壊、略奪する能力があることを証明できるかぎり、仲間の忠誠を保つことができる。そのため、継承は$steppe_horde$にとって重大な出来事であり、新たな$game_concept_ruler$がその力を発揮できなければ崩壊につながる可能性さえある。",
     "modifier": {
       "court_language_is_common_language_importance_modifier": 10,
       "horde_unity_hit_at_ruler_death": -50,
@@ -54,14 +50,14 @@
       "combined_bonus_per_type": -0.01
     },
     "icon": "icons/government_types/steppe_horde.png",
-    "source_file": "00_default.txt"
+    "source_file": "00_default.txt",
+    "name_en": "Steppe Horde",
+    "name_ja": "ステップ遊牧民",
+    "desc_en": "A $steppe_horde$ is a government_type based upon on military power of its ruler. Relatives of the current $game_concept_ruler$ have a higher chance to become the heir, but seniority and personal abilities are also highly regarded.\\n\\n$game_concept_rulers$ are issued from the elite members of the society and will only keep the loyalty of their peers as long as they prove themselves capable of subjugating, razing, and plundering neighboring countries. Because of that, succession is a momentous event for a $steppe_horde$, and might even lead to collapse if the new $game_concept_ruler$ fails to demonstrate its might.",
+    "desc_ja": "$steppe_horde$は、rulerの軍事力に基づくgovernment_typeである。現在の$game_concept_ruler$の親族はheirになる可能性が高くなるが、年功序列と個人のabilitiesも非常に重視される。\\n\\n$game_concept_rulers$は社会の上流階級出身である。そして、近隣諸国を征服、破壊、略奪する能力があることを証明できるかぎり、仲間の忠誠を保つことができる。そのため、継承は$steppe_horde$にとって重大な出来事であり、新たな$game_concept_ruler$がその力を発揮できなければ崩壊につながる可能性さえある。"
   },
   {
     "id": "tribe",
-    "name_en": "Tribe",
-    "name_ja": "部族",
-    "desc_en": "A $tribe$ is a where the political power is structured first and foremost around the concept of kinship, be it by direct blood or perceived ancestry.\\n\\n and family ties are therefore of prime importance when determining the , who will always belong to the elite members of society, but very frequently seniority, personal , and military prowess are also highly regarded.",
-    "desc_ja": "$tribe$は、直系の血筋や祖先からの血縁関係を中心に政治権力が構築されるである。\\n\\nしたがって、を決定する際はや一族とのつながりが最も重要である。後継者はつねに社会の上層に属することになるが、年功序列、個人の、軍事的才能もしばしば重視される。",
     "modifier": {
       "court_language_is_common_language_importance_modifier": 10,
       "rural_settlement_downgrade_cost_modifier": -0.5,
@@ -70,6 +66,10 @@
       "care_about_producing_heirs": true
     },
     "icon": "icons/government_types/tribe.png",
-    "source_file": "00_default.txt"
+    "source_file": "00_default.txt",
+    "name_en": "Tribe",
+    "name_ja": "部族",
+    "desc_en": "A $tribe$ is a government_type where the political power is structured first and foremost around the concept of kinship, be it by direct blood or perceived ancestry.\\n\\ndynasties and family ties are therefore of prime importance when determining the heir, who will always belong to the elite members of society, but very frequently seniority, personal abilities, and military prowess are also highly regarded.",
+    "desc_ja": "$tribe$は、直系の血筋や祖先からの血縁関係を中心に政治権力が構築されるgovernment_typeである。\\n\\nしたがって、heirを決定する際はdynastiesや一族とのつながりが最も重要である。後継者はつねに社会の上層に属することになるが、年功序列、個人のabilities、軍事的才能もしばしば重視される。"
   }
 ]

@@ -1,10 +1,6 @@
 [
   {
     "id": "horses",
-    "name_en": "Horses",
-    "name_ja": "馬",
-    "desc_en": "Horses were domesticated at an unknown point of the Eurasian Steppe around six thousand years ago. Since then, they have been used by people for a wide variety of tasks, although the most important has been waging war. In that sense, the Middle Ages were the Golden Age of cavalry, as it was closely linked to the development of feudal societies.",
-    "desc_ja": "馬は約6000年前、場所は不明だがユーラシア・ステップのどこかで家畜化された。それ以来さまざまな用途に使用されてきたが、最も重要なものは戦馬としての役割だった。その点で中世は騎兵の黄金時代であり、馬は封建社会の発展と密接に結びついていた。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 3,
@@ -18,14 +14,14 @@
       "nobles": 0.25
     },
     "icon": "icons/trade_goods/icon_goods_horses.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Horses",
+    "name_ja": "馬",
+    "desc_en": "Horses were domesticated at an unknown point of the Eurasian Steppe around six thousand years ago. Since then, they have been used by people for a wide variety of tasks, although the most important has been waging war. In that sense, the Middle Ages were the Golden Age of cavalry, as it was closely linked to the development of feudal societies.",
+    "desc_ja": "馬は約6000年前、場所は不明だがユーラシア・ステップのどこかで家畜化された。それ以来さまざまな用途に使用されてきたが、最も重要なものは戦馬としての役割だった。その点で中世は騎兵の黄金時代であり、馬は封建社会の発展と密接に結びついていた。"
   },
   {
     "id": "clay",
-    "name_en": "Clay",
-    "name_ja": "粘土",
-    "desc_en": "Clay is a type of soil that has been used by humanity for the production of pottery and ceramics since prehistoric times. Another main use is in construction, in combination with other materials, or in the creation of bricks. Clay tablets were also one of the first writing methods invented, so its impact in the development of civilization is undeniable.",
-    "desc_ja": "粘土は、先史時代から人類が陶器や陶磁器の製造に使用してきた、土の一種である。その他の主な用途は建設、別の素材との組み合わせ、レンガの製造などである。粘土板は最初期の筆記方法のひとつでもあり、粘土が文明の発展に影響を与えたことは疑いようがない。",
     "category": "raw_material",
     "method": "gathering",
     "default_market_price": 0.5,
@@ -33,14 +29,14 @@
     "base_production": 0.4,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_clay.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Clay",
+    "name_ja": "粘土",
+    "desc_en": "Clay is a type of soil that has been used by humanity for the production of pottery and ceramics since prehistoric times. Another main use is in construction, in combination with other materials, or in the creation of bricks. Clay tablets were also one of the first writing methods invented, so its impact in the development of civilization is undeniable.",
+    "desc_ja": "粘土は、先史時代から人類が陶器や陶磁器の製造に使用してきた、土の一種である。その他の主な用途は建設、別の素材との組み合わせ、レンガの製造などである。粘土板は最初期の筆記方法のひとつでもあり、粘土が文明の発展に影響を与えたことは疑いようがない。"
   },
   {
     "id": "sand",
-    "name_en": "Sand",
-    "name_ja": "砂",
-    "desc_en": "Sand is one of the most common materials on Earth, and its uses are multiple and varied. It has been the most pervasive abrading material used to shape any kind of stone or metal due to it being coarse and rough, as a component of many building materials and as the main material for the production of glass, among many other uses.",
-    "desc_ja": "砂は地球上で最も一般的な素材のひとつであり、その用途は多岐にわたる。粗く粒状の砂は、石や金属を成形するための研磨材や、多くの建材の原料、ガラスの主原料などのさまざまな用途で広く利用されてきた。",
     "category": "raw_material",
     "method": "gathering",
     "default_market_price": 0.5,
@@ -48,14 +44,14 @@
     "base_production": 0.2,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_sand.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Sand",
+    "name_ja": "砂",
+    "desc_en": "Sand is one of the most common materials on Earth, and its uses are multiple and varied. It has been the most pervasive abrading material used to shape any kind of stone or metal due to it being coarse and rough, as a component of many building materials and as the main material for the production of glass, among many other uses.",
+    "desc_ja": "砂は地球上で最も一般的な素材のひとつであり、その用途は多岐にわたる。粗く粒状の砂は、石や金属を成形するための研磨材や、多くの建材の原料、ガラスの主原料などのさまざまな用途で広く利用されてきた。"
   },
   {
     "id": "coal",
-    "name_en": "Coal",
-    "name_ja": "石炭",
-    "desc_en": "Coal has a long history as a source of fuel, but it is not until the invention and dissemination of the practical steam engine that demand would take off. As the Industrial Revolution swept across Europe, the use and export or import of coal would become a major business and an integral part of a modern economy.",
-    "desc_ja": "石炭は燃料としての長い歴史があるが、実用的な蒸気機関が発明され普及するまで需要は低かった。産業革命がヨーロッパ全土に広がるにつれて、石炭の使用と輸出入は主要なビジネスとなり、現代経済に不可欠な要素となった。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 2,
@@ -70,14 +66,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_coal.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Coal",
+    "name_ja": "石炭",
+    "desc_en": "Coal has a long history as a source of fuel, but it is not until the invention and dissemination of the practical steam engine that demand would take off. As the Industrial Revolution swept across Europe, the use and export or import of coal would become a major business and an integral part of a modern economy.",
+    "desc_ja": "石炭は燃料としての長い歴史があるが、実用的な蒸気機関が発明され普及するまで需要は低かった。産業革命がヨーロッパ全土に広がるにつれて、石炭の使用と輸出入は主要なビジネスとなり、現代経済に不可欠な要素となった。"
   },
   {
     "id": "iron",
-    "name_en": "Iron",
-    "name_ja": "鉄",
-    "desc_en": "Iron represents not just iron, but other ferrous metals. Iron formed the basis of the metallurgical industry and was used extensively in the production of weapons and other military equipment.",
-    "desc_ja": "鉄は鉄そのものだけでなく、ほかの鉄金属も指す。冶金産業の基盤であり、武器やその他の軍事装備品の製造に広く使用された。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 3,
@@ -85,14 +81,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_iron.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Iron",
+    "name_ja": "鉄",
+    "desc_en": "Iron represents not just iron, but other ferrous metals. Iron formed the basis of the metallurgical industry and was used extensively in the production of weapons and other military equipment.",
+    "desc_ja": "鉄は鉄そのものだけでなく、ほかの鉄金属も指す。冶金産業の基盤であり、武器やその他の軍事装備品の製造に広く使用された。"
   },
   {
     "id": "copper",
-    "name_en": "Copper",
-    "name_ja": "銅",
-    "desc_en": "Copper has been one of the most important materials since the invention and diffusion of metallurgy thousands of years ago. Its use is very varied, as it can be worked alone, but also in alloys, such as bronze. This makes it especially important for weaponry, being essential in the early production of cannons.",
-    "desc_ja": "銅は、数千年前に冶金術が発明され普及して以来、最も重要な素材のひとつである。その用途は多岐にわたり、単独で加工できるほか、青銅などの合金としても利用できる。そのため、銅は特に武器製造で欠かせない金属であり、初期の大砲製造における主要な素材だった。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 3,
@@ -100,14 +96,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_copper.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Copper",
+    "name_ja": "銅",
+    "desc_en": "Copper has been one of the most important materials since the invention and diffusion of metallurgy thousands of years ago. Its use is very varied, as it can be worked alone, but also in alloys, such as bronze. This makes it especially important for weaponry, being essential in the early production of cannons.",
+    "desc_ja": "銅は、数千年前に冶金術が発明され普及して以来、最も重要な素材のひとつである。その用途は多岐にわたり、単独で加工できるほか、青銅などの合金としても利用できる。そのため、銅は特に武器製造で欠かせない金属であり、初期の大砲製造における主要な素材だった。"
   },
   {
     "id": "goods_gold",
-    "name_en": "Gold",
-    "name_ja": "金",
-    "desc_en": "Gold has traditionally been the most valued metal, widely used for trade and the accumulation of wealth in the form of coins or various types of prestige objects. Its use as the main currency in bimetallic or trimetallic systems leads to a very high demand, making it an object of desire during the exploration of new territories.",
-    "desc_ja": "金は古くから極めて価値の高い金属であり、貨幣やさまざまな宝飾品として交易や財産の蓄積に広く利用されてきた。二貨制および三貨制で主要通貨として使われるため需要が高く、新たな領土の調査時などは特に求められる存在となっている。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 10,
@@ -121,14 +117,14 @@
       "all": 1.05
     },
     "icon": "icons/trade_goods/icon_goods_goods_gold.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Gold",
+    "name_ja": "金",
+    "desc_en": "Gold has traditionally been the most valued metal, widely used for trade and the accumulation of wealth in the form of coins or various types of prestige objects. Its use as the main currency in bimetallic or trimetallic systems leads to a very high demand, making it an object of desire during the exploration of new territories.",
+    "desc_ja": "金は古くから極めて価値の高い金属であり、貨幣やさまざまな宝飾品として交易や財産の蓄積に広く利用されてきた。二貨制および三貨制で主要通貨として使われるため需要が高く、新たな領土の調査時などは特に求められる存在となっている。"
   },
   {
     "id": "silver",
-    "name_en": "Silver",
-    "name_ja": "銀",
-    "desc_en": "Silver was one of the first metals used as money and the most successful along with gold. Central Europe became the center of silver production during the Middle Ages, although the Columbian Exchange shifted the focus of world production to the Americas, making it the main production center of a newborn global network since the 16th century.",
-    "desc_ja": "銀は貨幣として使用された最初の金属のひとつであり、金と並んで広く使用された。中世には中央ヨーロッパが銀生産の中心地となったが、コロンブス交換によって中心地がアメリカ大陸に移ると、16世紀以降はアメリカが新たな世界的銀交易の主要拠点となった。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 8,
@@ -142,14 +138,14 @@
       "all": 1.05
     },
     "icon": "icons/trade_goods/icon_goods_silver.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Silver",
+    "name_ja": "銀",
+    "desc_en": "Silver was one of the first metals used as money and the most successful along with gold. Central Europe became the center of silver production during the Middle Ages, although the Columbian Exchange shifted the focus of world production to the Americas, making it the main production center of a newborn global network since the 16th century.",
+    "desc_ja": "銀は貨幣として使用された最初の金属のひとつであり、金と並んで広く使用された。中世には中央ヨーロッパが銀生産の中心地となったが、コロンブス交換によって中心地がアメリカ大陸に移ると、16世紀以降はアメリカが新たな世界的銀交易の主要拠点となった。"
   },
   {
     "id": "stone",
-    "name_en": "Stone",
-    "name_ja": "石材",
-    "desc_en": "Stone has been one of the main building materials of humanity throughout all its history. Stronger and more durable than other options like clay or wood, it was the go-to material for any construction built to last. Buildings from long ago like the Pyramids have reached our times still standing due to the durability of the stone they were made of.",
-    "desc_ja": "石材は、人類の歴史を通じて主要な建材のひとつである。粘土や木材よりも強く耐久性があり、長期使用が見込まれる建造物にとって欠かせない素材だった。ピラミッドのような太古の建造物が現代まで残っているのは、まさに石の耐久性のおかげである。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 1,
@@ -157,14 +153,14 @@
     "base_production": 0.2,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_stone.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Stone",
+    "name_ja": "石材",
+    "desc_en": "Stone has been one of the main building materials of humanity throughout all its history. Stronger and more durable than other options like clay or wood, it was the go-to material for any construction built to last. Buildings from long ago like the Pyramids have reached our times still standing due to the durability of the stone they were made of.",
+    "desc_ja": "石材は、人類の歴史を通じて主要な建材のひとつである。粘土や木材よりも強く耐久性があり、長期使用が見込まれる建造物にとって欠かせない素材だった。ピラミッドのような太古の建造物が現代まで残っているのは、まさに石の耐久性のおかげである。"
   },
   {
     "id": "tin",
-    "name_en": "Tin",
-    "name_ja": "スズ",
-    "desc_en": "Tin was used extensively for the first time in metallurgy as part of the alloy to obtain bronze 5000 years ago. Later it has been widely used to coat other metals and alloys, such as iron, lead or steel, to prevent corrosion, as well as to make pewter, very common in tableware.",
-    "desc_ja": "スズは、5000年前に青銅を作るための冶金で初めて広く使用された。その後、腐食を防ぐために鉄、鉛、鋼などのほかの金属や合金のコーティングに重宝され、食器によく用いられるピューター（白鑞）の製造にも利用される。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 2,
@@ -172,14 +168,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_tin.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Tin",
+    "name_ja": "スズ",
+    "desc_en": "Tin was used extensively for the first time in metallurgy as part of the alloy to obtain bronze 5000 years ago. Later it has been widely used to coat other metals and alloys, such as iron, lead or steel, to prevent corrosion, as well as to make pewter, very common in tableware.",
+    "desc_ja": "スズは、5000年前に青銅を作るための冶金で初めて広く使用された。その後、腐食を防ぐために鉄、鉛、鋼などのほかの金属や合金のコーティングに重宝され、食器によく用いられるピューター（白鑞）の製造にも利用される。"
   },
   {
     "id": "lead",
-    "name_en": "Lead",
-    "name_ja": "鉛",
-    "desc_en": "Lead has been obtained since ancient times as a by-product of silver extraction by burning galena. Lead was then used in a wide range of household and manufactured products, especially by the Romans, whose levels of lead production were not reached until the Industrial Revolution. In the Modern Age, it became the main material for making bullets for firearms.",
-    "desc_ja": "鉛は、方鉛鉱を加熱して銀を抽出する際の副産物として、古代から得られてきた。その後、鉛は特にローマ人によって幅広い家庭製品や工業製品に使用され、産業革命当時に匹敵する量が生産されていた。近代では、銃器の弾丸を製造するための主な材料となった。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 2,
@@ -187,14 +183,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_lead.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Lead",
+    "name_ja": "鉛",
+    "desc_en": "Lead has been obtained since ancient times as a by-product of silver extraction by burning galena. Lead was then used in a wide range of household and manufactured products, especially by the Romans, whose levels of lead production were not reached until the Industrial Revolution. In the Modern Age, it became the main material for making bullets for firearms.",
+    "desc_ja": "鉛は、方鉛鉱を加熱して銀を抽出する際の副産物として、古代から得られてきた。その後、鉛は特にローマ人によって幅広い家庭製品や工業製品に使用され、産業革命当時に匹敵する量が生産されていた。近代では、銃器の弾丸を製造するための主な材料となった。"
   },
   {
     "id": "silk",
-    "name_en": "Silk",
-    "name_ja": "絹",
-    "desc_en": "The finest of all fabrics of the east was the silk produced in India, China, and East Asia. While less iconic than spices, the profits from silk and finely woven cotton cloth would in fact soon dwarf those of the spice trade for the European East India Companies.\\nDue to increasing demand attempts were also made to produce the material locally in mercantilist Europe, with very varied degrees of success.",
-    "desc_ja": "東洋で最も上質な織物は、インド、中国、東アジアで生産された絹だった。香辛料ほど派手な存在ではないものの、絹や繊細な綿布から得られる利益は、すぐにヨーロッパ東インド会社の香辛料交易を上回るようになった。\\n需要の増加に伴い、重商主義のヨーロッパでも絹の現地生産が試みられたが、その成功の度合いはさまざまだった。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 4,
@@ -202,14 +198,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_silk.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Silk",
+    "name_ja": "絹",
+    "desc_en": "The finest of all fabrics of the east was the silk produced in India, China, and East Asia. While less iconic than spices, the profits from silk and finely woven cotton cloth would in fact soon dwarf those of the spice trade for the European East India Companies.\\nDue to increasing demand attempts were also made to produce the material locally in mercantilist Europe, with very varied degrees of success.",
+    "desc_ja": "東洋で最も上質な織物は、インド、中国、東アジアで生産された絹だった。香辛料ほど派手な存在ではないものの、絹や繊細な綿布から得られる利益は、すぐにヨーロッパ東インド会社の香辛料交易を上回るようになった。\\n需要の増加に伴い、重商主義のヨーロッパでも絹の現地生産が試みられたが、その成功の度合いはさまざまだった。"
   },
   {
     "id": "dyes",
-    "name_en": "Dyes",
-    "name_ja": "染料",
-    "desc_en": "For as long as textiles have been woven there has been a market for fine dyes. During the late Middle Ages expensive dyes such as indigo would be worth a fortune due to how distant the source in India was.\\nAs the world opened up dyes became easier to get hold of, both through the possibilities to produce them in America and the greater accessibility of the Indian market. Nonetheless, dyes remained rare and in the early 19th century; as the dye plantations in India fell into European hands, a veritable gold rush ensued.",
-    "desc_ja": "織物の登場以来、上質な染料の市場が存在してきた。インドの生産地が非常に遠かったため、中世後期にはインディゴなどの高価な染料には莫大な価値があった。\\n世界が相互につながるにつれて、アメリカでの生産が可能になり、インド市場へとの取引も容易になったことで染料はより身近になる。とはいえ染料は依然として希少であり、19世紀初頭にインドの生産地がヨーロッパ人の手に落ちると、まさしくゴールドラッシュが起こった。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 4,
@@ -217,14 +213,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_dyes.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Dyes",
+    "name_ja": "染料",
+    "desc_en": "For as long as textiles have been woven there has been a market for fine dyes. During the late Middle Ages expensive dyes such as indigo would be worth a fortune due to how distant the source in India was.\\nAs the world opened up dyes became easier to get hold of, both through the possibilities to produce them in America and the greater accessibility of the Indian market. Nonetheless, dyes remained rare and in the early 19th century; as the dye plantations in India fell into European hands, a veritable gold rush ensued.",
+    "desc_ja": "織物の登場以来、上質な染料の市場が存在してきた。インドの生産地が非常に遠かったため、中世後期にはインディゴなどの高価な染料には莫大な価値があった。\\n世界が相互につながるにつれて、アメリカでの生産が可能になり、インド市場へとの取引も容易になったことで染料はより身近になる。とはいえ染料は依然として希少であり、19世紀初頭にインドの生産地がヨーロッパ人の手に落ちると、まさしくゴールドラッシュが起こった。"
   },
   {
     "id": "incense",
-    "name_en": "Incense",
-    "name_ja": "香料",
-    "desc_en": "To spread smoke and fragrance through the burning of materials has been common in ceremonial practices for centuries. Frankincense, agarwood, sandalwood, myrrh, and other goods suited for this use can be found in few places and their diffusion was an integral part in the formation of trade networks such as the Silk Road or the fittingly named Incense Route.",
-    "desc_ja": "何世紀にもわたり儀式では、物を燃やして煙や香りを拡散させる慣習が一般的に見られた。乳香、沈香、白檀、没薬など、この用途に適した品物は限られた場所でしか採取できず、その交易は絹の道や香の道などの交易網の形成の一端を担った。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 2.5,
@@ -238,14 +234,14 @@
       "all": 0.5
     },
     "icon": "icons/trade_goods/icon_goods_incense.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Incense",
+    "name_ja": "香料",
+    "desc_en": "To spread smoke and fragrance through the burning of materials has been common in ceremonial practices for centuries. Frankincense, agarwood, sandalwood, myrrh, and other goods suited for this use can be found in few places and their diffusion was an integral part in the formation of trade networks such as the Silk Road or the fittingly named Incense Route.",
+    "desc_ja": "何世紀にもわたり儀式では、物を燃やして煙や香りを拡散させる慣習が一般的に見られた。乳香、沈香、白檀、没薬など、この用途に適した品物は限られた場所でしか採取できず、その交易は絹の道や香の道などの交易網の形成の一端を担った。"
   },
   {
     "id": "tea",
-    "name_en": "Tea",
-    "name_ja": "茶葉",
-    "desc_en": "Tea was an important luxury drink in China, India, and South-East Asia. It was often used in religious or social rituals. The English popularized tea in Europe. Never considered as noble a drink as coffee, it still produced large profit merely from the fact that the world supply was low.",
-    "desc_ja": "茶は、中国、インド、および東南アジアでは重要な高級飲料であり、宗教的・社会的な儀式でも使用された。ヨーロッパに茶を普及させたのはイギリス人で、コーヒーほど高貴な飲み物ではなかったものの、世界的な供給量の少なさによる希少性で大きな利益を生み出した。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 3,
@@ -261,14 +257,14 @@
       "all": 0.75
     },
     "icon": "icons/trade_goods/icon_goods_tea.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Tea",
+    "name_ja": "茶葉",
+    "desc_en": "Tea was an important luxury drink in China, India, and South-East Asia. It was often used in religious or social rituals. The English popularized tea in Europe. Never considered as noble a drink as coffee, it still produced large profit merely from the fact that the world supply was low.",
+    "desc_ja": "茶は、中国、インド、および東南アジアでは重要な高級飲料であり、宗教的・社会的な儀式でも使用された。ヨーロッパに茶を普及させたのはイギリス人で、コーヒーほど高貴な飲み物ではなかったものの、世界的な供給量の少なさによる希少性で大きな利益を生み出した。"
   },
   {
     "id": "cocoa",
-    "name_en": "Cocoa",
-    "name_ja": "ココア",
-    "desc_en": "Cocoa was used as a stimulant by the Aztec, Incan, and Indian rulers since the early medieval times. It was popularized in Europe in the early 16th century when the Spaniards imported it from its American colonies. Cocoa became a luxury enjoyed by the rich.",
-    "desc_ja": "ココアは中世の初期からアステカ人、インカ人、インディアンの統治者たちに刺激剤として使用されてきた。ヨーロッパでは、スペイン人がアメリカの植民地から輸入したことで16世紀初頭に普及し、富裕層が楽しむ贅沢品となった。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 4,
@@ -287,14 +283,14 @@
       "all": 0.75
     },
     "icon": "icons/trade_goods/icon_goods_cocoa.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Cocoa",
+    "name_ja": "ココア",
+    "desc_en": "Cocoa was used as a stimulant by the Aztec, Incan, and Indian rulers since the early medieval times. It was popularized in Europe in the early 16th century when the Spaniards imported it from its American colonies. Cocoa became a luxury enjoyed by the rich.",
+    "desc_ja": "ココアは中世の初期からアステカ人、インカ人、インディアンの統治者たちに刺激剤として使用されてきた。ヨーロッパでは、スペイン人がアメリカの植民地から輸入したことで16世紀初頭に普及し、富裕層が楽しむ贅沢品となった。"
   },
   {
     "id": "coffee",
-    "name_en": "Coffee",
-    "name_ja": "コーヒー",
-    "desc_en": "Coffee was discovered in the northeast region of Ethiopia and coffee cultivation first took place in southern Arabia. From the Middle East, coffee spread to Italy in the 17th century and was then introduced to the rest of Europe. Coffee became more widely accepted after it was deemed a Christian beverage by Pope Clement VIII in 1600, despite appeals to ban the 'Muslim drink'.",
-    "desc_ja": "コーヒーはエチオピア北東部で発見され、その栽培はアラビア南方で始まった。17世紀には中東からイタリアにコーヒーが伝来し、それからヨーロッパの残りの地域にも広がった。コーヒーは1600年にローマ教皇クレメンス8世がキリスト教徒の飲み物と見なしたことで、ムスリムの飲み物を排除すべきという主張をよそに、広く受け入れられていった。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 3,
@@ -314,14 +310,14 @@
       "all": 0.75
     },
     "icon": "icons/trade_goods/icon_goods_coffee.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Coffee",
+    "name_ja": "コーヒー",
+    "desc_en": "Coffee was discovered in the northeast region of Ethiopia and coffee cultivation first took place in southern Arabia. From the Middle East, coffee spread to Italy in the 17th century and was then introduced to the rest of Europe. Coffee became more widely accepted after it was deemed a Christian beverage by Pope Clement VIII in 1600, despite appeals to ban the 'Muslim drink'.",
+    "desc_ja": "コーヒーはエチオピア北東部で発見され、その栽培はアラビア南方で始まった。17世紀には中東からイタリアにコーヒーが伝来し、それからヨーロッパの残りの地域にも広がった。コーヒーは1600年にローマ教皇クレメンス8世がキリスト教徒の飲み物と見なしたことで、ムスリムの飲み物を排除すべきという主張をよそに、広く受け入れられていった。"
   },
   {
     "id": "fiber_crops",
-    "name_en": "Fiber Crops",
-    "name_ja": "繊維作物",
-    "desc_en": "Many different fibrous crops are used all around the world to craft a multitude of products such as sails, ropes, fishing nets, and clothes. Beyond their use to produce coarse textiles, however, many are also used as a core part of the production of finer textiles, used in ceremonies, households, and elsewhere. Some examples are hemp, flax, jute, and sisal.",
-    "desc_ja": "帆、ロープ、漁網、衣類など多様な製品の原料となるため、さまざまな繊維作物が世界中で使用されている。上記の粗い織物に使用されるだけでなく、多くは儀式や家庭などで使用される上質な織物の主原料としても使用される。例としては、麻、亜麻、ジュート、サイザルアサなどがある。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 2,
@@ -329,14 +325,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_fiber_crops.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Fiber Crops",
+    "name_ja": "繊維作物",
+    "desc_en": "Many different fibrous crops are used all around the world to craft a multitude of products such as sails, ropes, fishing nets, and clothes. Beyond their use to produce coarse textiles, however, many are also used as a core part of the production of finer textiles, used in ceremonies, households, and elsewhere. Some examples are hemp, flax, jute, and sisal.",
+    "desc_ja": "帆、ロープ、漁網、衣類など多様な製品の原料となるため、さまざまな繊維作物が世界中で使用されている。上記の粗い織物に使用されるだけでなく、多くは儀式や家庭などで使用される上質な織物の主原料としても使用される。例としては、麻、亜麻、ジュート、サイザルアサなどがある。"
   },
   {
     "id": "ivory",
-    "name_en": "Ivory",
-    "name_ja": "象牙",
-    "desc_en": "Ivory was one of the main exports of Africa apart from slaves. It was highly sought after by Europeans for use in various manufactured goods such as cutlery, gifts, small pieces of art, furniture, etc.",
-    "desc_ja": "象牙は、奴隷に次ぐアフリカの主要な輸出品のひとつだった。ヨーロッパでは食器、贈り物、小型の芸術品、家具などの各種工業製品に象牙が使用されるため、非常に人気があった。",
     "category": "raw_material",
     "method": "hunting",
     "default_market_price": 4,
@@ -351,14 +347,14 @@
     },
     "development_threshold": 20,
     "icon": "icons/trade_goods/icon_goods_ivory.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Ivory",
+    "name_ja": "象牙",
+    "desc_en": "Ivory was one of the main exports of Africa apart from slaves. It was highly sought after by Europeans for use in various manufactured goods such as cutlery, gifts, small pieces of art, furniture, etc.",
+    "desc_ja": "象牙は、奴隷に次ぐアフリカの主要な輸出品のひとつだった。ヨーロッパでは食器、贈り物、小型の芸術品、家具などの各種工業製品に象牙が使用されるため、非常に人気があった。"
   },
   {
     "id": "lumber",
-    "name_en": "Lumber",
-    "name_ja": "木材",
-    "desc_en": "Lumber has been one of the main building materials for humanity throughout all its history. Although less durable than stone, it is more easily accessible have made it a staple of any building in all places of the world. Even structures designed to be resistant like castles and fortifications have also their versions made out of wood rather than stone.",
-    "desc_ja": "木材は、人類の歴史とともにある主要な建築資材のひとつである。石材ほど耐久性は高くないものの、入手しやすいことから世界中であらゆる建築物に欠かせない素材となっている。城や要塞のような耐久性重視の建造物でさえ、石材ではなく木材で作られたものがある。",
     "category": "raw_material",
     "method": "forestry",
     "default_market_price": 1.5,
@@ -373,14 +369,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_lumber.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Lumber",
+    "name_ja": "木材",
+    "desc_en": "Lumber has been one of the main building materials for humanity throughout all its history. Although less durable than stone, it is more easily accessible have made it a staple of any building in all places of the world. Even structures designed to be resistant like castles and fortifications have also their versions made out of wood rather than stone.",
+    "desc_ja": "木材は、人類の歴史とともにある主要な建築資材のひとつである。石材ほど耐久性は高くないものの、入手しやすいことから世界中であらゆる建築物に欠かせない素材となっている。城や要塞のような耐久性重視の建造物でさえ、石材ではなく木材で作られたものがある。"
   },
   {
     "id": "salt",
-    "name_en": "Salt",
-    "name_ja": "塩",
-    "desc_en": "Salt is essential for human life. In addition, it was the most common means to preserve food for the long winter months. It was either mineral, brought from mines in Central Europe, or natural, from salt wetlands production via evaporation along sunny coastlines.",
-    "desc_ja": "塩は人間の生活に不可欠である。加えて、長い冬には食糧を保存するための主な添加物でもあった。塩は中央ヨーロッパの鉱山から鉱物として採掘するか、海岸沿いの日照りの良い場所で自然蒸発によって作られるかのいずれかだった。",
     "category": "raw_material",
     "method": "gathering",
     "default_market_price": 4,
@@ -396,14 +392,14 @@
       "all": 0.7
     },
     "icon": "icons/trade_goods/icon_goods_salt.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Salt",
+    "name_ja": "塩",
+    "desc_en": "Salt is essential for human life. In addition, it was the most common means to preserve food for the long winter months. It was either mineral, brought from mines in Central Europe, or natural, from salt wetlands production via evaporation along sunny coastlines.",
+    "desc_ja": "塩は人間の生活に不可欠である。加えて、長い冬には食糧を保存するための主な添加物でもあった。塩は中央ヨーロッパの鉱山から鉱物として採掘するか、海岸沿いの日照りの良い場所で自然蒸発によって作られるかのいずれかだった。"
   },
   {
     "id": "medicaments",
-    "name_en": "Medicaments",
-    "name_ja": "薬剤",
-    "desc_en": "A wide variety of plants and animal products have been used throughout history to treat all kinds of illnesses, due to their medicinal properties or supposition thereof. Some were more based on actual properties than others, while in some cases it was more a matter of belief in their effectiveness.",
-    "desc_ja": "多種多様な植物や動物由来の生成物が、その薬効のためにあらゆる病の治療に使用されてきた。薬効の根拠は実際の効能に基づくこともあれば、効能に対する「信仰」に基づくこともあった。",
     "category": "raw_material",
     "method": "gathering",
     "default_market_price": 1,
@@ -424,14 +420,14 @@
       "all": 1.1
     },
     "icon": "icons/trade_goods/icon_goods_medicaments.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Medicaments",
+    "name_ja": "薬剤",
+    "desc_en": "A wide variety of plants and animal products have been used throughout history to treat all kinds of illnesses, due to their medicinal properties or supposition thereof. Some were more based on actual properties than others, while in some cases it was more a matter of belief in their effectiveness.",
+    "desc_ja": "多種多様な植物や動物由来の生成物が、その薬効のためにあらゆる病の治療に使用されてきた。薬効の根拠は実際の効能に基づくこともあれば、効能に対する「信仰」に基づくこともあった。"
   },
   {
     "id": "gems",
-    "name_en": "Gems",
-    "name_ja": "宝石",
-    "desc_en": "Since the earliest times, stones such as rubies, sapphires, diamonds, emeralds, or jade, have been used in jewelry and ceremonial attire. For centuries the only source of diamonds in the world were the fabled mines at Golconda. While not all precious stones are as rare, they are all highly sought-after commodities.",
-    "desc_ja": "ルビー、サファイア、ダイヤモンド、エメラルド、翡翠などの宝石は、古くから宝飾品や儀式用の衣装に使用されてきた。世界でダイヤモンドの唯一の供給源は、何世紀にもわたってゴールコンダの伝説的な鉱山だった。すべての宝石が希少というわけではないが、どれも非常に需要の高い商品となる。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 4,
@@ -445,14 +441,14 @@
       "all": 1.25
     },
     "icon": "icons/trade_goods/icon_goods_gems.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Gems",
+    "name_ja": "宝石",
+    "desc_en": "Since the earliest times, stones such as rubies, sapphires, diamonds, emeralds, or jade, have been used in jewelry and ceremonial attire. For centuries the only source of diamonds in the world were the fabled mines at Golconda. While not all precious stones are as rare, they are all highly sought-after commodities.",
+    "desc_ja": "ルビー、サファイア、ダイヤモンド、エメラルド、翡翠などの宝石は、古くから宝飾品や儀式用の衣装に使用されてきた。世界でダイヤモンドの唯一の供給源は、何世紀にもわたってゴールコンダの伝説的な鉱山だった。すべての宝石が希少というわけではないが、どれも非常に需要の高い商品となる。"
   },
   {
     "id": "pearls",
-    "name_en": "Pearls",
-    "name_ja": "真珠",
-    "desc_en": "Pearls are produced inside different kinds of shelled mollusks. The resulting product is a hard glistening object, ideally round but can take many shapes. They have been appreciated for their beauty and used like gemstones as ornaments all over the world through all human history.",
-    "desc_ja": "真珠は貝の体内で生み出される硬く輝く物体で、球形が理想だがさまざまな形状がある。その美しさが好まれ、人類史を通じて宝石の一種として世界中で使われてきた。",
     "category": "raw_material",
     "method": "gathering",
     "default_market_price": 4,
@@ -469,14 +465,14 @@
     },
     "development_threshold": 20,
     "icon": "icons/trade_goods/icon_goods_pearls.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Pearls",
+    "name_ja": "真珠",
+    "desc_en": "Pearls are produced inside different kinds of shelled mollusks. The resulting product is a hard glistening object, ideally round but can take many shapes. They have been appreciated for their beauty and used like gemstones as ornaments all over the world through all human history.",
+    "desc_ja": "真珠は貝の体内で生み出される硬く輝く物体で、球形が理想だがさまざまな形状がある。その美しさが好まれ、人類史を通じて宝石の一種として世界中で使われてきた。"
   },
   {
     "id": "amber",
-    "name_en": "Amber",
-    "name_ja": "琥珀",
-    "desc_en": "Amber is a valuable good made from fossilized resin that was primarily used in the manufacture of jewelry and ornaments. Its main source has been depots on the Prussian coast, mentioned for the first time in a 12th-century document.",
-    "desc_ja": "琥珀は樹脂の化石から作られた貴重品で、主として宝飾品や装飾品の製造に使用された。その主な供給源はプロイセン沿岸で、12世紀の文書で初めて言及された。",
     "category": "raw_material",
     "method": "gathering",
     "default_market_price": 4,
@@ -492,14 +488,14 @@
       "burghers": 1.5
     },
     "icon": "icons/trade_goods/icon_goods_amber.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Amber",
+    "name_ja": "琥珀",
+    "desc_en": "Amber is a valuable good made from fossilized resin that was primarily used in the manufacture of jewelry and ornaments. Its main source has been depots on the Prussian coast, mentioned for the first time in a 12th-century document.",
+    "desc_ja": "琥珀は樹脂の化石から作られた貴重品で、主として宝飾品や装飾品の製造に使用された。その主な供給源はプロイセン沿岸で、12世紀の文書で初めて言及された。"
   },
   {
     "id": "saltpeter",
-    "name_en": "Saltpeter",
-    "name_ja": "硝石",
-    "desc_en": "Saltpeter has been known since antiquity, and its uses have been varied such as a fertilizer or as salt for meat processing. However, it was the invention of gunpowder and firearms during the Middle Ages that really raised its importance, as it is one of the main components of it, together with charcoal and sulfur. Mined in great quantities around the world, this metal will go on to acquire an infamous reputation.",
-    "desc_ja": "硝石は古代から知られており、その用途は肥料や食肉加工用の塩など多岐にわたる。しかし、実際にその重要性が高まったのは中世の火薬と銃器の発明以降で、木炭や硫黄とともに火薬の主成分となった。世界中で大量に採掘されるこの金属は、やがて悪名高い地位を獲得することになる。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 2,
@@ -507,14 +503,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_saltpeter.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Saltpeter",
+    "name_ja": "硝石",
+    "desc_en": "Saltpeter has been known since antiquity, and its uses have been varied such as a fertilizer or as salt for meat processing. However, it was the invention of gunpowder and firearms during the Middle Ages that really raised its importance, as it is one of the main components of it, together with charcoal and sulfur. Mined in great quantities around the world, this metal will go on to acquire an infamous reputation.",
+    "desc_ja": "硝石は古代から知られており、その用途は肥料や食肉加工用の塩など多岐にわたる。しかし、実際にその重要性が高まったのは中世の火薬と銃器の発明以降で、木炭や硫黄とともに火薬の主成分となった。世界中で大量に採掘されるこの金属は、やがて悪名高い地位を獲得することになる。"
   },
   {
     "id": "alum",
-    "name_en": "Alum",
-    "name_ja": "ミョウバン",
-    "desc_en": "Alum is an essential ingredient in dye-making as well as specializing in the tanning process. Seeing use in a variety of artistic and craft contexts, it is primarily utilized in painting and illuminating processes. Originating mostly from the Chad region, it was traded in the markets of the entire Islamic world, but in the Late Middle Ages, other sources started to be exploited in Europe.",
-    "desc_ja": "ミョウバンは染料の製造に不可欠なだけでなく、なめし加工にも使われる。各種芸術や工芸に使われるが、特に絵画や彩色で珍重される。主にチャド地域が起源で、イスラム世界の市場で取引されていたが、中世後期には別の供給源がヨーロッパで利用されはじめた。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 3,
@@ -522,14 +518,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_alum.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Alum",
+    "name_ja": "ミョウバン",
+    "desc_en": "Alum is an essential ingredient in dye-making as well as specializing in the tanning process. Seeing use in a variety of artistic and craft contexts, it is primarily utilized in painting and illuminating processes. Originating mostly from the Chad region, it was traded in the markets of the entire Islamic world, but in the Late Middle Ages, other sources started to be exploited in Europe.",
+    "desc_ja": "ミョウバンは染料の製造に不可欠なだけでなく、なめし加工にも使われる。各種芸術や工芸に使われるが、特に絵画や彩色で珍重される。主にチャド地域が起源で、イスラム世界の市場で取引されていたが、中世後期には別の供給源がヨーロッパで利用されはじめた。"
   },
   {
     "id": "wine",
-    "name_en": "Wine",
-    "name_ja": "ワイン",
-    "desc_en": "Wines have been produced since time immemorial in the southern parts of Europe. It still constituted an essential element of the everyday diet, except maybe in the Muslim world. Wine was not considered a luxury product but probably served as a welcome relief for hundreds to an otherwise dull diet.",
-    "desc_ja": "ワインは南ヨーロッパで太古の昔から生産されてきた飲料で、いまもムスリム世界を除いて日々の食生活に欠かせない存在である。当時は贅沢品とは考えられておらず、質素な食事の慰めとして好まれていたと思われる。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 2,
@@ -549,14 +545,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_wine.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Wine",
+    "name_ja": "ワイン",
+    "desc_en": "Wines have been produced since time immemorial in the southern parts of Europe. It still constituted an essential element of the everyday diet, except maybe in the Muslim world. Wine was not considered a luxury product but probably served as a welcome relief for hundreds to an otherwise dull diet.",
+    "desc_ja": "ワインは南ヨーロッパで太古の昔から生産されてきた飲料で、いまもムスリム世界を除いて日々の食生活に欠かせない存在である。当時は贅沢品とは考えられておらず、質素な食事の慰めとして好まれていたと思われる。"
   },
   {
     "id": "elephants",
-    "name_en": "Elephants",
-    "name_ja": "象",
-    "desc_en": "Elephants have been used in warfare since ancient times in India, South East Asia, the Middle East, and North Africa. The use of elephantry persisted in some of these regions into the Middle Ages, although the advent of gunpowder warfare in the Modern Age outpaced its usefulness in battle.",
-    "desc_ja": "象はインド、東南アジア、中東、北アフリカで古くから戦争に使用されてきた。これらの地域の一部では象を用いた戦術が中世まで続いたが、近代になって火薬兵器が主流になると、戦場での有用性は失われていった。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 10,
@@ -570,14 +566,14 @@
       "nobles": 2
     },
     "icon": "icons/trade_goods/icon_goods_elephants.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Elephants",
+    "name_ja": "象",
+    "desc_en": "Elephants have been used in warfare since ancient times in India, South East Asia, the Middle East, and North Africa. The use of elephantry persisted in some of these regions into the Middle Ages, although the advent of gunpowder warfare in the Modern Age outpaced its usefulness in battle.",
+    "desc_ja": "象はインド、東南アジア、中東、北アフリカで古くから戦争に使用されてきた。これらの地域の一部では象を用いた戦術が中世まで続いたが、近代になって火薬兵器が主流になると、戦場での有用性は失われていった。"
   },
   {
     "id": "marble",
-    "name_en": "Marble",
-    "name_ja": "大理石",
-    "desc_en": "Marble has been used in sculptures and constructions since Antiquity, being considered a type of luxurious material due to its appearance and ductility. Some of the best works of art made by Renaissance and Baroque artists, such as Michelangelo or Bernini, are made of marble.",
-    "desc_ja": "大理石は古代から彫刻や建築に使用されており、その外観と延性から高級素材とみなされきた。ミケランジェロやベルニーニといったルネサンスやバロックの芸術家による最高傑作にも、大理石で作られたものがある。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 5,
@@ -592,14 +588,14 @@
     },
     "development_threshold": 40,
     "icon": "icons/trade_goods/icon_goods_marble.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Marble",
+    "name_ja": "大理石",
+    "desc_en": "Marble has been used in sculptures and constructions since Antiquity, being considered a type of luxurious material due to its appearance and ductility. Some of the best works of art made by Renaissance and Baroque artists, such as Michelangelo or Bernini, are made of marble.",
+    "desc_ja": "大理石は古代から彫刻や建築に使用されており、その外観と延性から高級素材とみなされきた。ミケランジェロやベルニーニといったルネサンスやバロックの芸術家による最高傑作にも、大理石で作られたものがある。"
   },
   {
     "id": "mercury",
-    "name_en": "Mercury",
-    "name_ja": "水銀",
-    "desc_en": "$mercury$ is used for medicine, but will also be of great importance to refine gold and silver ores of lesser qualities in order to make them profitable.",
-    "desc_ja": "$mercury$は医薬品として使用されるが、品質の劣る金鉱石や銀鉱石を精製して利益を得るためにも使われる、非常に重要な金属。",
     "category": "raw_material",
     "method": "mining",
     "default_market_price": 3,
@@ -616,14 +612,14 @@
       "all": 1.0
     },
     "icon": "icons/trade_goods/icon_goods_mercury.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Mercury",
+    "name_ja": "水銀",
+    "desc_en": "$mercury$ is used for medicine, but will also be of great importance to refine gold and silver ores of lesser qualities in order to make them profitable.",
+    "desc_ja": "$mercury$は医薬品として使用されるが、品質の劣る金鉱石や銀鉱石を精製して利益を得るためにも使われる、非常に重要な金属。"
   },
   {
     "id": "saffron",
-    "name_en": "Saffron",
-    "name_ja": "サフラン",
-    "desc_en": "Known since ancient times, saffron has been used not only for its culinary applications, but also as a source of traditional medicines and as coloring dye for clothes, despite its high cost.",
-    "desc_ja": "サフランは古代からその存在が知られ、高価であるにもかかわらず、食材としてだけでなく伝統薬の原料や衣類の染料としても利用されてきた。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 5,
@@ -639,14 +635,14 @@
       "all": 1.1
     },
     "icon": "icons/trade_goods/icon_goods_saffron.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Saffron",
+    "name_ja": "サフラン",
+    "desc_en": "Known since ancient times, saffron has been used not only for its culinary applications, but also as a source of traditional medicines and as coloring dye for clothes, despite its high cost.",
+    "desc_ja": "サフランは古代からその存在が知られ、高価であるにもかかわらず、食材としてだけでなく伝統薬の原料や衣類の染料としても利用されてきた。"
   },
   {
     "id": "pepper",
-    "name_en": "Pepper",
-    "name_ja": "コショウ",
-    "desc_en": "Although there are many types of plants that have been known as pepper, they all have the same properties of pungent taste that makes pepper ideal to be used as seasoning and also as part of traditional medicines.",
-    "desc_ja": "コショウとして知られる植物には多くの種類があるが、刺激的な味は共通しており、調味料や伝統的な薬の成分として理想的である。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 5,
@@ -662,14 +658,14 @@
       "all": 1.1
     },
     "icon": "icons/trade_goods/icon_goods_pepper.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Pepper",
+    "name_ja": "コショウ",
+    "desc_en": "Although there are many types of plants that have been known as pepper, they all have the same properties of pungent taste that makes pepper ideal to be used as seasoning and also as part of traditional medicines.",
+    "desc_ja": "コショウとして知られる植物には多くの種類があるが、刺激的な味は共通しており、調味料や伝統的な薬の成分として理想的である。"
   },
   {
     "id": "cloves",
-    "name_en": "Cloves",
-    "name_ja": "クローブ",
-    "desc_en": "Cloves are the aromatic flower buds of a tree found in the Moluccas. They became one of the most valued and expensive spices in the Eurasian trade networks, prompting Europeans to find new sources of supply for this and other spices in the Late Middle Ages.",
-    "desc_ja": "クローブはモルッカ諸島原産の木に実る、香り高い花芽である。これはユーラシア交易網で最も高価な香辛料のひとつとなり、中世後期にヨーロッパ人がクローブをはじめとする香辛料の供給源を探すきっかけとなった。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 5,
@@ -685,14 +681,14 @@
       "all": 1.1
     },
     "icon": "icons/trade_goods/icon_goods_cloves.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Cloves",
+    "name_ja": "クローブ",
+    "desc_en": "Cloves are the aromatic flower buds of a tree found in the Moluccas. They became one of the most valued and expensive spices in the Eurasian trade networks, prompting Europeans to find new sources of supply for this and other spices in the Late Middle Ages.",
+    "desc_ja": "クローブはモルッカ諸島原産の木に実る、香り高い花芽である。これはユーラシア交易網で最も高価な香辛料のひとつとなり、中世後期にヨーロッパ人がクローブをはじめとする香辛料の供給源を探すきっかけとなった。"
   },
   {
     "id": "chili",
-    "name_en": "Chili",
-    "name_ja": "トウガラシ",
-    "desc_en": "Some varieties of plants originating from Central and South America, it is famous for its pungency and ability to spice any dish and make it hot. Cultivated since ancient times in the Americas, its many varieties with a wide range of flavors and heat levels make it a very sought-after spice.",
-    "desc_ja": "中央アメリカや南アメリカ原産の品種の一部は、その辛さや、加えるだけで料理を辛くできることで知られる。アメリカ大陸で古代から栽培されており、多様な品種やさまざまな風味、辛さのレベルがあるため、非常に人気の高い香辛料となっている。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 5,
@@ -711,14 +707,14 @@
       "all": 1.1
     },
     "icon": "icons/trade_goods/icon_goods_chili.png",
-    "source_file": "00_raw_materials.txt"
+    "source_file": "00_raw_materials.txt",
+    "name_en": "Chili",
+    "name_ja": "トウガラシ",
+    "desc_en": "Some varieties of plants originating from Central and South America, it is famous for its pungency and ability to spice any dish and make it hot. Cultivated since ancient times in the Americas, its many varieties with a wide range of flavors and heat levels make it a very sought-after spice.",
+    "desc_ja": "中央アメリカや南アメリカ原産の品種の一部は、その辛さや、加えるだけで料理を辛くできることで知られる。アメリカ大陸で古代から栽培されており、多様な品種やさまざまな風味、辛さのレベルがあるため、非常に人気の高い香辛料となっている。"
   },
   {
     "id": "cotton",
-    "name_en": "Cotton",
-    "name_ja": "綿",
-    "desc_en": "Cotton originated from Central Asia but was not widely used in Europe until it was introduced to the American colonies and used as a cheap but good complement or substitute for wool in the clothing industry of the late 18th century",
-    "desc_ja": "綿は中央アジアが原産だが、アメリカの植民地に導入され、18世紀後半の衣料産業で安価だが優れた羊毛の補完品または代替品として使用されるまで、ヨーロッパでは広く使用されていなかった。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 3,
@@ -729,14 +725,14 @@
       "old_world_goods"
     ],
     "icon": "icons/trade_goods/icon_goods_cotton.png",
-    "source_file": "01_plantation_goods.txt"
+    "source_file": "01_plantation_goods.txt",
+    "name_en": "Cotton",
+    "name_ja": "綿",
+    "desc_en": "Cotton originated from Central Asia but was not widely used in Europe until it was introduced to the American colonies and used as a cheap but good complement or substitute for wool in the clothing industry of the late 18th century",
+    "desc_ja": "綿は中央アジアが原産だが、アメリカの植民地に導入され、18世紀後半の衣料産業で安価だが優れた羊毛の補完品または代替品として使用されるまで、ヨーロッパでは広く使用されていなかった。"
   },
   {
     "id": "sugar",
-    "name_en": "Sugar",
-    "name_ja": "砂糖",
-    "desc_en": "Sugar was used not only as a sweetener but also for food preservation. The sugar cane was the only known means of obtaining sugar at this time and had been grown initially in some Mediterranean islands. But the labor-intensive plantation system in America, especially in the Caribbean islands, would soon move the major production sources overseas.",
-    "desc_ja": "砂糖は甘味料としてだけでなく、食品の保存にも使用された。当時、サトウキビは砂糖を得るための唯一の手段であり、最初は地中海の島々で栽培されていたが、アメリカ地域、特にカリブ海の労働集約型の大規模農園によって、主要な生産地はすぐに海外へと移ることになる。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 3,
@@ -752,14 +748,14 @@
       "clergy": 0.005
     },
     "icon": "icons/trade_goods/icon_goods_sugar.png",
-    "source_file": "01_plantation_goods.txt"
+    "source_file": "01_plantation_goods.txt",
+    "name_en": "Sugar",
+    "name_ja": "砂糖",
+    "desc_en": "Sugar was used not only as a sweetener but also for food preservation. The sugar cane was the only known means of obtaining sugar at this time and had been grown initially in some Mediterranean islands. But the labor-intensive plantation system in America, especially in the Caribbean islands, would soon move the major production sources overseas.",
+    "desc_ja": "砂糖は甘味料としてだけでなく、食品の保存にも使用された。当時、サトウキビは砂糖を得るための唯一の手段であり、最初は地中海の島々で栽培されていたが、アメリカ地域、特にカリブ海の労働集約型の大規模農園によって、主要な生産地はすぐに海外へと移ることになる。"
   },
   {
     "id": "tobacco",
-    "name_en": "Tobacco",
-    "name_ja": "タバコ",
-    "desc_en": "Tobacco was unknown in Europe until brought from Americans in the late 16th century. It quickly became a fashion for the upper classes who could afford it and ensured the fast and profitable economic growth of the British colonies in North America, as well as in Portuguese Brazil. No one knew what they put in it, but they just couldn't stop smoking it.",
-    "desc_ja": "16世紀後半にアメリカ大陸から持ち込まれるまで、タバコはヨーロッパでは知られていなかった。タバコはすぐに裕福な上流階級で流行し、北アメリカのイギリス植民地、ポルトガル領ブラジルの急速な経済成長を支えた。当時の人々はタバコの成分を知ることなく、求めるままに吸いつづけた。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 3,
@@ -775,14 +771,14 @@
       "clergy": 0.005
     },
     "icon": "icons/trade_goods/icon_goods_tobacco.png",
-    "source_file": "01_plantation_goods.txt"
+    "source_file": "01_plantation_goods.txt",
+    "name_en": "Tobacco",
+    "name_ja": "タバコ",
+    "desc_en": "Tobacco was unknown in Europe until brought from Americans in the late 16th century. It quickly became a fashion for the upper classes who could afford it and ensured the fast and profitable economic growth of the British colonies in North America, as well as in Portuguese Brazil. No one knew what they put in it, but they just couldn't stop smoking it.",
+    "desc_ja": "16世紀後半にアメリカ大陸から持ち込まれるまで、タバコはヨーロッパでは知られていなかった。タバコはすぐに裕福な上流階級で流行し、北アメリカのイギリス植民地、ポルトガル領ブラジルの急速な経済成長を支えた。当時の人々はタバコの成分を知ることなく、求めるままに吸いつづけた。"
   },
   {
     "id": "tar",
-    "name_en": "Tar",
-    "name_ja": "タール",
-    "desc_en": "Originally propped up as a cash crop, tar is a valuable ingredient of the ship-building business. Its appearance, that of a thick black liquid, is due to the aggressive distillation process that is required for its production. Tar is widely used as a seal for ship hulls and as a cheap way to waterproof sails.",
-    "desc_ja": "タールはもとは換金作物として開発された、造船事業の貴重な原料である。その製造に必要な蒸留工程により、外見は黒く濃厚な液状となる。タールは船体の密封剤として、また帆の防水処理のための安価な手段として広く使用されている。",
     "category": "produced",
     "method": "",
     "default_market_price": 2,
@@ -790,14 +786,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_tar.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Tar",
+    "name_ja": "タール",
+    "desc_en": "Originally propped up as a cash crop, tar is a valuable ingredient of the ship-building business. Its appearance, that of a thick black liquid, is due to the aggressive distillation process that is required for its production. Tar is widely used as a seal for ship hulls and as a cheap way to waterproof sails.",
+    "desc_ja": "タールはもとは換金作物として開発された、造船事業の貴重な原料である。その製造に必要な蒸留工程により、外見は黒く濃厚な液状となる。タールは船体の密封剤として、また帆の防水処理のための安価な手段として広く使用されている。"
   },
   {
     "id": "porcelain",
-    "name_en": "Porcelain",
-    "name_ja": "磁器",
-    "desc_en": "Porcelain is a type of ceramics characterized by its strength and translucence due to the vitrification of the materials caused by high temperatures. It was developed in China over a period of time starting more than three thousand years ago, with proper porcelain being developed already almost two thousand years ago, and from there, it eventually spread to all over the world as a highly sought-after commodity.",
-    "desc_ja": "磁器は、高温でガラス化することで得られる強度と透明感を特徴とする、陶磁器の一種である。磁器は中国で3000年以上も開発されてきたが、本格的なものは2000年ほど前にすでに存在していた。そして、いまでは世界中に広まり、非常に人気のある品となっている。",
     "category": "produced",
     "method": "",
     "default_market_price": 3,
@@ -815,14 +811,14 @@
     },
     "development_threshold": 30,
     "icon": "icons/trade_goods/icon_goods_porcelain.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Porcelain",
+    "name_ja": "磁器",
+    "desc_en": "Porcelain is a type of ceramics characterized by its strength and translucence due to the vitrification of the materials caused by high temperatures. It was developed in China over a period of time starting more than three thousand years ago, with proper porcelain being developed already almost two thousand years ago, and from there, it eventually spread to all over the world as a highly sought-after commodity.",
+    "desc_ja": "磁器は、高温でガラス化することで得られる強度と透明感を特徴とする、陶磁器の一種である。磁器は中国で3000年以上も開発されてきたが、本格的なものは2000年ほど前にすでに存在していた。そして、いまでは世界中に広まり、非常に人気のある品となっている。"
   },
   {
     "id": "naval_supplies",
-    "name_en": "Naval Supplies",
-    "name_ja": "海軍用品",
-    "desc_en": "Naval Supplies represent everything needed in ship construction, from basic wood to tar, ropes, linen, sails, and various other materials. The Baltic was initially the main supplier until North America became an alternate source of supply in the early 18th century. Colonial expansion into America was in part to secure supplies of such vital goods.",
-    "desc_ja": "海軍用品は、木材、タール、ロープ、リネン、帆などの、船の建造に必要なあらゆる資材を指す。当初はバルト地域が主な供給源だったが、18世紀初頭に北アメリカに取って代わられた。アメリカへの植民地拡大は、こうした重要な物資の供給を確保するためでもあった。",
     "category": "produced",
     "method": "",
     "default_market_price": 3,
@@ -830,14 +826,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_naval_supplies.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Naval Supplies",
+    "name_ja": "海軍用品",
+    "desc_en": "Naval Supplies represent everything needed in ship construction, from basic wood to tar, ropes, linen, sails, and various other materials. The Baltic was initially the main supplier until North America became an alternate source of supply in the early 18th century. Colonial expansion into America was in part to secure supplies of such vital goods.",
+    "desc_ja": "海軍用品は、木材、タール、ロープ、リネン、帆などの、船の建造に必要なあらゆる資材を指す。当初はバルト地域が主な供給源だったが、18世紀初頭に北アメリカに取って代わられた。アメリカへの植民地拡大は、こうした重要な物資の供給を確保するためでもあった。"
   },
   {
     "id": "firearms",
-    "name_en": "Firearms",
-    "name_ja": "火器",
-    "desc_en": "The conception and arrival of guns changed the dynamic of battlefields. Wars waged across Asia and Europe will now be subject to cultivating, importing and harnessing the potency of gunpowder. Guns have become a natural evolution of warfare and an essential part of protecting the sovereignty of domains across the earth.",
-    "desc_ja": "銃の発明と到来は、戦場の様相を一変させた。アジアとヨーロッパで繰り広げられる戦争は、火薬の輸入、威力の向上および活用に大きく依存するようになった。銃は戦争の自然進化の象徴であり、地球上の領土の主権を守るうえで不可欠な要素となった。",
     "category": "produced",
     "method": "",
     "default_market_price": 3,
@@ -852,14 +848,14 @@
       "all": 1.2
     },
     "icon": "icons/trade_goods/icon_goods_firearms.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Firearms",
+    "name_ja": "火器",
+    "desc_en": "The conception and arrival of guns changed the dynamic of battlefields. Wars waged across Asia and Europe will now be subject to cultivating, importing and harnessing the potency of gunpowder. Guns have become a natural evolution of warfare and an essential part of protecting the sovereignty of domains across the earth.",
+    "desc_ja": "銃の発明と到来は、戦場の様相を一変させた。アジアとヨーロッパで繰り広げられる戦争は、火薬の輸入、威力の向上および活用に大きく依存するようになった。銃は戦争の自然進化の象徴であり、地球上の領土の主権を守るうえで不可欠な要素となった。"
   },
   {
     "id": "cannons",
-    "name_en": "Cannon",
-    "name_ja": "大砲",
-    "desc_en": "Although siege weapons have existed since antiquity, the discovery of gunpowder has given rise to some weapons with a potentially destructive power that has never been seen before. The ability to throw bigger projectiles at greater speed and distances than ever before will make all but the sturdiest of fortifications quickly fall before them, without mentioning the effect those projectiles can have when fired towards armies themselves.",
-    "desc_ja": "攻城兵器は古代から存在していたが、火薬の発見により、かつてない破壊力を秘めた兵器が誕生した。より大きな弾丸をより速く、より遠くへ飛ばすことができるため、並の要塞ならたちまち破壊できる。軍隊自体に向けて発射された際の効果は、もはや言うまでもないだろう。",
     "category": "produced",
     "method": "",
     "default_market_price": 4,
@@ -867,14 +863,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_cannons.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Cannon",
+    "name_ja": "大砲",
+    "desc_en": "Although siege weapons have existed since antiquity, the discovery of gunpowder has given rise to some weapons with a potentially destructive power that has never been seen before. The ability to throw bigger projectiles at greater speed and distances than ever before will make all but the sturdiest of fortifications quickly fall before them, without mentioning the effect those projectiles can have when fired towards armies themselves.",
+    "desc_ja": "攻城兵器は古代から存在していたが、火薬の発見により、かつてない破壊力を秘めた兵器が誕生した。より大きな弾丸をより速く、より遠くへ飛ばすことができるため、並の要塞ならたちまち破壊できる。軍隊自体に向けて発射された際の効果は、もはや言うまでもないだろう。"
   },
   {
     "id": "weaponry",
-    "name_en": "Weaponry",
-    "name_ja": "武器",
-    "desc_en": "Various weapons such as swords, pikes, and bows make up the core weaponry of every army. The techniques behind their creation are an art refined throughout the ages. Despite that and regardless of how different the era may be, weaponry will always be a vital instrument to protect one's independence.",
-    "desc_ja": "剣、槍、弓などはあらゆる軍隊の柱となる武器で、その製作技術は時代を超えて洗練されてきた芸術である。たとえ時代が変わっても、武器はつねに独立を守るための重要な手段でありつづける。",
     "category": "produced",
     "method": "",
     "default_market_price": 3,
@@ -891,14 +887,14 @@
       "all": 1.1
     },
     "icon": "icons/trade_goods/icon_goods_weaponry.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Weaponry",
+    "name_ja": "武器",
+    "desc_en": "Various weapons such as swords, pikes, and bows make up the core weaponry of every army. The techniques behind their creation are an art refined throughout the ages. Despite that and regardless of how different the era may be, weaponry will always be a vital instrument to protect one's independence.",
+    "desc_ja": "剣、槍、弓などはあらゆる軍隊の柱となる武器で、その製作技術は時代を超えて洗練されてきた芸術である。たとえ時代が変わっても、武器はつねに独立を守るための重要な手段でありつづける。"
   },
   {
     "id": "glass",
-    "name_en": "Glass",
-    "name_ja": "ガラス",
-    "desc_en": "Glass has been valued for centuries as a useful material for art, architecture, or simply the crafting of vessels for daily use. Eventually, as glassmaking techniques improved, glass would also become crucial to the scientific field of optics, with glass lenses being used in the fabrication of spectacles, telescopes, and a plethora of other devices with wide-ranging applications from maritime navigation to the natural sciences.",
-    "desc_ja": "ガラスは芸術や建築、または日常的に使用される容器の素材として何世紀も重宝されてきた。やがてガラス製造技術が向上すると、ガラスは光学系の科学分野でも重要な役割を果たすようになり、ガラスレンズは眼鏡、望遠鏡など、海洋航海から自然科学までの幅広い用途で使われるようになった。",
     "category": "produced",
     "method": "",
     "default_market_price": 2,
@@ -906,14 +902,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_glass.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Glass",
+    "name_ja": "ガラス",
+    "desc_en": "Glass has been valued for centuries as a useful material for art, architecture, or simply the crafting of vessels for daily use. Eventually, as glassmaking techniques improved, glass would also become crucial to the scientific field of optics, with glass lenses being used in the fabrication of spectacles, telescopes, and a plethora of other devices with wide-ranging applications from maritime navigation to the natural sciences.",
+    "desc_ja": "ガラスは芸術や建築、または日常的に使用される容器の素材として何世紀も重宝されてきた。やがてガラス製造技術が向上すると、ガラスは光学系の科学分野でも重要な役割を果たすようになり、ガラスレンズは眼鏡、望遠鏡など、海洋航海から自然科学までの幅広い用途で使われるようになった。"
   },
   {
     "id": "steel",
-    "name_en": "Steel",
-    "name_ja": "鋼",
-    "desc_en": "Steel is widely used for the crafting of weaponry and guns. Various of its qualities are used for different weapons, blunt steel for axes and high-quality steel for swords and knives. As such, steel is also employed as the main metal for the forging of equipment and tools.",
-    "desc_ja": "鋼は武器や銃の製造に広く使用されている。そのさまざまな品質に応じ、斧には鈍鋼、剣やナイフには高品質の鋼など、さまざまな武器に使用される。また、機器や工具の鍛造においても主要な金属として使用される。",
     "category": "produced",
     "method": "",
     "default_market_price": 5,
@@ -921,14 +917,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_steel.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Steel",
+    "name_ja": "鋼",
+    "desc_en": "Steel is widely used for the crafting of weaponry and guns. Various of its qualities are used for different weapons, blunt steel for axes and high-quality steel for swords and knives. As such, steel is also employed as the main metal for the forging of equipment and tools.",
+    "desc_ja": "鋼は武器や銃の製造に広く使用されている。そのさまざまな品質に応じ、斧には鈍鋼、剣やナイフには高品質の鋼など、さまざまな武器に使用される。また、機器や工具の鍛造においても主要な金属として使用される。"
   },
   {
     "id": "cloth",
-    "name_en": "Cloth",
-    "name_ja": "生地",
-    "desc_en": "Cloth represents the various fabrics and clothing made from wool and linen. Later cotton, imported from India and the Americas, became a major material for cloth.",
-    "desc_ja": "生地は、羊毛や麻で作られた織物を指す。主原料はやがてインドやアメリカから輸入された綿に移行した。",
     "category": "produced",
     "method": "",
     "default_market_price": 3,
@@ -947,14 +943,14 @@
       "all": 1.0
     },
     "icon": "icons/trade_goods/icon_goods_cloth.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Cloth",
+    "name_ja": "生地",
+    "desc_en": "Cloth represents the various fabrics and clothing made from wool and linen. Later cotton, imported from India and the Americas, became a major material for cloth.",
+    "desc_ja": "生地は、羊毛や麻で作られた織物を指す。主原料はやがてインドやアメリカから輸入された綿に移行した。"
   },
   {
     "id": "fine_cloth",
-    "name_en": "Fine Cloth",
-    "name_ja": "高級生地",
-    "desc_en": "Fine clothing was traditionally a marker of status for the elites and wealthy classes. Textiles such as damasks, muslins, or brocades were marketed and replicated throughout the world as a very profitable business in the Middle and Modern Ages.",
-    "desc_ja": "高級生地は、伝統的に上流階級や富裕層の地位の象徴となった。ダマスク織、モスリン、ブロケードなどの織物は、中世および近代に収益性の高い商品として世界中で販売され、模倣された。",
     "category": "produced",
     "method": "",
     "default_market_price": 6,
@@ -971,14 +967,14 @@
     },
     "development_threshold": 20,
     "icon": "icons/trade_goods/icon_goods_fine_cloth.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Fine Cloth",
+    "name_ja": "高級生地",
+    "desc_en": "Fine clothing was traditionally a marker of status for the elites and wealthy classes. Textiles such as damasks, muslins, or brocades were marketed and replicated throughout the world as a very profitable business in the Middle and Modern Ages.",
+    "desc_ja": "高級生地は、伝統的に上流階級や富裕層の地位の象徴となった。ダマスク織、モスリン、ブロケードなどの織物は、中世および近代に収益性の高い商品として世界中で販売され、模倣された。"
   },
   {
     "id": "liquor",
-    "name_en": "Liquor",
-    "name_ja": "酒",
-    "desc_en": "Liquor is an alcoholic beverage produced by distillation of very different types of products of plant origin. Distillation is done to increase the alcohol by volume. Popular liquors distilled and consumed around the world were gin, rum, whisky, vodka, tequila, or sh?ch?.",
-    "desc_ja": "酒は、植物由来の原料を蒸留して作られるアルコール飲料で、蒸留はアルコール度数を高めるためにおこなわれる。世界中で製造され、消費されている人気の高いリキュールには、ジン、ラム、ウイスキー、ウォッカ、テキーラ、焼酎などがある。",
     "category": "produced",
     "method": "",
     "default_market_price": 2.5,
@@ -998,14 +994,14 @@
       "all": 0.5
     },
     "icon": "icons/trade_goods/icon_goods_liquor.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Liquor",
+    "name_ja": "酒",
+    "desc_en": "Liquor is an alcoholic beverage produced by distillation of very different types of products of plant origin. Distillation is done to increase the alcohol by volume. Popular liquors distilled and consumed around the world were gin, rum, whisky, vodka, tequila, or shōchū.",
+    "desc_ja": "酒は、植物由来の原料を蒸留して作られるアルコール飲料で、蒸留はアルコール度数を高めるためにおこなわれる。世界中で製造され、消費されている人気の高いリキュールには、ジン、ラム、ウイスキー、ウォッカ、テキーラ、焼酎などがある。"
   },
   {
     "id": "beer",
-    "name_en": "Beer",
-    "name_ja": "ビール",
-    "desc_en": "Beer has been a pillar of gastronomy since it was first brewed in the Neolithic. It became a widespread drink in the Middle Ages, and was the object of the oldest food-quality regulation still in use, the Bavarian 'Reinheitsgebot'.",
-    "desc_ja": "ビールは新石器時代に初めて醸造されて以来、美食の柱であった。中世に広く飲まれるようになり、現在も有効な最古の食品品質規制であるバイエルンの「ビール純粋令」の対象となった。",
     "category": "produced",
     "method": "",
     "default_market_price": 2,
@@ -1025,14 +1021,14 @@
       "all": 0.75
     },
     "icon": "icons/trade_goods/icon_goods_beer.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Beer",
+    "name_ja": "ビール",
+    "desc_en": "Beer has been a pillar of gastronomy since it was first brewed in the Neolithic. It became a widespread drink in the Middle Ages, and was the object of the oldest food-quality regulation still in use, the Bavarian 'Reinheitsgebot'.",
+    "desc_ja": "ビールは新石器時代に初めて醸造されて以来、美食の柱であった。中世に広く飲まれるようになり、現在も有効な最古の食品品質規制であるバイエルンの「ビール純粋令」の対象となった。"
   },
   {
     "id": "paper",
-    "name_en": "Paper",
-    "name_ja": "紙",
-    "desc_en": "Paper is a necessity for all types of advanced accounting, administration, and diffusion of knowledge. The process of its production was originally devised in China and then slowly made its way to all corners of the Old World. Far superior to other types of writing materials such as parchment the large scale production of paper requires a specialized set of skills and equipment, making it a rare and sought after commodity.",
-    "desc_ja": "紙はあらゆる高度な会計、管理、そして知識の普及に不可欠な品である。その生産工程が中国で考案されて以降、徐々に旧大陸の隅々にまで広まった。羊皮紙などの筆記材よりもはるかに優れた紙だが、大量生産には専門的な技術と設備が求められるため、希少で需要の高い商品となっている。",
     "category": "produced",
     "method": "",
     "default_market_price": 2,
@@ -1049,14 +1045,14 @@
     },
     "development_threshold": 20,
     "icon": "icons/trade_goods/icon_goods_paper.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Paper",
+    "name_ja": "紙",
+    "desc_en": "Paper is a necessity for all types of advanced accounting, administration, and diffusion of knowledge. The process of its production was originally devised in China and then slowly made its way to all corners of the Old World. Far superior to other types of writing materials such as parchment the large scale production of paper requires a specialized set of skills and equipment, making it a rare and sought after commodity.",
+    "desc_ja": "紙はあらゆる高度な会計、管理、そして知識の普及に不可欠な品である。その生産工程が中国で考案されて以降、徐々に旧大陸の隅々にまで広まった。羊皮紙などの筆記材よりもはるかに優れた紙だが、大量生産には専門的な技術と設備が求められるため、希少で需要の高い商品となっている。"
   },
   {
     "id": "books",
-    "name_en": "Books",
-    "name_ja": "書物",
-    "desc_en": "Books have been one of the main custodians of human knowledge since writing was invented thousands of years ago. They were usually made of leather parchment, paper, and other plant fibers. The invention and spread of movable type printing systems in the Middle Ages made books much more widespread and accessible to the population.",
-    "desc_ja": "数千年前に文字が発明されて以来、書物は人類の知識の主要な保存手段のひとつである。書物は通常、羊皮紙、紙、その他の植物繊維でできていた。中世に活版印刷が普及したことで書物はより広範囲に普及し、庶民も入手しやすくなった。",
     "category": "produced",
     "method": "",
     "default_market_price": 5,
@@ -1073,14 +1069,14 @@
     },
     "development_threshold": 30,
     "icon": "icons/trade_goods/icon_goods_books.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Books",
+    "name_ja": "書物",
+    "desc_en": "Books have been one of the main custodians of human knowledge since writing was invented thousands of years ago. They were usually made of leather parchment, paper, and other plant fibers. The invention and spread of movable type printing systems in the Middle Ages made books much more widespread and accessible to the population.",
+    "desc_ja": "数千年前に文字が発明されて以来、書物は人類の知識の主要な保存手段のひとつである。書物は通常、羊皮紙、紙、その他の植物繊維でできていた。中世に活版印刷が普及したことで書物はより広範囲に普及し、庶民も入手しやすくなった。"
   },
   {
     "id": "jewelry",
-    "name_en": "Jewelry",
-    "name_ja": "宝飾品",
-    "desc_en": "Jewelry represents a set of regalia or ornaments that are crafted by skilled smiths using jewels and precious stones. Their value is often associated with high social standing and even royalty.",
-    "desc_ja": "宝飾品は、熟練した職人が宝石や貴石を用いて作り上げる、王室の象徴とも言える装飾品を指す。その価値は、社会的地位の高さ、さらには王族の地位と結びつけられることが多い。",
     "category": "produced",
     "method": "",
     "default_market_price": 5,
@@ -1095,14 +1091,14 @@
       "all": 1.2
     },
     "icon": "icons/trade_goods/icon_goods_jewelry.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Jewelry",
+    "name_ja": "宝飾品",
+    "desc_en": "Jewelry represents a set of regalia or ornaments that are crafted by skilled smiths using jewels and precious stones. Their value is often associated with high social standing and even royalty.",
+    "desc_ja": "宝飾品は、熟練した職人が宝石や貴石を用いて作り上げる、王室の象徴とも言える装飾品を指す。その価値は、社会的地位の高さ、さらには王族の地位と結びつけられることが多い。"
   },
   {
     "id": "leather",
-    "name_en": "Leather",
-    "name_ja": "革",
-    "desc_en": "One of humanity's earliest discoveries, leather is largely used in the manufacturing of clothes, footwear, and decoration. Its success is largely attributed to its high level of comfort and durability, eventually becoming the choice material for the making of dinner-related furniture, due to leather being easy to maintain while being resistant to absorbing food odor.",
-    "desc_ja": "人類最古の発見のひとつである革は、衣類、履物、装飾品の製造に広く利用される。革はその高い快適性と耐久性により普及し、手入れが容易で食品の臭いを吸収しにくいことから、やがて食器用家具の素材として選ばれるようになった。",
     "category": "produced",
     "method": "",
     "default_market_price": 3,
@@ -1110,14 +1106,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_leather.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Leather",
+    "name_ja": "革",
+    "desc_en": "One of humanity's earliest discoveries, leather is largely used in the manufacturing of clothes, footwear, and decoration. Its success is largely attributed to its high level of comfort and durability, eventually becoming the choice material for the making of dinner-related furniture, due to leather being easy to maintain while being resistant to absorbing food odor.",
+    "desc_ja": "人類最古の発見のひとつである革は、衣類、履物、装飾品の製造に広く利用される。革はその高い快適性と耐久性により普及し、手入れが容易で食品の臭いを吸収しにくいことから、やがて食器用家具の素材として選ばれるようになった。"
   },
   {
     "id": "tools",
-    "name_en": "Tools",
-    "name_ja": "工具",
-    "desc_en": "The production of tools is the main factor that allowed human society to flourish. From the more simple and primitive stone tools to the most advanced and precise implements developed through the use of metallurgy, they allow the further creation of equipment and weapons.",
-    "desc_ja": "工具の生産のおかげで人間社会は発展した。単純で原始的な石器から、冶金技術を使って開発された高度で精密な器具まで、工具は新たな装置や武器を創り出すことを可能にする。",
     "category": "produced",
     "method": "",
     "default_market_price": 3,
@@ -1131,14 +1127,14 @@
       "all": 0.75
     },
     "icon": "icons/trade_goods/icon_goods_tools.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Tools",
+    "name_ja": "工具",
+    "desc_en": "The production of tools is the main factor that allowed human society to flourish. From the more simple and primitive stone tools to the most advanced and precise implements developed through the use of metallurgy, they allow the further creation of equipment and weapons.",
+    "desc_ja": "工具の生産のおかげで人間社会は発展した。単純で原始的な石器から、冶金技術を使って開発された高度で精密な器具まで、工具は新たな装置や武器を創り出すことを可能にする。"
   },
   {
     "id": "masonry",
-    "name_en": "Masonry",
-    "name_ja": "れんが",
-    "desc_en": "Construction techniques come in all shapes and sizes. The ability to fabricate smaller pieces with a regular size and shape to use in construction greatly increases not only the efficiency in which buildings can be constructed but also their durability once built.",
-    "desc_ja": "建材にはさまざまな形状や大きさがある。建設に使用する統一されたサイズの建材を製造する技術は、建設効率だけでなく建設後の耐久性も大幅に向上させる。",
     "category": "produced",
     "method": "",
     "default_market_price": 1,
@@ -1157,14 +1153,14 @@
       "all": 1.0
     },
     "icon": "icons/trade_goods/icon_goods_masonry.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Masonry",
+    "name_ja": "れんが",
+    "desc_en": "Construction techniques come in all shapes and sizes. The ability to fabricate smaller pieces with a regular size and shape to use in construction greatly increases not only the efficiency in which buildings can be constructed but also their durability once built.",
+    "desc_ja": "建材にはさまざまな形状や大きさがある。建設に使用する統一されたサイズの建材を製造する技術は、建設効率だけでなく建設後の耐久性も大幅に向上させる。"
   },
   {
     "id": "lacquerware",
-    "name_en": "Lacquerware",
-    "name_ja": "漆器",
-    "desc_en": "Lacquerware was developed in China and Japan as far back as the Neolithic period, more than ten thousand years ago, and consists in covering products made of wood or metal with a decorative layer of lacquer, a product extracted from resin and wax. This lacquer layer can then be further decorated with paintings, carvings or dustings of gold or silver making it into a luxurious good.",
-    "desc_ja": "漆器は、木や金属の品を樹脂と蝋から抽出した漆で装飾的にコーティングしたもので、1万年以上前（新石器時代）の中国と日本で生まれ発展した。この漆の層を絵画、彫刻、金粉や銀粉でさらに装飾する高級品もある。",
     "category": "produced",
     "method": "",
     "default_market_price": 5,
@@ -1180,14 +1176,14 @@
     },
     "development_threshold": 20,
     "icon": "icons/trade_goods/icon_goods_lacquerware.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Lacquerware",
+    "name_ja": "漆器",
+    "desc_en": "Lacquerware was developed in China and Japan as far back as the Neolithic period, more than ten thousand years ago, and consists in covering products made of wood or metal with a decorative layer of lacquer, a product extracted from resin and wax. This lacquer layer can then be further decorated with paintings, carvings or dustings of gold or silver making it into a luxurious good.",
+    "desc_ja": "漆器は、木や金属の品を樹脂と蝋から抽出した漆で装飾的にコーティングしたもので、1万年以上前（新石器時代）の中国と日本で生まれ発展した。この漆の層を絵画、彫刻、金粉や銀粉でさらに装飾する高級品もある。"
   },
   {
     "id": "pottery",
-    "name_en": "Pottery",
-    "name_ja": "陶器",
-    "desc_en": "One of the oldest signs of human society, the ability to turn clay into various objects it is one of the key factors in the development of humanity. From the crude earthenware vases of prehistoric times, to the more complex forms, pottery is omnipresent in any culture.",
-    "desc_ja": "粘土から道具を作り出す技術は、人類社会の最も古い痕跡のひとつであり、人類の発展における重要な要素である。先史時代の粗末な土器からより複雑な形状のものまで、陶器はあらゆる文化に普遍的に存在している。",
     "category": "produced",
     "method": "",
     "default_market_price": 1,
@@ -1207,14 +1203,14 @@
       "all": 1.0
     },
     "icon": "icons/trade_goods/icon_goods_pottery.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Pottery",
+    "name_ja": "陶器",
+    "desc_en": "One of the oldest signs of human society, the ability to turn clay into various objects it is one of the key factors in the development of humanity. From the crude earthenware vases of prehistoric times, to the more complex forms, pottery is omnipresent in any culture.",
+    "desc_ja": "粘土から道具を作り出す技術は、人類社会の最も古い痕跡のひとつであり、人類の発展における重要な要素である。先史時代の粗末な土器からより複雑な形状のものまで、陶器はあらゆる文化に普遍的に存在している。"
   },
   {
     "id": "furniture",
-    "name_en": "Furniture",
-    "name_ja": "家具",
-    "desc_en": "Furniture supplies the need of people to have more than just a roof over their heads. From the most simple beds and tables to more elaborated ones, from plain wood or even stone to more expensive materials, furniture will serve any purpose and fit any taste and budget.",
-    "desc_ja": "家具は、住まいに屋根だけでなく豊かさも求める人々の欲求を満たす。簡素なベッドやテーブルから凝ったつくりのもの、そして木や石などの素朴な素材から高級素材まで、家具はあらゆる目的、好みや予算に応じて作られる。",
     "category": "produced",
     "method": "",
     "default_market_price": 3,
@@ -1234,14 +1230,14 @@
       "all": 1.0
     },
     "icon": "icons/trade_goods/icon_goods_furniture.png",
-    "source_file": "02_produced_goods.txt"
+    "source_file": "02_produced_goods.txt",
+    "name_en": "Furniture",
+    "name_ja": "家具",
+    "desc_en": "Furniture supplies the need of people to have more than just a roof over their heads. From the most simple beds and tables to more elaborated ones, from plain wood or even stone to more expensive materials, furniture will serve any purpose and fit any taste and budget.",
+    "desc_ja": "家具は、住まいに屋根だけでなく豊かさも求める人々の欲求を満たす。簡素なベッドやテーブルから凝ったつくりのもの、そして木や石などの素朴な素材から高級素材まで、家具はあらゆる目的、好みや予算に応じて作られる。"
   },
   {
     "id": "wool",
-    "name_en": "Wool",
-    "name_ja": "羊毛",
-    "desc_en": "Wool came mostly from sheep that grazed in the more marginal lands not suited to other forms of agriculture. Prior to the use of cotton, it was the major raw material for clothing.",
-    "desc_ja": "羊毛は主に、ほかの農業には適さない辺境の土地で放牧される羊から採取された。綿が使用される前は衣料品の主な原料だった。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 1.25,
@@ -1249,14 +1245,14 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_wool.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Wool",
+    "name_ja": "羊毛",
+    "desc_en": "Wool came mostly from sheep that grazed in the more marginal lands not suited to other forms of agriculture. Prior to the use of cotton, it was the major raw material for clothing.",
+    "desc_ja": "羊毛は主に、ほかの農業には適さない辺境の土地で放牧される羊から採取された。綿が使用される前は衣料品の主な原料だった。"
   },
   {
     "id": "wild_game",
-    "name_en": "Wild Game",
-    "name_ja": "狩猟動物",
-    "desc_en": "Wild game is the source of food and nutrition for local populations, especially in sparsely populated rural communities. The hunt of wild animals such as elk, deer, boars and more, are an important cornerstone of a society due to the fact that the aforementioned animals contribute leather, bones, entrails and nutrition to the populace.",
-    "desc_ja": "狩猟動物は、特に人口の少ない農村地域では食料源であり栄養源でもある。ヘラジカ、シカ、イノシシなどの野生動物の狩猟は、皮、骨、内臓、栄養分などが得られるため、社会の重要な基盤となっている。",
     "category": "raw_material",
     "method": "hunting",
     "default_market_price": 1,
@@ -1273,14 +1269,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_wild_game.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Wild Game",
+    "name_ja": "狩猟動物",
+    "desc_en": "Wild game is the source of food and nutrition for local populations, especially in sparsely populated rural communities. The hunt of wild animals such as elk, deer, boars and more, are an important cornerstone of a society due to the fact that the aforementioned animals contribute leather, bones, entrails and nutrition to the populace.",
+    "desc_ja": "狩猟動物は、特に人口の少ない農村地域では食料源であり栄養源でもある。ヘラジカ、シカ、イノシシなどの野生動物の狩猟は、皮、骨、内臓、栄養分などが得られるため、社会の重要な基盤となっている。"
   },
   {
     "id": "fur",
-    "name_en": "Fur",
-    "name_ja": "毛皮",
-    "desc_en": "Furs were one of the basic elements of high quality and warm clothing. Skins from all kinds of animals were supplied initially from Russia but more and more from North America where beavers would be the prize of choice at least till the late middle 18th century.",
-    "desc_ja": "毛皮は、高品質で暖かい衣料に欠かせない素材である。当初はロシアがあらゆる種類の毛皮を供給していたが、次第に北アメリカから供給されるようになり、少なくとも18世紀中ごろまではビーバーが高級品として好まれた。",
     "category": "raw_material",
     "method": "hunting",
     "default_market_price": 2,
@@ -1297,14 +1293,14 @@
       "all": 1.1
     },
     "icon": "icons/trade_goods/icon_goods_fur.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Fur",
+    "name_ja": "毛皮",
+    "desc_en": "Furs were one of the basic elements of high quality and warm clothing. Skins from all kinds of animals were supplied initially from Russia but more and more from North America where beavers would be the prize of choice at least till the late middle 18th century.",
+    "desc_ja": "毛皮は、高品質で暖かい衣料に欠かせない素材である。当初はロシアがあらゆる種類の毛皮を供給していたが、次第に北アメリカから供給されるようになり、少なくとも18世紀中ごろまではビーバーが高級品として好まれた。"
   },
   {
     "id": "fish",
-    "name_en": "Fish",
-    "name_ja": "魚",
-    "desc_en": "Fish was one of the most basic foods for the European population in this age, as meat was more than a luxury for the great majority. Fishermen also provided the basic recruiting pool of the merchant and military navies of most nations.",
-    "desc_ja": "この時代、肉は最高の贅沢品だったため、ヨーロッパ人の大多数とっては魚が最も基本的な食料のひとつだった。魚を獲る漁師もまた、多くの国の商船隊や海軍の基本的な人員供給源でもあった。",
     "category": "raw_material",
     "method": "gathering",
     "default_market_price": 1,
@@ -1319,14 +1315,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_fish.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Fish",
+    "name_ja": "魚",
+    "desc_en": "Fish was one of the most basic foods for the European population in this age, as meat was more than a luxury for the great majority. Fishermen also provided the basic recruiting pool of the merchant and military navies of most nations.",
+    "desc_ja": "この時代、肉は最高の贅沢品だったため、ヨーロッパ人の大多数とっては魚が最も基本的な食料のひとつだった。魚を獲る漁師もまた、多くの国の商船隊や海軍の基本的な人員供給源でもあった。"
   },
   {
     "id": "wheat",
-    "name_en": "Wheat",
-    "name_ja": "小麦",
-    "desc_en": "Wheat represents the vegetable foodstuff that was the staple diet for humans and animals. Lack of it would always lead to revolts and riots. Other cereals and vegetable foodstuffs would later be augmented by tomatoes, corn, and even potatoes from America offering a wider choice both in food and agricultural production varieties.",
-    "desc_ja": "小麦は、人間と動物の主食となる植物性食品の代表であり、小麦の不足はつねに反乱や暴動を引き起こした。その後アメリカからトマト、トウモロコシ、ジャガイモなどが輸入されて穀物や植物性食品の種類が増え、食事と農業生産における選択肢が広がった。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 1,
@@ -1350,14 +1346,14 @@
       "soldiers": 1.0
     },
     "icon": "icons/trade_goods/icon_goods_wheat.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Wheat",
+    "name_ja": "小麦",
+    "desc_en": "Wheat represents the vegetable foodstuff that was the staple diet for humans and animals. Lack of it would always lead to revolts and riots. Other cereals and vegetable foodstuffs would later be augmented by tomatoes, corn, and even potatoes from America offering a wider choice both in food and agricultural production varieties.",
+    "desc_ja": "小麦は、人間と動物の主食となる植物性食品の代表であり、小麦の不足はつねに反乱や暴動を引き起こした。その後アメリカからトマト、トウモロコシ、ジャガイモなどが輸入されて穀物や植物性食品の種類が増え、食事と農業生産における選択肢が広がった。"
   },
   {
     "id": "maize",
-    "name_en": "Maize",
-    "name_ja": "トウモロコシ",
-    "desc_en": "A cultivated plant that was originally domesticated in Mexico, thousands of years ago, maize was traded between the new and the old world with the arrival of the Europeans in the 15th century. Due to its enduring nature as well as its higher dietary value, maize is destined to become a worldwide commodity.",
-    "desc_ja": "トウモロコシは、数千年前にメキシコで初めて栽培された植物で、15世紀のヨーロッパ人の到来とともに新大陸と旧大陸のあいだで取引された。トウモロコシは保存性も栄養価も高いため、世界的に流通する作物となるに違いない。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 1,
@@ -1375,14 +1371,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_maize.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Maize",
+    "name_ja": "トウモロコシ",
+    "desc_en": "A cultivated plant that was originally domesticated in Mexico, thousands of years ago, maize was traded between the new and the old world with the arrival of the Europeans in the 15th century. Due to its enduring nature as well as its higher dietary value, maize is destined to become a worldwide commodity.",
+    "desc_ja": "トウモロコシは、数千年前にメキシコで初めて栽培された植物で、15世紀のヨーロッパ人の到来とともに新大陸と旧大陸のあいだで取引された。トウモロコシは保存性も栄養価も高いため、世界的に流通する作物となるに違いない。"
   },
   {
     "id": "rice",
-    "name_en": "Rice",
-    "name_ja": "米",
-    "desc_en": "Rice is a type of grain that has been the staple food for Asia since its domestication more than ten thousand years ago. It was also independently domesticated in Africa more than three thousand years ago, and it has also been an important food source there ever since. It was brought to Europe through trade with Asia as far back as Classical Antiquity, although it did not manage to supersede other types of grain there.",
-    "desc_ja": "米は穀物の一種で、1万年以上前に栽培化されて以来アジアの主食となっている。3000年以上前にアフリカでも独自に栽培が始まり、重要な食料源となった歴史がある。ヨーロッパには古典古代の時代にアジアとの交易でもたらされたが、そこではほかの穀物に取って代わることはなかった。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 1,
@@ -1400,14 +1396,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_rice.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Rice",
+    "name_ja": "米",
+    "desc_en": "Rice is a type of grain that has been the staple food for Asia since its domestication more than ten thousand years ago. It was also independently domesticated in Africa more than three thousand years ago, and it has also been an important food source there ever since. It was brought to Europe through trade with Asia as far back as Classical Antiquity, although it did not manage to supersede other types of grain there.",
+    "desc_ja": "米は穀物の一種で、1万年以上前に栽培化されて以来アジアの主食となっている。3000年以上前にアフリカでも独自に栽培が始まり、重要な食料源となった歴史がある。ヨーロッパには古典古代の時代にアジアとの交易でもたらされたが、そこではほかの穀物に取って代わることはなかった。"
   },
   {
     "id": "millet",
-    "name_en": "Sturdy Grains",
-    "name_ja": "雑穀",
-    "desc_en": "Sturdy Grains are different kinds of cereal grasses that have been domesticated in many parts of the World at different points in time ever since the Neolithic. Their greater resistance to poor quality soils and dry conditions have made them into a more important food source in semi-arid regions compared to other kinds of grain.",
-    "desc_ja": "雑穀は、新石器時代以降のさまざまな時期に、世界中で栽培されてきた穀草である。劣悪な土壌や乾燥にも耐えるため、半乾燥地域ではほかの穀物よりも重要な食料源となっている。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 1,
@@ -1425,14 +1421,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_millet.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Sturdy Grains",
+    "name_ja": "雑穀",
+    "desc_en": "Sturdy Grains are different kinds of cereal grasses that have been domesticated in many parts of the World at different points in time ever since the Neolithic. Their greater resistance to poor quality soils and dry conditions have made them into a more important food source in semi-arid regions compared to other kinds of grain.",
+    "desc_ja": "雑穀は、新石器時代以降のさまざまな時期に、世界中で栽培されてきた穀草である。劣悪な土壌や乾燥にも耐えるため、半乾燥地域ではほかの穀物よりも重要な食料源となっている。"
   },
   {
     "id": "legumes",
-    "name_en": "Legumes",
-    "name_ja": "マメ科植物",
-    "desc_en": "Various civilizations across history have utilized legumes as a substantial source of nutrition for thousands of years. Much like maize, Europeans were introduced to new types of them with their eventual arrival on the shores of the New World. Legumes were not only filling but also cheap to produce and move on ships.",
-    "desc_ja": "マメ科植物は数千年にわたり、歴史上のさまざまな文明が重要な栄養源として利用してきた。ヨーロッパ人はトウモロコシのときと同様に、新大陸への到達とともに新種類の豆類に出会った。豆類は満腹感を得られるだけでなく生産コストも安く、船で輸送するのにも適していた。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 1,
@@ -1447,14 +1443,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_legumes.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Legumes",
+    "name_ja": "マメ科植物",
+    "desc_en": "Various civilizations across history have utilized legumes as a substantial source of nutrition for thousands of years. Much like maize, Europeans were introduced to new types of them with their eventual arrival on the shores of the New World. Legumes were not only filling but also cheap to produce and move on ships.",
+    "desc_ja": "マメ科植物は数千年にわたり、歴史上のさまざまな文明が重要な栄養源として利用してきた。ヨーロッパ人はトウモロコシのときと同様に、新大陸への到達とともに新種類の豆類に出会った。豆類は満腹感を得られるだけでなく生産コストも安く、船で輸送するのにも適していた。"
   },
   {
     "id": "potato",
-    "name_en": "Potatoes",
-    "name_ja": "ジャガイモ",
-    "desc_en": "The potato is a starchy tuber domesticated around Lake Titicaca by the native people of the Andes. It helped the rise of the Andean civilizations thanks to its hardiness and high caloric density. After the Columbian exchange, it spread all around the globe and by 1750 it was a staple food in Europe facilitating its 19th-century population boom.",
-    "desc_ja": "ジャガイモは、アンデスの原住民によってチチカカ湖周辺で食用にされたでんぷん質の根菜である。丈夫でカロリーが高く、アンデス文明の隆盛に貢献した。コロンブス交換を経て世界中に広がり、1750年までにヨーロッパの主食となると、19世紀の人口の急増を促進した。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 1,
@@ -1472,14 +1468,14 @@
       "upper": 2
     },
     "icon": "icons/trade_goods/icon_goods_potato.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Potatoes",
+    "name_ja": "ジャガイモ",
+    "desc_en": "The potato is a starchy tuber domesticated around Lake Titicaca by the native people of the Andes. It helped the rise of the Andean civilizations thanks to its hardiness and high caloric density. After the Columbian exchange, it spread all around the globe and by 1750 it was a staple food in Europe facilitating its 19th-century population boom.",
+    "desc_ja": "ジャガイモは、アンデスの原住民によってチチカカ湖周辺で食用にされたでんぷん質の根菜である。丈夫でカロリーが高く、アンデス文明の隆盛に貢献した。コロンブス交換を経て世界中に広がり、1750年までにヨーロッパの主食となると、19世紀の人口の急増を促進した。"
   },
   {
     "id": "livestock",
-    "name_en": "Livestock",
-    "name_ja": "家畜",
-    "desc_en": "Since the dawn of history, the care for domesticated animals has been one of the main occupations of humanity. Livestock includes everything from cows and pigs in rich agricultural areas to the herds of pastoralists in the great plains and deserts of the world.",
-    "desc_ja": "有史以来、家畜の世話は人類の主要な職業のひとつだった。豊かな農業地域の牛や豚から、世界各地の大平原や砂漠の牧畜の群れに至るまで、家畜にはあらゆる動物が含まれる。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 1.5,
@@ -1505,14 +1501,14 @@
       "soldiers": 1.1
     },
     "icon": "icons/trade_goods/icon_goods_livestock.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Livestock",
+    "name_ja": "家畜",
+    "desc_en": "Since the dawn of history, the care for domesticated animals has been one of the main occupations of humanity. Livestock includes everything from cows and pigs in rich agricultural areas to the herds of pastoralists in the great plains and deserts of the world.",
+    "desc_ja": "有史以来、家畜の世話は人類の主要な職業のひとつだった。豊かな農業地域の牛や豚から、世界各地の大平原や砂漠の牧畜の群れに至るまで、家畜にはあらゆる動物が含まれる。"
   },
   {
     "id": "olives",
-    "name_en": "Olives",
-    "name_ja": "オリーブ",
-    "desc_en": "Olives are harvested from the trees of the same name, which have been cultivated around the Mediterranean Sea for thousands of years. They are highly appreciated in gastronomy, especially the olive oil that is used to cook and dress a wide range of foods in Mediterranean cuisine.",
-    "desc_ja": "オリーブは、地中海周辺で何千年も栽培されてきた同名の木から収穫される。食文化において高く評価されており、特にオリーブオイルは幅広い地中海料理やドレッシングに使用されている。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 1,
@@ -1530,14 +1526,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_olives.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Olives",
+    "name_ja": "オリーブ",
+    "desc_en": "Olives are harvested from the trees of the same name, which have been cultivated around the Mediterranean Sea for thousands of years. They are highly appreciated in gastronomy, especially the olive oil that is used to cook and dress a wide range of foods in Mediterranean cuisine.",
+    "desc_ja": "オリーブは、地中海周辺で何千年も栽培されてきた同名の木から収穫される。食文化において高く評価されており、特にオリーブオイルは幅広い地中海料理やドレッシングに使用されている。"
   },
   {
     "id": "fruit",
-    "name_en": "Fruit",
-    "name_ja": "果物",
-    "desc_en": "Fruits cover a wide range of products found on trees such as citrus, bitter and sweet oranges, apples and more. For many, these products would be unattainable and a source of nutrition only for the elites. Nearly every region across the world is home to a different kind of fruit and the advent of global trade would go on to introduce different populations to various new fruits.",
-    "desc_ja": "果物は、柑橘類、ブドウ、リンゴなどの、木に実る幅広い果実を指す。これらの果物は庶民には手の届かないものであり、長らく上流階級だけの栄養源だった。世界中のほぼすべての地域で多種多様な果物が栽培されており、国際貿易の発展により食卓に並ぶ果物の豊富さは増す一方である。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 1,
@@ -1552,14 +1548,14 @@
       "tribesmen": 0
     },
     "icon": "icons/trade_goods/icon_goods_fruit.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Fruit",
+    "name_ja": "果物",
+    "desc_en": "Fruits cover a wide range of products found on trees such as citrus, bitter and sweet oranges, apples and more. For many, these products would be unattainable and a source of nutrition only for the elites. Nearly every region across the world is home to a different kind of fruit and the advent of global trade would go on to introduce different populations to various new fruits.",
+    "desc_ja": "果物は、柑橘類、ブドウ、リンゴなどの、木に実る幅広い果実を指す。これらの果物は庶民には手の届かないものであり、長らく上流階級だけの栄養源だった。世界中のほぼすべての地域で多種多様な果物が栽培されており、国際貿易の発展により食卓に並ぶ果物の豊富さは増す一方である。"
   },
   {
     "id": "beeswax",
-    "name_en": "Beeswax",
-    "name_ja": "蜜蝋",
-    "desc_en": "Bees have been friends of humanity since prehistoric times, and their wax has been used for many purposes. From candles to molds, from polish finisher to tablets for writing, the presence of beeswax in human society is ubiquitous.",
-    "desc_ja": "ミツバチは有史以前から人類の友であり、その蝋はさまざまな用途に利用されてきた。蝋燭から鋳型、仕上げ用のワックスから書字用の板まで、蜜蝋は人類社会のいたるところに存在している。",
     "category": "raw_material",
     "method": "farming",
     "default_market_price": 2,
@@ -1580,14 +1576,14 @@
       "soldiers": 1.1
     },
     "icon": "icons/trade_goods/icon_goods_beeswax.png",
-    "source_file": "03_food.txt"
+    "source_file": "03_food.txt",
+    "name_en": "Beeswax",
+    "name_ja": "蜜蝋",
+    "desc_en": "Bees have been friends of humanity since prehistoric times, and their wax has been used for many purposes. From candles to molds, from polish finisher to tablets for writing, the presence of beeswax in human society is ubiquitous.",
+    "desc_ja": "ミツバチは有史以前から人類の友であり、その蝋はさまざまな用途に利用されてきた。蝋燭から鋳型、仕上げ用のワックスから書字用の板まで、蜜蝋は人類社会のいたるところに存在している。"
   },
   {
     "id": "slaves_goods",
-    "name_en": "Slaves",
-    "name_ja": "奴隷",
-    "desc_en": "Slaves had been a trading commodity since Antiquity, but demand increased sharply in the late 16th century when Slaves offered one of the cheapest sources of labor for European plantations in the Americas.",
-    "desc_ja": "奴隷は古代から取引がおこなわれていたが、16世紀後半に急速に需要が高まった。これは当時、アメリカ大陸でヨーロッパ人が経営していた大規模農園にとって、奴隷が最も安価な労働力だったためである。",
     "category": "produced",
     "method": "",
     "default_market_price": 3,
@@ -1595,6 +1591,10 @@
     "base_production": 0,
     "tags": [],
     "icon": "icons/trade_goods/icon_goods_slaves_goods.png",
-    "source_file": "04_special.txt"
+    "source_file": "04_special.txt",
+    "name_en": "Slaves",
+    "name_ja": "奴隷",
+    "desc_en": "Slaves had been a trading commodity since Antiquity, but demand increased sharply in the late 16th century when Slaves offered one of the cheapest sources of labor for European plantations in the Americas.",
+    "desc_ja": "奴隷は古代から取引がおこなわれていたが、16世紀後半に急速に需要が高まった。これは当時、アメリカ大陸でヨーロッパ人が経営していた大規模農園にとって、奴隷が最も安価な労働力だったためである。"
   }
 ]

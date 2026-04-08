@@ -1,0 +1,22 @@
+{
+  "monarchy": {
+    "name": "Monarquía",
+    "desc": "Una $monarchy$ es un basado en el principio de la soberanía personal total, en la que el es el primero en el seno de la élite. El suele pertenecer a la del $game_concept_monarch$ y en la mayoría de los casos reina por la vida una vez que asciende al trono.\\n\\nLos $game_concept_monarchs$ pueden usar para entablar , y hasta es posible heredar extranjeros mediante . Sin embargo, la sucesión suele ser un asunto peliagudo, y las monarquías pueden convertirse fácilmente en o caer bajo la influencia de $game_concept_dynasties$ extranjeras."
+  },
+  "republic": {
+    "name": "La república",
+    "desc": "Una $republic$ es un en el que los son elegido mediante para servir como representantes de los ciudadanos durante un periodo de tiempo estipulado. Dependiendo de la , el $game_concept_ruler$ puede pertenecer a cualquier de los .\\n\\nLa fuerza de las instituciones políticas hace que las repúblicas sean más resistentes a los problemas derivados de la herencia, pero su misma naturaleza de Gobierno menos personal limita las herramientas diplomáticas a su disposición. Debido a esto, las tienen menos importancia, y las repúblicas no pueden beneficiarse de los ."
+  },
+  "theocracy": {
+    "name": "Teocracia",
+    "desc": "Una $theocracy$ es un basado en el principio de la soberanía divina, en el que el proviene de los siervos de la fe y los asuntos seculares están subordinados a la autoridad religiosa.\\n\\nLos $game_concept_rulers$, que normalmente reinan de por vida, suelen ser elegidos mediante de algún tipo, lo que permite que el poder se transfiera de forma menos perturbadora."
+  },
+  "steppe_horde": {
+    "name": "Horda de la estepa",
+    "desc": "Una $steppe_horde$ es un basado en el poder militar de su . Los parientes del $game_concept_ruler$ actual también tienen más probabilidades de ocupar el puesto de , pero también se tienen en cuenta las personales y la edad.\\n\\nLos $game_concept_rulers$ proceden de la élite de la sociedad y solo mantendrán la lealtad de sus iguales mientras demuestren ser capaces de subyugar, arrasar y saquear a los vecinos. Por eso, la sucesión es un evento trascendental para una $steppe_horde$, y puede incluso acabar en el colapso si el nuevo $game_concept_ruler$ no puede demostrar su fuerza."
+  },
+  "tribe": {
+    "name": "Tribu",
+    "desc": "Una $tribe$ es un en el que el poder político está principalmente estructurado en torno al concepto del parentesco, ya sea por consanguineidad directa o por ascendencia percibida.\\n\\nLas y los vínculos familiares son muy importantes a la hora de determinar el , que siempre pertenecerá a la élite de la sociedad, pero también suelen ser muy respetadas la edad, las personales y la destreza militar."
+  }
+}

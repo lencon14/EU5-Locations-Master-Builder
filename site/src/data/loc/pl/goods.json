@@ -1,0 +1,298 @@
+{
+  "horses": {
+    "name": "Konie",
+    "desc": "Konie zostały udomowione na Wielkim Stepie około sześć tysięcy lat temu i od tego czasu są wykorzystywane przez ludzi do przeróżnych zadań, najważniejszym z których są jednak działania wojenne. W tym kontekście średniowiecze stanowiło złotą erę kawalerii, jako że była ona blisko powiązana z rozwojem społeczności feudalnych."
+  },
+  "clay": {
+    "name": "Glina",
+    "desc": "Glina to typ gleby, który jest wykorzystywany przez ludzkość do produkcji ceramiki i wyrobów garncarskich od czasów prehistorycznych. Jej innym głównym zastosowaniem – w połączeniu z dodatkowymi materiałami – jest budownictwo, a także wyrób cegieł. Tabliczki gliniane stanowiły również część pierwszej wynalezionej metody piśmienniczej, tak więc wpływ tego materiału na rozwój cywilizacji jest niezaprzeczalny."
+  },
+  "sand": {
+    "name": "Piasek",
+    "desc": "Piasek to jeden z najczęściej spotykanych na Ziemi materiałów, wykorzystywany w wielu przeróżnych celach. Ze względu na swoją gruboziarnistość oraz szorstkość jest używany jako materiał ścierny do kształtowania kamieni oraz metalu, stanowi składnik wielu materiałów budowlanych, a także główny element w procesie produkcji szła."
+  },
+  "coal": {
+    "name": "Węgiel",
+    "desc": "Węgiel cieszy się długą historią wykorzystania jako źródło paliwa, jednak prawdziwą popularność zyskał dopiero po wynalezieniu i rozpowszechnieniu silnika parowego. Gdy Europę ogarnęła rewolucja przemysłowa, wykorzystanie i eksport bądź import węgla stały się ważną branżą oraz integralną częścią współczesnej ekonomii."
+  },
+  "iron": {
+    "name": "Żelazo",
+    "desc": "Żelazo reprezentuje nie tylko ten pierwiastek, ale też inne metale żelazne. Stanowiło ono podstawę przemysłu metalurgicznego i było szeroko używane przy produkcji broni oraz innego wyposażenia wojskowego."
+  },
+  "copper": {
+    "name": "Miedź",
+    "desc": "Miedź pozostaje jednym z najważniejszych materiałów już od czasu wynalezienia i rozpowszechnienia metalurgii tysiące lat temu. Jej zastosowania są niezwykle zróżnicowane, ponieważ może być zarówno obrabiana samodzielnie, jak i występować w stopach takich jak brąz. Sprawia to, że jest szczególnie ważna przy wytwarzaniu broni, kluczowa zaś we wczesnej produkcji armat."
+  },
+  "goods_gold": {
+    "name": "Złoto",
+    "desc": "Złoto było tradycyjnie najbardziej cenionym metalem szeroko stosowanym w handlu i stanowiącym sposób na gromadzenie bogactwa w postaci wykonanych z niego monet lub różnego rodzaju prestiżowych obiektów. Wykorzystanie go jako głównej waluty w systemach bimetalicznych lub trimetalicznych prowadzi do bardzo wysokiego popytu, czyniąc je przedmiotem pożądania podczas eksploracji nowych terytoriów."
+  },
+  "silver": {
+    "name": "Srebro",
+    "desc": "Srebro było jednym z pierwszych metali wykorzystywanych jako waluta – i tym, które wraz ze złotem odniosło w tej roli największy sukces. W średniowieczu centrum jego produkcji stała się Europa Środkowa, ale w rezultacie odkryć Krzysztofa Kolumba przeniosła się ona do Ameryk, które tym samym od XVI wieku zostały głównym ośrodkiem produkcyjnym nowo powstałej sieci globalnej."
+  },
+  "stone": {
+    "name": "Kamień",
+    "desc": "Przez całą historię ludzkości kamień pozostawał jednym z jej głównych materiałów budowlanych. Mocniejszy i bardziej wytrzymały niż alternatywy takie jak glina czy drewno, stanowił on najczęściej wybierany materiał do wzniesienia każdej konstrukcji, która miała przetrwać próbę czasu. Za przykład mogą posłużyć tu piramidy, które powstały dawno temu, jednak zdołały przetrwać do naszych czasów właśnie dzięki trwałości kamienia, z którego powstały."
+  },
+  "tin": {
+    "name": "Cyna",
+    "desc": "Cyna była szeroko wykorzystywana w metalurgii jako składnik stopu do uzyskania brązu już 5000 lat temu, później zaś zaczęła być także używana do powlekania innych metali oraz stopów, takich jak żelazo, ołów czy stal, w celu zapobiegania korozji, a także do produkcji pewteru, czyli stopu, z którego wykonywano zastawę stołową."
+  },
+  "lead": {
+    "name": "Ołów",
+    "desc": "Ołów był pozyskiwany od starożytności, stanowiąc produkt uboczny ekstrakcji srebra w procesie spalania galeny, i wykorzystywany był w szerokiej gamie produktów domowych oraz przemysłowych – szczególnie przez Rzymian, którym pod względem poziomu produkcji tego metalu nie dorównał nikt do czasu rewolucji przemysłowej. W epoce współczesnej ołów stał się głównym materiałem do wytwarzania pocisków do broni palnej."
+  },
+  "silk": {
+    "name": "Jedwab",
+    "desc": "Najwspanialszą ze wszystkich tkanin wschodu był jedwab produkowany w Indiach, Chinach i Azji Wschodniej. Choć nie był tak legendarny jak przyprawy, zyski z handlu właśnie jedwabiem i wysokiej jakości bawełną szybko przewyższyły dochody z handlu towarami korzennymi osiągane przez europejskie Kompanie Wschodnioindyjskie.\\nZe względu na wzrastający popyt podjęto również w merkantylistycznej Europie próby produkcji tego materiału lokalnie – z różnym skutkiem."
+  },
+  "dyes": {
+    "name": "Barwniki",
+    "desc": "Od kiedy produkowane są tkaniny, tak długo istnieje też popyt na wysokiej jakości barwniki. W średniowieczu drogie ich rodzaje, jak indygo, bywały warte fortunę, a to ze względu na ich miejsce pochodzenie – dalekie Indie.\\nW miarę, jak świat się otworzył, barwniki stały się dostępniejsze – zarówno dzięki możliwości ich produkcji w Ameryce, jak i większej dostępności indyjskiego rynku. Tak czy inaczej pozostały one towarem rzadkim i na początku XIX wieku, gdy plantacje w Indiach wpadły w europejskie ręce, rozpoczęła się prawdziwa gorączka złota."
+  },
+  "incense": {
+    "name": "Kadzidło",
+    "desc": "Rozsiewanie dymu i aromatu poprzez palenie rozmaitych materiałów jest elementem praktyk ceremonialnych już od stuleci. Kadzidło, drzewo agarowe, drzewo sandałowe, mirra i inne nadające się do tego towary znajdują się w wielu miejscach świata, a popyt na nie stał się ważnym czynnikiem w kształtowaniu się sieci handlowych takich jak Jedwabny Szlak czy też noszący nawet stosowną nazwę Szlak Kadzidlany."
+  },
+  "tea": {
+    "name": "Herbata",
+    "desc": "Herbata była ważnym, luksusowym napojem w Chinach, Indii i Azji Południowo-Wschodniej. Miała również swoje miejsce w rytuałach religijnych i społecznych. Anglicy spopularyzowali ją w Europie. Choć nigdy nie była uważana za napitek równie szlachetny, co kawa, nadal przynosiła duże zyski – już choćby tylko dlatego, że podaż światowa była niska."
+  },
+  "cocoa": {
+    "name": "Kakao",
+    "desc": "Kakao było używane jako stymulant przez azteckich, inkaskich i indiańskich władców od wczesnego średniowiecza. Zostało spopularyzowane w Europie na początku XVI wieku, kiedy to Hiszpanie importowali je ze swoich amerykańskich kolonii. Kakao stało się cenionym przez bogaczy luksusem."
+  },
+  "coffee": {
+    "name": "Kawa",
+    "desc": "Kawa została odkryta w północno-wschodnim regionie Etiopii, zaś jej hodowlę rozpoczęto po raz pierwszy w południowej Arabii. Z Bliskiego Wschodu trafiła w XVII wieku do Włoch, a następnie w inne miejsca w Europie. Znalazła ona szerszą akceptację, kiedy papież Klemens VIII w 1600 roku uznał ją za chrześcijański napój wbrew apelom, aby zabronić „muzułmańskiego napitku”."
+  },
+  "fiber_crops": {
+    "name": "Rośliny włókniste",
+    "desc": "Wiele rozmaitych roślin włóknistych wykorzystuje się na całym świecie do produkcji rozmaitych towarów takich jak żagle, sieci rybackie czy odzież. Można z nich jednak wytwarzać nie tylko szorstkie tekstylia – wiele z nich jest istotnych w produkcji wyższej klasy tkanin. Wykorzystuje się je też w ceremoniach, podczas prac domowych i w innych sytuacjach. Do przykładowych roślin tego typu należą konopie, len, juta czy agawa sizalowa."
+  },
+  "ivory": {
+    "name": "Kość słoniowa",
+    "desc": "Kość słoniowa stanowiła obok niewolników jeden z głównych towarów eksportowych z Afryki. Cieszyła się dużym popytem wśród Europejczyków, którzy wytwarzali z niej rozmaite towary, jak sztućce, upominki, małe dzieła sztuki, meble itd."
+  },
+  "lumber": {
+    "name": "Drewno",
+    "desc": "Drewno od początku historii ludzkości stanowi jeden z głównych materiałów budowlanych. Choć jest mniej wytrzymałe od kamienia, pozostaje łatwiej dostępne, przez co zyskało sobie popularność jako budulec we wszystkich częściach świata. Nawet konstrukcje, które muszą być odporne, jak zamki czy fortyfikacje, mają również wersje stworzone z drewna, nie zaś z kamienia."
+  },
+  "salt": {
+    "name": "Sól",
+    "desc": "Sól jest człowiekowi niezbędna do życia. Stanowiła również niegdyś najpowszechniejszy środek konserwujący żywność na potrzeby długich zimowych miesięcy. Pozyskiwano ją jako kopalinę – wydobywana była w Europie Środkowej – lub w sposób naturalny, poprzez odparowywanie słonych błot na słonecznych wybrzeżach."
+  },
+  "medicaments": {
+    "name": "Leki",
+    "desc": "Na przestrzeni dziejów do leczenia rozmaitych chorób wykorzystywano najróżniejsze rośliny i produkty odzwierzęce – czy to ze względu na faktyczne właściwości lecznicze, czy też wiarę w ich istnienie. Niektóre z nich faktycznie wykazywały prozdrowotne właściwości, w przypadku innych zadziałać mogła co najwyżej siła przekonań."
+  },
+  "gems": {
+    "name": "Kamienie szlachetne",
+    "desc": "Od najdawniejszych czasów kamienie takie jak rubiny, szafiry, diamenty, szmaragdy czy jadeit były wykorzystywane w jubilerstwie oraz jako dodatki do strojów ceremonialnych. Przez całe stulecia jedynym źródłem diamentów na świecie były legendarne kopalnie w Golkondzie. Choć nie wszystkie kamienie szlachetne są równie rzadkie, to wciąż pozostają niezwykle pożądanymi dobrami."
+  },
+  "pearls": {
+    "name": "Perły",
+    "desc": "Perły powstają we wnętrzu rozmaitych gatunków małży. Stanowią one twardy, lśniący obiekt – w idealnym przypadku jest on okrągły, może jednak przybrać różne kształty. Ze względu na swoje piękno wykorzystywane są na całym świecie w jubilerstwie od początku historii człowieka."
+  },
+  "amber": {
+    "name": "Bursztyn",
+    "desc": "Bursztyn to cenny surowiec powstały ze skamieniałej żywicy, używany głównie do produkcji biżuterii i zdobień. Jego główne źródło to magazyny na pruskim wybrzeżu – pierwszą wzmiankę o nich znaleźć można w dokumencie z XII wieku."
+  },
+  "saltpeter": {
+    "name": "Saletra",
+    "desc": "Saletra znana była już w starożytności, a jej wykorzystanie jest bardzo różnorodne – mogła stanowić nawóz lub pełnić rolę soli przy konserwacji mięsa. Naprawdę istotna stała się jednak w średniowieczu, kiedy to wynalezione zostały broń palna i proch strzelniczy – obok węgla drzewnego i siarki jest bowiem jego głównym składnikiem. Ta wydobywana w wielkich ilościach na całym świecie substancja wyrobi sobie na przestrzeni wieków nie lada reputację."
+  },
+  "alum": {
+    "name": "Ałun",
+    "desc": "Ałun stanowi kluczowy surowiec w produkcji barwników oraz w garbarstwie. Znajduje szerokie zastosowanie w sztuce i rzemiośle, jak na przykład podczas malowania czy iluminacji ksiąg. Pochodził niegdyś głównie z regionu Czadu i handlowano nim na rynkach całego świata muzułmańskiego, lecz w późnym średniowieczu zaczął być pozyskiwany również w Europie."
+  },
+  "wine": {
+    "name": "Wino",
+    "desc": "Wino produkuje się od niepamiętnych czasów w południowych częściach Europy. Do dziś uważane jest tam za nieodłączny element codziennej diety, może z wyłączeniem świata muzułmańskiego. Nie uważano go za produkt luksusowy, stanowiło jednak z pewnością dla wielu ludzi miłe urozmaicenie nudnych poza tym posiłków."
+  },
+  "elephants": {
+    "name": "Słonie",
+    "desc": "Słonie wykorzystywano w walce już w starożytności na terenie Indii, Azji Południowo-Wschodniej, Bliskiego Wschodu i Afryki Północnej. Tradycja ta utrzymała się w niektórych z tych regionów również w średniowieczu, choć pojawienie się broni palnej w późniejszych okresach ograniczyło ich przydatność w boju."
+  },
+  "marble": {
+    "name": "Marmur",
+    "desc": "Marmur wykorzystuje się w rzeźbiarstwie i budownictwie już od starożytności – ze względu na swój wygląd i plastyczność uważany jest za materiał luksusowy. Niektóre z najpiękniejszych dzieł sztuki artystów epok renesansu i baroku, jak Michał Anioł czy Bernini, powstały właśnie z marmuru."
+  },
+  "mercury": {
+    "name": "Rtęć",
+    "desc": "$mercury$ wykorzystywana jest w medycynie, lecz także w oczyszczaniu niższej jakości rud złota i srebra, aby zwiększyć ich wartość."
+  },
+  "saffron": {
+    "name": "Szafran",
+    "desc": "Znany od czasów starożytnych szafran pomimo swej wysokiej ceny był używany nie tylko do celów kulinarnych, lecz także jako tradycyjny lek oraz barwnik do ubrań."
+  },
+  "pepper": {
+    "name": "Pieprz",
+    "desc": "Choć nazwę tę nosi wiele rodzajów roślin, wszystkie charakteryzują się tym samym ostrym smakiem sprawiającym, że pieprz jest idealny do stosowania jako przyprawa, a także w ramach medycyny tradycyjnej."
+  },
+  "cloves": {
+    "name": "Goździki",
+    "desc": "Goździki to aromatyczne pąki kwiatów drzewa rosnącego na Molukach. Stały się jedną z najbardziej cenionych i kosztownych przypraw w eurazjatyckiej sieci handlowej. Pod koniec średniowiecza Europejczycy stale poszukiwali nowych źródeł zarówno tego, jak i innych towarów."
+  },
+  "chili": {
+    "name": "Chili",
+    "desc": "Niektóre odmiany roślin pochodzących z Ameryki Środkowej oraz Południowej i uprawianych tam od czasów starożytnych słyną ze swojej ostrości i zdolności do przyprawienia każdej potrawy, co czyni je niezwykle cennymi."
+  },
+  "cotton": {
+    "name": "Bawełna",
+    "desc": "Bawełna wywodzi się z Azji Środkowej, nie była jednak powszechnie wykorzystywana w Europie, dopóki nie zjawiła się w amerykańskich koloniach jako tanie i dobre uzupełnienie wełny w przemyśle tekstylnym późnego XVIII wieku."
+  },
+  "sugar": {
+    "name": "Cukier",
+    "desc": "Cukier używany był nie tylko do słodzenia, lecz także do konserwacji żywności. W tamtych czasach jedynym znanym jego źródłem była trzcina cukrowa, którą hodowano początkowo na śródziemnomorskich wyspach. System wykorzystujących dużo siły żywej plantacji, które powstały w Ameryce, a zwłaszcza na Karaibach, sprawił, że wkrótce największe centra produkcji tego zasobu pojawiły się za oceanem."
+  },
+  "tobacco": {
+    "name": "Tytoń",
+    "desc": "Tytoń nie był znany w Europie, dopóki nie przywieziono go z Ameryki pod koniec XVI stulecia. Szybko stał się modny wśród wyższych sfer, które było na niego stać, dzięki czemu zapewnił brytyjskim koloniom w Ameryce Północnej oraz portugalskiej Brazylii szybki rozwój gospodarczy. Nikt nie wiedział, co jest do niego dodawane, nikt jednak nie umiał przestać go palić."
+  },
+  "tar": {
+    "name": "Smoła",
+    "desc": "Smoła to cenny składnik wykorzystywany przy budowie statków, przyjmujący wygląd gęstego czarnego płynu w rezultacie procesu produkcyjnego opartego na agresywnej destylacji. Smoła jest powszechnie stosowana do uszczelniania kadłubów statków oraz jako tani sposób na impregnację żagli."
+  },
+  "porcelain": {
+    "name": "Porcelana",
+    "desc": "Porcelana to rodzaj ceramiki charakteryzujący się wytrzymałością i przejrzystością będącymi skutkiem zeszklenia jej tworzywa w wysokiej temperaturze. Została opracowana w Chinach w okresie, który rozpoczął się ponad trzy tysiące lat temu. Już dwa tysiące lat temu była ona produkowana w obecnej formie, później zaś stała się znana na całym świecie, gdzie cieszy się dużym popytem."
+  },
+  "naval_supplies": {
+    "name": "Zapasy okrętowe",
+    "desc": "Na zapasy okrętowe składa się wszystko, co potrzebne do budowy statków, od drewna przez smołę i len po żagle i inne materiały. Z początku pochodziły one głównie z rejonu Bałtyku, lecz na początku XVIII wieku głównym ich dostawcą stała się Ameryka Północna. Ekspansja kolonialna do nowego świata miała po części na celu zapewnienie sobie właśnie źródła tych jakże istotnych zasobów."
+  },
+  "firearms": {
+    "name": "Broń palna",
+    "desc": "Wynalezienie i rozpowszechnienie się broni palnej odmieniło oblicze pól bitew. Wojny toczone w Azji i Europie toczyć się będą od teraz pod znakiem produkcji, importu i wykorzystywania mocy prochu strzelniczego. Broń palna stała się elementem naturalnej ewolucji wojskowości i kluczowym elementem obrony suwerenności państw na całym globie."
+  },
+  "cannons": {
+    "name": "Działa",
+    "desc": "Choć broń oblężnicza istnieje od czasów starożytnych, odkrycie prochu pozwoliło stworzyć machiny o niespotykanej nigdy dotąd niszczycielskiej mocy. Możliwość miotania większymi pociskami z większą prędkością i na większe niż kiedykolwiek odległości pozwoli na niszczenie wszelkich fortyfikacji poza tymi najpotężniejszymi, nie wspominając już o efekcie, jaki tego rodzaju broń będzie miała, gdyby użyć jej bezpośrednio przeciw wrogim armiom."
+  },
+  "weaponry": {
+    "name": "Broń",
+    "desc": "Broń taka jak miecze, piki czy łuki stanowi trzon uzbrojenia każdej armii. Techniki jej tworzenia były sztuką udoskonalaną na przestrzeni dziejów. Niezależnie od epoki, w której żyjemy, broń zawsze pozostanie ważnym narzędziem, jeśli chodzi o zapewnianie sobie niepodległości."
+  },
+  "glass": {
+    "name": "Szkło",
+    "desc": "Szkło cenione jest od stuleci jako przydatne tworzywo w dziedzinach sztuki, architektury czy po prostu w tworzeniu naczyń do codziennego użytku. Rozwój technik hutniczych sprawił, że stało się ono również istotne w naukowej dziedzinie optyki – szklane soczewki posłużyły do produkcji okularów, teleskopów i rozmaitych innych urządzeń znajdujących szerokie zastosowanie – od nawigacji morskiej po badania z zakresu nauk naturalnych."
+  },
+  "steel": {
+    "name": "Stal",
+    "desc": "Stal jest szeroko wykorzystywana w produkcji broni białej i palnej. Różne jej rodzaje znajdują odmienne zastosowania – z niższej jakości tępej stali wytwarza się topory, zaś wysokiej jakości stal to surowiec używany do produkcji mieczy i noży. Stanowi również główny budulec rozmaitego sprzętu i narzędzi."
+  },
+  "cloth": {
+    "name": "Tkaniny",
+    "desc": "Tkaniny reprezentują różnego typu tekstylia produkowane z wełny i lnu. Później głównym surowcem, z których je wytwarzano, stała się importowana z Indii i obu Ameryk bawełna."
+  },
+  "fine_cloth": {
+    "name": "Odzież wysokiej jakości",
+    "desc": "Jakościowa odzież tradycyjnie była oznaką wysokiego statusu elit i bogaczy. Tekstylia takie jak adamaszek, muślin czy brokat stanowiły przedmiot sprzedaży i kopiowania w średniowieczu i stanowią go również współcześnie."
+  },
+  "liquor": {
+    "name": "Alkohol",
+    "desc": "Destylat produkowany z rozmaitych produktów pochodzenia roślinnego. Proces destylacji zwiększa znacząco ilość wytwarzanego z surowca alkoholu. Popularne na całym świecie destylowane trunki to na przykład gin, rum, wódka, tequila czy shōchū."
+  },
+  "beer": {
+    "name": "Piwo",
+    "desc": "Piwo stanowiło jeden z filarów gastronomii od czasu jego wynalezienia w okresie neolitu. Rozpowszechnionym napitkiem stało się w średniowieczu i stanowi przedmiot najstarszego nadal wykorzystywanego zestawu przepisów dotyczących żywności, Reinheitsgebot."
+  },
+  "paper": {
+    "name": "Papier",
+    "desc": "Papier to rzecz nieodzowna do jakiejkolwiek zaawansowanej księgowości, prac administracyjnych czy szerzenia wiedzy. Proces jego produkcji opracowano początkowo w Chinach, skąd powoli rozprzestrzenił się we wszelkie zakątki starego świata. Wytwarzanie na dużą skalę papieru – materiału piśmienniczego o wiele lepszego niż inne, takie jak pergamin – wymaga specjalistycznych umiejętności i sprzętu, przez co stanowi on rzadki i cieszący się dużym popytem towar."
+  },
+  "books": {
+    "name": "Księgi",
+    "desc": "Księgi stanowią jeden z najważniejszych sposobów uwieczniania ludzkiej wiedzy, od kiedy tysiące lat temu wynaleziono pismo. Wytwarzano je zwykle z pergaminu lub papieru albo innych produktów z włókien roślinnych. Wynalezienie i spopularyzowanie w średniowieczu systemów drukarskich uczyniło księgi o wiele powszechniejszymi i dostępniejszymi dla ludu."
+  },
+  "jewelry": {
+    "name": "Biżuteria",
+    "desc": "Biżuteria to regalia lub ozdoby wytwarzane przez utalentowanych rzemieślników przy użyciu klejnotów i drogocennych kamieni. Ich wartość często kojarzona jest z wysokim statusem społecznym lub nawet z władzą królewską."
+  },
+  "leather": {
+    "name": "Skóra",
+    "desc": "Garbowana skóra – jeden z najwcześniejszych wynalazków ludzkości – znajduje szerokie wykorzystanie w produkcji odzieży, obuwia i ozdób. Swoje powodzenie zawdzięcza głównie wygodzie i trwałości, dzięki czemu stała się preferowanym materiałem do wytwarzania mebli używanych podczas jedzenia – skóra jest łatwa w utrzymaniu, nie pochłaniając przy tym zapachów żywności."
+  },
+  "tools": {
+    "name": "Narzędzia",
+    "desc": "Produkcja narzędzi jest głównym czynnikiem, który umożliwił rozkwit ludzkiego społeczeństwa. Od prostszych i prymitywnych narzędzi kamiennych po najbardziej zaawansowane i precyzyjne instrumenty opracowane przy użyciu metalurgii, pozwalają one na dalsze tworzenie sprzętu oraz broni."
+  },
+  "masonry": {
+    "name": "Ociosane kamienie",
+    "desc": "Istnieje szereg rozmaitych technik budowlanych. Możliwość tworzenia mniejszych elementów kamiennych o takim samym kształcie i rozmiarze znacząco zwiększa nie tylko wydajność samej budowy, lecz także wytrzymałość budynku."
+  },
+  "lacquerware": {
+    "name": "Lakiernictwo artystyczne",
+    "desc": "Lakiernictwo artystyczne znano w Chinach i Japonii już w okresie neolitu, ponad dziesięć tysięcy lat temu. Polega ono na pokrywaniu produktów drewnianych lub metalowych ozdobną warstwą wytwarzanego z żywicy i wosku lakieru. Można ją później udekorować jeszcze bardziej za pomocą malunków, rzeźbień lub przy użyciu złotego i srebrnego pyłu, co czyni z naczynia towar luksusowy."
+  },
+  "pottery": {
+    "name": "Wyroby garncarskie",
+    "desc": "Umiejętność przekształcania gliny w różne przedmioty to jeden z najstarszych symboli ludzkiego społeczeństwa i jeden z kluczowych czynników jego rozwoju. Od prymitywnych glinianych waz z czasów prehistorycznych po bardziej złożone formy, wyroby te są wszechobecne w każdej kulturze."
+  },
+  "furniture": {
+    "name": "Meble",
+    "desc": "Meble zaspokajają potrzebę posiadania czegoś więcej niż tylko dachu nad głową. Od najprostszych łóżek i stołów po bardziej wyszukane obiekty, od zwykłego drewna lub nawet kamienia po droższe materiały, meble mogą służyć różnym celom i dopasować się do każdego gustu czy budżetu."
+  },
+  "wool": {
+    "name": "Wełna",
+    "desc": "Wełna pochodziła głównie od owiec pasących się na mniej ważnych terenach nienadających się na inne cele agrokulturowe i przed pojawieniem się bawełny stanowiła główny surowiec do wyrobu odzieży."
+  },
+  "wild_game": {
+    "name": "Dziczyzna",
+    "desc": "Dziczyzna to źródło żywności lokalnych populacji, zwłaszcza na niezbyt gęsto zaludnionych wsiach. Polowania na dzikie zwierzęta, jak łosie, sarny, dziki i inne, to niezwykle ważna praktyka – zapewnia bowiem surowce takie jak skóra, kości, wnętrzności czy żywność."
+  },
+  "fur": {
+    "name": "Futro",
+    "desc": "Futra stanowiły jeden z podstawowych rodzajów wysokiej jakości ciepłej odzieży. Skóry najróżniejszych rodzajów zwierząt pochodziły z początku przede wszystkim z Rosji, później jednak dużą część rynku przejęła Ameryka Północna – bobry stanowiły tam ulubione źródło futer co najmniej do drugiej połowy XVIII wieku."
+  },
+  "fish": {
+    "name": "Ryby",
+    "desc": "Ryby stanowiły swego czasu jedno z podstawowych rodzajów pożywienia Europejczyków – dla ogromnej większości mięso było luksusem. Rybacy stanowili też w większości krajów podstawową grupę rekrutów do flot kupieckich i wojennych."
+  },
+  "wheat": {
+    "name": "Pszenica",
+    "desc": "Pszenica stanowiła przez długie lata podstawowe źródło pożywienia dla wielu ludzi i zwierząt, jej brak zaś doprowadzał zawsze do rewolt i buntów. W późniejszych latach dieta wzbogaciła się o pomidory, kukurydzę, a nawet sprowadzone z Ameryki ziemniaki, dzięki czemu zwiększył się zarówno wybór dostępnych potraw, jak i roślin do uprawy."
+  },
+  "maize": {
+    "name": "Kukurydza",
+    "desc": "Roślina hodowlana udomowiona początkowo tysiące lat temu w Meksyku. Na stary kontynent trafiła po przybyciu jej mieszkańców do Ameryki w XV wieku. Ze względu na swoją trwałość i wartości odżywcze stanie się nieuchronnie pożądanym na całym świecie towarem."
+  },
+  "rice": {
+    "name": "Ryż",
+    "desc": "Ryż to roślina stanowiąca od czasu jej udomowienia dziesięć tysięcy lat temu podstawę diety mieszkańców Azji. Ponad trzy tysiące lat temu rozpoczęła się też niezależnie jego uprawa w Afryce, gdzie również stanowi od tego czasu ważne źródło żywności. Do Europy ryż trafił poprzez handel z Azją jeszcze w epoce klasycznej starożytności, choć nie zdołał zastąpić tam innych rodzajów zbóż."
+  },
+  "millet": {
+    "name": "Wytrzymałe odmiany zbóż",
+    "desc": "Wytrzymałe odmiany zbóż to rozmaite typy roślin udomowionych w wielu miejscach na świecie, czasem już w okresie neolitu. Ich większa odporność na niskiej jakości glebę i suche warunki uczyniły je ważniejszym niż inne rodzaje zbóż źródłem pożywienia w na poły pustynnych regionach."
+  },
+  "legumes": {
+    "name": "Rośliny strączkowe",
+    "desc": "Rozmaite cywilizacje na przestrzeni dziejów wykorzystywały rośliny strączkowe jako ważne źródło substancji odżywczych. Podobnie jak w przypadku kukurydzy, Europejczycy poznali nowe ich rodzaje, kiedy dotarli na wybrzeża nowego świata. Rośliny strączkowe są nie tylko sycące, lecz również tanie w produkcji i transporcie morskim."
+  },
+  "potato": {
+    "name": "Ziemniaki",
+    "desc": "Ziemniak to bogata w skrobię bulwa udomowiona w okolicach jeziora Titicaca przez tubylcze ludy Andów. Dzięki swojej odporności i wysokiej kaloryczności uczynił możliwym powstanie tamtejszych rozwiniętych cywilizacji. Gdy doszło do wymiany kolumbijskiej, rozprzestrzenił się na całym świecie i w 1750 roku stanowił już bazę diety w Europie, co ułatwiło gwałtowny rozwój jego uprawy w XIX wieku."
+  },
+  "livestock": {
+    "name": "Zwierzęta gospodarskie",
+    "desc": "Opieka nad udomowionymi zwierzętami jest od zarania dziejów jednym z najważniejszych zajęć człowieka. Do zwierząt gospodarskich zalicza się wszystko – od krów i świń w rozwiniętych rolniczo obszarach po stada pod opieką pasterzy na wielkich równinach i pustyniach świata."
+  },
+  "olives": {
+    "name": "Oliwki",
+    "desc": "Oliwki to owoce drzewa oliwnego, które hodowane jest w basenie Morza Śródziemnego już od tysięcy lat. Są niezwykle popularne w gastronomii – dotyczy to szczególnie tłoczonej z nich oliwy wykorzystywanej w gotowaniu i przyprawianiu rozmaitych potraw kuchni śródziemnomorskiej."
+  },
+  "fruit": {
+    "name": "Owoce",
+    "desc": "Do owoców zalicza się szeroki wachlarz produktów rosnących na drzewach, jak cytrusy, gorzkie i słodkie pomarańcze, jabłka i inne. Dla wielu były one niegdyś całkowicie niedostępne – raczyć nimi mogły się wyłącznie elity. Niemal każdy region na świecie może poszczycić się własnymi gatunkami owoców, dzięki czemu rozwój globalnego handlu pozwolił różnym społeczeństwom zapoznać się z nowymi smakami."
+  },
+  "beeswax": {
+    "name": "Wosk pszczeli",
+    "desc": "Pszczoły są przyjaciółmi ludzkości od czasów prehistorycznych, a ich wosk ma wiele zastosowań. Od świec po formy, od politury po tabliczki do pisania – obecność wosku pszczelego w społeczeństwie ludzkim jest powszechna."
+  },
+  "slaves_goods": {
+    "name": "Niewolnicy",
+    "desc": "Niewolnikami handlowano już w starożytności, lecz zapotrzebowanie na nich wzrosło gwałtownie pod koniec XVI wieku, kiedy zaczęli oni stanowić jeden z najtańszych rodzajów siły roboczej niezbędnej europejskim plantacjom w obu Amerykach."
+  }
+}

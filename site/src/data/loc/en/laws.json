@@ -1,0 +1,666 @@
+{
+  "feudal_de_jure_law": {
+    "name": "Feudal 'De Jure' Laws",
+    "desc": "These are the laws that organize the feudal society of our country."
+  },
+  "medieval_levy_law": {
+    "name": "Levy Law",
+    "desc": "Our army is made up mainly of levies that are recruited from certain estates of our country, who will fight for us until we disband them."
+  },
+  "royal_court_customs_law": {
+    "name": "Royal Court Customs",
+    "desc": "The traditions and the culture of the court play a significant role in the stability of the . These customs will ensure the safe transition of power from ruler to heir, and limit the court intrigues significantly."
+  },
+  "legitimization_of_power_law": {
+    "name": "Legitimization of Power",
+    "desc": "A monarchy can only survive as long as its subjects believe in the legitimacy of their ruler. There are many ways in which rulers justify their power. As time goes on, new political philosophies will arise which explain the need for a strong government in their own ways."
+  },
+  "harem_law": {
+    "name": "Harem Laws",
+    "desc": "The harem is a significant institution within the royal household, and secures the production of heirs for the succession."
+  },
+  "iqta_law": {
+    "name": "Iqṭā'",
+    "desc": "$iqta_law$ is the practice of 'tax farming': collecting land revenues from the as part of Zakāh, the giving of alms, which states generally collect to form their base income."
+  },
+  "inquisition_law": {
+    "name": "Inquisition Law",
+    "desc": "Originally established to combat the heresy of , the Inquisition has become the Church's primary tool for investigating and prosecuting heresy. Via specialized ecclesiastical courts, trained inquisitors investigate potential heretics, extract confessions of religious or moral transgression, and impose punishments ranging from penance to execution, for violating Catholic mores."
+  },
+  "society_of_jesus": {
+    "name": "Society of Jesus",
+    "desc": "The Society of Jesus, commonly known as the Jesuits, is a religious order founded by Ignatius of Loyola as part of the Counter-Reformation. Jesuits are distinguished from other Catholic orders by their emphasis on education, scholarship, and performing missionary work."
+  },
+  "patriarchate_law": {
+    "name": "Role of the Patriarchate",
+    "desc": "The Patriarchate is a major pillar of our faith, and an institution with considerable influence over the state."
+  },
+  "censorship": {
+    "name": "Censorship",
+    "desc": "The ability to control which literary works can be distributed, and whether opinions counter to established dogma are allowed, is essential to religious cohesion and generally favored by the . However, these restrictions are frowned upon by free thinkers and creative professionals, and can have profound consequences for the availability of artists and for any work_of_art deemed heretical."
+  },
+  "slave_conversion": {
+    "name": "Slave Conversion",
+    "desc": "Our slaves come from many different lands, and thus bring with them diverse beliefs. We may need to regulate those closely, lest we risk corrupting our own populace by permitting their exposure to deviant practices and rituals."
+  },
+  "republican_foundation_law": {
+    "name": "Foundation of Republic",
+    "desc": "Our Republic is founded on the principle that power should be in the hands of the people, not a single absolutist ruler. Yet as with any government, its laws and decisions must be respected and obeyed to maintain order, necessitating the creation of complex administrations in order to govern."
+  },
+  "republican_election_law": {
+    "name": "Election",
+    "desc": "Elections are the cornerstone of our republic, ensuring that there are reasonable limits on those in power while giving the people the ability to select rulers that best serve their interests."
+  },
+  "republican_power_law": {
+    "name": "Republican Power",
+    "desc": "As any government, the Republic must not only make decisions, but also act upon them. To do so, it needs a way of exercising its executive capabilities so that they reach even the furthest areas of the country."
+  },
+  "principle_of_administration_law": {
+    "name": "Administrative Principles",
+    "desc": "If we wish to be an example for all our citizens, the Republic must uphold principles which dictate the course of action we take with our policies."
+  },
+  "republican_electorate_law": {
+    "name": "Republican Electorate Law",
+    "desc": "Elections are the foundational concept of our republic, and as such, the most important factor in determining the course of the Republic is deciding who is eligible vote in those elections."
+  },
+  "theocratic_leadership": {
+    "name": "Theocratic Leadership",
+    "desc": "A Theocratic Leadership governs this country, where religious authorities hold political power and religious law often supersedes secular law."
+  },
+  "holy_mission_law": {
+    "name": "Holy Mission",
+    "desc": "The guideline for our every action is the Holy Mission we have been granted from our divine ruler. The vision the higher power has foreseen for us shall come to fruition!"
+  },
+  "nature_of_our_faith_law": {
+    "name": "Nature of our Faith",
+    "desc": "Religion is the pillar of our entire society, and as such, the nature of our faith plays a role in all facets of our culture. No major decisions can be made without carefully considering the religious perspective of taking these actions."
+  },
+  "divine_cause_law": {
+    "name": "Divine Cause",
+    "desc": "While monarchies and republics may be content to simply exist in the world, a Holy State requires a deeper, more spiritual calling. This Divine Cause shall guide our hand towards a glorious destiny."
+  },
+  "tribal_legal_basis_law": {
+    "name": "Legal Basis",
+    "desc": "This legal foundation will serve as the basis for the state's first formal code of law. Its goal is simple, yet noble: to secure a just society where all may live in peace and prosperity."
+  },
+  "tribal_organization_law": {
+    "name": "Tribal Organization",
+    "desc": "Any group of people requires some form of organization in order to survive and thrive. Tribal organization emphasizes collective identity and customary law, and can be small- or large-scale."
+  },
+  "tribal_religious_values_law": {
+    "name": "Tribal Religious Values",
+    "desc": "The religious values of our tribe dictate not only how we live, but how we treat those who do not share our beliefs and traditions, both within and outside of our territory."
+  },
+  "tribal_migration_law": {
+    "name": "Tribal Migration",
+    "desc": "Our people do not permanently occupy out lands. Instead, we travel freely, as fate and our people's needs dictate."
+  },
+  "tribal_cultural_identity_law": {
+    "name": "Tribal Cultural Identity",
+    "desc": "As time progresses, so does our understanding of our culture and identity. We no longer have to fear neighboring tribes; we have tamed the wilderness and have become its master. Now it is time to embrace who we are as a people."
+  },
+  "tribal_modernization_law": {
+    "name": "Tribal Modernization",
+    "desc": "The time has come to discard our old ways and embrace a position in the larger world. No longer seen as a mere tribe, we shall officially become a country, one that represents and defends our people and the way we live."
+  },
+  "education_elites_law": {
+    "name": "Education of the Elites",
+    "desc": "The education of our elites is of vital importance. By providing our upper-class citizens with ample access to appropriate works of art, we will further our cultural goals, both at home and abroad, through the creation of legendary works and the amplification of our splendor!"
+  },
+  "education_masses_law": {
+    "name": "Education of the Masses",
+    "desc": "The education of our population is of vital importance. By providing our people with ample access to the appropriate materials, regardless of their place in the social hierarchy, we will create a more educated and artistically fluent population, and further our governmental goals both at home and abroad."
+  },
+  "slavery_laws": {
+    "name": "Slavery Laws",
+    "desc": "The influx of workers and cheap labor from external sources has long been a cornerstone of our economy, both at home and abroad. The matter of embracing or banning is a clear reflection of what place the lower strata, and slaves in particular, occupy in our society."
+  },
+  "colonial_policy": {
+    "name": "Colonial Policy",
+    "desc": "This establishes the policy that our country will follow for colonial affairs."
+  },
+  "native_policy": {
+    "name": "Native Policy",
+    "desc": "This establishes the policy that our country will follow regarding the native people inhabiting our colonies."
+  },
+  "administrative_system": {
+    "name": "Administrative System",
+    "desc": "Any kind of state requires a system to administrate and organize its territory. By selecting an appropriate structure, we can ensure that our authority is enforced in even the most remote parts of our state."
+  },
+  "intelligence_agency": {
+    "name": "Intelligence Agency",
+    "desc": "The intelligence agency is an organization within the state which conducts spycraft activities such as espionage, cryptography, and providing security from internal threats."
+  },
+  "bureaucracy_law": {
+    "name": "Bureaucracy",
+    "desc": "$modern_bureaucracy_desc$"
+  },
+  "cabinet_laws": {
+    "name": "Cabinet Laws",
+    "desc": "The cabinet is the highest office in the government and our ruler's personal advisors. Cabinet ministers and secretaries enjoy special privileges and rights."
+  },
+  "economical_policies_law": {
+    "name": "Economic Policy",
+    "desc": "A nation's economic policy sets out specific economic objectives and means to achieve them, and makes decisions and creates regulations for taxation, spending, currency, trade, and more."
+  },
+  "cultural_traditions_law": {
+    "name": "Cultural Traditions",
+    "desc": "Ancient tradition is the foundation of many cultures and civilizations. While progress is what will drive us to greatness, our traditions will always serve us as the reminder of our origins, and as a source for the strength and unity of our people."
+  },
+  "foreign_cultural_law": {
+    "name": "Foreign Cultural Law",
+    "desc": "As our state grows in size, so does the complexity of our social structures. Cultural unity within our state is no longer a given, and we now require policies to establish and maintain internal peace."
+  },
+  "marriage_law": {
+    "name": "Marriage Law",
+    "desc": "Marriage law refers to the legal framework that governs the institution of marriage within a particular jurisdiction."
+  },
+  "heir_religion_law": {
+    "name": "Heir Religion",
+    "desc": "The ability to decide the religion of the heir holds significant importance in matters of succession and governance. It allows rulers and governments to maintain religious stability, ensuring that the beliefs and practices of the ruler align with those of the majority of their subjects. Ultimately, the power to determine the religion of the heir represents an important element in the fine balance of religious freedom, governance, and societal harmony."
+  },
+  "coin_laws": {
+    "name": "Coinage Law",
+    "desc": "This law determines the resources our country will use to mint its currency. The most common coins are made of gold, silver, and copper, with different mixtures of each material and also different monetary values. However, other exchange systems exist throughout the world that do not depend on this type of currency, but rather on other materials, such as livestock, cloth, shells, cacao, etc."
+  },
+  "precious_metal_distribution_law": {
+    "name": "Precious Metal Distribution",
+    "desc": "and are the materials necessary for the minting of coins. As our state is in the highly enviable position to gather these precious metals ourselves, it is our right to decide who gains access to these resources."
+  },
+  "press_law": {
+    "name": "Press Laws",
+    "desc": "This determines how print media outlets in a country are run and regulated."
+  },
+  "mining_law": {
+    "name": "Mining Law",
+    "desc": "This law determines who owns the mining operations in our country."
+  },
+  "amazigh_familial_connections": {
+    "name": "Amazigh Familial Connections",
+    "desc": "The many tribes across our land hold certain authority over local affairs. Our stance towards them may define the course of our history."
+  },
+  "immigration_law": {
+    "name": "Border Controls",
+    "desc": "This Law determines if migration is allowed in or out of the country."
+  },
+  "legal_code_law": {
+    "name": "Legal Code",
+    "desc": "For as long as people have gathered together in societies, they have created laws to govern their actions and interactions. Legal codes are a reflection of the values and beliefs of a society, shaping everything from how people conduct business to how they treat each other. They are the very fabric that holds a society together, providing a framework for order and justice. Despite their differences, people tend to share a common goal: to create a just and fair society where everyone can live in peace and prosperity."
+  },
+  "language_of_pleading": {
+    "name": "Language of Pleading",
+    "desc": "The customs of our social hierarchy and legal proceedings must be concisely and uniformly written down in the language we find most appropriate."
+  },
+  "sharia_law": {
+    "name": "$sharia$ Jurisprudence",
+    "desc": "$sharia_law_policy_desc$"
+  },
+  "recruitment_law": {
+    "name": "Recruitment Law",
+    "desc": "Battles cannot be won with no soldiers on the field! Recruiting fighters is an absolute necessity. As time goes on, how we recruit soldiers may change, and our forces will adapt to it as needed."
+  },
+  "battle_leadership_law": {
+    "name": "Battle Leadership Law",
+    "desc": "An army is only as good as its leadership. An incompetent general can be the bane of their nation, while a military leader of great prowess will be known and feared on every battlefield."
+  },
+  "army_doctrine_law": {
+    "name": "Army Doctrine",
+    "desc": "Army doctrines represent skillsets in which our army can specialize. The longer we work under these doctrines, the more entrenched they become in our military culture, and the more skilled we become at them. Over time, this can lead to powerful benefits for our glorious forces."
+  },
+  "mamluk_rank_system_laws": {
+    "name": "$mamluk$ Rank System",
+    "desc": "The hierarchy within our military is the framework that makes up the most important institution of our land."
+  },
+  "mamluk_army_law": {
+    "name": "$mamluk$ Army Law",
+    "desc": "The heart of our stratocratic administration is none other than the army. By drafting laws and stipulations to carefully form it, we will defend our people efficiently against outside threats."
+  },
+  "mamluk_promotion_law": {
+    "name": "$mamluk$ Promotion Law",
+    "desc": "The legalities that premiate promotion within our military ranks are an important cornerstone of our country."
+  },
+  "maritime_law": {
+    "name": "Maritime Law",
+    "desc": "Maritime laws, also known as admiralty laws or marine laws, are a specialized set of legal principles and regulations that govern various aspects of maritime activities and commerce. These laws encompass a broad range of matters related to navigation, shipping, trade, and maritime activities taking place on oceans, seas, and other navigable waterways. They cover areas such as maritime contracts, vessel ownership and registration, marine insurance, salvage and wrecks, liability and compensation for maritime accidents, crew rights and responsibilities, and many other aspects that pertain to maritime affairs. Maritime laws are designed to ensure safe, orderly, and fair practices in the maritime industry and resolve disputes that may arise in the context of maritime activities."
+  },
+  "piracy_law": {
+    "name": "Piracy Law",
+    "desc": "Piracy laws define the official position our nation adopts when addressing the challenges posed by piracy. These laws encompass statutes, regulations, and legal doctrines aimed at combating or managing piracy effectively. They embody the collective strategy and measures our nation implements to uphold maritime security and protect our waters from piracy threats. Or perhaps they are just the rules we stick to when committing acts of piracy..."
+  },
+  "naval_doctrine_law": {
+    "name": "Naval Doctrine",
+    "desc": "Naval Doctrines represent skillsets in which our navy can specialize. The longer we work at doctrines, the more entrenched they become in our navies and the better we get at them. Over time this can lead to powerful bonuses for our glorious fleets."
+  },
+  "sumptuary_law": {
+    "name": "Sumptuary Law",
+    "desc": "Clothing in society reflects our social hierarchy and marks important life events such as marriage, birth, and death. The typically wear simple cotton garments, while high-ranking elites dress in far more elaborate attire decorated with brilliant colors and priceless feathers. Warriors, by contrast, are permitted to wear only plain mantles.\\n\\nThe Cihuacóatl is now establishing Sumptuary Laws that will regulate how subjects dress, what they may purchase in markets, and which ornaments they may wear, all based on their rank."
+  },
+  "eng_order_of_the_garter_law": {
+    "name": "Order of the Garter",
+    "desc": "The Order of the Garter is a prestigious symbol of our realm's highest ideals, transcending time and uniting worthy people of diverse backgrounds and talents.\\n\\nWhether composed of the monarch's favorites, esteemed foreign dignitaries, devout members of the clergy, gifted artisans, or valiant warriors, this venerable order is the pinnacle of nobility and virtue."
+  },
+  "fra_fouage_tax": {
+    "name": "Fouage Tax Levy",
+    "desc": "A large Hearth Tax levied against the peasantry in order to assist in covering the growing expenses of the treasury."
+  },
+  "fra_taille": {
+    "name": "Taille",
+    "desc": "The taille is a tax imposed on each household based on the amount of land it occupies. The and are exempt."
+  },
+  "fra_5_percent_tax": {
+    "name": "Machault's Five Percent Tax",
+    "desc": "A new tax proposed by the Minister of Finance, accounting for one-twentieth of the annual income."
+  },
+  "fra_reformation_tolerance_edicts": {
+    "name": "Reformation Edicts",
+    "desc": ""
+  },
+  "french_colonial_ambition_focus": {
+    "name": "Colonial Aspirations",
+    "desc": "Having overcome decades of turmoil, has reached a point where it can finance overseas exploration. New policies will enable the court to pursue colonial ambitions with greater efficiency"
+  },
+  "fra_jansenism_legality": {
+    "name": "Status of Jansenism",
+    "desc": "A doctrine following the teachings of Saint Augustine, Jansenism emphasizes predestination, the profound and lasting effects of original sin, and rigorous morality. It has increasingly come under threat with the rise of Absolutism in , as well as having been officially condemned by the Bull Unigenitus."
+  },
+  "guilds_of_florence": {
+    "name": "Primacy of Florentine Guilds",
+    "desc": "The powerful mercantile institutes that make up our social fabric, the merchant guilds are an important proponent of our continued prosperity and affluence. Though all of them are important, it is undeniable that some are better at obtaining power and influence than others."
+  },
+  "por_estudo_geral_law": {
+    "name": "Estudo Geral",
+    "desc": "The is a national that aims to educate the citizens of our humble state. Its location and proximity to the capital is a crucial matter to us."
+  },
+  "teu_amber_monopoly_law": {
+    "name": "[ShowGoodsNameWithNoTooltip('amber')] Monopoly",
+    "desc": "is amongst the most prized resources within our state. Its trade is of ample importance and must be regulated carefully."
+  },
+  "nav_adaptability": {
+    "name": "Navarrese Adaptability",
+    "desc": "Being positioned between two larger nations has forced our nation to adapt or die. With a mixture of intelligent alliances and swift military actions, our realm has managed to survive despite its smaller size. This ability to quickly adjust our actions to suit our specific needs is an edge that we should never lose."
+  },
+  "six_ministries_overseer_law": {
+    "name": "Six Ministries Supervision",
+    "desc": "The work of the must be supervised by another agency, or perhaps even the monarch."
+  },
+  "ashta_pradhan_council_law": {
+    "name": "Ashta Pradhan Council",
+    "desc": "$mhr_ashta_pradhan_desc$"
+  },
+  "kor_currency": {
+    "name": "Dominant Currency",
+    "desc": "A focus on different types of currencies is bound to shape our country in many diverse ways, not just economically, but socially as well."
+  },
+  "mesta_council_law": {
+    "name": "Mesta Council",
+    "desc": "The Mesta Association together with its council protects the rights and interests of the livestock owners in our country."
+  },
+  "imperial_examination_law": {
+    "name": "Examination System",
+    "desc": "Those wishing to enter the civil service and advance as government officials must take a series of examinations testing their knowledge of Confucian literature and statecraft."
+  },
+  "status_of_the_han_law": {
+    "name": "Status of the Han",
+    "desc": "Our dynasty originates from outside the core territory of the , making us outsiders to the Han majority."
+  },
+  "sco_clan_holdings": {
+    "name": "Distribution of [GetCountry('SCO').GetAdjectiveWithNoTooltip] Clan Holdings",
+    "desc": "The inheritance of holdings is divided proportional to clan influence, with larger clans recieving more holdings. Clan holdings are passed directly to the heir, unless a title is revoked or goes extinct."
+  },
+  "sco_authority_over_the_clergy": {
+    "name": "Authority over the Clergy",
+    "desc": "contribution to the have become a burden on the state's finances. Seeking to curtail contributions, the state has taken direct jurisdiction over the clergymen."
+  },
+  "sco_colonial_affairs_law": {
+    "name": "[GetCountry('SCO').GetAdjectiveWithNoTooltip] Colonial Affairs",
+    "desc": "With tales of riches from the new world, stands to reap the benefits should it establish a sizable colonial basis. Although an overambition may prove catastrophic for the state's economic stability."
+  },
+  "distribution_of_power_law": {
+    "name": "Distribution of Power",
+    "desc": "Distribution of Power determines how authority is divided among the ruler, administrative bodies, and estates. The state is a complex and fragile entity — a well-balanced power distribution ensures stability, while giving any single institution too much power risks breeding tyranny or administrative paralysis."
+  },
+  "nobles_rights_laws": {
+    "name": "Rights of the $nobles_estate$",
+    "desc": "The position of the is not only reinforced by their privileges, but also by our laws."
+  },
+  "burghers_rights_laws": {
+    "name": "Rights of the $burghers_estate$",
+    "desc": "The position of the is not only reinforced by their privileges, but also by our laws."
+  },
+  "clergy_rights_laws": {
+    "name": "Rights of the $clergy_estate$",
+    "desc": "The position of the is not only reinforced by their privileges, but also by our laws."
+  },
+  "crown_rights_laws": {
+    "name": "Rights of the $crown_estate$",
+    "desc": "The position of the is not only reinforced by their privileges, but also by our laws."
+  },
+  "peasants_rights_laws": {
+    "name": "Rights of the $peasants_estate$",
+    "desc": "The position of the is not only reinforced by their privileges, but also by our laws."
+  },
+  "order_of_chivalry_law": {
+    "name": "Order of Chivalry",
+    "desc": "Rooted in a blend of religious and courtly traditions, this law embodies a legacy of knights dedicated to ideals and charitable missions. Originally founded to protect pilgrims to the Holy Land and uphold vows of poverty, obedience, and chastity, these orders have transformed over time, honoring distinguished individuals and becoming a prestigious symbol."
+  },
+  "witchcraft_act": {
+    "name": "The Witchcraft Act",
+    "desc": "If we are to live a life of piety and root out the corruption and evil among us, we must address the growing concerns of many around the existence of witches and the practice of the occult."
+  },
+  "venetian_papal_relation_law": {
+    "name": "The Holy Office",
+    "desc": "The Holy Office has been requesting greater jurisdiction over religious life in the Most Serene Republic. We must now choose whether to comply with this request, or to defend the religious freedom of our subjects."
+  },
+  "hun_frontier_fortresses": {
+    "name": "The Frontier Fortresses",
+    "desc": ""
+  },
+  "enclosure_movement": {
+    "name": "Enclosure Movement",
+    "desc": "The Enclosure Movement is the process by which formerly communal land is surrounded by walls or fences, and thus transformed into private property."
+  },
+  "eng_taxation_law": {
+    "name": "Taxation",
+    "desc": "Stable revenue is key for a functioning government. By implementing a legal taxation framework, we can regulate tax collection from individuals and entities."
+  },
+  "factory_working_conditions_law": {
+    "name": "Factory Working Conditions",
+    "desc": "The expansion of our manufacturing industry is accelerating industrialization and boosting production capacity. As factory workers become increasingly central to the economy, regulating their rights in order to prevent exploitation becomes vital."
+  },
+  "trade_unions_law": {
+    "name": "Trade Unions",
+    "desc": "During the early onset of industrialization, trade unions play a crucial role in shaping labor rights and working conditions. These unions negotiate with employers in order to secure better wages, shorter working hours, and safer conditions for their members through collective bargaining."
+  },
+  "vestiarium": {
+    "name": "Vestiarium",
+    "desc": "Establishing and upholding legal regulations for managing state assets is important for efficient resource allocation and controlled spending. It is necessary for administration and helps the ruling authorities make decisions related to a variety of priorities."
+  },
+  "mch_queue_hair": {
+    "name": "Tìfāyìfú",
+    "desc": "$mch_queue_hair$ shall be regarded as our cultural policy towards the . Amongst the chief requirements shall be for the Hàn to organize their hair in the Biànzi style."
+  },
+  "monastic_reformation_movement": {
+    "name": "Monastic Reformation Movement",
+    "desc": "The Possessors and Non-Possessors have different views on the role of wealth within the Church and its impact on the spiritual life of clergy and followers."
+  },
+  "intellectual_movements": {
+    "name": "Intellectual Movements",
+    "desc": "The ideological perspectives of the nineteenth century divides man to such extent that entire movements emerge, each stemming from the apparent discord among different philosophical, political, and cultural viewpoints."
+  },
+  "dahsala_system": {
+    "name": "Dahsala Taxation",
+    "desc": "Instead of allowing local taxation laws to develop for the common people within $india$, organizing them all within the $dahsala_system$ will allow us to properly tax them."
+  },
+  "hab_military_frontier": {
+    "name": "Military Frontier",
+    "desc": "We have established a military frontier to protect the nation from heathen hordes that are encroaching upon our borders."
+  },
+  "ira_alcohol_ban": {
+    "name": "Alcohol Restrictions",
+    "desc": "In order to balance out the religious duties of the servants of our faith, and the desires of our people, we must decide if the consumption alcohol is allowed or not."
+  },
+  "golden_bull": {
+    "name": "Golden Bull",
+    "desc": "The $golden_bull$ is the decree of the which defines and creates the constitutional structure of the Empire, especially the Electoral College. Other laws and Imperial Reforms all build on the $golden_bull$."
+  },
+  "monetary_contribution": {
+    "name": "Imperial Tax Law",
+    "desc": "The requires gold to function like any other political entity. A series of tax laws can be applied to siphon gold from the members to ensure financial stability of the Empire."
+  },
+  "military_contribution": {
+    "name": "Imperial Register",
+    "desc": "The $military_contribution$ is a list that specifies the exact number of troops each estate must supply to the ."
+  },
+  "imperial_religion": {
+    "name": "Imperial Religion",
+    "desc": "The very foundations of the are built on religious beliefs."
+  },
+  "electorate_religion_law": {
+    "name": "Electorate Religious Law",
+    "desc": "Religion is a major pillar of the for Emperors and alike."
+  },
+  "imperial_succession_law": {
+    "name": "Imperial Succession",
+    "desc": "The succession of the is a delicate matter. The right of succession to the Imperial Throne is prescribed in the Imperial Laws."
+  },
+  "imperial_voting_law": {
+    "name": "Imperial Voting",
+    "desc": "The is built upon the principle of Imperial election. The nature of that election defines the balance of power in the Empire."
+  },
+  "electorate_organization_law": {
+    "name": "Electorate Organization",
+    "desc": "The are a group of powerful and who have the privilege to vote for their next ."
+  },
+  "free_city_law": {
+    "name": "Free Cities",
+    "desc": "The Free Cities of the are self-ruling cities with autonomy. They are usually where Imperial Diet meetings are held."
+  },
+  "free_city_rights_law": {
+    "name": "Free City Rights",
+    "desc": "Obtaining the status of a is not easy. This exclusive title must be conferred by the ."
+  },
+  "landfriede_law": {
+    "name": "Landfriede",
+    "desc": "The Landfriede, or 'land peace,' is a decree which dictates that disputes between members of the must be settled in the Imperial Court rather than on the battlefield. This mandate helps us stay cohesive as an empire, rather than becoming weak through petty in-fighting."
+  },
+  "imperial_diet_law": {
+    "name": "Imperial Diet",
+    "desc": "The is an ancient system, and therefore many of its stipulations and procedures are very outdated. It is time to rework it and establish a proper that better protects the diverse interests of all members of the ."
+  },
+  "perpetual_diet_law": {
+    "name": "Perpetual Diet",
+    "desc": "Previously, Imperial Diets convened irregularly in various cities across the , requiring the and other representatives to travel each time. By establishing a permanent, continuously-sitting Diet, we shall create a standing assembly that operates on a system of constant deliberation, rather than sporadic meetings."
+  },
+  "power_of_the_emperor_law": {
+    "name": "Power of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]",
+    "desc": "The Power of the is a complicated topic. Members of the and alike have conflicting interests with those of the , yet they recognize that a powerless is in no position to protect the Empire."
+  },
+  "civil_registration": {
+    "name": "Civil Registration",
+    "desc": "A system aimed at keeping track of all our subjects within our realm as a step towards improving the quality of life for all under our banner."
+  },
+  "tax_base_system": {
+    "name": "Tax Base System",
+    "desc": "Taxation is the basis of any country's economy. By establishing a proper taxation system throughout the , we can more effectively reap the wealth of our territories."
+  },
+  "provincial_governorship": {
+    "name": "Provincial Governorship",
+    "desc": "The vastness of the is unparalleled. In order to effectively rule our massive holdings, we shall establish a system of provincial administrators."
+  },
+  "cefeng_tizhi": {
+    "name": "Cèfēng Tǐzhì",
+    "desc": "The tributary system has been present in the since its inception, as all nations around it dutifully recognize the authority of the ."
+  },
+  "keju_examination": {
+    "name": "Kējǔ Examination",
+    "desc": "The Imperial Examination system aims to identify the best and most educated candidates to serve in our bureaucracy. This will ensure that only the brightest minds in our nation are the ones turning the wheels of the administration, and thus that they turn smoothly."
+  },
+  "outwards_view": {
+    "name": "Outwards View",
+    "desc": "The has been expanding its power outwards since its inception, but external threats mean we require a certain degree of caution about who is able to enter its borders."
+  },
+  "tianxia": {
+    "name": "Tiānxià",
+    "desc": "The concepts of our territorial influence and expansion are guaranteed by our right to rule, which is granted by Heaven itself."
+  },
+  "jakun_gusa": {
+    "name": "Jakūn Gūsa",
+    "desc": "Serving mainly as our military, the Eight Banners system also function as the basis of the organization of society in the . Their role should be clearly defined, so that they do not lose their focus."
+  },
+  "six_ministries": {
+    "name": "Six Ministries",
+    "desc": "The $six_ministries$ are the distinct administrative divisions of the , each one with its own tasks and duties."
+  },
+  "middle_kingdom_decrees": {
+    "name": "$middle_kingdom$",
+    "desc": "Imperial decrees are the key to the well functioning of the , ensuring that the authority of the gets enforced throughout."
+  },
+  "clan_residence": {
+    "name": "Clan Residence",
+    "desc": "There should be clear laws defining where the leaders of the different clans must reside, to properly keep the balance of power."
+  },
+  "jap_sakoku_law": {
+    "name": "Overseas Interaction",
+    "desc": "$japan_region$ has always had the luxury of being separated from other countries by the sea. This distance makes closing our borders to the outside world very easy."
+  },
+  "jap_buke_shohatto": {
+    "name": "Buke Shohatto",
+    "desc": "A series of edicts defining the proper behavior of the samurai. They are designed to inspire the samurai to improve themselves."
+  },
+  "sc_policy_proposal_frequency": {
+    "name": "Policy Proposal Frequency",
+    "desc": "A law regulating the administration of law proposals within the ."
+  },
+  "sc_representative": {
+    "name": "[ShowCultureGroupNameWithNoTooltip('swiss_group')] Representative",
+    "desc": "Every kind of organization will require a spokesman - a representative - who shall be the face to the political entities inside and outside of the organization. The might pose an exception to this rule though..."
+  },
+  "sc_power_of_the_sovereign": {
+    "name": "[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power",
+    "desc": "The representative of the Confederation could request for more power and influence within the union in order to strengthen their position on the public stage."
+  },
+  "sc_election_method": {
+    "name": "Election Method",
+    "desc": "The process of electing the of the is a delicate matter which requires an exact legislature to be handled properly."
+  },
+  "sc_ruling_period": {
+    "name": "Ruling Period",
+    "desc": "The Confederation might have a representing it. Yet, it must be determined if said shall serve the union lifelong or until a certain time has passed."
+  },
+  "sc_election_frequency": {
+    "name": "Election Frequency",
+    "desc": "As the matters of the are cleared, a new topic arises which handles the frequency of the elections of a new ."
+  },
+  "sc_internal_politics": {
+    "name": "Internal Politics",
+    "desc": "While the is first and foremost a union for defensive purposes, it is clear that the internal affairs of the Confederation must be handled too."
+  },
+  "sc_membership_regulation": {
+    "name": "Membership Regulation",
+    "desc": "The is an organization originally made by the people to defend themselves against the growing influence of the in the local region. However, the rules who can join are never set in stone..."
+  },
+  "sc_war_politics": {
+    "name": "War Politics",
+    "desc": "The external threats of the are many. Unified terms of how the defend each other are needed if the Confederation is to survive the political anarchy around it."
+  },
+  "sc_religious_affairs": {
+    "name": "Religious Affairs",
+    "desc": "With the breakout of the , the religious unity of the Confederation is a precarious situation. A solution must be found or else the conflict of faith threatens to tear the union apart."
+  },
+  "sc_relations_with_hre": {
+    "name": "Imperial Relations",
+    "desc": "The has been part of the since its inception. However, the left a bitter taste for many members of the Confederation..."
+  },
+  "sc_unification": {
+    "name": "$SWI_ADJ$ Unification",
+    "desc": "The lands have been splintered for far too long. If the people of the Alps wish to see prosperity and security, they have to unite under a single banner."
+  },
+  "lordship_of_ireland_rule_law": {
+    "name": "Rule of Ireland",
+    "desc": "The shape of rule in Ireland can be as wild as the great Atlantic crashing against the craggy cliffs, or as steadfast as the bogs."
+  },
+  "colonial_federation_unification": {
+    "name": "Unification of the $colonial_federation$",
+    "desc": "With bonds forged in the fires of our struggle for independence, it is time to consider the unification of the loosly bound lands of our members."
+  },
+  "union_foundation_law": {
+    "name": "Union Foundation",
+    "desc": "The law of the which determines its very nature and if it should follow a centralized or federal future - if it can stand the test of time."
+  },
+  "union_codified_inheritance_law": {
+    "name": "Codified Inheritance",
+    "desc": "In order to secure the stability of the , the inheritance laws of each member must be codified so that each state has the same line of succession."
+  },
+  "union_economic_law": {
+    "name": "Economy of the Union",
+    "desc": "One monarch might rule over multiple thrones, yet the members of the are very separated in their economy. This law shall bring all of them closer to each other."
+  },
+  "union_diplomatic_law": {
+    "name": "Diplomatic Liberties",
+    "desc": "As the is led from a single throne, so comes the question of how the diplomacy of the $union$ shall be handled.\\n\\n#Y The matters of warfare, though, are nonetheless in the hands of the Estates of our union partners."
+  },
+  "union_legislature_law": {
+    "name": "Legislature of the Union",
+    "desc": "The adminstration of the requires a cohesive design. An approved, unitary system of a legislature is imperative to ensure the stability of the $union$."
+  },
+  "union_unification_of_crowns_law": {
+    "name": "Question of Unification",
+    "desc": "The is in its most variations nothing but a loose confederation of different states ruled from the same throne. However, the possibility of a unification under the banner of the is not out of question..."
+  },
+  "union_mutual_offense_law": {
+    "name": "Mutual Offense",
+    "desc": "Although first and foremost defensive in its nature, the military might of a can be called to support each other in military campaigns - if the state members agree to such obligation."
+  },
+  "colonial_representation_law": {
+    "name": "Colonial Representation",
+    "desc": "Our own influence on the land we govern is detetmined by the whims of our overlord."
+  },
+  "mutual_defense_law": {
+    "name": "Mutual Defense",
+    "desc": "The policy outlining how members will defend each other in the event of war being declared."
+  },
+  "mutual_offense_law": {
+    "name": "Mutual Offense",
+    "desc": "The policy outlining how members will support each other in the event of them declaring war against another country."
+  },
+  "main_philosophy_law": {
+    "name": "Main Philosophy",
+    "desc": "The main current of philosophy and teachings that form the core beliefs of a sect."
+  },
+  "vajrayana_law": {
+    "name": "Tantric Practices",
+    "desc": "Vajrayāna, also called Tantric $buddhist$ or Esoteric $buddhist$, is a form of $buddhist$ that incorporates many tantric, esoteric, and ritualistic practices. Its development has been strongly influenced by other religions, especially $hindu$."
+  },
+  "sect_school_law": {
+    "name": "Sect School",
+    "desc": "The particular school of this sect, which may have some differences from mainstream of teachings."
+  },
+  "guru_nanak_guruship": {
+    "name": "[GetCharacter('guru_nanak').GetShortNameWithNoTooltip] Teachings",
+    "desc": "The teachings established by ."
+  },
+  "guru_angad_guruship": {
+    "name": "[GetCharacter('guru_angad').GetShortNameWithNoTooltip] Teachings",
+    "desc": "The teachings established by ."
+  },
+  "guru_amar_das_guruship": {
+    "name": "[GetCharacter('guru_amar_das').GetShortNameWithNoTooltip] Teachings",
+    "desc": "The teachings established by ."
+  },
+  "guru_ram_das_guruship": {
+    "name": "[GetCharacter('guru_ram_das').GetShortNameWithNoTooltip] Teachings",
+    "desc": "The teachings established by ."
+  },
+  "guru_arjan_guruship": {
+    "name": "[GetCharacter('guru_arjan').GetShortNameWithNoTooltip] Teachings",
+    "desc": "The teachings established by ."
+  },
+  "guru_hargobind_guruship": {
+    "name": "[GetCharacter('guru_hargobind').GetShortNameWithNoTooltip] Teachings",
+    "desc": "The teachings established by ."
+  },
+  "guru_har_rai_guruship": {
+    "name": "[GetCharacter('guru_har_rai').GetShortNameWithNoTooltip] Teachings",
+    "desc": "The teachings established by ."
+  },
+  "guru_har_krishan_guruship": {
+    "name": "[GetCharacter('guru_har_krishan').GetShortNameWithNoTooltip] Teachings",
+    "desc": "The teachings established by ."
+  },
+  "guru_tegh_bahadur_guruship": {
+    "name": "[GetCharacter('guru_tegh_bahadur').GetShortNameWithNoTooltip] Teachings",
+    "desc": "The teachings established by ."
+  },
+  "guru_gobind_singh_guruship": {
+    "name": "[GetCharacter('guru_gobind_singh').GetShortNameWithNoTooltip] Teachings",
+    "desc": "The teachings established by ."
+  },
+  "khalsa_law": {
+    "name": "Khalsa",
+    "desc": "A warrior community tasked with the defense of and its followers, its rules of conduct and initiation will set a standard for all the faithful."
+  },
+  "guru_granth_sahib_guruship": {
+    "name": "[ShowWorkOfArtNameWithNoTooltip('guru_granth_sahib')] Teachings",
+    "desc": "The teachings established in the ."
+  }
+}

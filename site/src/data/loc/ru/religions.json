@@ -1,0 +1,1261 @@
+{
+  "bon": {
+    "name": "Бон",
+    "desc": "Бонское учение зародилось в Тибете ещё до прихода буддизма, но в дальнейшем подверглось его влиянию и претерпело значительные изменения. Теперь оно во многом схоже со школой тибетского буддизма Ньингма, но при этом сохраняет множество добуддийских традиций и практик. Бон в своём нынешнем виде основывается на идеях о карме и реинкарнации, а также о различных путях к просветлению."
+  },
+  "mahayana": {
+    "name": "Восточный буддизм",
+    "desc": "Название этого направления буддизма означает «Великая колесница». Оно основано не только на ранних буддийских текстах, но и на так называемых махаянских сутрах. И хотя изначально это учение зародилось в Индии, благодаря Шёлковому пути его тексты постепенно проникли в Китай, где на их основе было создано множество других трудов. С тех пор китайский канон также составляет значительную часть Махаяны. Смысл учения состоит в том, что каждый может достичь просветления, если будет идти по пути бодхисаттвы и помогать живым существам освобождаться от сансары."
+  },
+  "shinto": {
+    "name": "Синтоизм",
+    "desc": "Этот набор верований и практик, основанных на поклонении ками, существовал в Японии ещё до прихода буддизма. Появившись в стране, буддизм быстро смешался с местными религиозными традициями. С тех пор в общих храмах почитались как ками, так и буддийские божества, поэтому два вероучения фактически стали неразделимы. Так в Японии появилась особая разновидность буддизма, в которой буддийские ритуалы используются в том числе для служения ками."
+  },
+  "theravada": {
+    "name": "Тхеравада",
+    "desc": "Название этой школы означает «учение старейшин». Она основана на древнейших буддистских традициях и отвергает сутры махаяны, а следовательно и многих бодхисаттв, а также доступность самого пути бодхисаттвы для всех. Главным способом достичь просветления она считает объединение в монашеские общины."
+  },
+  "sammitiya": {
+    "name": "Самматия",
+    "desc": "$sammitiya$ — одно из старейших направлений буддизма в Индии. Школа возникла в Синде и стала крупным центром раннего буддизма, способным соперничать с Махаяной Наланды. Однако после исламских завоеваний Самматия утратила свой высокий статус."
+  },
+  "tibetan_buddhism": {
+    "name": "Тибетский буддизм",
+    "desc": "Форма буддизма, которая возникла в Гималаях из Махаяны, но вобрала в себя ряд эзотерических практик Ваджраяны благодаря тесным контактам с Индией и местными буддийскими течениями, находившимися на более позднем этапе развития."
+  },
+  "sanjiao": {
+    "name": "Саньцзяо",
+    "desc": "Под термином «три учения» подразумевается единая духовно-философская система, образованная конфуцианством, даосизмом и буддизмом. Эти течения сосуществовали в Китае на протяжении многих столетий, влияя на другие $chinese_group$ие верования и заимствуя у них отдельные элементы. Хотя их соседство не всегда можно было назвать мирным, они были и остаются неотъемлемой частью $chinese_group$ой культуры."
+  },
+  "anglican": {
+    "name": "Англиканство",
+    "desc": "$anglican$ — это форма христианства, в которой правитель государства одновременно считается главой церкви. С точки зрения теологии и иерархии, англиканство имеет много общего с католичеством, но оно не избежало влияния реформистов-пуритан и континентального лютеранства."
+  },
+  "bogomilism": {
+    "name": "Богомильство",
+    "desc": "$bogomilism$ — неогностическое и дуалистическое направление христианства. Согласно нему, всё сущее делится на мир духовный и мир материальный. Последователи этого учения считают свои тела священными храмами и стремятся приблизиться к Богу через очистительные обряды, такие как посты, танцы и отказ от стяжательства ради духовного роста."
+  },
+  "bosnian_church": {
+    "name": "Крстянство",
+    "desc": "Отколовшись от католической церкви, крстянство (или Боснийская церковь), благодаря длительной изоляции от основных течений христианства, создало свою уникальную теологию. В ней особое внимание уделяется темам апокалипсиса и мистицизму. Крстянство сохранило многие практики раннего христианства. Из-за этих особенностей католические и православные иерархии считают его ересью."
+  },
+  "calvinist": {
+    "name": "Кальвинизм",
+    "desc": "$calvinist$ — важное течение протестантизма, названное в честь Джона Кальвина и проповедующее простоту обрядов и верховенство Священной Библии. Особый упор делается на идею предопределённости, проистекающую из веры в то, что Бог заранее определил судьбу каждого из своих творений."
+  },
+  "catharism": {
+    "name": "Катаризм",
+    "desc": "$catharism$ — дуалистическое движение, проповедующее существование двух богов: доброго бога небес и его антагониста. Последователи этого учения придерживаются аскетичного образа жизни и считают, что души заперты в физических телах для участия в великом противостоянии. Духовное очищение, достигаемое через строгую дисциплину, считается единственным путём к спасению."
+  },
+  "catholic": {
+    "name": "Католичество",
+    "desc": "$catholic$ основано на Никейском символе веры и является крупнейшей ветвью христианства. Главой церкви является Папа, считающийся духовным преемником Святого Петра. Помимо руководства церковью, Папа также выступает посредником в конфликтах между католическими правителями. Доктрины и традиции католичества в значительной мере повлияли на религиозную и культурную историю Запада."
+  },
+  "hussite": {
+    "name": "Гуситство",
+    "desc": "Основанная Яном Гусом гуситская церковь возникла как прото-протестантское движение в Богемии. Она совместила в себе элементы византийского обряда с учением Джона Уиклифа. Гуситы настаивали на проведении обоих видов причастия и подчёркивали верховенство Писания над церковными традициями."
+  },
+  "lollardy": {
+    "name": "Лоллардизм",
+    "desc": "Реформистское движение лоллардов было создано Джоном Уиклифом. Оно выступало за равенство и отвергало необходимость таинств крещения и исповеди для достижения спасения. Лоллардизм подчёркивал прямую связь с богом через писание, переведенное на разговорные языки. Благодаря этому теология движения стала доступна массам, что дало толчок к призывам реформировать церковь."
+  },
+  "lutheran": {
+    "name": "Лютеранство",
+    "desc": "$lutheran$ основано на «Девяноста пяти тезисах» Мартина Лютера. Начавшись как призыв к реформе католической церкви, оно переросло в полноценную ветвь протестантизма. Лютеранство учит, что Ветхий и Новый Завет являются единственным и неоспоримым авторитетом в вопросах христианской доктрины."
+  },
+  "miaphysite": {
+    "name": "Миафизитство",
+    "desc": "$miaphysite$ учит, что в Христе одна ипостась и два неделимых естества — божественное и человеческое. Эта доктрина, утверждённая на Эфесском соборе, распространилась в Армении, Египте и Эфиопии. Миафизитские общины сохранили свои уникальные литургии и традиции, подчеркивающие единую суть Христа как Бога и человека."
+  },
+  "nestorianism": {
+    "name": "Несторианство",
+    "desc": "Несторианство, названное в честь Нестория, учит, что божественное и человеческое естество Христа существуют отдельно друг от друга. Эфесский собор отринул эту идею, но она нашла широкое распространение в Персии и землях за ней. Несториане распространили своё учение по всей Азии, что сделало его крупнейшей христианской ветвью по охваченному региону."
+  },
+  "orthodox": {
+    "name": "Православие",
+    "desc": "Православная церковь опирается на традиции ранних христианских соборов и подчёркивает преемственность учений апостолов и священных традиций. Основанная на Византийском обряде, она уделяет особое внимание литургиям, иконам и мистицизму. Главами Православной церкви являются патриархи, среди которых главенствующее положение занимает Вселенский патриарх Константинополя."
+  },
+  "paulicianism": {
+    "name": "Павликианство",
+    "desc": "$paulicianism$ — дуалистическая христианская секта, отвергающая материальный мир как творение сил зла. Его последователи считают чистым лишь духовное царство. Их верования опираются на текст Нового Завета, тогда как Ветхий Завет отвергается полностью. Преследуемое и католическими, и православными иерархами, павликианство сопротивлялось попыткам ассимиляции и вдохновило последующие реформистские движения."
+  },
+  "strigolniki": {
+    "name": "Стригольничество",
+    "desc": "$strigolniki$ возникло в средневековой Руси как реформистская секта, осуждающая сложившиеся практики православной церкви. Ставя превыше всего личное благочестие, стригольники выступают против стяжательства, коррумпированности священников, назначения цены за таинства. Секта подвергалась гонениям со стороны церкви и властей."
+  },
+  "waldensian": {
+    "name": "Вальденсизм",
+    "desc": "Основанное Пьером Вальдо реформистское движение вальденсизма выступает за простоту, бедность и авторитет писания. Оно отвергает стяжательство в церкви, почитание святых и необходимость таинств для спасения. Объявленное ересью движение вальденсов выдержало столетия преследований, распространяя своё слово по Европе."
+  },
+  "hindu": {
+    "name": "Индуизм",
+    "desc": "$hindu$, являющийся по сути собранием различных верований, часто называют старейшей религиозной традицией в мире. Его верования и практики рассматриваются как трактовка дхармического космического порядка, описанного в древней ведической литературе. Из неоднородности религии проистекает многообразие богов, не все из которых в равной степени почитаются и даже признаются последователями индуизма. Основных ветвей индуизма четыре: вишнуизм, шактизм, шиваизм и смартизм."
+  },
+  "jain": {
+    "name": "Джайнизм",
+    "desc": "Дхармическая индийская религия джайнизм — одна из древнейших религий мира, посвящённая самопознанию и освобождению от цикла перерождений. В основе её лежит отказ от насилия, аскетизм и следование учениям тиртханкаров, учителей дхармы. Джайнизм делится на школы дигамбаров и шветамбаров. Монахи-дигамбары, «одетые в небо», — в основном мужчины. Они проповедуют отказ от привязанностей и материальных благ, из-за чего монахи не носят одежд, а их иконография отличается простотой. Шветамбары, «одетые в белое», получили своё название из-за белых одеяний монахов, среди которых встречаются как мужчины, так и женщины."
+  },
+  "sikhism": {
+    "name": "Сикхизм",
+    "desc": "Религия, основанная на учениях гуру. Сикхизм проистекает из различных индуистских верований, подвергшихся влиянию ислама. Сикхи считают, что существует лишь один творец, $sikhism_god_name$, а его последователи должны быть честными и самоотверженными ради общего блага. С помощью медитаций и размышлений они стремятся создать связь с божественным, а поэзия и музыка помогают им ощутить присутствие Бога."
+  },
+  "druzism": {
+    "name": "Друзизм",
+    "desc": "Друзы, хотя их учение и происходит от исмаилитского мазхаба, не считают себя мусульманами. Помимо очевидного влияния ислама, на друзизм также повлияли другие авраамические и неавраамиеские религии, что породило уникальное вероисповедание, основанное на эзотерике и вере в универсальный разум, куда вернутся все души после множества реинкарнаций."
+  },
+  "bantu_religion": {
+    "name": "Бантуские верования",
+    "desc": "$bantu_religion$ $common_folk_religion_desc$"
+  },
+  "lugbara_religion": {
+    "name": "Адроа-Адро",
+    "desc": "$lugbara_religion$ $common_folk_religion_desc$"
+  },
+  "cwezi_religion": {
+    "name": "Чвези",
+    "desc": "$cwezi_religion$ $common_folk_religion_desc$"
+  },
+  "bori_religion": {
+    "name": "Борийские верования",
+    "desc": "$bori_religion$ $common_folk_religion_desc$"
+  },
+  "muonyjang_religion": {
+    "name": "Религия динка",
+    "desc": "$muonyjang_religion$ $common_folk_religion_desc$"
+  },
+  "fomba_gasy_religion": {
+    "name": "Фомба Гаси",
+    "desc": "$fomba_gasy_religion$ $common_folk_religion_desc$"
+  },
+  "maasai_religion": {
+    "name": "Мвене Ньяга",
+    "desc": "$maasai_religion$ $common_folk_religion_desc$"
+  },
+  "asis_religion": {
+    "name": "Асис",
+    "desc": "$asis_religion$ $common_folk_religion_desc$"
+  },
+  "waaqeffanna_religion": {
+    "name": "Ваакеффанна",
+    "desc": "$waaqeffanna_religion$ $common_folk_religion_desc$"
+  },
+  "badimo_religion": {
+    "name": "Бадимо",
+    "desc": "$badimo_religion$ $common_folk_religion_desc$"
+  },
+  "kaggen_religion": {
+    "name": "Цъкагген",
+    "desc": "$kaggen_religion$ $common_folk_religion_desc$"
+  },
+  "akuj_religion": {
+    "name": "Акудж",
+    "desc": "$akuj_religion$ $common_folk_religion_desc$"
+  },
+  "akan_religion": {
+    "name": "Акомское язычество",
+    "desc": "$akan_religion$ $common_folk_religion_desc$"
+  },
+  "vodun_religion": {
+    "name": "Вуду",
+    "desc": "$vodun_religion$ $common_folk_religion_desc$"
+  },
+  "abwoi_religion": {
+    "name": "Абвой",
+    "desc": "$abwoi_religion$ $common_folk_religion_desc$"
+  },
+  "isese_religion": {
+    "name": "Исесе",
+    "desc": "$isese_religion$ $common_folk_religion_desc$"
+  },
+  "ijaw_religion": {
+    "name": "Иджоские верования",
+    "desc": "$ijaw_religion$ $common_folk_religion_desc$"
+  },
+  "odinala_religion": {
+    "name": "Одинала",
+    "desc": "$odinala_religion$ $common_folk_religion_desc$"
+  },
+  "a_fat_roog_religion": {
+    "name": "А фат Роог",
+    "desc": "$a_fat_roog_religion$ $common_folk_religion_desc$"
+  },
+  "dogon_religion": {
+    "name": "Догонские верования",
+    "desc": "$dogon_religion$ $common_folk_religion_desc$"
+  },
+  "nyama_religion": {
+    "name": "Ньяма",
+    "desc": "$nyama_religion$ $common_folk_religion_desc$"
+  },
+  "nyesoa_religion": {
+    "name": "Ньесоа",
+    "desc": "$nyesoa_religion$ $common_folk_religion_desc$"
+  },
+  "karama_religion": {
+    "name": "Карама",
+    "desc": "$karama_religion$ $common_folk_religion_desc$"
+  },
+  "buyli_religion": {
+    "name": "Буйли",
+    "desc": "$buyli_religion$ $common_folk_religion_desc$"
+  },
+  "ebore_religion": {
+    "name": "Эборе",
+    "desc": "$ebore_religion$ $common_folk_religion_desc$"
+  },
+  "adamawa_religion": {
+    "name": "Адамавские верования",
+    "desc": "$adamawa_religion$ $common_folk_religion_desc$"
+  },
+  "geno_religion": {
+    "name": "Гено",
+    "desc": "$geno_religion$ $common_folk_religion_desc$"
+  },
+  "emit_religion": {
+    "name": "Эмит",
+    "desc": "$emit_religion$ $common_folk_religion_desc$"
+  },
+  "nhaala_religion": {
+    "name": "Нхаала",
+    "desc": "$nhaala_religion$ $common_folk_religion_desc$"
+  },
+  "eso_religion": {
+    "name": "Эсо",
+    "desc": "$eso_religion$ $common_folk_religion_desc$"
+  },
+  "naa_wuni_religion": {
+    "name": "Наа-вуни",
+    "desc": "$naa_wuni_religion$ $common_folk_religion_desc$"
+  },
+  "kuru_masaba_religion": {
+    "name": "Курумасаба",
+    "desc": "$kuru_masaba_religion$ $common_folk_religion_desc$"
+  },
+  "sao_religion": {
+    "name": "Саоские верования",
+    "desc": "$sao_religion$ $common_folk_religion_desc$"
+  },
+  "rogo_miki_religion": {
+    "name": "Рого Мики",
+    "desc": "$rogo_miki_religion$ $common_folk_religion_desc$"
+  },
+  "songhai_religion": {
+    "name": "Сонгайские верования",
+    "desc": "$songhai_religion$ $common_folk_religion_desc$"
+  },
+  "godala_religion": {
+    "name": "Гедальские верования",
+    "desc": "$godala_religion$ $common_folk_religion_desc$"
+  },
+  "nyasaye_religion": {
+    "name": "Нясайе",
+    "desc": "$nyasaye_religion$ $common_folk_religion_desc$"
+  },
+  "anna_religion": {
+    "name": "Анна",
+    "desc": "$anna_religion$ $common_folk_religion_desc$"
+  },
+  "rebba_religion": {
+    "name": "Ребба",
+    "desc": "$rebba_religion$ $common_folk_religion_desc$"
+  },
+  "omo_religion": {
+    "name": "Омоские верования",
+    "desc": "$omo_religion$ $common_folk_religion_desc$"
+  },
+  "musala_religion": {
+    "name": "Мусала",
+    "desc": "$musala_religion$ $common_folk_religion_desc$"
+  },
+  "kalge_religion": {
+    "name": "Калге",
+    "desc": "$kalge_religion$ $common_folk_religion_desc$"
+  },
+  "mbori_religion": {
+    "name": "Мбори",
+    "desc": "$mbori_religion$ $common_folk_religion_desc$"
+  },
+  "ori_religion": {
+    "name": "Орийские верования",
+    "desc": "$ori_religion$ $common_folk_religion_desc$"
+  },
+  "ngbandi_religion": {
+    "name": "Нгбанди",
+    "desc": "$ngbandi_religion$ $common_folk_religion_desc$"
+  },
+  "bua_religion": {
+    "name": "Буасские верования",
+    "desc": "$bua_religion$ $common_folk_religion_desc$"
+  },
+  "fang_religion": {
+    "name": "Мебеге",
+    "desc": "$fang_religion$ $common_folk_religion_desc$"
+  },
+  "ajok_religion": {
+    "name": "Аджок",
+    "desc": "$ajok_religion$ $common_folk_religion_desc$"
+  },
+  "banda_religion": {
+    "name": "Бандские верования",
+    "desc": "$banda_religion$ $common_folk_religion_desc$"
+  },
+  "guanche_religion": {
+    "name": "Гуанчские верования",
+    "desc": "$guanche_religion$ $common_folk_religion_desc$"
+  },
+  "kenos_religion": {
+    "name": "Кенос",
+    "desc": "$kenos_religion$ $common_folk_religion_desc$"
+  },
+  "tain_feyentun_religion": {
+    "name": "Тайнь Фейентун",
+    "desc": "$tain_feyentun_religion$ $common_folk_religion_desc$"
+  },
+  "tokuah_religion": {
+    "name": "Токуа",
+    "desc": "$tokuah_religion$ $common_folk_religion_desc$"
+  },
+  "kilyikhama_religion": {
+    "name": "Кильикама",
+    "desc": "$kilyikhama_religion$ $common_folk_religion_desc$"
+  },
+  "pabichu_religion": {
+    "name": "Пабичу",
+    "desc": "$pabichu_religion$ $common_folk_religion_desc$"
+  },
+  "mororuma_religion": {
+    "name": "Морорума",
+    "desc": "$mororuma_religion$ $common_folk_religion_desc$"
+  },
+  "pericu_religion": {
+    "name": "Нипарая",
+    "desc": "$pericu_religion$ $common_folk_religion_desc$"
+  },
+  "yuman_religion": {
+    "name": "Юманские верования",
+    "desc": "$yuman_religion$ $common_folk_religion_desc$"
+  },
+  "cahita_religion": {
+    "name": "Каитские верования",
+    "desc": "$cahita_religion$ $common_folk_religion_desc$"
+  },
+  "seri_religion": {
+    "name": "Комкакские верования",
+    "desc": "$seri_religion$ $common_folk_religion_desc$"
+  },
+  "guasave_religion": {
+    "name": "Гуасавские верования",
+    "desc": "$guasave_religion$ $common_folk_religion_desc$"
+  },
+  "tepehuan_religion": {
+    "name": "Одамийские верования",
+    "desc": "$tepehuan_religion$ $common_folk_religion_desc$"
+  },
+  "coahuilteco_religion": {
+    "name": "Коауильские верования",
+    "desc": "$coahuilteco_religion$ $common_folk_religion_desc$"
+  },
+  "irritila_religion": {
+    "name": "Ирритильские верования",
+    "desc": "$irritila_religion$ $common_folk_religion_desc$"
+  },
+  "karankawa_religion": {
+    "name": "Каранкавские верования",
+    "desc": "$karankawa_religion$ $common_folk_religion_desc$"
+  },
+  "atakapa_religion": {
+    "name": "Атакапские верования",
+    "desc": "$atakapa_religion$ $common_folk_religion_desc$"
+  },
+  "kachina_religion": {
+    "name": "Качина",
+    "desc": "$kachina_religion$ $common_folk_religion_desc$"
+  },
+  "dongba_religion": {
+    "name": "Дунбаизм",
+    "desc": "$dongba_religion$ $common_folk_religion_desc$"
+  },
+  "bimoism": {
+    "name": "",
+    "desc": "Бимоизм $common_folk_religion_desc$"
+  },
+  "ka_niam_khasi_religion": {
+    "name": "Ка Ниам Кхаси",
+    "desc": "$ka_niam_khasi_religion$ $common_folk_religion_desc$"
+  },
+  "muong_religion": {
+    "name": "Мыонгские верования",
+    "desc": "$muong_religion$ $common_folk_religion_desc$"
+  },
+  "sarna_religion": {
+    "name": "Сарнаизм",
+    "desc": "$sarna_religion$ $common_folk_religion_desc$"
+  },
+  "ainu_religion": {
+    "name": "Айнские верования",
+    "desc": "$ainu_religion$ $common_folk_religion_desc$"
+  },
+  "utaki_religion": {
+    "name": "Утаки",
+    "desc": "$utaki_religion$ $common_folk_religion_desc$"
+  },
+  "koyapunem_religion": {
+    "name": "Кояпунем",
+    "desc": "$koyapunem_religion$ $common_folk_religion_desc$"
+  },
+  "bathou_religion": {
+    "name": "Батуизм",
+    "desc": "$bathou_religion$ $common_folk_religion_desc$"
+  },
+  "donyi_polo_religion": {
+    "name": "Доньи-Поло",
+    "desc": "$donyi_polo_religion$ $common_folk_religion_desc$"
+  },
+  "kirat_mundhum_religion": {
+    "name": "Кират Мундхум",
+    "desc": "$kirat_mundhum_religion$ $common_folk_religion_desc$"
+  },
+  "mizo_religion": {
+    "name": "Мизоанские верования",
+    "desc": "$mizo_religion$ $common_folk_religion_desc$"
+  },
+  "gosain_religion": {
+    "name": "Верования госайнов",
+    "desc": "$gosain_religion$ $common_folk_religion_desc$"
+  },
+  "khond_religion": {
+    "name": "Кхондские верования",
+    "desc": "$khond_religion$ $common_folk_religion_desc$"
+  },
+  "wu_religion": {
+    "name": "Уизм",
+    "desc": "$wu_religion$ $common_folk_religion_desc$"
+  },
+  "yao_religion": {
+    "name": "Яоские верования",
+    "desc": "$yao_religion$ $common_folk_religion_desc$"
+  },
+  "nuo_religion": {
+    "name": "Народные верования но",
+    "desc": "$nuo_religion$ $common_folk_religion_desc$"
+  },
+  "vedda_religion": {
+    "name": "Веддские верования",
+    "desc": "$vedda_religion$ $common_folk_religion_desc$"
+  },
+  "kam_religion": {
+    "name": "Камские верования",
+    "desc": "$kam_religion$ $common_folk_religion_desc$"
+  },
+  "formosan_religion": {
+    "name": "Формозские верования",
+    "desc": "$formosan_religion$ $common_folk_religion_desc$"
+  },
+  "mulam_religion": {
+    "name": "Муламские верования",
+    "desc": "$mulam_religion$ $common_folk_religion_desc$"
+  },
+  "maonan_religion": {
+    "name": "Маонаньские верования",
+    "desc": "$maonan_religion$ $common_folk_religion_desc$"
+  },
+  "sui_religion": {
+    "name": "Суйские верования",
+    "desc": "$sui_religion$ $common_folk_religion_desc$"
+  },
+  "lisu_religion": {
+    "name": "Лисуские верования",
+    "desc": "$lisu_religion$ $common_folk_religion_desc$"
+  },
+  "ngacang_religion": {
+    "name": "Ачанские верования",
+    "desc": "$ngacang_religion$ $common_folk_religion_desc$"
+  },
+  "blang_religion": {
+    "name": "Буланские верования",
+    "desc": "$blang_religion$ $common_folk_religion_desc$"
+  },
+  "hani_religion": {
+    "name": "Ханийские верования",
+    "desc": "$hani_religion$ $common_folk_religion_desc$"
+  },
+  "jino_religion": {
+    "name": "Цзиноские верования",
+    "desc": "$jino_religion$ $common_folk_religion_desc$"
+  },
+  "lahu_religion": {
+    "name": "Лахуские верования",
+    "desc": "$lahu_religion$ $common_folk_religion_desc$"
+  },
+  "nu_religion": {
+    "name": "Нуские верования",
+    "desc": "$nu_religion$ $common_folk_religion_desc$"
+  },
+  "jingpo_religion": {
+    "name": "Цзинпоские верования",
+    "desc": "$jingpo_religion$ $common_folk_religion_desc$"
+  },
+  "wa_religion": {
+    "name": "Ваские верования",
+    "desc": "$wa_religion$ $common_folk_religion_desc$"
+  },
+  "monpa_religion": {
+    "name": "Монпаские верования",
+    "desc": "$monpa_religion$ $common_folk_religion_desc$"
+  },
+  "mishmi_religion": {
+    "name": "Мишмийские верования",
+    "desc": "$mishmi_religion$ $common_folk_religion_desc$"
+  },
+  "palaung_religion": {
+    "name": "Палаунгские верования",
+    "desc": "$palaung_religion$ $common_folk_religion_desc$"
+  },
+  "kundism_religion": {
+    "name": "Кундизм",
+    "desc": "$kundism_religion$ $common_folk_religion_desc$"
+  },
+  "songsarek_religion": {
+    "name": "Сонгсарек",
+    "desc": "$songsarek_religion$ $common_folk_religion_desc$"
+  },
+  "tiwa_religion": {
+    "name": "Тивские верования",
+    "desc": "$tiwa_religion$ $common_folk_religion_desc$"
+  },
+  "koch_religion": {
+    "name": "Кочские верования",
+    "desc": "$koch_religion$ $common_folk_religion_desc$"
+  },
+  "rabha_religion": {
+    "name": "Рабхаские верования",
+    "desc": "$rabha_religion$ $common_folk_religion_desc$"
+  },
+  "chutia_religion": {
+    "name": "Чутийские верования",
+    "desc": "$chutia_religion$ $common_folk_religion_desc$"
+  },
+  "dimasa_religion": {
+    "name": "Димасские верования",
+    "desc": "$dimasa_religion$ $common_folk_religion_desc$"
+  },
+  "karbi_religion": {
+    "name": "Карбийские верования",
+    "desc": "$karbi_religion$ $common_folk_religion_desc$"
+  },
+  "sora_religion": {
+    "name": "Сорские верования",
+    "desc": "$sora_religion$ $common_folk_religion_desc$"
+  },
+  "juang_religion": {
+    "name": "Джуангские верования",
+    "desc": "$juang_religion$ $common_folk_religion_desc$"
+  },
+  "kharia_religion": {
+    "name": "Кхарианские верования",
+    "desc": "$kharia_religion$ $common_folk_religion_desc$"
+  },
+  "naga_religion": {
+    "name": "Нагские верования",
+    "desc": "$naga_religion$ $common_folk_religion_desc$"
+  },
+  "karen_religion": {
+    "name": "Каренские верования",
+    "desc": "$karen_religion$ $common_folk_religion_desc$"
+  },
+  "sedang_religion": {
+    "name": "Седангские верования",
+    "desc": "$sedang_religion$ $common_folk_religion_desc$"
+  },
+  "bahnar_religion": {
+    "name": "Банарские верования",
+    "desc": "$bahnar_religion$ $common_folk_religion_desc$"
+  },
+  "bru_religion": {
+    "name": "Бруские верования",
+    "desc": "$bru_religion$ $common_folk_religion_desc$"
+  },
+  "orang_asli_religion": {
+    "name": "Оранг-аслийские верования",
+    "desc": "$orang_asli_religion$ $common_folk_religion_desc$"
+  },
+  "andamanese_religion": {
+    "name": "Андаманские верования",
+    "desc": "$andamanese_religion$ $common_folk_religion_desc$"
+  },
+  "nicobarese_religion": {
+    "name": "Никобарские верования",
+    "desc": "$nicobarese_religion$ $common_folk_religion_desc$"
+  },
+  "chukchi_shamanism": {
+    "name": "Чукотский шаманизм",
+    "desc": "Чукотский шаманизм $common_folk_religion_desc$"
+  },
+  "hmongism": {
+    "name": "",
+    "desc": "Кев Даб Куас $common_folk_religion_desc$"
+  },
+  "moism": {
+    "name": "",
+    "desc": "Моизм $common_folk_religion_desc$"
+  },
+  "rmaism": {
+    "name": "",
+    "desc": "Рмаизм $common_folk_religion_desc$"
+  },
+  "shamanism": {
+    "name": "Шаманизм",
+    "desc": "Обобщённый набор практик и верований, центральную роль в которых играет шаман — человек, способный общаться с миром духов и использовать их силу для воздействия на материальный мир. Конкретные духи, боги или ритуалы могут отличаться, но основная идея мира духов и взаимодействия с ним является общей для всех шаманистских практик."
+  },
+  "tengri": {
+    "name": "Тенгрианство",
+    "desc": "Тенгрианство — шаманистские верования тюркских и монгольских народов, центральной фигурой которых является бог неба Тенгри, считающийся олицетворением вселенной. Но тенгрианство включает почитание и других богов, а также природы и предков."
+  },
+  "tungusic_shamanism": {
+    "name": "Тунгусский шаманизм",
+    "desc": "Тунгусский шаманизм $common_folk_religion_desc$"
+  },
+  "yukaghir_shamanism": {
+    "name": "Юкагирский шаманизм",
+    "desc": "Юкагирский шаманизм $common_folk_religion_desc$"
+  },
+  "yupik_shamanism": {
+    "name": "Юпикский шаманизм",
+    "desc": "Юпикский шаманизм $common_folk_religion_desc$"
+  },
+  "dreamtime_religion": {
+    "name": "Тьюкуррпа",
+    "desc": "$dreamtime_religion$ $common_folk_religion_desc$"
+  },
+  "akinha_ekugu_religion": {
+    "name": "Акинья Экугу",
+    "desc": "$akinha_ekugu_religion$ $common_folk_religion_desc$"
+  },
+  "namandu_religion": {
+    "name": "Ньяманду",
+    "desc": "$namandu_religion$ $common_folk_religion_desc$"
+  },
+  "tunpa_religion": {
+    "name": "Тунпа",
+    "desc": "$tunpa_religion$ $common_folk_religion_desc$"
+  },
+  "doi_wahire_religion": {
+    "name": "Дои Ваире",
+    "desc": "$doi_wahire_religion$ $common_folk_religion_desc$"
+  },
+  "jurema_religion": {
+    "name": "Журемские верования",
+    "desc": "$jurema_religion$ $common_folk_religion_desc$"
+  },
+  "nallagdigua_religion": {
+    "name": "Нальягдигва",
+    "desc": "$nallagdigua_religion$ $common_folk_religion_desc$"
+  },
+  "txapakura_religion": {
+    "name": "Чапакурские верования",
+    "desc": "$txapakura_religion$ $common_folk_religion_desc$"
+  },
+  "zemi_religion": {
+    "name": "Семи",
+    "desc": "$zemi_religion$ $common_folk_religion_desc$"
+  },
+  "lenca_religion": {
+    "name": "Ленканские верования",
+    "desc": "$lenca_religion$ $common_folk_religion_desc$"
+  },
+  "pech_religion": {
+    "name": "Муа Муа",
+    "desc": "$pech_religion$ $common_folk_religion_desc$"
+  },
+  "wan_aisa_religion": {
+    "name": "Ван Аиса",
+    "desc": "$wan_aisa_religion$ $common_folk_religion_desc$"
+  },
+  "maleku_religion": {
+    "name": "Малекуские верования",
+    "desc": "$maleku_religion$ $common_folk_religion_desc$"
+  },
+  "suwo_religion": {
+    "name": "Суво",
+    "desc": "$suwo_religion$ $common_folk_religion_desc$"
+  },
+  "chibcha_religion": {
+    "name": "Чибчанские верования",
+    "desc": "$chibcha_religion$ $common_folk_religion_desc$"
+  },
+  "votian_religion": {
+    "name": "Водские верования",
+    "desc": "$votian_religion$ $common_folk_religion_desc$"
+  },
+  "hellenism_religion": {
+    "name": "Эллинизм",
+    "desc": "$hellenism_religion$ $common_folk_religion_desc$"
+  },
+  "karachay_balkar_paganism": {
+    "name": "Карачаево-балкарское язычество",
+    "desc": "Карачаево-балкарское язычество $common_folk_religion_desc$"
+  },
+  "khabzeism": {
+    "name": "",
+    "desc": "Хабзэизм $common_folk_religion_desc$"
+  },
+  "lezgin_paganism": {
+    "name": "Лезгинское язычество",
+    "desc": "Лезгинское язычество $common_folk_religion_desc$"
+  },
+  "norse": {
+    "name": "Скандинавское язычество",
+    "desc": "Эта древняя религия германских племён Скандинавии отличается многообразием богов, асов и ванов, наиболее известными из которых являются Один и Тор. Считается, что вселенная состоит из девяти миров и мирового древа Иггдрасиля. Мир людей называется Мидгард."
+  },
+  "alan_paganism": {
+    "name": "Аланское язычество",
+    "desc": "Аланское язычество $common_folk_religion_desc$"
+  },
+  "romuva": {
+    "name": "Ромува",
+    "desc": "Традиционные литовские верования с целым пантеоном богов, а также почитанием природы и предков. Церемонии проводятся на огненных алтарях, вокруг которых возносятся ритуальные гимны, дайно."
+  },
+  "sapmi_shamanism": {
+    "name": "Саамский шаманизм",
+    "desc": "Традиционные религиозные практики саамов с поклонением множеству духов природы и животных, а также почитанием усопших. Некоторые животные пользуются особым уважением, например северный олень и медведь."
+  },
+  "muinaisusko": {
+    "name": "Муйнайсуско",
+    "desc": "Традиционные верования финских народов со множеством божеств, главным среди которых является бог неба и грома Укко. В религии также присутствует почитание умерших и шаманские ритуалы, а некоторые её элементы перекликаются с верованиями соседних народов."
+  },
+  "vainakh_paganism": {
+    "name": "Вайнахское язычество",
+    "desc": "Вайнахское язычество $common_folk_religion_desc$"
+  },
+  "mari_paganism": {
+    "name": "Чимарий йӱла",
+    "desc": "Марийское язычество $common_folk_religion_desc$"
+  },
+  "udmurt_paganism": {
+    "name": "Инмаризм",
+    "desc": "Удмуртское язычество $common_folk_religion_desc$"
+  },
+  "komi_paganism": {
+    "name": "Важеском",
+    "desc": "Язычество коми $common_folk_religion_desc$"
+  },
+  "samoyedic_paganism": {
+    "name": "Самодийский шаманизм",
+    "desc": "Самодийское язычество $common_folk_religion_desc$"
+  },
+  "obian_paganism": {
+    "name": "Обский шаманизм",
+    "desc": "Обское язычество $common_folk_religion_desc$"
+  },
+  "arosi_religion": {
+    "name": "Аросийские верования",
+    "desc": "$arosi_religion$ $common_folk_religion_desc$"
+  },
+  "abu_religion": {
+    "name": "Квайонские верования",
+    "desc": "$abu_religion$ $common_folk_religion_desc$"
+  },
+  "ghari_religion": {
+    "name": "Гарийские верования",
+    "desc": "$ghari_religion$ $common_folk_religion_desc$"
+  },
+  "nduke_religion": {
+    "name": "Ндукейские верования",
+    "desc": "$nduke_religion$ $common_folk_religion_desc$"
+  },
+  "cheke_holo_religion": {
+    "name": "Чеке-холоанские верования",
+    "desc": "$cheke_holo_religion$ $common_folk_religion_desc$"
+  },
+  "vaghua_religion": {
+    "name": "Вагуанские верования",
+    "desc": "$vaghua_religion$ $common_folk_religion_desc$"
+  },
+  "mu_ngava_religion": {
+    "name": "Му-нгавские верования",
+    "desc": "$mu_ngava_religion$ $common_folk_religion_desc$"
+  },
+  "natugu_religion": {
+    "name": "Натугуанские верования",
+    "desc": "$natugu_religion$ $common_folk_religion_desc$"
+  },
+  "qat_religion": {
+    "name": "Кат",
+    "desc": "$qat_religion$ $common_folk_religion_desc$"
+  },
+  "itaukei_religion": {
+    "name": "Итаукейские верования",
+    "desc": "$itaukei_religion$ $common_folk_religion_desc$"
+  },
+  "kanak_religion": {
+    "name": "Канак",
+    "desc": "$kanak_religion$ $common_folk_religion_desc$"
+  },
+  "puntan_religion": {
+    "name": "Пунтан",
+    "desc": "$puntan_religion$ $common_folk_religion_desc$"
+  },
+  "kajoor_ri_majel_religion": {
+    "name": "Казур-ри-мазельские верования",
+    "desc": "$kajoor_ri_majel_religion$ $common_folk_religion_desc$"
+  },
+  "yanolop_religion": {
+    "name": "Янолоп",
+    "desc": "$yanolop_religion$ $common_folk_religion_desc$"
+  },
+  "inuit_religion": {
+    "name": "Инуитские верования",
+    "desc": "$inuit_religion$ $common_folk_religion_desc$"
+  },
+  "dene_religion": {
+    "name": "Верования дене",
+    "desc": "$dene_religion$ $common_folk_religion_desc$"
+  },
+  "midewiwin_religion": {
+    "name": "",
+    "desc": "$midewiwin_religion$ $common_folk_religion_desc$"
+  },
+  "dene_shamanism": {
+    "name": "",
+    "desc": "Шаманизм дене $common_folk_religion_desc$"
+  },
+  "dene_totemism": {
+    "name": "Тотемизм дене",
+    "desc": "Тотемизм дене $common_folk_religion_desc$"
+  },
+  "great_plains_shamanism": {
+    "name": "",
+    "desc": "Шаманизм Великих равнин $common_folk_religion_desc$"
+  },
+  "iroquoian_totemism": {
+    "name": "",
+    "desc": "Ирокезский тотемизм $common_folk_religion_desc$"
+  },
+  "mississippian_ceremonial": {
+    "name": "",
+    "desc": "Миссисипский церемониализм $common_folk_religion_desc$"
+  },
+  "paiute_shamanism": {
+    "name": "",
+    "desc": "Шаманизм пайютов $common_folk_religion_desc$"
+  },
+  "pomo_shamanism": {
+    "name": "Шаманизм куксу",
+    "desc": "Шаманизм помо $common_folk_religion_desc$"
+  },
+  "salishan_totemism": {
+    "name": "Салишский тотемизм",
+    "desc": "Салишский тотемизм $common_folk_religion_desc$"
+  },
+  "totemism": {
+    "name": "Тотемизм",
+    "desc": "Тотемизм $common_folk_religion_desc$"
+  },
+  "imunu_religion": {
+    "name": "Имуну",
+    "desc": "$imunu_religion$ $common_folk_religion_desc$"
+  },
+  "moksha_religion": {
+    "name": "Шкаизм",
+    "desc": "$moksha_religion$ $common_folk_religion_desc$"
+  },
+  "erzya_religion": {
+    "name": "Пазон кой",
+    "desc": "$erzya_religion$ $common_folk_religion_desc$"
+  },
+  "inti": {
+    "name": "Инти",
+    "desc": "Инти и Виракоча являются основными божествами, которые направляют и защищают народы Анд."
+  },
+  "naylamp_religion": {
+    "name": "Найламп",
+    "desc": "$naylamp_religion$ $common_folk_religion_desc$"
+  },
+  "umina_religion": {
+    "name": "Уминья",
+    "desc": "$umina_religion$ $common_folk_religion_desc$"
+  },
+  "jama_religion": {
+    "name": "Хама",
+    "desc": "$jama_religion$ $common_folk_religion_desc$"
+  },
+  "pi_religion": {
+    "name": "Пи",
+    "desc": "$pi_religion$ $common_folk_religion_desc$"
+  },
+  "arutam_religion": {
+    "name": "Арутам",
+    "desc": "$arutam_religion$ $common_folk_religion_desc$"
+  },
+  "chango_religion": {
+    "name": "Чангские верования",
+    "desc": "$chango_religion$ $common_folk_religion_desc$"
+  },
+  "cebil_religion": {
+    "name": "Себиль",
+    "desc": "$cebil_religion$ $common_folk_religion_desc$"
+  },
+  "yastay_religion": {
+    "name": "Ястай",
+    "desc": "$yastay_religion$ $common_folk_religion_desc$"
+  },
+  "gos_religion": {
+    "name": "Гос",
+    "desc": "$gos_religion$ $common_folk_religion_desc$"
+  },
+  "pava_religion": {
+    "name": "Пава",
+    "desc": "$pava_religion$ $common_folk_religion_desc$"
+  },
+  "chanka_religion": {
+    "name": "Чанкские верования",
+    "desc": "$chanka_religion$ $common_folk_religion_desc$"
+  },
+  "chincha_religion": {
+    "name": "Чинчские верования",
+    "desc": "$chincha_religion$ $common_folk_religion_desc$"
+  },
+  "tapu_religion": {
+    "name": "Тапу",
+    "desc": "$tapu_religion$ $common_folk_religion_desc$"
+  },
+  "tokelauan_religion": {
+    "name": "Токелауанские верования",
+    "desc": "$tokelauan_religion$ $common_folk_religion_desc$"
+  },
+  "kaharingan_religion": {
+    "name": "Кахаринган",
+    "desc": "$kaharingan_religion$ $common_folk_religion_desc$"
+  },
+  "kan_khwan_religion": {
+    "name": "Кан Кхван",
+    "desc": "$kan_khwan_religion$ $common_folk_religion_desc$"
+  },
+  "adat_puun_religion": {
+    "name": "Адат Пуун",
+    "desc": "$adat_puun_religion$ $common_folk_religion_desc$"
+  },
+  "momolianism_religion": {
+    "name": "Момолианизм",
+    "desc": "$momolianism_religion$ $common_folk_religion_desc$"
+  },
+  "besavik_religion": {
+    "name": "Бесавик",
+    "desc": "$besavik_religion$ $common_folk_religion_desc$"
+  },
+  "aluk_religion": {
+    "name": "Алук",
+    "desc": "$aluk_religion$ $common_folk_religion_desc$"
+  },
+  "malesung_religion": {
+    "name": "Малесунг",
+    "desc": "$malesung_religion$ $common_folk_religion_desc$"
+  },
+  "marapu_religion": {
+    "name": "Марапу",
+    "desc": "$marapu_religion$ $common_folk_religion_desc$"
+  },
+  "arat_sabulungan_religion": {
+    "name": "Арат Сабулунган",
+    "desc": "$arat_sabulungan_religion$ $common_folk_religion_desc$"
+  },
+  "pengarap_asal_religion": {
+    "name": "Пенгарап Асал",
+    "desc": "$pengarap_asal_religion$ $common_folk_religion_desc$"
+  },
+  "ipok_religion": {
+    "name": "Ипок",
+    "desc": "$ipok_religion$ $common_folk_religion_desc$"
+  },
+  "banunut_religion": {
+    "name": "Банунут",
+    "desc": "$banunut_religion$ $common_folk_religion_desc$"
+  },
+  "lamoa_religion": {
+    "name": "Ламоа",
+    "desc": "$lamoa_religion$ $common_folk_religion_desc$"
+  },
+  "tolotang_religion": {
+    "name": "Толотанг",
+    "desc": "$tolotang_religion$ $common_folk_religion_desc$"
+  },
+  "tolaki_religion": {
+    "name": "Толакийские верования",
+    "desc": "$tolaki_religion$ $common_folk_religion_desc$"
+  },
+  "buton_religion": {
+    "name": "Бутонские верования",
+    "desc": "$buton_religion$ $common_folk_religion_desc$"
+  },
+  "tomanuru_religion": {
+    "name": "Томануру",
+    "desc": "$tomanuru_religion$ $common_folk_religion_desc$"
+  },
+  "gorontalo_religion": {
+    "name": "Горонтальские верования",
+    "desc": "$gorontalo_religion$ $common_folk_religion_desc$"
+  },
+  "adat_musi_religion": {
+    "name": "Адат Муси",
+    "desc": "$adat_musi_religion$ $common_folk_religion_desc$"
+  },
+  "sangirese_religion": {
+    "name": "Сангирские верования",
+    "desc": "$sangirese_religion$ $common_folk_religion_desc$"
+  },
+  "wetarese_religion": {
+    "name": "Ветарские верования",
+    "desc": "$wetarese_religion$ $common_folk_religion_desc$"
+  },
+  "kirin_koda_religion": {
+    "name": "Кирин Кода",
+    "desc": "$kirin_koda_religion$ $common_folk_religion_desc$"
+  },
+  "dua_nggae_religion": {
+    "name": "Дуа Нггае",
+    "desc": "$dua_nggae_religion$ $common_folk_religion_desc$"
+  },
+  "lamatuan_religion": {
+    "name": "Ламатуан",
+    "desc": "$lamatuan_religion$ $common_folk_religion_desc$"
+  },
+  "naurus_religion": {
+    "name": "Наурус",
+    "desc": "$naurus_religion$ $common_folk_religion_desc$"
+  },
+  "mitu_religion": {
+    "name": "Миту",
+    "desc": "$mitu_religion$ $common_folk_religion_desc$"
+  },
+  "sula_religion": {
+    "name": "Сульские верования",
+    "desc": "$sula_religion$ $common_folk_religion_desc$"
+  },
+  "kolano_religion": {
+    "name": "Колано",
+    "desc": "$kolano_religion$ $common_folk_religion_desc$"
+  },
+  "goma_religion": {
+    "name": "Гома",
+    "desc": "$goma_religion$ $common_folk_religion_desc$"
+  },
+  "anitism_religion": {
+    "name": "Анитизм",
+    "desc": "$anitism_religion$ $common_folk_religion_desc$"
+  },
+  "orang_laut_religion": {
+    "name": "Оранг-лаутские верования",
+    "desc": "$orang_laut_religion$ $common_folk_religion_desc$"
+  },
+  "minangkabau_religion": {
+    "name": "Минангкабауские верования",
+    "desc": "$minangkabau_religion$ $common_folk_religion_desc$"
+  },
+  "pelebegu_religion": {
+    "name": "Пелебегу",
+    "desc": "$pelebegu_religion$ $common_folk_religion_desc$"
+  },
+  "nyang_serai_religion": {
+    "name": "Ньянг Серай",
+    "desc": "$nyang_serai_religion$ $common_folk_religion_desc$"
+  },
+  "piil_pesenggiri_religion": {
+    "name": "Пиил Песенггири",
+    "desc": "$piil_pesenggiri_religion$ $common_folk_religion_desc$"
+  },
+  "orang_rimba_religion": {
+    "name": "Оранг-римбские верования",
+    "desc": "$orang_rimba_religion$ $common_folk_religion_desc$"
+  },
+  "enggano_religion": {
+    "name": "Энгганские верования",
+    "desc": "$enggano_religion$ $common_folk_religion_desc$"
+  },
+  "degar_religion": {
+    "name": "Дегарские верования",
+    "desc": "$degar_religion$ $common_folk_religion_desc$"
+  },
+  "sanamahism": {
+    "name": "",
+    "desc": "Санамахизм $common_folk_religion_desc$"
+  },
+  "satsana_phi": {
+    "name": "",
+    "desc": "Сатсана Пхи $common_folk_religion_desc$"
+  },
+  "maleiwa_religion": {
+    "name": "Малейва",
+    "desc": "$maleiwa_religion$ $common_folk_religion_desc$"
+  },
+  "yopo_religion": {
+    "name": "Йопо",
+    "desc": "$yopo_religion$ $common_folk_religion_desc$"
+  },
+  "sinu_religion": {
+    "name": "Синуанские верования",
+    "desc": "$sinu_religion$ $common_folk_religion_desc$"
+  },
+  "warao_religion": {
+    "name": "Вараоские верования",
+    "desc": "$warao_religion$ $common_folk_religion_desc$"
+  },
+  "naoma_religion": {
+    "name": "Наома",
+    "desc": "$naoma_religion$ $common_folk_religion_desc$"
+  },
+  "muisca_religion": {
+    "name": "Бочика",
+    "desc": "$muisca_religion$ $common_folk_religion_desc$"
+  },
+  "nacuco_religion": {
+    "name": "Накуко",
+    "desc": "$nacuco_religion$ $common_folk_religion_desc$"
+  },
+  "jai_religion": {
+    "name": "Хай",
+    "desc": "$jai_religion$ $common_folk_religion_desc$"
+  },
+  "yage_religion": {
+    "name": "Яге",
+    "desc": "$yage_religion$ $common_folk_religion_desc$"
+  },
+  "judaism": {
+    "name": "Иудаизм",
+    "desc": "Первая из авраамических религий, иудаизм следует Завету, заключённому между Богом и Моисеем. Священным писанием иудаизма является Танак, первые пять книг которого известны как Тора, которая является основой верований и практик иудаизма."
+  },
+  "samaritanism": {
+    "name": "Самаритянство",
+    "desc": "Традиционная вера самаритян, отделившаяся от иудаизма после падения Израильского царства. Самаритяне считают, что их религия осталась неизменной со времён Моисея, в отличие от иудаизма, искажённого писаниями."
+  },
+  "mandeaism": {
+    "name": "Мандеизм",
+    "desc": "$mandeaism$ — гностическая религия, считающая Иоанна Крестителя последним пророком и включающая элементы греческой и иранской культур. Признавая некоторых пророков других авраамических религий, мандеизм однако не признаёт Авраама, Моисея и Иисуса. Бог в мандеизме носит имя $mandeaism_god_name$, «Великая жизнь», и символизирует созидательную силу вселенной."
+  },
+  "manichaeism": {
+    "name": "Манихейство",
+    "desc": "$manichaeism$ — иранская религия, основанная пророком Мани из империи Сасанидов. Оно подверглось влиянию множества других религий, в том числе гностицизма, зороастризма, христианства и буддизма, и считает Мани последним пророком после Зороастра, Будды и Иисуса. Теология дуалистична и описывает вселенную как духовную борьбу между светом и тьмой."
+  },
+  "ibadi": {
+    "name": "Ибадизм",
+    "desc": "$ibadi_school_desc$"
+  },
+  "shia": {
+    "name": "Шиизм",
+    "desc": "Шиитская вера считает, что Мухаммед назначил Али ибн Абу Талиба своим преемником, а значит — духовным и политическим лидером мусульман. Поэтому имамат должен передаваться потомкам Али, а не Абу Бакра, который был выбран халифом соратниками Мухаммеда на собрании в Сакифе."
+  },
+  "sunni": {
+    "name": "Суннизм",
+    "desc": "Сунниты полагают, что верховенство в исламе было передано Абу Бакру, когда сподвижники Мухаммеда выбрали его халифом на собрании в Сакифе, поскольку сам Пророк не назначил себе преемника. Суннизм рассматривает ар-рашидун, первых четырёх халифов после Мухаммеда, как образец правления."
+  },
+  "nahuatl": {
+    "name": "Науа",
+    "desc": "Науаская религия почитает множество теотлей — богов, подчинённых верховному богу Ометеотлю. Другие боги, такие как Уицилопочтли, Тлалок или Кецалькоатль, являются покровителями сословий или народов. Одной из ключевых практик являются человеческие жертвоприношения ради благосклонности богов."
+  },
+  "mesoamerican": {
+    "name": "Тональ",
+    "desc": "$mesoamerican$ $common_folk_religion_desc$"
+  },
+  "mayan": {
+    "name": "Майя",
+    "desc": "Майянский ритуализм $common_folk_religion_desc$"
+  },
+  "chichimecah_religion": {
+    "name": "Чичимекские верования",
+    "desc": "$chichimecah_religion$ $common_folk_religion_desc$"
+  },
+  "yazidism": {
+    "name": "Езидизм",
+    "desc": "Производная от иранских традиций с элементами иудаизма, христианства и ислама. Согласно этой религии, вселенная была создана Богом, но он назначил править ей «ангела-павлина» Малака Тавуса. Несмотря на влияние других религий, особенно их эзотерических практик, по сути своей это производная от древних иранских религий."
+  },
+  "zoroastrian": {
+    "name": "Зороастризм",
+    "desc": "Древняя иранская религия, следующая учениям пророка Зороастра, также известного как Заратустра, и текстам Авесты. Зороастризм основан на дуалистической космологии добра и зла с вечным конфликтом между божеством Ахурамаздой и духом разрушения Ангра-Майнью, а также верой в грядущую победу добра над злом."
+  },
+  "folk_melanesian_group": {
+    "name": "Меланезийские народные верования"
+  },
+  "folk_brazilian_group": {
+    "name": "Бразильские народные верования"
+  },
+  "folk_papuan_group": {
+    "name": "Папуасские народные верования"
+  },
+  "folk_se_asian_group": {
+    "name": "Юго-Восточноазиатские народные верования"
+  },
+  "yazidi_group": {
+    "name": "Езидизм"
+  },
+  "folk_african_group": {
+    "name": "Африканские народные верования"
+  },
+  "folk_north_american_group": {
+    "name": "Североамериканские народные верования"
+  },
+  "israelite_group": {
+    "name": "Израэлитство"
+  },
+  "dharmic": {
+    "name": "Дхарма"
+  },
+  "buddhist": {
+    "name": "Буддизм"
+  },
+  "manichaean_group": {
+    "name": "Манихейство"
+  },
+  "folk_argentinian_group": {
+    "name": "Аргентинские народные верования"
+  },
+  "folk_micronesian_group": {
+    "name": "Микронезийские народные верования"
+  },
+  "folk_caribbean_group": {
+    "name": "Карибские народные верования"
+  },
+  "folk_central_american_group": {
+    "name": "Центральноамериканские народные верования"
+  },
+  "folk_south_american_group": {
+    "name": "Южноамериканские народные верования"
+  },
+  "zoroastrian_group": {
+    "name": "Зороастризм"
+  },
+  "folk_polynesian_group": {
+    "name": "Полинезийские народные верования"
+  },
+  "christian": {
+    "name": "Христианство"
+  },
+  "folk_aridoamerica_group": {
+    "name": "Аридоамериканские народные верования"
+  },
+  "muslim": {
+    "name": "Ислам"
+  },
+  "tonal_group": {
+    "name": "Тонализм"
+  },
+  "folk_european_group": {
+    "name": "Европейские народные верования"
+  },
+  "folk_peruvian_group": {
+    "name": "Андские народные верования"
+  },
+  "folk_permic_group": {
+    "name": "Пермские народные верования"
+  },
+  "mandean_group": {
+    "name": "Мандеизм"
+  },
+  "druze_group": {
+    "name": "Друзизм"
+  },
+  "folk_asian_group": {
+    "name": "Азиатские народные верования"
+  },
+  "folk_australian_group": {
+    "name": "Австралийские народные верования"
+  }
+}

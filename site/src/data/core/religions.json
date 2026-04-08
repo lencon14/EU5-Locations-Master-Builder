@@ -1,0 +1,2053 @@
+[
+  {
+    "id": "bon",
+    "group_id": "buddhist",
+    "color": "color_bon",
+    "icon": "icons/religion/bon.png",
+    "source_file": "buddhist.txt"
+  },
+  {
+    "id": "mahayana",
+    "group_id": "buddhist",
+    "color": "color_mahayana",
+    "icon": "icons/religion/mahayana.png",
+    "source_file": "buddhist.txt"
+  },
+  {
+    "id": "shinto",
+    "group_id": "buddhist",
+    "color": "color_shinto",
+    "icon": "icons/religion/shinto.png",
+    "source_file": "buddhist.txt"
+  },
+  {
+    "id": "theravada",
+    "group_id": "buddhist",
+    "color": "color_theravada",
+    "icon": "icons/religion/theravada.png",
+    "source_file": "buddhist.txt"
+  },
+  {
+    "id": "sammitiya",
+    "group_id": "buddhist",
+    "color": "color_sammitiya",
+    "icon": "icons/religion/sammitiya.png",
+    "source_file": "buddhist.txt"
+  },
+  {
+    "id": "tibetan_buddhism",
+    "group_id": "buddhist",
+    "color": "map_TIB",
+    "icon": "icons/religion/tibetan_buddhism.png",
+    "source_file": "buddhist.txt"
+  },
+  {
+    "id": "sanjiao",
+    "group_id": "buddhist",
+    "color": "map_chinese",
+    "icon": "icons/religion/sanjiao.png",
+    "source_file": "buddhist.txt"
+  },
+  {
+    "id": "anglican",
+    "group_id": "christian",
+    "color": "color_anglican",
+    "icon": "icons/religion/anglican.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "bogomilism",
+    "group_id": "christian",
+    "color": "color_bogomilism",
+    "icon": "icons/religion/bogomilism.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "bosnian_church",
+    "group_id": "christian",
+    "color": "color_bosnian_church",
+    "icon": "icons/religion/bosnian_church.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "calvinist",
+    "group_id": "christian",
+    "color": "color_calvinist",
+    "icon": "icons/religion/calvinist.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "catharism",
+    "group_id": "christian",
+    "color": "color_catharism",
+    "icon": "icons/religion/catharism.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "catholic",
+    "group_id": "christian",
+    "color": "religion_catholic",
+    "icon": "icons/religion/catholic.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "hussite",
+    "group_id": "christian",
+    "color": "color_hussite",
+    "icon": "icons/religion/hussite.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "lollardy",
+    "group_id": "christian",
+    "color": "color_lollardy",
+    "icon": "icons/religion/lollardy.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "lutheran",
+    "group_id": "christian",
+    "color": "color_lutheran",
+    "icon": "icons/religion/lutheran.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "miaphysite",
+    "group_id": "christian",
+    "color": "color_miaphysite",
+    "icon": "icons/religion/miaphysite.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "nestorianism",
+    "group_id": "christian",
+    "color": "color_nestorianism",
+    "icon": "icons/religion/nestorianism.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "orthodox",
+    "group_id": "christian",
+    "color": "religion_orthodox",
+    "icon": "icons/religion/orthodox.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "paulicianism",
+    "group_id": "christian",
+    "color": "color_paulicianism",
+    "icon": "icons/religion/paulicianism.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "strigolniki",
+    "group_id": "christian",
+    "color": "color_strigolniki",
+    "icon": "icons/religion/strigolniki.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "waldensian",
+    "group_id": "christian",
+    "color": "religion_waldensian",
+    "icon": "icons/religion/waldensian.png",
+    "source_file": "christian.txt"
+  },
+  {
+    "id": "hindu",
+    "group_id": "dharmic",
+    "color": "color_hindu",
+    "icon": "icons/religion/hindu.png",
+    "source_file": "dharmic.txt"
+  },
+  {
+    "id": "jain",
+    "group_id": "dharmic",
+    "color": "color_jain",
+    "icon": "icons/religion/jain.png",
+    "source_file": "dharmic.txt"
+  },
+  {
+    "id": "sikhism",
+    "group_id": "dharmic",
+    "color": "color_sikhism",
+    "icon": "icons/religion/sikhism.png",
+    "source_file": "dharmic.txt"
+  },
+  {
+    "id": "druzism",
+    "group_id": "druze_group",
+    "color": "religion_druzism",
+    "icon": "icons/religion/druzism.png",
+    "source_file": "druze.txt"
+  },
+  {
+    "id": "bantu_religion",
+    "group_id": "folk_african_group",
+    "color": "map_bantu",
+    "icon": "icons/religion/bantu_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "lugbara_religion",
+    "group_id": "folk_african_group",
+    "color": "map_lugbara",
+    "icon": "icons/religion/lugbara_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "cwezi_religion",
+    "group_id": "folk_african_group",
+    "color": "map_cwezi",
+    "icon": "icons/religion/cwezi_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "bori_religion",
+    "group_id": "folk_african_group",
+    "color": "map_zazzau",
+    "icon": "icons/religion/bori_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "muonyjang_religion",
+    "group_id": "folk_african_group",
+    "color": "map_dinka",
+    "icon": "icons/religion/muonyjang_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "fomba_gasy_religion",
+    "group_id": "folk_african_group",
+    "color": "color_culture_malagasy",
+    "icon": "icons/religion/fomba_gasy_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "maasai_religion",
+    "group_id": "folk_african_group",
+    "color": "color_culture_maasai",
+    "icon": "icons/religion/maasai_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "asis_religion",
+    "group_id": "folk_african_group",
+    "color": "color_culture_kalenjin",
+    "icon": "icons/religion/asis_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "waaqeffanna_religion",
+    "group_id": "folk_african_group",
+    "color": "map_afre",
+    "icon": "icons/religion/waaqeffanna_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "badimo_religion",
+    "group_id": "folk_african_group",
+    "color": "map_sotho",
+    "icon": "icons/religion/badimo_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "kaggen_religion",
+    "group_id": "folk_african_group",
+    "color": "map_khoe",
+    "icon": "icons/religion/kaggen_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "akuj_religion",
+    "group_id": "folk_african_group",
+    "color": "color_culture_turkana",
+    "icon": "icons/religion/akuj_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "akan_religion",
+    "group_id": "folk_african_group",
+    "color": "map_bonoman",
+    "icon": "icons/religion/akan_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "vodun_religion",
+    "group_id": "folk_african_group",
+    "color": "map_ajan",
+    "icon": "icons/religion/vodun_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "abwoi_religion",
+    "group_id": "folk_african_group",
+    "color": "map_benue",
+    "icon": "icons/religion/abwoi_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "isese_religion",
+    "group_id": "folk_african_group",
+    "color": "map_oyo",
+    "icon": "icons/religion/isese_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "ijaw_religion",
+    "group_id": "folk_african_group",
+    "color": "map_ijaw",
+    "icon": "icons/religion/ijaw_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "odinala_religion",
+    "group_id": "folk_african_group",
+    "color": "map_nri",
+    "icon": "icons/religion/odinala_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "a_fat_roog_religion",
+    "group_id": "folk_african_group",
+    "color": "map_serer",
+    "icon": "icons/religion/a_fat_roog_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "dogon_religion",
+    "group_id": "folk_african_group",
+    "color": "map_dogon",
+    "icon": "icons/religion/dogon_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "nyama_religion",
+    "group_id": "folk_african_group",
+    "color": "map_mandinka",
+    "icon": "icons/religion/nyama_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "nyesoa_religion",
+    "group_id": "folk_african_group",
+    "color": "map_eastern_kru",
+    "icon": "icons/religion/nyesoa_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "karama_religion",
+    "group_id": "folk_african_group",
+    "color": "map_zaghawa",
+    "icon": "icons/religion/karama_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "buyli_religion",
+    "group_id": "folk_african_group",
+    "color": "map_dagbon",
+    "icon": "icons/religion/buyli_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "ebore_religion",
+    "group_id": "folk_african_group",
+    "color": "map_gonja",
+    "icon": "icons/religion/ebore_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "adamawa_religion",
+    "group_id": "folk_african_group",
+    "color": "map_adamawa",
+    "icon": "icons/religion/adamawa_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "geno_religion",
+    "group_id": "folk_african_group",
+    "color": "map_fulo",
+    "icon": "icons/religion/geno_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "emit_religion",
+    "group_id": "folk_african_group",
+    "color": "map_jola",
+    "icon": "icons/religion/emit_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "nhaala_religion",
+    "group_id": "folk_african_group",
+    "color": "map_balanta",
+    "icon": "icons/religion/nhaala_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "eso_religion",
+    "group_id": "folk_african_group",
+    "color": "map_kabiye",
+    "icon": "icons/religion/eso_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "naa_wuni_religion",
+    "group_id": "folk_african_group",
+    "color": "map_mamprugu",
+    "icon": "icons/religion/naa_wuni_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "kuru_masaba_religion",
+    "group_id": "folk_african_group",
+    "color": "map_temne",
+    "icon": "icons/religion/kuru_masaba_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "sao_religion",
+    "group_id": "folk_african_group",
+    "color": "map_sao",
+    "icon": "icons/religion/sao_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "rogo_miki_religion",
+    "group_id": "folk_african_group",
+    "color": "map_mossi",
+    "icon": "icons/religion/rogo_miki_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "songhai_religion",
+    "group_id": "folk_african_group",
+    "color": "map_songhai",
+    "icon": "icons/religion/songhai_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "godala_religion",
+    "group_id": "folk_african_group",
+    "color": "map_godala",
+    "icon": "icons/religion/godala_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "nyasaye_religion",
+    "group_id": "folk_african_group",
+    "color": "color_culture_luo",
+    "icon": "icons/religion/nyasaye_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "anna_religion",
+    "group_id": "folk_african_group",
+    "color": "map_kunama",
+    "icon": "icons/religion/anna_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "rebba_religion",
+    "group_id": "folk_african_group",
+    "color": "map_gumuz",
+    "icon": "icons/religion/rebba_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "omo_religion",
+    "group_id": "folk_african_group",
+    "color": "map_omo",
+    "icon": "icons/religion/omo_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "musala_religion",
+    "group_id": "folk_african_group",
+    "color": "rgb",
+    "icon": "icons/religion/musala_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "kalge_religion",
+    "group_id": "folk_african_group",
+    "color": "map_daju",
+    "icon": "icons/religion/kalge_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "mbori_religion",
+    "group_id": "folk_african_group",
+    "color": "map_zande_culture",
+    "icon": "icons/religion/mbori_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "ori_religion",
+    "group_id": "folk_african_group",
+    "color": "map_madi_culture",
+    "icon": "icons/religion/ori_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "ngbandi_religion",
+    "group_id": "folk_african_group",
+    "color": "map_ngbandi",
+    "icon": "icons/religion/ngbandi_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "bua_religion",
+    "group_id": "folk_african_group",
+    "color": "map_bua",
+    "icon": "icons/religion/bua_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "fang_religion",
+    "group_id": "folk_african_group",
+    "color": "map_fang",
+    "icon": "icons/religion/fang_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "ajok_religion",
+    "group_id": "folk_african_group",
+    "color": "map_otuho",
+    "icon": "icons/religion/ajok_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "banda_religion",
+    "group_id": "folk_african_group",
+    "color": "map_banda",
+    "icon": "icons/religion/banda_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "guanche_religion",
+    "group_id": "folk_african_group",
+    "color": "map_guanche",
+    "icon": "icons/religion/guanche_religion.png",
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "kenos_religion",
+    "group_id": "folk_argentinian_group",
+    "color": "map_selknam",
+    "icon": "icons/religion/kenos_religion.png",
+    "source_file": "folk_argentinian.txt"
+  },
+  {
+    "id": "tain_feyentun_religion",
+    "group_id": "folk_argentinian_group",
+    "color": "map_mapuche",
+    "icon": "icons/religion/tain_feyentun_religion.png",
+    "source_file": "folk_argentinian.txt"
+  },
+  {
+    "id": "tokuah_religion",
+    "group_id": "folk_argentinian_group",
+    "color": "map_wichi",
+    "icon": "icons/religion/tokuah_religion.png",
+    "source_file": "folk_argentinian.txt"
+  },
+  {
+    "id": "kilyikhama_religion",
+    "group_id": "folk_argentinian_group",
+    "color": "map_enlhet",
+    "icon": "icons/religion/kilyikhama_religion.png",
+    "source_file": "folk_argentinian.txt"
+  },
+  {
+    "id": "pabichu_religion",
+    "group_id": "folk_argentinian_group",
+    "color": "map_monkox",
+    "icon": "icons/religion/pabichu_religion.png",
+    "source_file": "folk_argentinian.txt"
+  },
+  {
+    "id": "mororuma_religion",
+    "group_id": "folk_argentinian_group",
+    "color": "map_yuracare",
+    "icon": "icons/religion/mororuma_religion.png",
+    "source_file": "folk_argentinian.txt"
+  },
+  {
+    "id": "pericu_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_pericu",
+    "icon": "icons/religion/pericu_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "yuman_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_cochimi",
+    "icon": "icons/religion/yuman_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "cahita_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_pima",
+    "icon": "icons/religion/cahita_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "seri_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_seri",
+    "icon": "icons/religion/seri_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "guasave_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_guasave",
+    "icon": "icons/religion/guasave_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "tepehuan_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_tepehuan",
+    "icon": "icons/religion/tepehuan_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "coahuilteco_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_coahuilteco",
+    "icon": "icons/religion/coahuilteco_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "irritila_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_irritila",
+    "icon": "icons/religion/irritila_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "karankawa_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_karankawa",
+    "icon": "icons/religion/karankawa_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "atakapa_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_atakapa",
+    "icon": "icons/religion/atakapa_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "kachina_religion",
+    "group_id": "folk_aridoamerica_group",
+    "color": "map_ancestral_pueblo",
+    "icon": "icons/religion/kachina_religion.png",
+    "source_file": "folk_aridoamerica.txt"
+  },
+  {
+    "id": "dongba_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_nashi",
+    "icon": "icons/religion/dongba_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "bimoism",
+    "group_id": "folk_asian_group",
+    "color": "map_yi",
+    "icon": "icons/religion/bimoism.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "ka_niam_khasi_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_khasi",
+    "icon": "icons/religion/ka_niam_khasi_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "muong_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_muong",
+    "icon": "icons/religion/muong_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "sarna_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_santal",
+    "icon": "icons/religion/sarna_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "ainu_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_ANU",
+    "icon": "icons/religion/ainu_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "utaki_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_ryukyu",
+    "icon": "icons/religion/utaki_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "koyapunem_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_gondi_language",
+    "icon": "icons/religion/koyapunem_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "bathou_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_bodo",
+    "icon": "icons/religion/bathou_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "donyi_polo_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_tani",
+    "icon": "icons/religion/donyi_polo_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "kirat_mundhum_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_kirati",
+    "icon": "icons/religion/kirat_mundhum_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "mizo_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_zo",
+    "icon": "icons/religion/mizo_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "gosain_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_malto",
+    "icon": "icons/religion/gosain_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "khond_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_khond",
+    "icon": "icons/religion/khond_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "wu_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_she",
+    "icon": "icons/religion/wu_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "yao_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_yao_china_culture",
+    "icon": "icons/religion/yao_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "nuo_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_tujia",
+    "icon": "icons/religion/nuo_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "vedda_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_vedda",
+    "icon": "icons/religion/vedda_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "kam_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_kam",
+    "icon": "icons/religion/kam_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "formosan_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_formosan",
+    "icon": "icons/religion/formosan_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "mulam_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_mulam",
+    "icon": "icons/religion/mulam_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "maonan_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_maonan",
+    "icon": "icons/religion/maonan_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "sui_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_sui",
+    "icon": "icons/religion/sui_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "lisu_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_lisu",
+    "icon": "icons/religion/lisu_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "ngacang_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_ngacang",
+    "icon": "icons/religion/ngacang_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "blang_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_blang",
+    "icon": "icons/religion/blang_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "hani_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_hani",
+    "icon": "icons/religion/hani_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "jino_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_jino",
+    "icon": "icons/religion/jino_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "lahu_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_lahu",
+    "icon": "icons/religion/lahu_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "nu_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_nu",
+    "icon": "icons/religion/nu_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "jingpo_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_jingpo",
+    "icon": "icons/religion/jingpo_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "wa_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_wa",
+    "icon": "icons/religion/wa_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "monpa_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_monpa",
+    "icon": "icons/religion/monpa_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "mishmi_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_mishmi",
+    "icon": "icons/religion/mishmi_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "palaung_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_palaung",
+    "icon": "icons/religion/palaung_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "kundism_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_deori",
+    "icon": "icons/religion/kundism_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "songsarek_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_garo",
+    "icon": "icons/religion/songsarek_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "tiwa_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_tiwa",
+    "icon": "icons/religion/tiwa_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "koch_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_koch",
+    "icon": "icons/religion/koch_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "rabha_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_rabha",
+    "icon": "icons/religion/rabha_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "chutia_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_chutia",
+    "icon": "icons/religion/chutia_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "dimasa_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_dimasa",
+    "icon": "icons/religion/dimasa_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "karbi_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_karbi",
+    "icon": "icons/religion/karbi_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "sora_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_sora",
+    "icon": "icons/religion/sora_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "juang_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_juang",
+    "icon": "icons/religion/juang_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "kharia_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_kharia",
+    "icon": "icons/religion/kharia_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "naga_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_naga",
+    "icon": "icons/religion/naga_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "karen_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_karen",
+    "icon": "icons/religion/karen_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "sedang_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_sedang",
+    "icon": "icons/religion/sedang_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "bahnar_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_bahnar",
+    "icon": "icons/religion/bahnar_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "bru_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_bru",
+    "icon": "icons/religion/bru_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "orang_asli_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_orang_asli",
+    "icon": "icons/religion/orang_asli_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "andamanese_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_andamanese",
+    "icon": "icons/religion/andamanese_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "nicobarese_religion",
+    "group_id": "folk_asian_group",
+    "color": "map_nicobarese",
+    "icon": "icons/religion/nicobarese_religion.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "chukchi_shamanism",
+    "group_id": "folk_asian_group",
+    "color": "map_chukchishaman",
+    "icon": "icons/religion/chukchi_shamanism.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "hmongism",
+    "group_id": "folk_asian_group",
+    "color": "religion_hmongism",
+    "icon": "icons/religion/hmongism.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "moism",
+    "group_id": "folk_asian_group",
+    "color": "religion_moism",
+    "icon": "icons/religion/moism.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "rmaism",
+    "group_id": "folk_asian_group",
+    "color": "religion_rmaism",
+    "icon": "icons/religion/rmaism.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "shamanism",
+    "group_id": "folk_asian_group",
+    "color": "color_shamanism",
+    "icon": "icons/religion/shamanism.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "tengri",
+    "group_id": "folk_asian_group",
+    "color": "color_tengri",
+    "icon": "icons/religion/tengri.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "tungusic_shamanism",
+    "group_id": "folk_asian_group",
+    "color": "map_tungushaman",
+    "icon": "icons/religion/tungusic_shamanism.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "yukaghir_shamanism",
+    "group_id": "folk_asian_group",
+    "color": "map_yukaghirshaman",
+    "icon": "icons/religion/yukaghir_shamanism.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "yupik_shamanism",
+    "group_id": "folk_asian_group",
+    "color": "map_yupik_r",
+    "icon": "icons/religion/yupik_shamanism.png",
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "dreamtime_religion",
+    "group_id": "folk_australian_group",
+    "color": "map_noongar",
+    "icon": "icons/religion/dreamtime_religion.png",
+    "source_file": "folk_australian.txt"
+  },
+  {
+    "id": "akinha_ekugu_religion",
+    "group_id": "folk_brazilian_group",
+    "color": "map_kuikuro",
+    "icon": "icons/religion/akinha_ekugu_religion.png",
+    "source_file": "folk_brazilian.txt"
+  },
+  {
+    "id": "namandu_religion",
+    "group_id": "folk_brazilian_group",
+    "color": "map_tupiniquim",
+    "icon": "icons/religion/namandu_religion.png",
+    "source_file": "folk_brazilian.txt"
+  },
+  {
+    "id": "tunpa_religion",
+    "group_id": "folk_brazilian_group",
+    "color": "map_ava",
+    "icon": "icons/religion/tunpa_religion.png",
+    "source_file": "folk_brazilian.txt"
+  },
+  {
+    "id": "doi_wahire_religion",
+    "group_id": "folk_brazilian_group",
+    "color": "map_akwe",
+    "icon": "icons/religion/doi_wahire_religion.png",
+    "source_file": "folk_brazilian.txt"
+  },
+  {
+    "id": "jurema_religion",
+    "group_id": "folk_brazilian_group",
+    "color": "map_kiriri",
+    "icon": "icons/religion/jurema_religion.png",
+    "source_file": "folk_brazilian.txt"
+  },
+  {
+    "id": "nallagdigua_religion",
+    "group_id": "folk_brazilian_group",
+    "color": "map_guaikuru",
+    "icon": "icons/religion/nallagdigua_religion.png",
+    "source_file": "folk_brazilian.txt"
+  },
+  {
+    "id": "txapakura_religion",
+    "group_id": "folk_brazilian_group",
+    "color": "map_txapakura",
+    "icon": "icons/religion/txapakura_religion.png",
+    "source_file": "folk_brazilian.txt"
+  },
+  {
+    "id": "zemi_religion",
+    "group_id": "folk_caribbean_group",
+    "color": "map_taino",
+    "icon": "icons/religion/zemi_religion.png",
+    "source_file": "folk_caribbean.txt"
+  },
+  {
+    "id": "lenca_religion",
+    "group_id": "folk_central_american_group",
+    "color": "map_lenca",
+    "icon": "icons/religion/lenca_religion.png",
+    "source_file": "folk_central_america.txt"
+  },
+  {
+    "id": "pech_religion",
+    "group_id": "folk_central_american_group",
+    "color": "map_pech",
+    "icon": "icons/religion/pech_religion.png",
+    "source_file": "folk_central_america.txt"
+  },
+  {
+    "id": "wan_aisa_religion",
+    "group_id": "folk_central_american_group",
+    "color": "map_miskito",
+    "icon": "icons/religion/wan_aisa_religion.png",
+    "source_file": "folk_central_america.txt"
+  },
+  {
+    "id": "maleku_religion",
+    "group_id": "folk_central_american_group",
+    "color": "map_maleku",
+    "icon": "icons/religion/maleku_religion.png",
+    "source_file": "folk_central_america.txt"
+  },
+  {
+    "id": "suwo_religion",
+    "group_id": "folk_central_american_group",
+    "color": "map_cabecar",
+    "icon": "icons/religion/suwo_religion.png",
+    "source_file": "folk_central_america.txt"
+  },
+  {
+    "id": "chibcha_religion",
+    "group_id": "folk_central_american_group",
+    "color": "map_guna",
+    "icon": "icons/religion/chibcha_religion.png",
+    "source_file": "folk_central_america.txt"
+  },
+  {
+    "id": "votian_religion",
+    "group_id": "folk_european_group",
+    "color": "map_votian",
+    "icon": "icons/religion/votian_religion.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "hellenism_religion",
+    "group_id": "folk_european_group",
+    "color": "map_greek",
+    "icon": "icons/religion/hellenism_religion.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "karachay_balkar_paganism",
+    "group_id": "folk_european_group",
+    "color": "religion_karachay_balkar",
+    "icon": "icons/religion/karachay_balkar_paganism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "khabzeism",
+    "group_id": "folk_european_group",
+    "color": "religion_khabzeism",
+    "icon": "icons/religion/khabzeism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "lezgin_paganism",
+    "group_id": "folk_european_group",
+    "color": "religion_lezgin",
+    "icon": "icons/religion/lezgin_paganism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "norse",
+    "group_id": "folk_european_group",
+    "color": "color_norse",
+    "icon": "icons/religion/norse.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "alan_paganism",
+    "group_id": "folk_european_group",
+    "color": "religion_alan",
+    "icon": "icons/religion/alan_paganism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "romuva",
+    "group_id": "folk_european_group",
+    "color": "color_romuva",
+    "icon": "icons/religion/romuva.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "sapmi_shamanism",
+    "group_id": "folk_european_group",
+    "color": "map_sapmi",
+    "icon": "icons/religion/sapmi_shamanism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "muinaisusko",
+    "group_id": "folk_european_group",
+    "color": "map_tavastian",
+    "icon": "icons/religion/muinaisusko.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "vainakh_paganism",
+    "group_id": "folk_european_group",
+    "color": "religion_vainakh",
+    "icon": "icons/religion/vainakh_paganism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "mari_paganism",
+    "group_id": "folk_european_group",
+    "color": "religion_mari",
+    "icon": "icons/religion/mari_paganism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "udmurt_paganism",
+    "group_id": "folk_european_group",
+    "color": "religion_udmurt",
+    "icon": "icons/religion/udmurt_paganism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "komi_paganism",
+    "group_id": "folk_european_group",
+    "color": "religion_komi",
+    "icon": "icons/religion/komi_paganism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "samoyedic_paganism",
+    "group_id": "folk_european_group",
+    "color": "religion_samoyedic",
+    "icon": "icons/religion/samoyedic_paganism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "obian_paganism",
+    "group_id": "folk_european_group",
+    "color": "religion_obian",
+    "icon": "icons/religion/obian_paganism.png",
+    "source_file": "folk_european.txt"
+  },
+  {
+    "id": "arosi_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_arosi",
+    "icon": "icons/religion/arosi_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "abu_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_kwaio",
+    "icon": "icons/religion/abu_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "ghari_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_ghari",
+    "icon": "icons/religion/ghari_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "nduke_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_nduke",
+    "icon": "icons/religion/nduke_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "cheke_holo_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_cheke_holo",
+    "icon": "icons/religion/cheke_holo_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "vaghua_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_vaghua",
+    "icon": "icons/religion/vaghua_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "mu_ngava_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_mu_ngava",
+    "icon": "icons/religion/mu_ngava_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "natugu_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_natugu",
+    "icon": "icons/religion/natugu_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "qat_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_tolomako",
+    "icon": "icons/religion/qat_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "itaukei_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_itaukei",
+    "icon": "icons/religion/itaukei_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "kanak_religion",
+    "group_id": "folk_melanesian_group",
+    "color": "map_xaracuu",
+    "icon": "icons/religion/kanak_religion.png",
+    "source_file": "folk_melanesia.txt"
+  },
+  {
+    "id": "puntan_religion",
+    "group_id": "folk_micronesian_group",
+    "color": "map_chamoru",
+    "icon": "icons/religion/puntan_religion.png",
+    "source_file": "folk_micronesia.txt"
+  },
+  {
+    "id": "kajoor_ri_majel_religion",
+    "group_id": "folk_micronesian_group",
+    "color": "map_kajoor_ri_majel",
+    "icon": "icons/religion/kajoor_ri_majel_religion.png",
+    "source_file": "folk_micronesia.txt"
+  },
+  {
+    "id": "yanolop_religion",
+    "group_id": "folk_micronesian_group",
+    "color": "map_yap",
+    "icon": "icons/religion/yanolop_religion.png",
+    "source_file": "folk_micronesia.txt"
+  },
+  {
+    "id": "inuit_religion",
+    "group_id": "folk_north_american_group",
+    "color": "map_inuit",
+    "icon": "icons/religion/inuit_religion.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "dene_religion",
+    "group_id": "folk_north_american_group",
+    "color": "map_dene",
+    "icon": "icons/religion/dene_religion.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "midewiwin_religion",
+    "group_id": "folk_north_american_group",
+    "color": "map_anishinabe",
+    "icon": "icons/religion/midewiwin_religion.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "dene_shamanism",
+    "group_id": "folk_north_american_group",
+    "color": "map_deneshaman",
+    "icon": "icons/religion/dene_shamanism.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "dene_totemism",
+    "group_id": "folk_north_american_group",
+    "color": "map_denesoline",
+    "icon": "icons/religion/dene_totemism.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "great_plains_shamanism",
+    "group_id": "folk_north_american_group",
+    "color": "map_lahkota",
+    "icon": "icons/religion/great_plains_shamanism.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "iroquoian_totemism",
+    "group_id": "folk_north_american_group",
+    "color": "map_wendat",
+    "icon": "icons/religion/iroquoian_totemism.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "mississippian_ceremonial",
+    "group_id": "folk_north_american_group",
+    "color": "map_cahokia",
+    "icon": "icons/religion/mississippian_ceremonial.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "paiute_shamanism",
+    "group_id": "folk_north_american_group",
+    "color": "map_puhagim",
+    "icon": "icons/religion/paiute_shamanism.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "pomo_shamanism",
+    "group_id": "folk_north_american_group",
+    "color": "map_kuksu",
+    "icon": "icons/religion/pomo_shamanism.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "salishan_totemism",
+    "group_id": "folk_north_american_group",
+    "color": "map_saltot",
+    "icon": "icons/religion/salishan_totemism.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "totemism",
+    "group_id": "folk_north_american_group",
+    "color": "color_totemism",
+    "icon": "icons/religion/totemism.png",
+    "source_file": "folk_north_america.txt"
+  },
+  {
+    "id": "imunu_religion",
+    "group_id": "folk_papuan_group",
+    "color": "map_biak",
+    "icon": "icons/religion/imunu_religion.png",
+    "source_file": "folk_papuan.txt"
+  },
+  {
+    "id": "moksha_religion",
+    "group_id": "folk_permic_group",
+    "color": "map_moksha",
+    "icon": "icons/religion/moksha_religion.png",
+    "source_file": "folk_permic.txt"
+  },
+  {
+    "id": "erzya_religion",
+    "group_id": "folk_permic_group",
+    "color": "map_erzya",
+    "icon": "icons/religion/erzya_religion.png",
+    "source_file": "folk_permic.txt"
+  },
+  {
+    "id": "inti",
+    "group_id": "folk_peruvian_group",
+    "color": "color_inti",
+    "icon": "icons/religion/inti.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "naylamp_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_xllang",
+    "icon": "icons/religion/naylamp_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "umina_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_guancavilca",
+    "icon": "icons/religion/umina_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "jama_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_jama_coaque",
+    "icon": "icons/religion/jama_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "pi_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_kanari",
+    "icon": "icons/religion/pi_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "arutam_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_shuar",
+    "icon": "icons/religion/arutam_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "chango_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_chango",
+    "icon": "icons/religion/chango_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "cebil_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_licanantay",
+    "icon": "icons/religion/cebil_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "yastay_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_pazioca",
+    "icon": "icons/religion/yastay_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "gos_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_lule",
+    "icon": "icons/religion/gos_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "pava_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_yurimagua",
+    "icon": "icons/religion/pava_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "chanka_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_chanka",
+    "icon": "icons/religion/chanka_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "chincha_religion",
+    "group_id": "folk_peruvian_group",
+    "color": "map_chincha",
+    "icon": "icons/religion/chincha_religion.png",
+    "source_file": "folk_peruvian.txt"
+  },
+  {
+    "id": "tapu_religion",
+    "group_id": "folk_polynesian_group",
+    "color": "map_hawaiian",
+    "icon": "icons/religion/tapu_religion.png",
+    "source_file": "folk_polynesia.txt"
+  },
+  {
+    "id": "tokelauan_religion",
+    "group_id": "folk_polynesian_group",
+    "color": "map_tokelauan",
+    "icon": "icons/religion/tokelauan_religion.png",
+    "source_file": "folk_polynesia.txt"
+  },
+  {
+    "id": "kaharingan_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_NSR",
+    "icon": "icons/religion/kaharingan_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "kan_khwan_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_kayan",
+    "icon": "icons/religion/kan_khwan_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "adat_puun_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_kenyah",
+    "icon": "icons/religion/adat_puun_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "momolianism_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_BEI",
+    "icon": "icons/religion/momolianism_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "besavik_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_punan",
+    "icon": "icons/religion/besavik_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "aluk_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_torajan",
+    "icon": "icons/religion/aluk_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "malesung_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_BOW",
+    "icon": "icons/religion/malesung_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "marapu_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_sumba",
+    "icon": "icons/religion/marapu_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "arat_sabulungan_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_mentawai",
+    "icon": "icons/religion/arat_sabulungan_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "pengarap_asal_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_SBG",
+    "icon": "icons/religion/pengarap_asal_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "ipok_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_MNU",
+    "icon": "icons/religion/ipok_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "banunut_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_BAI",
+    "icon": "icons/religion/banunut_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "lamoa_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_pamona",
+    "icon": "icons/religion/lamoa_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "tolotang_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_buginese",
+    "icon": "icons/religion/tolotang_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "tolaki_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_tolaki",
+    "icon": "icons/religion/tolaki_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "buton_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_BTN",
+    "icon": "icons/religion/buton_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "tomanuru_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_kaili",
+    "icon": "icons/religion/tomanuru_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "gorontalo_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_gorontalo",
+    "icon": "icons/religion/gorontalo_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "adat_musi_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_talaud",
+    "icon": "icons/religion/adat_musi_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "sangirese_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_sangirese",
+    "icon": "icons/religion/sangirese_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "wetarese_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_wetarese",
+    "icon": "icons/religion/wetarese_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "kirin_koda_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_LRT",
+    "icon": "icons/religion/kirin_koda_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "dua_nggae_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_lio",
+    "icon": "icons/religion/dua_nggae_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "lamatuan_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_rotenese",
+    "icon": "icons/religion/lamatuan_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "naurus_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_seramese",
+    "icon": "icons/religion/naurus_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "mitu_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_kei",
+    "icon": "icons/religion/mitu_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "sula_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_sula",
+    "icon": "icons/religion/sula_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "kolano_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_TER",
+    "icon": "icons/religion/kolano_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "goma_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_JLO",
+    "icon": "icons/religion/goma_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "anitism_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_TDO",
+    "icon": "icons/religion/anitism_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "orang_laut_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_orang_laut",
+    "icon": "icons/religion/orang_laut_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "minangkabau_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_SGT",
+    "icon": "icons/religion/minangkabau_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "pelebegu_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_batak",
+    "icon": "icons/religion/pelebegu_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "nyang_serai_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_rejang",
+    "icon": "icons/religion/nyang_serai_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "piil_pesenggiri_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_lampung",
+    "icon": "icons/religion/piil_pesenggiri_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "orang_rimba_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_orang_rimba",
+    "icon": "icons/religion/orang_rimba_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "enggano_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_enggano",
+    "icon": "icons/religion/enggano_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "degar_religion",
+    "group_id": "folk_se_asian_group",
+    "color": "map_degar",
+    "icon": "icons/religion/degar_religion.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "sanamahism",
+    "group_id": "folk_se_asian_group",
+    "color": "religion_sanamahism",
+    "icon": "icons/religion/sanamahism.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "satsana_phi",
+    "group_id": "folk_se_asian_group",
+    "color": "religion_satsana_phi",
+    "icon": "icons/religion/satsana_phi.png",
+    "source_file": "folk_se_asian.txt"
+  },
+  {
+    "id": "maleiwa_religion",
+    "group_id": "folk_south_american_group",
+    "color": "map_wayuu",
+    "icon": "icons/religion/maleiwa_religion.png",
+    "source_file": "folk_south_american.txt"
+  },
+  {
+    "id": "yopo_religion",
+    "group_id": "folk_south_american_group",
+    "color": "map_guahibo",
+    "icon": "icons/religion/yopo_religion.png",
+    "source_file": "folk_south_american.txt"
+  },
+  {
+    "id": "sinu_religion",
+    "group_id": "folk_south_american_group",
+    "color": "map_sinu",
+    "icon": "icons/religion/sinu_religion.png",
+    "source_file": "folk_south_american.txt"
+  },
+  {
+    "id": "warao_religion",
+    "group_id": "folk_south_american_group",
+    "color": "map_warao",
+    "icon": "icons/religion/warao_religion.png",
+    "source_file": "folk_south_american.txt"
+  },
+  {
+    "id": "naoma_religion",
+    "group_id": "folk_south_american_group",
+    "color": "map_tayrona",
+    "icon": "icons/religion/naoma_religion.png",
+    "source_file": "folk_south_american.txt"
+  },
+  {
+    "id": "muisca_religion",
+    "group_id": "folk_south_american_group",
+    "color": "map_muisca",
+    "icon": "icons/religion/muisca_religion.png",
+    "source_file": "folk_south_american.txt"
+  },
+  {
+    "id": "nacuco_religion",
+    "group_id": "folk_south_american_group",
+    "color": "map_panche",
+    "icon": "icons/religion/nacuco_religion.png",
+    "source_file": "folk_south_american.txt"
+  },
+  {
+    "id": "jai_religion",
+    "group_id": "folk_south_american_group",
+    "color": "map_embera",
+    "icon": "icons/religion/jai_religion.png",
+    "source_file": "folk_south_american.txt"
+  },
+  {
+    "id": "yage_religion",
+    "group_id": "folk_south_american_group",
+    "color": "map_andaqui",
+    "icon": "icons/religion/yage_religion.png",
+    "source_file": "folk_south_american.txt"
+  },
+  {
+    "id": "judaism",
+    "group_id": "israelite_group",
+    "color": "religion_jewish",
+    "icon": "icons/religion/judaism.png",
+    "source_file": "israelite.txt"
+  },
+  {
+    "id": "samaritanism",
+    "group_id": "israelite_group",
+    "color": "religion_samaritanism",
+    "icon": "icons/religion/samaritanism.png",
+    "source_file": "israelite.txt"
+  },
+  {
+    "id": "mandeaism",
+    "group_id": "mandean_group",
+    "color": "religion_mandeaism",
+    "icon": "icons/religion/mandeaism.png",
+    "source_file": "mandean.txt"
+  },
+  {
+    "id": "manichaeism",
+    "group_id": "manichaean_group",
+    "color": "religion_manichaeism",
+    "icon": "icons/religion/manichaeism.png",
+    "source_file": "manichaeism.txt"
+  },
+  {
+    "id": "ibadi",
+    "group_id": "muslim",
+    "color": "color_ibadi",
+    "icon": "icons/religion/ibadi.png",
+    "source_file": "muslim.txt"
+  },
+  {
+    "id": "shia",
+    "group_id": "muslim",
+    "color": "color_shia",
+    "icon": "icons/religion/shia.png",
+    "source_file": "muslim.txt"
+  },
+  {
+    "id": "sunni",
+    "group_id": "muslim",
+    "color": "religion_sunni",
+    "icon": "icons/religion/sunni.png",
+    "source_file": "muslim.txt"
+  },
+  {
+    "id": "nahuatl",
+    "group_id": "tonal_group",
+    "color": "color_nahuatl",
+    "icon": "icons/religion/nahuatl.png",
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "mesoamerican",
+    "group_id": "tonal_group",
+    "color": "color_mesoamerican",
+    "icon": "icons/religion/mesoamerican.png",
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "mayan",
+    "group_id": "tonal_group",
+    "color": "color_mayan",
+    "icon": "icons/religion/mayan.png",
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "chichimecah_religion",
+    "group_id": "tonal_group",
+    "color": "map_teulinchan",
+    "icon": "icons/religion/chichimecah_religion.png",
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "yazidism",
+    "group_id": "yazidi_group",
+    "color": "religion_yazidism",
+    "icon": "icons/religion/yazidism.png",
+    "source_file": "yazidi.txt"
+  },
+  {
+    "id": "zoroastrian",
+    "group_id": "zoroastrian_group",
+    "color": "religion_zoroastrian",
+    "icon": "icons/religion/zoroastrian.png",
+    "source_file": "zoroastrian.txt"
+  }
+]

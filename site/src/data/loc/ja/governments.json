@@ -1,0 +1,22 @@
+{
+  "monarchy": {
+    "name": "君主制",
+    "desc": "$monarchy$は、分割不能な個人主権の原則に基づくgovernment_typeであり、rulerは上流階級のなかで最も高い地位にある。heirは通常、$game_concept_monarch$のdynastyによって決定され、ほとんどの場合で終身統治をおこなう。\\n\\n$game_concept_monarchs$は、royal_marriagesを利用してalliancesを形成できる。また、personal_unionsを通じて他国を継承することもできる。しかし、継承はしばしば厄介な問題であり、君主国は容易にregenciesに陥ったり、他国の$game_concept_dynasties$の影響下に置かれたりする可能性がある。"
+  },
+  "republic": {
+    "name": "共和国",
+    "desc": "$republic$はgovernment_typeであり、rulersがelectionによって選ばれ、一定期間市民の代表を務める。heir_selectionに応じて、$game_concept_ruler$はestatesのいずれかに属する可能性がある。\\n\\n政治制度が強固なため、共和国は相続問題に対する対応力が高いが、個人による統治ではないため、自由に使える外交手段が制限される。そのため、dynastiesの役割は小さくなり、共和国はroyal_marriagesから恩恵を受けることができない。"
+  },
+  "theocracy": {
+    "name": "神権制",
+    "desc": "$theocracy$は神の主権の原則に基づくgovernment_typeであり、rulerは聖職者たちから選ばれ、世俗的な事項は宗教的権威に従属する。\\n\\n$game_concept_rulers$は通常、なんらかの形式のelectionによって選ばれ、生涯にわたり統治するため、混乱の少ない権力移譲が可能となる。"
+  },
+  "steppe_horde": {
+    "name": "ステップ遊牧民",
+    "desc": "$steppe_horde$は、rulerの軍事力に基づくgovernment_typeである。現在の$game_concept_ruler$の親族はheirになる可能性が高くなるが、年功序列と個人のabilitiesも非常に重視される。\\n\\n$game_concept_rulers$は社会の上流階級出身である。そして、近隣諸国を征服、破壊、略奪する能力があることを証明できるかぎり、仲間の忠誠を保つことができる。そのため、継承は$steppe_horde$にとって重大な出来事であり、新たな$game_concept_ruler$がその力を発揮できなければ崩壊につながる可能性さえある。"
+  },
+  "tribe": {
+    "name": "部族",
+    "desc": "$tribe$は、直系の血筋や祖先からの血縁関係を中心に政治権力が構築されるgovernment_typeである。\\n\\nしたがって、heirを決定する際はdynastiesや一族とのつながりが最も重要である。後継者はつねに社会の上層に属することになるが、年功序列、個人のabilities、軍事的才能もしばしば重視される。"
+  }
+}

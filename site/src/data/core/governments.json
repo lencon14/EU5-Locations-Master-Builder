@@ -1,0 +1,55 @@
+[
+  {
+    "id": "monarchy",
+    "modifier": {
+      "care_about_producing_heirs": true
+    },
+    "icon": "icons/government_types/monarchy.png",
+    "source_file": "00_default.txt"
+  },
+  {
+    "id": "republic",
+    "modifier": {
+      "court_language_is_market_language_importance_modifier": 1
+    },
+    "icon": "icons/government_types/republic.png",
+    "source_file": "00_default.txt"
+  },
+  {
+    "id": "theocracy",
+    "modifier": {
+      "force_convert_created_subjects": true,
+      "court_language_is_liturgical_language_importance_modifier": 10
+    },
+    "icon": "icons/government_types/theocracy.png",
+    "source_file": "00_default.txt"
+  },
+  {
+    "id": "steppe_horde",
+    "modifier": {
+      "court_language_is_common_language_importance_modifier": 10,
+      "horde_unity_hit_at_ruler_death": -50,
+      "war_no_cb_cost_modifier": -0.5,
+      "amount_looted_modifier": 0.33,
+      "rural_settlement_downgrade_cost_modifier": -0.75,
+      "global_war_score_cost": -0.2,
+      "care_about_producing_heirs": true,
+      "combined_arms_max_threshold": 0.2,
+      "combined_bonus_per_type": -0.01
+    },
+    "icon": "icons/government_types/steppe_horde.png",
+    "source_file": "00_default.txt"
+  },
+  {
+    "id": "tribe",
+    "modifier": {
+      "court_language_is_common_language_importance_modifier": 10,
+      "rural_settlement_downgrade_cost_modifier": -0.5,
+      "global_nobles_food_consumption": -0.25,
+      "diplomatic_upkeep_modifier": -0.75,
+      "care_about_producing_heirs": true
+    },
+    "icon": "icons/government_types/tribe.png",
+    "source_file": "00_default.txt"
+  }
+]

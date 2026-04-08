@@ -1,0 +1,1261 @@
+{
+  "bon": {
+    "name": "苯教",
+    "desc": "苯教起源于$buddhist$传入$tibet_region$地区之前的宗教传统，后来深受$tibetan_buddhism$的影响。它与$SECT_NYIGMA_NAME$尤为接近，但仍保留了许多前$buddhist$时期的元素。其教义专注于业力与轮回，以及实现觉悟的途径。"
+  },
+  "mahayana": {
+    "name": "汉传佛教",
+    "desc": "大乘佛教音译为“摩诃衍那”，是$buddhist$的一个分支，它不仅接受早期$buddhist_ADJ$的经典，还接纳大乘$sutra$。它强调$bodhisattva$的形象，认为$bodhisattva$道是所有人皆可修行的成佛之路。虽然大乘佛教最初在$india$发展，但其主要扩展是通过$china$和丝绸之路实现的，如今汉文大藏经构成了所有$mahayana$的基础。"
+  },
+  "shinto": {
+    "name": "神道教",
+    "desc": "神道教是一系列围绕神祇崇拜的信仰与实践，在$buddhist$传入$japan_region$之前就已存在。随着$buddhist$在$japan_region$的传播，这些信仰与$buddhist_ADJ$的实践和教义紧密结合，相互交融。神道教的神祇与$buddhist$的诸佛被视作同一体，两种信仰在功能上变得密不可分。这催生了一种具有$japanese_group$特色的$buddhist_ADJ$形式，同时也形成了受$buddhist$影响的神道崇拜。"
+  },
+  "theravada": {
+    "name": "上座部佛教",
+    "desc": "上座部佛教直译为“长老部”，坚持$buddhist$最古老的传承。它拒绝接受大乘$sutra$，因此不接受$bodhisattva$，也不认可$bodhisattva$道为普世修行的途径。相反，它强调僧伽团体作为实现觉悟的优越方式。"
+  },
+  "sammitiya": {
+    "name": "正量部佛教",
+    "desc": "$sammitiya$是$india$早期$buddhist$的众多分支之一，在$sindh_area$地区发展，成为早期$buddhist_ADJ$的重要中心，甚至可与大乘佛教的那烂陀寺相媲美。作为$india$最大的非大乘$buddhist$派别，它在$muslim_ADJ$入侵后失去了其显赫地位。"
+  },
+  "tibetan_buddhism": {
+    "name": "藏传佛教",
+    "desc": "藏传佛教是沿喜马拉雅山脉发展起来的$buddhist$形式，源自大乘佛教传统，但由于与印度的密切接触以及$buddhist$在印度后期的发展，它融入了许多密宗实践。"
+  },
+  "sanjiao": {
+    "name": "三教",
+    "desc": "$confucianism_policy$思想、$daoism_policy$与$buddhist$相互交融的体系，在$china$被统称为“三教”。千百年来，它们共同植根于华夏沃土，与诸多$chinese_group$民间信仰及神明体系交织影响。虽三教并非始终和谐并存，却始终深刻塑造着$chinese_group$民族的生活方式与精神脉络。"
+  },
+  "anglican": {
+    "name": "圣公宗",
+    "desc": "$anglican$是$christian$的一种形式，其国家元首同时也是教会的最高领袖。在神学与制度上，$anglican$保留了许多$catholic$的元素，同时也受到改革宗清教徒和欧洲大陆的$lutheran_ADJ$信仰的影响。"
+  },
+  "bogomilism": {
+    "name": "鲍格米勒派",
+    "desc": "$bogomilism$是$christian$的一个新诺斯替主义与二元论分支，其教导存在分为灵性领域与物质领域。其信徒将身体视为神圣的殿堂，并通过净化仪式努力接近上帝。这些实践包括禁食、舞蹈以及拒绝物质享受，以专注于灵性成长。"
+  },
+  "bosnian_church": {
+    "name": "波斯尼亚教会",
+    "desc": "$bosnian_church$是$catholic_ADJ$会的分裂教派，由于长期与主流基督教隔离，发展出了独特的神学。它着重于末日主题，拥抱神秘主义，同时保留了许多早期$christian$的古老实践。这些特质导致$catholic_ADJ$会与$orthodox_ADJ$会都将其谴责为异端。"
+  },
+  "calvinist": {
+    "name": "加尔文宗",
+    "desc": "$calvinist$以约翰·加尔文命名，是新教的重要分支，根植于崇拜简朴与圣经至上的原则。其教义强调预定论，主张上帝已预先决定了所有造物的命运。"
+  },
+  "catharism": {
+    "name": "清洁派",
+    "desc": "$catharism$是一个二元论宗教派别，相信存在两位神：一位是仁慈的天堂之神，另一位是邪恶的对立神。其追随者过着禁欲生活，认为灵魂被困在肉体中是宇宙斗争的一部分。通过严格纪律实现的灵性净化被视为唯一的救赎之路。"
+  },
+  "catholic": {
+    "name": "天主教",
+    "desc": "$catholic$由教宗领导，以尼西亚信经为基础，是$christian$最大的教派，教宗被视为圣伯多禄的宗教继承者。教宗既是教会的领袖，也是$christian_ADJ$统治者之间冲突的调解者。其教义与传统塑造了西方世界的大部分宗教与文化历史。"
+  },
+  "hussite": {
+    "name": "胡斯派",
+    "desc": "$hussite_ADJ$教会由扬·胡斯创立，是$BOH$地区的一个早期新教运动，融合了$BYZ_ADJ$礼要素与约翰·威克里夫的教义。它强调兼领圣体圣血以及圣经高于教会传统的重要性。"
+  },
+  "lollardy": {
+    "name": "罗拉德派",
+    "desc": "$lollardy$由约翰·威克里夫领导，是一场早期宗教改革运动。它倡导普世祭司职分，并拒绝洗礼与告解等圣事对救赎的必要性。其教义强调通过圣经直接与上帝沟通，圣经被翻译成通俗语言，这使得其神学为普通民众所接受，并推动了早期教会改革的呼声。"
+  },
+  "lutheran": {
+    "name": "路德宗",
+    "desc": "$lutheran$基于马丁·路德的《九十五条论纲》，最初是对$catholic_ADJ$会改革的呼吁，后来发展为一个独立的新教教派。它教导旧约与新约圣经是$christian_ADJ$教义唯一无误的权威。"
+  },
+  "miaphysite": {
+    "name": "基督合性派",
+    "desc": "$miaphysite$教导在基督的位格中，其神性与人性结合为一个不可分割的本性。这一教义源自以弗所大公会议，广泛传播于亚美尼亚、埃及和埃塞俄比亚等地区。$miaphysite_ADJ$社区保留了其独特的礼仪与传统，强调基督作为神与人的合一。"
+  },
+  "nestorianism": {
+    "name": "聂斯脱里派",
+    "desc": "$nestorianism$以聂斯脱里命名，教导基督的神性与人性是完全分离的，并存于一体。这一教义被以弗所大公会议拒绝，但在波斯及其他地区找到了强大的追随者。聂斯脱里派基督徒将其信仰传播至$asia$，成为覆盖地域最广的$christian_ADJ$宗教。"
+  },
+  "orthodox": {
+    "name": "东正教",
+    "desc": "$orthodox_ADJ$教会根植于$christian_ADJ$早期大公会议的传统，强调使徒教导与神圣传统的连续性。以$BYZ_ADJ$仪规为中心，$orthodox_ADJ$极为重视礼仪、圣像与神秘主义。$orthodox_ADJ$信仰由牧首领导，君士坦丁堡普世牧首享有荣誉上的首席地位。"
+  },
+  "paulicianism": {
+    "name": "保禄派",
+    "desc": "$paulicianism$是一个二元论$christian_ADJ$派别，拒绝物质世界，认为其是邪恶力量的创造物。其信徒认为只有灵性领域是纯洁的，并基于新约建立其信仰，完全拒绝旧约。$paulicianism_ADJ$运动受到$catholic_ADJ$会与$orthodox_ADJ$会的迫害，但抵制了同化，并启发了后来的改革派运动。"
+  },
+  "strigolniki": {
+    "name": "剪裁派",
+    "desc": "$strigolniki$兴起于中世纪$russian_region$地区，是一个批判既定$orthodox_ADJ$会的改革派教派。他们谴责神职人员的腐败、圣事的买卖以及教会财富的积累。$strigolniki_ADJ$倾向于一种更简单的信仰，专注于个人虔诚，因此成为$orthodox_ADJ$会与政府当局的目标。"
+  },
+  "waldensian": {
+    "name": "瓦勒度派",
+    "desc": "$waldensian$派由彼得·瓦勒度创立，是一个强调简朴、贫穷与圣经权威的$christian_ADJ$改革派运动。他们拒绝神职人员的财富、圣徒崇拜以及圣事对救赎的必要性。$waldensian_ADJ$作为异端受到迫害，但其精神在$europe$传播，并经受住了数个世纪的压迫。"
+  },
+  "hindu": {
+    "name": "印度教",
+    "desc": "$hindu$并非统一的宗教，而是多种信仰的集合，通常被认为是世界上最古老的宗教传统。其所有信仰与实践被理解为对“正法”（宇宙秩序）的解释，源自古老的吠陀文献。由于其多样性，$hindu_ADJ$包含众多神祇，但并非所有神祇都受到同等崇拜，甚至并非所有$hindu$信徒都认可这些神祇，这取决于他们的具体信仰与取向。印度教的四大主要分支是$vaishnavism$、$shaktism$、$shaivism$和$smartism$。"
+  },
+  "jain": {
+    "name": "耆那教",
+    "desc": "$jain$是最古老的宗教之一，是一种印度$dharmic_ADJ$宗教，专注于自我实现与解脱生死轮回。它以非暴力与苦行主义为核心，通过渡津者（$dharmic_ADJ$的至高导师）的教义进行修行，并分为天衣派与白衣派。天衣派意为“以天为衣”，其特点是拒绝物质依附与拥有，因此其僧侣不穿衣物，其圣像也更为朴素。白衣派则因其僧侣身着白衣而得名，男女僧侣地位更为平等，与更偏向男性的天衣派形成对比。"
+  },
+  "sikhism": {
+    "name": "锡克教",
+    "desc": "锡克教根据$character_title_guru$的教义创立，起源于$india$多样的$hindu_ADJ$信仰，并融合了许多$muslim$的影响。它信仰一位造物主“$sikhism_god_name$”，并倡导诚实无私地行事以造福众生。它鼓励通过冥想与沉思、诵经与音乐等方式与神圣连接，从而感知独一真神的存在。"
+  },
+  "druzism": {
+    "name": "德鲁兹派",
+    "desc": "尽管$druzism_ADJ$起源于$ismaili_school$，但其信徒并不自视为$muslim_ADJ$。除了明显的$muslim$影响外，它还受到其他亚伯拉罕宗教与非亚伯拉罕宗教的影响，形成了一种强调神秘主义与“宇宙心智”的独特信仰，认为所有灵魂在多次转世后将回归其中。"
+  },
+  "bantu_religion": {
+    "name": "班图拜物教",
+    "desc": "$bantu_religion$$common_folk_religion_desc$"
+  },
+  "lugbara_religion": {
+    "name": "阿德罗教",
+    "desc": "$lugbara_religion$$common_folk_religion_desc$"
+  },
+  "cwezi_religion": {
+    "name": "契韦齐信仰",
+    "desc": "$cwezi_religion$$common_folk_religion_desc$"
+  },
+  "bori_religion": {
+    "name": "博里泛灵论",
+    "desc": "$bori_religion$$common_folk_religion_desc$"
+  },
+  "muonyjang_religion": {
+    "name": "坚格信仰",
+    "desc": "$muonyjang_religion$$common_folk_religion_desc$"
+  },
+  "fomba_gasy_religion": {
+    "name": "丰巴加西崇拜",
+    "desc": "$fomba_gasy_religion$$common_folk_religion_desc$"
+  },
+  "maasai_religion": {
+    "name": "尼亚加崇拜",
+    "desc": "$maasai_religion$$common_folk_religion_desc$"
+  },
+  "asis_religion": {
+    "name": "阿西斯教",
+    "desc": "$asis_religion$$common_folk_religion_desc$"
+  },
+  "waaqeffanna_religion": {
+    "name": "瓦格教",
+    "desc": "$waaqeffanna_religion$$common_folk_religion_desc$"
+  },
+  "badimo_religion": {
+    "name": "巴迪莫祖灵信仰",
+    "desc": "$badimo_religion$$common_folk_religion_desc$"
+  },
+  "kaggen_religion": {
+    "name": "卡根神话",
+    "desc": "$kaggen_religion$$common_folk_religion_desc$"
+  },
+  "akuj_religion": {
+    "name": "阿库吉教",
+    "desc": "$akuj_religion$$common_folk_religion_desc$"
+  },
+  "akan_religion": {
+    "name": "阿科姆教",
+    "desc": "$akan_religion$$common_folk_religion_desc$"
+  },
+  "vodun_religion": {
+    "name": "巫毒教",
+    "desc": "$vodun_religion$$common_folk_religion_desc$"
+  },
+  "abwoi_religion": {
+    "name": "阿布沃伊崇拜",
+    "desc": "$abwoi_religion$$common_folk_religion_desc$"
+  },
+  "isese_religion": {
+    "name": "奥里沙教",
+    "desc": "$isese_religion$$common_folk_religion_desc$"
+  },
+  "ijaw_religion": {
+    "name": "埃格贝苏教",
+    "desc": "$ijaw_religion$$common_folk_religion_desc$"
+  },
+  "odinala_religion": {
+    "name": "奥迪纳拉教",
+    "desc": "$odinala_religion$$common_folk_religion_desc$"
+  },
+  "a_fat_roog_religion": {
+    "name": "鲁格至大教",
+    "desc": "$a_fat_roog_religion$$common_folk_religion_desc$"
+  },
+  "dogon_religion": {
+    "name": "锡圭教",
+    "desc": "$dogon_religion$$common_folk_religion_desc$"
+  },
+  "nyama_religion": {
+    "name": "恩亚马信仰",
+    "desc": "$nyama_religion$$common_folk_religion_desc$"
+  },
+  "nyesoa_religion": {
+    "name": "尼亚索阿教",
+    "desc": "$nyesoa_religion$$common_folk_religion_desc$"
+  },
+  "karama_religion": {
+    "name": "卡拉玛仪俗",
+    "desc": "$karama_religion$$common_folk_religion_desc$"
+  },
+  "buyli_religion": {
+    "name": "布格利崇拜",
+    "desc": "$buyli_religion$$common_folk_religion_desc$"
+  },
+  "ebore_religion": {
+    "name": "埃博里教",
+    "desc": "$ebore_religion$$common_folk_religion_desc$"
+  },
+  "adamawa_religion": {
+    "name": "阿达马瓦信仰",
+    "desc": "$adamawa_religion$$common_folk_religion_desc$"
+  },
+  "geno_religion": {
+    "name": "格诺崇拜",
+    "desc": "$geno_religion$$common_folk_religion_desc$"
+  },
+  "emit_religion": {
+    "name": "埃米泰信仰",
+    "desc": "$emit_religion$$common_folk_religion_desc$"
+  },
+  "nhaala_religion": {
+    "name": "纳阿拉信仰",
+    "desc": "$nhaala_religion$$common_folk_religion_desc$"
+  },
+  "eso_religion": {
+    "name": "埃索信仰",
+    "desc": "$eso_religion$$common_folk_religion_desc$"
+  },
+  "naa_wuni_religion": {
+    "name": "纳乌尼信仰",
+    "desc": "$naa_wuni_religion$$common_folk_religion_desc$"
+  },
+  "kuru_masaba_religion": {
+    "name": "库鲁·马萨巴信仰",
+    "desc": "$kuru_masaba_religion$$common_folk_religion_desc$"
+  },
+  "sao_religion": {
+    "name": "萨奥信仰",
+    "desc": "$sao_religion$$common_folk_religion_desc$"
+  },
+  "rogo_miki_religion": {
+    "name": "罗戈米基古道",
+    "desc": "$rogo_miki_religion$$common_folk_religion_desc$"
+  },
+  "songhai_religion": {
+    "name": "桑海信仰",
+    "desc": "$songhai_religion$$common_folk_religion_desc$"
+  },
+  "godala_religion": {
+    "name": "戈达拉信仰",
+    "desc": "$godala_religion$$common_folk_religion_desc$"
+  },
+  "nyasaye_religion": {
+    "name": "尼亚萨耶教",
+    "desc": "$nyasaye_religion$$common_folk_religion_desc$"
+  },
+  "anna_religion": {
+    "name": "阿拿教",
+    "desc": "$anna_religion$$common_folk_religion_desc$"
+  },
+  "rebba_religion": {
+    "name": "雷巴教",
+    "desc": "$rebba_religion$$common_folk_religion_desc$"
+  },
+  "omo_religion": {
+    "name": "奥莫信仰",
+    "desc": "$omo_religion$$common_folk_religion_desc$"
+  },
+  "musala_religion": {
+    "name": "穆萨拉教",
+    "desc": "$musala_religion$$common_folk_religion_desc$"
+  },
+  "kalge_religion": {
+    "name": "卡尔格教",
+    "desc": "$kalge_religion$$common_folk_religion_desc$"
+  },
+  "mbori_religion": {
+    "name": "姆博里教",
+    "desc": "$mbori_religion$$common_folk_religion_desc$"
+  },
+  "ori_religion": {
+    "name": "奥里祖灵崇拜",
+    "desc": "$ori_religion$$common_folk_religion_desc$"
+  },
+  "ngbandi_religion": {
+    "name": "恩本迪拜物教",
+    "desc": "$ngbandi_religion$$common_folk_religion_desc$"
+  },
+  "bua_religion": {
+    "name": "布阿泛灵论",
+    "desc": "$bua_religion$$common_folk_religion_desc$"
+  },
+  "fang_religion": {
+    "name": "梅贝格崇拜",
+    "desc": "$fang_religion$$common_folk_religion_desc$"
+  },
+  "ajok_religion": {
+    "name": "阿约克崇拜",
+    "desc": "$ajok_religion$$common_folk_religion_desc$"
+  },
+  "banda_religion": {
+    "name": "班达泛灵论",
+    "desc": "$banda_religion$$common_folk_religion_desc$"
+  },
+  "guanche_religion": {
+    "name": "阿查曼教",
+    "desc": "$guanche_religion$$common_folk_religion_desc$"
+  },
+  "kenos_religion": {
+    "name": "科诺斯教",
+    "desc": "$kenos_religion$$common_folk_religion_desc$"
+  },
+  "tain_feyentun_religion": {
+    "name": "恩切教",
+    "desc": "$tain_feyentun_religion$$common_folk_religion_desc$"
+  },
+  "tokuah_religion": {
+    "name": "托克瓦萨满教",
+    "desc": "$tokuah_religion$$common_folk_religion_desc$"
+  },
+  "kilyikhama_religion": {
+    "name": "基利哈玛萨满教",
+    "desc": "$kilyikhama_religion$$common_folk_religion_desc$"
+  },
+  "pabichu_religion": {
+    "name": "帕比丘教",
+    "desc": "$pabichu_religion$$common_folk_religion_desc$"
+  },
+  "mororuma_religion": {
+    "name": "莫罗鲁玛信仰",
+    "desc": "$mororuma_religion$$common_folk_religion_desc$"
+  },
+  "pericu_religion": {
+    "name": "尼帕拉亚教",
+    "desc": "$pericu_religion$$common_folk_religion_desc$"
+  },
+  "yuman_religion": {
+    "name": "尤玛信仰",
+    "desc": "$yuman_religion$$common_folk_religion_desc$"
+  },
+  "cahita_religion": {
+    "name": "卡希塔信仰",
+    "desc": "$cahita_religion$$common_folk_religion_desc$"
+  },
+  "seri_religion": {
+    "name": "科姆卡克信仰",
+    "desc": "$seri_religion$$common_folk_religion_desc$"
+  },
+  "guasave_religion": {
+    "name": "瓜萨韦信仰",
+    "desc": "$guasave_religion$$common_folk_religion_desc$"
+  },
+  "tepehuan_religion": {
+    "name": "奥达姆教",
+    "desc": "$tepehuan_religion$$common_folk_religion_desc$"
+  },
+  "coahuilteco_religion": {
+    "name": "科阿韦尔特科信仰",
+    "desc": "$coahuilteco_religion$$common_folk_religion_desc$"
+  },
+  "irritila_religion": {
+    "name": "伊里提拉信仰",
+    "desc": "$irritila_religion$$common_folk_religion_desc$"
+  },
+  "karankawa_religion": {
+    "name": "卡兰卡瓦信仰",
+    "desc": "$karankawa_religion$$common_folk_religion_desc$"
+  },
+  "atakapa_religion": {
+    "name": "阿塔卡帕信仰",
+    "desc": "$atakapa_religion$$common_folk_religion_desc$"
+  },
+  "kachina_religion": {
+    "name": "克契奈人形信仰",
+    "desc": "$kachina_religion$$common_folk_religion_desc$"
+  },
+  "dongba_religion": {
+    "name": "东巴教",
+    "desc": "$dongba_religion$$common_folk_religion_desc$"
+  },
+  "bimoism": {
+    "name": "",
+    "desc": "$bimoism$$common_folk_religion_desc$"
+  },
+  "ka_niam_khasi_religion": {
+    "name": "卡尼阿姆教",
+    "desc": "$ka_niam_khasi_religion$$common_folk_religion_desc$"
+  },
+  "muong_religion": {
+    "name": "芒教",
+    "desc": "$muong_religion$$common_folk_religion_desc$"
+  },
+  "sarna_religion": {
+    "name": "娑罗教",
+    "desc": "$sarna_religion$$common_folk_religion_desc$"
+  },
+  "ainu_religion": {
+    "name": "神威信仰",
+    "desc": "$ainu_religion$$common_folk_religion_desc$"
+  },
+  "utaki_religion": {
+    "name": "御岳崇拜",
+    "desc": "$utaki_religion$$common_folk_religion_desc$"
+  },
+  "koyapunem_religion": {
+    "name": "拘耶补念教",
+    "desc": "$koyapunem_religion$$common_folk_religion_desc$"
+  },
+  "bathou_religion": {
+    "name": "巴图教",
+    "desc": "$bathou_religion$$common_folk_religion_desc$"
+  },
+  "donyi_polo_religion": {
+    "name": "冬尼波罗教",
+    "desc": "$donyi_polo_religion$$common_folk_religion_desc$"
+  },
+  "kirat_mundhum_religion": {
+    "name": "门顿教",
+    "desc": "$kirat_mundhum_religion$$common_folk_religion_desc$"
+  },
+  "mizo_religion": {
+    "name": "米佐泛灵论",
+    "desc": "$mizo_religion$$common_folk_religion_desc$"
+  },
+  "gosain_religion": {
+    "name": "戈赛因派",
+    "desc": "$gosain_religion$$common_folk_religion_desc$"
+  },
+  "khond_religion": {
+    "name": "孔德泛灵论",
+    "desc": "$khond_religion$$common_folk_religion_desc$"
+  },
+  "wu_religion": {
+    "name": "巫觋教",
+    "desc": "$wu_religion$$common_folk_religion_desc$"
+  },
+  "yao_religion": {
+    "name": "梅山教",
+    "desc": "$yao_religion$$common_folk_religion_desc$"
+  },
+  "nuo_religion": {
+    "name": "傩教",
+    "desc": "$nuo_religion$$common_folk_religion_desc$"
+  },
+  "vedda_religion": {
+    "name": "维达泛灵论",
+    "desc": "$vedda_religion$$common_folk_religion_desc$"
+  },
+  "kam_religion": {
+    "name": "萨岁崇拜",
+    "desc": "$kam_religion$$common_folk_religion_desc$"
+  },
+  "formosan_religion": {
+    "name": "汉图泛灵论",
+    "desc": "$formosan_religion$$common_folk_religion_desc$"
+  },
+  "mulam_religion": {
+    "name": "仫佬民俗信仰",
+    "desc": "$mulam_religion$$common_folk_religion_desc$"
+  },
+  "maonan_religion": {
+    "name": "毛南民俗信仰",
+    "desc": "$maonan_religion$$common_folk_religion_desc$"
+  },
+  "sui_religion": {
+    "name": "水书信仰",
+    "desc": "$sui_religion$$common_folk_religion_desc$"
+  },
+  "lisu_religion": {
+    "name": "傈僳泛灵论",
+    "desc": "$lisu_religion$$common_folk_religion_desc$"
+  },
+  "ngacang_religion": {
+    "name": "阿昌泛灵论",
+    "desc": "$ngacang_religion$$common_folk_religion_desc$"
+  },
+  "blang_religion": {
+    "name": "布朗泛灵论",
+    "desc": "$blang_religion$$common_folk_religion_desc$"
+  },
+  "hani_religion": {
+    "name": "哈尼泛灵论",
+    "desc": "$hani_religion$$common_folk_religion_desc$"
+  },
+  "jino_religion": {
+    "name": "基诺泛灵论",
+    "desc": "$jino_religion$$common_folk_religion_desc$"
+  },
+  "lahu_religion": {
+    "name": "厄莎信仰",
+    "desc": "$lahu_religion$$common_folk_religion_desc$"
+  },
+  "nu_religion": {
+    "name": "怒族泛灵论",
+    "desc": "$nu_religion$$common_folk_religion_desc$"
+  },
+  "jingpo_religion": {
+    "name": "载瓦泛灵论",
+    "desc": "$jingpo_religion$$common_folk_religion_desc$"
+  },
+  "wa_religion": {
+    "name": "木依吉崇拜",
+    "desc": "$wa_religion$$common_folk_religion_desc$"
+  },
+  "monpa_religion": {
+    "name": "门巴泛灵论",
+    "desc": "$monpa_religion$$common_folk_religion_desc$"
+  },
+  "mishmi_religion": {
+    "name": "米什米泛灵论",
+    "desc": "$mishmi_religion$$common_folk_religion_desc$"
+  },
+  "palaung_religion": {
+    "name": "崩龙泛灵论",
+    "desc": "$palaung_religion$$common_folk_religion_desc$"
+  },
+  "kundism_religion": {
+    "name": "昆迪泛灵论",
+    "desc": "$kundism_religion$$common_folk_religion_desc$"
+  },
+  "songsarek_religion": {
+    "name": "松萨雷泛灵论",
+    "desc": "$songsarek_religion$$common_folk_religion_desc$"
+  },
+  "tiwa_religion": {
+    "name": "蒂瓦泛灵论",
+    "desc": "$tiwa_religion$$common_folk_religion_desc$"
+  },
+  "koch_religion": {
+    "name": "库奇泛灵论",
+    "desc": "$koch_religion$$common_folk_religion_desc$"
+  },
+  "rabha_religion": {
+    "name": "拉巴泛灵论",
+    "desc": "$rabha_religion$$common_folk_religion_desc$"
+  },
+  "chutia_religion": {
+    "name": "久蒂亚泛灵论",
+    "desc": "$chutia_religion$$common_folk_religion_desc$"
+  },
+  "dimasa_religion": {
+    "name": "戴科泛灵论",
+    "desc": "$dimasa_religion$$common_folk_religion_desc$"
+  },
+  "karbi_religion": {
+    "name": "米基尔泛灵论",
+    "desc": "$karbi_religion$$common_folk_religion_desc$"
+  },
+  "sora_religion": {
+    "name": "萨瓦拉泛灵论",
+    "desc": "$sora_religion$$common_folk_religion_desc$"
+  },
+  "juang_religion": {
+    "name": "朱昂泛灵论",
+    "desc": "$juang_religion$$common_folk_religion_desc$"
+  },
+  "kharia_religion": {
+    "name": "卡里亚泛灵论",
+    "desc": "$kharia_religion$$common_folk_religion_desc$"
+  },
+  "naga_religion": {
+    "name": "那加泛灵论",
+    "desc": "$naga_religion$$common_folk_religion_desc$"
+  },
+  "karen_religion": {
+    "name": "克伦泛灵论",
+    "desc": "$karen_religion$$common_folk_religion_desc$"
+  },
+  "sedang_religion": {
+    "name": "色当泛灵论",
+    "desc": "$sedang_religion$$common_folk_religion_desc$"
+  },
+  "bahnar_religion": {
+    "name": "巴拿泛灵论",
+    "desc": "$bahnar_religion$$common_folk_religion_desc$"
+  },
+  "bru_religion": {
+    "name": "布鲁泛灵论",
+    "desc": "$bru_religion$$common_folk_religion_desc$"
+  },
+  "orang_asli_religion": {
+    "name": "阿斯里泛灵论",
+    "desc": "$orang_asli_religion$$common_folk_religion_desc$"
+  },
+  "andamanese_religion": {
+    "name": "安达曼泛灵论",
+    "desc": "$andamanese_religion$$common_folk_religion_desc$"
+  },
+  "nicobarese_religion": {
+    "name": "尼科巴泛灵论",
+    "desc": "$nicobarese_religion$$common_folk_religion_desc$"
+  },
+  "chukchi_shamanism": {
+    "name": "楚科奇萨满教",
+    "desc": "$chukchi_shamanism$$common_folk_religion_desc$"
+  },
+  "hmongism": {
+    "name": "",
+    "desc": "$hmongism$$common_folk_religion_desc$"
+  },
+  "moism": {
+    "name": "",
+    "desc": "$moism$$common_folk_religion_desc$"
+  },
+  "rmaism": {
+    "name": "",
+    "desc": "$rmaism$$common_folk_religion_desc$"
+  },
+  "shamanism": {
+    "name": "萨满教",
+    "desc": "萨满教是一系列以萨满为核心的信仰与实践，萨满是能够与灵界互动并利用灵体或灵性能量影响物质世界的个体。其灵体、神祇或仪式的具体内容可能有所不同，但灵界与物质世界互动的核心理念存在于所有$shamanism_ADJ$实践中。"
+  },
+  "tengri": {
+    "name": "腾格里",
+    "desc": "$tengri$是$turkic_group$与$mongolian_group$族群的一种$shamanism_ADJ$信仰，以天空之神$tengri_god_name$为中心，将其视为宇宙的化身。然而，它也包含其他神祇，因为它不仅敬仰自然及其栖居其中的神祇，也尊崇祖先的灵魂。"
+  },
+  "tungusic_shamanism": {
+    "name": "通古斯萨满教",
+    "desc": "$tungusic_shamanism$$common_folk_religion_desc$"
+  },
+  "yukaghir_shamanism": {
+    "name": "尤卡吉尔萨满教",
+    "desc": "$yukaghir_shamanism$$common_folk_religion_desc$"
+  },
+  "yupik_shamanism": {
+    "name": "尤皮克萨满教",
+    "desc": "$yupik_shamanism$$common_folk_religion_desc$"
+  },
+  "dreamtime_religion": {
+    "name": "梦创神话",
+    "desc": "$dreamtime_religion$$common_folk_religion_desc$"
+  },
+  "akinha_ekugu_religion": {
+    "name": "双生创世神话",
+    "desc": "$akinha_ekugu_religion$$common_folk_religion_desc$"
+  },
+  "namandu_religion": {
+    "name": "尼亚曼杜教",
+    "desc": "$namandu_religion$$common_folk_religion_desc$"
+  },
+  "tunpa_religion": {
+    "name": "屯帕信仰",
+    "desc": "$tunpa_religion$$common_folk_religion_desc$"
+  },
+  "doi_wahire_religion": {
+    "name": "多伊‑瓦雷二元信仰",
+    "desc": "$doi_wahire_religion$$common_folk_religion_desc$"
+  },
+  "jurema_religion": {
+    "name": "茹雷玛灵媒信仰",
+    "desc": "$jurema_religion$$common_folk_religion_desc$"
+  },
+  "nallagdigua_religion": {
+    "name": "纳拉迪瓜巨树崇拜",
+    "desc": "$nallagdigua_religion$$common_folk_religion_desc$"
+  },
+  "txapakura_religion": {
+    "name": "查帕库拉信仰",
+    "desc": "$txapakura_religion$$common_folk_religion_desc$"
+  },
+  "zemi_religion": {
+    "name": "泽米教",
+    "desc": "$zemi_religion$$common_folk_religion_desc$"
+  },
+  "lenca_religion": {
+    "name": "伊兰圭教",
+    "desc": "$lenca_religion$$common_folk_religion_desc$"
+  },
+  "pech_religion": {
+    "name": "穆阿穆阿教",
+    "desc": "$pech_religion$$common_folk_religion_desc$"
+  },
+  "wan_aisa_religion": {
+    "name": "万艾萨教",
+    "desc": "$wan_aisa_religion$$common_folk_religion_desc$"
+  },
+  "maleku_religion": {
+    "name": "瓜图索神话",
+    "desc": "$maleku_religion$$common_folk_religion_desc$"
+  },
+  "suwo_religion": {
+    "name": "苏沃教",
+    "desc": "$suwo_religion$$common_folk_religion_desc$"
+  },
+  "chibcha_religion": {
+    "name": "奇布查宗教",
+    "desc": "$chibcha_religion$$common_folk_religion_desc$"
+  },
+  "votian_religion": {
+    "name": "瓦佳多神教",
+    "desc": "$votian_religion$$common_folk_religion_desc$"
+  },
+  "hellenism_religion": {
+    "name": "希腊多神教",
+    "desc": "$hellenism_religion$$common_folk_religion_desc$"
+  },
+  "karachay_balkar_paganism": {
+    "name": "卡拉巴尔多神教",
+    "desc": "$karachay_balkar_paganism$$common_folk_religion_desc$"
+  },
+  "khabzeism": {
+    "name": "",
+    "desc": "$khabzeism$$common_folk_religion_desc$"
+  },
+  "lezgin_paganism": {
+    "name": "列兹金多神教",
+    "desc": "$lezgin_paganism$$common_folk_religion_desc$"
+  },
+  "norse": {
+    "name": "诺斯多神教",
+    "desc": "$scandinavian_region$半岛古日耳曼人的古老信仰，包含众多神祇，如阿萨神族与华纳神族，其中最著名的是奥丁与托尔。它认为宇宙由世界树尤格德拉希尔的九个不同领域组成，其中米德加尔特是人类居住之地。"
+  },
+  "alan_paganism": {
+    "name": "阿兰多神教",
+    "desc": "$alan_paganism$$common_folk_religion_desc$"
+  },
+  "romuva": {
+    "name": "洛姆瓦多神教",
+    "desc": "这是$lithuanian_group$人的传统信仰，包含完整的神祇体系，以及对自然与祖先的崇敬。其仪式在火坛周围进行，伴随着圣歌或“达伊诺斯”的吟唱。"
+  },
+  "sapmi_shamanism": {
+    "name": "萨米萨满教",
+    "desc": "这是$sapmi$人的传统宗教实践，包含众多自然与动物灵体，以及对死者的崇敬。某些动物，如驯鹿与熊，受到特别尊崇。"
+  },
+  "muinaisusko": {
+    "name": "索米多神教",
+    "desc": "这是$finnish_language$人民的传统信仰，包含众多神祇，其中最普遍的是天神与雷神乌科。它也包含对死者的崇敬与萨满实践，同时与附近其他宗教有一些共同特征。"
+  },
+  "vainakh_paganism": {
+    "name": "瓦伊纳赫多神教",
+    "desc": "$vainakh_paganism$$common_folk_religion_desc$"
+  },
+  "mari_paganism": {
+    "name": "奇马里多神教",
+    "desc": "$mari_paganism$$common_folk_religion_desc$"
+  },
+  "udmurt_paganism": {
+    "name": "英马尔萨满教",
+    "desc": "$udmurt_paganism$$common_folk_religion_desc$"
+  },
+  "komi_paganism": {
+    "name": "瓦日斯科姆萨满教",
+    "desc": "$komi_paganism$$common_folk_religion_desc$"
+  },
+  "samoyedic_paganism": {
+    "name": "萨摩耶德萨满教",
+    "desc": "$samoyedic_paganism$$common_folk_religion_desc$"
+  },
+  "obian_paganism": {
+    "name": "鄂毕萨满教",
+    "desc": "$obian_paganism$$common_folk_religion_desc$"
+  },
+  "arosi_religion": {
+    "name": "阿罗西泛灵论",
+    "desc": "$arosi_religion$$common_folk_religion_desc$"
+  },
+  "abu_religion": {
+    "name": "夸约禁戒信仰",
+    "desc": "$abu_religion$$common_folk_religion_desc$"
+  },
+  "ghari_religion": {
+    "name": "加里泛灵论",
+    "desc": "$ghari_religion$$common_folk_religion_desc$"
+  },
+  "nduke_religion": {
+    "name": "恩杜克泛灵论",
+    "desc": "$nduke_religion$$common_folk_religion_desc$"
+  },
+  "cheke_holo_religion": {
+    "name": "切克霍洛泛灵论",
+    "desc": "$cheke_holo_religion$$common_folk_religion_desc$"
+  },
+  "vaghua_religion": {
+    "name": "瓦格瓦泛灵论",
+    "desc": "$vaghua_religion$$common_folk_religion_desc$"
+  },
+  "mu_ngava_religion": {
+    "name": "穆恩加瓦泛灵论",
+    "desc": "$mu_ngava_religion$$common_folk_religion_desc$"
+  },
+  "natugu_religion": {
+    "name": "纳图古泛灵论",
+    "desc": "$natugu_religion$$common_folk_religion_desc$"
+  },
+  "qat_religion": {
+    "name": "喀特崇拜",
+    "desc": "$qat_religion$$common_folk_religion_desc$"
+  },
+  "itaukei_religion": {
+    "name": "伊陶凯信仰",
+    "desc": "$itaukei_religion$$common_folk_religion_desc$"
+  },
+  "kanak_religion": {
+    "name": "卡纳克信仰",
+    "desc": "$kanak_religion$$common_folk_religion_desc$"
+  },
+  "puntan_religion": {
+    "name": "蓬坦崇拜",
+    "desc": "$puntan_religion$$common_folk_religion_desc$"
+  },
+  "kajoor_ri_majel_religion": {
+    "name": "卡久里‑马绍尔信仰",
+    "desc": "$kajoor_ri_majel_religion$$common_folk_religion_desc$"
+  },
+  "yanolop_religion": {
+    "name": "亚诺洛普教",
+    "desc": "$yanolop_religion$$common_folk_religion_desc$"
+  },
+  "inuit_religion": {
+    "name": "因纽特泛灵论",
+    "desc": "$inuit_religion$$common_folk_religion_desc$"
+  },
+  "dene_religion": {
+    "name": "德内泛灵论",
+    "desc": "$dene_religion$$common_folk_religion_desc$"
+  },
+  "midewiwin_religion": {
+    "name": "",
+    "desc": "$midewiwin_religion$$common_folk_religion_desc$"
+  },
+  "dene_shamanism": {
+    "name": "",
+    "desc": "$dene_shamanism$$common_folk_religion_desc$"
+  },
+  "dene_totemism": {
+    "name": "德内图腾崇拜",
+    "desc": "$dene_totemism$$common_folk_religion_desc$"
+  },
+  "great_plains_shamanism": {
+    "name": "",
+    "desc": "$great_plains_shamanism$$common_folk_religion_desc$"
+  },
+  "iroquoian_totemism": {
+    "name": "",
+    "desc": "$iroquoian_totemism$$common_folk_religion_desc$"
+  },
+  "mississippian_ceremonial": {
+    "name": "",
+    "desc": "$mississippian_ceremonial$$common_folk_religion_desc$"
+  },
+  "paiute_shamanism": {
+    "name": "",
+    "desc": "$paiute_shamanism$$common_folk_religion_desc$"
+  },
+  "pomo_shamanism": {
+    "name": "库克苏萨满教",
+    "desc": "$pomo_shamanism$$common_folk_religion_desc$"
+  },
+  "salishan_totemism": {
+    "name": "萨利什图腾崇拜",
+    "desc": "$salishan_totemism$$common_folk_religion_desc$"
+  },
+  "totemism": {
+    "name": "图腾崇拜",
+    "desc": "$totemism$$common_folk_religion_desc$"
+  },
+  "imunu_religion": {
+    "name": "伊穆努祖灵崇拜",
+    "desc": "$imunu_religion$$common_folk_religion_desc$"
+  },
+  "moksha_religion": {
+    "name": "萨卡依崇拜",
+    "desc": "$moksha_religion$$common_folk_religion_desc$"
+  },
+  "erzya_religion": {
+    "name": "帕尊多神教",
+    "desc": "$erzya_religion$$common_folk_religion_desc$"
+  },
+  "inti": {
+    "name": "因蒂崇拜",
+    "desc": "$inti_god$和$viracocha$是引导和庇佑$andes_region$人的主要神灵。"
+  },
+  "naylamp_religion": {
+    "name": "纳扬普神话",
+    "desc": "$naylamp_religion$$common_folk_religion_desc$"
+  },
+  "umina_religion": {
+    "name": "乌米尼亚崇拜",
+    "desc": "$umina_religion$$common_folk_religion_desc$"
+  },
+  "jama_religion": {
+    "name": "哈马信仰",
+    "desc": "$jama_religion$$common_folk_religion_desc$"
+  },
+  "pi_religion": {
+    "name": "月神崇拜",
+    "desc": "$pi_religion$$common_folk_religion_desc$"
+  },
+  "arutam_religion": {
+    "name": "阿鲁塔姆精神",
+    "desc": "$arutam_religion$$common_folk_religion_desc$"
+  },
+  "chango_religion": {
+    "name": "昌戈信仰",
+    "desc": "$chango_religion$$common_folk_religion_desc$"
+  },
+  "cebil_religion": {
+    "name": "塞比尔灵媒信仰",
+    "desc": "$cebil_religion$$common_folk_religion_desc$"
+  },
+  "yastay_religion": {
+    "name": "亚斯塔伊神话",
+    "desc": "$yastay_religion$$common_folk_religion_desc$"
+  },
+  "gos_religion": {
+    "name": "戈斯神话",
+    "desc": "$gos_religion$$common_folk_religion_desc$"
+  },
+  "pava_religion": {
+    "name": "尤鲁帕里神话",
+    "desc": "$pava_religion$$common_folk_religion_desc$"
+  },
+  "chanka_religion": {
+    "name": "乌斯科维卡崇拜",
+    "desc": "$chanka_religion$$common_folk_religion_desc$"
+  },
+  "chincha_religion": {
+    "name": "钦查信仰",
+    "desc": "$chincha_religion$$common_folk_religion_desc$"
+  },
+  "tapu_religion": {
+    "name": "禁戒信仰",
+    "desc": "$tapu_religion$$common_folk_religion_desc$"
+  },
+  "tokelauan_religion": {
+    "name": "图伊·托克劳崇拜",
+    "desc": "$tokelauan_religion$$common_folk_religion_desc$"
+  },
+  "kaharingan_religion": {
+    "name": "卡哈林干信仰",
+    "desc": "$kaharingan_religion$$common_folk_religion_desc$"
+  },
+  "kan_khwan_religion": {
+    "name": "坎宽神话",
+    "desc": "$kan_khwan_religion$$common_folk_religion_desc$"
+  },
+  "adat_puun_religion": {
+    "name": "阿达普恩教",
+    "desc": "$adat_puun_religion$$common_folk_religion_desc$"
+  },
+  "momolianism_religion": {
+    "name": "摩摩利安教",
+    "desc": "$momolianism_religion$$common_folk_religion_desc$"
+  },
+  "besavik_religion": {
+    "name": "贝沙威信仰",
+    "desc": "$besavik_religion$$common_folk_religion_desc$"
+  },
+  "aluk_religion": {
+    "name": "阿鲁克古道",
+    "desc": "$aluk_religion$$common_folk_religion_desc$"
+  },
+  "malesung_religion": {
+    "name": "马莱宗信仰",
+    "desc": "$malesung_religion$$common_folk_religion_desc$"
+  },
+  "marapu_religion": {
+    "name": "玛拉甫信仰",
+    "desc": "$marapu_religion$$common_folk_religion_desc$"
+  },
+  "arat_sabulungan_religion": {
+    "name": "萨布伦甘教",
+    "desc": "$arat_sabulungan_religion$$common_folk_religion_desc$"
+  },
+  "pengarap_asal_religion": {
+    "name": "阿萨尔信仰",
+    "desc": "$pengarap_asal_religion$$common_folk_religion_desc$"
+  },
+  "ipok_religion": {
+    "name": "伊波克信仰",
+    "desc": "$ipok_religion$$common_folk_religion_desc$"
+  },
+  "banunut_religion": {
+    "name": "巴奴努信仰",
+    "desc": "$banunut_religion$$common_folk_religion_desc$"
+  },
+  "lamoa_religion": {
+    "name": "拉莫阿教",
+    "desc": "$lamoa_religion$$common_folk_religion_desc$"
+  },
+  "tolotang_religion": {
+    "name": "托洛唐教",
+    "desc": "$tolotang_religion$$common_folk_religion_desc$"
+  },
+  "tolaki_religion": {
+    "name": "托拉基泛灵论",
+    "desc": "$tolaki_religion$$common_folk_religion_desc$"
+  },
+  "buton_religion": {
+    "name": "布敦泛灵论",
+    "desc": "$buton_religion$$common_folk_religion_desc$"
+  },
+  "tomanuru_religion": {
+    "name": "托玛努鲁教",
+    "desc": "$tomanuru_religion$$common_folk_religion_desc$"
+  },
+  "gorontalo_religion": {
+    "name": "哥伦打洛泛灵论",
+    "desc": "$gorontalo_religion$$common_folk_religion_desc$"
+  },
+  "adat_musi_religion": {
+    "name": "穆希教",
+    "desc": "$adat_musi_religion$$common_folk_religion_desc$"
+  },
+  "sangirese_religion": {
+    "name": "马萨德派",
+    "desc": "$sangirese_religion$$common_folk_religion_desc$"
+  },
+  "wetarese_religion": {
+    "name": "韦塔雷斯信仰",
+    "desc": "$wetarese_religion$$common_folk_religion_desc$"
+  },
+  "kirin_koda_religion": {
+    "name": "拘陀吉灵教",
+    "desc": "$kirin_koda_religion$$common_folk_religion_desc$"
+  },
+  "dua_nggae_religion": {
+    "name": "杜阿·恩加埃教",
+    "desc": "$dua_nggae_religion$$common_folk_religion_desc$"
+  },
+  "lamatuan_religion": {
+    "name": "拉马图安教",
+    "desc": "$lamatuan_religion$$common_folk_religion_desc$"
+  },
+  "naurus_religion": {
+    "name": "诺茹派",
+    "desc": "$naurus_religion$$common_folk_religion_desc$"
+  },
+  "mitu_religion": {
+    "name": "米图泛灵论",
+    "desc": "$mitu_religion$$common_folk_religion_desc$"
+  },
+  "sula_religion": {
+    "name": "苏拉泛灵论",
+    "desc": "$sula_religion$$common_folk_religion_desc$"
+  },
+  "kolano_religion": {
+    "name": "科拉诺长老信仰",
+    "desc": "$kolano_religion$$common_folk_religion_desc$"
+  },
+  "goma_religion": {
+    "name": "戈马泛灵论",
+    "desc": "$goma_religion$$common_folk_religion_desc$"
+  },
+  "anitism_religion": {
+    "name": "阿尼托泛灵论",
+    "desc": "$anitism_religion$$common_folk_religion_desc$"
+  },
+  "orang_laut_religion": {
+    "name": "罗越泛灵论",
+    "desc": "$orang_laut_religion$$common_folk_religion_desc$"
+  },
+  "minangkabau_religion": {
+    "name": "米南加保泛灵论",
+    "desc": "$minangkabau_religion$$common_folk_religion_desc$"
+  },
+  "pelebegu_religion": {
+    "name": "帕玛林教",
+    "desc": "$pelebegu_religion$$common_folk_religion_desc$"
+  },
+  "nyang_serai_religion": {
+    "name": "娘‑瑟莱泛灵论",
+    "desc": "$nyang_serai_religion$$common_folk_religion_desc$"
+  },
+  "piil_pesenggiri_religion": {
+    "name": "帕松吉里哲学",
+    "desc": "$piil_pesenggiri_religion$$common_folk_religion_desc$"
+  },
+  "orang_rimba_religion": {
+    "name": "库布泛灵论",
+    "desc": "$orang_rimba_religion$$common_folk_religion_desc$"
+  },
+  "enggano_religion": {
+    "name": "恩加诺泛灵论",
+    "desc": "$enggano_religion$$common_folk_religion_desc$"
+  },
+  "degar_religion": {
+    "name": "德加泛灵论",
+    "desc": "$degar_religion$$common_folk_religion_desc$"
+  },
+  "sanamahism": {
+    "name": "",
+    "desc": "$sanamahism$$common_folk_religion_desc$"
+  },
+  "satsana_phi": {
+    "name": "",
+    "desc": "$satsana_phi$$common_folk_religion_desc$"
+  },
+  "maleiwa_religion": {
+    "name": "玛雷瓦教",
+    "desc": "$maleiwa_religion$$common_folk_religion_desc$"
+  },
+  "yopo_religion": {
+    "name": "约波灵媒信仰",
+    "desc": "$yopo_religion$$common_folk_religion_desc$"
+  },
+  "sinu_religion": {
+    "name": "锡努信仰",
+    "desc": "$sinu_religion$$common_folk_religion_desc$"
+  },
+  "warao_religion": {
+    "name": "赫布泛灵论",
+    "desc": "$warao_religion$$common_folk_religion_desc$"
+  },
+  "naoma_religion": {
+    "name": "纳奥玛教",
+    "desc": "$naoma_religion$$common_folk_religion_desc$"
+  },
+  "muisca_religion": {
+    "name": "博兹卡古道",
+    "desc": "$muisca_religion$$common_folk_religion_desc$"
+  },
+  "nacuco_religion": {
+    "name": "纳库科信仰",
+    "desc": "$nacuco_religion$$common_folk_religion_desc$"
+  },
+  "jai_religion": {
+    "name": "海瓦纳萨满教",
+    "desc": "$jai_religion$$common_folk_religion_desc$"
+  },
+  "yage_religion": {
+    "name": "雅赫萨满教",
+    "desc": "$yage_religion$$common_folk_religion_desc$"
+  },
+  "judaism": {
+    "name": "犹太教",
+    "desc": "$judaism$是最早的亚伯拉罕宗教，遵循上帝与摩西所立的约。$judaism_ADJ$的圣经是《塔纳赫》，其中前五卷被称为《妥拉》，是所有$judaism_ADJ$信徒信仰与实践的基础。"
+  },
+  "samaritanism": {
+    "name": "撒玛利亚派",
+    "desc": "撒玛利亚派是$samaritan_culture$人的传统信仰，起源于以色列王国灭亡后的$judaism$。$samaritanism$自认为是从摩西时代以来未改变的$israelite_group$，与他们认为被$judaism$篡改的经典形成对比。"
+  },
+  "mandeaism": {
+    "name": "曼达派",
+    "desc": "$mandeaism$是一种诺斯替宗教，认为施洗约翰是最后的先知，同时也包含$greek_culture$与$iranian_group$文化的影响。尽管它承认其他亚伯拉罕宗教的一些先知，但并不认为亚伯拉罕、摩西或耶稣是$mandeaism_ADJ$的先知。$mandeaism$的神被称为“$mandeaism_god_name$”（哈依·拉比），代表宇宙的创造力量。"
+  },
+  "manichaeism": {
+    "name": "摩尼教",
+    "desc": "$manichaeism$是萨珊帝国时期由先知摩尼创立的一种$iranian_group$宗教，受到诺斯替主义、$zoroastrian$、$christian$与$buddhist$等多种宗教的影响，但认为摩尼是继琐罗亚斯德、佛陀与耶稣之后的最后一位先知。其神学是二元论的，将宇宙描述为光明与黑暗之间的灵性斗争。"
+  },
+  "ibadi": {
+    "name": "伊巴德派",
+    "desc": "$ibadi_school_desc$"
+  },
+  "shia": {
+    "name": "什叶派",
+    "desc": "$shia_ADJ$信仰的基础是穆罕默德指定阿里·本·阿比·塔利卜为其继任者，作为$muslim$的精神与政治领袖。因此，$imamate$职位应按阿里的血统传承，而非穆罕默德的同伴在塞基法会议上选择阿布·伯克尔作为$rank_empire_muslim_ruler_male$时所确立的继承体系。"
+  },
+  "sunni": {
+    "name": "逊尼派",
+    "desc": "$sunni$认为$muslim_ADJ$的领导权在穆罕默德的同伴于塞基法会议上选择阿布·伯克尔作为$rank_empire_muslim_ruler_male$时移交给他，因为先知本人并未指定任何继任者。因此，逊尼派尊崇“正统$rank_empire_muslim_ruler_male$”（穆罕默德之后的四位哈里发）作为治理的典范。"
+  },
+  "nahuatl": {
+    "name": "纳瓦特尔宗教",
+    "desc": "纳瓦特尔宗教是$nahua_group$人的信仰，其众多$nahuatl_god_name$（意为神祇）在至高神奥梅特奥特的统领下组织起来。其他神祇，如$huitzilopochtli_god$、$tlaloc_god$或$quetzalcoatl_god$，常被选为领地或民族的守护神。其关键实践之一是献祭，以向神祇表示敬意并保持他们的眷顾。"
+  },
+  "mesoamerican": {
+    "name": "托纳利宗教",
+    "desc": "$mesoamerican$$common_folk_religion_desc$"
+  },
+  "mayan": {
+    "name": "玛雅宗教",
+    "desc": "$mayan$$common_folk_religion_desc$"
+  },
+  "chichimecah_religion": {
+    "name": "奇奇梅克宗教",
+    "desc": "$chichimecah_religion$$common_folk_religion_desc$"
+  },
+  "yazidism": {
+    "name": "雅兹迪派",
+    "desc": "雅兹迪教起源于$iranian_group$传统，同时也包含$judaism$、$christian$与$muslim$的元素。它认为宇宙由上帝创造，但他任命“孔雀天使”塔乌西·梅莱克统治它。尽管它受到其他宗教的许多影响，尤其是在其神秘实践中，但其核心植根于古代$iranian_group$宗教。"
+  },
+  "zoroastrian": {
+    "name": "祆教",
+    "desc": "琐罗亚斯德教是一种古老的$iranian_group$宗教，遵循查拉图斯特拉（也称琐罗亚斯德）的教义与《阿维斯塔》经典。它基于善与恶的二元宇宙观，描述了神阿胡拉·马兹达与破坏灵安格拉·曼纽之间的永恒冲突，并预言善将最终战胜恶。"
+  },
+  "folk_melanesian_group": {
+    "name": "美拉尼西亚原始宗教"
+  },
+  "folk_brazilian_group": {
+    "name": "巴西原始宗教"
+  },
+  "folk_papuan_group": {
+    "name": "巴布亚原始宗教"
+  },
+  "folk_se_asian_group": {
+    "name": "东南亚原始宗教"
+  },
+  "yazidi_group": {
+    "name": "雅兹迪派"
+  },
+  "folk_african_group": {
+    "name": "非洲原始宗教"
+  },
+  "folk_north_american_group": {
+    "name": "北美洲原始宗教"
+  },
+  "israelite_group": {
+    "name": "以色列宗教"
+  },
+  "dharmic": {
+    "name": "正法宗教"
+  },
+  "buddhist": {
+    "name": "佛教"
+  },
+  "manichaean_group": {
+    "name": "摩尼教"
+  },
+  "folk_argentinian_group": {
+    "name": "阿根廷原始宗教"
+  },
+  "folk_micronesian_group": {
+    "name": "密克罗尼西亚原始宗教"
+  },
+  "folk_caribbean_group": {
+    "name": "加勒比原始宗教"
+  },
+  "folk_central_american_group": {
+    "name": "中美洲原始宗教"
+  },
+  "folk_south_american_group": {
+    "name": "南美洲原始宗教"
+  },
+  "zoroastrian_group": {
+    "name": "祆教"
+  },
+  "folk_polynesian_group": {
+    "name": "波利尼西亚原始宗教"
+  },
+  "christian": {
+    "name": "基督教"
+  },
+  "folk_aridoamerica_group": {
+    "name": "干旱美洲原始宗教"
+  },
+  "muslim": {
+    "name": "伊斯兰教"
+  },
+  "tonal_group": {
+    "name": "托纳利原始宗教"
+  },
+  "folk_european_group": {
+    "name": "欧洲原始宗教"
+  },
+  "folk_peruvian_group": {
+    "name": "安第斯原始宗教"
+  },
+  "folk_permic_group": {
+    "name": "彼尔姆原始宗教"
+  },
+  "mandean_group": {
+    "name": "曼达派"
+  },
+  "druze_group": {
+    "name": "德鲁兹派"
+  },
+  "folk_asian_group": {
+    "name": "亚洲原始宗教"
+  },
+  "folk_australian_group": {
+    "name": "澳大利亚原始宗教"
+  }
+}

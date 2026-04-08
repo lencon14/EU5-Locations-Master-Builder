@@ -1,0 +1,23 @@
+{
+  "pop.nobles": "贵族",
+  "pop.clergy": "教士",
+  "pop.burghers": "市民",
+  "pop.laborers": "劳工",
+  "pop.soldiers": "士兵",
+  "pop.peasants": "农民",
+  "pop.slaves": "奴隶",
+  "pop.tribesmen": "部落民",
+  "pop.upper": "上层阶级",
+  "goods.cat.raw_material": "原材料",
+  "goods.cat.produced": "制成品",
+  "goods.cat.food": "食物",
+  "goods.method.farming": "农牧",
+  "goods.method.mining": "采掘",
+  "goods.method.gathering": "采集",
+  "goods.method.hunting": "狩猎",
+  "goods.method.forestry": "砍伐",
+  "goods.origin.old_world": "旧大陆商品",
+  "goods.origin.new_world": "新大陆商品",
+  "field.demand": "需求",
+  "field.base_production": "基础生产"
+}

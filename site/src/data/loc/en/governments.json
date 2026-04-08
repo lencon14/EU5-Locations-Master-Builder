@@ -1,0 +1,22 @@
+{
+  "monarchy": {
+    "name": "Monarchy",
+    "desc": "A $monarchy$ is a government_type based upon the principle of undivided personal sovereignty, where the ruler is the first among the elites. The heir is normally determined by the dynasty of the $game_concept_monarch$ and in most cases they rule for life.\\n\\n$game_concept_monarchs$ can use royal_marriages to secure alliances, and can even inherit foreign countries through personal_unions. However, succession is often a troublesome matter, and Monarchies may easily fall into regencies or under the influence of foreign $game_concept_dynasties$."
+  },
+  "republic": {
+    "name": "Republic",
+    "desc": "A $republic$ is a government_type where the rulers are chosen by election to serve as the representants of the citizen body for a set period of time. Depending on the heir_selection the $game_concept_ruler$ may belong to any of the estates.\\n\\nThe strength of the political institutions makes Republics more resilient to inheritance issues, but the less personal nature of rule limits the diplomatic tools at their disposal. As such, dynasties play a lesser role and Republics cannot benefit from royal_marriages."
+  },
+  "theocracy": {
+    "name": "Theocracy",
+    "desc": "A $theocracy$ is a government_type based on the principle of divine sovereignty, where the ruler is issued from the servants of the faith and secular matters are subordinated to religious authority.\\n\\n$game_concept_rulers$ are usually chosen to rule for life by some form of election, which allows for a less disruptive transfer of power."
+  },
+  "steppe_horde": {
+    "name": "Steppe Horde",
+    "desc": "A $steppe_horde$ is a government_type based upon on military power of its ruler. Relatives of the current $game_concept_ruler$ have a higher chance to become the heir, but seniority and personal abilities are also highly regarded.\\n\\n$game_concept_rulers$ are issued from the elite members of the society and will only keep the loyalty of their peers as long as they prove themselves capable of subjugating, razing, and plundering neighboring countries. Because of that, succession is a momentous event for a $steppe_horde$, and might even lead to collapse if the new $game_concept_ruler$ fails to demonstrate its might."
+  },
+  "tribe": {
+    "name": "Tribe",
+    "desc": "A $tribe$ is a government_type where the political power is structured first and foremost around the concept of kinship, be it by direct blood or perceived ancestry.\\n\\ndynasties and family ties are therefore of prime importance when determining the heir, who will always belong to the elite members of society, but very frequently seniority, personal abilities, and military prowess are also highly regarded."
+  }
+}
