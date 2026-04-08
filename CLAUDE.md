@@ -17,12 +17,36 @@
 - デザインシステム: `site/DESIGN.md` に定義。UI変更時は必ず参照する
 - データソース: `pipeline/output/*.json` → `site/src/data/` にコピー
 
+## データパイプライン（pipeline/）
+
+- `fetch_raw.py` — SSH経由で全カテゴリのゲームデータを一括取得（シェル版 fetch_raw.sh は非推奨、Python版を使う）
+- 抽出スクリプト: `extract_goods.py`, `extract_buildings.py`, `extract_countries.py`, `extract_religions.py`, `extract_governments.py`
+- 共通モジュール: `paradox_parser.py`（Paradoxスクリプトパーサー）, `loc_parser.py`（ローカライズパーサー）
+- 全スクリプトは `cd pipeline && python3 <script>.py` で実行
+
+### 抽出済みデータ（v1.1.10）
+
+| カテゴリ | 件数 | スクリプト |
+|---------|------|----------|
+| 交易品 | 74 | extract_goods.py |
+| 建物 | 439 | extract_buildings.py |
+| 国家 | 2,328 | extract_countries.py |
+| 宗教 | 293 | extract_religions.py |
+| 政体 | 5 | extract_governments.py |
+| 法律 | 191 | extract_governments.py |
+
 ## データ更新フロー（ゲームバージョンアップ時）
 
-1. `pipeline/raw/` のゲームファイルをSSH経由で再取得して上書き
-2. `pipeline/raw/VERSION.txt` を更新
-3. `git diff pipeline/raw/` で変更点を確認
-4. `cd pipeline && python3 extract_goods.py` でJSON再生成
-5. `cp pipeline/output/goods.json site/src/data/`
-6. `cd site && npm run build` でサイトリビルド
-7. 変更をコミット
+1. `cd pipeline && python3 fetch_raw.py` で全データ再取得
+2. `git diff pipeline/raw/` で変更点を確認
+3. 各 `extract_*.py` を実行してJSON再生成
+4. `cp pipeline/output/*.json site/src/data/`
+5. `cd site && npm run build` でサイトリビルド
+6. 変更をコミット
+
+## 次にやること
+
+- [ ] 建物・国家・宗教・政体・法律のサイトページを作成（JSONは生成済み、site/src/data/ にコピーしてページ作成）
+- [ ] 攻略記事の執筆環境整備（Markdown/MDX）
+- [ ] さくらインターネットへのデプロイフロー確立
+- 設計プラン詳細: `.claude/plans/lucky-bubbling-globe.md`
