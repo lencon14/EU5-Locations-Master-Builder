@@ -23,3 +23,8 @@ eu5_locations_raw_*.txt
 .tmp/
 _tmp_ci_*.txt
 *.bak.*
+
+# Astro site
+site/node_modules/
+site/dist/
+site/.astro/
