@@ -4,8 +4,11 @@
 # Scans dist/ for issues and validates game_terms coverage
 
 set -e
-DIST="dist"
-DATA="src/data"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+SITE_DIR="$(dirname "$SCRIPT_DIR")"
+DIST="$SITE_DIR/dist"
+DATA="$SITE_DIR/src/data"
+PIPELINE_DIR="$SITE_DIR/../pipeline"
 ERRORS=0
 
 if [ ! -d "$DIST" ]; then
@@ -98,13 +101,13 @@ fi
 # 4. languages.py ↔ config.ts consistency
 echo ""
 echo "--- Language config consistency ---"
-if [ -f "../pipeline/languages.py" ] && [ -f "src/i18n/config.ts" ]; then
+if [ -f "$PIPELINE_DIR/languages.py" ] && [ -f "$SITE_DIR/src/i18n/config.ts" ]; then
   PY_LANGS=$(python3 -c "
-import sys; sys.path.insert(0,'../pipeline')
+import sys; sys.path.insert(0,'$PIPELINE_DIR')
 from languages import LANGUAGES
 for url,_,_ in LANGUAGES: print(url)
 " | sort)
-  TS_LANGS=$(grep -oE "^[[:space:]]+'?[a-z][-a-z]*'?[[:space:]]*:" src/i18n/config.ts | sed "s/[': ]//g" | sort)
+  TS_LANGS=$(grep -oE "^[[:space:]]+'?[a-z][-a-z]*'?[[:space:]]*:" "$SITE_DIR/src/i18n/config.ts" | sed "s/[': ]//g" | sort)
   if [ "$PY_LANGS" = "$TS_LANGS" ]; then
     echo "OK: languages.py and config.ts have matching language codes."
   else

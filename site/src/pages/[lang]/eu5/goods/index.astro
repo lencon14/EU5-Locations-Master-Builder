@@ -1,21 +1,22 @@
 ---
 import Base from "../../../../layouts/Base.astro";
-import { LANG_CODES, type Lang } from "../../../../i18n/config";
+import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
 import { loadCore, loadLoc, gameTerm } from "../../../../i18n/data";
 import { t, tf } from "../../../../i18n/ui";
+import type { GoodsItem } from "../../../../i18n/types";
 
 export function getStaticPaths() {
   return LANG_CODES.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 
 const { lang } = Astro.props as { lang: Lang };
-const core = loadCore("goods");
+const core = loadCore<GoodsItem>("goods");
 const loc = loadLoc("goods", lang);
 const locEn = lang !== "en" ? loadLoc("goods", "en") : loc;
 
-const grouped = new Map<string, typeof core>();
+const grouped = new Map<string, GoodsItem[]>();
 for (const g of core) {
-  const cat = g.category || "other";
+  const cat = g.category ?? "other";
   if (!grouped.has(cat)) grouped.set(cat, []);
   grouped.get(cat)!.push(g);
 }
@@ -63,7 +64,7 @@ for (const g of core) {
                       <img src={`/${g.icon}`} alt="" width="24" height="24" loading="lazy" />
                     </td>
                     <td>
-                      <a href={`/${lang}/eu5/goods/${g.id}/`}>{name}</a>
+                      <a href={localePath(lang, `/goods/${g.id}/`)}>{name}</a>
                     </td>
                     {lang !== "en" && <td class="muted">{nameEn}</td>}
                     <td>

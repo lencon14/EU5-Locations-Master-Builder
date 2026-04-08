@@ -130,6 +130,10 @@ const { lang, currentPath = "/" } = Astro.props;
           options[(idx - 1 + options.length) % options.length]?.focus();
         }
       });
+
+      panel.addEventListener("focusout", (e) => {
+        if (!panel!.contains((e as FocusEvent).relatedTarget as Node)) close();
+      });
     });
   }
 </script>

@@ -28,6 +28,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import shutil
 from pathlib import Path
 
 from languages import LANGUAGES
@@ -35,6 +36,7 @@ from loc_parser import parse_loc_file
 
 RAW_DIR = Path("raw/localization")
 OUTPUT_DIR = Path("output")
+SITE_LOC_DIR = Path("../site/src/data/loc")
 
 
 def _load_loc(filename: str, game_code: str) -> dict[str, str]:
@@ -260,6 +262,16 @@ def main() -> None:
             encoding="utf-8",
         )
         print(f"  → {out_path} ({len(terms)} terms)")
+
+    # Auto-copy to site if the site loc directory exists
+    if SITE_LOC_DIR.is_dir():
+        print("\nCopying to site/src/data/loc/ ...")
+        for url_code, _, _ in LANGUAGES:
+            src = OUTPUT_DIR / "loc" / url_code / "game_terms.json"
+            dst_dir = SITE_LOC_DIR / url_code
+            if src.exists() and dst_dir.is_dir():
+                shutil.copy2(src, dst_dir / "game_terms.json")
+        print("Done (site copy).")
 
     print("Done.")
 

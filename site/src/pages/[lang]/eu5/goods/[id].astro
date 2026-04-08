@@ -1,11 +1,12 @@
 ---
 import Base from "../../../../layouts/Base.astro";
-import { LANG_CODES, type Lang } from "../../../../i18n/config";
+import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
 import { loadCore, loadLoc, gameTerm } from "../../../../i18n/data";
 import { t } from "../../../../i18n/ui";
+import type { GoodsItem } from "../../../../i18n/types";
 
 export function getStaticPaths() {
-  const core = loadCore("goods");
+  const core = loadCore<GoodsItem>("goods");
   return LANG_CODES.flatMap((lang) =>
     core.map((item) => ({
       params: { lang, id: item.id },
@@ -14,7 +15,7 @@ export function getStaticPaths() {
   );
 }
 
-const { lang, item } = Astro.props as { lang: Lang; item: any };
+const { lang, item } = Astro.props as { lang: Lang; item: GoodsItem };
 const loc = loadLoc("goods", lang);
 const locEn = lang !== "en" ? loadLoc("goods", "en") : loc;
 const name = loc[item.id]?.name ?? item.id;
@@ -29,7 +30,7 @@ const desc = loc[item.id]?.desc;
   canonicalPath={`/goods/${item.id}/`}
 >
   <nav class="breadcrumb">
-    <a href={`/${lang}/eu5/goods/`}>{t(lang, "goods.breadcrumb")}</a>
+    <a href={localePath(lang, "/goods/")}>{t(lang, "goods.breadcrumb")}</a>
     <span class="sep">&rsaquo;</span>
     <span>{name}</span>
   </nav>

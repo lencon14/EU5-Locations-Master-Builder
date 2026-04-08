@@ -39,6 +39,9 @@ def strip_markup(text: str) -> str:
     Strips: #T ... #!, #tooltip_subheading, #italic ... #!, @icon!, [SCOPE...],
     and other common inline tags.
     """
+    # Remove color/style tags: #R, #G, #B, #Y, #W, etc.
+    text = re.sub(r"#[A-Z]\b", "", text)
+    text = re.sub(r"#(?:bold|high|low|positive|negative)\b\s*", "", text)
     # Remove #T ... #! wrappers (keep inner text)
     text = re.sub(r"#T\s*", "", text)
     text = re.sub(r"#!", "", text)

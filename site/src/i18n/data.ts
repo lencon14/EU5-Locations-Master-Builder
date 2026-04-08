@@ -30,7 +30,11 @@ const _termsCache = new Map<string, Record<string, string>>();
 
 /** Load core (language-independent) data for a category */
 export function loadCore<T = unknown>(category: Category): T[] {
-  return (coreModules[`../data/core/${category}.json`] as T[] | undefined) ?? [];
+  const data = (coreModules[`../data/core/${category}.json`] as T[] | undefined) ?? [];
+  if (data.length === 0) {
+    console.warn(`[i18n] loadCore: no data found for category "${category}"`);
+  }
+  return data;
 }
 
 /** Load localization map for a category + language, with English fallback */
@@ -42,11 +46,17 @@ export function loadLoc(category: Category, lang: Lang): LocMap {
   const primary = locModules[`../data/loc/${lang}/${category}.json`];
   if (lang === DEFAULT_LANG) {
     const result = primary ?? {};
+    if (!primary) {
+      console.warn(`[i18n] loadLoc: English data missing for category "${category}"`);
+    }
     _locCache.set(cacheKey, result);
     return result;
   }
 
   const fallback = locModules[`../data/loc/${DEFAULT_LANG}/${category}.json`] ?? {};
+  if (!locModules[`../data/loc/${DEFAULT_LANG}/${category}.json`]) {
+    console.warn(`[i18n] loadLoc: English fallback data missing for category "${category}"`);
+  }
   if (!primary) {
     _locCache.set(cacheKey, fallback);
     return fallback;
