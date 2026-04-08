@@ -54,7 +54,7 @@ def strip_markup(text: str) -> str:
     # Remove $VARIABLE$ references
     text = re.sub(r"\$\w+\$", "", text)
     # Handle [Concept('key', 'display')|e] → display
-    text = re.sub(r"\[Concept\('[^']*',\s*'([^']*)'\)\|[eE]\]", r"\1", text)
+    text = re.sub(r"\[Concept\(\s*'[^']*'\s*,\s*'([^']*)'\s*\)\s*\|[eE]\]", r"\1", text)
     # Handle [ShowPopTypeName('key')] etc → remove entirely
     text = re.sub(r"\[Show\w+\('[^']*'\)\]", "", text)
     # Convert [word|e] game concept refs → keep the word part

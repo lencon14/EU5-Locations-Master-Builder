@@ -1,5 +1,5 @@
 ---
-import { LANGUAGES, LANG_CODES, type Lang, localePath } from "../i18n/config";
+import { LANGUAGES, LANG_CODES, type Lang, localePath, getHreflang } from "../i18n/config";
 import { t } from "../i18n/ui";
 
 interface Props {
@@ -42,7 +42,7 @@ const { lang, currentPath = "/" } = Astro.props;
           aria-current={code === lang ? "true" : undefined}
           data-lang={code}
         >
-          <span class="lang-option-name">{LANGUAGES[code].name}</span>
+          <span class="lang-option-name" lang={getHreflang(code)}>{LANGUAGES[code].name}</span>
           {code === lang && (
             <svg class="lang-check" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
               <path d="M2.5 6.5L4.5 8.5L9.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />

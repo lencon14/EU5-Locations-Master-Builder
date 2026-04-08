@@ -133,9 +133,16 @@ fi
 # 5. Per-language page count
 echo ""
 echo "--- Page count per language ---"
-for lang in de en es fr ja ko pl pt-br ru tr zh-hans; do
+EN_PAGES=$(find "$DIST/en" -name "index.html" 2>/dev/null | wc -l | tr -d ' ')
+echo "  en: $EN_PAGES pages (reference)"
+for lang in de es fr ja ko pl pt-br ru tr zh-hans; do
   COUNT=$(find "$DIST/$lang" -name "index.html" 2>/dev/null | wc -l | tr -d ' ')
-  echo "  $lang: $COUNT pages"
+  if [ "$COUNT" -ne "$EN_PAGES" ]; then
+    echo "  FAIL: $lang: $COUNT pages (expected $EN_PAGES)"
+    ERRORS=$((ERRORS + 1))
+  else
+    echo "  $lang: $COUNT pages"
+  fi
 done
 
 echo ""
