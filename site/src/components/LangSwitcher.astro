@@ -102,6 +102,16 @@ const { lang, currentPath = "/" } = Astro.props;
         }
       });
 
+      // Set lang cookie on language selection
+      panel.querySelectorAll<HTMLAnchorElement>(".lang-option").forEach((opt) => {
+        opt.addEventListener("click", () => {
+          const lang = opt.dataset.lang;
+          if (lang) {
+            document.cookie = `lang=${lang};path=/;max-age=${365 * 24 * 60 * 60};SameSite=Lax`;
+          }
+        });
+      });
+
       panel.addEventListener("keydown", (e) => {
         const options = [...panel!.querySelectorAll<HTMLAnchorElement>(".lang-option")];
         const current = document.activeElement as HTMLElement;
