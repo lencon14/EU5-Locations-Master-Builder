@@ -19,5 +19,18 @@
   "goods.origin.old_world": "Товары Старого Света",
   "goods.origin.new_world": "Товары Нового Света",
   "field.demand": "Спрос",
-  "field.base_production": "Базовое производство"
+  "field.base_production": "Базовое производство",
+  "field.market_price": "Рыночная цена",
+  "field.development": "Развитие",
+  "field.wealth": "Богатство",
+  "field.cost": "Стоимость",
+  "pop.all": "Все",
+  "field.method": "Способ добычи",
+  "field.origin": "Происхождение",
+  "field.default_market_price": "Базовая цена",
+  "field.transport_cost": "Стоимость перевозки",
+  "field.demand_add": "Спрос (аддитивный)",
+  "field.demand_multiply": "Спрос (мультипликативный)",
+  "field.development_threshold": "Требуемое развитие",
+  "field.wealth_impact_threshold": "Влияние богатства"
 }

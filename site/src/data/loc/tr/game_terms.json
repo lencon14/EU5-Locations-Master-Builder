@@ -19,5 +19,18 @@
   "goods.origin.old_world": "Eski Dünya Malları",
   "goods.origin.new_world": "Yeni Dünya Malları",
   "field.demand": "Talep",
-  "field.base_production": "Temel Üretim"
+  "field.base_production": "Temel Üretim",
+  "field.market_price": "Pazar Fiyatı",
+  "field.development": "Gelişim",
+  "field.wealth": "Zenginlik",
+  "field.cost": "Maliyet",
+  "pop.all": "Tümü",
+  "field.method": "Yöntem",
+  "field.origin": "Köken",
+  "field.default_market_price": "Taban fiyat",
+  "field.transport_cost": "Nakliye maliyeti",
+  "field.demand_add": "Talep (eklemeli)",
+  "field.demand_multiply": "Talep (çarpımsal)",
+  "field.development_threshold": "Gerekli gelişim",
+  "field.wealth_impact_threshold": "Zenginlik etkisi"
 }

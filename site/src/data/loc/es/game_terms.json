@@ -19,5 +19,18 @@
   "goods.origin.old_world": "Bienes del Viejo Mundo",
   "goods.origin.new_world": "Bienes del Nuevo Mundo",
   "field.demand": "Demanda",
-  "field.base_production": "Producción base"
+  "field.base_production": "Producción base",
+  "field.market_price": "Precio de mercado",
+  "field.development": "Desarrollo",
+  "field.wealth": "Riqueza",
+  "field.cost": "Coste",
+  "pop.all": "Todos",
+  "field.method": "Método",
+  "field.origin": "Origen",
+  "field.default_market_price": "Precio base",
+  "field.transport_cost": "Coste de transporte",
+  "field.demand_add": "Demanda (aditiva)",
+  "field.demand_multiply": "Demanda (multiplicativa)",
+  "field.development_threshold": "Desarrollo requerido",
+  "field.wealth_impact_threshold": "Impacto de riqueza"
 }

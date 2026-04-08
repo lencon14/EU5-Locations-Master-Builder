@@ -19,5 +19,18 @@
   "goods.origin.old_world": "Dobra Starego Świata",
   "goods.origin.new_world": "Dobra Nowego Świata",
   "field.demand": "Popyt",
-  "field.base_production": "Produkcja podstawowa"
+  "field.base_production": "Produkcja podstawowa",
+  "field.market_price": "Cena rynkowa",
+  "field.development": "Rozwój",
+  "field.wealth": "Bogactwo",
+  "field.cost": "Koszt",
+  "pop.all": "Wszyscy",
+  "field.method": "Metoda",
+  "field.origin": "Pochodzenie",
+  "field.default_market_price": "Cena bazowa",
+  "field.transport_cost": "Koszt transportu",
+  "field.demand_add": "Popyt (addytywny)",
+  "field.demand_multiply": "Popyt (mnożnikowy)",
+  "field.development_threshold": "Wymagany rozwój",
+  "field.wealth_impact_threshold": "Wpływ bogactwa"
 }

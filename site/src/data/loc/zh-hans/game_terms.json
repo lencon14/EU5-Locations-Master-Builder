@@ -19,5 +19,18 @@
   "goods.origin.old_world": "旧大陆商品",
   "goods.origin.new_world": "新大陆商品",
   "field.demand": "需求",
-  "field.base_production": "基础生产"
+  "field.base_production": "基础生产",
+  "field.market_price": "市场价格",
+  "field.development": "发展度",
+  "field.wealth": "财富",
+  "field.cost": "花费",
+  "pop.all": "全部",
+  "field.method": "生产方式",
+  "field.origin": "产地",
+  "field.default_market_price": "基础价格",
+  "field.transport_cost": "运输花费",
+  "field.demand_add": "需求加成",
+  "field.demand_multiply": "需求倍率",
+  "field.development_threshold": "所需发展度",
+  "field.wealth_impact_threshold": "财富影响"
 }

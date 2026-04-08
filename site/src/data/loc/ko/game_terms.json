@@ -19,5 +19,18 @@
   "goods.origin.old_world": "구세계 재화",
   "goods.origin.new_world": "신세계 재화",
   "field.demand": "수요",
-  "field.base_production": "기본 생산"
+  "field.base_production": "기본 생산",
+  "field.market_price": "시장 가격",
+  "field.development": "개발",
+  "field.wealth": "자산",
+  "field.cost": "비용",
+  "pop.all": "전체",
+  "field.method": "생산 방법",
+  "field.origin": "원산지",
+  "field.default_market_price": "기준 가격",
+  "field.transport_cost": "운송 비용",
+  "field.demand_add": "수요 가산",
+  "field.demand_multiply": "수요 승산",
+  "field.development_threshold": "필요 개발",
+  "field.wealth_impact_threshold": "자산 영향"
 }

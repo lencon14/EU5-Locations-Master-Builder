@@ -19,5 +19,18 @@
   "goods.origin.old_world": "旧大陸の交易品",
   "goods.origin.new_world": "新大陸の交易品",
   "field.demand": "需要",
-  "field.base_production": "基本生産"
+  "field.base_production": "基本生産",
+  "field.market_price": "市場価格",
+  "field.development": "開発度",
+  "field.wealth": "富",
+  "field.cost": "コスト",
+  "pop.all": "全POP",
+  "field.method": "生産方法",
+  "field.origin": "産地",
+  "field.default_market_price": "基準価格",
+  "field.transport_cost": "輸送コスト",
+  "field.demand_add": "需要加算",
+  "field.demand_multiply": "需要乗算",
+  "field.development_threshold": "必要開発度",
+  "field.wealth_impact_threshold": "富への影響係数"
 }

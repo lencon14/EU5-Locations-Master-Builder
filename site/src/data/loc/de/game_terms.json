@@ -19,5 +19,18 @@
   "goods.origin.old_world": "Waren der Alten Welt",
   "goods.origin.new_world": "Waren der Neuen Welt",
   "field.demand": "Nachfrage",
-  "field.base_production": "Grundproduktion"
+  "field.base_production": "Grundproduktion",
+  "field.market_price": "Marktpreis",
+  "field.development": "Entwicklung",
+  "field.wealth": "Reichtum",
+  "field.cost": "Kosten",
+  "pop.all": "Alle Schichten",
+  "field.method": "Produktionsmethode",
+  "field.origin": "Herkunft",
+  "field.default_market_price": "Grundpreis",
+  "field.transport_cost": "Transportkosten",
+  "field.demand_add": "Nachfrage (additiv)",
+  "field.demand_multiply": "Nachfrage (multiplikativ)",
+  "field.development_threshold": "Benötigte Entwicklung",
+  "field.wealth_impact_threshold": "Reichtumseffekt"
 }

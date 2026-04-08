@@ -54,7 +54,7 @@ const desc = loc[item.id]?.desc;
         {
           item.method && (
             <div class="prop-row">
-              <dt>{t(lang, "goods.method")}</dt>
+              <dt>{gameTerm(lang, "field.method")}</dt>
               <dd>
                 <span class="tag">
                   {gameTerm(lang, `goods.method.${item.method}`)}
@@ -64,13 +64,13 @@ const desc = loc[item.id]?.desc;
           )
         }
         <div class="prop-row">
-          <dt>{t(lang, "goods.base_price")}</dt>
+          <dt>{gameTerm(lang, "field.default_market_price")}</dt>
           <dd class="num-val">{item.default_market_price}</dd>
         </div>
         {
           item.transport_cost > 0 && (
             <div class="prop-row">
-              <dt>{t(lang, "goods.transport_cost")}</dt>
+              <dt>{gameTerm(lang, "field.transport_cost")}</dt>
               <dd class="num-val">{item.transport_cost}</dd>
             </div>
           )
@@ -78,7 +78,7 @@ const desc = loc[item.id]?.desc;
         {
           item.base_production > 0 && (
             <div class="prop-row">
-              <dt>{t(lang, "goods.base_production")}</dt>
+              <dt>{gameTerm(lang, "field.base_production")}</dt>
               <dd class="num-val">{item.base_production}</dd>
             </div>
           )
@@ -86,7 +86,7 @@ const desc = loc[item.id]?.desc;
         {
           item.origin && (
             <div class="prop-row">
-              <dt>{t(lang, "goods.origin")}</dt>
+              <dt>{gameTerm(lang, "field.origin")}</dt>
               <dd>{gameTerm(lang, `goods.origin.${item.origin}`)}</dd>
             </div>
           )
@@ -94,7 +94,7 @@ const desc = loc[item.id]?.desc;
         {
           item.development_threshold && (
             <div class="prop-row">
-              <dt>{t(lang, "goods.dev_threshold")}</dt>
+              <dt>{gameTerm(lang, "field.development_threshold")}</dt>
               <dd class="num-val">{item.development_threshold}</dd>
             </div>
           )
@@ -106,7 +106,7 @@ const desc = loc[item.id]?.desc;
       {
         item.demand_add && Object.keys(item.demand_add).length > 0 && (
           <section class="panel">
-            <h3>{t(lang, "goods.demand_add")}</h3>
+            <h3>{gameTerm(lang, "field.demand_add")}</h3>
             <table>
               <tbody>
                 {Object.entries(item.demand_add).map(([k, v]) => (
@@ -124,7 +124,7 @@ const desc = loc[item.id]?.desc;
       {
         item.demand_multiply && Object.keys(item.demand_multiply).length > 0 && (
           <section class="panel">
-            <h3>{t(lang, "goods.demand_multiply")}</h3>
+            <h3>{gameTerm(lang, "field.demand_multiply")}</h3>
             <table>
               <tbody>
                 {Object.entries(item.demand_multiply).map(([k, v]) => (
@@ -143,7 +143,7 @@ const desc = loc[item.id]?.desc;
         item.wealth_impact_threshold &&
           Object.keys(item.wealth_impact_threshold).length > 0 && (
             <section class="panel">
-              <h3>{t(lang, "goods.wealth_threshold")}</h3>
+              <h3>{gameTerm(lang, "field.wealth_impact_threshold")}</h3>
               <table>
                 <tbody>
                   {Object.entries(item.wealth_impact_threshold).map(
