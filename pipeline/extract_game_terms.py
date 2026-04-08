@@ -88,6 +88,7 @@ def extract_terms(game_code: str) -> dict[str, str]:
     # --- Single concept terms (direct from game_concepts) ---
     single_concepts = {
         "game_concept_demand": "field.demand",
+        "game_concept_food": "field.food",
         "game_concept_base_production": "field.base_production",
         "game_concept_market_price": "field.market_price",
         "game_concept_development": "field.development",

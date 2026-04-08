@@ -81,6 +81,8 @@ def build_goods() -> tuple[list[dict], dict[str, dict]]:
             props["wealth_impact_threshold"], dict
         ):
             entry["wealth_impact_threshold"] = props["wealth_impact_threshold"]
+        if "food" in props:
+            entry["food"] = props["food"]
         if "development_threshold" in props:
             entry["development_threshold"] = props["development_threshold"]
 

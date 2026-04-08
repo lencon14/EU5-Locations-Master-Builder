@@ -19,6 +19,7 @@
   "goods.origin.old_world": "구세계 재화",
   "goods.origin.new_world": "신세계 재화",
   "field.demand": "수요",
+  "field.food": "식량",
   "field.base_production": "기본 생산",
   "field.market_price": "시장 가격",
   "field.development": "개발",

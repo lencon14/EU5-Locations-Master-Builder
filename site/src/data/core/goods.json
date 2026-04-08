@@ -1008,6 +1008,7 @@
     "transport_cost": 0,
     "base_production": 0,
     "tags": [],
+    "food": 5.0,
     "icon": "icons/trade_goods/icon_goods_wool.png",
     "source_file": "03_food.txt"
   },
@@ -1028,6 +1029,7 @@
       "burghers": 5,
       "tribesmen": 0
     },
+    "food": 3.5,
     "icon": "icons/trade_goods/icon_goods_wild_game.png",
     "source_file": "03_food.txt"
   },
@@ -1048,6 +1050,7 @@
     "wealth_impact_threshold": {
       "all": 1.1
     },
+    "food": 2.0,
     "icon": "icons/trade_goods/icon_goods_fur.png",
     "source_file": "03_food.txt"
   },
@@ -1066,6 +1069,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "food": 5.0,
     "icon": "icons/trade_goods/icon_goods_fish.png",
     "source_file": "03_food.txt"
   },
@@ -1093,6 +1097,7 @@
       "laborers": 1.1,
       "soldiers": 1.0
     },
+    "food": 8.0,
     "icon": "icons/trade_goods/icon_goods_wheat.png",
     "source_file": "03_food.txt"
   },
@@ -1114,6 +1119,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "food": 8.0,
     "icon": "icons/trade_goods/icon_goods_maize.png",
     "source_file": "03_food.txt"
   },
@@ -1135,6 +1141,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "food": 10.0,
     "icon": "icons/trade_goods/icon_goods_rice.png",
     "source_file": "03_food.txt"
   },
@@ -1156,6 +1163,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "food": 5,
     "icon": "icons/trade_goods/icon_goods_millet.png",
     "source_file": "03_food.txt"
   },
@@ -1174,6 +1182,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "food": 5,
     "icon": "icons/trade_goods/icon_goods_legumes.png",
     "source_file": "03_food.txt"
   },
@@ -1195,6 +1204,7 @@
     "demand_multiply": {
       "upper": 2
     },
+    "food": 8,
     "icon": "icons/trade_goods/icon_goods_potato.png",
     "source_file": "03_food.txt"
   },
@@ -1224,6 +1234,7 @@
       "laborers": 1.1,
       "soldiers": 1.1
     },
+    "food": 8,
     "icon": "icons/trade_goods/icon_goods_livestock.png",
     "source_file": "03_food.txt"
   },
@@ -1245,6 +1256,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "food": 4,
     "icon": "icons/trade_goods/icon_goods_olives.png",
     "source_file": "03_food.txt"
   },
@@ -1263,6 +1275,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "food": 4,
     "icon": "icons/trade_goods/icon_goods_fruit.png",
     "source_file": "03_food.txt"
   },
@@ -1287,6 +1300,7 @@
       "laborers": 1.1,
       "soldiers": 1.1
     },
+    "food": 2.5,
     "icon": "icons/trade_goods/icon_goods_beeswax.png",
     "source_file": "03_food.txt"
   },

@@ -69,6 +69,14 @@ const desc = loc[item.id]?.desc;
           <dd class="num-val">{item.default_market_price}</dd>
         </div>
         {
+          item.food != null && (
+            <div class="prop-row">
+              <dt>{gameTerm(lang, "field.food")}</dt>
+              <dd class="num-val">{item.food}</dd>
+            </div>
+          )
+        }
+        {
           item.transport_cost != null && (
             <div class="prop-row">
               <dt>{gameTerm(lang, "field.transport_cost")}</dt>

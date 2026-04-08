@@ -8,6 +8,7 @@ export interface GoodsItem {
   transport_cost?: number;
   base_production?: number;
   origin?: string;
+  food?: number;
   development_threshold?: number;
   tags?: string[];
   demand_add?: Record<string, number>;
