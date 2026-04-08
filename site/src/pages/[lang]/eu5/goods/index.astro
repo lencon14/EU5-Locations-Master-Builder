@@ -44,9 +44,9 @@ for (const g of core) {
                 <th class="icon-head"></th>
                 <th>{t(lang, "goods.col.name")}</th>
                 {lang !== "en" && <th>{t(lang, "goods.col.name_en")}</th>}
-                <th>{t(lang, "goods.col.method")}</th>
-                <th class="num-head">{t(lang, "goods.col.base_price")}</th>
-                <th class="num-head">{t(lang, "goods.col.transport_cost")}</th>
+                <th>{gameTerm(lang, "field.method")}</th>
+                <th class="num-head">{gameTerm(lang, "field.default_market_price")}</th>
+                <th class="num-head">{gameTerm(lang, "field.transport_cost")}</th>
               </tr>
             </thead>
             <tbody>

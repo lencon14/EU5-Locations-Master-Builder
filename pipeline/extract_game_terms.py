@@ -1,16 +1,25 @@
-"""Extract game terminology from official localization files.
+"""Extract game terminology and build field labels for all languages.
 
 Produces loc/{lang}/game_terms.json for each language.
-These are NOT site UI strings — they are official in-game term translations
-extracted directly from Paradox localization files.
+Terms have three provenance levels:
 
-Categories extracted:
-  - pop_types: nobles, clergy, burghers, etc.
-  - pop_groups: all, upper (from game_concepts)
-  - goods_categories: raw_material, produced, food, special
-  - goods_methods: farming, mining, gathering, hunting, forestry
-  - goods_origins: old_world, new_world (from old_world_goods/new_world_goods)
-  - field_labels: demand, base_production, etc. (from game_concepts)
+  [official-1:1]  Extracted directly from Paradox loc files with no modification.
+    - pop_types: nobles, clergy, etc. (from pops_l)
+    - pop_groups.upper (from game_concepts: game_concept_upper_class)
+    - goods_categories: raw_material, produced, food, special (from goods_l)
+    - goods_methods: farming, mining, etc. (from goods_l)
+    - goods_origins: old_world, new_world (from goods_l: old_world_goods/new_world_goods)
+    - single concepts: demand, base_production, market_price, etc. (from game_concepts)
+
+  [derived]  Compound labels built from official word parts.
+    Field labels like "基準価格" (base price), "輸送コスト" (transport cost),
+    "需要加算" (demand add) are composed from individual official terms.
+    Each language's compounds are defined in _FIELD_LABELS and were verified
+    against game_concepts_l and goods_l. JA labels confirmed by project owner.
+
+  [no-official]  Terms with no official loc entry.
+    - pop.all: "all" pop group has no Paradox loc. Labeled per-language in _FIELD_LABELS.
+    - field.origin: "origin" has no game concept. Site-specific label.
 
 Usage:
     cd pipeline && python3 extract_game_terms.py
@@ -97,12 +106,15 @@ def extract_terms(game_code: str) -> dict[str, str]:
 
 
 # Compound field labels per language.
-# Sources: game_concept_target_price_desc (基準価格), game_concept_demand (需要),
-# game_concept_modifier_desc (加算/乗算), game_concept_development (開発度),
-# game_concept_wealth (富), game_concept_cost (コスト),
-# game_concept_transport_capacity (輸送)
+# Provenance: [derived] and [no-official] — see module docstring.
 #
-# JA labels confirmed by user. Other languages built from official word parts.
+# Official word parts used:
+#   game_concept_target_price_desc → 基準価格 (JA)
+#   game_concept_demand → 需要, game_concept_modifier_desc → 加算/乗算
+#   game_concept_development → 開発度, game_concept_wealth → 富
+#   game_concept_cost → コスト, game_concept_transport_capacity → 輸送
+#
+# JA labels confirmed by project owner. Other languages built from official word parts.
 _FIELD_LABELS: dict[str, dict[str, str]] = {
     "english": {
         "pop.all": "All Pops",
