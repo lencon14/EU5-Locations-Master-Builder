@@ -74,6 +74,7 @@ grouped.set("raw_material", nonFoodRaw);
                   <tr
                     class="goods-row"
                     data-name={`${name} ${nameEn} ${g.id}`}
+                    data-href={localePath(lang, `/goods/${g.id}/`)}
                   >
                     <td class="icon-cell">
                       <img src={`/${g.icon}`} alt="" width="24" height="24" loading="lazy" />
@@ -126,6 +127,17 @@ grouped.set("raw_material", nonFoodRaw);
           );
           sec.style.display = visible.length > 0 ? "" : "none";
         });
+    });
+
+    // Row click → navigate to detail page
+    rows.forEach((row) => {
+      const href = row.dataset.href;
+      if (!href) return;
+      row.addEventListener("click", (e) => {
+        // Don't navigate if clicking the link itself (let it handle naturally)
+        if ((e.target as HTMLElement).closest("a")) return;
+        window.location.href = href;
+      });
     });
   </script>
 
@@ -276,6 +288,10 @@ grouped.set("raw_material", nonFoodRaw);
     .icon-cell img {
       vertical-align: middle;
       image-rendering: pixelated;
+    }
+
+    tr[data-href] {
+      cursor: pointer;
     }
 
     tr:hover {

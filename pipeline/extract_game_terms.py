@@ -55,11 +55,32 @@ def extract_terms(game_code: str) -> dict[str, str]:
     pops_loc = _load_loc("pops", game_code)
     concepts_loc = _load_loc("game_concepts", game_code)
 
+    # Build concept word → localized name lookup for desc post-processing
+    # e.g. "good" → "交易品", "market_center" → "市場中心地"
+    concept_names: dict[str, str] = {}
+    for k, v in concepts_loc.items():
+        if k.startswith("game_concept_") and not k.endswith("_desc") and not k.endswith("_short"):
+            word = k[len("game_concept_"):]
+            concept_names[word] = v
+
+    def localize_desc(raw: str) -> str:
+        """Strip markup then replace leftover concept words with localized names."""
+        text = strip_markup(raw)
+        for word in sorted(concept_names.keys(), key=len, reverse=True):
+            spaced = word.replace("_", " ")
+            if spaced in text:
+                text = text.replace(spaced, concept_names[word])
+            elif word in text:
+                text = text.replace(word, concept_names[word])
+        return text.strip()
+
     # --- Pop types (from pops_l) ---
     for pop_id in ["nobles", "clergy", "burghers", "laborers",
                     "soldiers", "peasants", "slaves", "tribesmen"]:
         if pop_id in pops_loc:
             terms[f"pop.{pop_id}"] = pops_loc[pop_id]
+        if f"{pop_id}_desc" in pops_loc:
+            terms[f"pop.{pop_id}.desc"] = localize_desc(pops_loc[f"{pop_id}_desc"])
 
     # --- Pop groups ---
     # 'upper' from game_concepts
@@ -73,6 +94,11 @@ def extract_terms(game_code: str) -> dict[str, str]:
     for cat_id in ["raw_material", "produced", "food", "special"]:
         if cat_id in goods_loc:
             terms[f"goods.cat.{cat_id}"] = goods_loc[cat_id]
+        # Category descriptions from game_concepts (e.g. game_concept_raw_materials_desc)
+        for variant in [f"game_concept_{cat_id}_desc", f"game_concept_{cat_id}s_desc"]:
+            if variant in concepts_loc:
+                terms[f"goods.cat.{cat_id}.desc"] = localize_desc(concepts_loc[variant])
+                break
 
     # --- Goods methods (from goods_l) ---
     for method_id in ["farming", "mining", "gathering", "hunting", "forestry"]:
@@ -95,26 +121,6 @@ def extract_terms(game_code: str) -> dict[str, str]:
         "game_concept_wealth": "field.wealth",
         "game_concept_cost": "field.cost",
     }
-    # Build concept word → localized name lookup for desc post-processing
-    # e.g. "good" → "交易品", "market_center" → "市場中心地"
-    concept_names: dict[str, str] = {}
-    for k, v in concepts_loc.items():
-        if k.startswith("game_concept_") and not k.endswith("_desc") and not k.endswith("_short"):
-            word = k[len("game_concept_"):]  # e.g. "market_price"
-            concept_names[word] = v
-
-    def localize_desc(raw: str) -> str:
-        """Strip markup then replace leftover concept words with localized names."""
-        text = strip_markup(raw)
-        # Replace concept words (longer first to avoid partial matches)
-        for word in sorted(concept_names.keys(), key=len, reverse=True):
-            spaced = word.replace("_", " ")
-            if spaced in text:
-                text = text.replace(spaced, concept_names[word])
-            elif word in text:
-                text = text.replace(word, concept_names[word])
-        return text.strip()
-
     for concept_key, term_key in single_concepts.items():
         if concept_key in concepts_loc:
             terms[term_key] = concepts_loc[concept_key]

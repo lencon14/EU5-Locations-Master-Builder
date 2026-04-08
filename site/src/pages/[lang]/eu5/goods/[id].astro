@@ -27,6 +27,36 @@ function tip(key: string): string | undefined {
   const d = gameTerm(lang, `${key}.desc`);
   return d !== `${key}.desc` ? d : undefined;
 }
+
+// --- POP demand calculation ---
+const ALL_POP_TYPES = ["nobles", "clergy", "burghers", "laborers", "soldiers", "peasants", "slaves", "tribesmen"] as const;
+const UPPER_CLASS = new Set(["nobles", "clergy", "burghers"]);
+
+type DemandRow = { popId: string; base: number; multiplier: number; final: number };
+
+function calcDemandRows(): DemandRow[] | null {
+  const add = item.demand_add;
+  const mul = item.demand_multiply;
+  if (!add || Object.keys(add).length === 0) return null;
+
+  return ALL_POP_TYPES.map((popId) => {
+    // Base: specific pop entry > "all" > 0
+    const base = add[popId] ?? add["all"] ?? 0;
+    // Multiplier: specific pop entry > "upper" (if upper class) > 1
+    let multiplier = 1;
+    if (mul) {
+      if (popId in mul) {
+        multiplier = mul[popId];
+      } else if (UPPER_CLASS.has(popId) && "upper" in mul) {
+        multiplier = mul["upper"];
+      }
+    }
+    return { popId, base, multiplier, final: base * multiplier };
+  });
+}
+
+const demandRows = calcDemandRows();
+const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.base !== 0);
 ---
 
 <Base
@@ -56,7 +86,7 @@ function tip(key: string): string | undefined {
       <dl>
         <div class="prop-row">
           <dt>{t(lang, "common.category")}</dt>
-          <dd>{gameTerm(lang, `goods.cat.${item.category}`)}</dd>
+          <dd data-tip={tip(`goods.cat.${item.category}`)}>{gameTerm(lang, `goods.cat.${item.category}`)}</dd>
         </div>
         {
           item.method && (
@@ -119,33 +149,25 @@ function tip(key: string): string | undefined {
 
     <div class="side-panels">
       {
-        item.demand_add && Object.keys(item.demand_add).length > 0 && (
-          <section class="panel">
-            <h3 data-tip={tip("field.demand")}>{gameTerm(lang, "field.demand_add")}</h3>
+        hasDemand && demandRows && (
+          <section class="panel demand-panel">
+            <h3 data-tip={tip("field.demand")}>POP{gameTerm(lang, "field.demand")} <span class="unit">({t(lang, "goods.per_1000")})</span></h3>
             <table>
+              <thead>
+                <tr>
+                  <th>{gameTerm(lang, "field.demand")}</th>
+                  <th class="num-head">{gameTerm(lang, "field.demand_add")}</th>
+                  <th class="num-head">&times;</th>
+                  <th class="num-head">=</th>
+                </tr>
+              </thead>
               <tbody>
-                {Object.entries(item.demand_add).map(([k, v]) => (
-                  <tr>
-                    <td>{gameTerm(lang, `pop.${k}`)}</td>
-                    <td class="num">{v as number}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </section>
-        )
-      }
-
-      {
-        item.demand_multiply && Object.keys(item.demand_multiply).length > 0 && (
-          <section class="panel">
-            <h3 data-tip={tip("field.demand")}>{gameTerm(lang, "field.demand_multiply")}</h3>
-            <table>
-              <tbody>
-                {Object.entries(item.demand_multiply).map(([k, v]) => (
-                  <tr>
-                    <td>{gameTerm(lang, `pop.${k}`)}</td>
-                    <td class="num">&times;{v as number}</td>
+                {demandRows.map((r) => (
+                  <tr class={r.final === 0 ? "zero-row" : ""}>
+                    <td data-tip={tip(`pop.${r.popId}`)}>{gameTerm(lang, `pop.${r.popId}`)}</td>
+                    <td class="num">{r.base}</td>
+                    <td class="num">{r.multiplier !== 1 ? `×${r.multiplier}` : ""}</td>
+                    <td class="num result">{r.final}</td>
                   </tr>
                 ))}
               </tbody>
@@ -164,7 +186,7 @@ function tip(key: string): string | undefined {
                   {Object.entries(item.wealth_impact_threshold).map(
                     ([k, v]) => (
                       <tr>
-                        <td>{gameTerm(lang, `pop.${k}`)}</td>
+                        <td data-tip={tip(`pop.${k}`)}>{gameTerm(lang, `pop.${k}`)}</td>
                         <td class="num">{v as number}</td>
                       </tr>
                     ),
@@ -337,6 +359,43 @@ function tip(key: string): string | undefined {
     h3[data-tip]::after {
       bottom: auto;
       top: calc(100% + 4px);
+    }
+
+    .demand-panel th {
+      padding: 0.4rem 0.5rem;
+      text-align: left;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--dusty-silver);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .demand-panel thead {
+      background: var(--charred-oak);
+    }
+
+    .demand-panel .num-head {
+      text-align: right;
+    }
+
+    .result {
+      font-weight: 600;
+      color: var(--pale-gold);
+    }
+
+    .zero-row {
+      opacity: 0.4;
+    }
+
+    .unit {
+      font-family: var(--font-body);
+      font-size: 0.65rem;
+      font-weight: 400;
+      color: var(--dim-stone);
+      text-transform: none;
+      letter-spacing: normal;
     }
 
     dd {
