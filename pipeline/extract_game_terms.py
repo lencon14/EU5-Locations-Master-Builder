@@ -250,6 +250,11 @@ def _build_field_labels(game_code: str) -> dict[str, str]:
 def main() -> None:
     print("=== Extracting game terms ===")
 
+    # Verify _FIELD_LABELS covers exactly the same languages as LANGUAGES
+    label_codes = set(_FIELD_LABELS.keys())
+    lang_codes = {game for _, game, _ in LANGUAGES}
+    assert label_codes == lang_codes, f"_FIELD_LABELS mismatch: {label_codes.symmetric_difference(lang_codes)}"
+
     for url_code, game_code, display_name in LANGUAGES:
         print(f"[{url_code}] {display_name}")
         terms = extract_terms(game_code)

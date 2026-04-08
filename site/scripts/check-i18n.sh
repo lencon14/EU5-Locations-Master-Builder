@@ -34,6 +34,11 @@ fi
 echo ""
 echo "--- game_terms.json key coverage ---"
 EN_KEYS=$(python3 -c "import json; print('\n'.join(sorted(json.load(open('$DATA/loc/en/game_terms.json')).keys())))")
+EN_COUNT=$(echo "$EN_KEYS" | wc -l | tr -d ' ')
+if [ "$EN_COUNT" -eq 0 ]; then
+  echo "FAIL: English game_terms.json has 0 terms"
+  ERRORS=$((ERRORS + 1))
+fi
 for lang in de es fr ja ko pl pt-br ru tr zh-hans; do
   FILE="$DATA/loc/$lang/game_terms.json"
   if [ ! -f "$FILE" ]; then
@@ -51,7 +56,6 @@ for lang in de es fr ja ko pl pt-br ru tr zh-hans; do
     echo "INFO: $lang extra keys: $(echo "$EXTRA" | tr '\n' ', ')"
   fi
   COUNT=$(echo "$LANG_KEYS" | wc -l | tr -d ' ')
-  EN_COUNT=$(echo "$EN_KEYS" | wc -l | tr -d ' ')
   if [ -z "$MISSING" ] && [ -z "$EXTRA" ]; then
     echo "OK: $lang — $COUNT terms"
   fi
@@ -60,13 +64,15 @@ done
 # 3. Validate core data keys exist in game_terms
 echo ""
 echo "--- Core data → game_terms coverage ---"
+CORE_WARNS=0
 if [ -f "$DATA/core/goods.json" ]; then
   # Check categories
   CORE_CATS=$(python3 -c "import json; cats=set(g.get('category','') for g in json.load(open('$DATA/core/goods.json'))); print('\n'.join(sorted(c for c in cats if c)))")
   for cat in $CORE_CATS; do
     KEY="goods.cat.$cat"
     if ! python3 -c "import json,sys; d=json.load(open('$DATA/loc/en/game_terms.json')); sys.exit(0 if '$KEY' in d else 1)" 2>/dev/null; then
-      echo "WARN: Core category '$cat' has no game_terms key '$KEY'"
+      echo "FAIL: Core category '$cat' has no game_terms key '$KEY'"
+      CORE_WARNS=$((CORE_WARNS + 1))
     fi
   done
 
@@ -75,7 +81,8 @@ if [ -f "$DATA/core/goods.json" ]; then
   for method in $CORE_METHODS; do
     KEY="goods.method.$method"
     if ! python3 -c "import json,sys; d=json.load(open('$DATA/loc/en/game_terms.json')); sys.exit(0 if '$KEY' in d else 1)" 2>/dev/null; then
-      echo "WARN: Core method '$method' has no game_terms key '$KEY'"
+      echo "FAIL: Core method '$method' has no game_terms key '$KEY'"
+      CORE_WARNS=$((CORE_WARNS + 1))
     fi
   done
 
@@ -91,11 +98,16 @@ for p in sorted(pops): print(p)
   for pop in $POP_KEYS; do
     KEY="pop.$pop"
     if ! python3 -c "import json,sys; d=json.load(open('$DATA/loc/en/game_terms.json')); sys.exit(0 if '$KEY' in d else 1)" 2>/dev/null; then
-      echo "WARN: Core pop key '$pop' has no game_terms key '$KEY'"
+      echo "FAIL: Core pop key '$pop' has no game_terms key '$KEY'"
+      CORE_WARNS=$((CORE_WARNS + 1))
     fi
   done
 
-  echo "OK: Core data keys validated against game_terms."
+  if [ $CORE_WARNS -gt 0 ]; then
+    ERRORS=$((ERRORS + CORE_WARNS))
+  else
+    echo "OK: Core data keys validated against game_terms."
+  fi
 fi
 
 # 4. languages.py ↔ config.ts consistency

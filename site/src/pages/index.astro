@@ -37,6 +37,7 @@ import { LANG_CODES, DEFAULT_LANG } from "../i18n/config";
             window.location.replace("/" + normalized + "/eu5/");
             return;
           }
+          // zh-TW/zh-HK も zh-hans にマッピング（EU5は簡体字のみサポート）
           // zh-CN/zh-SG → zh-hans
           if (lower.startsWith("zh")) {
             window.location.replace("/zh-hans/eu5/");

@@ -16,8 +16,10 @@ const coreModules = import.meta.glob<unknown[]>(
 );
 
 // -- Localization data (keyed objects: { [id]: { name, desc? } }) --
+// game_terms.json is excluded here — it has a different shape (flat key-value)
+// and is loaded separately via termModules. Do NOT pass 'game_terms' to loadLoc().
 const locModules = import.meta.glob<Record<string, { name: string; desc?: string }>>(
-  '../data/loc/*/*.json',
+  ['../data/loc/*/*.json', '!../data/loc/*/game_terms.json'],
   { eager: true, import: 'default' },
 );
 
@@ -37,7 +39,9 @@ export function loadCore<T = unknown>(category: Category): T[] {
   return data;
 }
 
-/** Load localization map for a category + language, with English fallback */
+/** Load localization map for a category + language, with English fallback.
+ *  Note: 'game_terms' is NOT a valid Category. game_terms.json is excluded from
+ *  locModules (different shape) and loaded via loadGameTerms() / termModules instead. */
 export function loadLoc(category: Category, lang: Lang): LocMap {
   const cacheKey = `${lang}:${category}`;
   const cached = _locCache.get(cacheKey);
