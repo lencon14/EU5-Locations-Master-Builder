@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import goods from "../data/goods.json";
+import buildings from "../data/buildings.json";
 ---
 
 <Base title="トップ">
@@ -17,11 +18,12 @@ import goods from "../data/goods.json";
       <p class="card-desc">原材料、加工品、食料など全交易品のデータ一覧</p>
     </a>
 
-    <div class="card card--disabled">
-      <span class="card-label">COMING SOON</span>
+    <a href="/buildings/" class="card">
+      <span class="card-label">DATABASE</span>
       <h2>建物</h2>
+      <p class="stat">{buildings.length}</p>
       <p class="card-desc">防衛施設、生産施設、政府施設などの建物データ</p>
-    </div>
+    </a>
 
     <div class="card card--disabled">
       <span class="card-label">COMING SOON</span>

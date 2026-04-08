@@ -48,7 +48,9 @@ def strip_markup(text: str) -> str:
     text = re.sub(r"#tooltip_subheading\s*", "", text)
     # Remove @icon! references
     text = re.sub(r"@\w+!", "", text)
-    # Remove [SCOPE...] references
+    # Convert [word|e] game concept refs → keep the word part
+    text = re.sub(r"\[(\w+)\|[eE]\]", r"\1", text)
+    # Remove remaining [SCOPE.func()] references
     text = re.sub(r"\[[\w.'()| ]+\]", "", text)
     # Clean up extra whitespace
     text = re.sub(r"\s+", " ", text).strip()
