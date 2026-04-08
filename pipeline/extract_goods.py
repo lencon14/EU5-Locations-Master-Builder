@@ -74,6 +74,7 @@ def build_goods() -> list[dict]:
         if "development_threshold" in props:
             entry["development_threshold"] = props["development_threshold"]
 
+        entry["icon"] = f"icons/trade_goods/icon_goods_{good_id}.png"
         entry["source_file"] = props.get("_source_file", "")
         result.append(entry)
 

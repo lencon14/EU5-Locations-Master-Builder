@@ -17,6 +17,7 @@
     "demand_add": {
       "nobles": 0.25
     },
+    "icon": "icons/trade_goods/icon_goods_horses.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -31,6 +32,7 @@
     "transport_cost": 2,
     "base_production": 0.4,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_clay.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -45,6 +47,7 @@
     "transport_cost": 2,
     "base_production": 0.2,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_sand.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -66,6 +69,7 @@
       "upper": 25,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_coal.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -80,6 +84,7 @@
     "transport_cost": 1,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_iron.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -94,6 +99,7 @@
     "transport_cost": 1,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_copper.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -114,6 +120,7 @@
     "wealth_impact_threshold": {
       "all": 1.05
     },
+    "icon": "icons/trade_goods/icon_goods_goods_gold.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -134,6 +141,7 @@
     "wealth_impact_threshold": {
       "all": 1.05
     },
+    "icon": "icons/trade_goods/icon_goods_silver.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -148,6 +156,7 @@
     "transport_cost": 2,
     "base_production": 0.2,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_stone.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -162,6 +171,7 @@
     "transport_cost": 1,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_tin.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -176,6 +186,7 @@
     "transport_cost": 1,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_lead.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -190,6 +201,7 @@
     "transport_cost": 0,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_silk.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -204,6 +216,7 @@
     "transport_cost": 0.5,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_dyes.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -224,6 +237,7 @@
     "wealth_impact_threshold": {
       "all": 0.5
     },
+    "icon": "icons/trade_goods/icon_goods_incense.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -246,6 +260,7 @@
     "wealth_impact_threshold": {
       "all": 0.75
     },
+    "icon": "icons/trade_goods/icon_goods_tea.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -271,6 +286,7 @@
     "wealth_impact_threshold": {
       "all": 0.75
     },
+    "icon": "icons/trade_goods/icon_goods_cocoa.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -297,6 +313,7 @@
     "wealth_impact_threshold": {
       "all": 0.75
     },
+    "icon": "icons/trade_goods/icon_goods_coffee.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -311,6 +328,7 @@
     "transport_cost": 0,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_fiber_crops.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -332,6 +350,7 @@
       "all": 1.1
     },
     "development_threshold": 20,
+    "icon": "icons/trade_goods/icon_goods_ivory.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -353,6 +372,7 @@
       "upper": 5,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_lumber.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -375,6 +395,7 @@
     "wealth_impact_threshold": {
       "all": 0.7
     },
+    "icon": "icons/trade_goods/icon_goods_salt.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -402,6 +423,7 @@
     "wealth_impact_threshold": {
       "all": 1.1
     },
+    "icon": "icons/trade_goods/icon_goods_medicaments.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -422,6 +444,7 @@
     "wealth_impact_threshold": {
       "all": 1.25
     },
+    "icon": "icons/trade_goods/icon_goods_gems.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -445,6 +468,7 @@
       "burghers": 1.5
     },
     "development_threshold": 20,
+    "icon": "icons/trade_goods/icon_goods_pearls.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -467,6 +491,7 @@
       "nobles": 1.0,
       "burghers": 1.5
     },
+    "icon": "icons/trade_goods/icon_goods_amber.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -481,6 +506,7 @@
     "transport_cost": 0,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_saltpeter.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -495,6 +521,7 @@
     "transport_cost": 0,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_alum.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -521,6 +548,7 @@
       "slaves": 0,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_wine.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -541,6 +569,7 @@
     "wealth_impact_threshold": {
       "nobles": 2
     },
+    "icon": "icons/trade_goods/icon_goods_elephants.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -562,6 +591,7 @@
       "nobles": 1.5
     },
     "development_threshold": 40,
+    "icon": "icons/trade_goods/icon_goods_marble.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -585,6 +615,7 @@
     "wealth_impact_threshold": {
       "all": 1.0
     },
+    "icon": "icons/trade_goods/icon_goods_mercury.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -607,6 +638,7 @@
     "wealth_impact_threshold": {
       "all": 1.1
     },
+    "icon": "icons/trade_goods/icon_goods_saffron.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -629,6 +661,7 @@
     "wealth_impact_threshold": {
       "all": 1.1
     },
+    "icon": "icons/trade_goods/icon_goods_pepper.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -651,6 +684,7 @@
     "wealth_impact_threshold": {
       "all": 1.1
     },
+    "icon": "icons/trade_goods/icon_goods_cloves.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -676,6 +710,7 @@
     "wealth_impact_threshold": {
       "all": 1.1
     },
+    "icon": "icons/trade_goods/icon_goods_chili.png",
     "source_file": "00_raw_materials.txt"
   },
   {
@@ -693,6 +728,7 @@
     "tags": [
       "old_world_goods"
     ],
+    "icon": "icons/trade_goods/icon_goods_cotton.png",
     "source_file": "01_plantation_goods.txt"
   },
   {
@@ -715,6 +751,7 @@
       "burghers": 0.005,
       "clergy": 0.005
     },
+    "icon": "icons/trade_goods/icon_goods_sugar.png",
     "source_file": "01_plantation_goods.txt"
   },
   {
@@ -737,6 +774,7 @@
       "burghers": 0.005,
       "clergy": 0.005
     },
+    "icon": "icons/trade_goods/icon_goods_tobacco.png",
     "source_file": "01_plantation_goods.txt"
   },
   {
@@ -751,6 +789,7 @@
     "transport_cost": 0,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_tar.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -775,6 +814,7 @@
       "all": 1.1
     },
     "development_threshold": 30,
+    "icon": "icons/trade_goods/icon_goods_porcelain.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -789,6 +829,7 @@
     "transport_cost": 0,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_naval_supplies.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -810,6 +851,7 @@
     "wealth_impact_threshold": {
       "all": 1.2
     },
+    "icon": "icons/trade_goods/icon_goods_firearms.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -824,6 +866,7 @@
     "transport_cost": 1.0,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_cannons.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -847,6 +890,7 @@
     "wealth_impact_threshold": {
       "all": 1.1
     },
+    "icon": "icons/trade_goods/icon_goods_weaponry.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -861,6 +905,7 @@
     "transport_cost": 0.5,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_glass.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -875,6 +920,7 @@
     "transport_cost": 1,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_steel.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -900,6 +946,7 @@
     "wealth_impact_threshold": {
       "all": 1.0
     },
+    "icon": "icons/trade_goods/icon_goods_cloth.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -923,6 +970,7 @@
       "all": 1.25
     },
     "development_threshold": 20,
+    "icon": "icons/trade_goods/icon_goods_fine_cloth.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -949,6 +997,7 @@
     "wealth_impact_threshold": {
       "all": 0.5
     },
+    "icon": "icons/trade_goods/icon_goods_liquor.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -975,6 +1024,7 @@
     "wealth_impact_threshold": {
       "all": 0.75
     },
+    "icon": "icons/trade_goods/icon_goods_beer.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -998,6 +1048,7 @@
       "all": 1.2
     },
     "development_threshold": 20,
+    "icon": "icons/trade_goods/icon_goods_paper.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -1021,6 +1072,7 @@
       "all": 1.1
     },
     "development_threshold": 30,
+    "icon": "icons/trade_goods/icon_goods_books.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -1042,6 +1094,7 @@
     "wealth_impact_threshold": {
       "all": 1.2
     },
+    "icon": "icons/trade_goods/icon_goods_jewelry.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -1056,6 +1109,7 @@
     "transport_cost": 0,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_leather.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -1076,6 +1130,7 @@
     "wealth_impact_threshold": {
       "all": 0.75
     },
+    "icon": "icons/trade_goods/icon_goods_tools.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -1101,6 +1156,7 @@
     "wealth_impact_threshold": {
       "all": 1.0
     },
+    "icon": "icons/trade_goods/icon_goods_masonry.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -1123,6 +1179,7 @@
       "all": 1.2
     },
     "development_threshold": 20,
+    "icon": "icons/trade_goods/icon_goods_lacquerware.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -1149,6 +1206,7 @@
     "wealth_impact_threshold": {
       "all": 1.0
     },
+    "icon": "icons/trade_goods/icon_goods_pottery.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -1175,6 +1233,7 @@
     "wealth_impact_threshold": {
       "all": 1.0
     },
+    "icon": "icons/trade_goods/icon_goods_furniture.png",
     "source_file": "02_produced_goods.txt"
   },
   {
@@ -1189,6 +1248,7 @@
     "transport_cost": 0,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_wool.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1212,6 +1272,7 @@
       "burghers": 5,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_wild_game.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1235,6 +1296,7 @@
     "wealth_impact_threshold": {
       "all": 1.1
     },
+    "icon": "icons/trade_goods/icon_goods_fur.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1256,6 +1318,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_fish.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1286,6 +1349,7 @@
       "laborers": 1.1,
       "soldiers": 1.0
     },
+    "icon": "icons/trade_goods/icon_goods_wheat.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1310,6 +1374,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_maize.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1334,6 +1399,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_rice.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1358,6 +1424,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_millet.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1379,6 +1446,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_legumes.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1403,6 +1471,7 @@
     "demand_multiply": {
       "upper": 2
     },
+    "icon": "icons/trade_goods/icon_goods_potato.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1435,6 +1504,7 @@
       "laborers": 1.1,
       "soldiers": 1.1
     },
+    "icon": "icons/trade_goods/icon_goods_livestock.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1459,6 +1529,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_olives.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1480,6 +1551,7 @@
       "upper": 2,
       "tribesmen": 0
     },
+    "icon": "icons/trade_goods/icon_goods_fruit.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1507,6 +1579,7 @@
       "laborers": 1.1,
       "soldiers": 1.1
     },
+    "icon": "icons/trade_goods/icon_goods_beeswax.png",
     "source_file": "03_food.txt"
   },
   {
@@ -1521,6 +1594,7 @@
     "transport_cost": 0,
     "base_production": 0,
     "tags": [],
+    "icon": "icons/trade_goods/icon_goods_slaves_goods.png",
     "source_file": "04_special.txt"
   }
 ]

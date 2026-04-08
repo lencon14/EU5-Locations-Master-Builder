@@ -46,6 +46,7 @@ for (const g of goods) {
           <table>
             <thead>
               <tr>
+                <th class="icon-head"></th>
                 <th>名前</th>
                 <th>EN</th>
                 <th>採取方法</th>
@@ -59,6 +60,9 @@ for (const g of goods) {
                   class="goods-row"
                   data-name={`${g.name_ja} ${g.name_en} ${g.id}`}
                 >
+                  <td class="icon-cell">
+                    <img src={`/${g.icon}`} alt="" width="24" height="24" loading="lazy" />
+                  </td>
                   <td>
                     <a href={`/goods/${g.id}/`}>{g.name_ja}</a>
                   </td>
@@ -220,6 +224,22 @@ for (const g of goods) {
       padding: 0.1rem 0.5rem;
       font-size: 0.75rem;
       font-weight: 500;
+    }
+
+    .icon-head {
+      width: 32px;
+      padding: 0.5rem 0.25rem;
+    }
+
+    .icon-cell {
+      width: 32px;
+      padding: 0.35rem 0.25rem;
+      text-align: center;
+    }
+
+    .icon-cell img {
+      vertical-align: middle;
+      image-rendering: pixelated;
     }
 
     tr:hover {

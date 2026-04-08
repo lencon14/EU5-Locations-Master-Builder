@@ -40,7 +40,10 @@ const originLabels: Record<string, string> = {
   </nav>
 
   <header class="good-header">
-    <h1>{good.name_ja}</h1>
+    <div class="header-title">
+      <img src={`/${good.icon}`} alt="" width="48" height="48" class="header-icon" />
+      <h1>{good.name_ja}</h1>
+    </div>
     <span class="en-name">{good.name_en}</span>
     <code class="id-badge">{good.id}</code>
   </header>
@@ -223,6 +226,16 @@ const originLabels: Record<string, string> = {
       margin-bottom: 2rem;
       padding-bottom: 1.5rem;
       border-bottom: 1px solid var(--gold-thread);
+    }
+
+    .header-title {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header-icon {
+      image-rendering: pixelated;
     }
 
     .good-header h1 {

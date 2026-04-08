@@ -90,6 +90,7 @@ def build_religions() -> list[dict]:
         if "modifier" in props and isinstance(props["modifier"], dict):
             entry["modifier"] = props["modifier"]
 
+        entry["icon"] = f"icons/religion/{rel_id}.png"
         entry["source_file"] = props.get("_source_file", "")
         result.append(entry)
 

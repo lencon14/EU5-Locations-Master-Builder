@@ -35,14 +35,32 @@
 | 政体 | 5 | extract_governments.py |
 | 法律 | 191 | extract_governments.py |
 
+### アイコンパイプライン
+
+- `fetch_icons.py` — SSH経由でDDSアイコンを取得し、Pillow で PNG(64x64) に変換
+- アイコン格納先: `pipeline/output/icons/{category}/` → `site/public/icons/` にコピー
+- 各 extract スクリプトが JSON に `icon` フィールド（相対パス）を出力
+- ファイル名規則: trade_goods は `icon_goods_{id}.png`、他は `{id}.png`
+
+| カテゴリ | アイコン数 |
+|---------|----------|
+| trade_goods | 75 |
+| buildings | 447 |
+| religion | 294 |
+| government_types | 8 |
+| laws | 205 |
+| building_categories / religious_* | 計 134 |
+
 ## データ更新フロー（ゲームバージョンアップ時）
 
 1. `cd pipeline && python3 fetch_raw.py` で全データ再取得
-2. `git diff pipeline/raw/` で変更点を確認
-3. 各 `extract_*.py` を実行してJSON再生成
-4. `cp pipeline/output/*.json site/src/data/`
-5. `cd site && npm run build` でサイトリビルド
-6. 変更をコミット
+2. `python3 fetch_icons.py` でアイコン再取得・変換
+3. `git diff pipeline/raw/` で変更点を確認
+4. 各 `extract_*.py` を実行してJSON再生成
+5. `cp pipeline/output/*.json site/src/data/`
+6. `cp -r pipeline/output/icons site/public/`
+7. `cd site && npm run build` でサイトリビルド
+8. 変更をコミット
 
 ## 課題管理
 

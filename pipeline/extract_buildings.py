@@ -100,6 +100,7 @@ def build_buildings() -> list[dict]:
         if "construction_demand" in props:
             entry["construction_demand"] = props["construction_demand"]
 
+        entry["icon"] = f"icons/buildings/{bld_id}.png"
         entry["source_file"] = props.get("_source_file", "")
         result.append(entry)
 

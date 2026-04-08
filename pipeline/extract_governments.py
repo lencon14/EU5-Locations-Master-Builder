@@ -71,6 +71,7 @@ def build_governments() -> list[dict]:
         if "modifier" in props and isinstance(props["modifier"], dict):
             entry["modifier"] = props["modifier"]
 
+        entry["icon"] = f"icons/government_types/{gov_id}.png"
         entry["source_file"] = props.get("_source_file", "")
         result.append(entry)
 
@@ -118,6 +119,7 @@ def build_laws() -> list[dict]:
         if "modifier" in props and isinstance(props["modifier"], dict):
             entry["modifier"] = props["modifier"]
 
+        entry["icon"] = f"icons/laws/{law_id}.png"
         entry["source_file"] = props.get("_source_file", "")
         result.append(entry)
 
