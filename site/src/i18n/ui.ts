@@ -6,7 +6,7 @@
  */
 import { DEFAULT_LANG, type Lang } from './config';
 
-const strings: Record<string, Record<string, string>> = {
+const strings = {
   en: {
     'site.title': 'Paradoxpedia',
     'site.subtitle': 'EU5 Game Guide',
@@ -291,14 +291,14 @@ const strings: Record<string, Record<string, string>> = {
     'home.card.countries_desc': '各国初始设置、文化、宗教等基本信息',
     'home.card.countries': '国家',
   },
-};
+} as const satisfies Record<string, Partial<Record<string, string>>>;
 
 /** All valid UI string keys (derived from English strings) */
 export type UiKey = keyof typeof strings.en;
 
 /** Get a UI string. Falls back to English, then returns the key itself. */
 export function t(lang: Lang, key: UiKey): string {
-  return strings[lang]?.[key] ?? strings[DEFAULT_LANG]?.[key] ?? key;
+  return (strings as Record<string, Partial<Record<string, string>>>)[lang]?.[key] ?? strings[DEFAULT_LANG][key] ?? key;
 }
 
 /** Get a UI string with interpolation: t('en', 'common.items', { count: 74 }) */

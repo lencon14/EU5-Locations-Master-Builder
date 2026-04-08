@@ -26,7 +26,7 @@ for (const g of core) {
   <p class="lead">{tf(lang, "common.items", { count: core.length })}</p>
 
   <div class="filter-bar">
-    <input type="text" id="search" placeholder={t(lang, "common.search")} />
+    <input type="text" id="search" placeholder={t(lang, "common.search")} aria-label={t(lang, "common.search")} />
   </div>
 
   {
@@ -91,10 +91,14 @@ for (const g of core) {
     const input = document.getElementById("search") as HTMLInputElement;
     const rows = document.querySelectorAll<HTMLTableRowElement>(".goods-row");
 
+    function normalize(s: string): string {
+      return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
     input.addEventListener("input", () => {
-      const q = input.value.toLowerCase();
+      const q = normalize(input.value);
       rows.forEach((row) => {
-        const name = row.dataset.name?.toLowerCase() || "";
+        const name = normalize(row.dataset.name || "");
         row.style.display = name.includes(q) ? "" : "none";
       });
       document

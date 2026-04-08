@@ -104,7 +104,7 @@ import sys; sys.path.insert(0,'../pipeline')
 from languages import LANGUAGES
 for url,_,_ in LANGUAGES: print(url)
 " | sort)
-  TS_LANGS=$(grep -oP "^\s+'?[a-z][-a-z]*'?\s*:" src/i18n/config.ts | sed "s/[': ]//g" | sort)
+  TS_LANGS=$(grep -oE "^[[:space:]]+'?[a-z][-a-z]*'?[[:space:]]*:" src/i18n/config.ts | sed "s/[': ]//g" | sort)
   if [ "$PY_LANGS" = "$TS_LANGS" ]; then
     echo "OK: languages.py and config.ts have matching language codes."
   else

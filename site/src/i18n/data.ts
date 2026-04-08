@@ -3,37 +3,11 @@
  *
  * Uses import.meta.glob so Vite resolves all JSON at build time.
  * Fallback: if a locale file is missing for a given category, English is used.
- * Fallback events are deduplicated and reported via reportFallbacks().
  */
 import { DEFAULT_LANG, type Lang } from './config';
 
 // -- Category type (prevents typos) --
 export type Category = 'goods' | 'buildings' | 'countries' | 'religions' | 'governments' | 'laws';
-
-// -- Fallback tracking (deduplicated by lang:type:key) --
-const _seenFallbacks = new Set<string>();
-
-function trackFallback(type: string, lang: string, key: string): void {
-  _seenFallbacks.add(`${lang}:${type}:${key}`);
-}
-
-/** Report fallback/missing translation stats (call from build scripts or middleware) */
-export function reportFallbacks(): void {
-  if (_seenFallbacks.size === 0) return;
-  const byLang: Record<string, number> = {};
-  for (const entry of _seenFallbacks) {
-    const lang = entry.split(':')[0];
-    byLang[lang] = (byLang[lang] || 0) + 1;
-  }
-  console.warn(`[i18n] ${_seenFallbacks.size} unique fallback(s) to English:`);
-  for (const [lang, count] of Object.entries(byLang).sort((a, b) => b[1] - a[1])) {
-    console.warn(`  ${lang}: ${count}`);
-  }
-  const samples = [..._seenFallbacks].slice(0, 10);
-  if (samples.length > 0) {
-    console.warn(`  Samples: ${samples.join(', ')}`);
-  }
-}
 
 // -- Core data (arrays) --
 const coreModules = import.meta.glob<unknown[]>(
@@ -60,7 +34,7 @@ export function loadCore<T = unknown>(category: Category): T[] {
 }
 
 /** Load localization map for a category + language, with English fallback */
-export function loadLoc(category: Category | 'game_terms', lang: Lang): LocMap {
+export function loadLoc(category: Category, lang: Lang): LocMap {
   const cacheKey = `${lang}:${category}`;
   const cached = _locCache.get(cacheKey);
   if (cached) return cached;
@@ -74,7 +48,6 @@ export function loadLoc(category: Category | 'game_terms', lang: Lang): LocMap {
 
   const fallback = locModules[`../data/loc/${DEFAULT_LANG}/${category}.json`] ?? {};
   if (!primary) {
-    trackFallback('loc', lang, `${category}/*`);
     _locCache.set(cacheKey, fallback);
     return fallback;
   }
@@ -128,8 +101,5 @@ export function loadGameTerms(lang: Lang): Record<string, string> {
 /** Get a single game term */
 export function gameTerm(lang: Lang, key: string): string {
   const terms = loadGameTerms(lang);
-  if (!(key in terms)) {
-    trackFallback('gameTerm', lang, key);
-  }
   return terms[key] ?? key;
 }
