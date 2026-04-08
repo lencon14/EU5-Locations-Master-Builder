@@ -47,6 +47,10 @@ const locModules = import.meta.glob<Record<string, { name: string; desc?: string
 type LocEntry = { name: string; desc?: string };
 type LocMap = Record<string, LocEntry>;
 
+// -- Caches (populated on first access, reused across pages in same build) --
+const _locCache = new Map<string, LocMap>();
+const _termsCache = new Map<string, Record<string, string>>();
+
 /** Load core (language-independent) data for a category */
 export function loadCore(category: string): any[] {
   return coreModules[`../data/core/${category}.json`] ?? [];
@@ -54,12 +58,21 @@ export function loadCore(category: string): any[] {
 
 /** Load localization map for a category + language, with English fallback */
 export function loadLoc(category: string, lang: Lang): LocMap {
+  const cacheKey = `${lang}:${category}`;
+  const cached = _locCache.get(cacheKey);
+  if (cached) return cached;
+
   const primary = locModules[`../data/loc/${lang}/${category}.json`];
-  if (lang === DEFAULT_LANG) return primary ?? {};
+  if (lang === DEFAULT_LANG) {
+    const result = primary ?? {};
+    _locCache.set(cacheKey, result);
+    return result;
+  }
 
   const fallback = locModules[`../data/loc/${DEFAULT_LANG}/${category}.json`] ?? {};
   if (!primary) {
     trackFallback('loc', lang, `${category}/*`);
+    _locCache.set(cacheKey, fallback);
     return fallback;
   }
 
@@ -69,14 +82,14 @@ export function loadLoc(category: string, lang: Lang): LocMap {
     const p = primary[id];
     const f = fallback[id];
     merged[id] = {
-      name: p?.name || f?.name || id,
-      desc: p?.desc || f?.desc,
+      name: p?.name ?? f?.name ?? id,
+      desc: p?.desc ?? f?.desc,
     };
   }
-  // Include items only in primary (shouldn't happen, but safe)
   for (const id of Object.keys(primary)) {
     if (!(id in merged)) merged[id] = primary[id];
   }
+  _locCache.set(cacheKey, merged);
   return merged;
 }
 
@@ -94,10 +107,19 @@ const termModules = import.meta.glob<Record<string, string>>(
 
 /** Load game terms for a language, with English fallback */
 export function loadGameTerms(lang: Lang): Record<string, string> {
+  const cached = _termsCache.get(lang);
+  if (cached) return cached;
+
   const primary = termModules[`../data/loc/${lang}/game_terms.json`] ?? {};
-  if (lang === DEFAULT_LANG) return primary;
-  const fallback = termModules[`../data/loc/${DEFAULT_LANG}/game_terms.json`] ?? {};
-  return { ...fallback, ...primary };
+  let result: Record<string, string>;
+  if (lang === DEFAULT_LANG) {
+    result = primary;
+  } else {
+    const fallback = termModules[`../data/loc/${DEFAULT_LANG}/game_terms.json`] ?? {};
+    result = { ...fallback, ...primary };
+  }
+  _termsCache.set(lang, result);
+  return result;
 }
 
 /** Get a single game term */

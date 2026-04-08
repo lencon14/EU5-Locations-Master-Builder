@@ -11,6 +11,7 @@ export function getStaticPaths() {
 const { lang } = Astro.props as { lang: Lang };
 const core = loadCore("goods");
 const loc = loadLoc("goods", lang);
+const locEn = lang !== "en" ? loadLoc("goods", "en") : loc;
 
 const grouped = new Map<string, typeof core>();
 for (const g of core) {
@@ -52,7 +53,7 @@ for (const g of core) {
             <tbody>
               {items.map((g) => {
                 const name = loc[g.id]?.name ?? g.id;
-                const nameEn = lang !== "en" ? (loadLoc("goods", "en")[g.id]?.name ?? g.id) : "";
+                const nameEn = lang !== "en" ? (locEn[g.id]?.name ?? g.id) : "";
                 return (
                   <tr
                     class="goods-row"
@@ -75,7 +76,7 @@ for (const g of core) {
                       )}
                     </td>
                     <td class="num">{g.default_market_price}</td>
-                    <td class="num">{g.transport_cost || "-"}</td>
+                    <td class="num">{g.transport_cost ?? "-"}</td>
                   </tr>
                 );
               })}

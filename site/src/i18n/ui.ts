@@ -298,7 +298,7 @@ export function t(lang: Lang, key: string): string {
 export function tf(lang: Lang, key: string, vars: Record<string, string | number>): string {
   let s = t(lang, key);
   for (const [k, v] of Object.entries(vars)) {
-    s = s.replace(`{${k}}`, String(v));
+    s = s.replaceAll(`{${k}}`, String(v));
   }
   return s;
 }
