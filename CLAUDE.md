@@ -44,9 +44,7 @@
 5. `cd site && npm run build` でサイトリビルド
 6. 変更をコミット
 
-## 次にやること
+## 課題管理
 
-- [ ] 建物・国家・宗教・政体・法律のサイトページを作成（JSONは生成済み、site/src/data/ にコピーしてページ作成）
-- [ ] 攻略記事の執筆環境整備（Markdown/MDX）
-- [ ] さくらインターネットへのデプロイフロー確立
-- 設計プラン詳細: `.claude/plans/lucky-bubbling-globe.md`
+- タスク一覧: `TODO.md`
+- 設計プラン: `.claude/plans/lucky-bubbling-globe.md`
