@@ -14,7 +14,7 @@ import re
 from pathlib import Path
 
 # Matches: <space>key: "value"
-_LOC_LINE_RE = re.compile(r'^\s+(\S+):\s*"(.*)"$')
+_LOC_LINE_RE = re.compile(r'^\s+(\S+):\s*"(.*)"\s*$')
 
 
 def parse_loc(text: str) -> dict[str, str]:

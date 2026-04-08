@@ -92,7 +92,7 @@ const desc = loc[item.id]?.desc;
           )
         }
         {
-          item.development_threshold && (
+          item.development_threshold != null && (
             <div class="prop-row">
               <dt>{gameTerm(lang, "field.development_threshold")}</dt>
               <dd class="num-val">{item.development_threshold}</dd>
