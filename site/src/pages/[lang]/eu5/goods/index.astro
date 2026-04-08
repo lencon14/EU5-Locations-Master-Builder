@@ -16,11 +16,16 @@ const locEn = lang !== "en" ? loadLoc("goods", "en") : loc;
 
 const grouped = new Map<string, GoodsItem[]>();
 for (const g of core) {
-  // food 属性を持つアイテムは「食糧」として独立表示
-  const cat = g.food != null ? "food" : (g.category ?? "other");
+  const cat = g.category ?? "other";
   if (!grouped.has(cat)) grouped.set(cat, []);
   grouped.get(cat)!.push(g);
 }
+
+// 原材料内の食糧サブグループを分離
+const rawItems = grouped.get("raw_material") ?? [];
+const foodItems = rawItems.filter((g) => g.food != null);
+const nonFoodRaw = rawItems.filter((g) => g.food == null);
+grouped.set("raw_material", nonFoodRaw);
 ---
 
 <Base lang={lang} title={t(lang, "goods.title")} canonicalPath="/goods/">
@@ -32,11 +37,19 @@ for (const g of core) {
   </div>
 
   {
-    [...grouped.entries()].map(([category, items]) => (
-      <section class="category-section" data-category={category}>
-        <h2>
+    [...grouped.entries()].flatMap(([category, items]) => {
+      const sections = [{ cat: category, items, sub: false }];
+      // 原材料の直後に食糧サブグループを挿入
+      if (category === "raw_material" && foodItems.length > 0) {
+        sections.push({ cat: "food", items: foodItems, sub: true });
+      }
+      return sections;
+    }).map(({ cat, items, sub }) => (
+      <section class="category-section" data-category={cat}>
+        <h2 class={sub ? "sub-category" : ""}>
+          {sub && <span class="sub-indicator">└</span>}
           <span class="category-name">
-            {gameTerm(lang, `goods.cat.${category}`)}
+            {gameTerm(lang, `goods.cat.${cat}`)}
           </span>
           <span class="category-count">{items.length}</span>
         </h2>
@@ -50,6 +63,7 @@ for (const g of core) {
                 <th>{gameTerm(lang, "field.method")}</th>
                 <th class="num-head">{gameTerm(lang, "field.default_market_price")}</th>
                 <th class="num-head">{gameTerm(lang, "field.transport_cost")}</th>
+                {sub && <th class="num-head">{gameTerm(lang, "field.food")}</th>}
               </tr>
             </thead>
             <tbody>
@@ -79,6 +93,7 @@ for (const g of core) {
                     </td>
                     <td class="num">{g.default_market_price}</td>
                     <td class="num">{g.transport_cost ?? "-"}</td>
+                    {sub && <td class="num">{g.food ?? "-"}</td>}
                   </tr>
                 );
               })}
@@ -166,6 +181,21 @@ for (const g of core) {
     .category-name {
       padding-bottom: 0.25rem;
       border-bottom: 2px solid var(--royal-gold);
+    }
+
+    .sub-category {
+      font-size: 1rem;
+      margin-left: 1.5rem;
+    }
+
+    .sub-category .category-name {
+      border-bottom-color: var(--gold-thread);
+    }
+
+    .sub-indicator {
+      color: var(--dim-stone);
+      font-family: var(--font-body);
+      margin-right: 0.25rem;
     }
 
     .category-count {

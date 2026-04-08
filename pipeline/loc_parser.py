@@ -61,6 +61,10 @@ def strip_markup(text: str) -> str:
     text = re.sub(r"\[(\w+)\|[eE]\]", r"\1", text)
     # Remove remaining [SCOPE.func()] references
     text = re.sub(r"\[[\w.'()| ]+\]", "", text)
+    # Replace literal \n with space
+    text = text.replace("\\n", " ")
+    # Replace underscored game concept words with spaced versions (e.g. market_center → market center)
+    text = re.sub(r"\b(\w+_\w+)\b", lambda m: m.group(1).replace("_", " "), text)
     # Clean up extra whitespace
     text = re.sub(r"\s+", " ", text).strip()
     return text

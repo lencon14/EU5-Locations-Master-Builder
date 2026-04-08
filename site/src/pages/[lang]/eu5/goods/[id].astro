@@ -21,6 +21,12 @@ const locEn = lang !== "en" ? loadLoc("goods", "en") : loc;
 const name = loc[item.id]?.name ?? item.id;
 const nameEn = locEn[item.id]?.name ?? item.id;
 const desc = loc[item.id]?.desc;
+
+/** Get tooltip text for a game term (returns desc if available, else undefined) */
+function tip(key: string): string | undefined {
+  const d = gameTerm(lang, `${key}.desc`);
+  return d !== `${key}.desc` ? d : undefined;
+}
 ---
 
 <Base
@@ -65,13 +71,13 @@ const desc = loc[item.id]?.desc;
           )
         }
         <div class="prop-row">
-          <dt>{gameTerm(lang, "field.default_market_price")}</dt>
+          <dt data-tip={tip("field.market_price")}>{gameTerm(lang, "field.default_market_price")}</dt>
           <dd class="num-val">{item.default_market_price}</dd>
         </div>
         {
           item.food != null && (
             <div class="prop-row">
-              <dt>{gameTerm(lang, "field.food")}</dt>
+              <dt data-tip={tip("field.food")}>{gameTerm(lang, "field.food")}</dt>
               <dd class="num-val">{item.food}</dd>
             </div>
           )
@@ -79,7 +85,7 @@ const desc = loc[item.id]?.desc;
         {
           item.transport_cost != null && (
             <div class="prop-row">
-              <dt>{gameTerm(lang, "field.transport_cost")}</dt>
+              <dt data-tip={tip("field.cost")}>{gameTerm(lang, "field.transport_cost")}</dt>
               <dd class="num-val">{item.transport_cost}</dd>
             </div>
           )
@@ -103,7 +109,7 @@ const desc = loc[item.id]?.desc;
         {
           item.development_threshold != null && (
             <div class="prop-row">
-              <dt>{gameTerm(lang, "field.development_threshold")}</dt>
+              <dt data-tip={tip("field.development")}>{gameTerm(lang, "field.development_threshold")}</dt>
               <dd class="num-val">{item.development_threshold}</dd>
             </div>
           )
@@ -115,7 +121,7 @@ const desc = loc[item.id]?.desc;
       {
         item.demand_add && Object.keys(item.demand_add).length > 0 && (
           <section class="panel">
-            <h3>{gameTerm(lang, "field.demand_add")}</h3>
+            <h3 data-tip={tip("field.demand")}>{gameTerm(lang, "field.demand_add")}</h3>
             <table>
               <tbody>
                 {Object.entries(item.demand_add).map(([k, v]) => (
@@ -133,7 +139,7 @@ const desc = loc[item.id]?.desc;
       {
         item.demand_multiply && Object.keys(item.demand_multiply).length > 0 && (
           <section class="panel">
-            <h3>{gameTerm(lang, "field.demand_multiply")}</h3>
+            <h3 data-tip={tip("field.demand")}>{gameTerm(lang, "field.demand_multiply")}</h3>
             <table>
               <tbody>
                 {Object.entries(item.demand_multiply).map(([k, v]) => (
@@ -152,7 +158,7 @@ const desc = loc[item.id]?.desc;
         item.wealth_impact_threshold &&
           Object.keys(item.wealth_impact_threshold).length > 0 && (
             <section class="panel">
-              <h3>{gameTerm(lang, "field.wealth_impact_threshold")}</h3>
+              <h3 data-tip={tip("field.wealth")}>{gameTerm(lang, "field.wealth_impact_threshold")}</h3>
               <table>
                 <tbody>
                   {Object.entries(item.wealth_impact_threshold).map(
@@ -288,6 +294,49 @@ const desc = loc[item.id]?.desc;
     dt {
       font-size: 0.875rem;
       color: var(--dusty-silver);
+    }
+
+    [data-tip] {
+      cursor: help;
+      text-decoration: underline dotted var(--dim-stone);
+      text-underline-offset: 2px;
+      position: relative;
+    }
+
+    [data-tip]::after {
+      content: attr(data-tip);
+      position: absolute;
+      left: 0;
+      bottom: calc(100% + 8px);
+      width: max-content;
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--royal-gold);
+      border-radius: 4px;
+      color: var(--ivory);
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      line-height: 1.5;
+      white-space: normal;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      z-index: 50;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s;
+    }
+
+    [data-tip]:hover::after {
+      opacity: 1;
+    }
+
+    h3[data-tip] {
+      display: inline-block;
+    }
+
+    h3[data-tip]::after {
+      bottom: auto;
+      top: calc(100% + 4px);
     }
 
     dd {
