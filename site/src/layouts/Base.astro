@@ -16,9 +16,10 @@ interface Props {
 
 const { lang, title, description, canonicalPath, wide = false, fullTitle: isFullTitle = false } = Astro.props;
 const siteUrl = Astro.site?.origin ?? '';
+const hasSiteUrl = siteUrl !== '';
 const fullTitle = isFullTitle ? title : `${title} | ${t(lang, 'meta.title_suffix')}`;
 const metaDesc = description ?? t(lang, 'site.description');
-const canonical = canonicalPath ? `${siteUrl}${localePath(lang, canonicalPath)}` : undefined;
+const canonical = (canonicalPath && hasSiteUrl) ? `${siteUrl}${localePath(lang, canonicalPath)}` : undefined;
 ---
 
 <html lang={getHreflang(lang)}>
@@ -34,10 +35,10 @@ const canonical = canonicalPath ? `${siteUrl}${localePath(lang, canonicalPath)}`
     <title>{fullTitle}</title>
     <meta name="description" content={metaDesc} />
     {canonical && <link rel="canonical" href={canonical} />}
-    {canonicalPath && LANG_CODES.map((l) => (
+    {canonicalPath && hasSiteUrl && LANG_CODES.map((l) => (
       <link rel="alternate" hreflang={getHreflang(l)} href={`${siteUrl}${localePath(l, canonicalPath)}`} />
     ))}
-    {canonicalPath && (
+    {canonicalPath && hasSiteUrl && (
       <link rel="alternate" hreflang="x-default" href={`${siteUrl}${localePath(DEFAULT_LANG, canonicalPath)}`} />
     )}
     <style is:global>

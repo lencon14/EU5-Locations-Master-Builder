@@ -1,5 +1,6 @@
 ---
 import { LANGUAGES, LANG_CODES, type Lang, localePath } from "../i18n/config";
+import { t } from "../i18n/ui";
 
 interface Props {
   lang: Lang;
@@ -16,7 +17,7 @@ const { lang, currentPath = "/" } = Astro.props;
     type="button"
     aria-expanded="false"
     aria-haspopup="listbox"
-    aria-label="Select language"
+    aria-label={t(lang, "aria.select_language")}
   >
     <svg class="lang-globe" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
       <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.2" />
@@ -31,7 +32,7 @@ const { lang, currentPath = "/" } = Astro.props;
     </svg>
   </button>
 
-  <div class="lang-panel" role="listbox" aria-label="Languages">
+  <div class="lang-panel" role="listbox" aria-label={t(lang, "aria.languages")}>
     <div class="lang-panel-inner">
       {LANG_CODES.map((code) => (
         <a

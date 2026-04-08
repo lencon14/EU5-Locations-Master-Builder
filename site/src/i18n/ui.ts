@@ -26,6 +26,8 @@ const strings: Record<string, Record<string, string>> = {
     'common.description': 'Description',
     'common.category': 'Category',
     'common.tags': 'Tags',
+    'aria.select_language': 'Select language',
+    'aria.languages': 'Languages',
     'goods.title': 'Trade Goods',
     'goods.col.icon': '',
     'goods.col.name': 'Name',
@@ -58,6 +60,8 @@ const strings: Record<string, Record<string, string>> = {
     'common.description': '説明',
     'common.category': 'カテゴリ',
     'common.tags': 'タグ',
+    'aria.select_language': '言語を選択',
+    'aria.languages': '言語一覧',
     'goods.title': '交易品一覧',
     'goods.col.icon': '',
     'goods.col.name': '名前',
@@ -289,13 +293,16 @@ const strings: Record<string, Record<string, string>> = {
   },
 };
 
+/** All valid UI string keys (derived from English strings) */
+export type UiKey = keyof typeof strings.en;
+
 /** Get a UI string. Falls back to English, then returns the key itself. */
-export function t(lang: Lang, key: string): string {
+export function t(lang: Lang, key: UiKey): string {
   return strings[lang]?.[key] ?? strings[DEFAULT_LANG]?.[key] ?? key;
 }
 
 /** Get a UI string with interpolation: t('en', 'common.items', { count: 74 }) */
-export function tf(lang: Lang, key: string, vars: Record<string, string | number>): string {
+export function tf(lang: Lang, key: UiKey, vars: Record<string, string | number>): string {
   let s = t(lang, key);
   for (const [k, v] of Object.entries(vars)) {
     s = s.replaceAll(`{${k}}`, String(v));

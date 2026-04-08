@@ -19,7 +19,7 @@ export const LANG_CODES = Object.keys(LANGUAGES) as Lang[];
 export const DEFAULT_LANG: Lang = 'en';
 
 export function isValidLang(lang: string): lang is Lang {
-  return lang in LANGUAGES;
+  return Object.hasOwn(LANGUAGES, lang);
 }
 
 export function getHreflang(lang: Lang): string {
@@ -30,13 +30,4 @@ export function getHreflang(lang: Lang): string {
 export function localePath(lang: Lang, path: string = '/'): string {
   const p = path.startsWith('/') ? path : `/${path}`;
   return `/${lang}/eu5${p}`;
-}
-
-/** Build alternate URLs for all languages (for hreflang tags) */
-export function getAlternates(path: string): { lang: Lang; hreflang: string; href: string }[] {
-  return LANG_CODES.map((lang) => ({
-    lang,
-    hreflang: getHreflang(lang),
-    href: localePath(lang, path),
-  }));
 }

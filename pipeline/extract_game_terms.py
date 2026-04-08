@@ -99,7 +99,7 @@ def extract_terms(game_code: str) -> dict[str, str]:
     # --- Compound field labels ---
     # Built from official word parts. Each language's compounds were verified
     # against game_concepts_l and goods_l localization files.
-    field_labels = _build_field_labels(game_code, concepts_loc)
+    field_labels = _build_field_labels(game_code)
     terms.update(field_labels)
 
     return terms
@@ -240,7 +240,7 @@ _FIELD_LABELS: dict[str, dict[str, str]] = {
 }
 
 
-def _build_field_labels(game_code: str, concepts_loc: dict[str, str]) -> dict[str, str]:
+def _build_field_labels(game_code: str) -> dict[str, str]:
     """Return compound field labels for a language."""
     return dict(_FIELD_LABELS.get(game_code, _FIELD_LABELS["english"]))
 
