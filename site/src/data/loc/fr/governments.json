@@ -34,5 +34,21 @@
     "horde_unity_hit_at_ruler_death": "Changement de l'Unité de la Horde à la mort du Dirigeant",
     "rural_settlement_downgrade_cost_modifier": "Coût de Rétrogradation en Colonie rurale",
     "war_no_cb_cost_modifier": "Coût d'une Guerre sans Casus Belli"
+  },
+  "_modifier_descs": {
+    "amount_looted_modifier": "Cela a un impact sur le montant qu'une Armée peut piller.",
+    "care_about_producing_heirs": "Si ce Pays veut avoir des Héritiers, et peut ou non contracter des Mariages royaux.",
+    "combined_arms_max_threshold": "Cela détermine le pourcentage maximal d'une Unité dont une Catégorie d'unité peut disposer pour octroyer un bonus d'Armées combinées.",
+    "combined_bonus_per_type": "Cela a un impact sur l'importance du bonus d'Armées combinées par Catégorie d'unité valide.",
+    "court_language_is_common_language_importance_modifier": "Cela modifie l'importance que le pays joué par l'ordinateur accorde au fait que sa Langue de la cour soit la même que la Langue commune.",
+    "court_language_is_liturgical_language_importance_modifier": "Cela modifie l'importance que le pays joué par l'ordinateur accorde au fait que sa Langue de la cour soit la même que la Langue liturgique.",
+    "court_language_is_market_language_importance_modifier": "Cela modifie l'importance que le pays joué par l'ordinateur accorde au fait que sa Langue de la cour soit la même que la Langue commerciale.",
+    "diplomatic_upkeep_modifier": "Cela modifie la quantité d'Maintien de la diplomatie que ce pays coûte à son Suzerain en tant que Vassal.",
+    "force_convert_created_subjects": "Cela oblige tous les Vassaux créés par le Pays à se convertir à la Religion de leur suzerain.",
+    "global_nobles_food_consumption": "Cela a un impact sur la quantité de Nourriture qui sera consommée par les Groupes sociaux de nobles dans l'ensemble du Pays.",
+    "global_war_score_cost": "Cela a un impact sur la proportion de Score de guerre que ce Pays devra débourser pour prendre un territoire.",
+    "horde_unity_hit_at_ruler_death": "Il s'agit de la quantité d'Unité de la horde gagnée ou perdue par le Pays lorsque son Dirigeant meurt.",
+    "rural_settlement_downgrade_cost_modifier": "Cela a un impact sur les Coût engendrés par la rétrogradation d'une town ou d'une city en rural settlement.",
+    "war_no_cb_cost_modifier": "Cela a un impact sur les coûts engendrés par la déclaration d'une Guerre sans Casus belli."
   }
 }

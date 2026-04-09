@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
-import { loadCore, loadGovernmentLoc, loadGovernmentModNames } from "../../../../i18n/data";
+import { loadCore, loadGovernmentLoc, loadGovernmentModNames, loadGovernmentModDescs } from "../../../../i18n/data";
 import { t, tf } from "../../../../i18n/ui";
 import type { GovernmentItem, CountryItem } from "../../../../i18n/types";
 
@@ -14,6 +14,7 @@ const core = loadCore<GovernmentItem>("governments");
 const loc = loadGovernmentLoc(lang);
 const locEn = lang !== "en" ? loadGovernmentLoc("en") : loc;
 const modNames = loadGovernmentModNames(lang);
+const modDescs = loadGovernmentModDescs(lang);
 
 // Count countries per government type
 const countries = loadCore<CountryItem>("countries");
@@ -94,12 +95,15 @@ function modClass(val: number | boolean): string {
             <div class="gov-mods">
               <h3>{t(lang, "governments.modifiers")}</h3>
               <div class="mod-grid">
-                {mods.map(([key, val]) => (
-                  <div class="mod-row">
-                    <span class="mod-key">{fmtModKey(key)}</span>
-                    <span class={`mod-val ${modClass(val)}`}>{fmtModVal(val)}</span>
-                  </div>
-                ))}
+                {mods.map(([key, val]) => {
+                  const tip = modDescs[key];
+                  return (
+                    <div class={`mod-row${tip ? " has-tip" : ""}`} data-tip={tip}>
+                      <span class="mod-key">{fmtModKey(key)}</span>
+                      <span class={`mod-val ${modClass(val)}`}>{fmtModVal(val)}</span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}
@@ -231,6 +235,40 @@ function modClass(val: number | boolean): string {
       border-radius: 2px;
       padding: 0.15rem 0.5rem;
       font-size: 0.8rem;
+    }
+
+    .mod-row.has-tip {
+      position: relative;
+      cursor: help;
+    }
+
+    .mod-row.has-tip::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 0;
+      width: max-content;
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .mod-row.has-tip:hover::after {
+      opacity: 1;
+      visibility: visible;
     }
 
     .mod-key {

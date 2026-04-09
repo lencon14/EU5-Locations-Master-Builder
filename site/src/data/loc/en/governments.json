@@ -34,5 +34,21 @@
     "horde_unity_hit_at_ruler_death": "Horde Unity Change on Ruler Death",
     "rural_settlement_downgrade_cost_modifier": "Downgrading to Rural Settlement Cost",
     "war_no_cb_cost_modifier": "War with No Casus Belli Cost"
+  },
+  "_modifier_descs": {
+    "amount_looted_modifier": "This impacts the amount an Army can Loot.",
+    "care_about_producing_heirs": "If this Country wants to have Heirs, and can do Royal Marriages or not.",
+    "combined_arms_max_threshold": "This determines the maximum percentage of a Unit that a Unit Category can be to give a Combined Arms bonus.",
+    "combined_bonus_per_type": "This impacts how big the Combined Arms bonus is per valid Unit Category.",
+    "court_language_is_common_language_importance_modifier": "This modifies how much the AI country values that their Court Language should be the same as their Common Language.",
+    "court_language_is_liturgical_language_importance_modifier": "This modifies how much the AI country values that their Court Language should be the same as their Liturgical Language.",
+    "court_language_is_market_language_importance_modifier": "This modifies how much the AI country values that their Court Language should be the same as their Market Language.",
+    "diplomatic_upkeep_modifier": "This modifies how much Diplomatic Upkeep the country costs to their Overlord if they were a Subject.",
+    "force_convert_created_subjects": "This forces all Subjects created by the Country to be forcefully converted to their overlord's Religion.",
+    "global_nobles_food_consumption": "This impacts how much Food that nobles Pops will consume in the entire Country.",
+    "global_war_score_cost": "This impacts how much Warscore it will cost for this Country to take territory.",
+    "horde_unity_hit_at_ruler_death": "This is the amount of Horde Unity the Country gains or loses whenever their Ruler dies.",
+    "rural_settlement_downgrade_cost_modifier": "This impacts the Costs of downgrading a town or city to a rural settlement.",
+    "war_no_cb_cost_modifier": "This impacts how much it Costs to declare a War without a Casus Belli."
   }
 }

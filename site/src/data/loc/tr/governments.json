@@ -34,5 +34,21 @@
     "horde_unity_hit_at_ruler_death": "Hükümdar Öldüğünde Göçebe Bütünlüğü Değişimi",
     "rural_settlement_downgrade_cost_modifier": "Kırsal Yerleşim Yerine Düşürme Maliyeti",
     "war_no_cb_cost_modifier": "Savaş Sebebi Yokken Savaş Maliyeti"
+  },
+  "_modifier_descs": {
+    "amount_looted_modifier": "Bir Ordunun Yağmalayabileceği miktarı düzenler.",
+    "care_about_producing_heirs": "Bu Ülkenin Veliahtlara sahip olmak istemesi ve Siyasi Evlilikler gerçekleştirebilmesi veya gerçekleştirememesi.",
+    "combined_arms_max_threshold": "Bir Birim Kategorisinin Birleşmiş Kuvvetler bonusu vermek için sahip olabileceği maksimum Birim yüzdesini belirler.",
+    "combined_bonus_per_type": "Geçerli Birim Kategorisi başına Birleşmiş Kuvvetler bonusunun ne kadar büyük olduğunu etkiler.",
+    "court_language_is_common_language_importance_modifier": "Yapay zekâ tarafından yönetilen ülkenin, Saray Dili ile Ortak Dilin aynı olmasına ne kadar önem verdiğini düzenler.",
+    "court_language_is_liturgical_language_importance_modifier": "Yapay zekâ tarafından yönetilen ülkenin, Saray Dili ile Dinî Dilin aynı olmasına ne kadar önem verdiğini düzenler.",
+    "court_language_is_market_language_importance_modifier": "Yapay zekâ tarafından yönetilen ülkenin, Saray Dili ile Ticaret Dilinin aynı olmasına ne kadar önem verdiğini düzenler.",
+    "diplomatic_upkeep_modifier": "Tabi Devlet olan veya olmayan bir ülkenin Metbu Devletine ne kadar Diplomasi Maliyeti olacağını etkiler.",
+    "force_convert_created_subjects": "Bir Ülke tarafından oluşturulan tüm Tabi Devletleri Metbu Devletlerinin Dinine geçmeye zorlar.",
+    "global_nobles_food_consumption": "Bütün Ülkedeki nobles Toplumlarının ne kadar Yiyecek tükettiğini düzenler.",
+    "global_war_score_cost": "Bu Ülkenin bölge alması için gerekecek Savaş Skorunu düzenler.",
+    "horde_unity_hit_at_ruler_death": "Hükümdar öldüğünde Ülkenin kazandığı ya da kaybettiği Göçebe Bütünlüğü miktarını belirler.",
+    "rural_settlement_downgrade_cost_modifier": "Bir town ya da city, rural settlement yapıldığında çıkacak Maliyeti düzenler.",
+    "war_no_cb_cost_modifier": "Savaş Sebebi olmaksızın Savaş ilan etme Maliyetini düzenler."
   }
 }

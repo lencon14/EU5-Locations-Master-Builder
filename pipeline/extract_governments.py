@@ -138,14 +138,20 @@ def build_governments() -> tuple[list[dict], dict[str, dict]]:
             desc = strip_markup(resolve_all_refs(raw_desc, concepts, loc_data))
             if name or desc:
                 lang_loc[gov_id] = {"name": name, "desc": desc}
-        # Add modifier display names
+        # Add modifier display names and descriptions
         mod_names: dict[str, str] = {}
+        mod_descs: dict[str, str] = {}
         for mk in sorted(all_mod_keys):
-            raw = mods.get(f"MODIFIER_TYPE_NAME_{mk}", "")
-            if raw:
-                mod_names[mk] = strip_markup(resolve_all_refs(raw, concepts, loc_data))
+            raw_name = mods.get(f"MODIFIER_TYPE_NAME_{mk}", "")
+            if raw_name:
+                mod_names[mk] = strip_markup(resolve_all_refs(raw_name, concepts, loc_data))
+            raw_desc = mods.get(f"MODIFIER_TYPE_DESC_{mk}", "")
+            if raw_desc:
+                mod_descs[mk] = strip_markup(resolve_all_refs(raw_desc, concepts, loc_data))
         if mod_names:
             lang_loc["_modifier_names"] = mod_names
+        if mod_descs:
+            lang_loc["_modifier_descs"] = mod_descs
         loc_per_lang[url_code] = lang_loc
 
     return core_list, loc_per_lang

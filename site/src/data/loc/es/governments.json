@@ -34,5 +34,21 @@
     "horde_unity_hit_at_ruler_death": "Cambio en unidad de la horda al morir gobernante",
     "rural_settlement_downgrade_cost_modifier": "Coste de degradación a asentamiento rural",
     "war_no_cb_cost_modifier": "Coste de guerra sin casus belli"
+  },
+  "_modifier_descs": {
+    "amount_looted_modifier": "Afecta a la cantidad que puede Saquear un Ejército.",
+    "care_about_producing_heirs": "Si este País quiere tener Herederos y si puede o no llevar a cabo Matrimonios reales.",
+    "combined_arms_max_threshold": "Determina el porcentaje máximo de una Unidad que puede representar una Categoría de unidad para otorgar una bonificación de Armas combinadas.",
+    "combined_bonus_per_type": "Afecta a la magnitud de la bonificación de Armas combinadas por cada Categoría de unidad válida.",
+    "court_language_is_common_language_importance_modifier": "Modifica cuánto valora el país de IA que el Idioma cortesano coincida con el Idioma común.",
+    "court_language_is_liturgical_language_importance_modifier": "Modifica cuánto valora el país de IA que el Idioma cortesano coincida con el Idioma litúrgico.",
+    "court_language_is_market_language_importance_modifier": "Modifica cuánto valora el país de IA que el Idioma cortesano coincida con el Idioma comercial.",
+    "diplomatic_upkeep_modifier": "Modifica el coste en Mantenimiento diplomático del país para su Soberano si fuera Súbdito.",
+    "force_convert_created_subjects": "Fuerza a todos los Súbditos creados por el País a convertirse a la Religión de su soberano.",
+    "global_nobles_food_consumption": "Afecta a la cantidad de Comida que consumen las Comunidades de nobles de todo el País.",
+    "global_war_score_cost": "Afecta a la cantidad de Puntuación bélica que le costará a un País conquistar un territorio.",
+    "horde_unity_hit_at_ruler_death": "Indica la cantidad de Unidad de la horda que pierde o gana el País cada vez que su Gobernante muere.",
+    "rural_settlement_downgrade_cost_modifier": "Afecta a los Costes de degradar un town o city a rural settlement.",
+    "war_no_cb_cost_modifier": "Afecta a los Costes que conlleva declarar una Guerra sin un Casus belli."
   }
 }

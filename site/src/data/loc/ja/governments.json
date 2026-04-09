@@ -34,5 +34,21 @@
     "horde_unity_hit_at_ruler_death": "統治者死亡時の遊牧民の結束の変化",
     "rural_settlement_downgrade_cost_modifier": "田園集落への格下げコスト",
     "war_no_cb_cost_modifier": "開戦事由なしの戦争コスト"
+  },
+  "_modifier_descs": {
+    "amount_looted_modifier": "陸軍が略奪できる額に影響を与える。",
+    "care_about_producing_heirs": "この国家が後継者を望むか否かと、王室間の婚姻ができるか否かを定める。",
+    "combined_arms_max_threshold": "統合軍備ボーナスを得るために、ユニットカテゴリーがユニット全体に占められる割合の上限を定める。",
+    "combined_bonus_per_type": "有効なユニットカテゴリー1種あたりの統合軍備ボーナス量に影響する。",
+    "court_language_is_common_language_importance_modifier": "AI国家が宮廷言語と共通言語が同一であることをどの程度重視するかを補正する。",
+    "court_language_is_liturgical_language_importance_modifier": "AI国家が宮廷言語と典礼言語が同一であることをどの程度重視するかを補正する。",
+    "court_language_is_market_language_importance_modifier": "AI国家が宮廷言語と市場言語が同一であることをどの程度重視するかを補正する。",
+    "diplomatic_upkeep_modifier": "国家が従属国である場合の、宗主国に支払う外交維持費の額を補正する。",
+    "force_convert_created_subjects": "その国家によって創設されたすべての従属国を、彼らの宗主国の宗教へ強制的に改宗させる。",
+    "global_nobles_food_consumption": "この国家全体のnoblesPOPが消費する食糧の量に影響を与える。",
+    "global_war_score_cost": "この国家が領土を獲得するのに必要な戦勝点に影響を与える。",
+    "horde_unity_hit_at_ruler_death": "統治者が死亡した際に国家の遊牧民の結束が増減する量。",
+    "rural_settlement_downgrade_cost_modifier": "townまたはcityを rural settlementに格下げするコストに影響を与える。",
+    "war_no_cb_cost_modifier": "開戦事由なしで宣戦布告するのにかかるコストに影響を与える。"
   }
 }

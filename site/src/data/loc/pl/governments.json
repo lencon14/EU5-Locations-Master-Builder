@@ -34,5 +34,21 @@
     "horde_unity_hit_at_ruler_death": "Zmiana jedności ordy po śmierci władcy",
     "rural_settlement_downgrade_cost_modifier": "Koszt obniżenia statusu do wiejskiej osady",
     "war_no_cb_cost_modifier": "Koszt wojny bez casus belli"
+  },
+  "_modifier_descs": {
+    "amount_looted_modifier": "Wpływa na ilość łupu, jaką może zrabować Armia.",
+    "care_about_producing_heirs": "Określa, czy ten kraj chce posiadać dziedziców i czy może zawrzeć Małżeństwa królewskie.",
+    "combined_arms_max_threshold": "Określa maksymalny odsetek jednostek z kategorii jednostek, dający premię do połączonych rodzajów wojsk.",
+    "combined_bonus_per_type": "Wpływa na wielkość premii połączonych rodzajów wojsk na ważną kategorię jednostek.",
+    "court_language_is_common_language_importance_modifier": "Zmienia chęć kraju SI do ujednolicenia języka dworu z językiem powszechnym.",
+    "court_language_is_liturgical_language_importance_modifier": "Zmienia chęć kraju SI do ujednolicenia języka dworu z językiem liturgicznym.",
+    "court_language_is_market_language_importance_modifier": "Zmienia chęć kraju SI do ujednolicenia języka dworu z językiem rynku.",
+    "diplomatic_upkeep_modifier": "Zmienia, ile kosztuje suwerena utrzymanie dyplomatyczne kraju, gdyby ten był poddanym.",
+    "force_convert_created_subjects": "Wymusza siłową konwersję wszystkich poddanych tworzonych przez państwo na religię swego suwerena.",
+    "global_nobles_food_consumption": "Wpływa na ilość żywności, jaką spożywają nobles w całym kraju.",
+    "global_war_score_cost": "Wpływa na koszt wyniku wojennego potrzebnego do zajęcia terytorium przez ten kraj.",
+    "horde_unity_hit_at_ruler_death": "Ilość jedności ordy zyskiwana lub tracona przez kraj po każdej śmierci władcy.",
+    "rural_settlement_downgrade_cost_modifier": "Wpływa na Koszt obniżenia statusu lokacji town lub city do: rural settlement.",
+    "war_no_cb_cost_modifier": "Wpływa na koszt wypowiedzenia wojny bez Casus belli."
   }
 }

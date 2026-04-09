@@ -34,5 +34,21 @@
     "horde_unity_hit_at_ruler_death": "Alteração de União de Horda quando Governante Morrer",
     "rural_settlement_downgrade_cost_modifier": "Custo da Degradação de Assentamentos Rurais",
     "war_no_cb_cost_modifier": "Custo de Guerra sem Casus Belli"
+  },
+  "_modifier_descs": {
+    "amount_looted_modifier": "Afeta a quantidade que um Exército consegue Saquear.",
+    "care_about_producing_heirs": "Se este País deseja ter Herdeiros, e se pode ou não realizar Casamentos Reais.",
+    "combined_arms_max_threshold": "Determina o percentual máximo de uma Unidade que uma categoria pode ter para oferecer um bônus de Exército Combinado.",
+    "combined_bonus_per_type": "Afeta o tamanho do bônus de Exército Combinado por Categoria de Unidade válida.",
+    "court_language_is_common_language_importance_modifier": "Modifica o quanto o país de IA valoriza que seu Idioma da Corte seja o mesmo que o Idioma Comum.",
+    "court_language_is_liturgical_language_importance_modifier": "Modifica o quanto o país de IA valoriza que seu Idioma da Corte seja o mesmo que o Idioma Litúrgico.",
+    "court_language_is_market_language_importance_modifier": "Modifica o quanto o país de IA valoriza que seu Idioma da Corte seja o mesmo que o Idioma do Mercado.",
+    "diplomatic_upkeep_modifier": "Modifica quanta Manutenção Diplomática o país tem de custo ao seu Suserano se fosse Súdito.",
+    "force_convert_created_subjects": "Isso força todos os Súditos criados pelo País a se converterem à Religião do suserano.",
+    "global_nobles_food_consumption": "Afeta a quantidade de Alimentos que os Grupos Populacionais do estamento nobles consumirão no País inteiro.",
+    "global_war_score_cost": "Afeta o quanto um País vai pagar de Pontuação de Guerra para tomar um território.",
+    "horde_unity_hit_at_ruler_death": "Quantidade de União de Horda que o País ganha ou perde quando seu Governante morre.",
+    "rural_settlement_downgrade_cost_modifier": "Afeta os Custos de degradar um town ou city para um rural settlement.",
+    "war_no_cb_cost_modifier": "Afeta os Custos para declarar uma Guerra sem um Casus Belli."
   }
 }

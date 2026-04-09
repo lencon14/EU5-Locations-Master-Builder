@@ -34,5 +34,21 @@
     "horde_unity_hit_at_ruler_death": "统治者死亡时的游牧团结变化",
     "rural_settlement_downgrade_cost_modifier": "降级乡村花费",
     "war_no_cb_cost_modifier": "无理由宣战花费"
+  },
+  "_modifier_descs": {
+    "amount_looted_modifier": "影响陆军能够劫掠的资源数量。",
+    "care_about_producing_heirs": "该国家是否希望诞下继承人以及进行王室联姻。",
+    "combined_arms_max_threshold": "这决定了为获得兵种混编加成，一种单位类别在单位中所能占的最大百分比。",
+    "combined_bonus_per_type": "这影响了每种有效单位类别所获得的兵种混编加成大小。",
+    "court_language_is_common_language_importance_modifier": "这影响了AI国家有多希望让通用语言成为其宫廷语言。",
+    "court_language_is_liturgical_language_importance_modifier": "这影响了AI国家有多希望让礼仪语言成为其宫廷语言。",
+    "court_language_is_market_language_importance_modifier": "这影响了AI国家有多希望让市场语言成为其宫廷语言。",
+    "diplomatic_upkeep_modifier": "这影响该国作为附属国时将占用其宗主国的外交容量占用的数额。",
+    "force_convert_created_subjects": "这会使该国家创建的所有附属国强制改信宗主国的宗教。",
+    "global_nobles_food_consumption": "这影响整个国家内nobles人群会消费的食物数量。",
+    "global_war_score_cost": "影响一个国家在割让他国领土时需要多少消耗多少战争分数。",
+    "horde_unity_hit_at_ruler_death": "该国家在其统治者死亡时获得或失去的游牧团结数值。",
+    "rural_settlement_downgrade_cost_modifier": "影响将town或city降级为rural settlement的花费。",
+    "war_no_cb_cost_modifier": "这影响无宣战理由发动战争的花费。"
   }
 }

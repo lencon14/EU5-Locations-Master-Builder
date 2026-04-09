@@ -597,3 +597,16 @@ export function loadGovernmentModNames(lang: Lang): ModNameMap {
   _govModCache.set(lang, result);
   return result;
 }
+
+/** Load government modifier descriptions, with English fallback. */
+const _govModDescCache = new Map<string, ModNameMap>();
+export function loadGovernmentModDescs(lang: Lang): ModNameMap {
+  const cached = _govModDescCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (govRawModules[`../data/loc/${lang}/governments.json`] as Record<string, unknown> | undefined)?.["_modifier_descs"] as ModNameMap | undefined;
+  const fallback = (govRawModules[`../data/loc/${DEFAULT_LANG}/governments.json`] as Record<string, unknown> | undefined)?.["_modifier_descs"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _govModDescCache.set(lang, result);
+  return result;
+}

@@ -34,5 +34,21 @@
     "horde_unity_hit_at_ruler_death": "Hordeneinigkeits-Änderung (Herrschertod)",
     "rural_settlement_downgrade_cost_modifier": "Landsiedlungsherabstufung-Kosten",
     "war_no_cb_cost_modifier": "Kriegserklärungskosten (Ohne Kriegsgrund)"
+  },
+  "_modifier_descs": {
+    "amount_looted_modifier": "Dies wirkt sich darauf aus, wie viel eine Armee plündern kann.",
+    "care_about_producing_heirs": "Ob dieses Land Erben haben möchte und Staatsehen durchführen kann oder nicht.",
+    "combined_arms_max_threshold": "Dies legt den maximalen prozentualen Anteil einer Einheit fest, die die Einheitenkategorie haben muss, damit Verbundene Waffen einen Bonus erhalten.",
+    "combined_bonus_per_type": "Dies legt fest, wie hoch der Bonus für Verbundene Waffen pro gültiger Einheitenkategorie ist.",
+    "court_language_is_common_language_importance_modifier": "Dies passt an, wie viel Wert das KI-Land darauf legt, dass seine Hofsprache seiner Gemeinsprache entsprechen sollte.",
+    "court_language_is_liturgical_language_importance_modifier": "Dies passt an, wie viel Wert das KI-Land darauf legt, dass seine Hofsprache seiner Glaubenssprache entsprechen sollte.",
+    "court_language_is_market_language_importance_modifier": "Dies passt an, wie viel Wert das KI-Land darauf legt, dass seine Hofsprache seiner Handelssprache entsprechen sollte.",
+    "diplomatic_upkeep_modifier": "Dies passt an, wie viel Diplomatieunterhalt das Land an seinen Suzerän zahlen muss, wenn es ein Klientelland ist.",
+    "force_convert_created_subjects": "Dies zwingt alle Klientelländer bei der Erschaffung des Lands zur Religion des Suzeräns zu wechseln.",
+    "global_nobles_food_consumption": "Dies wirkt sich darauf aus, wie viel Nahrung noblesn-Pops im ganzen Land verbrauchen.",
+    "global_war_score_cost": "Dies wirkt sich darauf aus, wie viel Kriegswert es dieses Land kostet, Territorium zu übernehmen.",
+    "horde_unity_hit_at_ruler_death": "Dies ist die Menge an Hordeneinigkeit, die das Land erhält oder verliert, wenn sein Herrscher stirbt.",
+    "rural_settlement_downgrade_cost_modifier": "Dies wirkt sich auf die Kosten für die Herabstufung einer town oder city zu einer rural settlement aus.",
+    "war_no_cb_cost_modifier": "Dies wirkt sich darauf aus, wie viel die Erklärung eines Kriegs kostet, wenn man keinen Kriegsgrund hat."
   }
 }

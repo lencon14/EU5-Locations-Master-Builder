@@ -34,5 +34,21 @@
     "horde_unity_hit_at_ruler_death": "통치자 사망 시 유목민 통일성 변동량",
     "rural_settlement_downgrade_cost_modifier": "촌락 정착지로 다운그레이드 비용",
     "war_no_cb_cost_modifier": "명분 없는 전쟁 비용"
+  },
+  "_modifier_descs": {
+    "amount_looted_modifier": "지상군이 약탈할 수 있는 양에 영향을 줍니다.",
+    "care_about_producing_heirs": "해당 국가가 후계자를 원하며 왕실 혼인을 맺을 수 있는지를 나타냅니다.",
+    "combined_arms_max_threshold": "제병 협동 보너스를 제공하기 위해 부대 내에서 특정 부대 범주가 차지할 수 있는 최대 비율을 결정합니다.",
+    "combined_bonus_per_type": "유효한 부대 범주당 제병 협동 보너스의 양에 영향을 줍니다.",
+    "court_language_is_common_language_importance_modifier": "AI 국가에서 궁중어는 공용어와 같아야 한다고 여기는 인식의 정도를 조정합니다.",
+    "court_language_is_liturgical_language_importance_modifier": "AI 국가에서 궁중어는 전례어와 같아야 한다고 여기는 인식의 정도를 조정합니다.",
+    "court_language_is_market_language_importance_modifier": "AI 국가에서 궁중어는 시장 언어와 같아야 한다고 여기는 인식의 정도를 조정합니다.",
+    "diplomatic_upkeep_modifier": "해당 국가가 종속국인 경우 종주국에 발생하는 외교 유지비 수준을 조정합니다.",
+    "force_convert_created_subjects": "이 국가가 생성하는 모든 종속국을 종주국의 종교로 개종하도록 강제합니다.",
+    "global_nobles_food_consumption": "nobles 팝이 국가 전체에서 소비하는 식량의 양에 영향을 줍니다.",
+    "global_war_score_cost": "이 국가가 영토를 차지하는 데 드는 전쟁 점수의 양에 영향을 줍니다.",
+    "horde_unity_hit_at_ruler_death": "통치자가 사망할 때마다 해당 국가가 얻거나 잃는 유목민 통일성의 양을 나타냅니다.",
+    "rural_settlement_downgrade_cost_modifier": "town나 city를 rural settlement로 다운그레이드하는 비용에 영향을 줍니다.",
+    "war_no_cb_cost_modifier": "전쟁 명분 없이 전쟁을 선포하는 데 드는 비용에 영향을 줍니다."
   }
 }
