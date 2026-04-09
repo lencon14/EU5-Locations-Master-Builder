@@ -8,12 +8,12 @@ echo "=== Type Scale Audit ==="
 
 violations=0
 while IFS= read -r file; do
-  # Skip Base.astro (defines the tokens + body reset)
-  [[ "$file" == *"layouts/Base.astro"* ]] && continue
-  # Skip components
-  [[ "$file" == *"components/"* ]] && continue
-
-  matches=$(grep -n 'font-size:' "$file" | grep -v 'var(--type' | grep -v '^\s*//' || true)
+  # Filter: tokenized refs, CSS comments, JS comments
+  matches=$(grep -n 'font-size\s*:' "$file" \
+    | grep -v 'var(--type' \
+    | grep -v '/\*' \
+    | grep -v '^\s*//' \
+    || true)
   if [[ -n "$matches" ]]; then
     echo "FAIL: $file"
     echo "$matches" | while IFS= read -r line; do

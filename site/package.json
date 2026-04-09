@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && bash scripts/check-i18n.sh",
+    "build": "astro build && bash scripts/check-i18n.sh && bash scripts/check-type-scale.sh",
     "preview": "astro preview",
     "astro": "astro"
   },
