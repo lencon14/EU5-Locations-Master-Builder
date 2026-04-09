@@ -17,6 +17,7 @@
 - デザインシステム: `site/DESIGN.md` に定義。UI変更時は必ず参照する
 - データソース: `pipeline/output/*.json` → `site/src/data/` にコピー
 - **【必須】ページの新規作成・UI変更時は frontend-design スキルを使用する。DESIGN.md を読むだけでなく、スキルの審美眼でデザイン品質を担保すること**
+- **【必須】`font-size` を直書きしない。`var(--type-*)` トークンを使う（DESIGN.md Type Scale 参照）。`scripts/check-type-scale.sh` で検証**
 
 ## データパイプライン（pipeline/）
 
@@ -63,10 +64,11 @@
 2. `python3 fetch_icons.py` でアイコン再取得・変換
 3. `git diff pipeline/raw/` で変更点を確認
 4. 各 `extract_*.py` を実行してJSON再生成
-5. `cp pipeline/output/*.json site/src/data/`
-6. `cp -r pipeline/output/icons site/public/`
-7. `cd site && npm run build` でサイトリビルド
-8. 変更をコミット
+5. `python3 generate_all_loc.py` で統合loc辞書を再生成（all_loc.json）
+6. `cp pipeline/output/*.json site/src/data/`
+7. `cp -r pipeline/output/icons site/public/`
+8. `cd site && npm run build` でサイトリビルド
+9. 変更をコミット
 
 ## 翻訳品質ルール
 

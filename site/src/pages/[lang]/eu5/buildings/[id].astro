@@ -334,7 +334,7 @@ function formatBuildTime(days: number): string {
   <style>
     .breadcrumb {
       margin-bottom: 1.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dusty-silver);
     }
 
@@ -364,14 +364,14 @@ function formatBuildTime(days: number): string {
     }
 
     .building-header h1 {
-      font-size: 2rem;
+      font-size: var(--type-h1);
       color: var(--royal-gold);
       margin-bottom: 0.25rem;
     }
 
     .en-name {
       color: var(--dusty-silver);
-      font-size: 1rem;
+      font-size: var(--type-body);
       margin-right: 0.75rem;
     }
 
@@ -380,7 +380,7 @@ function formatBuildTime(days: number): string {
       border: 1px solid var(--iron-edge);
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 0.75rem;
+      font-size: var(--type-sm);
       color: var(--dim-stone);
     }
 
@@ -407,7 +407,7 @@ function formatBuildTime(days: number): string {
 
     .props-card h2,
     .panel h3 {
-      font-size: 1.15rem;
+      font-size: var(--type-h3);
       font-family: var(--font-body);
       font-weight: 500;
       text-transform: uppercase;
@@ -437,12 +437,12 @@ function formatBuildTime(days: number): string {
     }
 
     dt {
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dusty-silver);
     }
 
     dd {
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
     }
 
@@ -451,13 +451,13 @@ function formatBuildTime(days: number): string {
     }
 
     .scaling-note {
-      font-size: 0.75rem;
+      font-size: var(--type-sm);
       color: var(--dusty-silver);
       margin-left: 0.3rem;
     }
 
     .build-days-sub {
-      font-size: 0.75rem;
+      font-size: var(--type-sm);
       color: var(--dim-stone);
       margin-left: 0.3rem;
     }
@@ -468,7 +468,7 @@ function formatBuildTime(days: number): string {
       color: var(--pale-gold);
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 0.75rem;
+      font-size: var(--type-sm);
       font-weight: 500;
     }
 
@@ -489,7 +489,7 @@ function formatBuildTime(days: number): string {
       color: var(--dusty-silver);
       border-radius: 2px;
       padding: 0.1rem 0.4rem;
-      font-size: 0.7rem;
+      font-size: var(--type-tiny);
       font-weight: 500;
     }
 
@@ -511,7 +511,7 @@ function formatBuildTime(days: number): string {
     .panel th {
       padding: 0.4rem 0.5rem;
       text-align: left;
-      font-size: 0.75rem;
+      font-size: var(--type-sm);
       font-weight: 500;
       color: var(--dusty-silver);
       text-transform: uppercase;
@@ -525,7 +525,7 @@ function formatBuildTime(days: number): string {
 
     .panel td {
       padding: 0.4rem 0.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       border-bottom: 1px solid var(--iron-edge);
     }
 
@@ -554,7 +554,7 @@ function formatBuildTime(days: number): string {
     }
 
     .method-cat {
-      font-size: 0.65rem;
+      font-size: var(--type-micro);
       font-weight: 500;
       color: var(--dim-stone);
       background: var(--slate);
@@ -570,7 +570,7 @@ function formatBuildTime(days: number): string {
     }
 
     .description h2 {
-      font-size: 1.15rem;
+      font-size: var(--type-h3);
       font-family: var(--font-body);
       font-weight: 500;
       text-transform: uppercase;
@@ -583,7 +583,7 @@ function formatBuildTime(days: number): string {
 
     .description p {
       color: var(--dusty-silver);
-      font-size: 1rem;
+      font-size: var(--type-body);
       line-height: 1.8;
     }
 
@@ -602,11 +602,11 @@ function formatBuildTime(days: number): string {
       padding: 0.35rem 0.5rem;
       border-radius: 3px;
       background: var(--charred-oak);
-      font-size: 1rem;
+      font-size: var(--type-body);
     }
 
     .cond-cat {
-      font-size: 0.7rem;
+      font-size: var(--type-tiny);
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.04em;
@@ -648,7 +648,7 @@ function formatBuildTime(days: number): string {
 
     .tip-icon {
       display: inline-block;
-      font-size: 0.6rem;
+      font-size: var(--type-nano);
       font-weight: 700;
       color: var(--dim-stone);
       background: var(--slate);
@@ -672,7 +672,7 @@ function formatBuildTime(days: number): string {
       background: var(--charred-oak);
       border: 1px solid var(--gold-thread);
       border-radius: 4px;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 400;
       line-height: 1.6;
       color: var(--dusty-silver);
@@ -693,7 +693,7 @@ function formatBuildTime(days: number): string {
     /* ── Production Method Simulator ── */
     .method-count {
       font-family: var(--font-body);
-      font-size: 0.7rem;
+      font-size: var(--type-tiny);
       font-weight: 500;
       color: var(--dusty-silver);
       background: var(--slate);
@@ -712,7 +712,7 @@ function formatBuildTime(days: number): string {
     .method-tab {
       padding: 0.35rem 0.75rem;
       font-family: var(--font-body);
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 500;
       color: var(--dim-stone);
       background: none;
@@ -772,7 +772,7 @@ function formatBuildTime(days: number): string {
 
     .flow-label {
       display: block;
-      font-size: 0.65rem;
+      font-size: var(--type-micro);
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -785,7 +785,7 @@ function formatBuildTime(days: number): string {
       justify-content: space-between;
       align-items: center;
       padding: 0.15rem 0;
-      font-size: 1rem;
+      font-size: var(--type-body);
     }
 
     .flow-item a {
@@ -802,7 +802,7 @@ function formatBuildTime(days: number): string {
       font-variant-numeric: tabular-nums;
       font-weight: 500;
       color: var(--crest-red);
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
     }
 
     .flow-val--out {
@@ -817,14 +817,14 @@ function formatBuildTime(days: number): string {
     .flow-arrow {
       display: flex;
       align-items: center;
-      font-size: 1.25rem;
+      font-size: var(--type-h2);
       color: var(--dim-stone);
       flex-shrink: 0;
     }
 
     .method-cat-badge {
       display: inline-block;
-      font-size: 0.65rem;
+      font-size: var(--type-micro);
       font-weight: 500;
       color: var(--dim-stone);
       background: var(--slate);
@@ -845,7 +845,7 @@ function formatBuildTime(days: number): string {
         gap: 0.2rem;
       }
       .method-tab {
-        font-size: 0.75rem;
+        font-size: var(--type-sm);
         padding: 0.25rem 0.5rem;
       }
     }

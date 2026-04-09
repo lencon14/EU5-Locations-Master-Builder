@@ -243,18 +243,18 @@ const sameRel = core.filter(
   }
 
   <style>
-    .breadcrumb { margin-bottom: 1.5rem; font-size: 1rem; color: var(--dusty-silver); }
+    .breadcrumb { margin-bottom: 1.5rem; font-size: var(--type-body); color: var(--dusty-silver); }
     .breadcrumb .sep { margin: 0 0.4rem; color: var(--dim-stone); }
     .breadcrumb span:last-child { color: var(--ivory); }
 
     .hs-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--gold-thread); }
     .header-row { display: flex; align-items: center; gap: 1rem; }
     .header-illust { border-radius: 4px; object-fit: cover; flex-shrink: 0; }
-    .hs-header h1 { font-size: 2rem; color: var(--royal-gold); margin-bottom: 0.25rem; }
-    .en-name { color: var(--dusty-silver); font-size: 1rem; margin-right: 0.75rem; }
+    .hs-header h1 { font-size: var(--type-h1); color: var(--royal-gold); margin-bottom: 0.25rem; }
+    .en-name { color: var(--dusty-silver); font-size: var(--type-body); margin-right: 0.75rem; }
     .id-badge {
       background: var(--charred-oak); border: 1px solid var(--iron-edge);
-      border-radius: 2px; padding: 0.1rem 0.5rem; font-size: 1rem; color: var(--dim-stone);
+      border-radius: 2px; padding: 0.1rem 0.5rem; font-size: var(--type-body); color: var(--dim-stone);
     }
 
     .props-card, .panel, .description, .related {
@@ -262,13 +262,13 @@ const sameRel = core.filter(
       border-radius: 4px; padding: 1.25rem; margin-bottom: 1.5rem;
     }
     .props-card h2, .panel h2, .panel h3, .description h2, .related h2 {
-      font-size: 1.15rem; font-family: var(--font-body); font-weight: 500;
+      font-size: var(--type-h3); font-family: var(--font-body); font-weight: 500;
       text-transform: uppercase; letter-spacing: 0.05em; color: var(--dusty-silver);
       margin-bottom: 1rem; padding-bottom: 0.5rem;
       border-bottom: 1px solid var(--iron-edge);
       display: flex; align-items: center; gap: 0.5rem;
     }
-    .panel h3 { font-size: 1rem; margin-top: 1.25rem; }
+    .panel h3 { font-size: var(--type-body); margin-top: 1.25rem; }
 
     dl { display: flex; flex-direction: column; }
     .prop-row {
@@ -276,13 +276,13 @@ const sameRel = core.filter(
       padding: 0.4rem 0; border-bottom: 1px solid var(--iron-edge);
     }
     .prop-row:last-child { border-bottom: none; }
-    dt { font-size: 1rem; color: var(--dusty-silver); }
-    dd { font-size: 1rem; font-weight: 500; }
+    dt { font-size: var(--type-body); color: var(--dusty-silver); }
+    dd { font-size: var(--type-body); font-weight: 500; }
 
     .tag {
       display: inline-block; background: rgba(201, 168, 76, 0.15);
       color: var(--pale-gold); border-radius: 2px; padding: 0.1rem 0.5rem;
-      font-size: 1rem; font-weight: 500;
+      font-size: var(--type-body); font-weight: 500;
     }
 
     .stars { color: var(--royal-gold); letter-spacing: 0.05em; }
@@ -292,7 +292,7 @@ const sameRel = core.filter(
       display: inline-flex; align-items: center; gap: 0.3rem;
       padding: 0.2rem 0.5rem; background: var(--charred-oak);
       border: 1px solid var(--iron-edge); border-radius: 4px;
-      color: var(--ivory); font-size: 1rem; font-weight: 500;
+      color: var(--ivory); font-size: var(--type-body); font-weight: 500;
     }
     .rel-chip:hover { border-color: var(--royal-gold); color: var(--pale-gold); text-decoration: none; }
     .rel-chip img { image-rendering: pixelated; }
@@ -300,13 +300,13 @@ const sameRel = core.filter(
     .table-wrap { overflow-x: auto; }
     .panel table { width: 100%; border-collapse: collapse; }
     .panel td {
-      padding: 0.4rem 0.75rem; font-size: 1rem;
+      padding: 0.4rem 0.75rem; font-size: var(--type-body);
       border-bottom: 1px solid var(--iron-edge);
     }
     .panel thead { background: var(--charred-oak); }
     .panel th {
       padding: 0.4rem 0.75rem; text-align: left;
-      font-family: var(--font-body); font-weight: 500; font-size: 1rem;
+      font-family: var(--font-body); font-weight: 500; font-size: var(--type-body);
       color: var(--dusty-silver); text-transform: uppercase;
       letter-spacing: 0.05em; border-bottom: 1px solid var(--iron-edge);
     }
@@ -333,7 +333,7 @@ const sameRel = core.filter(
       background: var(--charred-oak);
       border: 1px solid var(--gold-thread);
       border-radius: 4px;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 400;
       line-height: 1.6;
       color: var(--dusty-silver);
@@ -366,7 +366,7 @@ const sameRel = core.filter(
       background: var(--charred-oak);
       border: 1px solid var(--gold-thread);
       border-radius: 4px;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 400;
       line-height: 1.6;
       color: var(--dusty-silver);
@@ -393,7 +393,7 @@ const sameRel = core.filter(
 
     .tip-icon {
       display: inline-block;
-      font-size: 0.6rem;
+      font-size: var(--type-nano);
       font-weight: 700;
       color: var(--dim-stone);
       background: var(--slate);
@@ -406,10 +406,10 @@ const sameRel = core.filter(
       vertical-align: middle;
     }
 
-    .description p { color: var(--dusty-silver); font-size: 1rem; line-height: 1.8; }
+    .description p { color: var(--dusty-silver); font-size: var(--type-body); line-height: 1.8; }
 
     .related-count {
-      font-family: var(--font-body); font-size: 0.7rem; font-weight: 500;
+      font-family: var(--font-body); font-size: var(--type-tiny); font-weight: 500;
       color: var(--dusty-silver); background: var(--slate);
       padding: 0.1rem 0.45rem; border-radius: 2px;
     }
@@ -418,10 +418,10 @@ const sameRel = core.filter(
       display: inline-flex; align-items: center; gap: 0.4rem;
       padding: 0.3rem 0.6rem; background: var(--charred-oak);
       border: 1px solid var(--iron-edge); border-radius: 4px;
-      color: var(--ivory); font-size: 1rem; font-weight: 500;
+      color: var(--ivory); font-size: var(--type-body); font-weight: 500;
       transition: border-color 0.15s;
     }
     .related-item:hover { border-color: var(--royal-gold); color: var(--pale-gold); text-decoration: none; }
-    .rel-imp { font-size: 0.7rem; color: var(--royal-gold); }
+    .rel-imp { font-size: var(--type-tiny); color: var(--royal-gold); }
   </style>
 </Base>

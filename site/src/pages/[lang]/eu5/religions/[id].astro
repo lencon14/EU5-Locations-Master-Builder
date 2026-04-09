@@ -427,7 +427,7 @@ function formatEnable(dateStr: string): string {
   <style>
     .breadcrumb {
       margin-bottom: 1.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dusty-silver);
     }
 
@@ -457,14 +457,14 @@ function formatEnable(dateStr: string): string {
     }
 
     .rel-header h1 {
-      font-size: 2rem;
+      font-size: var(--type-h1);
       color: var(--royal-gold);
       margin-bottom: 0.25rem;
     }
 
     .en-name {
       color: var(--dusty-silver);
-      font-size: 1rem;
+      font-size: var(--type-body);
       margin-right: 0.75rem;
     }
 
@@ -473,7 +473,7 @@ function formatEnable(dateStr: string): string {
       border: 1px solid var(--iron-edge);
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dim-stone);
     }
 
@@ -492,7 +492,7 @@ function formatEnable(dateStr: string): string {
     .panel h2,
     .description h2,
     .related h2 {
-      font-size: 1.15rem;
+      font-size: var(--type-h3);
       font-family: var(--font-body);
       font-weight: 500;
       text-transform: uppercase;
@@ -525,7 +525,7 @@ function formatEnable(dateStr: string): string {
     }
 
     dt {
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dusty-silver);
     }
 
@@ -547,7 +547,7 @@ function formatEnable(dateStr: string): string {
       background: var(--charred-oak);
       border: 1px solid var(--gold-thread);
       border-radius: 4px;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 400;
       line-height: 1.6;
       color: var(--dusty-silver);
@@ -566,7 +566,7 @@ function formatEnable(dateStr: string): string {
     }
 
     dd {
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
     }
 
@@ -576,7 +576,7 @@ function formatEnable(dateStr: string): string {
       color: var(--pale-gold);
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
     }
 
@@ -593,7 +593,7 @@ function formatEnable(dateStr: string): string {
       color: var(--azure-banner);
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
     }
 
@@ -611,7 +611,7 @@ function formatEnable(dateStr: string): string {
 
     .tip-icon {
       display: inline-block;
-      font-size: 0.6rem;
+      font-size: var(--type-nano);
       font-weight: 700;
       color: var(--dim-stone);
       background: var(--slate);
@@ -635,7 +635,7 @@ function formatEnable(dateStr: string): string {
       background: var(--charred-oak);
       border: 1px solid var(--gold-thread);
       border-radius: 4px;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 400;
       line-height: 1.6;
       color: var(--dusty-silver);
@@ -672,7 +672,7 @@ function formatEnable(dateStr: string): string {
       text-align: left;
       font-family: var(--font-body);
       font-weight: 500;
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dusty-silver);
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -685,7 +685,7 @@ function formatEnable(dateStr: string): string {
 
     .panel td {
       padding: 0.4rem 0.75rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       border-bottom: 1px solid var(--iron-edge);
     }
 
@@ -723,7 +723,7 @@ function formatEnable(dateStr: string): string {
       border: 1px solid var(--iron-edge);
       border-radius: 4px;
       color: var(--ivory);
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
       transition: border-color 0.15s;
     }
@@ -750,7 +750,7 @@ function formatEnable(dateStr: string): string {
       background: var(--charred-oak);
       border: 1px solid var(--gold-thread);
       border-radius: 4px;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 400;
       line-height: 1.6;
       color: var(--dusty-silver);
@@ -778,7 +778,7 @@ function formatEnable(dateStr: string): string {
     }
 
     .opinion-level {
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       padding: 0.05rem 0.4rem;
       border-radius: 2px;
       font-weight: 600;
@@ -807,7 +807,7 @@ function formatEnable(dateStr: string): string {
     /* Description */
     .description p {
       color: var(--dusty-silver);
-      font-size: 1rem;
+      font-size: var(--type-body);
       line-height: 1.8;
     }
 
@@ -825,7 +825,7 @@ function formatEnable(dateStr: string): string {
     /* Related */
     .related-count {
       font-family: var(--font-body);
-      font-size: 0.7rem;
+      font-size: var(--type-tiny);
       font-weight: 500;
       color: var(--dusty-silver);
       background: var(--slate);
@@ -848,7 +848,7 @@ function formatEnable(dateStr: string): string {
       border: 1px solid var(--iron-edge);
       border-radius: 4px;
       color: var(--ivory);
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
       transition: border-color 0.15s;
     }
@@ -868,10 +868,10 @@ function formatEnable(dateStr: string): string {
       display: inline-block;
       background: rgba(201, 168, 76, 0.15); color: var(--pale-gold);
       border-radius: 2px; padding: 0.1rem 0.5rem;
-      font-size: 1rem; font-weight: 500;
+      font-size: var(--type-body); font-weight: 500;
     }
     .imp-head { text-align: center; }
-    .imp-cell { text-align: center; color: var(--royal-gold); font-size: 1rem; }
+    .imp-cell { text-align: center; color: var(--royal-gold); font-size: var(--type-body); }
     .hs-row[data-href] { cursor: pointer; }
     .hs-row:hover { background: var(--slate); }
     .hs-row td a { color: var(--ivory); font-weight: 500; }
@@ -888,7 +888,7 @@ function formatEnable(dateStr: string): string {
       color: var(--dusty-silver);
       border-radius: 2px;
       padding: 0 0.35rem;
-      font-size: 0.75rem;
+      font-size: var(--type-sm);
       margin: 0.1rem 0.15rem;
     }
 
@@ -898,7 +898,7 @@ function formatEnable(dateStr: string): string {
       color: var(--crest-red);
       border-radius: 2px;
       padding: 0 0.4rem;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 700;
     }
   </style>

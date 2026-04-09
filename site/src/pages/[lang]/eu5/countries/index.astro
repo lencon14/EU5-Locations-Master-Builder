@@ -219,7 +219,7 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
 
   <style>
     h1 {
-      font-size: 2rem;
+      font-size: var(--type-h1);
       margin-bottom: 0.25rem;
     }
     .lead {
@@ -244,7 +244,7 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
       border: 1px solid var(--iron-edge);
       border-radius: 4px;
       color: var(--ivory);
-      font-size: 1rem;
+      font-size: var(--type-body);
     }
     #search:focus {
       outline: none;
@@ -259,7 +259,7 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
       border: 1px solid var(--iron-edge);
       border-radius: 4px;
       color: var(--ivory);
-      font-size: 1rem;
+      font-size: var(--type-body);
       cursor: pointer;
       appearance: none;
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%239a9bab' stroke-width='1.5'/%3E%3C/svg%3E");
@@ -273,7 +273,7 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
       box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.2);
     }
     .result-count {
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       color: var(--dusty-silver);
       margin-left: 0.25rem;
     }
@@ -296,7 +296,7 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
       border: 1px solid var(--iron-edge);
       border-radius: 2px;
       color: var(--dusty-silver);
-      font-size: 0.75rem;
+      font-size: var(--type-sm);
       text-decoration: none;
       transition: border-color 0.15s, color 0.15s;
     }
@@ -311,7 +311,7 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
       scroll-margin-top: 4rem;
     }
     .group-section h2 {
-      font-size: 1.15rem;
+      font-size: var(--type-h3);
       font-family: var(--font-heading);
       color: var(--pale-gold);
       letter-spacing: 0.03em;
@@ -324,7 +324,7 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
     }
     .group-count {
       font-family: var(--font-body);
-      font-size: 0.7rem;
+      font-size: var(--type-tiny);
       font-weight: 500;
       color: var(--dusty-silver);
       background: var(--slate);
@@ -341,7 +341,7 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
       text-align: left;
       font-family: var(--font-body);
       font-weight: 500;
-      font-size: 0.75rem;
+      font-size: var(--type-sm);
       color: var(--dusty-silver);
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -349,7 +349,7 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
     }
     td {
       padding: 0.4rem 0.75rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       border-bottom: 1px solid var(--iron-edge);
     }
     .icon-head { width: 40px; }
@@ -362,7 +362,7 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
     .muted { color: var(--dusty-silver); }
     .historic-dot {
       color: var(--harvest-amber);
-      font-size: 0.75rem;
+      font-size: var(--type-sm);
       margin-left: 0.2rem;
     }
 

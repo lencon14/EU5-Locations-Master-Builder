@@ -68,15 +68,22 @@ Gold は権威と歴史を表す。派手にならないよう彩度を抑えた
 
 ### Type Scale
 
-| Token | Size | Weight | Font | Use |
-|-------|------|--------|------|-----|
-| display | 2.5rem (40px) | 700 | Cinzel | ページタイトル |
-| h1 | 2rem (32px) | 700 | Cinzel | セクション見出し |
-| h2 | 1.5rem (24px) | 600 | Cinzel | サブセクション |
-| h3 | 1.15rem (18.4px) | 600 | Cinzel | カード見出し、テーブルグループ |
-| body | 1rem (16px) | 400 | Inter | 本文 |
-| small | 0.875rem (14px) | 400 | Inter | 補助テキスト、テーブルセル |
-| caption | 0.75rem (12px) | 500 | Inter | ラベル、タグ、バッジ |
+| CSS Variable | Size | Weight | Font | Use |
+|-------------|------|--------|------|-----|
+| `--type-display` | 2.5rem (40px) | 700 | Cinzel | ホームHeroタイトル |
+| `--type-h1` | 2rem (32px) | 700 | Cinzel | ページ見出し |
+| `--type-h1-lg` | 1.75rem (28px) | 700 | Cinzel | 大型サブ見出し |
+| `--type-h2` | 1.25rem (20px) | 600 | Cinzel | セクション見出し |
+| `--type-h3` | 1.15rem (18.4px) | 600 | Cinzel | カード見出し、テーブルグループ |
+| `--type-body` | 1rem (16px) | 400 | Inter | 本文、テーブルセル、ラベル |
+| `--type-tag` | 0.8rem (12.8px) | 500 | Inter | タグ、バッジ、ツールチップ |
+| `--type-sm` | 0.75rem (12px) | 500 | Inter | チップ、小テキスト |
+| `--type-tiny` | 0.7rem (11.2px) | 500 | Inter | 小注釈 |
+| `--type-micro` | 0.65rem (10.4px) | 600 | Inter | マイクロラベル |
+| `--type-nano` | 0.6rem (9.6px) | 700 | Inter | 最小テキスト |
+
+> **【必須】ページ内で `font-size` を直書きしない。`var(--type-*)` トークンを使うこと。**
+> `scripts/check-type-scale.sh` でビルド時に検証される。
 
 ### Rules
 

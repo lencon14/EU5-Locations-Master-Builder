@@ -285,7 +285,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
   <style>
     .breadcrumb {
       margin-bottom: 1.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dusty-silver);
     }
 
@@ -315,14 +315,14 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
     }
 
     .good-header h1 {
-      font-size: 2rem;
+      font-size: var(--type-h1);
       color: var(--royal-gold);
       margin-bottom: 0.25rem;
     }
 
     .en-name {
       color: var(--dusty-silver);
-      font-size: 1rem;
+      font-size: var(--type-body);
       margin-right: 0.75rem;
     }
 
@@ -331,7 +331,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
       border: 1px solid var(--iron-edge);
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dim-stone);
     }
 
@@ -346,7 +346,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
 
     .props-card h2,
     .panel h3 {
-      font-size: 1.15rem;
+      font-size: var(--type-h3);
       font-family: var(--font-body);
       font-weight: 500;
       text-transform: uppercase;
@@ -376,7 +376,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
     }
 
     dt {
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dusty-silver);
     }
 
@@ -400,7 +400,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
       border-radius: 4px;
       color: var(--ivory);
       font-family: var(--font-body);
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       line-height: 1.5;
       white-space: normal;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -431,7 +431,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
     .pop-panel th {
       padding: 0.4rem 0.5rem;
       text-align: left;
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
       color: var(--dusty-silver);
       text-transform: uppercase;
@@ -465,7 +465,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
 
     .pop-panel td {
       padding: 0.4rem 0.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       border-bottom: 1px solid var(--iron-edge);
     }
 
@@ -493,7 +493,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
 
     .unit {
       font-family: var(--font-body);
-      font-size: 0.65rem;
+      font-size: var(--type-micro);
       font-weight: 400;
       color: var(--dim-stone);
       text-transform: none;
@@ -501,7 +501,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
     }
 
     dd {
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
     }
 
@@ -515,7 +515,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
       color: var(--pale-gold);
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
     }
 
@@ -533,7 +533,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
     }
 
     .building-uses h2 {
-      font-size: 1.15rem;
+      font-size: var(--type-h3);
       font-family: var(--font-body);
       font-weight: 500;
       text-transform: uppercase;
@@ -549,7 +549,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
 
     .building-uses .category-count {
       font-family: var(--font-body);
-      font-size: 0.7rem;
+      font-size: var(--type-tiny);
       font-weight: 500;
       color: var(--dusty-silver);
       background: var(--slate);
@@ -580,7 +580,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
       text-align: left;
       font-family: var(--font-body);
       font-weight: 500;
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dusty-silver);
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -593,7 +593,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
 
     .building-uses td {
       padding: 0.4rem 0.75rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       border-bottom: 1px solid var(--iron-edge);
     }
 
@@ -643,7 +643,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
       display: inline-block;
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
     }
 
@@ -665,7 +665,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
     }
 
     .description h2 {
-      font-size: 1.15rem;
+      font-size: var(--type-h3);
       font-family: var(--font-body);
       font-weight: 500;
       text-transform: uppercase;
@@ -678,7 +678,7 @@ const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
 
     .description p {
       color: var(--dusty-silver);
-      font-size: 1rem;
+      font-size: var(--type-body);
       line-height: 1.8;
     }
   </style>

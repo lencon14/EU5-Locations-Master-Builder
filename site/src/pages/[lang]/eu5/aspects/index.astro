@@ -196,7 +196,7 @@ function modPreview(asp: AspectItem): { text: string; tipText?: string } {
 
   <style>
     h1 {
-      font-size: 2rem;
+      font-size: var(--type-h1);
       margin-bottom: 0.25rem;
     }
 
@@ -213,7 +213,7 @@ function modPreview(asp: AspectItem): { text: string; tipText?: string } {
       width: 100%;
       max-width: 400px;
       padding: 0.5rem 0.75rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-family: var(--font-body);
       background: var(--dark-walnut);
       border: 1px solid var(--iron-edge);
@@ -236,7 +236,7 @@ function modPreview(asp: AspectItem): { text: string; tipText?: string } {
     }
 
     .group-section h2 {
-      font-size: 1.15rem;
+      font-size: var(--type-h3);
       margin-bottom: 0.75rem;
       display: flex;
       align-items: center;
@@ -250,7 +250,7 @@ function modPreview(asp: AspectItem): { text: string; tipText?: string } {
 
     .group-count {
       font-family: var(--font-body);
-      font-size: 1rem;
+      font-size: var(--type-body);
       font-weight: 500;
       color: var(--dusty-silver);
       background: var(--slate);
@@ -276,7 +276,7 @@ function modPreview(asp: AspectItem): { text: string; tipText?: string } {
       text-align: left;
       font-family: var(--font-body);
       font-weight: 500;
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dusty-silver);
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -285,7 +285,7 @@ function modPreview(asp: AspectItem): { text: string; tipText?: string } {
 
     td {
       padding: 0.5rem 0.75rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       border-bottom: 1px solid var(--iron-edge);
     }
 
@@ -319,7 +319,7 @@ function modPreview(asp: AspectItem): { text: string; tipText?: string } {
 
     .rel-tag {
       color: var(--dusty-silver);
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
     }
 
     .mod-tag {
@@ -328,7 +328,7 @@ function modPreview(asp: AspectItem): { text: string; tipText?: string } {
       color: var(--azure-banner);
       border-radius: 2px;
       padding: 0.05rem 0.4rem;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 500;
       white-space: nowrap;
     }
@@ -366,7 +366,7 @@ function modPreview(asp: AspectItem): { text: string; tipText?: string } {
       background: var(--charred-oak);
       border: 1px solid var(--gold-thread);
       border-radius: 4px;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 400;
       line-height: 1.6;
       color: var(--dusty-silver);

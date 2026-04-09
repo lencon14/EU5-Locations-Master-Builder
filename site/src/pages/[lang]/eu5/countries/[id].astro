@@ -298,7 +298,7 @@ function descCatName(cat: string): string {
   <style>
     .breadcrumb {
       margin-bottom: 1.5rem;
-      font-size: 1rem;
+      font-size: var(--type-body);
       color: var(--dusty-silver);
     }
     .breadcrumb .sep { margin: 0 0.4rem; color: var(--dim-stone); }
@@ -320,7 +320,7 @@ function descCatName(cat: string): string {
       background: var(--charred-oak);
     }
     .country-header h1 {
-      font-size: 2rem;
+      font-size: var(--type-h1);
       color: var(--royal-gold);
       margin-bottom: 0.15rem;
     }
@@ -330,16 +330,16 @@ function descCatName(cat: string): string {
       gap: 0.5rem;
       flex-wrap: wrap;
     }
-    .en-name { color: var(--dusty-silver); font-size: 1rem; }
+    .en-name { color: var(--dusty-silver); font-size: var(--type-body); }
     .id-badge {
       background: var(--charred-oak); border: 1px solid var(--iron-edge);
       border-radius: 2px; padding: 0.1rem 0.5rem;
-      font-size: 1rem; color: var(--dim-stone);
+      font-size: var(--type-body); color: var(--dim-stone);
     }
     .historic-badge {
       background: rgba(201, 148, 76, 0.15); color: var(--harvest-amber);
       border-radius: 2px; padding: 0.1rem 0.5rem;
-      font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+      font-size: var(--type-sm); font-weight: 600; text-transform: uppercase;
       letter-spacing: 0.03em;
     }
 
@@ -351,7 +351,7 @@ function descCatName(cat: string): string {
       margin-bottom: 1.5rem;
     }
     .props-card h2, .description h2, .related h2 {
-      font-size: 1.15rem;
+      font-size: var(--type-h3);
       font-family: var(--font-body);
       font-weight: 500;
       text-transform: uppercase;
@@ -373,20 +373,20 @@ function descCatName(cat: string): string {
       padding: 0.4rem 0; border-bottom: 1px solid var(--iron-edge);
     }
     .prop-row:last-child { border-bottom: none; }
-    dt { font-size: 1rem; color: var(--dusty-silver); }
-    dd { font-size: 1rem; font-weight: 500; }
+    dt { font-size: var(--type-body); color: var(--dusty-silver); }
+    dd { font-size: var(--type-body); font-weight: 500; }
 
     .tag {
       display: inline-block;
       background: rgba(201, 168, 76, 0.15); color: var(--pale-gold);
       border-radius: 2px; padding: 0.1rem 0.5rem;
-      font-size: 1rem; font-weight: 500;
+      font-size: var(--type-body); font-weight: 500;
     }
     .group-tags { display: flex; gap: 0.3rem; flex-wrap: wrap; justify-content: flex-end; }
 
     .rank-tag {
       display: inline-block; border-radius: 2px;
-      padding: 0.1rem 0.5rem; font-size: 1rem; font-weight: 600;
+      padding: 0.1rem 0.5rem; font-size: var(--type-body); font-weight: 600;
     }
     .rank-rank_county { background: rgba(154, 155, 171, 0.15); color: var(--dusty-silver); }
     .rank-rank_duchy { background: rgba(74, 142, 201, 0.15); color: var(--azure-banner); }
@@ -395,22 +395,22 @@ function descCatName(cat: string): string {
 
     .rule-tag {
       display: inline-block; border-radius: 2px;
-      padding: 0.1rem 0.5rem; font-size: 1rem; font-weight: 500;
+      padding: 0.1rem 0.5rem; font-size: var(--type-body); font-weight: 500;
     }
     .rule-historical { background: rgba(76, 154, 90, 0.15); color: var(--forest-green); }
     .rule-plausible { background: rgba(201, 168, 76, 0.15); color: var(--pale-gold); }
     .rule-fantasy { background: rgba(196, 79, 79, 0.15); color: var(--crest-red); }
 
-    .stars { color: var(--royal-gold); font-size: 1rem; letter-spacing: 0.05em; }
+    .stars { color: var(--royal-gold); font-size: var(--type-body); letter-spacing: 0.05em; }
 
     .rel-link { color: var(--azure-banner); }
     .rel-link:hover { color: var(--pale-gold); }
 
-    .description p { color: var(--dusty-silver); font-size: 1rem; line-height: 1.8; }
+    .description p { color: var(--dusty-silver); font-size: var(--type-body); line-height: 1.8; }
 
     .related-count {
       font-family: var(--font-body);
-      font-size: 0.7rem; font-weight: 500;
+      font-size: var(--type-tiny); font-weight: 500;
       color: var(--dusty-silver); background: var(--slate);
       padding: 0.1rem 0.45rem; border-radius: 2px;
     }
@@ -421,12 +421,12 @@ function descCatName(cat: string): string {
     .related th {
       padding: 0.4rem 0.75rem; text-align: left;
       font-family: var(--font-body); font-weight: 500;
-      font-size: 1rem; color: var(--dusty-silver);
+      font-size: var(--type-body); color: var(--dusty-silver);
       text-transform: uppercase; letter-spacing: 0.05em;
       border-bottom: 1px solid var(--iron-edge);
     }
     .related td {
-      padding: 0.4rem 0.75rem; font-size: 1rem;
+      padding: 0.4rem 0.75rem; font-size: var(--type-body);
       border-bottom: 1px solid var(--iron-edge);
     }
     .related tr:last-child td { border-bottom: none; }
@@ -441,7 +441,7 @@ function descCatName(cat: string): string {
 
     .truncated-note {
       margin-top: 0.75rem;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       color: var(--dim-stone);
       text-align: center;
     }
@@ -466,7 +466,7 @@ function descCatName(cat: string): string {
       background: var(--charred-oak);
       border: 1px solid var(--gold-thread);
       border-radius: 4px;
-      font-size: 0.8rem;
+      font-size: var(--type-tag);
       font-weight: 400;
       line-height: 1.6;
       color: var(--dusty-silver);
