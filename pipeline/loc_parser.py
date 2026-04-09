@@ -51,8 +51,8 @@ def strip_markup(text: str) -> str:
     text = re.sub(r"#tooltip_subheading\s*", "", text)
     # Remove @icon! references
     text = re.sub(r"@\w+!", "", text)
-    # Remove $VARIABLE$ references
-    text = re.sub(r"\$\w+\$", "", text)
+    # Convert unresolved $VARIABLE$ references to humanized text
+    text = re.sub(r"\$(\w+)\$", lambda m: m.group(1).replace("_", " "), text)
     # Handle [Concept('key', 'display')|e] → display
     text = re.sub(r"\[Concept\(\s*'[^']*'\s*,\s*'([^']*)'\s*\)\s*\|\w+\]", r"\1", text)
     # Handle [ShowPopTypeName('key')] etc → keep the key (with optional |e/|el/|l suffix)

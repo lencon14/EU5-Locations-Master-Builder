@@ -5,11 +5,11 @@
   },
   "medieval_levy_law": {
     "name": "군역법",
-    "desc": "우리 지상군은 주로 국가의 특정 estates에서 모집한 징집군으로 구성되어 있습니다. 이들은 해산되기 전까지 우리를 위해 싸울 것입니다."
+    "desc": "우리 지상군은 주로 국가의 특정 계층에서 모집한 징집군으로 구성되어 있습니다. 이들은 해산되기 전까지 우리를 위해 싸울 것입니다."
   },
   "royal_court_customs_law": {
     "name": "왕실 궁정 관습",
-    "desc": "궁정의 전통과 문화는 의 안정을 유지하는 데 매우 큰 역할을 합니다. 이러한 관습은 통치자로부터 후계자로의 안전한 권력 이양을 보장하는 동시에, 궁정 내부에서 여러 음모가 모의되는 것을 크게 제한합니다."
+    "desc": "궁정의 전통과 문화는 monarchy의 안정을 유지하는 데 매우 큰 역할을 합니다. 이러한 관습은 통치자로부터 후계자로의 안전한 권력 이양을 보장하는 동시에, 궁정 내부에서 여러 음모가 모의되는 것을 크게 제한합니다."
   },
   "legitimization_of_power_law": {
     "name": "권력 정당화",
@@ -21,11 +21,11 @@
   },
   "iqta_law": {
     "name": "이크타",
-    "desc": "$iqta_law$는 의 세금 징수 관행으로, 들로부터 이슬람교도의 기부 의무인 자카트의 일환으로 토지 수익을 거두는 것을 말합니다. 일반적으로 이크타는 국가에서 기본적인 수입원이었습니다."
+    "desc": "이크타는 muslim의 세금 징수 관행으로, peasants estate들로부터 이슬람교도의 기부 의무인 자카트의 일환으로 토지 수익을 거두는 것을 말합니다. 일반적으로 이크타는 muslim 국가에서 기본적인 수입원이었습니다."
   },
   "inquisition_law": {
     "name": "이단 심문 법률",
-    "desc": "이단에 맞서기 위해 처음 설립된 이단 심문소는 이후 교회의 주요 이단 조사 및 기소 기관으로 자리 잡았습니다. 이 특별한 교회 법정에서 이단 심문관들은 이단 혐의자를 심문하고, 종교 또는 도덕적 위반에 대한 자백을 강요했으며, 가톨릭 교리를 위반한 이들에게 참회부터 처형에 이르는 형벌을 내렸습니다."
+    "desc": "catharism 이단에 맞서기 위해 처음 설립된 이단 심문소는 이후 catholic교회의 주요 이단 조사 및 기소 기관으로 자리 잡았습니다. 이 특별한 교회 법정에서 이단 심문관들은 이단 혐의자를 심문하고, 종교 또는 도덕적 위반에 대한 자백을 강요했으며, 가톨릭 교리를 위반한 이들에게 참회부터 처형에 이르는 형벌을 내렸습니다."
   },
   "society_of_jesus": {
     "name": "예수회",
@@ -37,7 +37,7 @@
   },
   "censorship": {
     "name": "검열",
-    "desc": "종교적 응집을 도모하는 데 있어, 문예 작품의 배포를 허가하고 기존 교리에 위배되는 의견의 표출을 허용 또는 통제할 수 있는 능력은 매우 중요합니다. 이러한 검열은 대개 계층의 호의를 사는 데에 도움이 되지만, 자유사상가와 전문 창작가들의 불만을 야기합니다. 또한 artists의 효용성에도 막대한 영향을 주며, 이단적이라고 간주된 모든 work_of_art도 검열의 영향을 받을 것입니다."
+    "desc": "종교적 응집을 도모하는 데 있어, 문예 작품의 배포를 허가하고 기존 교리에 위배되는 의견의 표출을 허용 또는 통제할 수 있는 능력은 매우 중요합니다. 이러한 검열은 대개 clergy estate 계층의 호의를 사는 데에 도움이 되지만, 자유사상가와 전문 창작가들의 불만을 야기합니다. 또한 예술가의 효용성에도 막대한 영향을 주며, 이단적이라고 간주된 모든 예술품도 검열의 영향을 받을 것입니다."
   },
   "slave_conversion": {
     "name": "노예 개종",
@@ -133,7 +133,7 @@
   },
   "bureaucracy_law": {
     "name": "관료제",
-    "desc": "$modern_bureaucracy_desc$"
+    "desc": "우리가 지배하는 땅과 백성들을 최대한 활용하기 위해서는 우리나라의 관료 집단을 확대하고, 개편하고, 전문화해야 합니다. 조직을 단단히 정비하면 국정의 각 분야를 운용하고 주먹구구식 행정을 척결할 수 있습니다. 국내 대학들을 동원해 가장 효율적인 통치 방식을 발굴하고, 귀족 가문의 자제들은 검이 아닌 펜을 손에 들고 국가에 봉사하게 합시다."
   },
   "cabinet_laws": {
     "name": "내각 법률",
@@ -157,7 +157,7 @@
   },
   "heir_religion_law": {
     "name": "계승 종교",
-    "desc": "heir의 종교를 결정할 수 있는 능력은 승계 및 통치 관련 사안에서 특히나 중요하며, 통치자의 신앙 및 관습이 국민 다수와 일치하도록 보장함으로써 통치자와 정부가 종교적 안정을 유지할 수 있도록 돕습니다. 다시 말해, 후계자가 따를 종교를 결정할 수 있는 권력은 종교의 자유와 국가의 통치, 그리고 사회적 조화 사이에서 절묘한 균형을 잡을 수 있도록 만들어 주는 중요한 요소라고 볼 수 있습니다."
+    "desc": "후계자의 종교를 결정할 수 있는 능력은 승계 및 통치 관련 사안에서 특히나 중요하며, 통치자의 신앙 및 관습이 국민 다수와 일치하도록 보장함으로써 통치자와 정부가 종교적 안정을 유지할 수 있도록 돕습니다. 다시 말해, 후계자가 따를 종교를 결정할 수 있는 권력은 종교의 자유와 국가의 통치, 그리고 사회적 조화 사이에서 절묘한 균형을 잡을 수 있도록 만들어 주는 중요한 요소라고 볼 수 있습니다."
   },
   "coin_laws": {
     "name": "주화법",
@@ -165,7 +165,7 @@
   },
   "precious_metal_distribution_law": {
     "name": "귀금속 분배",
-    "desc": "과 은 화폐 주조에 필수적인 자원입니다. 우리 국가는 이를 직접 채굴할 수 있는 유리한 위치에 있기 때문에 어떤 이들이 자원을 이용할 수 있게 할 것인지 결정할 수 있습니다."
+    "desc": "goods gold과 silver은 화폐 주조에 필수적인 자원입니다. 우리 국가는 이를 직접 채굴할 수 있는 유리한 위치에 있기 때문에 어떤 이들이 자원을 이용할 수 있게 할 것인지 결정할 수 있습니다."
   },
   "press_law": {
     "name": "언론 법률",
@@ -181,7 +181,7 @@
   },
   "immigration_law": {
     "name": "국경 통제",
-    "desc": "이 법률은 우리나라 안팎으로의 migration 허용 여부를 규정합니다."
+    "desc": "이 법률은 우리나라 안팎으로의 이주 허용 여부를 규정합니다."
   },
   "legal_code_law": {
     "name": "법전",
@@ -192,8 +192,8 @@
     "desc": "우리 사회의 위계나 여러 법적 절차에 관련된 관습은 반드시 우리가 적합하다고 여기는 언어로 간명하고 일관성 있게 작성되어야 합니다."
   },
   "sharia_law": {
-    "name": "$sharia$ 율법",
-    "desc": "$sharia_law_policy_desc$"
+    "name": "샤리아 율법",
+    "desc": "sharia법은 이슬람 국가에 깊이 뿌리내린 포괄적 법률 체계로, 개인적인 행실에서부터 국가적인 문제에 이르기까지 삶의 여러 측면을 두루 다스립니다. 샤리아법은 지난 수 세기 동안 국가에 안정성과 연속성을 제공했지만, 지나치게 엄격하고 때로는 처벌이 가혹하기까지 하다는 점에서 논란과 분열을 초래할 위험성을 내포합니다."
   },
   "recruitment_law": {
     "name": "모병 법률",
@@ -205,18 +205,18 @@
   },
   "army_doctrine_law": {
     "name": "지상군 교리",
-    "desc": "지상군 교리는 army이 특기로 갖출 수 있는 기술의 집합을 나타냅니다. 교리를 따를수록 그 지침이 군 문화에 정착되어, 점차 능숙하게 교리를 수행할 수 있게 됩니다. 시간이 지나면 우리 영광스러운 군세가 강력한 혜택을 받게 될 수도 있습니다."
+    "desc": "지상군 교리는 지상군이 특기로 갖출 수 있는 기술의 집합을 나타냅니다. 교리를 따를수록 그 지침이 군 문화에 정착되어, 점차 능숙하게 교리를 수행할 수 있게 됩니다. 시간이 지나면 우리 영광스러운 군세가 강력한 혜택을 받게 될 수도 있습니다."
   },
   "mamluk_rank_system_laws": {
-    "name": "$mamluk$ 계급 제도",
+    "name": "mamluk 계급 제도",
     "desc": "우리 국가의 중요 제도 대다수는 군내 위계질서 구조에 바탕을 두고 있습니다."
   },
   "mamluk_army_law": {
-    "name": "$mamluk$ 군법",
+    "name": "mamluk 군법",
     "desc": "우리 군사 정권 행정부의 핵심은 다름 아닌 군대입니다. 군대를 신중하게 구성하기 위한 법률 및 규정을 제정한다면 외부의 위협으로부터 우리 국민을 효율적으로 방어할 수 있을 것입니다."
   },
   "mamluk_promotion_law": {
-    "name": "$mamluk$ 진급 법칙",
+    "name": "mamluk 진급 법칙",
     "desc": "군대 내부의 진급 체계를 관장하는 법적 규정으로, 우리 국가를 이루는 중요한 초석 중 하나입니다."
   },
   "maritime_law": {
@@ -229,15 +229,15 @@
   },
   "naval_doctrine_law": {
     "name": "해상군 교리",
-    "desc": "해상군 교리는 navy이 특기로 갖출 수 있는 기술의 집합을 나타냅니다. 교리를 따를수록 그 지침이 해상군에 정착되어, 점차 능숙하게 교리를 수행할 수 있게 됩니다. 시간이 지나면 우리 영광스러운 함대가 강력한 보너스를 받게 될 수도 있습니다."
+    "desc": "해상군 교리는 해상군이 특기로 갖출 수 있는 기술의 집합을 나타냅니다. 교리를 따를수록 그 지침이 해상군에 정착되어, 점차 능숙하게 교리를 수행할 수 있게 됩니다. 시간이 지나면 우리 영광스러운 함대가 강력한 보너스를 받게 될 수도 있습니다."
   },
   "sumptuary_law": {
     "name": "검약법",
-    "desc": "사회의 의복은 사회적 위계를 반영하며, 혼인, 출생, 사망 등 삶의 중요한 사건을 기념합니다. 예컨대 들은 대개 단순한 면직 의복을 입으며, 지위가 높은 정예 계층은 화려한 색상과 진귀한 깃털로 장식한 정교한 의복을 착용합니다. 한편, 전사들에게는 아주 간소한 외투만이 허용됩니다.\\n\\n현재 시우아코아틀이 검약 법안을 구상 중이며, 이 법률은 신민들이 어떻게 옷을 갖춰 입을 것인지, 시장에서는 어떤 물품을 구입할 수 있는지, 또 정부에서 오를 수 있는 지위에 따라 어떤 장식물을 가려 패용해야 하는지 등을 지정할 것입니다."
+    "desc": "nahuatl 사회의 의복은 사회적 위계를 반영하며, 혼인, 출생, 사망 등 삶의 중요한 사건을 기념합니다. 예컨대 peasants estate들은 대개 단순한 면직 의복을 입으며, 지위가 높은 정예 계층은 화려한 색상과 진귀한 깃털로 장식한 정교한 의복을 착용합니다. 한편, 전사들에게는 아주 간소한 외투만이 허용됩니다. 현재 시우아코아틀이 검약 법안을 구상 중이며, 이 법률은 신민들이 어떻게 옷을 갖춰 입을 것인지, 시장에서는 어떤 물품을 구입할 수 있는지, 또 정부에서 오를 수 있는 지위에 따라 어떤 장식물을 가려 패용해야 하는지 등을 지정할 것입니다."
   },
   "eng_order_of_the_garter_law": {
     "name": "가터 기사단",
-    "desc": "가터 기사단은 우리 국가의 드높은 이상을 상징하는 권위적인 단체로, 시대를 초월해 다양한 배경과 재능을 갖춘 유수의 인재를 한데 묶어 단결시킵니다.\\n\\n군주의 총애를 받는 가신, 존경받는 외국의 고관, 신실한 성직자, 재능 있는 장인, 용맹한 전사 등 각계각층의 인물로 이루어진 이 덕망 높은 기사단은 고결과 미덕의 정점이라 할 수 있습니다."
+    "desc": "가터 기사단은 우리 국가의 드높은 이상을 상징하는 권위적인 단체로, 시대를 초월해 다양한 배경과 재능을 갖춘 유수의 인재를 한데 묶어 단결시킵니다. 군주의 총애를 받는 가신, 존경받는 외국의 고관, 신실한 성직자, 재능 있는 장인, 용맹한 전사 등 각계각층의 인물로 이루어진 이 덕망 높은 기사단은 고결과 미덕의 정점이라 할 수 있습니다."
   },
   "fra_fouage_tax": {
     "name": "화로세 부과",
@@ -245,7 +245,7 @@
   },
   "fra_taille": {
     "name": "타유",
-    "desc": "타유란 각 가구가 보유한 토지의 양에 비례해 부과되는 세금입니다. (과)와 (은)는 면제됩니다."
+    "desc": "타유란 각 가구가 보유한 토지의 양에 비례해 부과되는 세금입니다. [GetEstateName('clergy estate')](과)와 [GetEstateName('nobles estate')](은)는 면제됩니다."
   },
   "fra_5_percent_tax": {
     "name": "마쇼의 20분의 1세",
@@ -253,15 +253,15 @@
   },
   "fra_reformation_tolerance_edicts": {
     "name": "종교 개혁 칙령",
-    "desc": "종교 개혁의 물결이 온 을 휩쓸며, 에도 그 파도가 문턱 바로 위에까지 차올랐습니다. 이 정책은 앞으로 국가가 이 새로운 열성 신도들을 우방으로 대할 것인지, 아니면 적으로 대할 것인지를 판가름할 것입니다."
+    "desc": "종교 개혁의 물결이 온 europe을 휩쓸며, [GetCountry('FRA').GetName]에도 그 파도가 문턱 바로 위에까지 차올랐습니다. 이 정책은 앞으로 국가가 이 새로운 열성 신도들을 우방으로 대할 것인지, 아니면 적으로 대할 것인지를 판가름할 것입니다."
   },
   "french_colonial_ambition_focus": {
     "name": "식민 개척의 열망",
-    "desc": "수십 년에 걸친 격동기를 극복한 (은)는 드디어 해외 탐사에 자금을 댈 수 있는 위치에 오르게 되었습니다. 앞으로 새로운 정책을 어떻게 펼치는가에 따라 식민지 개척의 야심을 훨씬 효율적으로 추구할 수 있을 것입니다."
+    "desc": "수십 년에 걸친 격동기를 극복한 [GetCountry('FRA').GetName](은)는 드디어 해외 탐사에 자금을 댈 수 있는 위치에 오르게 되었습니다. 앞으로 새로운 정책을 어떻게 펼치는가에 따라 식민지 개척의 야심을 훨씬 효율적으로 추구할 수 있을 것입니다."
   },
   "fra_jansenism_legality": {
     "name": "얀센주의의 지위",
-    "desc": "성 아우구스티누스의 가르침을 따르는 얀센주의는 예정론, 원죄 사상, 엄격한 도덕성을 강조합니다. 에서 절대주의가 발흥함에 따라 얀센주의는 점차 위협을 받게 되었고, 에서 교황이 우니게니투스 칙서를 반포함에 따라 공식적으로 규탄되었습니다."
+    "desc": "성 아우구스티누스의 가르침을 따르는 얀센주의는 예정론, 원죄 사상, 엄격한 도덕성을 강조합니다. [GetCountry('FRA').GetName]에서 절대주의가 발흥함에 따라 얀센주의는 점차 위협을 받게 되었고, [GetCountry('PAP').GetAdjective]에서 교황이 우니게니투스 칙서를 반포함에 따라 공식적으로 규탄되었습니다."
   },
   "guilds_of_florence": {
     "name": "피렌체 길드의 수위권",
@@ -269,11 +269,11 @@
   },
   "por_estudo_geral_law": {
     "name": "에스투두 제랄",
-    "desc": "국민 교육을 위한 국립 인 의 입지 조건과 수도와의 인접성은 우리나라에 있어 매우 중요한 사안입니다."
+    "desc": "국민 교육을 위한 국립 university인 por estudo geral의 입지 조건과 수도와의 인접성은 우리나라에 있어 매우 중요한 사안입니다."
   },
   "teu_amber_monopoly_law": {
-    "name": "[ShowGoodsNameWithNoTooltip('amber')] 독점",
-    "desc": "은 우리 국가에서 가장 귀중한 자원 중 하나입니다. 거래는 매우 중요하므로 세심하게 통제해야 합니다."
+    "name": "amber 독점",
+    "desc": "amber은 우리 국가에서 가장 귀중한 자원 중 하나입니다. amber 거래는 매우 중요하므로 세심하게 통제해야 합니다."
   },
   "nav_adaptability": {
     "name": "나바라의 적응력",
@@ -281,11 +281,11 @@
   },
   "six_ministries_overseer_law": {
     "name": "육부제 감독",
-    "desc": "의 업무는 반드시 다른 기관, 혹은 때에 따라 군주의 감독을 거쳐야 합니다."
+    "desc": "six ministries의 업무는 반드시 다른 기관, 혹은 때에 따라 군주의 감독을 거쳐야 합니다."
   },
   "ashta_pradhan_council_law": {
     "name": "아슈타 프라단 위원회",
-    "desc": "$mhr_ashta_pradhan_desc$"
+    "desc": "mhr ashta pradhan desc"
   },
   "kor_currency": {
     "name": "주력 화폐",
@@ -301,47 +301,47 @@
   },
   "status_of_the_han_law": {
     "name": "한족의 지위",
-    "desc": "우리 왕조는 의 주변부 지역에서 시작되었기에 의 주류 민족인 한족들에게는 외부인으로 인식되었습니다."
+    "desc": "우리 왕조는 [GetInternationalOrganization('middle kingdom').GetName]의 주변부 지역에서 시작되었기에 chinese group의 주류 민족인 한족들에게는 외부인으로 인식되었습니다."
   },
   "sco_clan_holdings": {
     "name": "[GetCountry('SCO').GetAdjectiveWithNoTooltip] 씨족 영지 분배",
-    "desc": "의 영지는 각 씨족이 가진 영향력에 따라 분배 및 상속됩니다. 즉, 영향력이 큰 씨족일수록 더 많은 영지를 상속받는 것입니다. 씨족의 작위가 박탈되거나 씨족 자체가 없어지는 경우를 제외하고는 후계자로의 직접 상속을 원칙으로 합니다."
+    "desc": "[GetCountry('SCO').GetAdjective]의 영지는 각 씨족이 가진 영향력에 따라 분배 및 상속됩니다. 즉, 영향력이 큰 씨족일수록 더 많은 영지를 상속받는 것입니다. 씨족의 작위가 박탈되거나 씨족 자체가 없어지는 경우를 제외하고는 후계자로의 직접 상속을 원칙으로 합니다."
   },
   "sco_authority_over_the_clergy": {
     "name": "성직자에 대한 권위",
-    "desc": "에 바치는 헌금이 의 재정을 무겁게 짓누르고 있습니다. 이러한 헌금 부담을 줄이기 위해 국가가 직접 성직자 계층의 관할권을 쥐었습니다."
+    "desc": "curia에 바치는 헌금이 [GetCountry('SCO').GetAdjective]의 재정을 무겁게 짓누르고 있습니다. 이러한 헌금 부담을 줄이기 위해 국가가 직접 성직자 계층의 관할권을 쥐었습니다."
   },
   "sco_colonial_affairs_law": {
     "name": "[GetCountry('SCO').GetAdjectiveWithNoTooltip] 식민지 정책",
-    "desc": "신세계에 막대한 부가 잠들어 있다는 소문이 들려오는 현재, 또한 식민지 기반을 넓게 다짐으로써 그 혜택을 누릴 수 있을 것입니다. 하지만, 과한 야심은 국가의 경제적 안정에 재앙을 불러올 수 있습니다."
+    "desc": "신세계에 막대한 부가 잠들어 있다는 소문이 들려오는 현재, [GetCountry('SCO').GetName] 또한 식민지 기반을 넓게 다짐으로써 그 혜택을 누릴 수 있을 것입니다. 하지만, 과한 야심은 국가의 경제적 안정에 재앙을 불러올 수 있습니다."
   },
   "distribution_of_power_law": {
     "name": "권력 분배",
     "desc": "권력의 분배는 통치자, 행정 기구, 그리고 계층들 사이에 권한이 어떻게 나누어지는지를 결정합니다. 국가는 복잡하고 섬세한 조직체입니다. 따라서 균형 잡힌 권력 분배가 안정을 보장하는 반면, 어느 한 기관에 너무 많은 힘이 집중되면 폭정이나 행정 마비를 초래할 위험이 있습니다."
   },
   "nobles_rights_laws": {
-    "name": "$nobles_estate$의 권리",
-    "desc": "의 지위는 그들이 지닌 특권뿐만 아니라 우리 법률에도 영향을 받아 강화됩니다."
+    "name": "귀족의 권리",
+    "desc": "nobles estate의 지위는 그들이 지닌 특권뿐만 아니라 우리 법률에도 영향을 받아 강화됩니다."
   },
   "burghers_rights_laws": {
-    "name": "$burghers_estate$의 권리",
-    "desc": "의 지위는 그들이 지닌 특권뿐만 아니라 우리 법률에도 영향을 받아 강화됩니다."
+    "name": "도시민의 권리",
+    "desc": "burghers estate의 지위는 그들이 지닌 특권뿐만 아니라 우리 법률에도 영향을 받아 강화됩니다."
   },
   "clergy_rights_laws": {
-    "name": "$clergy_estate$의 권리",
-    "desc": "의 지위는 그들이 지닌 특권뿐만 아니라 우리 법률에도 영향을 받아 강화됩니다."
+    "name": "성직자의 권리",
+    "desc": "clergy estate의 지위는 그들이 지닌 특권뿐만 아니라 우리 법률에도 영향을 받아 강화됩니다."
   },
   "crown_rights_laws": {
-    "name": "$crown_estate$의 권리",
-    "desc": "의 지위는 그들이 지닌 특권뿐만 아니라 우리 법률에도 영향을 받아 강화됩니다."
+    "name": "왕족의 권리",
+    "desc": "crown estate의 지위는 그들이 지닌 특권뿐만 아니라 우리 법률에도 영향을 받아 강화됩니다."
   },
   "peasants_rights_laws": {
-    "name": "$peasants_estate$의 권리",
-    "desc": "의 지위는 그들이 지닌 특권뿐만 아니라 우리 법률에도 영향을 받아 강화됩니다."
+    "name": "평민의 권리",
+    "desc": "peasants estate의 지위는 그들이 지닌 특권뿐만 아니라 우리 법률에도 영향을 받아 강화됩니다."
   },
   "order_of_chivalry_law": {
     "name": "기사단 법",
-    "desc": "종교적 전통과 궁정 법도의 혼합에 근간을 둔 이 법률은 의 이상과 자선 사명에 헌신한 기사들의 유산을 구현합니다. 기사단은 본래 성지 순례자를 보호하고 청빈, 복종, 순결의 서약을 받들기 위해 창건되었으며, 시간이 흐르면서 뛰어난 개인을 기리도록 변화해 위상의 상징으로 거듭났습니다."
+    "desc": "종교적 전통과 궁정 법도의 혼합에 근간을 둔 이 법률은 christian의 이상과 자선 사명에 헌신한 기사들의 유산을 구현합니다. 기사단은 본래 성지 순례자를 보호하고 청빈, 복종, 순결의 서약을 받들기 위해 창건되었으며, 시간이 흐르면서 뛰어난 개인을 기리도록 변화해 위상의 상징으로 거듭났습니다."
   },
   "witchcraft_act": {
     "name": "마녀법",
@@ -377,7 +377,7 @@
   },
   "mch_queue_hair": {
     "name": "체발역복",
-    "desc": "$mch_queue_hair$을 에 대한 우리나라의 문화 정책으로 삼습니다. 정책의 주요 사항 중 하나로 한족의 변발 의무가 있습니다."
+    "desc": "체발역복을 chinese group에 대한 우리나라의 문화 정책으로 삼습니다. 정책의 주요 사항 중 하나로 한족의 변발 의무가 있습니다."
   },
   "monastic_reformation_movement": {
     "name": "수도원 개혁 운동",
@@ -389,7 +389,7 @@
   },
   "dahsala_system": {
     "name": "다살라 조세 제도",
-    "desc": "$india$ 내 평민층에 적용될 조세 법률을 지방마다 별도로 정하는 대신 $dahsala_system$로 통합한다면, 필히 적절한 세금 부과가 가능할 것입니다."
+    "desc": "india 내 평민층에 적용될 조세 법률을 지방마다 별도로 정하는 대신 다살라 조세 제도로 통합한다면, 필히 적절한 세금 부과가 가능할 것입니다."
   },
   "hab_military_frontier": {
     "name": "군사 국경",
@@ -401,59 +401,59 @@
   },
   "golden_bull": {
     "name": "금인 칙서",
-    "desc": "$golden_bull$는 제국 및 선제후국의 헌법 체계를 정의하고 형성하는 의 칙령입니다. 다른 법률과 제국의 개혁은 모두 $golden_bull$를 통해 이루어집니다."
+    "desc": "금인 칙서는 제국 및 선제후국의 헌법 체계를 정의하고 형성하는 [GetUniqueInternationalOrganization('hre').GetName]의 칙령입니다. 다른 법률과 제국의 개혁은 모두 금인 칙서를 통해 이루어집니다."
   },
   "monetary_contribution": {
     "name": "제국 조세법",
-    "desc": "도 여느 정치체와 마찬가지로 기능하려면 돈이 필요합니다. 일련의 조세법을 통해 구성국으로부터 금화를 징수하여 제국의 재정 안정을 도모할 수 있습니다."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName]도 여느 정치체와 마찬가지로 기능하려면 돈이 필요합니다. 일련의 조세법을 통해 구성국으로부터 금화를 징수하여 제국의 재정 안정을 도모할 수 있습니다."
   },
   "military_contribution": {
     "name": "제국 대장",
-    "desc": "$military_contribution$은 각 제국 계층이 에게 제공해야 하는 정확한 병력 규모를 명시한 일련의 목록입니다."
+    "desc": "제국 대장은 각 제국 계층이 [GetUniqueInternationalOrganization('hre').GetLeaderTitle]에게 제공해야 하는 정확한 병력 규모를 명시한 일련의 목록입니다."
   },
   "imperial_religion": {
     "name": "제국 종교",
-    "desc": "의 기틀은 종교적 믿음에 기반합니다."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName]의 기틀은 종교적 믿음에 기반합니다."
   },
   "electorate_religion_law": {
     "name": "선제후령 종교 법률",
-    "desc": "종교는 황제와 들을 막론하고 의 근간을 이룹니다."
+    "desc": "종교는 황제와 elector들을 막론하고 [GetUniqueInternationalOrganization('hre').GetName]의 근간을 이룹니다."
   },
   "imperial_succession_law": {
     "name": "제국 계승",
-    "desc": "의 통치권 계승은 매우 신중하게 다뤄야 할 문제입니다. 제국 황위의 계승권은 제국 법률로 규정됩니다."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName]의 통치권 계승은 매우 신중하게 다뤄야 할 문제입니다. 제국 황위의 계승권은 제국 법률로 규정됩니다."
   },
   "imperial_voting_law": {
     "name": "제국 선거",
-    "desc": "은 제국 선거 원칙을 기반으로 세워졌습니다. 선거야말로 제국의 권력 균형을 좌우하는 핵심이라고 할 수 있습니다."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName]은 제국 선거 원칙을 기반으로 세워졌습니다. 선거야말로 제국의 권력 균형을 좌우하는 핵심이라고 할 수 있습니다."
   },
   "electorate_organization_law": {
     "name": "선제후 조직체",
-    "desc": "강대한 및 집단인 는 차기 를 선출할 특권을 지닙니다."
+    "desc": "강대한 nobles estate 및 clergy estate 집단인 elector는 차기 [GetUniqueInternationalOrganization('hre').GetLeaderTitle]를 선출할 특권을 지닙니다."
   },
   "free_city_law": {
     "name": "자유 도시",
-    "desc": "의 자유 도시는 자주성을 갖춘 자치 도시로, 제국 의회가 주로 개최되는 장소이기도 합니다."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName]의 자유 도시는 자주성을 갖춘 자치 도시로, 제국 의회가 주로 개최되는 장소이기도 합니다."
   },
   "free_city_rights_law": {
     "name": "자유 도시권",
-    "desc": "의 지위는 쉽게 얻을 수 없습니다. 오로지 만이 부여할 수 있는 독점적인 칭호입니다."
+    "desc": "free city의 지위는 쉽게 얻을 수 없습니다. 오로지 [GetUniqueInternationalOrganization('hre').GetLeaderTitle]만이 부여할 수 있는 독점적인 칭호입니다."
   },
   "landfriede_law": {
     "name": "평화령",
-    "desc": "평화령은 구성국 사이의 분쟁이 전장이 아닌 제국 법원에서 해결되어야 한다고 규정하는 칙령입니다. 이 칙령 덕분에 은 사소한 내부 다툼으로 약화되는 대신 제국으로서의 결속력을 유지할 수 있습니다."
+    "desc": "평화령은 [GetUniqueInternationalOrganization('hre').GetName] 구성국 사이의 분쟁이 전장이 아닌 제국 법원에서 해결되어야 한다고 규정하는 칙령입니다. 이 칙령 덕분에 [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip]은 사소한 내부 다툼으로 약화되는 대신 제국으로서의 결속력을 유지할 수 있습니다."
   },
   "imperial_diet_law": {
     "name": "제국 의회",
-    "desc": "는 고대 시절부터 이어져 내려온 제도이며, 그러다 보니 많은 규정과 절차가 시대에 매우 뒤떨어져 있습니다. 이제는 이를 개편하여 구성국의 다양한 권익을 더 잘 보호하는 제대로 된 를 마련할 때입니다."
+    "desc": "hre court assembly는 고대 시절부터 이어져 내려온 제도이며, 그러다 보니 많은 규정과 절차가 시대에 매우 뒤떨어져 있습니다. 이제는 이를 개편하여 [GetInternationalOrganizationType('hre').GetName] 구성국의 다양한 권익을 더 잘 보호하는 제대로 된 imperial diet law를 마련할 때입니다."
   },
   "perpetual_diet_law": {
     "name": "영구 의회",
-    "desc": "제국 의회는 이전까지 전역의 수많은 도시에서 불규칙적으로 소집되었던 탓에, 를 비롯한 대표자들은 매번 의회가 열리는 곳까지 발길을 옮겨야 했습니다. 영구적이고 상시적인 의회를 설립함으로써, 산발적으로 열리는 회담이 아닌 지속적이고 안정적인 심의 체계로 운영되는 상설 의회를 구성합시다."
+    "desc": "제국 의회는 이전까지 [GetInternationalOrganizationType('hre').GetName] 전역의 수많은 도시에서 불규칙적으로 소집되었던 탓에, [GetUniqueInternationalOrganization('hre').GetLeaderTitle]를 비롯한 대표자들은 매번 의회가 열리는 곳까지 발길을 옮겨야 했습니다. 영구적이고 상시적인 의회를 설립함으로써, 산발적으로 열리는 회담이 아닌 지속적이고 안정적인 심의 체계로 운영되는 상설 의회를 구성합시다."
   },
   "power_of_the_emperor_law": {
     "name": "[GetUniqueInternationalOrganization('hre').GetLeaderTitle] 권력",
-    "desc": "의 권력 수준을 정하는 것은 무척 민감한 문제입니다. 의 구성국과 들의 이해관계는 으레 가 원하는 바와 충돌하기 마련이지만, 이들도 가 힘이 없으면 제국을 지킬 수 없다는 점만은 인정합니다."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetLeaderTitle]의 권력 수준을 정하는 것은 무척 민감한 문제입니다. [GetInternationalOrganizationType('hre').GetName]의 구성국과 elector들의 이해관계는 으레 [GetUniqueInternationalOrganization('hre').GetLeaderTitle]가 원하는 바와 충돌하기 마련이지만, 이들도 [GetUniqueInternationalOrganization('hre').GetLeaderTitle]가 힘이 없으면 제국을 지킬 수 없다는 점만은 인정합니다."
   },
   "civil_registration": {
     "name": "호구 조사",
@@ -461,15 +461,15 @@
   },
   "tax_base_system": {
     "name": "과세 자산 제도",
-    "desc": "세금은 모든 국가 경제의 근간입니다. 전역에 적절한 조세 제도를 확립함으로써 우리 영토에서 비롯되는 부를 더욱 효과적으로 거두어들일 수 있습니다."
+    "desc": "세금은 모든 국가 경제의 근간입니다. [GetUniqueInternationalOrganization('middle kingdom').GetName] 전역에 적절한 조세 제도를 확립함으로써 우리 영토에서 비롯되는 부를 더욱 효과적으로 거두어들일 수 있습니다."
   },
   "provincial_governorship": {
     "name": "지방관직",
-    "desc": "의 영토는 이루 말할 수 없이 광대합니다. 따라서 이 넓은 땅을 효과적으로 통치할 수 있는 지방 행정관 체계를 수립해야 합니다."
+    "desc": "[GetUniqueInternationalOrganization('middle kingdom').GetName]의 영토는 이루 말할 수 없이 광대합니다. 따라서 이 넓은 땅을 효과적으로 통치할 수 있는 지방 행정관 체계를 수립해야 합니다."
   },
   "cefeng_tizhi": {
     "name": "책봉 체제",
-    "desc": "이 탄생했을 때부터 존재했던 조공 제도입니다. 이를 통해 주변국들은 의 권위를 충실히 인정합니다."
+    "desc": "[GetUniqueInternationalOrganization('middle kingdom').GetName]이 탄생했을 때부터 존재했던 조공 제도입니다. 이를 통해 주변국들은 [GetUniqueInternationalOrganization('middle kingdom').GetLeaderTitle]의 권위를 충실히 인정합니다."
   },
   "keju_examination": {
     "name": "과거 시험",
@@ -477,7 +477,7 @@
   },
   "outwards_view": {
     "name": "외부 주시",
-    "desc": "은 건립 이래 외부로 세력을 확장해 왔습니다. 하지만 외부의 위협을 마주하게 된 현재, 누가 국경을 넘나들 수 있게 할 것인지 다소 경계할 필요가 있습니다."
+    "desc": "[GetUniqueInternationalOrganization('middle kingdom').GetName]은 건립 이래 외부로 세력을 확장해 왔습니다. 하지만 외부의 위협을 마주하게 된 현재, 누가 국경을 넘나들 수 있게 할 것인지 다소 경계할 필요가 있습니다."
   },
   "tianxia": {
     "name": "천하",
@@ -485,15 +485,15 @@
   },
   "jakun_gusa": {
     "name": "팔기제",
-    "desc": "팔기제는 주로 군사적 용도로 사용되지만, 내 사회 조직의 근간을 이루는 제도이기도 합니다. 이들의 역할을 명확히 정의하여 길을 잃지 않도록 해야 합니다."
+    "desc": "팔기제는 주로 군사적 용도로 사용되지만, [GetUniqueInternationalOrganization('middle kingdom').GetName] 내 사회 조직의 근간을 이루는 제도이기도 합니다. 이들의 역할을 명확히 정의하여 길을 잃지 않도록 해야 합니다."
   },
   "six_ministries": {
     "name": "육부",
-    "desc": "$six_ministries$는 의 고유한 행정 부서로, 각각 고유한 업무와 책무를 담당합니다."
+    "desc": "육부는 [GetUniqueInternationalOrganization('middle kingdom').GetName]의 고유한 행정 부서로, 각각 고유한 업무와 책무를 담당합니다."
   },
   "middle_kingdom_decrees": {
-    "name": "$middle_kingdom$",
-    "desc": "제국 칙령은 의 원활한 운영을 책임지는 핵심 요소로, 의 통치가 국가 전반에 걸쳐 집행되도록 합니다."
+    "name": "middle kingdom",
+    "desc": "제국 칙령은 [GetUniqueInternationalOrganization('middle kingdom').GetName]의 원활한 운영을 책임지는 핵심 요소로, [GetUniqueInternationalOrganization('middle kingdom').GetLeaderTitle]의 통치가 국가 전반에 걸쳐 집행되도록 합니다."
   },
   "clan_residence": {
     "name": "씨족 거처",
@@ -501,7 +501,7 @@
   },
   "jap_sakoku_law": {
     "name": "대외 교류",
-    "desc": "바다의 존재 덕분에, $japan_region$은 언제나 다른 국가들과 분리되어 있다는 이점을 누려 왔습니다. 그 말인즉슨 국경을 닫고 외부 세계와 단절되는 것이 아주 쉽다는 것입니다."
+    "desc": "바다의 존재 덕분에, japan region은 언제나 다른 국가들과 분리되어 있다는 이점을 누려 왔습니다. 그 말인즉슨 국경을 닫고 외부 세계와 단절되는 것이 아주 쉽다는 것입니다."
   },
   "jap_buke_shohatto": {
     "name": "무가제법도",
@@ -509,87 +509,87 @@
   },
   "sc_policy_proposal_frequency": {
     "name": "정책 제안 주기",
-    "desc": "내 법률 및 정책안의 처리를 규율하는 준칙입니다."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName] 내 법률 및 정책안의 처리를 규율하는 준칙입니다."
   },
   "sc_representative": {
-    "name": "[ShowCultureGroupNameWithNoTooltip('swiss_group')] 대표",
-    "desc": "모든 조직에는 조직 내외부의 정치체를 상대할 대변인, 다시 말해 대표가 필요합니다. 하지만 만큼은 이러한 원칙의 예외가 될 수 있을지도 모릅니다..."
+    "name": "swiss group 대표",
+    "desc": "모든 조직에는 조직 내외부의 정치체를 상대할 대변인, 다시 말해 대표가 필요합니다. 하지만 [GetInternationalOrganizationType('swiss confederation').GetName]만큼은 이러한 원칙의 예외가 될 수 있을지도 모릅니다..."
   },
   "sc_power_of_the_sovereign": {
-    "name": "[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle]의 권한",
+    "name": "[GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle]의 권한",
     "desc": "연방의 대표는 대외적인 입지를 강화하기 위해 연방 내에서의 권한과 영향력을 확대해 달라고 요청할 수 있습니다."
   },
   "sc_election_method": {
     "name": "선거 방법",
-    "desc": "선출 절차는 에서 매우 민감한 사안이기에 입법부의 엄중한 관리를 요구합니다."
+    "desc": "[GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle] 선출 절차는 [GetInternationalOrganizationType('swiss confederation').GetName]에서 매우 민감한 사안이기에 입법부의 엄중한 관리를 요구합니다."
   },
   "sc_ruling_period": {
     "name": "통치 기간",
-    "desc": "스위스 연방은 연방의 대표로 (을)를 둘 수 있습니다. 하지만 그 (이)가 평생에 걸쳐 연방을 섬기게 할지, 아니면 특정 임기 동안만 그 역할을 다하게 할지는 아직 정해지지 않았습니다."
+    "desc": "스위스 연방은 연방의 대표로 [GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle](을)를 둘 수 있습니다. 하지만 그 [GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle](이)가 평생에 걸쳐 연방을 섬기게 할지, 아니면 특정 임기 동안만 그 역할을 다하게 할지는 아직 정해지지 않았습니다."
   },
   "sc_election_frequency": {
     "name": "선거 주기",
-    "desc": "문제는 해결했지만, 아직 결정해야 할 사안이 남아 있습니다. 새로운 (을)를 선출하는 선거를 몇 년 주기로 열어야 할까요?"
+    "desc": "sc ruling period 문제는 해결했지만, 아직 결정해야 할 사안이 남아 있습니다. 새로운 [GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle](을)를 선출하는 선거를 몇 년 주기로 열어야 할까요?"
   },
   "sc_internal_politics": {
     "name": "내부 정치",
-    "desc": "의 주목적은 외부로부터 내부를 보호하는 것이지만, 그렇다고 연방의 내부 사정을 살피는 것을 게을리해서는 안 됩니다."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName]의 주목적은 외부로부터 내부를 보호하는 것이지만, 그렇다고 연방의 내부 사정을 살피는 것을 게을리해서는 안 됩니다."
   },
   "sc_membership_regulation": {
     "name": "가입 자격 규정",
-    "desc": "은 본래 점차 영향력을 확대해 가는 에 맞서 인들을 지키기 위해 창설한 조직체입니다. 하지만 가입 자격이 명확하게 규정된 적은 지금껏 한 번도 없었습니다..."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName]은 본래 점차 영향력을 확대해 가는 [GetDynasty('habsburg dynasty').GetName]에 맞서 swiss group인들을 지키기 위해 창설한 조직체입니다. 하지만 가입 자격이 명확하게 규정된 적은 지금껏 한 번도 없었습니다..."
   },
   "sc_war_politics": {
     "name": "전시 정치",
-    "desc": "은 외부의 여러 위협에 직면해 있습니다. 연방을 둘러싼 정치적 혼란 속에서 구성국의 안전을 보장하려면, 국가가 서로를 방어하는 방식을 통일해야 합니다."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName]은 외부의 여러 위협에 직면해 있습니다. 연방을 둘러싼 정치적 혼란 속에서 구성국의 안전을 보장하려면, swiss group 국가가 서로를 방어하는 방식을 통일해야 합니다."
   },
   "sc_religious_affairs": {
     "name": "종교 문제",
-    "desc": "이 발발되며 연방의 종교적 합일이 위기에 처했습니다. 어서 해결책을 찾지 않으면 종교적 갈등으로 인해 연방 자체가 와해될지도 모릅니다."
+    "desc": "reformation이 발발되며 연방의 종교적 합일이 위기에 처했습니다. 어서 해결책을 찾지 않으면 종교적 갈등으로 인해 연방 자체가 와해될지도 모릅니다."
   },
   "sc_relations_with_hre": {
     "name": "제국과의 관계",
-    "desc": "은 처음 창립되었을 때부터 의 일부였습니다. 그러나 이 촉발되면서 많은 연방 구성국의 심기가 불편해지고 만 듯합니다..."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName]은 처음 창립되었을 때부터 [GetUniqueInternationalOrganization('hre').GetName]의 일부였습니다. 그러나 reformation이 촉발되면서 많은 연방 구성국의 심기가 불편해지고 만 듯합니다..."
   },
   "sc_unification": {
-    "name": "$SWI_ADJ$ 통일",
-    "desc": "땅은 너무나도 오랫동안 분열되어 있었습니다. 알프스의 주민들이 번영과 안정을 누리기 위해서는 온 영토가 단일한 기치 아래 하나가 되어야 합니다."
+    "name": "스위스 통일",
+    "desc": "swiss group 땅은 너무나도 오랫동안 분열되어 있었습니다. 알프스의 주민들이 번영과 안정을 누리기 위해서는 온 영토가 단일한 기치 아래 하나가 되어야 합니다."
   },
   "lordship_of_ireland_rule_law": {
     "name": "아일랜드 통치",
     "desc": "아일랜드의 통치 형태는 험준한 절벽에 부딪히는 파도처럼 거칠 수도 있고, 늪처럼 굳건할 수도 있습니다."
   },
   "colonial_federation_unification": {
-    "name": "$colonial_federation$ 통일",
+    "name": "colonial federation 통일",
     "desc": "이제 독립 투쟁의 불꽃 속에서 다져진 연대를 바탕으로, 느슨하게 연결된 우리 구성국들의 영토를 하나로 통합할 때가 되었습니다."
   },
   "union_foundation_law": {
     "name": "연합의 토대",
-    "desc": "의 본질을 결정하고, 향후 중앙 집권 체제와 연방 체제 어느 방향으로 나아갈지, 결국 세월이 흘러도 존속할 수 있을지를 판가름하는 연합의 법률입니다."
+    "desc": "[GetInternationalOrganizationType('union').GetName]의 본질을 결정하고, 향후 중앙 집권 체제와 연방 체제 어느 방향으로 나아갈지, 결국 세월이 흘러도 존속할 수 있을지를 판가름하는 연합의 법률입니다."
   },
   "union_codified_inheritance_law": {
     "name": "계승 법제화",
-    "desc": "의 안정을 확보하기 위해 상속법을 제정해, 모든 구성국에서 동일한 방식으로 승계가 이루어지도록 합니다."
+    "desc": "[GetInternationalOrganizationType('union').GetName]의 안정을 확보하기 위해 상속법을 제정해, 모든 구성국에서 동일한 방식으로 승계가 이루어지도록 합니다."
   },
   "union_economic_law": {
     "name": "연합의 경제",
-    "desc": "한 군주가 여러 나라를 통치하더라도 구성국들은 경제적으로 매우 단절되어 있습니다. 이 법을 통해 모든 구성국이 서로 더 가까워질 수 있을 것입니다."
+    "desc": "한 군주가 여러 나라를 통치하더라도 [GetInternationalOrganizationType('union').GetName] 구성국들은 경제적으로 매우 단절되어 있습니다. 이 법을 통해 모든 구성국이 서로 더 가까워질 수 있을 것입니다."
   },
   "union_diplomatic_law": {
     "name": "외교적 자유",
-    "desc": "이 단일 통치자의 주도로 운영되는 만큼, $union$의 외교를 어떤 방식으로 처리해야 할지가 문제로 떠오릅니다.\\n\\n#Y 하지만 전쟁 관련 사안은 여전히 동군연합 제휴국의 계층이 주관합니다."
+    "desc": "[GetInternationalOrganizationType('union').GetName]이 단일 통치자의 주도로 운영되는 만큼, union의 외교를 어떤 방식으로 처리해야 할지가 문제로 떠오릅니다. 하지만 전쟁 관련 사안은 여전히 동군연합 제휴국의 계층이 주관합니다."
   },
   "union_legislature_law": {
     "name": "연합의 법제",
-    "desc": "을 운영하려면 일관된 체계가 필요합니다. $union$의 안정을 유지하려면 입증된 단일 입법 체계는 필수라고 할 수 있습니다."
+    "desc": "[GetInternationalOrganizationType('union').GetName]을 운영하려면 일관된 체계가 필요합니다. union의 안정을 유지하려면 입증된 단일 입법 체계는 필수라고 할 수 있습니다."
   },
   "union_unification_of_crowns_law": {
     "name": "통일 문제",
-    "desc": "은 그 형태가 어떻든 간에 같은 군주가 통치하는 서로 다른 나라들의 느슨한 연맹에 불과합니다. 하지만 을 중심으로 통일되는 것이 아예 불가능하지는 않습니다..."
+    "desc": "[GetInternationalOrganizationType('union').GetName]은 그 형태가 어떻든 간에 같은 군주가 통치하는 서로 다른 나라들의 느슨한 연맹에 불과합니다. 하지만 senior partner을 중심으로 통일되는 것이 아예 불가능하지는 않습니다..."
   },
   "union_mutual_offense_law": {
     "name": "상호 공격 체계",
-    "desc": "이 은 일차적으로 방위 동맹이지만, 구성국은 원정에 나설 때 다른 구성국에 지원을 요청할 수 있습니다. 다만, 그 요청에 응할지는 각 구성국에 달려 있습니다."
+    "desc": "이 [GetInternationalOrganizationType('union').GetName]은 일차적으로 방위 동맹이지만, 구성국은 원정에 나설 때 다른 구성국에 지원을 요청할 수 있습니다. 다만, 그 요청에 응할지는 각 구성국에 달려 있습니다."
   },
   "colonial_representation_law": {
     "name": "식민지 대표",
@@ -609,58 +609,58 @@
   },
   "vajrayana_law": {
     "name": "탄트라 불교",
-    "desc": "금강승 $buddhist$ 또는 밀교라고도 불리는 탄트라 $buddhist$는 $buddhist$가 다른 종교의 영향을 받은 끝에 탄생한 종교입니다. 특히 $hindu$의 영향을 크게 받아, 탄트라 수행법을 포함한 비밀스럽고 주술적인 습속과 결합을 이루었습니다."
+    "desc": "금강승 buddhist 또는 밀교라고도 불리는 탄트라 buddhist는 buddhist가 다른 종교의 영향을 받은 끝에 탄생한 종교입니다. 특히 hindu의 영향을 크게 받아, 탄트라 수행법을 포함한 비밀스럽고 주술적인 습속과 결합을 이루었습니다."
   },
   "sect_school_law": {
     "name": "종파별 학파",
     "desc": "종파에 속한 개별 학파로, 주류의 가르침에서 일부 벗어나는 부분이 있을 수 있습니다."
   },
   "guru_nanak_guruship": {
-    "name": "[GetCharacter('guru_nanak').GetShortNameWithNoTooltip]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "[GetCharacter('guru nanak').GetShortNameWithNoTooltip]의 가르침",
+    "desc": "[GetCharacter('guru nanak').GetName]에 의해 정립된 가르침입니다."
   },
   "guru_angad_guruship": {
-    "name": "[GetCharacter('guru_angad').GetShortNameWithNoTooltip]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "[GetCharacter('guru angad').GetShortNameWithNoTooltip]의 가르침",
+    "desc": "[GetCharacter('guru angad').GetName]에 의해 정립된 가르침입니다."
   },
   "guru_amar_das_guruship": {
-    "name": "[GetCharacter('guru_amar_das').GetShortNameWithNoTooltip]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "[GetCharacter('guru amar das').GetShortNameWithNoTooltip]의 가르침",
+    "desc": "[GetCharacter('guru amar das').GetName]에 의해 정립된 가르침입니다."
   },
   "guru_ram_das_guruship": {
-    "name": "[GetCharacter('guru_ram_das').GetShortNameWithNoTooltip]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "[GetCharacter('guru ram das').GetShortNameWithNoTooltip]의 가르침",
+    "desc": "[GetCharacter('guru ram das').GetName]에 의해 정립된 가르침입니다."
   },
   "guru_arjan_guruship": {
-    "name": "[GetCharacter('guru_arjan').GetShortNameWithNoTooltip]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "[GetCharacter('guru arjan').GetShortNameWithNoTooltip]의 가르침",
+    "desc": "[GetCharacter('guru arjan').GetName]에 의해 정립된 가르침입니다."
   },
   "guru_hargobind_guruship": {
-    "name": "[GetCharacter('guru_hargobind').GetShortNameWithNoTooltip]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "[GetCharacter('guru hargobind').GetShortNameWithNoTooltip]의 가르침",
+    "desc": "[GetCharacter('guru hargobind').GetName]에 의해 정립된 가르침입니다."
   },
   "guru_har_rai_guruship": {
-    "name": "[GetCharacter('guru_har_rai').GetShortNameWithNoTooltip]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "[GetCharacter('guru har rai').GetShortNameWithNoTooltip]의 가르침",
+    "desc": "[GetCharacter('guru har rai').GetName]에 의해 정립된 가르침입니다."
   },
   "guru_har_krishan_guruship": {
-    "name": "[GetCharacter('guru_har_krishan').GetShortNameWithNoTooltip]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "[GetCharacter('guru har krishan').GetShortNameWithNoTooltip]의 가르침",
+    "desc": "[GetCharacter('guru har krishan').GetName]에 의해 정립된 가르침입니다."
   },
   "guru_tegh_bahadur_guruship": {
-    "name": "[GetCharacter('guru_tegh_bahadur').GetShortNameWithNoTooltip]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "[GetCharacter('guru tegh bahadur').GetShortNameWithNoTooltip]의 가르침",
+    "desc": "[GetCharacter('guru tegh bahadur').GetName]에 의해 정립된 가르침입니다."
   },
   "guru_gobind_singh_guruship": {
-    "name": "[GetCharacter('guru_gobind_singh').GetShortNameWithNoTooltip]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "[GetCharacter('guru gobind singh').GetShortNameWithNoTooltip]의 가르침",
+    "desc": "[GetCharacter('guru gobind singh').GetName]에 의해 정립된 가르침입니다."
   },
   "khalsa_law": {
     "name": "할사",
-    "desc": "와 그 신도들을 수호하는 임무를 맡은 전사 공동체로, 할사의 행동 강령과 입단 규칙은 모든 신도의 모범이 됩니다."
+    "desc": "sikhism와 그 신도들을 수호하는 임무를 맡은 전사 공동체로, 할사의 행동 강령과 입단 규칙은 모든 신도의 모범이 됩니다."
   },
   "guru_granth_sahib_guruship": {
-    "name": "[ShowWorkOfArtNameWithNoTooltip('guru_granth_sahib')]의 가르침",
-    "desc": "에 의해 정립된 가르침입니다."
+    "name": "guru granth sahib의 가르침",
+    "desc": "guru granth sahib에 의해 정립된 가르침입니다."
   }
 }

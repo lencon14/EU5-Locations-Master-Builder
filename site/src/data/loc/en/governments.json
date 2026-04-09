@@ -1,22 +1,38 @@
 {
   "monarchy": {
     "name": "Monarchy",
-    "desc": "A $monarchy$ is a government_type based upon the principle of undivided personal sovereignty, where the ruler is the first among the elites. The heir is normally determined by the dynasty of the $game_concept_monarch$ and in most cases they rule for life.\\n\\n$game_concept_monarchs$ can use royal_marriages to secure alliances, and can even inherit foreign countries through personal_unions. However, succession is often a troublesome matter, and Monarchies may easily fall into regencies or under the influence of foreign $game_concept_dynasties$."
+    "desc": "A Monarchy is a Government Type based upon the principle of undivided personal sovereignty, where the Ruler is the first among the elites. The Heir is normally determined by the Dynasty of the Monarch and in most cases they rule for life. Monarchs can use Royal Marriages to secure Alliances, and can even inherit foreign Countries through Personal Unions. However, succession is often a troublesome matter, and Monarchies may easily fall into Regencies or under the influence of foreign Dynasties."
   },
   "republic": {
     "name": "Republic",
-    "desc": "A $republic$ is a government_type where the rulers are chosen by election to serve as the representants of the citizen body for a set period of time. Depending on the heir_selection the $game_concept_ruler$ may belong to any of the estates.\\n\\nThe strength of the political institutions makes Republics more resilient to inheritance issues, but the less personal nature of rule limits the diplomatic tools at their disposal. As such, dynasties play a lesser role and Republics cannot benefit from royal_marriages."
+    "desc": "A Republic is a Government Type where the Rulers are chosen by Election to serve as the representants of the citizen body for a set period of time. Depending on the Succession Law the Ruler may belong to any of the Estates. The strength of the political institutions makes Republics more resilient to inheritance issues, but the less personal nature of rule limits the diplomatic tools at their disposal. As such, Dynasties play a lesser role and Republics cannot benefit from Royal Marriages."
   },
   "theocracy": {
     "name": "Theocracy",
-    "desc": "A $theocracy$ is a government_type based on the principle of divine sovereignty, where the ruler is issued from the servants of the faith and secular matters are subordinated to religious authority.\\n\\n$game_concept_rulers$ are usually chosen to rule for life by some form of election, which allows for a less disruptive transfer of power."
+    "desc": "A Theocracy is a Government Type based on the principle of divine sovereignty, where the Ruler is issued from the servants of the faith and secular matters are subordinated to religious authority. Rulers are usually chosen to rule for life by some form of Election, which allows for a less disruptive transfer of power."
   },
   "steppe_horde": {
     "name": "Steppe Horde",
-    "desc": "A $steppe_horde$ is a government_type based upon on military power of its ruler. Relatives of the current $game_concept_ruler$ have a higher chance to become the heir, but seniority and personal abilities are also highly regarded.\\n\\n$game_concept_rulers$ are issued from the elite members of the society and will only keep the loyalty of their peers as long as they prove themselves capable of subjugating, razing, and plundering neighboring countries. Because of that, succession is a momentous event for a $steppe_horde$, and might even lead to collapse if the new $game_concept_ruler$ fails to demonstrate its might."
+    "desc": "A Steppe Horde is a Government Type based upon on military power of its Ruler. Relatives of the current Ruler have a higher chance to become the Heir, but seniority and personal Abilities are also highly regarded. Rulers are issued from the elite members of the society and will only keep the loyalty of their peers as long as they prove themselves capable of subjugating, razing, and plundering neighboring Countries. Because of that, succession is a momentous event for a Steppe Horde, and might even lead to collapse if the new Ruler fails to demonstrate its might."
   },
   "tribe": {
     "name": "Tribe",
-    "desc": "A $tribe$ is a government_type where the political power is structured first and foremost around the concept of kinship, be it by direct blood or perceived ancestry.\\n\\ndynasties and family ties are therefore of prime importance when determining the heir, who will always belong to the elite members of society, but very frequently seniority, personal abilities, and military prowess are also highly regarded."
+    "desc": "A Tribe is a Government Type where the political power is structured first and foremost around the concept of kinship, be it by direct blood or perceived ancestry. Dynasties and family ties are therefore of prime importance when determining the Heir, who will always belong to the elite members of society, but very frequently seniority, personal Abilities, and military prowess are also highly regarded."
+  },
+  "_modifier_names": {
+    "amount_looted_modifier": "Amount Looted",
+    "care_about_producing_heirs": "Royal Marriages",
+    "combined_arms_max_threshold": "Combined Arms Threshold",
+    "combined_bonus_per_type": "Combined Arms Bonus",
+    "court_language_is_common_language_importance_modifier": "Prefers Court Language to be Common Language",
+    "court_language_is_liturgical_language_importance_modifier": "Prefers Court Language to be Liturgical Language",
+    "court_language_is_market_language_importance_modifier": "Prefers Court Language to be Market Language",
+    "diplomatic_upkeep_modifier": "Diplomatic Upkeep Modifier",
+    "force_convert_created_subjects": "Force Convert Subjects on Creation",
+    "global_nobles_food_consumption": "Nobles Food Consumption",
+    "global_war_score_cost": "War Score Cost",
+    "horde_unity_hit_at_ruler_death": "Horde Unity Change on Ruler Death",
+    "rural_settlement_downgrade_cost_modifier": "Downgrading to Rural Settlement Cost",
+    "war_no_cb_cost_modifier": "War with No Casus Belli Cost"
   }
 }

@@ -130,6 +130,13 @@ export interface AspectItem {
   source_file: string;
 }
 
+export interface GovernmentItem {
+  id: string;
+  modifier?: Record<string, number | boolean>;
+  icon: string;
+  source_file: string;
+}
+
 export interface CountryItem {
   tag: string;
   file_region: string;

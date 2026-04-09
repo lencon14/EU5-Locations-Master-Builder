@@ -21,7 +21,7 @@ const coreModules = import.meta.glob<unknown[]>(
 // game_terms.json is excluded here — it has a different shape (flat key-value)
 // and is loaded separately via termModules. Do NOT pass 'game_terms' to loadLoc().
 const locModules = import.meta.glob<Record<string, { name: string; desc?: string }>>(
-  ['../data/loc/*/*.json', '!../data/loc/*/game_terms.json', '!../data/loc/*/buildings.json', '!../data/loc/*/religions.json', '!../data/loc/*/holy_sites.json', '!../data/loc/*/aspects.json', '!../data/loc/*/countries.json'],
+  ['../data/loc/*/*.json', '!../data/loc/*/game_terms.json', '!../data/loc/*/buildings.json', '!../data/loc/*/religions.json', '!../data/loc/*/holy_sites.json', '!../data/loc/*/aspects.json', '!../data/loc/*/countries.json', '!../data/loc/*/governments.json'],
   { eager: true, import: 'default' },
 );
 
@@ -536,5 +536,64 @@ export function loadCapitalNames(lang: Lang): ModNameMap {
   const fallback = (ctyRawModules[`../data/loc/${DEFAULT_LANG}/countries.json`] as Record<string, unknown> | undefined)?.["_capital_names"] as ModNameMap | undefined;
   const result = { ...fallback, ...primary };
   _ctyCapitalCache.set(lang, result);
+  return result;
+}
+
+// -- Governments loc (excluded from locModules due to _modifier_names) --
+const govRawModules = import.meta.glob<Record<string, unknown>>(
+  '../data/loc/*/governments.json',
+  { eager: true, import: 'default' },
+);
+
+const _govLocCache = new Map<string, LocMap>();
+
+/** Load governments loc, with English fallback. */
+export function loadGovernmentLoc(lang: Lang): LocMap {
+  const cached = _govLocCache.get(lang);
+  if (cached) return cached;
+
+  const raw = govRawModules[`../data/loc/${lang}/governments.json`] as Record<string, unknown> | undefined;
+  const rawEn = govRawModules[`../data/loc/${DEFAULT_LANG}/governments.json`] as Record<string, unknown> | undefined;
+
+  const toLocMap = (r: Record<string, unknown> | undefined): LocMap => {
+    if (!r) return {};
+    const map: LocMap = {};
+    for (const [k, v] of Object.entries(r)) {
+      if (k.startsWith('_') || typeof v !== 'object' || v === null) continue;
+      const entry = v as { name?: string; desc?: string };
+      if (entry.name != null) map[k] = { name: entry.name, desc: entry.desc };
+    }
+    return map;
+  };
+
+  const primary = toLocMap(raw);
+  if (lang === DEFAULT_LANG) {
+    _govLocCache.set(lang, primary);
+    return primary;
+  }
+  const fallback = toLocMap(rawEn);
+  const merged: LocMap = {};
+  for (const id of Object.keys(fallback)) {
+    const p = primary[id];
+    const f = fallback[id];
+    merged[id] = { name: p?.name ?? f?.name ?? id, desc: p?.desc ?? f?.desc };
+  }
+  for (const id of Object.keys(primary)) {
+    if (!(id in merged)) merged[id] = primary[id];
+  }
+  _govLocCache.set(lang, merged);
+  return merged;
+}
+
+/** Load government modifier display names, with English fallback. */
+const _govModCache = new Map<string, ModNameMap>();
+export function loadGovernmentModNames(lang: Lang): ModNameMap {
+  const cached = _govModCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (govRawModules[`../data/loc/${lang}/governments.json`] as Record<string, unknown> | undefined)?.["_modifier_names"] as ModNameMap | undefined;
+  const fallback = (govRawModules[`../data/loc/${DEFAULT_LANG}/governments.json`] as Record<string, unknown> | undefined)?.["_modifier_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _govModCache.set(lang, result);
   return result;
 }

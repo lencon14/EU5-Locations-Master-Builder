@@ -1,22 +1,38 @@
 {
   "monarchy": {
     "name": "君主制",
-    "desc": "$monarchy$は、分割不能な個人主権の原則に基づくgovernment_typeであり、rulerは上流階級のなかで最も高い地位にある。heirは通常、$game_concept_monarch$のdynastyによって決定され、ほとんどの場合で終身統治をおこなう。\\n\\n$game_concept_monarchs$は、royal_marriagesを利用してalliancesを形成できる。また、personal_unionsを通じて他国を継承することもできる。しかし、継承はしばしば厄介な問題であり、君主国は容易にregenciesに陥ったり、他国の$game_concept_dynasties$の影響下に置かれたりする可能性がある。"
+    "desc": "君主制は、分割不能な個人主権の原則に基づく政体であり、統治者は上流階級のなかで最も高い地位にある。後継者は通常、君主の王朝によって決定され、ほとんどの場合で終身統治をおこなう。 君主は、王室間の婚姻を利用して同盟を形成できる。また、同君連合を通じて他国を継承することもできる。しかし、継承はしばしば厄介な問題であり、君主国は容易に摂政政治に陥ったり、他国の王朝の影響下に置かれたりする可能性がある。"
   },
   "republic": {
     "name": "共和国",
-    "desc": "$republic$はgovernment_typeであり、rulersがelectionによって選ばれ、一定期間市民の代表を務める。heir_selectionに応じて、$game_concept_ruler$はestatesのいずれかに属する可能性がある。\\n\\n政治制度が強固なため、共和国は相続問題に対する対応力が高いが、個人による統治ではないため、自由に使える外交手段が制限される。そのため、dynastiesの役割は小さくなり、共和国はroyal_marriagesから恩恵を受けることができない。"
+    "desc": "共和国は政体であり、統治者が選挙によって選ばれ、一定期間市民の代表を務める。後継者選びに応じて、統治者は階級のいずれかに属する可能性がある。 政治制度が強固なため、共和国は相続問題に対する対応力が高いが、個人による統治ではないため、自由に使える外交手段が制限される。そのため、王朝の役割は小さくなり、共和国は王室間の婚姻から恩恵を受けることができない。"
   },
   "theocracy": {
     "name": "神権制",
-    "desc": "$theocracy$は神の主権の原則に基づくgovernment_typeであり、rulerは聖職者たちから選ばれ、世俗的な事項は宗教的権威に従属する。\\n\\n$game_concept_rulers$は通常、なんらかの形式のelectionによって選ばれ、生涯にわたり統治するため、混乱の少ない権力移譲が可能となる。"
+    "desc": "神権制は神の主権の原則に基づく政体であり、統治者は聖職者たちから選ばれ、世俗的な事項は宗教的権威に従属する。 統治者は通常、なんらかの形式の選挙によって選ばれ、生涯にわたり統治するため、混乱の少ない権力移譲が可能となる。"
   },
   "steppe_horde": {
     "name": "ステップ遊牧民",
-    "desc": "$steppe_horde$は、rulerの軍事力に基づくgovernment_typeである。現在の$game_concept_ruler$の親族はheirになる可能性が高くなるが、年功序列と個人のabilitiesも非常に重視される。\\n\\n$game_concept_rulers$は社会の上流階級出身である。そして、近隣諸国を征服、破壊、略奪する能力があることを証明できるかぎり、仲間の忠誠を保つことができる。そのため、継承は$steppe_horde$にとって重大な出来事であり、新たな$game_concept_ruler$がその力を発揮できなければ崩壊につながる可能性さえある。"
+    "desc": "ステップ遊牧民は、統治者の軍事力に基づく政体である。現在の統治者の親族は後継者になる可能性が高くなるが、年功序列と個人の能力も非常に重視される。 統治者は社会の上流階級出身である。そして、近隣諸国を征服、破壊、略奪する能力があることを証明できるかぎり、仲間の忠誠を保つことができる。そのため、継承はステップ遊牧民にとって重大な出来事であり、新たな統治者がその力を発揮できなければ崩壊につながる可能性さえある。"
   },
   "tribe": {
     "name": "部族",
-    "desc": "$tribe$は、直系の血筋や祖先からの血縁関係を中心に政治権力が構築されるgovernment_typeである。\\n\\nしたがって、heirを決定する際はdynastiesや一族とのつながりが最も重要である。後継者はつねに社会の上層に属することになるが、年功序列、個人のabilities、軍事的才能もしばしば重視される。"
+    "desc": "部族は、直系の血筋や祖先からの血縁関係を中心に政治権力が構築される政体である。 したがって、後継者を決定する際は王朝や一族とのつながりが最も重要である。後継者はつねに社会の上層に属することになるが、年功序列、個人の能力、軍事的才能もしばしば重視される。"
+  },
+  "_modifier_names": {
+    "amount_looted_modifier": "略奪額",
+    "care_about_producing_heirs": "王室間の婚姻",
+    "combined_arms_max_threshold": "統合軍備しきい値",
+    "combined_bonus_per_type": "統合軍備ボーナス",
+    "court_language_is_common_language_importance_modifier": "宮廷言語と共通言語の一致を好む",
+    "court_language_is_liturgical_language_importance_modifier": "宮廷言語と典礼言語の一致を好む",
+    "court_language_is_market_language_importance_modifier": "宮廷言語と市場言語の一致を好む",
+    "diplomatic_upkeep_modifier": "外交維持費補正",
+    "force_convert_created_subjects": "創設時に従属国に改宗を強制",
+    "global_nobles_food_consumption": "貴族の食糧消費量",
+    "global_war_score_cost": "戦勝点コスト",
+    "horde_unity_hit_at_ruler_death": "統治者死亡時の遊牧民の結束の変化",
+    "rural_settlement_downgrade_cost_modifier": "田園集落への格下げコスト",
+    "war_no_cb_cost_modifier": "開戦事由なしの戦争コスト"
   }
 }

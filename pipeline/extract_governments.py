@@ -12,6 +12,7 @@ Output:
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 from paradox_parser import parse_file
@@ -39,6 +40,55 @@ def load_all_loc(*loc_names: str) -> dict[str, dict[str, str]]:
     return result
 
 
+def resolve_dollar_refs(text: str, *loc_dicts: dict[str, str]) -> str:
+    """Resolve $key$ references to localized display names.
+
+    Looks up each $key$ in the provided loc dicts (in order).
+    Unresolved refs are left as-is for strip_markup to handle.
+    """
+    def _replace(m: re.Match) -> str:
+        key = m.group(1)
+        for loc in loc_dicts:
+            if key in loc:
+                return loc[key]
+        return m.group(0)  # leave unresolved
+    return re.sub(r"\$(\w+)\$", _replace, text)
+
+
+def resolve_bracket_refs(text: str, concept_loc: dict[str, str]) -> str:
+    """Resolve [key|e] and [key] bracket refs to localized display names.
+
+    Paradox uses [word|e/el/l] for game concept references that the engine
+    resolves at runtime. We look up 'game_concept_{key}' in the loc data.
+    Unresolved refs are left for strip_markup to handle.
+    """
+    def _replace(m: re.Match) -> str:
+        key = m.group(1)
+        resolved = concept_loc.get(f"game_concept_{key}") or concept_loc.get(key)
+        if resolved:
+            return resolved
+        return m.group(0)  # leave unresolved
+    # [word|e], [word|el], [word|l], [word] — but NOT [Concept(...)] or [SCOPE.func()]
+    text = re.sub(r"\[(\w+)\|\w+\]", _replace, text)
+    text = re.sub(r"\[(\w+)\](?!\()", _replace, text)
+    return text
+
+
+def resolve_all_refs(text: str, concept_loc: dict[str, str], *extra_locs: dict[str, str]) -> str:
+    """Resolve all $ref$, [ref], and [Localize('ref')] markup before strip_markup."""
+    text = resolve_dollar_refs(text, concept_loc, *extra_locs)
+    text = resolve_bracket_refs(text, concept_loc)
+    # [Localize('key')] → look up key in concept_loc + extra_locs
+    def _resolve_localize(m: re.Match) -> str:
+        key = m.group(1)
+        for loc in (concept_loc, *extra_locs):
+            if key in loc:
+                return loc[key]
+        return key.replace("_", " ")
+    text = re.sub(r"\[Localize\('([^']+)'\)\]", _resolve_localize, text)
+    return text
+
+
 def build_governments() -> tuple[list[dict], dict[str, dict]]:
     """Parse government_types. Returns (core_list, loc_per_lang)."""
     gov_dir = RAW_DIR / "government_types"
@@ -57,6 +107,8 @@ def build_governments() -> tuple[list[dict], dict[str, dict]]:
                 all_govs[key] = val
 
     all_loc = load_all_loc("government", "government_names", "government_reforms")
+    concept_loc = load_all_loc("game_concepts")
+    mod_loc = load_all_loc("modifier_types")
 
     core_list = []
     for gov_id, props in all_govs.items():
@@ -67,15 +119,33 @@ def build_governments() -> tuple[list[dict], dict[str, dict]]:
         entry["source_file"] = props.get("_source_file", "")
         core_list.append(entry)
 
+    # Collect all modifier keys across governments
+    all_mod_keys: set[str] = set()
+    for gov in core_list:
+        if gov.get("modifier"):
+            all_mod_keys.update(gov["modifier"].keys())
+
     gov_ids = [g["id"] for g in core_list]
     loc_per_lang: dict[str, dict] = {}
     for url_code, loc_data in all_loc.items():
-        lang_loc = {}
+        concepts = concept_loc.get(url_code, {})
+        mods = mod_loc.get(url_code, {})
+        lang_loc: dict[str, object] = {}
         for gov_id in gov_ids:
-            name = loc_data.get(gov_id, "")
-            desc = strip_markup(loc_data.get(f"{gov_id}_desc", ""))
+            raw_name = loc_data.get(gov_id, "")
+            name = strip_markup(resolve_all_refs(raw_name, concepts, loc_data)) if raw_name else ""
+            raw_desc = loc_data.get(f"{gov_id}_desc", "")
+            desc = strip_markup(resolve_all_refs(raw_desc, concepts, loc_data))
             if name or desc:
                 lang_loc[gov_id] = {"name": name, "desc": desc}
+        # Add modifier display names
+        mod_names: dict[str, str] = {}
+        for mk in sorted(all_mod_keys):
+            raw = mods.get(f"MODIFIER_TYPE_NAME_{mk}", "")
+            if raw:
+                mod_names[mk] = strip_markup(resolve_all_refs(raw, concepts, loc_data))
+        if mod_names:
+            lang_loc["_modifier_names"] = mod_names
         loc_per_lang[url_code] = lang_loc
 
     return core_list, loc_per_lang
@@ -98,7 +168,9 @@ def build_laws() -> tuple[list[dict], dict[str, dict]]:
                 val["_source_file"] = f.name
                 all_laws[key] = val
 
-    all_loc = load_all_loc("laws", "laws_and_policies")
+    all_loc = load_all_loc("laws", "laws_and_policies", "estate", "government",
+                            "government_names", "advances", "country_names")
+    concept_loc = load_all_loc("game_concepts")
 
     core_list = []
     for law_id, props in all_laws.items():
@@ -112,10 +184,13 @@ def build_laws() -> tuple[list[dict], dict[str, dict]]:
     law_ids = [l["id"] for l in core_list]
     loc_per_lang: dict[str, dict] = {}
     for url_code, loc_data in all_loc.items():
+        concepts = concept_loc.get(url_code, {})
         lang_loc = {}
         for law_id in law_ids:
-            name = loc_data.get(law_id, "")
-            desc = strip_markup(loc_data.get(f"{law_id}_desc", ""))
+            raw_name = loc_data.get(law_id, "")
+            name = strip_markup(resolve_all_refs(raw_name, concepts, loc_data)) if raw_name else ""
+            raw_desc = loc_data.get(f"{law_id}_desc", "")
+            desc = strip_markup(resolve_all_refs(raw_desc, concepts, loc_data))
             if name or desc:
                 lang_loc[law_id] = {"name": name, "desc": desc}
         loc_per_lang[url_code] = lang_loc

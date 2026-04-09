@@ -5,11 +5,11 @@
   },
   "medieval_levy_law": {
     "name": "Seferber Kanunu",
-    "desc": "Ordumuz, çoğunlukla ülkemizdeki belirli [Concept('estate', 'Zümrelerden')|e] toplanan seferberlerden oluşur ve biz onları terhis edene dek bizim adımıza savaşırlar."
+    "desc": "Ordumuz, çoğunlukla ülkemizdeki belirli Zümrelerden toplanan seferberlerden oluşur ve biz onları terhis edene dek bizim adımıza savaşırlar."
   },
   "royal_court_customs_law": {
     "name": "Hükümdarlık Sarayı Usulleri",
-    "desc": "Saraydaki gelenekler ve kültür, yönetiminin istikrarında önemli bir rol oynar. Bu âdetler, iktidarın hükümdardan veliahda devrinin güvenli bir biçimde gerçekleşmesini sağlar ve saraydaki entrikaları büyük ölçüde azaltır."
+    "desc": "Saraydaki gelenekler ve kültür, monarchy yönetiminin istikrarında önemli bir rol oynar. Bu âdetler, iktidarın hükümdardan veliahda devrinin güvenli bir biçimde gerçekleşmesini sağlar ve saraydaki entrikaları büyük ölçüde azaltır."
   },
   "legitimization_of_power_law": {
     "name": "Gücün Meşrulaştırılması",
@@ -21,11 +21,11 @@
   },
   "iqta_law": {
     "name": "İkta",
-    "desc": "$iqta_law$, \\\"vergi mültezimliği\\\" uygulamasıdır. devletlerin temel gelirlerini oluşturmak amacıyla zümresinden Zekâtın bir parçası olarak toplanan toprak geliridir."
+    "desc": "İkta, muslim \\\"vergi mültezimliği\\\" uygulamasıdır. muslim devletlerin temel gelirlerini oluşturmak amacıyla peasants estate zümresinden Zekâtın bir parçası olarak toplanan toprak geliridir."
   },
   "inquisition_law": {
     "name": "Engizisyon Kanunu",
-    "desc": "Engizisyon, aslen zındıklığına karşı mücadele etmek amacıyla kurulmuştur. Zaman içinde, Kilisesi’nin zındıklık araştırma ve kovuşturma süreçlerinde kullandığı yegâne araç hâline dönüşmüştür. Özel kilise mahkemeleri aracılığıyla, eğitimli engizisyon görevlileri olası zındıklıkları inceler, dinî ve ahlâkî suçları işleyenlerin itiraflarını dinler ve Katolik değerlerinin ihlali dolayısıyla kefaretten idama kadar değişen cezaları uygular."
+    "desc": "Engizisyon, aslen catharism zındıklığına karşı mücadele etmek amacıyla kurulmuştur. Zaman içinde, catholic Kilisesi’nin zındıklık araştırma ve kovuşturma süreçlerinde kullandığı yegâne araç hâline dönüşmüştür. Özel kilise mahkemeleri aracılığıyla, eğitimli engizisyon görevlileri olası zındıklıkları inceler, dinî ve ahlâkî suçları işleyenlerin itiraflarını dinler ve Katolik değerlerinin ihlali dolayısıyla kefaretten idama kadar değişen cezaları uygular."
   },
   "society_of_jesus": {
     "name": "İsa Cemiyeti",
@@ -37,7 +37,7 @@
   },
   "censorship": {
     "name": "Sansür",
-    "desc": "Hangi edebî eserlerin dağıtılabileceğini ve yerleşik dogmalarla çelişen fikirlere izin verilip verilmeyeceğini kontrol etme becerisi, dinî uyumun sağlanması açısından gereklidir ve genellikle zümresi tarafından desteklenir. Bununla birlikte, söz konusu kısıtlamalar özgür düşünceli kimseler ve yaratıcı zanaatkârlar tarafından hoş karşılanmaz. Ayrıca hem [Concept('artist', 'Sanatçıların')|e] bulunabilirliği hem de [Concept('works_of_art', 'Sanat Eserlerinin')|e] zındıkça kabul edilmesi üzerinde derin etkilere sahip olabilir."
+    "desc": "Hangi edebî eserlerin dağıtılabileceğini ve yerleşik dogmalarla çelişen fikirlere izin verilip verilmeyeceğini kontrol etme becerisi, dinî uyumun sağlanması açısından gereklidir ve genellikle clergy estate zümresi tarafından desteklenir. Bununla birlikte, söz konusu kısıtlamalar özgür düşünceli kimseler ve yaratıcı zanaatkârlar tarafından hoş karşılanmaz. Ayrıca hem Sanatçıların bulunabilirliği hem de Sanat Eserlerinin zındıkça kabul edilmesi üzerinde derin etkilere sahip olabilir."
   },
   "slave_conversion": {
     "name": "Kölelerin Din Değişimi",
@@ -133,7 +133,7 @@
   },
   "bureaucracy_law": {
     "name": "Bürokrasi",
-    "desc": "$modern_bureaucracy_desc$"
+    "desc": "Kontrolümüz altındaki toprakları ve tebaamızı en iyi şekilde değerlendirebilmek için bürokrasimizi genişletmemiz, yeniden organize etmemiz ve profesyonelleştirmemiz gerekli. Güçlü bir teşkilatlanmayla devletimizin her parçasını idare edebilir ve geçici çözüm ihtiyacını tamamen ortadan kaldırabiliriz."
   },
   "cabinet_laws": {
     "name": "Kabine Kanunları",
@@ -157,7 +157,7 @@
   },
   "heir_religion_law": {
     "name": "Veliaht Dini",
-    "desc": "[Concept('heir', 'Veliahdın')|e] dinini belirleyebilme gücü, veraset ve yönetim konularında çok önemli bir yere sahiptir. Hükümdarların ve hükûmetlerin, dinî istikrarı devam ettirerek hükümdarın inanç ve teamüllerinin, tebaasının çoğunluğuyla uyumlu olmasını sağlar. Yani veliahdın dinini belirleyebilme gücü; dinî özgürlük, yönetim ve toplumsal ahenk dengesini sağlamak adına önemli bir husustur."
+    "desc": "Veliahdın dinini belirleyebilme gücü, veraset ve yönetim konularında çok önemli bir yere sahiptir. Hükümdarların ve hükûmetlerin, dinî istikrarı devam ettirerek hükümdarın inanç ve teamüllerinin, tebaasının çoğunluğuyla uyumlu olmasını sağlar. Yani veliahdın dinini belirleyebilme gücü; dinî özgürlük, yönetim ve toplumsal ahenk dengesini sağlamak adına önemli bir husustur."
   },
   "coin_laws": {
     "name": "Para Kanunu",
@@ -165,7 +165,7 @@
   },
   "precious_metal_distribution_law": {
     "name": "Değerli Metal Dağıtımı",
-    "desc": "ve , para basmak için gereken malzemelerdir. Devletimiz, bu değerli metalleri kendisi toplayabilecek kadar kudretlidir. Dolayısıyla söz konusu kaynaklara kimlerin erişebileceğine karar vermek hakkımızdır."
+    "desc": "goods gold ve silver, para basmak için gereken malzemelerdir. Devletimiz, bu değerli metalleri kendisi toplayabilecek kadar kudretlidir. Dolayısıyla söz konusu kaynaklara kimlerin erişebileceğine karar vermek hakkımızdır."
   },
   "press_law": {
     "name": "Basın Kanunları",
@@ -181,7 +181,7 @@
   },
   "immigration_law": {
     "name": "Sınır Kontrolleri",
-    "desc": "Bu Kanun ile ülke içinden veya dışından [Concept('migration', 'Göçe')|e] izin verilip verilmeyeceği belirlenir."
+    "desc": "Bu Kanun ile ülke içinden veya dışından Göçe izin verilip verilmeyeceği belirlenir."
   },
   "legal_code_law": {
     "name": "Kanunname",
@@ -192,8 +192,8 @@
     "desc": "Sosyal hiyerarşimizden kaynaklı âdetler ve hukuki süreçler, uygun bulduğumuz dilde, anlaşılır ve düzgün bir biçimde yazıya dökülmelidir."
   },
   "sharia_law": {
-    "name": "$sharia$ Hukuku",
-    "desc": "$sharia_law_policy_desc$"
+    "name": "Şeriat Hukuku",
+    "desc": "sharia Kanunu, İslam ülkelerinde kişisel davranışlardan devlet işlerine kadar yaşamın birçok yönünü düzenleyen köklü bir hukuk sistemidir. Yüzyıllar boyunca istikrar sağlamış olsa da hem katı hem de sert cezaları nedeniyle tartışmalara ve toplumsal bölünmelere yol açabilir."
   },
   "recruitment_law": {
     "name": "Askere Alma Kanunu",
@@ -205,18 +205,18 @@
   },
   "army_doctrine_law": {
     "name": "Ordu Doktrini",
-    "desc": "Ordu doktrinleri, [Concept('army', 'Ordumuzun')|e] uzmanlaşabileceği becerileri temsil eder. Bu doktrinler kullanıldıkça, hem daha etkili hem de askerî kültürümüze daha yerleşik hâle gelirler. Zaman içinde şanlı kuvvetlerimiz için büyük faydalar sağlayabilirler."
+    "desc": "Ordu doktrinleri, Ordumuzun uzmanlaşabileceği becerileri temsil eder. Bu doktrinler kullanıldıkça, hem daha etkili hem de askerî kültürümüze daha yerleşik hâle gelirler. Zaman içinde şanlı kuvvetlerimiz için büyük faydalar sağlayabilirler."
   },
   "mamluk_rank_system_laws": {
-    "name": "$mamluk$ Rütbe Sistemi",
+    "name": "mamluk Rütbe Sistemi",
     "desc": "Ordu içindeki hiyerarşi, ülkenin en önemli kurumunu oluşturan yapıdır."
   },
   "mamluk_army_law": {
-    "name": "$mamluk$ Ordu Kanunu",
+    "name": "mamluk Ordu Kanunu",
     "desc": "Ülkenin stratokratik idaresinin kalbi ordudur. Kanunlar ve yönetmelikler hazırlayıp orduyu özenle biçimlendirerek halkımızı dış tehditlerden etkili bir biçimde koruruz."
   },
   "mamluk_promotion_law": {
-    "name": "$mamluk$ Terfi Kanunu",
+    "name": "mamluk Terfi Kanunu",
     "desc": "Askerî rütbelerde terfiye izin veren yasal düzenlemeler, ülkenin önemli bir temel taşıdır."
   },
   "maritime_law": {
@@ -229,15 +229,15 @@
   },
   "naval_doctrine_law": {
     "name": "Donanma Doktrini",
-    "desc": "Donanma Doktrinleri, [Concept('navy', 'Donanmamızın')|e] uzmanlaşabileceği becerileri temsil eder. Doktrinleri kullanıp onlarda ustalaştıkça donanmanızda daha yerleşik hâle gelirler. Zaman içerisinde bu durum, şanlı donanmamıza güçlü bonuslar sağlayabilir."
+    "desc": "Donanma Doktrinleri, Donanmamızın uzmanlaşabileceği becerileri temsil eder. Doktrinleri kullanıp onlarda ustalaştıkça donanmanızda daha yerleşik hâle gelirler. Zaman içerisinde bu durum, şanlı donanmamıza güçlü bonuslar sağlayabilir."
   },
   "sumptuary_law": {
     "name": "Kısıtlayıcı Kanunlar",
-    "desc": "toplumunda, kişinin giysileri hem toplumsal hiyerarşiyi yansıtır hem de evlilik, doğum ve ölüm gibi insanların hayatlarındaki önemli olayları simgeler. zümresi çoğunlukla pamuktan yapılan giysiler giyer. Yüksek statü sahibi seçkinler ise parlak renklerle ve değerli tüylerle bezenmiş kıyafetler giyer. Buna karşılık, savaşçılar yalnızca sade örtüler giyebilir.\\n\\nCihuacoatl, tebaamızın kılık kıyafetinden pazarlarda neleri satın alabileceklerine ve hangi süsleri kullanabileceklerine kadar birçok şeyi düzenleyen Kısıtlayıcı Kanunlar’ı yürürlüğe koyuyor."
+    "desc": "nahuatl toplumunda, kişinin giysileri hem toplumsal hiyerarşiyi yansıtır hem de evlilik, doğum ve ölüm gibi insanların hayatlarındaki önemli olayları simgeler. peasants estate zümresi çoğunlukla pamuktan yapılan giysiler giyer. Yüksek statü sahibi seçkinler ise parlak renklerle ve değerli tüylerle bezenmiş kıyafetler giyer. Buna karşılık, savaşçılar yalnızca sade örtüler giyebilir. Cihuacoatl, tebaamızın kılık kıyafetinden pazarlarda neleri satın alabileceklerine ve hangi süsleri kullanabileceklerine kadar birçok şeyi düzenleyen Kısıtlayıcı Kanunlar’ı yürürlüğe koyuyor."
   },
   "eng_order_of_the_garter_law": {
     "name": "Dizbağı Nişanı",
-    "desc": "Dizbağı Nişanı, ülkemizin en yüksek ideallerinin prestijli bir sembolüdür. Farklı kökenlere ve becerilere sahip büyük insanları, zamanın ötesinde birleştirir.\\n\\nHükümdarın en gözde tebaasına, saygıdeğer yabancı mevki sahiplerine, azimli ruhban sınıfı mensuplarına, becerikli zanaatkârlara ve cesur savaşçılara bahşedilen bu kıymetli nişan; soyluluğun ve erdemin zirvesini temsil eder."
+    "desc": "Dizbağı Nişanı, ülkemizin en yüksek ideallerinin prestijli bir sembolüdür. Farklı kökenlere ve becerilere sahip büyük insanları, zamanın ötesinde birleştirir. Hükümdarın en gözde tebaasına, saygıdeğer yabancı mevki sahiplerine, azimli ruhban sınıfı mensuplarına, becerikli zanaatkârlara ve cesur savaşçılara bahşedilen bu kıymetli nişan; soyluluğun ve erdemin zirvesini temsil eder."
   },
   "fra_fouage_tax": {
     "name": "Yuva Vergisi Tahsisi",
@@ -245,7 +245,7 @@
   },
   "fra_taille": {
     "name": "Taille",
-    "desc": "Taille, her hanenin sahip olduğu toprak miktarına göre uygulanan bir vergidir. Fakat ve bu vergiden muaftır."
+    "desc": "Taille, her hanenin sahip olduğu toprak miktarına göre uygulanan bir vergidir. Fakat [GetEstateName('clergy estate')] ve [GetEstateName('nobles estate')] bu vergiden muaftır."
   },
   "fra_5_percent_tax": {
     "name": "Machault'nun Yüzde Beş Vergisi",
@@ -253,15 +253,15 @@
   },
   "fra_reformation_tolerance_edicts": {
     "name": "Reform Fermanları",
-    "desc": "Reform hareketi, kıtasını kasıp kavuruyor. Bu feveranın öncelikli hedefleri arasında toprakları bulunuyor. Yeni ortaya çıkan fanatiklere karşı devletin tutumu, onların dost mu yoksa düşman mı olacağını belirleyecek."
+    "desc": "Reform hareketi, europe kıtasını kasıp kavuruyor. Bu feveranın öncelikli hedefleri arasında [GetCountry('FRA').GetName] toprakları bulunuyor. Yeni ortaya çıkan fanatiklere karşı devletin tutumu, onların dost mu yoksa düşman mı olacağını belirleyecek."
   },
   "french_colonial_ambition_focus": {
     "name": "Koloni Arzuları",
-    "desc": "Uzun yıllar süren karışıklığı geride bırakan , denizaşırı keşifleri finanse edebilecek duruma gelmiştir. Yeni politikalar, sarayın koloni hedeflerini daha verimli bir şekilde gerçekleştirmesini sağlayacaktır."
+    "desc": "Uzun yıllar süren karışıklığı geride bırakan [GetCountry('FRA').GetName], denizaşırı keşifleri finanse edebilecek duruma gelmiştir. Yeni politikalar, sarayın koloni hedeflerini daha verimli bir şekilde gerçekleştirmesini sağlayacaktır."
   },
   "fra_jansenism_legality": {
     "name": "Jansenizmin Durumu",
-    "desc": "Aziz Augustine'in öğretilerini benimseyen Jansenizm doktrini, kaderin önceden tayin edildiğini, ilk günahın derin ve kalıcı etkilerini ve katı ahlak kurallarını öne çıkarır. topraklarında mutlakiyetçiliğin yükselmesiyle tehlike altına girmiş ve Papa’nın Unigenitus fetvasıyla birlikte resmen kınanmıştır."
+    "desc": "Aziz Augustine'in öğretilerini benimseyen Jansenizm doktrini, kaderin önceden tayin edildiğini, ilk günahın derin ve kalıcı etkilerini ve katı ahlak kurallarını öne çıkarır. [GetCountry('FRA').GetName] topraklarında mutlakiyetçiliğin yükselmesiyle tehlike altına girmiş ve Papa’nın Unigenitus fetvasıyla birlikte resmen kınanmıştır."
   },
   "guilds_of_florence": {
     "name": "Floransa Loncalarının Önceliği",
@@ -269,11 +269,11 @@
   },
   "por_estudo_geral_law": {
     "name": "Estudo Geral",
-    "desc": "ismiyle kurulan bu ulusal mütevazı ülkemizin vatandaşlarını eğitmeyi hedeflemektedir. Bulunduğu yer ve başkente yakınlığı nedeniyle bizim için oldukça önemlidir."
+    "desc": "por estudo geral ismiyle kurulan bu ulusal university mütevazı ülkemizin vatandaşlarını eğitmeyi hedeflemektedir. Bulunduğu yer ve başkente yakınlığı nedeniyle bizim için oldukça önemlidir."
   },
   "teu_amber_monopoly_law": {
-    "name": "[ShowGoodsNameWithNoTooltip('amber')] Tekeli",
-    "desc": ", devletimizin sahip olduğu en değerli kaynaklardan biridir. Ticareti büyük önem taşır ve dolayısıyla titizlikle düzenlenmelidir."
+    "name": "amber Tekeli",
+    "desc": "amber, devletimizin sahip olduğu en değerli kaynaklardan biridir. Ticareti büyük önem taşır ve dolayısıyla titizlikle düzenlenmelidir."
   },
   "nav_adaptability": {
     "name": "Navarra Uyumu",
@@ -281,11 +281,11 @@
   },
   "six_ministries_overseer_law": {
     "name": "Altı Bakanlık Denetimi",
-    "desc": "faaliyetleri başka bir kurum veya bizzat hükümdar tarafından denetlenmelidir."
+    "desc": "six ministries faaliyetleri başka bir kurum veya bizzat hükümdar tarafından denetlenmelidir."
   },
   "ashta_pradhan_council_law": {
     "name": "Aşta Pradhan Konseyi",
-    "desc": "$mhr_ashta_pradhan_desc$"
+    "desc": "mhr ashta pradhan desc"
   },
   "kor_currency": {
     "name": "Hâkim Para Birimi",
@@ -301,47 +301,47 @@
   },
   "status_of_the_han_law": {
     "name": "Hàn Ulusunun Statüsü",
-    "desc": "Hanedanımızın kökeni, yurdunun sınırlarının dışına dayanmaktadır. Bu nedenle ülkedeki Hàn çoğunluğu tarafından yabancı olarak görülüyoruz."
+    "desc": "Hanedanımızın kökeni, [GetInternationalOrganization('middle kingdom').GetName] yurdunun sınırlarının dışına dayanmaktadır. Bu nedenle ülkedeki chinese group Hàn çoğunluğu tarafından yabancı olarak görülüyoruz."
   },
   "sco_clan_holdings": {
     "name": "[GetCountry('SCO').GetAdjectiveWithNoTooltip] Klan Mülkü Paylaşımı",
-    "desc": "toprakları klanların nüfuzuyla orantılı olacak şekilde paylaştırılır, büyük klanlar daha fazla pay alır. Bir ünvan kaldırılmadığı müddetçe klanın mülkleri doğrudan vârise devredilir."
+    "desc": "[GetCountry('SCO').GetAdjective] toprakları klanların nüfuzuyla orantılı olacak şekilde paylaştırılır, büyük klanlar daha fazla pay alır. Bir ünvan kaldırılmadığı müddetçe klanın mülkleri doğrudan vârise devredilir."
   },
   "sco_authority_over_the_clergy": {
     "name": "Ruhban Zümresi Üzerinde Otorite",
-    "desc": "diyarının için sağladığı destek, devletin mali durumunu olumsuz etkiledi. desteğini azaltmak isteyen yönetim, ruhbanlarla ilgili yargı yetkisini doğrudan üstüne aldı."
+    "desc": "[GetCountry('SCO').GetAdjective] diyarının curia için sağladığı destek, devletin mali durumunu olumsuz etkiledi. curia desteğini azaltmak isteyen yönetim, ruhbanlarla ilgili yargı yetkisini doğrudan üstüne aldı."
   },
   "sco_colonial_affairs_law": {
     "name": "[GetCountry('SCO').GetAdjectiveWithNoTooltip] Kolonicilik Faaliyetleri",
-    "desc": "Yeni Dünya'nın zenginliklerine dair çok şey anlatılıyor. , büyük bir koloni üssü kurabilmeyi başarırsa bunun faydalarını görecektir. Tabii aşırı hırslı davranmak devletin ekonomik istikrarı için felaket olabilir."
+    "desc": "Yeni Dünya'nın zenginliklerine dair çok şey anlatılıyor. [GetCountry('SCO').GetName], büyük bir koloni üssü kurabilmeyi başarırsa bunun faydalarını görecektir. Tabii aşırı hırslı davranmak devletin ekonomik istikrarı için felaket olabilir."
   },
   "distribution_of_power_law": {
     "name": "Güç Dağılımı",
     "desc": "Güç Dağılımı, yetkinin hükümdar, idari birimler ve zümreler arasında nasıl bölündüğünü belirler. Devlet karmaşık ve kırılgan bir varlıktır; dengeli güç dağılımı istikrar sağlar ancak belirli bir kuruma fazla yetki vermek, tiranlığa veya idari faaliyetlerin durma noktasına gelmesine neden olur."
   },
   "nobles_rights_laws": {
-    "name": "$nobles_estate$ Zümresinin Hakları",
-    "desc": "zümresinin konumu hem sahip oldukları ayrıcalıklar hem de kanunlarımız tarafından pekiştirilmektedir."
+    "name": "Soylular Zümresinin Hakları",
+    "desc": "nobles estate zümresinin konumu hem sahip oldukları ayrıcalıklar hem de kanunlarımız tarafından pekiştirilmektedir."
   },
   "burghers_rights_laws": {
-    "name": "$burghers_estate$ Zümresinin Hakları",
-    "desc": "zümresinin konumu, hem sahip oldukları ayrıcalıklar hem de kanunlarımız tarafından pekiştirilmektedir."
+    "name": "Burjuvalar Zümresinin Hakları",
+    "desc": "burghers estate zümresinin konumu, hem sahip oldukları ayrıcalıklar hem de kanunlarımız tarafından pekiştirilmektedir."
   },
   "clergy_rights_laws": {
-    "name": "$clergy_estate$ Zümresinin Hakları",
-    "desc": "zümresinin konumu, hem sahip oldukları ayrıcalıklar hem de kanunlarımız tarafından pekiştirilmektedir."
+    "name": "Ruhban Zümresinin Hakları",
+    "desc": "clergy estate zümresinin konumu, hem sahip oldukları ayrıcalıklar hem de kanunlarımız tarafından pekiştirilmektedir."
   },
   "crown_rights_laws": {
-    "name": "$crown_estate$ Zümresinin Hakları",
-    "desc": "zümresinin konumu, hem sahip oldukları ayrıcalıklar hem de kanunlarımız tarafından pekiştirilmektedir."
+    "name": "Yönetim Zümresinin Hakları",
+    "desc": "crown estate zümresinin konumu, hem sahip oldukları ayrıcalıklar hem de kanunlarımız tarafından pekiştirilmektedir."
   },
   "peasants_rights_laws": {
-    "name": "$peasants_estate$ Zümresinin Hakları",
-    "desc": "zümresinin konumu, hem sahip oldukları ayrıcalıklar hem de kanunlarımız tarafından pekiştirilmektedir."
+    "name": "Avam Zümresinin Hakları",
+    "desc": "peasants estate zümresinin konumu, hem sahip oldukları ayrıcalıklar hem de kanunlarımız tarafından pekiştirilmektedir."
   },
   "order_of_chivalry_law": {
     "name": "Şövalye Tarikatı",
-    "desc": "Dinî gelenekler ve saray geleneklerinin bir araya gelmesinden ortaya çıkan bu kanun, ideallerine ve hayırsever işlere adanmış şövalye mirasını somutlaştırır. Aslen Kutsal Topraklar'a giden hacıları korumak ve fakirlik, itaat ve bekâret yeminlerini yerine getirmek için kurulan bu tarikatlar, zamanla değişerek seçkin bireyleri onurlandırmış ve bir prestij sembolü hâline gelmiştir."
+    "desc": "Dinî gelenekler ve saray geleneklerinin bir araya gelmesinden ortaya çıkan bu kanun, christian ideallerine ve hayırsever işlere adanmış şövalye mirasını somutlaştırır. Aslen Kutsal Topraklar'a giden hacıları korumak ve fakirlik, itaat ve bekâret yeminlerini yerine getirmek için kurulan bu tarikatlar, zamanla değişerek seçkin bireyleri onurlandırmış ve bir prestij sembolü hâline gelmiştir."
   },
   "witchcraft_act": {
     "name": "Cadılık Yasası",
@@ -377,7 +377,7 @@
   },
   "mch_queue_hair": {
     "name": "Tìfāyìfú",
-    "desc": "$mch_queue_hair$, kitleye yönelik kültürel politikamız olacak. Hàn mensuplarının, saçlarını Biànzi stilinde yapmaları ana gereksinimler arasında yer alacak."
+    "desc": "Tìfāyìfú, chinese group kitleye yönelik kültürel politikamız olacak. Hàn mensuplarının, saçlarını Biànzi stilinde yapmaları ana gereksinimler arasında yer alacak."
   },
   "monastic_reformation_movement": {
     "name": "Manastır Reform Hareketi",
@@ -389,7 +389,7 @@
   },
   "dahsala_system": {
     "name": "Dahsala Vergilendirmesi",
-    "desc": "$india$ halkı için uygulanabilir yerel vergilendirme kanunlarının gelişmesine olanak tanımak yerine hepsini $dahsala_system$ çatısı altında bir araya getirirsek herkesi daha kolay vergilendirebiliriz."
+    "desc": "india halkı için uygulanabilir yerel vergilendirme kanunlarının gelişmesine olanak tanımak yerine hepsini Dahsala Vergilendirmesi çatısı altında bir araya getirirsek herkesi daha kolay vergilendirebiliriz."
   },
   "hab_military_frontier": {
     "name": "Askerî Sınır",
@@ -401,59 +401,59 @@
   },
   "golden_bull": {
     "name": "Altın Boğa",
-    "desc": "$golden_bull$, başta Elektör Kurulu olmak üzere İmparatorluğun anayasal yapısını tanımlayan ve meydana getiren fermanıdır. Diğer tüm kanunlar ve İmparatorluk Reformları, $golden_bull$ üzerine inşa edilir."
+    "desc": "Altın Boğa, başta Elektör Kurulu olmak üzere İmparatorluğun anayasal yapısını tanımlayan ve meydana getiren [GetUniqueInternationalOrganization('hre').GetName] fermanıdır. Diğer tüm kanunlar ve İmparatorluk Reformları, Altın Boğa üzerine inşa edilir."
   },
   "monetary_contribution": {
     "name": "İmparatorluk Vergi Kanunu",
-    "desc": "diğer tüm siyasi oluşumlar gibi altına ihtiyaç duyar. İmparatorluğun mali istikrarını güvence altına almak amacıyla üyelerden altın toplamak için vergi kanunları yürürlüğe konulabilir."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName] diğer tüm siyasi oluşumlar gibi altına ihtiyaç duyar. İmparatorluğun mali istikrarını güvence altına almak amacıyla üyelerden altın toplamak için vergi kanunları yürürlüğe konulabilir."
   },
   "military_contribution": {
     "name": "İmparatorluk Kaydı",
-    "desc": "$military_contribution$, her bir zümrenin Hazretleri'ne sağlayacağı birliklerin tam sayısını belirten bir listedir."
+    "desc": "İmparatorluk Kaydı, her bir zümrenin [GetUniqueInternationalOrganization('hre').GetLeaderTitle] Hazretleri'ne sağlayacağı birliklerin tam sayısını belirten bir listedir."
   },
   "imperial_religion": {
     "name": "İmparatorluk Dini",
-    "desc": "teşkilatının temelleri, dinî inanç üstüne kurulmuştur."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName] teşkilatının temelleri, dinî inanç üstüne kurulmuştur."
   },
   "electorate_religion_law": {
     "name": "Elektörlük Dinî Kanunu",
-    "desc": "Din, teşkilatında imparatorlar ve için önemli bir yapı taşıdır."
+    "desc": "Din, [GetUniqueInternationalOrganization('hre').GetName] teşkilatında imparatorlar ve elector için önemli bir yapı taşıdır."
   },
   "imperial_succession_law": {
     "name": "İmparatorluk Halefiyeti",
-    "desc": "teşkilatının halefiyeti hassas bir konudur. İmparatorluk tahtına çıkma hakkı imparatorluk kanunlarında belirlenmiştir."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName] teşkilatının halefiyeti hassas bir konudur. İmparatorluk tahtına çıkma hakkı imparatorluk kanunlarında belirlenmiştir."
   },
   "imperial_voting_law": {
     "name": "İmparatorluk Oylaması",
-    "desc": ", İmparatorluk Seçimi ilkesi üzerine kurulmuştur. Seçimlerin tabiatı İmparatorluk içindeki güç dengesini belirler."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName], İmparatorluk Seçimi ilkesi üzerine kurulmuştur. Seçimlerin tabiatı İmparatorluk içindeki güç dengesini belirler."
   },
   "electorate_organization_law": {
     "name": "Elektör Teşkilatı",
-    "desc": ", bir sonraki seçimine katılma ayrıcalığına sahip, ve zümreleri grubunu ifade eder."
+    "desc": "elector, bir sonraki [GetUniqueInternationalOrganization('hre').GetLeaderTitle] seçimine katılma ayrıcalığına sahip, nobles estate ve clergy estate zümreleri grubunu ifade eder."
   },
   "free_city_law": {
     "name": "Özgür Şehirler",
-    "desc": "Özgür şehirleri, özerk bir şekilde kendilerini yöneten şehirlerdir. İmparatorluk Kongreleri genellikle bu şehirlerde yapılır."
+    "desc": "Özgür [GetUniqueInternationalOrganization('hre').GetName] şehirleri, özerk bir şekilde kendilerini yöneten şehirlerdir. İmparatorluk Kongreleri genellikle bu şehirlerde yapılır."
   },
   "free_city_rights_law": {
     "name": "Özgür Şehir Hakları",
-    "desc": "statüsü, tarafından verilmesi gereken özel bir haktır."
+    "desc": "free city statüsü, [GetUniqueInternationalOrganization('hre').GetLeaderTitle] tarafından verilmesi gereken özel bir haktır."
   },
   "landfriede_law": {
     "name": "Landfriede",
-    "desc": "Landfriede, üyelerinin anlaşmazlıklarını savaş meydanından imparatorluk mahkemesine taşıyan özel bir kurumdur."
+    "desc": "Landfriede, [GetUniqueInternationalOrganization('hre').GetName] üyelerinin anlaşmazlıklarını savaş meydanından imparatorluk mahkemesine taşıyan özel bir kurumdur."
   },
   "imperial_diet_law": {
     "name": "İmparatorluk Kongresi",
-    "desc": "oldukça köklü bir geçmişe sahiptir. Dolayısıyla bünyesinde barındırdığı yönetmeliklerin ve prosedürlerin çoğu epey çağ dışı kalmıştır. Bu sistemi yenilemenin ve farklı üyelerinin çeşitli menfaatlerini daha iyi koruyan, makul bir tesis etmenin vakti artık gelmiştir."
+    "desc": "hre court assembly oldukça köklü bir geçmişe sahiptir. Dolayısıyla bünyesinde barındırdığı yönetmeliklerin ve prosedürlerin çoğu epey çağ dışı kalmıştır. Bu sistemi yenilemenin ve farklı [GetInternationalOrganizationType('hre').GetName] üyelerinin çeşitli menfaatlerini daha iyi koruyan, makul bir imperial diet law tesis etmenin vakti artık gelmiştir."
   },
   "perpetual_diet_law": {
     "name": "Daimî Kongre",
-    "desc": ", parlamentoyu toplamak için büyük topraklarının bir ucundan öteki ucuna kadar seyahat etmek zorundadır. Şehirlerden birini kalıcı Kongre makamı hâline getirerek bu meşakkatli yolculukları büyük ölçüde kısaltabiliriz."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetLeaderTitle], parlamentoyu toplamak için büyük [GetInternationalOrganizationType('hre').GetName] topraklarının bir ucundan öteki ucuna kadar seyahat etmek zorundadır. Şehirlerden birini kalıcı Kongre makamı hâline getirerek bu meşakkatli yolculukları büyük ölçüde kısaltabiliriz."
   },
   "power_of_the_emperor_law": {
     "name": "[GetUniqueInternationalOrganization('hre').GetLeaderTitle] Gücü",
-    "desc": "gücü, imparatorluk üyeleri ve elektörleri arasında hassas bir konudur; zira üyelerinin ve statüsündekilerin çıkarları, Hazretleri'nin çıkarlarıyla çatışma içindedir. Yine de gücü olmayan bir , İmparatorluğu dış tehditlere karşı koruyamaz ve onlar da bunun farkındadır."
+    "desc": "[GetUniqueInternationalOrganization('hre').GetLeaderTitle] gücü, imparatorluk üyeleri ve elektörleri arasında hassas bir konudur; zira [GetInternationalOrganizationType('hre').GetName] üyelerinin ve elector statüsündekilerin çıkarları, [GetUniqueInternationalOrganization('hre').GetLeaderTitle] Hazretleri'nin çıkarlarıyla çatışma içindedir. Yine de gücü olmayan bir [GetUniqueInternationalOrganization('hre').GetLeaderTitle], İmparatorluğu dış tehditlere karşı koruyamaz ve onlar da bunun farkındadır."
   },
   "civil_registration": {
     "name": "Sivil Tescili",
@@ -461,15 +461,15 @@
   },
   "tax_base_system": {
     "name": "Vergi Tabanı Sistemi",
-    "desc": "Vergilendirme, her ülkenin ekonomisinin temelidir. Makul bir vergi sistemi hazırlayıp genelinde uygulamaya koyarsak topraklarımızın zenginliklerinden daha iyi faydalanabiliriz."
+    "desc": "Vergilendirme, her ülkenin ekonomisinin temelidir. Makul bir vergi sistemi hazırlayıp [GetUniqueInternationalOrganization('middle kingdom').GetName] genelinde uygulamaya koyarsak topraklarımızın zenginliklerinden daha iyi faydalanabiliriz."
   },
   "provincial_governorship": {
     "name": "Vilayet Valiliği",
-    "desc": "topraklarının benzersiz genişliği, buna uygun bir idare sistemini zorunlu hâle getirmektedir."
+    "desc": "[GetUniqueInternationalOrganization('middle kingdom').GetName] topraklarının benzersiz genişliği, buna uygun bir idare sistemini zorunlu hâle getirmektedir."
   },
   "cefeng_tizhi": {
     "name": "Cèfēng Tǐzhì",
-    "desc": "Haraç sistemi kurulduğundan beridir uygulanmaktadır zira çevredeki tüm uluslar Hazretleri'nin otoritesini tanıyor."
+    "desc": "Haraç sistemi [GetUniqueInternationalOrganization('middle kingdom').GetName] kurulduğundan beridir uygulanmaktadır zira çevredeki tüm uluslar [GetUniqueInternationalOrganization('middle kingdom').GetLeaderTitle] Hazretleri'nin otoritesini tanıyor."
   },
   "keju_examination": {
     "name": "Kējǔ Sınavı",
@@ -477,7 +477,7 @@
   },
   "outwards_view": {
     "name": "Dışa Dönük Bakış",
-    "desc": ", kuruluşundan itibaren yetki alanını dışarıya doğru genişletiyor. Bununla birlikte, sınırlarımızı ihlal edebilecek dış tehditlere karşı da bir miktar dikkatli olmamız gerekiyor."
+    "desc": "[GetUniqueInternationalOrganization('middle kingdom').GetName], kuruluşundan itibaren yetki alanını dışarıya doğru genişletiyor. Bununla birlikte, sınırlarımızı ihlal edebilecek dış tehditlere karşı da bir miktar dikkatli olmamız gerekiyor."
   },
   "tianxia": {
     "name": "Tiānxià",
@@ -485,15 +485,15 @@
   },
   "jakun_gusa": {
     "name": "Jakūn Gūsa",
-    "desc": "Öncelikle ordumuz olarak hizmet veren Sekiz Sancak sistemi, aynı zamanda toplumunun temel teşkilatlanma biçimi olarak da işlev görür. Hedeflerini şaşırmamaları için görevleri açıkça belirlenmelidir."
+    "desc": "Öncelikle ordumuz olarak hizmet veren Sekiz Sancak sistemi, aynı zamanda [GetUniqueInternationalOrganization('middle kingdom').GetName] toplumunun temel teşkilatlanma biçimi olarak da işlev görür. Hedeflerini şaşırmamaları için görevleri açıkça belirlenmelidir."
   },
   "six_ministries": {
     "name": "Altı Bakanlık",
-    "desc": "$six_ministries$, bünyesinde faaliyet gösteren ayrı görev ve sorumluluklara sahip farklı idari bölümlerdir."
+    "desc": "Altı Bakanlık, [GetUniqueInternationalOrganization('middle kingdom').GetName] bünyesinde faaliyet gösteren ayrı görev ve sorumluluklara sahip farklı idari bölümlerdir."
   },
   "middle_kingdom_decrees": {
-    "name": "$middle_kingdom$",
-    "desc": "otoritesinin topraklarımızın dört bir yanına ulaşmasını sağlayan imparatorluk fermanları, ülkesinin düzgün bir biçimde işlemesi için hayati önem taşır."
+    "name": "middle kingdom",
+    "desc": "[GetUniqueInternationalOrganization('middle kingdom').GetLeaderTitle] otoritesinin topraklarımızın dört bir yanına ulaşmasını sağlayan imparatorluk fermanları, [GetUniqueInternationalOrganization('middle kingdom').GetName] ülkesinin düzgün bir biçimde işlemesi için hayati önem taşır."
   },
   "clan_residence": {
     "name": "Klan Konutu",
@@ -501,7 +501,7 @@
   },
   "jap_sakoku_law": {
     "name": "Denizaşırı Etkileşim",
-    "desc": "$japan_region$, denizlerle çevrili olmanın ayrıcalığıyla birlikte diğer ülkelerden izole olma lüksünü her daim elinde tutmuştur. Bu sayede ülkemizi dış dünyaya kapatacak önlemleri kolay bir şekilde alabiliyoruz."
+    "desc": "japan region, denizlerle çevrili olmanın ayrıcalığıyla birlikte diğer ülkelerden izole olma lüksünü her daim elinde tutmuştur. Bu sayede ülkemizi dış dünyaya kapatacak önlemleri kolay bir şekilde alabiliyoruz."
   },
   "jap_buke_shohatto": {
     "name": "Buke Şohatto",
@@ -509,87 +509,87 @@
   },
   "sc_policy_proposal_frequency": {
     "name": "Politika Teklifi Sıklığı",
-    "desc": "içerisindeki kanun önerilerinin idaresini düzenleyen bir kanun."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName] içerisindeki kanun önerilerinin idaresini düzenleyen bir kanun."
   },
   "sc_representative": {
-    "name": "[ShowCultureGroupNameWithNoTooltip('swiss_group')] Temsilcisi",
-    "desc": "Her teşkilatın, teşkilat içi ve dışındaki siyasi varlıklara karşı temsilcilik yapacak bir sözcüye ihtiyacı vardır ancak bu kuralın bir istisnası olabilir."
+    "name": "swiss group Temsilcisi",
+    "desc": "Her teşkilatın, teşkilat içi ve dışındaki siyasi varlıklara karşı temsilcilik yapacak bir sözcüye ihtiyacı vardır ancak [GetInternationalOrganizationType('swiss confederation').GetName] bu kuralın bir istisnası olabilir."
   },
   "sc_power_of_the_sovereign": {
-    "name": "[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Gücü",
+    "name": "[GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle] Gücü",
     "desc": "Konfederasyonun temsilcisi, kamu önündeki konumlarını güçlendirmek için birlik içerisinde daha fazla güç ve nüfuz talep edebilir."
   },
   "sc_election_method": {
     "name": "Seçim Yöntemi",
-    "desc": "teşkilatının seçimi, düzgün yönetilmesi için net bir mevzuatın bulunmasını gerektiren hassas bir konudur."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName] teşkilatının [GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle] seçimi, düzgün yönetilmesi için net bir mevzuatın bulunmasını gerektiren hassas bir konudur."
   },
   "sc_ruling_period": {
     "name": "Hüküm Süresi",
-    "desc": "Konfederasyonu temsil eden bir olsa da hayatı boyunca mı yoksa belirli bir süre boyunca mı hizmet edeceğine karar verilmeli."
+    "desc": "Konfederasyonu temsil eden bir [GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle] olsa da hayatı boyunca mı yoksa belirli bir süre boyunca mı hizmet edeceğine karar verilmeli."
   },
   "sc_election_frequency": {
     "name": "Seçim Sıklığı",
-    "desc": "konuları çözüme kavuştuğu için yeni seçiminin ne sıklıkla yapılacağı konusu gündeme geldi."
+    "desc": "sc ruling period konuları çözüme kavuştuğu için yeni [GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle] seçiminin ne sıklıkla yapılacağı konusu gündeme geldi."
   },
   "sc_internal_politics": {
     "name": "İç Siyaset",
-    "desc": ", esasen savunma amaçlı bir birlik olsa da Konfederasyonun iç işlerinin de ele alınması gerektiği açıktır."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName], esasen savunma amaçlı bir birlik olsa da Konfederasyonun iç işlerinin de ele alınması gerektiği açıktır."
   },
   "sc_membership_regulation": {
     "name": "Üyelik Düzenlemeleri",
-    "desc": "aslen halkın bölgede giderek artan nüfuzuna karşı kendilerini korumak için kurduğu bir teşkilattır. Tabii kimlerin katılabileceğiyle ilgili kurallar hiçbir zaman netleştirilmedi."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName] aslen swiss group halkın bölgede giderek artan [GetDynasty('habsburg dynasty').GetName] nüfuzuna karşı kendilerini korumak için kurduğu bir teşkilattır. Tabii kimlerin katılabileceğiyle ilgili kurallar hiçbir zaman netleştirilmedi."
   },
   "sc_war_politics": {
     "name": "Savaş Politikaları",
-    "desc": "teşkilatına tehdit teşkil eden birçok dış unsur bulunmaktadır. Konfederasyonun çevresindeki siyasal anarşiden sağ çıkması için halklarının birbirlerini nasıl koruyacağına dair ortak kararlar alınması gerekmektedir."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName] teşkilatına tehdit teşkil eden birçok dış unsur bulunmaktadır. Konfederasyonun çevresindeki siyasal anarşiden sağ çıkması için swiss group halklarının birbirlerini nasıl koruyacağına dair ortak kararlar alınması gerekmektedir."
   },
   "sc_religious_affairs": {
     "name": "Din İşleri",
-    "desc": "hareketinin başlamasıyla Konfederasyonun dinî birliği, hassas bir hâle gelmiştir. Bu duruma bir çözüm bulunamazsa inanç çatışmaları birliğin bütünlüğünü bozma tehdidi teşkil edecektir."
+    "desc": "reformation hareketinin başlamasıyla Konfederasyonun dinî birliği, hassas bir hâle gelmiştir. Bu duruma bir çözüm bulunamazsa inanç çatışmaları birliğin bütünlüğünü bozma tehdidi teşkil edecektir."
   },
   "sc_relations_with_hre": {
     "name": "İmparatorluk İlişkileri",
-    "desc": ", kurulduğundan beri teşkilatının bir üyesiydi. Bununla birlikte hareketi, Konfederasyon üyelerinin çoğunda derin bir rahatsızlık yaratmıştır."
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName], kurulduğundan beri [GetUniqueInternationalOrganization('hre').GetName] teşkilatının bir üyesiydi. Bununla birlikte reformation hareketi, Konfederasyon üyelerinin çoğunda derin bir rahatsızlık yaratmıştır."
   },
   "sc_unification": {
-    "name": "$SWI_ADJ$ Birleşmesi",
-    "desc": "toprakları uzun süredir bölük pörçük durumda. Alp Dağları'nın halkı, refah ve güvenlik içinde yaşamak istiyorsa tek bir sancak altında birleşmeli."
+    "name": "İsviçre Birleşmesi",
+    "desc": "swiss group toprakları uzun süredir bölük pörçük durumda. Alp Dağları'nın halkı, refah ve güvenlik içinde yaşamak istiyorsa tek bir sancak altında birleşmeli."
   },
   "lordship_of_ireland_rule_law": {
     "name": "İrlanda Yönetimi",
     "desc": "İrlanda'da hükümranlığın sureti engin Atlantik okyanusunun yalçın kayalara çarpan dalgaları kadar hırçın ya da bataklık toprakları kadar sebatkâr görünebilir."
   },
   "colonial_federation_unification": {
-    "name": "$colonial_federation$un Birleşmesi",
+    "name": "colonial federationun Birleşmesi",
     "desc": "Üyelerimizin birbirinden kopuk topraklarını, bağımsızlık mücadelemizin ateşlerinde dövülmüş bağlarla birleştirmenin vakti geldi."
   },
   "union_foundation_law": {
     "name": "Birlik Tüzüğü",
-    "desc": "için hazırlanan kanunlardır ve zamana yenik düşmediği takdirde teşkilatın benimseyeceği yapının merkeziyetçi mi yoksa federal mi olacağını belirler."
+    "desc": "[GetInternationalOrganizationType('union').GetName] için hazırlanan kanunlardır ve zamana yenik düşmediği takdirde teşkilatın benimseyeceği yapının merkeziyetçi mi yoksa federal mi olacağını belirler."
   },
   "union_codified_inheritance_law": {
     "name": "Birleşmiş Miras",
-    "desc": "istikrarını güvence altına almak için her üyenin miras kanunu birleştirilmelidir. Böylece her devlet aynı halefiyet sırasına sahip olacaktır."
+    "desc": "[GetInternationalOrganizationType('union').GetName] istikrarını güvence altına almak için her üyenin miras kanunu birleştirilmelidir. Böylece her devlet aynı halefiyet sırasına sahip olacaktır."
   },
   "union_economic_law": {
     "name": "Birlik Ekonomisi",
-    "desc": "Bir monark birden fazla taht üzerinde hüküm sürebilse de, üyeleri ekonomik açıdan birbirinden oldukça kopuktur. Bu kanun, üyeleri birbirine bir adım daha yaklaştıracaktır."
+    "desc": "Bir monark birden fazla taht üzerinde hüküm sürebilse de, [GetInternationalOrganizationType('union').GetName] üyeleri ekonomik açıdan birbirinden oldukça kopuktur. Bu kanun, üyeleri birbirine bir adım daha yaklaştıracaktır."
   },
   "union_diplomatic_law": {
     "name": "Diplomatik Özgürlükler",
-    "desc": "tek bir tahttan yönetilir. Bu durum, $union$ ile bağlantılı diplomatik ilişkilerin nasıl yürütüleceği sorusunu akla getirir.\\n\\n#Y Bununla beraber savaş meseleleri, birlik ortaklarımızın Zümrelerinin elindedir."
+    "desc": "[GetInternationalOrganizationType('union').GetName] tek bir tahttan yönetilir. Bu durum, union ile bağlantılı diplomatik ilişkilerin nasıl yürütüleceği sorusunu akla getirir. Bununla beraber savaş meseleleri, birlik ortaklarımızın Zümrelerinin elindedir."
   },
   "union_legislature_law": {
     "name": "Birliğin Yasama Organı",
-    "desc": "idaresinin bağlayıcı bir yapıya sahip olması gerekir. Birliğin istikrarının sağlanması için onaylı ve merkeziyetçi bir yasama organının faaliyet göstermesi elzemdir."
+    "desc": "[GetInternationalOrganizationType('union').GetName] idaresinin bağlayıcı bir yapıya sahip olması gerekir. Birliğin istikrarının sağlanması için onaylı ve merkeziyetçi bir yasama organının faaliyet göstermesi elzemdir."
   },
   "union_unification_of_crowns_law": {
     "name": "Birleşme Meselesi",
-    "desc": "Bir , tabiatı gereği aynı tahttan yönetilen farklı devletlerin oluşturduğu dağınık bir konfederasyondur. Bununla birlikte, tek sancak altında bünyesinde birleşme ihtimali de imkânsız değildir."
+    "desc": "Bir [GetInternationalOrganizationType('union').GetName], tabiatı gereği aynı tahttan yönetilen farklı devletlerin oluşturduğu dağınık bir konfederasyondur. Bununla birlikte, tek sancak altında senior partner bünyesinde birleşme ihtimali de imkânsız değildir."
   },
   "union_mutual_offense_law": {
     "name": "Karşılıklı Saldırı",
-    "desc": "esasen bir savunma ittifakı olsa da üyeler, birliğin askerî kudretini göstererek birbirlerini çağırabilirler fakat bu çağrıyı kabul edip etmemek üyelere kalmıştır."
+    "desc": "[GetInternationalOrganizationType('union').GetName] esasen bir savunma ittifakı olsa da üyeler, birliğin askerî kudretini göstererek birbirlerini çağırabilirler fakat bu çağrıyı kabul edip etmemek üyelere kalmıştır."
   },
   "colonial_representation_law": {
     "name": "Kolonyal Temsiliyet",
@@ -609,58 +609,58 @@
   },
   "vajrayana_law": {
     "name": "Tantrik Teamüller",
-    "desc": "Aynı zamanda Tantra $buddhist$i veya Ezoterik $buddhist$ olarak da bilinen Vajrayāna, $hindu$ dini başta olmak üzere birçok dinden etkilenerek tantrik, ezoterik ve töresel teamülleri bünyesine katan bir $buddhist$ akımıdır. Bu akımın gelişimi, özellikle $hindu$ inanç ve uygulamalarından derin şekilde etkilenmiştir."
+    "desc": "Aynı zamanda Tantra buddhisti veya Ezoterik buddhist olarak da bilinen Vajrayāna, hindu dini başta olmak üzere birçok dinden etkilenerek tantrik, ezoterik ve töresel teamülleri bünyesine katan bir buddhist akımıdır. Bu akımın gelişimi, özellikle hindu inanç ve uygulamalarından derin şekilde etkilenmiştir."
   },
   "sect_school_law": {
     "name": "Mezhep Ekolü",
     "desc": "Bu mezhebin ekolü ile ana öğretiler arasında bazı farklılıklar olabilir."
   },
   "guru_nanak_guruship": {
-    "name": "[GetCharacter('guru_nanak').GetShortNameWithNoTooltip] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "[GetCharacter('guru nanak').GetShortNameWithNoTooltip] Öğretileri",
+    "desc": "[GetCharacter('guru nanak').GetName] tarafından oluşturulan öğretiler."
   },
   "guru_angad_guruship": {
-    "name": "[GetCharacter('guru_angad').GetShortNameWithNoTooltip] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "[GetCharacter('guru angad').GetShortNameWithNoTooltip] Öğretileri",
+    "desc": "[GetCharacter('guru angad').GetName] tarafından oluşturulan öğretiler."
   },
   "guru_amar_das_guruship": {
-    "name": "[GetCharacter('guru_amar_das').GetShortNameWithNoTooltip] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "[GetCharacter('guru amar das').GetShortNameWithNoTooltip] Öğretileri",
+    "desc": "[GetCharacter('guru amar das').GetName] tarafından oluşturulan öğretiler."
   },
   "guru_ram_das_guruship": {
-    "name": "[GetCharacter('guru_ram_das').GetShortNameWithNoTooltip] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "[GetCharacter('guru ram das').GetShortNameWithNoTooltip] Öğretileri",
+    "desc": "[GetCharacter('guru ram das').GetName] tarafından oluşturulan öğretiler."
   },
   "guru_arjan_guruship": {
-    "name": "[GetCharacter('guru_arjan').GetShortNameWithNoTooltip] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "[GetCharacter('guru arjan').GetShortNameWithNoTooltip] Öğretileri",
+    "desc": "[GetCharacter('guru arjan').GetName] tarafından oluşturulan öğretiler."
   },
   "guru_hargobind_guruship": {
-    "name": "[GetCharacter('guru_hargobind').GetShortNameWithNoTooltip] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "[GetCharacter('guru hargobind').GetShortNameWithNoTooltip] Öğretileri",
+    "desc": "[GetCharacter('guru hargobind').GetName] tarafından oluşturulan öğretiler."
   },
   "guru_har_rai_guruship": {
-    "name": "[GetCharacter('guru_har_rai').GetShortNameWithNoTooltip] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "[GetCharacter('guru har rai').GetShortNameWithNoTooltip] Öğretileri",
+    "desc": "[GetCharacter('guru har rai').GetName] tarafından oluşturulan öğretiler."
   },
   "guru_har_krishan_guruship": {
-    "name": "[GetCharacter('guru_har_krishan').GetShortNameWithNoTooltip] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "[GetCharacter('guru har krishan').GetShortNameWithNoTooltip] Öğretileri",
+    "desc": "[GetCharacter('guru har krishan').GetName] tarafından oluşturulan öğretiler."
   },
   "guru_tegh_bahadur_guruship": {
-    "name": "[GetCharacter('guru_tegh_bahadur').GetShortNameWithNoTooltip] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "[GetCharacter('guru tegh bahadur').GetShortNameWithNoTooltip] Öğretileri",
+    "desc": "[GetCharacter('guru tegh bahadur').GetName] tarafından oluşturulan öğretiler."
   },
   "guru_gobind_singh_guruship": {
-    "name": "[GetCharacter('guru_gobind_singh').GetShortNameWithNoTooltip] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "[GetCharacter('guru gobind singh').GetShortNameWithNoTooltip] Öğretileri",
+    "desc": "[GetCharacter('guru gobind singh').GetName] tarafından oluşturulan öğretiler."
   },
   "khalsa_law": {
     "name": "Khalsa",
-    "desc": "inancını ve takipçilerini savunmakla yükümlü bir savaşçı topluluğudur, davranış kuralları ve kabul töreniyle tüm inananlara örnek olur."
+    "desc": "sikhism inancını ve takipçilerini savunmakla yükümlü bir savaşçı topluluğudur, davranış kuralları ve kabul töreniyle tüm inananlara örnek olur."
   },
   "guru_granth_sahib_guruship": {
-    "name": "[ShowWorkOfArtNameWithNoTooltip('guru_granth_sahib')] Öğretileri",
-    "desc": "tarafından oluşturulan öğretiler."
+    "name": "guru granth sahib Öğretileri",
+    "desc": "guru granth sahib tarafından oluşturulan öğretiler."
   }
 }

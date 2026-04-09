@@ -1,22 +1,38 @@
 {
   "monarchy": {
     "name": "Monarşi",
-    "desc": "$monarchy$, [Concept('ruler', 'Hükümdarın')|e] seçkinler arasında en başta olduğu ve tüm gücü elinde bulundurduğu bir [Concept('government_type', 'Hükûmet Türüdür')|e]. heirs genellikle $game_concept_monarch$ın [Concept('dynasty', 'Hanedanından')|e] seçilir ve çoğunlukla ömür boyu hüküm sürerler.\\n\\n$game_concept_monarchs$, royal_marriages aracılığıyla alliances kurabilir. Hatta personal_unions sayesinde yabancı [Concept('country', 'Ülkeleri')|e] miras alabilir. Ancak veraset sıkıntılı bir meseledir. Monarşiler kolaylıkla regency sistemine geçebilir veya yabancı $game_concept_dynasties$ın etkisi altına girebilir."
+    "desc": "Monarşi, Hükümdarın seçkinler arasında en başta olduğu ve tüm gücü elinde bulundurduğu bir Hükûmet Türüdür. Veliahtlar genellikle Monarkın Hanedanından seçilir ve çoğunlukla ömür boyu hüküm sürerler. Monarklar, Siyasi Evlilikler aracılığıyla İttifaklar kurabilir. Hatta Şahsi Birlikler sayesinde yabancı Ülkeleri miras alabilir. Ancak veraset sıkıntılı bir meseledir. Monarşiler kolaylıkla Naiplik sistemine geçebilir veya yabancı Hanedanların etkisi altına girebilir."
   },
   "republic": {
     "name": "Cumhuriyet",
-    "desc": "$republic$, [Concept('ruler', 'Hükümdarların')|e] belirli bir süreliğine vatandaşların temsilcisi olarak görev alması için election ile başa getirildiği bir [Concept('government_type', 'Hükûmet Türüdür')|e]. $game_concept_ruler$, [Concept('heir_selection', 'Veliaht Seçimine')|e] bağlı olarak [Concept('estate', 'Zümrelerin')|e] herhangi birinden olabilir.\\n\\nSiyasi kurumların gücü, Cumhuriyetleri halefiyet meselelerine karşı daha dirençli kılsa da yönetim anlayışının daha az şahsi olması nedeniyle faydalanabilecekleri diplomatik araçlar sınırlıdır. Bu nedenle [Concept('dynasty', 'Hanedanların')|e] rolü daha küçüktür ve Cumhuriyetler [Concept('royal_marriage', 'Hanedan Evliliklerinden')|e] faydalanamaz."
+    "desc": "Cumhuriyet, Hükümdarların belirli bir süreliğine vatandaşların temsilcisi olarak görev alması için Seçim ile başa getirildiği bir Hükûmet Türüdür. Hükümdar, Veliaht Seçimine bağlı olarak Zümrelerin herhangi birinden olabilir. Siyasi kurumların gücü, Cumhuriyetleri halefiyet meselelerine karşı daha dirençli kılsa da yönetim anlayışının daha az şahsi olması nedeniyle faydalanabilecekleri diplomatik araçlar sınırlıdır. Bu nedenle Hanedanların rolü daha küçüktür ve Cumhuriyetler Hanedan Evliliklerinden faydalanamaz."
   },
   "theocracy": {
     "name": "Teokrasi",
-    "desc": "$theocracy$; ilahi egemenlik ilkesine dayanan, [Concept('ruler', 'Hükümdarın')|e] din adamları arasından seçildiği ve seküler meselelerin dinî otoriteye tabi olduğu bir [Concept('government_type', 'Hükûmet Türüdür')|e].\\n\\n$game_concept_rulers$, genellikle bir tür election ile ömür boyu yönetmek üzere başa gelirler. Böylece iktidar değişimi, daha az yıkıcı bir şekilde yapılabilir."
+    "desc": "Teokrasi; ilahi egemenlik ilkesine dayanan, Hükümdarın din adamları arasından seçildiği ve seküler meselelerin dinî otoriteye tabi olduğu bir Hükûmet Türüdür. Hükümdarlar, genellikle bir tür Seçim ile ömür boyu yönetmek üzere başa gelirler. Böylece iktidar değişimi, daha az yıkıcı bir şekilde yapılabilir."
   },
   "steppe_horde": {
     "name": "Bozkır Ordası",
-    "desc": "$steppe_horde$, [Concept('ruler', 'Hükümdarın')|e] askerî gücüne dayanan bir [Concept('government_type', 'Hükûmet Türüdür')|e]. Mevcut $game_concept_ruler$ın akrabalarının heir olma ihtimali daha yüksektir ancak yaş ve kişisel abilities de göz önünde bulundurulur.\\n\\n$game_concept_rulers$ toplumun seçkin üyeleri arasından seçilir ve komşu [Concept('country', 'Ülkelere')|e] boyun eğdirerek, yakıp yıkarak ve yağmalayarak kendilerini kanıtladıkları sürece çevrelerindeki kişilerin sadakatini güvence altına alabilirler. Bu nedenle $steppe_horde$ için halefiyet meselesi mühim bir meseledir ve yeni bir $game_concept_ruler$ın kudretini sergileyememesi çöküşe yol açabilir."
+    "desc": "Bozkır Ordası, Hükümdarın askerî gücüne dayanan bir Hükûmet Türüdür. Mevcut Hükümdarın akrabalarının Veliaht olma ihtimali daha yüksektir ancak yaş ve kişisel Beceriler de göz önünde bulundurulur. Hükümdarlar toplumun seçkin üyeleri arasından seçilir ve komşu Ülkelere boyun eğdirerek, yakıp yıkarak ve yağmalayarak kendilerini kanıtladıkları sürece çevrelerindeki kişilerin sadakatini güvence altına alabilirler. Bu nedenle Bozkır Ordası için halefiyet meselesi mühim bir meseledir ve yeni bir Hükümdarın kudretini sergileyememesi çöküşe yol açabilir."
   },
   "tribe": {
     "name": "Kabile",
-    "desc": "$tribe$, siyasi gücün her şeyden önce doğrudan kan bağı veya kabul gören soy bağı üzerinden olmak üzere akrabalık kavramının çevresine kurulduğu bir [Concept('government_type', 'Hükûmet Türüdür')|e].\\n\\nBu nedenle dynasties ve aile bağları, daima toplumun seçkin üyeleri arasından seçilen [Concept('heir', 'Veliahdın')|e] belirlenmesinde en önemli unsurlardır. Ancak çoğu zaman yaş, kişisel abilities ve askerî hüner de göz önünde bulundurulur."
+    "desc": "Kabile, siyasi gücün her şeyden önce doğrudan kan bağı veya kabul gören soy bağı üzerinden olmak üzere akrabalık kavramının çevresine kurulduğu bir Hükûmet Türüdür. Bu nedenle Hanedanlar ve aile bağları, daima toplumun seçkin üyeleri arasından seçilen Veliahdın belirlenmesinde en önemli unsurlardır. Ancak çoğu zaman yaş, kişisel Beceriler ve askerî hüner de göz önünde bulundurulur."
+  },
+  "_modifier_names": {
+    "amount_looted_modifier": "Yağmalanan Miktar",
+    "care_about_producing_heirs": "Siyasi Evlilikler",
+    "combined_arms_max_threshold": "Birleşmiş Kuvvetler Eşiği",
+    "combined_bonus_per_type": "Birleşmiş Kuvvetler Bonusu",
+    "court_language_is_common_language_importance_modifier": "Saray Dilinin, Ortak Dil Olmasını Tercih Eder",
+    "court_language_is_liturgical_language_importance_modifier": "Saray Dilinin, Dinî Dil Olmasını Tercih Eder",
+    "court_language_is_market_language_importance_modifier": "Saray Dilinin, Ticaret Dili Olmasını Tercih Eder",
+    "diplomatic_upkeep_modifier": "Diplomasi Maliyeti Etkeni",
+    "force_convert_created_subjects": "Oluşturulmuş Tabi Devletleri Din Değiştirmeye Zorla",
+    "global_nobles_food_consumption": "Soylu Yiyecek Tüketimi",
+    "global_war_score_cost": "Savaş Skoru Maliyeti",
+    "horde_unity_hit_at_ruler_death": "Hükümdar Öldüğünde Göçebe Bütünlüğü Değişimi",
+    "rural_settlement_downgrade_cost_modifier": "Kırsal Yerleşim Yerine Düşürme Maliyeti",
+    "war_no_cb_cost_modifier": "Savaş Sebebi Yokken Savaş Maliyeti"
   }
 }

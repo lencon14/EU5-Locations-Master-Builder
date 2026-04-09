@@ -5,11 +5,11 @@
   },
   "medieval_levy_law": {
     "name": "征召兵法",
-    "desc": "我们的军队主要由从我国特定estates招募的征召兵组成，他们会为我们作战，直到我们解散他们。"
+    "desc": "我们的军队主要由从我国特定阶层招募的征召兵组成，他们会为我们作战，直到我们解散他们。"
   },
   "royal_court_customs_law": {
     "name": "皇家宫廷习俗",
-    "desc": "宫廷的传统和文化在的稳定中起着重要作用。这些习俗会确保权力从统治者到继承人的平稳交接，并大幅限制宫廷阴谋。"
+    "desc": "宫廷的传统和文化在monarchy的稳定中起着重要作用。这些习俗会确保权力从统治者到继承人的平稳交接，并大幅限制宫廷阴谋。"
   },
   "legitimization_of_power_law": {
     "name": "权力合法化",
@@ -21,11 +21,11 @@
   },
   "iqta_law": {
     "name": "伊克塔",
-    "desc": "$iqta_law$是的包税体制，从身上征收土地收入作为天课的一部分，通常是国家的基本收入。"
+    "desc": "伊克塔是muslim的包税体制，从peasants estate身上征收土地收入作为天课的一部分，通常是muslim国家的基本收入。"
   },
   "inquisition_law": {
     "name": "宗教裁判法",
-    "desc": "宗教裁判制度最初是为打击异端而设立的，如今已成为教会调查与审判异端的核心机构。通过专门的教会法庭，经过严格训练的裁判官会深入调查潜在的异端分子，获取其宗教或道德违规的供词，并对违反天主教规者施以从忏悔苦修到死刑不等的惩罚。"
+    "desc": "宗教裁判制度最初是为打击catharism异端而设立的，如今已成为catholic教会调查与审判异端的核心机构。通过专门的教会法庭，经过严格训练的裁判官会深入调查潜在的异端分子，获取其宗教或道德违规的供词，并对违反天主教规者施以从忏悔苦修到死刑不等的惩罚。"
   },
   "society_of_jesus": {
     "name": "耶稣会",
@@ -37,7 +37,7 @@
   },
   "censorship": {
     "name": "审查制度",
-    "desc": "能够控制哪些作品可以出版，是否允许与教义相悖的观点，对宗教凝聚力至关重要，这一制度通常也受到的支持。然而，这些限制措施遭到自由思想者与以灵感谋生的人的反对，并且可能对artists的留存以及所有被判定为异端的work_of_art的命运产生深远影响。"
+    "desc": "能够控制哪些作品可以出版，是否允许与教义相悖的观点，对宗教凝聚力至关重要，这一制度通常也受到clergy estate的支持。然而，这些限制措施遭到自由思想者与以灵感谋生的人的反对，并且可能对艺术家的留存以及所有被判定为异端的艺术品的命运产生深远影响。"
   },
   "slave_conversion": {
     "name": "奴隶皈依",
@@ -133,7 +133,7 @@
   },
   "bureaucracy_law": {
     "name": "官僚制度",
-    "desc": "$modern_bureaucracy_desc$"
+    "desc": "为了最大限度地控制我们的土地和臣民，我们必须扩大、重组我们的官僚机构并使之专业化。一个稳健的官僚组织可以掌控我们国家的每一部分，并避免对于发明临时解决方案需要。让我们的大学研究考虑最好最有效地统治和管理方法，并鼓励贵族子弟用笔而不是刀剑来为国家服务。"
   },
   "cabinet_laws": {
     "name": "内阁法",
@@ -157,7 +157,7 @@
   },
   "heir_religion_law": {
     "name": "继承人信仰",
-    "desc": "在继承和治理事务中，若能决定heir信仰什么宗教，这具有重要的意义。它使统治者和政府能够维持宗教稳定，确保统治者的信仰和行为与大多数臣民一致。从根本上来说，决定继承人信仰何种宗教的权柄，是宗教自由、行政治理与社会和谐之间微妙平衡的重要组成部分。"
+    "desc": "在继承和治理事务中，若能决定继承人信仰什么宗教，这具有重要的意义。它使统治者和政府能够维持宗教稳定，确保统治者的信仰和行为与大多数臣民一致。从根本上来说，决定继承人信仰何种宗教的权柄，是宗教自由、行政治理与社会和谐之间微妙平衡的重要组成部分。"
   },
   "coin_laws": {
     "name": "铸币法案",
@@ -165,7 +165,7 @@
   },
   "precious_metal_distribution_law": {
     "name": "贵金属分配",
-    "desc": "和是铸造硬币所必需的材料。由于我们国家的条件得天独厚，可以自己采集这些贵金属，因此我们有权决定谁能获得这些资源。"
+    "desc": "goods gold和silver是铸造硬币所必需的材料。由于我们国家的条件得天独厚，可以自己采集这些贵金属，因此我们有权决定谁能获得这些资源。"
   },
   "press_law": {
     "name": "新闻法",
@@ -181,7 +181,7 @@
   },
   "immigration_law": {
     "name": "边境管制",
-    "desc": "这项法律规定了国家是否允许migration进出国境。"
+    "desc": "这项法律规定了国家是否允许迁徙进出国境。"
   },
   "legal_code_law": {
     "name": "法典",
@@ -192,8 +192,8 @@
     "desc": "围绕我们社会等级制度的习俗和有关我们法律制度的程序必须用我们认为合适的语言简明扼要地统一书写。"
   },
   "sharia_law": {
-    "name": "$sharia$",
-    "desc": "$sharia_law_policy_desc$"
+    "name": "沙里亚法",
+    "desc": "sharia是一套在伊斯兰国家全面且根深蒂固的法律体系，涉及生活的许多方面，从个人行为到国家事务。几个世纪以来，它支撑了社会的稳定和连续，但其严格的、有时甚至苛刻的处罚措施可能引发争议和分歧。"
   },
   "recruitment_law": {
     "name": "征募法",
@@ -205,18 +205,18 @@
   },
   "army_doctrine_law": {
     "name": "陆军学说",
-    "desc": "陆军学说代表了我们的army可以专精的能力。对学说的研究时间越长，其在我军中就越根深蒂固，我们在这方面的能力也越强。随着时间的推移，这将为我们光荣的军队带来巨大的回报。"
+    "desc": "陆军学说代表了我们的陆军可以专精的能力。对学说的研究时间越长，其在我军中就越根深蒂固，我们在这方面的能力也越强。随着时间的推移，这将为我们光荣的军队带来巨大的回报。"
   },
   "mamluk_rank_system_laws": {
-    "name": "$mamluk$衔级制",
+    "name": "mamluk衔级制",
     "desc": "军队内部的等级制度是构成我们国家最重要机构的框架。"
   },
   "mamluk_army_law": {
-    "name": "$mamluk$军事管理",
+    "name": "mamluk军事管理",
     "desc": "我们的统治核心非军队莫属。通过制定法律和规定，精心组建军队，我们将有效地保卫人民，抵御外来威胁。"
   },
   "mamluk_promotion_law": {
-    "name": "$mamluk$晋升机制",
+    "name": "mamluk晋升机制",
     "desc": "军队内部晋升的法律程序是我们国家的重要基石。"
   },
   "maritime_law": {
@@ -229,15 +229,15 @@
   },
   "naval_doctrine_law": {
     "name": "海军学说",
-    "desc": "海军学说代表了我们的navy可以专修的技能。我们在学说上投入的时间越长，它们在海军的影响就越深，我们就越擅长它们。随着时间推移，这可以为我们辉煌的舰队带来强大的增益。"
+    "desc": "海军学说代表了我们的海军可以专修的技能。我们在学说上投入的时间越长，它们在海军的影响就越深，我们就越擅长它们。随着时间推移，这可以为我们辉煌的舰队带来强大的增益。"
   },
   "sumptuary_law": {
     "name": "禁奢令",
-    "desc": "在社会中，服饰体现着我们的社会等级，并标志着婚嫁、生育与丧葬等人生重要仪式。通常穿着简朴棉麻衣物，高阶精英则身着饰有鲜丽色彩与珍贵羽翎的华服。相反，战士仅被允许穿戴素色斗篷。\\n\\n蛇女现在正在制定一套禁奢令，将依据阶层规范臣民衣着、市场采购权限及可佩戴的佩戴饰品种类。"
+    "desc": "在nahuatl社会中，服饰体现着我们的社会等级，并标志着婚嫁、生育与丧葬等人生重要仪式。peasants estate通常穿着简朴棉麻衣物，高阶精英则身着饰有鲜丽色彩与珍贵羽翎的华服。相反，战士仅被允许穿戴素色斗篷。 蛇女现在正在制定一套禁奢令，将依据阶层规范臣民衣着、市场采购权限及可佩戴的佩戴饰品种类。"
   },
   "eng_order_of_the_garter_law": {
     "name": "嘉德骑士团",
-    "desc": "嘉德骑士团声名显赫，是我们王国最高理想的尊贵象征，它将时代悠远、背景各异、才华横溢的杰出人物团结在一起。\\n\\n无论是君主的宠臣、受人尊敬的外国政要、虔诚的神职人员、天赋异禀的工匠，还是英勇无畏的战士，这个古老的骑士团都体现了高贵和美德的巅峰。"
+    "desc": "嘉德骑士团声名显赫，是我们王国最高理想的尊贵象征，它将时代悠远、背景各异、才华横溢的杰出人物团结在一起。 无论是君主的宠臣、受人尊敬的外国政要、虔诚的神职人员、天赋异禀的工匠，还是英勇无畏的战士，这个古老的骑士团都体现了高贵和美德的巅峰。"
   },
   "fra_fouage_tax": {
     "name": "壁炉税",
@@ -245,7 +245,7 @@
   },
   "fra_taille": {
     "name": "平民税",
-    "desc": "平民税按照每个家庭持有的土地面积征缴，与可免除该税。"
+    "desc": "平民税按照每个家庭持有的土地面积征缴，[GetEstateName('clergy estate')]与[GetEstateName('nobles estate')]可免除该税。"
   },
   "fra_5_percent_tax": {
     "name": "马绍的廿一税法",
@@ -253,15 +253,15 @@
   },
   "fra_reformation_tolerance_edicts": {
     "name": "宗教改革敕令",
-    "desc": "宗教改革的浪潮正席卷全，而正处于它爆发的最前沿。对于这些层出不穷的狂热分子，到底是与之为友还是视之为敌，我们国家的政策至关重要。"
+    "desc": "宗教改革的浪潮正席卷全europe，而[GetCountry('FRA').GetName]正处于它爆发的最前沿。对于这些层出不穷的狂热分子，到底是与之为友还是视之为敌，我们国家的政策至关重要。"
   },
   "french_colonial_ambition_focus": {
     "name": "殖民野望",
-    "desc": "经历了数十年的动荡后，终于积攒下足够的资金以资助海外探索。制定新的殖民政策有助于宫廷有的放矢地实现更伟大的殖民野心。"
+    "desc": "经历了数十年的动荡后，[GetCountry('FRA').GetName]终于积攒下足够的资金以资助海外探索。制定新的殖民政策有助于宫廷有的放矢地实现更伟大的殖民野心。"
   },
   "fra_jansenism_legality": {
     "name": "杨森主义的地位",
-    "desc": "杨森主义是一种遵循圣奥斯定训导的信仰体系，它强调神圣预定、原罪对人性的根本腐蚀以及极端严格的道德规范。然而，随着专制主义的强化，这一神学理论正面临日益严峻的威胁，并遭到《唯一圣子》教宗诏书的正式谴责。"
+    "desc": "杨森主义是一种遵循圣奥斯定训导的信仰体系，它强调神圣预定、原罪对人性的根本腐蚀以及极端严格的道德规范。然而，随着[GetCountry('FRA').GetName]专制主义的强化，这一神学理论正面临日益严峻的威胁，并遭到[GetCountry('PAP').GetAdjective]《唯一圣子》教宗诏书的正式谴责。"
   },
   "guilds_of_florence": {
     "name": "佛罗伦萨行会的首要地位",
@@ -269,11 +269,11 @@
   },
   "por_estudo_geral_law": {
     "name": "通识学院",
-    "desc": "是一所国立，旨在于培育我们谦逊之邦的公民。其与首都相邻的地理位置对我们至关重要。"
+    "desc": "por estudo geral是一所国立university，旨在于培育我们谦逊之邦的公民。其与首都相邻的地理位置对我们至关重要。"
   },
   "teu_amber_monopoly_law": {
-    "name": "[ShowGoodsNameWithNoTooltip('amber')]垄断权",
-    "desc": "琥珀一，其贸易往来至关重要，务必审慎监管。"
+    "name": "amber垄断权",
+    "desc": "琥珀amber一，其贸易往来至关重要，务必审慎监管。"
   },
   "nav_adaptability": {
     "name": "纳瓦拉适应性",
@@ -281,11 +281,11 @@
   },
   "six_ministries_overseer_law": {
     "name": "六部统摄权",
-    "desc": "中央六部的工作仍须另一个机构予以监察。这项法律决定了应向何衙署负责，甚至需要皇帝亲自监督。"
+    "desc": "中央六部的工作仍须另一个机构予以监察。这项法律决定了six ministries应向何衙署负责，甚至需要皇帝亲自监督。"
   },
   "ashta_pradhan_council_law": {
     "name": "八大臣内阁",
-    "desc": "$mhr_ashta_pradhan_desc$"
+    "desc": "mhr ashta pradhan desc"
   },
   "kor_currency": {
     "name": "主导货币",
@@ -301,47 +301,47 @@
   },
   "status_of_the_han_law": {
     "name": "汉官地位",
-    "desc": "我们的王朝起源于远离核心领土的地域，这让我们成了汉人眼中的外来者。"
+    "desc": "我们的王朝起源于远离[GetInternationalOrganization('middle kingdom').GetName]核心领土的地域，这让我们成了汉人眼中的外来者。"
   },
   "sco_clan_holdings": {
     "name": "[GetCountry('SCO').GetAdjectiveWithNoTooltip]氏族领地分配",
-    "desc": "氏族领地的继承按照氏族影响力比例分配，较大的氏族会获得更多的领地。氏族领地直接传给继承人，除非领地头衔被撤销或绝嗣。"
+    "desc": "[GetCountry('SCO').GetAdjective]氏族领地的继承按照氏族影响力比例分配，较大的氏族会获得更多的领地。氏族领地直接传给继承人，除非领地头衔被撤销或绝嗣。"
   },
   "sco_authority_over_the_clergy": {
     "name": "教士管辖权",
-    "desc": "对的财政贡献已成为国家负担。为削减支出，国家已直接接管对教士阶层的管辖权。"
+    "desc": "[GetCountry('SCO').GetAdjective]对curia的财政贡献已成为国家负担。为削减curia支出，国家已直接接管对教士阶层的管辖权。"
   },
   "sco_colonial_affairs_law": {
     "name": "[GetCountry('SCO').GetAdjectiveWithNoTooltip]殖民事务",
-    "desc": "随着新大陆财富传闻的扩散，有望通过建立大规模殖民地获取利益。然而，过度扩张可能危及国家经济稳定。"
+    "desc": "随着新大陆财富传闻的扩散，[GetCountry('SCO').GetName]有望通过建立大规模殖民地获取利益。然而，过度扩张可能危及国家经济稳定。"
   },
   "distribution_of_power_law": {
     "name": "权力再分配",
     "desc": "权力的分配决定了统治者、行政机构和阶层在之间的权威。国家是一个复杂且脆弱的实体——均衡的权力分配能确保稳定，而赋予任何一个机构过多权力，则可能滋生暴政或导致行政瘫痪。"
   },
   "nobles_rights_laws": {
-    "name": "$nobles_estate$权利",
-    "desc": "的地位不仅因其特权而得以巩固，也受到我们法律的保障。"
+    "name": "贵族权利",
+    "desc": "nobles estate的地位不仅因其特权而得以巩固，也受到我们法律的保障。"
   },
   "burghers_rights_laws": {
-    "name": "$burghers_estate$权利",
-    "desc": "的地位不仅因其特权而得以巩固，也受到我们法律的保障。"
+    "name": "市民权利",
+    "desc": "burghers estate的地位不仅因其特权而得以巩固，也受到我们法律的保障。"
   },
   "clergy_rights_laws": {
-    "name": "$clergy_estate$权利",
-    "desc": "的地位不仅因其特权而得以巩固，也受到我们法律的保障。"
+    "name": "教士权利",
+    "desc": "clergy estate的地位不仅因其特权而得以巩固，也受到我们法律的保障。"
   },
   "crown_rights_laws": {
-    "name": "$crown_estate$权利",
-    "desc": "的地位不仅因诸多改革而得以巩固，也受到我们法律的保障。"
+    "name": "王室权利",
+    "desc": "crown estate的地位不仅因诸多改革而得以巩固，也受到我们法律的保障。"
   },
   "peasants_rights_laws": {
-    "name": "$peasants_estate$的权利",
-    "desc": "的地位不仅因其特权而得以巩固，也受到我们法律的保障。"
+    "name": "平民的权利",
+    "desc": "peasants estate的地位不仅因其特权而得以巩固，也受到我们法律的保障。"
   },
   "order_of_chivalry_law": {
     "name": "骑士团",
-    "desc": "这项法律融合了宗教和宫廷传统，体现了骑士们致力于理想和慈善使命的传统。这些骑士团最初为保护圣地朝圣者并坚守贫困、顺从与贞洁誓言而创立，随着时间的推移，它们发生了转变，开始用于表彰杰出人士，并成为尊贵的象征。"
+    "desc": "这项法律融合了宗教和宫廷传统，体现了骑士们致力于christian理想和慈善使命的传统。这些骑士团最初为保护圣地朝圣者并坚守贫困、顺从与贞洁誓言而创立，随着时间的推移，它们发生了转变，开始用于表彰杰出人士，并成为尊贵的象征。"
   },
   "witchcraft_act": {
     "name": "巫术法案",
@@ -377,7 +377,7 @@
   },
   "mch_queue_hair": {
     "name": "剃发易服",
-    "desc": "$mch_queue_hair$代表了我们对汉人所采取的一系列文化政策。其中最显著的一点就是将汉人的头发剔成髡发并勒令其留起辫子。"
+    "desc": "剃发易服代表了我们对汉人所采取的一系列文化政策。其中最显著的一点就是将汉人的头发剔成髡发并勒令其留起辫子。"
   },
   "monastic_reformation_movement": {
     "name": "修会改革运动",
@@ -389,7 +389,7 @@
   },
   "dahsala_system": {
     "name": "达萨拉税制",
-    "desc": "与其允许地方税法在$india$的平民阶层间榨取殆尽，不如将他们统归入$dahsala_system$，以便我们能够更合理地征税。"
+    "desc": "与其允许地方税法在india的平民阶层间榨取殆尽，不如将他们统归入达萨拉税制，以便我们能够更合理地征税。"
   },
   "hab_military_frontier": {
     "name": "军事边区",
@@ -401,59 +401,59 @@
   },
   "golden_bull": {
     "name": "金玺诏书",
-    "desc": "$golden_bull$是的一道敕令，它创建、定义并固化帝国的宪法结构，尤其是选帝侯团的制度。其他所有帝国法律和帝国改革都建立在$golden_bull$的基础上。"
+    "desc": "金玺诏书是[GetUniqueInternationalOrganization('hre').GetName]的一道敕令，它创建、定义并固化帝国的宪法结构，尤其是选帝侯团的制度。其他所有帝国法律和帝国改革都建立在金玺诏书的基础上。"
   },
   "monetary_contribution": {
     "name": "帝国税法",
-    "desc": "与任何政治实体一样需要黄金才能维持运作。可实施一系列不同的税法，从成员国收取黄金，以确保帝国财政稳定。"
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName]与任何政治实体一样需要黄金才能维持运作。可实施一系列不同的税法，从成员国收取黄金，以确保帝国财政稳定。"
   },
   "military_contribution": {
     "name": "帝国登记册",
-    "desc": "$military_contribution$是一份列明帝国各等级诸侯需向提供军队数量的清单。"
+    "desc": "帝国登记册是一份列明帝国各等级诸侯需向[GetUniqueInternationalOrganization('hre').GetLeaderTitle]提供军队数量的清单。"
   },
   "imperial_religion": {
     "name": "帝国宗教",
-    "desc": "的根本基础建立在何种宗教信仰之上。"
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName]的根本基础建立在何种宗教信仰之上。"
   },
   "electorate_religion_law": {
     "name": "选帝侯宗教法",
-    "desc": "宗教是皇帝和们的重要支柱。"
+    "desc": "宗教是[GetUniqueInternationalOrganization('hre').GetName]皇帝和elector们的重要支柱。"
   },
   "imperial_succession_law": {
     "name": "帝国继承法",
-    "desc": "的继承是一件相当敏感的问题。帝国法律规定了皇位的继承权利。"
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName]的继承是一件相当敏感的问题。帝国法律规定了皇位的继承权利。"
   },
   "imperial_voting_law": {
     "name": "帝国投票法",
-    "desc": "自建立以来就立足于帝国选举原则之上。这种选举的性质决定了帝国权力的平衡。"
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName]自建立以来就立足于帝国选举原则之上。这种选举的性质决定了帝国权力的平衡。"
   },
   "electorate_organization_law": {
     "name": "选举组织",
-    "desc": "是一群有权势的和，拥有选举下一任的特权。"
+    "desc": "elector是一群有权势的nobles estate和clergy estate，拥有选举下一任[GetUniqueInternationalOrganization('hre').GetLeaderTitle]的特权。"
   },
   "free_city_law": {
     "name": "自由市",
-    "desc": "的自由市是拥有自治权的城市。它们通常是召开帝国议会的地方。"
+    "desc": "[GetUniqueInternationalOrganization('hre').GetName]的自由市是拥有自治权的城市。它们通常是召开帝国议会的地方。"
   },
   "free_city_rights_law": {
     "name": "自由市权利",
-    "desc": "获得地位的权利并非易事，这一专属的特权必须由本人亲自授予。"
+    "desc": "获得free city地位的权利并非易事，这一专属的特权必须由[GetUniqueInternationalOrganization('hre').GetLeaderTitle]本人亲自授予。"
   },
   "landfriede_law": {
     "name": "禁止复仇条例",
-    "desc": "《禁止复仇条例》（或称“土地和平令”）是一项法令，其规定成员之间的争端必须通过帝国法庭解决，而非诉诸战场。这项法令有助于我们作为一个帝国保持团结，避免因琐碎的内斗而走向衰弱。"
+    "desc": "《禁止复仇条例》（或称“土地和平令”）是一项法令，其规定[GetUniqueInternationalOrganization('hre').GetName]成员之间的争端必须通过帝国法庭解决，而非诉诸战场。这项法令有助于我们作为一个帝国保持团结，避免因琐碎的内斗而走向衰弱。"
   },
   "imperial_diet_law": {
     "name": "帝国议会",
-    "desc": "是一套古老的体制，其多数法规与程序已不合时宜。是时候对其进行重新修订，并制定一部恰当的，以更有效地保障各成员的权益。"
+    "desc": "hre court assembly是一套古老的体制，其多数法规与程序已不合时宜。是时候对其进行重新修订，并制定一部恰当的imperial diet law，以更有效地保障[GetInternationalOrganizationType('hre').GetName]各成员的权益。"
   },
   "perpetual_diet_law": {
     "name": "永久议会",
-    "desc": "过去，帝国议会在境内各城市不定期召开，每次都需要及其他代表长途跋涉。通过设立常设性的永久议会，我们将创建一个基于持续审议机制而非临时会议的常设机构。"
+    "desc": "过去，帝国议会在[GetInternationalOrganizationType('hre').GetName]境内各城市不定期召开，每次都需要[GetUniqueInternationalOrganization('hre').GetLeaderTitle]及其他代表长途跋涉。通过设立常设性的永久议会，我们将创建一个基于持续审议机制而非临时会议的常设机构。"
   },
   "power_of_the_emperor_law": {
     "name": "[GetUniqueInternationalOrganization('hre').GetLeaderTitle]权力",
-    "desc": "的权力是一个相当复杂的话题，的成员和都与有各自的利益冲突，但他们也认识到，没有权力的无法保护帝国免受外部威胁。"
+    "desc": "[GetUniqueInternationalOrganization('hre').GetLeaderTitle]的权力是一个相当复杂的话题，[GetInternationalOrganizationType('hre').GetName]的成员和elector都与[GetUniqueInternationalOrganization('hre').GetLeaderTitle]有各自的利益冲突，但他们也认识到，没有权力的[GetUniqueInternationalOrganization('hre').GetLeaderTitle]无法保护帝国免受外部威胁。"
   },
   "civil_registration": {
     "name": "编户齐民",
@@ -461,15 +461,15 @@
   },
   "tax_base_system": {
     "name": "赋役制度",
-    "desc": "税收是国家经济之本。为整个建立适当的税收体系，我们可以更有效地获取全天下的财富。"
+    "desc": "税收是国家经济之本。为整个[GetUniqueInternationalOrganization('middle kingdom').GetName]建立适当的税收体系，我们可以更有效地获取全天下的财富。"
   },
   "provincial_governorship": {
     "name": "督抚制度",
-    "desc": "幅员辽阔，亟需建立省级行政体制以有效地治理广袤的领土。"
+    "desc": "[GetUniqueInternationalOrganization('middle kingdom').GetName]幅员辽阔，亟需建立省级行政体制以有效地治理广袤的领土。"
   },
   "cefeng_tizhi": {
     "name": "册封体制",
-    "desc": "朝贡体系自立国之初便已存在，周边各国皆恪守臣礼，尊奉为天下共主。"
+    "desc": "朝贡体系自[GetUniqueInternationalOrganization('middle kingdom').GetName]立国之初便已存在，周边各国皆恪守臣礼，尊奉[GetUniqueInternationalOrganization('middle kingdom').GetLeaderTitle]为天下共主。"
   },
   "keju_examination": {
     "name": "科举考试",
@@ -477,7 +477,7 @@
   },
   "outwards_view": {
     "name": "对外政策",
-    "desc": "自成立以来不断对外扩张，面对外部威胁，我们也应慎选入境者。"
+    "desc": "[GetUniqueInternationalOrganization('middle kingdom').GetName]自成立以来不断对外扩张，面对外部威胁，我们也应慎选入境者。"
   },
   "tianxia": {
     "name": "天下",
@@ -485,15 +485,15 @@
   },
   "jakun_gusa": {
     "name": "八旗",
-    "desc": "八旗系统既为军事根基，亦是我们治下的社会组织核心。其职能应予明晰，避免偏离本职。"
+    "desc": "八旗系统既为军事根基，亦是我们治下的[GetUniqueInternationalOrganization('middle kingdom').GetName]社会组织核心。其职能应予明晰，避免偏离本职。"
   },
   "six_ministries": {
     "name": "六部",
-    "desc": "$six_ministries$是的六个行政部门，各司其职，各尽其责。"
+    "desc": "六部是[GetUniqueInternationalOrganization('middle kingdom').GetName]的六个行政部门，各司其职，各尽其责。"
   },
   "middle_kingdom_decrees": {
-    "name": "$middle_kingdom$",
-    "desc": "圣旨是良好运作的关键，确保的权威在全境得以贯彻。"
+    "name": "middle kingdom",
+    "desc": "圣旨是[GetUniqueInternationalOrganization('middle kingdom').GetName]良好运作的关键，确保[GetUniqueInternationalOrganization('middle kingdom').GetLeaderTitle]的权威在全境得以贯彻。"
   },
   "clan_residence": {
     "name": "大名屋敷",
@@ -501,7 +501,7 @@
   },
   "jap_sakoku_law": {
     "name": "锁国与开国",
-    "desc": "$japan_region$与其他国家隔海相望，享有得天独厚的优势。这使得我们可以非常容易地采取措施，将我国与外部世界隔绝开来。"
+    "desc": "japan region与其他国家隔海相望，享有得天独厚的优势。这使得我们可以非常容易地采取措施，将我国与外部世界隔绝开来。"
   },
   "jap_buke_shohatto": {
     "name": "武家诸法度",
@@ -509,87 +509,87 @@
   },
   "sc_policy_proposal_frequency": {
     "name": "政策提议频率",
-    "desc": "一项旨在规范内执行法律提案间隔期限的法律。"
+    "desc": "一项旨在规范[GetInternationalOrganizationType('swiss confederation').GetName]内执行法律提案间隔期限的法律。"
   },
   "sc_representative": {
-    "name": "[ShowCultureGroupNameWithNoTooltip('swiss_group')]代表",
-    "desc": "任何组织都需要一位发言人——一位代表——作为组织内外政治实体的门面。不过，也可以打破这一规则……"
+    "name": "swiss group代表",
+    "desc": "任何组织都需要一位发言人——一位代表——作为组织内外政治实体的门面。不过，[GetInternationalOrganizationType('swiss confederation').GetName]也可以打破这一规则……"
   },
   "sc_power_of_the_sovereign": {
-    "name": "[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle]权力",
+    "name": "[GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle]权力",
     "desc": "邦联代表可以在内部索取更多权力和影响力，以增强其在公共舞台上的地位。"
   },
   "sc_election_method": {
     "name": "选举方式",
-    "desc": "的选举程序是一个微妙的问题，需要一个严格的立法机构来妥善处理。"
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName][GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle]的选举程序是一个微妙的问题，需要一个严格的立法机构来妥善处理。"
   },
   "sc_ruling_period": {
     "name": "领导期限",
-    "desc": "邦联可以存在一个作为其代表。然而，必须确定该是否将终身为联盟服务，或者直到其任期结束。"
+    "desc": "邦联可以存在一个[GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle]作为其代表。然而，必须确定该[GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle]是否将终身为联盟服务，或者直到其任期结束。"
   },
   "sc_election_frequency": {
     "name": "选举频率",
-    "desc": "在解决了的问题之后，多久重新选举新任的问题便提上了议程。"
+    "desc": "在解决了sc ruling period的问题之后，多久重新选举新任[GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle]的问题便提上了议程。"
   },
   "sc_internal_politics": {
     "name": "内部政治",
-    "desc": "虽然主要是一个防御性联盟，但很明显邦联的内部事务也必须得到处理。"
+    "desc": "虽然[GetInternationalOrganizationType('swiss confederation').GetName]主要是一个防御性联盟，但很明显邦联的内部事务也必须得到处理。"
   },
   "sc_membership_regulation": {
     "name": "成员资格限制",
-    "desc": "最初由人民创立，旨在抵御哈布斯堡王朝在当地的扩张。然而，关于谁可以加入的规则从未明确……"
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName]最初由swiss group人民创立，旨在抵御[GetDynasty('habsburg dynasty').GetName]哈布斯堡王朝在当地的扩张。然而，关于谁可以加入的规则从未明确……"
   },
   "sc_war_politics": {
     "name": "战争政治",
-    "desc": "面临着众多的外部威胁。要想在政局动荡中保卫邦联的安全，就要决定人如何团结起来防卫外敌。"
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName]面临着众多的外部威胁。要想在政局动荡中保卫邦联的安全，就要决定swiss group人如何团结起来防卫外敌。"
   },
   "sc_religious_affairs": {
     "name": "宗教事务",
-    "desc": "随着爆发，邦联的宗教统一岌岌可危。必须找到解决方案，否则信仰冲突可能会撕裂邦联。"
+    "desc": "随着reformation爆发，邦联的宗教统一岌岌可危。必须找到解决方案，否则信仰冲突可能会撕裂邦联。"
   },
   "sc_relations_with_hre": {
     "name": "同帝国的关系",
-    "desc": "自创建以来就一直被视为的一部分。然而，的风波给邦联成员带来的只有无尽的苦果……"
+    "desc": "[GetInternationalOrganizationType('swiss confederation').GetName]自创建以来就一直被视为[GetUniqueInternationalOrganization('hre').GetName]的一部分。然而，reformation的风波给邦联成员带来的只有无尽的苦果……"
   },
   "sc_unification": {
-    "name": "$SWI_ADJ$统一",
-    "desc": "人的土地已经分裂太久了。如果阿尔卑斯山的居民想要得到繁荣与安定，就必须统一在一面旗帜下。"
+    "name": "瑞士统一",
+    "desc": "swiss group人的土地已经分裂太久了。如果阿尔卑斯山的居民想要得到繁荣与安定，就必须统一在一面旗帜下。"
   },
   "lordship_of_ireland_rule_law": {
     "name": "爱尔兰统治规则",
     "desc": "爱尔兰的统治形态，可以狂野如大西洋怒涛拍击嶙峋峭壁，亦可稳固似沼泽般亘古不移。"
   },
   "colonial_federation_unification": {
-    "name": "$colonial_federation$统一方案",
+    "name": "colonial federation统一方案",
     "desc": "在独立的斗争中所缔结的联盟纽带，如今应当升华为将各成员邦凝聚为统一国家的坚实根基。"
   },
   "union_foundation_law": {
     "name": "邦联基本原则",
-    "desc": "这是决定本质的法律——关于它应当走向中央集权还是各国联邦，以及未来能否经受时间考验的法律。"
+    "desc": "这是决定[GetInternationalOrganizationType('union').GetName]本质的法律——关于它应当走向中央集权还是各国联邦，以及未来能否经受时间考验的法律。"
   },
   "union_codified_inheritance_law": {
     "name": "邦联法定继承",
-    "desc": "为了确保的稳定，各成员国的继承法必须保持一致，以便拥有相同的继承顺位。"
+    "desc": "为了确保[GetInternationalOrganizationType('union').GetName]的稳定，各成员国的继承法必须保持一致，以便拥有相同的继承顺位。"
   },
   "union_economic_law": {
     "name": "邦联经济",
-    "desc": "一位君主或许统治多个王座，但各成员在经济上却各自为政。这一法案旨在拉近彼此的经济联系。"
+    "desc": "一位君主或许统治多个王座，但[GetInternationalOrganizationType('union').GetName]各成员在经济上却各自为政。这一法案旨在拉近彼此的经济联系。"
   },
   "union_diplomatic_law": {
     "name": "邦联外交",
-    "desc": "随着由单一王权领导，$union$的外交事务应当如何处理就成为必须面对的问题。\\n\\n#Y 不过，战争事务仍然由我们的邦联成员国的阶层掌控。"
+    "desc": "随着[GetInternationalOrganizationType('union').GetName]由单一王权领导，union的外交事务应当如何处理就成为必须面对的问题。 不过，战争事务仍然由我们的邦联成员国的阶层掌控。"
   },
   "union_legislature_law": {
     "name": "邦联立法",
-    "desc": "的治理需要凝统一共识的顶层制度。为确保$union$的稳定运转，必须建立经成员国认可的统一立法框架。"
+    "desc": "[GetInternationalOrganizationType('union').GetName]的治理需要凝统一共识的顶层制度。为确保union的稳定运转，必须建立经成员国认可的统一立法框架。"
   },
   "union_unification_of_crowns_law": {
     "name": "统一事务",
-    "desc": "在多数情况下，不过是同一王座统治下的松散联合体。然而，在旗帜下实现统一的可能性，绝非遥不可及……"
+    "desc": "在多数情况下，[GetInternationalOrganizationType('union').GetName]不过是同一王座统治下的松散联合体。然而，在senior partner旗帜下实现统一的可能性，绝非遥不可及……"
   },
   "union_mutual_offense_law": {
     "name": "共同进攻",
-    "desc": "共同防守是邦联天然的第一属性和最重要属性，但是如果成员国同意履行义务，那么即便是在进攻战争中，成员国也能支持彼此的军事行动。"
+    "desc": "共同防守是邦联天然的第一属性和最重要属性，但是如果成员国同意履行义务，那么即便是在进攻战争中，[GetInternationalOrganizationType('union').GetName]成员国也能支持彼此的军事行动。"
   },
   "colonial_representation_law": {
     "name": "殖民地代表权",
@@ -609,58 +609,58 @@
   },
   "vajrayana_law": {
     "name": "密宗修行",
-    "desc": "金刚乘$buddhist$又被称为密宗$buddhist$，代表了一系列融合了许多密续、秘传与仪轨实践的$buddhist$形式。这些宗派的发展通常深受其他宗教的深刻影响，尤其是$hindu$。"
+    "desc": "金刚乘buddhist又被称为密宗buddhist，代表了一系列融合了许多密续、秘传与仪轨实践的buddhist形式。这些宗派的发展通常深受其他宗教的深刻影响，尤其是hindu。"
   },
   "sect_school_law": {
     "name": "教派学说",
     "desc": "该教派特有的学说，可能在教义上与主流信仰存在一定差异。"
   },
   "guru_nanak_guruship": {
-    "name": "[GetCharacter('guru_nanak').GetShortNameWithNoTooltip]教诲",
-    "desc": "由创立的教义。"
+    "name": "[GetCharacter('guru nanak').GetShortNameWithNoTooltip]教诲",
+    "desc": "由[GetCharacter('guru nanak').GetName]创立的教义。"
   },
   "guru_angad_guruship": {
-    "name": "[GetCharacter('guru_angad').GetShortNameWithNoTooltip]的教诲",
-    "desc": "由创立的教义。"
+    "name": "[GetCharacter('guru angad').GetShortNameWithNoTooltip]的教诲",
+    "desc": "由[GetCharacter('guru angad').GetName]创立的教义。"
   },
   "guru_amar_das_guruship": {
-    "name": "[GetCharacter('guru_amar_das').GetShortNameWithNoTooltip]的教诲",
-    "desc": "由所建立的教义。"
+    "name": "[GetCharacter('guru amar das').GetShortNameWithNoTooltip]的教诲",
+    "desc": "由[GetCharacter('guru amar das').GetName]所建立的教义。"
   },
   "guru_ram_das_guruship": {
-    "name": "[GetCharacter('guru_ram_das').GetShortNameWithNoTooltip]的教诲",
-    "desc": "由所建立的教义。"
+    "name": "[GetCharacter('guru ram das').GetShortNameWithNoTooltip]的教诲",
+    "desc": "由[GetCharacter('guru ram das').GetName]所建立的教义。"
   },
   "guru_arjan_guruship": {
-    "name": "[GetCharacter('guru_arjan').GetShortNameWithNoTooltip]教诲",
-    "desc": "由所建立的教义。"
+    "name": "[GetCharacter('guru arjan').GetShortNameWithNoTooltip]教诲",
+    "desc": "由[GetCharacter('guru arjan').GetName]所建立的教义。"
   },
   "guru_hargobind_guruship": {
-    "name": "[GetCharacter('guru_hargobind').GetShortNameWithNoTooltip]的教诲",
-    "desc": "由创立的教义。"
+    "name": "[GetCharacter('guru hargobind').GetShortNameWithNoTooltip]的教诲",
+    "desc": "由[GetCharacter('guru hargobind').GetName]创立的教义。"
   },
   "guru_har_rai_guruship": {
-    "name": "[GetCharacter('guru_har_rai').GetShortNameWithNoTooltip]的教诲",
-    "desc": "由创立的教义。"
+    "name": "[GetCharacter('guru har rai').GetShortNameWithNoTooltip]的教诲",
+    "desc": "由[GetCharacter('guru har rai').GetName]创立的教义。"
   },
   "guru_har_krishan_guruship": {
-    "name": "[GetCharacter('guru_har_krishan').GetShortNameWithNoTooltip]的教诲",
-    "desc": "由创立的教义。"
+    "name": "[GetCharacter('guru har krishan').GetShortNameWithNoTooltip]的教诲",
+    "desc": "由[GetCharacter('guru har krishan').GetName]创立的教义。"
   },
   "guru_tegh_bahadur_guruship": {
-    "name": "[GetCharacter('guru_tegh_bahadur').GetShortNameWithNoTooltip]的教诲",
-    "desc": "由所建立的教义。"
+    "name": "[GetCharacter('guru tegh bahadur').GetShortNameWithNoTooltip]的教诲",
+    "desc": "由[GetCharacter('guru tegh bahadur').GetName]所建立的教义。"
   },
   "guru_gobind_singh_guruship": {
-    "name": "[GetCharacter('guru_gobind_singh').GetShortNameWithNoTooltip]的教诲",
-    "desc": "由创立的教义。"
+    "name": "[GetCharacter('guru gobind singh').GetShortNameWithNoTooltip]的教诲",
+    "desc": "由[GetCharacter('guru gobind singh').GetName]创立的教义。"
   },
   "khalsa_law": {
     "name": "卡尔萨",
-    "desc": "承担守护及其信徒使命的战士团体，其行为准则与入会仪式将为所有信徒树立标准。"
+    "desc": "承担守护sikhism及其信徒使命的战士团体，其行为准则与入会仪式将为所有信徒树立标准。"
   },
   "guru_granth_sahib_guruship": {
     "name": "《圣典》的教诲",
-    "desc": "在中确立的教义。"
+    "desc": "在guru granth sahib中确立的教义。"
   }
 }

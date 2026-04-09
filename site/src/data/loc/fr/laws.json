@@ -5,11 +5,11 @@
   },
   "medieval_levy_law": {
     "name": "Loi sur les levées",
-    "desc": "Notre armée est composée principalement de levées qui sont recrutées dans certains estates de notre pays et qui combattront en notre nom jusqu'à ce que nous les dissolvions."
+    "desc": "Notre armée est composée principalement de levées qui sont recrutées dans certains Ordres de notre pays et qui combattront en notre nom jusqu'à ce que nous les dissolvions."
   },
   "royal_court_customs_law": {
     "name": "Douanes de la cour royale",
-    "desc": "Les traditions et la culture propres à la cour jouent un rôle important dans la stabilité de la . Ces coutumes assureront une transition sans danger du pouvoir du dirigeant vers l'héritier et limiteront considérablement les intrigues de la cour."
+    "desc": "Les traditions et la culture propres à la cour jouent un rôle important dans la stabilité de la monarchy. Ces coutumes assureront une transition sans danger du pouvoir du dirigeant vers l'héritier et limiteront considérablement les intrigues de la cour."
   },
   "legitimization_of_power_law": {
     "name": "Légitimation du pouvoir",
@@ -21,11 +21,11 @@
   },
   "iqta_law": {
     "name": "Iqtâ",
-    "desc": "L'$iqta_law$ est une forme d'affermage des impôts pratiquée en contrée . Il s'agit d'un système des revenus fonciers prélevés auprès de la dans le cadre de la zakât, l'aumône légale, qui constitue généralement le revenu de base des États de confession #L e."
+    "desc": "L'Iqtâ est une forme d'affermage des impôts pratiquée en contrée muslim. Il s'agit d'un système des revenus fonciers prélevés auprès de la peasants estate dans le cadre de la zakât, l'aumône légale, qui constitue généralement le revenu de base des États de confession muslime."
   },
   "inquisition_law": {
     "name": "Loi sur l'inquisition",
-    "desc": "Créée initialement pour lutter contre l'hérésie du , l'Inquisition est devenue le principal outil de l'Église pour enquêter sur les hérétiques et entamer des poursuites à leur encontre. Par l'intermédiaire de tribunaux ecclésiastiques spécialisés, des inquisiteurs formés mènent des investigations sur les hérétiques présumés, obtiennent des aveux de transgressions religieuses ou morales, et imposent des punitions allant de la pénitence à l'exécution pour violation des mœurs catholiques."
+    "desc": "Créée initialement pour lutter contre l'hérésie du catharism, l'Inquisition est devenue le principal outil de l'Église catholic pour enquêter sur les hérétiques et entamer des poursuites à leur encontre. Par l'intermédiaire de tribunaux ecclésiastiques spécialisés, des inquisiteurs formés mènent des investigations sur les hérétiques présumés, obtiennent des aveux de transgressions religieuses ou morales, et imposent des punitions allant de la pénitence à l'exécution pour violation des mœurs catholiques."
   },
   "society_of_jesus": {
     "name": "Compagnie de Jésus",
@@ -37,7 +37,7 @@
   },
   "censorship": {
     "name": "Censure",
-    "desc": "La capacité à contrôler les œuvres littéraires qui peuvent être distribuées et les opinions contraires au dogme établi est essentielle à la cohésion religieuse et généralement favorisée par le . En revanche, ces restrictions sont désapprouvées par les libres-penseurs et les professionnels créatifs, et peut avoir de profondes conséquences sur la disponibilité des artists et pour toute work_of_art jugée hérétique."
+    "desc": "La capacité à contrôler les œuvres littéraires qui peuvent être distribuées et les opinions contraires au dogme établi est essentielle à la cohésion religieuse et généralement favorisée par le clergy estate. En revanche, ces restrictions sont désapprouvées par les libres-penseurs et les professionnels créatifs, et peut avoir de profondes conséquences sur la disponibilité des Artistes et pour toute Œuvre d'art jugée hérétique."
   },
   "slave_conversion": {
     "name": "Conversion des esclaves",
@@ -133,7 +133,7 @@
   },
   "bureaucracy_law": {
     "name": "Bureaucratie",
-    "desc": "$modern_bureaucracy_desc$"
+    "desc": "Afin de tirer le meilleur parti des territoires et dépendances que nous contrôlons, nous devons développer, réorganiser et professionnaliser l'administration : une organisation stable peut traiter les affaires de chaque juridiction et éliminer tout recours à des solutions à court terme. Mettons au travail les docteurs des universités afin de définir les meilleures manières de gouverner efficacement, et encourageons les fils de la noblesse à servir l'État la plume à la main plutôt que l'épée."
   },
   "cabinet_laws": {
     "name": "Lois du conseil",
@@ -157,7 +157,7 @@
   },
   "heir_religion_law": {
     "name": "Religion des héritiers",
-    "desc": "La possibilité de décider de la religion de l'heir revêt une grande importance en matière de succession et de gouvernance. Elle permet aux dirigeants et aux gouvernements de maintenir la stabilité religieuse, en veillant à ce que les croyances et les pratiques du dirigeant s'alignent sur celles de la majorité de ses vassaux. À terme, le pouvoir de déterminer la religion de l'héritier représente un élément majeur dans l'équilibre délicat entre la liberté religieuse, la gouvernance et l'harmonie sociétale."
+    "desc": "La possibilité de décider de la religion de l'Héritier revêt une grande importance en matière de succession et de gouvernance. Elle permet aux dirigeants et aux gouvernements de maintenir la stabilité religieuse, en veillant à ce que les croyances et les pratiques du dirigeant s'alignent sur celles de la majorité de ses vassaux. À terme, le pouvoir de déterminer la religion de l'héritier représente un élément majeur dans l'équilibre délicat entre la liberté religieuse, la gouvernance et l'harmonie sociétale."
   },
   "coin_laws": {
     "name": "Loi sur la monnaie",
@@ -165,7 +165,7 @@
   },
   "precious_metal_distribution_law": {
     "name": "Distribution de métaux précieux",
-    "desc": "L' et l' sont les matériaux nécessaires à la frappe des pièces de monnaie. Étant donné que notre État jouit de la position très enviée de pouvoir collecter lui-même ces métaux précieux, il est de notre droit de décider qui a accès à ces ressources."
+    "desc": "L'goods gold et l'silver sont les matériaux nécessaires à la frappe des pièces de monnaie. Étant donné que notre État jouit de la position très enviée de pouvoir collecter lui-même ces métaux précieux, il est de notre droit de décider qui a accès à ces ressources."
   },
   "press_law": {
     "name": "Lois sur la presse",
@@ -181,7 +181,7 @@
   },
   "immigration_law": {
     "name": "Contrôles des frontières",
-    "desc": "Cette loi détermine si la migration est autorisée en provenance ou à destination du Pays."
+    "desc": "Cette loi détermine si la Migration est autorisée en provenance ou à destination du Pays."
   },
   "legal_code_law": {
     "name": "Code juridique",
@@ -192,8 +192,8 @@
     "desc": "Les coutumes de notre hiérarchie sociale et de nos procédures judiciaires doivent être rédigées de manière concise et uniforme dans la langue que nous jugeons la plus appropriée."
   },
   "sharia_law": {
-    "name": "Jurisprudence de la $sharia$",
-    "desc": "$sharia_law_policy_desc$"
+    "name": "Jurisprudence de la Sharī'ah",
+    "desc": "La sharia est un système juridique complet et profondément enraciné qui régit de nombreux aspects de la vie dans les pays musulmans, de la conduite personnelle aux affaires d'État. Elle leur a offert stabilité et continuité pendant des siècles, mais ses sanctions strictes et parfois dures peuvent susciter la controverse et la discorde."
   },
   "recruitment_law": {
     "name": "Loi de recrutement",
@@ -205,18 +205,18 @@
   },
   "army_doctrine_law": {
     "name": "Doctrine militaire",
-    "desc": "Les doctrines militaires représentent les talents dans lesquels notre army peut se spécialiser. Plus nous améliorons nos doctrines, plus elles s'enracinent dans nos armées et plus nous y gagnons. Avec le temps, cela peut donner de puissants avantages à nos glorieuses forces terrestres."
+    "desc": "Les doctrines militaires représentent les talents dans lesquels notre Armée peut se spécialiser. Plus nous améliorons nos doctrines, plus elles s'enracinent dans nos armées et plus nous y gagnons. Avec le temps, cela peut donner de puissants avantages à nos glorieuses forces terrestres."
   },
   "mamluk_rank_system_laws": {
-    "name": "Système de classement $mamluk$",
+    "name": "Système de classement mamluk",
     "desc": "La hiérarchie de notre armée est le cadre constituant l'institution la plus importante de notre pays."
   },
   "mamluk_army_law": {
-    "name": "Loi militaire $mamluk$",
+    "name": "Loi militaire mamluk",
     "desc": "Le cœur de notre administration stratocratique n'est autre que l'armée. En créant des lois et des stipulations pour la former avec attention, nous défendrons notre peuple efficacement contre les menaces extérieures."
   },
   "mamluk_promotion_law": {
-    "name": "Loi de promotion $mamluk$",
+    "name": "Loi de promotion mamluk",
     "desc": "Les lois régissant les promotions au sein de nos grades militaires sont un pilier majeur de notre pays."
   },
   "maritime_law": {
@@ -229,15 +229,15 @@
   },
   "naval_doctrine_law": {
     "name": "Doctrine navale",
-    "desc": "Les doctrines navales représentent les talents dans lesquels notre navy peut se spécialiser. Plus nous améliorons nos doctrines, plus elles s'enracinent dans la marine et plus nous y gagnons. Avec le temps, cela peut donner de puissants avantages à nos glorieuses flottes."
+    "desc": "Les doctrines navales représentent les talents dans lesquels notre Flotte peut se spécialiser. Plus nous améliorons nos doctrines, plus elles s'enracinent dans la marine et plus nous y gagnons. Avec le temps, cela peut donner de puissants avantages à nos glorieuses flottes."
   },
   "sumptuary_law": {
     "name": "Loi somptuaire",
-    "desc": "Les vêtements structurent les sociétés #L es, puisque le type de fibre et l'ornementation témoignent de la position sociale des personnes. Les vêtements marquent également les événements importants de la vie des concitoyens, tels que le mariage, la naissance et la mort. Les citoyens ordinaires s'habillent principalement avec des pièces et des blouses en coton, tandis que les élites de haut rang portent des vêtements décorés de différentes couleurs et de plumes de grande valeur. En revanche, les guerriers n'ont le droit de se vêtir que de simples manteaux.\\n\\nAfin de renforcer la culture guerrière de notre peuple, le Cihuacoatl travaille actuellement à l'élaboration d'un ensemble de lois somptuaires qui régissent la façon dont nos vassaux s'habillent, ce qu'ils peuvent acheter sur les marchés ou les ornements qu'ils peuvent porter en fonction des postes qu'ils sont en mesure d'occuper au sein du gouvernement."
+    "desc": "Les vêtements structurent les sociétés nahuatles, puisque le type de fibre et l'ornementation témoignent de la position sociale des personnes. Les vêtements marquent également les événements importants de la vie des concitoyens, tels que le mariage, la naissance et la mort. Les citoyens ordinaires s'habillent principalement avec des pièces et des blouses en coton, tandis que les élites de haut rang portent des vêtements décorés de différentes couleurs et de plumes de grande valeur. En revanche, les guerriers n'ont le droit de se vêtir que de simples manteaux. Afin de renforcer la culture guerrière de notre peuple, le Cihuacoatl travaille actuellement à l'élaboration d'un ensemble de lois somptuaires qui régissent la façon dont nos vassaux s'habillent, ce qu'ils peuvent acheter sur les marchés ou les ornements qu'ils peuvent porter en fonction des postes qu'ils sont en mesure d'occuper au sein du gouvernement."
   },
   "eng_order_of_the_garter_law": {
     "name": "Ordre de la Jarretière",
-    "desc": "L'Ordre de la Jarretière est un symbole prestigieux des idéaux les plus élevés de notre royaume, transcendant le temps et unissant des personnes d'origines et de talents multiples.\\n\\nQu'il soit composé des favoris du monarque, de dignitaires étrangers estimés, de membres dévoués du clergé, d'artisans talentueux ou de valeureux guerriers, cet ordre vénérable incarne l'apogée de la noblesse et de la vertu."
+    "desc": "L'Ordre de la Jarretière est un symbole prestigieux des idéaux les plus élevés de notre royaume, transcendant le temps et unissant des personnes d'origines et de talents multiples. Qu'il soit composé des favoris du monarque, de dignitaires étrangers estimés, de membres dévoués du clergé, d'artisans talentueux ou de valeureux guerriers, cet ordre vénérable incarne l'apogée de la noblesse et de la vertu."
   },
   "fra_fouage_tax": {
     "name": "Levée du fouage",
@@ -245,7 +245,7 @@
   },
   "fra_taille": {
     "name": "Taille",
-    "desc": "La taille est une taxe imposée à chaque foyer en fonction des terres qu'il possède. Le et la en sont exemptés."
+    "desc": "La taille est une taxe imposée à chaque foyer en fonction des terres qu'il possède. Le [GetEstateName('clergy estate')] et la [GetEstateName('nobles estate')] en sont exemptés."
   },
   "fra_5_percent_tax": {
     "name": "Impôt du vingtième de Machault",
@@ -253,15 +253,15 @@
   },
   "fra_reformation_tolerance_edicts": {
     "name": "Édits de la Réforme",
-    "desc": "La Réforme balaie actuellement l' et le royaume de est au bord de l'éclatement. La politique de l'État face à ces nouveaux fanatiques s'avérera cruciale afin de déterminer leur statut aux yeux de notre nation : celui d'amis ou d'ennemis."
+    "desc": "La Réforme balaie actuellement l'europe et le royaume de [GetCountry('FRA').GetName] est au bord de l'éclatement. La politique de l'État face à ces nouveaux fanatiques s'avérera cruciale afin de déterminer leur statut aux yeux de notre nation : celui d'amis ou d'ennemis."
   },
   "french_colonial_ambition_focus": {
     "name": "Aspirations coloniales",
-    "desc": "À la suite de plusieurs décennies de troubles, la est désormais en mesure de financer des explorations outre-mer. L'adoption de nouvelles politiques permettra de répondre plus efficacement à ces ambitions."
+    "desc": "À la suite de plusieurs décennies de troubles, la [GetCountry('FRA').GetName] est désormais en mesure de financer des explorations outre-mer. L'adoption de nouvelles politiques permettra de répondre plus efficacement à ces ambitions."
   },
   "fra_jansenism_legality": {
     "name": "Statut du jansénisme",
-    "desc": "Doctrine suivant les enseignements de Saint Augustin, le jansénisme met l'accent sur la prédestination, les effets profonds et durables du péché originel ainsi qu'une morale rigoureuse. Il est de plus en plus menacé par la montée de l'absolutisme en et a été officiellement condamné par la bulle #L e Unigenitus."
+    "desc": "Doctrine suivant les enseignements de Saint Augustin, le jansénisme met l'accent sur la prédestination, les effets profonds et durables du péché originel ainsi qu'une morale rigoureuse. Il est de plus en plus menacé par la montée de l'absolutisme en [GetCountry('FRA').GetName] et a été officiellement condamné par la bulle [GetCountry('PAP').GetAdjective|l]e Unigenitus."
   },
   "guilds_of_florence": {
     "name": "Primauté des guildes florentines",
@@ -269,11 +269,11 @@
   },
   "por_estudo_geral_law": {
     "name": "Estudo Geral",
-    "desc": "L' est une nationale qui cherche à éduquer les habitants de notre Pays. Sa localisation et sa proximité avec la capitale sont d'une grande importance."
+    "desc": "L'por estudo geral est une university nationale qui cherche à éduquer les habitants de notre Pays. Sa localisation et sa proximité avec la capitale sont d'une grande importance."
   },
   "teu_amber_monopoly_law": {
-    "name": "Monopole de l'[ShowGoodsNameWithNoTooltip('amber')]",
-    "desc": "L' est l'une des ressources les plus prisées de notre État. Sa commercialisation est d'une grande importance et doit être réglementée avec soin."
+    "name": "Monopole de l'amber",
+    "desc": "L'amber est l'une des ressources les plus prisées de notre État. Sa commercialisation est d'une grande importance et doit être réglementée avec soin."
   },
   "nav_adaptability": {
     "name": "Adaptabilité de la Navarre",
@@ -281,11 +281,11 @@
   },
   "six_ministries_overseer_law": {
     "name": "Supervision des six ministères",
-    "desc": "Le travail des doit être supervisé par une autre institution, ou peut-être même le monarque."
+    "desc": "Le travail des six ministries doit être supervisé par une autre institution, ou peut-être même le monarque."
   },
   "ashta_pradhan_council_law": {
     "name": "Conseil d'Ashta Pradhan",
-    "desc": "$mhr_ashta_pradhan_desc$"
+    "desc": "mhr ashta pradhan desc"
   },
   "kor_currency": {
     "name": "Monnaie dominante",
@@ -301,47 +301,47 @@
   },
   "status_of_the_han_law": {
     "name": "Statut des Han",
-    "desc": "Notre dynastie est originaire de l'extérieur du territoire central de l', ce qui fait de nous des étrangers de la majorité Han."
+    "desc": "Notre dynastie est originaire de l'extérieur du territoire central de l'[GetInternationalOrganization('middle kingdom').GetName], ce qui fait de nous des étrangers de la majorité chinese group Han."
   },
   "sco_clan_holdings": {
     "name": "Distribution des possessions de clans [GetCountry('SCO').GetAdjectiveWithNoTooltip]",
-    "desc": "L'héritage des possessions #L es est divisé proportionnellement à l'influence du clan, les clans les plus importants recevant plus de possessions. Les possessions des clans sont transmises directement à l'héritier, à moins qu'un titre ne soit révoqué ou qu'il ne s'éteigne."
+    "desc": "L'héritage des possessions [GetCountry('SCO').GetAdjective]es est divisé proportionnellement à l'influence du clan, les clans les plus importants recevant plus de possessions. Les possessions des clans sont transmises directement à l'héritier, à moins qu'un titre ne soit révoqué ou qu'il ne s'éteigne."
   },
   "sco_authority_over_the_clergy": {
     "name": "Autorité sur le clergé",
-    "desc": "Les contributions #L es à la sont devenues un fardeau pour les finances de l'État. Cherchant à réduire cette part contributive, l'État a pris une juridiction directe sur les ecclésiastiques."
+    "desc": "Les contributions [GetCountry('SCO').GetAdjective|l]es à la curia sont devenues un fardeau pour les finances de l'État. Cherchant à réduire cette part contributive, l'État a pris une juridiction directe sur les ecclésiastiques."
   },
   "sco_colonial_affairs_law": {
-    "name": "Affaires coloniales #L [GetCountry('SCO').GetAdjectiveWithNoTooltip]es#!",
-    "desc": "Avec les histoires de richesses du nouveau monde, l' s'apprête à récolter les fruits de l'établissement d'une base coloniale importante, bien qu'une ambition excessive puisse s'avérer catastrophique pour la stabilité économique de l'État."
+    "name": "Affaires coloniales [GetCountry('SCO').GetAdjectiveWithNoTooltip]es",
+    "desc": "Avec les histoires de richesses du nouveau monde, l'[GetCountry('SCO').GetName] s'apprête à récolter les fruits de l'établissement d'une base coloniale importante, bien qu'une ambition excessive puisse s'avérer catastrophique pour la stabilité économique de l'État."
   },
   "distribution_of_power_law": {
     "name": "Distribution du pouvoir",
     "desc": "La distribution du pouvoir détermine la façon dont l'autorité est divisée entre le dirigeant, les corps administratifs et les ordres. L'État est une entité complexe et fragile : une distribution de pouvoirs équilibrée assure la stabilité, tandis que donner trop de pouvoir à une seule institution risque d'amener la tyrannie ou la paralysie administrative."
   },
   "nobles_rights_laws": {
-    "name": "Droits de la $nobles_estate$",
-    "desc": "La position de la n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
+    "name": "Droits de la Noblesse",
+    "desc": "La position de la nobles estate n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
   },
   "burghers_rights_laws": {
-    "name": "Droits de la $burghers_estate$",
-    "desc": "La position de la n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
+    "name": "Droits de la Bourgeoisie",
+    "desc": "La position de la burghers estate n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
   },
   "clergy_rights_laws": {
-    "name": "Droits du $clergy_estate$",
-    "desc": "La position du n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
+    "name": "Droits du Clergé",
+    "desc": "La position du clergy estate n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
   },
   "crown_rights_laws": {
-    "name": "Droits de la $crown_estate$",
-    "desc": "La position de la n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
+    "name": "Droits de la Couronne",
+    "desc": "La position de la crown estate n'est pas seulement renforcée par ses privilèges, mais également par nos lois."
   },
   "peasants_rights_laws": {
-    "name": "Droits de la $peasants_estate$",
-    "desc": "La position des n'est pas seulement renforcée par leurs privilèges, mais également par nos lois."
+    "name": "Droits de la Paysannerie",
+    "desc": "La position des peasants estate n'est pas seulement renforcée par leurs privilèges, mais également par nos lois."
   },
   "order_of_chivalry_law": {
     "name": "Ordre de chevalerie",
-    "desc": "Enraciné dans un mélange de traditions et de coutumes religieuses, cette loi incarne un héritage de chevaliers dévoués aux idéaux et aux missions charitables #L s. Fondés à l'origine pour protéger les pèlerins en route vers la Terre Sainte et faire vœu de pauvreté, d'obéissance et de chasteté, ces ordres se sont transformés avec le temps, honorant les individus éminents et devenant un vrai symbole de prestige."
+    "desc": "Enraciné dans un mélange de traditions et de coutumes religieuses, cette loi incarne un héritage de chevaliers dévoués aux idéaux et aux missions charitables christians. Fondés à l'origine pour protéger les pèlerins en route vers la Terre Sainte et faire vœu de pauvreté, d'obéissance et de chasteté, ces ordres se sont transformés avec le temps, honorant les individus éminents et devenant un vrai symbole de prestige."
   },
   "witchcraft_act": {
     "name": "Loi sur la sorcellerie",
@@ -377,7 +377,7 @@
   },
   "mch_queue_hair": {
     "name": "Tìfāyìfú",
-    "desc": "$mch_queue_hair$ doit être considérée comme notre politique culturelle à l'égard des . L'une des principales exigences sera que les Hàn organisent leurs cheveux dans le style Biànzi."
+    "desc": "Tìfāyìfú doit être considérée comme notre politique culturelle à l'égard des chinese group. L'une des principales exigences sera que les Hàn organisent leurs cheveux dans le style Biànzi."
   },
   "monastic_reformation_movement": {
     "name": "Mouvement de la réformation monastique",
@@ -389,7 +389,7 @@
   },
   "dahsala_system": {
     "name": "Dahsala",
-    "desc": "Au lieu de laisser les lois fiscales locales se développer pour les gens du peuple en $india$, les organiser toutes au sein du $dahsala_system$ nous permettra de les taxer correctement."
+    "desc": "Au lieu de laisser les lois fiscales locales se développer pour les gens du peuple en india, les organiser toutes au sein du Dahsala nous permettra de les taxer correctement."
   },
   "hab_military_frontier": {
     "name": "Frontière militaire",
@@ -401,59 +401,59 @@
   },
   "golden_bull": {
     "name": "Bulle d'or",
-    "desc": "La $golden_bull$ est le décret du qui définit et établit la structure constitutionnelle du Saint-Empire et notamment le collège électoral. Les autres lois et réformes impériales sont bâties sur la base de la $golden_bull$."
+    "desc": "La Bulle d'or est le décret du [GetUniqueInternationalOrganization('hre').GetName] qui définit et établit la structure constitutionnelle du Saint-Empire et notamment le collège électoral. Les autres lois et réformes impériales sont bâties sur la base de la Bulle d'or."
   },
   "monetary_contribution": {
     "name": "Loi fiscale impériale",
-    "desc": "Comme toute autre entité politique, le a besoin d'or pour fonctionner. Une série de lois fiscales peut être appliquée pour capter l'or des membres afin d'assurer la stabilité financière de l'Empire."
+    "desc": "Comme toute autre entité politique, le [GetUniqueInternationalOrganization('hre').GetName] a besoin d'or pour fonctionner. Une série de lois fiscales peut être appliquée pour capter l'or des membres afin d'assurer la stabilité financière de l'Empire."
   },
   "military_contribution": {
     "name": "Registre impérial",
-    "desc": "La $military_contribution$ est une liste qui spécifie le nombre exact de troupes que chaque ordre doit fournir à l'."
+    "desc": "La Registre impérial est une liste qui spécifie le nombre exact de troupes que chaque ordre doit fournir à l'[GetUniqueInternationalOrganization('hre').GetLeaderTitle]."
   },
   "imperial_religion": {
     "name": "Religion impériale",
-    "desc": "Les fondations mêmes de l' sont bâties sur des croyances religieuses."
+    "desc": "Les fondations mêmes de l'[GetUniqueInternationalOrganization('hre').GetName] sont bâties sur des croyances religieuses."
   },
   "electorate_religion_law": {
     "name": "Loi religieuse de l'électorat",
-    "desc": "La religion est un pilier du , pour ses empereurs et ."
+    "desc": "La religion est un pilier du [GetUniqueInternationalOrganization('hre').GetName], pour ses empereurs et elector."
   },
   "imperial_succession_law": {
     "name": "Succession impériale",
-    "desc": "La succession du est une affaire délicate. Le droit de succession au trône impérial est décrit dans les lois impériales."
+    "desc": "La succession du [GetUniqueInternationalOrganization('hre').GetName] est une affaire délicate. Le droit de succession au trône impérial est décrit dans les lois impériales."
   },
   "imperial_voting_law": {
     "name": "Vote impérial",
-    "desc": "Le repose sur le principe de l'élection impériale. La nature de cette dernière définit l'équilibre des pouvoirs au sein de l'Empire."
+    "desc": "Le [GetUniqueInternationalOrganization('hre').GetName] repose sur le principe de l'élection impériale. La nature de cette dernière définit l'équilibre des pouvoirs au sein de l'Empire."
   },
   "electorate_organization_law": {
     "name": "Organisation électorale",
-    "desc": "Les regroupent des membres puissants de la et du qui ont le privilège de voter pour le ."
+    "desc": "Les elector regroupent des membres puissants de la nobles estate et du clergy estate qui ont le privilège de voter pour le [GetUniqueInternationalOrganization('hre').GetLeaderTitle]."
   },
   "free_city_law": {
     "name": "Villes libres",
-    "desc": "Les villes libres du sont autonomes. C'est généralement là que se tient la Diète impériale."
+    "desc": "Les villes libres du [GetUniqueInternationalOrganization('hre').GetName] sont autonomes. C'est généralement là que se tient la Diète impériale."
   },
   "free_city_rights_law": {
     "name": "Droits des Villes libres",
-    "desc": "Il n'est pas facile d'obtenir le statut de . Ce titre exclusif doit être remis par l'."
+    "desc": "Il n'est pas facile d'obtenir le statut de free city. Ce titre exclusif doit être remis par l'[GetUniqueInternationalOrganization('hre').GetLeaderTitle]."
   },
   "landfriede_law": {
     "name": "Landfriede",
-    "desc": "La Landfriede, ou « paix territoriale », est un décret selon lequel les différends entre membres du doivent être réglés à la cour impériale plutôt que sur le champ de bataille. Ce cadre permet à l'empire de garder sa cohésion, plutôt que de s'affaiblir à force de conflits intestins."
+    "desc": "La Landfriede, ou « paix territoriale », est un décret selon lequel les différends entre membres du [GetUniqueInternationalOrganization('hre').GetName] doivent être réglés à la cour impériale plutôt que sur le champ de bataille. Ce cadre permet à l'empire de garder sa cohésion, plutôt que de s'affaiblir à force de conflits intestins."
   },
   "imperial_diet_law": {
     "name": "Diète impériale",
-    "desc": "L' est un système ancien, et ses pratiques et procédures sont souvent désuètes. Il est temps de la réorganiser pour établir une véritable qui protègera mieux les intérêts divers des membres du ."
+    "desc": "L'hre court assembly est un système ancien, et ses pratiques et procédures sont souvent désuètes. Il est temps de la réorganiser pour établir une véritable imperial diet law qui protègera mieux les intérêts divers des membres du [GetInternationalOrganizationType('hre').GetName]."
   },
   "perpetual_diet_law": {
     "name": "Diète perpétuelle",
-    "desc": "Auparavant, la Diète impériale se rassemblait de manière irrégulière dans différentes villes du , ce qui forçait et d'autres représentants à voyager à chaque session. En établissant une Diète permanente, perpétuelle, nous créerons une assemblée permanente où se mèneront des délibérations constantes, plutôt que des réunions sporadiques."
+    "desc": "Auparavant, la Diète impériale se rassemblait de manière irrégulière dans différentes villes du [GetInternationalOrganizationType('hre').GetName], ce qui forçait [GetUniqueInternationalOrganization('hre').GetLeaderTitle] et d'autres représentants à voyager à chaque session. En établissant une Diète permanente, perpétuelle, nous créerons une assemblée permanente où se mèneront des délibérations constantes, plutôt que des réunions sporadiques."
   },
   "power_of_the_emperor_law": {
     "name": "Puissance de [GetUniqueInternationalOrganization('hre').GetLeaderTitle]",
-    "desc": "Le pouvoir de est une affaire délicate car les membres de l'Empire et les Électeurs ont leurs propres intérêts en conflit avec ceux de , mais ils reconnaissent également qu'un Empereur sans aucun pouvoir ne peut protéger l'Empire face aux menaces extérieures."
+    "desc": "Le pouvoir de [GetUniqueInternationalOrganization('hre').GetLeaderTitle] est une affaire délicate car les membres de l'Empire et les Électeurs ont leurs propres intérêts en conflit avec ceux de [GetUniqueInternationalOrganization('hre').GetLeaderTitle], mais ils reconnaissent également qu'un Empereur sans aucun pouvoir ne peut protéger l'Empire face aux menaces extérieures."
   },
   "civil_registration": {
     "name": "Registres civils",
@@ -461,15 +461,15 @@
   },
   "tax_base_system": {
     "name": "Système d'Assiette fiscale",
-    "desc": "La fiscalité est le fondement de l'économie de tout pays. En mettant en place un système fiscal adéquat dans l'ensemble de l', nous pouvons exploiter plus efficacement les richesses de nos territoires."
+    "desc": "La fiscalité est le fondement de l'économie de tout pays. En mettant en place un système fiscal adéquat dans l'ensemble de l'[GetUniqueInternationalOrganization('middle kingdom').GetName], nous pouvons exploiter plus efficacement les richesses de nos territoires."
   },
   "provincial_governorship": {
     "name": "Gouvernance provinciale",
-    "desc": "L'immensité de l' est sans pareille. Afin de gouverner efficacement nos vastes possessions, nous mettrons en place un système d'administrateurs provinciaux."
+    "desc": "L'immensité de l'[GetUniqueInternationalOrganization('middle kingdom').GetName] est sans pareille. Afin de gouverner efficacement nos vastes possessions, nous mettrons en place un système d'administrateurs provinciaux."
   },
   "cefeng_tizhi": {
     "name": "Cèfēng Tǐzhì",
-    "desc": "Le système tributaire existe depuis son entrée en vigueur au sein de l', toutes les nations environnantes reconnaissant docilement l'autorité de l'."
+    "desc": "Le système tributaire existe depuis son entrée en vigueur au sein de l'[GetUniqueInternationalOrganization('middle kingdom').GetName], toutes les nations environnantes reconnaissant docilement l'autorité de l'[GetUniqueInternationalOrganization('middle kingdom').GetLeaderTitle]."
   },
   "keju_examination": {
     "name": "Examen Kējǔ",
@@ -477,7 +477,7 @@
   },
   "outwards_view": {
     "name": "Regard tourné vers l'extérieur",
-    "desc": "Depuis sa création, l' étend son pouvoir au-delà de ses frontières, mais les menaces extérieures montrent que nous devons faire preuve de prudence concernant les populations autorisées à entrer sur son territoire."
+    "desc": "Depuis sa création, l'[GetUniqueInternationalOrganization('middle kingdom').GetName] étend son pouvoir au-delà de ses frontières, mais les menaces extérieures montrent que nous devons faire preuve de prudence concernant les populations autorisées à entrer sur son territoire."
   },
   "tianxia": {
     "name": "Tiānxià",
@@ -485,15 +485,15 @@
   },
   "jakun_gusa": {
     "name": "Jakūn Gūsa",
-    "desc": "Structurant dès l'origine l'organisation militaire, les Huit Bannières représentent également la base organisationnelle de la société au sein de l'. Leur rôle doit être clairement défini afin que leur objectif principal reste une priorité."
+    "desc": "Structurant dès l'origine l'organisation militaire, les Huit Bannières représentent également la base organisationnelle de la société au sein de l'[GetUniqueInternationalOrganization('middle kingdom').GetName]. Leur rôle doit être clairement défini afin que leur objectif principal reste une priorité."
   },
   "six_ministries": {
     "name": "Six ministères",
-    "desc": "Les $six_ministries$ représentent les diverses divisions administratives de l', chacune disposant de ses propres tâches et fonctions."
+    "desc": "Les Six ministères représentent les diverses divisions administratives de l'[GetUniqueInternationalOrganization('middle kingdom').GetName], chacune disposant de ses propres tâches et fonctions."
   },
   "middle_kingdom_decrees": {
-    "name": "$middle_kingdom$",
-    "desc": "Les décrets impériaux sont la clé du bon fonctionnement de l', car ils garantissent que l'autorité de l' est appliquée dans tout le royaume."
+    "name": "middle kingdom",
+    "desc": "Les décrets impériaux sont la clé du bon fonctionnement de l'[GetUniqueInternationalOrganization('middle kingdom').GetName], car ils garantissent que l'autorité de l'[GetUniqueInternationalOrganization('middle kingdom').GetLeaderTitle] est appliquée dans tout le royaume."
   },
   "clan_residence": {
     "name": "Résidence de clan",
@@ -501,7 +501,7 @@
   },
   "jap_sakoku_law": {
     "name": "Interaction outre-mer",
-    "desc": "Le $japan_region$ a toujours eu le luxe d'être séparé des autres pays par la mer. Cette distance rend la fermeture de nos frontières au monde extérieur bien plus simple."
+    "desc": "Le japan region a toujours eu le luxe d'être séparé des autres pays par la mer. Cette distance rend la fermeture de nos frontières au monde extérieur bien plus simple."
   },
   "jap_buke_shohatto": {
     "name": "Buke shohatto",
@@ -509,87 +509,87 @@
   },
   "sc_policy_proposal_frequency": {
     "name": "Fréquence des propositions de loi",
-    "desc": "Une réglementation qui régit l'administration des propositions de loi au sein de la ."
+    "desc": "Une réglementation qui régit l'administration des propositions de loi au sein de la [GetInternationalOrganizationType('swiss confederation').GetName]."
   },
   "sc_representative": {
-    "name": "Représentant des #L [ShowCultureGroupNameWithNoTooltip('swiss_group')]s#!",
-    "desc": "Chaque type d'organisation nécessitera un porte-parole qui représentera ses entités politiques à l'intérieur comme à l'extérieur. La pourrait néanmoins faire exception à cette règle..."
+    "name": "Représentant des swiss groups",
+    "desc": "Chaque type d'organisation nécessitera un porte-parole qui représentera ses entités politiques à l'intérieur comme à l'extérieur. La [GetInternationalOrganizationType('swiss confederation').GetName] pourrait néanmoins faire exception à cette règle..."
   },
   "sc_power_of_the_sovereign": {
-    "name": "Pouvoir du [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle]",
+    "name": "Pouvoir du [GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle]",
     "desc": "Le représentant de la Confédération pourrait exiger davantage de pouvoir et d'influence au sein de l'union afin de renforcer sa position sur la scène publique."
   },
   "sc_election_method": {
     "name": "Processus d'élection",
-    "desc": "Le processus d'élection du de la est une question délicate qui exige une législature précise afin d'éviter tout incident."
+    "desc": "Le processus d'élection du [GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle] de la [GetInternationalOrganizationType('swiss confederation').GetName] est une question délicate qui exige une législature précise afin d'éviter tout incident."
   },
   "sc_ruling_period": {
     "name": "Durée de mandat",
-    "desc": "La Confédération peut avoir un qui la représente. Cependant, il est important de déterminer si celui-ci détiendra les rênes du pouvoir à vie ou seulement pour une certaine durée."
+    "desc": "La Confédération peut avoir un [GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle] qui la représente. Cependant, il est important de déterminer si celui-ci détiendra les rênes du pouvoir à vie ou seulement pour une certaine durée."
   },
   "sc_election_frequency": {
     "name": "Fréquence des élections",
-    "desc": "La question de la étant désormais résolue, un nouveau problème se pose : celui de la fréquence des élections d'un nouveau ."
+    "desc": "La question de la sc ruling period étant désormais résolue, un nouveau problème se pose : celui de la fréquence des élections d'un nouveau [GetUniqueInternationalOrganization('swiss confederation').GetLeaderTitle]."
   },
   "sc_internal_politics": {
     "name": "Politique intérieure",
-    "desc": "Bien que la ait avant tout été fondée pour des raisons défensives, il est bien entendu primordial d'en administrer les affaires intérieures."
+    "desc": "Bien que la [GetInternationalOrganizationType('swiss confederation').GetName] ait avant tout été fondée pour des raisons défensives, il est bien entendu primordial d'en administrer les affaires intérieures."
   },
   "sc_membership_regulation": {
     "name": "Réglementation des membres",
-    "desc": "La est une organisation créée à l'origine par le peuple pour se défendre contre l'influence croissante des dans la région. Cependant, les règles d'adhésion ne sont jamais figées..."
+    "desc": "La [GetInternationalOrganizationType('swiss confederation').GetName] est une organisation créée à l'origine par le peuple swiss group pour se défendre contre l'influence croissante des [GetDynasty('habsburg dynasty').GetName] dans la région. Cependant, les règles d'adhésion ne sont jamais figées..."
   },
   "sc_war_politics": {
     "name": "Politique de guerre",
-    "desc": "Les menaces extérieures de la sont nombreuses. Afin de survivre à une anarchie politique, il est vital d'établir des conditions unifiées définissant la façon dont les peuvent se défendre les uns contre les autres."
+    "desc": "Les menaces extérieures de la [GetInternationalOrganizationType('swiss confederation').GetName] sont nombreuses. Afin de survivre à une anarchie politique, il est vital d'établir des conditions unifiées définissant la façon dont les swiss group peuvent se défendre les uns contre les autres."
   },
   "sc_religious_affairs": {
     "name": "Affaires religieuses",
-    "desc": "En raison de la , l'unité religieuse de la Confédération se voit aujourd'hui dans une situation précaire. Si aucune solution n'est trouvée, ce conflit de foi pourrait bien déchirer l'union tout entière."
+    "desc": "En raison de la reformation, l'unité religieuse de la Confédération se voit aujourd'hui dans une situation précaire. Si aucune solution n'est trouvée, ce conflit de foi pourrait bien déchirer l'union tout entière."
   },
   "sc_relations_with_hre": {
     "name": "Relations impériales",
-    "desc": "La fait partie du depuis sa création. Cependant, la a laissé un goût amer dans la bouche de nombreux membres de la Confédération..."
+    "desc": "La [GetInternationalOrganizationType('swiss confederation').GetName] fait partie du [GetUniqueInternationalOrganization('hre').GetName] depuis sa création. Cependant, la reformation a laissé un goût amer dans la bouche de nombreux membres de la Confédération..."
   },
   "sc_unification": {
-    "name": "Unification $SWI_ADJ$",
-    "desc": "Les territoires #L s sont divisés depuis bien trop longtemps. Si les populations des Alpes souhaitent voir prospérité et sécurité s'installer, elles doivent s'unir sous une même bannière."
+    "name": "Unification Suisse",
+    "desc": "Les territoires swiss groups sont divisés depuis bien trop longtemps. Si les populations des Alpes souhaitent voir prospérité et sécurité s'installer, elles doivent s'unir sous une même bannière."
   },
   "lordship_of_ireland_rule_law": {
     "name": "Autorité irlandaise",
     "desc": "La forme du gouvernement en Irlande peut être aussi sauvage que le grand Atlantique qui s'écrase contre ses falaises escarpées, ou aussi éternelle que les tourbières."
   },
   "colonial_federation_unification": {
-    "name": "Unification de la $colonial_federation$",
+    "name": "Unification de la colonial federation",
     "desc": "Avec des liens forgés dans les feux de notre lutte pour l'indépendance, il est temps d'envisager l'unification des terres de nos membres."
   },
   "union_foundation_law": {
     "name": "Fondation de l'Union",
-    "desc": "La loi de l' qui détermine sa nature même et la voie future qu'elle doit suivre, à savoir centralisée ou fédérale, si elle résiste à l'épreuve du temps."
+    "desc": "La loi de l'[GetInternationalOrganizationType('union').GetName] qui détermine sa nature même et la voie future qu'elle doit suivre, à savoir centralisée ou fédérale, si elle résiste à l'épreuve du temps."
   },
   "union_codified_inheritance_law": {
     "name": "Succession codifiée",
-    "desc": "Afin d'assurer la stabilité de l', les lois successorales de chaque membre doivent être codifiées de façon que chaque État possède le même ordre de succession."
+    "desc": "Afin d'assurer la stabilité de l'[GetInternationalOrganizationType('union').GetName], les lois successorales de chaque membre doivent être codifiées de façon que chaque État possède le même ordre de succession."
   },
   "union_economic_law": {
     "name": "Économie de l'Union",
-    "desc": "Un monarque peut régir plusieurs trônes, mais les membres de l' sont très éloignés les uns des autres sur le plan économique. Cette loi les rapprochera sans conteste."
+    "desc": "Un monarque peut régir plusieurs trônes, mais les membres de l'[GetInternationalOrganizationType('union').GetName] sont très éloignés les uns des autres sur le plan économique. Cette loi les rapprochera sans conteste."
   },
   "union_diplomatic_law": {
     "name": "Libertés diplomatiques",
-    "desc": "L'union étant dirigée par un trône unique, la question se pose de savoir de quelle manière la diplomatie de l'$union$ doit être gérée.\\n\\n#Y Les questions relatives à la guerre restent toutefois entre les mains des Ordres de nos partenaires d'union."
+    "desc": "L'union [GetInternationalOrganizationType('union').GetName] étant dirigée par un trône unique, la question se pose de savoir de quelle manière la diplomatie de l'union doit être gérée. Les questions relatives à la guerre restent toutefois entre les mains des Ordres de nos partenaires d'union."
   },
   "union_legislature_law": {
     "name": "Législature de l'Union",
-    "desc": "L'administration de notre nécessite un modèle cohérent. Un système législatif unitaire et approuvé est impératif pour assurer la stabilité de l'$union$."
+    "desc": "L'administration de notre [GetInternationalOrganizationType('union').GetName] nécessite un modèle cohérent. Un système législatif unitaire et approuvé est impératif pour assurer la stabilité de l'union."
   },
   "union_unification_of_crowns_law": {
     "name": "La question de l'unification",
-    "desc": "Dans la plupart des cas, l' n'est rien d'autre qu'une confédération lâche d'États différents gouvernés par le même trône. Cependant, la possibilité d'une unification sous la bannière du est envisageable..."
+    "desc": "Dans la plupart des cas, l'[GetInternationalOrganizationType('union').GetName] n'est rien d'autre qu'une confédération lâche d'États différents gouvernés par le même trône. Cependant, la possibilité d'une unification sous la bannière du senior partner est envisageable..."
   },
   "union_mutual_offense_law": {
     "name": "Attaque mutuelle",
-    "desc": "Bien que l' constitue avant tout un pacte défensif, sa puissance militaire peut être appelée en soutien lors de campagnes militaires... à condition que ses États membres le veuillent bien."
+    "desc": "Bien que l'[GetInternationalOrganizationType('union').GetName] constitue avant tout un pacte défensif, sa puissance militaire peut être appelée en soutien lors de campagnes militaires... à condition que ses États membres le veuillent bien."
   },
   "colonial_representation_law": {
     "name": "Représentation coloniale",
@@ -609,58 +609,58 @@
   },
   "vajrayana_law": {
     "name": "Pratiques tantriques",
-    "desc": "Vajrayāna, également appelée $buddhist$ tantrique ou $buddhist$ ésotérique, est une forme de $buddhist$ qui incorpore de nombreuses pratiques tantriques, ésotériques et rituelles. Son développement a été fortement influencé par les autres religions, notamment de type $hindu$."
+    "desc": "Vajrayāna, également appelée buddhist tantrique ou buddhist ésotérique, est une forme de buddhist qui incorpore de nombreuses pratiques tantriques, ésotériques et rituelles. Son développement a été fortement influencé par les autres religions, notamment de type hindu."
   },
   "sect_school_law": {
     "name": "École sectaire",
     "desc": "L'école de cette secte, dont les enseignements peuvent diverger de la norme."
   },
   "guru_nanak_guruship": {
-    "name": "Enseignements de [GetCharacter('guru_nanak').GetShortNameWithNoTooltip]",
-    "desc": "Les enseignements établis par ."
+    "name": "Enseignements de [GetCharacter('guru nanak').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par [GetCharacter('guru nanak').GetName]."
   },
   "guru_angad_guruship": {
-    "name": "Enseignements de [GetCharacter('guru_angad').GetShortNameWithNoTooltip]",
-    "desc": "Les enseignements établis par ."
+    "name": "Enseignements de [GetCharacter('guru angad').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par [GetCharacter('guru angad').GetName]."
   },
   "guru_amar_das_guruship": {
-    "name": "Enseignements de [GetCharacter('guru_amar_das').GetShortNameWithNoTooltip]",
-    "desc": "Les enseignements établis par ."
+    "name": "Enseignements de [GetCharacter('guru amar das').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par [GetCharacter('guru amar das').GetName]."
   },
   "guru_ram_das_guruship": {
-    "name": "Enseignements de [GetCharacter('guru_ram_das').GetShortNameWithNoTooltip]",
-    "desc": "Les enseignements établis par ."
+    "name": "Enseignements de [GetCharacter('guru ram das').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par [GetCharacter('guru ram das').GetName]."
   },
   "guru_arjan_guruship": {
-    "name": "Enseignements de [GetCharacter('guru_arjan').GetShortNameWithNoTooltip]",
-    "desc": "Les enseignements établis par ."
+    "name": "Enseignements de [GetCharacter('guru arjan').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par [GetCharacter('guru arjan').GetName]."
   },
   "guru_hargobind_guruship": {
-    "name": "Enseignements de [GetCharacter('guru_hargobind').GetShortNameWithNoTooltip]",
-    "desc": "Les enseignements établis par ."
+    "name": "Enseignements de [GetCharacter('guru hargobind').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par [GetCharacter('guru hargobind').GetName]."
   },
   "guru_har_rai_guruship": {
-    "name": "Enseignements de [GetCharacter('guru_har_rai').GetShortNameWithNoTooltip]",
-    "desc": "Les enseignements établis par ."
+    "name": "Enseignements de [GetCharacter('guru har rai').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par [GetCharacter('guru har rai').GetName]."
   },
   "guru_har_krishan_guruship": {
-    "name": "Enseignements de [GetCharacter('guru_har_krishan').GetShortNameWithNoTooltip]",
-    "desc": "Les enseignements établis par ."
+    "name": "Enseignements de [GetCharacter('guru har krishan').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par [GetCharacter('guru har krishan').GetName]."
   },
   "guru_tegh_bahadur_guruship": {
-    "name": "Enseignements de [GetCharacter('guru_tegh_bahadur').GetShortNameWithNoTooltip]",
-    "desc": "Les enseignements établis par ."
+    "name": "Enseignements de [GetCharacter('guru tegh bahadur').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par [GetCharacter('guru tegh bahadur').GetName]."
   },
   "guru_gobind_singh_guruship": {
-    "name": "Enseignements de [GetCharacter('guru_gobind_singh').GetShortNameWithNoTooltip]",
-    "desc": "Les enseignements établis par ."
+    "name": "Enseignements de [GetCharacter('guru gobind singh').GetShortNameWithNoTooltip]",
+    "desc": "Les enseignements établis par [GetCharacter('guru gobind singh').GetName]."
   },
   "khalsa_law": {
     "name": "Khâlsâ",
-    "desc": "Communauté guerrière chargée de défendre le et ses adeptes, ses règles de conduite et d'initiation constitueront une norme pour tous les fidèles."
+    "desc": "Communauté guerrière chargée de défendre le sikhism et ses adeptes, ses règles de conduite et d'initiation constitueront une norme pour tous les fidèles."
   },
   "guru_granth_sahib_guruship": {
-    "name": "Enseignements de [ShowWorkOfArtNameWithNoTooltip('guru_granth_sahib')]",
-    "desc": "Les enseignements établis dans le ."
+    "name": "Enseignements de guru granth sahib",
+    "desc": "Les enseignements établis dans le guru granth sahib."
   }
 }

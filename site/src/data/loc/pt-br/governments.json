@@ -1,22 +1,38 @@
 {
   "monarchy": {
     "name": "Monarquia",
-    "desc": "Uma $monarchy$ é um government_type baseado no princípio da soberania individual unificada, em que o(a) ruler é o(a) primeiro(a) entre as elites. O heir normalmente é determinado pela dynasty do $game_concept_monarch$ e, na maioria dos casos, tem um governo vitalício.\\n\\n$game_concept_monarchs$ podem usar royal_marriages para garantir alliances, podendo até mesmo herdar countries estrangeiros por meio de personal_unions. Entretanto, a sucessão costuma ser problemática, e as Monarquias podem facilmente se transformar em regencies ou ficarem sujeitas à influência de $game_concept_dynasties$ estrangeiras."
+    "desc": "Uma Monarquia é um Tipo de Governo baseado no princípio da soberania individual unificada, em que o(a) Governante é o(a) primeiro(a) entre as elites. O Herdeiro normalmente é determinado pela Dinastia do Monarca e, na maioria dos casos, tem um governo vitalício. Monarcas podem usar Casamentos Reais para garantir Alianças, podendo até mesmo herdar Países estrangeiros por meio de Uniões Pessoais. Entretanto, a sucessão costuma ser problemática, e as Monarquias podem facilmente se transformar em Regências ou ficarem sujeitas à influência de Dinastias estrangeiras."
   },
   "republic": {
     "name": "República",
-    "desc": "Uma $republic$ é um government_type no qual os rulers são escolhidos por meio de uma election para atuarem como representantes da população por um período determinado. Dependendo da heir_selection, o $game_concept_ruler$ pode pertencer a qualquer um dos estates.\\n\\nA força das instituições políticas deixa as Repúblicas mais resilientes com relação a problemas de sucessão, mas a natureza de governo menos individual limita as ferramentas diplomáticas ao seu dispor. Assim, as dynasties exercem um papel menor, e as Repúblicas não se beneficiam com royal_marriages."
+    "desc": "Uma República é um Tipo de Governo no qual os Governantes são escolhidos por meio de uma Eleição para atuarem como representantes da população por um período determinado. Dependendo da Lei de Sucessão, o Governante pode pertencer a qualquer um dos Estamentos. A força das instituições políticas deixa as Repúblicas mais resilientes com relação a problemas de sucessão, mas a natureza de governo menos individual limita as ferramentas diplomáticas ao seu dispor. Assim, as Dinastias exercem um papel menor, e as Repúblicas não se beneficiam com Casamentos Reais."
   },
   "theocracy": {
     "name": "Teocracia",
-    "desc": "Uma $theocracy$ é um government_type baseado no princípio da soberania divina, no qual o ruler é escolhido a partir dos seguidores da fé, e as questões seculares ficam subordinadas à autoridade religiosa.\\n\\nOs $game_concept_rulers$ costumam ser escolhidos para um governo vitalício por meio de um tipo de election, o que permite uma transferência de poder menos tumultuada."
+    "desc": "Uma Teocracia é um Tipo de Governo baseado no princípio da soberania divina, no qual o Governante é escolhido a partir dos seguidores da fé, e as questões seculares ficam subordinadas à autoridade religiosa. Os Governantes costumam ser escolhidos para um governo vitalício por meio de um tipo de Eleição, o que permite uma transferência de poder menos tumultuada."
   },
   "steppe_horde": {
     "name": "Horda da Estepe",
-    "desc": "Uma $steppe_horde$ é um government_type baseado no poderio militar de seu ruler. Os parentes do $game_concept_ruler$ atual têm uma chance maior de se tornarem heirs, mas a experiência e abilities pessoais também são fortemente consideradas.\\n\\nOs $game_concept_rulers$ são escolhidos entre os membros da elite da sociedade, e só mantêm a lealdade de seus pares caso eles se provem capazes de subjugar, destruir e saquear countries vizinhos. Por esse motivo, a sucessão é um grande evento para uma $steppe_horde$, podendo até entrar em colapso se o novo $game_concept_ruler$ fracassar em demonstrar seu poder."
+    "desc": "Uma Horda da Estepe é um Tipo de Governo baseado no poderio militar de seu Governante. Os parentes do Governante atual têm uma chance maior de se tornarem Herdeiros, mas a experiência e Habilidades pessoais também são fortemente consideradas. Os Governantes são escolhidos entre os membros da elite da sociedade, e só mantêm a lealdade de seus pares caso eles se provem capazes de subjugar, destruir e saquear Países vizinhos. Por esse motivo, a sucessão é um grande evento para uma Horda da Estepe, podendo até entrar em colapso se o novo Governante fracassar em demonstrar seu poder."
   },
   "tribe": {
     "name": "Tribo",
-    "desc": "Uma $tribe$ é um government_type no qual a potência política é estruturada acima de tudo em torno do conceito de parentesco, seja por consanguinidade ou ancestralidade inferida.\\n\\nPortanto, as dynasties e os vínculos familiares são de extrema importância na determinação do heir, que estará sempre entre os membros da elite da sociedade. Porém a experiência, as abilities pessoais e a proeza militar também são fatores fortemente considerados."
+    "desc": "Uma Tribo é um Tipo de Governo no qual a potência política é estruturada acima de tudo em torno do conceito de parentesco, seja por consanguinidade ou ancestralidade inferida. Portanto, as Dinastias e os vínculos familiares são de extrema importância na determinação do Herdeiro, que estará sempre entre os membros da elite da sociedade. Porém a experiência, as Habilidades pessoais e a proeza militar também são fatores fortemente considerados."
+  },
+  "_modifier_names": {
+    "amount_looted_modifier": "Quantidade de Saque",
+    "care_about_producing_heirs": "Casamentos Reais",
+    "combined_arms_max_threshold": "Limite de Exército Combinado",
+    "combined_bonus_per_type": "Bônus de Exército Combinado",
+    "court_language_is_common_language_importance_modifier": "Prefere que o Idioma da Corte seja o Idioma Comum",
+    "court_language_is_liturgical_language_importance_modifier": "Prefere que o Idioma da Corte seja o Idioma Litúrgico",
+    "court_language_is_market_language_importance_modifier": "Prefere que o Idioma da Corte seja o Idioma do Mercado",
+    "diplomatic_upkeep_modifier": "Modificador de Manutenção Diplomática",
+    "force_convert_created_subjects": "Forçar Conversão de Súditos na Criação",
+    "global_nobles_food_consumption": "Consumo de Alimentos dos Nobres",
+    "global_war_score_cost": "Custo da Pontuação de Guerra",
+    "horde_unity_hit_at_ruler_death": "Alteração de União de Horda quando Governante Morrer",
+    "rural_settlement_downgrade_cost_modifier": "Custo da Degradação de Assentamentos Rurais",
+    "war_no_cb_cost_modifier": "Custo de Guerra sem Casus Belli"
   }
 }

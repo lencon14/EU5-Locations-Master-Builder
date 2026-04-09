@@ -1,0 +1,267 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
+import { loadCore, loadGovernmentLoc, loadGovernmentModNames } from "../../../../i18n/data";
+import { t, tf } from "../../../../i18n/ui";
+import type { GovernmentItem, CountryItem } from "../../../../i18n/types";
+
+export function getStaticPaths() {
+  return LANG_CODES.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const core = loadCore<GovernmentItem>("governments");
+const loc = loadGovernmentLoc(lang);
+const locEn = lang !== "en" ? loadGovernmentLoc("en") : loc;
+const modNames = loadGovernmentModNames(lang);
+
+// Count countries per government type
+const countries = loadCore<CountryItem>("countries");
+const countryCountMap = new Map<string, number>();
+for (const c of countries) {
+  if (c.government_type) {
+    countryCountMap.set(c.government_type, (countryCountMap.get(c.government_type) ?? 0) + 1);
+  }
+}
+
+/** Split description into paragraphs (markup already resolved by pipeline) */
+function descParagraphs(raw: string | undefined): string[] {
+  if (!raw) return [];
+  return raw.split(/\s{2,}/).map((p) => p.trim()).filter(Boolean);
+}
+
+/** Format modifier key for display (use localized name, fallback to humanized key) */
+function fmtModKey(key: string): string {
+  return modNames[key] ?? key
+    .replace(/_modifier$/, "")
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+/** Format modifier value */
+function fmtModVal(val: number | boolean): string {
+  if (typeof val === "boolean") return val ? t(lang, "common.yes") : t(lang, "common.no");
+  if (Math.abs(val) < 1 && val !== 0) {
+    const pct = val * 100;
+    const sign = pct > 0 ? "+" : "";
+    return `${sign}${pct % 1 === 0 ? pct.toFixed(0) : pct.toFixed(1)}%`;
+  }
+  const sign = val > 0 ? "+" : "";
+  return `${sign}${val}`;
+}
+
+/** Modifier value CSS class: positive = buff, negative = debuff */
+function modClass(val: number | boolean): string {
+  if (typeof val === "boolean") return "mod-bool";
+  return val > 0 ? "mod-buff" : val < 0 ? "mod-debuff" : "";
+}
+---
+
+<Base lang={lang} title={t(lang, "governments.title")} canonicalPath="/governments/">
+  <h1>{t(lang, "governments.title")}</h1>
+  <p class="lead">{tf(lang, "common.items", { count: core.length })}</p>
+
+  <div class="gov-list">
+    {core.map((gov) => {
+      const name = loc[gov.id]?.name ?? gov.id;
+      const nameEn = lang !== "en" ? (locEn[gov.id]?.name ?? gov.id) : null;
+      const desc = descParagraphs(loc[gov.id]?.desc);
+      const countryCount = countryCountMap.get(gov.id) ?? 0;
+      const mods = gov.modifier ? Object.entries(gov.modifier) : [];
+
+      return (
+        <article class="gov-card">
+          <div class="gov-header">
+            <img src={`/${gov.icon}`} alt="" width="48" height="48" class="gov-icon" />
+            <div class="gov-titles">
+              <h2>{name}</h2>
+              {nameEn && <span class="gov-name-en">{nameEn}</span>}
+            </div>
+            {countryCount > 0 && (
+              <a href={localePath(lang, "/countries/") + `?gov=${gov.id}`} class="gov-count">
+                {tf(lang, "governments.countries_count", { count: countryCount })}
+              </a>
+            )}
+          </div>
+
+          {desc.length > 0 && (
+            <div class="gov-desc">
+              {desc.map((p) => <p>{p}</p>)}
+            </div>
+          )}
+
+          {mods.length > 0 && (
+            <div class="gov-mods">
+              <h3>{t(lang, "governments.modifiers")}</h3>
+              <div class="mod-grid">
+                {mods.map(([key, val]) => (
+                  <div class="mod-row">
+                    <span class="mod-key">{fmtModKey(key)}</span>
+                    <span class={`mod-val ${modClass(val)}`}>{fmtModVal(val)}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </article>
+      );
+    })}
+  </div>
+
+  <style>
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .lead {
+      color: var(--dusty-silver);
+      margin-bottom: 2rem;
+    }
+
+    .gov-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .gov-card {
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      padding: 1.5rem;
+      transition: border-color 0.2s;
+    }
+
+    .gov-card:hover {
+      border-color: var(--gold-thread);
+    }
+
+    .gov-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .gov-icon {
+      flex-shrink: 0;
+      image-rendering: pixelated;
+      border-radius: 3px;
+      background: var(--charred-oak);
+      padding: 4px;
+    }
+
+    .gov-titles {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .gov-titles h2 {
+      font-size: 1.15rem;
+      margin: 0;
+      line-height: 1.3;
+    }
+
+    .gov-name-en {
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      color: var(--dusty-silver);
+      font-weight: 400;
+    }
+
+    .gov-count {
+      flex-shrink: 0;
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--dusty-silver);
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 3px;
+      padding: 0.2rem 0.6rem;
+      white-space: nowrap;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .gov-count:hover {
+      border-color: var(--royal-gold);
+      color: var(--pale-gold);
+      text-decoration: none;
+    }
+
+    .gov-desc {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .gov-desc p {
+      color: var(--dusty-silver);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin-bottom: 0.5rem;
+    }
+
+    .gov-desc p:last-child {
+      margin-bottom: 0;
+    }
+
+    .gov-mods h3 {
+      font-size: 0.85rem;
+      font-family: var(--font-body);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--dusty-silver);
+      margin-bottom: 0.5rem;
+    }
+
+    .mod-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+
+    .mod-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--charred-oak);
+      border-radius: 2px;
+      padding: 0.15rem 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    .mod-key {
+      color: var(--dusty-silver);
+    }
+
+    .mod-val {
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .mod-buff {
+      color: #6dbf67;
+    }
+
+    .mod-debuff {
+      color: #cf6d6d;
+    }
+
+    .mod-bool {
+      color: var(--pale-gold);
+    }
+
+    @media (max-width: 600px) {
+      .gov-header {
+        flex-wrap: wrap;
+      }
+
+      .gov-count {
+        margin-left: auto;
+      }
+    }
+  </style>
+</Base>

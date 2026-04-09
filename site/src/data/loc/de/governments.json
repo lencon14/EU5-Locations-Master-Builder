@@ -1,22 +1,38 @@
 {
   "monarchy": {
     "name": "Monarchie",
-    "desc": "Eine $monarchy$ ist eine auf dem Prinzip der ungeteilten persönlichen Souveränität beruhende government_type, in der der ruler an der Spitze der Eliten steht. Der heir wird in der Regel durch die dynasty des Monarchen bestimmt und regiert in den meisten Fällen auf Lebenszeit.\\n\\n$game_concept_monarchs$ können durch royal_marriages alliances sichern und durch personal_unions sogar fremde countries erben. Die Nachfolge ist jedoch oft eine schwierige Angelegenheit und Monarchien können leicht in regencies oder unter den Einfluss fremdländischer $game_concept_dynasties$ geraten."
+    "desc": "Eine Monarchie ist eine auf dem Prinzip der ungeteilten persönlichen Souveränität beruhende Regierungsart, in der der Herrscher an der Spitze der Eliten steht. Der Erbe wird in der Regel durch die Dynastie des Monarchen bestimmt und regiert in den meisten Fällen auf Lebenszeit. Monarchen können durch Staatsehen Bündnisse sichern und durch Personalunionen sogar fremde Länder erben. Die Nachfolge ist jedoch oft eine schwierige Angelegenheit und Monarchien können leicht in Regentschaften oder unter den Einfluss fremdländischer Dynastien geraten."
   },
   "republic": {
     "name": "Republik",
-    "desc": "Eine $republic$ ist eine government_type, in der die rulers per election ermittelt werden, um für eine bestimmte Zeit als Vertreter der Bürgerschaft zu dienen. Je nach heir_selection kann der $game_concept_ruler$ einem der estates angehören.\\n\\nDie Stärke der politischen Institutionen macht Republiken widerstandsfähiger gegen Nachfolgeprobleme, doch die weniger persönliche Natur der Herrschaft schränkt die diplomatischen Mittel ein, die ihnen zur Verfügung stehen. Daher spielen dynasties eine geringere Rolle und Republiken können nicht von royal_marriages profitieren."
+    "desc": "Eine Republik ist eine Regierungsart, in der die Herrscher per Wahl ermittelt werden, um für eine bestimmte Zeit als Vertreter der Bürgerschaft zu dienen. Je nach Erbfolgerecht kann der Herrscher einem der Stände angehören. Die Stärke der politischen Institutionen macht Republiken widerstandsfähiger gegen Nachfolgeprobleme, doch die weniger persönliche Natur der Herrschaft schränkt die diplomatischen Mittel ein, die ihnen zur Verfügung stehen. Daher spielen Dynastien eine geringere Rolle und Republiken können nicht von Staatsehen profitieren."
   },
   "theocracy": {
     "name": "Theokratie",
-    "desc": "Eine $theocracy$ ist eine government_type, die auf dem Prinzip der göttlichen Souveränität beruht, wobei der ruler von Glaubensdienern eingesetzt wird und weltliche Angelegenheiten der religiösen Autorität untergeordnet werden.\\n\\n$game_concept_rulers$ werden in der Regel durch eine Form der election auf Lebenszeit gewählt, was eine weniger zerrüttende Machtübergabe ermöglicht."
+    "desc": "Eine Theokratie ist eine Regierungsart, die auf dem Prinzip der göttlichen Souveränität beruht, wobei der Herrscher von Glaubensdienern eingesetzt wird und weltliche Angelegenheiten der religiösen Autorität untergeordnet werden. Herrscher werden in der Regel durch eine Form der Wahl auf Lebenszeit gewählt, was eine weniger zerrüttende Machtübergabe ermöglicht."
   },
   "steppe_horde": {
     "name": "Steppenhorde",
-    "desc": "Eine $steppe_horde$ ist eine government_type, die auf der militärischen Macht ihres [Concept('ruler', 'Herrschers')|e] fußt. Verwandte des derzeitigen Herrschers haben eine höhere Chance, heir zu werden, doch auch Seniorität und persönliche abilities werden hoch angerechnet.\\n\\n$game_concept_rulers$ stammen aus der Elite der Gesellschaft und werden die Treue ihrer Standesgenossen nur so lange behalten, wie sie sich als fähig erweisen, benachbarte countries zu unterwerfen, zu verwüsten und zu plündern. Daher ist die Nachfolge für eine $steppe_horde$ ein folgenschweres Ereignis und kann sogar zum Zusammenbruch führen, wenn der neue Herrscher seine Macht nicht unter Beweis stellen kann."
+    "desc": "Eine Steppenhorde ist eine Regierungsart, die auf der militärischen Macht ihres Herrschers fußt. Verwandte des derzeitigen Herrschers haben eine höhere Chance, Erbe zu werden, doch auch Seniorität und persönliche Fähigkeiten werden hoch angerechnet. Herrscher stammen aus der Elite der Gesellschaft und werden die Treue ihrer Standesgenossen nur so lange behalten, wie sie sich als fähig erweisen, benachbarte Länder zu unterwerfen, zu verwüsten und zu plündern. Daher ist die Nachfolge für eine Steppenhorde ein folgenschweres Ereignis und kann sogar zum Zusammenbruch führen, wenn der neue Herrscher seine Macht nicht unter Beweis stellen kann."
   },
   "tribe": {
     "name": "Stamm",
-    "desc": "Ein $tribe$ ist eine government_type, bei der die Politmacht in erster Linie auf dem Konzept der Verwandtschaft beruht, sei es durch direkte Blutsverwandtschaft oder vermeintliche Abstammung.\\n\\nDie dynasties und Familienbande sind daher von größter Bedeutung bei der Bestimmung des [Concept('heir', 'Erben')|e], der immer der Elite der Gesellschaft angehören wird. Sehr häufig werden jedoch auch Seniorität, persönliche abilities und militärische Kompetenz hoch geschätzt."
+    "desc": "Ein Stamm ist eine Regierungsart, bei der die Politmacht in erster Linie auf dem Konzept der Verwandtschaft beruht, sei es durch direkte Blutsverwandtschaft oder vermeintliche Abstammung. Die Dynastien und Familienbande sind daher von größter Bedeutung bei der Bestimmung des Erben, der immer der Elite der Gesellschaft angehören wird. Sehr häufig werden jedoch auch Seniorität, persönliche Fähigkeiten und militärische Kompetenz hoch geschätzt."
+  },
+  "_modifier_names": {
+    "amount_looted_modifier": "Plündermenge",
+    "care_about_producing_heirs": "Staatsehen",
+    "combined_arms_max_threshold": "Schwellenwert verbundener Waffen",
+    "combined_bonus_per_type": "Bonus für verbundene Waffen",
+    "court_language_is_common_language_importance_modifier": "Zieht Hofsprache Gemeinsprache vor",
+    "court_language_is_liturgical_language_importance_modifier": "Zieht Hofsprache Glaubenssprache vor",
+    "court_language_is_market_language_importance_modifier": "Zieht Hofsprache Handelssprache vor",
+    "diplomatic_upkeep_modifier": "Diplomatieunterhaltsmodifikator",
+    "force_convert_created_subjects": "Erzungene Bekehrung von Klientelländern bei der Schaffung",
+    "global_nobles_food_consumption": "Nahrungsverbrauch (Adlige)",
+    "global_war_score_cost": "Kriegswertkosten",
+    "horde_unity_hit_at_ruler_death": "Hordeneinigkeits-Änderung (Herrschertod)",
+    "rural_settlement_downgrade_cost_modifier": "Landsiedlungsherabstufung-Kosten",
+    "war_no_cb_cost_modifier": "Kriegserklärungskosten (Ohne Kriegsgrund)"
   }
 }
