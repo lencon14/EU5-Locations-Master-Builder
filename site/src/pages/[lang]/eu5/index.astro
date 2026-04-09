@@ -14,6 +14,7 @@ const buildingsCount = 439; // legacy JSON count, until buildings core/loc ready
 const religionsCount = loadCore("religions").length;
 const holySitesCount = loadCore("holy_sites").length;
 const aspectsCount = loadCore("aspects").length;
+const governmentsCount = loadCore("governments").length;
 const countriesCount = loadCore("countries").length;
 ---
 
@@ -62,6 +63,13 @@ const countriesCount = loadCore("countries").length;
       <h2>{t(lang, "home.card.countries")}</h2>
       <p class="stat">{countriesCount}</p>
       <p class="card-desc">{t(lang, "home.card.countries_desc")}</p>
+    </a>
+
+    <a href={localePath(lang, "/governments/")} class="card">
+      <span class="card-label">{t(lang, "common.database")}</span>
+      <h2>{t(lang, "home.card.governments")}</h2>
+      <p class="stat">{governmentsCount}</p>
+      <p class="card-desc">{t(lang, "home.card.governments_desc")}</p>
     </a>
   </section>
 

@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
-import { loadCore, loadLoc, loadGameTerms, loadReligionLoc, loadCountryLoc, loadCultureNames, loadCultureGroupNames, loadCapitalNames } from "../../../../i18n/data";
+import { loadCore, loadLoc, loadGameTerms, loadReligionLoc, loadCountryLoc, loadCultureNames, loadCultureGroupNames, loadCapitalNames, loadCountryGovNames } from "../../../../i18n/data";
 import { t, tf } from "../../../../i18n/ui";
 import type { CountryItem } from "../../../../i18n/types";
 
@@ -20,11 +20,12 @@ const core = loadCore<CountryItem>("countries");
 const loc = loadCountryLoc(lang);
 const locEn = lang !== "en" ? loadCountryLoc("en") : loc;
 const relLoc = loadReligionLoc(lang);
-const govLoc = loadLoc("governments", lang);
-const govLocEn = lang !== "en" ? loadLoc("governments", "en") : govLoc;
 const cultureNames = loadCultureNames(lang);
 const groupNames = loadCultureGroupNames(lang);
 const capitalLabels = loadCapitalNames(lang);
+const govNames = loadCountryGovNames(lang);
+const govLoc = loadLoc("governments", lang);
+const govLocEn = lang !== "en" ? loadLoc("governments", "en") : govLoc;
 const terms = loadGameTerms(lang);
 
 const name = loc[item.tag]?.name ?? item.tag;
@@ -35,16 +36,17 @@ const desc = loc[item.tag]?.desc;
 const related = core.filter((c) => c.file_region === item.file_region && c.tag !== item.tag);
 const RELATED_LIMIT = 50;
 
-// Government type from loc (full i18n)
+// Government type via gov loc + govNames (government_names + government_reforms)
 function govName(gov: string): string {
-  return govLoc[gov]?.name ?? govLocEn[gov]?.name ?? gov.replace(/_/g, " ");
+  return govLoc[gov]?.name ?? govLocEn[gov]?.name ?? govNames[gov] ?? gov.replace(/_/g, " ");
 }
 function govDesc(gov: string): string | undefined {
   return govLoc[gov]?.desc ?? govLocEn[gov]?.desc;
 }
 
-// Rank display (government_names loc doesn't have base rank keys, use UI strings)
+// Rank via govNames → ui.ts fallback
 function rankName(rank: string): string {
+  if (govNames[rank]) return govNames[rank];
   const key = `countries.rank.${rank}` as any;
   const val = t(lang, key);
   return val !== key ? val : rank.replace(/^rank_/, "").replace(/\b\w/g, (c) => c.toUpperCase());
@@ -55,12 +57,13 @@ function difficultyStars(n: number): string {
   return "\u2605".repeat(n) + "\u2606".repeat(5 - n);
 }
 
-// Heir selection display
+// Heir selection via govNames (government + government_names + government_reforms)
 function heirName(heir: string): string {
-  return terms[heir] ?? heir.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  return govNames[heir] ?? govLoc[heir]?.name ?? govLocEn[heir]?.name ?? terms[heir]
+    ?? heir.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-// Culture / religion display names (from loc)
+// Culture / religion display names via auxiliary name maps
 const cultureName = cultureNames[item.culture_definition ?? ""]
   ?? terms[item.culture_definition ?? ""]
   ?? item.culture_definition?.replace(/_/g, " ") ?? "";
@@ -76,7 +79,7 @@ const regionKeyVal = t(lang, regionKey);
 const regionDisplay = regionKeyVal !== regionKey ? regionKeyVal
   : item.file_region.replace(/^_/, "").replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
-// Capital display (from loc, handle possible list from duplicate keys)
+// Capital display via auxiliary name map
 const rawCapital = Array.isArray(item.capital) ? item.capital[0] : item.capital;
 const capitalLabel = capitalLabels[rawCapital ?? ""]
   ?? terms[rawCapital ?? ""]
@@ -220,7 +223,7 @@ function descCatName(cat: string): string {
         {item.formable_level != null && (
           <div class="prop-row">
             <dt>{t(lang, "countries.detail.formable_level")}</dt>
-            <dd><span class="tag">Tier {item.formable_level}</span></dd>
+            <dd><span class="tag">{item.formable_level}</span></dd>
           </div>
         )}
         {item.formable_rule && (

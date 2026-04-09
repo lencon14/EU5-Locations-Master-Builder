@@ -120,6 +120,12 @@ export function gameTerm(lang: Lang, key: string): string {
   return terms[key] ?? key;
 }
 
+// -- Official loc (flat key-value: all game loc merged) --
+// TODO: Phase 1 of translation leak prevention. Currently blocked by Vite SSR
+// bundling issue with node:fs and OOM with eager import.meta.glob for 11×4MB.
+// For now, individual _*_names auxiliary maps in category loc files are used.
+// Future: resolve Vite/Astro compatibility for large JSON lazy loading.
+
 // -- Religion loc (excluded from locModules due to _modifier_names/_mechanic_names special keys) --
 type ModNameMap = Record<string, string>;
 const _relLocCache = new Map<string, LocMap>();
@@ -506,6 +512,18 @@ export function loadCultureGroupNames(lang: Lang): ModNameMap {
   const fallback = (ctyRawModules[`../data/loc/${DEFAULT_LANG}/countries.json`] as Record<string, unknown> | undefined)?.["_culture_group_names"] as ModNameMap | undefined;
   const result = { ...fallback, ...primary };
   _ctyGroupCache.set(lang, result);
+  return result;
+}
+
+/** Load government/heir display names (from government + government_names + government_reforms loc). */
+const _ctyGovCache = new Map<string, ModNameMap>();
+export function loadCountryGovNames(lang: Lang): ModNameMap {
+  const cached = _ctyGovCache.get(lang);
+  if (cached) return cached;
+  const primary = (ctyRawModules[`../data/loc/${lang}/countries.json`] as Record<string, unknown> | undefined)?.["_gov_names"] as ModNameMap | undefined;
+  const fallback = (ctyRawModules[`../data/loc/${DEFAULT_LANG}/countries.json`] as Record<string, unknown> | undefined)?.["_gov_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _ctyGovCache.set(lang, result);
   return result;
 }
 

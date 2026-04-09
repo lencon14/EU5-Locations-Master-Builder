@@ -189,6 +189,14 @@ const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
     filterGov.addEventListener("change", applyFilters);
     filterRank.addEventListener("change", applyFilters);
 
+    // Apply URL query params (e.g. ?gov=monarchy from governments page)
+    const params = new URLSearchParams(location.search);
+    const govParam = params.get("gov");
+    if (govParam && [...filterGov.options].some((o) => o.value === govParam)) {
+      filterGov.value = govParam;
+      applyFilters();
+    }
+
     // Row click navigation (event delegation)
     document.addEventListener("click", (e) => {
       const target = e.target as HTMLElement;

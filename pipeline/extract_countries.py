@@ -369,6 +369,7 @@ def build_loc(tags: list[str]) -> dict[str, dict]:
     aux_culture_loc = load_all_loc("cultural_and_languages", "cultures")
     aux_group_loc = load_all_loc("culture_groups")
     aux_capital_loc = load_all_loc("location_names")
+    aux_gov_loc = load_all_loc("government", "government_names", "government_reforms")
 
     # Build per-language
     loc_per_lang: dict[str, dict] = {}
@@ -396,9 +397,12 @@ def build_loc(tags: list[str]) -> dict[str, dict]:
         group_loc = aux_group_loc.get(url_code, {})
         capital_loc = aux_capital_loc.get(url_code, {})
 
+        gov_loc = aux_gov_loc.get(url_code, {})
+
         lang_loc["_culture_names"] = {k: strip_markup(v) for k, v in culture_loc.items() if v and not k.startswith("_")}
         lang_loc["_culture_group_names"] = {k: strip_markup(v) for k, v in group_loc.items() if v and not k.startswith("_")}
         lang_loc["_capital_names"] = {k: strip_markup(v) for k, v in capital_loc.items() if v and not k.startswith("_")}
+        lang_loc["_gov_names"] = {k: strip_markup(v) for k, v in gov_loc.items() if v and not k.startswith("_")}
 
         loc_per_lang[url_code] = lang_loc
 
