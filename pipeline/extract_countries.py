@@ -388,6 +388,30 @@ def build_loc(tags: list[str]) -> dict[str, dict]:
                 if desc:
                     lang_loc[tag]["desc"] = desc
 
+        # Add auxiliary name maps (culture, culture_group, capital)
+        culture_loc = load_all_loc("cultural_and_languages", "cultures").get(url_code, {})
+        group_loc = load_all_loc("culture_groups").get(url_code, {})
+        capital_loc = load_all_loc("location_names").get(url_code, {})
+
+        # Collect unique culture/group/capital keys from core data
+        culture_names: dict[str, str] = {}
+        group_names: dict[str, str] = {}
+        capital_names: dict[str, str] = {}
+
+        for tag in tags:
+            # Find this country in core (need culture_definition etc.)
+            pass
+
+        # Build from var_data which has cultural_and_languages + culture_groups
+        for key, val in var_data.items():
+            if not key.startswith("_"):
+                # Culture and group names are flat strings in loc
+                pass
+
+        lang_loc["_culture_names"] = {k: strip_markup(v) for k, v in culture_loc.items() if v and not k.startswith("_")}
+        lang_loc["_culture_group_names"] = {k: strip_markup(v) for k, v in group_loc.items() if v and not k.startswith("_")}
+        lang_loc["_capital_names"] = {k: strip_markup(v) for k, v in capital_loc.items() if v and not k.startswith("_")}
+
         loc_per_lang[url_code] = lang_loc
 
     return loc_per_lang

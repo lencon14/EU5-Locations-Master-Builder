@@ -7,7 +7,7 @@
 import { DEFAULT_LANG, type Lang } from './config';
 
 // -- Category type (prevents typos) --
-export type Category = 'goods' | 'buildings' | 'countries' | 'religions' | 'governments' | 'laws';
+export type Category = 'goods' | 'buildings' | 'countries' | 'religions' | 'governments' | 'laws' | 'holy_sites' | 'holy_site_types' | 'aspects';
 
 // -- Core data (arrays) --
 const coreModules = import.meta.glob<unknown[]>(
@@ -19,7 +19,7 @@ const coreModules = import.meta.glob<unknown[]>(
 // game_terms.json is excluded here — it has a different shape (flat key-value)
 // and is loaded separately via termModules. Do NOT pass 'game_terms' to loadLoc().
 const locModules = import.meta.glob<Record<string, { name: string; desc?: string }>>(
-  ['../data/loc/*/*.json', '!../data/loc/*/game_terms.json'],
+  ['../data/loc/*/*.json', '!../data/loc/*/game_terms.json', '!../data/loc/*/buildings.json', '!../data/loc/*/religions.json', '!../data/loc/*/holy_sites.json', '!../data/loc/*/aspects.json', '!../data/loc/*/countries.json'],
   { eager: true, import: 'default' },
 );
 
@@ -116,4 +116,405 @@ export function loadGameTerms(lang: Lang): Record<string, string> {
 export function gameTerm(lang: Lang, key: string): string {
   const terms = loadGameTerms(lang);
   return terms[key] ?? key;
+}
+
+// -- Religion loc (excluded from locModules due to _modifier_names/_mechanic_names special keys) --
+type ModNameMap = Record<string, string>;
+const _relLocCache = new Map<string, LocMap>();
+const _relModCache = new Map<string, ModNameMap>();
+
+const relRawModules = import.meta.glob<Record<string, unknown>>(
+  '../data/loc/*/religions.json',
+  { eager: true, import: 'default' },
+);
+
+/** Load religion loc, with English fallback. Handles _modifier_names exclusion. */
+export function loadReligionLoc(lang: Lang): LocMap {
+  const cached = _relLocCache.get(lang);
+  if (cached) return cached;
+
+  const raw = relRawModules[`../data/loc/${lang}/religions.json`] as Record<string, unknown> | undefined;
+  const rawEn = relRawModules[`../data/loc/${DEFAULT_LANG}/religions.json`] as Record<string, unknown> | undefined;
+
+  // Filter out special keys (starting with _)
+  const toLocMap = (r: Record<string, unknown> | undefined): LocMap => {
+    if (!r) return {};
+    const map: LocMap = {};
+    for (const [k, v] of Object.entries(r)) {
+      if (k.startsWith('_') || typeof v !== 'object' || v === null) continue;
+      const entry = v as { name?: string; desc?: string };
+      if (entry.name != null) map[k] = { name: entry.name, desc: entry.desc };
+    }
+    return map;
+  };
+
+  const primary = toLocMap(raw);
+  if (lang === DEFAULT_LANG) {
+    _relLocCache.set(lang, primary);
+    return primary;
+  }
+  const fallback = toLocMap(rawEn);
+  const merged: LocMap = {};
+  for (const id of Object.keys(fallback)) {
+    const p = primary[id];
+    const f = fallback[id];
+    merged[id] = { name: p?.name ?? f?.name ?? id, desc: p?.desc ?? f?.desc };
+  }
+  for (const id of Object.keys(primary)) {
+    if (!(id in merged)) merged[id] = primary[id];
+  }
+  _relLocCache.set(lang, merged);
+  return merged;
+}
+
+/** Load religion modifier display names for a language, with English fallback. */
+export function loadReligionModNames(lang: Lang): ModNameMap {
+  const cached = _relModCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (relRawModules[`../data/loc/${lang}/religions.json`] as Record<string, unknown> | undefined)?.["_modifier_names"] as ModNameMap | undefined;
+  const fallback = (relRawModules[`../data/loc/${DEFAULT_LANG}/religions.json`] as Record<string, unknown> | undefined)?.["_modifier_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _relModCache.set(lang, result);
+  return result;
+}
+
+/** Load religion mechanic flag names (from game_concepts), with English fallback. */
+const _relMechCache = new Map<string, ModNameMap>();
+export function loadReligionMechNames(lang: Lang): ModNameMap {
+  const cached = _relMechCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (relRawModules[`../data/loc/${lang}/religions.json`] as Record<string, unknown> | undefined)?.["_mechanic_names"] as ModNameMap | undefined;
+  const fallback = (relRawModules[`../data/loc/${DEFAULT_LANG}/religions.json`] as Record<string, unknown> | undefined)?.["_mechanic_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _relMechCache.set(lang, result);
+  return result;
+}
+
+/** Load religion modifier descriptions, with English fallback. */
+const _relModDescCache = new Map<string, ModNameMap>();
+export function loadReligionModDescs(lang: Lang): ModNameMap {
+  const cached = _relModDescCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (relRawModules[`../data/loc/${lang}/religions.json`] as Record<string, unknown> | undefined)?.["_modifier_descs"] as ModNameMap | undefined;
+  const fallback = (relRawModules[`../data/loc/${DEFAULT_LANG}/religions.json`] as Record<string, unknown> | undefined)?.["_modifier_descs"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _relModDescCache.set(lang, result);
+  return result;
+}
+
+/** Load religion mechanic descriptions (from game_concepts), with English fallback. */
+const _relMechDescCache = new Map<string, ModNameMap>();
+export function loadReligionMechDescs(lang: Lang): ModNameMap {
+  const cached = _relMechDescCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (relRawModules[`../data/loc/${lang}/religions.json`] as Record<string, unknown> | undefined)?.["_mechanic_descs"] as ModNameMap | undefined;
+  const fallback = (relRawModules[`../data/loc/${DEFAULT_LANG}/religions.json`] as Record<string, unknown> | undefined)?.["_mechanic_descs"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _relMechDescCache.set(lang, result);
+  return result;
+}
+
+// -- Holy sites loc (excluded from locModules due to _modifier_names) --
+const hsRawModules = import.meta.glob<Record<string, unknown>>(
+  '../data/loc/*/holy_sites.json',
+  { eager: true, import: 'default' },
+);
+
+const _hsLocCache = new Map<string, LocMap>();
+
+/** Load holy sites loc, with English fallback. */
+export function loadHolySiteLoc(lang: Lang): LocMap {
+  const cached = _hsLocCache.get(lang);
+  if (cached) return cached;
+
+  const raw = hsRawModules[`../data/loc/${lang}/holy_sites.json`] as Record<string, unknown> | undefined;
+  const rawEn = hsRawModules[`../data/loc/${DEFAULT_LANG}/holy_sites.json`] as Record<string, unknown> | undefined;
+
+  const toLocMap = (r: Record<string, unknown> | undefined): LocMap => {
+    if (!r) return {};
+    const map: LocMap = {};
+    for (const [k, v] of Object.entries(r)) {
+      if (k.startsWith('_') || typeof v !== 'object' || v === null) continue;
+      const entry = v as { name?: string; desc?: string };
+      if (entry.name != null) map[k] = { name: entry.name, desc: entry.desc };
+    }
+    return map;
+  };
+
+  const primary = toLocMap(raw);
+  if (lang === DEFAULT_LANG) {
+    _hsLocCache.set(lang, primary);
+    return primary;
+  }
+  const fallback = toLocMap(rawEn);
+  const merged: LocMap = {};
+  for (const id of Object.keys(fallback)) {
+    const p = primary[id];
+    const f = fallback[id];
+    merged[id] = { name: p?.name ?? f?.name ?? id, desc: p?.desc ?? f?.desc };
+  }
+  for (const id of Object.keys(primary)) {
+    if (!(id in merged)) merged[id] = primary[id];
+  }
+  _hsLocCache.set(lang, merged);
+  return merged;
+}
+
+/** Load holy site location (province) display names, with English fallback. */
+const _hsLocNameCache = new Map<string, ModNameMap>();
+export function loadHolySiteLocationNames(lang: Lang): ModNameMap {
+  const cached = _hsLocNameCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (hsRawModules[`../data/loc/${lang}/holy_sites.json`] as Record<string, unknown> | undefined)?.["_location_names"] as ModNameMap | undefined;
+  const fallback = (hsRawModules[`../data/loc/${DEFAULT_LANG}/holy_sites.json`] as Record<string, unknown> | undefined)?.["_location_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _hsLocNameCache.set(lang, result);
+  return result;
+}
+
+/** Load holy site modifier display names, with English fallback. */
+const _hsModCache = new Map<string, ModNameMap>();
+export function loadHolySiteModNames(lang: Lang): ModNameMap {
+  const cached = _hsModCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (hsRawModules[`../data/loc/${lang}/holy_sites.json`] as Record<string, unknown> | undefined)?.["_modifier_names"] as ModNameMap | undefined;
+  const fallback = (hsRawModules[`../data/loc/${DEFAULT_LANG}/holy_sites.json`] as Record<string, unknown> | undefined)?.["_modifier_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _hsModCache.set(lang, result);
+  return result;
+}
+
+/** Load holy site modifier descriptions, with English fallback. */
+const _hsModDescCache = new Map<string, ModNameMap>();
+export function loadHolySiteModDescs(lang: Lang): ModNameMap {
+  const cached = _hsModDescCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (hsRawModules[`../data/loc/${lang}/holy_sites.json`] as Record<string, unknown> | undefined)?.["_modifier_descs"] as ModNameMap | undefined;
+  const fallback = (hsRawModules[`../data/loc/${DEFAULT_LANG}/holy_sites.json`] as Record<string, unknown> | undefined)?.["_modifier_descs"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _hsModDescCache.set(lang, result);
+  return result;
+}
+
+/** Load liturgical language display names, with English fallback. */
+const _relLangCache = new Map<string, ModNameMap>();
+export function loadReligionLangNames(lang: Lang): ModNameMap {
+  const cached = _relLangCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (relRawModules[`../data/loc/${lang}/religions.json`] as Record<string, unknown> | undefined)?.["_language_names"] as ModNameMap | undefined;
+  const fallback = (relRawModules[`../data/loc/${DEFAULT_LANG}/religions.json`] as Record<string, unknown> | undefined)?.["_language_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _relLangCache.set(lang, result);
+  return result;
+}
+
+// -- Aspects loc (excluded from locModules due to _modifier_names) --
+const aspRawModules = import.meta.glob<Record<string, unknown>>(
+  '../data/loc/*/aspects.json',
+  { eager: true, import: 'default' },
+);
+
+const _aspLocCache = new Map<string, LocMap>();
+
+/** Load aspect loc, with English fallback. */
+export function loadAspectLoc(lang: Lang): LocMap {
+  const cached = _aspLocCache.get(lang);
+  if (cached) return cached;
+
+  const raw = aspRawModules[`../data/loc/${lang}/aspects.json`] as Record<string, unknown> | undefined;
+  const rawEn = aspRawModules[`../data/loc/${DEFAULT_LANG}/aspects.json`] as Record<string, unknown> | undefined;
+
+  const toLocMap = (r: Record<string, unknown> | undefined): LocMap => {
+    if (!r) return {};
+    const map: LocMap = {};
+    for (const [k, v] of Object.entries(r)) {
+      if (k.startsWith('_') || typeof v !== 'object' || v === null) continue;
+      const entry = v as { name?: string; desc?: string };
+      if (entry.name != null) map[k] = { name: entry.name, desc: entry.desc };
+    }
+    return map;
+  };
+
+  const primary = toLocMap(raw);
+  if (lang === DEFAULT_LANG) {
+    _aspLocCache.set(lang, primary);
+    return primary;
+  }
+  const fallback = toLocMap(rawEn);
+  const merged: LocMap = {};
+  for (const id of Object.keys(fallback)) {
+    const p = primary[id];
+    const f = fallback[id];
+    merged[id] = { name: p?.name ?? f?.name ?? id, desc: p?.desc ?? f?.desc };
+  }
+  for (const id of Object.keys(primary)) {
+    if (!(id in merged)) merged[id] = primary[id];
+  }
+  _aspLocCache.set(lang, merged);
+  return merged;
+}
+
+/** Load aspect modifier display names, with English fallback. */
+const _aspModCache = new Map<string, ModNameMap>();
+export function loadAspectModNames(lang: Lang): ModNameMap {
+  const cached = _aspModCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (aspRawModules[`../data/loc/${lang}/aspects.json`] as Record<string, unknown> | undefined)?.["_modifier_names"] as ModNameMap | undefined;
+  const fallback = (aspRawModules[`../data/loc/${DEFAULT_LANG}/aspects.json`] as Record<string, unknown> | undefined)?.["_modifier_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _aspModCache.set(lang, result);
+  return result;
+}
+
+/** Load aspect modifier descriptions, with English fallback. */
+const _aspModDescCache = new Map<string, ModNameMap>();
+export function loadAspectModDescs(lang: Lang): ModNameMap {
+  const cached = _aspModDescCache.get(lang);
+  if (cached) return cached;
+
+  const primary = (aspRawModules[`../data/loc/${lang}/aspects.json`] as Record<string, unknown> | undefined)?.["_modifier_descs"] as ModNameMap | undefined;
+  const fallback = (aspRawModules[`../data/loc/${DEFAULT_LANG}/aspects.json`] as Record<string, unknown> | undefined)?.["_modifier_descs"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _aspModDescCache.set(lang, result);
+  return result;
+}
+
+// -- Building-specific extended loc (condition_lines, modifiers, pm) --
+import type { BuildingLocEntry } from './types';
+
+type BuildingLocMap = Record<string, BuildingLocEntry>;
+const _bldLocCache = new Map<string, BuildingLocMap>();
+
+const bldLocModules = import.meta.glob<BuildingLocMap>(
+  '../data/loc/*/buildings.json',
+  { eager: true, import: 'default' },
+);
+
+/** Load extended building loc for a language, with English fallback. */
+export function loadBuildingLoc(lang: Lang): BuildingLocMap {
+  const cached = _bldLocCache.get(lang);
+  if (cached) return cached;
+
+  const primary = bldLocModules[`../data/loc/${lang}/buildings.json`];
+  if (lang === DEFAULT_LANG) {
+    const result = primary ?? {};
+    _bldLocCache.set(lang, result);
+    return result;
+  }
+
+  const fallback = bldLocModules[`../data/loc/${DEFAULT_LANG}/buildings.json`] ?? {};
+  if (!primary) {
+    _bldLocCache.set(lang, fallback);
+    return fallback;
+  }
+
+  const merged: BuildingLocMap = {};
+  for (const id of Object.keys(fallback)) {
+    const p = primary[id];
+    const f = fallback[id];
+    merged[id] = {
+      name: p?.name ?? f?.name ?? id,
+      desc: p?.desc ?? f?.desc,
+      condition_lines: p?.condition_lines ?? f?.condition_lines,
+      modifiers: p?.modifiers ?? f?.modifiers,
+      raw_modifiers: p?.raw_modifiers ?? f?.raw_modifiers,
+      pm: p?.pm ?? f?.pm,
+    };
+  }
+  for (const id of Object.keys(primary)) {
+    if (!(id in merged)) merged[id] = primary[id];
+  }
+  _bldLocCache.set(lang, merged);
+  return merged;
+}
+
+// -- Countries loc (excluded from locModules due to _culture_names/_culture_group_names/_capital_names) --
+const ctyRawModules = import.meta.glob<Record<string, unknown>>(
+  '../data/loc/*/countries.json',
+  { eager: true, import: 'default' },
+);
+
+const _ctyLocCache = new Map<string, LocMap>();
+
+/** Load countries loc, with English fallback. */
+export function loadCountryLoc(lang: Lang): LocMap {
+  const cached = _ctyLocCache.get(lang);
+  if (cached) return cached;
+
+  const raw = ctyRawModules[`../data/loc/${lang}/countries.json`] as Record<string, unknown> | undefined;
+  const rawEn = ctyRawModules[`../data/loc/${DEFAULT_LANG}/countries.json`] as Record<string, unknown> | undefined;
+
+  const toLocMap = (r: Record<string, unknown> | undefined): LocMap => {
+    if (!r) return {};
+    const map: LocMap = {};
+    for (const [k, v] of Object.entries(r)) {
+      if (k.startsWith('_') || typeof v !== 'object' || v === null) continue;
+      const entry = v as { name?: string; desc?: string };
+      if (entry.name != null) map[k] = { name: entry.name, desc: entry.desc };
+    }
+    return map;
+  };
+
+  const primary = toLocMap(raw);
+  if (lang === DEFAULT_LANG) {
+    _ctyLocCache.set(lang, primary);
+    return primary;
+  }
+  const fallback = toLocMap(rawEn);
+  const merged: LocMap = {};
+  for (const id of Object.keys(fallback)) {
+    const p = primary[id];
+    const f = fallback[id];
+    merged[id] = { name: p?.name ?? f?.name ?? id, desc: p?.desc ?? f?.desc };
+  }
+  for (const id of Object.keys(primary)) {
+    if (!(id in merged)) merged[id] = primary[id];
+  }
+  _ctyLocCache.set(lang, merged);
+  return merged;
+}
+
+/** Load culture display names, with English fallback. */
+const _ctyCultureCache = new Map<string, ModNameMap>();
+export function loadCultureNames(lang: Lang): ModNameMap {
+  const cached = _ctyCultureCache.get(lang);
+  if (cached) return cached;
+  const primary = (ctyRawModules[`../data/loc/${lang}/countries.json`] as Record<string, unknown> | undefined)?.["_culture_names"] as ModNameMap | undefined;
+  const fallback = (ctyRawModules[`../data/loc/${DEFAULT_LANG}/countries.json`] as Record<string, unknown> | undefined)?.["_culture_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _ctyCultureCache.set(lang, result);
+  return result;
+}
+
+/** Load culture group display names, with English fallback. */
+const _ctyGroupCache = new Map<string, ModNameMap>();
+export function loadCultureGroupNames(lang: Lang): ModNameMap {
+  const cached = _ctyGroupCache.get(lang);
+  if (cached) return cached;
+  const primary = (ctyRawModules[`../data/loc/${lang}/countries.json`] as Record<string, unknown> | undefined)?.["_culture_group_names"] as ModNameMap | undefined;
+  const fallback = (ctyRawModules[`../data/loc/${DEFAULT_LANG}/countries.json`] as Record<string, unknown> | undefined)?.["_culture_group_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _ctyGroupCache.set(lang, result);
+  return result;
+}
+
+/** Load capital/location display names, with English fallback. */
+const _ctyCapitalCache = new Map<string, ModNameMap>();
+export function loadCapitalNames(lang: Lang): ModNameMap {
+  const cached = _ctyCapitalCache.get(lang);
+  if (cached) return cached;
+  const primary = (ctyRawModules[`../data/loc/${lang}/countries.json`] as Record<string, unknown> | undefined)?.["_capital_names"] as ModNameMap | undefined;
+  const fallback = (ctyRawModules[`../data/loc/${DEFAULT_LANG}/countries.json`] as Record<string, unknown> | undefined)?.["_capital_names"] as ModNameMap | undefined;
+  const result = { ...fallback, ...primary };
+  _ctyCapitalCache.set(lang, result);
+  return result;
 }

@@ -1,0 +1,916 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
+import { loadCore, loadLoc, loadGameTerms, loadReligionLoc, loadReligionModNames, loadReligionMechNames, loadReligionLangNames, loadReligionModDescs, loadReligionMechDescs, loadHolySiteLoc, loadAspectLoc, loadAspectModNames, loadAspectModDescs, loadCountryLoc } from "../../../../i18n/data";
+import { t } from "../../../../i18n/ui";
+import { formatModValue, descToTooltip } from "../../../../i18n/render";
+import type { ReligionItem, HolySiteItem, AspectItem } from "../../../../i18n/types";
+
+export function getStaticPaths() {
+  const core = loadCore<ReligionItem>("religions");
+  return LANG_CODES.flatMap((lang) =>
+    core.map((item) => ({
+      params: { lang, id: item.id },
+      props: { lang, item },
+    })),
+  );
+}
+
+const { lang, item } = Astro.props as { lang: Lang; item: ReligionItem };
+const core = loadCore<ReligionItem>("religions");
+const loc = loadReligionLoc(lang);
+const locEn = lang !== "en" ? loadReligionLoc("en") : loc;
+const countriesLoc = loadCountryLoc(lang);
+const terms = loadGameTerms(lang);
+const name = loc[item.id]?.name ?? item.id;
+const nameEn = locEn[item.id]?.name ?? item.id;
+const desc = loc[item.id]?.desc;
+const groupName = loc[item.group_id]?.name ?? locEn[item.group_id]?.name ?? item.group_id;
+
+// Modifier, mechanic, and language name loc + descriptions for tooltips
+const modNames = loadReligionModNames(lang);
+const modDescs = loadReligionModDescs(lang);
+const mechNames = loadReligionMechNames(lang);
+const mechDescs = loadReligionMechDescs(lang);
+const langNames = loadReligionLangNames(lang);
+
+/** Get tooltip description from game_terms, if available. */
+function tip(key: string): string | undefined {
+  const d = terms[`${key}.desc`];
+  return d && d !== `${key}.desc` ? d : undefined;
+}
+
+/** Resolve a $key$ reference from religion loc data. */
+function resolveKey(key: string): string | undefined {
+  const base = key
+    .replace(/_ADJ$/, '')
+    .replace(/_(region|group|language|language_family|culture|school|school_desc|policy|god|god_name|religion|desc)$/, '');
+  return loc[key]?.name ?? loc[base]?.name ?? countriesLoc[key]?.name ?? countriesLoc[base]?.name ?? terms[key] ?? terms[base] ?? undefined;
+}
+
+/** Convert a religion desc (with $key$ refs) to plain tooltip text. */
+function descTip(raw: string | undefined): string | undefined {
+  return descToTooltip(raw, resolveKey);
+}
+
+// Religion IDs set for link detection
+const relIds = new Set(core.map((r) => r.id));
+
+/** Resolve $key$ references in description text. */
+type Segment = { text: string; href?: string };
+function resolveDesc(raw: string): Segment[] {
+  const segments: Segment[] = [];
+  const re = /\$([^$]+)\$/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(raw)) !== null) {
+    if (m.index > last) {
+      segments.push({ text: raw.slice(last, m.index) });
+    }
+    const key = m[1];
+    let resolved = loc[key]?.name ?? countriesLoc[key]?.name ?? terms[key];
+    let href: string | undefined;
+    if (!resolved) {
+      const base = key
+        .replace(/_ADJ$/, '')
+        .replace(/_(region|group|language|language_family|culture|school|school_desc|policy|god|god_name|religion|desc)$/, '');
+      resolved = loc[base]?.name ?? countriesLoc[base]?.name ?? terms[base];
+      if (!resolved) {
+        const humanized = base.replace(/_/g, ' ');
+        resolved = humanized.charAt(0).toUpperCase() + humanized.slice(1);
+      }
+    }
+    if (relIds.has(key)) {
+      href = localePath(lang, `/religions/${key}/`);
+    }
+    segments.push({ text: resolved, href });
+    last = re.lastIndex;
+  }
+  if (last < raw.length) {
+    segments.push({ text: raw.slice(last) });
+  }
+  return segments;
+}
+
+const descSegments = desc ? resolveDesc(desc) : [];
+const metaDesc = descSegments.length > 0
+  ? descSegments.map((s) => s.text).join('').replace(/\s+/g, ' ').trim().slice(0, 120)
+  : undefined;
+
+// Related religions in same group (exclude self)
+const related = core.filter((r) => r.group_id === item.group_id && r.id !== item.id);
+
+// Holy sites for this religion (reverse lookup)
+const allHolySites = loadCore<HolySiteItem>("holy_sites");
+const hsLoc = loadHolySiteLoc(lang);
+const holySites = allHolySites.filter((s) => s.religions.includes(item.id));
+
+// Aspects for this religion (reverse lookup)
+const allAspects = loadCore<AspectItem>("aspects");
+const aspLoc = loadAspectLoc(lang);
+const aspModNames = loadAspectModNames(lang);
+const aspModDescs = loadAspectModDescs(lang);
+const aspects = allAspects.filter((a) => a.religions.includes(item.id));
+
+// Filter out boolean/internal modifiers for display
+const displayMods = (item.modifier ?? []).filter((m) => !m.bool);
+
+// Opinion level CSS class
+const opinionClass: Record<string, string> = {
+  kindred: "op-kindred", positive: "op-positive",
+  negative: "op-negative", enemy: "op-enemy",
+};
+
+// Mechanic flag labels (from game_concepts via pipeline extraction)
+function mechLabel(flag: string): string {
+  return mechNames[flag] ?? flag.replace(/^has_/, '').replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+// Enable date formatting
+function formatEnable(dateStr: string): string {
+  if (dateStr.startsWith("9999")) return "-";
+  const parts = dateStr.split(".");
+  return parts[0]; // Just the year
+}
+---
+
+<Base
+  lang={lang}
+  title={name}
+  description={metaDesc ? `${name} — ${metaDesc}` : undefined}
+  canonicalPath={`/religions/${item.id}/`}
+>
+  <nav class="breadcrumb">
+    <a href={localePath(lang, "/religions/")}>{t(lang, "religions.breadcrumb")}</a>
+    <span class="sep">&rsaquo;</span>
+    <span>{name}</span>
+  </nav>
+
+  <header class="rel-header">
+    <div class="header-title">
+      <img src={`/${item.icon}`} alt="" width="48" height="48" class="header-icon" />
+      <h1>{name}</h1>
+    </div>
+    {lang !== "en" && <span class="en-name">{nameEn}</span>}
+    <code class="id-badge">{item.id}</code>
+  </header>
+
+  <section class="props-card">
+    <h2>{t(lang, "common.basic_info")}</h2>
+    <dl>
+      <div class="prop-row">
+        <dt data-tip={tip("field.religion_group")}>{t(lang, "religions.detail.group")}</dt>
+        <dd><span class="tag">{groupName}</span></dd>
+      </div>
+      {item.language && (
+        <div class="prop-row">
+          <dt data-tip={tip("field.liturgical_language")}>{t(lang, "religions.detail.language")}</dt>
+          <dd>{langNames[item.language] ?? item.language.replace(/_/g, ' ')}</dd>
+        </div>
+      )}
+      {item.religious_aspects != null && (
+        <div class="prop-row">
+          <dt>{t(lang, "religions.detail.aspects")}</dt>
+          <dd>{item.religious_aspects} ({aspects.length} {t(lang, "common.items").replace("{count} ", "")})</dd>
+        </div>
+      )}
+      {item.max_sects != null && (
+        <div class="prop-row">
+          <dt>{t(lang, "religions.detail.sects")}</dt>
+          <dd>{item.max_sects}</dd>
+        </div>
+      )}
+      {item.enable != null && !item.enable.startsWith("9999") && (
+        <div class="prop-row">
+          <dt>{t(lang, "religions.detail.enable")}</dt>
+          <dd>{formatEnable(item.enable)}</dd>
+        </div>
+      )}
+      {item.mechanics && item.mechanics.length > 0 && (
+        <div class="prop-row">
+          <dt>{t(lang, "religions.detail.mechanics")}</dt>
+          <dd class="mech-tags">
+            {item.mechanics.map((flag) => {
+              const mechDesc = mechDescs[flag];
+              return mechDesc ? (
+                <span class="mech-tag has-tip" data-tip={mechDesc}>{mechLabel(flag)}</span>
+              ) : (
+                <span class="mech-tag">{mechLabel(flag)}</span>
+              );
+            })}
+          </dd>
+        </div>
+      )}
+    </dl>
+  </section>
+
+  {
+    displayMods.length > 0 && (
+      <section class="panel">
+        <h2>{t(lang, "religions.detail.modifiers")}</h2>
+        <div class="table-wrap"><table>
+          <thead>
+            <tr>
+              <th>{t(lang, "religions.detail.modifier")}</th>
+              <th class="num-head">{t(lang, "religions.detail.value")}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {displayMods.map((m) => {
+              const modName = modNames[m.key] ?? m.key.replace(/_/g, ' ');
+              const modDesc = modDescs[m.key];
+              const val = formatModValue(lang, m.value, !!m.pct);
+              // Color: green=good, red=bad. inv flips the meaning.
+              const numVal = typeof m.value === "number" ? m.value : 0;
+              const isGood = m.inv ? numVal < 0 : numVal > 0;
+              const isBad = m.inv ? numVal > 0 : numVal < 0;
+              return (
+                <tr>
+                  <td>
+                    {modDesc ? (
+                      <span class="has-tip" data-tip={modDesc}>
+                        {modName}
+                        <span class="tip-icon">?</span>
+                      </span>
+                    ) : (
+                      <span>{modName}</span>
+                    )}
+                  </td>
+                  <td class={`num ${isGood ? "val-pos" : ""} ${isBad ? "val-neg" : ""}`}>
+                    {val}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table></div>
+      </section>
+    )
+  }
+
+  {
+    item.opinions && Object.keys(item.opinions).length > 0 && (
+      <section class="panel">
+        <h2>
+          {tip("field.religious_opinion") ? (
+            <span class="has-tip" data-tip={tip("field.religious_opinion")}>{t(lang, "religions.detail.opinions")}</span>
+          ) : (
+            t(lang, "religions.detail.opinions")
+          )}
+        </h2>
+        <div class="opinions-grid">
+          {Object.entries(item.opinions).map(([targetId, level]) => {
+            const targetName = loc[targetId]?.name ?? targetId;
+            const targetDesc = descTip(loc[targetId]?.desc);
+            const targetCore = core.find((r) => r.id === targetId);
+            const cls = opinionClass[level] ?? "";
+            return (
+              <a href={localePath(lang, `/religions/${targetId}/`)}
+                 class={`opinion-item ${cls}`}
+                 data-tip={targetDesc}>
+                {targetCore && (
+                  <img src={`/${targetCore.icon}`} alt="" width="24" height="24" loading="lazy" />
+                )}
+                <span class="opinion-name">{targetName}</span>
+                <span class={`opinion-level ${cls}`}>
+                  {t(lang, `religions.opinion.${level}` as any)}
+                </span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    descSegments.length > 0 && (
+      <section class="description">
+        <h2>{t(lang, "common.description")}</h2>
+        <p>
+          {descSegments.map((seg) =>
+            seg.href ? (
+              <a href={seg.href} class="concept-link">{seg.text}</a>
+            ) : (
+              <Fragment>{seg.text}</Fragment>
+            ),
+          )}
+        </p>
+      </section>
+    )
+  }
+
+  {
+    holySites.length > 0 && (
+      <section class="panel">
+        <h2>
+          {tip("field.holy_site") ? (
+            <span class="has-tip" data-tip={tip("field.holy_site")}>{t(lang, "religions.detail.holy_sites")}</span>
+          ) : (
+            t(lang, "religions.detail.holy_sites")
+          )}
+          <span class="related-count">{holySites.length}</span>
+        </h2>
+        <div class="table-wrap"><table>
+          <thead>
+            <tr>
+              <th>{t(lang, "holy_sites.col.name")}</th>
+              <th>{t(lang, "holy_sites.col.type")}</th>
+              <th class="imp-head">{t(lang, "holy_sites.col.importance")}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {holySites.map((s) => {
+              const sName = hsLoc[s.id]?.name ?? s.id.replace(/_/g, ' ');
+              const sType = hsLoc[s.type]?.name ?? s.type;
+              const sTypeDesc = hsLoc[s.type]?.desc;
+              const starsStr = "\u2605".repeat(s.importance) + "\u2606".repeat(5 - s.importance);
+              return (
+                <tr class="hs-row" data-href={localePath(lang, `/holy-sites/${s.id}/`)}>
+                  <td><a href={localePath(lang, `/holy-sites/${s.id}/`)}>{sName}</a></td>
+                  <td>
+                    {sTypeDesc ? (
+                      <span class="type-tag has-tip" data-tip={sTypeDesc}>{sType}</span>
+                    ) : (
+                      <span class="type-tag">{sType}</span>
+                    )}
+                  </td>
+                  <td class="imp-cell">{starsStr}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table></div>
+      </section>
+    )
+  }
+
+  {
+    aspects.length > 0 && (
+      <section class="panel">
+        <h2>
+          {t(lang, "religions.detail.aspects")}
+          <span class="related-count">{aspects.length}</span>
+        </h2>
+        <div class="table-wrap"><table>
+          <thead>
+            <tr>
+              <th class="icon-head"></th>
+              <th>{t(lang, "aspects.col.name")}</th>
+              <th class="mod-head">{t(lang, "aspects.col.modifiers")}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {aspects.map((a) => {
+              const aName = aspLoc[a.id]?.name ?? a.id.replace(/_/g, " ");
+              const aDesc = aspLoc[a.id]?.desc;
+              return (
+                <tr class="asp-row" data-href={localePath(lang, "/aspects/" + a.id + "/")}>
+                  <td class="icon-cell">
+                    <img src={"/" + a.icon} alt="" width="24" height="24" loading="lazy"
+                      onerror="this.src='/icons/religious_aspects/_default.png'" />
+                  </td>
+                  <td>
+                    {aDesc ? (
+                      <a href={localePath(lang, "/aspects/" + a.id + "/")} class="has-tip" data-tip={aDesc}>{aName}</a>
+                    ) : (
+                      <a href={localePath(lang, "/aspects/" + a.id + "/")}>{aName}</a>
+                    )}
+                  </td>
+                  <td class="mod-cell">
+                    {(a.modifier ?? [])
+                      .filter((m) => !m.bool && !m.scaled)
+                      .slice(0, 3)
+                      .map((m) => {
+                        const mName = aspModNames[m.key] ?? m.key.replace(/_/g, ' ');
+                        const mDesc = aspModDescs[m.key];
+                        return mDesc ? (
+                          <span class="asp-mod has-tip" data-tip={mDesc}>{mName}</span>
+                        ) : (
+                          <span class="asp-mod">{mName}</span>
+                        );
+                      })}
+                    {a.excludes && a.excludes.length > 0 && <span class="excl-badge">!</span>}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table></div>
+      </section>
+    )
+  }
+
+  {
+    related.length > 0 && (
+      <section class="related">
+        <h2>
+          {groupName}
+          <span class="related-count">{related.length}</span>
+        </h2>
+        <div class="related-grid">
+          {related.map((r) => {
+            const rName = loc[r.id]?.name ?? r.id;
+            const rDesc = descTip(loc[r.id]?.desc);
+            return (
+              <a href={localePath(lang, `/religions/${r.id}/`)} class="related-item" data-tip={rDesc}>
+                <img src={`/${r.icon}`} alt="" width="24" height="24" loading="lazy" />
+                <span>{rName}</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  <style>
+    .breadcrumb {
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+      color: var(--dusty-silver);
+    }
+
+    .breadcrumb .sep {
+      margin: 0 0.4rem;
+      color: var(--dim-stone);
+    }
+
+    .breadcrumb span:last-child {
+      color: var(--ivory);
+    }
+
+    .rel-header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--gold-thread);
+    }
+
+    .header-title {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header-icon {
+      image-rendering: pixelated;
+    }
+
+    .rel-header h1 {
+      font-size: 2rem;
+      color: var(--royal-gold);
+      margin-bottom: 0.25rem;
+    }
+
+    .en-name {
+      color: var(--dusty-silver);
+      font-size: 1rem;
+      margin-right: 0.75rem;
+    }
+
+    .id-badge {
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 2px;
+      padding: 0.1rem 0.5rem;
+      font-size: 1rem;
+      color: var(--dim-stone);
+    }
+
+    .props-card,
+    .panel,
+    .description,
+    .related {
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .props-card h2,
+    .panel h2,
+    .description h2,
+    .related h2 {
+      font-size: 1.15rem;
+      font-family: var(--font-body);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--dusty-silver);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--iron-edge);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    dl {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .prop-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .prop-row:last-child {
+      border-bottom: none;
+    }
+
+    dt {
+      font-size: 1rem;
+      color: var(--dusty-silver);
+    }
+
+    dt[data-tip] {
+      cursor: help;
+      text-decoration: underline dotted var(--dim-stone);
+      text-underline-offset: 2px;
+      position: relative;
+    }
+
+    dt[data-tip]::after {
+      content: attr(data-tip);
+      position: absolute;
+      left: 0;
+      bottom: calc(100% + 8px);
+      width: max-content;
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    dt[data-tip]:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    dd {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .tag {
+      display: inline-block;
+      background: rgba(201, 168, 76, 0.15);
+      color: var(--pale-gold);
+      border-radius: 2px;
+      padding: 0.1rem 0.5rem;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .mech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      justify-content: flex-end;
+    }
+
+    .mech-tag {
+      display: inline-block;
+      background: rgba(74, 142, 201, 0.15);
+      color: var(--azure-banner);
+      border-radius: 2px;
+      padding: 0.1rem 0.5rem;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    /* Tooltips */
+    .has-tip {
+      position: relative;
+      cursor: help;
+      border-bottom: 1px dotted var(--dim-stone);
+    }
+
+    .mech-tag.has-tip {
+      border-bottom: none;
+      cursor: help;
+    }
+
+    .tip-icon {
+      display: inline-block;
+      font-size: 0.6rem;
+      font-weight: 700;
+      color: var(--dim-stone);
+      background: var(--slate);
+      width: 14px;
+      height: 14px;
+      line-height: 14px;
+      text-align: center;
+      border-radius: 50%;
+      margin-left: 0.3rem;
+      vertical-align: middle;
+    }
+
+    .has-tip::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 0;
+      width: max(200px, 100%);
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .has-tip:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    /* Modifier table */
+    .panel table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .panel thead {
+      background: var(--charred-oak);
+    }
+
+    .panel th {
+      padding: 0.4rem 0.75rem;
+      text-align: left;
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 1rem;
+      color: var(--dusty-silver);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .panel .num-head {
+      text-align: right;
+    }
+
+    .panel td {
+      padding: 0.4rem 0.75rem;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .panel tr:last-child td {
+      border-bottom: none;
+    }
+
+    .num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+    }
+
+    .val-pos {
+      color: var(--forest-green);
+    }
+
+    .val-neg {
+      color: var(--crest-red);
+    }
+
+    /* Opinions */
+    .opinions-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .opinion-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.3rem 0.6rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      color: var(--ivory);
+      font-size: 1rem;
+      font-weight: 500;
+      transition: border-color 0.15s;
+    }
+
+    .opinion-item:hover {
+      border-color: var(--royal-gold);
+      text-decoration: none;
+    }
+
+    .opinion-item[data-tip],
+    .related-item[data-tip] {
+      position: relative;
+    }
+
+    .opinion-item[data-tip]::after,
+    .related-item[data-tip]::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 0;
+      width: max-content;
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .opinion-item[data-tip]:hover::after,
+    .related-item[data-tip]:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .opinion-item img {
+      image-rendering: pixelated;
+    }
+
+    .opinion-name {
+      color: var(--ivory);
+    }
+
+    .opinion-level {
+      font-size: 0.8rem;
+      padding: 0.05rem 0.4rem;
+      border-radius: 2px;
+      font-weight: 600;
+    }
+
+    .op-kindred .opinion-level {
+      background: rgba(76, 154, 90, 0.2);
+      color: var(--forest-green);
+    }
+
+    .op-positive .opinion-level {
+      background: rgba(74, 142, 201, 0.2);
+      color: var(--azure-banner);
+    }
+
+    .op-negative .opinion-level {
+      background: rgba(201, 148, 76, 0.2);
+      color: var(--harvest-amber);
+    }
+
+    .op-enemy .opinion-level {
+      background: rgba(196, 79, 79, 0.2);
+      color: var(--crest-red);
+    }
+
+    /* Description */
+    .description p {
+      color: var(--dusty-silver);
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    .concept-link {
+      color: var(--azure-banner);
+      text-decoration: underline dotted var(--dim-stone);
+      text-underline-offset: 2px;
+    }
+
+    .concept-link:hover {
+      color: var(--pale-gold);
+      text-decoration: underline solid var(--pale-gold);
+    }
+
+    /* Related */
+    .related-count {
+      font-family: var(--font-body);
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: var(--dusty-silver);
+      background: var(--slate);
+      padding: 0.1rem 0.45rem;
+      border-radius: 2px;
+    }
+
+    .related-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .related-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.3rem 0.6rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      color: var(--ivory);
+      font-size: 1rem;
+      font-weight: 500;
+      transition: border-color 0.15s;
+    }
+
+    .related-item:hover {
+      border-color: var(--royal-gold);
+      color: var(--pale-gold);
+      text-decoration: none;
+    }
+
+    .related-item img {
+      image-rendering: pixelated;
+    }
+
+    /* Holy sites table */
+    .type-tag {
+      display: inline-block;
+      background: rgba(201, 168, 76, 0.15); color: var(--pale-gold);
+      border-radius: 2px; padding: 0.1rem 0.5rem;
+      font-size: 1rem; font-weight: 500;
+    }
+    .imp-head { text-align: center; }
+    .imp-cell { text-align: center; color: var(--royal-gold); font-size: 0.9rem; }
+    .hs-row[data-href] { cursor: pointer; }
+    .hs-row:hover { background: var(--slate); }
+    .hs-row td a { color: var(--ivory); font-weight: 500; }
+    .hs-row td a:hover { color: var(--pale-gold); }
+    .asp-row[data-href] { cursor: pointer; }
+    .asp-row:hover { background: var(--slate); }
+    .asp-row td a { color: var(--ivory); font-weight: 500; }
+    .asp-row td a:hover { color: var(--pale-gold); }
+    .mod-head { text-align: right; }
+    .mod-cell { text-align: right; }
+    .asp-mod {
+      display: inline-block;
+      background: rgba(201, 168, 76, 0.1);
+      color: var(--dusty-silver);
+      border-radius: 2px;
+      padding: 0 0.35rem;
+      font-size: 0.75rem;
+      margin: 0.1rem 0.15rem;
+    }
+
+    .excl-badge {
+      display: inline-block;
+      background: rgba(196, 79, 79, 0.15);
+      color: var(--crest-red);
+      border-radius: 2px;
+      padding: 0 0.4rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+  </style>
+
+  <script>
+    document.querySelectorAll<HTMLTableRowElement>(".hs-row, .asp-row").forEach((row) => {
+      const href = row.dataset.href;
+      if (!href) return;
+      row.addEventListener("click", (e) => {
+        if ((e.target as HTMLElement).closest("a")) return;
+        window.location.href = href;
+      });
+    });
+  </script>
+</Base>
