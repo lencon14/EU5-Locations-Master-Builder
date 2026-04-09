@@ -365,18 +365,21 @@ def build_loc(tags: list[str]) -> dict[str, dict]:
     # Formable country names (loaded for future use in formable descriptions)
     # formable_loc = load_all_loc("formable_countries")
 
+    # Pre-load auxiliary loc sources (outside loop to avoid redundant parsing)
+    aux_culture_loc = load_all_loc("cultural_and_languages", "cultures")
+    aux_group_loc = load_all_loc("culture_groups")
+    aux_capital_loc = load_all_loc("location_names")
+
     # Build per-language
     loc_per_lang: dict[str, dict] = {}
     for url_code, _, _ in LANGUAGES:
         loc_data = all_loc.get(url_code, {})
         var_data = var_loc.get(url_code, {})
-        # Merge var sources for $variable$ resolution
         var_lookup = {**var_data, **loc_data}
 
-        lang_loc = {}
+        lang_loc: dict = {}
         for tag in tags:
             raw_name = loc_data.get(tag, "")
-            # Resolve $variable$ references
             name = _resolve_vars(raw_name, var_lookup) if "$" in raw_name else raw_name
             name = strip_markup(name)
 
@@ -388,25 +391,10 @@ def build_loc(tags: list[str]) -> dict[str, dict]:
                 if desc:
                     lang_loc[tag]["desc"] = desc
 
-        # Add auxiliary name maps (culture, culture_group, capital)
-        culture_loc = load_all_loc("cultural_and_languages", "cultures").get(url_code, {})
-        group_loc = load_all_loc("culture_groups").get(url_code, {})
-        capital_loc = load_all_loc("location_names").get(url_code, {})
-
-        # Collect unique culture/group/capital keys from core data
-        culture_names: dict[str, str] = {}
-        group_names: dict[str, str] = {}
-        capital_names: dict[str, str] = {}
-
-        for tag in tags:
-            # Find this country in core (need culture_definition etc.)
-            pass
-
-        # Build from var_data which has cultural_and_languages + culture_groups
-        for key, val in var_data.items():
-            if not key.startswith("_"):
-                # Culture and group names are flat strings in loc
-                pass
+        # Auxiliary name maps (culture, culture_group, capital)
+        culture_loc = aux_culture_loc.get(url_code, {})
+        group_loc = aux_group_loc.get(url_code, {})
+        capital_loc = aux_capital_loc.get(url_code, {})
 
         lang_loc["_culture_names"] = {k: strip_markup(v) for k, v in culture_loc.items() if v and not k.startswith("_")}
         lang_loc["_culture_group_names"] = {k: strip_markup(v) for k, v in group_loc.items() if v and not k.startswith("_")}
@@ -467,15 +455,18 @@ def main():
     loc_per_lang = build_loc(tags)
     for url_code, loc_data in loc_per_lang.items():
         write_json(OUTPUT_DIR / "loc" / url_code / "countries.json", loc_data)
-    named = sum(1 for v in loc_per_lang.get("en", {}).values() if v.get("name"))
+    named = sum(1 for k, v in loc_per_lang.get("en", {}).items()
+                if not k.startswith("_") and isinstance(v, dict) and v.get("name"))
     print(f"Wrote loc for {len(loc_per_lang)} languages ({named} EN names)")
 
-    # Check $variable$ resolution (in final output, after strip_markup)
+    # Check $variable$ resolution (skip _ auxiliary keys)
     en_loc = loc_per_lang.get("en", {})
-    unresolved_name = [tag for tag, v in en_loc.items() if "$" in v.get("name", "")]
-    unresolved_desc = [tag for tag, v in en_loc.items() if "$" in v.get("desc", "")]
-    # Also check for empty names that might indicate stripped $var$
-    empty_names = [tag for tag in tags if tag in en_loc and not en_loc[tag].get("name")]
+    unresolved_name = [tag for tag, v in en_loc.items()
+                       if not tag.startswith("_") and isinstance(v, dict) and "$" in v.get("name", "")]
+    unresolved_desc = [tag for tag, v in en_loc.items()
+                       if not tag.startswith("_") and isinstance(v, dict) and "$" in v.get("desc", "")]
+    empty_names = [tag for tag in tags
+                   if tag in en_loc and isinstance(en_loc[tag], dict) and not en_loc[tag].get("name")]
     if unresolved_name:
         print(f"\n[WARN] {len(unresolved_name)} tags with unresolved $var$ in EN name:")
         for t in unresolved_name[:10]:

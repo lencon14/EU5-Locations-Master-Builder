@@ -6,7 +6,9 @@
  */
 import { DEFAULT_LANG, type Lang } from './config';
 
-// -- Category type (prevents typos) --
+// -- Category type (prevents typos in loadCore) --
+// Note: countries/buildings/religions/holy_sites/aspects loc have special keys
+// and are excluded from locModules. Use dedicated loaders instead of loadLoc().
 export type Category = 'goods' | 'buildings' | 'countries' | 'religions' | 'governments' | 'laws' | 'holy_sites' | 'holy_site_types' | 'aspects';
 
 // -- Core data (arrays) --
