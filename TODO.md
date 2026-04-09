@@ -12,7 +12,7 @@
 - [x] 建物ページURL移行（/{lang}/eu5/buildings/...、名前 en/ja 切替）
 - [ ] extract_buildings.py のcore/loc分離（25個のloc参照、条件テキストi18n設計が必要）
 - [ ] 建物ページのフルi18n化（フィルターUI・ツールチップ・条件テキスト）
-- [ ] 残り9言語のサイトUI文言追加（de, es, fr, ko, pl, pt-br, ru, tr, zh-hans）
+- [x] 残り9言語のサイトUI文言追加（de, es, fr, ko, pl, pt-br, ru, tr, zh-hans）
 
 ## サイトページ作成
 - [x] 交易品（74件）— 一覧 + 詳細ページ（全11言語、5,677ページ中825ページ）
