@@ -4,6 +4,7 @@ import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
 import { loadCore, loadLoc, gameTerm } from "../../../../i18n/data";
 import { t } from "../../../../i18n/ui";
 import type { GoodsItem } from "../../../../i18n/types";
+import allBuildings from "../../../../data/buildings.json";
 
 export function getStaticPaths() {
   const core = loadCore<GoodsItem>("goods");
@@ -28,35 +29,76 @@ function tip(key: string): string | undefined {
   return d !== `${key}.desc` ? d : undefined;
 }
 
-// --- POP demand calculation ---
+// --- Unified POP table: demand + wealth impact ---
 const ALL_POP_TYPES = ["nobles", "clergy", "burghers", "laborers", "soldiers", "peasants", "slaves", "tribesmen"] as const;
 const UPPER_CLASS = new Set(["nobles", "clergy", "burghers"]);
 
-type DemandRow = { popId: string; base: number; multiplier: number; final: number };
+type PopRow = {
+  popId: string;
+  base: number;
+  multiplier: number;
+  final: number;
+  wealth: number | null;
+};
 
-function calcDemandRows(): DemandRow[] | null {
+const popRows: PopRow[] = ALL_POP_TYPES.map((popId) => {
+  // Demand
   const add = item.demand_add;
   const mul = item.demand_multiply;
-  if (!add || Object.keys(add).length === 0) return null;
-
-  return ALL_POP_TYPES.map((popId) => {
-    // Base: specific pop entry > "all" > 0
-    const base = add[popId] ?? add["all"] ?? 0;
-    // Multiplier: specific pop entry > "upper" (if upper class) > 1
-    let multiplier = 1;
-    if (mul) {
-      if (popId in mul) {
-        multiplier = mul[popId];
-      } else if (UPPER_CLASS.has(popId) && "upper" in mul) {
-        multiplier = mul["upper"];
-      }
+  const base = add?.[popId] ?? (UPPER_CLASS.has(popId) ? add?.["upper"] : undefined) ?? add?.["all"] ?? 0;
+  let multiplier = 1;
+  if (mul) {
+    if (popId in mul) {
+      multiplier = mul[popId];
+    } else if (UPPER_CLASS.has(popId) && "upper" in mul) {
+      multiplier = mul["upper"];
     }
-    return { popId, base, multiplier, final: base * multiplier };
-  });
-}
+  }
+  // Wealth
+  const wit = item.wealth_impact_threshold;
+  const wealth = wit?.[popId] ?? wit?.["all"] ?? null;
+  return { popId, base, multiplier, final: base * multiplier, wealth };
+});
 
-const demandRows = calcDemandRows();
-const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.base !== 0);
+// --- Building uses (reverse index: which buildings consume/produce this good) ---
+const SPECIAL_KEYS = new Set(["category", "produced", "output", "_name_ja", "_category_ja", "allow", "potential", "debug_max_profit"]);
+
+type BuildingUse = {
+  buildingId: string;
+  icon: string;
+  role: "input" | "output";
+};
+
+const useSet = new Set<string>();
+const uses: BuildingUse[] = [];
+for (const b of allBuildings as any[]) {
+  const pm = b.production_methods;
+  if (!pm) continue;
+  for (const pmData of Object.values(pm) as any[]) {
+    // Input: numeric keys that are goods IDs
+    if (item.id in pmData && !SPECIAL_KEYS.has(item.id) && typeof pmData[item.id] === "number") {
+      const key = `${b.id}:input`;
+      if (!useSet.has(key)) { useSet.add(key); uses.push({ buildingId: b.id, icon: b.icon, role: "input" }); }
+    }
+    // Output: produced field matches this good
+    if (pmData.produced === item.id) {
+      const key = `${b.id}:output`;
+      if (!useSet.has(key)) { useSet.add(key); uses.push({ buildingId: b.id, icon: b.icon, role: "output" }); }
+    }
+  }
+}
+// Sort: output first, then alphabetically by building ID
+uses.sort((a, b) => {
+  if (a.role !== b.role) return a.role === "output" ? -1 : 1;
+  return a.buildingId.localeCompare(b.buildingId);
+});
+
+/** Get building name for current language */
+function bldgName(b: any): string {
+  if (lang === "ja") return b.name_ja ?? b.name_en ?? b.id;
+  return b.name_en ?? b.id;
+}
+const bldgMap = new Map((allBuildings as any[]).map((b: any) => [b.id, b]));
 ---
 
 <Base
@@ -80,9 +122,8 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
     <code class="id-badge">{item.id}</code>
   </header>
 
-  <div class="content-grid">
-    <section class="props-card">
-      <h2>{t(lang, "common.basic_info")}</h2>
+  <section class="props-card">
+    <h2>{t(lang, "common.basic_info")}</h2>
       <dl>
         <div class="prop-row">
           <dt>{t(lang, "common.category")}</dt>
@@ -145,59 +186,81 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
           )
         }
       </dl>
-    </section>
+  </section>
 
-    <div class="side-panels">
-      {
-        hasDemand && demandRows && (
-          <section class="panel demand-panel">
-            <h3 data-tip={tip("field.demand")}>POP{gameTerm(lang, "field.demand")} <span class="unit">({t(lang, "goods.per_1000")})</span></h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>{gameTerm(lang, "field.demand")}</th>
-                  <th class="num-head">{gameTerm(lang, "field.demand_add")}</th>
-                  <th class="num-head">&times;</th>
-                  <th class="num-head">=</th>
-                </tr>
-              </thead>
-              <tbody>
-                {demandRows.map((r) => (
-                  <tr class={r.final === 0 ? "zero-row" : ""}>
-                    <td data-tip={tip(`pop.${r.popId}`)}>{gameTerm(lang, `pop.${r.popId}`)}</td>
-                    <td class="num">{r.base}</td>
-                    <td class="num">{r.multiplier !== 1 ? `×${r.multiplier}` : ""}</td>
-                    <td class="num result">{r.final}</td>
+  <section class="panel pop-panel">
+      <h3><span data-tip={tip("field.demand")}>POP {gameTerm(lang, "field.demand")}</span> <span class="unit">({t(lang, "goods.per_1000")})</span> &amp; <span data-tip={tip("field.wealth")}>{gameTerm(lang, "field.wealth_impact_threshold")}</span></h3>
+      <table>
+        <thead>
+          <tr>
+            <th class="icon-head"></th>
+            <th>POP</th>
+            <th class="num-head" data-tip={tip("field.demand")}>{gameTerm(lang, "field.demand_add")}</th>
+            <th class="num-head">&times;</th>
+            <th class="num-head">=</th>
+            <th class="num-head sep-left" data-tip={tip("field.wealth")}>{gameTerm(lang, "field.wealth")}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {popRows.map((r) => {
+            const demandZero = r.final === 0 && r.base === 0;
+            const wealthZero = r.wealth === null;
+            const allZero = demandZero && wealthZero;
+            return (
+              <tr class={allZero ? "zero-row" : ""}>
+                <td class="icon-cell"><img src={`/icons/pops/${r.popId}.png`} alt="" width="24" height="24" /></td>
+                <td data-tip={tip(`pop.${r.popId}`)}>{gameTerm(lang, `pop.${r.popId}`)}</td>
+                <td class={`num${!allZero && demandZero ? " dim" : ""}`}>{r.base}</td>
+                <td class={`num${!allZero && demandZero ? " dim" : ""}`}>{r.multiplier !== 1 ? `×${r.multiplier}` : ""}</td>
+                <td class={`num result${!allZero && demandZero ? " dim" : ""}`}>{r.final}</td>
+                <td class={`num sep-left${!allZero && wealthZero ? " dim" : ""}`}>{r.wealth !== null ? r.wealth : "-"}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+  </section>
+
+  {
+    uses.length > 0 && (
+      <section class="building-uses">
+        <h2>{t(lang, "goods.building_uses")} <span class="category-count">{uses.length}</span></h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="icon-head"></th>
+                <th>{t(lang, "goods.col.building")}</th>
+                <th>{t(lang, "goods.col.role")}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {uses.map((u) => {
+                const b = bldgMap.get(u.buildingId);
+                return (
+                  <tr class="bldg-row" data-href={localePath(lang, `/buildings/${u.buildingId}/`)}>
+                    <td class="icon-cell">
+                      {b?.icon && <img src={`/${b.icon}`} alt="" width="24" height="24" loading="lazy" />}
+                    </td>
+                    <td>
+                      <a href={localePath(lang, `/buildings/${u.buildingId}/`)}>
+                        {b ? bldgName(b) : u.buildingId}
+                      </a>
+                    </td>
+                    <td>
+                      <span class={`role-tag ${u.role}`}>
+                        {t(lang, `goods.role.${u.role}` as any)}
+                      </span>
+                    </td>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </section>
-        )
-      }
-
-      {
-        item.wealth_impact_threshold &&
-          Object.keys(item.wealth_impact_threshold).length > 0 && (
-            <section class="panel">
-              <h3 data-tip={tip("field.wealth")}>{gameTerm(lang, "field.wealth_impact_threshold")}</h3>
-              <table>
-                <tbody>
-                  {Object.entries(item.wealth_impact_threshold).map(
-                    ([k, v]) => (
-                      <tr>
-                        <td data-tip={tip(`pop.${k}`)}>{gameTerm(lang, `pop.${k}`)}</td>
-                        <td class="num">{v as number}</td>
-                      </tr>
-                    ),
-                  )}
-                </tbody>
-              </table>
-            </section>
-          )
-      }
-    </div>
-  </div>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )
+  }
 
   {
     desc && (
@@ -208,10 +271,21 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
     )
   }
 
+  <script>
+    document.querySelectorAll<HTMLTableRowElement>(".bldg-row").forEach((row) => {
+      const href = row.dataset.href;
+      if (!href) return;
+      row.addEventListener("click", (e) => {
+        if ((e.target as HTMLElement).closest("a")) return;
+        window.location.href = href;
+      });
+    });
+  </script>
+
   <style>
     .breadcrumb {
       margin-bottom: 1.5rem;
-      font-size: 0.875rem;
+      font-size: 1rem;
       color: var(--dusty-silver);
     }
 
@@ -257,21 +331,8 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
       border: 1px solid var(--iron-edge);
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 0.75rem;
+      font-size: 1rem;
       color: var(--dim-stone);
-    }
-
-    .content-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-    }
-
-    @media (max-width: 639px) {
-      .content-grid {
-        grid-template-columns: 1fr;
-      }
     }
 
     .props-card,
@@ -280,11 +341,12 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
       border: 1px solid var(--iron-edge);
       border-radius: 4px;
       padding: 1.25rem;
+      margin-bottom: 1.5rem;
     }
 
     .props-card h2,
     .panel h3 {
-      font-size: 0.85rem;
+      font-size: 1.15rem;
       font-family: var(--font-body);
       font-weight: 500;
       text-transform: uppercase;
@@ -314,7 +376,7 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
     }
 
     dt {
-      font-size: 0.875rem;
+      font-size: 1rem;
       color: var(--dusty-silver);
     }
 
@@ -361,10 +423,15 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
       top: calc(100% + 4px);
     }
 
-    .demand-panel th {
+    .pop-panel table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .pop-panel th {
       padding: 0.4rem 0.5rem;
       text-align: left;
-      font-size: 0.75rem;
+      font-size: 1rem;
       font-weight: 500;
       color: var(--dusty-silver);
       text-transform: uppercase;
@@ -372,12 +439,43 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
       border-bottom: 1px solid var(--iron-edge);
     }
 
-    .demand-panel thead {
+    .pop-panel thead {
       background: var(--charred-oak);
     }
 
-    .demand-panel .num-head {
+    .pop-panel .icon-head {
+      width: 32px;
+      padding: 0.4rem 0.25rem;
+    }
+
+    .pop-panel .icon-cell {
+      width: 32px;
+      padding: 0.3rem 0.25rem;
+      text-align: center;
+    }
+
+    .pop-panel .icon-cell img {
+      vertical-align: middle;
+      image-rendering: pixelated;
+    }
+
+    .pop-panel .num-head {
       text-align: right;
+    }
+
+    .pop-panel td {
+      padding: 0.4rem 0.5rem;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .pop-panel tr:last-child td {
+      border-bottom: none;
+    }
+
+    .sep-left {
+      border-left: 2px solid var(--iron-edge);
+      padding-left: 0.75rem !important;
     }
 
     .result {
@@ -385,8 +483,12 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
       color: var(--pale-gold);
     }
 
+    .dim {
+      opacity: 0.35;
+    }
+
     .zero-row {
-      opacity: 0.4;
+      opacity: 0.35;
     }
 
     .unit {
@@ -399,7 +501,7 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
     }
 
     dd {
-      font-size: 0.875rem;
+      font-size: 1rem;
       font-weight: 500;
     }
 
@@ -413,25 +515,8 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
       color: var(--pale-gold);
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 0.75rem;
+      font-size: 1rem;
       font-weight: 500;
-    }
-
-    .side-panels {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .panel table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    .panel td {
-      padding: 0.4rem 0.5rem;
-      font-size: 0.875rem;
-      border-bottom: 1px solid var(--iron-edge);
     }
 
     .num {
@@ -439,8 +524,137 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
       font-variant-numeric: tabular-nums;
     }
 
-    .panel tr:last-child td {
+    .building-uses {
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      padding: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .building-uses h2 {
+      font-size: 1.15rem;
+      font-family: var(--font-body);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--dusty-silver);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--iron-edge);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .building-uses .category-count {
+      font-family: var(--font-body);
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: var(--dusty-silver);
+      background: var(--slate);
+      padding: 0.1rem 0.45rem;
+      border-radius: 2px;
+    }
+
+    .building-uses .table-wrap {
+      overflow-x: auto;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .building-uses table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .building-uses thead {
+      background: var(--charred-oak);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    .building-uses th {
+      padding: 0.4rem 0.75rem;
+      text-align: left;
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 1rem;
+      color: var(--dusty-silver);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .building-uses .num-head {
+      text-align: right;
+    }
+
+    .building-uses td {
+      padding: 0.4rem 0.75rem;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .building-uses .icon-head {
+      width: 32px;
+      padding: 0.4rem 0.25rem;
+    }
+
+    .building-uses .icon-cell {
+      width: 32px;
+      padding: 0.3rem 0.25rem;
+      text-align: center;
+    }
+
+    .building-uses .icon-cell img {
+      vertical-align: middle;
+      image-rendering: pixelated;
+    }
+
+    .building-uses .num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .building-uses tr[data-href] {
+      cursor: pointer;
+    }
+
+    .building-uses tr:hover {
+      background: var(--slate);
+    }
+
+    .building-uses td a {
+      color: var(--ivory);
+      font-weight: 500;
+    }
+
+    .building-uses td a:hover {
+      color: var(--pale-gold);
+    }
+
+    .building-uses tr:last-child td {
       border-bottom: none;
+    }
+
+    .role-tag {
+      display: inline-block;
+      border-radius: 2px;
+      padding: 0.1rem 0.5rem;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .role-tag.input {
+      background: rgba(201, 168, 76, 0.15);
+      color: var(--pale-gold);
+    }
+
+    .role-tag.output {
+      background: rgba(76, 175, 80, 0.15);
+      color: #81c784;
     }
 
     .description {
@@ -451,7 +665,7 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
     }
 
     .description h2 {
-      font-size: 0.85rem;
+      font-size: 1.15rem;
       font-family: var(--font-body);
       font-weight: 500;
       text-transform: uppercase;
@@ -464,7 +678,7 @@ const hasDemand = demandRows != null && demandRows.some(r => r.final !== 0 || r.
 
     .description p {
       color: var(--dusty-silver);
-      font-size: 0.875rem;
+      font-size: 1rem;
       line-height: 1.8;
     }
   </style>

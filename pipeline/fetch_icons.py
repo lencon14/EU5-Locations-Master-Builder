@@ -33,6 +33,7 @@ ICON_CATEGORIES = {
     "religious_schools": "religious_schools",
     "government_types": "government_types",
     "laws": "laws",
+    "pops": "pops",
 }
 
 

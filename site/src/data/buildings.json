@@ -139,8 +139,8 @@
     "id": "provincial_garrison",
     "name_en": "Provincial Garrison",
     "name_ja": "地方駐屯地",
-    "desc_en": "The provinces are the pillars that sustain the . To defend them against any attacker, garrisons need to be established with a permanent station of soldiers.",
-    "desc_ja": "各地に広がる州はを支える柱である。よって敵の侵攻に備え、常駐の兵士を配した駐屯地を設置する必要がある。",
+    "desc_en": "The provinces are the pillars that sustain the [GetInternationalOrganizationType('middle kingdom')]. To defend them against any attacker, garrisons need to be established with a permanent station of soldiers.",
+    "desc_ja": "各地に広がる州は[GetInternationalOrganizationType('middle kingdom')]を支える柱である。よって敵の侵攻に備え、常駐の兵士を配した駐屯地を設置する必要がある。",
     "category": "military_category",
     "pop_type": "soldiers",
     "max_levels": 1,
@@ -868,7 +868,7 @@
         "key": "local_proximity_source",
         "value": 80,
         "name_ja": "ローカル近接性供給源",
-        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するのの向上にも役立つ。\\n\\nこれは首都からのとは重複しないため、このがすでにからより高いを得ている場合、この補正は効果を発揮しない。"
+        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するlocationsのproximityの向上にも役立つ。 これは首都からのproximityとは重複しないため、このlocationがすでにcapitalからより高いproximityを得ている場合、この補正は効果を発揮しない。"
       }
     ],
     "production_methods": {
@@ -941,7 +941,7 @@
         "key": "local_proximity_source",
         "value": 80,
         "name_ja": "ローカル近接性供給源",
-        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するのの向上にも役立つ。\\n\\nこれは首都からのとは重複しないため、このがすでにからより高いを得ている場合、この補正は効果を発揮しない。"
+        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するlocationsのproximityの向上にも役立つ。 これは首都からのproximityとは重複しないため、このlocationがすでにcapitalからより高いproximityを得ている場合、この補正は効果を発揮しない。"
       }
     ],
     "production_methods": {
@@ -2196,7 +2196,7 @@
   },
   {
     "id": "confucian_school",
-    "name_en": "儒学校",
+    "name_en": "Confucian School",
     "name_ja": "儒学校",
     "desc_en": "These learning institutions focus their efforts in the education and training of government officials in the Confucian ideals.",
     "desc_ja": "儒教の理想に基づき、政府官僚の教育や養成に力を注ぐ教育機関。",
@@ -2266,7 +2266,7 @@
   },
   {
     "id": "confucian_academy",
-    "name_en": "儒教学院",
+    "name_en": "Confucian Academy",
     "name_ja": "儒教学院",
     "desc_en": "Private learning schools for elite-class students who are learning the Confucian teachings and ideals to pass the national service examinations.",
     "desc_ja": "儒教の教えと理想を学び、官僚試験の合格を目指すエリート階級の学生向けの私立学校。",
@@ -2693,7 +2693,7 @@
     "id": "rotten_borough",
     "name_en": "Rotten Borough",
     "name_ja": "腐敗選挙区",
-    "desc_en": "",
+    "desc_en": "Represents a parliamentary borough with a very small electorate that can be corrupted, extorted or bribed to vote for a certain candidate.",
     "desc_ja": "ごく少数の有権者からなる議会選挙区。特定の候補者に投票させるため、不正、強要、贈賄などがおこなわれることもある。",
     "category": "estate_category",
     "pop_type": "nobles",
@@ -5943,8 +5943,8 @@
     "id": "bodrum_castle",
     "name_en": "Petronium",
     "name_ja": "ペトロニウム",
-    "desc_en": "The ペトロニウム is the principal stronghold on the mainland of . It features 4 towers built by four different participating nations, the English, French, Italian, and German, and it is a refuge for the Christians in the area.",
-    "desc_ja": "ペトロニウムは、本土にあるの最も主要な要塞である。イギリス、フランス、イタリア、ドイツの4つの騎士団参加国によって建てられた4つの塔を特徴とし、地域のキリスト教徒の避難場所となっている。",
+    "desc_en": "The ペトロニウム is the principal [GetCountry('KNI').GetAdjective] stronghold on the mainland of anatolia region. It features 4 towers built by four different participating nations, the English, French, Italian, and German, and it is a refuge for the Christians in the area.",
+    "desc_ja": "ペトロニウムは、anatolia region本土にある[GetCountry('KNI').GetAdjective]の最も主要な要塞である。イギリス、フランス、イタリア、ドイツの4つの騎士団参加国によって建てられた4つの塔を特徴とし、地域のキリスト教徒の避難場所となっている。",
     "category": "defense_category",
     "pop_type": "clergy",
     "expensive": true,
@@ -6024,8 +6024,8 @@
     "id": "forbidden_city",
     "name_en": "Forbidden City",
     "name_ja": "紫禁城",
-    "desc_en": "紫禁城 is a structure so monumental, it is certainly the single palace that can stay true to how powerful the truly is.",
-    "desc_ja": "紫禁城は極めて壮大な建造物であり、がいかに強大であるかを象徴する唯一無二の宮殿である。",
+    "desc_en": "紫禁城 is a structure so monumental, it is certainly the single palace that can stay true to how powerful the [GetInternationalOrganizationType('middle kingdom').GetName] truly is.",
+    "desc_ja": "紫禁城は極めて壮大な建造物であり、[GetInternationalOrganizationType('middle kingdom').GetName]がいかに強大であるかを象徴する唯一無二の宮殿である。",
     "category": "cultural_category",
     "pop_type": "nobles",
     "expensive": true,
@@ -6095,8 +6095,8 @@
     "id": "chi_macau_port",
     "name_en": "Macau Treaty Port",
     "name_ja": "マカオ条約港",
-    "desc_en": "マカオ条約港 represents territory leased to . Each year, the people are forced to pay a hefty amount of gold as the land rent.",
-    "desc_ja": "マカオ条約港はが賃借している地域を指す。人は土地の賃料として、毎年多額の金を支払わなければならない。",
+    "desc_en": "マカオ条約港 represents territory leased to [GetCountry('POR').GetName]. Each year, the [GetCountry('POR').GetAdjectiveWithNoTooltip] people are forced to pay a hefty amount of gold as the land rent.",
+    "desc_ja": "マカオ条約港は[GetCountry('POR').GetName]が賃借している地域を指す。[GetCountry('POR').GetAdjectiveWithNoTooltip]人は土地の賃料として、毎年多額の金を支払わなければならない。",
     "category": "trade_category",
     "pop_type": "burghers",
     "max_levels": 1,
@@ -8111,8 +8111,8 @@
     "id": "husuni_kubwa",
     "name_en": "Husuni Kubwa",
     "name_ja": "フスニ・クブワ",
-    "desc_en": "An elaborate royal complex originally commissioned by . This residence featured beautiful architecture, and is used for royal as much as mercantile duties, serving as the capital's de facto bargain and storage halls for the many merchants across our domain.",
-    "desc_ja": "が建造を命じた、精巧な王宮複合施設。美しい建築様式を特徴とする宮殿で、王宮の職務だけでなく商業活動にも使われ、首都の取引・保管所として、わが国の多くの商人たちに利用されている。",
+    "desc_en": "An elaborate royal complex originally commissioned by [GetCharacter('zan abu al mawahib al hasan ibn suleiman').GetName]. This residence featured beautiful swahili culture architecture, and is used for royal as much as mercantile duties, serving as the capital's de facto bargain and storage halls for the many merchants across our domain.",
+    "desc_ja": "[GetCharacter('zan abu al mawahib al hasan ibn suleiman').GetName]が建造を命じた、精巧な王宮複合施設。美しいswahili culture建築様式を特徴とする宮殿で、王宮の職務だけでなく商業活動にも使われ、首都の取引・保管所として、わが国の多くの商人たちに利用されている。",
     "category": "cultural_category",
     "pop_type": "burghers",
     "expensive": true,
@@ -8370,7 +8370,7 @@
   },
   {
     "id": "constantinople_observatory",
-    "name_en": "タキ・アルジンの天文台",
+    "name_en": "Observatory of Taqī ad-Dīn",
     "name_ja": "タキ・アルジンの天文台",
     "desc_en": "This magnificent observatory stands on a hill with a great view of the night sky. If it lasts, it might greatly benefit the sciences in イスラム教 lands.",
     "desc_ja": "素晴らしい星空を眺めることのできる、丘の上に建つ立派な天文台。この天文台が長く存続すれば、イスラム教諸国の科学に多大な恩恵がもたらされるだろう。",
@@ -8909,8 +8909,8 @@
     "id": "rahdar",
     "name_en": "Rahdar",
     "name_ja": "ラーダール",
-    "desc_en": "In order to protect the trade routes of , a highway patrol has to be established. It is known as the ラーダール, where these men ensure the safety of trade within the area.",
-    "desc_ja": "の交易路を守るため、街道警備隊を置かなければならない。この警備隊はラーダールと呼ばれ、地域で安全に交易をおこなえるようにする。",
+    "desc_en": "In order to protect the trade routes of hindustan region, a highway patrol has to be established. It is known as the ラーダール, where these men ensure the safety of trade within the area.",
+    "desc_ja": "hindustan regionの交易路を守るため、街道警備隊を置かなければならない。この警備隊はラーダールと呼ばれ、地域で安全に交易をおこなえるようにする。",
     "category": "trade_category",
     "pop_type": "soldiers",
     "max_levels": 1,
@@ -9141,8 +9141,8 @@
     "id": "mahmud_gawan_madrasa",
     "name_en": "Mahmud Gawan Madrasa",
     "name_ja": "マフムード・ガーワーン・マドラサ",
-    "desc_en": "Built with the intention of allowing many scholars from all over the globe to experience our culture, this Madrasa is seen as one of the greatest religious colleges in .",
-    "desc_ja": "世界中の学者にこの地の文化を学ばせるためのマドラサで、で最も偉大な宗教大学のひとつとされている。",
+    "desc_en": "Built with the intention of allowing many scholars from all over the globe to experience our culture, this Madrasa is seen as one of the greatest religious colleges in deccan region.",
+    "desc_ja": "世界中の学者にこの地の文化を学ばせるためのマドラサで、deccan regionで最も偉大な宗教大学のひとつとされている。",
     "category": "cultural_category",
     "pop_type": "clergy",
     "expensive": true,
@@ -9337,8 +9337,8 @@
     "id": "sco_palace_of_holyroodhouse",
     "name_en": "Palace of Holyroodhouse",
     "name_ja": "ホリールードハウス宮殿",
-    "desc_en": "The ホリールードハウス宮殿 stands as a symbol of one of the many architectures from the Renaissance. A Grand Gothic palace, Holyroodhouse is one of the most treasured residences of the family.",
-    "desc_ja": "ホリールードハウス宮殿は、・ルネサンスのさまざまな建築様式のひとつを代表する建造物。壮麗なゴシック様式の宮殿で、一族の最も貴重な住居のひとつである。",
+    "desc_en": "The ホリールードハウス宮殿 stands as a symbol of one of the many architectures from the scottish Renaissance. A Grand Gothic palace, Holyroodhouse is one of the most treasured residences of the [GetCountry('SCO').GetGovernment.GetAdjective] family.",
+    "desc_ja": "ホリールードハウス宮殿は、scottish・ルネサンスのさまざまな建築様式のひとつを代表する建造物。壮麗なゴシック様式の宮殿で、[GetCountry('SCO').GetGovernment.GetAdjective]一族の最も貴重な住居のひとつである。",
     "category": "cultural_category",
     "pop_type": "nobles",
     "expensive": true,
@@ -9408,8 +9408,8 @@
     "id": "fra_louvre_museum",
     "name_en": "Louvre Museum",
     "name_ja": "ルーヴル美術館",
-    "desc_en": "Once a symbol of フランス royalty, the Louvre palace has been converted into a public museum, hosting the finest works of .",
-    "desc_ja": "かつてフランス王室の象徴だったルーヴル宮殿は、現在では一般公開の美術館に改装され、を代表する最高の美術品を所蔵している。",
+    "desc_en": "Once a symbol of フランス royalty, the Louvre palace has been converted into a public museum, hosting the finest works of [GetCountry('FRA').GetNameWithNoTooltip].",
+    "desc_ja": "かつてフランス王室の象徴だったルーヴル宮殿は、現在では一般公開の美術館に改装され、[GetCountry('FRA').GetNameWithNoTooltip]を代表する最高の美術品を所蔵している。",
     "category": "cultural_category",
     "pop_type": "burghers",
     "expensive": true,
@@ -10593,8 +10593,8 @@
     "id": "phanariot_district",
     "name_en": "Phanariot District",
     "name_ja": "ファナリオット地区",
-    "desc_en": "The district where the Phanariots, wealthy merchants, reside in コンスタンティノープル.",
-    "desc_ja": "コンスタンティノープル内にある、裕福な商人ファナリオットたちが居住する地区。",
+    "desc_en": "The district where the Phanariots, wealthy greek culture merchants, reside in コンスタンティノープル.",
+    "desc_ja": "コンスタンティノープル内にある、裕福なgreek culture商人ファナリオットたちが居住する地区。",
     "category": "cultural_category",
     "pop_type": "burghers",
     "expensive": true,
@@ -10773,7 +10773,7 @@
         "key": "local_proximity_source",
         "value": 15,
         "name_ja": "ローカル近接性供給源",
-        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するのの向上にも役立つ。\\n\\nこれは首都からのとは重複しないため、このがすでにからより高いを得ている場合、この補正は効果を発揮しない。"
+        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するlocationsのproximityの向上にも役立つ。 これは首都からのproximityとは重複しないため、このlocationがすでにcapitalからより高いproximityを得ている場合、この補正は効果を発揮しない。"
       },
       {
         "key": "local_unrest",
@@ -13231,7 +13231,7 @@
         "key": "harbor_suitability",
         "value": 0.01,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       }
     ],
     "conditions": [
@@ -13363,7 +13363,7 @@
         "key": "local_pop_join_rebel_threshold",
         "value": -0.02,
         "name_ja": "POPの反乱軍への参加しきい値",
-        "desc_ja": "POPが反乱軍に加わるのに必要なPOP満足度の下限に影響を与える。これは[GetDefine('NPop','REBEL_JOIN_MIN_THRESHOLD')|%V]を下回ることはない。"
+        "desc_ja": "POPが反乱軍に加わるのに必要なPOP満足度の下限に影響を与える。これは[GetDefine('NPop','REBEL JOIN MIN THRESHOLD')|%V]を下回ることはない。"
       }
     ],
     "conditions": [
@@ -13645,7 +13645,7 @@
         "key": "harbor_suitability",
         "value": 0.1,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_repair_speed",
@@ -13738,7 +13738,7 @@
         "key": "harbor_suitability",
         "value": 0.15,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_repair_speed",
@@ -13831,7 +13831,7 @@
         "key": "harbor_suitability",
         "value": 0.2,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_repair_speed",
@@ -13924,7 +13924,7 @@
         "key": "harbor_suitability",
         "value": 0.25,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_repair_speed",
@@ -14017,7 +14017,7 @@
         "key": "harbor_suitability",
         "value": 0.3,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_navy_attrition",
@@ -14104,7 +14104,7 @@
         "key": "harbor_suitability",
         "value": 0.1,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_repair_speed",
@@ -14646,6 +14646,65 @@
       "town",
       "city"
     ],
+    "production_methods": {
+      "cannon_maker_lumber_maintenance": {
+        "lumber": 0.12,
+        "iron": 0.045,
+        "tools": 0.02,
+        "produced": "cannons",
+        "output": 0.1,
+        "category": "guild_input",
+        "debug_max_profit": 0.1,
+        "_name_ja": "木製の銃身",
+        "_category_ja": "ギルド投入物資"
+      },
+      "cannon_maker_bronze_maintenance": {
+        "copper": 0.5,
+        "tin": 0.1,
+        "tools": 0.5,
+        "produced": "cannons",
+        "output": 1,
+        "category": "guild_input",
+        "_name_ja": "鋳造青銅の銃身",
+        "_category_ja": "ギルド投入物資"
+      },
+      "cannon_maker_iron_maintenance": {
+        "iron": 0.6,
+        "tools": 0.5,
+        "produced": "cannons",
+        "output": 1,
+        "category": "guild_input",
+        "_name_ja": "錬鉄の銃身",
+        "_category_ja": "ギルド投入物資"
+      },
+      "cannon_maker_ammunition_stone_maintenance": {
+        "stone": 0.1,
+        "saltpeter": 0.1,
+        "produced": "cannons",
+        "output": 0.087,
+        "category": "guild_input",
+        "_name_ja": "石の弾丸",
+        "_category_ja": "ギルド投入物資"
+      },
+      "cannon_maker_ammunition_lead_maintenance": {
+        "lead": 0.1,
+        "saltpeter": 0.1,
+        "produced": "cannons",
+        "output": 0.12,
+        "category": "guild_input",
+        "_name_ja": "鉛の弾丸",
+        "_category_ja": "ギルド投入物資"
+      },
+      "cannon_maker_ammunition_iron_maintenance": {
+        "iron": 0.1,
+        "saltpeter": 0.1,
+        "produced": "cannons",
+        "output": 0.16,
+        "category": "guild_input",
+        "_name_ja": "鉄の弾丸",
+        "_category_ja": "ギルド投入物資"
+      }
+    },
     "construction_demand": "guild_construction",
     "icon": "icons/buildings/cannon_maker.png",
     "source_file": "production_cannons.txt",
@@ -14678,6 +14737,59 @@
       "town",
       "city"
     ],
+    "production_methods": {
+      "cannon_workshop_bronze_maintenance": {
+        "copper": 0.8,
+        "tin": 0.2,
+        "tools": 0.1,
+        "produced": "cannons",
+        "output": 1.1,
+        "debug_max_profit": 0.5,
+        "category": "workshop_input",
+        "_name_ja": "鋳造青銅の銃身",
+        "_category_ja": "工房の装置"
+      },
+      "cannon_workshop_iron_maintenance": {
+        "iron": 0.9,
+        "tools": 0.1,
+        "produced": "cannons",
+        "output": 1.1,
+        "debug_max_profit": 0.5,
+        "category": "workshop_input",
+        "_name_ja": "錬鉄の銃身",
+        "_category_ja": "工房の装置"
+      },
+      "cannon_workshop_ammunition_stone_maintenance": {
+        "stone": 0.1,
+        "saltpeter": 0.1,
+        "produced": "cannons",
+        "output": 0.1,
+        "debug_max_profit": 0.5,
+        "category": "workshop_input",
+        "_name_ja": "石の弾丸",
+        "_category_ja": "工房の装置"
+      },
+      "cannon_workshop_ammunition_lead_maintenance": {
+        "lead": 0.1,
+        "saltpeter": 0.1,
+        "produced": "cannons",
+        "output": 0.15,
+        "debug_max_profit": 0.5,
+        "category": "workshop_input",
+        "_name_ja": "鉛の弾丸",
+        "_category_ja": "工房の装置"
+      },
+      "cannon_workshop_ammunition_iron_maintenance": {
+        "iron": 0.12,
+        "saltpeter": 0.1,
+        "produced": "cannons",
+        "output": 0.2,
+        "debug_max_profit": 0.5,
+        "category": "workshop_input",
+        "_name_ja": "鉄の弾丸",
+        "_category_ja": "工房の装置"
+      }
+    },
     "construction_demand": "workshop_construction",
     "icon": "icons/buildings/cannon_workshop.png",
     "source_file": "production_cannons.txt",
@@ -15235,6 +15347,66 @@
       "town",
       "city"
     ],
+    "production_methods": {
+      "fine_cloth_guild_maintenance": {
+        "cloth": 0.8,
+        "produced": "fine_cloth",
+        "output": 0.5,
+        "category": "guild_input",
+        "_name_ja": "仕立て屋ギルド",
+        "_category_ja": "ギルド投入物資"
+      },
+      "wool_weavers_maintenance": {
+        "wool": 2.0,
+        "produced": "fine_cloth",
+        "output": 0.5,
+        "category": "guild_input",
+        "_name_ja": "羊毛織工ギルド",
+        "_category_ja": "ギルド投入物資"
+      },
+      "silk_weavers_maintenance": {
+        "silk": 0.8,
+        "produced": "fine_cloth",
+        "output": 0.7,
+        "category": "guild_input",
+        "debug_max_profit": 0.35,
+        "_name_ja": "絹織工ギルド",
+        "_category_ja": "ギルド投入物資"
+      },
+      "spanish_cloth_maintenance": {
+        "allow": {
+          "custom_tooltip": {
+            "text": "has_unlocked_spanish_cloth_industry",
+            "has_variable": "spanish_cloth_industry"
+          }
+        },
+        "wool": 1.6,
+        "produced": "fine_cloth",
+        "output": 0.5,
+        "category": "guild_input",
+        "debug_max_profit": 0.5,
+        "_name_ja": "メリノ羊毛",
+        "_category_ja": "ギルド投入物資"
+      },
+      "base_fine_cloth_guild_maintenance": {
+        "produced": "fine_cloth",
+        "dyes": 0.14,
+        "output": 0.1,
+        "category": "guild_input",
+        "debug_max_profit": 0.1,
+        "_name_ja": "染料職人",
+        "_category_ja": "ギルド投入物資"
+      },
+      "alum_fine_cloth_guild_maintenance": {
+        "alum": 0.05,
+        "dyes": 0.2,
+        "produced": "fine_cloth",
+        "output": 0.2,
+        "category": "guild_input",
+        "_name_ja": "ミョウバンで染める",
+        "_category_ja": "ギルド投入物資"
+      }
+    },
     "construction_demand": "guild_construction",
     "icon": "icons/buildings/fine_cloth_guild.png",
     "source_file": "production_fine_cloth.txt",
@@ -15267,6 +15439,67 @@
       "town",
       "city"
     ],
+    "production_methods": {
+      "fine_cloth_workshop_maintenance": {
+        "cloth": 0.8,
+        "produced": "fine_cloth",
+        "output": 0.6,
+        "category": "workshop_input",
+        "debug_max_profit": 0.6,
+        "_name_ja": "高級生地工房",
+        "_category_ja": "工房の装置"
+      },
+      "wool_weavers_workshop_maintenance": {
+        "wool": 2.0,
+        "produced": "fine_cloth",
+        "output": 0.6,
+        "category": "workshop_input",
+        "debug_max_profit": 0.6,
+        "_name_ja": "毛織物工房",
+        "_category_ja": "工房の装置"
+      },
+      "silk_weavers_workshop_maintenance": {
+        "silk": 0.8,
+        "produced": "fine_cloth",
+        "output": 0.8,
+        "category": "workshop_input",
+        "debug_max_profit": 0.6,
+        "_name_ja": "シルク織物工房",
+        "_category_ja": "工房の装置"
+      },
+      "spanish_cloth_workshop_maintenance": {
+        "allow": {
+          "custom_tooltip": {
+            "text": "has_unlocked_spanish_cloth_industry",
+            "has_variable": "spanish_cloth_industry"
+          }
+        },
+        "wool": 1.6,
+        "produced": "fine_cloth",
+        "output": 0.6,
+        "debug_max_profit": 0.8,
+        "category": "workshop_input",
+        "_name_ja": "メリノ羊毛工房",
+        "_category_ja": "工房の装置"
+      },
+      "base_fine_cloth_workshop_maintenance": {
+        "produced": "fine_cloth",
+        "dyes": 0.14,
+        "output": 0.12,
+        "category": "workshop_input",
+        "_name_ja": "染料職人",
+        "_category_ja": "工房の装置"
+      },
+      "alum_fine_cloth_workshop_maintenance": {
+        "alum": 0.05,
+        "dyes": 0.26,
+        "produced": "fine_cloth",
+        "output": 0.25,
+        "category": "workshop_input",
+        "_name_ja": "ミョウバンで染める",
+        "_category_ja": "工房の装置"
+      }
+    },
     "construction_demand": "workshop_construction",
     "icon": "icons/buildings/fine_cloth_workshop.png",
     "source_file": "production_fine_cloth.txt",
@@ -15299,6 +15532,45 @@
       "town",
       "city"
     ],
+    "production_methods": {
+      "silk_cloth_manufactory_maintenance": {
+        "silk": 1.8,
+        "produced": "fine_cloth",
+        "output": 2.0,
+        "category": "manufactory_input",
+        "debug_max_profit": 0.7,
+        "_name_ja": "絹織物工場",
+        "_category_ja": "工場投入物資"
+      },
+      "fine_cloth_manufactory_maintenance": {
+        "produced": "fine_cloth",
+        "cloth": 2.4,
+        "output": 2.0,
+        "debug_max_profit": 0.7,
+        "category": "manufactory_input",
+        "_name_ja": "高級生地工場",
+        "_category_ja": "工場投入物資"
+      },
+      "base_cloth_manufactory_maintenance": {
+        "dyes": 0.25,
+        "produced": "fine_cloth",
+        "output": 0.2,
+        "category": "guild_input",
+        "debug_max_profit": 0.2,
+        "_name_ja": "染料",
+        "_category_ja": "ギルド投入物資"
+      },
+      "alum_fine_cloth_manufactory_maintenance": {
+        "produced": "fine_cloth",
+        "output": 0.4,
+        "dyes": 0.4,
+        "alum": 0.1,
+        "category": "guild_input",
+        "debug_max_profit": 0.3,
+        "_name_ja": "ミョウバンで染める",
+        "_category_ja": "ギルド投入物資"
+      }
+    },
     "construction_demand": "guild_construction",
     "icon": "icons/buildings/fine_cloth_manufactory.png",
     "source_file": "production_fine_cloth.txt",
@@ -15429,6 +15701,56 @@
       "city"
     ],
     "modifier": [],
+    "production_methods": {
+      "guns_guild_lumber_maintenance": {
+        "lumber": 0.15,
+        "iron": 0.045,
+        "tools": 0.02,
+        "produced": "firearms",
+        "output": 0.15,
+        "category": "guild_input",
+        "debug_max_profit": 0.1,
+        "_name_ja": "木製の銃身",
+        "_category_ja": "ギルド投入物資"
+      },
+      "guns_guild_bronze_maintenance": {
+        "copper": 0.5,
+        "tin": 0.1,
+        "tools": 0.3,
+        "produced": "firearms",
+        "output": 1,
+        "category": "guild_input",
+        "_name_ja": "鋳造青銅の銃身",
+        "_category_ja": "ギルド投入物資"
+      },
+      "guns_guild_iron_maintenance": {
+        "iron": 0.5,
+        "tools": 0.3,
+        "produced": "firearms",
+        "output": 1,
+        "category": "guild_input",
+        "_name_ja": "錬鉄の銃身",
+        "_category_ja": "ギルド投入物資"
+      },
+      "guns_guild_ammunition_lead_maintenance": {
+        "lead": 0.1,
+        "saltpeter": 0.1,
+        "produced": "firearms",
+        "output": 0.16,
+        "category": "guild_input",
+        "_name_ja": "鉛の弾丸",
+        "_category_ja": "ギルド投入物資"
+      },
+      "guns_guild_ammunition_iron_maintenance": {
+        "iron": 0.1,
+        "saltpeter": 0.1,
+        "produced": "firearms",
+        "output": 0.2,
+        "category": "guild_input",
+        "_name_ja": "鉄の弾丸",
+        "_category_ja": "ギルド投入物資"
+      }
+    },
     "construction_demand": "guild_construction",
     "icon": "icons/buildings/gun_smith.png",
     "source_file": "production_firearms.txt",
@@ -15462,6 +15784,49 @@
       "city"
     ],
     "modifier": [],
+    "production_methods": {
+      "guns_workshop_bronze_maintenance": {
+        "copper": 0.4,
+        "tin": 0.08,
+        "tools": 0.25,
+        "produced": "firearms",
+        "output": 1.1,
+        "debug_max_profit": 0.6,
+        "category": "workshop_input",
+        "_name_ja": "鋳造青銅の銃身",
+        "_category_ja": "工房の装置"
+      },
+      "guns_workshop_iron_maintenance": {
+        "iron": 0.4,
+        "tools": 0.25,
+        "produced": "firearms",
+        "output": 1,
+        "debug_max_profit": 0.6,
+        "category": "workshop_input",
+        "_name_ja": "錬鉄の銃身",
+        "_category_ja": "工房の装置"
+      },
+      "guns_workshop_ammunition_lead_maintenance": {
+        "lead": 0.1,
+        "saltpeter": 0.1,
+        "produced": "firearms",
+        "output": 0.2,
+        "debug_max_profit": 0.6,
+        "category": "workshop_input",
+        "_name_ja": "鉛の弾丸",
+        "_category_ja": "工房の装置"
+      },
+      "guns_workshop_ammunition_iron_maintenance": {
+        "iron": 0.1,
+        "saltpeter": 0.1,
+        "produced": "firearms",
+        "output": 0.25,
+        "debug_max_profit": 0.6,
+        "category": "workshop_input",
+        "_name_ja": "鉄の弾丸",
+        "_category_ja": "工房の装置"
+      }
+    },
     "construction_demand": "workshop_construction",
     "icon": "icons/buildings/guns_workshop.png",
     "source_file": "production_firearms.txt",
@@ -18094,6 +18459,64 @@
       "town",
       "city"
     ],
+    "production_methods": {
+      "gold_base": {
+        "goods_gold": 0.4,
+        "produced": "jewelry",
+        "output": 1,
+        "category": "guild_input",
+        "_name_ja": "金ベースの宝飾品",
+        "_category_ja": "ギルド投入物資"
+      },
+      "silver_base": {
+        "silver": 0.5,
+        "produced": "jewelry",
+        "output": 1,
+        "category": "guild_input",
+        "_name_ja": "銀ベースの宝飾品",
+        "_category_ja": "ギルド投入物資"
+      },
+      "copper_base": {
+        "copper": 1.3,
+        "produced": "jewelry",
+        "output": 1,
+        "category": "guild_input",
+        "_name_ja": "銅ベースの宝飾品",
+        "_category_ja": "ギルド投入物資"
+      },
+      "ivory_enhancement": {
+        "ivory": 0.1,
+        "produced": "jewelry",
+        "output": 0.1,
+        "category": "guild_input",
+        "_name_ja": "象牙の強化",
+        "_category_ja": "ギルド投入物資"
+      },
+      "amber_enhancement": {
+        "amber": 0.1,
+        "produced": "jewelry",
+        "output": 0.1,
+        "category": "guild_input",
+        "_name_ja": "琥珀の強化",
+        "_category_ja": "ギルド投入物資"
+      },
+      "gems_enhancement": {
+        "gems": 0.1,
+        "produced": "jewelry",
+        "output": 0.1,
+        "category": "guild_input",
+        "_name_ja": "宝石の強化",
+        "_category_ja": "ギルド投入物資"
+      },
+      "pearls_enhancement": {
+        "pearls": 0.1,
+        "produced": "jewelry",
+        "output": 0.1,
+        "category": "guild_input",
+        "_name_ja": "真珠の強化",
+        "_category_ja": "ギルド投入物資"
+      }
+    },
     "construction_demand": "guild_construction",
     "icon": "icons/buildings/jewelry_guild.png",
     "source_file": "pure_one_level_productions.txt",
@@ -18697,7 +19120,7 @@
         "key": "harbor_suitability",
         "value": 0.02,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_sailors",
@@ -19540,7 +19963,7 @@
         "key": "harbor_suitability",
         "value": 0.05,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       }
     ],
     "conditions": [
@@ -19822,8 +20245,8 @@
     "id": "construction_center",
     "name_en": "Construction Center",
     "name_ja": "建設拠点",
-    "desc_en": "This allows more constructions to be done at the same time in an town_or_city.",
-    "desc_ja": "1つのtown_or_cityで多くの建造物を同時に建設できるようになる。",
+    "desc_en": "This allows more constructions to be done at the same time in an town or city.",
+    "desc_ja": "1つのtown or cityで多くの建造物を同時に建設できるようになる。",
     "category": "infrastructure_category",
     "pop_type": "laborers",
     "max_levels": 1,
@@ -20290,7 +20713,7 @@
         "key": "harbor_suitability",
         "value": 0.1,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_repair_speed",
@@ -20959,7 +21382,7 @@
         "key": "local_trade_protection_factor",
         "value": 0.1,
         "name_ja": "市場保護（ローカル）",
-        "desc_ja": "他国の市場がロケーションに対して持つ市場の魅力を直接減少させ、が所有国の市場に属する可能性を高める。\\n\\n市場保護1ポイントは市場の魅力1ポイントを打ち消す。"
+        "desc_ja": "他国の市場がロケーションに対して持つ市場の魅力を直接減少させ、locationが所有国の市場に属する可能性を高める。 市場保護1ポイントは市場の魅力1ポイントを打ち消す。"
       },
       {
         "key": "local_trades_per_burgher",
@@ -21012,8 +21435,8 @@
     "id": "trade_company_headquarters",
     "name_en": "Trade Company Headquarters",
     "name_ja": "交易会社本部",
-    "desc_en": "The seat of any future , the 交易会社本部 serves as the main base of operations for any international and oversea commercial activities on behalf of the motherland.",
-    "desc_ja": "将来設立されるにとっての本拠地となる交易会社本部は、自国のためにおこなう国際商業活動の拠点となる。",
+    "desc_en": "The seat of any future trade company, the 交易会社本部 serves as the main base of operations for any international and oversea commercial activities on behalf of the motherland.",
+    "desc_ja": "将来設立されるtrade companyにとっての本拠地となる交易会社本部は、自国のためにおこなう国際商業活動の拠点となる。",
     "category": "trade_category",
     "pop_type": "burghers",
     "expensive": true,
@@ -21129,8 +21552,8 @@
     "id": "trade_company_garrison",
     "name_en": "Company Garrison",
     "name_ja": "会社警備隊",
-    "desc_en": "The garrison of the protects the local interests of the merchants.",
-    "desc_ja": "の警備隊は、現地の商人たちの利益を守る。",
+    "desc_en": "The garrison of the trade company protects the local interests of the merchants.",
+    "desc_ja": "trade companyの警備隊は、現地の商人たちの利益を守る。",
     "category": "trade_category",
     "pop_type": "burghers",
     "max_levels": 2,
@@ -21193,8 +21616,8 @@
     "id": "trade_company_harbor",
     "name_en": "Company Harbor",
     "name_ja": "会社用港湾",
-    "desc_en": "The local depots of the houses all the merchandise ready to be sold.",
-    "desc_ja": "の現地倉庫には、売却準備が整ったすべての商品が収められている。",
+    "desc_en": "The local depots of the trade company houses all the merchandise ready to be sold.",
+    "desc_ja": "trade companyの現地倉庫には、売却準備が整ったすべての商品が収められている。",
     "category": "trade_category",
     "pop_type": "burghers",
     "max_levels": 2,
@@ -21273,8 +21696,8 @@
     "id": "trade_company_local_venture",
     "name_en": "Company Local Ventures",
     "name_ja": "会社の現地事業",
-    "desc_en": "The ventures of the which try to exploit the local materials for their benefit.",
-    "desc_ja": "現地の資源から利益を得るためのの事業。",
+    "desc_en": "The ventures of the trade company which try to exploit the local materials for their benefit.",
+    "desc_ja": "現地の資源から利益を得るためのtrade companyの事業。",
     "category": "trade_category",
     "pop_type": "burghers",
     "max_levels": 2,
@@ -21331,8 +21754,8 @@
     "id": "trade_company_foreign_influence",
     "name_en": "Company Foreign Influence",
     "name_ja": "会社の他国影響施設",
-    "desc_en": "A colonial building of the which offers opportunities for foreign pops.",
-    "desc_ja": "の植民地施設で、他国のPOPにさまざまな機会を提供する。",
+    "desc_en": "A colonial building of the trade company which offers opportunities for foreign pops.",
+    "desc_ja": "trade companyの植民地施設で、他国のPOPにさまざまな機会を提供する。",
     "category": "trade_category",
     "pop_type": "burghers",
     "max_levels": 2,
@@ -21395,8 +21818,8 @@
     "id": "trade_company_governance",
     "name_en": "Company Governance",
     "name_ja": "会社統治施設",
-    "desc_en": "The local military housing of the , recruiting and training troops which shall enforce the interests of the company.",
-    "desc_ja": "の現地軍事施設で、会社の利益を守る部隊を募集・訓練する。",
+    "desc_en": "The local military housing of the trade company, recruiting and training troops which shall enforce the interests of the company.",
+    "desc_ja": "trade companyの現地軍事施設で、会社の利益を守る部隊を募集・訓練する。",
     "category": "trade_category",
     "pop_type": "burghers",
     "max_levels": 2,
@@ -21731,7 +22154,7 @@
         "key": "harbor_suitability",
         "value": 0.1,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_repair_speed",
@@ -21979,7 +22402,7 @@
         "key": "harbor_suitability",
         "value": 0.2,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_repair_speed",
@@ -22588,7 +23011,7 @@
         "key": "harbor_suitability",
         "value": 0.2,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_repair_speed",
@@ -23483,7 +23906,7 @@
         "key": "local_proximity_source",
         "value": 25,
         "name_ja": "ローカル近接性供給源",
-        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するのの向上にも役立つ。\\n\\nこれは首都からのとは重複しないため、このがすでにからより高いを得ている場合、この補正は効果を発揮しない。"
+        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するlocationsのproximityの向上にも役立つ。 これは首都からのproximityとは重複しないため、このlocationがすでにcapitalからより高いproximityを得ている場合、この補正は効果を発揮しない。"
       },
       {
         "key": "local_nobles_estate_power",
@@ -23557,7 +23980,7 @@
         "key": "local_proximity_source",
         "value": 30,
         "name_ja": "ローカル近接性供給源",
-        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するのの向上にも役立つ。\\n\\nこれは首都からのとは重複しないため、このがすでにからより高いを得ている場合、この補正は効果を発揮しない。"
+        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するlocationsのproximityの向上にも役立つ。 これは首都からのproximityとは重複しないため、このlocationがすでにcapitalからより高いproximityを得ている場合、この補正は効果を発揮しない。"
       },
       {
         "key": "local_nobles_estate_power",
@@ -23646,7 +24069,7 @@
         "key": "harbor_suitability",
         "value": 0.2,
         "name_ja": "湾港適合性",
-        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。\\n\\nの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
+        "desc_ja": "港湾適性は、近接性および交易の計算において、海と陸を行き来する際の移動コストを削減します。 locationの港湾能力は主に天然港適合性に依存しますが、港に関連する多くの建造物によっても大幅に増加します。"
       },
       {
         "key": "local_repair_speed",
@@ -24184,7 +24607,7 @@
         "key": "local_proximity_source",
         "value": 50,
         "name_ja": "ローカル近接性供給源",
-        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するのの向上にも役立つ。\\n\\nこれは首都からのとは重複しないため、このがすでにからより高いを得ている場合、この補正は効果を発揮しない。"
+        "desc_ja": "ロケーションにおける近接性の新たな供給源として機能し、隣接するlocationsのproximityの向上にも役立つ。 これは首都からのproximityとは重複しないため、このlocationがすでにcapitalからより高いproximityを得ている場合、この補正は効果を発揮しない。"
       }
     ],
     "production_methods": {
@@ -26006,8 +26429,8 @@
     "id": "korean_gunnery_land_defense",
     "name_en": "Land Gunnery",
     "name_ja": "陸上砲塔",
-    "desc_en": "朝鮮式砲塔とは、要塞を強化し、陸上または海上からの侵入者に対する有効性を高める防衛用の改造のこと。\\n#Y Mutually exclusive with 沿岸砲塔.",
-    "desc_ja": "朝鮮式砲塔とは、要塞を強化し、陸上または海上からの侵入者に対する有効性を高める防衛用の改造のこと。\\n#Y 沿岸砲塔とは両立できない。",
+    "desc_en": "朝鮮式砲塔とは、要塞を強化し、陸上または海上からの侵入者に対する有効性を高める防衛用の改造のこと。 Mutually exclusive with 沿岸砲塔.",
+    "desc_ja": "朝鮮式砲塔とは、要塞を強化し、陸上または海上からの侵入者に対する有効性を高める防衛用の改造のこと。 沿岸砲塔とは両立できない。",
     "category": "defense_category",
     "pop_type": "soldiers",
     "max_levels": 1,
@@ -26066,8 +26489,8 @@
     "id": "korean_gunnery_coastal_defense",
     "name_en": "Coastal Gunnery",
     "name_ja": "沿岸砲塔",
-    "desc_en": "朝鮮式砲塔とは、要塞を強化し、陸上または海上からの侵入者に対する有効性を高める防衛用の改造のこと。\\n#Y Mutually exclusive with 陸上砲塔.",
-    "desc_ja": "朝鮮式砲塔とは、要塞を強化し、陸上または海上からの侵入者に対する有効性を高める防衛用の改造のこと。\\n#Y 陸上砲塔とは両立できない。",
+    "desc_en": "朝鮮式砲塔とは、要塞を強化し、陸上または海上からの侵入者に対する有効性を高める防衛用の改造のこと。 Mutually exclusive with 陸上砲塔.",
+    "desc_ja": "朝鮮式砲塔とは、要塞を強化し、陸上または海上からの侵入者に対する有効性を高める防衛用の改造のこと。 陸上砲塔とは両立できない。",
     "category": "defense_category",
     "pop_type": "soldiers",
     "max_levels": 1,
@@ -27863,7 +28286,7 @@
         "key": "blocks_vision_from_land",
         "value": true,
         "name_ja": "陸上からの視界を遮断",
-        "desc_ja": "そのロケーションの中立または敵対的なユニットを、隣接する内陸にいる国家が視認できなくなる。"
+        "desc_ja": "そのロケーションの中立または敵対的なユニットを、隣接する内陸locationにいる国家が視認できなくなる。"
       },
       {
         "key": "blocks_vision_from_sea",
@@ -28720,8 +29143,8 @@
     "id": "fulani_cattle_rearing_pen",
     "name_en": "Cattle-Rearing Pen",
     "name_ja": "牛囲い",
-    "desc_en": "These cattle-rearing pens in this location allow for the people to further specialize in their cattle-rearing ways.",
-    "desc_ja": "このlocationの牛囲いは、族の牧畜手法をさらに専門的にする。",
+    "desc_en": "These cattle-rearing pens in this location allow for the fulbe people to further specialize in their cattle-rearing ways.",
+    "desc_ja": "このlocationの牛囲いは、fulbe族の牧畜手法をさらに専門的にする。",
     "category": "infrastructure_category",
     "pop_type": "laborers",
     "max_levels": 3,
@@ -28811,7 +29234,7 @@
         "key": "blocks_vision_from_land",
         "value": true,
         "name_ja": "陸上からの視界を遮断",
-        "desc_ja": "そのロケーションの中立または敵対的なユニットを、隣接する内陸にいる国家が視認できなくなる。"
+        "desc_ja": "そのロケーションの中立または敵対的なユニットを、隣接する内陸locationにいる国家が視認できなくなる。"
       },
       {
         "key": "blocks_vision_from_sea",
@@ -28870,8 +29293,8 @@
     "id": "zazzau_walls",
     "name_en": "ザザウ Walls",
     "name_ja": "ザザウの城壁",
-    "desc_en": "A show of force against other nations in , these walls show the might of the location to the neighbors.",
-    "desc_ja": "この壁は諸国に対する力の誇示であり、侵略を阻む盾となっている。",
+    "desc_en": "A show of force against other nations in guinea region, these walls show the might of the location to the neighbors.",
+    "desc_ja": "この壁はguinea region諸国に対する力の誇示であり、侵略を阻む盾となっている。",
     "category": "defense_category",
     "pop_type": "soldiers",
     "expensive": true,
@@ -28897,7 +29320,7 @@
         "key": "blocks_vision_from_land",
         "value": true,
         "name_ja": "陸上からの視界を遮断",
-        "desc_ja": "そのロケーションの中立または敵対的なユニットを、隣接する内陸にいる国家が視認できなくなる。"
+        "desc_ja": "そのロケーションの中立または敵対的なユニットを、隣接する内陸locationにいる国家が視認できなくなる。"
       }
     ],
     "conditions": [
@@ -29500,8 +29923,8 @@
     "id": "tur_kodjabashi_office",
     "name_en": "Kocabaṣı Office",
     "name_ja": "コカバシュ職務所",
-    "desc_en": "By using the locals of our conquered lands in the , we can alleviate pressure from our own bureaucracy, at the cost of empowering the locals in the area.",
-    "desc_ja": "の征服地の現地民を活用することで、わが国の官僚機構への負担を軽減できるが、その代償として現地民に一定の権限を与えることになる。",
+    "desc_en": "By using the locals of our conquered lands in the balkan region, we can alleviate pressure from our own bureaucracy, at the cost of empowering the locals in the area.",
+    "desc_ja": "balkan regionの征服地の現地民を活用することで、わが国の官僚機構への負担を軽減できるが、その代償として現地民に一定の権限を与えることになる。",
     "category": "government_category",
     "pop_type": "nobles",
     "expensive": true,
@@ -29667,7 +30090,7 @@
         "key": "local_trade_protection_factor",
         "value": 0.05,
         "name_ja": "市場保護（ローカル）",
-        "desc_ja": "他国の市場がロケーションに対して持つ市場の魅力を直接減少させ、が所有国の市場に属する可能性を高める。\\n\\n市場保護1ポイントは市場の魅力1ポイントを打ち消す。"
+        "desc_ja": "他国の市場がロケーションに対して持つ市場の魅力を直接減少させ、locationが所有国の市場に属する可能性を高める。 市場保護1ポイントは市場の魅力1ポイントを打ち消す。"
       }
     ],
     "conditions": [

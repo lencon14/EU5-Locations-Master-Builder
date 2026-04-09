@@ -62,6 +62,7 @@ grouped.set("raw_material", nonFoodRaw);
                 {lang !== "en" && <th>{t(lang, "goods.col.name_en")}</th>}
                 <th>{gameTerm(lang, "field.method")}</th>
                 <th class="num-head">{gameTerm(lang, "field.default_market_price")}</th>
+                <th class="num-head">{gameTerm(lang, "field.base_production")}</th>
                 <th class="num-head">{gameTerm(lang, "field.transport_cost")}</th>
                 {sub && <th class="num-head">{gameTerm(lang, "field.food")}</th>}
               </tr>
@@ -93,6 +94,7 @@ grouped.set("raw_material", nonFoodRaw);
                       )}
                     </td>
                     <td class="num">{g.default_market_price}</td>
+                    <td class="num">{g.base_production ?? "-"}</td>
                     <td class="num">{g.transport_cost ?? "-"}</td>
                     {sub && <td class="num">{g.food ?? "-"}</td>}
                   </tr>
@@ -160,7 +162,7 @@ grouped.set("raw_material", nonFoodRaw);
       width: 100%;
       max-width: 400px;
       padding: 0.5rem 0.75rem;
-      font-size: 0.875rem;
+      font-size: 1rem;
       font-family: var(--font-body);
       background: var(--dark-walnut);
       border: 1px solid var(--iron-edge);
@@ -212,7 +214,7 @@ grouped.set("raw_material", nonFoodRaw);
 
     .category-count {
       font-family: var(--font-body);
-      font-size: 0.75rem;
+      font-size: 1rem;
       font-weight: 500;
       color: var(--dusty-silver);
       background: var(--slate);
@@ -238,7 +240,7 @@ grouped.set("raw_material", nonFoodRaw);
       text-align: left;
       font-family: var(--font-body);
       font-weight: 500;
-      font-size: 0.75rem;
+      font-size: 1rem;
       color: var(--dusty-silver);
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -251,7 +253,7 @@ grouped.set("raw_material", nonFoodRaw);
 
     td {
       padding: 0.5rem 0.75rem;
-      font-size: 0.875rem;
+      font-size: 1rem;
       border-bottom: 1px solid var(--iron-edge);
     }
 
@@ -270,7 +272,7 @@ grouped.set("raw_material", nonFoodRaw);
       color: var(--pale-gold);
       border-radius: 2px;
       padding: 0.1rem 0.5rem;
-      font-size: 0.75rem;
+      font-size: 1rem;
       font-weight: 500;
     }
 

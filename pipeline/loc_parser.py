@@ -55,12 +55,14 @@ def strip_markup(text: str) -> str:
     text = re.sub(r"\$\w+\$", "", text)
     # Handle [Concept('key', 'display')|e] → display
     text = re.sub(r"\[Concept\(\s*'[^']*'\s*,\s*'([^']*)'\s*\)\s*\|[eE]\]", r"\1", text)
-    # Handle [ShowPopTypeName('key')] etc → remove entirely
-    text = re.sub(r"\[Show\w+\('[^']*'\)\]", "", text)
+    # Handle [ShowPopTypeName('key')] etc → keep the key
+    text = re.sub(r"\[Show\w+\('(\w+)'\)\]", r"\1", text)
     # Convert [word|e] game concept refs → keep the word part
     text = re.sub(r"\[(\w+)\|[eE]\]", r"\1", text)
-    # Remove remaining [SCOPE.func()] references
-    text = re.sub(r"\[[\w.'()| ]+\]", "", text)
+    # Convert [word] simple concept refs → keep the word part
+    text = re.sub(r"\[(\w+)\]", r"\1", text)
+    # Remove remaining complex [SCOPE.func()] references
+    text = re.sub(r"\[\w+\.\w[\w.'()| ]*\]", "", text)
     # Replace literal \n with space
     text = text.replace("\\n", " ")
     # Replace underscored game concept words with spaced versions (e.g. market_center → market center)

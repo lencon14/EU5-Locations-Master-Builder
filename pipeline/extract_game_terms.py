@@ -57,15 +57,46 @@ def extract_terms(game_code: str) -> dict[str, str]:
 
     # Build concept word → localized name lookup for desc post-processing
     # e.g. "good" → "交易品", "market_center" → "市場中心地"
+    # Pop type names for resolving $pop$ refs and [ShowPopTypeName] in descs
+    pop_names: dict[str, str] = {}
+    for pop_id in ["nobles", "clergy", "burghers", "laborers",
+                    "soldiers", "peasants", "slaves", "tribesmen"]:
+        if pop_id in pops_loc:
+            pop_names[pop_id] = pops_loc[pop_id]
+
+    def _resolve_dollar_vars(text: str) -> str:
+        """Resolve $variable$ refs against known loc data before stripping.
+
+        Handles: $game_concept_X$ → concept display name, $pop$ → pop name.
+        """
+        import re
+        def _repl(m: re.Match[str]) -> str:
+            var = m.group(1)
+            var_lower = var.lower()
+            # $game_concept_X$ → concept display name
+            if var_lower in concepts_loc:
+                return concepts_loc[var_lower]
+            if var in concepts_loc:
+                return concepts_loc[var]
+            # $pop_type$ → pop name
+            return pop_names.get(var_lower, "")
+        return re.sub(r"\$(\w+)\$", _repl, text)
+
     concept_names: dict[str, str] = {}
     for k, v in concepts_loc.items():
         if k.startswith("game_concept_") and not k.endswith("_desc") and not k.endswith("_short"):
             word = k[len("game_concept_"):]
-            concept_names[word] = v
+            concept_names[word] = strip_markup(_resolve_dollar_vars(v))
+
+    # Also include pop type names (e.g. "burghers" → "市民")
+    # These appear in descs via [ShowPopTypeName('burghers')]
+    for pop_id, pop_name in pop_names.items():
+        if pop_id not in concept_names:
+            concept_names[pop_id] = pop_name
 
     def localize_desc(raw: str) -> str:
-        """Strip markup then replace leftover concept words with localized names."""
-        text = strip_markup(raw)
+        """Resolve $refs$, strip markup, then replace concept words with localized names."""
+        text = strip_markup(_resolve_dollar_vars(raw))
         for word in sorted(concept_names.keys(), key=len, reverse=True):
             spaced = word.replace("_", " ")
             if spaced in text:

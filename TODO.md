@@ -16,6 +16,9 @@
 
 ## サイトページ作成
 - [x] 交易品（74件）— 一覧 + 詳細ページ（全11言語、5,677ページ中825ページ）
+  - [x] Building Uses セクション（逆引き: 交易品→建物、input/output表示）
+  - [x] 統合POPテーブル（需要 + 富の影響係数、POPアイコン付き）
+  - [x] Base Production 列（一覧ページ）
 - [x] 建物（439件）— 一覧 + 詳細ページ（フィルタUI・ローカライズ・シミュレーター）
 - [x] トップページ（全11言語 + ルートリダイレクト）
 - [x] ナビゲーションメニュー（多言語対応済み）
@@ -46,6 +49,20 @@
 - [ ] Astro Content Collections 設定
 - [ ] 記事テンプレート作成
 - [ ] 記事一覧・詳細ページ
+
+## タイポグラフィ
+- [x] 全サイトのフォントサイズを DESIGN.md Type Scale に統一（見出し 1.15rem / 本文 1rem）
+- [x] ナビ・言語切替・テーブルヘッダー・タグを 1rem に統一
+
+## パイプライン改善
+- [x] loc_parser.py — [word] / [ShowPopTypeName] のマークアップ処理修正
+- [x] extract_game_terms.py — $game_concept_X$ / $pop$ 参照の解決
+- [x] extract_buildings.py — unique_production_methods の list 型対応（8建物修正）
+- [x] fetch_icons.py — pops カテゴリ追加（8種POPアイコン）
+
+## 開発ツール
+- [x] /review-2model スキル（Claude + Codex 並行レビュー）
+- [x] paradoxpedia-reviewer エージェント（既知バグパターン7種チェック）
 
 ## アイコン・画像
 - [ ] CoAレンダラー — パターン+エンブレム+色の定義から国旗画像を生成（2,328国）

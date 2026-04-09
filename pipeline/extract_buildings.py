@@ -618,24 +618,31 @@ def build_buildings() -> list[dict]:
             entry["raw_modifier"] = _localize_modifier(props["raw_modifier"])
 
         # Production methods
-        if "unique_production_methods" in props and isinstance(
-            props["unique_production_methods"], dict
-        ):
+        # Parser returns dict for single block, list of dicts for duplicate keys
+        raw_upm = props.get("unique_production_methods")
+        if raw_upm is not None:
+            upm_blocks: list[dict] = []
+            if isinstance(raw_upm, dict):
+                upm_blocks = [raw_upm]
+            elif isinstance(raw_upm, list):
+                upm_blocks = [b for b in raw_upm if isinstance(b, dict)]
+
             methods = {}
-            for mk, mv in props["unique_production_methods"].items():
-                if isinstance(mv, dict):
-                    method_data = dict(mv)
-                    # Add localized name
-                    loc_name = loc_ja_all.get(mk)
-                    if loc_name:
-                        method_data["_name_ja"] = loc_name
-                    # Localize category
-                    cat = mv.get("category")
-                    if cat:
-                        cat_name = loc_ja_all.get(cat)
-                        if cat_name:
-                            method_data["_category_ja"] = cat_name
-                    methods[mk] = method_data
+            for block in upm_blocks:
+                for mk, mv in block.items():
+                    if isinstance(mv, dict):
+                        method_data = dict(mv)
+                        # Add localized name
+                        loc_name = loc_ja_all.get(mk)
+                        if loc_name:
+                            method_data["_name_ja"] = loc_name
+                        # Localize category
+                        cat = mv.get("category")
+                        if cat:
+                            cat_name = loc_ja_all.get(cat)
+                            if cat_name:
+                                method_data["_category_ja"] = cat_name
+                        methods[mk] = method_data
             if methods:
                 entry["production_methods"] = methods
 
