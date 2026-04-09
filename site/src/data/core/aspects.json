@@ -1,0 +1,5579 @@
+[
+  {
+    "id": "prima_scriptura",
+    "religions": [
+      "anglican"
+    ],
+    "icon": "icons/religious_aspects/prima_scriptura.png",
+    "modifier": [
+      {
+        "key": "tolerance_heathen",
+        "value": 0.5
+      },
+      {
+        "key": "monthly_towards_individualism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      },
+      {
+        "key": "monthly_towards_spiritualist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "prima_scriptura": 10,
+      "sola_scriptura": -20
+    },
+    "source_file": "anglican.txt"
+  },
+  {
+    "id": "five_doors",
+    "religions": [
+      "bogomilism"
+    ],
+    "icon": "icons/religious_aspects/five_doors.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.25,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_towards_spiritualist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "five_doors": 10
+    },
+    "source_file": "bogomilism.txt"
+  },
+  {
+    "id": "holy_cooperation",
+    "religions": [
+      "bogomilism"
+    ],
+    "icon": "icons/religious_aspects/holy_cooperation.png",
+    "modifier": [
+      {
+        "key": "expand_rgo_farming_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_production_efficiency",
+        "value": "small_production_efficiency_bonus",
+        "scaled": true
+      },
+      {
+        "key": "monthly_towards_communalism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "holy_cooperation": 10
+    },
+    "source_file": "bogomilism.txt"
+  },
+  {
+    "id": "twelve_emissaries",
+    "religions": [
+      "bogomilism"
+    ],
+    "icon": "icons/religious_aspects/twelve_emissaries.png",
+    "modifier": [
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "global_estate_target_satisfaction",
+        "value": "small_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "monthly_towards_decentralization",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "twelve_emissaries": 10
+    },
+    "source_file": "bogomilism.txt"
+  },
+  {
+    "id": "arminianism",
+    "religions": [
+      "calvinist"
+    ],
+    "icon": "icons/religious_aspects/arminianism.png",
+    "modifier": [
+      {
+        "key": "tolerance_own",
+        "value": -1
+      },
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "opinions": {
+      "arminianism": 10,
+      "instituionalized_arminianism": 10,
+      "gomarism": -10,
+      "instituionalized_gomarism": -10
+    },
+    "excludes": [
+      "gomarism",
+      "instituionalized_gomarism"
+    ],
+    "source_file": "calvinist.txt"
+  },
+  {
+    "id": "gomarism",
+    "religions": [
+      "calvinist"
+    ],
+    "icon": "icons/religious_aspects/gomarism.png",
+    "modifier": [
+      {
+        "key": "tolerance_own",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heretic",
+        "value": -1
+      },
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "opinions": {
+      "gomarism": 10,
+      "instituionalized_gomarism": 10,
+      "arminianism": -20,
+      "instituionalized_arminianism": -20
+    },
+    "excludes": [
+      "arminianism",
+      "instituionalized_arminianism"
+    ],
+    "source_file": "calvinist.txt"
+  },
+  {
+    "id": "instituionalized_arminianism",
+    "religions": [
+      "calvinist"
+    ],
+    "icon": "icons/religious_aspects/instituionalized_arminianism.png",
+    "modifier": [
+      {
+        "key": "tolerance_own",
+        "value": -2
+      },
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "research_speed_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "opinions": {
+      "arminianism": 10,
+      "instituionalized_arminianism": 10,
+      "gomarism": -10,
+      "instituionalized_gomarism": -10
+    },
+    "excludes": [
+      "gomarism",
+      "instituionalized_gomarism"
+    ],
+    "source_file": "calvinist.txt"
+  },
+  {
+    "id": "instituionalized_gomarism",
+    "religions": [
+      "calvinist"
+    ],
+    "icon": "icons/religious_aspects/instituionalized_gomarism.png",
+    "modifier": [
+      {
+        "key": "tolerance_own",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heretic",
+        "value": -2
+      },
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_pop_conversion_speed_modifier",
+        "value": 0.15,
+        "pct": true
+      }
+    ],
+    "opinions": {
+      "gomarism": 10,
+      "instituionalized_gomarism": 10,
+      "arminianism": -20,
+      "instituionalized_arminianism": -20
+    },
+    "excludes": [
+      "arminianism",
+      "instituionalized_arminianism"
+    ],
+    "source_file": "calvinist.txt"
+  },
+  {
+    "id": "consolamentum",
+    "religions": [
+      "catharism"
+    ],
+    "icon": "icons/religious_aspects/consolamentum.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.2,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_towards_spiritualist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "consolamentum": 10
+    },
+    "source_file": "catharism.txt"
+  },
+  {
+    "id": "pescatarianism",
+    "religions": [
+      "catharism"
+    ],
+    "icon": "icons/religious_aspects/pescatarianism.png",
+    "modifier": [
+      {
+        "key": "ban_imports_of_livestock",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "global_fish_output_modifier",
+        "value": 0.2,
+        "pct": true
+      }
+    ],
+    "opinions": {
+      "pescatarianism": 10
+    },
+    "source_file": "catharism.txt"
+  },
+  {
+    "id": "the_perfects",
+    "religions": [
+      "catharism"
+    ],
+    "icon": "icons/religious_aspects/the_perfects.png",
+    "modifier": [
+      {
+        "key": "country_cabinet_efficiency",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "monthly_towards_communalism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "the_perfects": 10
+    },
+    "source_file": "catharism.txt"
+  },
+  {
+    "id": "adoptionism",
+    "religions": [
+      "bogomilism",
+      "catharism",
+      "lollardy",
+      "paulicianism"
+    ],
+    "icon": "icons/religious_aspects/adoptionism.png",
+    "modifier": [
+      {
+        "key": "global_clergy_desired_pop",
+        "value": 0.01
+      },
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "monthly_towards_communalism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "adoptionism": 10,
+      "modalism": -20
+    },
+    "excludes": [
+      "modalism"
+    ],
+    "source_file": "common.txt"
+  },
+  {
+    "id": "adult_baptism",
+    "religions": [
+      "anglican",
+      "calvinist",
+      "hussite",
+      "lollardy",
+      "lutheran",
+      "paulicianism",
+      "waldensian"
+    ],
+    "icon": "icons/religious_aspects/adult_baptism.png",
+    "modifier": [
+      {
+        "key": "global_pop_conversion_speed_modifier",
+        "value": 0.2,
+        "pct": true
+      },
+      {
+        "key": "peasants_estate_target_satisfaction",
+        "value": "small_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "monthly_towards_innovative",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "adult_baptism": 10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "aniconism",
+    "religions": [
+      "bogomilism",
+      "catharism",
+      "paulicianism"
+    ],
+    "icon": "icons/religious_aspects/aniconism.png",
+    "modifier": [
+      {
+        "key": "clergy_estate_target_satisfaction",
+        "value": "small_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "tolerance_own",
+        "value": 1
+      },
+      {
+        "key": "monthly_towards_spiritualist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "aniconism": 10,
+      "asceticism": 5,
+      "clerical_poverty": 5,
+      "monasticism": 5,
+      "rejection_of_sacraments": 5,
+      "crown_as_head_of_faith": -10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "asceticism",
+    "religions": [
+      "anglican",
+      "bogomilism",
+      "calvinist",
+      "catharism",
+      "hussite",
+      "lollardy",
+      "lutheran",
+      "paulicianism",
+      "waldensian"
+    ],
+    "icon": "icons/religious_aspects/asceticism.png",
+    "modifier": [
+      {
+        "key": "global_crown_estate_power",
+        "value": -0.1
+      },
+      {
+        "key": "court_spending_cost",
+        "value": -0.02,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_towards_spiritualist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "asceticism": 10,
+      "aniconism": 5,
+      "clerical_poverty": 5,
+      "monasticism": 5,
+      "rejection_of_sacraments": 5,
+      "crown_as_head_of_faith": -10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "bread_and_wine",
+    "religions": [
+      "calvinist",
+      "hussite",
+      "lutheran"
+    ],
+    "icon": "icons/religious_aspects/bread_and_wine.png",
+    "modifier": [
+      {
+        "key": "global_monthly_food_modifier",
+        "value": 0.1
+      },
+      {
+        "key": "global_wine_output_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      }
+    ],
+    "opinions": {
+      "bread_and_wine": 10,
+      "rejection_of_sacraments": -10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "clerical_poverty",
+    "religions": [
+      "anglican",
+      "bogomilism",
+      "calvinist",
+      "catharism",
+      "hussite",
+      "lollardy",
+      "lutheran",
+      "paulicianism",
+      "waldensian"
+    ],
+    "icon": "icons/religious_aspects/clerical_poverty.png",
+    "modifier": [
+      {
+        "key": "clergy_estate_max_tax",
+        "value": 0.1
+      },
+      {
+        "key": "clergy_estate_satisfaction_recovery",
+        "value": 0.02,
+        "pct": true
+      },
+      {
+        "key": "monthly_towards_free_subjects",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "clerical_poverty": 10,
+      "aniconism": 5,
+      "asceticism": 5,
+      "monasticism": 5,
+      "rejection_of_sacraments": 5,
+      "pietism": 5,
+      "crown_as_head_of_faith": -10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "crown_as_head_of_faith",
+    "religions": [
+      "anglican",
+      "calvinist",
+      "hussite",
+      "lollardy",
+      "lutheran",
+      "paulicianism"
+    ],
+    "icon": "icons/religious_aspects/crown_as_head_of_faith.png",
+    "modifier": [
+      {
+        "key": "global_crown_estate_power",
+        "value": 0.1
+      },
+      {
+        "key": "global_monthly_control",
+        "value": 0.001
+      },
+      {
+        "key": "monthly_towards_absolutism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      },
+      {
+        "key": "monthly_towards_centralization",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "crown_as_head_of_faith": 10,
+      "punishment_of_sin": -5,
+      "freedom_to_preach": -5,
+      "individual_creeds": -5,
+      "aniconism": -10,
+      "asceticism": -10,
+      "monasticism": -10,
+      "rejection_of_sacraments": -10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "freedom_to_preach",
+    "religions": [
+      "anglican",
+      "bogomilism",
+      "calvinist",
+      "catharism",
+      "hussite",
+      "lollardy",
+      "lutheran",
+      "paulicianism",
+      "waldensian"
+    ],
+    "icon": "icons/religious_aspects/freedom_to_preach.png",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "clergy_estate_target_satisfaction",
+        "value": "medium_permanent_target_satisfaction_penalty",
+        "scaled": true
+      },
+      {
+        "key": "monthly_towards_individualism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "freedom_to_preach": 10,
+      "individual_creeds": 5,
+      "translated_bibles": 5,
+      "crown_as_head_of_faith": -5,
+      "organized_through_bishops": -5
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "gnosticism",
+    "religions": [
+      "bogomilism",
+      "catharism",
+      "paulicianism"
+    ],
+    "icon": "icons/religious_aspects/gnosticism.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      },
+      {
+        "key": "tolerance_own",
+        "value": 0.5
+      },
+      {
+        "key": "monthly_towards_spiritualist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "gnosticism": 10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "individual_creeds",
+    "religions": [
+      "anglican",
+      "bogomilism",
+      "calvinist",
+      "catharism",
+      "hussite",
+      "lollardy",
+      "lutheran",
+      "waldensian"
+    ],
+    "icon": "icons/religious_aspects/individual_creeds.png",
+    "modifier": [
+      {
+        "key": "global_pop_assimilation_speed_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "monthly_rebel_growth",
+        "value": -0.001,
+        "inv": true
+      },
+      {
+        "key": "monthly_towards_individualism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "individual_creeds": 10,
+      "freedom_to_preach": 5,
+      "translated_bibles": 5,
+      "organized_through_bishops": -5,
+      "crown_as_head_of_faith": -5
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "monasticism",
+    "religions": [
+      "anglican",
+      "bogomilism",
+      "calvinist",
+      "hussite",
+      "lollardy",
+      "lutheran"
+    ],
+    "icon": "icons/religious_aspects/monasticism.png",
+    "modifier": [
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "global_clergy_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "monthly_towards_spiritualist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "aniconism": 5,
+      "asceticism": 5,
+      "rejection_of_sacraments": 5,
+      "crown_as_head_of_faith": -10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "modalism",
+    "religions": [
+      "bogomilism",
+      "catharism",
+      "paulicianism"
+    ],
+    "icon": "icons/religious_aspects/modalism.png",
+    "modifier": [
+      {
+        "key": "global_crown_estate_power",
+        "value": 0.1
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "monthly_towards_traditionalist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "modalism": 10,
+      "adoptionism": -20
+    },
+    "excludes": [
+      "adoptionism"
+    ],
+    "source_file": "common.txt"
+  },
+  {
+    "id": "organized_through_bishops",
+    "religions": [
+      "anglican",
+      "calvinist",
+      "hussite",
+      "lollardy",
+      "lutheran",
+      "waldensian"
+    ],
+    "icon": "icons/religious_aspects/organized_through_bishops.png",
+    "modifier": [
+      {
+        "key": "global_clergy_estate_power",
+        "value": 0.5
+      },
+      {
+        "key": "global_distance_from_capital_speed_propagation",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "monthly_towards_traditionalist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "organized_through_bishops": 10,
+      "punishment_of_sin": -5,
+      "individual_creeds": -5
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "pacifism",
+    "religions": [
+      "bogomilism",
+      "catharism",
+      "hussite"
+    ],
+    "icon": "icons/religious_aspects/pacifism.png",
+    "modifier": [
+      {
+        "key": "improve_relation_impact",
+        "value": 0.3,
+        "pct": true
+      },
+      {
+        "key": "declaring_war_cost_modifier",
+        "value": 2.0,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_towards_conciliatory",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "pacifism": 10,
+      "war_sermons": -10,
+      "justified_conflicts": -10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "parish_registers",
+    "religions": [
+      "anglican",
+      "calvinist",
+      "hussite",
+      "lollardy",
+      "lutheran",
+      "waldensian"
+    ],
+    "icon": "icons/religious_aspects/parish_registers.png",
+    "modifier": [
+      {
+        "key": "global_clergy_desired_pop",
+        "value": 0.01
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "tax_income_efficiency",
+        "value": "medium_tax_income_efficiency_bonus",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "parish_registers": 10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "participation_women",
+    "religions": [
+      "bogomilism",
+      "catharism"
+    ],
+    "icon": "icons/religious_aspects/participation_women.png",
+    "modifier": [
+      {
+        "key": "gender_equality",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "monthly_towards_innovative",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      },
+      {
+        "key": "monthly_towards_individualism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "participation_women": 10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "rejection_of_sacraments",
+    "religions": [
+      "bogomilism",
+      "catharism",
+      "paulicianism",
+      "waldensian"
+    ],
+    "icon": "icons/religious_aspects/rejection_of_sacraments.png",
+    "modifier": [
+      {
+        "key": "add_religious_aspect_christian_cost_modifier",
+        "value": -0.5,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "remove_religious_aspect_christian_cost_modifier",
+        "value": -0.5,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_towards_spiritualist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "rejection_of_sacraments": 10,
+      "bread_and_wine": -10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "sola_fide",
+    "religions": [
+      "calvinist",
+      "hussite",
+      "lutheran"
+    ],
+    "icon": "icons/religious_aspects/sola_fide.png",
+    "modifier": [
+      {
+        "key": "pop_join_rebel_threshold",
+        "value": -0.03,
+        "pct": true
+      },
+      {
+        "key": "peasants_estate_target_satisfaction",
+        "value": "small_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "monthly_towards_free_subjects",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "sola_fide": 10,
+      "sola_scriptura": 5,
+      "soli_deo_gloria": 5
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "sola_scriptura",
+    "religions": [
+      "calvinist",
+      "hussite",
+      "lutheran"
+    ],
+    "icon": "icons/religious_aspects/sola_scriptura.png",
+    "modifier": [
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "monthly_towards_individualism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "sola_scriptura": 10,
+      "sola_fide": 5,
+      "soli_deo_gloria": 5,
+      "prima_scriptura": -20
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "soli_deo_gloria",
+    "religions": [
+      "calvinist",
+      "hussite",
+      "lutheran"
+    ],
+    "icon": "icons/religious_aspects/soli_deo_gloria.png",
+    "modifier": [
+      {
+        "key": "skill_of_new_artists",
+        "value": 0.1
+      },
+      {
+        "key": "global_monthly_art_start_chance",
+        "value": 0.1
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "monthly_towards_plutocracy",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "soli_deo_gloria": 10,
+      "sola_fide": 5,
+      "sola_scriptura": 5
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "translated_bibles",
+    "religions": [
+      "anglican",
+      "bogomilism",
+      "calvinist",
+      "catharism",
+      "hussite",
+      "lollardy",
+      "lutheran",
+      "paulicianism",
+      "waldensian"
+    ],
+    "icon": "icons/religious_aspects/translated_bibles.png",
+    "modifier": [
+      {
+        "key": "global_max_literacy",
+        "value": 10
+      },
+      {
+        "key": "global_estate_target_satisfaction",
+        "value": "tiny_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "monthly_towards_innovative",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "translated_bibles": 10,
+      "individual_creeds": 5,
+      "freedom_to_preach": 5
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "usury_allowed",
+    "religions": [
+      "anglican",
+      "calvinist",
+      "hussite",
+      "lollardy",
+      "lutheran"
+    ],
+    "icon": "icons/religious_aspects/usury_allowed.png",
+    "modifier": [
+      {
+        "key": "bank_interest",
+        "value": -0.01
+      },
+      {
+        "key": "minting_income_factor",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "monthly_towards_capital_economy",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "usury_allowed": 10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "war_sermons",
+    "religions": [
+      "anglican",
+      "calvinist",
+      "hussite",
+      "lollardy",
+      "lutheran",
+      "paulicianism"
+    ],
+    "icon": "icons/religious_aspects/war_sermons.png",
+    "modifier": [
+      {
+        "key": "global_clergy_desired_pop",
+        "value": 0.01
+      },
+      {
+        "key": "land_morale_recovery",
+        "value": 0.02,
+        "pct": true
+      },
+      {
+        "key": "monthly_towards_belligerent",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "war_sermons": 10,
+      "justified_conflicts": 10,
+      "pacifism": -10
+    },
+    "source_file": "common.txt"
+  },
+  {
+    "id": "worship_nyambe_god",
+    "religions": [
+      "bantu_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_nhialic_god",
+    "religions": [
+      "muonyjang_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_du_chie_god",
+    "religions": [
+      "muonyjang_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 0.5
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_ayum_god",
+    "religions": [
+      "muonyjang_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_white.png",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_alwet_god",
+    "religions": [
+      "muonyjang_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_dark_blue.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_zanahary_god",
+    "religions": [
+      "fomba_gasy_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_ratovantany_god",
+    "religions": [
+      "fomba_gasy_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_andrianerinerina_god",
+    "religions": [
+      "fomba_gasy_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_purple.png",
+    "modifier": [
+      {
+        "key": "diplomatic_capacity_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_andriambahomanana_god",
+    "religions": [
+      "fomba_gasy_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_purple.png",
+    "modifier": [
+      {
+        "key": "tolerance_own",
+        "value": 0.1
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_andriamahilala_god",
+    "religions": [
+      "fomba_gasy_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_pink.png",
+    "modifier": [
+      {
+        "key": "global_separatism",
+        "value": -0.05,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_ngai_god",
+    "religions": [
+      "maasai_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_asis_god",
+    "religions": [
+      "asis_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_ilat_god",
+    "religions": [
+      "asis_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_dark_blue.png",
+    "modifier": [
+      {
+        "key": "land_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_waaq_god",
+    "religions": [
+      "waaqeffanna_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_kaggen_god",
+    "religions": [
+      "kaggen_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_initiative",
+        "value": 0.2,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_hunntuattatteen_god",
+    "religions": [
+      "kaggen_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_pink.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_kagara_god",
+    "religions": [
+      "kaggen_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_yellow.png",
+    "modifier": [
+      {
+        "key": "land_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_haunu_god",
+    "religions": [
+      "kaggen_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_dark_blue.png",
+    "modifier": [
+      {
+        "key": "naval_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_akuj_god",
+    "religions": [
+      "akuj_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_anyame_god",
+    "religions": [
+      "akan_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_asase_ya_god",
+    "religions": [
+      "akan_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_anansi_god",
+    "religions": [
+      "akan_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "peasants_estate_target_satisfaction",
+        "value": "medium_permanent_target_satisfaction",
+        "scaled": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_tano_god",
+    "religions": [
+      "akan_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_red.png",
+    "modifier": [
+      {
+        "key": "global_garrison_size_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_legba_god",
+    "religions": [
+      "vodun_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "recruit_explorer_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_mawu_god",
+    "religions": [
+      "vodun_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_white.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_lisa_god",
+    "religions": [
+      "vodun_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_yellow.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_sakpata_god",
+    "religions": [
+      "vodun_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 0.5
+      },
+      {
+        "key": "global_devastation_recovery",
+        "value": 0.005,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_olorun_god",
+    "religions": [
+      "isese_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_olokun_isese_god",
+    "religions": [
+      "isese_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_dark_blue.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_obatala_god",
+    "religions": [
+      "isese_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_ori_god",
+    "religions": [
+      "isese_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_purple.png",
+    "modifier": [
+      {
+        "key": "monthly_rebel_growth",
+        "value": -0.001,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_egbesu_god",
+    "religions": [
+      "ijaw_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "monthly_rebel_growth",
+        "value": -0.001,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_amadioha_god",
+    "religions": [
+      "odinala_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_yellow.png",
+    "modifier": [
+      {
+        "key": "land_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_ikenga_god",
+    "religions": [
+      "odinala_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_agwu_nsi_god",
+    "religions": [
+      "odinala_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_pink.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_ogbunabali_god",
+    "religions": [
+      "odinala_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_black.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 0.5
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_takhar_god",
+    "religions": [
+      "a_fat_roog_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_red.png",
+    "modifier": [
+      {
+        "key": "army_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_mindiss_god",
+    "religions": [
+      "a_fat_roog_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_dark_blue.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_african.txt"
+  },
+  {
+    "id": "worship_niparaya_god",
+    "religions": [
+      "pericu_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_american.txt"
+  },
+  {
+    "id": "worship_u_blei_nong_thaw_god",
+    "religions": [
+      "ka_niam_khasi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_ulei_muluk_god",
+    "religions": [
+      "ka_niam_khasi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_purple.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 0.5
+      },
+      {
+        "key": "global_devastation_recovery",
+        "value": 0.005,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_ulei_umtang_god",
+    "religions": [
+      "ka_niam_khasi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_dark_blue.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_ulei_longspah_god",
+    "religions": [
+      "ka_niam_khasi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_marang_buru_god",
+    "religions": [
+      "sarna_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_dharti_ayo_god",
+    "religions": [
+      "sarna_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_kotan_kar_kamuy_god",
+    "religions": [
+      "ainu_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_kamuy_huci_god",
+    "religions": [
+      "ainu_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_kim_un_kamuy_god",
+    "religions": [
+      "ainu_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 0.5
+      },
+      {
+        "key": "global_devastation_recovery",
+        "value": 0.005,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_rep_un_kamuy_god",
+    "religions": [
+      "ainu_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_dark_blue.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_baradeo_god",
+    "religions": [
+      "koyapunem_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_nat_awal_god",
+    "religions": [
+      "koyapunem_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_aki_pen_god",
+    "religions": [
+      "koyapunem_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_red.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 0.5
+      },
+      {
+        "key": "global_devastation_recovery",
+        "value": 0.005,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_nat_awual_god",
+    "religions": [
+      "koyapunem_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_pink.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_phi_heaven_god",
+    "religions": [
+      "satsana_phi"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_phi_water_god",
+    "religions": [
+      "satsana_phi"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_dark_blue.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_phi_earth_god",
+    "religions": [
+      "satsana_phi"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_phi_fire_god",
+    "religions": [
+      "satsana_phi"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 0.5
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_bathoubwrai_god",
+    "religions": [
+      "bathou_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_mainao_god",
+    "religions": [
+      "bathou_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_song_bwrai_god",
+    "religions": [
+      "bathou_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_orange.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_bura_bagh_raja_god",
+    "religions": [
+      "bathou_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_red.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 0.5
+      },
+      {
+        "key": "global_devastation_recovery",
+        "value": 0.005,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_donyi_god",
+    "religions": [
+      "donyi_polo_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_yellow.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_polo_god",
+    "religions": [
+      "donyi_polo_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_white.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_kine_nane_god",
+    "religions": [
+      "donyi_polo_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_doying_bote_god",
+    "religions": [
+      "donyi_polo_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 0.5
+      },
+      {
+        "key": "global_devastation_recovery",
+        "value": 0.005,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_sumnima_god",
+    "religions": [
+      "kirat_mundhum_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_paruhang_god",
+    "religions": [
+      "kirat_mundhum_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_yuma_sammang_god",
+    "religions": [
+      "kirat_mundhum_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_pink.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_pathian_god",
+    "religions": [
+      "mizo_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_khuanu_god",
+    "religions": [
+      "mizo_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_pu_vana_god",
+    "religions": [
+      "mizo_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_yellow.png",
+    "modifier": [
+      {
+        "key": "land_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_sakhua_god",
+    "religions": [
+      "mizo_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_pink.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "folk_asian.txt"
+  },
+  {
+    "id": "worship_sky_god",
+    "religions": [
+      "abu_religion",
+      "abwoi_religion",
+      "adamawa_religion",
+      "adat_musi_religion",
+      "adat_puun_religion",
+      "ajok_religion",
+      "akinha_ekugu_religion",
+      "alan_paganism",
+      "aluk_religion",
+      "andamanese_religion",
+      "anitism_religion",
+      "anna_religion",
+      "arat_sabulungan_religion",
+      "arosi_religion",
+      "arutam_religion",
+      "atakapa_religion",
+      "badimo_religion",
+      "bahnar_religion",
+      "banda_religion",
+      "banunut_religion",
+      "besavik_religion",
+      "bimoism",
+      "blang_religion",
+      "bori_religion",
+      "bru_religion",
+      "bua_religion",
+      "buton_religion",
+      "buyli_religion",
+      "cahita_religion",
+      "cebil_religion",
+      "chango_religion",
+      "cheke_holo_religion",
+      "chibcha_religion",
+      "chichimecah_religion",
+      "chukchi_shamanism",
+      "chutia_religion",
+      "coahuilteco_religion",
+      "cwezi_religion",
+      "degar_religion",
+      "dene_religion",
+      "dene_shamanism",
+      "dene_totemism",
+      "dimasa_religion",
+      "dogon_religion",
+      "doi_wahire_religion",
+      "dongba_religion",
+      "dreamtime_religion",
+      "dua_nggae_religion",
+      "ebore_religion",
+      "emit_religion",
+      "enggano_religion",
+      "erzya_religion",
+      "eso_religion",
+      "fang_religion",
+      "formosan_religion",
+      "geno_religion",
+      "ghari_religion",
+      "godala_religion",
+      "goma_religion",
+      "gorontalo_religion",
+      "gos_religion",
+      "gosain_religion",
+      "great_plains_shamanism",
+      "guanche_religion",
+      "guasave_religion",
+      "hani_religion",
+      "hmongism",
+      "imunu_religion",
+      "inuit_religion",
+      "ipok_religion",
+      "iroquoian_totemism",
+      "irritila_religion",
+      "itaukei_religion",
+      "jai_religion",
+      "jama_religion",
+      "jingpo_religion",
+      "jino_religion",
+      "juang_religion",
+      "jurema_religion",
+      "kachina_religion",
+      "kaharingan_religion",
+      "kajoor_ri_majel_religion",
+      "kalge_religion",
+      "kam_religion",
+      "kan_khwan_religion",
+      "kanak_religion",
+      "karachay_balkar_paganism",
+      "karama_religion",
+      "karankawa_religion",
+      "karbi_religion",
+      "karen_religion",
+      "kenos_religion",
+      "khabzeism",
+      "kharia_religion",
+      "khond_religion",
+      "kilyikhama_religion",
+      "kirin_koda_religion",
+      "koch_religion",
+      "kolano_religion",
+      "komi_paganism",
+      "kundism_religion",
+      "kuru_masaba_religion",
+      "lahu_religion",
+      "lamatuan_religion",
+      "lamoa_religion",
+      "lenca_religion",
+      "lezgin_paganism",
+      "lisu_religion",
+      "lugbara_religion",
+      "maleiwa_religion",
+      "maleku_religion",
+      "malesung_religion",
+      "maonan_religion",
+      "marapu_religion",
+      "mari_paganism",
+      "mbori_religion",
+      "midewiwin_religion",
+      "minangkabau_religion",
+      "mishmi_religion",
+      "mississippian_ceremonial",
+      "mitu_religion",
+      "moism",
+      "moksha_religion",
+      "momolianism_religion",
+      "monpa_religion",
+      "mororuma_religion",
+      "mu_ngava_religion",
+      "muinaisusko",
+      "muisca_religion",
+      "mulam_religion",
+      "muong_religion",
+      "musala_religion",
+      "naa_wuni_religion",
+      "nacuco_religion",
+      "naga_religion",
+      "nallagdigua_religion",
+      "namandu_religion",
+      "naoma_religion",
+      "natugu_religion",
+      "naurus_religion",
+      "naylamp_religion",
+      "nduke_religion",
+      "ngacang_religion",
+      "ngbandi_religion",
+      "nhaala_religion",
+      "nicobarese_religion",
+      "nu_religion",
+      "nuo_religion",
+      "nyama_religion",
+      "nyang_serai_religion",
+      "nyasaye_religion",
+      "nyesoa_religion",
+      "obian_paganism",
+      "omo_religion",
+      "orang_asli_religion",
+      "orang_laut_religion",
+      "orang_rimba_religion",
+      "ori_religion",
+      "pabichu_religion",
+      "paiute_shamanism",
+      "palaung_religion",
+      "pava_religion",
+      "pech_religion",
+      "pelebegu_religion",
+      "pengarap_asal_religion",
+      "pi_religion",
+      "piil_pesenggiri_religion",
+      "pomo_shamanism",
+      "puntan_religion",
+      "qat_religion",
+      "rabha_religion",
+      "rebba_religion",
+      "rmaism",
+      "rogo_miki_religion",
+      "romuva",
+      "salishan_totemism",
+      "samoyedic_paganism",
+      "sanamahism",
+      "sangirese_religion",
+      "sao_religion",
+      "sapmi_shamanism",
+      "sedang_religion",
+      "seri_religion",
+      "shamanism",
+      "sinu_religion",
+      "songhai_religion",
+      "songsarek_religion",
+      "sora_religion",
+      "sui_religion",
+      "sula_religion",
+      "suwo_religion",
+      "tain_feyentun_religion",
+      "tapu_religion",
+      "tepehuan_religion",
+      "tiwa_religion",
+      "tokelauan_religion",
+      "tokuah_religion",
+      "tolaki_religion",
+      "tolotang_religion",
+      "tomanuru_religion",
+      "totemism",
+      "tungusic_shamanism",
+      "tunpa_religion",
+      "txapakura_religion",
+      "udmurt_paganism",
+      "umina_religion",
+      "utaki_religion",
+      "vaghua_religion",
+      "vainakh_paganism",
+      "vedda_religion",
+      "votian_religion",
+      "wa_religion",
+      "wan_aisa_religion",
+      "warao_religion",
+      "wetarese_religion",
+      "wu_religion",
+      "yage_religion",
+      "yanolop_religion",
+      "yao_religion",
+      "yastay_religion",
+      "yopo_religion",
+      "yukaghir_shamanism",
+      "yuman_religion",
+      "yupik_shamanism",
+      "zemi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "folk_default.txt"
+  },
+  {
+    "id": "worship_death_god",
+    "religions": [
+      "abu_religion",
+      "abwoi_religion",
+      "adamawa_religion",
+      "adat_musi_religion",
+      "adat_puun_religion",
+      "ajok_religion",
+      "akinha_ekugu_religion",
+      "alan_paganism",
+      "aluk_religion",
+      "andamanese_religion",
+      "anitism_religion",
+      "anna_religion",
+      "arat_sabulungan_religion",
+      "arosi_religion",
+      "arutam_religion",
+      "atakapa_religion",
+      "badimo_religion",
+      "bahnar_religion",
+      "banda_religion",
+      "banunut_religion",
+      "besavik_religion",
+      "bimoism",
+      "blang_religion",
+      "bori_religion",
+      "bru_religion",
+      "bua_religion",
+      "buton_religion",
+      "buyli_religion",
+      "cahita_religion",
+      "cebil_religion",
+      "chango_religion",
+      "cheke_holo_religion",
+      "chibcha_religion",
+      "chichimecah_religion",
+      "chukchi_shamanism",
+      "chutia_religion",
+      "coahuilteco_religion",
+      "cwezi_religion",
+      "degar_religion",
+      "dene_religion",
+      "dene_shamanism",
+      "dene_totemism",
+      "dimasa_religion",
+      "dogon_religion",
+      "doi_wahire_religion",
+      "dongba_religion",
+      "dreamtime_religion",
+      "dua_nggae_religion",
+      "ebore_religion",
+      "emit_religion",
+      "enggano_religion",
+      "erzya_religion",
+      "eso_religion",
+      "fang_religion",
+      "formosan_religion",
+      "geno_religion",
+      "ghari_religion",
+      "godala_religion",
+      "goma_religion",
+      "gorontalo_religion",
+      "gos_religion",
+      "gosain_religion",
+      "great_plains_shamanism",
+      "guanche_religion",
+      "guasave_religion",
+      "hani_religion",
+      "hmongism",
+      "imunu_religion",
+      "inuit_religion",
+      "ipok_religion",
+      "iroquoian_totemism",
+      "irritila_religion",
+      "itaukei_religion",
+      "jai_religion",
+      "jama_religion",
+      "jingpo_religion",
+      "jino_religion",
+      "juang_religion",
+      "jurema_religion",
+      "kachina_religion",
+      "kaharingan_religion",
+      "kajoor_ri_majel_religion",
+      "kalge_religion",
+      "kam_religion",
+      "kan_khwan_religion",
+      "kanak_religion",
+      "karachay_balkar_paganism",
+      "karama_religion",
+      "karankawa_religion",
+      "karbi_religion",
+      "karen_religion",
+      "kenos_religion",
+      "khabzeism",
+      "kharia_religion",
+      "khond_religion",
+      "kilyikhama_religion",
+      "kirin_koda_religion",
+      "koch_religion",
+      "kolano_religion",
+      "komi_paganism",
+      "kundism_religion",
+      "kuru_masaba_religion",
+      "lahu_religion",
+      "lamatuan_religion",
+      "lamoa_religion",
+      "lenca_religion",
+      "lezgin_paganism",
+      "lisu_religion",
+      "lugbara_religion",
+      "maleiwa_religion",
+      "maleku_religion",
+      "malesung_religion",
+      "maonan_religion",
+      "marapu_religion",
+      "mari_paganism",
+      "mbori_religion",
+      "midewiwin_religion",
+      "minangkabau_religion",
+      "mishmi_religion",
+      "mississippian_ceremonial",
+      "mitu_religion",
+      "moism",
+      "moksha_religion",
+      "momolianism_religion",
+      "monpa_religion",
+      "mororuma_religion",
+      "mu_ngava_religion",
+      "muinaisusko",
+      "muisca_religion",
+      "mulam_religion",
+      "muong_religion",
+      "musala_religion",
+      "naa_wuni_religion",
+      "nacuco_religion",
+      "naga_religion",
+      "nallagdigua_religion",
+      "namandu_religion",
+      "naoma_religion",
+      "natugu_religion",
+      "naurus_religion",
+      "naylamp_religion",
+      "nduke_religion",
+      "ngacang_religion",
+      "ngbandi_religion",
+      "nhaala_religion",
+      "nicobarese_religion",
+      "nu_religion",
+      "nuo_religion",
+      "nyama_religion",
+      "nyang_serai_religion",
+      "nyasaye_religion",
+      "nyesoa_religion",
+      "obian_paganism",
+      "omo_religion",
+      "orang_asli_religion",
+      "orang_laut_religion",
+      "orang_rimba_religion",
+      "ori_religion",
+      "pabichu_religion",
+      "paiute_shamanism",
+      "palaung_religion",
+      "pava_religion",
+      "pech_religion",
+      "pelebegu_religion",
+      "pengarap_asal_religion",
+      "pi_religion",
+      "piil_pesenggiri_religion",
+      "pomo_shamanism",
+      "puntan_religion",
+      "qat_religion",
+      "rabha_religion",
+      "rebba_religion",
+      "rmaism",
+      "rogo_miki_religion",
+      "romuva",
+      "salishan_totemism",
+      "samoyedic_paganism",
+      "sanamahism",
+      "sangirese_religion",
+      "sao_religion",
+      "sapmi_shamanism",
+      "sedang_religion",
+      "seri_religion",
+      "shamanism",
+      "sinu_religion",
+      "songhai_religion",
+      "songsarek_religion",
+      "sora_religion",
+      "sui_religion",
+      "sula_religion",
+      "suwo_religion",
+      "tain_feyentun_religion",
+      "tapu_religion",
+      "tepehuan_religion",
+      "tiwa_religion",
+      "tokelauan_religion",
+      "tokuah_religion",
+      "tolaki_religion",
+      "tolotang_religion",
+      "tomanuru_religion",
+      "totemism",
+      "tungusic_shamanism",
+      "tunpa_religion",
+      "txapakura_religion",
+      "udmurt_paganism",
+      "umina_religion",
+      "utaki_religion",
+      "vaghua_religion",
+      "vainakh_paganism",
+      "vedda_religion",
+      "votian_religion",
+      "wa_religion",
+      "wan_aisa_religion",
+      "warao_religion",
+      "wetarese_religion",
+      "wu_religion",
+      "yage_religion",
+      "yanolop_religion",
+      "yao_religion",
+      "yastay_religion",
+      "yopo_religion",
+      "yukaghir_shamanism",
+      "yuman_religion",
+      "yupik_shamanism",
+      "zemi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_black.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 1
+      }
+    ],
+    "source_file": "folk_default.txt"
+  },
+  {
+    "id": "worship_earth_god",
+    "religions": [
+      "abu_religion",
+      "abwoi_religion",
+      "adamawa_religion",
+      "adat_musi_religion",
+      "adat_puun_religion",
+      "ajok_religion",
+      "akinha_ekugu_religion",
+      "alan_paganism",
+      "aluk_religion",
+      "andamanese_religion",
+      "anitism_religion",
+      "anna_religion",
+      "arat_sabulungan_religion",
+      "arosi_religion",
+      "arutam_religion",
+      "atakapa_religion",
+      "badimo_religion",
+      "bahnar_religion",
+      "banda_religion",
+      "banunut_religion",
+      "besavik_religion",
+      "bimoism",
+      "blang_religion",
+      "bori_religion",
+      "bru_religion",
+      "bua_religion",
+      "buton_religion",
+      "buyli_religion",
+      "cahita_religion",
+      "cebil_religion",
+      "chango_religion",
+      "cheke_holo_religion",
+      "chibcha_religion",
+      "chichimecah_religion",
+      "chukchi_shamanism",
+      "chutia_religion",
+      "coahuilteco_religion",
+      "cwezi_religion",
+      "degar_religion",
+      "dene_religion",
+      "dene_shamanism",
+      "dene_totemism",
+      "dimasa_religion",
+      "dogon_religion",
+      "doi_wahire_religion",
+      "dongba_religion",
+      "dreamtime_religion",
+      "dua_nggae_religion",
+      "ebore_religion",
+      "emit_religion",
+      "enggano_religion",
+      "erzya_religion",
+      "eso_religion",
+      "fang_religion",
+      "formosan_religion",
+      "geno_religion",
+      "ghari_religion",
+      "godala_religion",
+      "goma_religion",
+      "gorontalo_religion",
+      "gos_religion",
+      "gosain_religion",
+      "great_plains_shamanism",
+      "guanche_religion",
+      "guasave_religion",
+      "hani_religion",
+      "hmongism",
+      "imunu_religion",
+      "inuit_religion",
+      "ipok_religion",
+      "iroquoian_totemism",
+      "irritila_religion",
+      "itaukei_religion",
+      "jai_religion",
+      "jama_religion",
+      "jingpo_religion",
+      "jino_religion",
+      "juang_religion",
+      "jurema_religion",
+      "kachina_religion",
+      "kaharingan_religion",
+      "kajoor_ri_majel_religion",
+      "kalge_religion",
+      "kam_religion",
+      "kan_khwan_religion",
+      "kanak_religion",
+      "karachay_balkar_paganism",
+      "karama_religion",
+      "karankawa_religion",
+      "karbi_religion",
+      "karen_religion",
+      "kenos_religion",
+      "khabzeism",
+      "kharia_religion",
+      "khond_religion",
+      "kilyikhama_religion",
+      "kirin_koda_religion",
+      "koch_religion",
+      "kolano_religion",
+      "komi_paganism",
+      "kundism_religion",
+      "kuru_masaba_religion",
+      "lahu_religion",
+      "lamatuan_religion",
+      "lamoa_religion",
+      "lenca_religion",
+      "lezgin_paganism",
+      "lisu_religion",
+      "lugbara_religion",
+      "maleiwa_religion",
+      "maleku_religion",
+      "malesung_religion",
+      "maonan_religion",
+      "marapu_religion",
+      "mari_paganism",
+      "mbori_religion",
+      "midewiwin_religion",
+      "minangkabau_religion",
+      "mishmi_religion",
+      "mississippian_ceremonial",
+      "mitu_religion",
+      "moism",
+      "moksha_religion",
+      "momolianism_religion",
+      "monpa_religion",
+      "mororuma_religion",
+      "mu_ngava_religion",
+      "muinaisusko",
+      "muisca_religion",
+      "mulam_religion",
+      "muong_religion",
+      "musala_religion",
+      "naa_wuni_religion",
+      "nacuco_religion",
+      "naga_religion",
+      "nallagdigua_religion",
+      "namandu_religion",
+      "naoma_religion",
+      "natugu_religion",
+      "naurus_religion",
+      "naylamp_religion",
+      "nduke_religion",
+      "ngacang_religion",
+      "ngbandi_religion",
+      "nhaala_religion",
+      "nicobarese_religion",
+      "nu_religion",
+      "nuo_religion",
+      "nyama_religion",
+      "nyang_serai_religion",
+      "nyasaye_religion",
+      "nyesoa_religion",
+      "obian_paganism",
+      "omo_religion",
+      "orang_asli_religion",
+      "orang_laut_religion",
+      "orang_rimba_religion",
+      "ori_religion",
+      "pabichu_religion",
+      "paiute_shamanism",
+      "palaung_religion",
+      "pava_religion",
+      "pech_religion",
+      "pelebegu_religion",
+      "pengarap_asal_religion",
+      "pi_religion",
+      "piil_pesenggiri_religion",
+      "pomo_shamanism",
+      "puntan_religion",
+      "qat_religion",
+      "rabha_religion",
+      "rebba_religion",
+      "rmaism",
+      "rogo_miki_religion",
+      "romuva",
+      "salishan_totemism",
+      "samoyedic_paganism",
+      "sanamahism",
+      "sangirese_religion",
+      "sao_religion",
+      "sapmi_shamanism",
+      "sedang_religion",
+      "seri_religion",
+      "shamanism",
+      "sinu_religion",
+      "songhai_religion",
+      "songsarek_religion",
+      "sora_religion",
+      "sui_religion",
+      "sula_religion",
+      "suwo_religion",
+      "tain_feyentun_religion",
+      "tapu_religion",
+      "tepehuan_religion",
+      "tiwa_religion",
+      "tokelauan_religion",
+      "tokuah_religion",
+      "tolaki_religion",
+      "tolotang_religion",
+      "tomanuru_religion",
+      "totemism",
+      "tungusic_shamanism",
+      "tunpa_religion",
+      "txapakura_religion",
+      "udmurt_paganism",
+      "umina_religion",
+      "utaki_religion",
+      "vaghua_religion",
+      "vainakh_paganism",
+      "vedda_religion",
+      "votian_religion",
+      "wa_religion",
+      "wan_aisa_religion",
+      "warao_religion",
+      "wetarese_religion",
+      "wu_religion",
+      "yage_religion",
+      "yanolop_religion",
+      "yao_religion",
+      "yastay_religion",
+      "yopo_religion",
+      "yukaghir_shamanism",
+      "yuman_religion",
+      "yupik_shamanism",
+      "zemi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_brown.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_max_rgo_size_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_default.txt"
+  },
+  {
+    "id": "worship_water_god",
+    "religions": [
+      "abu_religion",
+      "abwoi_religion",
+      "adamawa_religion",
+      "adat_musi_religion",
+      "adat_puun_religion",
+      "ajok_religion",
+      "akinha_ekugu_religion",
+      "alan_paganism",
+      "aluk_religion",
+      "andamanese_religion",
+      "anitism_religion",
+      "anna_religion",
+      "arat_sabulungan_religion",
+      "arosi_religion",
+      "arutam_religion",
+      "atakapa_religion",
+      "badimo_religion",
+      "bahnar_religion",
+      "banda_religion",
+      "banunut_religion",
+      "besavik_religion",
+      "bimoism",
+      "blang_religion",
+      "bori_religion",
+      "bru_religion",
+      "bua_religion",
+      "buton_religion",
+      "buyli_religion",
+      "cahita_religion",
+      "cebil_religion",
+      "chango_religion",
+      "cheke_holo_religion",
+      "chibcha_religion",
+      "chichimecah_religion",
+      "chukchi_shamanism",
+      "chutia_religion",
+      "coahuilteco_religion",
+      "cwezi_religion",
+      "degar_religion",
+      "dene_religion",
+      "dene_shamanism",
+      "dene_totemism",
+      "dimasa_religion",
+      "dogon_religion",
+      "doi_wahire_religion",
+      "dongba_religion",
+      "dreamtime_religion",
+      "dua_nggae_religion",
+      "ebore_religion",
+      "emit_religion",
+      "enggano_religion",
+      "erzya_religion",
+      "eso_religion",
+      "fang_religion",
+      "formosan_religion",
+      "geno_religion",
+      "ghari_religion",
+      "godala_religion",
+      "goma_religion",
+      "gorontalo_religion",
+      "gos_religion",
+      "gosain_religion",
+      "great_plains_shamanism",
+      "guanche_religion",
+      "guasave_religion",
+      "hani_religion",
+      "hmongism",
+      "imunu_religion",
+      "inuit_religion",
+      "ipok_religion",
+      "iroquoian_totemism",
+      "irritila_religion",
+      "itaukei_religion",
+      "jai_religion",
+      "jama_religion",
+      "jingpo_religion",
+      "jino_religion",
+      "juang_religion",
+      "jurema_religion",
+      "kachina_religion",
+      "kaharingan_religion",
+      "kajoor_ri_majel_religion",
+      "kalge_religion",
+      "kam_religion",
+      "kan_khwan_religion",
+      "kanak_religion",
+      "karachay_balkar_paganism",
+      "karama_religion",
+      "karankawa_religion",
+      "karbi_religion",
+      "karen_religion",
+      "kenos_religion",
+      "khabzeism",
+      "kharia_religion",
+      "khond_religion",
+      "kilyikhama_religion",
+      "kirin_koda_religion",
+      "koch_religion",
+      "kolano_religion",
+      "komi_paganism",
+      "kundism_religion",
+      "kuru_masaba_religion",
+      "lahu_religion",
+      "lamatuan_religion",
+      "lamoa_religion",
+      "lenca_religion",
+      "lezgin_paganism",
+      "lisu_religion",
+      "lugbara_religion",
+      "maleiwa_religion",
+      "maleku_religion",
+      "malesung_religion",
+      "maonan_religion",
+      "marapu_religion",
+      "mari_paganism",
+      "mbori_religion",
+      "midewiwin_religion",
+      "minangkabau_religion",
+      "mishmi_religion",
+      "mississippian_ceremonial",
+      "mitu_religion",
+      "moism",
+      "moksha_religion",
+      "momolianism_religion",
+      "monpa_religion",
+      "mororuma_religion",
+      "mu_ngava_religion",
+      "muinaisusko",
+      "muisca_religion",
+      "mulam_religion",
+      "muong_religion",
+      "musala_religion",
+      "naa_wuni_religion",
+      "nacuco_religion",
+      "naga_religion",
+      "nallagdigua_religion",
+      "namandu_religion",
+      "naoma_religion",
+      "natugu_religion",
+      "naurus_religion",
+      "naylamp_religion",
+      "nduke_religion",
+      "ngacang_religion",
+      "ngbandi_religion",
+      "nhaala_religion",
+      "nicobarese_religion",
+      "nu_religion",
+      "nuo_religion",
+      "nyama_religion",
+      "nyang_serai_religion",
+      "nyasaye_religion",
+      "nyesoa_religion",
+      "obian_paganism",
+      "omo_religion",
+      "orang_asli_religion",
+      "orang_laut_religion",
+      "orang_rimba_religion",
+      "ori_religion",
+      "pabichu_religion",
+      "paiute_shamanism",
+      "palaung_religion",
+      "pava_religion",
+      "pech_religion",
+      "pelebegu_religion",
+      "pengarap_asal_religion",
+      "pi_religion",
+      "piil_pesenggiri_religion",
+      "pomo_shamanism",
+      "puntan_religion",
+      "qat_religion",
+      "rabha_religion",
+      "rebba_religion",
+      "rmaism",
+      "rogo_miki_religion",
+      "romuva",
+      "salishan_totemism",
+      "samoyedic_paganism",
+      "sanamahism",
+      "sangirese_religion",
+      "sao_religion",
+      "sapmi_shamanism",
+      "sedang_religion",
+      "seri_religion",
+      "shamanism",
+      "sinu_religion",
+      "songhai_religion",
+      "songsarek_religion",
+      "sora_religion",
+      "sui_religion",
+      "sula_religion",
+      "suwo_religion",
+      "tain_feyentun_religion",
+      "tapu_religion",
+      "tepehuan_religion",
+      "tiwa_religion",
+      "tokelauan_religion",
+      "tokuah_religion",
+      "tolaki_religion",
+      "tolotang_religion",
+      "tomanuru_religion",
+      "totemism",
+      "tungusic_shamanism",
+      "tunpa_religion",
+      "txapakura_religion",
+      "udmurt_paganism",
+      "umina_religion",
+      "utaki_religion",
+      "vaghua_religion",
+      "vainakh_paganism",
+      "vedda_religion",
+      "votian_religion",
+      "wa_religion",
+      "wan_aisa_religion",
+      "warao_religion",
+      "wetarese_religion",
+      "wu_religion",
+      "yage_religion",
+      "yanolop_religion",
+      "yao_religion",
+      "yastay_religion",
+      "yopo_religion",
+      "yukaghir_shamanism",
+      "yuman_religion",
+      "yupik_shamanism",
+      "zemi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_dark_blue.png",
+    "modifier": [
+      {
+        "key": "naval_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_default.txt"
+  },
+  {
+    "id": "worship_creator_god",
+    "religions": [
+      "abu_religion",
+      "abwoi_religion",
+      "adamawa_religion",
+      "adat_musi_religion",
+      "adat_puun_religion",
+      "ajok_religion",
+      "akinha_ekugu_religion",
+      "alan_paganism",
+      "aluk_religion",
+      "andamanese_religion",
+      "anitism_religion",
+      "anna_religion",
+      "arat_sabulungan_religion",
+      "arosi_religion",
+      "arutam_religion",
+      "atakapa_religion",
+      "badimo_religion",
+      "bahnar_religion",
+      "banda_religion",
+      "banunut_religion",
+      "besavik_religion",
+      "bimoism",
+      "blang_religion",
+      "bori_religion",
+      "bru_religion",
+      "bua_religion",
+      "buton_religion",
+      "buyli_religion",
+      "cahita_religion",
+      "cebil_religion",
+      "chango_religion",
+      "cheke_holo_religion",
+      "chibcha_religion",
+      "chichimecah_religion",
+      "chukchi_shamanism",
+      "chutia_religion",
+      "coahuilteco_religion",
+      "cwezi_religion",
+      "degar_religion",
+      "dene_religion",
+      "dene_shamanism",
+      "dene_totemism",
+      "dimasa_religion",
+      "dogon_religion",
+      "doi_wahire_religion",
+      "dongba_religion",
+      "dreamtime_religion",
+      "dua_nggae_religion",
+      "ebore_religion",
+      "emit_religion",
+      "enggano_religion",
+      "erzya_religion",
+      "eso_religion",
+      "fang_religion",
+      "formosan_religion",
+      "geno_religion",
+      "ghari_religion",
+      "godala_religion",
+      "goma_religion",
+      "gorontalo_religion",
+      "gos_religion",
+      "gosain_religion",
+      "great_plains_shamanism",
+      "guanche_religion",
+      "guasave_religion",
+      "hani_religion",
+      "hmongism",
+      "imunu_religion",
+      "inuit_religion",
+      "ipok_religion",
+      "iroquoian_totemism",
+      "irritila_religion",
+      "itaukei_religion",
+      "jai_religion",
+      "jama_religion",
+      "jingpo_religion",
+      "jino_religion",
+      "juang_religion",
+      "jurema_religion",
+      "kachina_religion",
+      "kaharingan_religion",
+      "kajoor_ri_majel_religion",
+      "kalge_religion",
+      "kam_religion",
+      "kan_khwan_religion",
+      "kanak_religion",
+      "karachay_balkar_paganism",
+      "karama_religion",
+      "karankawa_religion",
+      "karbi_religion",
+      "karen_religion",
+      "kenos_religion",
+      "khabzeism",
+      "kharia_religion",
+      "khond_religion",
+      "kilyikhama_religion",
+      "kirin_koda_religion",
+      "koch_religion",
+      "kolano_religion",
+      "komi_paganism",
+      "kundism_religion",
+      "kuru_masaba_religion",
+      "lahu_religion",
+      "lamatuan_religion",
+      "lamoa_religion",
+      "lenca_religion",
+      "lezgin_paganism",
+      "lisu_religion",
+      "lugbara_religion",
+      "maleiwa_religion",
+      "maleku_religion",
+      "malesung_religion",
+      "maonan_religion",
+      "marapu_religion",
+      "mari_paganism",
+      "mbori_religion",
+      "midewiwin_religion",
+      "minangkabau_religion",
+      "mishmi_religion",
+      "mississippian_ceremonial",
+      "mitu_religion",
+      "moism",
+      "moksha_religion",
+      "momolianism_religion",
+      "monpa_religion",
+      "mororuma_religion",
+      "mu_ngava_religion",
+      "muinaisusko",
+      "muisca_religion",
+      "mulam_religion",
+      "muong_religion",
+      "musala_religion",
+      "naa_wuni_religion",
+      "nacuco_religion",
+      "naga_religion",
+      "nallagdigua_religion",
+      "namandu_religion",
+      "naoma_religion",
+      "natugu_religion",
+      "naurus_religion",
+      "naylamp_religion",
+      "nduke_religion",
+      "ngacang_religion",
+      "ngbandi_religion",
+      "nhaala_religion",
+      "nicobarese_religion",
+      "nu_religion",
+      "nuo_religion",
+      "nyama_religion",
+      "nyang_serai_religion",
+      "nyasaye_religion",
+      "nyesoa_religion",
+      "obian_paganism",
+      "omo_religion",
+      "orang_asli_religion",
+      "orang_laut_religion",
+      "orang_rimba_religion",
+      "ori_religion",
+      "pabichu_religion",
+      "paiute_shamanism",
+      "palaung_religion",
+      "pava_religion",
+      "pech_religion",
+      "pelebegu_religion",
+      "pengarap_asal_religion",
+      "pi_religion",
+      "piil_pesenggiri_religion",
+      "pomo_shamanism",
+      "puntan_religion",
+      "qat_religion",
+      "rabha_religion",
+      "rebba_religion",
+      "rmaism",
+      "rogo_miki_religion",
+      "romuva",
+      "salishan_totemism",
+      "samoyedic_paganism",
+      "sanamahism",
+      "sangirese_religion",
+      "sao_religion",
+      "sapmi_shamanism",
+      "sedang_religion",
+      "seri_religion",
+      "shamanism",
+      "sinu_religion",
+      "songhai_religion",
+      "songsarek_religion",
+      "sora_religion",
+      "sui_religion",
+      "sula_religion",
+      "suwo_religion",
+      "tain_feyentun_religion",
+      "tapu_religion",
+      "tepehuan_religion",
+      "tiwa_religion",
+      "tokelauan_religion",
+      "tokuah_religion",
+      "tolaki_religion",
+      "tolotang_religion",
+      "tomanuru_religion",
+      "totemism",
+      "tungusic_shamanism",
+      "tunpa_religion",
+      "txapakura_religion",
+      "udmurt_paganism",
+      "umina_religion",
+      "utaki_religion",
+      "vaghua_religion",
+      "vainakh_paganism",
+      "vedda_religion",
+      "votian_religion",
+      "wa_religion",
+      "wan_aisa_religion",
+      "warao_religion",
+      "wetarese_religion",
+      "wu_religion",
+      "yage_religion",
+      "yanolop_religion",
+      "yao_religion",
+      "yastay_religion",
+      "yopo_religion",
+      "yukaghir_shamanism",
+      "yuman_religion",
+      "yupik_shamanism",
+      "zemi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.0005
+      }
+    ],
+    "source_file": "folk_default.txt"
+  },
+  {
+    "id": "worship_fire_god",
+    "religions": [
+      "abu_religion",
+      "abwoi_religion",
+      "adamawa_religion",
+      "adat_musi_religion",
+      "adat_puun_religion",
+      "ajok_religion",
+      "akinha_ekugu_religion",
+      "alan_paganism",
+      "aluk_religion",
+      "andamanese_religion",
+      "anitism_religion",
+      "anna_religion",
+      "arat_sabulungan_religion",
+      "arosi_religion",
+      "arutam_religion",
+      "atakapa_religion",
+      "badimo_religion",
+      "bahnar_religion",
+      "banda_religion",
+      "banunut_religion",
+      "besavik_religion",
+      "bimoism",
+      "blang_religion",
+      "bori_religion",
+      "bru_religion",
+      "bua_religion",
+      "buton_religion",
+      "buyli_religion",
+      "cahita_religion",
+      "cebil_religion",
+      "chango_religion",
+      "cheke_holo_religion",
+      "chibcha_religion",
+      "chichimecah_religion",
+      "chukchi_shamanism",
+      "chutia_religion",
+      "coahuilteco_religion",
+      "cwezi_religion",
+      "degar_religion",
+      "dene_religion",
+      "dene_shamanism",
+      "dene_totemism",
+      "dimasa_religion",
+      "dogon_religion",
+      "doi_wahire_religion",
+      "dongba_religion",
+      "dreamtime_religion",
+      "dua_nggae_religion",
+      "ebore_religion",
+      "emit_religion",
+      "enggano_religion",
+      "erzya_religion",
+      "eso_religion",
+      "fang_religion",
+      "formosan_religion",
+      "geno_religion",
+      "ghari_religion",
+      "godala_religion",
+      "goma_religion",
+      "gorontalo_religion",
+      "gos_religion",
+      "gosain_religion",
+      "great_plains_shamanism",
+      "guanche_religion",
+      "guasave_religion",
+      "hani_religion",
+      "hmongism",
+      "imunu_religion",
+      "inuit_religion",
+      "ipok_religion",
+      "iroquoian_totemism",
+      "irritila_religion",
+      "itaukei_religion",
+      "jai_religion",
+      "jama_religion",
+      "jingpo_religion",
+      "jino_religion",
+      "juang_religion",
+      "jurema_religion",
+      "kachina_religion",
+      "kaharingan_religion",
+      "kajoor_ri_majel_religion",
+      "kalge_religion",
+      "kam_religion",
+      "kan_khwan_religion",
+      "kanak_religion",
+      "karachay_balkar_paganism",
+      "karama_religion",
+      "karankawa_religion",
+      "karbi_religion",
+      "karen_religion",
+      "kenos_religion",
+      "khabzeism",
+      "kharia_religion",
+      "khond_religion",
+      "kilyikhama_religion",
+      "kirin_koda_religion",
+      "koch_religion",
+      "kolano_religion",
+      "komi_paganism",
+      "kundism_religion",
+      "kuru_masaba_religion",
+      "lahu_religion",
+      "lamatuan_religion",
+      "lamoa_religion",
+      "lenca_religion",
+      "lezgin_paganism",
+      "lisu_religion",
+      "lugbara_religion",
+      "maleiwa_religion",
+      "maleku_religion",
+      "malesung_religion",
+      "maonan_religion",
+      "marapu_religion",
+      "mari_paganism",
+      "mbori_religion",
+      "midewiwin_religion",
+      "minangkabau_religion",
+      "mishmi_religion",
+      "mississippian_ceremonial",
+      "mitu_religion",
+      "moism",
+      "moksha_religion",
+      "momolianism_religion",
+      "monpa_religion",
+      "mororuma_religion",
+      "mu_ngava_religion",
+      "muinaisusko",
+      "muisca_religion",
+      "mulam_religion",
+      "muong_religion",
+      "musala_religion",
+      "naa_wuni_religion",
+      "nacuco_religion",
+      "naga_religion",
+      "nallagdigua_religion",
+      "namandu_religion",
+      "naoma_religion",
+      "natugu_religion",
+      "naurus_religion",
+      "naylamp_religion",
+      "nduke_religion",
+      "ngacang_religion",
+      "ngbandi_religion",
+      "nhaala_religion",
+      "nicobarese_religion",
+      "nu_religion",
+      "nuo_religion",
+      "nyama_religion",
+      "nyang_serai_religion",
+      "nyasaye_religion",
+      "nyesoa_religion",
+      "obian_paganism",
+      "omo_religion",
+      "orang_asli_religion",
+      "orang_laut_religion",
+      "orang_rimba_religion",
+      "ori_religion",
+      "pabichu_religion",
+      "paiute_shamanism",
+      "palaung_religion",
+      "pava_religion",
+      "pech_religion",
+      "pelebegu_religion",
+      "pengarap_asal_religion",
+      "pi_religion",
+      "piil_pesenggiri_religion",
+      "pomo_shamanism",
+      "puntan_religion",
+      "qat_religion",
+      "rabha_religion",
+      "rebba_religion",
+      "rmaism",
+      "rogo_miki_religion",
+      "romuva",
+      "salishan_totemism",
+      "samoyedic_paganism",
+      "sanamahism",
+      "sangirese_religion",
+      "sao_religion",
+      "sapmi_shamanism",
+      "sedang_religion",
+      "seri_religion",
+      "shamanism",
+      "sinu_religion",
+      "songhai_religion",
+      "songsarek_religion",
+      "sora_religion",
+      "sui_religion",
+      "sula_religion",
+      "suwo_religion",
+      "tain_feyentun_religion",
+      "tapu_religion",
+      "tepehuan_religion",
+      "tiwa_religion",
+      "tokelauan_religion",
+      "tokuah_religion",
+      "tolaki_religion",
+      "tolotang_religion",
+      "tomanuru_religion",
+      "totemism",
+      "tungusic_shamanism",
+      "tunpa_religion",
+      "txapakura_religion",
+      "udmurt_paganism",
+      "umina_religion",
+      "utaki_religion",
+      "vaghua_religion",
+      "vainakh_paganism",
+      "vedda_religion",
+      "votian_religion",
+      "wa_religion",
+      "wan_aisa_religion",
+      "warao_religion",
+      "wetarese_religion",
+      "wu_religion",
+      "yage_religion",
+      "yanolop_religion",
+      "yao_religion",
+      "yastay_religion",
+      "yopo_religion",
+      "yukaghir_shamanism",
+      "yuman_religion",
+      "yupik_shamanism",
+      "zemi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_orange.png",
+    "modifier": [
+      {
+        "key": "land_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_default.txt"
+  },
+  {
+    "id": "worship_fertility_god",
+    "religions": [
+      "abu_religion",
+      "abwoi_religion",
+      "adamawa_religion",
+      "adat_musi_religion",
+      "adat_puun_religion",
+      "ajok_religion",
+      "akinha_ekugu_religion",
+      "alan_paganism",
+      "aluk_religion",
+      "andamanese_religion",
+      "anitism_religion",
+      "anna_religion",
+      "arat_sabulungan_religion",
+      "arosi_religion",
+      "arutam_religion",
+      "atakapa_religion",
+      "badimo_religion",
+      "bahnar_religion",
+      "banda_religion",
+      "banunut_religion",
+      "besavik_religion",
+      "bimoism",
+      "blang_religion",
+      "bori_religion",
+      "bru_religion",
+      "bua_religion",
+      "buton_religion",
+      "buyli_religion",
+      "cahita_religion",
+      "cebil_religion",
+      "chango_religion",
+      "cheke_holo_religion",
+      "chibcha_religion",
+      "chichimecah_religion",
+      "chukchi_shamanism",
+      "chutia_religion",
+      "coahuilteco_religion",
+      "cwezi_religion",
+      "degar_religion",
+      "dene_religion",
+      "dene_shamanism",
+      "dene_totemism",
+      "dimasa_religion",
+      "dogon_religion",
+      "doi_wahire_religion",
+      "dongba_religion",
+      "dreamtime_religion",
+      "dua_nggae_religion",
+      "ebore_religion",
+      "emit_religion",
+      "enggano_religion",
+      "erzya_religion",
+      "eso_religion",
+      "fang_religion",
+      "formosan_religion",
+      "geno_religion",
+      "ghari_religion",
+      "godala_religion",
+      "goma_religion",
+      "gorontalo_religion",
+      "gos_religion",
+      "gosain_religion",
+      "great_plains_shamanism",
+      "guanche_religion",
+      "guasave_religion",
+      "hani_religion",
+      "hmongism",
+      "imunu_religion",
+      "inuit_religion",
+      "ipok_religion",
+      "iroquoian_totemism",
+      "irritila_religion",
+      "itaukei_religion",
+      "jai_religion",
+      "jama_religion",
+      "jingpo_religion",
+      "jino_religion",
+      "juang_religion",
+      "jurema_religion",
+      "kachina_religion",
+      "kaharingan_religion",
+      "kajoor_ri_majel_religion",
+      "kalge_religion",
+      "kam_religion",
+      "kan_khwan_religion",
+      "kanak_religion",
+      "karachay_balkar_paganism",
+      "karama_religion",
+      "karankawa_religion",
+      "karbi_religion",
+      "karen_religion",
+      "kenos_religion",
+      "khabzeism",
+      "kharia_religion",
+      "khond_religion",
+      "kilyikhama_religion",
+      "kirin_koda_religion",
+      "koch_religion",
+      "kolano_religion",
+      "komi_paganism",
+      "kundism_religion",
+      "kuru_masaba_religion",
+      "lahu_religion",
+      "lamatuan_religion",
+      "lamoa_religion",
+      "lenca_religion",
+      "lezgin_paganism",
+      "lisu_religion",
+      "lugbara_religion",
+      "maleiwa_religion",
+      "maleku_religion",
+      "malesung_religion",
+      "maonan_religion",
+      "marapu_religion",
+      "mari_paganism",
+      "mbori_religion",
+      "midewiwin_religion",
+      "minangkabau_religion",
+      "mishmi_religion",
+      "mississippian_ceremonial",
+      "mitu_religion",
+      "moism",
+      "moksha_religion",
+      "momolianism_religion",
+      "monpa_religion",
+      "mororuma_religion",
+      "mu_ngava_religion",
+      "muinaisusko",
+      "muisca_religion",
+      "mulam_religion",
+      "muong_religion",
+      "musala_religion",
+      "naa_wuni_religion",
+      "nacuco_religion",
+      "naga_religion",
+      "nallagdigua_religion",
+      "namandu_religion",
+      "naoma_religion",
+      "natugu_religion",
+      "naurus_religion",
+      "naylamp_religion",
+      "nduke_religion",
+      "ngacang_religion",
+      "ngbandi_religion",
+      "nhaala_religion",
+      "nicobarese_religion",
+      "nu_religion",
+      "nuo_religion",
+      "nyama_religion",
+      "nyang_serai_religion",
+      "nyasaye_religion",
+      "nyesoa_religion",
+      "obian_paganism",
+      "omo_religion",
+      "orang_asli_religion",
+      "orang_laut_religion",
+      "orang_rimba_religion",
+      "ori_religion",
+      "pabichu_religion",
+      "paiute_shamanism",
+      "palaung_religion",
+      "pava_religion",
+      "pech_religion",
+      "pelebegu_religion",
+      "pengarap_asal_religion",
+      "pi_religion",
+      "piil_pesenggiri_religion",
+      "pomo_shamanism",
+      "puntan_religion",
+      "qat_religion",
+      "rabha_religion",
+      "rebba_religion",
+      "rmaism",
+      "rogo_miki_religion",
+      "romuva",
+      "salishan_totemism",
+      "samoyedic_paganism",
+      "sanamahism",
+      "sangirese_religion",
+      "sao_religion",
+      "sapmi_shamanism",
+      "sedang_religion",
+      "seri_religion",
+      "shamanism",
+      "sinu_religion",
+      "songhai_religion",
+      "songsarek_religion",
+      "sora_religion",
+      "sui_religion",
+      "sula_religion",
+      "suwo_religion",
+      "tain_feyentun_religion",
+      "tapu_religion",
+      "tepehuan_religion",
+      "tiwa_religion",
+      "tokelauan_religion",
+      "tokuah_religion",
+      "tolaki_religion",
+      "tolotang_religion",
+      "tomanuru_religion",
+      "totemism",
+      "tungusic_shamanism",
+      "tunpa_religion",
+      "txapakura_religion",
+      "udmurt_paganism",
+      "umina_religion",
+      "utaki_religion",
+      "vaghua_religion",
+      "vainakh_paganism",
+      "vedda_religion",
+      "votian_religion",
+      "wa_religion",
+      "wan_aisa_religion",
+      "warao_religion",
+      "wetarese_religion",
+      "wu_religion",
+      "yage_religion",
+      "yanolop_religion",
+      "yao_religion",
+      "yastay_religion",
+      "yopo_religion",
+      "yukaghir_shamanism",
+      "yuman_religion",
+      "yupik_shamanism",
+      "zemi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_pink.png",
+    "modifier": [
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "folk_default.txt"
+  },
+  {
+    "id": "worship_war_god",
+    "religions": [
+      "abu_religion",
+      "abwoi_religion",
+      "adamawa_religion",
+      "adat_musi_religion",
+      "adat_puun_religion",
+      "ajok_religion",
+      "akinha_ekugu_religion",
+      "alan_paganism",
+      "aluk_religion",
+      "andamanese_religion",
+      "anitism_religion",
+      "anna_religion",
+      "arat_sabulungan_religion",
+      "arosi_religion",
+      "arutam_religion",
+      "atakapa_religion",
+      "badimo_religion",
+      "bahnar_religion",
+      "banda_religion",
+      "banunut_religion",
+      "besavik_religion",
+      "bimoism",
+      "blang_religion",
+      "bori_religion",
+      "bru_religion",
+      "bua_religion",
+      "buton_religion",
+      "buyli_religion",
+      "cahita_religion",
+      "cebil_religion",
+      "chango_religion",
+      "cheke_holo_religion",
+      "chibcha_religion",
+      "chichimecah_religion",
+      "chukchi_shamanism",
+      "chutia_religion",
+      "coahuilteco_religion",
+      "cwezi_religion",
+      "degar_religion",
+      "dene_religion",
+      "dene_shamanism",
+      "dene_totemism",
+      "dimasa_religion",
+      "dogon_religion",
+      "doi_wahire_religion",
+      "dongba_religion",
+      "dreamtime_religion",
+      "dua_nggae_religion",
+      "ebore_religion",
+      "emit_religion",
+      "enggano_religion",
+      "erzya_religion",
+      "eso_religion",
+      "fang_religion",
+      "formosan_religion",
+      "geno_religion",
+      "ghari_religion",
+      "godala_religion",
+      "goma_religion",
+      "gorontalo_religion",
+      "gos_religion",
+      "gosain_religion",
+      "great_plains_shamanism",
+      "guanche_religion",
+      "guasave_religion",
+      "hani_religion",
+      "hmongism",
+      "imunu_religion",
+      "inuit_religion",
+      "ipok_religion",
+      "iroquoian_totemism",
+      "irritila_religion",
+      "itaukei_religion",
+      "jai_religion",
+      "jama_religion",
+      "jingpo_religion",
+      "jino_religion",
+      "juang_religion",
+      "jurema_religion",
+      "kachina_religion",
+      "kaharingan_religion",
+      "kajoor_ri_majel_religion",
+      "kalge_religion",
+      "kam_religion",
+      "kan_khwan_religion",
+      "kanak_religion",
+      "karachay_balkar_paganism",
+      "karama_religion",
+      "karankawa_religion",
+      "karbi_religion",
+      "karen_religion",
+      "kenos_religion",
+      "khabzeism",
+      "kharia_religion",
+      "khond_religion",
+      "kilyikhama_religion",
+      "kirin_koda_religion",
+      "koch_religion",
+      "kolano_religion",
+      "komi_paganism",
+      "kundism_religion",
+      "kuru_masaba_religion",
+      "lahu_religion",
+      "lamatuan_religion",
+      "lamoa_religion",
+      "lenca_religion",
+      "lezgin_paganism",
+      "lisu_religion",
+      "lugbara_religion",
+      "maleiwa_religion",
+      "maleku_religion",
+      "malesung_religion",
+      "maonan_religion",
+      "marapu_religion",
+      "mari_paganism",
+      "mbori_religion",
+      "midewiwin_religion",
+      "minangkabau_religion",
+      "mishmi_religion",
+      "mississippian_ceremonial",
+      "mitu_religion",
+      "moism",
+      "moksha_religion",
+      "momolianism_religion",
+      "monpa_religion",
+      "mororuma_religion",
+      "mu_ngava_religion",
+      "muinaisusko",
+      "muisca_religion",
+      "mulam_religion",
+      "muong_religion",
+      "musala_religion",
+      "naa_wuni_religion",
+      "nacuco_religion",
+      "naga_religion",
+      "nallagdigua_religion",
+      "namandu_religion",
+      "naoma_religion",
+      "natugu_religion",
+      "naurus_religion",
+      "naylamp_religion",
+      "nduke_religion",
+      "ngacang_religion",
+      "ngbandi_religion",
+      "nhaala_religion",
+      "nicobarese_religion",
+      "nu_religion",
+      "nuo_religion",
+      "nyama_religion",
+      "nyang_serai_religion",
+      "nyasaye_religion",
+      "nyesoa_religion",
+      "obian_paganism",
+      "omo_religion",
+      "orang_asli_religion",
+      "orang_laut_religion",
+      "orang_rimba_religion",
+      "ori_religion",
+      "pabichu_religion",
+      "paiute_shamanism",
+      "palaung_religion",
+      "pava_religion",
+      "pech_religion",
+      "pelebegu_religion",
+      "pengarap_asal_religion",
+      "pi_religion",
+      "piil_pesenggiri_religion",
+      "pomo_shamanism",
+      "puntan_religion",
+      "qat_religion",
+      "rabha_religion",
+      "rebba_religion",
+      "rmaism",
+      "rogo_miki_religion",
+      "romuva",
+      "salishan_totemism",
+      "samoyedic_paganism",
+      "sanamahism",
+      "sangirese_religion",
+      "sao_religion",
+      "sapmi_shamanism",
+      "sedang_religion",
+      "seri_religion",
+      "shamanism",
+      "sinu_religion",
+      "songhai_religion",
+      "songsarek_religion",
+      "sora_religion",
+      "sui_religion",
+      "sula_religion",
+      "suwo_religion",
+      "tain_feyentun_religion",
+      "tapu_religion",
+      "tepehuan_religion",
+      "tiwa_religion",
+      "tokelauan_religion",
+      "tokuah_religion",
+      "tolaki_religion",
+      "tolotang_religion",
+      "tomanuru_religion",
+      "totemism",
+      "tungusic_shamanism",
+      "tunpa_religion",
+      "txapakura_religion",
+      "udmurt_paganism",
+      "umina_religion",
+      "utaki_religion",
+      "vaghua_religion",
+      "vainakh_paganism",
+      "vedda_religion",
+      "votian_religion",
+      "wa_religion",
+      "wan_aisa_religion",
+      "warao_religion",
+      "wetarese_religion",
+      "wu_religion",
+      "yage_religion",
+      "yanolop_religion",
+      "yao_religion",
+      "yastay_religion",
+      "yopo_religion",
+      "yukaghir_shamanism",
+      "yuman_religion",
+      "yupik_shamanism",
+      "zemi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_red.png",
+    "modifier": [
+      {
+        "key": "discipline",
+        "value": 0.01,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_default.txt"
+  },
+  {
+    "id": "worship_wind_god",
+    "religions": [
+      "abu_religion",
+      "abwoi_religion",
+      "adamawa_religion",
+      "adat_musi_religion",
+      "adat_puun_religion",
+      "ajok_religion",
+      "akinha_ekugu_religion",
+      "alan_paganism",
+      "aluk_religion",
+      "andamanese_religion",
+      "anitism_religion",
+      "anna_religion",
+      "arat_sabulungan_religion",
+      "arosi_religion",
+      "arutam_religion",
+      "atakapa_religion",
+      "badimo_religion",
+      "bahnar_religion",
+      "banda_religion",
+      "banunut_religion",
+      "besavik_religion",
+      "bimoism",
+      "blang_religion",
+      "bori_religion",
+      "bru_religion",
+      "bua_religion",
+      "buton_religion",
+      "buyli_religion",
+      "cahita_religion",
+      "cebil_religion",
+      "chango_religion",
+      "cheke_holo_religion",
+      "chibcha_religion",
+      "chichimecah_religion",
+      "chukchi_shamanism",
+      "chutia_religion",
+      "coahuilteco_religion",
+      "cwezi_religion",
+      "degar_religion",
+      "dene_religion",
+      "dene_shamanism",
+      "dene_totemism",
+      "dimasa_religion",
+      "dogon_religion",
+      "doi_wahire_religion",
+      "dongba_religion",
+      "dreamtime_religion",
+      "dua_nggae_religion",
+      "ebore_religion",
+      "emit_religion",
+      "enggano_religion",
+      "erzya_religion",
+      "eso_religion",
+      "fang_religion",
+      "formosan_religion",
+      "geno_religion",
+      "ghari_religion",
+      "godala_religion",
+      "goma_religion",
+      "gorontalo_religion",
+      "gos_religion",
+      "gosain_religion",
+      "great_plains_shamanism",
+      "guanche_religion",
+      "guasave_religion",
+      "hani_religion",
+      "hmongism",
+      "imunu_religion",
+      "inuit_religion",
+      "ipok_religion",
+      "iroquoian_totemism",
+      "irritila_religion",
+      "itaukei_religion",
+      "jai_religion",
+      "jama_religion",
+      "jingpo_religion",
+      "jino_religion",
+      "juang_religion",
+      "jurema_religion",
+      "kachina_religion",
+      "kaharingan_religion",
+      "kajoor_ri_majel_religion",
+      "kalge_religion",
+      "kam_religion",
+      "kan_khwan_religion",
+      "kanak_religion",
+      "karachay_balkar_paganism",
+      "karama_religion",
+      "karankawa_religion",
+      "karbi_religion",
+      "karen_religion",
+      "kenos_religion",
+      "khabzeism",
+      "kharia_religion",
+      "khond_religion",
+      "kilyikhama_religion",
+      "kirin_koda_religion",
+      "koch_religion",
+      "kolano_religion",
+      "komi_paganism",
+      "kundism_religion",
+      "kuru_masaba_religion",
+      "lahu_religion",
+      "lamatuan_religion",
+      "lamoa_religion",
+      "lenca_religion",
+      "lezgin_paganism",
+      "lisu_religion",
+      "lugbara_religion",
+      "maleiwa_religion",
+      "maleku_religion",
+      "malesung_religion",
+      "maonan_religion",
+      "marapu_religion",
+      "mari_paganism",
+      "mbori_religion",
+      "midewiwin_religion",
+      "minangkabau_religion",
+      "mishmi_religion",
+      "mississippian_ceremonial",
+      "mitu_religion",
+      "moism",
+      "moksha_religion",
+      "momolianism_religion",
+      "monpa_religion",
+      "mororuma_religion",
+      "mu_ngava_religion",
+      "muinaisusko",
+      "muisca_religion",
+      "mulam_religion",
+      "muong_religion",
+      "musala_religion",
+      "naa_wuni_religion",
+      "nacuco_religion",
+      "naga_religion",
+      "nallagdigua_religion",
+      "namandu_religion",
+      "naoma_religion",
+      "natugu_religion",
+      "naurus_religion",
+      "naylamp_religion",
+      "nduke_religion",
+      "ngacang_religion",
+      "ngbandi_religion",
+      "nhaala_religion",
+      "nicobarese_religion",
+      "nu_religion",
+      "nuo_religion",
+      "nyama_religion",
+      "nyang_serai_religion",
+      "nyasaye_religion",
+      "nyesoa_religion",
+      "obian_paganism",
+      "omo_religion",
+      "orang_asli_religion",
+      "orang_laut_religion",
+      "orang_rimba_religion",
+      "ori_religion",
+      "pabichu_religion",
+      "paiute_shamanism",
+      "palaung_religion",
+      "pava_religion",
+      "pech_religion",
+      "pelebegu_religion",
+      "pengarap_asal_religion",
+      "pi_religion",
+      "piil_pesenggiri_religion",
+      "pomo_shamanism",
+      "puntan_religion",
+      "qat_religion",
+      "rabha_religion",
+      "rebba_religion",
+      "rmaism",
+      "rogo_miki_religion",
+      "romuva",
+      "salishan_totemism",
+      "samoyedic_paganism",
+      "sanamahism",
+      "sangirese_religion",
+      "sao_religion",
+      "sapmi_shamanism",
+      "sedang_religion",
+      "seri_religion",
+      "shamanism",
+      "sinu_religion",
+      "songhai_religion",
+      "songsarek_religion",
+      "sora_religion",
+      "sui_religion",
+      "sula_religion",
+      "suwo_religion",
+      "tain_feyentun_religion",
+      "tapu_religion",
+      "tepehuan_religion",
+      "tiwa_religion",
+      "tokelauan_religion",
+      "tokuah_religion",
+      "tolaki_religion",
+      "tolotang_religion",
+      "tomanuru_religion",
+      "totemism",
+      "tungusic_shamanism",
+      "tunpa_religion",
+      "txapakura_religion",
+      "udmurt_paganism",
+      "umina_religion",
+      "utaki_religion",
+      "vaghua_religion",
+      "vainakh_paganism",
+      "vedda_religion",
+      "votian_religion",
+      "wa_religion",
+      "wan_aisa_religion",
+      "warao_religion",
+      "wetarese_religion",
+      "wu_religion",
+      "yage_religion",
+      "yanolop_religion",
+      "yao_religion",
+      "yastay_religion",
+      "yopo_religion",
+      "yukaghir_shamanism",
+      "yuman_religion",
+      "yupik_shamanism",
+      "zemi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_white.png",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_default.txt"
+  },
+  {
+    "id": "worship_thunder_god",
+    "religions": [
+      "abu_religion",
+      "abwoi_religion",
+      "adamawa_religion",
+      "adat_musi_religion",
+      "adat_puun_religion",
+      "ajok_religion",
+      "akinha_ekugu_religion",
+      "alan_paganism",
+      "aluk_religion",
+      "andamanese_religion",
+      "anitism_religion",
+      "anna_religion",
+      "arat_sabulungan_religion",
+      "arosi_religion",
+      "arutam_religion",
+      "atakapa_religion",
+      "badimo_religion",
+      "bahnar_religion",
+      "banda_religion",
+      "banunut_religion",
+      "besavik_religion",
+      "bimoism",
+      "blang_religion",
+      "bori_religion",
+      "bru_religion",
+      "bua_religion",
+      "buton_religion",
+      "buyli_religion",
+      "cahita_religion",
+      "cebil_religion",
+      "chango_religion",
+      "cheke_holo_religion",
+      "chibcha_religion",
+      "chichimecah_religion",
+      "chukchi_shamanism",
+      "chutia_religion",
+      "coahuilteco_religion",
+      "cwezi_religion",
+      "degar_religion",
+      "dene_religion",
+      "dene_shamanism",
+      "dene_totemism",
+      "dimasa_religion",
+      "dogon_religion",
+      "doi_wahire_religion",
+      "dongba_religion",
+      "dreamtime_religion",
+      "dua_nggae_religion",
+      "ebore_religion",
+      "emit_religion",
+      "enggano_religion",
+      "erzya_religion",
+      "eso_religion",
+      "fang_religion",
+      "formosan_religion",
+      "geno_religion",
+      "ghari_religion",
+      "godala_religion",
+      "goma_religion",
+      "gorontalo_religion",
+      "gos_religion",
+      "gosain_religion",
+      "great_plains_shamanism",
+      "guanche_religion",
+      "guasave_religion",
+      "hani_religion",
+      "hmongism",
+      "imunu_religion",
+      "inuit_religion",
+      "ipok_religion",
+      "iroquoian_totemism",
+      "irritila_religion",
+      "itaukei_religion",
+      "jai_religion",
+      "jama_religion",
+      "jingpo_religion",
+      "jino_religion",
+      "juang_religion",
+      "jurema_religion",
+      "kachina_religion",
+      "kaharingan_religion",
+      "kajoor_ri_majel_religion",
+      "kalge_religion",
+      "kam_religion",
+      "kan_khwan_religion",
+      "kanak_religion",
+      "karachay_balkar_paganism",
+      "karama_religion",
+      "karankawa_religion",
+      "karbi_religion",
+      "karen_religion",
+      "kenos_religion",
+      "khabzeism",
+      "kharia_religion",
+      "khond_religion",
+      "kilyikhama_religion",
+      "kirin_koda_religion",
+      "koch_religion",
+      "kolano_religion",
+      "komi_paganism",
+      "kundism_religion",
+      "kuru_masaba_religion",
+      "lahu_religion",
+      "lamatuan_religion",
+      "lamoa_religion",
+      "lenca_religion",
+      "lezgin_paganism",
+      "lisu_religion",
+      "lugbara_religion",
+      "maleiwa_religion",
+      "maleku_religion",
+      "malesung_religion",
+      "maonan_religion",
+      "marapu_religion",
+      "mari_paganism",
+      "mbori_religion",
+      "midewiwin_religion",
+      "minangkabau_religion",
+      "mishmi_religion",
+      "mississippian_ceremonial",
+      "mitu_religion",
+      "moism",
+      "moksha_religion",
+      "momolianism_religion",
+      "monpa_religion",
+      "mororuma_religion",
+      "mu_ngava_religion",
+      "muinaisusko",
+      "muisca_religion",
+      "mulam_religion",
+      "muong_religion",
+      "musala_religion",
+      "naa_wuni_religion",
+      "nacuco_religion",
+      "naga_religion",
+      "nallagdigua_religion",
+      "namandu_religion",
+      "naoma_religion",
+      "natugu_religion",
+      "naurus_religion",
+      "naylamp_religion",
+      "nduke_religion",
+      "ngacang_religion",
+      "ngbandi_religion",
+      "nhaala_religion",
+      "nicobarese_religion",
+      "nu_religion",
+      "nuo_religion",
+      "nyama_religion",
+      "nyang_serai_religion",
+      "nyasaye_religion",
+      "nyesoa_religion",
+      "obian_paganism",
+      "omo_religion",
+      "orang_asli_religion",
+      "orang_laut_religion",
+      "orang_rimba_religion",
+      "ori_religion",
+      "pabichu_religion",
+      "paiute_shamanism",
+      "palaung_religion",
+      "pava_religion",
+      "pech_religion",
+      "pelebegu_religion",
+      "pengarap_asal_religion",
+      "pi_religion",
+      "piil_pesenggiri_religion",
+      "pomo_shamanism",
+      "puntan_religion",
+      "qat_religion",
+      "rabha_religion",
+      "rebba_religion",
+      "rmaism",
+      "rogo_miki_religion",
+      "romuva",
+      "salishan_totemism",
+      "samoyedic_paganism",
+      "sanamahism",
+      "sangirese_religion",
+      "sao_religion",
+      "sapmi_shamanism",
+      "sedang_religion",
+      "seri_religion",
+      "shamanism",
+      "sinu_religion",
+      "songhai_religion",
+      "songsarek_religion",
+      "sora_religion",
+      "sui_religion",
+      "sula_religion",
+      "suwo_religion",
+      "tain_feyentun_religion",
+      "tapu_religion",
+      "tepehuan_religion",
+      "tiwa_religion",
+      "tokelauan_religion",
+      "tokuah_religion",
+      "tolaki_religion",
+      "tolotang_religion",
+      "tomanuru_religion",
+      "totemism",
+      "tungusic_shamanism",
+      "tunpa_religion",
+      "txapakura_religion",
+      "udmurt_paganism",
+      "umina_religion",
+      "utaki_religion",
+      "vaghua_religion",
+      "vainakh_paganism",
+      "vedda_religion",
+      "votian_religion",
+      "wa_religion",
+      "wan_aisa_religion",
+      "warao_religion",
+      "wetarese_religion",
+      "wu_religion",
+      "yage_religion",
+      "yanolop_religion",
+      "yao_religion",
+      "yastay_religion",
+      "yopo_religion",
+      "yukaghir_shamanism",
+      "yuman_religion",
+      "yupik_shamanism",
+      "zemi_religion"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_yellow.png",
+    "modifier": [
+      {
+        "key": "regiment_reinforcement_speed",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "global_pop_promotion_speed_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "source_file": "folk_default.txt"
+  },
+  {
+    "id": "adamite_services",
+    "religions": [
+      "hussite"
+    ],
+    "icon": "icons/religious_aspects/adamite_services.png",
+    "modifier": [
+      {
+        "key": "pop_leave_rebels_threshold",
+        "value": -0.05,
+        "pct": true
+      },
+      {
+        "key": "monthly_towards_communalism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "adamite_services": 10
+    },
+    "source_file": "hussite.txt"
+  },
+  {
+    "id": "punishment_of_sin",
+    "religions": [
+      "hussite"
+    ],
+    "icon": "icons/religious_aspects/punishment_of_sin.png",
+    "modifier": [
+      {
+        "key": "clergy_estate_target_satisfaction",
+        "value": "medium_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_towards_spiritualist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "punishment_of_sin": 10,
+      "organized_through_bishops": -5,
+      "crown_as_head_of_faith": -5
+    },
+    "source_file": "hussite.txt"
+  },
+  {
+    "id": "worship_viracocha",
+    "religions": [
+      "inti"
+    ],
+    "icon": "icons/religious_aspects/worship_viracocha.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_yanantin",
+        "value": -0.5
+      }
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "worship_inti_god",
+    "religions": [
+      "inti"
+    ],
+    "icon": "icons/religious_aspects/worship_inti_god.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.0002
+      },
+      {
+        "key": "monthly_yanantin",
+        "value": -0.5
+      }
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "worship_illapa_god",
+    "religions": [
+      "inti"
+    ],
+    "icon": "icons/religious_aspects/worship_illapa_god.png",
+    "modifier": [
+      {
+        "key": "land_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "monthly_yanantin",
+        "value": -0.5
+      }
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "worship_supay_god",
+    "religions": [
+      "inti"
+    ],
+    "icon": "icons/religious_aspects/worship_supay_god.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 0.25
+      },
+      {
+        "key": "expand_rgo_mining_cost_modifier",
+        "value": -0.025,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_yanantin",
+        "value": -0.5
+      }
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "worship_mamaquilla",
+    "religions": [
+      "inti"
+    ],
+    "icon": "icons/religious_aspects/worship_mamaquilla.png",
+    "modifier": [
+      {
+        "key": "global_separatism",
+        "value": -0.05,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_yanantin",
+        "value": 0.5
+      }
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "worship_pachamama",
+    "religions": [
+      "inti"
+    ],
+    "icon": "icons/religious_aspects/worship_pachamama.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      },
+      {
+        "key": "monthly_yanantin",
+        "value": 0.5
+      }
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "worship_mama_cocha",
+    "religions": [
+      "inti"
+    ],
+    "icon": "icons/religious_aspects/worship_mama_cocha.png",
+    "modifier": [
+      {
+        "key": "naval_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "monthly_yanantin",
+        "value": 0.5
+      }
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "worship_urpihuachac",
+    "religions": [
+      "chincha_religion",
+      "inti"
+    ],
+    "icon": "icons/religious_aspects/worship_urpihuachac.png",
+    "modifier": [
+      {
+        "key": "diplomatic_capacity_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "monthly_yanantin",
+        "value": 0.5
+      }
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "worship_chinchaycamac",
+    "religions": [
+      "chincha_religion"
+    ],
+    "icon": "icons/religious_aspects/worship_chinchaycamac.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "worship_odin_god",
+    "religions": [
+      "norse"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_blue.png",
+    "modifier": [
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "research_speed_modifier",
+        "value": 0.025,
+        "pct": true
+      }
+    ],
+    "source_file": "norse.txt"
+  },
+  {
+    "id": "worship_tor_god",
+    "religions": [
+      "norse"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_yellow.png",
+    "modifier": [
+      {
+        "key": "global_defensive",
+        "value": 0.25,
+        "pct": true
+      },
+      {
+        "key": "global_weaponry_output_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "norse.txt"
+  },
+  {
+    "id": "worship_tyr_god",
+    "religions": [
+      "norse"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_red.png",
+    "modifier": [
+      {
+        "key": "army_initiative",
+        "value": 0.2,
+        "pct": true
+      },
+      {
+        "key": "navy_initiative",
+        "value": 0.2,
+        "pct": true
+      }
+    ],
+    "source_file": "norse.txt"
+  },
+  {
+    "id": "worship_njord_god",
+    "religions": [
+      "norse"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_dark_blue.png",
+    "modifier": [
+      {
+        "key": "global_maritime_presence_modifier",
+        "value": 0.25,
+        "pct": true
+      },
+      {
+        "key": "global_fish_output_modifier",
+        "value": 0.5,
+        "pct": true
+      }
+    ],
+    "source_file": "norse.txt"
+  },
+  {
+    "id": "worship_freyr_god",
+    "religions": [
+      "norse"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_green.png",
+    "modifier": [
+      {
+        "key": "global_monthly_food_modifier",
+        "value": 0.1
+      },
+      {
+        "key": "monthly_war_exhaustion",
+        "value": -0.1,
+        "inv": true
+      }
+    ],
+    "source_file": "norse.txt"
+  },
+  {
+    "id": "worship_freya_god",
+    "religions": [
+      "norse"
+    ],
+    "icon": "icons/religious_aspects/religious_aspect_folk_pink.png",
+    "modifier": [
+      {
+        "key": "global_population_growth",
+        "value": 0.0002
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.2,
+        "pct": true
+      }
+    ],
+    "source_file": "norse.txt"
+  },
+  {
+    "id": "baptism_by_fire",
+    "religions": [
+      "paulicianism"
+    ],
+    "icon": "icons/religious_aspects/baptism_by_fire.png",
+    "modifier": [
+      {
+        "key": "global_devastation_recovery",
+        "value": 0.005,
+        "pct": true
+      },
+      {
+        "key": "tolerance_own",
+        "value": 1
+      },
+      {
+        "key": "monthly_towards_spiritualist",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "baptism_by_fire": 10
+    },
+    "source_file": "paulicianism.txt"
+  },
+  {
+    "id": "name_change",
+    "religions": [
+      "paulicianism"
+    ],
+    "icon": "icons/religious_aspects/name_change.png",
+    "modifier": [
+      {
+        "key": "monthly_legitimacy",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "monthly_towards_communalism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "name_change": 10
+    },
+    "source_file": "paulicianism.txt"
+  },
+  {
+    "id": "paulician_canon",
+    "religions": [
+      "paulicianism"
+    ],
+    "icon": "icons/religious_aspects/paulician_canon.png",
+    "modifier": [
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.2
+      }
+    ],
+    "opinions": {
+      "paulician_canon": 10
+    },
+    "source_file": "paulicianism.txt"
+  },
+  {
+    "id": "punishment_by_stoning",
+    "religions": [
+      "paulicianism"
+    ],
+    "icon": "icons/religious_aspects/punishment_by_stoning.png",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": -1
+      },
+      {
+        "key": "war_on_different_religion_cost_modifier",
+        "value": -0.1,
+        "pct": true
+      },
+      {
+        "key": "monthly_towards_belligerent",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "punishment_by_stoning": 10,
+      "punishment_of_sin": 5
+    },
+    "source_file": "paulicianism.txt"
+  },
+  {
+    "id": "justified_conflicts",
+    "religions": [
+      "lutheran"
+    ],
+    "icon": "icons/religious_aspects/justified_conflicts.png",
+    "modifier": [
+      {
+        "key": "antagonism_received_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_war_score_cost",
+        "value": -0.05,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_towards_belligerent",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "justified_conflicts": 10,
+      "war_sermons": 10
+    },
+    "source_file": "protestant.txt"
+  },
+  {
+    "id": "pietism",
+    "religions": [
+      "lutheran"
+    ],
+    "icon": "icons/religious_aspects/pietism.png",
+    "modifier": [
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "monthly_towards_innovative",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      },
+      {
+        "key": "monthly_towards_communalism",
+        "value": "societal_value_monthly_move",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "pietism": 10
+    },
+    "source_file": "protestant.txt"
+  },
+  {
+    "id": "worship_tengri_god",
+    "religions": [
+      "tengri"
+    ],
+    "icon": "icons/religious_aspects/worship_tengri_god.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "tengri.txt"
+  },
+  {
+    "id": "worship_umay_god",
+    "religions": [
+      "tengri"
+    ],
+    "icon": "icons/religious_aspects/worship_umay_god.png",
+    "modifier": [
+      {
+        "key": "global_population_growth",
+        "value": 0.0001
+      }
+    ],
+    "source_file": "tengri.txt"
+  },
+  {
+    "id": "worship_ulgen_god",
+    "religions": [
+      "tengri"
+    ],
+    "icon": "icons/religious_aspects/worship_ulgen_god.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "tengri.txt"
+  },
+  {
+    "id": "worship_erlik_god",
+    "religions": [
+      "tengri"
+    ],
+    "icon": "icons/religious_aspects/worship_erlik_god.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 1
+      }
+    ],
+    "source_file": "tengri.txt"
+  },
+  {
+    "id": "worship_kayra_god",
+    "religions": [
+      "tengri"
+    ],
+    "icon": "icons/religious_aspects/worship_kayra_god.png",
+    "modifier": [
+      {
+        "key": "regiment_reinforcement_speed",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "global_pop_promotion_speed_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "source_file": "tengri.txt"
+  },
+  {
+    "id": "worship_bai_baianai_god",
+    "religions": [
+      "tengri"
+    ],
+    "icon": "icons/religious_aspects/worship_bai_baianai_god.png",
+    "modifier": [
+      {
+        "key": "global_lumber_output_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_wild_game_output_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "tengri.txt"
+  },
+  {
+    "id": "worship_ak_ana_god",
+    "religions": [
+      "tengri"
+    ],
+    "icon": "icons/religious_aspects/worship_ak_ana_god.png",
+    "modifier": [
+      {
+        "key": "naval_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "tengri.txt"
+  },
+  {
+    "id": "worship_mergen_god",
+    "religions": [
+      "tengri"
+    ],
+    "icon": "icons/religious_aspects/worship_mergen_god.png",
+    "modifier": [
+      {
+        "key": "country_cabinet_efficiency",
+        "value": 0.025,
+        "pct": true
+      }
+    ],
+    "source_file": "tengri.txt"
+  },
+  {
+    "id": "worship_tlaloc_god",
+    "religions": [
+      "nahuatl"
+    ],
+    "icon": "icons/religious_aspects/worship_tlaloc_god.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_huitzilopochtli_god",
+    "religions": [
+      "nahuatl"
+    ],
+    "icon": "icons/religious_aspects/worship_huitzilopochtli_god.png",
+    "modifier": [
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "monthly_war_exhaustion",
+        "value": -0.03,
+        "inv": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_quetzalcoatl_god",
+    "religions": [
+      "nahuatl"
+    ],
+    "icon": "icons/religious_aspects/worship_quetzalcoatl_god.png",
+    "modifier": [
+      {
+        "key": "research_speed_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_tezcatlipoca_god",
+    "religions": [
+      "nahuatl"
+    ],
+    "icon": "icons/religious_aspects/worship_tezcatlipoca_god.png",
+    "modifier": [
+      {
+        "key": "monthly_diplomats",
+        "value": 0.2
+      },
+      {
+        "key": "colonial_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_xiuhtecuhtli_god",
+    "religions": [
+      "nahuatl"
+    ],
+    "icon": "icons/religious_aspects/worship_xiuhtecuhtli_god.png",
+    "modifier": [
+      {
+        "key": "army_maintenance_cost",
+        "value": -0.15,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_coatlicue_god",
+    "religions": [
+      "nahuatl"
+    ],
+    "icon": "icons/religious_aspects/worship_coatlicue_god.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 2
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.00025
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_huehueteotl_god",
+    "religions": [
+      "mesoamerican"
+    ],
+    "icon": "icons/religious_aspects/worship_xiuhtecuhtli_god.png",
+    "modifier": [
+      {
+        "key": "army_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_mesoamerican_quetzalcoatl_god",
+    "religions": [
+      "mesoamerican"
+    ],
+    "icon": "icons/religious_aspects/worship_quetzalcoatl_god.png",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_dzahui_god",
+    "religions": [
+      "mesoamerican"
+    ],
+    "icon": "icons/religious_aspects/worship_huitzilopochtli_god.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_chaac_god",
+    "religions": [
+      "mayan"
+    ],
+    "icon": "icons/religious_aspects/worship_tlaloc_god.png",
+    "modifier": [
+      {
+        "key": "global_monthly_prosperity",
+        "value": 0.001
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_kukulkan_god",
+    "religions": [
+      "mayan"
+    ],
+    "icon": "icons/religious_aspects/worship_quetzalcoatl_god.png",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_kawiil_god",
+    "religions": [
+      "mayan"
+    ],
+    "icon": "icons/religious_aspects/worship_xiuhtecuhtli_god.png",
+    "modifier": [
+      {
+        "key": "army_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_tepeu_god",
+    "religions": [
+      "mayan"
+    ],
+    "icon": "icons/religious_aspects/worship_tepeu_god.png",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_huracan_god",
+    "religions": [
+      "mayan"
+    ],
+    "icon": "icons/religious_aspects/worship_huracan_god.png",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 1
+      },
+      {
+        "key": "global_raw_material_output",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_hunhunahpu_god",
+    "religions": [
+      "mayan"
+    ],
+    "icon": "icons/religious_aspects/worship_hunhunahpu_god.png",
+    "modifier": [
+      {
+        "key": "global_life_expectancy",
+        "value": 3
+      },
+      {
+        "key": "global_population_growth",
+        "value": 0.00025
+      }
+    ],
+    "source_file": "tonal.txt"
+  },
+  {
+    "id": "worship_ixchel_god",
+    "religions": [
+      "mayan"
+    ],
+    "icon": "icons/religious_aspects/worship_coatlicue_god.png",
+    "modifier": [
+      {
+        "key": "global_disease_resistance",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "source_file": "tonal.txt"
+  }
+]

@@ -376,7 +376,7 @@
     "desc": "$dongba_religion$$common_folk_religion_desc$"
   },
   "bimoism": {
-    "name": "",
+    "name": "畢摩教",
     "desc": "$bimoism$$common_folk_religion_desc$"
   },
   "ka_niam_khasi_religion": {
@@ -592,15 +592,15 @@
     "desc": "$chukchi_shamanism$$common_folk_religion_desc$"
   },
   "hmongism": {
-    "name": "",
+    "name": "ダー・クアス",
     "desc": "$hmongism$$common_folk_religion_desc$"
   },
   "moism": {
-    "name": "",
+    "name": "麽教",
     "desc": "$moism$$common_folk_religion_desc$"
   },
   "rmaism": {
-    "name": "",
+    "name": "ルマ信仰",
     "desc": "$rmaism$$common_folk_religion_desc$"
   },
   "shamanism": {
@@ -696,7 +696,7 @@
     "desc": "$karachay_balkar_paganism$$common_folk_religion_desc$"
   },
   "khabzeism": {
-    "name": "",
+    "name": "ハブゼ",
     "desc": "$khabzeism$$common_folk_religion_desc$"
   },
   "lezgin_paganism": {
@@ -812,11 +812,11 @@
     "desc": "$dene_religion$$common_folk_religion_desc$"
   },
   "midewiwin_religion": {
-    "name": "",
+    "name": "ミデウィウィン",
     "desc": "$midewiwin_religion$$common_folk_religion_desc$"
   },
   "dene_shamanism": {
-    "name": "",
+    "name": "祖先崇拝",
     "desc": "$dene_shamanism$$common_folk_religion_desc$"
   },
   "dene_totemism": {
@@ -824,19 +824,19 @@
     "desc": "$dene_totemism$$common_folk_religion_desc$"
   },
   "great_plains_shamanism": {
-    "name": "",
+    "name": "ワカン信仰",
     "desc": "$great_plains_shamanism$$common_folk_religion_desc$"
   },
   "iroquoian_totemism": {
-    "name": "",
+    "name": "霊力崇拝",
     "desc": "$iroquoian_totemism$$common_folk_religion_desc$"
   },
   "mississippian_ceremonial": {
-    "name": "",
+    "name": "儀式主義",
     "desc": "$mississippian_ceremonial$$common_folk_religion_desc$"
   },
   "paiute_shamanism": {
-    "name": "",
+    "name": "呪術師信仰",
     "desc": "$paiute_shamanism$$common_folk_religion_desc$"
   },
   "pomo_shamanism": {
@@ -1076,11 +1076,11 @@
     "desc": "$degar_religion$$common_folk_religion_desc$"
   },
   "sanamahism": {
-    "name": "",
+    "name": "サナマヒ教",
     "desc": "$sanamahism$$common_folk_religion_desc$"
   },
   "satsana_phi": {
-    "name": "",
+    "name": "サーサナー・ピー",
     "desc": "$satsana_phi$$common_folk_religion_desc$"
   },
   "maleiwa_religion": {
@@ -1171,65 +1171,11 @@
     "name": "ゾロアスター教",
     "desc": "古代の$iranian_group$の宗教で、ゾロアスター（ザラスシュトラ）の教えと聖典『アヴェスター』に従う。善の神アフラ・マズダーと破壊の神アンラ・マンユの永遠の対立を軸とした、善と悪の二元論的な宇宙観を特徴とし、最終的には善が悪に勝利すると予言されている。"
   },
-  "folk_melanesian_group": {
-    "name": "メラネシア民俗信仰"
-  },
-  "folk_brazilian_group": {
-    "name": "ブラジル民俗信仰"
-  },
-  "folk_papuan_group": {
-    "name": "パプア民俗信仰"
-  },
-  "folk_se_asian_group": {
-    "name": "東南アジア民俗信仰"
-  },
-  "yazidi_group": {
-    "name": "ヤズィーディー"
-  },
-  "folk_african_group": {
-    "name": "アフリカ民俗信仰"
-  },
-  "folk_north_american_group": {
-    "name": "北アメリカ民俗信仰"
-  },
-  "israelite_group": {
-    "name": "イスラエル"
-  },
-  "dharmic": {
-    "name": "ダルマ宗教"
-  },
-  "buddhist": {
-    "name": "仏教"
-  },
-  "manichaean_group": {
-    "name": "マニ教"
-  },
-  "folk_argentinian_group": {
-    "name": "アルゼンチン民俗信仰"
-  },
-  "folk_micronesian_group": {
-    "name": "ミクロネシア民俗信仰"
-  },
-  "folk_caribbean_group": {
-    "name": "カリブ海民俗信仰"
-  },
-  "folk_central_american_group": {
-    "name": "中央アメリカ民俗信仰"
-  },
-  "folk_south_american_group": {
-    "name": "南アメリカ民俗信仰"
-  },
   "zoroastrian_group": {
     "name": "ゾロアスター教"
   },
-  "folk_polynesian_group": {
-    "name": "ポリネシア民俗信仰"
-  },
-  "christian": {
-    "name": "キリスト教"
-  },
-  "folk_aridoamerica_group": {
-    "name": "アリドアメリカ民俗信仰"
+  "folk_north_american_group": {
+    "name": "北アメリカ民俗信仰"
   },
   "muslim": {
     "name": "イスラム教"
@@ -1237,25 +1183,516 @@
   "tonal_group": {
     "name": "トナル宗教"
   },
-  "folk_european_group": {
-    "name": "ヨーロッパ民俗信仰"
+  "mandean_group": {
+    "name": "マンダ"
+  },
+  "folk_micronesian_group": {
+    "name": "ミクロネシア民俗信仰"
   },
   "folk_peruvian_group": {
     "name": "アンデス民俗信仰"
   },
-  "folk_permic_group": {
-    "name": "ペルミ民俗信仰"
+  "folk_papuan_group": {
+    "name": "パプア民俗信仰"
   },
-  "mandean_group": {
-    "name": "マンダ"
+  "folk_argentinian_group": {
+    "name": "アルゼンチン民俗信仰"
   },
-  "druze_group": {
-    "name": "ドゥルーズ派"
+  "folk_aridoamerica_group": {
+    "name": "アリドアメリカ民俗信仰"
+  },
+  "folk_south_american_group": {
+    "name": "南アメリカ民俗信仰"
   },
   "folk_asian_group": {
     "name": "アジア民俗信仰"
   },
+  "folk_central_american_group": {
+    "name": "中央アメリカ民俗信仰"
+  },
+  "buddhist": {
+    "name": "仏教"
+  },
+  "manichaean_group": {
+    "name": "マニ教"
+  },
+  "folk_melanesian_group": {
+    "name": "メラネシア民俗信仰"
+  },
+  "folk_caribbean_group": {
+    "name": "カリブ海民俗信仰"
+  },
+  "folk_african_group": {
+    "name": "アフリカ民俗信仰"
+  },
+  "folk_polynesian_group": {
+    "name": "ポリネシア民俗信仰"
+  },
+  "dharmic": {
+    "name": "ダルマ宗教"
+  },
+  "folk_se_asian_group": {
+    "name": "東南アジア民俗信仰"
+  },
+  "yazidi_group": {
+    "name": "ヤズィーディー"
+  },
+  "folk_permic_group": {
+    "name": "ペルミ民俗信仰"
+  },
+  "druze_group": {
+    "name": "ドゥルーズ派"
+  },
+  "folk_european_group": {
+    "name": "ヨーロッパ民俗信仰"
+  },
+  "christian": {
+    "name": "キリスト教"
+  },
+  "israelite_group": {
+    "name": "イスラエル"
+  },
   "folk_australian_group": {
     "name": "オーストラリア民俗信仰"
+  },
+  "folk_brazilian_group": {
+    "name": "ブラジル民俗信仰"
+  },
+  "india": {
+    "name": "インド"
+  },
+  "dharma": {
+    "name": "ダルマ"
+  },
+  "christian_ADJ": {
+    "name": "キリスト教"
+  },
+  "daoism_policy": {
+    "name": "道教"
+  },
+  "chinese_group": {
+    "name": "中国"
+  },
+  "judaism_ADJ": {
+    "name": "ユダヤ教"
+  },
+  "character_title_guru": {
+    "name": "グル"
+  },
+  "mandeaism_god_name": {
+    "name": "ハイア・ラビア"
+  },
+  "mandeaism_ADJ": {
+    "name": "マンダ"
+  },
+  "nahua_group": {
+    "name": "ナワ"
+  },
+  "hussite_ADJ": {
+    "name": "フス派"
+  },
+  "inti_god": {
+    "name": "インティ"
+  },
+  "asia": {
+    "name": "アジア"
+  },
+  "common_folk_religion_desc": {
+    "name": "とは、太古の昔から信奉者によって守られ、伝えられてきた土着の信仰、神話、伝統、慣習である。"
+  },
+  "sindh_area": {
+    "name": "シンド"
+  },
+  "druzism_ADJ": {
+    "name": "ドゥルーズ派"
+  },
+  "tlaloc_god": {
+    "name": "トラロック"
+  },
+  "andes_region": {
+    "name": "アンデス"
+  },
+  "china": {
+    "name": "中国"
+  },
+  "catholic_ADJ": {
+    "name": "カトリック"
+  },
+  "ismaili_school": {
+    "name": "イスマーイール"
+  },
+  "lithuanian_group": {
+    "name": "リトアニア"
+  },
+  "confucianism_policy": {
+    "name": "儒教"
+  },
+  "greek_culture": {
+    "name": "ギリシャ"
+  },
+  "shamanism_ADJ": {
+    "name": "精霊信仰"
+  },
+  "huitzilopochtli_god": {
+    "name": "ウィツィロポチトリ"
+  },
+  "BOH": {
+    "name": "ボヘミア"
+  },
+  "japan_region": {
+    "name": "日本"
+  },
+  "sutra": {
+    "name": "経"
+  },
+  "viracocha": {
+    "name": "ウィラコチャ"
+  },
+  "miaphysite_ADJ": {
+    "name": "合性論派"
+  },
+  "strigolniki_ADJ": {
+    "name": "ストリゴリニキ"
+  },
+  "imamate": {
+    "name": "イマーム制"
+  },
+  "germanic_language_family": {
+    "name": "ゲルマン語派"
+  },
+  "shia_ADJ": {
+    "name": "シーア派"
+  },
+  "vaishnavism": {
+    "name": "ビシュヌ派"
+  },
+  "sapmi": {
+    "name": "サーミ"
+  },
+  "quetzalcoatl_god": {
+    "name": "ケツァルコアトル"
+  },
+  "tengri_god_name": {
+    "name": "テングリ"
+  },
+  "rank_empire_muslim_ruler_male": {
+    "name": "カリフ"
+  },
+  "russian_region": {
+    "name": "ロシア"
+  },
+  "finnish_language": {
+    "name": "フィン語"
+  },
+  "scandinavian_region": {
+    "name": "スカンジナビア"
+  },
+  "SECT_NYIGMA_NAME": {
+    "name": "ニンマ派"
+  },
+  "shaivism": {
+    "name": "シヴァ派"
+  },
+  "tibet_region": {
+    "name": "チベット"
+  },
+  "BYZ_ADJ": {
+    "name": "ビザンツ"
+  },
+  "japanese_group": {
+    "name": "日本"
+  },
+  "bodhisattva": {
+    "name": "菩薩"
+  },
+  "dharmic_ADJ": {
+    "name": "ダルマ宗教"
+  },
+  "nahuatl_god_name": {
+    "name": "テオトル"
+  },
+  "orthodox_ADJ": {
+    "name": "正教会"
+  },
+  "lutheran_ADJ": {
+    "name": "ルター派"
+  },
+  "samaritan_culture": {
+    "name": "サマリア"
+  },
+  "shaktism": {
+    "name": "シャクティ派"
+  },
+  "waldensian_ADJ": {
+    "name": "ヴァルド派"
+  },
+  "iranian_group": {
+    "name": "イラン"
+  },
+  "muslim_ADJ": {
+    "name": "イスラム教"
+  },
+  "mongolian_group": {
+    "name": "モンゴル"
+  },
+  "paulicianism_ADJ": {
+    "name": "パウロ派"
+  },
+  "turkic_group": {
+    "name": "テュルク"
+  },
+  "hindu_ADJ": {
+    "name": "ヒンドゥー教"
+  },
+  "ibadi_school_desc": {
+    "name": "アリー・イブン・アビー・ターリブを支持し、のちにその仲介者としての役割を否定したハワーリジュ派の分派とされる宗派。アブドゥッラー・イブン・イバードに従ってハワーリジュ派から離反し、より穏健な立場をとった。また、異なる宗派に対してより寛容であり、ほかの多くの宗派との類似点をもつ。"
+  },
+  "europe": {
+    "name": "ヨーロッパ"
+  },
+  "sikhism_god_name": {
+    "name": "イク・オンカー"
+  },
+  "buddhist_ADJ": {
+    "name": "仏教"
+  },
+  "smartism": {
+    "name": "スマールタ派"
+  },
+  "_modifier_names": {
+    "allow_harmony": "調和度の有効化",
+    "allow_mysticism_vs_jurisprudence": "を許可",
+    "allow_open_sea_exploration": "外洋探検を許可",
+    "allow_righteousness": "公正を有効化",
+    "allow_self_control": "self controlの有効化",
+    "any_pop_can_be_slave": "無期限の奴隷",
+    "army_auxiliary_maintenance_cost_modifier": "維持費",
+    "army_cavalry_power": "戦力",
+    "army_disembark_speed": "陸軍下船速度",
+    "army_infantry_power": "戦力",
+    "army_initiative": "陸軍率先力",
+    "army_movement_speed": "陸軍移動速度",
+    "army_reinforce_cost": "陸軍補充コスト",
+    "auto_slave_raid_different_religion": "奴隷を求めて宗教的敵対者を襲撃",
+    "ban_imports_of_beer": "の輸入禁止",
+    "ban_imports_of_liquor": "の輸入禁止",
+    "ban_imports_of_wine": "の輸入禁止",
+    "block_from_change_to_empire_rank_catholic": "教皇による帝国化禁止令",
+    "can_have_monasteries": "修道院の許可",
+    "cannot_declare_no_cb_wars": "開戦事由のない宣戦布告禁止",
+    "cannot_declare_no_cb_wars_on_religion_head": "開戦事由のない宗教指導者への宣戦布告禁止",
+    "clergy_estate_max_tax": "聖職者階級の最大税率",
+    "clergy_estate_target_satisfaction": "聖職者の満足度均衡値",
+    "country_cabinet_efficiency": "わが国の内閣の効率化",
+    "cultural_influence_modifier": "文化影響力 %",
+    "cultural_tradition_modifier": "文化伝統力 %",
+    "discipline": "規律",
+    "enable_doom": "破滅",
+    "expand_rgo_farming_cost_modifier": "農場の拡大コスト",
+    "expand_rgo_forestry_cost_modifier": "林業の拡大コスト",
+    "exploration_maintenance_cost": "探検コスト",
+    "food_consumption_modifier": "ユニットの食糧消費量",
+    "gender_equality": "性別平等",
+    "global_build_buildings_cost": "建造物コスト",
+    "global_burghers_estate_power": "市民の階級権力",
+    "global_clergy_estate_power": "聖職者の階級権力",
+    "global_clergy_max_literacy": "聖職者の最大識字率",
+    "global_defensive": "要塞の防衛",
+    "global_estate_target_satisfaction": "階級満足度均衡値",
+    "global_hostile_attrition": "敵対消耗",
+    "global_levy_size_modifier": "召集軍規模",
+    "global_max_literacy": "最大識字率",
+    "global_may_build_nahuatl_units": "鷲の戦士とジャガーの戦士の編制許可",
+    "global_merchant_power": "交易優位性",
+    "global_migration_speed_modifier": "POP移住速度",
+    "global_monthly_art_start_chance": "毎月の制作開始確率",
+    "global_monthly_development": "毎月の開発度",
+    "global_monthly_food_modifier": "食糧生産 %",
+    "global_monthly_literacy": "毎月の識字率",
+    "global_nobles_estate_power": "貴族の階級権力",
+    "global_peasants_estate_power": "農民の階級権力",
+    "global_pop_conversion_speed_modifier": "POP改宗速度 %",
+    "global_pop_food_consumption": "POPの食糧消費量",
+    "global_pop_promotion_speed_modifier": "POP昇格速度 %",
+    "global_population_capacity_modifier": "人口収容力 %",
+    "global_sailors_modifier": "水兵",
+    "global_separatism": "分離主義",
+    "global_trade_protection_factor": "市場保護",
+    "global_wild_game_output_modifier": "生産量",
+    "is_battles_preordained": "神はサイコロを振らない",
+    "land_morale_attrition_cost": "陸軍士気消耗コスト",
+    "land_morale_modifier": "陸軍士気",
+    "land_unit_attrition": "陸軍消耗",
+    "levy_combat_efficiency_modifier": "召集軍の戦闘効率",
+    "levy_recovery_modifier": "召集軍回復",
+    "maximum_religious_influence": "最大宗教影響力",
+    "merchant_maintenance_cost": "交易維持費",
+    "monthly_karma": "毎月のカルマ",
+    "monthly_legitimacy": "毎月の正統性",
+    "monthly_prestige": "毎月の威信",
+    "monthly_religious_influence": "毎月の宗教影響力",
+    "monthly_war_exhaustion": "毎月の戦争疲弊",
+    "movement_speed_if_no_road": "街道なしの移動速度",
+    "naval_morale_attrition_cost": "海軍士気消耗コスト",
+    "navy_initiative": "海軍率先力",
+    "navy_maintenance_cost": "海軍維持費",
+    "navy_movement_speed": "海軍移動速度",
+    "nobles_estate_target_satisfaction": "貴族の満足度均衡値",
+    "number_of_allowed_religious_figures": "宗教的人物を許可",
+    "prestige_from_land_battle": "陸戦からの威信",
+    "research_speed_modifier": "毎月の研究進行度 %",
+    "retreat_delay": "撤退までの時間",
+    "ship_build_speed": "造船速度",
+    "skill_of_new_artists": "新しい芸術家のスキル",
+    "stability_cost": "安定度投資コスト",
+    "stability_investment": "安定度投資",
+    "tax_income_efficiency": "税効率",
+    "tolerance_heathen": "異教の信仰の寛容度",
+    "tolerance_heretic": "異端な信仰の寛容度",
+    "tolerance_own": "真の信仰の寛容度",
+    "trade_efficiency": "交易効率",
+    "trade_range_modifier": "交易範囲",
+    "trade_sea_movement_cost_modifier": "海上の交易範囲消費"
+  },
+  "_modifier_descs": {
+    "allow_harmony": "調和度のメカニクスを有効化する。",
+    "allow_mysticism_vs_jurisprudence": "国家がmysticismとjurisprudenceのあいだで揺れ動くようになる。",
+    "allow_open_sea_exploration": "国家が外洋地域の探検を開始できるようになる。",
+    "allow_righteousness": "公正のメカニクスを有効化する。",
+    "allow_self_control": "自制心のメカニクスを有効化する。",
+    "any_pop_can_be_slave": "奴隷として捕獲・売却されたPOPは奴隷の身分に固定される。",
+    "army_auxiliary_maintenance_cost_modifier": "陸軍 auxiliaryの維持にかかるコストに影響を与える。",
+    "army_cavalry_power": "陸軍 cavalry 連隊の戦闘能力に影響を与える。",
+    "army_disembark_speed": "陸軍が海軍から隣接するロケーションへ上陸する速度に影響を与える。",
+    "army_infantry_power": "陸軍 infantry 連隊の戦闘能力に影響を与える。",
+    "army_initiative": "戦闘における連隊の率先力に影響を与える。",
+    "army_movement_speed": "陸軍が2つのロケーション間を移動する速度に影響を与える。",
+    "army_reinforce_cost": "連隊を補充するのに必要なダカットと人的資源に影響を与える。",
+    "auto_slave_raid_different_religion": "陸軍がロケーションを占領しているとき、宗教グループが異なるすべてのPOPの一部を奴隷化できるようになる。",
+    "ban_imports_of_beer": "国家が所有するすべての市場へのビールの輸入を禁止する。",
+    "ban_imports_of_liquor": "国家が所有するすべての市場への酒の輸入を禁止する。",
+    "ban_imports_of_wine": "国家が所有するすべての市場へのワインの輸入を禁止する。",
+    "block_from_change_to_empire_rank_catholic": "が存在するかぎり、国家が国家ランクをrank empireに上げることを禁止する。",
+    "can_have_monasteries": "国家がmonasteryを所有できるか否かに影響を与える。",
+    "cannot_declare_no_cb_wars": "わが国に正当な開戦事由がなければ、宣戦布告することを禁止する。",
+    "cannot_declare_no_cb_wars_on_religion_head": "わが国に正当な開戦事由がなければ、我々の宗教指導者に対して宣戦布告することを禁止する。",
+    "clergy_estate_max_tax": "聖職者から徴収できる最大税率に影響を与える。",
+    "clergy_estate_target_satisfaction": "この国家の聖職者の満足度均衡値に影響を与える。",
+    "country_cabinet_efficiency": "国家の内閣で働くすべてのキャラクターの内閣効率に影響を与える。",
+    "cultural_influence_modifier": "わが国の主要文化の文化影響力に影響を与える。",
+    "cultural_tradition_modifier": "わが国の主要文化の文化伝統力に影響を与える。",
+    "discipline": "連隊の規律に影響を与える。",
+    "enable_doom": "国家が破滅に見舞われるか否かを決定する。",
+    "expand_rgo_farming_cost_modifier": "農場を必要とする原材料を扱うPOPを増やすのに必要なコストに影響を与える。 農場を使用する 原材料。",
+    "expand_rgo_forestry_cost_modifier": "林業を必要とする原材料を扱うPOPを増やすのに必要なコストに影響を与える。 林業を使用する 原材料。",
+    "exploration_maintenance_cost": "探検をおこなう際のコストに影響を与える。",
+    "food_consumption_modifier": "ユニットが毎月消費する食糧の量に影響を与える。",
+    "gender_equality": "女性を男性と同じ役職に任命できるか否かに影響を与える。",
+    "global_build_buildings_cost": "国家のすべてのロケーションで建造物を建設するコストに影響を与える。",
+    "global_burghers_estate_power": "国家全体の市民の階級権力に影響を与える。",
+    "global_clergy_estate_power": "国家全体の聖職者の階級権力に影響を与える。",
+    "global_clergy_max_literacy": "この国家の全clergyの識字率に影響を与える。",
+    "global_defensive": "国家に対する包囲の進行速度に影響を与える。",
+    "global_estate_target_satisfaction": "この国家の全階級の満足度均衡値に影響を与える。",
+    "global_hostile_attrition": "自国が所有および支配度しているすべてのロケーションでの、敵対的陸軍の消耗に影響を与える。",
+    "global_levy_size_modifier": "国家に出現する召集陸軍もしくは召集海軍の規模に影響を与える。",
+    "global_max_literacy": "国家におけるすべてのPOPの最大識字率に影響を与える。",
+    "global_may_build_nahuatl_units": "a jaguar warriorとa eagle warriorの募集が可能になる。",
+    "global_merchant_power": "国家が得る交易優位性に影響を与える。",
+    "global_migration_speed_modifier": "この国のすべてのロケーションでPOPが移住する速度に影響を与える。",
+    "global_monthly_art_start_chance": "国家の芸術家が新しい芸術作品の制作を開始する確率に影響を与える。",
+    "global_monthly_development": "国家内のすべてのロケーションにおける毎月の開発度の変化に影響を与える。",
+    "global_monthly_food_modifier": "国家のすべてのロケーションで生産される食糧の量に影響を与える。",
+    "global_monthly_literacy": "国家のPOPの識字率がどのように変化するかに影響を与える。",
+    "global_nobles_estate_power": "国家全体の貴族の階級権力に影響を与える。",
+    "global_peasants_estate_power": "国家全体の庶民の階級権力に影響を与える。",
+    "global_pop_conversion_speed_modifier": "この国のすべてのロケーションでPOPが改宗する速度に影響を与える。",
+    "global_pop_food_consumption": "この国家全体のPOPが消費する食糧の量に影響を与える。",
+    "global_pop_promotion_speed_modifier": "この国のすべてのロケーションでPOPが昇格する速度に影響を与える。",
+    "global_population_capacity_modifier": "この国家のすべてのロケーションにおけるPOPの居住可能人口に影響を与える。",
+    "global_sailors_modifier": "国家が獲得する水兵の量に影響を与える。",
+    "global_separatism": "国家のすべてのロケーションにおける分離主義に影響を与える。",
+    "global_trade_protection_factor": "他国の市場がロケーションに対して持つ市場の魅力を直接減少させ、ロケーションが所有国の市場に属する可能性を高める。 市場保護1ポイントは市場の魅力1ポイントを打ち消す。",
+    "global_wild_game_output_modifier": "この国家全体のwild game生産量を補正する。",
+    "is_battles_preordained": "国家が戦闘中にD10を振り直せなくする。",
+    "land_morale_attrition_cost": "消耗中に陸軍士気が1日当たりどれだけ低下するかに影響を与える。",
+    "land_morale_modifier": "連隊の最大士気を割合で補正する。",
+    "land_unit_attrition": "連隊が受ける消耗に影響を与える。",
+    "levy_combat_efficiency_modifier": "召集軍 連隊の戦闘時の効率に影響を与える。",
+    "levy_recovery_modifier": "国家で召集軍が回復する速度に影響を与える。",
+    "maximum_religious_influence": "国家が将来に備えて蓄積できる宗教影響力に影響を与える。",
+    "merchant_maintenance_cost": "わが国の商人が交易をする際のコストに影響を与える。",
+    "monthly_karma": "国家が毎月獲得するカルマの量に影響を与える。",
+    "monthly_legitimacy": "国家が毎月得る正統性に影響を与える。",
+    "monthly_prestige": "わが国が毎月獲得する威信の量に影響を与える。",
+    "monthly_religious_influence": "国家が毎月獲得する宗教影響力の量に影響を与える。",
+    "monthly_war_exhaustion": "わが国が毎月獲得する戦争疲弊の量に影響を与える。",
+    "movement_speed_if_no_road": "街道がない2つのロケーション間を陸軍が移動する速度に影響を与える。",
+    "naval_morale_attrition_cost": "消耗中に海軍士気が1日当たりどれだけ低下するかに影響を与える。",
+    "navy_initiative": "戦闘における船の率先力に影響を与える。",
+    "navy_maintenance_cost": "船を維持するのに必要なダカットと水兵を補正する。",
+    "navy_movement_speed": "海軍が2つのシーゾーン間を移動する速度に影響を与える。",
+    "nobles_estate_target_satisfaction": "この国家の貴族の満足度均衡値に影響を与える。",
+    "number_of_allowed_religious_figures": "宗教的人物のメカニクスを有効化し、招聘できる人数を定める。",
+    "prestige_from_land_battle": "国家の陸軍が戦闘に参加することで得られる威信の量に影響を与える。",
+    "research_speed_modifier": "国家の研究進行度の生成に影響を与える。",
+    "retreat_delay": "ユニットが戦闘を開始してから撤退できるようになるまでの時間に影響を与える。",
+    "ship_build_speed": "国家で船を建造する速度に影響を与える。",
+    "skill_of_new_artists": "新しい芸術家の芸術的素養に影響を与える。",
+    "stability_cost": "安定度投資の際のコストに影響を与える。",
+    "stability_investment": "予算から獲得する安定度投資にボーナスまたはペナルティを与える。",
+    "tax_income_efficiency": "国家の税効率に影響を与える。",
+    "tolerance_heathen": "主要宗教とは別の宗教グループに属する宗教の寛容度に影響を与える。",
+    "tolerance_heretic": "主要宗教と同じ宗教グループに属する宗教の寛容度に影響を与える。",
+    "tolerance_own": "主要宗教の寛容度に影響を与える。",
+    "trade_efficiency": "この値は対象の市場における交易品の販売価格に直接影響を与え、交易がどれほどの利益を生むかを左右します。",
+    "trade_range_modifier": "国家の交易範囲に影響を与える。",
+    "trade_sea_movement_cost_modifier": "国家がシーゾーンを通って移動する際の、その国家の交易範囲に影響する。"
+  },
+  "_mechanic_names": {
+    "has_karma": "カルマ",
+    "has_purity": "純粋",
+    "has_honor": "高潔",
+    "has_yanantin": "ヤナンティン",
+    "has_religious_influence": "宗教影響力",
+    "has_canonization": "列聖",
+    "has_autocephalous_patriarchates": "独立総主教区",
+    "has_patriarchs": "総主教",
+    "has_religious_head": "宗教指導者",
+    "has_cardinals": "枢機卿",
+    "has_rite_power": "儀式力",
+    "has_avatars": "化身",
+    "needs_reform": "改革欲求",
+    "use_icons": "イコン（聖像画）",
+    "culture_locked": "文化固定"
+  },
+  "_mechanic_descs": {
+    "has_karma": "カルマは -100から +100までの値で評価される、国家の過去の行いを反映した数値です。 カルマが -33から +33のあいだで均衡しているとき、その国は最大の恩恵を受けます。",
+    "has_purity": "神道による、国家がどれだけ純粋であるかの指標です。死や流される血は不浄であるため、戦闘で人々を殺したり殺されたりすることや、伝染病などの不浄なものと接触することで純粋は失われます。この値は聖地への巡礼や切腹などの宗教的な行為によって得られます。",
+    "has_honor": "国家が国民から見てどれだけ高潔であるかの値です。 国家の純粋が75を超えていると高潔が上昇し、逆に純粋が大きく低下すると高潔は減少します。 ほかにも、宗教アクションや外交アクションが純粋に影響を与えることがあります。",
+    "has_yanantin": "ヤナンティンは、相補的でありながら対立する2つの存在のバランスを表します。andean group 文化の考え方によれば、調和とは、ある存在（男性、闇、太陽）がその相補的な存在（女性、光、月）を見つけ、結合することでのみ達成されるといいます。",
+    "has_religious_influence": "国家が自国の主要宗教の問題に関与し、影響を及ぼす能力の値です。宗教によってその用途や、国家がこれを獲得する方法も異なります。",
+    "has_canonization": "国家の元統治者は列聖、つまり聖人に認定することが可能です。これにより、国家はそのキャラクターの生前の能力に応じて特別な恩恵を受けることができます。",
+    "has_religious_head": "ある宗教の宗派の最高指導者であり、その宗派を代表すると考えられているキャラクターのこと。",
+    "has_rite_power": "これは独立総主教区のリーダーである国家が、さまざまな法律の選択を通じてその宗教を補正する能力の値です。",
+    "needs_reform": "カトリックは、何が正しい教理なのか、何が信仰とみなされるのかをめぐる内的葛藤を抱えています。時が経つにつれて改革への欲求は強まり、今後のカトリックの教義に関するあらゆる議論に影響を及ぼします。"
+  },
+  "_language_names": {
+    "japanese_language": "日本語",
+    "classical_arabic_dialect": "古典アラビア語",
+    "pali_language": "パーリ語",
+    "czech_dialect": "チェコ語",
+    "church_slavonic_language": "教会スラヴ語",
+    "sanskrit_language": "サンスクリット語",
+    "aramaic_language": "アラム語",
+    "kurdish_language": "クルド語",
+    "persian_language": "ペルシア語",
+    "levantine_dialect": "レバント語",
+    "iraqi_dialect": "イラク語",
+    "tibetan_language": "チベット語",
+    "hebrew_language": "ヘブライ語",
+    "latin_language": "ラテン語",
+    "classical_chinese_language": "古典中国語",
+    "russian_dialect": "ロシア語"
   }
 }

@@ -1,0 +1,842 @@
+{
+  "prima_scriptura": {
+    "name": "プリマ・スクリプトゥラ",
+    "desc": "聖書は救いの中心的な源とみなすべきだが、神の啓示の唯一の源とみなすことはできない。"
+  },
+  "five_doors": {
+    "name": "五つの扉",
+    "desc": "わが民のなかには、家のすべての扉を閉め、「五つの扉」、つまり五感を開いておこなう瞑想方法を実践する者がいる。わが国にこの瞑想を広く普及させる。"
+  },
+  "holy_cooperation": {
+    "name": "聖なる協働",
+    "desc": "生産的な労働の奨励および積極参加への転換が起こる。この精神は、初期のキリスト教徒の聖なる協働共同体に倣ったわが国の農業共同体にも広がっていくだろう。"
+  },
+  "twelve_emissaries": {
+    "name": "12人の評議員",
+    "desc": "一部の共同体の体制に倣い、年長者や最適な者のなかから12人の賢明な者を選出し、真の階層構造を定めることなく最高評議会を設置する。"
+  },
+  "arminianism": {
+    "name": "アルミニウス派",
+    "desc": "アルミニウス派はオランダの改革派神学者、ヤコブス・アルミニウスの多元主義な思想や人道主義的な思想に基づいている。"
+  },
+  "gomarism": {
+    "name": "ホマルス派",
+    "desc": "フランシスクス・ホマルスは、ペラギウス主義の教義を説き、ふたりが教鞭を執っていた大学内で新たな神学派を創設しようとしたヤコブス・アルミニウスの思想に反対している。"
+  },
+  "instituionalized_arminianism": {
+    "name": "アルミニウス派の制度化",
+    "desc": "アルミニウス派はオランダの改革派神学者、ヤコブス・アルミニウスの多元主義な思想や人道主義的な思想に基づいている。この宗教運動は現在、わが国において制度化されている。"
+  },
+  "instituionalized_gomarism": {
+    "name": "ホマルス派の制度化",
+    "desc": "フランシスクス・ホマルスは、ペラギウス主義の教義を説き、ふたりが教鞭を執っていた大学内で新たな神学派を創設しようとしたヤコブス・アルミニウスの思想に反対している。この宗教運動は現在、わが国において制度化されている。"
+  },
+  "consolamentum": {
+    "name": "コンソラメントゥム",
+    "desc": "人は人生を歩むなかで、罪を悔いるようになる。そして必然的に、天国に清らかに入るため、また神に近づくために慰めを受ける必要があることが明白になる。「コンソラメントゥム」を受けることで、わが民は差し迫る死を前にして罪を赦される。"
+  },
+  "pescatarianism": {
+    "name": "ペスカタリアニズム",
+    "desc": "動物には転生した魂が宿っているため、食べることはできない。魚は自然に生じた存在であり、動物とは見なされないため、食べることができる。"
+  },
+  "the_perfects": {
+    "name": "完徳者",
+    "desc": "我々のなかには、神と、人が追求すべき徳に特別に身を捧げる者がいる。彼らは「完徳者」と呼ばれている。こうした男性や女性は、その献身に対して「コンソラメントゥム」を受け、完徳者となる。一般の者とは異なり、完徳者は生涯に2度のコンソラメントゥムを受ける。1度目は完徳者となるとき、2度目は死を迎える前である。"
+  },
+  "adoptionism": {
+    "name": "養子説",
+    "desc": "我々の信仰では、イエス・キリストは永遠に神聖な存在ではなく、洗礼または復活のときに神の御子となったと考えられている。"
+  },
+  "adult_baptism": {
+    "name": "成人洗礼",
+    "desc": "イエス・キリストへの信仰告白に基づき、地域の信仰社会に加入するために成人が受ける洗礼は、救済と教会の会員資格は神からの贈り物であると信じる者によっておこなわれる。洗礼を受ける者の信仰は言葉で表明されなければならず、ほかの者から授けたり、譲渡したりすることはできない。"
+  },
+  "aniconism": {
+    "name": "偶像反対主義",
+    "desc": "我らが主を表す目的で象徴を用いてはならない。なぜなら象徴は、偶像や人を表すためのものだからだ。我々は十字架を含め、ほかのキリスト教徒が用いるあらゆる象徴物を拒否する。"
+  },
+  "asceticism": {
+    "name": "禁欲",
+    "desc": "物質的な欲望は我々を盲目にし、神の真理を見失わせる。贅沢を排した質素な生活に身を捧げることによってのみ、霊的な啓示に至ることができる。"
+  },
+  "bread_and_wine": {
+    "name": "パンとブドウ酒",
+    "desc": "パンとブドウ酒の両方があって初めて、有効な聖餐式と言えると我々は考える。わが国の聖職者は、礼拝に参加するすべての信徒に対し、パンとブドウ酒による聖餐を授けるものとする。"
+  },
+  "clerical_poverty": {
+    "name": "聖職者の清貧",
+    "desc": "聖職者は富を所有すべきではなく、物質的な財産を放棄すべきだ。聖職者が意識を向けるべきは神であって、俗世の事柄ではないからである。"
+  },
+  "crown_as_head_of_faith": {
+    "name": "信仰の長としての君主",
+    "desc": "教会はもはや、外部の腐敗した神政主義者の支配に服することはない。今後あらゆる宗教問題は、新たな信仰の長となる統治者に委ねられるものとする。"
+  },
+  "freedom_to_preach": {
+    "name": "説教の自由",
+    "desc": "信徒のあいだには多くの意見の相違があるが、神が心のなかにあるかぎり、どの宗派も自由に説教をおこなうことを許すものとする。"
+  },
+  "gnosticism": {
+    "name": "グノーシス主義",
+    "desc": "グノーシス主義は、「グノーシス（知識）」を通じた個人の救済を主軸としている。我々は、霊的な知識を求めることで物質世界を脱却し、より高い次元の世界へと戻ることができる。"
+  },
+  "individual_creeds": {
+    "name": "個人の信条",
+    "desc": "わが国の民が自らの信条を定めることを認めれば、個人の意見の形成が促され、進歩への道が拓かれるだろう！"
+  },
+  "monasticism": {
+    "name": "修道主義",
+    "desc": "美食や美酒の快楽は、我々の心を神への奉仕から逸らすだけである。こうした誘惑を避けるには、人里離れた修道院で孤絶の生活を送るのが一番よい。"
+  },
+  "modalism": {
+    "name": "様態論",
+    "desc": "我々は、神は絶対的な唯一の存在であり、父、子、聖霊といった三位一体の概念は、神が自らを顕すためのさまざまな形態にすぎないと考える。"
+  },
+  "organized_through_bishops": {
+    "name": "司教の任命",
+    "desc": "司教の任命を完全に廃止するのではなく、司教はより広範な地域の管理者として教会に仕えることとする。"
+  },
+  "pacifism": {
+    "name": "平和主義",
+    "desc": "平和をつくる者は幸いである。彼らは神の子と呼ばれるからである。"
+  },
+  "parish_registers": {
+    "name": "教区台帳",
+    "desc": "洗礼、結婚、埋葬は今後、その詳細が教区台帳に記録される。各教区の聖職者は、これらの出来事を台帳に記録し、二重に鍵のかかった安全な金庫に保管する。"
+  },
+  "participation_women": {
+    "name": "女性の参加",
+    "desc": "男性と同じように女性も我々の共同体に参加しているが、女性がどこでも男性と同じように扱われるよう、一般的な規則を採用する。"
+  },
+  "rejection_of_sacraments": {
+    "name": "秘跡を拒絶",
+    "desc": "我々の教義は、キリスト教の秘跡の大部分を拒絶している。それらはほとんどが物理的なものであり、重要ではないからだ。重要なのは霊的なものだけであり、それが我々を神に近づけてくれる。"
+  },
+  "sola_fide": {
+    "name": "ソラ・フィデ",
+    "desc": "いかなる善行も神を満足させることはできない。我々は神の愛によってのみ許されるのであり、神はそれをひとり子のイエス・キリストを通じて我々に与えてくださった。"
+  },
+  "sola_scriptura": {
+    "name": "ソラ・スクリプトゥラ",
+    "desc": "聖書は人間に与えられた神の言葉であり、キリスト教の教義における唯一の権威である。聖書に根拠の示されていない宗教的実慣習は、すべて異端として非難されるべきである。"
+  },
+  "soli_deo_gloria": {
+    "name": "ソリ・デオ・グロリア",
+    "desc": "人間の功績はすべて、神に賛美を捧げることを目的としてのみ成し遂げられる。"
+  },
+  "translated_bibles": {
+    "name": "聖書の翻訳",
+    "desc": "わが国の民が話す言語に聖書を翻訳することで、彼らの心に語りかけるかたちで、神へと至る最も望ましい道を示すことができる。"
+  },
+  "usury_allowed": {
+    "name": "高利貸しを許可",
+    "desc": "利息を伴う金銭の貸し付けによって貸主が利益を得ることを許可し、今後は罪深い行為とはみなさない。"
+  },
+  "war_sermons": {
+    "name": "戦時の説教",
+    "desc": "戦時には、信仰がわが民の希望を守る。わが国の教会は聖書の言葉を引用して説教をおこない、いかなる暗黒の時にも民の士気を高く保つ。"
+  },
+  "worship_nyambe_god": {
+    "name": "ニャンベを守護神として崇拝",
+    "desc": "ニャンベをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_nhialic_god": {
+    "name": "ニアリクを守護神として崇拝",
+    "desc": "ニアリクをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_du_chie_god": {
+    "name": "ドゥ・チエを守護神として崇拝",
+    "desc": "ドゥ・チエをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ayum_god": {
+    "name": "アヤムを守護神として崇拝",
+    "desc": "アヤムをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_alwet_god": {
+    "name": "アルウェットを守護神として崇拝",
+    "desc": "アルウェットをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_zanahary_god": {
+    "name": "ザナハリーを守護神として崇拝",
+    "desc": "ザナハリーをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ratovantany_god": {
+    "name": "ラトバンタニーを守護神として崇拝",
+    "desc": "ラトバンタニーをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_andrianerinerina_god": {
+    "name": "アンドリアネリネリナを守護神として崇拝",
+    "desc": "アンドリアネリネリナをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_andriambahomanana_god": {
+    "name": "アンドリアンバホマナナを守護神として崇拝",
+    "desc": "アンドリアンバホマナナをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_andriamahilala_god": {
+    "name": "アンドリアマヒララを守護神として崇拝",
+    "desc": "アンドリアマヒララをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ngai_god": {
+    "name": "ンガイを守護神として崇拝",
+    "desc": "ンガイをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_asis_god": {
+    "name": "アシスを守護神として崇拝",
+    "desc": "アシスをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ilat_god": {
+    "name": "イラトを守護神として崇拝",
+    "desc": "イラトをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_waaq_god": {
+    "name": "ワカを守護神として崇拝",
+    "desc": "ワカをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_kaggen_god": {
+    "name": "カッゲンを守護神として崇拝",
+    "desc": "カッゲンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_hunntuattatteen_god": {
+    "name": "コティを守護神として崇拝",
+    "desc": "コティをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_kagara_god": {
+    "name": "カガラを守護神として崇拝",
+    "desc": "カガラをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_haunu_god": {
+    "name": "ハウヌを守護神として崇拝",
+    "desc": "ハウヌをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_akuj_god": {
+    "name": "アークーイを守護神として崇拝",
+    "desc": "アークーイをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_anyame_god": {
+    "name": "ニャメを守護神として崇拝",
+    "desc": "ニャメをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_asase_ya_god": {
+    "name": "アサセ・ヤを守護神として崇拝",
+    "desc": "アサセ・ヤをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_anansi_god": {
+    "name": "アナンシを守護神として崇拝",
+    "desc": "アナンシをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_tano_god": {
+    "name": "タノを守護神として崇拝",
+    "desc": "タノをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_legba_god": {
+    "name": "レグバを守護神として崇拝",
+    "desc": "レグバをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_mawu_god": {
+    "name": "マウを守護神として崇拝",
+    "desc": "マウをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_lisa_god": {
+    "name": "リサを守護神として崇拝",
+    "desc": "リサをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_sakpata_god": {
+    "name": "サクパタを守護神として崇拝",
+    "desc": "サクパタをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_olorun_god": {
+    "name": "オロルンを守護神として崇拝",
+    "desc": "オロルンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_olokun_isese_god": {
+    "name": "オロクンを守護神として崇拝",
+    "desc": "オロクンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_obatala_god": {
+    "name": "オバタラを守護神として崇拝",
+    "desc": "オバタラをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ori_god": {
+    "name": "オリを守護神として崇拝",
+    "desc": "オリをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_egbesu_god": {
+    "name": "エグベスを守護神として崇拝",
+    "desc": "エグベスをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_amadioha_god": {
+    "name": "アマディオハを守護神として崇拝",
+    "desc": "アマディオハをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ikenga_god": {
+    "name": "イケンガを守護神として崇拝",
+    "desc": "イケンガをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_agwu_nsi_god": {
+    "name": "アグウ・ンシを守護神として崇拝",
+    "desc": "アグウ・ンシをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ogbunabali_god": {
+    "name": "オグブナバリを守護神として崇拝",
+    "desc": "オグブナバリをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_takhar_god": {
+    "name": "タカールを守護神として崇拝",
+    "desc": "タカールをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_mindiss_god": {
+    "name": "ミンディスを守護神として崇拝",
+    "desc": "ミンディスをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_niparaya_god": {
+    "name": "ニパラヤを守護神として崇拝",
+    "desc": "ニパラヤをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_u_blei_nong_thaw_god": {
+    "name": "ウ・ブレイ・ノンタウを守護神として崇拝",
+    "desc": "ウ・ブレイ・ノンタウをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ulei_muluk_god": {
+    "name": "ウレイ・ムルクを守護神として崇拝",
+    "desc": "ウレイ・ムルクをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ulei_umtang_god": {
+    "name": "ウレイ・ウムタンを守護神として崇拝",
+    "desc": "ウレイ・ウムタンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ulei_longspah_god": {
+    "name": "ウレイ・ロングスパーを守護神として崇拝",
+    "desc": "ウレイ・ロングスパーをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_marang_buru_god": {
+    "name": "マランブルを守護神として崇拝",
+    "desc": "マランブルをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_dharti_ayo_god": {
+    "name": "ダーティ・アヨを守護神として崇拝",
+    "desc": "ダーティ・アヨをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_kotan_kar_kamuy_god": {
+    "name": "コタンカㇻカムイを守護神として崇拝",
+    "desc": "コタンカㇻカムイをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_kamuy_huci_god": {
+    "name": "カムイフチを守護神として崇拝",
+    "desc": "カムイフチをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_kim_un_kamuy_god": {
+    "name": "キムンカムイを守護神として崇拝",
+    "desc": "キムンカムイをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_rep_un_kamuy_god": {
+    "name": "レポルンタカムを守護神として崇拝",
+    "desc": "レポルンタカムをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_baradeo_god": {
+    "name": "バラデオを守護神として崇拝",
+    "desc": "バラデオをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_nat_awal_god": {
+    "name": "ナト・アワルを守護神として崇拝",
+    "desc": "ナト・アワルをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_aki_pen_god": {
+    "name": "アキ・ペンを守護神として崇拝",
+    "desc": "アキ・ペンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_nat_awual_god": {
+    "name": "ナト・アウワルを守護神として崇拝",
+    "desc": "ナト・アウワルをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_phi_heaven_god": {
+    "name": "天のピーを守護神として崇拝",
+    "desc": "天のピーをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_phi_water_god": {
+    "name": "天のピーを守護神として崇拝",
+    "desc": "天のピーをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_phi_earth_god": {
+    "name": "地のピーを守護神として崇拝",
+    "desc": "地のピーをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_phi_fire_god": {
+    "name": "火のピーを守護神として崇拝",
+    "desc": "火のピーをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_bathoubwrai_god": {
+    "name": "バトウブウライを守護神として崇拝",
+    "desc": "バトウブウライをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_mainao_god": {
+    "name": "マイナオを守護神として崇拝",
+    "desc": "マイナオをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_song_bwrai_god": {
+    "name": "ソン・ブライを守護神として崇拝",
+    "desc": "ソン・ブライをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_bura_bagh_raja_god": {
+    "name": "ブラ・バグ・ラジャを守護神として崇拝",
+    "desc": "ブラ・バグ・ラジャをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_donyi_god": {
+    "name": "ドニを守護神として崇拝",
+    "desc": "ドニをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_polo_god": {
+    "name": "ポロを守護神として崇拝",
+    "desc": "ポロをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_kine_nane_god": {
+    "name": "キネ・ナネを守護神として崇拝",
+    "desc": "キネ・ナネをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_doying_bote_god": {
+    "name": "ドーイン・ボテを守護神として崇拝",
+    "desc": "ドーイン・ボテをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_sumnima_god": {
+    "name": "スムニマを守護神として崇拝",
+    "desc": "スムニマをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_paruhang_god": {
+    "name": "プルハンを守護神として崇拝",
+    "desc": "プルハンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_yuma_sammang_god": {
+    "name": "ユマ・サンマンを守護神として崇拝",
+    "desc": "ユマ・サンマンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_pathian_god": {
+    "name": "パティアンを守護神として崇拝",
+    "desc": "パティアンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_khuanu_god": {
+    "name": "クアヌを守護神として崇拝",
+    "desc": "クアヌをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_pu_vana_god": {
+    "name": "プ・ヴァナを守護神として崇拝",
+    "desc": "プ・ヴァナをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_sakhua_god": {
+    "name": "サクーアを守護神として崇拝",
+    "desc": "サクーアをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_sky_god": {
+    "name": "天空の神を守護神として崇拝",
+    "desc": "天空の神をわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_death_god": {
+    "name": "死の神を守護神として崇拝",
+    "desc": "死の神をわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_earth_god": {
+    "name": "大地の神を守護神として崇拝",
+    "desc": "大地の神をわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_water_god": {
+    "name": "水の神を守護神として崇拝",
+    "desc": "水の神をわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_creator_god": {
+    "name": "創造の神を守護神として崇拝",
+    "desc": "創造の神をわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_fire_god": {
+    "name": "火の神を守護神として崇拝",
+    "desc": "火の神をわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_fertility_god": {
+    "name": "多産の神を守護神として崇拝",
+    "desc": "多産の神をわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_war_god": {
+    "name": "戦の神を守護神として崇拝",
+    "desc": "戦の神をわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_wind_god": {
+    "name": "風の神を守護神として崇拝",
+    "desc": "風の神をわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_thunder_god": {
+    "name": "雷の神を守護神として崇拝",
+    "desc": "雷の神をわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "adamite_services": {
+    "name": "アダム派の礼拝",
+    "desc": "アダム派は、礼拝は裸でおこなうものだと主張している。地位や文化を表す装い排除することで、我々は神の前で平等な存在となり、我々に共通する人間性や、堕罪前に有していた無垢さをはっきりと認識することができる。"
+  },
+  "punishment_of_sin": {
+    "name": "罪の処罰",
+    "desc": "罪を犯した者は、富や身分にかかわらず平等に罰を受けなければならない。貴族であっても、神の法の裁きから免れることはできない。"
+  },
+  "worship_viracocha": {
+    "name": "ウィラコチャを守護神として崇拝",
+    "desc": "ウィラコチャをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_inti_god": {
+    "name": "インティを守護神として崇拝",
+    "desc": "インティをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_illapa_god": {
+    "name": "イヤーパを守護神として崇拝",
+    "desc": "イヤーパをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_supay_god": {
+    "name": "スパイを守護神として崇拝",
+    "desc": "スパイをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_mamaquilla": {
+    "name": "ママ・キリャを守護神として崇拝",
+    "desc": "ママ・キリャをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_pachamama": {
+    "name": "パチャママを守護神として崇拝",
+    "desc": "パチャママをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_mama_cocha": {
+    "name": "ママ・コチャを守護神として崇拝",
+    "desc": "ママ・コチャをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_urpihuachac": {
+    "name": "ウルパイ・ワチャックを守護神として崇拝",
+    "desc": "ウルパイ・ワチャックをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_chinchaycamac": {
+    "name": "ウスコビルカを守護神として崇拝",
+    "desc": "ウスコビルカをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_odin_god": {
+    "name": "オーディンを守護神として崇拝",
+    "desc": "オーディンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_tor_god": {
+    "name": "トールを守護神として崇拝",
+    "desc": "トールをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_tyr_god": {
+    "name": "テュールを守護神として崇拝",
+    "desc": "テュールをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_njord_god": {
+    "name": "ニョルズを守護神として崇拝",
+    "desc": "ニョルズをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_freyr_god": {
+    "name": "フレイを守護神として崇拝",
+    "desc": "フレイをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_freya_god": {
+    "name": "フレイヤを守護神として崇拝",
+    "desc": "フレイヤをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "baptism_by_fire": {
+    "name": "火の洗礼",
+    "desc": "我々の信仰では、洗礼者ヨハネ自身も認めたように、水による洗礼は永久的なものではないとされる。永久的な洗礼は、火を灯した蝋燭で頭の四方に触れることによってのみおこなわれる。"
+  },
+  "name_change": {
+    "name": "改名",
+    "desc": "名前に宿る力は、我々の共同体では広く知られている。我々の宗教指導者は、聖パウロの信徒たちの名前にちなんでしばしば改名する。庶民も、自分たちの集落の名前を守護聖人が住んでいた場所の名前に変更する。"
+  },
+  "paulician_canon": {
+    "name": "パウロ派の正典",
+    "desc": "わが民は、旧約聖書とその預言者たちを否定し、聖ペテロの書簡を聖書に含めることも認めていない。正しいのは聖パウロの言葉のみなのだ。"
+  },
+  "punishment_by_stoning": {
+    "name": "石打ちの刑",
+    "desc": "石打ちは、我々の共同体の異端者を罰する一般的な慣習であり、近隣の共同体とは一線を画している。これは我々のアナトリアの起源から受け継がれた慣習と思われる。"
+  },
+  "justified_conflicts": {
+    "name": "紛争の正当化",
+    "desc": "国家の新たな教会は、異教徒や異端者によって脅かされている。自己防衛のための戦争では、教会は聖書に基づき我々の紛争を正当化する。"
+  },
+  "pietism": {
+    "name": "敬虔主義",
+    "desc": "敬虔主義は信者個人の信心を重視し、敬虔なキリスト教生活につながる内面的な変革の重要性を強調する。"
+  },
+  "worship_tengri_god": {
+    "name": "コク・テングリを守護神として崇拝",
+    "desc": "コク・テングリをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_umay_god": {
+    "name": "ウマイを守護神として崇拝",
+    "desc": "ウマイをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ulgen_god": {
+    "name": "ウルゲンを守護神として崇拝",
+    "desc": "ウルゲンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_erlik_god": {
+    "name": "エルリクを守護神として崇拝",
+    "desc": "エルリクをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_kayra_god": {
+    "name": "カイラを守護神として崇拝",
+    "desc": "カイラをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_bai_baianai_god": {
+    "name": "バイ・バイアナイを守護神として崇拝",
+    "desc": "バイ・バイアナイをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ak_ana_god": {
+    "name": "アク・アナを守護神として崇拝",
+    "desc": "アク・アナをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_mergen_god": {
+    "name": "メルゲンを守護神として崇拝",
+    "desc": "メルゲンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_tlaloc_god": {
+    "name": "トラロックを守護神として崇拝",
+    "desc": "トラロックをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_huitzilopochtli_god": {
+    "name": "ウィツィロポチトリを守護神として崇拝",
+    "desc": "ウィツィロポチトリをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_quetzalcoatl_god": {
+    "name": "ケツァルコアトルを守護神として崇拝",
+    "desc": "ケツァルコアトルをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_tezcatlipoca_god": {
+    "name": "テスカトリポカを守護神として崇拝",
+    "desc": "テスカトリポカをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_xiuhtecuhtli_god": {
+    "name": "シウテクトリを守護神として崇拝",
+    "desc": "シウテクトリをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_coatlicue_god": {
+    "name": "コアトリクエを守護神として崇拝",
+    "desc": "コアトリクエをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_huehueteotl_god": {
+    "name": "ウェウェテオトルを守護神として崇拝",
+    "desc": "シウテクトリをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_mesoamerican_quetzalcoatl_god": {
+    "name": "ケツァルコアトルを守護神として崇拝",
+    "desc": "ケツァルコアトルをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_dzahui_god": {
+    "name": "ドザフイを守護神として崇拝",
+    "desc": "トラロックをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_chaac_god": {
+    "name": "チャクを守護神として崇拝",
+    "desc": "トラロックをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_kukulkan_god": {
+    "name": "ククルカンを守護神として崇拝",
+    "desc": "ケツァルコアトルをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_kawiil_god": {
+    "name": "カウィールを守護神として崇拝",
+    "desc": "シウテクトリをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_tepeu_god": {
+    "name": "テペウを守護神として崇拝",
+    "desc": "テペウをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_huracan_god": {
+    "name": "フラカンを守護神として崇拝",
+    "desc": "フラカンをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_hunhunahpu_god": {
+    "name": "フン・フンアフプーを守護神として崇拝",
+    "desc": "フン・フンアフプーをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "worship_ixchel_god": {
+    "name": "イシュ・チェルを守護神として崇拝",
+    "desc": "コアトリクエをわが国の守護神とし、その崇拝と崇敬を優先する"
+  },
+  "_modifier_names": {
+    "add_religious_aspect_christian_cost_modifier": "宗教アスペクトの追加コスト",
+    "antagonism_received_modifier": "他国からの敵対心",
+    "army_initiative": "陸軍率先力",
+    "army_maintenance_cost": "陸軍維持費",
+    "army_movement_speed": "陸軍移動速度",
+    "ban_imports_of_livestock": "の輸入禁止",
+    "bank_interest": "銀行利息",
+    "can_have_monasteries": "修道院の許可",
+    "clergy_estate_max_tax": "聖職者階級の最大税率",
+    "clergy_estate_satisfaction_recovery": "聖職者階級満足度の回復",
+    "clergy_estate_target_satisfaction": "聖職者の満足度均衡値",
+    "colonial_maintenance_cost": "植民地維持費",
+    "country_cabinet_efficiency": "わが国の内閣の効率化",
+    "court_spending_cost": "予想宮廷コスト",
+    "cultural_tradition_modifier": "文化伝統力 %",
+    "declaring_war_cost_modifier": "宣戦布告コスト",
+    "diplomatic_capacity_modifier": "外交許容量",
+    "discipline": "規律",
+    "expand_rgo_farming_cost_modifier": "農場の拡大コスト",
+    "expand_rgo_mining_cost_modifier": "鉱山の拡大コスト",
+    "gender_equality": "性別平等",
+    "global_clergy_desired_pop": "の人口制限",
+    "global_clergy_estate_power": "聖職者の階級権力",
+    "global_clergy_max_literacy": "聖職者の最大識字率",
+    "global_crown_estate_power": "君主力",
+    "global_defensive": "要塞の防衛",
+    "global_devastation_recovery": "繁栄の回復",
+    "global_disease_resistance": "疫病耐性",
+    "global_distance_from_capital_speed_propagation": "近接性速度",
+    "global_estate_target_satisfaction": "階級満足度均衡値",
+    "global_fish_output_modifier": "生産量",
+    "global_garrison_size_modifier": "守備隊規模",
+    "global_hostile_attrition": "敵対消耗",
+    "global_life_expectancy": "キャラクターの寿命",
+    "global_lumber_output_modifier": "生産量",
+    "global_maritime_presence_modifier": "海洋プレゼンス %",
+    "global_max_literacy": "最大識字率",
+    "global_max_rgo_size_modifier": "最大RGO規模",
+    "global_monthly_art_start_chance": "毎月の制作開始確率",
+    "global_monthly_control": "毎月の支配度",
+    "global_monthly_food_modifier": "食糧生産 %",
+    "global_monthly_prosperity": "毎月の繁栄",
+    "global_pop_assimilation_speed_modifier": "POP同化速度",
+    "global_pop_conversion_speed_modifier": "POP改宗速度 %",
+    "global_pop_promotion_speed_modifier": "POP昇格速度 %",
+    "global_population_growth": "人口増加",
+    "global_production_efficiency": "生産効率",
+    "global_raw_material_output": "原材料生産",
+    "global_separatism": "分離主義",
+    "global_war_score_cost": "戦勝点コスト",
+    "global_weaponry_output_modifier": "生産量",
+    "global_wild_game_output_modifier": "生産量",
+    "global_wine_output_modifier": "生産量",
+    "improve_relation_impact": "関係改善",
+    "land_morale_modifier": "陸軍士気",
+    "land_morale_recovery": "陸軍士気回復速度",
+    "minting_income_factor": "貨幣鋳造からの収入",
+    "monthly_diplomats": "毎月の外交官数",
+    "monthly_legitimacy": "毎月の正統性",
+    "monthly_rebel_growth": "毎月の反乱軍の活動度",
+    "monthly_religious_influence": "毎月の宗教影響力",
+    "monthly_towards_absolutism": "絶対主義への毎月の傾き",
+    "monthly_towards_belligerent": "好戦的への毎月の傾き",
+    "monthly_towards_capital_economy": "資本経済への毎月の傾き",
+    "monthly_towards_centralization": "中央集権への毎月の傾き",
+    "monthly_towards_communalism": "共同体主義への毎月の傾き",
+    "monthly_towards_conciliatory": "融和的への毎月の傾き",
+    "monthly_towards_decentralization": "地方分権への毎月の傾き",
+    "monthly_towards_free_subjects": "自由民への毎月の傾き",
+    "monthly_towards_individualism": "個人主義への毎月の傾き",
+    "monthly_towards_innovative": "革新主義への毎月の傾き",
+    "monthly_towards_plutocracy": "金権政治への毎月の傾き",
+    "monthly_towards_spiritualist": "精神主義への毎月の傾き",
+    "monthly_towards_traditionalist": "伝統主義への毎月の傾き",
+    "monthly_war_exhaustion": "毎月の戦争疲弊",
+    "monthly_yanantin": "毎月のヤナンティン",
+    "naval_morale_modifier": "海軍士気",
+    "navy_initiative": "海軍率先力",
+    "peasants_estate_target_satisfaction": "農民の満足度均衡値",
+    "pop_join_rebel_threshold": "POPの反乱軍への参加しきい値",
+    "pop_leave_rebels_threshold": "POPの反乱軍からの脱退しきい値",
+    "recruit_explorer_cost_modifier": "探検家の募集コスト",
+    "regiment_reinforcement_speed": "補充速度",
+    "remove_religious_aspect_christian_cost_modifier": "宗教アスペクトの削除コスト",
+    "research_speed_modifier": "毎月の研究進行度 %",
+    "skill_of_new_artists": "新しい芸術家のスキル",
+    "stability_cost": "安定度投資コスト",
+    "tax_income_efficiency": "税効率",
+    "tolerance_heathen": "異教の信仰の寛容度",
+    "tolerance_heretic": "異端な信仰の寛容度",
+    "tolerance_own": "真の信仰の寛容度",
+    "war_on_different_religion_cost_modifier": "異なる宗教の国との戦争コスト"
+  },
+  "_modifier_descs": {
+    "add_religious_aspect_christian_cost_modifier": "宗教アスペクトの追加にかかるコストに影響を与える。",
+    "antagonism_received_modifier": "国家がその行動によって生み出す敵対心に影響を与える。",
+    "army_initiative": "戦闘における連隊の率先力に影響を与える。",
+    "army_maintenance_cost": "連隊を維持するのに必要なダカットと人的資源を補正する。",
+    "army_movement_speed": "陸軍が2つのロケーション間を移動する速度に影響を与える。",
+    "ban_imports_of_livestock": "国家が所有するすべての市場へのlivestockの輸入を禁止する。",
+    "bank_interest": "国立銀行から借り入れた借金の利息に影響を与える。",
+    "can_have_monasteries": "国家がmonasteryを所有できるか否かに影響を与える。",
+    "clergy_estate_max_tax": "聖職者から徴収できる最大税率に影響を与える。",
+    "clergy_estate_satisfaction_recovery": "この国家の聖職者の階級満足度が満足度均衡値まで回復する速度に影響を与える。",
+    "clergy_estate_target_satisfaction": "この国家の聖職者の満足度均衡値に影響を与える。",
+    "colonial_maintenance_cost": "認可植民地の毎月のコストに影響を与える。",
+    "country_cabinet_efficiency": "国家の内閣で働くすべてのキャラクターの内閣効率に影響を与える。",
+    "court_spending_cost": "税基盤のうち宮廷コストに充てられると予想される金額に影響する。",
+    "cultural_tradition_modifier": "わが国の主要文化の文化伝統力に影響を与える。",
+    "declaring_war_cost_modifier": "宣戦布告にかかるコストに影響を与える。",
+    "diplomatic_capacity_modifier": "国家が保有できる外交許容量使用に影響を与える。",
+    "discipline": "連隊の規律に影響を与える。",
+    "expand_rgo_farming_cost_modifier": "農場を必要とする原材料を扱うPOPを増やすのに必要なコストに影響を与える。 農場を使用する 原材料。",
+    "expand_rgo_mining_cost_modifier": "鉱山を必要とする原材料を扱うPOPを増やすのに必要なコストに影響を与える。 鉱業を使用する 原材料。",
+    "gender_equality": "女性を男性と同じ役職に任命できるか否かに影響を与える。",
+    "global_clergy_desired_pop": "この国家の全ロケーションにおけるclergyの居住可能人口に影響を与える。",
+    "global_clergy_estate_power": "国家全体の聖職者の階級権力に影響を与える。",
+    "global_clergy_max_literacy": "この国家の全clergyの識字率に影響を与える。",
+    "global_crown_estate_power": "国家全体の王室の階級権力、すなわち君主力に影響を与える。",
+    "global_defensive": "国家に対する包囲の進行速度に影響を与える。",
+    "global_devastation_recovery": "国家のすべてのロケーションにおける毎月の繁栄度回復速度に影響を与える。",
+    "global_disease_resistance": "国家のすべてのロケーションにおける疫病耐性に影響を与える。",
+    "global_distance_from_capital_speed_propagation": "国家内のすべてのロケーション間で近接性が伝播する速度に影響を与える。",
+    "global_estate_target_satisfaction": "この国家の全階級の満足度均衡値に影響を与える。",
+    "global_fish_output_modifier": "この国家全体のfish生産量を補正する。",
+    "global_garrison_size_modifier": "国家が保有するすべての守備隊の規模に影響を与える。",
+    "global_hostile_attrition": "自国が所有および支配度しているすべてのロケーションでの、敵対的陸軍の消耗に影響を与える。",
+    "global_life_expectancy": "この国家のキャラクターが老衰で死亡しやすくなる年齢。",
+    "global_lumber_output_modifier": "この国家全体のlumber生産量を補正する。",
+    "global_maritime_presence_modifier": "国家が所有するすべてのロケーションに隣接する、すべてのシーゾーンにおける海洋プレゼンスに影響を与える。",
+    "global_max_literacy": "国家におけるすべてのPOPの最大識字率に影響を与える。",
+    "global_max_rgo_size_modifier": "国家におけるすべてのRGOの最大規模に影響を与える。",
+    "global_monthly_art_start_chance": "国家の芸術家が新しい芸術作品の制作を開始する確率に影響を与える。",
+    "global_monthly_control": "ある国家のすべてのロケーションで1ヵ月間に変化する支配度の値。",
+    "global_monthly_food_modifier": "国家のすべてのロケーションで生産される食糧の量に影響を与える。",
+    "global_monthly_prosperity": "国家内のすべてのロケーションにおける毎月の繁栄度の変化に影響を与える。",
+    "global_pop_assimilation_speed_modifier": "この国のすべてのロケーションでPOPが同化する速度に影響を与える。",
+    "global_pop_conversion_speed_modifier": "この国のすべてのロケーションでPOPが改宗する速度に影響を与える。",
+    "global_pop_promotion_speed_modifier": "この国のすべてのロケーションでPOPが昇格する速度に影響を与える。",
+    "global_population_growth": "国家のすべてのロケーションの人口増加に影響を与える。",
+    "global_production_efficiency": "この国家全体の生産効率に影響を与える。",
+    "global_raw_material_output": "国家内のすべてのロケーションからの原材料生産量に影響を与える。",
+    "global_separatism": "国家のすべてのロケーションにおける分離主義に影響を与える。",
+    "global_war_score_cost": "この国家が領土を獲得するのに必要な戦勝点に影響を与える。",
+    "global_weaponry_output_modifier": "この国家全体のweaponry生産量を補正する。",
+    "global_wild_game_output_modifier": "この国家全体のwild game生産量を補正する。",
+    "global_wine_output_modifier": "この国家全体のwine生産量を補正する。",
+    "improve_relation_impact": "国家がどれだけ関係改善をおこなえるかに影響を与える。",
+    "land_morale_modifier": "連隊の最大士気を割合で補正する。",
+    "land_morale_recovery": "連隊 士気が最大未満のとき、士気が回復する速度に影響を与える。",
+    "minting_income_factor": "国家が貨幣鋳造から得るダカットに影響を与える。",
+    "monthly_diplomats": "国家が毎月得られる外交官の人数に影響を与える。",
+    "monthly_legitimacy": "国家が毎月得る正統性に影響を与える。",
+    "monthly_rebel_growth": "反乱軍が反乱または内戦に至る速度に影響を与える。",
+    "monthly_religious_influence": "国家が毎月獲得する宗教影響力の量に影響を与える。",
+    "monthly_towards_absolutism": "社会的価値「absolutism」への傾きに影響を与える。",
+    "monthly_towards_belligerent": "社会的価値「belligerent」への傾きに影響を与える。",
+    "monthly_towards_capital_economy": "社会的価値「首都 economy」への傾きに影響を与える。",
+    "monthly_towards_centralization": "社会的価値「centralization」への傾きに影響を与える。",
+    "monthly_towards_communalism": "社会的価値「communalism」への傾きに影響を与える。",
+    "monthly_towards_conciliatory": "社会的価値「conciliatory」への傾きに影響を与える。",
+    "monthly_towards_decentralization": "社会的価値「decentralization」への傾きに影響を与える。",
+    "monthly_towards_free_subjects": "社会的価値「free 従属国」への傾きに影響を与える。",
+    "monthly_towards_individualism": "社会的価値「individualism」への傾きに影響を与える。",
+    "monthly_towards_innovative": "社会的価値「innovative」への傾きに影響を与える。",
+    "monthly_towards_plutocracy": "社会的価値「plutocracy」への傾きに影響を与える。",
+    "monthly_towards_spiritualist": "社会的価値「spiritualist」への傾きに影響を与える。",
+    "monthly_towards_traditionalist": "社会的価値「traditionalist」への傾きに影響を与える。",
+    "monthly_war_exhaustion": "わが国が毎月獲得する戦争疲弊の量に影響を与える。",
+    "monthly_yanantin": "国家が毎月獲得するヤナンティンの量に影響を与える。",
+    "naval_morale_modifier": "船の最大士気を割合で補正する。",
+    "navy_initiative": "戦闘における船の率先力に影響を与える。",
+    "peasants_estate_target_satisfaction": "この国家の庶民の満足度均衡値に影響を与える。",
+    "pop_join_rebel_threshold": "POPが反乱軍に加わるのに必要なPOP満足度の下限に影響を与える。これはを下回ることはない。",
+    "pop_leave_rebels_threshold": "POPが反乱軍から抜けるのに必要なPOP満足度の上限に影響を与える。",
+    "recruit_explorer_cost_modifier": "探検家の募集にかかるコストに影響を与える。",
+    "regiment_reinforcement_speed": "連隊を補充する速度に影響を与える。",
+    "remove_religious_aspect_christian_cost_modifier": "宗教アスペクトの削除にかかるコストに影響を与える。",
+    "research_speed_modifier": "国家の研究進行度の生成に影響を与える。",
+    "skill_of_new_artists": "新しい芸術家の芸術的素養に影響を与える。",
+    "stability_cost": "安定度投資の際のコストに影響を与える。",
+    "tax_income_efficiency": "国家の税効率に影響を与える。",
+    "tolerance_heathen": "主要宗教とは別の宗教グループに属する宗教の寛容度に影響を与える。",
+    "tolerance_heretic": "主要宗教と同じ宗教グループに属する宗教の寛容度に影響を与える。",
+    "tolerance_own": "主要宗教の寛容度に影響を与える。",
+    "war_on_different_religion_cost_modifier": "異なる宗教をもつ国に宣戦布告するのにかかるコストに影響を与える。"
+  }
+}

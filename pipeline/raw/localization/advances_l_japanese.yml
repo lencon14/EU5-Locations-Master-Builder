@@ -1,4 +1,4 @@
-﻿l_japanese:
+l_japanese:
  BASE_SPREAD: "基本値：$VALUE|Y$"
  INSTITUTION_SPREAD_WAS_POSSIBLE_SPAWN: "制度出現の可能性があった：$VAL|+=2$"
  INSTITUTION_SPREAD_DIPLOMACY: "[alliances|e]から：$VAL|+=2$"
@@ -5577,3 +5577,4 @@
  gebirgsschutzen_infantry_desc: "$a_gebirgsschutzen_infantry_desc$"
  unlock_grenadiers_advance: "$a_grenadiers$"
  unlock_grenadiers_advance_desc: "$a_grenadiers_desc$"
+

@@ -376,7 +376,7 @@
     "desc": "$dongba_religion$ $common_folk_religion_desc$"
   },
   "bimoism": {
-    "name": "",
+    "name": "필마교",
     "desc": "$bimoism$ $common_folk_religion_desc$"
   },
   "ka_niam_khasi_religion": {
@@ -592,15 +592,15 @@
     "desc": "$chukchi_shamanism$ $common_folk_religion_desc$"
   },
   "hmongism": {
-    "name": "",
+    "name": "묘족 민속 신앙",
     "desc": "$hmongism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
   },
   "moism": {
-    "name": "",
+    "name": "묵가",
     "desc": "$moism$ $common_folk_religion_desc$"
   },
   "rmaism": {
-    "name": "",
+    "name": "강족 민속 신앙",
     "desc": "$rmaism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
   },
   "shamanism": {
@@ -696,7 +696,7 @@
     "desc": "$karachay_balkar_paganism$ $common_folk_religion_desc$"
   },
   "khabzeism": {
-    "name": "",
+    "name": "체르케스 이교",
     "desc": "$khabzeism$ $common_folk_religion_desc$"
   },
   "lezgin_paganism": {
@@ -812,11 +812,11 @@
     "desc": "$dene_religion$ $common_folk_religion_desc$"
   },
   "midewiwin_religion": {
-    "name": "",
+    "name": "미드위윈",
     "desc": "$midewiwin_religion$ $common_folk_religion_desc$"
   },
   "dene_shamanism": {
-    "name": "",
+    "name": "아타바스칸 신앙",
     "desc": "$dene_shamanism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
   },
   "dene_totemism": {
@@ -824,19 +824,19 @@
     "desc": "$dene_totemism$ $common_folk_religion_desc$"
   },
   "great_plains_shamanism": {
-    "name": "",
+    "name": "와칸 신앙",
     "desc": "$great_plains_shamanism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
   },
   "iroquoian_totemism": {
-    "name": "",
+    "name": "오렌다 신앙",
     "desc": "$iroquoian_totemism$은 아주 오래전부터 신도들의 입에서 입으로 전해 내려온 토착 신앙, 신화, 전통 및 관습을 말합니다."
   },
   "mississippian_ceremonial": {
-    "name": "",
+    "name": "예식주의",
     "desc": "$mississippian_ceremonial$ $common_folk_religion_desc$"
   },
   "paiute_shamanism": {
-    "name": "",
+    "name": "푸하기미즘",
     "desc": "$paiute_shamanism$ $common_folk_religion_desc$"
   },
   "pomo_shamanism": {
@@ -1076,11 +1076,11 @@
     "desc": "$degar_religion$ $common_folk_religion_desc$"
   },
   "sanamahism": {
-    "name": "",
+    "name": "사나마히교",
     "desc": "$sanamahism$ $common_folk_religion_desc$"
   },
   "satsana_phi": {
-    "name": "",
+    "name": "삿사나 피",
     "desc": "$satsana_phi$ $common_folk_religion_desc$"
   },
   "maleiwa_religion": {
@@ -1171,65 +1171,11 @@
     "name": "조로아스터교",
     "desc": "자라투스트라라고도 불리는 조로아스터의 가르침을 따르는 고대 $iranian_group$의 종교로, 아베스타를 경전으로 삼습니다. 선과 악이라는 이원론적 우주론을 바탕으로 하며, 창조신 아후라 마즈다와 파괴의 악신인 앙그라 마이뉴가 벌이는 영원한 싸움과 끝끝내 찾아올 악에 맞선 선의 궁극적 승리를 예언합니다."
   },
-  "folk_melanesian_group": {
-    "name": "멜라네시아 민속 종교"
-  },
-  "folk_brazilian_group": {
-    "name": "브라질 민속 종교"
-  },
-  "folk_papuan_group": {
-    "name": "파푸아 민속 종교"
-  },
-  "folk_se_asian_group": {
-    "name": "동남아시아 민속 종교"
-  },
-  "yazidi_group": {
-    "name": "야지디교"
-  },
-  "folk_african_group": {
-    "name": "아프리카 민속 종교"
-  },
-  "folk_north_american_group": {
-    "name": "북아메리카 민속 종교"
-  },
-  "israelite_group": {
-    "name": "이스라엘"
-  },
-  "dharmic": {
-    "name": "다르마"
-  },
-  "buddhist": {
-    "name": "불교"
-  },
-  "manichaean_group": {
-    "name": "마니교"
-  },
-  "folk_argentinian_group": {
-    "name": "아르헨티나 민속 종교"
-  },
-  "folk_micronesian_group": {
-    "name": "미크로네시아 민속 종교"
-  },
-  "folk_caribbean_group": {
-    "name": "카리브해 민속 종교"
-  },
-  "folk_central_american_group": {
-    "name": "중앙아메리카 민속 종교"
-  },
-  "folk_south_american_group": {
-    "name": "남아메리카 민속 종교"
-  },
   "zoroastrian_group": {
     "name": "조로아스터교"
   },
-  "folk_polynesian_group": {
-    "name": "폴리네시아 민속 종교"
-  },
-  "christian": {
-    "name": "기독교"
-  },
-  "folk_aridoamerica_group": {
-    "name": "아리도아메리카 민속 종교"
+  "folk_north_american_group": {
+    "name": "북아메리카 민속 종교"
   },
   "muslim": {
     "name": "이슬람"
@@ -1237,25 +1183,516 @@
   "tonal_group": {
     "name": "토날 종교"
   },
-  "folk_european_group": {
-    "name": "유럽 민속 종교"
+  "mandean_group": {
+    "name": "만다야교"
+  },
+  "folk_micronesian_group": {
+    "name": "미크로네시아 민속 종교"
   },
   "folk_peruvian_group": {
     "name": "안데스 민속 종교"
   },
-  "folk_permic_group": {
-    "name": "페름 민속 종교"
+  "folk_papuan_group": {
+    "name": "파푸아 민속 종교"
   },
-  "mandean_group": {
-    "name": "만다야교"
+  "folk_argentinian_group": {
+    "name": "아르헨티나 민속 종교"
   },
-  "druze_group": {
-    "name": "드루즈"
+  "folk_aridoamerica_group": {
+    "name": "아리도아메리카 민속 종교"
+  },
+  "folk_south_american_group": {
+    "name": "남아메리카 민속 종교"
   },
   "folk_asian_group": {
     "name": "아시아 민속 종교"
   },
+  "folk_central_american_group": {
+    "name": "중앙아메리카 민속 종교"
+  },
+  "buddhist": {
+    "name": "불교"
+  },
+  "manichaean_group": {
+    "name": "마니교"
+  },
+  "folk_melanesian_group": {
+    "name": "멜라네시아 민속 종교"
+  },
+  "folk_caribbean_group": {
+    "name": "카리브해 민속 종교"
+  },
+  "folk_african_group": {
+    "name": "아프리카 민속 종교"
+  },
+  "folk_polynesian_group": {
+    "name": "폴리네시아 민속 종교"
+  },
+  "dharmic": {
+    "name": "다르마"
+  },
+  "folk_se_asian_group": {
+    "name": "동남아시아 민속 종교"
+  },
+  "yazidi_group": {
+    "name": "야지디교"
+  },
+  "folk_permic_group": {
+    "name": "페름 민속 종교"
+  },
+  "druze_group": {
+    "name": "드루즈"
+  },
+  "folk_european_group": {
+    "name": "유럽 민속 종교"
+  },
+  "christian": {
+    "name": "기독교"
+  },
+  "israelite_group": {
+    "name": "이스라엘"
+  },
   "folk_australian_group": {
     "name": "호주 민속 종교"
+  },
+  "folk_brazilian_group": {
+    "name": "브라질 민속 종교"
+  },
+  "india": {
+    "name": "인도"
+  },
+  "dharma": {
+    "name": "Dharma"
+  },
+  "christian_ADJ": {
+    "name": "기독교"
+  },
+  "daoism_policy": {
+    "name": "도교"
+  },
+  "chinese_group": {
+    "name": "중국"
+  },
+  "judaism_ADJ": {
+    "name": "유대교"
+  },
+  "character_title_guru": {
+    "name": "Guru"
+  },
+  "mandeaism_god_name": {
+    "name": "히아 르비아"
+  },
+  "mandeaism_ADJ": {
+    "name": "만다야교"
+  },
+  "nahua_group": {
+    "name": "나와"
+  },
+  "hussite_ADJ": {
+    "name": "후스파"
+  },
+  "inti_god": {
+    "name": "인티"
+  },
+  "asia": {
+    "name": "아시아"
+  },
+  "common_folk_religion_desc": {
+    "name": "신앙은 태곳적부터 신도들을 통해 유지되고 전승된 토착 신앙, 신화, 전통, 관습을 말합니다."
+  },
+  "sindh_area": {
+    "name": "신드"
+  },
+  "druzism_ADJ": {
+    "name": "드루즈"
+  },
+  "tlaloc_god": {
+    "name": "틀랄록"
+  },
+  "andes_region": {
+    "name": "the Andes"
+  },
+  "china": {
+    "name": "중국"
+  },
+  "catholic_ADJ": {
+    "name": "가톨릭"
+  },
+  "ismaili_school": {
+    "name": "이스마일파"
+  },
+  "lithuanian_group": {
+    "name": "리투아니아"
+  },
+  "confucianism_policy": {
+    "name": "유교"
+  },
+  "greek_culture": {
+    "name": "그리스"
+  },
+  "shamanism_ADJ": {
+    "name": "샤머니즘"
+  },
+  "huitzilopochtli_god": {
+    "name": "위칠로포치틀리"
+  },
+  "BOH": {
+    "name": "보헤미아"
+  },
+  "japan_region": {
+    "name": "일본"
+  },
+  "sutra": {
+    "name": "수트라"
+  },
+  "viracocha": {
+    "name": "비라코차"
+  },
+  "miaphysite_ADJ": {
+    "name": "오리엔트 정교회"
+  },
+  "strigolniki_ADJ": {
+    "name": "스트리골니체스트보"
+  },
+  "imamate": {
+    "name": "이맘국"
+  },
+  "germanic_language_family": {
+    "name": "게르만어"
+  },
+  "shia_ADJ": {
+    "name": "시아파"
+  },
+  "vaishnavism": {
+    "name": "비슈누파"
+  },
+  "sapmi": {
+    "name": "사미"
+  },
+  "quetzalcoatl_god": {
+    "name": "케찰코아틀"
+  },
+  "tengri_god_name": {
+    "name": "텡그리"
+  },
+  "rank_empire_muslim_ruler_male": {
+    "name": "Caliph"
+  },
+  "russian_region": {
+    "name": "Russia"
+  },
+  "finnish_language": {
+    "name": "핀어"
+  },
+  "scandinavian_region": {
+    "name": "Scandinavia"
+  },
+  "SECT_NYIGMA_NAME": {
+    "name": "Nyingma"
+  },
+  "shaivism": {
+    "name": "시바파"
+  },
+  "tibet_region": {
+    "name": "Tibet"
+  },
+  "BYZ_ADJ": {
+    "name": "비잔티움"
+  },
+  "japanese_group": {
+    "name": "일본"
+  },
+  "bodhisattva": {
+    "name": "보살"
+  },
+  "dharmic_ADJ": {
+    "name": "다르마"
+  },
+  "nahuatl_god_name": {
+    "name": "테오틀"
+  },
+  "orthodox_ADJ": {
+    "name": "정교회"
+  },
+  "lutheran_ADJ": {
+    "name": "루터교"
+  },
+  "samaritan_culture": {
+    "name": "사마리아"
+  },
+  "shaktism": {
+    "name": "샤크티파"
+  },
+  "waldensian_ADJ": {
+    "name": "발도파"
+  },
+  "iranian_group": {
+    "name": "이란"
+  },
+  "muslim_ADJ": {
+    "name": "이슬람"
+  },
+  "mongolian_group": {
+    "name": "몽골"
+  },
+  "paulicianism_ADJ": {
+    "name": "바오로파"
+  },
+  "turkic_group": {
+    "name": "튀르크"
+  },
+  "hindu_ADJ": {
+    "name": "힌두교"
+  },
+  "ibadi_school_desc": {
+    "name": "카와리즈파의 후예로 여겨지는 종파로, 처음에는 알리 이븐 아비 탈리브를 지지했지만 이후에는 그의 중재를 거부했습니다. 는 아브드 알라 이븐 이바드를 따르는 카와리즈파와 거리를 두며 훨씬 온건한 노선을 걸었습니다. 다른 종파에 대해서도 더 긍정적인 입장을 견지했으며, 실제로 다른 많은 종파들과 유사점을 공유하고 있습니다."
+  },
+  "europe": {
+    "name": "유럽"
+  },
+  "sikhism_god_name": {
+    "name": "이크 온카르"
+  },
+  "buddhist_ADJ": {
+    "name": "불교"
+  },
+  "smartism": {
+    "name": "스마르타파"
+  },
+  "_modifier_names": {
+    "allow_harmony": "조화 활성화",
+    "allow_mysticism_vs_jurisprudence": "허용",
+    "allow_open_sea_exploration": "공해 탐사 허용",
+    "allow_righteousness": "인의 활성화",
+    "allow_self_control": "self control 활성화",
+    "any_pop_can_be_slave": "무제한 노예제",
+    "army_auxiliary_maintenance_cost_modifier": "유지 비용",
+    "army_cavalry_power": "위력",
+    "army_disembark_speed": "지상군 상륙 속도",
+    "army_infantry_power": "위력",
+    "army_initiative": "지상군 주도권",
+    "army_movement_speed": "지상군 이동 속도",
+    "army_reinforce_cost": "지상군 증원 비용",
+    "auto_slave_raid_different_religion": "종교적 적대 세력 노예사냥",
+    "ban_imports_of_beer": "수입 금지",
+    "ban_imports_of_liquor": "수입 금지",
+    "ban_imports_of_wine": "수입 금지",
+    "block_from_change_to_empire_rank_catholic": "교황청의 제국 금지",
+    "can_have_monasteries": "수도원 허용",
+    "cannot_declare_no_cb_wars": "명분 없이 전쟁 선포 불가",
+    "cannot_declare_no_cb_wars_on_religion_head": "전쟁 명분 없이 종교 수장에게 전쟁 선포 불가",
+    "clergy_estate_max_tax": "성직자 계층에 대한 최고 세율",
+    "clergy_estate_target_satisfaction": "성직자 계층 만족도 평형",
+    "country_cabinet_efficiency": "자국 내각 효율",
+    "cultural_influence_modifier": "문화 영향력 %",
+    "cultural_tradition_modifier": "문화 전통 %",
+    "discipline": "군율",
+    "enable_doom": "종말",
+    "expand_rgo_farming_cost_modifier": "농사 확대 비용",
+    "expand_rgo_forestry_cost_modifier": "벌목 확대 비용",
+    "exploration_maintenance_cost": "탐사 비용",
+    "food_consumption_modifier": "부대 식량 소비량",
+    "gender_equality": "양성평등",
+    "global_build_buildings_cost": "건물 비용",
+    "global_burghers_estate_power": "도시민 행사력",
+    "global_clergy_estate_power": "성직자 행사력",
+    "global_clergy_max_literacy": "성직자 최대 문해력",
+    "global_defensive": "요새 방어력",
+    "global_estate_target_satisfaction": "계층 만족도 평형",
+    "global_hostile_attrition": "적대 소모",
+    "global_levy_size_modifier": "징집군 규모",
+    "global_max_literacy": "최대 문해력",
+    "global_may_build_nahuatl_units": "독수리 전사 및 재규어 전사 생산 가능",
+    "global_merchant_power": "교역 우위",
+    "global_migration_speed_modifier": "팝 이주 속도",
+    "global_monthly_art_start_chance": "예술가 월간 착수 확률",
+    "global_monthly_development": "월간 개발",
+    "global_monthly_food_modifier": "식량 생산 %",
+    "global_monthly_literacy": "월간 문해력",
+    "global_nobles_estate_power": "귀족 행사력",
+    "global_peasants_estate_power": "농민 행사력",
+    "global_pop_conversion_speed_modifier": "팝 개종 속도 %",
+    "global_pop_food_consumption": "팝 식량 소비량",
+    "global_pop_promotion_speed_modifier": "팝 승격 속도 %",
+    "global_population_capacity_modifier": "인구 한도 %",
+    "global_sailors_modifier": "선원",
+    "global_separatism": "분리주의",
+    "global_trade_protection_factor": "시장 보호",
+    "global_wild_game_output_modifier": "생산량",
+    "is_battles_preordained": "모든 것은 예정된 대로",
+    "land_morale_attrition_cost": "지상군 사기 소모 비용",
+    "land_morale_modifier": "지상군 사기",
+    "land_unit_attrition": "지상군 소모",
+    "levy_combat_efficiency_modifier": "징집군 전투 효율",
+    "levy_recovery_modifier": "징집군 회복력",
+    "maximum_religious_influence": "최대 종교적 영향력",
+    "merchant_maintenance_cost": "교역 유지비",
+    "monthly_karma": "월간 카르마",
+    "monthly_legitimacy": "월간 정통성",
+    "monthly_prestige": "월간 위상",
+    "monthly_religious_influence": "월간 종교적 영향력",
+    "monthly_war_exhaustion": "월간 전쟁 피로도",
+    "movement_speed_if_no_road": "도로 부재 시 이동 속도",
+    "naval_morale_attrition_cost": "해상군 사기 소모 비용",
+    "navy_initiative": "해상군 주도권",
+    "navy_maintenance_cost": "해상군 유지비",
+    "navy_movement_speed": "해상군 이동 속도",
+    "nobles_estate_target_satisfaction": "귀족 계층 만족도 평형",
+    "number_of_allowed_religious_figures": "종교계 인물 허용",
+    "prestige_from_land_battle": "지상 전투로 인한 위상",
+    "research_speed_modifier": "월간 연구 진행도 %",
+    "retreat_delay": "후퇴 지연",
+    "ship_build_speed": "조선 속도",
+    "skill_of_new_artists": "신인 예술가 기예",
+    "stability_cost": "안정도 투자 비용",
+    "stability_investment": "안정도 투자",
+    "tax_income_efficiency": "징세 효율",
+    "tolerance_heathen": "이교 신앙 관용도",
+    "tolerance_heretic": "이단 신앙 관용도",
+    "tolerance_own": "참 신앙 관용도",
+    "trade_efficiency": "교역 효율",
+    "trade_range_modifier": "교역 범위",
+    "trade_sea_movement_cost_modifier": "바다 경유 시 교역 범위 사용"
+  },
+  "_modifier_descs": {
+    "allow_harmony": "조화 메커니즘을 활성화합니다.",
+    "allow_mysticism_vs_jurisprudence": "해당 국가가 mysticism와 jurisprudence라는 가치관 사이에서 정립될 수 있게 합니다.",
+    "allow_open_sea_exploration": "국가가 공해 권역 탐사를 시작할 수 있게 됩니다.",
+    "allow_righteousness": "인의 메커니즘을 활성화합니다.",
+    "allow_self_control": "자기 통제 메커니즘을 활성화합니다.",
+    "any_pop_can_be_slave": "노예로 사로잡히거나 매매된 팝은 노예로 남게 됩니다.",
+    "army_auxiliary_maintenance_cost_modifier": "지상군 auxiliary를 유지하는 데 드는 비용에 영향을 줍니다.",
+    "army_cavalry_power": "지상군 cavalry 연대의 전투 능력에 영향을 줍니다.",
+    "army_disembark_speed": "해상군이 수송 중인 지상군이 인접한 지점으로 상륙하는 속도에 영향을 줍니다.",
+    "army_infantry_power": "지상군 infantry 연대의 전투 능력에 영향을 줍니다.",
+    "army_initiative": "전투 중인 연대의 주도권에 영향을 줍니다.",
+    "army_movement_speed": "지상군이 지점 사이를 이동하는 속도에 영향을 줍니다.",
+    "army_reinforce_cost": "연대 증원에 필요한 두카트와 인력의 양에 영향을 줍니다.",
+    "auto_slave_raid_different_religion": "지상군이 지점을 점령할 때, 종교군이 다른 현지의 모든 팝 중 일부를 노예로 삼는 것을 허용합니다.",
+    "ban_imports_of_beer": "국가 소유의 모든 시장에서 맥주 수입을 막습니다.",
+    "ban_imports_of_liquor": "국가 소유의 모든 시장에서 증류주 수입을 막습니다.",
+    "ban_imports_of_wine": "국가 소유의 모든 시장에서 와인 수입을 막습니다.",
+    "block_from_change_to_empire_rank_catholic": "이 존재하는 한, 국가가 국가 등급을 rank empire으로 승격하는 것이 금지됩니다.",
+    "can_have_monasteries": "국가의 monastery 보유 가능 여부에 영향을 줍니다.",
+    "cannot_declare_no_cb_wars": "적절한 전쟁 명분 없이 전쟁을 선포하는 것을 금지합니다.",
+    "cannot_declare_no_cb_wars_on_religion_head": "우리 종교 수장에게 적절한 전쟁 명분 없이 전쟁을 선포하는 것을 금지합니다.",
+    "clergy_estate_max_tax": "성직자에게 징수하는 최고 세율에 영향을 줍니다.",
+    "clergy_estate_target_satisfaction": "이 국가에 있는 성직자의 만족도 평형에 영향을 줍니다.",
+    "country_cabinet_efficiency": "국가의 내각에 있는 모든 인물의 내각 효율에 영향을 줍니다.",
+    "cultural_influence_modifier": "우리 주 문화의 문화 영향력에 영향을 줍니다.",
+    "cultural_tradition_modifier": "우리 주 문화의 문화 전통에 영향을 줍니다.",
+    "discipline": "연대의 군율에 영향을 줍니다.",
+    "enable_doom": "국가가 종말을 겪는지를 결정합니다.",
+    "expand_rgo_farming_cost_modifier": "농장이 필요한 원자재로 작업하는 팝을 늘리는 데 드는 비용에 영향을 줍니다. 농사를 이용하는 원자재。",
+    "expand_rgo_forestry_cost_modifier": "벌목이 필요한 원자재로 작업하는 팝을 늘리는 데 드는 비용에 영향을 줍니다. 벌목을 이용하는 원자재。",
+    "exploration_maintenance_cost": "탐사 비용에 영향을 줍니다.",
+    "food_consumption_modifier": "부대가 매달 소비하는 식량의 양에 영향을 줍니다.",
+    "gender_equality": "여성이 남성과 동일한 역할에 임명될 수 있는지 여부에 영향을 줍니다.",
+    "global_build_buildings_cost": "국가 내 모든 지점에서 건물을 건설하는 데 드는 비용에 영향을 줍니다.",
+    "global_burghers_estate_power": "국가 전체의 도시민 계층 행사력에 영향을 줍니다.",
+    "global_clergy_estate_power": "국가 전체의 성직자 계층 행사력에 영향을 줍니다.",
+    "global_clergy_max_literacy": "이 국가에 있는 모든 clergy의 문해력에 영향을 줍니다.",
+    "global_defensive": "국가를 상대로 한 공성전 진행 속도에 영향을 줍니다.",
+    "global_estate_target_satisfaction": "국가 내 모든 계층의 만족도 평형에 영향을 줍니다.",
+    "global_hostile_attrition": "우리가 소유 및 지배 중인 모든 지점에 있는 적대 지상군의 소모에 영향을 줍니다.",
+    "global_levy_size_modifier": "국가의 팝으로 형성되는 징집 지상군 또는 징집 해상군의 규모에 영향을 줍니다.",
+    "global_max_literacy": "국가 내 모든 팝의 최대 문해력에 영향을 줍니다.",
+    "global_may_build_nahuatl_units": "a jaguar warrior와 a eagle warrior를 모집할 수 있게 됩니다.",
+    "global_merchant_power": "국가가 얻는 교역 우위의 양에 영향을 줍니다.",
+    "global_migration_speed_modifier": "국가 내 모든 지점에서 팝이 이주하는 속도에 영향을 줍니다.",
+    "global_monthly_art_start_chance": "국가 내 예술가들이 새 예술품 창작을 시작할 확률에 영향을 줍니다.",
+    "global_monthly_development": "국가 내 모든 지점의 월간 개발 변동량에 영향을 줍니다.",
+    "global_monthly_food_modifier": "국가 내 모든 지점에서 생산되는 식량의 양에 영향을 줍니다.",
+    "global_monthly_literacy": "국가 내 팝의 문해력 변동량에 영향을 줍니다.",
+    "global_nobles_estate_power": "국가 전체의 귀족 계층 행사력에 영향을 줍니다.",
+    "global_peasants_estate_power": "국가 전체의 평민 계층 행사력에 영향을 줍니다.",
+    "global_pop_conversion_speed_modifier": "국가 내 모든 지점에서 팝이 개종하는 속도에 영향을 줍니다.",
+    "global_pop_food_consumption": "국가 전체의 팝이 소비하는 식량의 양에 영향을 줍니다.",
+    "global_pop_promotion_speed_modifier": "국가 내 모든 지점에서 팝이 승격되는 속도에 영향을 줍니다.",
+    "global_population_capacity_modifier": "이 국가의 모든 지점에 거주할 수 있는 팝 수에 영향을 줍니다.",
+    "global_sailors_modifier": "국가가 얻는 선원 수에 영향을 줍니다.",
+    "global_separatism": "국가 내 모든 지점의 분리주의에 영향을 줍니다.",
+    "global_trade_protection_factor": "시장 보호는 해외 시장이 지점에서 갖는 시장 매력도를 직접적으로 감소시켜, 그 지점이 소유국의 시장에 편입될 가능성을 높입니다. 시장 보호 1점은 모든 외국 시장의 시장 매력도 1점을 상쇄합니다.",
+    "global_wild_game_output_modifier": "국가 전체의 wild game 생산량을 조정합니다.",
+    "is_battles_preordained": "국가가 전투에서 D10 주사위를 다시 굴리지 않게 합니다.",
+    "land_morale_attrition_cost": "지상군이 소모를 겪는 동안 매일 손실되는 사기의 양에 영향을 줍니다.",
+    "land_morale_modifier": "연대가 보유할 수 있는 최대 사기를 일정 비율만큼 조정합니다.",
+    "land_unit_attrition": "연대가 겪는 소모의 양에 영향을 줍니다.",
+    "levy_combat_efficiency_modifier": "징집군 연대의 전투 수행 효율에 영향을 줍니다.",
+    "levy_recovery_modifier": "이 국가에서 징집군이 회복되는 속도에 영향을 줍니다.",
+    "maximum_religious_influence": "국가가 미래를 대비해 저장할 수 있는 종교적 영향력의 양에 영향을 줍니다.",
+    "merchant_maintenance_cost": "교역하는 데 드는 상인 비용에 영향을 줍니다.",
+    "monthly_karma": "국가가 매달 얻는 카르마의 양에 영향을 줍니다.",
+    "monthly_legitimacy": "국가가 매달 얻는 정통성의 양에 영향을 줍니다.",
+    "monthly_prestige": "매달 얻는 위상의 양에 영향을 줍니다.",
+    "monthly_religious_influence": "국가가 매달 얻는 종교적 영향력의 양에 영향을 줍니다.",
+    "monthly_war_exhaustion": "매달 발생하는 전쟁 피로도의 양에 영향을 줍니다.",
+    "movement_speed_if_no_road": "지상군이 도로가 없는 지점 사이를 이동하는 속도에 영향을 줍니다.",
+    "naval_morale_attrition_cost": "해상군이 소모를 겪는 동안 매일 손실되는 사기의 양에 영향을 줍니다.",
+    "navy_initiative": "전투 중인 함선의 주도권에 영향을 줍니다.",
+    "navy_maintenance_cost": "함선을 유지하는 데 필요한 두카트와 선원의 양을 변경합니다.",
+    "navy_movement_speed": "해상군이 해역 사이를 이동하는 속도에 영향을 줍니다.",
+    "nobles_estate_target_satisfaction": "이 국가에 있는 귀족의 만족도 평형에 영향을 줍니다.",
+    "number_of_allowed_religious_figures": "종교계 인물 메커니즘을 활성화하고 초빙할 수 있는 인원수를 설정합니다.",
+    "prestige_from_land_battle": "국가가 전투에 참여한 지상군으로부터 얻는 위상의 양에 영향을 줍니다.",
+    "research_speed_modifier": "국가의 연구 진행도 생성에 영향을 줍니다.",
+    "retreat_delay": "부대가 후퇴하기까지 전투에 묶여 있는 시간에 영향을 줍니다.",
+    "ship_build_speed": "국가에서 함선을 건조하는 속도에 영향을 줍니다.",
+    "skill_of_new_artists": "신인 예술가의 기예에 영향을 줍니다.",
+    "stability_cost": "안정도 투자의 비용에 영향을 줍니다.",
+    "stability_investment": "수지에서 얻는 안정도 투자에 보너스나 불이익을 부여합니다.",
+    "tax_income_efficiency": "국가의 징세 효율에 영향을 줍니다.",
+    "tolerance_heathen": "주 종교와 종교군이 다른 종교에 대한 관용도에 영향을 줍니다.",
+    "tolerance_heretic": "주 종교와 종교군이 같은 종교에 대한 관용도에 영향을 줍니다.",
+    "tolerance_own": "주 종교의 관용도에 영향을 줍니다.",
+    "trade_efficiency": "교역 효율은 교역의 수익성을 결정하는 보정치로, 대상 시장에서의 재화 판매 가격에 직접적인 영향을 줍니다.",
+    "trade_range_modifier": "국가의 교역 범위에 영향을 줍니다.",
+    "trade_sea_movement_cost_modifier": "국가가 해역을 경유할 때 교역 범위 영역에 영향을 줍니다."
+  },
+  "_mechanic_names": {
+    "has_karma": "카르마",
+    "has_purity": "순결",
+    "has_honor": "명예",
+    "has_yanantin": "야난틴",
+    "has_religious_influence": "종교적 영향력",
+    "has_canonization": "시성",
+    "has_autocephalous_patriarchates": "독립 총대교구",
+    "has_patriarchs": "총대주교",
+    "has_religious_head": "종교 수장",
+    "has_cardinals": "추기경",
+    "has_rite_power": "의례 행사력",
+    "has_avatars": "화신",
+    "needs_reform": "개혁 욕구",
+    "use_icons": "Icon Painting",
+    "culture_locked": "Culture Locked"
+  },
+  "_mechanic_descs": {
+    "has_karma": "카르마는 국가의 과거 행적을 반영하는 지표로, -100에서 +100 사이의 값으로 표시됩니다. 카르마는 -33에서 +33 사이의 균형 상태에 있을 때 국가에 가장 큰 혜택을 제공합니다.",
+    "has_purity": "순결은 국가가 신토의 가치관상 얼마나 부정을 멀리하고 있는지 나타내는 개념입니다. 전투에서 사람을 해치거나 잃었을 때, 또는 전염병 등으로 인해 시체나 피처럼 부정한 것을 가까이했을 때 순결이 감소합니다. 반대로 성지로 순례를 떠나거나 종교적 자살 등 종교 행위를 수행하면 순결이 증가합니다.",
+    "has_honor": "우리 국가가 국민의 눈에 얼마나 명예롭게 비치는지를 나타냅니다. 명예는 국가의 순결이 낮으면 감소하고, 75보다 높을 경우 증가합니다. 그 외 종교 및 외교 행동도 명예에 영향을 줄 수 있습니다.",
+    "has_yanantin": "야난틴은 상호 보완적이면서도 상극인 두 존재 사이의 균형을 의미합니다. andean group 문화의 사고방식에 따르면 남성, 어둠, 태양 등의 존재가 이를 보완해 주는 존재인 여성, 빛, 달 등을 만나 함께할 때 진정한 조화를 이룰 수 있다고 합니다.",
+    "has_religious_influence": "종교적 영향력은 국가가 주 종교와 상호 작용하고 해당 종교와 관련된 사안에 영향력을 행사할 수 있는 능력을 나타내는 수치입니다. 그 쓰임새와 획득 방법은 종교마다 다릅니다.",
+    "has_canonization": "국가의 통치자였던 인물은 시성을 받아 성인으로 추서될 수 있습니다. 이 경우 해당 국가에는 추가 혜택이 주어지며, 혜택의 규모는 성인이 된 인물이 생전에 지녔던 능력에 따라 결정됩니다.",
+    "has_religious_head": "종교의 종파를 이끌거나 대표하는 인물을 의미합니다.",
+    "has_rite_power": "의례 행사력은 독립 총대교구의 수장국인 국가가 다양한 법률을 선택해 그 종교를 변화시킬 수 있는 능력을 나타내는 수치입니다.",
+    "needs_reform": "가톨릭교는 올바른 교리와 그릇된 교리, 진정한 믿음과 잘못된 믿음을 가르기 위한 갈등으로 내분을 겪고 있습니다. 시간이 지날수록 개혁 욕구는 더 커지고 가톨릭의 교리에 관한 향후 논의에도 영향을 줄 것입니다."
+  },
+  "_language_names": {
+    "japanese_language": "일본어",
+    "classical_arabic_dialect": "고전 아랍어",
+    "pali_language": "팔리어",
+    "czech_dialect": "체코어",
+    "church_slavonic_language": "교회 슬라브어",
+    "sanskrit_language": "산스크리트어",
+    "aramaic_language": "아람어",
+    "kurdish_language": "쿠르드어",
+    "persian_language": "페르시아어",
+    "levantine_dialect": "레반트어",
+    "iraqi_dialect": "이라크어",
+    "tibetan_language": "티베트어",
+    "hebrew_language": "히브리어",
+    "latin_language": "라틴어",
+    "classical_chinese_language": "한문어",
+    "russian_dialect": "러시아어"
   }
 }

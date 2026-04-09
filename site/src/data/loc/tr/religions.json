@@ -376,7 +376,7 @@
     "desc": "$dongba_religion$ $common_folk_religion_desc$"
   },
   "bimoism": {
-    "name": "",
+    "name": "Bimoizm",
     "desc": "$bimoism$ $common_folk_religion_desc$"
   },
   "ka_niam_khasi_religion": {
@@ -592,15 +592,15 @@
     "desc": "$chukchi_shamanism$ $common_folk_religion_desc$"
   },
   "hmongism": {
-    "name": "",
+    "name": "Hmongizm",
     "desc": "$hmongism$ $common_folk_religion_desc$"
   },
   "moism": {
-    "name": "",
+    "name": "Mohizm",
     "desc": "$moism$ $common_folk_religion_desc$"
   },
   "rmaism": {
-    "name": "",
+    "name": "Rmaizm",
     "desc": "$rmaism$ $common_folk_religion_desc$"
   },
   "shamanism": {
@@ -696,7 +696,7 @@
     "desc": "$karachay_balkar_paganism$ $common_folk_religion_desc$"
   },
   "khabzeism": {
-    "name": "",
+    "name": "Habzeizm",
     "desc": "$khabzeism$ $common_folk_religion_desc$"
   },
   "lezgin_paganism": {
@@ -812,11 +812,11 @@
     "desc": "$dene_religion$ $common_folk_religion_desc$"
   },
   "midewiwin_religion": {
-    "name": "",
+    "name": "Midewiwin",
     "desc": "$midewiwin_religion$ $common_folk_religion_desc$"
   },
   "dene_shamanism": {
-    "name": "",
+    "name": "Atabaşkanizm",
     "desc": "$dene_shamanism$ $common_folk_religion_desc$"
   },
   "dene_totemism": {
@@ -824,19 +824,19 @@
     "desc": "$dene_totemism$ $common_folk_religion_desc$"
   },
   "great_plains_shamanism": {
-    "name": "",
+    "name": "Wakanizm",
     "desc": "$great_plains_shamanism$ $common_folk_religion_desc$"
   },
   "iroquoian_totemism": {
-    "name": "",
+    "name": "Orendizm",
     "desc": "$iroquoian_totemism$ $common_folk_religion_desc$"
   },
   "mississippian_ceremonial": {
-    "name": "",
+    "name": "Törencilik",
     "desc": "$mississippian_ceremonial$ $common_folk_religion_desc$"
   },
   "paiute_shamanism": {
-    "name": "",
+    "name": "Puhagimizm",
     "desc": "$paiute_shamanism$ $common_folk_religion_desc$"
   },
   "pomo_shamanism": {
@@ -1076,11 +1076,11 @@
     "desc": "$degar_religion$ $common_folk_religion_desc$"
   },
   "sanamahism": {
-    "name": "",
+    "name": "Sanamahizm",
     "desc": "$sanamahism$ $common_folk_religion_desc$"
   },
   "satsana_phi": {
-    "name": "",
+    "name": "Satsana Phi",
     "desc": "$satsana_phi$ $common_folk_religion_desc$"
   },
   "maleiwa_religion": {
@@ -1171,65 +1171,11 @@
     "name": "Zerdüştlük",
     "desc": "Zerdüşt veya diğer ismiyle Zarathustra'nın öğretilerini ve Avesta metinlerini takip eden eski bir $iranian_group$ dinidir. İyilik ve kötülük arasındaki ebedî çatışma ile tanrı Ahura Mazda ve yıkıcı ruh Angra Mainyu'nun karşıtlığını içeren ikili bir kozmolojiye dayanır ve nihayetinde iyiliğin kötülük üzerinde zafer kazanacağını öngörür."
   },
-  "folk_melanesian_group": {
-    "name": "Melanezya Halk İnançları"
-  },
-  "folk_brazilian_group": {
-    "name": "Brezilya Halk İnançları"
-  },
-  "folk_papuan_group": {
-    "name": "Papua Halk İnançları"
-  },
-  "folk_se_asian_group": {
-    "name": "Güneydoğu Asya Halk İnançları"
-  },
-  "yazidi_group": {
-    "name": "Yezidi"
-  },
-  "folk_african_group": {
-    "name": "Afrika Halk İnançları"
-  },
-  "folk_north_american_group": {
-    "name": "Kuzey Amerika Halk İnançları"
-  },
-  "israelite_group": {
-    "name": "İsrailoğulları"
-  },
-  "dharmic": {
-    "name": "Dharma"
-  },
-  "buddhist": {
-    "name": "Budizm"
-  },
-  "manichaean_group": {
-    "name": "Manicilik"
-  },
-  "folk_argentinian_group": {
-    "name": "Arjantin Halk İnançları"
-  },
-  "folk_micronesian_group": {
-    "name": "Mikronezya Halk İnançları"
-  },
-  "folk_caribbean_group": {
-    "name": "Karayipler Halk İnançları"
-  },
-  "folk_central_american_group": {
-    "name": "Orta Amerika Halk İnançları"
-  },
-  "folk_south_american_group": {
-    "name": "Güney Amerika Halk İnançları"
-  },
   "zoroastrian_group": {
     "name": "Zerdüştçülük"
   },
-  "folk_polynesian_group": {
-    "name": "Polinezya Halk İnançları"
-  },
-  "christian": {
-    "name": "Hristiyanlık"
-  },
-  "folk_aridoamerica_group": {
-    "name": "Aridoamerika Halk İnançları"
+  "folk_north_american_group": {
+    "name": "Kuzey Amerika Halk İnançları"
   },
   "muslim": {
     "name": "İslam"
@@ -1237,25 +1183,516 @@
   "tonal_group": {
     "name": "Tonal İnançları"
   },
-  "folk_european_group": {
-    "name": "Avrupa Halk İnançları"
+  "mandean_group": {
+    "name": "Sâbiî"
+  },
+  "folk_micronesian_group": {
+    "name": "Mikronezya Halk İnançları"
   },
   "folk_peruvian_group": {
     "name": "And Halk İnançları"
   },
-  "folk_permic_group": {
-    "name": "Perm Halk İnançları"
+  "folk_papuan_group": {
+    "name": "Papua Halk İnançları"
   },
-  "mandean_group": {
-    "name": "Sâbiî"
+  "folk_argentinian_group": {
+    "name": "Arjantin Halk İnançları"
   },
-  "druze_group": {
-    "name": "Dürzî"
+  "folk_aridoamerica_group": {
+    "name": "Aridoamerika Halk İnançları"
+  },
+  "folk_south_american_group": {
+    "name": "Güney Amerika Halk İnançları"
   },
   "folk_asian_group": {
     "name": "Asya Halk İnançları"
   },
+  "folk_central_american_group": {
+    "name": "Orta Amerika Halk İnançları"
+  },
+  "buddhist": {
+    "name": "Budizm"
+  },
+  "manichaean_group": {
+    "name": "Manicilik"
+  },
+  "folk_melanesian_group": {
+    "name": "Melanezya Halk İnançları"
+  },
+  "folk_caribbean_group": {
+    "name": "Karayipler Halk İnançları"
+  },
+  "folk_african_group": {
+    "name": "Afrika Halk İnançları"
+  },
+  "folk_polynesian_group": {
+    "name": "Polinezya Halk İnançları"
+  },
+  "dharmic": {
+    "name": "Dharma"
+  },
+  "folk_se_asian_group": {
+    "name": "Güneydoğu Asya Halk İnançları"
+  },
+  "yazidi_group": {
+    "name": "Yezidi"
+  },
+  "folk_permic_group": {
+    "name": "Perm Halk İnançları"
+  },
+  "druze_group": {
+    "name": "Dürzî"
+  },
+  "folk_european_group": {
+    "name": "Avrupa Halk İnançları"
+  },
+  "christian": {
+    "name": "Hristiyanlık"
+  },
+  "israelite_group": {
+    "name": "İsrailoğulları"
+  },
   "folk_australian_group": {
     "name": "Avustralya Halk İnançları"
+  },
+  "folk_brazilian_group": {
+    "name": "Brezilya Halk İnançları"
+  },
+  "india": {
+    "name": "Hindistan"
+  },
+  "dharma": {
+    "name": "Dharma"
+  },
+  "christian_ADJ": {
+    "name": "Hristiyan"
+  },
+  "daoism_policy": {
+    "name": "Taoizm"
+  },
+  "chinese_group": {
+    "name": "Çin"
+  },
+  "judaism_ADJ": {
+    "name": "Musevi"
+  },
+  "character_title_guru": {
+    "name": "Guru"
+  },
+  "mandeaism_god_name": {
+    "name": "Hayyi Rabbi"
+  },
+  "mandeaism_ADJ": {
+    "name": "Sâbiî"
+  },
+  "nahua_group": {
+    "name": "Nahua"
+  },
+  "hussite_ADJ": {
+    "name": "Hussit"
+  },
+  "inti_god": {
+    "name": "İnti"
+  },
+  "asia": {
+    "name": "Asya"
+  },
+  "common_folk_religion_desc": {
+    "name": "dini, tarihin başlangıcından beri takipçileri tarafından sürdürülen ve nesilden nesle aktarılan yerli inançları, mitolojiyi, gelenekleri ve uygulamaları ifade eder."
+  },
+  "sindh_area": {
+    "name": "Sind"
+  },
+  "druzism_ADJ": {
+    "name": "Dürzî"
+  },
+  "tlaloc_god": {
+    "name": "Tláloc"
+  },
+  "andes_region": {
+    "name": "the Andes"
+  },
+  "china": {
+    "name": "Çin"
+  },
+  "catholic_ADJ": {
+    "name": "Katolik"
+  },
+  "ismaili_school": {
+    "name": "İsmâilî"
+  },
+  "lithuanian_group": {
+    "name": "Litvanyalı"
+  },
+  "confucianism_policy": {
+    "name": "Konfüçyüsçülük"
+  },
+  "greek_culture": {
+    "name": "Yunan"
+  },
+  "shamanism_ADJ": {
+    "name": "Şamanist"
+  },
+  "huitzilopochtli_god": {
+    "name": "Huītzilōpōchtli"
+  },
+  "BOH": {
+    "name": "Bohemya"
+  },
+  "japan_region": {
+    "name": "Japonya"
+  },
+  "sutra": {
+    "name": "Sutra"
+  },
+  "viracocha": {
+    "name": "Viracocha"
+  },
+  "miaphysite_ADJ": {
+    "name": "Miafizit"
+  },
+  "strigolniki_ADJ": {
+    "name": "Strigolnik"
+  },
+  "imamate": {
+    "name": "İmamlık"
+  },
+  "germanic_language_family": {
+    "name": "Cermen"
+  },
+  "shia_ADJ": {
+    "name": "Şii"
+  },
+  "vaishnavism": {
+    "name": "Vaişnavizm"
+  },
+  "sapmi": {
+    "name": "Sami"
+  },
+  "quetzalcoatl_god": {
+    "name": "Quetzalcōātl"
+  },
+  "tengri_god_name": {
+    "name": "Tengri"
+  },
+  "rank_empire_muslim_ruler_male": {
+    "name": "Caliph"
+  },
+  "russian_region": {
+    "name": "Russia"
+  },
+  "finnish_language": {
+    "name": "Fince"
+  },
+  "scandinavian_region": {
+    "name": "Scandinavia"
+  },
+  "SECT_NYIGMA_NAME": {
+    "name": "Nyingma"
+  },
+  "shaivism": {
+    "name": "Şaivizm"
+  },
+  "tibet_region": {
+    "name": "Tibet"
+  },
+  "BYZ_ADJ": {
+    "name": "Bizans"
+  },
+  "japanese_group": {
+    "name": "Japon"
+  },
+  "bodhisattva": {
+    "name": "Bodhisattva"
+  },
+  "dharmic_ADJ": {
+    "name": "Dharma"
+  },
+  "nahuatl_god_name": {
+    "name": "Teotl"
+  },
+  "orthodox_ADJ": {
+    "name": "Ortodoks"
+  },
+  "lutheran_ADJ": {
+    "name": "Lüterci"
+  },
+  "samaritan_culture": {
+    "name": "Samiriyeli"
+  },
+  "shaktism": {
+    "name": "Şaktizm"
+  },
+  "waldensian_ADJ": {
+    "name": "Valdocu"
+  },
+  "iranian_group": {
+    "name": "İranlı"
+  },
+  "muslim_ADJ": {
+    "name": "Müslüman"
+  },
+  "mongolian_group": {
+    "name": "Moğol"
+  },
+  "paulicianism_ADJ": {
+    "name": "Pavlusçu"
+  },
+  "turkic_group": {
+    "name": "Türk"
+  },
+  "hindu_ADJ": {
+    "name": "Hindu"
+  },
+  "ibadi_school_desc": {
+    "name": "İlk başta Hz. Ali’nin destekçileri olan ancak daha sonra hakemliği reddeden Hâricîlerin soyundan geldiklerine inanılır. Abdullah bin İbâd önderliğinde ekolü, çeşitli kollara karşı ılımlı ve yapıcı yaklaşımıyla Hâricîlerden uzaklaşmış ve birçok diğer ekole yakınlaşmıştır."
+  },
+  "europe": {
+    "name": "Avrupa"
+  },
+  "sikhism_god_name": {
+    "name": "İk Onkar"
+  },
+  "buddhist_ADJ": {
+    "name": "Budist"
+  },
+  "smartism": {
+    "name": "Smartizm"
+  },
+  "_modifier_names": {
+    "allow_harmony": "Ahengi Etkinleştir",
+    "allow_mysticism_vs_jurisprudence": "a izin ver",
+    "allow_open_sea_exploration": "Açık Deniz Keşfine İzin Verilir",
+    "allow_righteousness": "Erdemi Etkinleştir",
+    "allow_self_control": "İradeyi Etkinleştir",
+    "any_pop_can_be_slave": "Daimî Kölelik",
+    "army_auxiliary_maintenance_cost_modifier": "Bakım Maliyeti",
+    "army_cavalry_power": "Gücü",
+    "army_disembark_speed": "Orduyu Karaya Çıkarma Hızı",
+    "army_infantry_power": "Gücü",
+    "army_initiative": "Ordu Önceliği",
+    "army_movement_speed": "Ordu Hareket Hızı",
+    "army_reinforce_cost": "Ordu Takviye Maliyeti",
+    "auto_slave_raid_different_religion": "Dinî Düşmanları Köleleştirme Akını",
+    "ban_imports_of_beer": "İthalatını Yasaklama",
+    "ban_imports_of_liquor": "İthalatını Yasaklama",
+    "ban_imports_of_wine": "İthalatını Yasaklama",
+    "block_from_change_to_empire_rank_catholic": "İmparatorluklara Papalık Yasağı",
+    "can_have_monasteries": "Manastırlara İzin Verilir",
+    "cannot_declare_no_cb_wars": "Savaş Sebebi Olmaksızın Savaş İlan Edemez",
+    "cannot_declare_no_cb_wars_on_religion_head": "Savaş Sebebi Olmaksızın Dinî Lidere Savaş İlan Edemez",
+    "clergy_estate_max_tax": "Ruhban Zümresi İçin Maksimum Vergi",
+    "clergy_estate_target_satisfaction": "Ruhban Zümresi Memnuniyet Dengesi",
+    "country_cabinet_efficiency": "Kabinemizin Verimliliği",
+    "cultural_influence_modifier": "Kültürel Nüfuz Yüzdesi",
+    "cultural_tradition_modifier": "Kültürel Gelenek Yüzdesi",
+    "discipline": "Disiplin",
+    "enable_doom": "Kıyamet",
+    "expand_rgo_farming_cost_modifier": "Çiftçiliği Genişletme Maliyeti",
+    "expand_rgo_forestry_cost_modifier": "Ormancılığı Genişletme Maliyeti",
+    "exploration_maintenance_cost": "Keşif Maliyeti",
+    "food_consumption_modifier": "Birim Yiyecek Tüketimi",
+    "gender_equality": "Cinsiyet Eşitliği",
+    "global_build_buildings_cost": "Yapı Maliyeti",
+    "global_burghers_estate_power": "Burjuva Gücü",
+    "global_clergy_estate_power": "Ruhban Gücü",
+    "global_clergy_max_literacy": "Ruhbanın Maksimum Okuryazarlığı",
+    "global_defensive": "Tahkimat Savunması",
+    "global_estate_target_satisfaction": "Zümre Memnuniyeti Dengesi",
+    "global_hostile_attrition": "Düşman Yıpranması",
+    "global_levy_size_modifier": "Seferber Boyutu",
+    "global_max_literacy": "Maksimum Okuryazarlık",
+    "global_may_build_nahuatl_units": "Kartal ve Jaguar Savaşçıları Oluşturulabilir",
+    "global_merchant_power": "Ticaret Avantajı",
+    "global_migration_speed_modifier": "Toplum Göç Hızı",
+    "global_monthly_art_start_chance": "Sanatçının Aylık Üretime Başlama İhtimali",
+    "global_monthly_development": "Aylık Gelişim",
+    "global_monthly_food_modifier": "Yiyecek Üretimi Yüzdesi",
+    "global_monthly_literacy": "Aylık Okuryazarlık",
+    "global_nobles_estate_power": "Soylu Gücü",
+    "global_peasants_estate_power": "Köylü Gücü",
+    "global_pop_conversion_speed_modifier": "Toplum Din Değişimi Hızı Yüzdesi",
+    "global_pop_food_consumption": "Toplum Yiyecek Tüketimi",
+    "global_pop_promotion_speed_modifier": "Toplum Sınıf Atlama Hızı Yüzdesi",
+    "global_population_capacity_modifier": "Nüfus Kapasitesi Yüzdesi",
+    "global_sailors_modifier": "Denizciler",
+    "global_separatism": "Ayrılıkçılık",
+    "global_trade_protection_factor": "Pazar Koruması",
+    "global_wild_game_output_modifier": "Hasılatı",
+    "is_battles_preordained": "Her Şey Önceden Belirlenmiş",
+    "land_morale_attrition_cost": "Ordu Morali Yıpranma Maliyeti",
+    "land_morale_modifier": "Ordu Morali",
+    "land_unit_attrition": "Ordu Yıpranması",
+    "levy_combat_efficiency_modifier": "Seferber Çatışma Verimliliği",
+    "levy_recovery_modifier": "Seferber Toparlanması",
+    "maximum_religious_influence": "Maksimum Dinî Nüfuz",
+    "merchant_maintenance_cost": "Ticaret Bakımı",
+    "monthly_karma": "Aylık Karma",
+    "monthly_legitimacy": "Aylık Meşruiyet",
+    "monthly_prestige": "Aylık Prestij",
+    "monthly_religious_influence": "Aylık Dinî Nüfuz",
+    "monthly_war_exhaustion": "Aylık Savaş Yorgunluğu",
+    "movement_speed_if_no_road": "Yol Yokken Hareket Hızı",
+    "naval_morale_attrition_cost": "Donanma Morali Yıpranma Maliyeti",
+    "navy_initiative": "Donanma Önceliği",
+    "navy_maintenance_cost": "Donanma Bakımı",
+    "navy_movement_speed": "Donanma Hareket Hızı",
+    "nobles_estate_target_satisfaction": "Soylu Zümresi Memnuniyet Dengesi",
+    "number_of_allowed_religious_figures": "Dinî Kişiliklere İzin Verilir",
+    "prestige_from_land_battle": "Kara Muharebelerinden Gelen Prestij",
+    "research_speed_modifier": "Aylık Araştırma İlerlemesi Yüzdesi",
+    "retreat_delay": "Geri Çekilme Gecikmesi",
+    "ship_build_speed": "Gemi İmalatı Hızı",
+    "skill_of_new_artists": "Yeni Sanatçıların Becerisi",
+    "stability_cost": "İstikrar Yatırımı Maliyeti",
+    "stability_investment": "İstikrar Yatırımı",
+    "tax_income_efficiency": "Vergi Verimliliği",
+    "tolerance_heathen": "Zındık İnançlara Hoşgörü",
+    "tolerance_heretic": "Kâfir İnançlara Hoşgörü",
+    "tolerance_own": "Gerçek İnanca Hoşgörü",
+    "trade_efficiency": "Ticaret Verimliliği",
+    "trade_range_modifier": "Ticaret Menzili",
+    "trade_sea_movement_cost_modifier": "Denizde Kullanılan Ticaret Menzili"
+  },
+  "_modifier_descs": {
+    "allow_harmony": "Ahenk mekaniğini etkinleştirir.",
+    "allow_mysticism_vs_jurisprudence": "Ülkenin mysticism ve jurisprudence arasında şekillenmesine izin verir.",
+    "allow_open_sea_exploration": "Bir Ülkenin açık deniz Bölgelerinde Keşif başlatabilmesine izin verir.",
+    "allow_righteousness": "Erdem mekaniğini etkinleştirir.",
+    "allow_self_control": "İrade mekaniğini etkinleştirir.",
+    "any_pop_can_be_slave": "Köle olarak ele geçirilen ya da satılan her Toplum, köle olarak kalır.",
+    "army_auxiliary_maintenance_cost_modifier": "Ordu auxiliary Bakım maliyetini düzenler.",
+    "army_cavalry_power": "Ordu cavalry Alaylarının Çatışma becerisini düzenler.",
+    "army_disembark_speed": "Donanmadaki Ordunun, bitişikteki İlde ne kadar çabuk Karaya Çıkabileceğini düzenler.",
+    "army_infantry_power": "Ordu infantry Alaylarının Çatışma becerisini düzenler.",
+    "army_initiative": "Muharebe esnasında bir Alayın Önceliğini düzenler.",
+    "army_movement_speed": "Ordunun, İller arasında ne kadar hızlı hareket edeceğini düzenler.",
+    "army_reinforce_cost": "Bu, bir Alayın Takviyesi için gereken Düka ve İnsan Gücü maliyetini düzenler.",
+    "auto_slave_raid_different_religion": "Orduların, bir İl İşgal Altındayken farklı Din Gruplarından tüm Toplumların bir kısmını köleleştirmesine izin verir.",
+    "ban_imports_of_beer": "Bir Ülkenin sahip olduğu tüm Pazarlara Bira İthal Edilmesini yasaklar.",
+    "ban_imports_of_liquor": "Bir Ülkenin sahip olduğu tüm Pazarlara Likör İthal Edilmesini yasaklar.",
+    "ban_imports_of_wine": "Bir Ülkenin sahip olduğu tüm Pazarlara Şarap İthal Edilmesini yasaklar.",
+    "block_from_change_to_empire_rank_catholic": "var oldukça bir Ülkenin Ülke Derecesini rank empire yapmasını engeller.",
+    "can_have_monasteries": "Bir ülkede monastery olup olamayacağını düzenler.",
+    "cannot_declare_no_cb_wars": "Düzgün bir Savaş Sebebi olmaksızın Savaş ilan etmemizi engeller.",
+    "cannot_declare_no_cb_wars_on_religion_head": "Düzgün bir Savaş Sebebi olmaksızın Dinî Liderimize Savaş ilan etmemizi engeller.",
+    "clergy_estate_max_tax": "Ruhban zümresinden toplanabilecek Maksimum Vergi miktarını düzenler.",
+    "clergy_estate_target_satisfaction": "Bu Ülkedeki Ruhban zümresinin Memnuniyet Dengesi değerini düzenler.",
+    "country_cabinet_efficiency": "Bir Ülke Kabinesindeki tüm Karakterlerin Kabine Verimliliğini düzenler.",
+    "cultural_influence_modifier": "Ana Kültürümüzün Kültürel Nüfuzunu düzenler.",
+    "cultural_tradition_modifier": "Ana Kültürümüzün Kültürel Geleneğini düzenler.",
+    "discipline": "Bir Alayın Disiplinini düzenler.",
+    "enable_doom": "Ülkede Kıyametin yaşanıp yaşanmayacağını düzenler.",
+    "expand_rgo_farming_cost_modifier": "Çiftçilik gerektiren Ham Maddeler ile çalışan Toplum sayısını artırmanın Maliyetini düzenler. Çiftçilik gerektiren Ham Maddeler 。",
+    "expand_rgo_forestry_cost_modifier": "Ormancılık gerektiren Ham Maddeler ile çalışan Toplum sayısını artırmanın Maliyetini düzenler. Ormancılık gerektiren Ham Maddeler 。",
+    "exploration_maintenance_cost": "Bir Keşfin maliyetini düzenler.",
+    "food_consumption_modifier": "Bir Birimin her ay tükettiği Yiyecek miktarını düzenler.",
+    "gender_equality": "Kadınların, erkeklerle aynı Rollere atanıp atanamayacağını düzenler.",
+    "global_build_buildings_cost": "Bir Ülkedeki tüm İllerde Yapı inşa etmek için gereken Maliyeti düzenler.",
+    "global_burghers_estate_power": "Ülkedeki tüm Burjuvalar zümrelerinin Zümre Gücü değerini düzenler.",
+    "global_clergy_estate_power": "Ülkedeki tüm Ruhban zümrelerinin Zümre Gücü değerini düzenler.",
+    "global_clergy_max_literacy": "Bu Ülkedeki tüm clergy için Okuryazarlık değerini düzenler.",
+    "global_defensive": "Bir Ülke karşısında Kuşatma hızını düzenler.",
+    "global_estate_target_satisfaction": "Ülkedeki tüm Zümrelerin Memnuniyet Dengesi değerini düzenler.",
+    "global_hostile_attrition": "Sahip Olduğumuz ve Kontrol Ettiğimiz tüm İllerdeki Hasım Ordularının Yıpranmasını düzenler.",
+    "global_levy_size_modifier": "Bir Ülkedeki Toplumların oluşturabileceği Ordu Seferberi ya da Donanma Seferberi boyutunu düzenler.",
+    "global_max_literacy": "Bir Ülkedeki tüm Toplumların maksimum Okuryazarlık değerini düzenler.",
+    "global_may_build_nahuatl_units": "a jaguar warrior ve a eagle warrior görevlendirebilmeye izin verir.",
+    "global_merchant_power": "Bir Ülkenin aldığı Ticaret Avantajı miktarını düzenler.",
+    "global_migration_speed_modifier": "Toplumların bu ülkedeki tüm İllerden Göç Etme hızını düzenler.",
+    "global_monthly_art_start_chance": "Bir Ülkedeki Sanatçıların, yeni Sanat Eserlerine başlama ihtimalini düzenler.",
+    "global_monthly_development": "Bir Ülkedeki tüm İllerde aylık Gelişim değişimini düzenler.",
+    "global_monthly_food_modifier": "Bir Ülkedeki tüm İllerde ne kadar Yiyecek üretildiğini düzenler.",
+    "global_monthly_literacy": "Bir Ülkedeki Toplumlar için Okuryazarlığın değişimini düzenler.",
+    "global_nobles_estate_power": "Ülkedeki tüm Soylular zümrelerinin Zümre Gücü değerini düzenler.",
+    "global_peasants_estate_power": "Ülkedeki tüm Avam zümrelerinin Zümre Gücü değerini düzenler.",
+    "global_pop_conversion_speed_modifier": "Bu ülkedeki tüm İllerde Toplumların Din Değiştirme hızını düzenler.",
+    "global_pop_food_consumption": "Bütün Ülkedeki Toplumların ne kadar Yiyecek tükettiğini düzenler.",
+    "global_pop_promotion_speed_modifier": "Bu ülkedeki tüm İllerde Toplumların Sınıf Atlat hızını düzenler.",
+    "global_population_capacity_modifier": "Bu Ülkedeki tüm İllerde yaşayabilecek Toplum sayısını düzenler.",
+    "global_sailors_modifier": "Bir Ülkenin alacağı Denizci sayısını etkiler.",
+    "global_separatism": "Bir Ülkenin tüm İllerindeki Ayrılıkçılık miktarını düzenler.",
+    "global_trade_protection_factor": "Yabancı Pazarların İller üstündeki Pazar Nüfuzunu doğrudan azaltır. Pazar Nüfuzu daha büyük ihtimalle İl sahibinin Pazarına geçer. Bir Pazar Koruması puanı, her yabancı Pazardan bir Pazar Nüfuzu puanını götürür.",
+    "global_wild_game_output_modifier": "Tüm Ülkedeki wild game Hasılatını belirler.",
+    "is_battles_preordained": "Bir Ülke, Çatışma esnasında 10'luk Zar zarını asla tekrar atmaz.",
+    "land_morale_attrition_cost": "Bu, yıpranan Ordunun her gün ne kadar Moral kaybettiğini düzenler.",
+    "land_morale_modifier": "Bu, bir Alayın sahip olabileceği en yüksek Moral değerini belirli bir yüzde oranında düzenler.",
+    "land_unit_attrition": "Bir Alayın ne kadar Yıpranma alacağını düzenler.",
+    "levy_combat_efficiency_modifier": "Bir Seferber Alayının Çatışma esnasındaki verimliliğini düzenler.",
+    "levy_recovery_modifier": "Bir Ülkede Seferberlerin ne kadar çabuk düzeleceğini belirler.",
+    "maximum_religious_influence": "Bir Ülkenin ilerisi için biriktirebileceği Dinî Nüfuz değerini düzenler.",
+    "merchant_maintenance_cost": "Ticaret yapan Tüccarlarımız için gereken maliyeti etkiler.",
+    "monthly_karma": "Bir Ülkenin her ay aldığı Karma miktarını düzenler.",
+    "monthly_legitimacy": "Bir Ülkenin her ay aldığı Meşruiyet miktarını düzenler.",
+    "monthly_prestige": "Her ay alacağımız Prestij miktarını düzenler.",
+    "monthly_religious_influence": "Bir Ülkenin her ay aldığı Dinî Nüfuz miktarını düzenler.",
+    "monthly_war_exhaustion": "Her ay alacağımız Savaş Yorgunluğu miktarını düzenler.",
+    "movement_speed_if_no_road": "Bir Ordunun, Yol bulunmayan İller arasında ne kadar hızlı hareket edeceğini düzenler.",
+    "naval_morale_attrition_cost": "Yıpranan Donanmanın her gün ne kadar Moral kaybettiğini düzenler.",
+    "navy_initiative": "Muharebe esnasında bir Geminin Önceliğini düzenler.",
+    "navy_maintenance_cost": "Bu, bir Geminin bakımını yapmak için gereken Düka ve Denizciler miktarını değiştirir.",
+    "navy_movement_speed": "Donanmanın, Deniz Bölgeleri arasında ne kadar hızlı hareket edeceğini düzenler.",
+    "nobles_estate_target_satisfaction": "Bu Ülkedeki Soylular zümresinin Memnuniyet Dengesi değerini düzenler.",
+    "number_of_allowed_religious_figures": "Dinî Kişilikler mekaniğini etkinleştirir ve davet edebileceğimiz sayıyı etkiler.",
+    "prestige_from_land_battle": "Bir Ülkenin, Muharebeye katılan Ordularından aldığı Prestij miktarını düzenler.",
+    "research_speed_modifier": "Bir Ülkenin Araştırma İlerlemesini düzenler.",
+    "retreat_delay": "Bir Birimin kaç saatlik Çatışma sonrasında Geri Çekilebileceğini düzenler.",
+    "ship_build_speed": "Bir Ülkede bir Geminin ne kadar hızlı yapılabileceğini düzenler.",
+    "skill_of_new_artists": "Yeni Sanatçıların Sanatsal Becerisini düzenler.",
+    "stability_cost": "İstikrar Yatırımı maliyetini düzenler.",
+    "stability_investment": "Bütçeden gelen İstikrar Yatırımına bonus ya da ceza verir.",
+    "tax_income_efficiency": "Bir Ülkenin Vergi Verimliliğini düzenler.",
+    "tolerance_heathen": "Ana Din ile farlı Din Grubunda bulunan Dinlere olan Hoşgörü seviyesini düzenler.",
+    "tolerance_heretic": "Ana Din ile aynı Din Grubunda bulunan Dinlere olan Hoşgörü seviyesini düzenler.",
+    "tolerance_own": "Devlet Dininin Hoşgörü seviyesini düzenler.",
+    "trade_efficiency": "Hedef Pazarda satılan Malların fiyatını doğrudan etkileyerek bir Ticaretin ne kadar kârlı olacağını etkiler.",
+    "trade_range_modifier": "Bir Ülkenin Ticaret Menzilini düzenler.",
+    "trade_sea_movement_cost_modifier": "Bir Deniz Bölgesinde yolculuk ederken Ülkenin Ticaret Menzilini düzenler."
+  },
+  "_mechanic_names": {
+    "has_karma": "Karma",
+    "has_purity": "Saflık",
+    "has_honor": "Onur",
+    "has_yanantin": "Yanantin",
+    "has_religious_influence": "Dinî Nüfuz",
+    "has_canonization": "Azizleştirme",
+    "has_autocephalous_patriarchates": "Otosefal Patrikhaneler",
+    "has_patriarchs": "Patrikler",
+    "has_religious_head": "Dinî Lider",
+    "has_cardinals": "Kardinaller",
+    "has_rite_power": "Dinî Uygulama Gücü",
+    "has_avatars": "Avatarlar",
+    "needs_reform": "Reform Arzusu",
+    "use_icons": "Icon Painting",
+    "culture_locked": "Culture Locked"
+  },
+  "_mechanic_descs": {
+    "has_karma": "Karma -100 ile +100 arasında bir değerdir ve bir Ülkenin geçmişte yaptıklarını yansıtır. Bir ülke, en çok faydayı Karma değeri dengedeyken, yani -33 ve +33 değerleri arasındayken sağlar.",
+    "has_purity": "Şinto kurallarına göre Ülkemizin ne kadar saf olduğunu gösterir. Saflık, Muharebelerde veya salgınlarda İnsanları öldürmek ve kaybetmek gibi saf olmayan şeyler yaşandığında düşer çünkü ölüm ve kan saf değildir. İntihar töreni veya Kutsal Mekânların ziyareti gibi dinî eylemler gerçekleştirerek artırılabilir.",
+    "has_honor": "Ülkemizin, halkımızın gözünde ne kadar onurlu olduğunu temsil eder. Ülkemizin Saflık düzeyini 75 üzerinde tutmak Onurumuzu artırır, düşük Saflık ise azaltır. Diğer dinî ve diplomatik eylemler de Saflığımızı etkileyebilir.",
+    "has_yanantin": "Yanantin, birbirine zıt ancak birbirini tamamlayan iki benliğin arasındaki dengeyi temsil eder. andean group Kültürlerinin bakış açısına göre ahenge yalnızca bir erkeğin, karanlığın, Güneş'in onu tamamlayan parçası olan kadını, ışığı, Ay'ı bulması ve onunla bir araya gelmesiyle ulaşılabilir.",
+    "has_religious_influence": "Bir Ülkenin, Ana Dini ile ilgili konularda harekete geçebilmesine ve karar verebilmesine olanak tanıyan bir değerdir. Kullanımı ve bir onu elde etme yöntemleri Dine bağlı olarak değişir.",
+    "has_canonization": "Bir Ülkenin eski Hükümdarı azizleştirilerek bir Aziz olabilir. Bu durumda Ülkesine fazladan faydalar sağlar ve bu faydalar Karakterin ölümünden önce ne kadar kabiliyetli olduğuna göre hesaplanır.",
+    "has_religious_head": "Tüm bir Din mezhebinin başı ve temsilcisi olarak kabul edilen Karakterdir.",
+    "has_rite_power": "Bir Ülkenin Otosefal Patrikhane Liderinin çeşitli Kanunları uygulamaya sokarak Dine yön verme kabiliyetini gösteren bir değerdir.",
+    "needs_reform": "Katoliklik dini hangi doktrinin doğru olduğu ve inancın unsurları konularında iç çatışmalar yaşar. Zaman içinde Islahat isteği giderek büyür ve Katoliklik doktrini üzerine gelecekte yapılacak tartışmaları etkiler."
+  },
+  "_language_names": {
+    "japanese_language": "Japonca",
+    "classical_arabic_dialect": "Klasik Arapça",
+    "pali_language": "Pālice",
+    "czech_dialect": "Çekçe",
+    "church_slavonic_language": "Kilise Slavcası",
+    "sanskrit_language": "Sanskritçe",
+    "aramaic_language": "Aramice",
+    "kurdish_language": "Kürtçe",
+    "persian_language": "Acemce",
+    "levantine_dialect": "Levantça",
+    "iraqi_dialect": "Irakça",
+    "tibetan_language": "Tibetçe",
+    "hebrew_language": "İbranice",
+    "latin_language": "Latince",
+    "classical_chinese_language": "Klasik Çince",
+    "russian_dialect": "Rusça"
   }
 }

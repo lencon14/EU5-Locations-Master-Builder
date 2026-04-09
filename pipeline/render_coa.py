@@ -119,26 +119,37 @@ def parse_coa_files() -> tuple[dict[str, dict], dict[str, dict]]:
 # ─── Stage 2: Resolve ───────────────────────────────────────────────────
 
 def _parse_named_colors() -> dict[str, tuple[int, int, int]]:
-    """Parse 01_coa.txt named color definitions to RGB tuples."""
+    """Parse named color definitions (CoA + map) to RGB tuples."""
     colors: dict[str, tuple[int, int, int]] = {}
-    path = COA_ASSETS / "named_colors" / "01_coa.txt"
-    if not path.exists():
-        return colors
 
-    text = path.read_text(encoding="utf-8")
-    for m in re.finditer(
-        r'(\w+)\s*=\s*hsv360\s*\{\s*(\d+)\s+(\d+)\s+(\d+)\s*\}', text
-    ):
-        name = m.group(1)
-        h, s, v = int(m.group(2)), int(m.group(3)), int(m.group(4))
-        r, g, b = colorsys.hsv_to_rgb(h / 360.0, s / 100.0, v / 100.0)
-        colors[name] = (int(r * 255), int(g * 255), int(b * 255))
+    for filename in ("01_coa.txt", "02_map.txt"):
+        path = COA_ASSETS / "named_colors" / filename
+        if not path.exists():
+            continue
 
-    for m in re.finditer(
-        r'(\w+)\s*=\s*rgb\s*\{\s*(\d+)\s+(\d+)\s+(\d+)\s*\}', text
-    ):
-        name = m.group(1)
-        colors[name] = (int(m.group(2)), int(m.group(3)), int(m.group(4)))
+        text = path.read_text(encoding="utf-8")
+        for m in re.finditer(
+            r'(\w+)\s*=\s*hsv360\s*\{\s*(\d+)\s+(\d+)\s+(\d+)\s*\}', text
+        ):
+            name = m.group(1)
+            h, s, v = int(m.group(2)), int(m.group(3)), int(m.group(4))
+            r, g, b = colorsys.hsv_to_rgb(h / 360.0, s / 100.0, v / 100.0)
+            colors[name] = (int(r * 255), int(g * 255), int(b * 255))
+
+        for m in re.finditer(
+            r'(\w+)\s*=\s*rgb\s*\{\s*(\d+)\s+(\d+)\s+(\d+)\s*\}', text
+        ):
+            name = m.group(1)
+            colors[name] = (int(m.group(2)), int(m.group(3)), int(m.group(4)))
+
+        # HSV 0-1 scale (not hsv360)
+        for m in re.finditer(
+            r'(\w+)\s*=\s*hsv\s*\{\s*([\d.]+)\s+([\d.]+)\s+([\d.]+)\s*\}', text
+        ):
+            name = m.group(1)
+            h, s, v = float(m.group(2)), float(m.group(3)), float(m.group(4))
+            r, g, b = colorsys.hsv_to_rgb(h, s, v)
+            colors[name] = (int(r * 255), int(g * 255), int(b * 255))
 
     return colors
 
@@ -557,6 +568,45 @@ def list_needed_textures(tags: list[str] | None = None) -> set[str]:
     return textures
 
 
+def generate_fallback(tag: str, country_defs: dict, output_dir: Path) -> bool:
+    """Generate a solid-color fallback flag from the country's map color."""
+    global NAMED_COLORS
+    if not NAMED_COLORS:
+        NAMED_COLORS = _parse_named_colors()
+
+    defn = country_defs.get(tag, {})
+    color_val = defn.get("color")
+    if not color_val:
+        return False
+
+    rgb = None
+    if isinstance(color_val, str):
+        if color_val in NAMED_COLORS:
+            rgb = NAMED_COLORS[color_val]
+        else:
+            # Try _values (rgb { R G B } or map_* with color2 = rgb { ... })
+            vals = defn.get("_values", [])
+            if isinstance(vals, list):
+                for item in vals:
+                    if isinstance(item, list) and len(item) >= 3:
+                        try:
+                            rgb = (int(float(item[0])), int(float(item[1])), int(float(item[2])))
+                        except (ValueError, TypeError):
+                            pass
+                        break
+                if not rgb and len(vals) >= 3 and all(isinstance(v, (int, float)) for v in vals[:3]):
+                    rgb = (int(vals[0]), int(vals[1]), int(vals[2]))
+
+    if not rgb:
+        return False
+
+    img = Image.new("RGBA", (INTERNAL_W, INTERNAL_H), rgb + (255,))
+    img = img.resize((FINAL_W, FINAL_H), Image.LANCZOS)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    img.save(output_dir / f"{tag}.png", "PNG")
+    return True
+
+
 # ─── Main ────────────────────────────────────────────────────────────────
 
 def main():
@@ -569,6 +619,10 @@ def main():
         for t in sorted(textures):
             print(f"  {t}")
         return
+
+    with_fallback = "--with-fallback" in args
+    if with_fallback:
+        args.remove("--with-fallback")
 
     country_coas, sub_coas = parse_coa_files()
 
@@ -590,6 +644,30 @@ def main():
             fail += 1
 
     print(f"\nDone: {ok} rendered, {fail} failed, {skip} skipped (no CoA definition)")
+
+    # Generate fallback flags for countries without CoA definitions
+    if with_fallback:
+        from paradox_parser import parse_file as _pf
+        country_defs: dict[str, dict] = {}
+        ctr_dir = RAW_DIR / "countries"
+        if ctr_dir.exists():
+            for f in sorted(ctr_dir.glob("*.txt")):
+                if f.name.lower() in ("readme.txt", "00_readme.info"):
+                    continue
+                data = _pf(f)
+                for k, v in data.items():
+                    if isinstance(v, dict):
+                        country_defs[k] = v
+
+        existing = {p.stem for p in OUTPUT_DIR.glob("*.png")}
+        need_fallback = {t for t in country_defs if t not in existing}
+        fb_ok = fb_fail = 0
+        for tag in sorted(need_fallback):
+            if generate_fallback(tag, country_defs, OUTPUT_DIR):
+                fb_ok += 1
+            else:
+                fb_fail += 1
+        print(f"Fallback: {fb_ok} generated, {fb_fail} failed (no color)")
 
 
 if __name__ == "__main__":

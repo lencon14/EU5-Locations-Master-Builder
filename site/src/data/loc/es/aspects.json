@@ -1,0 +1,842 @@
+{
+  "prima_scriptura": {
+    "name": "Prima Scriptura",
+    "desc": "Aunque las Sagradas Escrituras tienen que considerarse la fuente central de la salvación, no puede ser la única fuente de revelación divina."
+  },
+  "five_doors": {
+    "name": "Las cinco puertas",
+    "desc": "Algunos de los nuestros practican un estilo de meditación que consiste en cerrar todas las puertas de una casa mientras se abren las cinco puertas, o los cinco sentidos. Implementaremos esta práctica en todas partes."
+  },
+  "holy_cooperation": {
+    "name": "Cooperación sagrada",
+    "desc": "Se producirá un cambio en la promoción y se participará activamente en una obra productiva. Este valor se extenderá a nuestras comunidades agrícolas, inspiradas en el primer modelo cristiano de una comunidad de cooperación sagrada."
+  },
+  "twelve_emissaries": {
+    "name": "Los doce emisarios",
+    "desc": "Inspirados por la organización de algunas comunidades, elegiremos entre nuestros ancianos y personas más perfectas a doce hombres que actuarán como consejo supremo, sin tener que crear una auténtica jerarquía."
+  },
+  "arminianism": {
+    "name": "Arminianismo",
+    "desc": "El arminianismo se basa en las ideas pluralistas y humanitarias del teólogo reformado holandés Jacobo Arminio."
+  },
+  "gomarism": {
+    "name": "Gomarismo",
+    "desc": "Francisco Gomar se opone a las creencias de Jacobo Arminio, quien enseñaba las doctrinas pelagianas e intentó crear una nueva escuela teológica en la universidad donde ambos impartían clase."
+  },
+  "instituionalized_arminianism": {
+    "name": "Institucionalización del Arminianismo",
+    "desc": "El arminianismo se basa en las ideas pluralistas y humanitarias del teólogo reformado holandés Jacobo Arminio. Este movimiento religioso ahora está institucionalizado en nuestro Estado."
+  },
+  "instituionalized_gomarism": {
+    "name": "Institucionalización del Gomarismo",
+    "desc": "Francisco Gomar se opone a las creencias de Jacobo Arminio, quien enseñaba las doctrinas pelagianas e intentó crear una nueva escuela teológica en la universidad donde ambos impartían clase. Este movimiento religioso ahora está institucionalizado en nuestro Estado."
+  },
+  "consolamentum": {
+    "name": "Consolamentum",
+    "desc": "Inevitablemente, en la vida sufrimos por nuestros pecados. Por ello se hace necesario recibir consuelo para entrar en el cielo puro y acercarnos más a Dios. Al recibir el consolamentum, nuestro pueblo se absolverá de sus pecados ante una muerte inminente."
+  },
+  "pescatarianism": {
+    "name": "Pescetarismo",
+    "desc": "Los animales son portadores de almas reencarnadas y por ello no podemos comérnoslos. Los peces, como aparecen espontáneamente, no se pueden considerar animales y, por lo tanto, se pueden comer."
+  },
+  "the_perfects": {
+    "name": "Los perfectos",
+    "desc": "Quienes caminan entre nosotros que están especialmente unidos a Dios y a todas las virtudes que todo el mundo debe buscar se conocen como «perfectos». Estos hombres y mujeres reciben el consolamentum por su devoción y para ser perfectos. Al contrario de la gente común, los perfectos reciben el consolamentum dos veces en la vida: cuando ascienden a su nueva función y antes de morir."
+  },
+  "adoptionism": {
+    "name": "Adopcionismo",
+    "desc": "Nuestra creencia afirma que Jesucristo se convirtió en hijo de Dios en su bautismo o resurrección, en lugar de ser eternamente divino."
+  },
+  "adult_baptism": {
+    "name": "Bautismo adulto",
+    "desc": "El bautismo en edad adulta según la profesión de la fe en Jesucristo y como admisión en una comunidad local de fe lo llevan a cabo quienes creen que la Gracia salvadora y la pertenencia a la Iglesia son dones divinos. La fe de la persona receptora debe ser expresada y no se puede implantar ni transferir de una persona a otra."
+  },
+  "aniconism": {
+    "name": "Aniconismo",
+    "desc": "Los símbolos no son un modo adecuado de representar a nuestro Señor, ya que son medios para representar ídolos o personas. Rechazaremos cualquier representación, incluyendo la cruz que emplean otros cristianos."
+  },
+  "asceticism": {
+    "name": "Ascetismo",
+    "desc": "La búsqueda de lo material nos ciega y nos impide ver la verdad divina. Solo dedicándonos a llevar vidas sencillas, sin lujos, alcanzaremos la iluminación espiritual."
+  },
+  "bread_and_wine": {
+    "name": "Pan y vino",
+    "desc": "Creemos que solo es válida la comunión que incluya tanto pan como vino, incluso para los miembros laicos. Nuestros clérigos darán la comunión a todos los miembros que acudan a misa."
+  },
+  "clerical_poverty": {
+    "name": "Pobreza clerical",
+    "desc": "El clero no debe poseer riquezas, sino ceder sus posesiones materiales. Deberían centrar su atención en Dios en lugar de en el mundo secular."
+  },
+  "crown_as_head_of_faith": {
+    "name": "La Corona como líder de la fe",
+    "desc": "La Iglesia ya no está sometida a un teócrata externo y corrupto. En su lugar, todos los asuntos religiosos están redirigidos al gobernante, que actuará como nuevo líder de la fe."
+  },
+  "freedom_to_preach": {
+    "name": "Libertad de predicación",
+    "desc": "Hay muchos desacuerdos entre los devotos, pero cada una de las sectas seguirá teniendo la libertad para predicar libremente mientras Dios esté en sus corazones."
+  },
+  "gnosticism": {
+    "name": "Gnosticismo",
+    "desc": "El gnosticismo se centra en la salvación personal a través de la gnosis. Huiremos del mundo material y regresaremos a un reino más elevado mediante el conocimiento espiritual."
+  },
+  "individual_creeds": {
+    "name": "Credos individuales",
+    "desc": "¡Si permitimos que nuestra gente formule sus propios credos, fomentaremos la formación de opiniones personales y servirá para allanar el camino hacia el progreso!"
+  },
+  "monasticism": {
+    "name": "Monacato",
+    "desc": "Los placeres de la comida y la bebida solo sirven para distraernos del servicio a lo divino. Aislarnos en monasterios remotos es el mejor modo de evitar tales tentaciones."
+  },
+  "modalism": {
+    "name": "Modalismo",
+    "desc": "Creemos que Dios es absolutamente uno, y los conceptos trinitarios como Padre, Hijo y Espíritu Santo son solo distintos modos que tiene Dios para manifestarse."
+  },
+  "organized_through_bishops": {
+    "name": "Nombramiento de obispos",
+    "desc": "En lugar de sacrificar totalmente el nombramiento de obispos, servirán a la Iglesia como administradores de zonas más extensas."
+  },
+  "pacifism": {
+    "name": "Pacifismo",
+    "desc": "Bienaventurados quienes trabajan por la paz, porque serán llamados hijos de Dios."
+  },
+  "parish_registers": {
+    "name": "Registros parroquiales",
+    "desc": "De aquí en adelante los bautismos, matrimonios y entierros se detallarán en un registro parroquial. Todo sacerdote llevará un libro donde inscribirá estos acontecimientos y lo guardará en un cofre seguro con dos cerraduras."
+  },
+  "participation_women": {
+    "name": "Participación de las mujeres",
+    "desc": "Aunque las mujeres participan como iguales en nuestras comunidades, adoptaremos una norma general en todas partes para que se las trate igual que a los hombres."
+  },
+  "rejection_of_sacraments": {
+    "name": "Rechazo de los sacramentos",
+    "desc": "Nuestra doctrina rechaza la mayoría de los sacramentos cristianos, ya que son mayoritariamente físicos y carecen de importancia. El papel espiritual es el único que importa para acercarnos a Dios."
+  },
+  "sola_fide": {
+    "name": "Sola fide",
+    "desc": "Ninguna buena acción puede satisfacer a Dios. Hemos recibido el perdón de la gracia divina, que Dios nos ha otorgado a través de Su único hijo, Jesucristo."
+  },
+  "sola_scriptura": {
+    "name": "Sola Scriptura",
+    "desc": "La Biblia, la palabra de Dios entregada al hombre, es la única autoridad de la doctrina cristiana. Toda práctica religiosa que no se apoye en referencias bíblicas debe ser denunciada como herejía."
+  },
+  "soli_deo_gloria": {
+    "name": "Soli Deo gloria",
+    "desc": "Todos los logros humanos solo se pueden crear con las alabanzas a Dios como su dedicación."
+  },
+  "translated_bibles": {
+    "name": "Biblias traducidas",
+    "desc": "Traducir la Biblia a un idioma que hable el pueblo de nuestro país es la mejor forma de llegar a Dios de una manera que hable a sus mentes y corazones."
+  },
+  "usury_allowed": {
+    "name": "Usura permitida",
+    "desc": "Los préstamos monetarios con intereses que enriquecen a los prestamistas ya no se consideran pecaminosos."
+  },
+  "war_sermons": {
+    "name": "Sermones de guerra",
+    "desc": "En tiempos de conflicto, la fe mantiene la esperanza del pueblo. La Iglesia de nuestro país predicará las Santas Escrituras para mantener la moral de la población hasta en los momentos más oscuros."
+  },
+  "worship_nyambe_god": {
+    "name": "Venerar a Nyambe como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Nyambe como nuestro patrón y protector."
+  },
+  "worship_nhialic_god": {
+    "name": "Venerar a Nhialic como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Nhialic como nuestro patrón y protector."
+  },
+  "worship_du_chie_god": {
+    "name": "Venerar a Du Chie como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Du Chie como nuestro patrón y protector."
+  },
+  "worship_ayum_god": {
+    "name": "Venerar a Ayum como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ayum como nuestro patrón y protector."
+  },
+  "worship_alwet_god": {
+    "name": "Venerar a Alwet como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Alwet como nuestro patrón y protector."
+  },
+  "worship_zanahary_god": {
+    "name": "Venerar a Zanahary como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Zanahary como nuestro patrón y protector."
+  },
+  "worship_ratovantany_god": {
+    "name": "Venerar a Ratovantany como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ratovantany como nuestro patrón y protector."
+  },
+  "worship_andrianerinerina_god": {
+    "name": "Venerar a Andrianerinerina como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Andrianerinerina como nuestro patrón y protector."
+  },
+  "worship_andriambahomanana_god": {
+    "name": "Venerar a Andriambahomanana como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Andriambahomanana como nuestro patrón y protector."
+  },
+  "worship_andriamahilala_god": {
+    "name": "Venerar a Andriamahilala como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Andriamahilala como nuestro patrón y protector."
+  },
+  "worship_ngai_god": {
+    "name": "Venerar a Ngai como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ngai como nuestro patrón y protector."
+  },
+  "worship_asis_god": {
+    "name": "Venerar a Asis como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Asis como nuestro patrón y protector."
+  },
+  "worship_ilat_god": {
+    "name": "Venerar a Ilat como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ilat como nuestro patrón y protector."
+  },
+  "worship_waaq_god": {
+    "name": "Venerar a Waaq como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Waaq como nuestro patrón y protector."
+  },
+  "worship_kaggen_god": {
+    "name": "Venerar a Kaggen como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Kaggen como nuestro patrón y protector."
+  },
+  "worship_hunntuattatteen_god": {
+    "name": "Venerar a Hunntuattatteen como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Hunntuattatteen como nuestro patrón y protector."
+  },
+  "worship_kagara_god": {
+    "name": "Venerar a Kagara como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Kagara como nuestro patrón y protector."
+  },
+  "worship_haunu_god": {
+    "name": "Venerar a Haunu como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Haunu como nuestro patrón y protector."
+  },
+  "worship_akuj_god": {
+    "name": "Venerar a Akuj como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Akuj como nuestro patrón y protector."
+  },
+  "worship_anyame_god": {
+    "name": "Venerar a Anyame como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Anyame como nuestro patrón y protector."
+  },
+  "worship_asase_ya_god": {
+    "name": "Venerar a Asase Ya como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Asase Ya como nuestro patrón y protector."
+  },
+  "worship_anansi_god": {
+    "name": "Venerar a Anansi como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Anansi como nuestro patrón y protector."
+  },
+  "worship_tano_god": {
+    "name": "Venerar a Tano como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Tano como nuestro patrón y protector."
+  },
+  "worship_legba_god": {
+    "name": "Venerar a Legba como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Legba como nuestro patrón y protector."
+  },
+  "worship_mawu_god": {
+    "name": "Venerar a Mawu como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Mawu como nuestro patrón y protector."
+  },
+  "worship_lisa_god": {
+    "name": "Venerar a Lisa como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Lisa como nuestro patrón y protector."
+  },
+  "worship_sakpata_god": {
+    "name": "Venerar a Sakpata como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Sakpata como nuestro patrón y protector."
+  },
+  "worship_olorun_god": {
+    "name": "Venerar a Olorun como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Olorun como nuestro patrón y protector."
+  },
+  "worship_olokun_isese_god": {
+    "name": "Venerar a Olokun como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Olokun como nuestro patrón y protector."
+  },
+  "worship_obatala_god": {
+    "name": "Venerar a Obatala como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Obatala como nuestro patrón y protector."
+  },
+  "worship_ori_god": {
+    "name": "Venerar a Ori como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ori como nuestro patrón y protector."
+  },
+  "worship_egbesu_god": {
+    "name": "Venerar a Egbesu como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Egbesu como nuestro patrón y protector."
+  },
+  "worship_amadioha_god": {
+    "name": "Venerar a Amadioha como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Amadioha como nuestro patrón y protector."
+  },
+  "worship_ikenga_god": {
+    "name": "Venerar a Ikenga como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ikenga como nuestro patrón y protector."
+  },
+  "worship_agwu_nsi_god": {
+    "name": "Venerar a Agwu Nsi como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Agwu Nsi como nuestro patrón y protector."
+  },
+  "worship_ogbunabali_god": {
+    "name": "Venerar a Ogbunabali como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ogbunabali como nuestro patrón y protector."
+  },
+  "worship_takhar_god": {
+    "name": "Venerar a Takhar como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Takhar como nuestro patrón y protector."
+  },
+  "worship_mindiss_god": {
+    "name": "Venerar a Mindiss como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Mindiss como nuestro patrón y protector."
+  },
+  "worship_niparaya_god": {
+    "name": "Venerar a Niparaya como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Niparaya como nuestro patrón y protector."
+  },
+  "worship_u_blei_nong_thaw_god": {
+    "name": "Venerar a U Blei Nong-thaw como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de U Blei Nong-thaw como nuestro patrón y protector."
+  },
+  "worship_ulei_muluk_god": {
+    "name": "Venerar a Ulei Muluk como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ulei Muluk como nuestro patrón y protector."
+  },
+  "worship_ulei_umtang_god": {
+    "name": "Venerar a Ulei Umtang como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ulei Umtang como nuestro patrón y protector."
+  },
+  "worship_ulei_longspah_god": {
+    "name": "Venerar a Ulei Longspah como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ulei Longspah como nuestro patrón y protector."
+  },
+  "worship_marang_buru_god": {
+    "name": "Venerar a Marang Buru como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Marang Buru como nuestro patrón y protector."
+  },
+  "worship_dharti_ayo_god": {
+    "name": "Venerar a Dharti ayo como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Dharti ayo como nuestro patrón y protector."
+  },
+  "worship_kotan_kar_kamuy_god": {
+    "name": "Venerar a Kotan-kar-kamuy como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Kotan-kar-kamuy como nuestro patrón y protector."
+  },
+  "worship_kamuy_huci_god": {
+    "name": "Venerar a Kamuy-huci como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Kamuy-huci como nuestro patrón y protector."
+  },
+  "worship_kim_un_kamuy_god": {
+    "name": "Venerar a Kim-un-kamuy como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Kim-un-kamuy como nuestro patrón y protector."
+  },
+  "worship_rep_un_kamuy_god": {
+    "name": "Venerar a Rep-un-kamuy como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Rep-un-kamuy como nuestro patrón y protector."
+  },
+  "worship_baradeo_god": {
+    "name": "Venerar a Baradeo como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Baradeo como nuestro patrón y protector."
+  },
+  "worship_nat_awal_god": {
+    "name": "Venerar a Nat Awal como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Nat Awal como nuestro patrón y protector."
+  },
+  "worship_aki_pen_god": {
+    "name": "Venerar a Aki Pen como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Aki Pen como nuestro patrón y protector."
+  },
+  "worship_nat_awual_god": {
+    "name": "Venerar a Nat Awual como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Nat Awual como nuestro patrón y protector."
+  },
+  "worship_phi_heaven_god": {
+    "name": "Venerar a Phi del cielo como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Phi del cielo como nuestro patrón y protector."
+  },
+  "worship_phi_water_god": {
+    "name": "Venerar a Phi del cielo como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Phi del cielo como nuestro patrón y protector."
+  },
+  "worship_phi_earth_god": {
+    "name": "Venerar a Phi de la tierra como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Phi de la tierra como nuestro patrón y protector."
+  },
+  "worship_phi_fire_god": {
+    "name": "Venerar a Phi del fuego como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Phi del fuego como nuestro patrón y protector."
+  },
+  "worship_bathoubwrai_god": {
+    "name": "Venerar a Bathoubwrai como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Bathoubwrai como nuestro patrón y protector."
+  },
+  "worship_mainao_god": {
+    "name": "Venerar a Mainao como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Mainao como nuestro patrón y protector."
+  },
+  "worship_song_bwrai_god": {
+    "name": "Venerar a Song Bwrai como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Song Bwrai como nuestro patrón y protector."
+  },
+  "worship_bura_bagh_raja_god": {
+    "name": "Venerar a Bura Bagh Raja como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Bura Bagh Raja como nuestro patrón y protector."
+  },
+  "worship_donyi_god": {
+    "name": "Venerar a Donyi como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Donyi como nuestro patrón y protector."
+  },
+  "worship_polo_god": {
+    "name": "Venerar a Polo como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Polo como nuestro patrón y protector."
+  },
+  "worship_kine_nane_god": {
+    "name": "Venerar a Kine Nane como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Kine Nane como nuestro patrón y protector."
+  },
+  "worship_doying_bote_god": {
+    "name": "Venerar a Doying Bote como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Doying Bote como nuestro patrón y protector."
+  },
+  "worship_sumnima_god": {
+    "name": "Venerar a Sumnima como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Sumnima como nuestro patrón y protector."
+  },
+  "worship_paruhang_god": {
+    "name": "Venerar a Paruhang como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Paruhang como nuestro patrón y protector."
+  },
+  "worship_yuma_sammang_god": {
+    "name": "Venerar a Yuma Sammang como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Yuma Sammang como nuestro patrón y protector."
+  },
+  "worship_pathian_god": {
+    "name": "Venerar a Pathian como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Pathian como nuestro patrón y protector."
+  },
+  "worship_khuanu_god": {
+    "name": "Venerar a Khuanu como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Khuanu como nuestro patrón y protector."
+  },
+  "worship_pu_vana_god": {
+    "name": "Venerar a Pu Vana como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Pu Vana como nuestro patrón y protector."
+  },
+  "worship_sakhua_god": {
+    "name": "Venerar a Sakhua como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Sakhua como nuestro patrón y protector."
+  },
+  "worship_sky_god": {
+    "name": "Venerar a la Deidad del Cielo como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de la Deidad del Cielo como nuestro patrón y protector."
+  },
+  "worship_death_god": {
+    "name": "Venerar a la Deidad de la Muerte como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de la Deidad de la Muerte como nuestro patrón y protector."
+  },
+  "worship_earth_god": {
+    "name": "Venerar a la Deidad de la Tierra como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de la Deidad de la Tierra como nuestro patrón y protector."
+  },
+  "worship_water_god": {
+    "name": "Venerar a la Deidad del Agua como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de la Deidad del Agua como nuestro patrón y protector."
+  },
+  "worship_creator_god": {
+    "name": "Venerar a la Deidad Creadora como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de la Deidad Creadora como nuestro patrón y protector."
+  },
+  "worship_fire_god": {
+    "name": "Venerar a la Deidad del Guego como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de la Deidad del Guego como nuestro patrón y protector."
+  },
+  "worship_fertility_god": {
+    "name": "Venerar a la Deidad de la Fertilidad como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de la Deidad de la Fertilidad como nuestro patrón y protector."
+  },
+  "worship_war_god": {
+    "name": "Venerar a la Deidad de la Guerra como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de la Deidad de la Guerra como nuestro patrón y protector."
+  },
+  "worship_wind_god": {
+    "name": "Venerar a la Deidad del Viento como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de la Deidad del Viento como nuestro patrón y protector."
+  },
+  "worship_thunder_god": {
+    "name": "Venerar a la Deidad del Trueno como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de la Deidad del Trueno como nuestro patrón y protector."
+  },
+  "adamite_services": {
+    "name": "Servicios adamitas",
+    "desc": "La secta adamita insiste en la desnudez durante los servicios religiosos. Sin distinciones de estatus ni cultura aparecemos iguales a los ojos de Dios; un crudo recordatorio de la humanidad que compartimos y de nuestra inocencia antes de la caída."
+  },
+  "punishment_of_sin": {
+    "name": "Castigo del pecado",
+    "desc": "Quienes pecan deben ser castigados por igual, sin importar riquezas ni estatus. Ni la nobleza está por encima de las leyes de Dios."
+  },
+  "worship_viracocha": {
+    "name": "Venerar a Viracocha como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Viracocha como nuestro patrón y protector."
+  },
+  "worship_inti_god": {
+    "name": "Venerar a Inti como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Inti como nuestro patrón y protector."
+  },
+  "worship_illapa_god": {
+    "name": "Venerar a Illapa como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Illapa como nuestro patrón y protector."
+  },
+  "worship_supay_god": {
+    "name": "Venerar a Supay como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Supay como nuestro patrón y protector."
+  },
+  "worship_mamaquilla": {
+    "name": "Venerar a Mama Quilla como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Mama Quilla como nuestro patrón y protector."
+  },
+  "worship_pachamama": {
+    "name": "Venerar a Pachamama como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Pachamama como nuestro patrón y protector."
+  },
+  "worship_mama_cocha": {
+    "name": "Venerar a Mama Cocha como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Mama Cocha como nuestro patrón y protector."
+  },
+  "worship_urpihuachac": {
+    "name": "Venerar a Urpiwachaq como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Urpiwachaq como nuestro patrón y protector."
+  },
+  "worship_chinchaycamac": {
+    "name": "Venerar a Uscovilca como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Uscovilca como nuestro patrón y protector."
+  },
+  "worship_odin_god": {
+    "name": "Venerar a Óðinn como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Óðinn como nuestro patrón y protector."
+  },
+  "worship_tor_god": {
+    "name": "Venerar a Þórr como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Þórr como nuestro patrón y protector."
+  },
+  "worship_tyr_god": {
+    "name": "Venerar a Týr como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Týr como nuestro patrón y protector."
+  },
+  "worship_njord_god": {
+    "name": "Venerar a Njörðr como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Njörðr como nuestro patrón y protector."
+  },
+  "worship_freyr_god": {
+    "name": "Venerar a Freyr como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Freyr como nuestro patrón y protector."
+  },
+  "worship_freya_god": {
+    "name": "Venerar a Freyja como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Freyja como nuestro patrón y protector."
+  },
+  "baptism_by_fire": {
+    "name": "Bautismo de fuego",
+    "desc": "Nuestra fe no cree que los bautismos con agua sean permanentes, tal como admitiera san Juan Bautista. Solo cuando se tocan los cuatro lados de la cabeza de una persona con la llama de una vela puede considerarse que el bautismo es permanente."
+  },
+  "name_change": {
+    "name": "Cambio de nombre",
+    "desc": "Las comunidades conocen el poder de los nombres. Nuestros líderes de fe suelen cambiar de nombre en honor de los seguidores de san Pablo, igual que el pueblo llano cambia el nombre de sus asentamientos a los de lugares donde viviera nuestro santo patrón."
+  },
+  "paulician_canon": {
+    "name": "Canon paulino",
+    "desc": "Nuestro pueblo rechaza el Antiguo Testamento y sus profetas, ya que rechazan la inclusión de las epístolas de san Pedro. Solo las palabras de san Pablo son apropiadas."
+  },
+  "punishment_by_stoning": {
+    "name": "Castigo por lapidación",
+    "desc": "La lapidación, una práctica común para castigar a los disidentes religiosos de nuestras comunidades, destaca entre nuestros vecinos. Es probable que provenga de nuestros orígenes anatolios."
+  },
+  "justified_conflicts": {
+    "name": "Conflictos justificados",
+    "desc": "La nueva Iglesia del país se ve amenazada por paganos y herejes por igual. En una guerra de supervivencia, la Iglesia usará la Biblia para justificar nuestros conflictos."
+  },
+  "pietism": {
+    "name": "Pietismo",
+    "desc": "El pietismo se centra en la piedad individual de todos los creyentes y hace hincapié en la transformación interior que lleva a una vida cristiana devota."
+  },
+  "worship_tengri_god": {
+    "name": "Venerar a Kök Teŋri como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Kök Teŋri como nuestro patrón y protector."
+  },
+  "worship_umay_god": {
+    "name": "Venerar a Umay como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Umay como nuestro patrón y protector."
+  },
+  "worship_ulgen_god": {
+    "name": "Venerar a Ülgen como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ülgen como nuestro patrón y protector."
+  },
+  "worship_erlik_god": {
+    "name": "Venerar a Erlik como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Erlik como nuestro patrón y protector."
+  },
+  "worship_kayra_god": {
+    "name": "Venerar a Kayra como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Kagara como nuestro patrón y protector."
+  },
+  "worship_bai_baianai_god": {
+    "name": "Venerar a Bai Baianai como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Bai Baianai como nuestro patrón y protector."
+  },
+  "worship_ak_ana_god": {
+    "name": "Venerar a Ak Ana como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Ak Ana como nuestro patrón y protector."
+  },
+  "worship_mergen_god": {
+    "name": "Venerar a Mergen como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Mergen como nuestro patrón y protector."
+  },
+  "worship_tlaloc_god": {
+    "name": "Venerar a Tláloc como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Tláloc como nuestro patrón y protector."
+  },
+  "worship_huitzilopochtli_god": {
+    "name": "Venerar a Huitzilopochtli como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Huitzilopochtli como nuestro patrón y protector."
+  },
+  "worship_quetzalcoatl_god": {
+    "name": "Venerar a Quetzalcóatl como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Quetzalcóatl como nuestro patrón y protector."
+  },
+  "worship_tezcatlipoca_god": {
+    "name": "Venerar a Tezcatlipoca como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Tezcatlipoca como nuestro patrón y protector."
+  },
+  "worship_xiuhtecuhtli_god": {
+    "name": "Venerar a Xiuhtecuhtli como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Xiuhtecuhtli como nuestro patrón y protector."
+  },
+  "worship_coatlicue_god": {
+    "name": "Venerar a Coatlicue como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Coatlicue como nuestro patrón y protector."
+  },
+  "worship_huehueteotl_god": {
+    "name": "Venerar a Huehuetéotl como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Xiuhtecuhtli como nuestro patrón y protector."
+  },
+  "worship_mesoamerican_quetzalcoatl_god": {
+    "name": "Venerar a Quetzalcóatl como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Quetzalcóatl como nuestro patrón y protector."
+  },
+  "worship_dzahui_god": {
+    "name": "Venerar a Dzahui como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Tláloc como nuestro patrón y protector."
+  },
+  "worship_chaac_god": {
+    "name": "Venerar a Chaac como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Tláloc como nuestro patrón y protector."
+  },
+  "worship_kukulkan_god": {
+    "name": "Venerar a Kukulcán como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Quetzalcóatl como nuestro patrón y protector."
+  },
+  "worship_kawiil_god": {
+    "name": "Venerar a K'awiil como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Xiuhtecuhtli como nuestro patrón y protector."
+  },
+  "worship_tepeu_god": {
+    "name": "Venerar a Tepeu como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Tepeu como nuestro patrón y protector."
+  },
+  "worship_huracan_god": {
+    "name": "Venerar a Huracán como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Huracán como nuestro patrón y protector."
+  },
+  "worship_hunhunahpu_god": {
+    "name": "Venerar a Hun-Hunahpú como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Hun-Hunahpú como nuestro patrón y protector."
+  },
+  "worship_ixchel_god": {
+    "name": "Venerar a Ixchel como nuestro dios patrón",
+    "desc": "Damos prioridad al culto y la adoración de Coatlicue como nuestro patrón y protector."
+  },
+  "_modifier_names": {
+    "add_religious_aspect_christian_cost_modifier": "Coste de añadir aspecto religioso",
+    "antagonism_received_modifier": "Antagonismo recibido",
+    "army_initiative": "Iniciativa militar",
+    "army_maintenance_cost": "Mantenimiento del ejército",
+    "army_movement_speed": "Velocidad de movimiento del ejército",
+    "ban_imports_of_livestock": "Prohibir importaciones de",
+    "bank_interest": "Intereses bancarios",
+    "can_have_monasteries": "Monasterios permitidos",
+    "clergy_estate_max_tax": "Impuestos máximos para el clero",
+    "clergy_estate_satisfaction_recovery": "Recuperación de satisfacción estamental del clero",
+    "clergy_estate_target_satisfaction": "Equilibrio de satisfacción estamental del clero",
+    "colonial_maintenance_cost": "Mantenimiento colonial",
+    "country_cabinet_efficiency": "Eficiencia de nuestro gabinete",
+    "court_spending_cost": "Coste previsto de la corte",
+    "cultural_tradition_modifier": "Porcentaje de tradición cultural",
+    "declaring_war_cost_modifier": "Coste de declarar guerra",
+    "diplomatic_capacity_modifier": "Capacidad diplomática",
+    "discipline": "Disciplina",
+    "expand_rgo_farming_cost_modifier": "Coste de ampliar agricultura",
+    "expand_rgo_mining_cost_modifier": "Coste de ampliar minería",
+    "gender_equality": "Igualdad de género",
+    "global_clergy_desired_pop": "posibles",
+    "global_clergy_estate_power": "Poder del clero",
+    "global_clergy_max_literacy": "Alfabetización máxima del clero",
+    "global_crown_estate_power": "Poder de la Corona",
+    "global_defensive": "Defensa de fortaleza",
+    "global_devastation_recovery": "Recuperación de la prosperidad",
+    "global_disease_resistance": "Resistencia a enfermedades",
+    "global_distance_from_capital_speed_propagation": "Velocidad de proximidad",
+    "global_estate_target_satisfaction": "Equilibrio de satisfacción estamental",
+    "global_fish_output_modifier": "Producción de",
+    "global_garrison_size_modifier": "Tamaño de guarniciones",
+    "global_hostile_attrition": "Desgaste hostil",
+    "global_life_expectancy": "Esperanza de vida de personaje",
+    "global_lumber_output_modifier": "Producción de",
+    "global_maritime_presence_modifier": "% de presencia marítima",
+    "global_max_literacy": "Alfabetización máxima",
+    "global_max_rgo_size_modifier": "Tamaño máximo de ORR",
+    "global_monthly_art_start_chance": "Probabilidad mensual de arte nuevo",
+    "global_monthly_control": "Control mensual",
+    "global_monthly_food_modifier": "% de producción de comida",
+    "global_monthly_prosperity": "Prosperidad mensual",
+    "global_pop_assimilation_speed_modifier": "Velocidad de asimilación de las comunidades",
+    "global_pop_conversion_speed_modifier": "% de velocidad de conversión de las comunidades",
+    "global_pop_promotion_speed_modifier": "% de velocidad de ascenso de las comunidades",
+    "global_population_growth": "Crecimiento poblacional",
+    "global_production_efficiency": "Eficiencia productiva",
+    "global_raw_material_output": "Producción de materias primas",
+    "global_separatism": "Separatismo",
+    "global_war_score_cost": "Coste de puntuación bélica",
+    "global_weaponry_output_modifier": "Producción de",
+    "global_wild_game_output_modifier": "Producción de",
+    "global_wine_output_modifier": "Producción de",
+    "improve_relation_impact": "Mejorar las relaciones",
+    "land_morale_modifier": "Moral del ejército",
+    "land_morale_recovery": "Velocidad de recuperación de moral del ejército",
+    "minting_income_factor": "Ingresos por acuñación",
+    "monthly_diplomats": "Diplomáticos mensuales",
+    "monthly_legitimacy": "Legitimidad mensual",
+    "monthly_rebel_growth": "Crecimiento mensual de rebeldes",
+    "monthly_religious_influence": "Influencia religiosa mensual",
+    "monthly_towards_absolutism": "Progreso mensual hacia el absolutismo",
+    "monthly_towards_belligerent": "Progreso mensual hacia el enfoque beligerante",
+    "monthly_towards_capital_economy": "Progreso mensual hacia la economía del capital",
+    "monthly_towards_centralization": "Progreso mensual hacia la centralización",
+    "monthly_towards_communalism": "Progreso mensual hacia el comunalismo",
+    "monthly_towards_conciliatory": "Progreso mensual hacia el enfoque conciliador",
+    "monthly_towards_decentralization": "Progreso mensual hacia la descentralización",
+    "monthly_towards_free_subjects": "Progreso mensual hacia los súbditos libres",
+    "monthly_towards_individualism": "Progreso mensual hacia el individualismo",
+    "monthly_towards_innovative": "Progreso mensual hacia el enfoque innovador",
+    "monthly_towards_plutocracy": "Progreso mensual hacia la plutocracia",
+    "monthly_towards_spiritualist": "Progreso mensual hacia el enfoque espiritualista",
+    "monthly_towards_traditionalist": "Progreso mensual hacia el enfoque tradicionalista",
+    "monthly_war_exhaustion": "Agotamiento bélico mensual",
+    "monthly_yanantin": "Yanantin mensual",
+    "naval_morale_modifier": "Moral de la armada",
+    "navy_initiative": "Iniciativa naval",
+    "peasants_estate_target_satisfaction": "Equilibrio de satisfacción estamental del campesinado",
+    "pop_join_rebel_threshold": "Umbral comunitario para unirse a rebeldes",
+    "pop_leave_rebels_threshold": "Umbral comunitario para abandonar rebeldes",
+    "recruit_explorer_cost_modifier": "Reclutamiento de exploradores",
+    "regiment_reinforcement_speed": "Velocidad de refuerzo",
+    "remove_religious_aspect_christian_cost_modifier": "Coste de quitar aspecto religioso",
+    "research_speed_modifier": "% de progreso de investigación mensual",
+    "skill_of_new_artists": "Talento de artistas nuevos",
+    "stability_cost": "Coste de inversión en estabilidad",
+    "tax_income_efficiency": "Eficiencia fiscal",
+    "tolerance_heathen": "Tolerancia de creencias paganas",
+    "tolerance_heretic": "Tolerancia de creencias heréticas",
+    "tolerance_own": "Tolerancia de la fe verdadera",
+    "war_on_different_religion_cost_modifier": "Coste de guerra contra distinta religión"
+  },
+  "_modifier_descs": {
+    "add_religious_aspect_christian_cost_modifier": "Afecta a los Costes de añadir un Aspecto religioso.",
+    "antagonism_received_modifier": "Afecta a la cantidad de Antagonismo que genera un País con sus acciones.",
+    "army_initiative": "Afecta a la Iniciativa de un Regimiento en Batalla.",
+    "army_maintenance_cost": "Cambia la cantidad de Ducados y Soldadesca necesaria para mantener un Regimiento.",
+    "army_movement_speed": "Afecta a la rapidez con que un Ejército se desplaza de una Ubicación a otra.",
+    "ban_imports_of_livestock": "Bloquea la Importación de livestock a todos los Mercados que posee un País.",
+    "bank_interest": "Afecta a los Intereses de los Préstamos asumidos con el banco nacional.",
+    "can_have_monasteries": "Afecta a si un país puede tener monastery o no.",
+    "clergy_estate_max_tax": "Afecta a los Impuestos máximos que se pueden recaudar del estamento Del clero.",
+    "clergy_estate_satisfaction_recovery": "Afecta a la rapidez con la que la Satisfacción estamental se recupera hasta el Equilibrio de satisfacción para el estamento Del clero de este País.",
+    "clergy_estate_target_satisfaction": "Afecta al Equilibrio de satisfacción Del clero de este País.",
+    "colonial_maintenance_cost": "Afecta al coste mensual de las Cartas coloniales.",
+    "country_cabinet_efficiency": "Afecta a la Eficiencia del gabinete de todos los Personajes que trabajan en el Gabinete de un País.",
+    "court_spending_cost": "Afecta a la cantidad de Base fiscal que se espera que sea Coste de la corte.",
+    "cultural_tradition_modifier": "Afecta a la Tradición cultural de nuestra Cultura principal.",
+    "declaring_war_cost_modifier": "Afecta a los Costes que conlleva declarar una Guerra.",
+    "diplomatic_capacity_modifier": "Afecta a la cantidad de Capacidad diplomática utilizada que puede tener un País.",
+    "discipline": "Afecta a la Disciplina de un Regimiento.",
+    "expand_rgo_farming_cost_modifier": "Afecta a los Costes que conlleva aumentar la cantidad de Comunidades que trabajan con Materias primas que requieren granjas. Materias primas que usan agricultura。",
+    "expand_rgo_mining_cost_modifier": "Afecta a los Costes que conlleva aumentar la cantidad de Comunidades que trabajan con Materias primas que requieren minas. Materias primas que usan minería。",
+    "gender_equality": "Afecta a si se pueden asignar mujeres a las mismas Funciones que a los hombres.",
+    "global_clergy_desired_pop": "Afecta a la cantidad de clergy que pueden vivir en todas las Ubicaciones de este País.",
+    "global_clergy_estate_power": "Afecta al Poder estamental Del clero de todo el País.",
+    "global_clergy_max_literacy": "Afecta a la Alfabetización de todos los clergy de este País.",
+    "global_crown_estate_power": "Afecta al Poder estamental De la Corona o, en otras palabras, al Poder de la corona en todo el País.",
+    "global_defensive": "Afecta a la rapidez con que se lanzará un Asedio contra un País.",
+    "global_devastation_recovery": "Afecta a la rapidez con que se recupera mensualmente la Prosperidad de todas las Ubicaciones de un País.",
+    "global_disease_resistance": "Afecta a la Resistencia a enfermedades en todas las Ubicaciones de un País.",
+    "global_distance_from_capital_speed_propagation": "Afecta a la rapidez con que se desplaza la Proximidad entre todas las Ubicaciones de un País.",
+    "global_estate_target_satisfaction": "Afecta al Equilibrio de satisfacción de todos los Estamentos del País.",
+    "global_fish_output_modifier": "Modifica la Producción de fish en todo el País.",
+    "global_garrison_size_modifier": "Afecta al tamaño de todas las Guarniciones que tiene un País.",
+    "global_hostile_attrition": "Afecta al Desgaste de los Ejércitos de carácter Hostil en todas las Ubicaciones de nuestra Propiedad y bajo nuestro Control.",
+    "global_life_expectancy": "Indica la edad a partir de la cual los Personajes de este País serán susceptibles de morir por edad avanzada.",
+    "global_lumber_output_modifier": "Modifica la Producción de lumber en todo el País.",
+    "global_maritime_presence_modifier": "Afecta a la Presencia marítima en todas las Zonas marítimas adyacentes a todas las Ubicaciones que sean propiedad de un País.",
+    "global_max_literacy": "Afecta a la Alfabetización máxima de todas las Comunidades de un País.",
+    "global_max_rgo_size_modifier": "Afecta al tamaño máximo de todas las ORR de un País.",
+    "global_monthly_art_start_chance": "Afecta a la probabilidad de que los Artistas de un País emprendan Obras de arte nuevas.",
+    "global_monthly_control": "Representa cuánto cambiará el Control de todas las Ubicaciones del País.",
+    "global_monthly_food_modifier": "Afecta a la cantidad de Comida que se Producción en todas las Ubicaciones del País.",
+    "global_monthly_prosperity": "Afecta al cambio mensual en la Prosperidad de todas las Ubicaciones del País.",
+    "global_pop_assimilation_speed_modifier": "Afecta a la rapidez con que se pueden Asimilar las Comunidades de todas las Ubicaciones del país.",
+    "global_pop_conversion_speed_modifier": "Afecta a la rapidez con que pueden Convertirse las Comunidades de todas las Ubicaciones del país.",
+    "global_pop_promotion_speed_modifier": "Afecta a la rapidez con que pueden Ascender las Comunidades en todas las Ubicaciones del país.",
+    "global_population_growth": "Afecta al Crecimiento poblacional de todas las Ubicaciones del País.",
+    "global_production_efficiency": "Afecta a la Eficiencia productiva de todo el País.",
+    "global_raw_material_output": "Afecta a la Producción de Materias primas de todas las Ubicaciones del País.",
+    "global_separatism": "Afecta al Separatismo en todas las Ubicaciones de un País.",
+    "global_war_score_cost": "Afecta a la cantidad de Puntuación bélica que le costará a un País conquistar un territorio.",
+    "global_weaponry_output_modifier": "Modifica la Producción de weaponry en todo el País.",
+    "global_wild_game_output_modifier": "Modifica la Producción de wild game en todo el País.",
+    "global_wine_output_modifier": "Modifica la Producción de wine en todo el País.",
+    "improve_relation_impact": "Afecta a lo mucho que un País puede Mejorar las relaciones.",
+    "land_morale_modifier": "Modifica en porcentajes la Moral máxima que puede tener un Regimiento.",
+    "land_morale_recovery": "Afecta a la rapidez con que se recupera la Moral de un Regimiento cuando no es al máximo.",
+    "minting_income_factor": "Afecta a la cantidad de Ducados que obtiene un País mediante la Acuñación.",
+    "monthly_diplomats": "Afecta a la cantidad de Diplomáticos que un País puede obtener en un mes.",
+    "monthly_legitimacy": "Afecta a la cantidad de Legitimidad que obtiene un País al mes.",
+    "monthly_rebel_growth": "Afecta a la rapidez con que los Rebeldes progresan hacia una Revuelta o Guerra civil.",
+    "monthly_religious_influence": "Afecta a la cantidad de Influencia religiosa que obtiene un País al mes.",
+    "monthly_towards_absolutism": "Afecta al cambio hacia unos Valores sociales de absolutism.",
+    "monthly_towards_belligerent": "Afecta al cambio hacia unos Valores sociales de tipo belligerent.",
+    "monthly_towards_capital_economy": "Afecta al cambio hacia unos Valores sociales de Capital economy.",
+    "monthly_towards_centralization": "Afecta al cambio hacia unos Valores sociales de centralization.",
+    "monthly_towards_communalism": "Afecta al cambio hacia unos Valores sociales de communalism.",
+    "monthly_towards_conciliatory": "Afecta al cambio hacia unos Valores sociales de tipo conciliatory.",
+    "monthly_towards_decentralization": "Afecta al cambio hacia unos Valores sociales de decentralization.",
+    "monthly_towards_free_subjects": "Afecta al cambio hacia unos Valores sociales de free Súbditos.",
+    "monthly_towards_individualism": "Afecta al cambio hacia unos Valores sociales de individualism.",
+    "monthly_towards_innovative": "Afecta al cambio hacia unos Valores sociales de tipo innovative.",
+    "monthly_towards_plutocracy": "Afecta al cambio hacia unos Valores sociales de plutocracy.",
+    "monthly_towards_spiritualist": "Afecta al cambio hacia unos Valores sociales de tipo spiritualist.",
+    "monthly_towards_traditionalist": "Afecta al cambio hacia unos Valores sociales de tipo traditionalist.",
+    "monthly_war_exhaustion": "Afecta a la cantidad de Agotamiento bélico que acumulamos al mes.",
+    "monthly_yanantin": "Afecta a la cantidad de Yanantin que obtiene un País al mes.",
+    "naval_morale_modifier": "Modifica en porcentajes la Moral máxima que puede tener un Barco.",
+    "navy_initiative": "Afecta a la Iniciativa de un Barco en Batalla.",
+    "peasants_estate_target_satisfaction": "Afecta al Equilibrio de satisfacción Del campesinado de este País.",
+    "pop_join_rebel_threshold": "Afecta al nivel de Satisfacción comunitaria por debajo del cual una Comunidad se une a los Rebeldes. Nunca puede ser inferior al .",
+    "pop_leave_rebels_threshold": "Afecta al nivel de Satisfacción comunitaria por encima del cual una Comunidad abandona a los Rebeldes.",
+    "recruit_explorer_cost_modifier": "Afecta a los Costes que conlleva reclutar a un Explorador.",
+    "regiment_reinforcement_speed": "Afecta a la rapidez con que un Regimiento se puede Reforzar.",
+    "remove_religious_aspect_christian_cost_modifier": "Afecta a los Costes de eliminar un Aspecto religioso.",
+    "research_speed_modifier": "Afecta a la generación de Progreso de investigación de un País.",
+    "skill_of_new_artists": "Afecta a las Dotes artísticas de los nuevos Artistas.",
+    "stability_cost": "Afecta al coste de la Inversión en estabilidad.",
+    "tax_income_efficiency": "Afecta a la Eficiencia fiscal de un País.",
+    "tolerance_heathen": "Afecta a la Tolerancia de las Religiones de un Grupo religioso diferente al de la Religión principal.",
+    "tolerance_heretic": "Afecta a la Tolerancia de las Religiones del mismo Grupo religioso que la Religión principal.",
+    "tolerance_own": "Afecta a la Tolerancia de la Religión principal.",
+    "war_on_different_religion_cost_modifier": "Afecta a los Costes que conlleva declarar una Guerra a alguien de una Religión diferente."
+  }
+}

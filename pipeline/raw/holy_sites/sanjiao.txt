@@ -1,0 +1,7 @@
+temple_of_confucius = {
+    location = qufu
+    type = temple
+    importance = 3
+	religions = { sanjiao }
+}
+

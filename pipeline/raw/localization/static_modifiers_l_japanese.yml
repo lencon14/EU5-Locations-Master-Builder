@@ -1,4 +1,4 @@
-﻿l_japanese:
+l_japanese:
  STATIC_MODIFIER_NAME_is_bankrupt: "[bankrupt|e]している"
  STATIC_MODIFIER_NAME_is_subject: "[subject|e]である"
  STATIC_MODIFIER_NAME_taken_the_vows: "誓いを立てた"
@@ -2092,3 +2092,4 @@
  #Complacent Decline Disaster
  STATIC_MODIFIER_NAME_recent_inspection_modifier: "最近の視察"
  STATIC_MODIFIER_NAME_entrenched_cabinet_member: "権力基盤を固めた閣僚"
+

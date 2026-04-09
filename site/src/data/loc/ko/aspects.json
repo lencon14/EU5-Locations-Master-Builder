@@ -1,0 +1,842 @@
+{
+  "prima_scriptura": {
+    "name": "성경 우선주의",
+    "desc": "성경을 가장 중요한 구원의 원천으로 간주합니다. 하지만 성경이 유일한 계시의 원천인 것은 아닙니다."
+  },
+  "five_doors": {
+    "name": "다섯 개의 문",
+    "desc": "우리 백성 중 일부는 집의 문을 모두 닫고 다섯 개의 문, 다시 말해 즉 오감만을 열어 놓는 명상을 수행합니다. 우리는 이 명상법을 전국으로 확대할 것입니다."
+  },
+  "holy_cooperation": {
+    "name": "신앙 협동체",
+    "desc": "생산적인 노동을 장려하고 노동에 적극적으로 참여하는 변화가 일어납니다. 이러한 정신은 초기 기독교인의 거룩한 협동체를 본받아 우리 농업 공동체로도 확장될 것입니다."
+  },
+  "twelve_emissaries": {
+    "name": "열두 사절",
+    "desc": "일부 공동체의 조직 방식에 착안해, 우리는 위계질서를 수립하는 대신 우리 사회의 원로들과 완덕자들 중에서 슬기로운 자 열두 명을 선발해 최고 평의회의 역할을 담당하게 할 것입니다."
+  },
+  "arminianism": {
+    "name": "아르미니우스주의",
+    "desc": "아르미니우스주의는 네덜란드의 개혁파 신학자인 야코부스 아르미니우스가 주장한 다원주의 및 인도주의 사상에 기반합니다."
+  },
+  "gomarism": {
+    "name": "고마루스주의",
+    "desc": "프란치스쿠스 고마루스는 펠라기우스적 교리를 가르친 야코부스 아르미니우스의 사상에 반기를 들고, 한때 아르미니우스와 함께 몸담았던 대학에 새로운 신학 학파를 창설하고자 했습니다."
+  },
+  "instituionalized_arminianism": {
+    "name": "제도화된 아르미니우스주의",
+    "desc": "아르미니우스주의는 네덜란드의 개혁파 신학자인 야코부스 아르미니우스가 주장한 다원주의 및 인도주의 사상에 기반합니다. 이 종교 운동은 이제 우리나라에서 제도화되었습니다."
+  },
+  "instituionalized_gomarism": {
+    "name": "제도화된 고마루스주의",
+    "desc": "프란치스쿠스 고마루스는 펠라기우스적 교리를 가르친 야코부스 아르미니우스의 사상에 반기를 들고, 한때 아르미니우스와 함께 몸담았던 대학에 새로운 신학 학파를 창설하고자 했습니다. 이 종교 운동은 이제 우리나라에서 제도화되었습니다."
+  },
+  "consolamentum": {
+    "name": "위령 안수",
+    "desc": "삶의 여정은 필연적으로 죄에 대한 회한으로 귀결됩니다. 그리고 끝이 다가올수록 순결한 모습으로 천국에 발을 딛고 주님께 더욱 가까이 다가가기 위한 위안의 필요성이 더더욱 분명해집니다. 따라서 우리는 죽음을 앞둔 백성들에게 콘솔라멘툼, 즉 위령 안수를 베풀어 그 죄를 사해 줍니다."
+  },
+  "pescatarianism": {
+    "name": "페스코 채식",
+    "desc": "동물은 윤회한 영혼의 운반자이기에 우리는 동물을 먹지 않습니다. 하지만 생선은 그 스스로 생겨난 것이기에 동물이라고 볼 수 없으며, 따라서 먹을 수 있습니다."
+  },
+  "the_perfects": {
+    "name": "완덕자",
+    "desc": "모든 사람이 추구해야 할 미덕을 전부 갖춰 주님께 특별히 귀의한 이들을 '완덕자'라 일컫습니다. 합당한 자격을 갖춘 남녀는 헌신에 대한 증거로서 위령 안수(콘솔라멘툼)를 받고 완덕자로 거듭납니다. 그렇기에 완덕자들은 일반 신도들과는 달리, 완덕자가 될 때와 죽음을 맞이할 때 총 두 번의 위령 안수를 받습니다."
+  },
+  "adoptionism": {
+    "name": "양자설",
+    "desc": "우리 신앙은 예수 그리스도께서 애초부터 영원한 신성을 지니고 태어나신 것이 아니라 세례를 받으셨을 때, 혹은 부활하셨을 때 신의 아들로 받아들여지신 것이라고 여깁니다."
+  },
+  "adult_baptism": {
+    "name": "성인 세례",
+    "desc": "어른이 되었을 때 예수 그리스도에 대한 믿음을 고백해 세례를 받고 신앙 공동체의 일원이 되는 의식을 의미합니다. 구원의 은혜와 교회 구성원의 자격은 하느님께서 내려 주신 선물이기에 이러한 의식이 행해집니다. 세례를 받는 인물은 그 믿음을 자신의 목소리로 드러내야 하며, 이 의무는 절대 다른 사람이 대신할 수 없습니다."
+  },
+  "aniconism": {
+    "name": "반우상주의",
+    "desc": "상징은 우상이나 사람을 나타내는 수단이기에, 우리 주님을 표현하는 적절한 방법이라고는 볼 수 없습니다. 우리는 모든 우상의 사용을 거부할 것이며, 여기에는 다른 기독교도들이 사용하는 십자가까지도 포함됩니다."
+  },
+  "asceticism": {
+    "name": "금욕주의",
+    "desc": "물욕은 우리의 눈을 가려 신성한 진실을 보지 못하게 합니다. 사치 없는 소박한 삶을 살며 믿음에 헌신해야만 영적인 깨달음을 얻을 수 있습니다."
+  },
+  "bread_and_wine": {
+    "name": "빵과 포도주",
+    "desc": "우리는 빵과 포도주를 모두 갖춘 성찬만을 유효한 성찬으로 인정하며, 평신도이더라도 예외는 아닙니다. 따라서 우리 성직자들은 예배에 참석한 모든 이에게 양형 영성체를 집전할 것입니다."
+  },
+  "clerical_poverty": {
+    "name": "성직의 청빈",
+    "desc": "성직자는 재물을 소유해서는 안 되며, 물질적인 소유를 모두 내려놓아야 합니다. 세속적인 사안에 정신을 파는 일 없이, 오로지 주님께만 관심을 기울여야 하는 것입니다."
+  },
+  "crown_as_head_of_faith": {
+    "name": "신앙의 수장으로서의 군주",
+    "desc": "나라 밖의 저 부패한 일인 신권주의자가 교회를 지배하는 시대는 끝났습니다. 이제부터 모든 종교 관련 사안은 새로운 신앙의 수장인 통치자가 맡을 것입니다."
+  },
+  "freedom_to_preach": {
+    "name": "설교의 자유",
+    "desc": "비록 신도들 사이에 많은 견해 차이가 있지만, 마음에 품은 주님을 저버리지 않는 한 모든 분파에 설교의 자유가 보장될 것입니다."
+  },
+  "gnosticism": {
+    "name": "영지주의",
+    "desc": "영지주의는 지식, 다시 말해 그노시스를 통한 개인적 구원을 중시합니다. 우리는 물질세계에서 벗어나 영적 통찰을 구함으로써 더 높은 차원에 도달할 것입니다."
+  },
+  "individual_creeds": {
+    "name": "개인적 신조",
+    "desc": "백성들로 하여금 자신만의 신조를 만들 수 있도록 허용한다면, 개개인이 스스로 믿음을 정립하고 발전을 위한 길을 닦을 수 있을 것입니다!"
+  },
+  "monasticism": {
+    "name": "수도원주의",
+    "desc": "값비싼 음식과 음료가 주는 향락은 신을 온전히 섬기는 데 방해가 될 뿐입니다. 이러한 유혹을 뿌리치려면 외딴곳의 수도원에 스스로를 고립시키는 것이 가장 좋습니다."
+  },
+  "modalism": {
+    "name": "양태론",
+    "desc": "우리는 주님이 본질적으로 하나의 존재이시며, 성부와 성자, 성령 같은 개념은 주님께서 현현하실 때 사용한 서로 다른 방식, 다시 말해 양태에 불과하다고 믿습니다."
+  },
+  "organized_through_bishops": {
+    "name": "주교 임명",
+    "desc": "주교 임명을 폐지하지는 않지만, 지금까지와는 달리 그저 넓은 지역을 담당하는 일종의 행정가로서 교회를 섬기게 합니다."
+  },
+  "pacifism": {
+    "name": "평화주의",
+    "desc": "화평케 하는 자는 복이 있나니, 그들은 하느님의 아들이라 일컬음을 받게 되리라."
+  },
+  "parish_registers": {
+    "name": "교구 기록부",
+    "desc": "이제부터 세례, 혼인, 장례 등에 관한 정보를 교구 기록부에 기록합니다. 앞으로 각 교구의 신부는 이러한 대소사를 장부에 기록한 다음, 두 개의 자물쇠가 달린 단단한 상자에 넣어 보관할 것입니다."
+  },
+  "participation_women": {
+    "name": "여성의 참여",
+    "desc": "우리 공동체는 이미 여성에게 동등한 참여권을 인정하고 있지만, 여성을 남성과 동등하게 대우해야 한다는 범적 규범을 도입한다면 모든 곳에서 이 원칙이 더욱 잘 지켜질 것입니다."
+  },
+  "rejection_of_sacraments": {
+    "name": "성례 거부",
+    "desc": "우리의 교리는 대다수의 기독교 성례를 거부합니다. 그러한 성례는 주로 물질적인 부분에 치우쳐 있기에 그다지 중요하지 않기 때문입니다. 오직 영적인 수단을 통해서만 주님께 더 가까이 다가갈 수 있습니다."
+  },
+  "sola_fide": {
+    "name": "솔라 피데",
+    "desc": "솔라 피데, 오직 믿음. 어떠한 선행도 그 자체만으로는 주님을 흡족하게 할 수 없습니다. 우리는 오직 주님께서 자신의 외아들이신 예수 그리스도를 통해 베푸신 신성한 은혜에 의해서만 죄를 사해 받을 수 있습니다."
+  },
+  "sola_scriptura": {
+    "name": "솔라 스크립투라",
+    "desc": "솔라 스크립투라, 오직 성경. 인간에게 전해진 신의 말씀인 성경은 기독교 교리의 유일한 권위입니다. 성경을 통해 뒷받침할 수 없는 종교 행위는 모두 이단으로 규정되어야 합니다."
+  },
+  "soli_deo_gloria": {
+    "name": "솔리 데오 글로리아",
+    "desc": "솔리 데오 글로리아, 오직 주님께만 영광이. 인간의 모든 위업은 오직 주님께 바치는 찬양으로 헌정할 때만 비로소 이룩할 수 있습니다."
+  },
+  "translated_bibles": {
+    "name": "성경 번역",
+    "desc": "성경을 우리나라 사람들이 사용하는 언어로 번역한다면 개개인이 직접 자신의 마음과 생각으로 성경과 교감을 나눌 수 있어, 주님께 이르는 가장 올바른 길을 나아갈 수 있게 될 것입니다."
+  },
+  "usury_allowed": {
+    "name": "고리대금업 허용",
+    "desc": "돈을 빌려주고 이자를 받아 재산을 불리는 행위를 허용하고, 더 이상 죄악으로 보지 않습니다."
+  },
+  "war_sermons": {
+    "name": "전쟁 설교",
+    "desc": "어지러운 시기에 우리 백성의 희망을 지켜 주는 것은 다름 아닌 믿음입니다. 우리 교회는 성경을 바탕으로 설교함으로써 전운이 어둡게 드리운 때에도 백성들의 사기가 떨어지지 않도록 할 것입니다."
+  },
+  "worship_nyambe_god": {
+    "name": "수호신 경배: 니얌베",
+    "desc": "우리나라는 니얌베를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_nhialic_god": {
+    "name": "수호신 경배: 니알릭",
+    "desc": "우리나라는 니알릭을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_du_chie_god": {
+    "name": "수호신 경배: 두 치에",
+    "desc": "우리나라는 두 치에를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ayum_god": {
+    "name": "수호신 경배: 아이움",
+    "desc": "우리나라는 아이움을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_alwet_god": {
+    "name": "수호신 경배: 알웨트",
+    "desc": "우리나라는 알웨트를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_zanahary_god": {
+    "name": "수호신 경배: 자나하리",
+    "desc": "우리나라는 자나하리를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ratovantany_god": {
+    "name": "수호신 경배: 라토반타니",
+    "desc": "우리나라는 라토반타니를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_andrianerinerina_god": {
+    "name": "수호신 경배: 안드리아네리네리나",
+    "desc": "우리나라는 안드리아네리네리나를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_andriambahomanana_god": {
+    "name": "수호신 경배: 안드리암바호마나나",
+    "desc": "우리나라는 안드리암바호마나나를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_andriamahilala_god": {
+    "name": "수호신 경배: 안드리아마힐랄라",
+    "desc": "우리나라는 안드리아마힐랄라를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ngai_god": {
+    "name": "수호신 경배: 은가이",
+    "desc": "우리나라는 은가이를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_asis_god": {
+    "name": "수호신 경배: 아시스",
+    "desc": "우리나라는 아시스를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ilat_god": {
+    "name": "수호신 경배: 일라트",
+    "desc": "우리나라는 일라트를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_waaq_god": {
+    "name": "수호신 경배: 와크",
+    "desc": "우리나라는 와크를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_kaggen_god": {
+    "name": "수호신 경배: 카겐",
+    "desc": "우리나라는 카겐을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_hunntuattatteen_god": {
+    "name": "수호신 경배: 훈투아타틴",
+    "desc": "우리나라는 훈투아타틴을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_kagara_god": {
+    "name": "수호신 경배: 카가라",
+    "desc": "우리나라는 카가라를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_haunu_god": {
+    "name": "수호신 경배: 하우누",
+    "desc": "우리나라는 하우누를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_akuj_god": {
+    "name": "수호신 경배: 아쿠지",
+    "desc": "우리나라는 아쿠지를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_anyame_god": {
+    "name": "수호신 경배: 아니아메",
+    "desc": "우리나라는 아니아메를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_asase_ya_god": {
+    "name": "수호신 경배: 아사세 야",
+    "desc": "우리나라는 아사세 야를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_anansi_god": {
+    "name": "수호신 경배: 아난시",
+    "desc": "우리나라는 아난시를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_tano_god": {
+    "name": "수호신 경배: 타노",
+    "desc": "우리나라는 타노를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_legba_god": {
+    "name": "수호신 경배: 레그바",
+    "desc": "우리나라는 레그바를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_mawu_god": {
+    "name": "수호신 경배: 마우",
+    "desc": "우리나라는 마우를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_lisa_god": {
+    "name": "수호신 경배: 리사",
+    "desc": "우리나라는 리사를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_sakpata_god": {
+    "name": "수호신 경배: 사크파타",
+    "desc": "우리나라는 사크파타를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_olorun_god": {
+    "name": "수호신 경배: 올로룬",
+    "desc": "우리나라는 올로룬을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_olokun_isese_god": {
+    "name": "수호신 경배: 올로쿤",
+    "desc": "우리나라는 올로쿤을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_obatala_god": {
+    "name": "수호신 경배: 오바탈라",
+    "desc": "우리나라는 오바탈라를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ori_god": {
+    "name": "수호신 경배: 오리",
+    "desc": "우리나라는 오리를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_egbesu_god": {
+    "name": "수호신 경배: 에그베수",
+    "desc": "우리나라는 에그베수를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_amadioha_god": {
+    "name": "수호신 경배: 아마디오하",
+    "desc": "우리나라는 아마디오하를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ikenga_god": {
+    "name": "수호신 경배: 이켄가",
+    "desc": "우리나라는 이켄가를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_agwu_nsi_god": {
+    "name": "수호신 경배: 아구 은시",
+    "desc": "우리나라는 아구 은시를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ogbunabali_god": {
+    "name": "수호신 경배: 오그부나발리",
+    "desc": "우리나라는 오그부나발리를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_takhar_god": {
+    "name": "수호신 경배: 타카르",
+    "desc": "우리나라는 타카르를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_mindiss_god": {
+    "name": "수호신 경배: 민디스",
+    "desc": "우리나라는 민디스를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_niparaya_god": {
+    "name": "수호신 경배: 니파라야",
+    "desc": "우리나라는 니파라야를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_u_blei_nong_thaw_god": {
+    "name": "수호신 경배: 우 블레이 농소",
+    "desc": "우리나라는 우 블레이 농소를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ulei_muluk_god": {
+    "name": "수호신 경배: 울레이 물루크",
+    "desc": "우리나라는 울레이 물루크를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ulei_umtang_god": {
+    "name": "수호신 경배: 울레이 움탕",
+    "desc": "우리나라는 울레이 움탕을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ulei_longspah_god": {
+    "name": "수호신 경배: 울레이 롱스파",
+    "desc": "우리나라는 울레이 롱스파를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_marang_buru_god": {
+    "name": "수호신 경배: 마랑 부루",
+    "desc": "우리나라는 마랑 부루를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_dharti_ayo_god": {
+    "name": "수호신 경배: 다르티 아요",
+    "desc": "우리나라는 다르티 아요를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_kotan_kar_kamuy_god": {
+    "name": "수호신 경배: 코탄 카르 카무이",
+    "desc": "우리나라는 코탄 카르 카무이를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_kamuy_huci_god": {
+    "name": "수호신 경배: 카무이 후치",
+    "desc": "우리나라는 카무이 후치를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_kim_un_kamuy_god": {
+    "name": "수호신 경배: 키문 카무이",
+    "desc": "우리나라는 키문 카무이를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_rep_un_kamuy_god": {
+    "name": "수호신 경배: 레푼 카무이",
+    "desc": "우리나라는 레푼 카무이를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_baradeo_god": {
+    "name": "수호신 경배: 바라데오",
+    "desc": "우리나라는 바라데오를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_nat_awal_god": {
+    "name": "수호신 경배: 나트 아왈",
+    "desc": "우리나라는 나트 아왈을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_aki_pen_god": {
+    "name": "수호신 경배: 아키 펜",
+    "desc": "우리나라는 아키 펜을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_nat_awual_god": {
+    "name": "수호신 경배: 나트 아우알",
+    "desc": "우리나라는 나트 아우알을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_phi_heaven_god": {
+    "name": "수호신 경배: 하늘의 피",
+    "desc": "우리나라는 하늘의 피를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_phi_water_god": {
+    "name": "수호신 경배: 물의 피",
+    "desc": "우리나라는 하늘의 피를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_phi_earth_god": {
+    "name": "수호신 경배: 땅의 피",
+    "desc": "우리나라는 땅의 피를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_phi_fire_god": {
+    "name": "수호신 경배: 불의 피",
+    "desc": "우리나라는 불의 피를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_bathoubwrai_god": {
+    "name": "수호신 경배: 바투부라이",
+    "desc": "우리나라는 바투부라이를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_mainao_god": {
+    "name": "수호신 경배: 마이나오",
+    "desc": "우리나라는 마이나오를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_song_bwrai_god": {
+    "name": "수호신 경배: 송 부라이",
+    "desc": "우리나라는 송 부라이를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_bura_bagh_raja_god": {
+    "name": "수호신 경배: 부라 바그 라자",
+    "desc": "우리나라는 부라 바그 라자를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_donyi_god": {
+    "name": "수호신 경배: 도니",
+    "desc": "우리나라는 도니를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_polo_god": {
+    "name": "수호신 경배: 폴로",
+    "desc": "우리나라는 폴로를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_kine_nane_god": {
+    "name": "수호신 경배: 키네 나네",
+    "desc": "우리나라는 키네 나네를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_doying_bote_god": {
+    "name": "수호신 경배: 도잉 보테",
+    "desc": "우리나라는 도잉 보테를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_sumnima_god": {
+    "name": "수호신 경배: 숨니마",
+    "desc": "우리나라는 숨니마를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_paruhang_god": {
+    "name": "수호신 경배: 파루항",
+    "desc": "우리나라는 파루항을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_yuma_sammang_god": {
+    "name": "수호신 경배: 유마 삼망",
+    "desc": "우리나라는 유마 삼망을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_pathian_god": {
+    "name": "수호신 경배: 파티안",
+    "desc": "우리나라는 파티안을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_khuanu_god": {
+    "name": "수호신 경배: 쿠아누",
+    "desc": "우리나라는 쿠아누를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_pu_vana_god": {
+    "name": "수호신 경배: 푸 바나",
+    "desc": "우리나라는 푸 바나를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_sakhua_god": {
+    "name": "수호신 경배: 사쿠아",
+    "desc": "우리나라는 사쿠아를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_sky_god": {
+    "name": "수호신 경배: 하늘의 신",
+    "desc": "우리나라는 하늘의 신을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_death_god": {
+    "name": "수호신 경배: 죽음의 신",
+    "desc": "우리나라는 죽음의 신을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_earth_god": {
+    "name": "수호신 경배: 대지의 신",
+    "desc": "우리나라는 대지의 신을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_water_god": {
+    "name": "수호신 경배: 물의 신",
+    "desc": "우리나라는 물의 신을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_creator_god": {
+    "name": "수호신 경배: 창조의 신",
+    "desc": "우리나라는 창조의 신을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_fire_god": {
+    "name": "수호신 경배: 불의 신",
+    "desc": "우리나라는 불의 신을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_fertility_god": {
+    "name": "수호신 경배: 다산의 신",
+    "desc": "우리나라는 다산의 신을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_war_god": {
+    "name": "수호신 경배: 전쟁의 신",
+    "desc": "우리나라는 전쟁의 신을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_wind_god": {
+    "name": "수호신 경배: 바람의 신",
+    "desc": "우리나라는 바람의 신을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_thunder_god": {
+    "name": "수호신 경배: 천둥의 신",
+    "desc": "우리나라는 천둥의 신을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "adamite_services": {
+    "name": "아담파 예배",
+    "desc": "아담파는 나체로 예배드리는 것을 고집합니다. 지위나 문화를 드러내는 복식을 배제하면 모두가 주님 앞에서 동등한 모습이 되며, 이를 통해 모두가 같은 인간이라는 사실과 인류가 타락 이전에 누렸던 순수함을 극명하게 상기할 수 있다는 것입니다."
+  },
+  "punishment_of_sin": {
+    "name": "죄벌",
+    "desc": "죄를 저지른 자는 빈부나 지위 고하를 막론하고 누구나 동등하게 벌을 받아야 합니다. 귀족조차도 주님의 법 위에는 설 수 없습니다."
+  },
+  "worship_viracocha": {
+    "name": "수호신 경배: 비라코차",
+    "desc": "우리나라는 비라코차를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_inti_god": {
+    "name": "수호신 경배: 인티",
+    "desc": "우리나라는 인티를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_illapa_god": {
+    "name": "수호신 경배: 일라파",
+    "desc": "우리나라는 일라파를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_supay_god": {
+    "name": "수호신 경배: 수파이",
+    "desc": "우리나라는 수파이를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_mamaquilla": {
+    "name": "수호신 경배: 마마킬라",
+    "desc": "우리나라는 마마킬라를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_pachamama": {
+    "name": "수호신 경배: 파차마마",
+    "desc": "우리나라는 파차마마를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_mama_cocha": {
+    "name": "수호신 경배: 마마 쿠차",
+    "desc": "우리나라는 마마 쿠차를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_urpihuachac": {
+    "name": "수호신 경배: 우르피후아차크",
+    "desc": "우리나라는 우르피후아차크를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_chinchaycamac": {
+    "name": "수호신 경배: 우스코빌카",
+    "desc": "우리나라는 우스코빌카를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_odin_god": {
+    "name": "수호신 경배: 오딘",
+    "desc": "우리나라는 오딘을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_tor_god": {
+    "name": "수호신 경배: 토르",
+    "desc": "우리나라는 토르를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_tyr_god": {
+    "name": "수호신 경배: 티르",
+    "desc": "우리나라는 티르를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_njord_god": {
+    "name": "수호신 경배: 뇨르드",
+    "desc": "우리나라는 뇨르드를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_freyr_god": {
+    "name": "수호신 경배: 프레이",
+    "desc": "우리나라는 프레이를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_freya_god": {
+    "name": "수호신 경배: 프레이야",
+    "desc": "우리나라는 프레이야를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "baptism_by_fire": {
+    "name": "불에 의한 세례",
+    "desc": "세례자 요한께서도 인정하셨듯, 우리는 물로 받는 세례가 영원하지 않다고 믿습니다. 오직 세례받는 이의 머리 사방에 불타는 촛불을 가져다 대는 세례만이 영원합니다."
+  },
+  "name_change": {
+    "name": "개명",
+    "desc": "우리 공동체는 이름이 지니는 힘을 익히 알고 있습니다. 우리 교단의 지도자들은 종종 성 바오로를 따르던 이들의 이름을 따 자신의 이름을 바꾸며, 평민들 또한 수호성인이 거주했던 장소의 이름을 따서 마을의 이름을 바꿉니다."
+  },
+  "paulician_canon": {
+    "name": "바오로 정경",
+    "desc": "우리 백성들은 구약과 구약의 선지자들을 배격하며, 성 베드로의 서신을 정경에 포함하는 것을 거부합니다. 오직 성 바오로의 말씀만이 올바릅니다."
+  },
+  "punishment_by_stoning": {
+    "name": "투석형",
+    "desc": "우리나라의 여러 공동체에서는 주변 지역과는 달리 종교적 불순분자를 돌팔매질로 죽이는 관행이 일반적으로 인정받습니다. 이 관습은 우리의 기원지인 아나톨리아에서 유래한 것이라는 설이 가장 유력합니다."
+  },
+  "justified_conflicts": {
+    "name": "정당한 분쟁",
+    "desc": "우리나라의 새 교회가 이단과 이교도의 위협에 직면했습니다. 우리는 성경의 권위를 빌려 자기 보전을 위한 이 전쟁을 정당화할 것입니다."
+  },
+  "pietism": {
+    "name": "경건파",
+    "desc": "경건파는 개별 신도의 경건함을 중시하며, 우리를 독실한 기독교인의 삶으로 이끄는 내적 변화를 강조합니다."
+  },
+  "worship_tengri_god": {
+    "name": "수호신 경배: 쾨크 텡그리",
+    "desc": "우리나라는 쾨크 텡그리를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_umay_god": {
+    "name": "수호신 경배: 우마이",
+    "desc": "우리나라는 우마이를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ulgen_god": {
+    "name": "수호신 경배: 윌겐",
+    "desc": "우리나라는 윌겐을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_erlik_god": {
+    "name": "수호신 경배: 에를리크",
+    "desc": "우리나라는 에를리크를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_kayra_god": {
+    "name": "수호신 경배: 카이라",
+    "desc": "우리나라는 카이라를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_bai_baianai_god": {
+    "name": "수호신 경배: 바이 바이아나이",
+    "desc": "우리나라는 바이 바이아나이를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ak_ana_god": {
+    "name": "수호신 경배: 아크 아나",
+    "desc": "우리나라는 아크 아나를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_mergen_god": {
+    "name": "수호신 경배: 메르겐",
+    "desc": "우리나라는 메르겐을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_tlaloc_god": {
+    "name": "수호신 경배: 틀랄록",
+    "desc": "우리나라는 틀랄록을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_huitzilopochtli_god": {
+    "name": "수호신 경배: 위칠로포치틀리",
+    "desc": "우리나라는 위칠로포치틀리를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_quetzalcoatl_god": {
+    "name": "수호신 경배: 케찰코아틀",
+    "desc": "우리나라는 케찰코아틀을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_tezcatlipoca_god": {
+    "name": "수호신 경배: 테스카틀리포카",
+    "desc": "우리나라는 테스카틀리포카를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_xiuhtecuhtli_god": {
+    "name": "수호신 경배: 시우테쿠틀리",
+    "desc": "우리나라는 시우테쿠틀리를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_coatlicue_god": {
+    "name": "수호신 경배: 코아틀리쿠에",
+    "desc": "우리나라는 코아틀리쿠에를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_huehueteotl_god": {
+    "name": "수호신 경배: 우에우에테오틀",
+    "desc": "우리나라는 시우테쿠틀리(을)를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_mesoamerican_quetzalcoatl_god": {
+    "name": "수호신 경배: 케찰코아틀",
+    "desc": "우리나라는 케찰코아틀을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_dzahui_god": {
+    "name": "수호신 경배: 자후이",
+    "desc": "우리나라는 틀랄록을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_chaac_god": {
+    "name": "수호신 경배: 차크",
+    "desc": "우리나라는 틀랄록을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_kukulkan_god": {
+    "name": "수호신 경배: 쿠쿨칸",
+    "desc": "우리나라는 케찰코아틀(을)를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_kawiil_god": {
+    "name": "수호신 경배: 카윌",
+    "desc": "우리나라는 시우테쿠틀리(을)를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_tepeu_god": {
+    "name": "수호신 경배: 테페우",
+    "desc": "우리나라는 테페우를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_huracan_god": {
+    "name": "수호신 경배: 우라칸",
+    "desc": "우리나라는 우라칸을 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_hunhunahpu_god": {
+    "name": "수호신 경배: 운 우나푸",
+    "desc": "우리나라는 운 우나푸를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "worship_ixchel_god": {
+    "name": "수호신 경배: 이쉬첼",
+    "desc": "우리나라는 코아틀리쿠에(을)를 우리의 수호자이자 보호자로 경배하고 숭상합니다."
+  },
+  "_modifier_names": {
+    "add_religious_aspect_christian_cost_modifier": "종교 양상 추가 비용",
+    "antagonism_received_modifier": "받는 적대감",
+    "army_initiative": "지상군 주도권",
+    "army_maintenance_cost": "지상군 유지비",
+    "army_movement_speed": "지상군 이동 속도",
+    "ban_imports_of_livestock": "수입 금지",
+    "bank_interest": "은행 이자",
+    "can_have_monasteries": "수도원 허용",
+    "clergy_estate_max_tax": "성직자 계층에 대한 최고 세율",
+    "clergy_estate_satisfaction_recovery": "성직자 계층 만족도 회복",
+    "clergy_estate_target_satisfaction": "성직자 계층 만족도 평형",
+    "colonial_maintenance_cost": "식민지 유지비",
+    "country_cabinet_efficiency": "자국 내각 효율",
+    "court_spending_cost": "예상 궁정 비용",
+    "cultural_tradition_modifier": "문화 전통 %",
+    "declaring_war_cost_modifier": "전쟁 선포 비용",
+    "diplomatic_capacity_modifier": "외교 역량",
+    "discipline": "군율",
+    "expand_rgo_farming_cost_modifier": "농사 확대 비용",
+    "expand_rgo_mining_cost_modifier": "채광 확대 비용",
+    "gender_equality": "양성평등",
+    "global_clergy_desired_pop": "수용 가능한",
+    "global_clergy_estate_power": "성직자 행사력",
+    "global_clergy_max_literacy": "성직자 최대 문해력",
+    "global_crown_estate_power": "왕실 행사력",
+    "global_defensive": "요새 방어력",
+    "global_devastation_recovery": "번영 회복력",
+    "global_disease_resistance": "질병 저항력",
+    "global_distance_from_capital_speed_propagation": "근접도 전파 속도",
+    "global_estate_target_satisfaction": "계층 만족도 평형",
+    "global_fish_output_modifier": "생산량",
+    "global_garrison_size_modifier": "주둔군 규모",
+    "global_hostile_attrition": "적대 소모",
+    "global_life_expectancy": "인물 기대 수명",
+    "global_lumber_output_modifier": "생산량",
+    "global_maritime_presence_modifier": "해상 장악력 %",
+    "global_max_literacy": "최대 문해력",
+    "global_max_rgo_size_modifier": "최대 자원 채집 시설 규모",
+    "global_monthly_art_start_chance": "예술가 월간 착수 확률",
+    "global_monthly_control": "월간 지배",
+    "global_monthly_food_modifier": "식량 생산 %",
+    "global_monthly_prosperity": "월간 번영",
+    "global_pop_assimilation_speed_modifier": "팝 동화 속도",
+    "global_pop_conversion_speed_modifier": "팝 개종 속도 %",
+    "global_pop_promotion_speed_modifier": "팝 승격 속도 %",
+    "global_population_growth": "인구 성장",
+    "global_production_efficiency": "생산 효율",
+    "global_raw_material_output": "원재료 생산량",
+    "global_separatism": "분리주의",
+    "global_war_score_cost": "전쟁 점수 비용",
+    "global_weaponry_output_modifier": "생산량",
+    "global_wild_game_output_modifier": "생산량",
+    "global_wine_output_modifier": "생산량",
+    "improve_relation_impact": "관계 개선",
+    "land_morale_modifier": "지상군 사기",
+    "land_morale_recovery": "지상군 사기 회복 속도",
+    "minting_income_factor": "조폐 수입",
+    "monthly_diplomats": "월간 외교관",
+    "monthly_legitimacy": "월간 정통성",
+    "monthly_rebel_growth": "월간 반란군 성장",
+    "monthly_religious_influence": "월간 종교적 영향력",
+    "monthly_towards_absolutism": "절대주의 월간 진행도",
+    "monthly_towards_belligerent": "호전적 월간 진행도",
+    "monthly_towards_capital_economy": "자본 경제 월간 진행도",
+    "monthly_towards_centralization": "중앙 집권화 월간 진행도",
+    "monthly_towards_communalism": "공동체주의 월간 진행도",
+    "monthly_towards_conciliatory": "타협적 월간 진행도",
+    "monthly_towards_decentralization": "분권화 월간 진행도",
+    "monthly_towards_free_subjects": "자유민 월간 진행도",
+    "monthly_towards_individualism": "개인주의 월간 진행도",
+    "monthly_towards_innovative": "혁신주의 월간 진행도",
+    "monthly_towards_plutocracy": "금권 정치 월간 진행도",
+    "monthly_towards_spiritualist": "영성주의 월간 진행도",
+    "monthly_towards_traditionalist": "전통주의 월간 진행도",
+    "monthly_war_exhaustion": "월간 전쟁 피로도",
+    "monthly_yanantin": "월간 야난틴",
+    "naval_morale_modifier": "해상군 사기",
+    "navy_initiative": "해상군 주도권",
+    "peasants_estate_target_satisfaction": "농민 계층 만족도 평형",
+    "pop_join_rebel_threshold": "팝의 반란군 가입 한도",
+    "pop_leave_rebels_threshold": "팝의 반란군 탈퇴 한도",
+    "recruit_explorer_cost_modifier": "탐험가 모집",
+    "regiment_reinforcement_speed": "증원 속도",
+    "remove_religious_aspect_christian_cost_modifier": "종교 양상 제거 비용",
+    "research_speed_modifier": "월간 연구 진행도 %",
+    "skill_of_new_artists": "신인 예술가 기예",
+    "stability_cost": "안정도 투자 비용",
+    "tax_income_efficiency": "징세 효율",
+    "tolerance_heathen": "이교 신앙 관용도",
+    "tolerance_heretic": "이단 신앙 관용도",
+    "tolerance_own": "참 신앙 관용도",
+    "war_on_different_religion_cost_modifier": "종교가 다른 국가에 전쟁 선포 비용"
+  },
+  "_modifier_descs": {
+    "add_religious_aspect_christian_cost_modifier": "종교 양상을 추가하는 데 드는 비용에 영향을 줍니다.",
+    "antagonism_received_modifier": "국가가 행동을 통해 생성하는 적대감의 양에 영향을 줍니다.",
+    "army_initiative": "전투 중인 연대의 주도권에 영향을 줍니다.",
+    "army_maintenance_cost": "연대를 유지하는 데 필요한 두카트와 인력의 양을 변경합니다.",
+    "army_movement_speed": "지상군이 지점 사이를 이동하는 속도에 영향을 줍니다.",
+    "ban_imports_of_livestock": "국가 소유의 모든 시장에서 livestock 수입을 막습니다.",
+    "bank_interest": "중앙은행에서 받은 대출 이자에 영향을 줍니다.",
+    "can_have_monasteries": "국가의 monastery 보유 가능 여부에 영향을 줍니다.",
+    "clergy_estate_max_tax": "성직자에게 징수하는 최고 세율에 영향을 줍니다.",
+    "clergy_estate_satisfaction_recovery": "해당 국가 내 성직자의 계층 만족도가 만족도 평형까지 회복하는 속도에 영향을 줍니다.",
+    "clergy_estate_target_satisfaction": "이 국가에 있는 성직자의 만족도 평형에 영향을 줍니다.",
+    "colonial_maintenance_cost": "식민지 헌장의 월간 비용에 영향을 줍니다.",
+    "country_cabinet_efficiency": "국가의 내각에 있는 모든 인물의 내각 효율에 영향을 줍니다.",
+    "court_spending_cost": "과세 자산 중에서 궁정 비용으로 예상되는 지출에 영향을 줍니다.",
+    "cultural_tradition_modifier": "우리 주 문화의 문화 전통에 영향을 줍니다.",
+    "declaring_war_cost_modifier": "전쟁을 선포하는 데 드는 비용에 영향을 줍니다.",
+    "diplomatic_capacity_modifier": "국가에서 사용할 수 있는 외교 역량에 영향을 줍니다.",
+    "discipline": "연대의 군율에 영향을 줍니다.",
+    "expand_rgo_farming_cost_modifier": "농장이 필요한 원자재로 작업하는 팝을 늘리는 데 드는 비용에 영향을 줍니다. 농사를 이용하는 원자재。",
+    "expand_rgo_mining_cost_modifier": "광산이 필요한 원자재로 작업하는 팝을 늘리는 데 드는 비용에 영향을 줍니다. 채광을 이용하는 원자재。",
+    "gender_equality": "여성이 남성과 동일한 역할에 임명될 수 있는지 여부에 영향을 줍니다.",
+    "global_clergy_desired_pop": "이 국가의 모든 지점에 거주할 수 있는 clergy 수에 영향을 줍니다.",
+    "global_clergy_estate_power": "국가 전체의 성직자 계층 행사력에 영향을 줍니다.",
+    "global_clergy_max_literacy": "이 국가에 있는 모든 clergy의 문해력에 영향을 줍니다.",
+    "global_crown_estate_power": "왕족의 계층 행사력, 즉 국가 전체의 왕실 행사력에 영향을 줍니다.",
+    "global_defensive": "국가를 상대로 한 공성전 진행 속도에 영향을 줍니다.",
+    "global_devastation_recovery": "국가 내 모든 지점의 월간 번영 회복 속도에 영향을 줍니다.",
+    "global_disease_resistance": "국가 내 모든 지점의 질병 저항력에 영향을 줍니다.",
+    "global_distance_from_capital_speed_propagation": "국가 내 모든 지점 사이에서 근접도가 전파되는 속도에 영향을 줍니다.",
+    "global_estate_target_satisfaction": "국가 내 모든 계층의 만족도 평형에 영향을 줍니다.",
+    "global_fish_output_modifier": "국가 전체의 fish 생산량을 조정합니다.",
+    "global_garrison_size_modifier": "국가가 보유한 모든 주둔군의 규모에 영향을 줍니다.",
+    "global_hostile_attrition": "우리가 소유 및 지배 중인 모든 지점에 있는 적대 지상군의 소모에 영향을 줍니다.",
+    "global_life_expectancy": "이 국가의 인물들이 노령으로 사망할 가능성이 생기기 시작하는 나이입니다.",
+    "global_lumber_output_modifier": "국가 전체의 lumber 생산량을 조정합니다.",
+    "global_maritime_presence_modifier": "국가 소유의 모든 지점에 인접한 해역 전체에 적용되는 해상 장악력에 영향을 줍니다.",
+    "global_max_literacy": "국가 내 모든 팝의 최대 문해력에 영향을 줍니다.",
+    "global_max_rgo_size_modifier": "국가 내 R.G.O.의 최대 규모에 영향을 줍니다.",
+    "global_monthly_art_start_chance": "국가 내 예술가들이 새 예술품 창작을 시작할 확률에 영향을 줍니다.",
+    "global_monthly_control": "국가 내 모든 지점의 월간 지배 변동량입니다.",
+    "global_monthly_food_modifier": "국가 내 모든 지점에서 생산되는 식량의 양에 영향을 줍니다.",
+    "global_monthly_prosperity": "국가 내 모든 지점의 월간 번영 변동량에 영향을 줍니다.",
+    "global_pop_assimilation_speed_modifier": "국가 내 모든 지점에서 팝이 동화되는 속도에 영향을 줍니다.",
+    "global_pop_conversion_speed_modifier": "국가 내 모든 지점에서 팝이 개종하는 속도에 영향을 줍니다.",
+    "global_pop_promotion_speed_modifier": "국가 내 모든 지점에서 팝이 승격되는 속도에 영향을 줍니다.",
+    "global_population_growth": "국가 내 모든 지점의 인구 성장에 영향을 줍니다.",
+    "global_production_efficiency": "국가 전체의 생산 효율에 영향을 줍니다.",
+    "global_raw_material_output": "국가 내 모든 지점의 원자재 생산량에 영향을 줍니다.",
+    "global_separatism": "국가 내 모든 지점의 분리주의에 영향을 줍니다.",
+    "global_war_score_cost": "이 국가가 영토를 차지하는 데 드는 전쟁 점수의 양에 영향을 줍니다.",
+    "global_weaponry_output_modifier": "국가 전체의 weaponry 생산량을 조정합니다.",
+    "global_wild_game_output_modifier": "국가 전체의 wild game 생산량을 조정합니다.",
+    "global_wine_output_modifier": "국가 전체의 wine 생산량을 조정합니다.",
+    "improve_relation_impact": "국가의 관계 개선 능력에 영향을 줍니다.",
+    "land_morale_modifier": "연대가 보유할 수 있는 최대 사기를 일정 비율만큼 조정합니다.",
+    "land_morale_recovery": "연대의 사기가 최대치보다 낮을 때 회복되는 속도에 영향을 줍니다.",
+    "minting_income_factor": "국가가 조폐를 통해 얻는 두카트의 양에 영향을 줍니다.",
+    "monthly_diplomats": "국가에서 매달 획득할 수 있는 외교관 수에 영향을 줍니다.",
+    "monthly_legitimacy": "국가가 매달 얻는 정통성의 양에 영향을 줍니다.",
+    "monthly_rebel_growth": "반란군의 활동이 반란이나 내전으로 격화하는 속도에 영향을 줍니다.",
+    "monthly_religious_influence": "국가가 매달 얻는 종교적 영향력의 양에 영향을 줍니다.",
+    "monthly_towards_absolutism": "absolutism 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_belligerent": "belligerent 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_capital_economy": "수도 economy 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_centralization": "centralization 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_communalism": "communalism 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_conciliatory": "conciliatory 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_decentralization": "decentralization 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_free_subjects": "free 종속국 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_individualism": "individualism 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_innovative": "innovative 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_plutocracy": "plutocracy 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_spiritualist": "spiritualist 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_towards_traditionalist": "traditionalist 쪽으로 사회 가치관이 변화하는 데 영향을 줍니다.",
+    "monthly_war_exhaustion": "매달 발생하는 전쟁 피로도의 양에 영향을 줍니다.",
+    "monthly_yanantin": "국가가 매달 얻는 야난틴의 양에 영향을 줍니다.",
+    "naval_morale_modifier": "함선이 보유할 수 있는 최대 사기를 일정 비율만큼 조정합니다.",
+    "navy_initiative": "전투 중인 함선의 주도권에 영향을 줍니다.",
+    "peasants_estate_target_satisfaction": "이 국가에 있는 평민의 만족도 평형에 영향을 줍니다.",
+    "pop_join_rebel_threshold": "팝 만족도 한도에 영향을 줍니다. 만족도가 해당 수치보다 낮으면 팝이 반란군에 가담합니다. 보다 낮아질 수 없습니다.",
+    "pop_leave_rebels_threshold": "팝 만족도 한도에 영향을 줍니다. 만족도가 해당 수치보다 높으면 팝이 반란군에서 탈퇴합니다.",
+    "recruit_explorer_cost_modifier": "탐험가를 모집하는 데 드는 비용에 영향을 줍니다.",
+    "regiment_reinforcement_speed": "연대가 증원하는 속도에 영향을 줍니다.",
+    "remove_religious_aspect_christian_cost_modifier": "종교 양상을 제거하는 데 드는 비용에 영향을 줍니다.",
+    "research_speed_modifier": "국가의 연구 진행도 생성에 영향을 줍니다.",
+    "skill_of_new_artists": "신인 예술가의 기예에 영향을 줍니다.",
+    "stability_cost": "안정도 투자의 비용에 영향을 줍니다.",
+    "tax_income_efficiency": "국가의 징세 효율에 영향을 줍니다.",
+    "tolerance_heathen": "주 종교와 종교군이 다른 종교에 대한 관용도에 영향을 줍니다.",
+    "tolerance_heretic": "주 종교와 종교군이 같은 종교에 대한 관용도에 영향을 줍니다.",
+    "tolerance_own": "주 종교의 관용도에 영향을 줍니다.",
+    "war_on_different_religion_cost_modifier": "종교가 다른 국가에 전쟁을 선포하는 데 드는 비용에 영향을 줍니다."
+  }
+}

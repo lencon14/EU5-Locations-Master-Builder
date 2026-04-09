@@ -1,0 +1,393 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
+import { loadCore, loadAspectLoc, loadAspectModNames, loadAspectModDescs, loadReligionLoc } from "../../../../i18n/data";
+import { t, tf } from "../../../../i18n/ui";
+import { formatModValue, descToSimpleTooltip } from "../../../../i18n/render";
+import type { AspectItem } from "../../../../i18n/types";
+
+export function getStaticPaths() {
+  return LANG_CODES.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const core = loadCore<AspectItem>("aspects");
+const loc = loadAspectLoc(lang);
+const locEn = lang !== "en" ? loadAspectLoc("en") : loc;
+const modNames = loadAspectModNames(lang);
+const modDescs = loadAspectModDescs(lang);
+const relLoc = loadReligionLoc(lang);
+
+// Group names derived from source_file
+const GROUP_NAMES: Record<string, Record<string, string>> = {
+  "common.txt": { en: "Christian (Shared)", ja: "キリスト教（共通）", de: "Christlich (Allgemein)", es: "Cristiano (Compartido)", fr: "Chrétien (Commun)", ko: "기독교 (공통)", pl: "Chrześcijańskie (Wspólne)", "pt-br": "Cristão (Compartilhado)", ru: "Христианские (Общие)", tr: "Hristiyan (Ortak)", "zh-hans": "基督教（通用）" },
+  "anglican.txt": { en: "Anglican", ja: "聖公会" },
+  "bogomilism.txt": { en: "Bogomilism", ja: "ボゴミル派" },
+  "calvinist.txt": { en: "Calvinist", ja: "カルヴァン派" },
+  "catharism.txt": { en: "Catharism", ja: "カタリ派" },
+  "hussite.txt": { en: "Hussite", ja: "フス派" },
+  "paulicianism.txt": { en: "Paulicianism", ja: "パウリキアニ" },
+  "protestant.txt": { en: "Lutheran", ja: "ルター派" },
+  "folk_default.txt": { en: "Folk (Universal)", ja: "民間信仰（汎用）", de: "Volksreligionen (Universal)", es: "Folclórico (Universal)", fr: "Populaire (Universel)", ko: "민간 신앙 (보편)", pl: "Ludowe (Uniwersalne)", "pt-br": "Popular (Universal)", ru: "Народные (Универсальные)", tr: "Halk (Evrensel)", "zh-hans": "民间信仰（通用）" },
+  "folk_african.txt": { en: "Folk (African)", ja: "民間信仰（アフリカ）", de: "Volksreligionen (Afrikanisch)", es: "Folclórico (Africano)", fr: "Populaire (Africain)", ko: "민간 신앙 (아프리카)", pl: "Ludowe (Afrykańskie)", "pt-br": "Popular (Africano)", ru: "Народные (Африканские)", tr: "Halk (Afrika)", "zh-hans": "民间信仰（非洲）" },
+  "folk_asian.txt": { en: "Folk (Asian)", ja: "民間信仰（アジア）", de: "Volksreligionen (Asiatisch)", es: "Folclórico (Asiático)", fr: "Populaire (Asiatique)", ko: "민간 신앙 (아시아)", pl: "Ludowe (Azjatyckie)", "pt-br": "Popular (Asiático)", ru: "Народные (Азиатские)", tr: "Halk (Asya)", "zh-hans": "民间信仰（亚洲）" },
+  "folk_american.txt": { en: "Folk (American)", ja: "民間信仰（アメリカ）", de: "Volksreligionen (Amerikanisch)", es: "Folclórico (Americano)", fr: "Populaire (Américain)", ko: "민간 신앙 (아메리카)", pl: "Ludowe (Amerykańskie)", "pt-br": "Popular (Americano)", ru: "Народные (Американские)", tr: "Halk (Amerika)", "zh-hans": "民间信仰（美洲）" },
+  "inti.txt": { en: "Inti", ja: "インティ" },
+  "tengri.txt": { en: "Tengri", ja: "テングリ" },
+  "norse.txt": { en: "Norse", ja: "ノルド" },
+  "tonal.txt": { en: "Mesoamerican", ja: "メソアメリカ", de: "Mesoamerikanisch", es: "Mesoamericano", fr: "Mésoaméricain", ko: "메소아메리카", pl: "Mezoamerykańskie", "pt-br": "Mesoamericano", ru: "Мезоамериканские", tr: "Mezoamerika", "zh-hans": "中美洲" },
+};
+
+function groupName(sourceFile: string): string {
+  const names = GROUP_NAMES[sourceFile];
+  if (names) return names[lang] ?? names.en ?? sourceFile;
+  return sourceFile.replace(".txt", "").replace(/_/g, " ");
+}
+
+// Group order
+const GROUP_ORDER = [
+  "common.txt", "anglican.txt", "bogomilism.txt", "calvinist.txt",
+  "catharism.txt", "hussite.txt", "paulicianism.txt", "protestant.txt",
+  "folk_default.txt", "folk_african.txt", "folk_asian.txt", "folk_american.txt",
+  "inti.txt", "tengri.txt", "norse.txt", "tonal.txt",
+];
+
+const grouped = new Map<string, AspectItem[]>();
+for (const a of core) {
+  const g = a.source_file;
+  if (!grouped.has(g)) grouped.set(g, []);
+  grouped.get(g)!.push(a);
+}
+
+const entries = GROUP_ORDER
+  .filter((g) => grouped.has(g))
+  .map((g) => [g, grouped.get(g)!] as [string, AspectItem[]]);
+// Append any groups not in GROUP_ORDER
+for (const [g, items] of grouped) {
+  if (!GROUP_ORDER.includes(g)) entries.push([g, items]);
+}
+
+// Format first modifier as preview tag
+function modPreview(asp: AspectItem): { text: string; tipText?: string } {
+  const mods = (asp.modifier ?? []).filter((m) => !m.bool && !m.scaled);
+  if (mods.length === 0) return { text: "" };
+  const m = mods[0];
+  const name = modNames[m.key] ?? m.key.replace(/_/g, " ");
+  const isPct = !!("pct" in m && m.pct);
+  const display = formatModValue(lang, m.value, isPct);
+  const suffix = mods.length > 1 ? ` +${mods.length - 1}` : "";
+  return { text: `${name} ${display}${suffix}`, tipText: modDescs[m.key] };
+}
+---
+
+<Base lang={lang} title={t(lang, "aspects.title")} canonicalPath="/aspects/">
+  <h1>{t(lang, "aspects.title")}</h1>
+  <p class="lead">{tf(lang, "common.items", { count: core.length })}</p>
+
+  <div class="filter-bar">
+    <input type="text" id="search" placeholder={t(lang, "common.search")} aria-label={t(lang, "common.search")} />
+  </div>
+
+  {
+    entries.map(([srcFile, items]) => {
+      const gName = groupName(srcFile);
+      return (
+        <section class="group-section" data-group={srcFile}>
+          <h2>
+            <span class="group-name">{gName}</span>
+            <span class="group-count">{items.length}</span>
+          </h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th class="icon-head"></th>
+                  <th>{t(lang, "aspects.col.name")}</th>
+                  {lang !== "en" && <th>{t(lang, "aspects.col.name_en")}</th>}
+                  <th class="rel-head">{t(lang, "aspects.col.religions")}</th>
+                  <th class="mod-head">{t(lang, "aspects.col.modifiers")}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {items.map((a) => {
+                  const name = loc[a.id]?.name ?? a.id;
+                  const nameEn = lang !== "en" ? (locEn[a.id]?.name ?? a.id) : "";
+                  const relCount = a.religions.length;
+                  const relNames = a.religions.slice(0, 3)
+                    .map((r) => relLoc[r]?.name ?? r.replace(/_/g, " "))
+                    .join(", ");
+                  const relLabel = relCount <= 3 ? relNames : relNames + "… +" + (relCount - 3);
+                  const mod = modPreview(a);
+                  const aspDescTip = descToSimpleTooltip(loc[a.id]?.desc);
+                  return (
+                    <tr
+                      class="asp-row"
+                      data-name={`${name} ${nameEn} ${a.id}`}
+                      data-href={localePath(lang, `/aspects/${a.id}/`)}
+                    >
+                      <td class="icon-cell">
+                        <img src={`/${a.icon}`} alt="" width="24" height="24" loading="lazy"
+                          onerror="this.src='/icons/religious_aspects/_default.png'" />
+                      </td>
+                      <td>
+                        {aspDescTip ? (
+                          <a href={localePath(lang, `/aspects/${a.id}/`)} class="has-tip" data-tip={aspDescTip}>{name}</a>
+                        ) : (
+                          <a href={localePath(lang, `/aspects/${a.id}/`)}>{name}</a>
+                        )}
+                      </td>
+                      {lang !== "en" && <td class="muted">{nameEn}</td>}
+                      <td class="rel-cell">
+                        <span class="rel-tag">{relLabel}</span>
+                      </td>
+                      <td class="mod-cell">
+                        {mod.text && (
+                          mod.tipText ? (
+                            <span class="mod-tag has-tip" data-tip={mod.tipText}>{mod.text}</span>
+                          ) : (
+                            <span class="mod-tag">{mod.text}</span>
+                          )
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      );
+    })
+  }
+
+  <script>
+    const input = document.getElementById("search") as HTMLInputElement;
+    const rows = document.querySelectorAll<HTMLTableRowElement>(".asp-row");
+
+    function normalize(s: string): string {
+      return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
+    input.addEventListener("input", () => {
+      const q = normalize(input.value);
+      rows.forEach((row) => {
+        const name = normalize(row.dataset.name || "");
+        row.style.display = name.includes(q) ? "" : "none";
+      });
+      document
+        .querySelectorAll<HTMLElement>(".group-section")
+        .forEach((sec) => {
+          const visible = sec.querySelectorAll(
+            '.asp-row:not([style*="display: none"])',
+          );
+          sec.style.display = visible.length > 0 ? "" : "none";
+        });
+    });
+
+    rows.forEach((row) => {
+      const href = row.dataset.href;
+      if (!href) return;
+      row.addEventListener("click", (e) => {
+        if ((e.target as HTMLElement).closest("a")) return;
+        window.location.href = href;
+      });
+    });
+  </script>
+
+  <style>
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .lead {
+      color: var(--dusty-silver);
+      margin-bottom: 1.5rem;
+    }
+
+    .filter-bar {
+      margin-bottom: 2rem;
+    }
+
+    #search {
+      width: 100%;
+      max-width: 400px;
+      padding: 0.5rem 0.75rem;
+      font-size: 1rem;
+      font-family: var(--font-body);
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      color: var(--ivory);
+    }
+
+    #search::placeholder {
+      color: var(--dim-stone);
+    }
+
+    #search:focus {
+      outline: none;
+      border-color: var(--royal-gold);
+      box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.2);
+    }
+
+    .group-section {
+      margin-bottom: 3rem;
+    }
+
+    .group-section h2 {
+      font-size: 1.15rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .group-name {
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid var(--royal-gold);
+    }
+
+    .group-count {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--dusty-silver);
+      background: var(--slate);
+      padding: 0.1rem 0.5rem;
+      border-radius: 2px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    thead {
+      background: var(--charred-oak);
+    }
+
+    th {
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 1rem;
+      color: var(--dusty-silver);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    td {
+      padding: 0.5rem 0.75rem;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .muted {
+      color: var(--dusty-silver);
+    }
+
+    .icon-head {
+      width: 32px;
+      padding: 0.5rem 0.25rem;
+    }
+
+    .icon-cell {
+      width: 32px;
+      padding: 0.35rem 0.25rem;
+      text-align: center;
+    }
+
+    .icon-cell img {
+      vertical-align: middle;
+      image-rendering: pixelated;
+    }
+
+    .rel-head, .mod-head {
+      text-align: right;
+    }
+
+    .rel-cell, .mod-cell {
+      text-align: right;
+    }
+
+    .rel-tag {
+      color: var(--dusty-silver);
+      font-size: 0.875rem;
+    }
+
+    .mod-tag {
+      display: inline-block;
+      background: rgba(74, 142, 201, 0.12);
+      color: var(--azure-banner);
+      border-radius: 2px;
+      padding: 0.05rem 0.4rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    tr[data-href] {
+      cursor: pointer;
+    }
+
+    tr:hover {
+      background: var(--slate);
+    }
+
+    td a {
+      color: var(--ivory);
+      font-weight: 500;
+    }
+
+    td a:hover {
+      color: var(--pale-gold);
+    }
+
+    .has-tip {
+      position: relative;
+      cursor: help;
+      border-bottom: 1px dotted var(--dim-stone);
+    }
+    .has-tip::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 0;
+      width: max(200px, 100%);
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    .has-tip:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+    .mod-tag.has-tip {
+      border-bottom: none;
+      cursor: help;
+    }
+    td a.has-tip {
+      border-bottom: 1px dotted var(--dim-stone);
+    }
+  </style>
+</Base>

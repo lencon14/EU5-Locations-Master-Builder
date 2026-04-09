@@ -1,0 +1,643 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
+import { loadCore, loadAspectLoc, loadAspectModNames, loadAspectModDescs, loadReligionLoc } from "../../../../i18n/data";
+import { t } from "../../../../i18n/ui";
+import { formatModValue, descToSimpleTooltip } from "../../../../i18n/render";
+import type { AspectItem, ReligionItem } from "../../../../i18n/types";
+
+export function getStaticPaths() {
+  const core = loadCore<AspectItem>("aspects");
+  return LANG_CODES.flatMap((lang) =>
+    core.map((item) => ({
+      params: { lang, id: item.id },
+      props: { lang, item },
+    })),
+  );
+}
+
+const { lang, item } = Astro.props as { lang: Lang; item: AspectItem };
+const core = loadCore<AspectItem>("aspects");
+const loc = loadAspectLoc(lang);
+const locEn = lang !== "en" ? loadAspectLoc("en") : loc;
+const modNames = loadAspectModNames(lang);
+const modDescs = loadAspectModDescs(lang);
+const relLoc = loadReligionLoc(lang);
+const religions = loadCore<ReligionItem>("religions");
+
+const name = loc[item.id]?.name ?? item.id;
+const nameEn = locEn[item.id]?.name ?? item.id;
+const desc = loc[item.id]?.desc;
+
+// Aspect IDs set for opinion links
+const aspIds = new Set(core.map((a) => a.id));
+
+// Religion ID set for link detection
+const relIds = new Set(religions.map((r) => r.id));
+
+// Filter out boolean/internal modifiers for display
+const displayMods = (item.modifier ?? []).filter((m) => !m.bool);
+
+// Related aspects from same source file (exclude self)
+const related = core.filter((a) => a.source_file === item.source_file && a.id !== item.id);
+
+// Plain text desc for meta
+const plainDesc = desc ? desc.replace(/\s+/g, ' ').trim().slice(0, 120) : undefined;
+---
+
+<Base
+  lang={lang}
+  title={name}
+  description={plainDesc ? `${name} — ${plainDesc}` : undefined}
+  canonicalPath={`/aspects/${item.id}/`}
+>
+  <nav class="breadcrumb">
+    <a href={localePath(lang, "/aspects/")}>{t(lang, "aspects.breadcrumb")}</a>
+    <span class="sep">&rsaquo;</span>
+    <span>{name}</span>
+  </nav>
+
+  <header class="asp-header">
+    <div class="header-title">
+      <img src={`/${item.icon}`} alt="" width="48" height="48" class="header-icon"
+        onerror="this.src='/icons/religious_aspects/_default.png'" />
+      <h1>{name}</h1>
+    </div>
+    {lang !== "en" && <span class="en-name">{nameEn}</span>}
+    <code class="id-badge">{item.id}</code>
+  </header>
+
+  {/* Religions section */}
+  <section class="panel">
+    <h2>{t(lang, "aspects.detail.religions")} <span class="related-count">{item.religions.length}</span></h2>
+    <div class="religion-grid">
+      {item.religions.map((relId) => {
+        const rName = relLoc[relId]?.name ?? relId.replace(/_/g, " ");
+        const rCore = religions.find((r) => r.id === relId);
+        const rDescTip = descToSimpleTooltip(relLoc[relId]?.desc);
+        const hasPage = relIds.has(relId);
+        return hasPage ? (
+          rDescTip ? (
+            <a href={localePath(lang, `/religions/${relId}/`)} class="religion-chip has-tip" data-tip={rDescTip}>
+              {rCore && <img src={`/${rCore.icon}`} alt="" width="20" height="20" loading="lazy" />}
+              <span>{rName}</span>
+            </a>
+          ) : (
+            <a href={localePath(lang, `/religions/${relId}/`)} class="religion-chip">
+              {rCore && <img src={`/${rCore.icon}`} alt="" width="20" height="20" loading="lazy" />}
+              <span>{rName}</span>
+            </a>
+          )
+        ) : (
+          <span class="religion-chip no-link">
+            <span>{rName}</span>
+          </span>
+        );
+      })}
+    </div>
+  </section>
+
+  {/* Exclusions */}
+  {
+    item.excludes && item.excludes.length > 0 && (
+      <section class="panel excl-panel">
+        <h2>{t(lang, "aspects.detail.excludes")}</h2>
+        <div class="excl-grid">
+          {item.excludes.map((exId) => {
+            const exName = loc[exId]?.name ?? exId.replace(/_/g, " ");
+            const exDescTip = descToSimpleTooltip(loc[exId]?.desc);
+            const exCore = core.find((a) => a.id === exId);
+            return exDescTip ? (
+              <a href={localePath(lang, `/aspects/${exId}/`)} class="excl-chip has-tip" data-tip={exDescTip}>
+                {exCore && (
+                  <img src={`/${exCore.icon}`} alt="" width="20" height="20" loading="lazy"
+                    onerror="this.src='/icons/religious_aspects/_default.png'" />
+                )}
+                <span>{exName}</span>
+              </a>
+            ) : (
+              <a href={localePath(lang, `/aspects/${exId}/`)} class="excl-chip">
+                {exCore && (
+                  <img src={`/${exCore.icon}`} alt="" width="20" height="20" loading="lazy"
+                    onerror="this.src='/icons/religious_aspects/_default.png'" />
+                )}
+                <span>{exName}</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  {/* Modifiers table */}
+  {
+    displayMods.length > 0 && (
+      <section class="panel">
+        <h2>{t(lang, "aspects.detail.modifiers")}</h2>
+        <div class="table-wrap"><table>
+          <thead>
+            <tr>
+              <th>{t(lang, "aspects.detail.modifier")}</th>
+              <th class="num-head">{t(lang, "aspects.detail.value")}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {displayMods.map((m) => {
+              const modName = modNames[m.key] ?? m.key.replace(/_/g, ' ');
+              const modDesc = modDescs[m.key];
+              const isScaled = !!m.scaled;
+              const val = isScaled ? "" : formatModValue(lang, m.value, !!m.pct);
+              const numVal = typeof m.value === "number" ? m.value : 0;
+              const isGood = !isScaled && (m.inv ? numVal < 0 : numVal > 0);
+              const isBad = !isScaled && (m.inv ? numVal > 0 : numVal < 0);
+              return (
+                <tr>
+                  <td>
+                    {modDesc ? (
+                      <span class="has-tip" data-tip={modDesc}>
+                        {modName}
+                        <span class="tip-icon">?</span>
+                      </span>
+                    ) : (
+                      <span>{modName}</span>
+                    )}
+                  </td>
+                  <td class={`num ${isGood ? "val-pos" : ""} ${isBad ? "val-neg" : ""}`}>
+                    {isScaled ? <span class="scaled-tag">{t(lang, "common.scaled")}</span> : val}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table></div>
+      </section>
+    )
+  }
+
+  {/* Opinions */}
+  {
+    item.opinions && Object.keys(item.opinions).length > 0 && (
+      <section class="panel">
+        <h2>{t(lang, "aspects.detail.opinions")}</h2>
+        <div class="opinions-grid">
+          {Object.entries(item.opinions).map(([targetId, value]) => {
+            const targetName = loc[targetId]?.name ?? targetId.replace(/_/g, " ");
+            const targetDescTip = descToSimpleTooltip(loc[targetId]?.desc);
+            const targetCore = core.find((a) => a.id === targetId);
+            const cls = value > 0 ? "op-pos" : value < 0 ? "op-neg" : "";
+            return (
+              <a href={aspIds.has(targetId) ? localePath(lang, `/aspects/${targetId}/`) : "#"}
+                 class={`opinion-item ${cls}`}
+                 data-tip={targetDescTip}>
+                {targetCore && (
+                  <img src={`/${targetCore.icon}`} alt="" width="24" height="24" loading="lazy"
+                    onerror="this.src='/icons/religious_aspects/_default.png'" />
+                )}
+                <span class="opinion-name">{targetName}</span>
+                <span class={`opinion-val ${cls}`}>
+                  {value > 0 ? `+${value}` : value}
+                </span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  {/* Description */}
+  {
+    desc && (
+      <section class="description">
+        <h2>{t(lang, "common.description")}</h2>
+        <p>{desc}</p>
+      </section>
+    )
+  }
+
+  {/* Related aspects */}
+  {
+    related.length > 0 && (
+      <section class="related">
+        <h2>
+          {t(lang, "aspects.detail.related")}
+          <span class="related-count">{related.length}</span>
+        </h2>
+        <div class="related-grid">
+          {related.map((a) => {
+            const aName = loc[a.id]?.name ?? a.id;
+            const aDescTip = descToSimpleTooltip(loc[a.id]?.desc);
+            return (
+              <a href={localePath(lang, `/aspects/${a.id}/`)} class="related-item" data-tip={aDescTip}>
+                <img src={`/${a.icon}`} alt="" width="24" height="24" loading="lazy"
+                  onerror="this.src='/icons/religious_aspects/_default.png'" />
+                <span>{aName}</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  <style>
+    .breadcrumb {
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+      color: var(--dusty-silver);
+    }
+
+    .breadcrumb .sep {
+      margin: 0 0.4rem;
+      color: var(--dim-stone);
+    }
+
+    .breadcrumb span:last-child {
+      color: var(--ivory);
+    }
+
+    .asp-header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--gold-thread);
+    }
+
+    .header-title {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header-icon {
+      image-rendering: pixelated;
+    }
+
+    .asp-header h1 {
+      font-size: 2rem;
+      color: var(--royal-gold);
+      margin-bottom: 0.25rem;
+    }
+
+    .en-name {
+      color: var(--dusty-silver);
+      font-size: 1rem;
+      margin-right: 0.75rem;
+    }
+
+    .id-badge {
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 2px;
+      padding: 0.1rem 0.5rem;
+      font-size: 1rem;
+      color: var(--dim-stone);
+    }
+
+    .panel,
+    .description,
+    .related {
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .panel h2,
+    .description h2,
+    .related h2 {
+      font-size: 1.15rem;
+      font-family: var(--font-body);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--dusty-silver);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--iron-edge);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    /* Religions chips */
+    .religion-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .religion-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.2rem 0.5rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      color: var(--ivory);
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: border-color 0.15s;
+    }
+
+    a.religion-chip:hover {
+      border-color: var(--royal-gold);
+      color: var(--pale-gold);
+      text-decoration: none;
+    }
+
+    .religion-chip.no-link {
+      color: var(--dusty-silver);
+    }
+
+    .religion-chip img {
+      image-rendering: pixelated;
+    }
+
+    /* Exclusions */
+    .excl-panel {
+      border-color: rgba(196, 79, 79, 0.3);
+    }
+
+    .excl-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .excl-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.3rem 0.6rem;
+      background: rgba(196, 79, 79, 0.1);
+      border: 1px solid rgba(196, 79, 79, 0.3);
+      border-radius: 4px;
+      color: var(--crest-red);
+      font-size: 1rem;
+      font-weight: 500;
+      transition: border-color 0.15s;
+    }
+
+    .excl-chip:hover {
+      border-color: var(--crest-red);
+      text-decoration: none;
+    }
+
+    .excl-chip img {
+      image-rendering: pixelated;
+    }
+
+    /* Modifier table */
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    .panel table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .panel thead {
+      background: var(--charred-oak);
+    }
+
+    .panel th {
+      padding: 0.4rem 0.75rem;
+      text-align: left;
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 1rem;
+      color: var(--dusty-silver);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .panel .num-head {
+      text-align: right;
+    }
+
+    .panel td {
+      padding: 0.4rem 0.75rem;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+
+    .panel tr:last-child td {
+      border-bottom: none;
+    }
+
+    .num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+    }
+
+    .val-pos {
+      color: var(--forest-green);
+    }
+
+    .val-neg {
+      color: var(--crest-red);
+    }
+
+    .scaled-tag {
+      display: inline-block;
+      background: rgba(74, 142, 201, 0.12);
+      color: var(--azure-banner);
+      border-radius: 2px;
+      padding: 0.05rem 0.4rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    /* Opinions */
+    .opinions-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .opinion-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.3rem 0.6rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      color: var(--ivory);
+      font-size: 1rem;
+      font-weight: 500;
+      transition: border-color 0.15s;
+    }
+
+    .opinion-item:hover {
+      border-color: var(--royal-gold);
+      text-decoration: none;
+    }
+
+    .opinion-item[data-tip],
+    .related-item[data-tip] {
+      position: relative;
+    }
+
+    .opinion-item[data-tip]::after,
+    .related-item[data-tip]::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 0;
+      width: max-content;
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .opinion-item[data-tip]:hover::after,
+    .related-item[data-tip]:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .opinion-item img {
+      image-rendering: pixelated;
+    }
+
+    .opinion-val {
+      font-size: 0.8rem;
+      padding: 0.05rem 0.4rem;
+      border-radius: 2px;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .op-pos .opinion-val {
+      background: rgba(76, 154, 90, 0.2);
+      color: var(--forest-green);
+    }
+
+    .op-neg .opinion-val {
+      background: rgba(196, 79, 79, 0.2);
+      color: var(--crest-red);
+    }
+
+    /* Description */
+    .description p {
+      color: var(--dusty-silver);
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    /* Related */
+    .related-count {
+      font-family: var(--font-body);
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: var(--dusty-silver);
+      background: var(--slate);
+      padding: 0.1rem 0.45rem;
+      border-radius: 2px;
+    }
+
+    .related-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .related-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.3rem 0.6rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      color: var(--ivory);
+      font-size: 1rem;
+      font-weight: 500;
+      transition: border-color 0.15s;
+    }
+
+    .related-item:hover {
+      border-color: var(--royal-gold);
+      color: var(--pale-gold);
+      text-decoration: none;
+    }
+
+    .related-item img {
+      image-rendering: pixelated;
+    }
+
+    /* Tooltips */
+    .has-tip {
+      position: relative;
+      cursor: help;
+      border-bottom: 1px dotted var(--dim-stone);
+    }
+    .has-tip::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 0;
+      width: max(200px, 100%);
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    .has-tip:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+    .religion-chip.has-tip,
+    .excl-chip.has-tip {
+      border-bottom: none;
+      cursor: help;
+    }
+
+    .tip-icon {
+      display: inline-block;
+      font-size: 0.6rem;
+      font-weight: 700;
+      color: var(--dim-stone);
+      background: var(--slate);
+      width: 14px;
+      height: 14px;
+      line-height: 14px;
+      text-align: center;
+      border-radius: 50%;
+      margin-left: 0.3rem;
+      vertical-align: middle;
+    }
+  </style>
+</Base>

@@ -376,7 +376,7 @@
     "desc": "$dongba_religion$ $common_folk_religion_desc$"
   },
   "bimoism": {
-    "name": "",
+    "name": "Бимоизм",
     "desc": "Бимоизм $common_folk_religion_desc$"
   },
   "ka_niam_khasi_religion": {
@@ -592,15 +592,15 @@
     "desc": "Чукотский шаманизм $common_folk_religion_desc$"
   },
   "hmongism": {
-    "name": "",
+    "name": "Кев Даб Куас",
     "desc": "Кев Даб Куас $common_folk_religion_desc$"
   },
   "moism": {
-    "name": "",
+    "name": "Моизм",
     "desc": "Моизм $common_folk_religion_desc$"
   },
   "rmaism": {
-    "name": "",
+    "name": "Рмаизм",
     "desc": "Рмаизм $common_folk_religion_desc$"
   },
   "shamanism": {
@@ -696,7 +696,7 @@
     "desc": "Карачаево-балкарское язычество $common_folk_religion_desc$"
   },
   "khabzeism": {
-    "name": "",
+    "name": "Хабзэизм",
     "desc": "Хабзэизм $common_folk_religion_desc$"
   },
   "lezgin_paganism": {
@@ -812,11 +812,11 @@
     "desc": "$dene_religion$ $common_folk_religion_desc$"
   },
   "midewiwin_religion": {
-    "name": "",
+    "name": "Мидевивин",
     "desc": "$midewiwin_religion$ $common_folk_religion_desc$"
   },
   "dene_shamanism": {
-    "name": "",
+    "name": "Атабасканизм",
     "desc": "Шаманизм дене $common_folk_religion_desc$"
   },
   "dene_totemism": {
@@ -824,19 +824,19 @@
     "desc": "Тотемизм дене $common_folk_religion_desc$"
   },
   "great_plains_shamanism": {
-    "name": "",
+    "name": "Ваканизм",
     "desc": "Шаманизм Великих равнин $common_folk_religion_desc$"
   },
   "iroquoian_totemism": {
-    "name": "",
+    "name": "Орендизм",
     "desc": "Ирокезский тотемизм $common_folk_religion_desc$"
   },
   "mississippian_ceremonial": {
-    "name": "",
+    "name": "Церемониализм",
     "desc": "Миссисипский церемониализм $common_folk_religion_desc$"
   },
   "paiute_shamanism": {
-    "name": "",
+    "name": "Пухагимизм",
     "desc": "Шаманизм пайютов $common_folk_religion_desc$"
   },
   "pomo_shamanism": {
@@ -1076,11 +1076,11 @@
     "desc": "$degar_religion$ $common_folk_religion_desc$"
   },
   "sanamahism": {
-    "name": "",
+    "name": "Санамахизм",
     "desc": "Санамахизм $common_folk_religion_desc$"
   },
   "satsana_phi": {
-    "name": "",
+    "name": "Сатсана Пхи",
     "desc": "Сатсана Пхи $common_folk_religion_desc$"
   },
   "maleiwa_religion": {
@@ -1171,65 +1171,11 @@
     "name": "Зороастризм",
     "desc": "Древняя иранская религия, следующая учениям пророка Зороастра, также известного как Заратустра, и текстам Авесты. Зороастризм основан на дуалистической космологии добра и зла с вечным конфликтом между божеством Ахурамаздой и духом разрушения Ангра-Майнью, а также верой в грядущую победу добра над злом."
   },
-  "folk_melanesian_group": {
-    "name": "Меланезийские народные верования"
-  },
-  "folk_brazilian_group": {
-    "name": "Бразильские народные верования"
-  },
-  "folk_papuan_group": {
-    "name": "Папуасские народные верования"
-  },
-  "folk_se_asian_group": {
-    "name": "Юго-Восточноазиатские народные верования"
-  },
-  "yazidi_group": {
-    "name": "Езидизм"
-  },
-  "folk_african_group": {
-    "name": "Африканские народные верования"
-  },
-  "folk_north_american_group": {
-    "name": "Североамериканские народные верования"
-  },
-  "israelite_group": {
-    "name": "Израэлитство"
-  },
-  "dharmic": {
-    "name": "Дхарма"
-  },
-  "buddhist": {
-    "name": "Буддизм"
-  },
-  "manichaean_group": {
-    "name": "Манихейство"
-  },
-  "folk_argentinian_group": {
-    "name": "Аргентинские народные верования"
-  },
-  "folk_micronesian_group": {
-    "name": "Микронезийские народные верования"
-  },
-  "folk_caribbean_group": {
-    "name": "Карибские народные верования"
-  },
-  "folk_central_american_group": {
-    "name": "Центральноамериканские народные верования"
-  },
-  "folk_south_american_group": {
-    "name": "Южноамериканские народные верования"
-  },
   "zoroastrian_group": {
     "name": "Зороастризм"
   },
-  "folk_polynesian_group": {
-    "name": "Полинезийские народные верования"
-  },
-  "christian": {
-    "name": "Христианство"
-  },
-  "folk_aridoamerica_group": {
-    "name": "Аридоамериканские народные верования"
+  "folk_north_american_group": {
+    "name": "Североамериканские народные верования"
   },
   "muslim": {
     "name": "Ислам"
@@ -1237,25 +1183,516 @@
   "tonal_group": {
     "name": "Тонализм"
   },
-  "folk_european_group": {
-    "name": "Европейские народные верования"
+  "mandean_group": {
+    "name": "Мандеизм"
+  },
+  "folk_micronesian_group": {
+    "name": "Микронезийские народные верования"
   },
   "folk_peruvian_group": {
     "name": "Андские народные верования"
   },
-  "folk_permic_group": {
-    "name": "Пермские народные верования"
+  "folk_papuan_group": {
+    "name": "Папуасские народные верования"
   },
-  "mandean_group": {
-    "name": "Мандеизм"
+  "folk_argentinian_group": {
+    "name": "Аргентинские народные верования"
   },
-  "druze_group": {
-    "name": "Друзизм"
+  "folk_aridoamerica_group": {
+    "name": "Аридоамериканские народные верования"
+  },
+  "folk_south_american_group": {
+    "name": "Южноамериканские народные верования"
   },
   "folk_asian_group": {
     "name": "Азиатские народные верования"
   },
+  "folk_central_american_group": {
+    "name": "Центральноамериканские народные верования"
+  },
+  "buddhist": {
+    "name": "Буддизм"
+  },
+  "manichaean_group": {
+    "name": "Манихейство"
+  },
+  "folk_melanesian_group": {
+    "name": "Меланезийские народные верования"
+  },
+  "folk_caribbean_group": {
+    "name": "Карибские народные верования"
+  },
+  "folk_african_group": {
+    "name": "Африканские народные верования"
+  },
+  "folk_polynesian_group": {
+    "name": "Полинезийские народные верования"
+  },
+  "dharmic": {
+    "name": "Дхарма"
+  },
+  "folk_se_asian_group": {
+    "name": "Юго-Восточноазиатские народные верования"
+  },
+  "yazidi_group": {
+    "name": "Езидизм"
+  },
+  "folk_permic_group": {
+    "name": "Пермские народные верования"
+  },
+  "druze_group": {
+    "name": "Друзизм"
+  },
+  "folk_european_group": {
+    "name": "Европейские народные верования"
+  },
+  "christian": {
+    "name": "Христианство"
+  },
+  "israelite_group": {
+    "name": "Израэлитство"
+  },
   "folk_australian_group": {
     "name": "Австралийские народные верования"
+  },
+  "folk_brazilian_group": {
+    "name": "Бразильские народные верования"
+  },
+  "india": {
+    "name": "Индия"
+  },
+  "dharma": {
+    "name": "Dharma"
+  },
+  "christian_ADJ": {
+    "name": "Христианск"
+  },
+  "daoism_policy": {
+    "name": "Даосизм"
+  },
+  "chinese_group": {
+    "name": "Китайск"
+  },
+  "judaism_ADJ": {
+    "name": "Иудейск"
+  },
+  "character_title_guru": {
+    "name": "Guru"
+  },
+  "mandeaism_god_name": {
+    "name": "Хайи Рабби"
+  },
+  "mandeaism_ADJ": {
+    "name": "Мандейск"
+  },
+  "nahua_group": {
+    "name": "Науаск"
+  },
+  "hussite_ADJ": {
+    "name": "Гуситск"
+  },
+  "inti_god": {
+    "name": "Инти"
+  },
+  "asia": {
+    "name": "Азия"
+  },
+  "common_folk_religion_desc": {
+    "name": "— религия местного населения, его мифология, традиции и практики, которые сохраняются и передаются из поколения в поколение с начала времён."
+  },
+  "sindh_area": {
+    "name": "Синд"
+  },
+  "druzism_ADJ": {
+    "name": "Друзск"
+  },
+  "tlaloc_god": {
+    "name": "Тлалок"
+  },
+  "andes_region": {
+    "name": "the Andes"
+  },
+  "china": {
+    "name": "Китай"
+  },
+  "catholic_ADJ": {
+    "name": "Католическ"
+  },
+  "ismaili_school": {
+    "name": "Исмаилитский мазхаб"
+  },
+  "lithuanian_group": {
+    "name": "Литовск"
+  },
+  "confucianism_policy": {
+    "name": "Конфуцианство"
+  },
+  "greek_culture": {
+    "name": "Греческ"
+  },
+  "shamanism_ADJ": {
+    "name": "Шаманистск"
+  },
+  "huitzilopochtli_god": {
+    "name": "Уицилопочтли"
+  },
+  "BOH": {
+    "name": "Богемия"
+  },
+  "japan_region": {
+    "name": "Япония"
+  },
+  "sutra": {
+    "name": "Сутра"
+  },
+  "viracocha": {
+    "name": "Виракоча"
+  },
+  "miaphysite_ADJ": {
+    "name": "Миафизитск"
+  },
+  "strigolniki_ADJ": {
+    "name": "Стригольническ"
+  },
+  "imamate": {
+    "name": "Имамат"
+  },
+  "germanic_language_family": {
+    "name": "Германск"
+  },
+  "shia_ADJ": {
+    "name": "Шиитск"
+  },
+  "vaishnavism": {
+    "name": "Вишнуизм"
+  },
+  "sapmi": {
+    "name": "Саамск"
+  },
+  "quetzalcoatl_god": {
+    "name": "Кетцалькоатль"
+  },
+  "tengri_god_name": {
+    "name": "Тенгри"
+  },
+  "rank_empire_muslim_ruler_male": {
+    "name": "Caliph"
+  },
+  "russian_region": {
+    "name": "Russia"
+  },
+  "finnish_language": {
+    "name": "Финск"
+  },
+  "scandinavian_region": {
+    "name": "Scandinavia"
+  },
+  "SECT_NYIGMA_NAME": {
+    "name": "Nyingma"
+  },
+  "shaivism": {
+    "name": "Шиваизм"
+  },
+  "tibet_region": {
+    "name": "Tibet"
+  },
+  "BYZ_ADJ": {
+    "name": "Византийск"
+  },
+  "japanese_group": {
+    "name": "Японск"
+  },
+  "bodhisattva": {
+    "name": "Бодхисаттва"
+  },
+  "dharmic_ADJ": {
+    "name": "Дхармическ"
+  },
+  "nahuatl_god_name": {
+    "name": "Теотль"
+  },
+  "orthodox_ADJ": {
+    "name": "Православно-христианск"
+  },
+  "lutheran_ADJ": {
+    "name": "Лютеранск"
+  },
+  "samaritan_culture": {
+    "name": "Самаритянск"
+  },
+  "shaktism": {
+    "name": "Шактизм"
+  },
+  "waldensian_ADJ": {
+    "name": "Вальденск"
+  },
+  "iranian_group": {
+    "name": "Иранск"
+  },
+  "muslim_ADJ": {
+    "name": "Исламск"
+  },
+  "mongolian_group": {
+    "name": "Монгольск"
+  },
+  "paulicianism_ADJ": {
+    "name": "Павликианск"
+  },
+  "turkic_group": {
+    "name": "Тюркск"
+  },
+  "hindu_ADJ": {
+    "name": "Индуистск"
+  },
+  "ibadi_school_desc": {
+    "name": "Ибадиты отделились от течения хариджитов, которые изначально были сторонниками Али ибн Абу Талиба, но впоследствии отреклись от него. Ибадитский мазхаб проводит чёткую грань между своим и хариджитским учением: его последователи придерживаются более умеренного подхода во многих богословских вопросах, а также более дружелюбно относятся к другим течениям, с которыми имеют некоторые сходства."
+  },
+  "europe": {
+    "name": "Европа"
+  },
+  "sikhism_god_name": {
+    "name": "Ик Онкар"
+  },
+  "buddhist_ADJ": {
+    "name": "Буддийск"
+  },
+  "smartism": {
+    "name": "Смартизм"
+  },
+  "_modifier_names": {
+    "allow_harmony": "Доступна гармония",
+    "allow_mysticism_vs_jurisprudence": "Разрешение на противостояние мистицизма и правовой системы",
+    "allow_open_sea_exploration": "Разрешены экспедиции в открытом море",
+    "allow_righteousness": "Доступна добродетельность",
+    "allow_self_control": "Доступен самоконтроль",
+    "any_pop_can_be_slave": "Неограниченное рабство",
+    "army_auxiliary_maintenance_cost_modifier": "Стоимость содержания вспомогательных войск",
+    "army_cavalry_power": "Мощь кавалерии",
+    "army_disembark_speed": "Скорость высадки армии",
+    "army_infantry_power": "Мощь пехоты",
+    "army_initiative": "Инициатива в армии",
+    "army_movement_speed": "Скорость передвижения армии",
+    "army_reinforce_cost": "Затраты на пополнение армии",
+    "auto_slave_raid_different_religion": "Набеги за рабами на религиозных врагов",
+    "ban_imports_of_beer": "Запрет на импорт пива",
+    "ban_imports_of_liquor": "Запрет на импорт крепкого алкоголя",
+    "ban_imports_of_wine": "Запрет на импорт вина",
+    "block_from_change_to_empire_rank_catholic": "Папский запрет на империи",
+    "can_have_monasteries": "Монастыри разрешены",
+    "cannot_declare_no_cb_wars": "Запрет на объявление войны без повода",
+    "cannot_declare_no_cb_wars_on_religion_head": "Запрет на объявление войны главе конфессии без повода",
+    "clergy_estate_max_tax": "Максимальный налог для сословия духовенства",
+    "clergy_estate_target_satisfaction": "Равновесное довольство сословия духовенства",
+    "country_cabinet_efficiency": "Эффективность в нашем совете",
+    "cultural_influence_modifier": "Культурное влияние в %",
+    "cultural_tradition_modifier": "Культурные традиции %",
+    "discipline": "Дисциплина",
+    "enable_doom": "Обречённость",
+    "expand_rgo_farming_cost_modifier": "Стоимость расширения сельскохозяйственных работ",
+    "expand_rgo_forestry_cost_modifier": "Стоимость расширения лесозаготовок",
+    "exploration_maintenance_cost": "Стоимость экспедиции",
+    "food_consumption_modifier": "Потребление пищи отрядом",
+    "gender_equality": "Равенство полов",
+    "global_build_buildings_cost": "Стоимость сооружений",
+    "global_burghers_estate_power": "Сила горожан",
+    "global_clergy_estate_power": "Сила духовенства",
+    "global_clergy_max_literacy": "Максимальная грамотность духовенства",
+    "global_defensive": "Оборона крепости",
+    "global_estate_target_satisfaction": "Равновесное довольство сословий",
+    "global_hostile_attrition": "Истощение врага",
+    "global_levy_size_modifier": "Размер ополчения",
+    "global_max_literacy": "Максимальная грамотность",
+    "global_may_build_nahuatl_units": "Можно нанимать воинов-орлов и воинов-ягуаров",
+    "global_merchant_power": "Торговое преимущество",
+    "global_migration_speed_modifier": "Скорость миграции группы населения",
+    "global_monthly_art_start_chance": "Шанс начать работу над новым творением",
+    "global_monthly_development": "Развитие за месяц",
+    "global_monthly_food_modifier": "Производство пищи в %",
+    "global_monthly_literacy": "Грамотность за месяц",
+    "global_nobles_estate_power": "Сила аристократов",
+    "global_peasants_estate_power": "Сила крестьян",
+    "global_pop_conversion_speed_modifier": "Скорость обращения групп населения в %",
+    "global_pop_food_consumption": "Потребление пищи группами населения",
+    "global_pop_promotion_speed_modifier": "Скорость повышения групп населения в %",
+    "global_population_capacity_modifier": "Предел населения в %",
+    "global_sailors_modifier": "Моряки",
+    "global_separatism": "Сепаратизм",
+    "global_trade_protection_factor": "Защита рынка",
+    "global_wild_game_output_modifier": "Объём выпуска дичи",
+    "is_battles_preordained": "Всё предопределено",
+    "land_morale_attrition_cost": "Потери боевого духа армии от истощения",
+    "land_morale_modifier": "Боевой дух армии",
+    "land_unit_attrition": "Истощение армии",
+    "levy_combat_efficiency_modifier": "Эффективность ополчения в бою",
+    "levy_recovery_modifier": "Восполнение ополчения",
+    "maximum_religious_influence": "Максимальное религиозное влияние",
+    "merchant_maintenance_cost": "Содержание торговли",
+    "monthly_karma": "Карма за месяц",
+    "monthly_legitimacy": "Легитимность за месяц",
+    "monthly_prestige": "Престиж за месяц",
+    "monthly_religious_influence": "Религиозное влияние за месяц",
+    "monthly_war_exhaustion": "Усталость от войны за месяц",
+    "movement_speed_if_no_road": "Скорость передвижения без дороги",
+    "naval_morale_attrition_cost": "Потери боевого духа флота от истощения",
+    "navy_initiative": "Инициатива на флоте",
+    "navy_maintenance_cost": "Содержание флота",
+    "navy_movement_speed": "Скорость передвижения флота",
+    "nobles_estate_target_satisfaction": "Равновесное довольство сословия аристократов",
+    "number_of_allowed_religious_figures": "Доступны религиозные деятели",
+    "prestige_from_land_battle": "Престиж от наземных битв",
+    "research_speed_modifier": "Прогресс исследования за месяц в %",
+    "retreat_delay": "Задержка перед отступлением",
+    "ship_build_speed": "Скорость строительства кораблей",
+    "skill_of_new_artists": "Навыки новых творцов",
+    "stability_cost": "Стоимость вложений в стабильность",
+    "stability_investment": "Вложения в стабильность",
+    "tax_income_efficiency": "Налоговая эффективность",
+    "tolerance_heathen": "Терпимость к языческим верованиям",
+    "tolerance_heretic": "Терпимость к еретическим верованиям",
+    "tolerance_own": "Терпимость к истинной вере",
+    "trade_efficiency": "Торговая эффективность",
+    "trade_range_modifier": "Торговая дистанция",
+    "trade_sea_movement_cost_modifier": "Торговая дистанция на море"
+  },
+  "_modifier_descs": {
+    "allow_harmony": "Добавляет механику гармонии.",
+    "allow_mysticism_vs_jurisprudence": "Позволяет стране испытывать влияние OOLTIP:Общественная ценность,mysticism vs jurisprudence,X мистицизма и OOLTIP:Общественная ценность,mysticism vs jurisprudence,X легализма",
+    "allow_open_sea_exploration": "Позволяет державе отправлять экспедицию в области с открытым морем.",
+    "allow_righteousness": "Добавляет механику добродетельности.",
+    "allow_self_control": "Добавляет механику самоконтроля.",
+    "any_pop_can_be_slave": "Любая группа населения, захваченная в рабство или купленная в качестве рабов, останется в рабстве.",
+    "army_auxiliary_maintenance_cost_modifier": "Влияет на то, сколько стоит содержать OOLTIP:UNITCATEGORY,Армия auxiliary,X вспомогательные войска.",
+    "army_cavalry_power": "Влияет на боеспособность OOLTIP:UNITCATEGORY,Армия cavalry,X кавалерийских полков.",
+    "army_disembark_speed": "Влияет на то, как быстро армия может высадиться с кораблей в соседний район.",
+    "army_infantry_power": "Влияет на боеспособность OOLTIP:UNITCATEGORY,Армия infantry,X пехотных полков.",
+    "army_initiative": "Влияет на инициативу полка в битве.",
+    "army_movement_speed": "Влияет на то, как быстро армия может перемещаться между районами.",
+    "army_reinforce_cost": "Влияет на то, сколько дукатов и рекрутов необходимо для пополнения полка.",
+    "auto_slave_raid_different_religion": "Армии смогут порабощать часть групп населения из другой религиозной группы, оккупируя район.",
+    "ban_imports_of_beer": "Блокирует импорт OOLTIP:Товары,Пиво,X пива на все принадлежащие державе рынки.",
+    "ban_imports_of_liquor": "Блокирует импорт OOLTIP:Товары,Крепкие спиртные напитки,X крепкого алкоголя на все принадлежащие державе рынки.",
+    "ban_imports_of_wine": "Блокирует импорт OOLTIP:Товары,Вино,X вина на все принадлежащие державе рынки.",
+    "block_from_change_to_empire_rank_catholic": "Не даёт державе повысить свой ранг до OOLTIP:Ранг державы,rank empire,X империи, пока существует OOLTIP:Тип международного объединения,СРИ,X Священная Римская Империя.",
+    "can_have_monasteries": "Влияет на то, может ли держава иметь OOLTIP:Тип сооружения,monastery,X монастырь.",
+    "cannot_declare_no_cb_wars": "Запрещает нам объявлять войны без повода.",
+    "cannot_declare_no_cb_wars_on_religion_head": "Запрещает нам объявлять войны главе нашей религии без повода.",
+    "clergy_estate_max_tax": "Влияет на максимальный налог, который можно взимать со священников.",
+    "clergy_estate_target_satisfaction": "Влияет на равновесное довольство священников в этой державе.",
+    "country_cabinet_efficiency": "Влияет на эффективность персонажей, заседающих в совете державы.",
+    "cultural_influence_modifier": "Воздействует на влияние нашей основной культуры.",
+    "cultural_tradition_modifier": "Влияет на традиции нашей основной культуры.",
+    "discipline": "Влияет на дисциплину полка.",
+    "enable_doom": "Определяет, переживает ли держава состояние обречённости.",
+    "expand_rgo_farming_cost_modifier": "Влияет на то, сколько стоит увеличить число групп населения, добывающих ресурсы на фермах. Сельское хозяйство даёт следующие ресурсы。",
+    "expand_rgo_forestry_cost_modifier": "Влияет на то, сколько стоит увеличить число групп населения, добывающих ресурсы на лесозаготовках. Лесное хозяйство даёт следующие ресурсы。",
+    "exploration_maintenance_cost": "Влияет на стоимость экспедиции.",
+    "food_consumption_modifier": "Влияет на то, сколько пищи, ежемесячно потребляет отряд.",
+    "gender_equality": "Влияет на то, можно ли назначать женщин на те же роли, что и мужчин.",
+    "global_build_buildings_cost": "Влияет на стоимость строительства сооружения во всех районах державы.",
+    "global_burghers_estate_power": "Влияет на сословную власть горожан во всей державе.",
+    "global_clergy_estate_power": "Влияет на сословную власть священников во всей державе.",
+    "global_clergy_max_literacy": "Влияет на грамотность всех OOLTIP:POPTYPE,clergy,X священников в этой державе.",
+    "global_defensive": "Влияет на то, как быстро продлится осада державы.",
+    "global_estate_target_satisfaction": "Влияет на равновесное довольство всех сословий державы.",
+    "global_hostile_attrition": "Влияет на истощение враждебных армий во всех районах, которые мы контролируем.",
+    "global_levy_size_modifier": "Влияет на то, сколько армейского или флотского ополчения будет набрано из групп населения державы.",
+    "global_max_literacy": "Влияет на максимальную грамотность групп населения в державе.",
+    "global_may_build_nahuatl_units": "Позволяет набирать OOLTIP:UNITTYPE,a jaguar warrior,X воинов-ягуаров и OOLTIP:UNITTYPE,a eagle warrior,X воинов-орлов.",
+    "global_merchant_power": "Влияет на то, сколько торгового преимущества получает держава.",
+    "global_migration_speed_modifier": "Влияет на то, как быстро группы населения мигрируют во все районы державы.",
+    "global_monthly_art_start_chance": "Влияет на шанс того, что творцы в державе начнут создавать новые шедевры.",
+    "global_monthly_development": "Влияет на ежемесячное изменение развития во всех районах державы.",
+    "global_monthly_food_modifier": "Влияет на то, сколько пищи производится во всех районах державы.",
+    "global_monthly_literacy": "Влияет на изменение грамотности групп населения в державе.",
+    "global_nobles_estate_power": "Влияет на сословную власть аристократов во всей державе.",
+    "global_peasants_estate_power": "Влияет на сословную власть крестьян во всей державе.",
+    "global_pop_conversion_speed_modifier": "Влияет на то, как быстро происходит религиозное обращение групп населения во всех районах державы.",
+    "global_pop_food_consumption": "Влияет на то, сколько пищи потребляют группы населения во всей державе.",
+    "global_pop_promotion_speed_modifier": "Влияет на то, как быстро группы населения получают повышение во всех районах державы.",
+    "global_population_capacity_modifier": "Влияет на то, сколько групп населения может жить во всех районах этой державы.",
+    "global_sailors_modifier": "Влияет на число моряков, которое получит держава.",
+    "global_separatism": "Влияет на сепаратизм во всех районах державы.",
+    "global_trade_protection_factor": "Напрямую уменьшается привлекательность чужих рынков для этих районов и повышается шанс того, что они будут заняты рынком своего владельца. Каждая единица защиты рынка отнимает единицу рыночной привлекательности каждого чужого рынка.",
+    "global_wild_game_output_modifier": "Влияет на объём выпуска OOLTIP:Товары,wild game,X дичи во всей державе.",
+    "is_battles_preordained": "Делает так, чтобы держава никогда не перебрасывала к10 в сражении.",
+    "land_morale_attrition_cost": "Влияет на то, сколько боевого духа армия ежедневно теряет при истощении.",
+    "land_morale_modifier": "Меняет максимально возможный боевой дух полка на процентную величину.",
+    "land_unit_attrition": "Влияет на величину истощения полка.",
+    "levy_combat_efficiency_modifier": "Влияет на то, как эффективен в бою полк ополченцев.",
+    "levy_recovery_modifier": "Влияет на то, как быстро восполняется ополчение державы.",
+    "maximum_religious_influence": "Влияет на то, сколько религиозного влияния держава может сохранить на будущее.",
+    "merchant_maintenance_cost": "Влияет на то, сколько мы тратим на своих купцов при заключении торговых сделок.",
+    "monthly_karma": "Влияет на то, сколько кармы ежемесячно получает держава.",
+    "monthly_legitimacy": "Влияет на то, сколько легитимности ежемесячно получает держава.",
+    "monthly_prestige": "Влияет на то, сколько престижа мы получаем каждый месяц.",
+    "monthly_religious_influence": "Влияет на то, сколько религиозного влияния ежемесячно получает держава.",
+    "monthly_war_exhaustion": "Влияет на то, сколько усталости от войны мы получаем каждый месяц.",
+    "movement_speed_if_no_road": "Влияет на то, как быстро армия может перемещаться между районами без дороги.",
+    "naval_morale_attrition_cost": "Влияет на то, сколько боевого духа флот ежедневно теряет при истощении.",
+    "navy_initiative": "Влияет на инициативу корабль в битве.",
+    "navy_maintenance_cost": "Влияет на то, сколько дукатов и моряков нужно для содержания корабля.",
+    "navy_movement_speed": "Влияет на то, как быстро флот может перемещаться между акваториями.",
+    "nobles_estate_target_satisfaction": "Влияет на равновесное довольство аристократов в этой державе.",
+    "number_of_allowed_religious_figures": "Добавляет механику религиозных деятелей и определяет, сколько таких деятелей мы можем пригласить.",
+    "prestige_from_land_battle": "Влияет на то, сколько престижа получает держава от своих участвующих в битве армий.",
+    "research_speed_modifier": "Влияет на получение прогресса исследования в державе.",
+    "retreat_delay": "Влияет на то, сколько часов отряд участвует в сражении, пока не получит разрешение отступить.",
+    "ship_build_speed": "Влияет на то, как быстро можно построить корабль в державе.",
+    "skill_of_new_artists": "Влияет на талант новых творцов.",
+    "stability_cost": "Влияет на стоимость вложений в стабильность.",
+    "stability_investment": "Даёт бонус или штраф к вложениям в стабильность из бюджета.",
+    "tax_income_efficiency": "Влияет на налоговую эффективность державы.",
+    "tolerance_heathen": "Влияет на терпимость к религиям не из той же группы, что и основная религия.",
+    "tolerance_heretic": "Влияет на терпимость к религиям из той же группы, что и основная религия.",
+    "tolerance_own": "Влияет на терпимость к основной религии.",
+    "trade_efficiency": "Изменяет количество золота, которое вы получаете от торговли, напрямую влияя на цену, по которой вы продаёте товары на выбранном рынке.",
+    "trade_range_modifier": "Влияет на торговую дистанцию державы.",
+    "trade_sea_movement_cost_modifier": "Влияет на торговую дистанцию державы при путешествии по акватории."
+  },
+  "_mechanic_names": {
+    "has_karma": "Карма",
+    "has_purity": "Чистота",
+    "has_honor": "Честь",
+    "has_yanantin": "Янантин",
+    "has_religious_influence": "Религиозное влияние",
+    "has_canonization": "Канонизация",
+    "has_autocephalous_patriarchates": "Автокефальные патриархаты",
+    "has_patriarchs": "Патриархи",
+    "has_religious_head": "Глава религии",
+    "has_cardinals": "Кардиналы",
+    "has_rite_power": "Сила обрядов",
+    "has_avatars": "Аватары",
+    "needs_reform": "Стремление к реформации",
+    "use_icons": "Icon Painting",
+    "culture_locked": "Culture Locked"
+  },
+  "_mechanic_descs": {
+    "has_karma": "Карма меняется в пределах от −100 до +100 и отражает влияние предыдущих действий державы. Выгоднее всего поддерживать равновесие кармы в пределах от −33 до +33.",
+    "has_purity": "Характеризует чистоту нашей державы с точки зрения Синтоизма. Чистота уменьшается при взаимодействии с чем-либо нечистым: например, при убийстве и гибели людей в ходе битв или эпидемий, потому что смерть и кровь считаются нечистыми. Чистота увеличивается при исполнении религиозных актов, например паломничества к святыням или ритуального самоубийства.",
+    "has_honor": "Определяет, насколько подданные уважают . При чистоте свыше 75 единиц показатель чести увеличивается, а при низких значениях чистоты — уменьшается. Религиозные и дипломатические действия влияют на честь по-разному.",
+    "has_yanantin": "Янантин характеризует равновесие между двумя взаимодополняющими, но противоположными сущностями. andean groupие культуры считают, что гармония достигается, лишь когда существо, мужчина, тьма или Солнце находит свою противоположность и сливается с ней, например с женщиной, светом или Луной.",
+    "has_religious_influence": "Характеризует способность державы взаимодействовать с основной религией и влиять на неё. Практическое применение влияния зависит от религии и от того, как получила эту способность.",
+    "has_canonization": "Бывшего правителя державы можно канонизировать, то есть объявить святым. Благодаря этому получит преимущества, которые зависят от навыков персонажа, полученных при жизни.",
+    "has_religious_head": "Этот персонаж считается первым лицом и главным представителем религии.",
+    "has_rite_power": "Характеризует способность державы, являющейся лидером автокефального патриархата, изменять свою религию с помощью выбора различных сводов правил.",
+    "needs_reform": "OOLTIP:Религия,,X Католичество страдает от внутренних противоречий: его приверженцы спорят, какое вероучение считать правильным и что вообще относится к этой религии. Со временем среди них растёт стремление к реформации, которое повлияет на любые будущие обсуждения доктрины католичества."
+  },
+  "_language_names": {
+    "japanese_language": "Японск",
+    "classical_arabic_dialect": "Классическо-арабск",
+    "pali_language": "Палийск",
+    "czech_dialect": "Чешск",
+    "church_slavonic_language": "Церковнославянск",
+    "sanskrit_language": "Санскритск",
+    "aramaic_language": "Арамейск",
+    "kurdish_language": "Курдск",
+    "persian_language": "Персидск",
+    "levantine_dialect": "Левантийск",
+    "iraqi_dialect": "Иракск",
+    "tibetan_language": "Тибетск",
+    "hebrew_language": "Еврейск",
+    "latin_language": "Латинск",
+    "classical_chinese_language": "Классическо-китайск",
+    "russian_dialect": "Русск"
   }
 }

@@ -376,7 +376,7 @@
     "desc": "$dongba_religion$$common_folk_religion_desc$"
   },
   "bimoism": {
-    "name": "",
+    "name": "毕摩教",
     "desc": "$bimoism$$common_folk_religion_desc$"
   },
   "ka_niam_khasi_religion": {
@@ -592,15 +592,15 @@
     "desc": "$chukchi_shamanism$$common_folk_religion_desc$"
   },
   "hmongism": {
-    "name": "",
+    "name": "章夸教",
     "desc": "$hmongism$$common_folk_religion_desc$"
   },
   "moism": {
-    "name": "",
+    "name": "麽教",
     "desc": "$moism$$common_folk_religion_desc$"
   },
   "rmaism": {
-    "name": "",
+    "name": "白石崇拜",
     "desc": "$rmaism$$common_folk_religion_desc$"
   },
   "shamanism": {
@@ -696,7 +696,7 @@
     "desc": "$karachay_balkar_paganism$$common_folk_religion_desc$"
   },
   "khabzeism": {
-    "name": "",
+    "name": "哈布泽多神教",
     "desc": "$khabzeism$$common_folk_religion_desc$"
   },
   "lezgin_paganism": {
@@ -812,11 +812,11 @@
     "desc": "$dene_religion$$common_folk_religion_desc$"
   },
   "midewiwin_religion": {
-    "name": "",
+    "name": "密得微图腾崇拜",
     "desc": "$midewiwin_religion$$common_folk_religion_desc$"
   },
   "dene_shamanism": {
-    "name": "",
+    "name": "阿萨巴斯坎萨满教",
     "desc": "$dene_shamanism$$common_folk_religion_desc$"
   },
   "dene_totemism": {
@@ -824,19 +824,19 @@
     "desc": "$dene_totemism$$common_folk_religion_desc$"
   },
   "great_plains_shamanism": {
-    "name": "",
+    "name": "瓦卡萨满教",
     "desc": "$great_plains_shamanism$$common_folk_religion_desc$"
   },
   "iroquoian_totemism": {
-    "name": "",
+    "name": "奥伦迪图腾崇拜",
     "desc": "$iroquoian_totemism$$common_folk_religion_desc$"
   },
   "mississippian_ceremonial": {
-    "name": "",
+    "name": "仪俗信仰",
     "desc": "$mississippian_ceremonial$$common_folk_religion_desc$"
   },
   "paiute_shamanism": {
-    "name": "",
+    "name": "普哈吉萨满教",
     "desc": "$paiute_shamanism$$common_folk_religion_desc$"
   },
   "pomo_shamanism": {
@@ -1076,11 +1076,11 @@
     "desc": "$degar_religion$$common_folk_religion_desc$"
   },
   "sanamahism": {
-    "name": "",
+    "name": "萨那玛依教",
     "desc": "$sanamahism$$common_folk_religion_desc$"
   },
   "satsana_phi": {
-    "name": "",
+    "name": "丕教",
     "desc": "$satsana_phi$$common_folk_religion_desc$"
   },
   "maleiwa_religion": {
@@ -1171,65 +1171,11 @@
     "name": "祆教",
     "desc": "琐罗亚斯德教是一种古老的$iranian_group$宗教，遵循查拉图斯特拉（也称琐罗亚斯德）的教义与《阿维斯塔》经典。它基于善与恶的二元宇宙观，描述了神阿胡拉·马兹达与破坏灵安格拉·曼纽之间的永恒冲突，并预言善将最终战胜恶。"
   },
-  "folk_melanesian_group": {
-    "name": "美拉尼西亚原始宗教"
-  },
-  "folk_brazilian_group": {
-    "name": "巴西原始宗教"
-  },
-  "folk_papuan_group": {
-    "name": "巴布亚原始宗教"
-  },
-  "folk_se_asian_group": {
-    "name": "东南亚原始宗教"
-  },
-  "yazidi_group": {
-    "name": "雅兹迪派"
-  },
-  "folk_african_group": {
-    "name": "非洲原始宗教"
-  },
-  "folk_north_american_group": {
-    "name": "北美洲原始宗教"
-  },
-  "israelite_group": {
-    "name": "以色列宗教"
-  },
-  "dharmic": {
-    "name": "正法宗教"
-  },
-  "buddhist": {
-    "name": "佛教"
-  },
-  "manichaean_group": {
-    "name": "摩尼教"
-  },
-  "folk_argentinian_group": {
-    "name": "阿根廷原始宗教"
-  },
-  "folk_micronesian_group": {
-    "name": "密克罗尼西亚原始宗教"
-  },
-  "folk_caribbean_group": {
-    "name": "加勒比原始宗教"
-  },
-  "folk_central_american_group": {
-    "name": "中美洲原始宗教"
-  },
-  "folk_south_american_group": {
-    "name": "南美洲原始宗教"
-  },
   "zoroastrian_group": {
     "name": "祆教"
   },
-  "folk_polynesian_group": {
-    "name": "波利尼西亚原始宗教"
-  },
-  "christian": {
-    "name": "基督教"
-  },
-  "folk_aridoamerica_group": {
-    "name": "干旱美洲原始宗教"
+  "folk_north_american_group": {
+    "name": "北美洲原始宗教"
   },
   "muslim": {
     "name": "伊斯兰教"
@@ -1237,25 +1183,516 @@
   "tonal_group": {
     "name": "托纳利原始宗教"
   },
-  "folk_european_group": {
-    "name": "欧洲原始宗教"
+  "mandean_group": {
+    "name": "曼达派"
+  },
+  "folk_micronesian_group": {
+    "name": "密克罗尼西亚原始宗教"
   },
   "folk_peruvian_group": {
     "name": "安第斯原始宗教"
   },
-  "folk_permic_group": {
-    "name": "彼尔姆原始宗教"
+  "folk_papuan_group": {
+    "name": "巴布亚原始宗教"
   },
-  "mandean_group": {
-    "name": "曼达派"
+  "folk_argentinian_group": {
+    "name": "阿根廷原始宗教"
   },
-  "druze_group": {
-    "name": "德鲁兹派"
+  "folk_aridoamerica_group": {
+    "name": "干旱美洲原始宗教"
+  },
+  "folk_south_american_group": {
+    "name": "南美洲原始宗教"
   },
   "folk_asian_group": {
     "name": "亚洲原始宗教"
   },
+  "folk_central_american_group": {
+    "name": "中美洲原始宗教"
+  },
+  "buddhist": {
+    "name": "佛教"
+  },
+  "manichaean_group": {
+    "name": "摩尼教"
+  },
+  "folk_melanesian_group": {
+    "name": "美拉尼西亚原始宗教"
+  },
+  "folk_caribbean_group": {
+    "name": "加勒比原始宗教"
+  },
+  "folk_african_group": {
+    "name": "非洲原始宗教"
+  },
+  "folk_polynesian_group": {
+    "name": "波利尼西亚原始宗教"
+  },
+  "dharmic": {
+    "name": "正法宗教"
+  },
+  "folk_se_asian_group": {
+    "name": "东南亚原始宗教"
+  },
+  "yazidi_group": {
+    "name": "雅兹迪派"
+  },
+  "folk_permic_group": {
+    "name": "彼尔姆原始宗教"
+  },
+  "druze_group": {
+    "name": "德鲁兹派"
+  },
+  "folk_european_group": {
+    "name": "欧洲原始宗教"
+  },
+  "christian": {
+    "name": "基督教"
+  },
+  "israelite_group": {
+    "name": "以色列宗教"
+  },
   "folk_australian_group": {
     "name": "澳大利亚原始宗教"
+  },
+  "folk_brazilian_group": {
+    "name": "巴西原始宗教"
+  },
+  "india": {
+    "name": "印度"
+  },
+  "dharma": {
+    "name": "Dharma"
+  },
+  "christian_ADJ": {
+    "name": "基督教"
+  },
+  "daoism_policy": {
+    "name": "道教"
+  },
+  "chinese_group": {
+    "name": "中华"
+  },
+  "judaism_ADJ": {
+    "name": "犹太教"
+  },
+  "character_title_guru": {
+    "name": "Guru"
+  },
+  "mandeaism_god_name": {
+    "name": "伟大生命"
+  },
+  "mandeaism_ADJ": {
+    "name": "曼达派"
+  },
+  "nahua_group": {
+    "name": "纳瓦"
+  },
+  "hussite_ADJ": {
+    "name": "胡斯派"
+  },
+  "inti_god": {
+    "name": "因蒂"
+  },
+  "asia": {
+    "name": "亚洲"
+  },
+  "common_folk_religion_desc": {
+    "name": "是指其信徒自古以来传播并坚持的本地信仰、神话、传统和习俗。"
+  },
+  "sindh_area": {
+    "name": "信德"
+  },
+  "druzism_ADJ": {
+    "name": "德鲁兹派"
+  },
+  "tlaloc_god": {
+    "name": "特拉洛克"
+  },
+  "andes_region": {
+    "name": "the Andes"
+  },
+  "china": {
+    "name": "中国"
+  },
+  "catholic_ADJ": {
+    "name": "天主教"
+  },
+  "ismaili_school": {
+    "name": "伊斯玛仪派"
+  },
+  "lithuanian_group": {
+    "name": "立陶宛"
+  },
+  "confucianism_policy": {
+    "name": "儒学"
+  },
+  "greek_culture": {
+    "name": "希腊"
+  },
+  "shamanism_ADJ": {
+    "name": "萨满教"
+  },
+  "huitzilopochtli_god": {
+    "name": "维齐洛波奇特利"
+  },
+  "BOH": {
+    "name": "波希米亚"
+  },
+  "japan_region": {
+    "name": "日本"
+  },
+  "sutra": {
+    "name": "綖经"
+  },
+  "viracocha": {
+    "name": "维拉科查"
+  },
+  "miaphysite_ADJ": {
+    "name": "基督合性派"
+  },
+  "strigolniki_ADJ": {
+    "name": "剪裁派"
+  },
+  "imamate": {
+    "name": "伊玛目"
+  },
+  "germanic_language_family": {
+    "name": "日耳曼语族"
+  },
+  "shia_ADJ": {
+    "name": "什叶派"
+  },
+  "vaishnavism": {
+    "name": "毗湿奴派"
+  },
+  "sapmi": {
+    "name": "萨米"
+  },
+  "quetzalcoatl_god": {
+    "name": "魁札尔·科亚特尔"
+  },
+  "tengri_god_name": {
+    "name": "腾格里"
+  },
+  "rank_empire_muslim_ruler_male": {
+    "name": "Caliph"
+  },
+  "russian_region": {
+    "name": "Russia"
+  },
+  "finnish_language": {
+    "name": "芬兰语"
+  },
+  "scandinavian_region": {
+    "name": "Scandinavia"
+  },
+  "SECT_NYIGMA_NAME": {
+    "name": "Nyingma"
+  },
+  "shaivism": {
+    "name": "湿婆派"
+  },
+  "tibet_region": {
+    "name": "Tibet"
+  },
+  "BYZ_ADJ": {
+    "name": "拜占庭"
+  },
+  "japanese_group": {
+    "name": "日本"
+  },
+  "bodhisattva": {
+    "name": "菩萨"
+  },
+  "dharmic_ADJ": {
+    "name": "正法"
+  },
+  "nahuatl_god_name": {
+    "name": "特奥特尔"
+  },
+  "orthodox_ADJ": {
+    "name": "东正教"
+  },
+  "lutheran_ADJ": {
+    "name": "路德宗"
+  },
+  "samaritan_culture": {
+    "name": "撒玛利亚"
+  },
+  "shaktism": {
+    "name": "性力派"
+  },
+  "waldensian_ADJ": {
+    "name": "瓦勒度派"
+  },
+  "iranian_group": {
+    "name": "伊朗"
+  },
+  "muslim_ADJ": {
+    "name": "穆斯林"
+  },
+  "mongolian_group": {
+    "name": "蒙古"
+  },
+  "paulicianism_ADJ": {
+    "name": "保禄派"
+  },
+  "turkic_group": {
+    "name": "突厥"
+  },
+  "hindu_ADJ": {
+    "name": "印度教"
+  },
+  "ibadi_school_desc": {
+    "name": "该学派起源于哈瓦利吉派，其早期追随者虽支持阿里·本·阿比·塔利卜，但因其接受仲裁而与之决裂。在阿卜杜拉·本·伊巴德领导下，逐渐与哈瓦利吉派的激进立场划清界限，形成较为温和的教义体系。伊巴德派对各教派持包容态度，其法学理念与其他主流学派存在诸多共通之处。"
+  },
+  "europe": {
+    "name": "欧洲"
+  },
+  "sikhism_god_name": {
+    "name": "独一真神"
+  },
+  "buddhist_ADJ": {
+    "name": "佛教"
+  },
+  "smartism": {
+    "name": "传承派"
+  },
+  "_modifier_names": {
+    "allow_harmony": "启用调和",
+    "allow_mysticism_vs_jurisprudence": "开放",
+    "allow_open_sea_exploration": "可以发起公海探索",
+    "allow_righteousness": "启用仁义",
+    "allow_self_control": "启用self control",
+    "any_pop_can_be_slave": "无限制奴隶制",
+    "army_auxiliary_maintenance_cost_modifier": "维护花费",
+    "army_cavalry_power": "作战能力",
+    "army_disembark_speed": "陆军登陆速度",
+    "army_infantry_power": "作战能力",
+    "army_initiative": "陆军主动性",
+    "army_movement_speed": "陆军移动速度",
+    "army_reinforce_cost": "陆军补员花费",
+    "auto_slave_raid_different_religion": "允许掳掠敌国异教徒为奴",
+    "ban_imports_of_beer": "禁止进口",
+    "ban_imports_of_liquor": "禁止进口",
+    "ban_imports_of_wine": "禁止进口",
+    "block_from_change_to_empire_rank_catholic": "教廷禁止称帝",
+    "can_have_monasteries": "允许建造修道院",
+    "cannot_declare_no_cb_wars": "禁止无理由宣战",
+    "cannot_declare_no_cb_wars_on_religion_head": "不能无理由对宗教领袖宣战",
+    "clergy_estate_max_tax": "教士阶层征税上限",
+    "clergy_estate_target_satisfaction": "教士阶层满意度均衡点",
+    "country_cabinet_efficiency": "内阁效率",
+    "cultural_influence_modifier": "文化影响力 %",
+    "cultural_tradition_modifier": "文化传统%",
+    "discipline": "训练度",
+    "enable_doom": "启用末日值",
+    "expand_rgo_farming_cost_modifier": "扩建农场花费",
+    "expand_rgo_forestry_cost_modifier": "扩建林场花费",
+    "exploration_maintenance_cost": "探索花费",
+    "food_consumption_modifier": "单位食物消耗",
+    "gender_equality": "性别平等",
+    "global_build_buildings_cost": "建筑建造花费",
+    "global_burghers_estate_power": "市民阶层力量",
+    "global_clergy_estate_power": "教士阶层力量",
+    "global_clergy_max_literacy": "教士最大识字率",
+    "global_defensive": "要塞防御",
+    "global_estate_target_satisfaction": "阶层满意度均衡点",
+    "global_hostile_attrition": "敌军损耗",
+    "global_levy_size_modifier": "征召规模",
+    "global_max_literacy": "最大识字率",
+    "global_may_build_nahuatl_units": "可招募雄鹰战士与美洲虎武士",
+    "global_merchant_power": "贸易优势",
+    "global_migration_speed_modifier": "人口迁徙速度",
+    "global_monthly_art_start_chance": "艺术家每月创作几率",
+    "global_monthly_development": "每月发展度",
+    "global_monthly_food_modifier": "食物产出 %",
+    "global_monthly_literacy": "每月识字率",
+    "global_nobles_estate_power": "贵族阶层力量",
+    "global_peasants_estate_power": "农民阶层力量",
+    "global_pop_conversion_speed_modifier": "人口皈依速度 %",
+    "global_pop_food_consumption": "人口食物消耗",
+    "global_pop_promotion_speed_modifier": "人口升级速度 %",
+    "global_population_capacity_modifier": "人口容量 %",
+    "global_sailors_modifier": "水手",
+    "global_separatism": "分离主义",
+    "global_trade_protection_factor": "市场保护",
+    "global_wild_game_output_modifier": "产出",
+    "is_battles_preordained": "一切早已注定",
+    "land_morale_attrition_cost": "陆军士气损耗",
+    "land_morale_modifier": "陆军士气",
+    "land_unit_attrition": "陆军损耗",
+    "levy_combat_efficiency_modifier": "征召兵作战效率",
+    "levy_recovery_modifier": "征召兵恢复",
+    "maximum_religious_influence": "最大宗教影响力",
+    "merchant_maintenance_cost": "贸易维护费",
+    "monthly_karma": "每月业力",
+    "monthly_legitimacy": "每月正统性",
+    "monthly_prestige": "每月威望",
+    "monthly_religious_influence": "每月宗教影响力",
+    "monthly_war_exhaustion": "每月厌战度",
+    "movement_speed_if_no_road": "无道路移动速度",
+    "naval_morale_attrition_cost": "海军士气损耗",
+    "navy_initiative": "海军主动性",
+    "navy_maintenance_cost": "海军维护费",
+    "navy_movement_speed": "海军移动速度",
+    "nobles_estate_target_satisfaction": "贵族阶层满意度均衡点",
+    "number_of_allowed_religious_figures": "宗教人士上限",
+    "prestige_from_land_battle": "陆战带来的威望",
+    "research_speed_modifier": "每月研究进度 %",
+    "retreat_delay": "撤退延迟",
+    "ship_build_speed": "舰船建造速度",
+    "skill_of_new_artists": "新晋艺术家技艺",
+    "stability_cost": "稳定度投资花费",
+    "stability_investment": "稳定度投资",
+    "tax_income_efficiency": "税收效率",
+    "tolerance_heathen": "异教容忍度",
+    "tolerance_heretic": "异端容忍度",
+    "tolerance_own": "正统信仰容忍度",
+    "trade_efficiency": "贸易效率",
+    "trade_range_modifier": "贸易范围",
+    "trade_sea_movement_cost_modifier": "经由海域的贸易范围消耗"
+  },
+  "_modifier_descs": {
+    "allow_harmony": "启用调和机制。",
+    "allow_mysticism_vs_jurisprudence": "这允许国家被mysticism或jurisprudence塑造。",
+    "allow_open_sea_exploration": "允许一个国家开始探索探索 地区中的远洋区域。",
+    "allow_righteousness": "启用仁义机制。",
+    "allow_self_control": "启用克己机制。",
+    "any_pop_can_be_slave": "任何被俘获或购买的人群将永远为奴。",
+    "army_auxiliary_maintenance_cost_modifier": "这影响维护 陆军 auxiliary单位所需的花费。",
+    "army_cavalry_power": "这影响陆军 cavalry 军团的战斗能力。",
+    "army_disembark_speed": "影响陆军单位从海军单位登陆至相邻地点的快慢。",
+    "army_infantry_power": "这影响陆军 infantry 军团的战斗能力。",
+    "army_initiative": "影响军团在战斗中的主动性。",
+    "army_movement_speed": "影响陆军在地点之间移动的快慢。",
+    "army_reinforce_cost": "影响补员一支军团所需的杜卡特与人力。",
+    "auto_slave_raid_different_religion": "这将使你的陆军能够在占领一处地点时将该地一部分异宗教组 人群掳掠为奴。",
+    "ban_imports_of_beer": "这会禁止一个国家拥有的所有市场的啤酒 进口。",
+    "ban_imports_of_liquor": "这会禁止一个国家拥有的所有市场的烈酒 进口。",
+    "ban_imports_of_wine": "这会禁止一个国家拥有的所有市场的葡萄酒 进口。",
+    "block_from_change_to_empire_rank_catholic": "只要存在，便阻止国家将其国家等级提升至rank empire。",
+    "can_have_monasteries": "这影响一个国家是否能拥有monastery建筑。",
+    "cannot_declare_no_cb_wars": "禁止我们在无有效宣战理由的情况下发起战争。",
+    "cannot_declare_no_cb_wars_on_religion_head": "这禁止我们不使用恰当的宣战理由对我们的宗教领袖发动战争。",
+    "clergy_estate_max_tax": "影响可从教士征收的最高税率。",
+    "clergy_estate_target_satisfaction": "这影响该国家教士的满意度均衡点。",
+    "country_cabinet_efficiency": "影响国家内所有角色在内阁中的内阁效率。",
+    "cultural_influence_modifier": "影响我国主流文化的文化影响。",
+    "cultural_tradition_modifier": "影响我国主流文化的文化传统。",
+    "discipline": "影响军团的训练度。",
+    "enable_doom": "这决定了一个国家是否拥有末日值。",
+    "expand_rgo_farming_cost_modifier": "这会影响增加从事需要农场的原材料的人群所需的花费。 被视为 农场的 原材料。",
+    "expand_rgo_forestry_cost_modifier": "这会影响增加从事需要林业的原材料的人群所需的花费。 被视为 林场的 原材料。",
+    "exploration_maintenance_cost": "影响一次探索的花费。",
+    "food_consumption_modifier": "影响单位每月消耗的食物量。",
+    "gender_equality": "决定女性是否可以担任与男性相同的职责。",
+    "global_build_buildings_cost": "影响在国家所有地点建造建筑的花费。",
+    "global_burghers_estate_power": "这影响整个国家的市民的阶层力量。",
+    "global_clergy_estate_power": "这影响整个国家的教士的阶层力量。",
+    "global_clergy_max_literacy": "影响该国家所有clergy的识字率。",
+    "global_defensive": "影响国家在围攻中被攻陷的速度。",
+    "global_estate_target_satisfaction": "这影响该国家所有阶层的满意度均衡点。",
+    "global_hostile_attrition": "影响敌方 陆军处于我们所统治且控制力的所有领土上时承受的损耗。",
+    "global_levy_size_modifier": "影响国家中人群征召的陆军征召兵和海军征召兵的规模。",
+    "global_max_literacy": "影响一个国家中所有人群的最大识字率。",
+    "global_may_build_nahuatl_units": "允许招募a jaguar warrior与a eagle warrior。",
+    "global_merchant_power": "影响一个国家所拥有的贸易优势数量。",
+    "global_migration_speed_modifier": "影响全国所有地点的人群的迁徙速度。",
+    "global_monthly_art_start_chance": "影响国家内艺术家开始创作新艺术品的几率。",
+    "global_monthly_development": "影响国家中所有地点的发展度每月变化量。",
+    "global_monthly_food_modifier": "影响国家中所有地点的食物产量。",
+    "global_monthly_literacy": "影响国家中人群的识字率变化。",
+    "global_nobles_estate_power": "这影响整个国家的贵族的阶层力量。",
+    "global_peasants_estate_power": "这影响整个国家的平民的阶层力量。",
+    "global_pop_conversion_speed_modifier": "影响全国所有地点的人群 皈依速度。",
+    "global_pop_food_consumption": "影响该国家内所有人群的食物消耗量。",
+    "global_pop_promotion_speed_modifier": "影响全国所有地点的人群的升级速度。",
+    "global_population_capacity_modifier": "影响国家中所有地点可容纳的人群数量。",
+    "global_sailors_modifier": "影响国家获得的水手数量。",
+    "global_separatism": "影响国家内所有地点的分离主义。",
+    "global_trade_protection_factor": "这直接减少国外市场对该地点的市场吸引力，使其更可能归属其拥有者的市场。 一单位的市场保护可抵消外国市场对本国地点一单位的市场吸引力。",
+    "global_wild_game_output_modifier": "这修正整个国家的wild game 产出。",
+    "is_battles_preordained": "这会使国家在战斗中永不重掷D10。",
+    "land_morale_attrition_cost": "影响陆军每日因损耗会损失多少士气。",
+    "land_morale_modifier": "以百分比修正军团的士气上限。",
+    "land_unit_attrition": "影响军团承受多少损耗。",
+    "levy_combat_efficiency_modifier": "这影响征召兵 军团在战斗中的效率。",
+    "levy_recovery_modifier": "这影响一个国家的征召兵恢复速度。",
+    "maximum_religious_influence": "影响一个国家可为未来用途储存多少宗教影响力。",
+    "merchant_maintenance_cost": "影响我国商人从事贸易时的花费。",
+    "monthly_karma": "影响一个国家每月获得多少业力。",
+    "monthly_legitimacy": "影响一个国家每月获得的正统性数量。",
+    "monthly_prestige": "影响每月获得多少威望。",
+    "monthly_religious_influence": "影响一个国家每月获得多少宗教影响力。",
+    "monthly_war_exhaustion": "影响每月增加多少厌战度。",
+    "movement_speed_if_no_road": "影响陆军在缺乏道路的地点之间移动的快慢。",
+    "naval_morale_attrition_cost": "影响海军每日因损耗会损失多少士气。",
+    "navy_initiative": "影响舰船在战斗中的主动性。",
+    "navy_maintenance_cost": "改变维持一艘舰船所需的杜卡特与水手。",
+    "navy_movement_speed": "影响海军在海域之间移动的快慢。",
+    "nobles_estate_target_satisfaction": "这影响该国家贵族的满意度均衡点。",
+    "number_of_allowed_religious_figures": "这将启用宗教人士机制，并设定可邀请的人数上限。",
+    "prestige_from_land_battle": "影响国家的陆军参与战斗时获得的威望数值。",
+    "research_speed_modifier": "影响国家的研究进度增长速度。",
+    "retreat_delay": "影响单位在战斗中被锁定的小时数，在此之后才允许撤退。",
+    "ship_build_speed": "影响在国家中建造舰船的速度。",
+    "skill_of_new_artists": "影响新艺术家的技艺。",
+    "stability_cost": "影响稳定度投资的花费。",
+    "stability_investment": "对我们从结余中获得的稳定度投资给予奖励或惩罚。",
+    "tax_income_efficiency": "影响国家的税收效率。",
+    "tolerance_heathen": "影响与主导宗教不同宗教组的宗教的容忍度。",
+    "tolerance_heretic": "影响与主导宗教同属宗教组的宗教的容忍度。",
+    "tolerance_own": "影响主导宗教的容忍度。",
+    "trade_efficiency": "这直接影响了你在目标市场出售商品的价格，进而影响了贸易的利润。",
+    "trade_range_modifier": "这影响了一个国家的贸易范围。",
+    "trade_sea_movement_cost_modifier": "影响国家通过海域延伸贸易范围的能力。"
+  },
+  "_mechanic_names": {
+    "has_karma": "业力",
+    "has_purity": "清净",
+    "has_honor": "荣辱",
+    "has_yanantin": "亚南廷",
+    "has_religious_influence": "宗教影响力",
+    "has_canonization": "封圣",
+    "has_autocephalous_patriarchates": "自主教会",
+    "has_patriarchs": "牧首",
+    "has_religious_head": "宗教领袖",
+    "has_cardinals": "枢机",
+    "has_rite_power": "仪式力量",
+    "has_avatars": "化身",
+    "needs_reform": "改革呼声",
+    "use_icons": "Icon Painting",
+    "culture_locked": "Culture Locked"
+  },
+  "_mechanic_descs": {
+    "has_karma": "业力用于反映一个国家过去的行动所招致的果报，它在 ‑100到 +100之间浮动。 当国家的业力处于 ‑33到 +33之间时，该国将从业力中获得奖励。",
+    "has_purity": "清净衡量着我们国家在神道教教义下的纯洁程度。接触血液和死亡这等不洁之物，如在战斗或在瘟疫中损失人口会降低清净。进行一些宗教活动将提高清净，如圣地巡礼或切腹自尽。",
+    "has_honor": "荣辱衡量了我们国家在人民心中荣耀与否。 维持国家清净高于75会提高荣辱，清净较低则会降低荣辱。 其他宗教和外交行动也可以影响它。",
+    "has_yanantin": "亚南廷代表了两个互补但又对立的实体之间的平衡。按照andean group 文化的观念，只有当一个存在——一个男人，黑暗，太阳找到他的互补——一个女人，光明，月亮，并与之联结，和谐才能实现。",
+    "has_religious_influence": "该数值反映了一个国家与主导宗教互动并影响其事务的能力。根据宗教的不同，其用途也不同，而国家获取它的方式也不同。",
+    "has_canonization": "一个国家的前统治者可以被封圣，即成为圣人。这将根据该角色在世时的能力给予国家额外收益。",
+    "has_religious_head": "这是被认为掌管并代表整个宗教教派的角色。",
+    "has_rite_power": "该数值反映了自主教会的领袖 国家通过选择要实行的各种法律来调整其宗教的能力。",
+    "needs_reform": "天主教宗教存在关于何为正确教义、何为信仰范畴的内部冲突。随着时间的推移，改革的呼声越来越大，并将影响未来关于天主教教义的所有讨论。"
+  },
+  "_language_names": {
+    "japanese_language": "日语",
+    "classical_arabic_dialect": "古典阿拉伯语",
+    "pali_language": "巴利语",
+    "czech_dialect": "捷克语",
+    "church_slavonic_language": "教会斯拉夫语",
+    "sanskrit_language": "梵语",
+    "aramaic_language": "阿拉米语",
+    "kurdish_language": "库尔德语",
+    "persian_language": "波斯语",
+    "levantine_dialect": "沙姆阿拉伯语",
+    "iraqi_dialect": "美索不达米亚阿拉伯语",
+    "tibetan_language": "藏语",
+    "hebrew_language": "希伯来语",
+    "latin_language": "拉丁语",
+    "classical_chinese_language": "文言文",
+    "russian_dialect": "俄语"
   }
 }

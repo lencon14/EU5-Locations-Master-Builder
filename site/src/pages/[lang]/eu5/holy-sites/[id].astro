@@ -1,0 +1,427 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
+import { loadCore, loadHolySiteLoc, loadHolySiteModNames, loadHolySiteModDescs, loadHolySiteLocationNames, loadReligionLoc, loadGameTerms } from "../../../../i18n/data";
+import { t } from "../../../../i18n/ui";
+import { formatModValue, descToSimpleTooltip } from "../../../../i18n/render";
+import type { HolySiteItem, HolySiteType } from "../../../../i18n/types";
+
+export function getStaticPaths() {
+  const core = loadCore<HolySiteItem>("holy_sites");
+  return LANG_CODES.flatMap((lang) =>
+    core.map((item) => ({
+      params: { lang, id: item.id },
+      props: { lang, item },
+    })),
+  );
+}
+
+const { lang, item } = Astro.props as { lang: Lang; item: HolySiteItem };
+const core = loadCore<HolySiteItem>("holy_sites");
+const types = loadCore<HolySiteType>("holy_site_types");
+const loc = loadHolySiteLoc(lang);
+const locEn = lang !== "en" ? loadHolySiteLoc("en") : loc;
+const relLoc = loadReligionLoc(lang);
+const modNames = loadHolySiteModNames(lang);
+const modDescs = loadHolySiteModDescs(lang);
+const locNames = loadHolySiteLocationNames(lang);
+const terms = loadGameTerms(lang);
+
+/** Get tooltip description from game_terms, if available. */
+function tip(key: string): string | undefined {
+  const d = terms[`${key}.desc`];
+  return d && d !== `${key}.desc` ? d : undefined;
+}
+
+const name = loc[item.id]?.name ?? item.id.replace(/_/g, ' ');
+const nameEn = locEn[item.id]?.name ?? item.id.replace(/_/g, ' ');
+const typeName = loc[item.type]?.name ?? item.type;
+const typeDesc = loc[item.type]?.desc;
+
+// Get type modifiers
+const typeData = types.find((t) => t.id === item.type);
+const locMods = typeData?.location_modifier ?? [];
+const ctyMods = typeData?.country_modifier ?? [];
+
+// Illustration: individual DLC image if available, else religion group fallback
+const DLC_ILLUSTRATIONS = new Set(["bodh_gaya", "cholula_holy_city", "enryaku_ji", "jerusalem_the_holy_city_islam", "kaaba", "ranganathaswamy_temple", "temple_of_confucius", "the_vatican"]);
+const RELIGION_TO_GROUP_ILLUSTRATION: Record<string, string> = {
+  buddhist: "buddhist", mahayana: "buddhist", theravada: "buddhist", sanjiao: "buddhist",
+  shinto: "buddhist", bon: "buddhist", sammitiya: "buddhist", tibetan_buddhism: "buddhist",
+  catholic: "christian", orthodox: "christian", nestorianism: "christian",
+  bogomilism: "christian", bosnian_church: "christian", paulicianism: "christian",
+  miaphysite: "christian",
+  hindu: "dharmic", jain: "dharmic",
+  islam: "muslim", sunni: "muslim", shia: "muslim", ibadi: "muslim",
+  inti: "tonal", mayan: "tonal", nahuatl: "tonal", mesoamerican: "tonal",
+};
+function getIllustration(): string {
+  if (DLC_ILLUSTRATIONS.has(item.id)) return `/icons/holy_site_illustrations/${item.id}.png`;
+  const rel = item.religions?.[0] ?? "";
+  const grp = RELIGION_TO_GROUP_ILLUSTRATION[rel] ?? "others";
+  return `/icons/holy_site_illustrations/${grp}.png`;
+}
+const illustration = getIllustration();
+
+// Importance stars
+function stars(n: number): string {
+  return "\u2605".repeat(n) + "\u2606".repeat(5 - n);
+}
+
+// Same-religion holy sites (exclude self)
+const sameRel = core.filter(
+  (s) => s.id !== item.id && s.religions.some((r) => item.religions.includes(r))
+);
+---
+
+<Base
+  lang={lang}
+  title={name}
+  description={`${name} — ${typeName}`}
+  canonicalPath={`/holy-sites/${item.id}/`}
+>
+  <nav class="breadcrumb">
+    <a href={localePath(lang, "/holy-sites/")}>{t(lang, "holy_sites.breadcrumb")}</a>
+    <span class="sep">&rsaquo;</span>
+    <span>{name}</span>
+  </nav>
+
+  <header class="hs-header">
+    <div class="header-row">
+      <img src={illustration} alt="" width="120" height="50" class="header-illust" loading="lazy" />
+      <div>
+        <h1>{name}</h1>
+        {lang !== "en" && <span class="en-name">{nameEn}</span>}
+        <code class="id-badge">{item.id}</code>
+      </div>
+    </div>
+  </header>
+
+  <section class="props-card">
+    <h2>{t(lang, "common.basic_info")}</h2>
+    <dl>
+      <div class="prop-row">
+        <dt data-tip={tip("field.holy_site")}>{t(lang, "holy_sites.detail.type")}</dt>
+        <dd>
+          {typeDesc ? (
+            <span class="tag has-tip" data-tip={typeDesc}>{typeName}</span>
+          ) : (
+            <span class="tag">{typeName}</span>
+          )}
+        </dd>
+      </div>
+      <div class="prop-row">
+        <dt>{t(lang, "holy_sites.detail.importance")}</dt>
+        <dd class="stars">{stars(item.importance)}</dd>
+      </div>
+      <div class="prop-row">
+        <dt>{t(lang, "holy_sites.detail.location")}</dt>
+        <dd>{locNames[item.location] || item.location}</dd>
+      </div>
+      <div class="prop-row">
+        <dt>{t(lang, "holy_sites.detail.religions")}</dt>
+        <dd class="rel-links">
+          {item.religions.map((relId) => {
+            const rDescTip = descToSimpleTooltip(relLoc[relId]?.desc);
+            return rDescTip ? (
+              <a href={localePath(lang, `/religions/${relId}/`)} class="rel-chip has-tip" data-tip={rDescTip}>
+                <img src={`/icons/religion/${relId}.png`} alt="" width="20" height="20" />
+                {relLoc[relId]?.name ?? relId}
+              </a>
+            ) : (
+              <a href={localePath(lang, `/religions/${relId}/`)} class="rel-chip">
+                <img src={`/icons/religion/${relId}.png`} alt="" width="20" height="20" />
+                {relLoc[relId]?.name ?? relId}
+              </a>
+            );
+          })}
+        </dd>
+      </div>
+    </dl>
+  </section>
+
+  {
+    (locMods.length > 0 || ctyMods.length > 0) && (
+      <section class="panel">
+        {locMods.length > 0 && (
+          <Fragment>
+            <h2>{t(lang, "holy_sites.detail.location_mod")}</h2>
+            <div class="table-wrap"><table>
+              <thead><tr><th>{t(lang, "religions.detail.modifier")}</th><th class="num-head">{t(lang, "religions.detail.value")}</th></tr></thead>
+              <tbody>
+                {locMods.map((m) => {
+                  const modName = modNames[m.key] ?? m.key.replace(/_/g, ' ');
+                  const modDesc = modDescs[m.key];
+                  const numVal = typeof m.value === "number" ? m.value : 0;
+                  const isGood = m.inv ? numVal < 0 : numVal > 0;
+                  const isBad = m.inv ? numVal > 0 : numVal < 0;
+                  return (
+                    <tr>
+                      <td>
+                        {modDesc ? (
+                          <span class="has-tip" data-tip={modDesc}>
+                            {modName}
+                            <span class="tip-icon">?</span>
+                          </span>
+                        ) : (
+                          <span>{modName}</span>
+                        )}
+                      </td>
+                      <td class={`num ${isGood ? "val-pos" : ""} ${isBad ? "val-neg" : ""}`}>{formatModValue(lang, m.value, !!m.pct)}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table></div>
+          </Fragment>
+        )}
+        {ctyMods.length > 0 && (
+          <Fragment>
+            <h3>{t(lang, "holy_sites.detail.country_mod")}</h3>
+            <div class="table-wrap"><table>
+              <thead><tr><th>{t(lang, "religions.detail.modifier")}</th><th class="num-head">{t(lang, "religions.detail.value")}</th></tr></thead>
+              <tbody>
+                {ctyMods.map((m) => {
+                  const modName = modNames[m.key] ?? m.key.replace(/_/g, ' ');
+                  const modDesc = modDescs[m.key];
+                  const numVal = typeof m.value === "number" ? m.value : 0;
+                  const isGood = m.inv ? numVal < 0 : numVal > 0;
+                  const isBad = m.inv ? numVal > 0 : numVal < 0;
+                  return (
+                    <tr>
+                      <td>
+                        {modDesc ? (
+                          <span class="has-tip" data-tip={modDesc}>
+                            {modName}
+                            <span class="tip-icon">?</span>
+                          </span>
+                        ) : (
+                          <span>{modName}</span>
+                        )}
+                      </td>
+                      <td class={`num ${isGood ? "val-pos" : ""} ${isBad ? "val-neg" : ""}`}>{formatModValue(lang, m.value, !!m.pct)}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table></div>
+          </Fragment>
+        )}
+      </section>
+    )
+  }
+
+  {
+    typeDesc && (
+      <section class="description">
+        <h2>{t(lang, "common.description")}</h2>
+        <p>{typeDesc}</p>
+      </section>
+    )
+  }
+
+  {
+    sameRel.length > 0 && (
+      <section class="related">
+        <h2>
+          {t(lang, "holy_sites.detail.same_religion")}
+          <span class="related-count">{sameRel.length}</span>
+        </h2>
+        <div class="related-grid">
+          {sameRel.map((s) => {
+            const sName = loc[s.id]?.name ?? s.id.replace(/_/g, ' ');
+            return (
+              <a href={localePath(lang, `/holy-sites/${s.id}/`)} class="related-item">
+                <span>{sName}</span>
+                <span class="rel-imp">{stars(s.importance)}</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  <style>
+    .breadcrumb { margin-bottom: 1.5rem; font-size: 1rem; color: var(--dusty-silver); }
+    .breadcrumb .sep { margin: 0 0.4rem; color: var(--dim-stone); }
+    .breadcrumb span:last-child { color: var(--ivory); }
+
+    .hs-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--gold-thread); }
+    .header-row { display: flex; align-items: center; gap: 1rem; }
+    .header-illust { border-radius: 4px; object-fit: cover; flex-shrink: 0; }
+    .hs-header h1 { font-size: 2rem; color: var(--royal-gold); margin-bottom: 0.25rem; }
+    .en-name { color: var(--dusty-silver); font-size: 1rem; margin-right: 0.75rem; }
+    .id-badge {
+      background: var(--charred-oak); border: 1px solid var(--iron-edge);
+      border-radius: 2px; padding: 0.1rem 0.5rem; font-size: 1rem; color: var(--dim-stone);
+    }
+
+    .props-card, .panel, .description, .related {
+      background: var(--dark-walnut); border: 1px solid var(--iron-edge);
+      border-radius: 4px; padding: 1.25rem; margin-bottom: 1.5rem;
+    }
+    .props-card h2, .panel h2, .panel h3, .description h2, .related h2 {
+      font-size: 1.15rem; font-family: var(--font-body); font-weight: 500;
+      text-transform: uppercase; letter-spacing: 0.05em; color: var(--dusty-silver);
+      margin-bottom: 1rem; padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--iron-edge);
+      display: flex; align-items: center; gap: 0.5rem;
+    }
+    .panel h3 { font-size: 1rem; margin-top: 1.25rem; }
+
+    dl { display: flex; flex-direction: column; }
+    .prop-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0.4rem 0; border-bottom: 1px solid var(--iron-edge);
+    }
+    .prop-row:last-child { border-bottom: none; }
+    dt { font-size: 1rem; color: var(--dusty-silver); }
+    dd { font-size: 1rem; font-weight: 500; }
+
+    .tag {
+      display: inline-block; background: rgba(201, 168, 76, 0.15);
+      color: var(--pale-gold); border-radius: 2px; padding: 0.1rem 0.5rem;
+      font-size: 1rem; font-weight: 500;
+    }
+
+    .stars { color: var(--royal-gold); letter-spacing: 0.05em; }
+
+    .rel-links { display: flex; flex-wrap: wrap; gap: 0.4rem; justify-content: flex-end; }
+    .rel-chip {
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      padding: 0.2rem 0.5rem; background: var(--charred-oak);
+      border: 1px solid var(--iron-edge); border-radius: 4px;
+      color: var(--ivory); font-size: 1rem; font-weight: 500;
+    }
+    .rel-chip:hover { border-color: var(--royal-gold); color: var(--pale-gold); text-decoration: none; }
+    .rel-chip img { image-rendering: pixelated; }
+
+    .table-wrap { overflow-x: auto; }
+    .panel table { width: 100%; border-collapse: collapse; }
+    .panel td {
+      padding: 0.4rem 0.75rem; font-size: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+    .panel thead { background: var(--charred-oak); }
+    .panel th {
+      padding: 0.4rem 0.75rem; text-align: left;
+      font-family: var(--font-body); font-weight: 500; font-size: 1rem;
+      color: var(--dusty-silver); text-transform: uppercase;
+      letter-spacing: 0.05em; border-bottom: 1px solid var(--iron-edge);
+    }
+    .panel .num-head { text-align: right; }
+    .panel tr:last-child td { border-bottom: none; }
+    .num { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+    .val-pos { color: var(--forest-green); }
+    .val-neg { color: var(--crest-red); }
+
+    dt[data-tip] {
+      cursor: help;
+      text-decoration: underline dotted var(--dim-stone);
+      text-underline-offset: 2px;
+      position: relative;
+    }
+    dt[data-tip]::after {
+      content: attr(data-tip);
+      position: absolute;
+      left: 0;
+      bottom: calc(100% + 8px);
+      width: max-content;
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    dt[data-tip]:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .has-tip {
+      position: relative;
+      cursor: help;
+      border-bottom: 1px dotted var(--dim-stone);
+    }
+    .has-tip::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 0;
+      width: max(200px, 100%);
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    .has-tip:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+    .tag.has-tip {
+      border-bottom: none;
+      cursor: help;
+    }
+    .rel-chip.has-tip {
+      border-bottom: none;
+      cursor: help;
+    }
+
+    .tip-icon {
+      display: inline-block;
+      font-size: 0.6rem;
+      font-weight: 700;
+      color: var(--dim-stone);
+      background: var(--slate);
+      width: 14px;
+      height: 14px;
+      line-height: 14px;
+      text-align: center;
+      border-radius: 50%;
+      margin-left: 0.3rem;
+      vertical-align: middle;
+    }
+
+    .description p { color: var(--dusty-silver); font-size: 1rem; line-height: 1.8; }
+
+    .related-count {
+      font-family: var(--font-body); font-size: 0.7rem; font-weight: 500;
+      color: var(--dusty-silver); background: var(--slate);
+      padding: 0.1rem 0.45rem; border-radius: 2px;
+    }
+    .related-grid { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .related-item {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.3rem 0.6rem; background: var(--charred-oak);
+      border: 1px solid var(--iron-edge); border-radius: 4px;
+      color: var(--ivory); font-size: 1rem; font-weight: 500;
+      transition: border-color 0.15s;
+    }
+    .related-item:hover { border-color: var(--royal-gold); color: var(--pale-gold); text-decoration: none; }
+    .rel-imp { font-size: 0.7rem; color: var(--royal-gold); }
+  </style>
+</Base>

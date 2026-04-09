@@ -13,8 +13,8 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-# Matches: <space>key: "value"
-_LOC_LINE_RE = re.compile(r'^\s+(\S+):\s*"(.*)"\s*$')
+# Matches: [optional space]key: "value" with optional trailing comment (#...)
+_LOC_LINE_RE = re.compile(r'^\s*(\S+):\s*"(.*)"')
 
 
 def parse_loc(text: str) -> dict[str, str]:
@@ -54,11 +54,11 @@ def strip_markup(text: str) -> str:
     # Remove $VARIABLE$ references
     text = re.sub(r"\$\w+\$", "", text)
     # Handle [Concept('key', 'display')|e] → display
-    text = re.sub(r"\[Concept\(\s*'[^']*'\s*,\s*'([^']*)'\s*\)\s*\|[eE]\]", r"\1", text)
-    # Handle [ShowPopTypeName('key')] etc → keep the key
-    text = re.sub(r"\[Show\w+\('(\w+)'\)\]", r"\1", text)
-    # Convert [word|e] game concept refs → keep the word part
-    text = re.sub(r"\[(\w+)\|[eE]\]", r"\1", text)
+    text = re.sub(r"\[Concept\(\s*'[^']*'\s*,\s*'([^']*)'\s*\)\s*\|\w+\]", r"\1", text)
+    # Handle [ShowPopTypeName('key')] etc → keep the key (with optional |e/|el/|l suffix)
+    text = re.sub(r"\[Show\w+\('(\w+)'\)(?:\|\w+)?\]", r"\1", text)
+    # Convert [word|e], [word|el], [word|l] etc. game concept refs → keep the word part
+    text = re.sub(r"\[(\w+)\|\w+\]", r"\1", text)
     # Convert [word] simple concept refs → keep the word part
     text = re.sub(r"\[(\w+)\]", r"\1", text)
     # Remove remaining complex [SCOPE.func()] references

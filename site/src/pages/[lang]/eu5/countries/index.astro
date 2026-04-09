@@ -38,7 +38,9 @@ function govName(gov: string | undefined): string {
   return govLoc[gov]?.name ?? govLocEn[gov]?.name ?? gov.replace(/_/g, " ");
 }
 function regionDisplay(region: string): string {
-  return region.replace(/^_/, "").replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  const key = `countries.region.${region}` as any;
+  const val = t(lang, key);
+  return val !== key ? val : region.replace(/^_/, "").replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 // Unique filter values

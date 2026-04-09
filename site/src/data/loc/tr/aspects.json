@@ -1,0 +1,842 @@
+{
+  "prima_scriptura": {
+    "name": "Önce Kutsal Kitap",
+    "desc": "Kitab-ı Mukkades kurtuluşun esas kaynağı olarak görülmelidir. İlahi vahyin yegâne kaynağı olarak kabul edilmemelidir."
+  },
+  "five_doors": {
+    "name": "Beş Kapı",
+    "desc": "Halkımızın bir kısmı evlerin tüm kapıları kapandıktan sonra beş kapının veya beş duyunun açılmasını öngören bir meditasyon tarzı uyguluyor. Bu uygulamanın her yerde kullanılmasını sağlayacağız."
+  },
+  "holy_cooperation": {
+    "name": "Kutsal İş Birliği",
+    "desc": "Üretim odaklı çalışmaları teşvik ve bunlara fiilen iştirak etmeye yönelik bir geçiş yaşanacak. Hristiyanlığın erken dönemindeki iş birliğine dayalı dinî komün modelinden esinlenerek öne sürülen söz konusu etik tarım topluluklarımızda uygulanacak."
+  },
+  "twelve_emissaries": {
+    "name": "On İki Temsilci",
+    "desc": "Bazı komünlerin teşkilatlanma biçiminden ilham alarak halkımız arasından on iki ihtiyar ve kâmil seçecek ve gerçek bir hiyerarşi olmaksızın bir yüksek kurul oluşturacağız."
+  },
+  "arminianism": {
+    "name": "Arminyanizm",
+    "desc": "Arminyanizm, Felemenk Reform teoloğu Jacobus Arminius'un çoğulcu ve hümanist fikirlerini temel alır."
+  },
+  "gomarism": {
+    "name": "Gnomarizm",
+    "desc": "Franciscus Gomarus, Pelagianizmin doktrinlerini öğreten Jacobus Arminius'ın inançlarına karşı çıkar ve üniversite içinde birlikte öğretim verecekleri yeni bir teoloji ekolü oluşturmaya çalışmıştır."
+  },
+  "instituionalized_arminianism": {
+    "name": "Resmîleştirilmiş Arminyanizm",
+    "desc": "Arminyanizm, Felemenk Reform teoloğu Jacobus Arminius'un çoğulcu ve hümanist fikirlerini temel alır. Bu dinî hareket devletimiz dâhilinde resmîleştirildi."
+  },
+  "instituionalized_gomarism": {
+    "name": "Resmîleştirilmiş Gnomarizm",
+    "desc": "Franciscus Gomarus, Pelagianizmin doktrinlerini öğreten Jacobus Arminius'ın inançlarına karşı çıkar ve üniversite içinde birlikte öğretim verecekleri yeni bir teoloji ekolü oluşturmaya çalışmıştır. Bu dinî hareket devletimiz dâhilinde resmîleştirildi."
+  },
+  "consolamentum": {
+    "name": "Teselli",
+    "desc": "Yaşam sürecinde günahlarımıza karşı duyduğumuz pişmanlık Cennet'e arınmış girmek ve Tanrı'ya yakınlaşmak için bir teselli edinme ihtiyacını doğurur. Halkımız Teselli sayesinde ölüm yaklaşırken günahlarından arınır."
+  },
+  "pescatarianism": {
+    "name": "Pesketaryenlik",
+    "desc": "Hayvanlar reenkarnasyon geçirmiş ruhları taşırlar. Bu nedenle onları yiyemeyiz. Kendiliğinden var olan balıklar ise hayvan sayılmazlar. Dolayısıyla yenilebilirler."
+  },
+  "the_perfects": {
+    "name": "Kâmiller",
+    "desc": "Aramızda kendilerini bilhassa Tanrı'ya ve tüm insanların takip etmesi gereken erdemlere adamış kişiler Kâmillerdir. Bu kişiler bağlılıklarının karşılığında Teselli törenine katılır ve Kâmil olurlar. Sıradan halktan farklı olarak Kâmiller yaşamlarında iki defa Teselli törenine katılır; yeni rollerini üstlendiklerinde ve ölmeden önce."
+  },
+  "adoptionism": {
+    "name": "Adoptionizm",
+    "desc": "İnancımız İsa Mesih'in her daim kutsal olmadığını, vaftiz olduktan veya yeniden doğduktan sonra Tanrı'nın Oğlu hâline geldiğini öne sürer."
+  },
+  "adult_baptism": {
+    "name": "Yetişkin Vaftizi",
+    "desc": "Bir yetişkin olarak İsa Mesih'e olan inanç nedeniyle vaftiz olma ve inananlar için yerel bir topluluğa katılma eylemleri kurtarıcı niteliğin ve Kilise üyeliğinin Tanrı'nın lütufları olduğuna inananlar tarafından gerçekleştirilir. Kişinin inancı beyan edilmeli ve bir kimseden başka bir kimseye aktarılmamalıdır."
+  },
+  "aniconism": {
+    "name": "Anikonizm",
+    "desc": "Semboller idolleri veya insanları temsil etmek için oluşturulmuşlardır. Dolayısıyla Tanrımızı tasvir etmek için uygun birer yöntem değillerdir. Diğer Hristiyanlar tarafından kullanılan haç dâhil her türlü sembol kullanımına karşı çıkacağız."
+  },
+  "asceticism": {
+    "name": "Çilecilik",
+    "desc": "Maddi uğraşlar kişiyi ilahi gerçekten uzakta tutar. Ancak kendimizi lüksten uzak sade bir yaşam sürmeye adayarak ruhani aydınlanmaya ulaşabiliriz."
+  },
+  "bread_and_wine": {
+    "name": "Ekmek ve Şarap",
+    "desc": "Komünyon yalnızca ekmek ve şarap içeriyorsa meşrudur. Halk temsilcileri için bile. Rahiplerimiz ayine katılan tüm üyelere her iki komünyonu da sunacaklardır."
+  },
+  "clerical_poverty": {
+    "name": "Yoksul Ruhbanlar",
+    "desc": "Ruhbanlar zenginlik sahibi olmamalı ve maddi mal varlıklarından vaz geçmelidir. İlgilerini dünyevi meselelere değil Tanrı'ya çevirmelidir."
+  },
+  "crown_as_head_of_faith": {
+    "name": "İnanç Lideri Hükümdar",
+    "desc": "Bundan böyle Kilise yozlaşmış harici bir teokrat lidere tabi değil. Artık tüm dinî meseleler yeni İnanç Lideri olarak hizmet edecek hükümdara yönlendirilecek."
+  },
+  "freedom_to_preach": {
+    "name": "Vaaz Özgürlüğü",
+    "desc": "Takipçiler arasında fikir ayrılıkları var ancak yüreklerinde Tanrı'yı barındıran her mezhebe vaaz verme özgürlüğü tanınacak."
+  },
+  "gnosticism": {
+    "name": "Gnostisizm",
+    "desc": "Gnostisizm inancı gnosis yoluyla kişisel kurtuluşa odaklanır. Maddi dünyayı geride bırakacağız ve ruhani sezgiyle üst âleme geri döneceğiz."
+  },
+  "individual_creeds": {
+    "name": "Bireysel İnançlar",
+    "desc": "İnsanlarımızın kendi inançlarını geliştirmesine izin vermek bireysel fikirlerin oluşmasını sağlayacak ve gelişime giden yolda ilerleme katetmemize olanak sağlayacak!"
+  },
+  "monasticism": {
+    "name": "Manastırcılık",
+    "desc": "Hoş yiyecek ve içeceklerin sunduğu haz kişiyi yalnızca kutsal olana hizmetten alıkoyar. Bu cazibelerden kaçınmanın en iyi yolu dünyadan tecrit edilmiş manastırlardır."
+  },
+  "modalism": {
+    "name": "Modalizm",
+    "desc": "Tanrı'nın mutlak bir olduğuna; Baba, Oğul ve Kutsal Ruh üçlü kavramının ise Tanrı'nın tezahür etmeyi seçtiği farklı biçimler olduğuna inanıyoruz."
+  },
+  "organized_through_bishops": {
+    "name": "Piskoposların Atanması",
+    "desc": "Piskoposlar atanmaya devam edecek ancak daha geniş alanların idarecileri olarak Kiliseye hizmet verecekler."
+  },
+  "pacifism": {
+    "name": "Pasifisizm",
+    "desc": "Ne mutlu barışı sağlayanlara! Çünkü onlara Tanrı oğulları denecek."
+  },
+  "parish_registers": {
+    "name": "Pariş Kayıtları",
+    "desc": "Vaftiz, evlilik ve defin bilgileri bundan böyle pariş kayıtlarında tutulacak. Her pariş rahibi söz konusu olayları kaydedeceği bir defter tutacak ve kaydı çift kilitli güvenli bir sandıkta saklayacak."
+  },
+  "participation_women": {
+    "name": "Kadınların Katılımı",
+    "desc": "Kadınlar komünlerimizde erkeklerle eşit bir konuma sahip. Yine de onlara, erkeklerle eşit şekilde davranılması için her yerde geçerli bir kural benimseyeceğiz."
+  },
+  "rejection_of_sacraments": {
+    "name": "Ayinlerin Reddi",
+    "desc": "Doktrinimiz çoğu Hristiyan ayinini genel manada maddi olduğu ve dolayısıyla mühim görmediği için reddeder. Tanrı'ya yakınlaşmak için esas olan ayinlerin ruhani boyutudur."
+  },
+  "sola_fide": {
+    "name": "Sola Fide",
+    "desc": "Hiçbir iyi davranış Tanrı'yı tatmin edemez. Ancak Tanrı'nın Oğlu, İsa Mesih aracılığıyla bahşettiği ilahi lütuf sayesinde bağışlanabiliriz."
+  },
+  "sola_scriptura": {
+    "name": "Sola Scriptura",
+    "desc": "İncil, Tanrı'nın insanoğluna gönderdiği kelimeler Hristiyan doktrini için yegâne yetki merciidir. İncil referans alınarak desteklenemeyen tüm dinî uygulamalar zındıklıktır."
+  },
+  "soli_deo_gloria": {
+    "name": "Soli Deo Gloria",
+    "desc": "İnsani başarılar ancak Tanrı'ya adanarak elde edilebilir."
+  },
+  "translated_bibles": {
+    "name": "İncil Çevirileri",
+    "desc": "İncil'in ülkemiz halkının konuştuğu bir dile çevrilmesi Tanrı'ya giden yolun zihinlere ve yüreklere hitap edecek şekilde açılmasını sağlar."
+  },
+  "usury_allowed": {
+    "name": "Tefecilik İzni",
+    "desc": "Borç verene kazanç sağlayacak faizlerle nakdi kredi sunmak artık günah olarak görülmüyor ve söz konusu uygulamaya izin veriliyor."
+  },
+  "war_sermons": {
+    "name": "Savaş Vaazları",
+    "desc": "Savaş zamanında inancımız halkımızın umududur. Ülkemizin Kilisesi en karanlık günlerde dahi toplumun moralini yüksek tutmak için Kitab-ı Mukaddes'ten parçalarla vaaz verecektir."
+  },
+  "worship_nyambe_god": {
+    "name": "Koruyucu Tanrımız Nyambe",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Nyambe hamimiz ve koruyucumuzdur."
+  },
+  "worship_nhialic_god": {
+    "name": "Koruyucu Tanrımız Nhialic",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Nhialic hamimiz ve koruyucumuzdur."
+  },
+  "worship_du_chie_god": {
+    "name": "Koruyucu Tanrımız Du Chie",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Du Chie hamimiz ve koruyucumuzdur."
+  },
+  "worship_ayum_god": {
+    "name": "Koruyucu Tanrımız Ayum",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ayum hamimiz ve koruyucumuzdur."
+  },
+  "worship_alwet_god": {
+    "name": "Koruyucu Tanrımız Alwet",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Alwet hamimiz ve koruyucumuzdur."
+  },
+  "worship_zanahary_god": {
+    "name": "Koruyucu Tanrımız Zanahary",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Zanahary hamimiz ve koruyucumuzdur."
+  },
+  "worship_ratovantany_god": {
+    "name": "Koruyucu Tanrımız Ratovantany",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ratovantany hamimiz ve koruyucumuzdur."
+  },
+  "worship_andrianerinerina_god": {
+    "name": "Koruyucu Tanrımız Andrianerinerina",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Andrianerinerina hamimiz ve koruyucumuzdur."
+  },
+  "worship_andriambahomanana_god": {
+    "name": "Koruyucu Tanrımız Andriambahomanana",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Andriambahomanana hamimiz ve koruyucumuzdur."
+  },
+  "worship_andriamahilala_god": {
+    "name": "Koruyucu Tanrımız Andriamahilala",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Andriamahilala hamimiz ve koruyucumuzdur."
+  },
+  "worship_ngai_god": {
+    "name": "Koruyucu Tanrımız Ngai",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ngai hamimiz ve koruyucumuzdur."
+  },
+  "worship_asis_god": {
+    "name": "Koruyucu Tanrımız Asis",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Asis hamimiz ve koruyucumuzdur."
+  },
+  "worship_ilat_god": {
+    "name": "Koruyucu Tanrımız Ilat",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ilat hamimiz ve koruyucumuzdur."
+  },
+  "worship_waaq_god": {
+    "name": "Koruyucu Tanrımız Waaq",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Waaq hamimiz ve koruyucumuzdur."
+  },
+  "worship_kaggen_god": {
+    "name": "Koruyucu Tanrımız Kaggen",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Kaggen hamimiz ve koruyucumuzdur."
+  },
+  "worship_hunntuattatteen_god": {
+    "name": "Koruyucu Tanrımız Hunntuattatteen",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Hunntuattatteen hamimiz ve koruyucumuzdur."
+  },
+  "worship_kagara_god": {
+    "name": "Koruyucu Tanrımız Kagara",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Kagara hamimiz ve koruyucumuzdur."
+  },
+  "worship_haunu_god": {
+    "name": "Koruyucu Tanrımız Haunu",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Haunu hamimiz ve koruyucumuzdur."
+  },
+  "worship_akuj_god": {
+    "name": "Koruyucu Tanrımız Akuj",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Akuj hamimiz ve koruyucumuzdur."
+  },
+  "worship_anyame_god": {
+    "name": "Koruyucu Tanrımız Anyame",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Anyame hamimiz ve koruyucumuzdur."
+  },
+  "worship_asase_ya_god": {
+    "name": "Koruyucu Tanrımız Asase Ya",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Asase Ya hamimiz ve koruyucumuzdur."
+  },
+  "worship_anansi_god": {
+    "name": "Koruyucu Tanrımız Anansi",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Anansi hamimiz ve koruyucumuzdur."
+  },
+  "worship_tano_god": {
+    "name": "Koruyucu Tanrımız Tano",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Tano hamimiz ve koruyucumuzdur."
+  },
+  "worship_legba_god": {
+    "name": "Koruyucu Tanrımız Legba",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Legba hamimiz ve koruyucumuzdur."
+  },
+  "worship_mawu_god": {
+    "name": "Koruyucu Tanrımız Mawu",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Mawu hamimiz ve koruyucumuzdur."
+  },
+  "worship_lisa_god": {
+    "name": "Koruyucu Tanrımız Lisa",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Lisa hamimiz ve koruyucumuzdur."
+  },
+  "worship_sakpata_god": {
+    "name": "Koruyucu Tanrımız Sakpata",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Sakpata hamimiz ve koruyucumuzdur."
+  },
+  "worship_olorun_god": {
+    "name": "Koruyucu Tanrımız Olorun",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Olorun hamimiz ve koruyucumuzdur."
+  },
+  "worship_olokun_isese_god": {
+    "name": "Koruyucu Tanrımız Olokun",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Olokun hamimiz ve koruyucumuzdur."
+  },
+  "worship_obatala_god": {
+    "name": "Koruyucu Tanrımız Obatala",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Obatala hamimiz ve koruyucumuzdur."
+  },
+  "worship_ori_god": {
+    "name": "Koruyucu Tanrımız Ori",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ori hamimiz ve koruyucumuzdur."
+  },
+  "worship_egbesu_god": {
+    "name": "Koruyucu Tanrımız Egbesu",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Egbesu hamimiz ve koruyucumuzdur."
+  },
+  "worship_amadioha_god": {
+    "name": "Koruyucu Tanrımız Amadioha",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Amadioha hamimiz ve koruyucumuzdur."
+  },
+  "worship_ikenga_god": {
+    "name": "Koruyucu Tanrımız Ikenga",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ikenga hamimiz ve koruyucumuzdur."
+  },
+  "worship_agwu_nsi_god": {
+    "name": "Koruyucu Tanrımız Agwu Nsi",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Agwu Nsi hamimiz ve koruyucumuzdur."
+  },
+  "worship_ogbunabali_god": {
+    "name": "Koruyucu Tanrımız Ogbunabali",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ogbunabali hamimiz ve koruyucumuzdur."
+  },
+  "worship_takhar_god": {
+    "name": "Koruyucu Tanrımız Takhar",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Takhar hamimiz ve koruyucumuzdur."
+  },
+  "worship_mindiss_god": {
+    "name": "Koruyucu Tanrımız Mindiss",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Mindiss hamimiz ve koruyucumuzdur."
+  },
+  "worship_niparaya_god": {
+    "name": "Koruyucu Tanrımız Niparaya",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Niparaya hamimiz ve koruyucumuzdur."
+  },
+  "worship_u_blei_nong_thaw_god": {
+    "name": "Koruyucu Tanrımız U Blei Nong-thaw",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz U Blei Nong-thaw hamimiz ve koruyucumuzdur."
+  },
+  "worship_ulei_muluk_god": {
+    "name": "Koruyucu Tanrımız Ulei Muluk",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ulei Muluk hamimiz ve koruyucumuzdur."
+  },
+  "worship_ulei_umtang_god": {
+    "name": "Koruyucu Tanrımız Ulei Umtang",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ulei Umtang hamimiz ve koruyucumuzdur."
+  },
+  "worship_ulei_longspah_god": {
+    "name": "Koruyucu Tanrımız Ulei Longspah",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ulei Longspah hamimiz ve koruyucumuzdur."
+  },
+  "worship_marang_buru_god": {
+    "name": "Koruyucu Tanrımız Marang Buru",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Marang Buru hamimiz ve koruyucumuzdur."
+  },
+  "worship_dharti_ayo_god": {
+    "name": "Koruyucu Tanrımız Dharti ayo",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Dharti ayo hamimiz ve koruyucumuzdur."
+  },
+  "worship_kotan_kar_kamuy_god": {
+    "name": "Koruyucu Tanrımız Kotan-kar-kamuy",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Kotan-kar-kamuy hamimiz ve koruyucumuzdur."
+  },
+  "worship_kamuy_huci_god": {
+    "name": "Koruyucu Tanrımız Kamuy-huci",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Kamuy-huci hamimiz ve koruyucumuzdur."
+  },
+  "worship_kim_un_kamuy_god": {
+    "name": "Koruyucu Tanrımız Kim-un-kamuy",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Kim-un-kamuy hamimiz ve koruyucumuzdur."
+  },
+  "worship_rep_un_kamuy_god": {
+    "name": "Koruyucu Tanrımız Rep-un-kamuy",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Rep-un-kamuy hamimiz ve koruyucumuzdur."
+  },
+  "worship_baradeo_god": {
+    "name": "Koruyucu Tanrımız Baradeo",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Baradeo hamimiz ve koruyucumuzdur."
+  },
+  "worship_nat_awal_god": {
+    "name": "Koruyucu Tanrımız Nat Awal",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Nat Awal hamimiz ve koruyucumuzdur."
+  },
+  "worship_aki_pen_god": {
+    "name": "Koruyucu Tanrımız Aki Pen",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Aki Pen hamimiz ve koruyucumuzdur."
+  },
+  "worship_nat_awual_god": {
+    "name": "Koruyucu Tanrımız Nat Awual",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Nat Awual hamimiz ve koruyucumuzdur."
+  },
+  "worship_phi_heaven_god": {
+    "name": "Koruyucu Tanrımız Gök Phi",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Gök Phi hamimiz ve koruyucumuzdur."
+  },
+  "worship_phi_water_god": {
+    "name": "Koruyucu Tanrımız Su Phi",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Su Phi hamimiz ve koruyucumuzdur."
+  },
+  "worship_phi_earth_god": {
+    "name": "Koruyucu Tanrımız Toprak Phi",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Toprak Phi hamimiz ve koruyucumuzdur."
+  },
+  "worship_phi_fire_god": {
+    "name": "Koruyucu Tanrımız Ateş Phi",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ateş Phi hamimiz ve koruyucumuzdur."
+  },
+  "worship_bathoubwrai_god": {
+    "name": "Koruyucu Tanrımız Bathoubwrai",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Bathoubwrai hamimiz ve koruyucumuzdur."
+  },
+  "worship_mainao_god": {
+    "name": "Koruyucu Tanrımız Mainao",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Mainao hamimiz ve koruyucumuzdur."
+  },
+  "worship_song_bwrai_god": {
+    "name": "Koruyucu Tanrımız Song Bwrai",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Song Bwrai hamimiz ve koruyucumuzdur."
+  },
+  "worship_bura_bagh_raja_god": {
+    "name": "Koruyucu Tanrımız Bura Bagh Raja",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Bura Bagh Raja hamimiz ve koruyucumuzdur."
+  },
+  "worship_donyi_god": {
+    "name": "Koruyucu Tanrımız Donyi",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Donyi hamimiz ve koruyucumuzdur."
+  },
+  "worship_polo_god": {
+    "name": "Koruyucu Tanrımız Polo",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Polo hamimiz ve koruyucumuzdur."
+  },
+  "worship_kine_nane_god": {
+    "name": "Koruyucu Tanrımız Kine Nane",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Kine Nane hamimiz ve koruyucumuzdur."
+  },
+  "worship_doying_bote_god": {
+    "name": "Koruyucu Tanrımız Doying Bote",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Doying Bote hamimiz ve koruyucumuzdur."
+  },
+  "worship_sumnima_god": {
+    "name": "Koruyucu Tanrımız Sumnima",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Sumnima hamimiz ve koruyucumuzdur."
+  },
+  "worship_paruhang_god": {
+    "name": "Koruyucu Tanrımız Paruhang",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Paruhang hamimiz ve koruyucumuzdur."
+  },
+  "worship_yuma_sammang_god": {
+    "name": "Koruyucu Tanrımız Yuma Sammang",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Yuma Sammang hamimiz ve koruyucumuzdur."
+  },
+  "worship_pathian_god": {
+    "name": "Koruyucu Tanrımız Pathian",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Pathian hamimiz ve koruyucumuzdur."
+  },
+  "worship_khuanu_god": {
+    "name": "Koruyucu Tanrımız Khuanu",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Khuanu hamimiz ve koruyucumuzdur."
+  },
+  "worship_pu_vana_god": {
+    "name": "Koruyucu Tanrımız Pu Vana",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Pu Vana hamimiz ve koruyucumuzdur."
+  },
+  "worship_sakhua_god": {
+    "name": "Koruyucu Tanrımız Sakhua",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Sakhua hamimiz ve koruyucumuzdur."
+  },
+  "worship_sky_god": {
+    "name": "Koruyucu Tanrımız Gök Tanrı",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Gök Tanrı hamimiz ve koruyucumuzdur."
+  },
+  "worship_death_god": {
+    "name": "Koruyucu Tanrımız Ölüm Tanrısı",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ölüm Tanrısı hamimiz ve koruyucumuzdur."
+  },
+  "worship_earth_god": {
+    "name": "Koruyucu Tanrımız Toprak Tanrisi",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Toprak Tanrisi hamimiz ve koruyucumuzdur."
+  },
+  "worship_water_god": {
+    "name": "Koruyucu Tanrımız Su Tanrısı",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Su Tanrısı hamimiz ve koruyucumuzdur."
+  },
+  "worship_creator_god": {
+    "name": "Koruyucu Tanrımız Yaratıcı Tanrı",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Yaratıcı Tanrı hamimiz ve koruyucumuzdur."
+  },
+  "worship_fire_god": {
+    "name": "Koruyucu Tanrımız Ateş Tanrısı",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ateş Tanrısı hamimiz ve koruyucumuzdur."
+  },
+  "worship_fertility_god": {
+    "name": "Koruyucu Tanrımız Bereket Tanrısı",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Bereket Tanrısı hamimiz ve koruyucumuzdur."
+  },
+  "worship_war_god": {
+    "name": "Koruyucu Tanrımız Savaş Tanrısı",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Savaş Tanrısı hamimiz ve koruyucumuzdur."
+  },
+  "worship_wind_god": {
+    "name": "Koruyucu Tanrımız Rüzgâr Tanrısı",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Rüzgâr Tanrısı hamimiz ve koruyucumuzdur."
+  },
+  "worship_thunder_god": {
+    "name": "Koruyucu Tanrımız Gök Gürültüsü Tanrısı",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Gök Gürültüsü Tanrısı hamimiz ve koruyucumuzdur."
+  },
+  "adamite_services": {
+    "name": "Ademi Hizmetler",
+    "desc": "Ademi mezhebi kilise ayinleri sırasında çıplak kalmayı savunur. Statü veya kültür sembolleri olmaksızın Tanrı'nın gözünde eşit görünürüz. Bu da birer insan olarak ortak paydada buluştuğumuzu ve yitirdiğimiz masumiyeti bize hatırlatır."
+  },
+  "punishment_of_sin": {
+    "name": "Günahların Cezalandırılması",
+    "desc": "Günah işleyenler zenginlik ve statüden bağımsız olarak eşit şekilde cezalandırılmalıdır. Soylular dahi Tanrı'nın yasalarının üzerinde değildir."
+  },
+  "worship_viracocha": {
+    "name": "Koruyucu Tanrımız Viracocha",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Viracocha hamimiz ve koruyucumuzdur."
+  },
+  "worship_inti_god": {
+    "name": "Koruyucu Tanrımız İnti",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz İnti hamimiz ve koruyucumuzdur."
+  },
+  "worship_illapa_god": {
+    "name": "Koruyucu Tanrımız İllapa",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz İllapa hamimiz ve koruyucumuzdur."
+  },
+  "worship_supay_god": {
+    "name": "Koruyucu Tanrımız Supay",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Supay hamimiz ve koruyucumuzdur."
+  },
+  "worship_mamaquilla": {
+    "name": "Koruyucu Tanrımız Mama Quilla",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Mama Quilla hamimiz ve koruyucumuzdur."
+  },
+  "worship_pachamama": {
+    "name": "Koruyucu Tanrımız Mama Pacha",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Mama Pacha hamimiz ve koruyucumuzdur."
+  },
+  "worship_mama_cocha": {
+    "name": "Koruyucu Tanrımız Mama Qucha",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Mama Qucha hamimiz ve koruyucumuzdur."
+  },
+  "worship_urpihuachac": {
+    "name": "Koruyucu Tanrımız Urpihuachac",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Urpihuachac hamimiz ve koruyucumuzdur."
+  },
+  "worship_chinchaycamac": {
+    "name": "Koruyucu Tanrımız Uscovilca",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Uscovilca hamimiz ve koruyucumuzdur."
+  },
+  "worship_odin_god": {
+    "name": "Koruyucu Tanrımız Odin",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Odin hamimiz ve koruyucumuzdur."
+  },
+  "worship_tor_god": {
+    "name": "Koruyucu Tanrımız Thor",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Thor hamimiz ve koruyucumuzdur."
+  },
+  "worship_tyr_god": {
+    "name": "Koruyucu Tanrımız Týr",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Týr hamimiz ve koruyucumuzdur."
+  },
+  "worship_njord_god": {
+    "name": "Koruyucu Tanrımız Njord",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Njord hamimiz ve koruyucumuzdur."
+  },
+  "worship_freyr_god": {
+    "name": "Koruyucu Tanrımız Freyr",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Freyr hamimiz ve koruyucumuzdur."
+  },
+  "worship_freya_god": {
+    "name": "Koruyucu Tanrımız Freyja",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Freyja hamimiz ve koruyucumuzdur."
+  },
+  "baptism_by_fire": {
+    "name": "Ateşle Vaftiz",
+    "desc": "İnancımız, Vaftizci Aziz Yahya'nın da kabul ettiği üzere suyla vaftizin kalıcı olmadığını öngörür. Kalıcı vaftiz ancak yanan bir mumu kişinin başına dört taraftan dokundurarak gerçekleştirilebilir."
+  },
+  "name_change": {
+    "name": "İsim Değişikliği",
+    "desc": "Komünlerimiz isimlerin gücü olduğunu iyi bilir. Tıpkı sıradan halkımız yerleşim yerlerinin adını koruyucu Azizimizin ikamet ettiği yerlerin adına değiştirdiği gibi, inanç liderlerimiz de isimleri sık sık Aziz Pavlus'un takipçilerinin isimlerine değiştirir."
+  },
+  "paulician_canon": {
+    "name": "Pavlusçu Kanon",
+    "desc": "Halkımız, Aziz Petrus'un risalelerini içermeyen Eski Ahit'i ve Peygamberlerini inkâr ediyor. Yalnızca Aziz Petrus'un sözleri gerçektir."
+  },
+  "punishment_by_stoning": {
+    "name": "Taşlama Cezası",
+    "desc": "Taşlama, toplum içinde komşularından farklı olmasıyla göze batan dinî muhalifleri cezalandırmak için sıklıkla kullanılan bir yöntem. Muhtemelen Anadolu'ya uzanan köklerimizden bize kalan bir miras."
+  },
+  "justified_conflicts": {
+    "name": "Geçerli Anlaşmazlıklar",
+    "desc": "Ülkenin yeni Kilisesi kâfirlik ve zındıklıkla mücadele ediyor. Kilise bu hayatta kalma savaşı sırasında meydana gelen ihtilafları İncil aracılığıyla çözüme ulaştıracaktır."
+  },
+  "pietism": {
+    "name": "Pietizm",
+    "desc": "Pietizm her inananın bireysel dindarlığına odaklanır ve Hristiyanlık dinine bağlı bir yaşam sürmek için iç dönüşümün gerekliliğini vurgular."
+  },
+  "worship_tengri_god": {
+    "name": "Koruyucu Tanrımız Kök Tengri",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Kök Tengri hamimiz ve koruyucumuzdur."
+  },
+  "worship_umay_god": {
+    "name": "Koruyucu Tanrımız Umay",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Umay hamimiz ve koruyucumuzdur."
+  },
+  "worship_ulgen_god": {
+    "name": "Koruyucu Tanrımız Ülgen",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ülgen hamimiz ve koruyucumuzdur."
+  },
+  "worship_erlik_god": {
+    "name": "Koruyucu Tanrımız Erlik",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Erlik hamimiz ve koruyucumuzdur."
+  },
+  "worship_kayra_god": {
+    "name": "Koruyucu Tanrımız Kayra",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Kayra hamimiz ve koruyucumuzdur."
+  },
+  "worship_bai_baianai_god": {
+    "name": "Koruyucu Tanrımız Bayanay",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Bayanay hamimiz ve koruyucumuzdur."
+  },
+  "worship_ak_ana_god": {
+    "name": "Koruyucu Tanrımız Ak Ana",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ak Ana hamimiz ve koruyucumuzdur."
+  },
+  "worship_mergen_god": {
+    "name": "Koruyucu Tanrımız Mergen",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Mergen hamimiz ve koruyucumuzdur."
+  },
+  "worship_tlaloc_god": {
+    "name": "Koruyucu Tanrımız Tláloc",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Tláloc hamimiz ve koruyucumuzdur."
+  },
+  "worship_huitzilopochtli_god": {
+    "name": "Koruyucu Tanrımız Huītzilōpōchtli",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Huītzilōpōchtli hamimiz ve koruyucumuzdur."
+  },
+  "worship_quetzalcoatl_god": {
+    "name": "Koruyucu Tanrımız Quetzalcōātl",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Quetzalcōātl hamimiz ve koruyucumuzdur."
+  },
+  "worship_tezcatlipoca_god": {
+    "name": "Koruyucu Tanrımız Tēzcatlīpohca",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Tēzcatlīpohca hamimiz ve koruyucumuzdur."
+  },
+  "worship_xiuhtecuhtli_god": {
+    "name": "Koruyucu Tanrımız Xiuhtēcuhtli",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Xiuhtēcuhtli hamimiz ve koruyucumuzdur."
+  },
+  "worship_coatlicue_god": {
+    "name": "Koruyucu Tanrımız Cōātlīcue",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Cōātlīcue hamimiz ve koruyucumuzdur."
+  },
+  "worship_huehueteotl_god": {
+    "name": "Koruyucu Tanrımız Huehuetéotl",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Xiuhtēcuhtli hamimiz ve koruyucumuzdur."
+  },
+  "worship_mesoamerican_quetzalcoatl_god": {
+    "name": "Koruyucu Tanrımız Quetzalcōātl",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Quetzalcōātl hamimiz ve koruyucumuzdur."
+  },
+  "worship_dzahui_god": {
+    "name": "Koruyucu Tanrımız Dzahui",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Tláloc hamimiz ve koruyucumuzdur."
+  },
+  "worship_chaac_god": {
+    "name": "Koruyucu Tanrımız Chaac",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Tláloc hamimiz ve koruyucumuzdur."
+  },
+  "worship_kukulkan_god": {
+    "name": "Koruyucu Tanrımız K'uk'ulkan",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Quetzalcōātl hamimiz ve koruyucumuzdur."
+  },
+  "worship_kawiil_god": {
+    "name": "Koruyucu Tanrımız K'awiil",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Xiuhtēcuhtli hamimiz ve koruyucumuzdur."
+  },
+  "worship_tepeu_god": {
+    "name": "Koruyucu Tanrımız Tepeu",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Tepeu hamimiz ve koruyucumuzdur."
+  },
+  "worship_huracan_god": {
+    "name": "Koruyucu Tanrımız Huracán",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Huracán hamimiz ve koruyucumuzdur."
+  },
+  "worship_hunhunahpu_god": {
+    "name": "Koruyucu Tanrımız Hun-Hunahpú",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Hun-Hunahpú hamimiz ve koruyucumuzdur."
+  },
+  "worship_ixchel_god": {
+    "name": "Koruyucu Tanrımız Ixchel",
+    "desc": "İbadet ve tapınmaya öncelik verdiğimiz Ixchel hamimiz ve koruyucumuzdur."
+  },
+  "_modifier_names": {
+    "add_religious_aspect_christian_cost_modifier": "Dinî Görüş Ekleme Maliyeti",
+    "antagonism_received_modifier": "Yaşanan Uzlaşmazlık",
+    "army_initiative": "Ordu Önceliği",
+    "army_maintenance_cost": "Ordu Bakımı",
+    "army_movement_speed": "Ordu Hareket Hızı",
+    "ban_imports_of_livestock": "İthalatını Yasaklama",
+    "bank_interest": "Banka Faizi",
+    "can_have_monasteries": "Manastırlara İzin Verilir",
+    "clergy_estate_max_tax": "Ruhban Zümresi İçin Maksimum Vergi",
+    "clergy_estate_satisfaction_recovery": "Ruhban Zümresi Memnuniyet Yenilenmesi",
+    "clergy_estate_target_satisfaction": "Ruhban Zümresi Memnuniyet Dengesi",
+    "colonial_maintenance_cost": "Koloni Bakımı",
+    "country_cabinet_efficiency": "Kabinemizin Verimliliği",
+    "court_spending_cost": "Beklenen Saray Maliyeti",
+    "cultural_tradition_modifier": "Kültürel Gelenek Yüzdesi",
+    "declaring_war_cost_modifier": "Savaş İlanı Maliyeti",
+    "diplomatic_capacity_modifier": "Diplomatik Kapasite",
+    "discipline": "Disiplin",
+    "expand_rgo_farming_cost_modifier": "Çiftçiliği Genişletme Maliyeti",
+    "expand_rgo_mining_cost_modifier": "Madenciliği Genişletme Maliyeti",
+    "gender_equality": "Cinsiyet Eşitliği",
+    "global_clergy_desired_pop": "Olası",
+    "global_clergy_estate_power": "Ruhban Gücü",
+    "global_clergy_max_literacy": "Ruhbanın Maksimum Okuryazarlığı",
+    "global_crown_estate_power": "Yönetimin Gücü",
+    "global_defensive": "Tahkimat Savunması",
+    "global_devastation_recovery": "Refah Düzelmesi",
+    "global_disease_resistance": "Hastalık Bağışıklığı",
+    "global_distance_from_capital_speed_propagation": "Yakınlık Hızı",
+    "global_estate_target_satisfaction": "Zümre Memnuniyeti Dengesi",
+    "global_fish_output_modifier": "Hasılatı",
+    "global_garrison_size_modifier": "Garnizon Boyutu",
+    "global_hostile_attrition": "Düşman Yıpranması",
+    "global_life_expectancy": "Ortalama Karakter Ömrü",
+    "global_lumber_output_modifier": "Hasılatı",
+    "global_maritime_presence_modifier": "Denizlerdeki Varlık Yüzdesi",
+    "global_max_literacy": "Maksimum Okuryazarlık",
+    "global_max_rgo_size_modifier": "Maksimum KTO Boyutu",
+    "global_monthly_art_start_chance": "Sanatçının Aylık Üretime Başlama İhtimali",
+    "global_monthly_control": "Aylık Kontrol",
+    "global_monthly_food_modifier": "Yiyecek Üretimi Yüzdesi",
+    "global_monthly_prosperity": "Aylık Refah",
+    "global_pop_assimilation_speed_modifier": "Toplum Asimilasyon Hızı",
+    "global_pop_conversion_speed_modifier": "Toplum Din Değişimi Hızı Yüzdesi",
+    "global_pop_promotion_speed_modifier": "Toplum Sınıf Atlama Hızı Yüzdesi",
+    "global_population_growth": "Nüfus Artışı",
+    "global_production_efficiency": "Üretim Verimliliği",
+    "global_raw_material_output": "Ham Madde Hasılatı",
+    "global_separatism": "Ayrılıkçılık",
+    "global_war_score_cost": "Savaş Skoru Maliyeti",
+    "global_weaponry_output_modifier": "Hasılatı",
+    "global_wild_game_output_modifier": "Hasılatı",
+    "global_wine_output_modifier": "Hasılatı",
+    "improve_relation_impact": "İlişkileri İyileştir",
+    "land_morale_modifier": "Ordu Morali",
+    "land_morale_recovery": "Ordu Morali Düzelme Hızı",
+    "minting_income_factor": "Para Basımından Gelen Gelir",
+    "monthly_diplomats": "Aylık Diplomat",
+    "monthly_legitimacy": "Aylık Meşruiyet",
+    "monthly_rebel_growth": "Aylık Asi Artışı",
+    "monthly_religious_influence": "Aylık Dinî Nüfuz",
+    "monthly_towards_absolutism": "Mutlakiyetçilik Yönünde Aylık İlerleme",
+    "monthly_towards_belligerent": "Kavgacılık Yönünde Aylık İlerleme",
+    "monthly_towards_capital_economy": "Sermaye Ekonomisi Yönünde Aylık İlerleme",
+    "monthly_towards_centralization": "Merkeziyetçilik Yönünde Aylık İlerleme",
+    "monthly_towards_communalism": "Toplumculuk Yönünde Aylık İlerleme",
+    "monthly_towards_conciliatory": "Uzlaşmacılık Yönünde Aylık İlerleme",
+    "monthly_towards_decentralization": "Ademimerkeziyetçilik Yönünde Aylık İlerleme",
+    "monthly_towards_free_subjects": "Özgür Tebaa Yönünde Aylık İlerleme",
+    "monthly_towards_individualism": "Bireyselcilik Yönünde Aylık İlerleme",
+    "monthly_towards_innovative": "Yenilikçilik Yönünde Aylık İlerleme",
+    "monthly_towards_plutocracy": "Plütokrasi Yönünde Aylık İlerleme",
+    "monthly_towards_spiritualist": "Maneviyatçılık Yönünde Aylık İlerleme",
+    "monthly_towards_traditionalist": "Gelenekçilik Yönünde Aylık İlerleme",
+    "monthly_war_exhaustion": "Aylık Savaş Yorgunluğu",
+    "monthly_yanantin": "Aylık Yanantin",
+    "naval_morale_modifier": "Donanma Morali",
+    "navy_initiative": "Donanma Önceliği",
+    "peasants_estate_target_satisfaction": "Köylü Zümresi Memnuniyet Dengesi",
+    "pop_join_rebel_threshold": "Toplumun Asilere Katılma Eşiği",
+    "pop_leave_rebels_threshold": "Toplumun Asilerden Ayrılma Eşiği",
+    "recruit_explorer_cost_modifier": "Kâşif Görevlendirme Maliyeti",
+    "regiment_reinforcement_speed": "Takviye Hızı",
+    "remove_religious_aspect_christian_cost_modifier": "Dinî Görüş Çıkarma Maliyeti",
+    "research_speed_modifier": "Aylık Araştırma İlerlemesi Yüzdesi",
+    "skill_of_new_artists": "Yeni Sanatçıların Becerisi",
+    "stability_cost": "İstikrar Yatırımı Maliyeti",
+    "tax_income_efficiency": "Vergi Verimliliği",
+    "tolerance_heathen": "Zındık İnançlara Hoşgörü",
+    "tolerance_heretic": "Kâfir İnançlara Hoşgörü",
+    "tolerance_own": "Gerçek İnanca Hoşgörü",
+    "war_on_different_religion_cost_modifier": "Farklı Dinle Savaş Maliyeti"
+  },
+  "_modifier_descs": {
+    "add_religious_aspect_christian_cost_modifier": "Dinî Görüş ekleme Maliyetini düzenler.",
+    "antagonism_received_modifier": "Bir Ülkenin eylemleriyle ne kadar Uzlaşmazlık yarattığını düzenler.",
+    "army_initiative": "Muharebe esnasında bir Alayın Önceliğini düzenler.",
+    "army_maintenance_cost": "Bu, bir Alayın bakımını yapmak için gereken Düka ve İnsan Gücü miktarını değiştirir.",
+    "army_movement_speed": "Ordunun, İller arasında ne kadar hızlı hareket edeceğini düzenler.",
+    "ban_imports_of_livestock": "Bir Ülkenin sahip olduğu tüm Pazarlara livestock İthal Edilmesini yasaklar.",
+    "bank_interest": "Millî bankadan alınan Borçlar için Faiz oranını düzenler.",
+    "can_have_monasteries": "Bir ülkede monastery olup olamayacağını düzenler.",
+    "clergy_estate_max_tax": "Ruhban zümresinden toplanabilecek Maksimum Vergi miktarını düzenler.",
+    "clergy_estate_satisfaction_recovery": "Ülkedeki Ruhban için Zümre Memnuniyetinin Memnuniyet Dengesi değerine yenilenerek ne kadar hızlı ulaşacağını etkiler.",
+    "clergy_estate_target_satisfaction": "Bu Ülkedeki Ruhban zümresinin Memnuniyet Dengesi değerini düzenler.",
+    "colonial_maintenance_cost": "Koloni Bölgelerinin aylık maliyetini düzenler.",
+    "country_cabinet_efficiency": "Bir Ülke Kabinesindeki tüm Karakterlerin Kabine Verimliliğini düzenler.",
+    "court_spending_cost": "Vergi Tabanının ne kadarının Saray Maliyeti olmasının beklendiğini düzenler.",
+    "cultural_tradition_modifier": "Ana Kültürümüzün Kültürel Geleneğini düzenler.",
+    "declaring_war_cost_modifier": "Savaş ilan etme Maliyetini düzenler.",
+    "diplomatic_capacity_modifier": "Bir Ülkenin Kullanılmış Diplomatik Kapasite sayısını düzenler.",
+    "discipline": "Bir Alayın Disiplinini düzenler.",
+    "expand_rgo_farming_cost_modifier": "Çiftçilik gerektiren Ham Maddeler ile çalışan Toplum sayısını artırmanın Maliyetini düzenler. Çiftçilik gerektiren Ham Maddeler 。",
+    "expand_rgo_mining_cost_modifier": "Madencilik gerektiren Ham Maddeler ile çalışan Toplum sayısını artırmanın Maliyetini düzenler. Madencilik gerektiren Ham Maddeler 。",
+    "gender_equality": "Kadınların, erkeklerle aynı Rollere atanıp atanamayacağını düzenler.",
+    "global_clergy_desired_pop": "Bu Ülkedeki tüm İllerde yaşayabilecek clergy nüfusunu belirler.",
+    "global_clergy_estate_power": "Ülkedeki tüm Ruhban zümrelerinin Zümre Gücü değerini düzenler.",
+    "global_clergy_max_literacy": "Bu Ülkedeki tüm clergy için Okuryazarlık değerini düzenler.",
+    "global_crown_estate_power": "Yönetim zümresinin Zümre Gücü değerini, yani tüm Ülkenin Yönetimin Gücü değerini düzenler.",
+    "global_defensive": "Bir Ülke karşısında Kuşatma hızını düzenler.",
+    "global_devastation_recovery": "Bir Ülkedeki tüm İllerde Refah düzelme hızını düzenler.",
+    "global_disease_resistance": "Bir Ülkedeki tüm İllerin Hastalık Bağışıklığı değerini düzenler.",
+    "global_distance_from_capital_speed_propagation": "Bir Ülkenin tüm İllerinde Yakınlığın hızını düzenler.",
+    "global_estate_target_satisfaction": "Ülkedeki tüm Zümrelerin Memnuniyet Dengesi değerini düzenler.",
+    "global_fish_output_modifier": "Tüm Ülkedeki fish Hasılatını belirler.",
+    "global_garrison_size_modifier": "Bir Ülkenin tüm Garnizonlarının boyutunu düzenler.",
+    "global_hostile_attrition": "Sahip Olduğumuz ve Kontrol Ettiğimiz tüm İllerdeki Hasım Ordularının Yıpranmasını düzenler.",
+    "global_life_expectancy": "Bu Ülkedeki Karakterlerin kaç yaşından itibaren yaşlılıktan ölebileceğini belirler.",
+    "global_lumber_output_modifier": "Tüm Ülkedeki lumber Hasılatını belirler.",
+    "global_maritime_presence_modifier": "Bir Ülkenin sahip olduğu tüm İller için bitişikteki Deniz Bölgelerindeki Deniz Varlığını düzenler.",
+    "global_max_literacy": "Bir Ülkedeki tüm Toplumların maksimum Okuryazarlık değerini düzenler.",
+    "global_max_rgo_size_modifier": "Bir Ülkedeki tüm KTO'lar için maksimum boyutu düzenler.",
+    "global_monthly_art_start_chance": "Bir Ülkedeki Sanatçıların, yeni Sanat Eserlerine başlama ihtimalini düzenler.",
+    "global_monthly_control": "Bir Ülkedeki tüm İllerde Kontrolün ne kadar değişeceğini belirtir.",
+    "global_monthly_food_modifier": "Bir Ülkedeki tüm İllerde ne kadar Yiyecek üretildiğini düzenler.",
+    "global_monthly_prosperity": "Bir Ülkedeki tüm İllerde aylık Refah değişimini düzenler.",
+    "global_pop_assimilation_speed_modifier": "Bu ülkedeki tüm İllerde Toplumların Asimilasyon hızını düzenler.",
+    "global_pop_conversion_speed_modifier": "Bu ülkedeki tüm İllerde Toplumların Din Değiştirme hızını düzenler.",
+    "global_pop_promotion_speed_modifier": "Bu ülkedeki tüm İllerde Toplumların Sınıf Atlat hızını düzenler.",
+    "global_population_growth": "Bir Ülkenin tüm İllerindeki Nüfus Artışını düzenler.",
+    "global_production_efficiency": "Bütün Ülkedeki Üretim Verimliliğini düzenler.",
+    "global_raw_material_output": "Bir ülkedeki tüm İllerin Ham Madde Hasılatını düzenler.",
+    "global_separatism": "Bir Ülkenin tüm İllerindeki Ayrılıkçılık miktarını düzenler.",
+    "global_war_score_cost": "Bu Ülkenin bölge alması için gerekecek Savaş Skorunu düzenler.",
+    "global_weaponry_output_modifier": "Tüm Ülkedeki weaponry Hasılatını belirler.",
+    "global_wild_game_output_modifier": "Tüm Ülkedeki wild game Hasılatını belirler.",
+    "global_wine_output_modifier": "Tüm Ülkedeki wine Hasılatını belirler.",
+    "improve_relation_impact": "Bir Ülkenin İlişkileri İyileştirme başarısını düzenler.",
+    "land_morale_modifier": "Bu, bir Alayın sahip olabileceği en yüksek Moral değerini belirli bir yüzde oranında düzenler.",
+    "land_morale_recovery": "Bir Alayın Moralinin, maksimumun altındayken ne kadar çabuk düzeldiğini düzenler.",
+    "minting_income_factor": "Bir Ülkenin Para Basımından aldığı Düka miktarını düzenler.",
+    "monthly_diplomats": "Bir Ülkenin ayda kaç Diplomat alabileceğini düzenler.",
+    "monthly_legitimacy": "Bir Ülkenin her ay aldığı Meşruiyet miktarını düzenler.",
+    "monthly_rebel_growth": "Asilerin ne kadar çabuk İsyan ya da İç Savaş başlattığını düzenler.",
+    "monthly_religious_influence": "Bir Ülkenin her ay aldığı Dinî Nüfuz miktarını düzenler.",
+    "monthly_towards_absolutism": "absolutism Toplumsal Değerleri yönündeki değişimi düzenler.",
+    "monthly_towards_belligerent": "belligerent Toplumsal Değerler yönündeki değişimi düzenler.",
+    "monthly_towards_capital_economy": "Başkent economy Toplumsal Değerleri yönündeki değişimi düzenler.",
+    "monthly_towards_centralization": "centralization Toplumsal Değerleri yönündeki değişimi düzenler.",
+    "monthly_towards_communalism": "communalism Toplumsal Değerleri yönündeki değişimi düzenler.",
+    "monthly_towards_conciliatory": "conciliatory Toplumsal Değerler yönündeki değişimi düzenler.",
+    "monthly_towards_decentralization": "decentralization Toplumsal Değerleri yönündeki değişimi düzenler.",
+    "monthly_towards_free_subjects": "free Tabi Devletler Toplumsal Değerleri yönündeki değişimi düzenler.",
+    "monthly_towards_individualism": "individualism Toplumsal Değerleri yönündeki değişimi düzenler.",
+    "monthly_towards_innovative": "innovative Toplumsal Değerler yönündeki değişimi düzenler.",
+    "monthly_towards_plutocracy": "plutocracy Toplumsal Değerleri yönündeki değişimi düzenler.",
+    "monthly_towards_spiritualist": "spiritualist Toplumsal Değerler yönündeki değişimi düzenler.",
+    "monthly_towards_traditionalist": "traditionalist Toplumsal Değerler yönündeki değişimi düzenler.",
+    "monthly_war_exhaustion": "Her ay alacağımız Savaş Yorgunluğu miktarını düzenler.",
+    "monthly_yanantin": "Bir Ülkenin her ay aldığı Yanantin miktarını düzenler.",
+    "naval_morale_modifier": "Bu, bir Geminin sahip olabileceği en yüksek Moral değerini belirli bir yüzde oranında düzenler.",
+    "navy_initiative": "Muharebe esnasında bir Geminin Önceliğini düzenler.",
+    "peasants_estate_target_satisfaction": "Bu Ülkedeki Avam zümresinin Memnuniyet Dengesi değerini düzenler.",
+    "pop_join_rebel_threshold": "Bir Toplumun Asilere katılması için düşmesi gereken Toplum Memnuniyeti sınırını belirler. En düşük olabilir.",
+    "pop_leave_rebels_threshold": "Bir Toplumun Asilerden ayrılması için çıkması gereken Toplum Memnuniyeti sınırını belirler.",
+    "recruit_explorer_cost_modifier": "Kâşif görevlendirmenin Maliyetini düzenler.",
+    "regiment_reinforcement_speed": "Alayın Takviye hızını düzenler.",
+    "remove_religious_aspect_christian_cost_modifier": "Dinî Görüş çıkarma Maliyetini düzenler.",
+    "research_speed_modifier": "Bir Ülkenin Araştırma İlerlemesini düzenler.",
+    "skill_of_new_artists": "Yeni Sanatçıların Sanatsal Becerisini düzenler.",
+    "stability_cost": "İstikrar Yatırımı maliyetini düzenler.",
+    "tax_income_efficiency": "Bir Ülkenin Vergi Verimliliğini düzenler.",
+    "tolerance_heathen": "Ana Din ile farlı Din Grubunda bulunan Dinlere olan Hoşgörü seviyesini düzenler.",
+    "tolerance_heretic": "Ana Din ile aynı Din Grubunda bulunan Dinlere olan Hoşgörü seviyesini düzenler.",
+    "tolerance_own": "Devlet Dininin Hoşgörü seviyesini düzenler.",
+    "war_on_different_religion_cost_modifier": "Farklı Dinden birine Savaş ilan etme Maliyetini düzenler."
+  }
+}

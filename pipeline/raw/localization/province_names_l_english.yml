@@ -1,6 +1,6 @@
 l_english:
  bothnian_sea: "Bothnian Sea"
- swedish_coastline: "Ostkusten"
+ swedish_coastline: "Ã–stkusten"
  south_baltic_sea: "South Baltic Sea"
  north_baltic_sea: "North Baltic Sea"
  eastern_baltic_sea: "East Baltic Sea"
@@ -36,7 +36,7 @@ l_english:
  alboran_sea_province: "Alboran Sea"
  balearic_sea_province: "Balearic Sea"
  western_mediterranean_sea_province: "Western Mediterranean Sea"
- gulf_cadiz_province: "Gulf of Cadiz"
+ gulf_cadiz_province: "Gulf of CÃ¡diz"
  gulf_of_leon_province: "Gulf of Lion"
  cantabrian_sea_province: "Cantabrian Sea"
  gulf_of_gascony_province: "Gulf of Gascony"
@@ -44,27 +44,27 @@ l_english:
  indian_ocean_province: "Indian Ocean"
  #
  uppland_province: "Uppland"
- sodermanland_province: "Sodermanland"
- ostergotland_province: "Ostra Gotaland"
- nerike_province: "Narke"
- vastmanland_province: "Vastmanland"
- ostra_smaland_province: "Ostra Smaland"
- tioharad_province: "Tioharad"
- vastergotland_province: "Vastra Gotaland"
+ sodermanland_province: "SÃ¶dermanland"
+ ostergotland_province: "Ã–stra GÃ¶taland"
+ nerike_province: "NÃ¤rke"
+ vastmanland_province: "VÃ¤stmanland"
+ ostra_smaland_province: "Ã–stra SmÃ¥land"
+ tioharad_province: "TiohÃ¤rad"
+ vastergotland_province: "VÃ¤stra GÃ¶taland"
  gotland_province: "Gotland"
- gastrikland_province: "Gastrikland"
- angermanland_province: "Angermanland"
- vasterbotten_province: "Vasterbotten"
- bohus_province: "Bahus"
- ostfold_province: "Ostfold"
+ gastrikland_province: "GÃ¤strikland"
+ angermanland_province: "Ã…ngermanland"
+ vasterbotten_province: "VÃ¤sterbotten"
+ bohus_province: "BÃ¥hus"
+ ostfold_province: "Ã˜stfold"
  vestfold_province: "Vestfold"
  dalsland_province: "Dalsland"
- varmland_province: "Varmland"
+ varmland_province: "VÃ¤rmland"
  dalarna_province: "Dalarna"
- halsingland_province: "Halsingland"
- jamtland_province: "Jamtland"
- sor_trondelag_province: "Sor-Trondelag"
- nor_trondelag_province: "Nord-Trondelag"
+ halsingland_province: "HÃ¤lsingland"
+ jamtland_province: "JÃ¤mtland"
+ sor_trondelag_province: "SÃ¸r-TrÃ¸ndelag"
+ nor_trondelag_province: "Nord-TrÃ¸ndelag"
  rogaland_province: "Rogaland"
  agder_province: "Agder"
  buskerud_province: "Buskerud"
@@ -78,15 +78,15 @@ l_english:
  nyland_province: "Nyland"
  satakunta_province: "Satakunta"
  tavastland_province: "Tavastland"
- norra_osterbotten_province: "Norra Osterbotten"
+ norra_osterbotten_province: "Norra Ã–sterbotten"
  ume_lappmark_province: "Ume Lappmark "
  pite_lappmark_province: "Pite Lappmark"
  lule_lappmark_province: "Lule Lappmark"
  torne_lappmark_province: "Torne Lappmark"
  kemi_lappmark_province: "Kemi Lappmark"
  kajanaland_province: "Kajanaland"
- sodra_osterbotten_province: "Sodra Osterbotten"
- vyborg_province: "Vyborgs Lan"
+ sodra_osterbotten_province: "SÃ¶dra Ã–sterbotten"
+ vyborg_province: "Vyborgs LÃ¤n"
  ostra_lappland_province: "Eastern Lappland"
  savolax_province: "Savolax"
  nordland_province: "Nordland"
@@ -144,12 +144,12 @@ l_english:
  hertfordshire_province: "Hertfordshire"
  berkshire_province: "Berkshire"
  oxfordshire_province: "Oxfordshire"
- malmohus_province: "Malmohus"
- gonge_province: "Goinge"
+ malmohus_province: "MalmÃ¶hus"
+ gonge_province: "GÃ¶inge"
  halland_province: "Halland"
  zealand_province: "Zealand"
- norrejylland_province: "Norrejylland"
- sonderjylland_province: "Sonderjylland"
+ norrejylland_province: "NÃ¸rrejylland"
+ sonderjylland_province: "SÃ¸nderjylland"
  vendsyssel_thy_province: "Vendsyssel-Thy"
  west_riding_province: "West Riding"
  east_riding_province: "East Riding"
@@ -181,7 +181,7 @@ l_english:
  oriel_province: "Oriel"
  dublin_province: "Dublin"
  western_jutland_province: "Vestjylland"
- eastern_jutland_province: "Ostjylland"
+ eastern_jutland_province: "Ã˜stjylland"
  funen_province: "Funen"
  slesvig_province: "Slesvig"
  blekinge_province: "Blekinge"
@@ -195,14 +195,14 @@ l_english:
  south_livonia_province: "South Livonia"
  tartu_province: "Tartu"
  rotalia_province: "Rotalia"
- whakatu_province: "Whakat?"
+ whakatu_province: "WhakatÅ«"
  waitaha_province: "Waitaha"
  murihiku_province: "Murihiku"
  tai_poutini_province: "Tai Poutini"
  northland_province: "Northland"
- bay_of_plenty_province: "Te Moana ? Toi"
- rekohu_sea_province: "R?kohu Coast"
- rekohu_province: "R?kohu"
+ bay_of_plenty_province: "Te Moana Ä Toi"
+ rekohu_sea_province: "RÄ“kohu Coast"
+ rekohu_province: "RÄ“kohu"
  waikato_province: "Waikato"
  whanganui_province: "Whanganui"
  new_zealand_coast_west_province: "New Zealand West Coast"
@@ -264,7 +264,7 @@ l_english:
  monza_province: "Monza"
  pavia_province: "Pavia"
  valtellina_province: "Valtellina"
- south_tirol_province: "Sud Tirol"
+ south_tirol_province: "SÃ¼d Tirol"
  trentino_province: "Trentino"
  alba_province: "Alba"
  alessandria_province: "Alessandria"
@@ -377,7 +377,7 @@ l_english:
  lower_vidarbha: "Lower Vidarbha"
  upper_carniola_province: "Upper Carniola"
  lower_carniola_province: "Lower Carniola"
- gorizia_province: "Gori?ka"
+ gorizia_province: "GoriÅ¡ka"
  lower_styria_province: "Lower Styria"
  bjelovar_province: "Podravina"
  vukovar_syrmia_province: "Slavonia Proper"
@@ -392,12 +392,12 @@ l_english:
  podrinje_province: "Podrinje"
  una_sana_province: "Krajina"
  usora_and_soli_province: "Posavina"
- branicevo_province: "Brani?evo"
+ branicevo_province: "BraniÄevo"
  kosovo_province: "Kosovo"
- macva_province: "Ma?va"
- nis_province: "Ni?"
- raska_province: "Ra?ka"
- sumadija_province: "?umadija"
+ macva_province: "MaÄva"
+ nis_province: "NiÅ¡"
+ raska_province: "RaÅ¡ka"
+ sumadija_province: "Å umadija"
  toplica_province: "Toplica"
  zeta_province: "Zeta"
  zlatibor_province: "Zlatibor"
@@ -478,7 +478,7 @@ l_english:
  nzima_province: "Nzima"
  senufo_province: "Senufo"
  kong_province: "Kong"
- baoule_province: "Baoule"
+ baoule_province: "BaoulÃ©"
  bono_province: "Bono"
  asante_province: "Asante"
  akan_province: "Akan"
@@ -534,10 +534,10 @@ l_english:
  cornouaille_province_ADJ: "Cornouaillais"
  nantais_province: "Nantais"
  nantais_province_ADJ: "Nantais"
- ploermel_province: "Ploermel" 
+ ploermel_province: "PloÃ«rmel" 
  rennais_province: "Rennais"
  rennais_province_ADJ: "Rennais"
- tregor_province: "Tregor"
+ tregor_province: "TrÃ©gor"
  vannetais_province: "Vannetais"
  vannetais_province_ADJ: "Vannetais"
  auxerrois_province: "Auxerrois"
@@ -550,9 +550,9 @@ l_english:
  brie_champenois_province: "Brie Champenoise"
  champagne_province: "Champagne"
  perthois_province: "Perthois"
- remois_province: "Remois"
- rethelois_province: "Rethelois"
- senonais_province: "Senonais"
+ remois_province: "RÃ©mois"
+ rethelois_province: "RÃ©thelois"
+ senonais_province: "SÃ©nonais"
  amont_province: "Amont"
  amont_province_ADJ: "Amont"
  aval_province: "Aval"
@@ -562,14 +562,14 @@ l_english:
  armagnac_province: "Armagnac"
  tursan_province: "Tursan"
  comminges_province: "Comminges"
- bearn_bigorre_province: "Bearn and Bigorre"
+ bearn_bigorre_province: "BÃ©arn and Bigorre"
  bearn_bigorre_province_ADJ: "Bearnais"
  agenais_province: "Agenais"
  bazadais_province: "Bazadais"
  bordelais_province: "Bordelais"
  bordelais_province_ADJ: "Bordelais"
- perigord_province: "Perigord"
- perigord_province_ADJ: "Perigourdin"
+ perigord_province: "PÃ©rigord"
+ perigord_province_ADJ: "PÃ©rigourdin"
  quercy_province: "Quercy"
  quercy_province_ADJ: "Quercycois"
  rouergue_province: "Rouergue"
@@ -607,18 +607,18 @@ l_english:
  upper_berry_province: "Upper-Berry"
  upper_berry_province_ADJ: "Upper-Berrichon"
  blois_province: "Blois"
- blois_province_ADJ: "Blesois "
- orleanais_province: "Orleanais"
- orleanais_province_ADJ: "Orleanais"
+ blois_province_ADJ: "BlÃ©sois "
+ orleanais_province: "OrlÃ©anais"
+ orleanais_province_ADJ: "OrlÃ©anais"
  touraine_province: "Touraine"
  touraine_provinceADJ: "Tourangeau"
  amienois_province: "Amienois"
  lower_artois_province: "Lower-Artois"
  upper_artois_province: "Upper-Artois"
  ponthieu_province: "Ponthieu"
- thierache_province: "Thierache"
+ thierache_province: "ThiÃ©rache"
  vermandois_province: "Vermandois"
- angouleme_province: "Angouleme"
+ angouleme_province: "AngoulÃªme"
  la_marche_province: "La Marche"
  la_marche_province_ADJ: "Marchois"
  limousin_province: "Limousin"
@@ -635,7 +635,7 @@ l_english:
  dignois_province: "Dignois"
  dracenois_province: "Dracenois"
  nice_province: "Nice"
- nice_province_ADJ: "Nicard"
+ nice_province_ADJ: "NiÃ§ard"
  bresse_province: "Bresse"
  gresivaudan_province: "Gresivaudan"
  savoy_province: "Savoy"
@@ -646,10 +646,10 @@ l_english:
  castres_province: "Castres"
  foix_province: "Foix"
  gevaudan_province: "Gevaudan"
- razes_province: "Razes"
+ razes_province: "RazÃ©s"
  narbonnais_province: "Narbonnais"
- nimois_province: "Nimois"
- nimois_province_ADJ: "Nimois"
+ nimois_province: "NÃ®mois"
+ nimois_province_ADJ: "NÃ®mois"
  toulousain_province: "Toulousain"
  vivarais_province: "Vivarais"
  vivarais_province_ADJ: "Vivarais"
@@ -803,95 +803,95 @@ l_english:
  samara_province: "Samara"
  kurmysh_province: "Kurmysh"
  yakutsk_province: "Yakutsk"
- oshima_province: "Oshima" #“n“‡
- shiribeshi_province: "Shiribeshi" #Œãu
- iburi_province: "Iburi" #’_U
- ishikari_province: "Ishikari" #Îë
- hidaka_province: "Hidaka" #“ú‚
- tokachi_province: "Tokachi" #\Ÿ
- kushiro_province: "Kushiro" #‹ú˜H
- nemuro_province: "Nemuro" #ªº
- kitami_province: "Kitami" #–kŒ©
- teshio_province: "Teshio" #“V‰–
- chishima_province: "Chishima" #ç“‡
- rikuou_province: "Riku?" #—¤‰œ
- rikuchuu_province: "Rikuch?" #—¤’†
- rikuzen_province: "Rikuzen" #—¤‘O
- ugo_province: "Ugo" #‰HŒã
- uzen_province: "Uzen" #‰H‘O
- iwaki_province: "Iwaki" #Šâé
- iwase_province: "Iwase" #Šâ”w
- echigo_province: "Echigo" #‰zŒã
- sado_province: "Sado" #²“n
- ecchuu_province: "Etch?" #‰z’†
- noto_japan_province: "Noto" #”\“o
- kaga_province: "Kaga" #‰Á‰ê
- echizen_province: "Echizen" #‰z‘O
- shimotsuke_province: "Shimotsuke" #‰º–ì
- kouzuke_province: "K?zuke" #ã–ì
- shinano_province: "Shinano" #M”Z
- hida_province: "Hida" #”ò‘Ë
- mino_province: "Mino" #”ü”Z
- oumi_province: "?mi" #‹ß]
- hitachi_province: "Hitachi" #í—¤
- shimousa_province: "Shim?sa" #‰º‘
- kazusa_province: "Kazusa" #ã‘
- musashi_province: "Musashi" #•‘ 
- sagami_province: "Sagami" #‘Š–Í
- kai_province: "Kai" #b”ã
- izu_province: "Izu" #ˆÉ“¤
- suruga_province: "Suruga" #x‰Í
- tootoumi_province: "T?t?mi" #‰“]
- mikawa_province: "Mikawa" #O‰Í
- owari_province: "Owari" #”ö’£
- ise_province: "Ise" #ˆÉ¨
- shima_province: "Shima" #u–€
- yamato_province: "Yamato" #‘å˜a
- yamashiro_province: "Yamashiro" #Ré
- settsu_province: "Settsu" #Û’Ã
- tanba_province: "Tanba" #’O”g
- tango_province: "Tango" #’OŒã
- tajima_province: "Tajima" #’A”n
- inaba_province: "Inaba" #ˆö”¦
- houki_province: "H?ki" #”ŒãË
- izumo_province: "Izumo" #o‰_
- iwami_province: "Iwami" #ÎŒ©
- harima_province: "Harima" #”d–
- bizen_province: "Bizen" #”õ‘O
- mimasaka_province: "Mimasaka" #”üì
- bicchuu_province: "Bitch?" #”õ’†
- bingo_province: "Bingo" #”õŒã
- aki_province: "Aki" #ˆÀŒ|
- suou_province: "Su?" #ü–h
- nagato_province: "Nagato" #’·–å
- kii_province: "Kii" #‹IˆÉ
- sanuki_province: "Sanuki" #]Šò
- awa_province: "Awa" #ˆ¢”g
- iyo_province: "Iyo" #ˆÉ—\
- tosa_province: "Tosa" #“y²
- tsushima_province: "Tsushima" #‘Î”n
- chikuzen_province: "Chikuzen" #’}‘O
- hizen_province: "Hizen" #”ì‘O
- chikugo_province: "Chikugo" #’}Œã
- buzen_province: "Buzen" #–L‘O
- bungo_province: "Bungo" #–LŒã
- higo_province: "Higo" #”ìŒã
- hyuuga_province: "Hy?ga" #“úŒü
- oosumi_province: "?sumi" #‘å‹÷
- satsuma_province: "Satsuma" #F–€
- ryuukyuu_province: "Ry?ky?" #—®‹…
- satsunan_islands_province: "Satsunan Islands" #F“ì”“‡
+ oshima_province: "Oshima" #æ¸¡å³¶
+ shiribeshi_province: "Shiribeshi" #å¾Œå¿—
+ iburi_province: "Iburi" #èƒ†æŒ¯
+ ishikari_province: "Ishikari" #çŸ³ç‹©
+ hidaka_province: "Hidaka" #æ—¥é«˜
+ tokachi_province: "Tokachi" #åå‹
+ kushiro_province: "Kushiro" #é‡§è·¯
+ nemuro_province: "Nemuro" #æ ¹å®¤
+ kitami_province: "Kitami" #åŒ—è¦‹
+ teshio_province: "Teshio" #å¤©å¡©
+ chishima_province: "Chishima" #åƒå³¶
+ rikuou_province: "RikuÅ" #é™¸å¥¥
+ rikuchuu_province: "RikuchÅ«" #é™¸ä¸­
+ rikuzen_province: "Rikuzen" #é™¸å‰
+ ugo_province: "Ugo" #ç¾½å¾Œ
+ uzen_province: "Uzen" #ç¾½å‰
+ iwaki_province: "Iwaki" #å²©åŸ
+ iwase_province: "Iwase" #å²©èƒŒ
+ echigo_province: "Echigo" #è¶Šå¾Œ
+ sado_province: "Sado" #ä½æ¸¡
+ ecchuu_province: "EtchÅ«" #è¶Šä¸­
+ noto_japan_province: "Noto" #èƒ½ç™»
+ kaga_province: "Kaga" #åŠ è³€
+ echizen_province: "Echizen" #è¶Šå‰
+ shimotsuke_province: "Shimotsuke" #ä¸‹é‡
+ kouzuke_province: "KÅzuke" #ä¸Šé‡
+ shinano_province: "Shinano" #ä¿¡æ¿ƒ
+ hida_province: "Hida" #é£›é¨¨
+ mino_province: "Mino" #ç¾æ¿ƒ
+ oumi_province: "ÅŒmi" #è¿‘æ±Ÿ
+ hitachi_province: "Hitachi" #å¸¸é™¸
+ shimousa_province: "ShimÅsa" #ä¸‹ç·
+ kazusa_province: "Kazusa" #ä¸Šç·
+ musashi_province: "Musashi" #æ­¦è”µ
+ sagami_province: "Sagami" #ç›¸æ¨¡
+ kai_province: "Kai" #ç”²æ–
+ izu_province: "Izu" #ä¼Šè±†
+ suruga_province: "Suruga" #é§¿æ²³
+ tootoumi_province: "TÅtÅmi" #é æ±Ÿ
+ mikawa_province: "Mikawa" #ä¸‰æ²³
+ owari_province: "Owari" #å°¾å¼µ
+ ise_province: "Ise" #ä¼Šå‹¢
+ shima_province: "Shima" #å¿—æ‘©
+ yamato_province: "Yamato" #å¤§å’Œ
+ yamashiro_province: "Yamashiro" #å±±åŸ
+ settsu_province: "Settsu" #æ‘‚æ´¥
+ tanba_province: "Tanba" #ä¸¹æ³¢
+ tango_province: "Tango" #ä¸¹å¾Œ
+ tajima_province: "Tajima" #ä½†é¦¬
+ inaba_province: "Inaba" #å› å¹¡
+ houki_province: "HÅki" #ä¼¯è€†
+ izumo_province: "Izumo" #å‡ºé›²
+ iwami_province: "Iwami" #çŸ³è¦‹
+ harima_province: "Harima" #æ’­ç£¨
+ bizen_province: "Bizen" #å‚™å‰
+ mimasaka_province: "Mimasaka" #ç¾ä½œ
+ bicchuu_province: "BitchÅ«" #å‚™ä¸­
+ bingo_province: "Bingo" #å‚™å¾Œ
+ aki_province: "Aki" #å®‰èŠ¸
+ suou_province: "SuÅ" #å‘¨é˜²
+ nagato_province: "Nagato" #é•·é–€
+ kii_province: "Kii" #ç´€ä¼Š
+ sanuki_province: "Sanuki" #è®ƒå²
+ awa_province: "Awa" #é˜¿æ³¢
+ iyo_province: "Iyo" #ä¼Šäºˆ
+ tosa_province: "Tosa" #åœŸä½
+ tsushima_province: "Tsushima" #å¯¾é¦¬
+ chikuzen_province: "Chikuzen" #ç­‘å‰
+ hizen_province: "Hizen" #è‚¥å‰
+ chikugo_province: "Chikugo" #ç­‘å¾Œ
+ buzen_province: "Buzen" #è±Šå‰
+ bungo_province: "Bungo" #è±Šå¾Œ
+ higo_province: "Higo" #è‚¥å¾Œ
+ hyuuga_province: "HyÅ«ga" #æ—¥å‘
+ oosumi_province: "ÅŒsumi" #å¤§éš…
+ satsuma_province: "Satsuma" #è–©æ‘©
+ ryuukyuu_province: "RyÅ«kyÅ«" #ç‰çƒ
+ satsunan_islands_province: "Satsunan Islands" #è–©å—è«¸å³¶
  sakishima_islands_province: "Sakishima Islands"
  sakishima_islands: "Sakishima Islands"
  okinawa_islands: "Okinawa Islands"
- oosumi_islands: "?sumi Islands"
- kyuushuu_coast: "Ky?sh? Coast"
+ oosumi_islands: "ÅŒsumi Islands"
+ kyuushuu_coast: "KyÅ«shÅ« Coast"
  sea_of_japan: "Sea of Japan"
  shikoku_coast: "Shikoku Coast"
  seto_sea: "Seto Sea"
  japan_east_sea: "Japan East Sea"
- hokkaidou_east_coast: "Hokkaid? East Coast"
- hokkaidou_north_coast: "Hokkaid? North Coast"
+ hokkaidou_east_coast: "HokkaidÅ East Coast"
+ hokkaidou_north_coast: "HokkaidÅ North Coast"
  kuril_islands: "Kuril Islands"
  naju_province: "Naju"
  jeonju_province: "Jeonju"
@@ -933,7 +933,7 @@ l_english:
  old_manding_province: "Old Manding"
  sosso_province: "Sosso"
  macina_province: "Macina"
- djenne_province: "Djenne"
+ djenne_province: "DjennÃ©"
  tagant_province: "Tagant"
  adrar_province: "Adrar"
  ghana_province: "Ghana"
@@ -958,9 +958,9 @@ l_english:
  gwiriko_province: "Gwiriko"
  hombori_province: "Hombori"
  hayre_province: "Hayre"
- tengrela_province: "Tengrela"
+ tengrela_province: "TengrÃ©la"
  mouhoun_province: "Mouhoun"
- safare_province: "Safare"
+ safare_province: "SafarÃ©"
  wa_province: "Wa"
  kissi_province: "Kissi"
  gobir_province: "Gobir"
@@ -1069,10 +1069,10 @@ l_english:
  nheteroia_province: "Nheteroia"
  piranga_province: "Piranga"
  piray_province: "Piray"
- tapuy_province: "Tapuy-u"
+ tapuy_province: "Tapuy-Ãº"
  taubate_province: "Taubate"
  piumhi_province: "Piumhi"
- camanducaia_province: "Komanda-kai-a"
+ camanducaia_province: "KomandÃ¡-kaÃ®-a"
  lavras_province: "Lavras"
  itajuba_province: "Itajuba"
  muriae_province: "Meruim-hu"
@@ -1105,7 +1105,7 @@ l_english:
  pacific_aridoamerica_sea_zones_province: "Pacific coast"
  atlantic_aridoamerica_sea_zones_province: "Gulf coast"
  #Central America
- zinacantan_province: "Zinacantan"
+ zinacantan_province: "ZinacantÃ¡n"
  zaklohpakab_province: "Zaklohpakab"
  otolum_province: "Otolum"
  mayapan_province: "Mayapan"
@@ -1113,7 +1113,7 @@ l_english:
  chichen_itza_province: "Chichen itza"
  puuk_province: "Pu'uk"
  tabacoh_province: "Tabacoh"
- chactemal_province: "Chaak te' eemal"
+ chactemal_province: "ChÃ¡ak te' Ã©emal"
  uaymil_province: "Uaymil"
  ekab_province: "Ekab"
  atlantic_central_america_sea_zones_province: "Atlantic Central America Sea"
@@ -1123,7 +1123,7 @@ l_english:
  ceibal_province: "Seibal"
  tah_itza_province: "Tah Itza"
  lamanai_province: "Lamanai"
- cuchumatan_province: "Cuchumatan"
+ cuchumatan_province: "CuchumatÃ¡n"
  kab_koj_province: "Kab-Koj"
  maniani_province: "Maniani"
  chorti_province: "Chorti"
@@ -1143,7 +1143,7 @@ l_english:
  cadegomo_province: "Cadegomo"
  cochimi_province: "Cochimi"
  hia_ced_oodham_province: "Hia-Ced O'odham"
- tahejoc_province: "Tahejoc"
+ tahejoc_province: "TahejÃ¶c"
  yoreme_province: "Yoreme"
  yaqui_province: "Yaqui"
  sinaloa_province: "Sinaloa"
@@ -1174,8 +1174,8 @@ l_english:
  karankawa_province: "Karankawa"
  tonkawa_province: "Tonkawa"
  waco_province: "Waco"
- natahende_province: "Natahende"
- tchokana_province: "Tcho'kana"
+ natahende_province: "NatahÃ©ndÃ©"
+ tchokana_province: "TchÃ³'kanÃ¤"
  shiewhibak_province: "Shiewhibak"
  orayvi_province: "Orayvi"
  hwalbay_province: "Hwalbay"
@@ -1254,7 +1254,7 @@ l_english:
  sahaptin_province: "Sahaptin"
  yakama_province: "Yakama"
  mojave_province: "Mojave"
- death_valley_province: "Tumpisa"
+ death_valley_province: "TÃ¼mpisa"
  chemewevi_province: "Chemewevi"
  east_nuwuvi_province: "East Nuwuvi"
  west_nuchiu_province: "West Nuchiu"
@@ -1327,13 +1327,13 @@ l_english:
  lena_province: "Lena"
  siniaia_province: "Siniaia"
  upper_lena_province: "Upper Lena"
- biryuk_province: "Buuruk"
+ biryuk_province: "BÃ¼Ã¼rÃ¼k"
  marxa_province: "Marxa"
  yana_province: "Yana"
  sangaar_province: "Sangaar"
  lungxa_province: "Lungxa"
  ulaxan_province: "Ulaxan"
- vilyuy_province: "Buluu"
+ vilyuy_province: "BÃ¼lÃ¼Ã¼"
  botomoyu_province: "Botomoyu"
  ynakhsyt_province: "Ynakhsyt"
  dippa_province: "Dippa"
@@ -1360,9 +1360,9 @@ l_english:
  orotko_province: "Orotko"
  uyaancii_province: "Uyaancii"
  xalizaax_province: "Xalizaax"
- xahaaciya_province: "Xahaac?ya"
+ xahaaciya_province: "XahaaÃ§Ä±ya"
  urasalaax_province: "Urasalaax"
- kuhuur_province: "Kuhuur"
+ kuhuur_province: "KÃ¼hÃ¼Ã¼r"
  tumyat_province: "Tumyat"
  siberian_tundra_province: "Siberian Tundra"
  siberian_hills_province: "Siberian Hills"
@@ -1431,26 +1431,26 @@ l_english:
  hawaii_coast_sea_zones_province: "Hawai'i sea"
 
 #Canada
- gaspe_province: "Gaspe"
+ gaspe_province: "GaspÃ©"
  rimouski_province: "Rimouski"
  kikonteku_province: "Kikonteku"
  stadacona_province: "Stadacona"
  minganie_province: "Minganie"
- mecatina_province: "Mecatina"
+ mecatina_province: "MÃ©catina"
  uashat_province: "Uashat"
  manicouagan_province: "Manicouagan"
  betsiamites_province: "Betsiamites"
  nistassinan_province: "Nistassinan"
  gatineau_province: "Upper Gatineau"
- temiscamingue_province: "Temiscamingue"
- peribonka_province: "Peribonka"
+ temiscamingue_province: "TÃ©miscamingue"
+ peribonka_province: "PÃ©ribonka"
  saguenay_province: "Saguenay"
- piekouagami_province: "Piekouagami"
+ piekouagami_province: "PiÃ©kouagami"
  masoliantekw_province: "Masoliantekw"
  hochelaga_province: "Hochelaga"
  laurentides_province: "Manitonga Soutana"
  alsigontekw_province: "Alsigontekw"
- megantic_province: "Megantic"
+ megantic_province: "MÃ©gantic"
  maisouna_province: "Maisouna"
  outaouais_province: "Outaouais"
  abitibi_province: "Abitibi"
@@ -1718,10 +1718,10 @@ l_english:
  palencia_province: "$palencia$"
  segovia_province: "$segovia$"
  soria_province: "$soria$"
- montana_province: "La Montana"
+ montana_province: "La MontaÃ±a"
  valladolid_province: "$valladolid$"
  bayonne_province: "$bayonne$"
- alava_province: "Alava"
+ alava_province: "Ãlava"
  biscay_province: "Biscay"
  gipuzkoa_province: "Gipuzkoa"
  navarre_province: "Navarre"
@@ -1735,7 +1735,7 @@ l_english:
  girona_province: "$girona$"
  new_catalonia_province: "New Catalonia"
  osona_province: "Osona"
- rosello_province: "Rosello"
+ rosello_province: "RosellÃ³"
  urgell_province: "Urgell"
  castellon_province: "$castellon_de_la_plana$"
  jativa_province: "$jativa$"
@@ -1751,7 +1751,7 @@ l_english:
  estremadura_province: "Estremadura"
  minho_province: "Minho"
  ribatejo_province: "Ribatejo"
- tras_os_montes: "Tras-os-Montes"
+ tras_os_montes: "TrÃ¡s-os-Montes"
  badajoz_province: "$badajoz$"
  caceres_province: "$caceres$"
  merida_province: "$merida$"
@@ -1791,7 +1791,7 @@ l_english:
  camaguey_province: "Camaguey"
  moron_province: "Moron"
  havana_province: "Havana"
- higuey_province: "Higuey"
+ higuey_province: "HigÃ¼ey"
  maguana_province: "Maguana"
  magua_province: "Magua"
  marien_province: "Marien"
@@ -1802,15 +1802,15 @@ l_english:
  azghar_province: "Azghar"
  fez_province: "Fez"
  tamasna_province: "Tamasna"
- dukkala_province: "Dukk?la"
- haha_province: "????"
+ dukkala_province: "DukkÄlÃ¢"
+ haha_province: "á¸¤Äá¸¥Ä"
  marrakesh_province: "Marrakesh"
- sus_province: "S?s"
+ sus_province: "SÅ«s"
  guzzula_province: "Guzzula"
  hascora_province: "Hascora"
  tadla_province: "Tadla"
  tafilalt_province: "Tafilalt"
- haouz_province: "Al-?awz"
+ haouz_province: "Al-á¸¤awz"
  oran_province: "Oran"
  dahra_province: "Dahra"
  tlemcen_province: "Tlemcen"
@@ -1826,16 +1826,16 @@ l_english:
  bizerte_province: "Bizerte"
  tunis_province: "Tunis"
  baghai_province: "Baghai"
- qamuda_province: "Qam?da"
+ qamuda_province: "QamÅ«da"
  sahel_TUN_province: "Sahel"
  kairouan_province: "Kairouan"
  medjerda_province: "Medjerda"
- qabisa_province: "Qab?sa"
+ qabisa_province: "QabÄ«sa"
  constantine_province: "Constantine"
  djerid_province: "Djerid"
  aures_province: "Aures"
  hodna_province: "Hodna"
- djafara_province: "Al-?if?ra"
+ djafara_province: "Al-Ç¦ifÄra"
  nafusa_province: "Nafusa"
  misratah_province: "Misratah" 
 
@@ -1849,49 +1849,49 @@ l_english:
  oued_edhahab_province: "Oued Edhahab"
  
  doboka_province: "Doboka"
- feher_province: "Feher"
- kiralyfold_province: "Kiralyfold"
- maramaros_province: "Maramaros"
- szekelyfold_province: "Szekelyfold"
+ feher_province: "FehÃ©r"
+ kiralyfold_province: "KirÃ¡lyfÃ¶ld"
+ maramaros_province: "MÃ¡ramaros"
+ szekelyfold_province: "SzÃ©kelyfÃ¶ld"
  torda_province: "Torda"
- bacs_province: "Bacs"
+ bacs_province: "BÃ¡cs"
  west_banat_province: "Western Banat"
  east_banat_province: "Eastern Banat"
  bihar_province: "Bihar"
  baranya_province: "Baranya"
  buda_province: "Buda"
- csanad_province: "Csanad"
- csongrad_province: "Csongrad"
+ csanad_province: "CsanÃ¡d"
+ csongrad_province: "CsongrÃ¡d"
  heves_province: "Heves"
- fejer_province: "Fejer"
+ fejer_province: "FejÃ©r"
  pest_province: "Pest"
  kraszna_province: "Kraszna"
  somogy_province: "Somogy"
  sopron_province: "Sopron"
- szatmar_province: "Szatmar"
+ szatmar_province: "SzatmÃ¡r"
  szolnok_province: "Szolnok"
  vas_province: "Vas"
  zala_province: "Zala"
- zarand_hun_province: "Zarand"
+ zarand_hun_province: "ZarÃ¡nd"
  szabolcs_province: "Szabolcs"
  pozsony_province: "Pozsony"
  hont_province: "Hont"
- nograd_province: "Nograd"
- trencsen_province: "Trencsen"
+ nograd_province: "NÃ³grÃ¡d"
+ trencsen_province: "TrencsÃ©n"
  szepes_province: "Szepes"
- zemplen_province: "Zemplen"
+ zemplen_province: "ZemplÃ©n"
  east_muntenia_province: "East Muntenia"
  north_muntenia_province: "North Muntenia"
  north_oltenia_province: "North Oltenia"
  south_muntenia_province: "South Muntenia"
  south_oltenia_province: "South Oltenia"
  west_muntenia_province: "West Muntenia"
- bacau_province: "Bac?u"
- balti_moldova_province: "B?l?i"
+ bacau_province: "BacÄƒu"
+ balti_moldova_province: "BÄƒlÈ›i"
  basarabia_province: "Basarabia"
- barlad_province: "Barlad"
+ barlad_province: "BÃ¢rlad"
  dorohei_province: "Dorohoi"
- iasi_province: "Ia?i"
+ iasi_province: "IaÈ™i"
  orhei_province: "Orhei"
  suceava_province: "Suceava"
  
@@ -1974,7 +1974,7 @@ l_english:
  south_farthing: "South Farthing"
  west_farthing: "West Farthing"
  east_farthing: "East Farthing"
- vattnajokull_p: "Vattnajokull"
+ vattnajokull_p: "VattnajÃ¶kull"
  
  ambongo_province: "Ambongo"
  antandroy_province: "Antandroy"
@@ -2077,7 +2077,7 @@ l_english:
  
  bolu_province: "Bolu"
  canik_province: "Canik"
- cankiri_province: "Cankiri"
+ cankiri_province: "Ã‡ankiri"
  kastamonu_province: "Kastamonu"
  safranbolu_province: "Safranbolu"
  sinop_province: "Sinop"
@@ -2086,19 +2086,19 @@ l_english:
  aksaray_province: "Aksaray"
  amasya_province: "Amasya"
  beysehir_province: "Beysehir"
- corum_province: "Corum"
+ corum_province: "Ã‡orum"
  divrigi_province: "Divrigi"
  kayseri_province: "Kayseri"
- kirsehir_province: "K?r?ehir"
+ kirsehir_province: "KÄ±rÅŸehir"
  konya_province: "Konya"
  larende_province: "Larende"
- nigde_province: "Ni?de"
+ nigde_province: "NiÄŸde"
  sivrihisar_province: "Sivrihisar"
  tokat_province: "Tokat"
  
  adana_province: "Adana"
  cyprus_province: "Cyprus"
- icel_province: "?cel"
+ icel_province: "Ä°Ã§el"
  sis_province: "Sis"
  tarsus_province: "Tarsus"
 
@@ -2109,19 +2109,19 @@ l_english:
  biga_province: "Biga"
  bozok_province: "Bozok"
  hamid_province: "Hamid"
- hudavendigar_province: "Hudavendigar"
+ hudavendigar_province: "HÃ¼davendigÃ¢r"
  karahisar_province: "Karahisar"
  karasi_province: "Karasi"
  kocaeli_province: "Kocaeli"
- kutahya_province: "Kutahya"
+ kutahya_province: "KÃ¼tahya"
  malatya_province: "Malatya"
- marash_province: "Mara?"
- mugla_province: "Mu?la"
+ marash_province: "MaraÅŸ"
+ mugla_province: "MuÄŸla"
  smyrna_province: "Smyrna"
  saruhan_province: "Saruhan"
- sultanonu_province: "Sultanonu"
+ sultanonu_province: "SultanÃ¶nÃ¼"
  sivas_province: "Sivas"
- usak_province: "U?ak"
+ usak_province: "UÅŸak"
 
  ar_ruha_province: "Ar Ruha"
  diyarbekir_province: "Diyar Bakr"
@@ -2171,7 +2171,7 @@ l_english:
  ober_dem_wienerwald_province: "Ober dem Wienerwald"
  unter_dem_wienerwald_province: "Unter dem Wienerwald"
  schaunberg_province: "Schaunberg"
- muhlviertel_province: "Muhlviertel"
+ muhlviertel_province: "MÃ¼hlviertel"
  traungau_province: "Traungau"
  pongau_province: "Pongau"
  salzburger_land_province: "Salzburgerland"
@@ -2189,26 +2189,26 @@ l_english:
  bern_province: "Bern"
  oberwallis_province: "Wallis"
  aargau_province: "Aargau"
- waldstatte_province: "Waldstatte"
- graubunden_province: "Graubunden"
+ waldstatte_province: "WaldstÃ¤tte"
+ graubunden_province: "GraubÃ¼nden"
  ticino_province: "Ticino"
  thurgau_province: "Northern Swiss Plateau"
  vaud_province: "Vaud"
  neuchatel_province: "Basel"
  prague_province: "Praha"
- bechinsko_province: "Bechy?sko"
+ bechinsko_province: "BechyÅˆsko"
  boleslavsko_province: "Boleslavsko"
- prachensko_province: "Prache?sko"
+ prachensko_province: "PrÃ¡cheÅˆsko"
  chrudimsko_province: "Chrudimsko"
  hradecko_province: "Hradecko"
- litomericko_province: "Litom??icko"
- zatecko_province: "?atecko"
+ litomericko_province: "LitomÄ›Å™icko"
+ zatecko_province: "Å½atecko"
  chebsko_province: "Chebsko"
- plzensko_province: "Plze?sko"
+ plzensko_province: "PlzeÅˆsko"
  znojemsko_province: "Znojemsko"
- brnensko_province: "Brn?nsko"
+ brnensko_province: "BrnÄ›nsko"
  olomoucko_province: "Olomoucko"
- hradistsko_province: "Hradi??sko"
+ hradistsko_province: "HradiÅ¡Å¥sko"
  opavsko_province: "Opavsko"
  schwarzwald_province: "Black Forest"
  rhine_valley_province: "Upper Rhine Graben"
@@ -2217,15 +2217,15 @@ l_english:
  neckar_province: "Neckar Basin"
  hohenloher_ebene_province: "Hohenlohe Plain"
  swabian_alb_province: "Swabian Jura"
- allgau_province: "Allgau"
+ allgau_province: "AllgÃ¤u"
  eastern_upper_swabia_province: "Eastern Upper Swabia"
  western_upper_swabia_province: "Western Upper Swabia"
  linzgau_province: "Linzgau"
  alpenvorland_province: "Alpenvorland"
- munchner_schotterebene_province: "Munchener Schotterebene"
+ munchner_schotterebene_province: "MÃ¼nchener Schotterebene"
  chiemgau_province: "Chiemgau"
  donau_moos_province: "Donaumoos"
- gauboden_province: "Gauboden"
+ gauboden_province: "GÃ¤uboden"
  bayerischer_wald_province: "Bavarian Forest"
  oberpfalzer_wald_province: "Upper Palatine Forest"
  ries_province: "Franconian Heights"
@@ -2279,7 +2279,7 @@ l_english:
  antwerp_province: "Antwerp"
  limburg_province: "Limburg"
  loon_province: "Loon"
- liege_province: "Liege"
+ liege_province: "LiÃ¨ge"
  east_friesland_province: "East Friesland"
  ommelanden_province: "Ommelanden"
  friesland_province: "Friesland"
@@ -2290,17 +2290,17 @@ l_english:
  west_luxembourg_province: "West Luxembourg"
  hainaut_province: "Hainaut"
  namur_province: "Namur"
- lubeck_province: "Lubeck"
+ lubeck_province: "LÃ¼beck"
  neumark_province: "Neumark"
  altmark_province: "Altmark"
  prignitz_province: "Prignitz"
  uckermark_province: "Uckermark"
  mittelmark_province: "Mittelmark"
- flaming_province: "Flaming Heath"
+ flaming_province: "FlÃ¤ming Heath"
  niederlausitz_province: "Lower Lusatia"
  palatinate_province: "Palatinate"
  eifel_province: "Eifel"
- hunsruck_province: "Hunsruck"
+ hunsruck_province: "HunsrÃ¼ck"
  hessen_bergland_province: "Hesse Highlands"
  untermain_province: "Lower Main"
  wetterau_province: "Wetterau"
@@ -2311,8 +2311,8 @@ l_english:
  westerwald: "Westerwald"
  lippe_province: "Paderborn Plateau"
  sauerland_province: "Sauerland"
- munsterland_province: "Munsterland"
- julich_province: "Julich Borde"
+ munsterland_province: "MÃ¼nsterland"
+ julich_province: "JÃ¼lich BÃ¶rde"
  niederrhein_province: "Niederrhein"
  ruhr_province: "Ruhr"
  wesermarch_province: "Weser Marshes"
@@ -2321,8 +2321,8 @@ l_english:
  middle_weser_province: "Middle Weser"
  hanover_province: "Hanover"
  brunswick_province: "Braunschweig"
- leine_province: "Gottingen Forest"
- luneburger_heide_province: "Luneburg Heath"
+ leine_province: "GÃ¶ttingen Forest"
+ luneburger_heide_province: "LÃ¼neburg Heath"
  aller_province: "Middle Aller"
  oberlausitz_province: "Upper Lusatia"
  elbtal_province: "Elbtal"
@@ -2332,12 +2332,12 @@ l_english:
  thuringer_becken_province: "Thuringian Basin"
  harz_province: "Harz"
  thuringer_wald_province: "Thuringian Forest"
- magdeburger_borde_province: "Magdeburg Borde"
+ magdeburger_borde_province: "Magdeburg BÃ¶rde"
  saale_province: "Lower Saale"
  schwerin_province: "West Mecklenburg"
  vorpommern_province: "Vorpommern"
  seenplatte_province: "Mecklenburg Lake Plateau"
- koslin_province: "Koslin"
+ koslin_province: "KÃ¶slin"
  stolp_province: "Stolp"
  pyritz_province: "Pyritz"
  arnskrone_province: "Arnskrone"
@@ -2348,47 +2348,47 @@ l_english:
  tuchola_province: "Tuchola"
  upper_prussia_province: "Upper Prussia"
  warmia_province: "Warmia"
- znin_province: "?nin"
+ znin_province: "Å»nin"
  gniezno_province: "Gniezno"
  kalisz_province: "Kalisz"
  pyzdry_province: "Pyzdry"
- naklo_province: "Nak?o"
+ naklo_province: "NakÅ‚o"
  konin_province: "Konin"
- poznan_province: "Pozna?"
- koscian_province: "Ko?cian"
+ poznan_province: "PoznaÅ„"
+ koscian_province: "KoÅ›cian"
  kuyavia_province: "Kuyavia"
- dobrzyn_province: "Dobrzy?"
- chelmno_province: "Che?mno"
- leczyca_province: "??czyca"
+ dobrzyn_province: "DobrzyÅ„"
+ chelmno_province: "CheÅ‚mno"
+ leczyca_province: "ÅÄ™czyca"
  sieradz_province: "Sieradz"
- wielun_province: "Wielu?"
+ wielun_province: "WieluÅ„"
  warsaw_province: "Warszawa"
- lomza_province: "?om?a"
- plock_province: "P?ock"
+ lomza_province: "ÅomÅ¼a"
+ plock_province: "PÅ‚ock"
  rawa_province: "Rawa"
  czersk_province: "Czersk"
- ciechanow_province: "Ciechanow"
- checiny_province: "Ch?ciny"
- czestochowa_province: "Cz?stochowa"
- krakow_province: "Krakow"
+ ciechanow_province: "CiechanÃ³w"
+ checiny_province: "ChÄ™ciny"
+ czestochowa_province: "CzÄ™stochowa"
+ krakow_province: "KrakÃ³w"
  lublin_province: "Lublin"
- nowy_sacz_province: "Nowy S?cz"
+ nowy_sacz_province: "Nowy SÄ…cz"
  pilzno_province: "Pilzno"
  radom_province: "Radom"
  sandomierz_province: "Sandomierz"
  szczyrzyc_province: "Szczyrzyc"
- tesin_province: "T??in"
+ tesin_province: "TÄ›Å¡Ã­n"
  opole_province: "Opole"
- wroclaw_province: "Wroc?aw"
+ wroclaw_province: "WrocÅ‚aw"
  legnica_province: "Legnica"
- glogow_province: "G?ogow"
- olesnica_province: "Ole?nica"
- swidnica_province: "?widnica"
- zagan_province: "?aga?"
+ glogow_province: "GÅ‚ogÃ³w"
+ olesnica_province: "OleÅ›nica"
+ swidnica_province: "Åšwidnica"
+ zagan_province: "Å»agaÅ„"
  podlasie_province: "Podlasie"
  ashmyany_province: "Ashmyany"
  svir_province: "Svir"
- suwalki_province: "Suwa?ki"
+ suwalki_province: "SuwaÅ‚ki"
  grodno_province: "Grodno"
  bresta_province: "Bresta"
  kobryn_province: "Kobryn"
@@ -2407,9 +2407,9 @@ l_english:
  vilnius_province: "Vilnius"
  lida_province: "Lida"
  kaunas_province: "Kaunas"
- vilkmerge_province: "Ukmerg?"
- upyte_province: "Upyt?"
- siauliai_province: "?iauliai"
+ vilkmerge_province: "UkmergÄ—"
+ upyte_province: "UpytÄ—"
+ siauliai_province: "Å iauliai"
  breslauja_province: "Breslauja"
  kyiv_province: "Kyiv"
  porossia_province: "Porossia"
@@ -2511,7 +2511,7 @@ l_english:
  kartli_province: "Kartli"
  kakheti_province: "Kakheti"
  lezgistan_province: "Lezgistan"
- mughan_province: "Mu?an"
+ mughan_province: "MuÄŸan"
  north_caucasus_province: "North Caucasus"
  samegrelo_province: "Samegrelo"
  samtskhe_province: "Samtskhe"
@@ -2530,7 +2530,7 @@ l_english:
     #Centrak Asia
       #Khorasan Region
  #Badakhshan Area
- badakhshan_province: "Badakh??n"
+ badakhshan_province: "BadakhÅ¡Än"
  darvaz_province: "Darvaz"
  hissar_province: "Hissar"
  kulab_province: "Kulab"
@@ -2557,11 +2557,11 @@ l_english:
  ural_province: "Ural"
  zhamshy_province: "Zhamshy"
  #Eastern Khorasan Area
- badhghis_province: "B?d??s"
+ badhghis_province: "BÄdá¸¡Ä«s"
  balkh_province: "Balkh"
  bamyan_province: "Bamyan"
- herat_province: "Her?t"
- kunduz_province: "Kunduz"
+ herat_province: "HerÄt"
+ kunduz_province: "KundÃ»z"
  maymana_province: "Maymana"
  merv_province: "Merv"
  #Khwarezm Area
@@ -2590,15 +2590,15 @@ l_english:
  turkestan_province: "Turkestan"
  yangikent_province: "Yangikent"
  #Western Khorasan Area
- bojnurd_province: "Bojn?rd" 
- esfarayen_province: "Esfar?yen"
+ bojnurd_province: "BojnÅ«rd" 
+ esfarayen_province: "EsfarÄyen"
  faraveh_province: "Faraveh"
  konjikala_province: "Konjikala"
- mashhad_province: "Ma?had"
- nishapur_province: "N?sh?p?r"
- sabzevar_province: "Sabzev?r"
+ mashhad_province: "MaÅ¡had"
+ nishapur_province: "NÄ«shÄpÅ«r"
+ sabzevar_province: "SabzevÄr"
  tejend_province: "Tejend"
- torbat_e_jam_province: "Torbat-e J?m"
+ torbat_e_jam_province: "Torbat-e JÄm"
  #Zhetysu Area
  akkol_province: "Akkol"
  almaliq_province: "Almaliq"
@@ -2612,114 +2612,114 @@ l_english:
  sozak_province: "Sozak"
  talas_province: "Talas"
  #Fujian Area
- funing_province: "Funing" #•Ÿ?/•Ÿ”J
- fuzhou_province: "Fuzh?u" #•ŸB
- jianning_province: "Jianning" #Œš”J
- quanzhou_province: "Quanzh?u" #òB
- shaowu_province: "Shaow?" #ç¸•
- tingzhou_province: "T?ngzh?u" #’óB
- xinghua_province: "X?nghua" #‹»‰»
- yanping_province: "Yanping" #‰„•½
- zhangzhou_province: "Zh?ngzh?u" #?B
+ funing_province: "FÃºnÃ­ng" #ç¦å®/ç¦å¯§
+ fuzhou_province: "FÃºzhÅu" #ç¦å·
+ jianning_province: "JiÃ nnÃ­ng" #å»ºå¯§
+ quanzhou_province: "QuÃ¡nzhÅu" #æ³‰å·
+ shaowu_province: "ShÃ owÇ”" #é‚µæ­¦
+ tingzhou_province: "TÄ«ngzhÅu" #æ±€å·
+ xinghua_province: "XÄ«nghuÃ " #èˆˆåŒ–
+ yanping_province: "YÃ¡npÃ­ng" #å»¶å¹³
+ zhangzhou_province: "ZhÄngzhÅu" #æ¼³å·
  #Huguang Area
- anlu_province: "?nlu" #ˆÀ?/ˆÀ—¤
- baoqing_province: "B?oqing" #›Œc
- changde_province: "Changde" #íúº
- changsha_province: "Ch?ngsh?" #?¹/’·¹
- chen_province: "Ch?n" #?
- chenzhou_province: "Chenzh?u" #’CB
- dean_province: "De'?n" #úºˆÀ/úºˆÀ
- daozhou_province: "Daozh?u" #“¹B/“¹B
- fangzhou_province: "Fangzh?u" #–[B/–[B
- guiyang_province: "Guiyang" #Œj?/Œj—z
- guizhou_huguang_province: "Gu?zh?u" #?B/ŸdB
- hanyang_province: "Hanyang" #??/Š¿—z
- hengzhou_province: "Hengzh?u" #tB
- huangzhou_province: "Huangzh?u" #‰©B/?B
- jing_province: "Jing" #–õ/–õ
- jingmen_province: "J?ngmen" #??/Œt–å
- jingzhou_province: "J?ngzh?u" #?B/ŒtB
- junzhou_province: "J?nzh?u" #‹ÏB/‹ÏB
- lizhou_province: "L?zh?u" #?B/?B
- mianyang_province: "Mi?nyang" #??/?—z
- shizhou_province: "Sh?zh?u" #{B
- suizhou_province: "Suizh?u" #B/ç¬B
- wuchang_province: "W?ch?ng" #•¹
- wugang_province: "W?g?ng" #•?/•‰ª
- xiangxiang_province: "Xi?ngxi?ng" #Ã?/Ã?
- xiangyang_province: "Xi?ngyang" #åõ?/åõ—z
- xingguo_province: "X?ngguo" #?‘/‹»š 
- yiling_province: "Yiling" #ˆÎ—Ë/ˆÎ—Ë
- yongshun_province: "Y?ngshun" #‰i?/‰i‡
- yongzhou_province: "Y?ngzh?u" #‰iB
- youzhou_province: "Y?uzh?u" #¿B/¿B
- yuanzhou_huguang_province: "Yuanzh?u" #?B/?B
- yuezhou_province: "Yuezh?u" #ŠxB
+ anlu_province: "Ä€nlÃ¹" #å®‰é™†/å®‰é™¸
+ baoqing_province: "BÇoqÃ¬ng" #å¯¶æ…¶
+ changde_province: "ChÃ¡ngdÃ©" #å¸¸å¾·
+ changsha_province: "ChÇngshÄ" #é•¿æ²™/é•·æ²™
+ chen_province: "ChÄ“n" #éƒ´
+ chenzhou_province: "ChÃ©nzhÅu" #è¾°å·
+ dean_province: "DÃ©'Än" #å¾·å®‰/å¾·å®‰
+ daozhou_province: "DÃ ozhÅu" #é“å·/é“å·
+ fangzhou_province: "FÃ¡ngzhÅu" #æˆ¿å·/æˆ¿å·
+ guiyang_province: "GuÃ¬yÃ¡ng" #æ¡‚é˜³/æ¡‚é™½
+ guizhou_huguang_province: "GuÄ«zhÅu" #å½’å·/æ­¸å·
+ hanyang_province: "HÃ nyÃ¡ng" #æ±‰é˜³/æ¼¢é™½
+ hengzhou_province: "HÃ©ngzhÅu" #è¡¡å·
+ huangzhou_province: "HuÃ¡ngzhÅu" #é»„å·/é»ƒå·
+ jing_province: "JÃ¬ng" #é–/é–
+ jingmen_province: "JÄ«ngmÃ©n" #è†é—¨/èŠé–€
+ jingzhou_province: "JÄ«ngzhÅu" #è†å·/èŠå·
+ junzhou_province: "JÅ«nzhÅu" #å‡å·/å‡å·
+ lizhou_province: "LÇzhÅu" #æ¾§å·/æ¾§å·
+ mianyang_province: "MiÇnyÃ¡ng" #æ²”é˜³/æ²”é™½
+ shizhou_province: "ShÄ«zhÅu" #æ–½å·
+ suizhou_province: "SuÃ­zhÅu" #éšå·/éš¨å·
+ wuchang_province: "WÇ”chÄng" #æ­¦æ˜Œ
+ wugang_province: "WÇ”gÄng" #æ­¦å†ˆ/æ­¦å²¡
+ xiangxiang_province: "XiÄngxiÄng" #æ¹˜ä¹¡/æ¹˜é„‰
+ xiangyang_province: "XiÄngyÃ¡ng" #è¥„é˜³/è¥„é™½
+ xingguo_province: "XÄ«ngguÃ³" #å…´å›½/èˆˆåœ‹
+ yiling_province: "YÃ­lÃ­ng" #å¤·é™µ/å¤·é™µ
+ yongshun_province: "YÇ’ngshÃ¹n" #æ°¸é¡º/æ°¸é †
+ yongzhou_province: "YÇ’ngzhÅu" #æ°¸å·
+ youzhou_province: "YÅuzhÅu" #æ”¸å·/æ”¸å·
+ yuanzhou_huguang_province: "YuÃ¡nzhÅu" #æ²…å·/æ²…å·
+ yuezhou_province: "YuÃ¨zhÅu" #å²³å·
  #Jiangxi Area
- dingnan_province: "Dingnan" #’è“ì/’è“ì
- fuzhou_jiangxi_province: "F?zh?u" #?B/•B
- ganzhou_province: "Ganzh?u" #?B
- guangxin_province: "Gu?ngxin" #›öM/œAM
- jian_province: "Ji'?n" #‹gˆÀ
- jianchang_province: "Jianch?ng" #Œš¹
- jiujiang_province: "Ji?ji?ng" #‹ã]
- linjiang_province: "Linji?ng" #—Õ]
- nanan_province: "Nan'?n" #“ìˆÀ
- nanchang_province: "Nanch?ng" #“ì¹
- nankang_province: "Nank?ng" #“ìN
- ningdu_province: "Ningd?" #?“s/”J“s
- ningzhou_province: "Ningzh?u" #?B/”JB
- raozhou_province: "Raozh?u" #?B/é`B
- ruizhou_province: "Ruizh?u" #B
- taihe_province: "Taihe" #‘¾˜a/‘¾˜a
- yuanzhou_province: "Yuanzh?u" #åÍB
+ dingnan_province: "DÃ¬ngnÃ¡n" #å®šå—/å®šå—
+ fuzhou_jiangxi_province: "FÇ”zhÅu" #æŠšå·/æ’«å·
+ ganzhou_province: "GÃ nzhÅu" #èµ£å·
+ guangxin_province: "GuÇngxÃ¬n" #å¹¿ä¿¡/å»£ä¿¡
+ jian_province: "JÃ­'Än" #å‰å®‰
+ jianchang_province: "JiÃ nchÄng" #å»ºæ˜Œ
+ jiujiang_province: "JiÇ”jiÄng" #ä¹æ±Ÿ
+ linjiang_province: "LÃ­njiÄng" #è‡¨æ±Ÿ
+ nanan_province: "NÃ¡n'Än" #å—å®‰
+ nanchang_province: "NÃ¡nchÄng" #å—æ˜Œ
+ nankang_province: "NÃ¡nkÄng" #å—åº·
+ ningdu_province: "NÃ­ngdÅ«" #å®éƒ½/å¯§éƒ½
+ ningzhou_province: "NÃ­ngzhÅu" #å®å·/å¯§å·
+ raozhou_province: "RÃ¡ozhÅu" #é¥¶å·/é¥’å·
+ ruizhou_province: "RuÃ¬zhÅu" #ç‘å·
+ taihe_province: "TÃ ihÃ©" #å¤ªå’Œ/å¤ªå’Œ
+ yuanzhou_province: "YuÃ¡nzhÅu" #è¢å·
  #Nanzhili Area
- anqing_province: "?nqing" #ˆÀŒc
- bozhou_nanzhili_province: "Bozh?u" #˜¶B/˜¶B
- changzhou_province: "Changzh?u" #íB
- chizhou_province: "Chizh?u" #’rB
- chuzhou_province: "Chuzh?u" #?B
- fengyang_province: "Fengyang" #??/–P—z
- gaoyou_province: "G?oyou" #‚?/‚—X
- guangde_province: "Gu?ngde" #›öúº/œAúº
- haizhou_province: "H?izh?u" #ŠCB/ŠCB
- he_province: "He" #˜aãp
- huaian_province: "Huai'?n" #ŸÌˆÀ
- huizhou_province: "Hu?zh?u" #‹JB
- luan_nanzhili_province: "Lu'?n" #˜ZˆÀ
- luzhou_province: "Luzh?u" #àmB
- ningguo_province: "Ningguo" #?‘/”Jš 
- pizhou_province: "P?zh?u" #?B
- songjiang_province: "S?ngji?ng" #¼]
- shouzhou_province: "Shouzh?u" #õB/šæB
- sizhou_province: "Sizh?u" #Ÿ™B
- suzhou_province: "S?zh?u" #?B/‘hB
- suzhou_north_province: "Suzh?u" #hB/hB
- taiping_province: "Taiping" #‘¾•½
- taizhou_nanzhili_province: "Taizh?u" #‘×B/‘×B
- tongzhou_province: "T?ngzh?u" #’ÊB/’ÊB
- xuzhou_province: "Xuzh?u" #™B
- yangzhou_province: "Yangzh?u" #?B/—gB
- yingtian_province: "Y?ngti?n" #œä“V
- yingzhou_province: "Y?ngzh?u" #?B
- zhenjiang_province: "Zhenji?ng" #?]/’Á]
+ anqing_province: "Ä€nqÃ¬ng" #å®‰æ…¶
+ bozhou_nanzhili_province: "BÃ³zhÅu" #äº³å·/äº³å·
+ changzhou_province: "ChÃ¡ngzhÅu" #å¸¸å·
+ chizhou_province: "ChÃ­zhÅu" #æ± å·
+ chuzhou_province: "ChÃºzhÅu" #æ»å·
+ fengyang_province: "FÃ¨ngyÃ¡ng" #å‡¤é˜³/é³³é™½
+ gaoyou_province: "GÄoyÃ³u" #é«˜é‚®/é«˜éƒµ
+ guangde_province: "GuÇngdÃ©" #å¹¿å¾·/å»£å¾·
+ haizhou_province: "HÇizhÅu" #æµ·å·/æµ·å·
+ he_province: "HÃ©" #å’Œç¸£
+ huaian_province: "HuÃ¡i'Än" #æ·®å®‰
+ huizhou_province: "HuÄ«zhÅu" #å¾½å·
+ luan_nanzhili_province: "LÃ¹'Än" #å…­å®‰
+ luzhou_province: "LÃºzhÅu" #ç€˜å·
+ ningguo_province: "NÃ­ngguÃ³" #å®å›½/å¯§åœ‹
+ pizhou_province: "PÄ«zhÅu" #é‚³å·
+ songjiang_province: "SÅngjiÄng" #æ¾æ±Ÿ
+ shouzhou_province: "ShÃ²uzhÅu" #å¯¿å·/å£½å·
+ sizhou_province: "SÃ¬zhÅu" #æ³—å·
+ suzhou_province: "SÅ«zhÅu" #è‹å·/è˜‡å·
+ suzhou_north_province: "SÃ¹zhÅu" #å®¿å·/å®¿å·
+ taiping_province: "TÃ ipÃ­ng" #å¤ªå¹³
+ taizhou_nanzhili_province: "TÃ izhÅu" #æ³°å·/æ³°å·
+ tongzhou_province: "TÅngzhÅu" #é€šå·/é€šå·
+ xuzhou_province: "XÃºzhÅu" #å¾å·
+ yangzhou_province: "YÃ¡ngzhÅu" #æ‰¬å·/æšå·
+ yingtian_province: "YÄ«ngtiÄn" #æ‡‰å¤©
+ yingzhou_province: "YÇngzhÅu" #é¢å·
+ zhenjiang_province: "ZhÃ¨njiÄng" #é•‡æ±Ÿ/é®æ±Ÿ
  #Taiwan Area
  east_taiwan_province: "East Taiwan"
  north_taiwan_province: "North Taiwan"
  south_taiwan_province: "South Taiwan"
  west_taiwan_province: "West Taiwan"
  #Zhejiang Area
- chuzhou_zhejiang_province: "Chuzh?u" #?B/™|B
- hangzhou_province: "Hangzh?u" #YB
- huzhou_province: "Huzh?u" #ŒÎB
- jiaxing_province: "Ji?x?ng" #‰Ã‹»
- jinhua_province: "J?nhua" #‹à?/‹à‰Ø
- ningbo_province: "Ningb?" #”J”g
- quzhou_province: "Quzh?u" #åËB
- shaoxing_province: "Shaox?ng" #Ğ‹»
- taizhou_province: "T?izh?u" #‘äB
- wenzhou_province: "W?nzh?u" #?B
- yanzhou_province: "Yanzh?u" #šB
+ chuzhou_zhejiang_province: "ChÃ¹zhÅu" #å¤„å·/è™•å·
+ hangzhou_province: "HÃ¡ngzhÅu" #æ­å·
+ huzhou_province: "HÃºzhÅu" #æ¹–å·
+ jiaxing_province: "JiÄxÄ«ng" #å˜‰èˆˆ
+ jinhua_province: "JÄ«nhuÃ¡" #é‡‘å/é‡‘è¯
+ ningbo_province: "NÃ­ngbÅ" #å¯§æ³¢
+ quzhou_province: "QÃºzhÅu" #è¡¢å·
+ shaoxing_province: "ShÃ oxÄ«ng" #ç´¹èˆˆ
+ taizhou_province: "TÄizhÅu" #å°å·
+ wenzhou_province: "WÄ“nzhÅu" #æº«å·
+ yanzhou_province: "YÃ¡nzhÅu" #åš´å·
  #East China Coastline
  east_china_sea_province: "East China Sea"
  taiwan_coast_province: "Taiwan Coast"
@@ -2731,7 +2731,7 @@ l_english:
  #Bukgye Area
       #Manchuria Region
  #Liaodong Area
- dingliao_province: "Dingliao" #’¸—¾
+ dingliao_province: "Dingliao" #é ‚å¯®
  gaizhou_province: "Gaizhou"
  guangning_province: "Guangning"
  jinzhou_province: "Jinzhou"
@@ -2814,7 +2814,7 @@ l_english:
  upper_onon_province: "Upper Onon"
  #Southern Gobi Area
  alasha_province: "Alasha"
- hetao_province: "Hetao" 
+ hetao_province: "HÃ©tÃ o" 
  khara_khoto_province: "Khara Khoto"
  ordos_province: "Ordos"
  western_gobi_province: "Western Gobi"
@@ -2837,203 +2837,203 @@ l_english:
  valley_of_the_lakes_province: "Valley of the Lakes"
       #North China Region
  #Beizili Area
- anzhou_province: "?nzh?u" #ˆÀB/ˆÀB
- baoan_province: "B?o'?n" #•ÛˆÀ/•ÛˆÀ
- baoding_province: "B?oding" #•Û’è/•Û’è
- bazhou_province: "Bazh?u" #PB/PB
- cangzhou_province: "C?ngzh?u" #?B/ŸéB
- changping_province: "Ch?ngping" #¹•½/¹•½
- chaoyang_province: "Chaoyang" #’©?/’©—z
- daming_province: "Daming" #‘å–¼/‘å–¼
- daning_province: "Daning" #‘å?/‘å”J
- dingzhou_province: "Dingzh?u" #’èB/’èB
- guangping_province: "Gu?ngping" #›ö•½/œA•½
- hejian_province: "Heji?n" #‰Í?/‰ÍŠÔ
- jingzhou_beizhili_province: "J?ngzh?u" #ŒiB/ŒiB
- jizhou_province: "Jizh?u" #?B/åHB
- jizhou_zhending_province: "Jizh?u" #™bB/™bB
- kaizhou_province: "K?izh?u" #?B/ŠJB
- luanzhou_province: "Luanzh?u" #?B/?B
- quanning_province: "Quanning" #‘S?/‘S”J
- qingzhou_beizhili_province: "Q?ngzh?u" #´B/´B
- qizhou_province: "Qizh?u" #ŒVB/ŒVB
- shangdu_province: "Shangd?" #ã“s/ã“s
- shenzhou_province: "Sh?nzh?u" #[B/[B
- shunde_province: "Shunde" #?úº/‡úº
- shuntian_province: "Shunti?n" #‡“V
- tongzhou_beizhili_province: "T?ngzh?u" #’ÊB/’ÊB
- wanquan_province: "Wanquan" #–œ‘S/äİ‘S
- xinghe_province: "Xinghe" #?˜a/‹»˜a
- xingzhou_province: "Xingzh?u" #?B/‹»B
- yizhou_province: "Yizh?u" #ˆÕB/ˆÕB
- yongping_province: "Y?ngping" #‰i•½/‰i•½
- zhaozhou_province: "Zhaozh?u" #?B/æâB
- zhending_province: "Zh?nding" #^’è/^’è
+ anzhou_province: "Ä€nzhÅu" #å®‰å·/å®‰å·
+ baoan_province: "BÇo'Än" #ä¿å®‰/ä¿å®‰
+ baoding_province: "BÇodÃ¬ng" #ä¿å®š/ä¿å®š
+ bazhou_province: "BÃ zhÅu" #éœ¸å·/éœ¸å·
+ cangzhou_province: "CÄngzhÅu" #æ²§å·/æ»„å·
+ changping_province: "ChÄngpÃ­ng" #æ˜Œå¹³/æ˜Œå¹³
+ chaoyang_province: "ChÃ¡oyÃ¡ng" #æœé˜³/æœé™½
+ daming_province: "DÃ mÃ­ng" #å¤§å/å¤§å
+ daning_province: "DÃ nÃ­ng" #å¤§å®/å¤§å¯§
+ dingzhou_province: "DÃ¬ngzhÅu" #å®šå·/å®šå·
+ guangping_province: "GuÇngpÃ­ng" #å¹¿å¹³/å»£å¹³
+ hejian_province: "HÃ©jiÄn" #æ²³é—´/æ²³é–“
+ jingzhou_beizhili_province: "JÇngzhÅu" #æ™¯å·/æ™¯å·
+ jizhou_province: "JÃ¬zhÅu" #è“Ÿå·/è–Šå·
+ jizhou_zhending_province: "JÃ¬zhÅu" #å†€å·/å†€å·
+ kaizhou_province: "KÄizhÅu" #å¼€å·/é–‹å·
+ luanzhou_province: "LuÃ¡nzhÅu" #æ»¦å·/ç¤å·
+ quanning_province: "QuÃ¡nnÃ­ng" #å…¨å®/å…¨å¯§
+ qingzhou_beizhili_province: "QÄ«ngzhÅu" #æ¸…å·/æ¸…å·
+ qizhou_province: "QÃ­zhÅu" #ç¥å·/ç¥å·
+ shangdu_province: "ShÃ ngdÅ«" #ä¸Šéƒ½/ä¸Šéƒ½
+ shenzhou_province: "ShÄ“nzhÅu" #æ·±å·/æ·±å·
+ shunde_province: "ShÃ¹ndÃ©" #é¡ºå¾·/é †å¾·
+ shuntian_province: "ShÃ¹ntiÄn" #é †å¤©
+ tongzhou_beizhili_province: "TÅngzhÅu" #é€šå·/é€šå·
+ wanquan_province: "WÃ nquÃ¡n" #ä¸‡å…¨/è¬å…¨
+ xinghe_province: "XÃ¬nghÃ©" #å…´å’Œ/èˆˆå’Œ
+ xingzhou_province: "XÃ¬ngzhÅu" #å…´å·/èˆˆå·
+ yizhou_province: "YÃ¬zhÅu" #æ˜“å·/æ˜“å·
+ yongping_province: "YÇ’ngpÃ­ng" #æ°¸å¹³/æ°¸å¹³
+ zhaozhou_province: "ZhÃ ozhÅu" #èµµå·/è¶™å·
+ zhending_province: "ZhÄ“ndÃ¬ng" #çœŸå®š/çœŸå®š
  #Henan Area
- chenzhou_henan_province: "Chenzh?u" #?B/?B
- cizhou_province: "Cizh?u" #¥B/¥B
- dengzhou_henan_province: "Dengzh?u" #?B/û¹B
- henan_province: "Henan" #‰Í“ì
- guangzhou_henan_province: "Gu?ngzh?u" #ŒõB/ŒõB
- guide_province: "Gu?de" #?úº/Ÿdúº
- huaiqing_province: "Huaiqing" #??/œåŒc
- kaifeng_province: "K?if?ng" #?••/ŠJ••
- nanyang_province: "Nanyang" #“ì?/“ì—z
- runing_province: "R?ning" #“ğ?/“ğ”J
- ruzhou_province: "R?zh?u" #“ğB/“ğB
- shanzhou_province: "Sh?nzh?u" #?B/èŸB
- songzhou_province: "S?ngzh?u" #“B/“B
- suizhou_henan_province: "Su?zh?u" #?B/?B
- weihui_province: "Weihu?" #??/‰q‹P
- xinyang_province: "Xinyang" #M?/M—z
- xuzhou_henan_province: "X?zh?u" #?B/‹–B
- yuzhou_province: "Yuzh?u" #—TB/—TB
- zhangde_province: "Zh?ngde" #²úº/²úº
- zhengzhou_province: "Zhengzh?u" #?B/“AB
+ chenzhou_henan_province: "ChÃ©nzhÅu" #é™ˆå·/é™ˆå·
+ cizhou_province: "CÃ­zhÅu" #ç£å·/ç£å·
+ dengzhou_henan_province: "DÃ¨ngzhÅu" #é‚“å·/é„§å·
+ henan_province: "HÃ©nÃ¡n" #æ²³å—
+ guangzhou_henan_province: "GuÄngzhÅu" #å…‰å·/å…‰å·
+ guide_province: "GuÄ«dÃ©" #å½’å¾·/æ­¸å¾·
+ huaiqing_province: "HuÃ¡iqÃ¬ng" #æ€€åº†/æ‡·æ…¶
+ kaifeng_province: "KÄifÄ“ng" #å¼€å°/é–‹å°
+ nanyang_province: "NÃ¡nyÃ¡ng" #å—é˜³/å—é™½
+ runing_province: "RÇ”nÃ­ng" #æ±å®/æ±å¯§
+ ruzhou_province: "RÇ”zhÅu" #æ±å·/æ±å·
+ shanzhou_province: "ShÇnzhÅu" #é™•å·/é™å·
+ songzhou_province: "SÅngzhÅu" #åµ©å·/åµ©å·
+ suizhou_henan_province: "SuÄ«zhÅu" #ç¢å·/ç¢å·
+ weihui_province: "WÃ¨ihuÄ«" #å«è¾‰/è¡›è¼
+ xinyang_province: "XÃ¬nyÃ¡ng" #ä¿¡é˜³/ä¿¡é™½
+ xuzhou_henan_province: "XÇ”zhÅu" #è®¸å·/è¨±å·
+ yuzhou_province: "YÃ¹zhÅu" #è£•å·/è£•å·
+ zhangde_province: "ZhÄngdÃ©" #å½°å¾·/å½°å¾·
+ zhengzhou_province: "ZhÃ¨ngzhÅu" #éƒ‘å·/é„­å·
  #Shandong Area
- binzhou_province: "B?nzh?u" #?B/à_B
- caozhou_province: "Caozh?u" #‘‚B/‘‚B
- dezhou_province: "Dezh?u" #úºB/úºB
- dengzhou_province: "D?ngzh?u" #“oB/“oB
- dongchang_province: "D?ngch?ng" #?¹/“Œ¹
- dongping_province: "D?ngping" #?•½/“Œ•½
- gaotang_province: "G?otang" #‚“‚/‚“‚
- jiaozhou_province: "Ji?ozh?u" #?B/äPB
- jinan_province: "J?nan" #?“ì/àZ“ì
- jining_province: "Jining" #??/àZ”J
- juzhou_province: "J?zh?u" #?B/?B
- laizhou_province: "Laizh?u" #—‰B/?B
- linqing_province: "Linq?ng" #?´/—Õ´
- mizhou_province: "Mizh?u" #–§B/–§B
- ninghai_province: "Ningh?i" #?ŠC/”JŠC
- puzhou_province: "Puzh?u" #à`B/à`B
- qingzhou_province: "Q?ngzh?u" #ÂB/ÂB
- shanzhou_shandong_province: "Shanzh?u" #?B/šdB
- taian_province: "Tai'?n" #‘×ˆÀ/‘×ˆÀ
- tengzhou_province: "Tengzh?u" #ŸìB/ŸìB
- wuding_shandong_province: "W?ding" #•’è/•’è
- yanzhou_shandong_province: "Y?nzh?u" #?B/?B
- yizhou_shandong_province: "Yizh?u" #Ÿ‹B/Ÿ‹B 
+ binzhou_province: "BÄ«nzhÅu" #æ»¨å·/æ¿±å·
+ caozhou_province: "CÃ¡ozhÅu" #æ›¹å·/æ›¹å·
+ dezhou_province: "DÃ©zhÅu" #å¾·å·/å¾·å·
+ dengzhou_province: "DÄ“ngzhÅu" #ç™»å·/ç™»å·
+ dongchang_province: "DÅngchÄng" #ä¸œæ˜Œ/æ±æ˜Œ
+ dongping_province: "DÅngpÃ­ng" #ä¸œå¹³/æ±å¹³
+ gaotang_province: "GÄotÃ¡ng" #é«˜å”/é«˜å”
+ jiaozhou_province: "JiÄozhÅu" #èƒ¶å·/è† å·
+ jinan_province: "JÇnÃ¡n" #æµå—/æ¿Ÿå—
+ jining_province: "JÃ¬nÃ­ng" #æµå®/æ¿Ÿå¯§
+ juzhou_province: "JÇ”zhÅu" #è’å·/è’å·
+ laizhou_province: "LÃ¡izhÅu" #è±å·/èŠå·
+ linqing_province: "LÃ­nqÄ«ng" #ä¸´æ¸…/è‡¨æ¸…
+ mizhou_province: "MÃ¬zhÅu" #å¯†å·/å¯†å·
+ ninghai_province: "NÃ­nghÇi" #å®æµ·/å¯§æµ·
+ puzhou_province: "PÃºzhÅu" #æ¿®å·/æ¿®å·
+ qingzhou_province: "QÄ«ngzhÅu" #é’å·/é’å·
+ shanzhou_shandong_province: "ShÃ nzhÅu" #å•å·/å–®å·
+ taian_province: "TÃ i'Än" #æ³°å®‰/æ³°å®‰
+ tengzhou_province: "TÃ©ngzhÅu" #æ»•å·/æ»•å·
+ wuding_shandong_province: "WÇ”dÃ¬ng" #æ­¦å®š/æ­¦å®š
+ yanzhou_shandong_province: "YÇnzhÅu" #å…–å·/å…—å·
+ yizhou_shandong_province: "YÃ­zhÅu" #æ²‚å·/æ²‚å· 
        #Shanxi Area
- baode_province: "B?ode" #•Ûúº/•Ûúº
- daizhou_province: "Daizh?u" #‘ãB/‘ãB
- datong_province: "Datong" #‘å“¯/‘å“¯
- fenzhou_province: "Fenzh?u" #ŸB/ŸB
- qingcheng_province: "Q?ngcheng" #Âé/Âé
- huozhou_province: "Huozh?u" #è·B/è·B
- jiangzhou_province: "Jiangzh?u" #?B/ãKB
- jining_shanxi_province: "J?ning" #??/àZ”J
- kelan_province: "K?lan" #??/?—’
- liaozhou_province: "Liaozh?u" #?B/—ÉB
- luan_province: "Lu?n" #?ˆÀ/?ˆÀŠ—B
- pingding_province: "Pingding" #•½’è/•½’è
- pingyang_province: "Pingyang" #•½?/•½—z
- puzhou_shanxi_province: "Puzh?u" #Š—B/Š—B
- qinzhou_province: "Qinzh?u" #ŸB/ŸB
- shizhou_shanxi_province: "Shizh?u" #ÎB/ÎB
- taiyuan_province: "Taiyuan" #‘¾Œ´/‘¾Œ´
- xiezhou_province: "Xi?zh?u" #‰ğB/‰ğB
- xinzhou_province: "X?nzh?u" #œvB/œvB
- xizhou_province: "Xizh?u" #è¬B/è¬B
- yingzhou_shanxi_province: "Y?ngzh?u" #?B/œäB
- yuzhou_shanxi_province: "Yuzh?u" #á±B/á±B
- zezhou_province: "Zezh?u" #?B/àVB
+ baode_province: "BÇodÃ©" #ä¿å¾·/ä¿å¾·
+ daizhou_province: "DÃ izhÅu" #ä»£å·/ä»£å·
+ datong_province: "DÃ tÃ³ng" #å¤§åŒ/å¤§åŒ
+ fenzhou_province: "FÃ©nzhÅu" #æ±¾å·/æ±¾å·
+ qingcheng_province: "QÄ«ngchÃ©ng" #é’åŸ/é’åŸ
+ huozhou_province: "HuÃ²zhÅu" #éœå·/éœå·
+ jiangzhou_province: "JiÃ ngzhÅu" #ç»›å·/çµ³å·
+ jining_shanxi_province: "JÇnÃ­ng" #æµå®/æ¿Ÿå¯§
+ kelan_province: "KÄ›lÃ¡n" #å²¢å²š/å²¢åµ
+ liaozhou_province: "LiÃ¡ozhÅu" #è¾½å·/é¼å·
+ luan_province: "LÃ¹Än" #æ½å®‰/æ½å®‰è’²å·
+ pingding_province: "PÃ­ngdÃ¬ng" #å¹³å®š/å¹³å®š
+ pingyang_province: "PÃ­ngyÃ¡ng" #å¹³é˜³/å¹³é™½
+ puzhou_shanxi_province: "PÃºzhÅu" #è’²å·/è’²å·
+ qinzhou_province: "QÃ¬nzhÅu" #æ²å·/æ²å·
+ shizhou_shanxi_province: "ShÃ­zhÅu" #çŸ³å·/çŸ³å·
+ taiyuan_province: "TÃ iyuÃ¡n" #å¤ªåŸ/å¤ªåŸ
+ xiezhou_province: "XiÄ›zhÅu" #è§£å·/è§£å·
+ xinzhou_province: "XÄ«nzhÅu" #å¿»å·/å¿»å·
+ xizhou_province: "XÃ­zhÅu" #éš°å·/éš°å·
+ yingzhou_shanxi_province: "YÄ«ngzhÅu" #åº”å·/æ‡‰å·
+ yuzhou_shanxi_province: "YÃºzhÅu" #ç›‚å·/ç›‚å·
+ zezhou_province: "ZÃ©zhÅu" #æ³½å·/æ¾¤å·
  #North China Coastline
  bohai_sea_province: "Bohai Sea"
  bohai_strait_province: "Bohai Strait"
  liaodong_bay_province: "Liaodong Bay"
       #South China Region
  #Guangdong Area
- chaozhou_province: "Chaozh?u" #’ªB
- deqing_province: "Deqing" #úº?/úºŒc
- dongguan_province: "D?nggu?n" #??/“Œ?
- gaozhou_province: "G?ozh?u" #‚B
- guangzhou_province: "Gu?ngzh?u" #œAB/œAB
- heyuan_province: "Heyuan" #‰ÍŒ¹
- huazhou_province: "Huazh?u" #‰»B/‰»B
- huizhou_guangdong_province: "Huizh?u" #œ¨B
- leizhou_province: "Leizh?u" #—‹B/—‹B
- lianzhou_province: "Lianzh?u" #—õB/—õB
- lianzhou_guangdong_province: "Lianzh?u" #?B/˜AB
- nanen_province: "Nan'?n" #“ì‰¶/“ì‰¶
- nanningjun_province: "Nanningj?n" #“ì??/“ì”JŒR
- nanxiong_province: "Nanxiong" #“ì—Y
- panyu_province: "P?nyu" #”Ôâ[
- qiongzhou_province: "Qiongzh?u" #àùB
- shaozhou_province: "Shaozh?u" #ç¸B
- wananjun_province: "Wan'?nj?n" #–œˆÀ?/äİˆÀŒR
- xinhui_province: "X?nhui" #Vœ¨
- xunzhou_guangdong_province: "Xunzh?u" #zB
- yingde_province: "Y?ngde" #‰púº
- zhaoqing_province: "Zhaoqing" #”£?/”£Œc
+ chaozhou_province: "ChÃ¡ozhÅu" #æ½®å·
+ deqing_province: "DÃ©qÃ¬ng" #å¾·åº†/å¾·æ…¶
+ dongguan_province: "DÅngguÇn" #ä¸œç­¦/æ±ç­¦
+ gaozhou_province: "GÄozhÅu" #é«˜å·
+ guangzhou_province: "GuÇngzhÅu" #å»£å·/å»£å·
+ heyuan_province: "HÃ©yuÃ¡n" #æ²³æº
+ huazhou_province: "HuÃ zhÅu" #åŒ–å·/åŒ–å·
+ huizhou_guangdong_province: "HuÃ¬zhÅu" #æƒ å·
+ leizhou_province: "LÃ©izhÅu" #é›·å·/é›·å·
+ lianzhou_province: "LiÃ¡nzhÅu" #å»‰å·/å»‰å·
+ lianzhou_guangdong_province: "LiÃ¡nzhÅu" #è¿å·/é€£å·
+ nanen_province: "NÃ¡n'Ä“n" #å—æ©/å—æ©
+ nanningjun_province: "NÃ¡nnÃ­ngjÅ«n" #å—å®å†›/å—å¯§è»
+ nanxiong_province: "NÃ¡nxiÃ³ng" #å—é›„
+ panyu_province: "PÄnyÃº" #ç•ªç¦º
+ qiongzhou_province: "QiÃ³ngzhÅu" #ç“Šå·
+ shaozhou_province: "ShÃ ozhÅu" #é‚µå·
+ wananjun_province: "WÃ n'ÄnjÅ«n" #ä¸‡å®‰å†›/è¬å®‰è»
+ xinhui_province: "XÄ«nhuÃ¬" #æ–°æƒ 
+ xunzhou_guangdong_province: "XÃºnzhÅu" #å¾ªå·
+ yingde_province: "YÄ«ngdÃ©" #è‹±å¾·
+ zhaoqing_province: "ZhÃ oqÃ¬ng" #è‚‡åº†/è‚‡æ…¶
  #Guangxi Area
- baishan_province: "Baish?n" #”’R
- binzhou_guangxi_province: "B?nzh?u" #?B/•oB
- guilin_province: "Guilin" #Œj—Ñ
- guishun_province: "Gu?shunzh?u" #Ÿd‡B/Ÿd‡B
- hezhou_guangxi_province: "Hezh?u" #?B/‰êB
- hengzhou_guangxi_province: "Hengzh?u" #‰¡B/úîB
- xilong_province: "X?long" #¼—²/¼—²
- liuzhou_province: "Li?zh?u" #–öB
- luorong_province: "Luorong" #—Œ—e/—Œ—e
- nandan_province: "Nand?n" #“ì’O/“ì’O
- nanning_province: "Nanning" #“ì?/“ì”J
- pingle_province: "Pingle" #•½Ù
- qingyuan_province: "Qingyu?n" #??/Œc‰“
- quanzhou_guangxi_province: "Quanzh?u" #‘SB/‘SB
- rongzhou_province: "Rongzh?u" #—ZB
- rongzhou_wuzhou_province: "Rongzh?u" #—eB
- sicheng_province: "S?cheng" #vé/vé
- siming_province: "S?mingzh?u" #v–¾B/v–¾B
- taiping_guangxi_province: "Taiping" #‘¾•½
- tengzhou_guangxi_province: "Tengzh?u" #“¡B
- tianzhou_province: "Tianzh?u" #“cB
- wuzhou_province: "Wuzh?u" #ŒæB
- xunzhou_province: "Xunzh?u" #?B/àHB
- yulin_guangxi_province: "Yulin" #ˆè—Ñ/ŸT—Ñ
+ baishan_province: "BÃ¡ishÄn" #ç™½å±±
+ binzhou_guangxi_province: "BÄ«nzhÅu" #å®¾å·/è³“å·
+ guilin_province: "GuÃ¬lÃ­n" #æ¡‚æ—
+ guishun_province: "GuÄ«shÃ¹nzhÅu" #æ­¸é †å·/æ­¸é †å·
+ hezhou_guangxi_province: "HÃ¨zhÅu" #è´ºå·/è³€å·
+ hengzhou_guangxi_province: "HÃ©ngzhÅu" #æ¨ªå·/æ©«å·
+ xilong_province: "XÄ«lÃ³ng" #è¥¿éš†/è¥¿éš†
+ liuzhou_province: "LiÇ”zhÅu" #æŸ³å·
+ luorong_province: "LuÃ²rÃ³ng" #æ´›å®¹/æ´›å®¹
+ nandan_province: "NÃ¡ndÄn" #å—ä¸¹/å—ä¸¹
+ nanning_province: "NÃ¡nnÃ­ng" #å—å®/å—å¯§
+ pingle_province: "PÃ­nglÃ¨" #å¹³æ¨‚
+ qingyuan_province: "QÃ¬ngyuÇn" #åº†è¿œ/æ…¶é 
+ quanzhou_guangxi_province: "QuÃ¡nzhÅu" #å…¨å·/å…¨å·
+ rongzhou_province: "RÃ³ngzhÅu" #èå·
+ rongzhou_wuzhou_province: "RÃ³ngzhÅu" #å®¹å·
+ sicheng_province: "SÄ«chÃ©ng" #æ€åŸ/æ€åŸ
+ siming_province: "SÄ«mÃ­ngzhÅu" #æ€æ˜å·/æ€æ˜å·
+ taiping_guangxi_province: "TÃ ipÃ­ng" #å¤ªå¹³
+ tengzhou_guangxi_province: "TÃ©ngzhÅu" #è—¤å·
+ tianzhou_province: "TiÃ¡nzhÅu" #ç”°å·
+ wuzhou_province: "WÃºzhÅu" #æ¢§å·
+ xunzhou_province: "XÃºnzhÅu" #æµ”å·/æ½¯å·
+ yulin_guangxi_province: "YÃ¹lÃ­n" #éƒæ—/é¬±æ—
  #Guizhou Area
- annan_guizhou_province: "?nnan" #ˆÀ“ì
- anshun_province: "?nshun" #ˆÀ?
- duyun_province: "D?yun" #“sú‰/“s?
- guizhou_province: "Guizh?u" #?B/‹MB
- liping_province: "Liping" #êt•½
- pingyue_province: "Pingyue" #•½‰z
- puan_province: "P?'?n" #•ˆÀ
- sinan_province: "S?nan" #v“ì
- sizhou_guizhou_province: "S?zh?u" #vB
- shunyuan_province: "Shunyuan" #‡Œ³
- tongren_province: "Tongren" #?m/“ºm
- wusawei_province: "W?s?wei" #?T?/‰GT‰q
+ annan_guizhou_province: "Ä€nnÃ¡n" #å®‰å—
+ anshun_province: "Ä€nshÃ¹n" #å®‰é¡º
+ duyun_province: "DÅ«yÃºn" #éƒ½åŒ€/éƒ½å‹»
+ guizhou_province: "GuÃ¬zhÅu" #è´µå·/è²´å·
+ liping_province: "LÃ­pÃ­ng" #é»å¹³
+ pingyue_province: "PÃ­ngyuÃ¨" #å¹³è¶Š
+ puan_province: "PÇ”'Än" #æ™®å®‰
+ sinan_province: "SÄ«nÃ¡n" #æ€å—
+ sizhou_guizhou_province: "SÄ«zhÅu" #æ€å·
+ shunyuan_province: "ShÃ¹nyuÃ¡n" #é †å…ƒ
+ tongren_province: "TÃ³ngrÃ©n" #é“œä»/éŠ…ä»
+ wusawei_province: "WÅ«sÄwÃ¨i" #ä¹Œæ’’å«/çƒæ’’è¡›
  #Yunnan Area
- beisheng_province: "B?isheng" #–k?/–kŸ
- cheli_province: "Ch?l?" #Ô—¢/Ô—¡
- chengjiang_province: "Chengji?ng" #àL]
- chuxiong_province: "Ch?xiong" #‘^—Y
- dali_province: "Dal?" #‘å—
- lanzhou_province: "Lanzh?u" #?B/—–B
- guangnan_province: "Gu?ngnan" #›ö“ì/œA“ì
- guanxi_province: "Gu?ngx?" #›ö¼/œA¼
- heni_province: "Heni" #˜a“D
- heqing_province: "Heqing" #??/’ßŒc
- jindong_province: "J?ngd?ng" #Œi?/Œi“Œ
- jinning_province: "Jinning" #W?/ç”J
- lijiang_province: "Liji?ng" #?]/—í]
- linan_province: "Lin'?n" #—ÕˆÀ
- malongtalang_province: "M?longt?lang" #”n—´‘¼˜Y/”n—´‘¼˜Y
- mangshi_province: "Mangshi" #äŠs
- mengding_province: "Mengding" #–Ğ’è
- menglian_province: "Menglian" #–Ğ?/–Ğ˜A
- mengzi_province: "Mengzi" #–Ö©
- qujing_province: "Q?jing" #‹È–õ
- shunning_province: "Shunning" #??/‡”J
- simao_province: "S?mao" #vŠ
- tengchong_province: "Tengch?ng" #?™t/“«‰«
- yaoan_province: "Yao'?n" #›LˆÀ
- yongchang_province: "Y?ngch?ng" #‰i¹
- yuanjiang_province: "Yuanji?ng" #Œ³]
- yunnan_province: "Yunnan" #‰]“ì/‰_“ì
- weiyuan_province: "W?iyu?n" #ˆĞ‰“/ˆĞ‰“
- wuding_province: "W?ding" #•’è
+ beisheng_province: "BÄ›ishÃ¨ng" #åŒ—èƒœ/åŒ—å‹
+ cheli_province: "ChÄ“lÇ" #è»Šé‡Œ/è»Šè£¡
+ chengjiang_province: "ChÃ©ngjiÄng" #æ¾‚æ±Ÿ
+ chuxiong_province: "ChÇ”xiÃ³ng" #æ¥šé›„
+ dali_province: "DÃ lÇ" #å¤§ç†
+ lanzhou_province: "LÃ¡nzhÅu" #å…°å·/è˜­å·
+ guangnan_province: "GuÇngnÃ¡n" #å¹¿å—/å»£å—
+ guanxi_province: "GuÇngxÄ«" #å¹¿è¥¿/å»£è¥¿
+ heni_province: "HÃ©nÃ­" #å’Œæ³¥
+ heqing_province: "HÃ¨qÃ¬ng" #é¹¤åº†/é¶´æ…¶
+ jindong_province: "JÇngdÅng" #æ™¯ä¸œ/æ™¯æ±
+ jinning_province: "JÃ¬nnÃ­ng" #æ™‹å®/æ™‰å¯§
+ lijiang_province: "LÃ¬jiÄng" #ä¸½æ±Ÿ/éº—æ±Ÿ
+ linan_province: "LÃ­n'Än" #è‡¨å®‰
+ malongtalang_province: "MÇlÃ³ngtÄlÃ¡ng" #é¦¬é¾ä»–éƒ/é¦¬é¾ä»–éƒ
+ mangshi_province: "MÃ¡ngshÃ¬" #èŠ’å¸‚
+ mengding_province: "MÃ¨ngdÃ¬ng" #å­Ÿå®š
+ menglian_province: "MÃ¨ngliÃ¡n" #å­Ÿè¿/å­Ÿé€£
+ mengzi_province: "MÃ©ngzÃ¬" #è’™è‡ª
+ qujing_province: "QÅ«jÃ¬ng" #æ›²é–
+ shunning_province: "ShÃ¹nnÃ­ng" #é¡ºå®/é †å¯§
+ simao_province: "SÄ«mÃ¡o" #æ€èŒ…
+ tengchong_province: "TÃ©ngchÅng" #è…¾å†²/é¨°æ²–
+ yaoan_province: "YÃ¡o'Än" #å§šå®‰
+ yongchang_province: "YÇ’ngchÄng" #æ°¸æ˜Œ
+ yuanjiang_province: "YuÃ¡njiÄng" #å…ƒæ±Ÿ
+ yunnan_province: "YÃºnnÃ¡n" #äº‘å—/é›²å—
+ weiyuan_province: "WÄ“iyuÇn" #å¨é /å¨é 
+ wuding_province: "WÇ”dÃ¬ng" #æ­¦å®š
  #South China Coastline
  south_china_sea_province: "South China Sea" 
  tonkin_gulf_province: "Tonkin Gulf"
@@ -3045,7 +3045,7 @@ l_english:
  nangchen_province: "Nangchen"
  ngapa_province: "Ngapa"
  tsaidam_province: "Tsaidam" 
- zekog_province: "Zekog"
+ zekog_province: "ZÃªkog"
  #Changtang Area
  changtang_province: "Changtang"
  naktsang_province: "Naktsang"
@@ -3062,7 +3062,7 @@ l_english:
  nakchukha_province: "Nakchukha"
  nubhor_province: "Nubhor"
  nyarong_province: "Nyarong"
- pagsho_province: "Pagsho"
+ pagsho_province: "PagshÃ¶"
  poyul_province: "Poyul"
  sangon_province: "Sangon"
  setha_province: "Setha"
@@ -3075,113 +3075,113 @@ l_english:
  guge_province: "Guge"
  ladakh_province: "Ladakh"
  lungkha_province: "Lungkha"
- mangyul_province: "Mangyul"
+ mangyul_province: "MangyÃ¼l"
  purang_province: "Purang"
  rutok_province: "Rutok"
  spiti_province: "Spiti"
  zangskar_province: "Zangskar"
  #Tsang Area
  dingri_province: "Dingri"
- lhato_province: "Lhato"
+ lhato_province: "LhatÃ¶"
  nyang_province: "Nyang"
  tsang_province: "Tsang"
  #U Area
  kongpo_province: "Kongpo"
  lhokha_province: "Lhokha"
  pemako_province: "Pemako"
- u_province: "U"
+ u_province: "Ãœ"
  yarlung_province: "Yarlung"
       #West China Region
  #Gansu Area
- ganzhou_gansu_province: "G?nzh?u" #ŠÃB/ŠÃB
- hami_province: "H?mi" #™û–§/™û–§
- shazhou_province: "Sh?zh?u" #¹B/¹B
- suzhou_gansu_province: "Suzh?u" #?B/ãçB
- xining_province: "X?ning" #¼?/¼”J
- yongchang_gansu_province: "Y?ngch?ng" #‰i¹/‰i¹ 
+ ganzhou_gansu_province: "GÄnzhÅu" #ç”˜å·/ç”˜å·
+ hami_province: "HÄmÃ¬" #å“ˆå¯†/å“ˆå¯†
+ shazhou_province: "ShÄzhÅu" #æ²™å·/æ²™å·
+ suzhou_gansu_province: "SÃ¹zhÅu" #è‚ƒå·/è‚…å·
+ xining_province: "XÄ«nÃ­ng" #è¥¿å®/è¥¿å¯§
+ yongchang_gansu_province: "YÇ’ngchÄng" #æ°¸æ˜Œ/æ°¸æ˜Œ 
        #Shaanxi Area
- binzhou_shaanxi_province: "B?nzh?u" #?B/?B
- fengxiang_province: "Fengxiang" #?ãÄ/–PãÄ
- fengzhou_province: "Fengzh?u" #?B/–PB
- fuzhou_shaanxi_province: "F?zh?u" #?B/?B
- gongchang_province: "G?ngch?ng" #?¹/èİ¹
- guyuan_province: "Guyuan" #ŒÅŒ´/ŒÅŒ´
- hanzhong_province: "Hanzh?ng" #?’†/Š¿’†
- hezhou_province: "Hezh?u" #‰ÍB/‰ÍB
- huazhou_shaanxi_province: "Huazh?u" #?B/‰ØB
- huizhou_shaanxi_province: "Hu?zh?u" #‹JB/‹JB
- jiazhou_province: "Ji?zh?u" #äÑB/äÑB
- jiezhou_province: "Ji?zh?u" #?B/ŠKB
- jingning_province: "Jingning" #Ã?/èÎ”J
- jingzhou_shaanxi_province: "J?ngzh?u" #?B/úûB
- lintao_province: "Lintao" #??/—Õ?
- lingzhou_province: "Lingzh?u" #?B/èËB
- minzhou_province: "Minzh?u" #›¯B/›¯B
- ningxia_province: "Ningxia" #?‰Ä/”J‰Ä
- pingliang_province: "Pingliang" #•½™y/•½™y
- qianzhou_province: "Qianzh?u" #Š£B/Š£B
- qingyang_province: "Qingyang" #??/Œc—z
- qinzhou_shaanxi_province: "Qinzh?u" #`B/`B
- shangzhou_province: "Sh?ngzh?u" #¤B/¤B
- suide_province: "Suide" #?úº/ãVúº
- taozhou_province: "Taozh?u" #?B/?B
- tongzhou_shaanxi_province: "Tongzh?u" #“¯B/“¯B
- xian_province: "X?'?n" #¼ˆÀ
- xingan_province: "Xing'?n" #?ˆÀ/‹»ˆÀ
- yanan_province: "Yan'?n" #‰„ˆÀ/‰„ˆÀ
- yangzhou_shaanxi_province: "Yangzh?u" #—mB/—mB 
- yaozhou_province: "Yaozh?u" #—sB/—sB 
- yulin_province: "Yulin" #‹Ê—Ñ/‹Ê—Ñ
+ binzhou_shaanxi_province: "BÄ«nzhÅu" #é‚ å·/é‚ å·
+ fengxiang_province: "FÃ¨ngxiÃ¡ng" #å‡¤ç¿”/é³³ç¿”
+ fengzhou_province: "FÃ¨ngzhÅu" #å‡¤å·/é³³å·
+ fuzhou_shaanxi_province: "FÅ«zhÅu" #é„œå·/é„œå·
+ gongchang_province: "GÇ’ngchÄng" #å·©æ˜Œ/éæ˜Œ
+ guyuan_province: "GÃ¹yuÃ¡n" #å›ºåŸ/å›ºåŸ
+ hanzhong_province: "HÃ nzhÅng" #æ±‰ä¸­/æ¼¢ä¸­
+ hezhou_province: "HÃ©zhÅu" #æ²³å·/æ²³å·
+ huazhou_shaanxi_province: "HuÃ¡zhÅu" #åå·/è¯å·
+ huizhou_shaanxi_province: "HuÄ«zhÅu" #å¾½å·/å¾½å·
+ jiazhou_province: "JiÄzhÅu" #è‘­å·/è‘­å·
+ jiezhou_province: "JiÄ“zhÅu" #é˜¶å·/éšå·
+ jingning_province: "JÃ¬ngnÃ­ng" #é™å®/éœå¯§
+ jingzhou_shaanxi_province: "JÄ«ngzhÅu" #æ³¾å·/æ¶‡å·
+ lintao_province: "LÃ­ntÃ¡o" #ä¸´æ´®/è‡¨æ´®
+ lingzhou_province: "LÃ­ngzhÅu" #çµå·/éˆå·
+ minzhou_province: "MÃ­nzhÅu" #å²·å·/å²·å·
+ ningxia_province: "NÃ­ngxiÃ " #å®å¤/å¯§å¤
+ pingliang_province: "PÃ­ngliÃ¡ng" #å¹³å‡‰/å¹³å‡‰
+ qianzhou_province: "QiÃ¡nzhÅu" #ä¹¾å·/ä¹¾å·
+ qingyang_province: "QÃ¬ngyÃ¡ng" #åº†é˜³/æ…¶é™½
+ qinzhou_shaanxi_province: "QÃ­nzhÅu" #ç§¦å·/ç§¦å·
+ shangzhou_province: "ShÄngzhÅu" #å•†å·/å•†å·
+ suide_province: "SuÃ­dÃ©" #ç»¥å¾·/ç¶å¾·
+ taozhou_province: "TÃ¡ozhÅu" #æ´®å·/æ´®å·
+ tongzhou_shaanxi_province: "TÃ³ngzhÅu" #åŒå·/åŒå·
+ xian_province: "XÄ«'Än" #è¥¿å®‰
+ xingan_province: "XÃ¬ng'Än" #å…´å®‰/èˆˆå®‰
+ yanan_province: "YÃ¡n'Än" #å»¶å®‰/å»¶å®‰
+ yangzhou_shaanxi_province: "YÃ¡ngzhÅu" #æ´‹å·/æ´‹å· 
+ yaozhou_province: "YÃ ozhÅu" #è€€å·/è€€å· 
+ yulin_province: "YÃ¹lÃ­n" #ç‰æ—/ç‰æ—
      #Sichuan Area
- baixing_province: "B?ixing" #”?/”‹»
- baoning_province: "B?oning" #•Û?/•Û”J
- bazhou_sichuan_province: "B?zh?u" #”bB/”bB
- bozhou_province: "B?zh?u" #”dB/”dB
- changning_province: "Ch?ngning" #??/’·”J
- changzhou_sichuan_province: "Ch?ngzh?u" #¹B/¹B
- chengdu_province: "Chengd?" #¬“s
- chongqing_province: "Chongqing" #d?/dŒc
- dazhou_province: "Dazh?u" #?B/’BB
- dechang_province: "Dech?ng" #úº¹/úº¹
- dongchuan_province: "D?ngchu?n" #?ì/“Œì
- fuzhou_sichuan_province: "Fuzh?u" #?B/?B
- guangan_province: "Gu?ng'?n" #›öˆÀ/œAˆÀ
- guangyuan_province: "G?angyuan" #›öŒ³/œAŒ³
- hanzhou_province: "Hanzh?u" #?B/Š¿B
- hezhou_sichuan_province: "Hezh?u" #‡B/‡B
- jiading_province: "Ji?ding" #‰Ã’è
- jianzhou_province: "Jianzh?u" #?B/™˜B
- jianzhou_west_province: "Ji?nzh?u" #?B/ŠÈB
- kuizhou_province: "Kuizh?u" #?B/?B
- lizhou_sichuan_province: "Lizh?u" #êtB/êtB
- longan_province: "Long'?n" #?ˆÀ/—´ˆÀ
- luzhou_sichuan_province: "Luzh?u" #?B/àmB
- mahu_province: "M?hu" #?ŒÎ/”nŒÎ
- maozhou_province: "Maozh?u" #–ÎB/–ÎB
- meizhou_province: "Meizh?u" #”ûB/”ûB
- muli_province: "Mul?" #–Ø—¢
- pengzhou_province: "Pengzh?u" #œdB/œdB
- qiongzhou_sichuan_province: "Qiongzh?u" #?B/?B
- shunqing_province: "Shunqing" #??/‡Œc
- sichuan_province: "Sichu?n" #lì
- songpan_province: "S?ngp?n" #¼àN
- suining_province: "Suining" #‹?/‹”J
- tongchuan_province: "Tongchu?n" #àMì
- wumeng_province: "W?meng" #?–Ö/‰G–Ö
- wusa_province: "W?s?" #?T/‰GT
- xinzhou_sichuan_province: "X?nzh?u" #VB/VB
- xuzhou_sichuan_province: "Xuzh?u" #–B/ÅB
- yazhou_province: "Y?zh?u" #‰ëB/‰ëB
- yongning_province: "Y?ngning" #‰i?/‰i”J
- youyang_province: "Y?uyang" #“Ñ?/“Ñ—z
- zhenan_province: "Zh?n?n" #^ˆÀ/^ˆÀ
- zhongzhou_province: "Zh?ngzh?u" #’‰B/’‰B
+ baixing_province: "BÇixÃ¬ng" #æŸå…´/æŸèˆˆ
+ baoning_province: "BÇonÃ­ng" #ä¿å®/ä¿å¯§
+ bazhou_sichuan_province: "BÄzhÅu" #å·´å·/å·´å·
+ bozhou_province: "BÅzhÅu" #æ’­å·/æ’­å·
+ changning_province: "ChÇngnÃ­ng" #é•¿å®/é•·å¯§
+ changzhou_sichuan_province: "ChÄngzhÅu" #æ˜Œå·/æ˜Œå·
+ chengdu_province: "ChÃ©ngdÅ«" #æˆéƒ½
+ chongqing_province: "ChÃ³ngqÃ¬ng" #é‡åº†/é‡æ…¶
+ dazhou_province: "DÃ¡zhÅu" #è¾¾å·/é”å·
+ dechang_province: "DÃ©chÄng" #å¾·æ˜Œ/å¾·æ˜Œ
+ dongchuan_province: "DÅngchuÄn" #ä¸œå·/æ±å·
+ fuzhou_sichuan_province: "FÃºzhÅu" #æ¶ªå·/æ¶ªå·
+ guangan_province: "GuÇng'Än" #å¹¿å®‰/å»£å®‰
+ guangyuan_province: "GÇ”angyÃºan" #å¹¿å…ƒ/å»£å…ƒ
+ hanzhou_province: "HÃ nzhÅu" #æ±‰å·/æ¼¢å·
+ hezhou_sichuan_province: "HÃ©zhÅu" #åˆå·/åˆå·
+ jiading_province: "JiÄdÃ¬ng" #å˜‰å®š
+ jianzhou_province: "JiÃ nzhÅu" #å‰‘å·/åŠå·
+ jianzhou_west_province: "JiÇnzhÅu" #ç®€å·/ç°¡å·
+ kuizhou_province: "KuÃ­zhÅu" #å¤”å·/å¤”å·
+ lizhou_sichuan_province: "LÃ­zhÅu" #é»å·/é»å·
+ longan_province: "LÃ³ng'Än" #é¾™å®‰/é¾å®‰
+ luzhou_sichuan_province: "LÃºzhÅu" #æ³¸å·/ç€˜å·
+ mahu_province: "MÇhÃº" #é©¬æ¹–/é¦¬æ¹–
+ maozhou_province: "MÃ ozhÅu" #èŒ‚å·/èŒ‚å·
+ meizhou_province: "MÃ©izhÅu" #çœ‰å·/çœ‰å·
+ muli_province: "MÃ¹lÇ" #æœ¨é‡Œ
+ pengzhou_province: "PÃ©ngzhÅu" #å½­å·/å½­å·
+ qiongzhou_sichuan_province: "QiÃ³ngzhÅu" #é‚›å·/é‚›å·
+ shunqing_province: "ShÃ¹nqÃ¬ng" #é¡ºåº†/é †æ…¶
+ sichuan_province: "SÃ¬chuÄn" #å››å·
+ songpan_province: "SÅngpÄn" #æ¾æ½˜
+ suining_province: "SuÃ¬nÃ­ng" #é‚å®/é‚å¯§
+ tongchuan_province: "TÃ³ngchuÄn" #æ½¼å·
+ wumeng_province: "WÅ«mÃ©ng" #ä¹Œè’™/çƒè’™
+ wusa_province: "WÅ«sÄ" #ä¹Œæ’’/çƒæ’’
+ xinzhou_sichuan_province: "XÄ«nzhÅu" #æ–°å·/æ–°å·
+ xuzhou_sichuan_province: "XÃ¹zhÅu" #å™å·/æ•˜å·
+ yazhou_province: "YÇzhÅu" #é›…å·/é›…å·
+ yongning_province: "YÇ’ngnÃ­ng" #æ°¸å®/æ°¸å¯§
+ youyang_province: "YÇ’uyÃ¡ng" #é…‰é˜³/é…‰é™½
+ zhenan_province: "ZhÄ“nÄn" #çœŸå®‰/çœŸå®‰
+ zhongzhou_province: "ZhÅngzhÅu" #å¿ å·/å¿ å·
       #Xinjiang Region
  #Dzungaria Area
  altay_province: "Altay"
  beshbalik_province: "Beshbalik"
  bortala_province: "Bortala"
- gurbantunggut_province: "Gurbantunggut"
+ gurbantunggut_province: "GurbantÃ¼nggÃ¼t"
  karakoram_province: "Karakoram"
  turpan_province: "Turpan"
  yangjibaliq_province: "Yangjibaliq"
@@ -3276,7 +3276,7 @@ l_english:
  hue_province: "Hue"
  indrapura_province: "Indrapura"
  kauthara_province: "Kauthara"
- madhyamagrama_province: "Madhyamagr?ma"
+ madhyamagrama_province: "MadhyamagrÄma"
  panduranga_province: "Panduranga"
  southern_highland_province: "Southern Highland"
  vijaya_province: "Vijaya"
@@ -3353,20 +3353,20 @@ l_english:
  phrae_province: "Phrae"
  xam_neua_province: "Xam Neua"
  #Red River Delta
- dien_chau_province: "Di?n Chau"
- hai_dong_province: "H?i ?ong"
- hoan_chau_province: "Hoan Chau" 
- lang_son_province: "L?ng S?n"
- nam_sach_province: "Nam Sach"
- nghe_an_province: "Ngh? An"
- nguu_hoong_province: "Ng?u H?ng"
- quy_hoa_province: "Quy Hoa"
- thai_nguyen_province: "Thai Nguyen"
- thang_long_province: "Th?ng Long"
- thanh_hoa_province: "Thanh Hoa"
- thien_truong_province: "Thien Tr??ng"
- tuyen_hoa_province: "Tuyen Hoa"
- tru_vien_province: "Tru Vi?n"
+ dien_chau_province: "Diá»…n ChÃ¢u"
+ hai_dong_province: "Háº£i ÄÃ´ng"
+ hoan_chau_province: "Hoan ChÃ¢u" 
+ lang_son_province: "Láº¡ng SÆ¡n"
+ nam_sach_province: "Nam SÃ¡ch"
+ nghe_an_province: "Nghá»‡ An"
+ nguu_hoong_province: "NgÆ°u Há»‘ng"
+ quy_hoa_province: "Quy HÃ²a"
+ thai_nguyen_province: "ThÃ¡i NguyÃªn"
+ thang_long_province: "ThÄƒng Long"
+ thanh_hoa_province: "Thanh HÃ³a"
+ thien_truong_province: "ThiÃªn TrÆ°á»ng"
+ tuyen_hoa_province: "TuyÃªn HÃ³a"
+ tru_vien_province: "Tru Viá»‡n"
  #Shan Highland
  hsenwi_province: "Hsenwi"
  hsipaw_province: "Hsipaw"
@@ -3574,70 +3574,70 @@ l_english:
     #Middle East
       #Arabia Region
  #Bahrein Area
- al_ahsa_province: "Al-A?s?"
- batin_province: "W?d? al-B??in"
+ al_ahsa_province: "Al-Aá¸¥sÄ"
+ batin_province: "WÄdÄ« al-BÄá¹­in"
  nita_province: "Nita"
- qatar_province: "Qa?ar"
- yabrin_province: "Yabr?n"
+ qatar_province: "Qaá¹­ar"
+ yabrin_province: "YabrÄ«n"
  #Hedjaz Area
- dhalam_province: "?alam"
- duba_province: "?ub?"
+ dhalam_province: "á¸Œalam"
+ duba_province: "á¸ŒubÄ"
  hinakiyah_province: "Al-Hinakiyah"
- khaybar_province: "?aibar"
- khulays_province: "?ulays"
- madian_province: "M??y?n"
+ khaybar_province: "á¸ªaibar"
+ khulays_province: "á¸ªulays"
+ madian_province: "MÄ«á¸yÄn"
  mecca_province: "Mecca"
  medina_province: "Medina"
- qura_province: "W?d? al-Qura"
- tabuk_province: "Tab?k"
- taif_province: "A?-??'if"
+ qura_province: "WÄdÄ« al-QurÃ "
+ tabuk_province: "TabÅ«k"
+ taif_province: "Aá¹­-á¹¬Ä'if"
  umluj_province: "Umluj"
  yanbu_province: "Yanbu'"
  #Najd Area
- afif_province: "'Af?f"
+ afif_province: "'AfÄ«f"
  al_hisu_province: "Al-Hisu"
  ar_rayn_province: "Ar-Rayn"
  arid_province: "Al-Arid"
- dawasir_province: "W?d? ad-Daw?sir"
- east_qassim_province: "East al-Qa??m"
+ dawasir_province: "WÄdÄ« ad-DawÄsir"
+ east_qassim_province: "East al-Qaá¹£Ä«m"
  fadak_province: "Fadak"
- laila_province: "Lail?"
+ laila_province: "LailÄ"
  sudair_province: "Al-Sudayr"
  udakh_province: "Udakh"
- yamama_province: "Al-Yam?ma"
+ yamama_province: "Al-YamÄma"
  washm_province: "Al-Washm"
- west_qassim_province: "West Al-Qa??m"
+ west_qassim_province: "West Al-Qaá¹£Ä«m"
  #Oman Area
- batina_province: "Al-B??inah"
+ batina_province: "Al-BÄÅ£inah"
  julfar_province: "Julfar"
- masqat_province: "Masqa?"
- nizwa_province: "Nizw?"
+ masqat_province: "Masqaá¹­"
+ nizwa_province: "NizwÄ"
  #Shammar Area
- hail_province: "H?'il"
- jawf_province: "Al-?auf"
- sirhan_province: "W?d? as-Sirhan"
- nafud_province: "Naf?d"
- zubala_province: "Zub?la"
+ hail_province: "HÄ'il"
+ jawf_province: "Al-Ç¦auf"
+ sirhan_province: "WÄdÄ« as-Sirhan"
+ nafud_province: "NafÅ«d"
+ zubala_province: "ZubÄla"
  #Yemen Area
- abha_province: "'Abh?"
+ abha_province: "'AbhÄ"
  aden_province: "Aden"
- birali_province: "B?r 'Al?"
- dathina_province: "Dath?nah"
- hadramawt_province: "?a?ramawt"
- hali_province: "?al?"
- hirda_province: "Al-?irda"
- hudaida_province: "Al-?udaida"
+ birali_province: "BÄ«r 'AlÄ«"
+ dathina_province: "DathÄ«nah"
+ hadramawt_province: "á¸¤aá¸ramawt"
+ hali_province: "á¸¨alÄ«"
+ hirda_province: "Al-á¸¤irda"
+ hudaida_province: "Al-á¸¤udaida"
  ibb_province: "Ibb"
- jazan_province: "J?z?n"
+ jazan_province: "JÄzÄn"
  mahra_province: "Al-Mahrah"
  marib_province: "Ma'rib"
  ranyah_province: "Ranyah"
- sana_province: "?an'?"
- sayhad_province: "?ayhad"
+ sana_province: "á¹¢an'Ä"
+ sayhad_province: "á¹¢ayhad"
  taizz_province: "Ta'izz"
  tathlith_province: "Tathlith"
  turbah_province: "Turbah"
- zabid_province: "Zab?d"
+ zabid_province: "ZabÄ«d"
  #Arabian Sea Area
  arabian_sea_province: "Arabian Sea"
  gulf_aden_province: "Gulf of Aden"
@@ -3645,94 +3645,94 @@ l_english:
  red_sea_province: "Red Sea"
       #Persia Region
  #Azerbaijan Area
- ardabil_province: "Ardab?l"
+ ardabil_province: "ArdabÄ«l"
  barza_province: "Barza"
- khoy_province: "??y"
- miyaneh_province: "M?yaneh"
- tabriz_province: "Tabr?z"
- urmia_province: "Or?m?yeh"
+ khoy_province: "á¸ªÅy"
+ miyaneh_province: "MÄ«yaneh"
+ tabriz_province: "TabrÄ«z"
+ urmia_province: "OrÅ«mÄ«yeh"
  #Baluchistan Area
- bampur_province: "Bamp?r"
+ bampur_province: "BampÅ«r"
  bannajbur_province: "Bannajbur"
  bela_province: "Bela"
  gwadar_province: "Gwadar"
  kharan_province: "Kharan"
- khash_province: "Kh?sh"
- qasr_qand_province: "Qa?r-e Qand"
+ khash_province: "KhÄsh"
+ qasr_qand_province: "QaÅŸr-e Qand"
  quetta_province: "Quetta"
- qusdar_province: "Qu?d?r"
+ qusdar_province: "Quá¹£dÄr"
  tiz_province: "Al Tiz"
  #Fars Area
- abarkuh_province: "Abark?h"
- behbahan_province: "Behbah?n"
- darab_province: "D?r?b"
- firuzabad_province: "F?r?z?b?d"
- gamrun_province: "Gamr?n"
- harat_province: "Har?t"
+ abarkuh_province: "AbarkÅ«h"
+ behbahan_province: "BehbahÄn"
+ darab_province: "DÄrÄb"
+ firuzabad_province: "FÄ«rÅ«zÄbÄd"
+ gamrun_province: "GamrÅ«n"
+ harat_province: "HarÄt"
  istakhr_province: "Istakhr"
- jahrom_province: "Jahr?m"
- kariyan_province: "K?r?y?n"
- kazerun_province: "K?zer?n"
- lar_province: "L?r"
- qala_safid_province: "Qala-i Saf?d"
- shiraz_province: "?iraz"
- siraf_province: "S?raf"
+ jahrom_province: "JahrÅ«m"
+ kariyan_province: "KÄrÄ«yÄn"
+ kazerun_province: "KÄzerÅ«n"
+ lar_province: "LÄr"
+ qala_safid_province: "Qala-i SafÄ«d"
+ shiraz_province: "Å irÃ¢z"
+ siraf_province: "SÄ«raf"
  yazd_province: "Yazd"
  #Iraq Ajam Area
- ardestan_province: "Ardest?n"
- golpayegan_province: "Golp?yeg?n"
- hamadan_province: "Hamed?n"
- isfahan_province: "Esfahan"
- qazvin_province: "Qazv?n"
+ ardestan_province: "ArdestÄn"
+ golpayegan_province: "GolpÄyegÄn"
+ hamadan_province: "HamedÄn"
+ isfahan_province: "EsfahÃ¢n"
+ qazvin_province: "QazvÄ«n"
  qom_province: "Qom"
  qumisha_province: "Qumisha"
  rey_province: "Rey"
- zanjan_province: "Zanjan"
+ zanjan_province: "ZanjÃ¢n"
  #Kerman Area
  bam_province: "Bam"
- jiroft_province: "J?roft"
- kahnuj_province: "Kahn?j"
- kerman_province: "Kerman"
- minab_province: "M?n?b"
- rafsanjan_province: "Rafsanj?n"
- sirjan_province: "S?rj?n"
+ jiroft_province: "JÄ«roft"
+ kahnuj_province: "KahnÅ«j"
+ kerman_province: "KermÃ¢n"
+ minab_province: "MÄ«nÄb"
+ rafsanjan_province: "RafsanjÄn"
+ sirjan_province: "SÄ«rjÄn"
  zarand_province: "Zarand"
  #Khuzestan & Lurestan Area
- ahvaz_province: "Ahvaz"
- borujerd_province: "Bor?jerd"
- deh_kord_province: "Deh-e K?rd"
- dezful_province: "Dezf?l"
- izeh_province: "?z?eh"
- khorramabad_province: "Khorram?b?d"
- ramhormoz_province: "R?mhormoz"
+ ahvaz_province: "AhvÃ¢z"
+ borujerd_province: "BorÅ«jerd"
+ deh_kord_province: "Deh-e KÅ«rd"
+ dezful_province: "DezfÅ«l"
+ izeh_province: "ÄªzÌ„eh"
+ khorramabad_province: "KhorramÄbÄd"
+ ramhormoz_province: "RÄmhormoz"
  #Kordestan  Area
- bijar_province: "Bij?r"
- kermanshah_province: "Kerman?ah"
- nahavand_province: "Nah?vand"
- sahrazur_province: "?ehrezur"
+ bijar_province: "BijÄr"
+ kermanshah_province: "KermÃ¢nÅ¡Ã¢h"
+ nahavand_province: "NahÄvand"
+ sahrazur_province: "ÅehrezÃ»r"
  #Mazandaran Area
- damghan_province: "D?mgh?n"
+ damghan_province: "DÄmghÄn"
  daylam_province: "Daylam"
- gilan_province: "G?lan"
- gorgan_province: "Gorg?n"
+ gilan_province: "GÄ«lan"
+ gorgan_province: "GorgÄn"
  rustamdar_province: "Rustamdar"
- tabaristan_province: "?abarest?n"
- talish_province: "T?l?sh"
+ tabaristan_province: "á¹¬abarestÄn"
+ talish_province: "TÄlÄ«sh"
  #Quhestan Area
- birjand_province: "B?rjand"
- gonabad_province: "Gon?b?d"
+ birjand_province: "BÄ«rjand"
+ gonabad_province: "GonÄbÄd"
  qaen_province: "Qaen"
- tabas_al_tamr_province: "?abas al-Tamr"
+ tabas_al_tamr_province: "á¹¬abas al-Tamr"
  turaythith_province: "Turaythith"
  #Sistan Area
  adraskan_province: "Adraskan"
  bost_province: "Bost"
  farah_province: "Farah"
- garmsir_province: "Garms?r"
- ghazni_province: "?azn?"
- kabul_province: "K?bul"
- kandahar_province: "Kandah?r"
- zabol_province: "Z?bol"
+ garmsir_province: "GarmsÄ«r"
+ ghazni_province: "Ä aznÄ«"
+ kabul_province: "KÄbul"
+ kandahar_province: "KandahÄr"
+ zabol_province: "ZÄbol"
  zaranj_province: "Zaranj"
  
  bahrein_coastal_sea_zones_province: "Bahrein Sea"
@@ -4620,7 +4620,7 @@ tutuila_province: "Tutuila"
 samoa_coastal_sea_zones_province: "Samoa Coastal Sea"
 iwo_jima_province: "Iwo Jima"
 ogasawara_province: "Ogasawara"
-nanpo_sea_zones_province: "Nanp? Sea"
+nanpo_sea_zones_province: "NanpÅ Sea"
 guahan_province: "Guahan"
 northern_islands_province: "Northern Islands"
 marianas_sea_zones_province: "Marianas Sea"

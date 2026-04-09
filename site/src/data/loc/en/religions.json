@@ -376,7 +376,7 @@
     "desc": "The $dongba_religion$ $common_folk_religion_desc$"
   },
   "bimoism": {
-    "name": "",
+    "name": "Bimoism",
     "desc": "The $bimoism$ $common_folk_religion_desc$"
   },
   "ka_niam_khasi_religion": {
@@ -592,15 +592,15 @@
     "desc": "The $chukchi_shamanism$ $common_folk_religion_desc$"
   },
   "hmongism": {
-    "name": "",
+    "name": "Kev Dab Qhuas",
     "desc": "The $hmongism$ $common_folk_religion_desc$"
   },
   "moism": {
-    "name": "",
+    "name": "Moism",
     "desc": "The $moism$ $common_folk_religion_desc$"
   },
   "rmaism": {
-    "name": "",
+    "name": "Rmaism",
     "desc": "The $rmaism$ $common_folk_religion_desc$"
   },
   "shamanism": {
@@ -696,7 +696,7 @@
     "desc": "The $karachay_balkar_paganism$ $common_folk_religion_desc$"
   },
   "khabzeism": {
-    "name": "",
+    "name": "Khabzeism",
     "desc": "The $khabzeism$ $common_folk_religion_desc$"
   },
   "lezgin_paganism": {
@@ -812,11 +812,11 @@
     "desc": "The $dene_religion$ $common_folk_religion_desc$"
   },
   "midewiwin_religion": {
-    "name": "",
+    "name": "Midewiwin",
     "desc": "The $midewiwin_religion$ $common_folk_religion_desc$"
   },
   "dene_shamanism": {
-    "name": "",
+    "name": "Athabaskanism",
     "desc": "The $dene_shamanism$ $common_folk_religion_desc$"
   },
   "dene_totemism": {
@@ -824,19 +824,19 @@
     "desc": "The $dene_totemism$ $common_folk_religion_desc$"
   },
   "great_plains_shamanism": {
-    "name": "",
+    "name": "Wakanism",
     "desc": "The $great_plains_shamanism$ $common_folk_religion_desc$"
   },
   "iroquoian_totemism": {
-    "name": "",
+    "name": "Orendism",
     "desc": "The $iroquoian_totemism$ $common_folk_religion_desc$"
   },
   "mississippian_ceremonial": {
-    "name": "",
+    "name": "Ceremonialism",
     "desc": "The $mississippian_ceremonial$ $common_folk_religion_desc$"
   },
   "paiute_shamanism": {
-    "name": "",
+    "name": "Puhagimism",
     "desc": "The $paiute_shamanism$ $common_folk_religion_desc$"
   },
   "pomo_shamanism": {
@@ -1076,11 +1076,11 @@
     "desc": "The $degar_religion$ $common_folk_religion_desc$"
   },
   "sanamahism": {
-    "name": "",
+    "name": "Sanamahism",
     "desc": "The $sanamahism$ $common_folk_religion_desc$"
   },
   "satsana_phi": {
-    "name": "",
+    "name": "Satsana Phi",
     "desc": "The $satsana_phi$ $common_folk_religion_desc$"
   },
   "maleiwa_religion": {
@@ -1171,65 +1171,11 @@
     "name": "Zoroastrianism",
     "desc": "An ancient $iranian_group$ religion following the teachings of Zoroaster, also called Zarathustra, and the texts of the Avesta. It is based on a dualistic cosmology of good and evil, with the eternal conflict of the deity Ahura Mazdā and the destructive spirit Angra Mainyu, with a predicted ultimate triumph of good over evil."
   },
-  "folk_melanesian_group": {
-    "name": "Melanesian Folk Religions"
-  },
-  "folk_brazilian_group": {
-    "name": "Brazilian Folk Religions"
-  },
-  "folk_papuan_group": {
-    "name": "Papuan Folk Religions"
-  },
-  "folk_se_asian_group": {
-    "name": "South East Asian Folk Religions"
-  },
-  "yazidi_group": {
-    "name": "Yazidi"
-  },
-  "folk_african_group": {
-    "name": "African Folk Religions"
-  },
-  "folk_north_american_group": {
-    "name": "North American Folk Religions"
-  },
-  "israelite_group": {
-    "name": "Israelite"
-  },
-  "dharmic": {
-    "name": "Dharma"
-  },
-  "buddhist": {
-    "name": "Buddhism"
-  },
-  "manichaean_group": {
-    "name": "Manichaeism"
-  },
-  "folk_argentinian_group": {
-    "name": "Argentinian Folk Religions"
-  },
-  "folk_micronesian_group": {
-    "name": "Micronesian Folk Religions"
-  },
-  "folk_caribbean_group": {
-    "name": "Caribbean Folk Religions"
-  },
-  "folk_central_american_group": {
-    "name": "Central American Folk Religions"
-  },
-  "folk_south_american_group": {
-    "name": "South American Folk Religions"
-  },
   "zoroastrian_group": {
     "name": "Zoroastrianism"
   },
-  "folk_polynesian_group": {
-    "name": "Polynesian Folk Religions"
-  },
-  "christian": {
-    "name": "Christianity"
-  },
-  "folk_aridoamerica_group": {
-    "name": "Aridoamerican Folk Religions"
+  "folk_north_american_group": {
+    "name": "North American Folk Religions"
   },
   "muslim": {
     "name": "Islam"
@@ -1237,25 +1183,516 @@
   "tonal_group": {
     "name": "Tonal Religions"
   },
-  "folk_european_group": {
-    "name": "European Folk Religions"
+  "mandean_group": {
+    "name": "Mandaean"
+  },
+  "folk_micronesian_group": {
+    "name": "Micronesian Folk Religions"
   },
   "folk_peruvian_group": {
     "name": "Andean Folk Religions"
   },
-  "folk_permic_group": {
-    "name": "Permic Folk Religions"
+  "folk_papuan_group": {
+    "name": "Papuan Folk Religions"
   },
-  "mandean_group": {
-    "name": "Mandaean"
+  "folk_argentinian_group": {
+    "name": "Argentinian Folk Religions"
   },
-  "druze_group": {
-    "name": "Druze"
+  "folk_aridoamerica_group": {
+    "name": "Aridoamerican Folk Religions"
+  },
+  "folk_south_american_group": {
+    "name": "South American Folk Religions"
   },
   "folk_asian_group": {
     "name": "Asian Folk Religions"
   },
+  "folk_central_american_group": {
+    "name": "Central American Folk Religions"
+  },
+  "buddhist": {
+    "name": "Buddhism"
+  },
+  "manichaean_group": {
+    "name": "Manichaeism"
+  },
+  "folk_melanesian_group": {
+    "name": "Melanesian Folk Religions"
+  },
+  "folk_caribbean_group": {
+    "name": "Caribbean Folk Religions"
+  },
+  "folk_african_group": {
+    "name": "African Folk Religions"
+  },
+  "folk_polynesian_group": {
+    "name": "Polynesian Folk Religions"
+  },
+  "dharmic": {
+    "name": "Dharma"
+  },
+  "folk_se_asian_group": {
+    "name": "South East Asian Folk Religions"
+  },
+  "yazidi_group": {
+    "name": "Yazidi"
+  },
+  "folk_permic_group": {
+    "name": "Permic Folk Religions"
+  },
+  "druze_group": {
+    "name": "Druze"
+  },
+  "folk_european_group": {
+    "name": "European Folk Religions"
+  },
+  "christian": {
+    "name": "Christianity"
+  },
+  "israelite_group": {
+    "name": "Israelite"
+  },
   "folk_australian_group": {
     "name": "Australian Folk Religions"
+  },
+  "folk_brazilian_group": {
+    "name": "Brazilian Folk Religions"
+  },
+  "india": {
+    "name": "India"
+  },
+  "dharma": {
+    "name": "Dharma"
+  },
+  "christian_ADJ": {
+    "name": "Christian"
+  },
+  "daoism_policy": {
+    "name": "Daoism"
+  },
+  "chinese_group": {
+    "name": "Chinese"
+  },
+  "judaism_ADJ": {
+    "name": "Jewish"
+  },
+  "character_title_guru": {
+    "name": "Guru"
+  },
+  "mandeaism_god_name": {
+    "name": "Hiia Rbia"
+  },
+  "mandeaism_ADJ": {
+    "name": "Mandaean"
+  },
+  "nahua_group": {
+    "name": "Nahua"
+  },
+  "hussite_ADJ": {
+    "name": "Hussite"
+  },
+  "inti_god": {
+    "name": "Inti"
+  },
+  "asia": {
+    "name": "Asia"
+  },
+  "common_folk_religion_desc": {
+    "name": "religion refers to the indigenous beliefs, mythology, traditions, and practices maintained and transmitted by its followers since the beginning of time."
+  },
+  "sindh_area": {
+    "name": "Sindh"
+  },
+  "druzism_ADJ": {
+    "name": "Druze"
+  },
+  "tlaloc_god": {
+    "name": "Tláloc"
+  },
+  "andes_region": {
+    "name": "the Andes"
+  },
+  "china": {
+    "name": "China"
+  },
+  "catholic_ADJ": {
+    "name": "Catholic"
+  },
+  "ismaili_school": {
+    "name": "Ismā'īlī"
+  },
+  "lithuanian_group": {
+    "name": "Lithuanian"
+  },
+  "confucianism_policy": {
+    "name": "Confucianism"
+  },
+  "greek_culture": {
+    "name": "Greek"
+  },
+  "shamanism_ADJ": {
+    "name": "Shamanist"
+  },
+  "huitzilopochtli_god": {
+    "name": "Huītzilōpōchtli"
+  },
+  "BOH": {
+    "name": "Bohemia"
+  },
+  "japan_region": {
+    "name": "Japan"
+  },
+  "sutra": {
+    "name": "Sūtra"
+  },
+  "viracocha": {
+    "name": "Wiraqucha"
+  },
+  "miaphysite_ADJ": {
+    "name": "Miaphysite"
+  },
+  "strigolniki_ADJ": {
+    "name": "Strigolniki"
+  },
+  "imamate": {
+    "name": "Imamate"
+  },
+  "germanic_language_family": {
+    "name": "Germanic"
+  },
+  "shia_ADJ": {
+    "name": "Shiite"
+  },
+  "vaishnavism": {
+    "name": "Vaishnavism"
+  },
+  "sapmi": {
+    "name": "Sámi"
+  },
+  "quetzalcoatl_god": {
+    "name": "Quetzalcōātl"
+  },
+  "tengri_god_name": {
+    "name": "Tengri"
+  },
+  "rank_empire_muslim_ruler_male": {
+    "name": "Caliph"
+  },
+  "russian_region": {
+    "name": "Russia"
+  },
+  "finnish_language": {
+    "name": "Finnic"
+  },
+  "scandinavian_region": {
+    "name": "Scandinavia"
+  },
+  "SECT_NYIGMA_NAME": {
+    "name": "Nyingma"
+  },
+  "shaivism": {
+    "name": "Shaivism"
+  },
+  "tibet_region": {
+    "name": "Tibet"
+  },
+  "BYZ_ADJ": {
+    "name": "Byzantine"
+  },
+  "japanese_group": {
+    "name": "Japanese"
+  },
+  "bodhisattva": {
+    "name": "Bodhisattva"
+  },
+  "dharmic_ADJ": {
+    "name": "Dharmic"
+  },
+  "nahuatl_god_name": {
+    "name": "Teōtl"
+  },
+  "orthodox_ADJ": {
+    "name": "Orthodox"
+  },
+  "lutheran_ADJ": {
+    "name": "Lutheran"
+  },
+  "samaritan_culture": {
+    "name": "Samaritan"
+  },
+  "shaktism": {
+    "name": "Shaktism"
+  },
+  "waldensian_ADJ": {
+    "name": "Waldensian"
+  },
+  "iranian_group": {
+    "name": "Iranian"
+  },
+  "muslim_ADJ": {
+    "name": "Muslim"
+  },
+  "mongolian_group": {
+    "name": "Mongol"
+  },
+  "paulicianism_ADJ": {
+    "name": "Paulician"
+  },
+  "turkic_group": {
+    "name": "Turkic"
+  },
+  "hindu_ADJ": {
+    "name": "Hindu"
+  },
+  "ibadi_school_desc": {
+    "name": "Believed to be a descendant of the Al-Khawārij, who first were supporters of 'Alī ibn Abī Ṭālib but later rejected his arbitration. The school distanced itself from the Al-Khawārij following 'Abd Allāh ibn Ibāḍ, taking a more moderate approach and a more positive view towards different branches, having similarities with many of the other schools."
+  },
+  "europe": {
+    "name": "Europe"
+  },
+  "sikhism_god_name": {
+    "name": "Ik Onkar"
+  },
+  "buddhist_ADJ": {
+    "name": "Buddhist"
+  },
+  "smartism": {
+    "name": "Smartism"
+  },
+  "_modifier_names": {
+    "allow_harmony": "Enable Harmony",
+    "allow_mysticism_vs_jurisprudence": "Allow",
+    "allow_open_sea_exploration": "Allows Open Sea Exploration",
+    "allow_righteousness": "Enable Righteousness",
+    "allow_self_control": "Enable self control",
+    "any_pop_can_be_slave": "Unrestricted Slavery",
+    "army_auxiliary_maintenance_cost_modifier": "Maintenance Cost",
+    "army_cavalry_power": "Power",
+    "army_disembark_speed": "Army Disembark Speed",
+    "army_infantry_power": "Power",
+    "army_initiative": "Army Initiative",
+    "army_movement_speed": "Army Movement Speed",
+    "army_reinforce_cost": "Army Reinforcement Cost",
+    "auto_slave_raid_different_religion": "Raid Religious Enemies for Slaves",
+    "ban_imports_of_beer": "Ban Imports of",
+    "ban_imports_of_liquor": "Ban Imports of",
+    "ban_imports_of_wine": "Ban Imports of",
+    "block_from_change_to_empire_rank_catholic": "Papal Ban on Empires",
+    "can_have_monasteries": "Monasteries Allowed",
+    "cannot_declare_no_cb_wars": "Cannot Declare Wars without Casus Belli",
+    "cannot_declare_no_cb_wars_on_religion_head": "Cannot Declare Wars on Religious Head without Casus Belli",
+    "clergy_estate_max_tax": "Maximum Tax for Clergy Estate",
+    "clergy_estate_target_satisfaction": "Clergy Estate Satisfaction Equilibrium",
+    "country_cabinet_efficiency": "Efficiency of Our Cabinet",
+    "cultural_influence_modifier": "Cultural Influence %",
+    "cultural_tradition_modifier": "Cultural Tradition %",
+    "discipline": "Discipline",
+    "enable_doom": "Doom",
+    "expand_rgo_farming_cost_modifier": "Expand Farming Cost",
+    "expand_rgo_forestry_cost_modifier": "Expand Forestry Cost",
+    "exploration_maintenance_cost": "Exploration Cost",
+    "food_consumption_modifier": "Unit Food Consumption",
+    "gender_equality": "Gender Equality",
+    "global_build_buildings_cost": "Buildings Cost",
+    "global_burghers_estate_power": "Burghers Power",
+    "global_clergy_estate_power": "Clergy Power",
+    "global_clergy_max_literacy": "Max Literacy for Clergy",
+    "global_defensive": "Fort Defense",
+    "global_estate_target_satisfaction": "Estates Satisfaction Equilibrium",
+    "global_hostile_attrition": "Hostile Attrition",
+    "global_levy_size_modifier": "Levy Size",
+    "global_max_literacy": "Max Literacy",
+    "global_may_build_nahuatl_units": "May Build Eagle and Jaguar Warriors",
+    "global_merchant_power": "Trade Advantage",
+    "global_migration_speed_modifier": "Pop Migration Speed",
+    "global_monthly_art_start_chance": "Artist Monthly Start Chance",
+    "global_monthly_development": "Monthly Development",
+    "global_monthly_food_modifier": "Food Production %",
+    "global_monthly_literacy": "Monthly Literacy",
+    "global_nobles_estate_power": "Nobles Power",
+    "global_peasants_estate_power": "Peasants Power",
+    "global_pop_conversion_speed_modifier": "Pop Conversion Speed %",
+    "global_pop_food_consumption": "Pop Food Consumption",
+    "global_pop_promotion_speed_modifier": "Pop Promotion Speed %",
+    "global_population_capacity_modifier": "Population Capacity %",
+    "global_sailors_modifier": "Sailors",
+    "global_separatism": "Separatism",
+    "global_trade_protection_factor": "Market Protection",
+    "global_wild_game_output_modifier": "Output",
+    "is_battles_preordained": "Everything is Preordained",
+    "land_morale_attrition_cost": "Army Morale Attrition Cost",
+    "land_morale_modifier": "Army Morale",
+    "land_unit_attrition": "Army Attrition",
+    "levy_combat_efficiency_modifier": "Levy Combat Efficiency",
+    "levy_recovery_modifier": "Levy Recovery",
+    "maximum_religious_influence": "Maximum Religious Influence",
+    "merchant_maintenance_cost": "Trade Maintenance",
+    "monthly_karma": "Monthly Karma",
+    "monthly_legitimacy": "Monthly Legitimacy",
+    "monthly_prestige": "Monthly Prestige",
+    "monthly_religious_influence": "Monthly Religious Influence",
+    "monthly_war_exhaustion": "Monthly War Exhaustion",
+    "movement_speed_if_no_road": "Movement Speed without Road",
+    "naval_morale_attrition_cost": "Naval Morale Attrition Cost",
+    "navy_initiative": "Navy Initiative",
+    "navy_maintenance_cost": "Navy Maintenance",
+    "navy_movement_speed": "Navy Movement Speed",
+    "nobles_estate_target_satisfaction": "Noble Estate Satisfaction Equilibrium",
+    "number_of_allowed_religious_figures": "Religious Figures Allowed",
+    "prestige_from_land_battle": "Prestige from Land Battles",
+    "research_speed_modifier": "Monthly Research Progress %",
+    "retreat_delay": "Retreat Delay",
+    "ship_build_speed": "Ship-building Speed",
+    "skill_of_new_artists": "Skill of New Artists",
+    "stability_cost": "Stability Investment Cost",
+    "stability_investment": "Stability Investment",
+    "tax_income_efficiency": "Tax Efficiency",
+    "tolerance_heathen": "Tolerance of Heathen Beliefs",
+    "tolerance_heretic": "Tolerance of Heretical Beliefs",
+    "tolerance_own": "Tolerance of the True Faith",
+    "trade_efficiency": "Trade Efficiency",
+    "trade_range_modifier": "Trade Range",
+    "trade_sea_movement_cost_modifier": "Trade Range Used Over Sea"
+  },
+  "_modifier_descs": {
+    "allow_harmony": "This enables the Harmony mechanic.",
+    "allow_mysticism_vs_jurisprudence": "This allows the Country to be shaped between mysticism and jurisprudence.",
+    "allow_open_sea_exploration": "This allows a Country to start Explore Areas that are open sea.",
+    "allow_righteousness": "This enables the Righteousness mechanic.",
+    "allow_self_control": "This enables the Self Control mechanic.",
+    "any_pop_can_be_slave": "Any Pop captured or bought as a slave will stay a slave.",
+    "army_auxiliary_maintenance_cost_modifier": "This impacts how much it Costs to Maintain a Army auxiliary.",
+    "army_cavalry_power": "This impacts the Combat Ability of Army cavalry Regiments.",
+    "army_disembark_speed": "This impacts how fast an Army can Disembark from a Navy to an adjacent Location.",
+    "army_infantry_power": "This impacts the Combat Ability of Army infantry Regiments.",
+    "army_initiative": "This impacts the Initiative of a Regiment in Battle.",
+    "army_movement_speed": "This impacts how fast an Army can move between Locations.",
+    "army_reinforce_cost": "This impacts how much Ducats and Manpower it will Cost to Reinforce a Regiment.",
+    "auto_slave_raid_different_religion": "This would allow Armies to enslave part of all Pops of a different Religion Group when Occupying a Location.",
+    "ban_imports_of_beer": "This blocks the Import of Beer to all Markets that a Country Owns.",
+    "ban_imports_of_liquor": "This blocks the Import of Liquor to all Markets that a Country Owns.",
+    "ban_imports_of_wine": "This blocks the Import of Wine to all Markets that a Country Owns.",
+    "block_from_change_to_empire_rank_catholic": "Blocks a Country from increasing their Country Rank to rank empire as long the exists.",
+    "can_have_monasteries": "This impacts if a Country can have monastery or not.",
+    "cannot_declare_no_cb_wars": "This forbids us to declare Wars without a proper Casus Belli.",
+    "cannot_declare_no_cb_wars_on_religion_head": "This forbids us to declare Wars on our Religious Head without a proper Casus Belli.",
+    "clergy_estate_max_tax": "This impacts the Maximum Tax that can be collected from the Clergy.",
+    "clergy_estate_target_satisfaction": "This impacts the Satisfaction Equilibrium of the Clergy in this Country.",
+    "country_cabinet_efficiency": "This impacts the Cabinet Efficiency of all Characters in the Cabinet of a Country.",
+    "cultural_influence_modifier": "This impacts the Cultural Influence of our Primary Culture.",
+    "cultural_tradition_modifier": "This impacts the Cultural Tradition of our Primary Culture.",
+    "discipline": "This impacts the Discipline of a Regiment.",
+    "enable_doom": "This determines if the Country Experience the Doom or not.",
+    "expand_rgo_farming_cost_modifier": "This impacts how much it Costs to increase the amount of Pops working with Raw Goods that requires farms. Raw Goods using Farming 。",
+    "expand_rgo_forestry_cost_modifier": "This impacts how much it Costs to increase the amount of Pops working with Raw Goods that requires Logging. Raw Goods using Logging 。",
+    "exploration_maintenance_cost": "This impacts how much an Exploration Costs.",
+    "food_consumption_modifier": "This impacts how much Food a Unit consumes each month.",
+    "gender_equality": "This impacts whether females can be appointed to the same Roles as males.",
+    "global_build_buildings_cost": "This impacts how much it Costs to build a Building in all Locations in a Country.",
+    "global_burghers_estate_power": "This impacts the Estate Power of the Burghers in the entire Country.",
+    "global_clergy_estate_power": "This impacts the Estate Power of the Clergy in the entire Country.",
+    "global_clergy_max_literacy": "This impacts the Literacy for all clergy in this Country.",
+    "global_defensive": "This impacts how quick a Siege will go against a Country.",
+    "global_estate_target_satisfaction": "This impacts the Satisfaction Equilibrium of all the Estates in the Country.",
+    "global_hostile_attrition": "This impacts the Attrition of Hostile Armies in all Locations we Own and Control.",
+    "global_levy_size_modifier": "This impacts the size of both an Army Levy or Naval Levy that Pops in a Country will be.",
+    "global_max_literacy": "This impacts the maximum Literacy of all Pops in a Country.",
+    "global_may_build_nahuatl_units": "Allows the recruitment of a jaguar warrior and a eagle warrior.",
+    "global_merchant_power": "This impacts how much Trade Advantage a Country gets.",
+    "global_migration_speed_modifier": "This impacts how quickly Pops Migrate in all Locations of the Country.",
+    "global_monthly_art_start_chance": "This impacts the chance that Artists in a Country starts new Works of Art.",
+    "global_monthly_development": "This impacts how much Development changes monthly in all Locations in a Country.",
+    "global_monthly_food_modifier": "This impacts how much Food is Produced Goods in all Locations in a Country.",
+    "global_monthly_literacy": "This impacts how Literacy changes for Pops in a Country.",
+    "global_nobles_estate_power": "This impacts the Estate Power of the Nobility in the entire Country.",
+    "global_peasants_estate_power": "This impacts the Estate Power of the Commoners in the entire Country.",
+    "global_pop_conversion_speed_modifier": "This impacts how quickly Pops Convert in all Locations of the Country.",
+    "global_pop_food_consumption": "This impacts how much Food that Pops will consume in the entire Country.",
+    "global_pop_promotion_speed_modifier": "This impacts how quickly Pops Promote in all Locations of the Country.",
+    "global_population_capacity_modifier": "This impacts how many Pops can live in all Locations in this Country.",
+    "global_sailors_modifier": "This impacts how many Sailors a Country will get.",
+    "global_separatism": "This impacts Separatism in all Locations in a Country.",
+    "global_trade_protection_factor": "This directly reduces the Market Attraction that Foreign Markets have on Locations, making it more likely for them to fall under a Market of their Owner. One point of Market Protection negates one point of Market Attraction of every Foreign Market.",
+    "global_wild_game_output_modifier": "This modifies the Output of wild game in the entire Country.",
+    "is_battles_preordained": "This will make a Country never to re-roll the D10 in Combat.",
+    "land_morale_attrition_cost": "This impacts how much Morale that an Army loses every day while taking Attrition.",
+    "land_morale_modifier": "This modifies the maximum Morale that a Regiment can have by a percentage.",
+    "land_unit_attrition": "This impacts how much Attrition that a Regiment will take.",
+    "levy_combat_efficiency_modifier": "This impacts how effective will a Regiment of Levies perform in Combat.",
+    "levy_recovery_modifier": "This impacts how quickly Levies recovers in a Country.",
+    "maximum_religious_influence": "This impacts how much Religious Influence a Country can save for future needs.",
+    "merchant_maintenance_cost": "This impacts how much our Merchants Cost when doing Trades.",
+    "monthly_karma": "This impacts how much Karma a Country gets each month.",
+    "monthly_legitimacy": "This impacts how much Legitimacy a Country gets each month.",
+    "monthly_prestige": "This impacts how much Prestige we will get each month.",
+    "monthly_religious_influence": "This impacts how much Religious Influence a Country gets each month.",
+    "monthly_war_exhaustion": "This impacts how much War Exhaustion we will get each month.",
+    "movement_speed_if_no_road": "This impacts how fast an Army can move between Locations where there is not a Road.",
+    "naval_morale_attrition_cost": "This impacts how much Morale that a Navy loses every day while taking Attrition.",
+    "navy_initiative": "This impacts the Initiative of a Ship in Battle.",
+    "navy_maintenance_cost": "This changes how much Ducats and Sailors is required to Maintain a Ship.",
+    "navy_movement_speed": "This impacts how fast an Navy can move between Seazones.",
+    "nobles_estate_target_satisfaction": "This impacts the Satisfaction Equilibrium of the Nobility in this Country.",
+    "number_of_allowed_religious_figures": "This enables the Religious Figures mechanic and sets the number we are allowed to invite.",
+    "prestige_from_land_battle": "This impacts the amount of Prestige a Country get from their Armies participating in a Battle.",
+    "research_speed_modifier": "This impacts the generation of Research Progress of a Country.",
+    "retreat_delay": "This impacts how many hours a Unit is Locked in Combat before it is allowed to Retreat.",
+    "ship_build_speed": "This impacts how quickly a Ship can be built in a Country.",
+    "skill_of_new_artists": "This impacts the Artistic Skill of new Artists.",
+    "stability_cost": "This impacts the Cost of Stability Investment.",
+    "stability_investment": "This will either give a bonus or penalty to the Stability Investment we get from Balance.",
+    "tax_income_efficiency": "This impacts the Tax Efficiency of a Country.",
+    "tolerance_heathen": "This impacts the Tolerance of Religions of a different Religion Group than the Primary Religion.",
+    "tolerance_heretic": "This impacts the Tolerance of Religions of the same Religion Group as the Primary Religion.",
+    "tolerance_own": "This impacts the Tolerance of the Primary Religion.",
+    "trade_efficiency": "This modifies how profitable a Trade will be, by directly impacting the Price you sell Goods to the target Market.",
+    "trade_range_modifier": "This impacts the Trade Range of a Country.",
+    "trade_sea_movement_cost_modifier": "This impacts the reach of the Trade Range of a Country when traveling over a Seazone."
+  },
+  "_mechanic_names": {
+    "has_karma": "Karma",
+    "has_purity": "Purity",
+    "has_honor": "Honor",
+    "has_yanantin": "Yanantin",
+    "has_religious_influence": "Religious Influence",
+    "has_canonization": "Canonization",
+    "has_autocephalous_patriarchates": "Autocephalous Patriarchates",
+    "has_patriarchs": "Patriarchs",
+    "has_religious_head": "Religious Head",
+    "has_cardinals": "Cardinals",
+    "has_rite_power": "Rite Power",
+    "has_avatars": "Avatars",
+    "needs_reform": "Reform Desire",
+    "use_icons": "Icon Painting",
+    "culture_locked": "Culture Locked"
+  },
+  "_mechanic_descs": {
+    "has_karma": "Karma is measured on a scale from -100 to +100, and reflects the past deeds of a Country. A Country will benefit the most when its Karma is in Balance, between -33 and +33.",
+    "has_purity": "It is the indication of how pure our Country is according to Shintō. Purity is lost by contact with anything impure, such as killing and losing People in Battles, or epidemics, as death and blood are impure. It is gained through performing religious acts, such as pilgrimages to Holy Sites or ritual suicide.",
+    "has_honor": "How honorable our Country is in the eyes of our People. Maintaining the Purity of our Country above 75 will increase our Honor while having low Purity will decrease it. Other religious and Diplomatic Actions may also affect it.",
+    "has_yanantin": "Yanantin represents the Balance between two complementary but opposing entities. Following the mindset of the andean group Cultures, Harmony can only be achieved when a being, a man, darkness, the Sun, finds its complement and joins it, a woman, light, the Moon.",
+    "has_religious_influence": "It is a value of the Ability that a Country has to interact with and influence matters of its Primary Religion. Depending on the Religion, the uses it will have will be different, as well as the ways for a Country to acquire it.",
+    "has_canonization": "A former Ruler of a Country can be Canonized, that is, made into a Saint. This will confer upon the Country extra benefits, scaled according to how able the Character was when they were alive.",
+    "has_religious_head": "It is the Character considered to be in charge, and representative of, a whole Religion denomination.",
+    "has_rite_power": "This is a value of the Ability that a Country that is the Leader of its Autocephalous Patriarchate has to modify its Religion through the selection of various of its Laws.",
+    "needs_reform": "Catholicism Religion has internal conflicts between what is the correct doctrine or not, and about what is part of the Faith or not. As time goes by, the desire to Reform becomes bigger, and will impact any future discussion about the doctrine of Catholicism."
+  },
+  "_language_names": {
+    "japanese_language": "Japanese",
+    "classical_arabic_dialect": "Classical Arabic",
+    "pali_language": "Pāli",
+    "czech_dialect": "Czech",
+    "church_slavonic_language": "Church Slavonic",
+    "sanskrit_language": "Sanskrit",
+    "aramaic_language": "Aramaic",
+    "kurdish_language": "Kurdish",
+    "persian_language": "Persian",
+    "levantine_dialect": "Levantine",
+    "iraqi_dialect": "Iraqi",
+    "tibetan_language": "Tibetan",
+    "hebrew_language": "Hebrew",
+    "latin_language": "Latin",
+    "classical_chinese_language": "Classical Chinese",
+    "russian_dialect": "Russian"
   }
 }

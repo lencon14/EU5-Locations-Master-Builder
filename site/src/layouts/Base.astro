@@ -116,6 +116,20 @@ const canonical = (canonicalPath && hasSiteUrl) ? `${siteUrl}${localePath(lang, 
         <ul>
           <li><a href={localePath(lang, '/goods/')}>{t(lang, 'nav.goods')}</a></li>
           <li><a href={localePath(lang, '/buildings/')}>{t(lang, 'nav.buildings')}</a></li>
+          <li><a href={localePath(lang, '/countries/')}>{t(lang, 'nav.countries')}</a></li>
+          <li class="nav-dropdown" data-nav-dropdown>
+            <a href={localePath(lang, '/religions/')} class="nav-dropdown-trigger">
+              {t(lang, 'nav.religions')}
+              <svg class="nav-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true">
+                <path d="M2.5 3.75L5 6.25L7.5 3.75" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+            <div class="nav-dropdown-panel">
+              <a href={localePath(lang, '/religions/')} class="nav-dropdown-item">{t(lang, 'nav.religions')}</a>
+              <a href={localePath(lang, '/holy-sites/')} class="nav-dropdown-item">{t(lang, 'nav.holy_sites')}</a>
+              <a href={localePath(lang, '/aspects/')} class="nav-dropdown-item">{t(lang, 'nav.aspects')}</a>
+            </div>
+          </li>
         </ul>
         <LangSwitcher lang={lang} currentPath={canonicalPath} />
       </nav>
@@ -123,6 +137,58 @@ const canonical = (canonicalPath && hasSiteUrl) ? `${siteUrl}${localePath(lang, 
     <main class={wide ? "wide" : ""}>
       <slot />
     </main>
+    <script>
+      // Nav dropdown: hover (desktop) + click (mobile) + keyboard
+      document.querySelectorAll<HTMLElement>("[data-nav-dropdown]").forEach((dd) => {
+        const trigger = dd.querySelector<HTMLAnchorElement>(".nav-dropdown-trigger");
+        if (!trigger) return;
+        let hideTimer: ReturnType<typeof setTimeout>;
+
+        function show() {
+          clearTimeout(hideTimer);
+          dd.classList.add("is-open");
+        }
+        function hide() {
+          hideTimer = setTimeout(() => dd.classList.remove("is-open"), 150);
+        }
+
+        // Desktop: hover
+        dd.addEventListener("mouseenter", show);
+        dd.addEventListener("mouseleave", hide);
+
+        // Mobile: prevent navigation on first tap, toggle dropdown instead
+        trigger.addEventListener("click", (e) => {
+          if (window.matchMedia("(hover: none)").matches) {
+            if (!dd.classList.contains("is-open")) {
+              e.preventDefault();
+              show();
+            }
+          }
+        });
+
+        // Keyboard
+        trigger.addEventListener("keydown", (e) => {
+          if (e.key === "ArrowDown") {
+            e.preventDefault();
+            show();
+            dd.querySelector<HTMLAnchorElement>(".nav-dropdown-item")?.focus();
+          }
+          if (e.key === "Escape") hide();
+        });
+
+        dd.querySelector(".nav-dropdown-panel")?.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") {
+            hide();
+            trigger.focus();
+          }
+        });
+
+        // Close on outside click
+        document.addEventListener("click", (e) => {
+          if (!dd.contains(e.target as Node)) dd.classList.remove("is-open");
+        });
+      });
+    </script>
     <footer>
       <div class="footer-inner">
         <p>{t(lang, 'footer.tagline')}</p>
@@ -132,7 +198,7 @@ const canonical = (canonicalPath && hasSiteUrl) ? `${siteUrl}${localePath(lang, 
       header {
         background: var(--charred-oak);
         border-bottom: 1px solid var(--iron-edge);
-        height: 56px;
+        min-height: 56px;
         display: flex;
         align-items: center;
         padding: 0 1.5rem;
@@ -148,6 +214,17 @@ const canonical = (canonicalPath && hasSiteUrl) ? `${siteUrl}${localePath(lang, 
         display: flex;
         align-items: center;
         gap: 2rem;
+        flex-wrap: wrap;
+        padding: 0.5rem 0;
+      }
+
+      @media (max-width: 640px) {
+        nav {
+          gap: 0.75rem;
+        }
+        nav ul {
+          gap: 0.75rem;
+        }
       }
 
       .site-title {
@@ -177,6 +254,68 @@ const canonical = (canonicalPath && hasSiteUrl) ? `${siteUrl}${localePath(lang, 
       }
 
       nav ul a:hover {
+        color: var(--pale-gold);
+        text-decoration: none;
+      }
+
+      /* Dropdown nav */
+      .nav-dropdown {
+        position: relative;
+      }
+
+      .nav-dropdown-trigger {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+      }
+
+      .nav-chevron {
+        transition: transform 0.2s;
+        opacity: 0.6;
+        flex-shrink: 0;
+      }
+
+      .nav-dropdown.is-open .nav-chevron {
+        transform: rotate(180deg);
+      }
+
+      .nav-dropdown-panel {
+        position: absolute;
+        top: calc(100% + 0.5rem);
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 160px;
+        background: var(--dark-walnut);
+        border: 1px solid var(--iron-edge);
+        border-top: 2px solid var(--royal-gold);
+        border-radius: 0 0 4px 4px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        padding: 0.35rem 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.15s, transform 0.15s;
+        transform: translateX(-50%) translateY(-4px);
+        z-index: 30;
+      }
+
+      .nav-dropdown.is-open .nav-dropdown-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateX(-50%) translateY(0);
+      }
+
+      .nav-dropdown-item {
+        display: block;
+        padding: 0.4rem 1rem;
+        color: var(--ivory);
+        font-size: 0.95rem;
+        font-weight: 500;
+        white-space: nowrap;
+        transition: background 0.1s;
+      }
+
+      .nav-dropdown-item:hover {
+        background: var(--slate);
         color: var(--pale-gold);
         text-decoration: none;
       }

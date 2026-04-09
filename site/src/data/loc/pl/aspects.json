@@ -1,0 +1,842 @@
+{
+  "prima_scriptura": {
+    "name": "Prima scriptura",
+    "desc": "Choć Pismo Święte musi być uważane za główne źródło zbawienia, nie można go uważać za jedyne źródło boskiego objawienia."
+  },
+  "five_doors": {
+    "name": "Pięcioro drzwi",
+    "desc": "Część naszego ludu praktykuje styl medytacji polegający na zamykaniu wszystkich drzwi w domu i otwieraniu pięciorga drzwi, czyli pięciu zmysłów. Wprowadzimy tę praktykę wszędzie."
+  },
+  "holy_cooperation": {
+    "name": "Święta współpraca",
+    "desc": "Nastąpi zmiana w kierunku promowania i aktywnego uczestnictwa w produktywnej pracy. Etos ten obejmie nasze społeczności rolnicze i będzie oparty na modelach wczesnych chrześcijan i ich świętego współpracującego społeczeństwa."
+  },
+  "twelve_emissaries": {
+    "name": "Dwunastu posłańców",
+    "desc": "Inspirując się organizacją niektórych społeczności, wybierzemy spośród naszych starszych i doskonałych dwunastu mędrców, którzy będą pełnić rolę najwyższej rady bez tworzenia prawdziwej hierarchii."
+  },
+  "arminianism": {
+    "name": "Arminianizm",
+    "desc": "Arminianizm opiera się na pluralistycznych i humanitarnych ideach holenderskiego teologa reformowanego Jacobusa Arminiusa."
+  },
+  "gomarism": {
+    "name": "Gomaryzm",
+    "desc": "Franciscus Gomarus sprzeciwia się przekonaniom Jacobusa Arminiusa, który nauczał doktryn pelagiańskich i próbował stworzyć nową szkołę teologiczną na uniwersytecie, na którym obaj wykładali."
+  },
+  "instituionalized_arminianism": {
+    "name": "Arminianizm zinstytucjonalizowany",
+    "desc": "Arminianizm opiera się na pluralistycznych i humanitarnych ideach holenderskiego teologa reformowanego Jacobusa Arminiusa. Ten ruch religijny został zinstytucjonalizowany w naszym państwie."
+  },
+  "instituionalized_gomarism": {
+    "name": "Gomaryzm zinstytucjonalizowany",
+    "desc": "Franciscus Gomarus sprzeciwia się przekonaniom Jacobusa Arminiusa, który nauczał doktryn pelagiańskich i próbował stworzyć nową szkołę teologiczną na uniwersytecie, na którym obaj wykładali. Ten ruch religijny został zinstytucjonalizowany w naszym państwie."
+  },
+  "consolamentum": {
+    "name": "Consolamentum",
+    "desc": "Jako że życie nieuchronnie prowadzi do żalu za grzechy, potrzeba odpuszczenia ich, aby móc w czystości wstąpić do nieba i zbliżyć się do Boga, staje się oczywista. Otrzymując consolamentum, nasz lud zyska rozgrzeszenie w obliczu zbliżającej się śmierci."
+  },
+  "pescatarianism": {
+    "name": "Peskatarianizm",
+    "desc": "Zwierzęta noszą w sobie reinkarnowane dusze, dlatego nie możemy ich zjadać. Ryby jednak powstają samoistnie, w związku z czym nie są uznawane za zwierzęta i mogą być zjadane."
+  },
+  "the_perfects": {
+    "name": "Doskonali",
+    "desc": "Ci spośród nas, którzy są szczególnie oddani Bogu oraz cnotom, do których dążyć powinni wszyscy ludzie, otrzymują consolamentum za swoje oddanie i stają się w ten sposób doskonałymi. W przeciwieństwie do zwykłych ludzi, tacy mężczyźni i kobiety otrzymują consolamentum dwa razy w życiu: kiedy zostają wywyższeni do nowej roli i przed śmiercią."
+  },
+  "adoptionism": {
+    "name": "Adopcjonizm",
+    "desc": "Nasza wiara zakłada, że Jezus Chrystus stał się Synem Bożym podczas chrztu lub zmartwychwstania, a nie był wiecznie boski."
+  },
+  "adult_baptism": {
+    "name": "Chrzest dorosłych",
+    "desc": "Chrzest osoby dorosłej wierzącej w Jezusa Chrystusa stanowi symbol tejże wiary oraz przyjęcia do lokalnej wspólnoty religijnej. Przechodzą go zaś ci, którzy wierzą, że zbawcza łaska i członkostwo w Kościele są darami od Boga. Wiara przyjmującego musi zostać głośno wyrażona i nie może zostać przekazana ani przeniesiona na inną osobę."
+  },
+  "aniconism": {
+    "name": "Anikonizm",
+    "desc": "Symbole nie są odpowiednim sposobem na reprezentację naszego Pana, ponieważ zwykle przedstawiają bożki lub ludzi. Odrzucamy wszelkie takie reprezentacje, w tym także krzyż używany przez innych chrześcijan."
+  },
+  "asceticism": {
+    "name": "Ascetyzm",
+    "desc": "Dążenia materialistyczne zaślepiają nas i nie pozwalają nam dostrzec boskiej prawdy. Tylko poświęcając się prostemu życiu bez luksusów, możemy osiągnąć duchowe oświecenie."
+  },
+  "bread_and_wine": {
+    "name": "Chleb i wino",
+    "desc": "Wierzymy, że tylko komunia z chlebem i winem jest ważna – nawet dla świeckich członków. Nasi duchowni będą udzielać komunii pod obiema postaciami każdemu uczestnikowi nabożeństwa."
+  },
+  "clerical_poverty": {
+    "name": "Ubóstwo klerykalne",
+    "desc": "Duchowni nie powinni posiadać bogactw i powinni porzucić swoje dobra materialne, poświęcając uwagę Bogu, a nie światu świeckiemu."
+  },
+  "crown_as_head_of_faith": {
+    "name": "Korona jako głowa religii",
+    "desc": "Kościół nie podlega dłużej jednemu zewnętrznemu, skorumpowanemu teokracie. Zamiast tego wszystkie kwestie wiary zostaną teraz przekierowane do władcy, który służy jako nowa głowa religii."
+  },
+  "freedom_to_preach": {
+    "name": "Wolność kazań",
+    "desc": "Wyznawcy nie zgadzają się w wielu kwestiach, ale każda sekta otrzyma wolność swobodnego wygłaszania kazań, o ile tylko w ich sercach mieszka Bóg."
+  },
+  "gnosticism": {
+    "name": "Gnostycyzm",
+    "desc": "Gnostycyzm koncentruje się na osobistym zbawieniu poprzez gnozę. Uciekniemy od świata materialnego i powrócimy do królestwa wyższego, dążąc do duchowego wglądu."
+  },
+  "individual_creeds": {
+    "name": "Indywidualne wyznania",
+    "desc": "Pozwolenie naszym ludziom na formułowanie własnych wyznań zachęci ich do kształtowania indywidualnych opinii i pozwoli utorować drogę do postępu!"
+  },
+  "monasticism": {
+    "name": "Monastycyzm",
+    "desc": "Przyjemności w postaci wykwintnego jedzenia i napitków jedynie odwracają naszą uwagę od służby boskości. Odizolowanie się w odległych klasztorach to najlepszy sposób na uniknięcie takich pokus."
+  },
+  "modalism": {
+    "name": "Modalizm",
+    "desc": "Wierzymy, że Bóg jest absolutnie jeden, a koncepcje trynitarne, takie jak Ojciec, Syn i Duch Święty, to jedyne różne sposoby, na jakie się objawia."
+  },
+  "organized_through_bishops": {
+    "name": "Mianowanie biskupów",
+    "desc": "Zamiast całkowicie zrezygnować z mianowania biskupów, będą oni służyć Kościołowi jako administratorzy większych obszarów."
+  },
+  "pacifism": {
+    "name": "Pacyfizm",
+    "desc": "Błogosławieni pokój czyniący, albowiem oni dziećmi Bożymi nazwani będą."
+  },
+  "parish_registers": {
+    "name": "Rejestry parafialne",
+    "desc": "Szczegóły dotyczące chrztów, małżeństw i pogrzebów będą odtąd dokumentowane w rejestrze parafialnym. Każdy proboszcz założy księgę, w której zawrze informacje o tych wydarzeniach, a którą będzie przechowywał w bezpiecznej kasetce z dwoma zamkami."
+  },
+  "participation_women": {
+    "name": "Udział kobiet",
+    "desc": "Choć kobiety mają już w naszych społecznościach równy udział, przyjmiemy ogólną zasadę, aby wszędzie były traktowane tak samo jak mężczyźni."
+  },
+  "rejection_of_sacraments": {
+    "name": "Odrzucenie sakramentów",
+    "desc": "Nasza doktryna odrzuca większość sakramentów chrześcijańskich, ponieważ są one głównie fizyczne i nie mają żadnego znaczenia. Liczy się tylko część duchowa, która przybliża nas do Boga."
+  },
+  "sola_fide": {
+    "name": "Sola fide",
+    "desc": "Żaden dobry uczynek nie zadowoli Boga. Wybaczenie otrzymujemy wyłącznie dzięki łasce Bożej, której Bóg udzielił nam przez swojego jedynego syna, Jezusa Chrystusa."
+  },
+  "sola_scriptura": {
+    "name": "Sola scriptura",
+    "desc": "Biblia, słowo Boże przekazane człowiekowi, jest jedynym autorytetem dla doktryny chrześcijańskiej. Wszelkie praktyki religijne, które nie mogą być poparte odniesieniami biblijnymi, należy potępić jako herezję."
+  },
+  "soli_deo_gloria": {
+    "name": "Soli Deo",
+    "desc": "Wszelkie ludzkie osiągnięcia muszą być tworzone wyłącznie na cześć Boga."
+  },
+  "translated_bibles": {
+    "name": "Tłumaczenie Biblii",
+    "desc": "Przetłumaczenie Biblii na język, którym posługują się mieszkańcy naszego kraju, pozwoli im odnaleźć drogę do Boga w sposób, który przemawia do ich umysłów i serc."
+  },
+  "usury_allowed": {
+    "name": "Zezwolenie na lichwę",
+    "desc": "Pożyczki pieniężne z odsetkami, które wzbogacają pożyczkodawcę, są teraz dozwolone i nie są dłużej uważane za grzeszne."
+  },
+  "war_sermons": {
+    "name": "Kazania wojenne",
+    "desc": "W czasach konfliktu wiara podtrzymuje nadzieję naszego ludu. Kościół naszego państwa będzie głosił kazania ze Świętej Księgi, aby zadbać o morale ludności nawet w najmroczniejszej godzinie."
+  },
+  "worship_nyambe_god": {
+    "name": "Czczenie bóstwa Nyambe jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Nyambe , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_nhialic_god": {
+    "name": "Czczenie bóstwa Nhialic jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Nhialic , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_du_chie_god": {
+    "name": "Czczenie bóstwa Du Chie jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Du Chie , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ayum_god": {
+    "name": "Czczenie bóstwa Ayum jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ayum , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_alwet_god": {
+    "name": "Czczenie bóstwa Alwet jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Alwet , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_zanahary_god": {
+    "name": "Czczenie bóstwa Zanahary jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Zanahary , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ratovantany_god": {
+    "name": "Czczenie bóstwa Ratovantany jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ratovantany , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_andrianerinerina_god": {
+    "name": "Czczenie bóstwa Andrianerinerina jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Andrianerinerina , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_andriambahomanana_god": {
+    "name": "Czczenie bóstwa Andriambahomanana jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Andriambahomanana , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_andriamahilala_god": {
+    "name": "Czczenie bóstwa Andriamahilala jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Andriamahilala , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ngai_god": {
+    "name": "Czczenie bóstwa Ngai jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ngai , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_asis_god": {
+    "name": "Czczenie bóstwa Asis jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Asis , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ilat_god": {
+    "name": "Czczenie bóstwa Ilat jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ilat , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_waaq_god": {
+    "name": "Czczenie bóstwa Waaq jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Waaq , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_kaggen_god": {
+    "name": "Czczenie bóstwa Kaggen jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Kaggen , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_hunntuattatteen_god": {
+    "name": "Czczenie bóstwa Hunntuattatteen jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Hunntuattatteen , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_kagara_god": {
+    "name": "Czczenie bóstwa Kagara jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Kagara , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_haunu_god": {
+    "name": "Czczenie bóstwa Haunu jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Haunu , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_akuj_god": {
+    "name": "Czczenie bóstwa Akuj jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Akuj , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_anyame_god": {
+    "name": "Czczenie bóstwa Anyame jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Anyame , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_asase_ya_god": {
+    "name": "Czczenie bóstwa Asase Ya jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Asase Ya , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_anansi_god": {
+    "name": "Czczenie bóstwa Anansi jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Anansi , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_tano_god": {
+    "name": "Czczenie bóstwa Tano jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Tano , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_legba_god": {
+    "name": "Czczenie bóstwa Legba jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Legba , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_mawu_god": {
+    "name": "Czczenie bóstwa Mawu jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Mawu , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_lisa_god": {
+    "name": "Czczenie bóstwa Lisa jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Lisa , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_sakpata_god": {
+    "name": "Czczenie bóstwa Sakpata jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Sakpata , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_olorun_god": {
+    "name": "Czczenie bóstwa Olorun jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Olorun , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_olokun_isese_god": {
+    "name": "Czczenie bóstwa Olokun jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Olokun , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_obatala_god": {
+    "name": "Czczenie bóstwa Obatala jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Obatala , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ori_god": {
+    "name": "Czczenie bóstwa Ori jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ori , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_egbesu_god": {
+    "name": "Czczenie bóstwa Egbesu jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Egbesu , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_amadioha_god": {
+    "name": "Czczenie bóstwa Amadioha jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Amadioha , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ikenga_god": {
+    "name": "Czczenie bóstwa Ikenga jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ikenga , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_agwu_nsi_god": {
+    "name": "Czczenie bóstwa Agwu Nsi jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Agwu Nsi , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ogbunabali_god": {
+    "name": "Czczenie bóstwa Ogbunabali jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ogbunabali , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_takhar_god": {
+    "name": "Czczenie bóstwa Takhar jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Takhar , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_mindiss_god": {
+    "name": "Czczenie bóstwa Mindiss jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Mindiss , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_niparaya_god": {
+    "name": "Czczenie bóstwa Niparaya jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Niparaya , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_u_blei_nong_thaw_god": {
+    "name": "Czczenie bóstwa U Blei Nong-thaw jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest U Blei Nong-thaw , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ulei_muluk_god": {
+    "name": "Czczenie bóstwa Ulei Muluk jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ulei Muluk , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ulei_umtang_god": {
+    "name": "Czczenie bóstwa Ulei Umtang jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ulei Umtang , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ulei_longspah_god": {
+    "name": "Czczenie bóstwa Ulei Longspah jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ulei Longspah , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_marang_buru_god": {
+    "name": "Czczenie bóstwa Marang Buru jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Marang Buru , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_dharti_ayo_god": {
+    "name": "Czczenie bóstwa Dharti ayo jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Dharti ayo , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_kotan_kar_kamuy_god": {
+    "name": "Czczenie bóstwa Kotan-kar-kamuy jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Kotan-kar-kamuy , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_kamuy_huci_god": {
+    "name": "Czczenie bóstwa Kamuy-huci jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Kamuy-huci , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_kim_un_kamuy_god": {
+    "name": "Czczenie bóstwa Kim-un-kamuy jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Kim-un-kamuy , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_rep_un_kamuy_god": {
+    "name": "Czczenie bóstwa Rep-un-kamuy jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Rep-un-kamuy , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_baradeo_god": {
+    "name": "Czczenie bóstwa Baradeo jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Baradeo , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_nat_awal_god": {
+    "name": "Czczenie bóstwa Nat Awal jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Nat Awal , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_aki_pen_god": {
+    "name": "Czczenie bóstwa Aki Pen jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Aki Pen , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_nat_awual_god": {
+    "name": "Czczenie bóstwa Nat Awual jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Nat Awual , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_phi_heaven_god": {
+    "name": "Czczenie bóstwa Phi Niebios jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Phi Niebios , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_phi_water_god": {
+    "name": "Czczenie bóstwa Phi Niebios jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Phi Niebios , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_phi_earth_god": {
+    "name": "Czczenie bóstwa Phi Ziemi jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Phi Ziemi , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_phi_fire_god": {
+    "name": "Czczenie bóstwa Phi Ognia jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Phi Ognia , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_bathoubwrai_god": {
+    "name": "Czczenie bóstwa Bathoubwrai jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Bathoubwrai , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_mainao_god": {
+    "name": "Czczenie bóstwa Mainao jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Mainao , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_song_bwrai_god": {
+    "name": "Czczenie bóstwa Song Bwrai jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Song Bwrai , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_bura_bagh_raja_god": {
+    "name": "Czczenie bóstwa Bura Bagh Raja jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Bura Bagh Raja , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_donyi_god": {
+    "name": "Czczenie bóstwa Donyi jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Donyi , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_polo_god": {
+    "name": "Czczenie bóstwa Polo jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Polo , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_kine_nane_god": {
+    "name": "Czczenie bóstwa Kine Nane jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Kine Nane , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_doying_bote_god": {
+    "name": "Czczenie bóstwa Doying Bote jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Doying Bote , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_sumnima_god": {
+    "name": "Czczenie bóstwa Sumnima jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Sumnima , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_paruhang_god": {
+    "name": "Czczenie bóstwa Paruhang jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Paruhang , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_yuma_sammang_god": {
+    "name": "Czczenie bóstwa Yuma Sammang jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Yuma Sammang , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_pathian_god": {
+    "name": "Czczenie bóstwa Pathian jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Pathian , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_khuanu_god": {
+    "name": "Czczenie bóstwa Khuanu jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Khuanu , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_pu_vana_god": {
+    "name": "Czczenie bóstwa Pu Vana jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Pu Vana , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_sakhua_god": {
+    "name": "Czczenie bóstwa Sakhua jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Sakhua , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_sky_god": {
+    "name": "Czczenie bóstwa Bóstwo nieba jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest sky_god , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_death_god": {
+    "name": "Czczenie bóstwa Bóstwo śmierci jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest death_god , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_earth_god": {
+    "name": "Czczenie bóstwa Bóstwo ziemi jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest earth_god , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_water_god": {
+    "name": "Czczenie bóstwa Bóstwo wody jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest water_god , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_creator_god": {
+    "name": "Czczenie bóstwa Bóstwo stwórcze jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest creator_god , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_fire_god": {
+    "name": "Czczenie bóstwa Bóstwo ognia jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest fire_god , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_fertility_god": {
+    "name": "Czczenie bóstwa Bóstwo płodności jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest fertility_god , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_war_god": {
+    "name": "Czczenie bóstwa Bóstwo wojny jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest war_god , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_wind_god": {
+    "name": "Czczenie bóstwa Bóstwo wiatru jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest the wind_god , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_thunder_god": {
+    "name": "Czczenie bóstwa Bóstwo gromów jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest thunder_god , jako nasze bóstwo opiekuńcze."
+  },
+  "adamite_services": {
+    "name": "Nabożeństwa adamickie",
+    "desc": "Sekta adamitów nalega na nagość podczas nabożeństw kościelnych. Bez oznak statusu czy kultury w oczach Boga jesteśmy równi, co przypomina o naszym człowieczeństwie i niewinności, którą cieszyliśmy się przed upadkiem."
+  },
+  "punishment_of_sin": {
+    "name": "Karanie za grzechy",
+    "desc": "Wszyscy, którzy grzeszą, muszą zostać ukarani jednakowo, bez względu na bogactwo czy rangę. Nawet szlachta nie stoi ponad prawem Bożym."
+  },
+  "worship_viracocha": {
+    "name": "Czczenie bóstwa Wiraqucha jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Wiraqucha , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_inti_god": {
+    "name": "Czczenie bóstwa Inti jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Inti , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_illapa_god": {
+    "name": "Czczenie bóstwa Illapa jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Illapa , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_supay_god": {
+    "name": "Czczenie bóstwa Supay jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Supay , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_mamaquilla": {
+    "name": "Czczenie bóstwa Mamaquilla jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Mamaquilla , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_pachamama": {
+    "name": "Czczenie bóstwa Pachamama jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Pachamama , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_mama_cocha": {
+    "name": "Czczenie bóstwa Mama Qucha jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Mama Qucha , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_urpihuachac": {
+    "name": "Czczenie bóstwa Urpihuachac jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Urpihuachac , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_chinchaycamac": {
+    "name": "Czczenie bóstwa Uscovilca jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Uscovilca , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_odin_god": {
+    "name": "Czczenie bóstwa Óðinn jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Óðinn , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_tor_god": {
+    "name": "Czczenie bóstwa Þórr jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Þórr , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_tyr_god": {
+    "name": "Czczenie bóstwa Týr jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Týr , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_njord_god": {
+    "name": "Czczenie bóstwa Njörðr jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Njörðr , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_freyr_god": {
+    "name": "Czczenie bóstwa Freyr jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Freyr , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_freya_god": {
+    "name": "Czczenie bóstwa Freyja jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Freyja , jako nasze bóstwo opiekuńcze."
+  },
+  "baptism_by_fire": {
+    "name": "Chrzest w ogniu",
+    "desc": "Nasza wiara nie wierzy, że chrzest w wodzie jest trwały, jak twierdził święty Jan Chrzciciel. Jedynie dotknięcie czterech stron głowy osoby płonącą świecą oznacza permanentne ochrzczenie."
+  },
+  "name_change": {
+    "name": "Zmiana imienia",
+    "desc": "Siła imion jest naszym społecznościom dobrze znana. Nasi przywódcy wiary często zmieniają swoje imiona na wzór imion wyznawców św. Pawła, podobnie jak zwykli ludzie zmieniają nazwy swych osiedli na odpowiadające miejscom, w których mieszkał nasz patron."
+  },
+  "paulician_canon": {
+    "name": "Paulicjanizm",
+    "desc": "Nasz lud odrzuca Stary Testament i jego proroków, podobnie jak listy św. Piotra. Jedynie słowa św. Pawła są właściwe."
+  },
+  "punishment_by_stoning": {
+    "name": "Ukamienowanie",
+    "desc": "Kamienowanie jest powszechną wśród naszych społeczności praktyką karania dysydentów religijnych, wyróżniającą się na tle naszych sąsiadów. Wywodzi się ona najprawdopodobniej z naszych anatolijskich korzeni."
+  },
+  "justified_conflicts": {
+    "name": "Usprawiedliwione konflikty",
+    "desc": "Nowemu Kościołowi w kraju zagrażają zarówno poganie, jak i heretycy. W tej wojnie o przetrwanie będzie on usprawiedliwiał nasze konflikty Biblią."
+  },
+  "pietism": {
+    "name": "Pietyzm",
+    "desc": "Pietyzm skupia się na indywidualnej gorliwości każdego wierzącego i podkreśla wewnętrzną przemianę, która prowadzi do pobożnego życia chrześcijańskiego."
+  },
+  "worship_tengri_god": {
+    "name": "Czczenie bóstwa Kök Teŋri jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Kök Teŋri , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_umay_god": {
+    "name": "Czczenie bóstwa Umay jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Umay , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ulgen_god": {
+    "name": "Czczenie bóstwa Ülgen jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ülgen , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_erlik_god": {
+    "name": "Czczenie bóstwa Erlik jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Erlik , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_kayra_god": {
+    "name": "Czczenie bóstwa Kajra jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Kajra , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_bai_baianai_god": {
+    "name": "Czczenie bóstwa Bai Baianai jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Bai Baianai , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ak_ana_god": {
+    "name": "Czczenie bóstwa Ak Ana jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Ak Ana , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_mergen_god": {
+    "name": "Czczenie bóstwa Mergen jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Mergen , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_tlaloc_god": {
+    "name": "Czczenie bóstwa Tláloc jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Tláloc , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_huitzilopochtli_god": {
+    "name": "Czczenie bóstwa Huītzilōpōchtli jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Huītzilōpōchtli , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_quetzalcoatl_god": {
+    "name": "Czczenie bóstwa Quetzalcōātl jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Quetzalcōātl , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_tezcatlipoca_god": {
+    "name": "Czczenie bóstwa Tēzcatlīpohca jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Tēzcatlīpohca , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_xiuhtecuhtli_god": {
+    "name": "Czczenie bóstwa Xiuhtēcuhtli jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Xiuhtēcuhtli , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_coatlicue_god": {
+    "name": "Czczenie bóstwa Cōātlīcue jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Cōātlīcue , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_huehueteotl_god": {
+    "name": "Czczenie bóstwa Huehuetéotl jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Xiuhtēcuhtli , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_mesoamerican_quetzalcoatl_god": {
+    "name": "Czczenie bóstwa Quetzalcōātl jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Quetzalcōātl , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_dzahui_god": {
+    "name": "Czczenie bóstwa Dzahui jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Tláloc , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_chaac_god": {
+    "name": "Czczenie bóstwa Chaac jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Tláloc , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_kukulkan_god": {
+    "name": "Czczenie bóstwa K'uk'ulkan jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Quetzalcōātl , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_kawiil_god": {
+    "name": "Czczenie bóstwa K'awiil jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Xiuhtēcuhtli , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_tepeu_god": {
+    "name": "Czczenie bóstwa Tepeu jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Tepeu , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_huracan_god": {
+    "name": "Czczenie bóstwa Huracan jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Huracan , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_hunhunahpu_god": {
+    "name": "Czczenie bóstwa Hun-Hunahpu jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Hun-Hunahpu , jako nasze bóstwo opiekuńcze."
+  },
+  "worship_ixchel_god": {
+    "name": "Czczenie bóstwa Ixchel jako naszego patrona",
+    "desc": "Głównym obiektem naszego kultu i adoracji jest Cōātlīcue , jako nasze bóstwo opiekuńcze."
+  },
+  "_modifier_names": {
+    "add_religious_aspect_christian_cost_modifier": "Koszt dodania aspektu religijnego",
+    "antagonism_received_modifier": "Otrzymany antagonizm",
+    "army_initiative": "Inicjatywa armii",
+    "army_maintenance_cost": "Utrzymanie armii",
+    "army_movement_speed": "Szybkość ruchu armii",
+    "ban_imports_of_livestock": "– zakaz importu",
+    "bank_interest": "Odsetki banku",
+    "can_have_monasteries": "Dozwolone klasztory",
+    "clergy_estate_max_tax": "Maks. podatek dla duchowieństwa",
+    "clergy_estate_satisfaction_recovery": "Wzrost satysfakcji duchowieństwa",
+    "clergy_estate_target_satisfaction": "Równowaga satysfakcji duchowieństwa",
+    "colonial_maintenance_cost": "Utrzymanie kolonii",
+    "country_cabinet_efficiency": "Wydajność naszego gabinetu",
+    "court_spending_cost": "Spodziewany koszt dworu",
+    "cultural_tradition_modifier": "Tradycja kulturowa %",
+    "declaring_war_cost_modifier": "Koszt wypowiedzenia wojny",
+    "diplomatic_capacity_modifier": "Możliwości dyplomatyczne",
+    "discipline": "Dyscyplina",
+    "expand_rgo_farming_cost_modifier": "Koszt zwiększenia rolnictwa",
+    "expand_rgo_mining_cost_modifier": "Koszt rozszerzenia operacji górniczych",
+    "gender_equality": "Równość płci",
+    "global_clergy_desired_pop": "– możliwa populacja",
+    "global_clergy_estate_power": "Siła duchownych",
+    "global_clergy_max_literacy": "Maks. piśmienność duchowieństwa",
+    "global_crown_estate_power": "Wpływy korony",
+    "global_defensive": "Obrona fortu",
+    "global_devastation_recovery": "Odzyskiwanie dobrobytu",
+    "global_disease_resistance": "Odporność na choroby",
+    "global_distance_from_capital_speed_propagation": "Szybkość bliskości",
+    "global_estate_target_satisfaction": "Równowaga satysfakcji stanów",
+    "global_fish_output_modifier": "– produkcja",
+    "global_garrison_size_modifier": "Rozmiar garnizonu",
+    "global_hostile_attrition": "Wrogie osłabienie",
+    "global_life_expectancy": "Oczekiwana długość życia postaci",
+    "global_lumber_output_modifier": "– produkcja",
+    "global_maritime_presence_modifier": "% obecności morskiej",
+    "global_max_literacy": "Maks. piśmienność",
+    "global_max_rgo_size_modifier": "Maks. rozmiar budynków pozyskujących surowce",
+    "global_monthly_art_start_chance": "Miesięczna szansa na rozpoczęcie dzieła",
+    "global_monthly_control": "Miesięczna kontrola",
+    "global_monthly_food_modifier": "% produkcji żywności",
+    "global_monthly_prosperity": "Miesięczny dobrobyt",
+    "global_pop_assimilation_speed_modifier": "Szybkość asymilacji społeczności",
+    "global_pop_conversion_speed_modifier": "% szybkości nawracania społeczności",
+    "global_pop_promotion_speed_modifier": "% szybkości awansowania społeczności",
+    "global_population_growth": "Przyrost naturalny",
+    "global_production_efficiency": "Efektywność produkcyjna",
+    "global_raw_material_output": "Produkcja surowców",
+    "global_separatism": "Separatyzm",
+    "global_war_score_cost": "Koszt wyniku wojennego",
+    "global_weaponry_output_modifier": "– produkcja",
+    "global_wild_game_output_modifier": "– produkcja",
+    "global_wine_output_modifier": "– produkcja",
+    "improve_relation_impact": "Poprawa relacji",
+    "land_morale_modifier": "Morale armii",
+    "land_morale_recovery": "Szybkość odzyskiwania morale armii",
+    "minting_income_factor": "Przychód z bicia waluty",
+    "monthly_diplomats": "Miesięczni dyplomaci",
+    "monthly_legitimacy": "Miesięczna prawomocność",
+    "monthly_rebel_growth": "Miesięczny rozwój buntu",
+    "monthly_religious_influence": "Miesięczny wpływ religijny",
+    "monthly_towards_absolutism": "Miesięczne postępy w absolutyzmie",
+    "monthly_towards_belligerent": "Miesięczne postępy w wojowniczości",
+    "monthly_towards_capital_economy": "Miesięczne postępy w gospodarce kapitalistycznej",
+    "monthly_towards_centralization": "Miesięczne postępy w centralizacji",
+    "monthly_towards_communalism": "Miesięczne postępy w komunalizmie",
+    "monthly_towards_conciliatory": "Miesięczne postępy w ugodowości",
+    "monthly_towards_decentralization": "Miesięczne postępy w decentralizacji",
+    "monthly_towards_free_subjects": "Miesięczne postępy w wolności poddanych",
+    "monthly_towards_individualism": "Miesięczne postępy w indywidualizmie",
+    "monthly_towards_innovative": "Miesięczne postępy w innowacji",
+    "monthly_towards_plutocracy": "Miesięczne postępy w plutokracji",
+    "monthly_towards_spiritualist": "Miesięczne postępy w spirytualizmie",
+    "monthly_towards_traditionalist": "Miesięczne postępy w tradycji",
+    "monthly_war_exhaustion": "Miesięczne wyczerpanie wojenne",
+    "monthly_yanantin": "Miesięczny yanyantin",
+    "naval_morale_modifier": "Morale floty",
+    "navy_initiative": "Inicjatywa floty",
+    "peasants_estate_target_satisfaction": "Równowaga satysfakcji włościan",
+    "pop_join_rebel_threshold": "Próg dołączenia społeczności do buntowników",
+    "pop_leave_rebels_threshold": "Próg opuszczenia buntowników przez społeczność",
+    "recruit_explorer_cost_modifier": "Werbunek odkrywców",
+    "regiment_reinforcement_speed": "Szybkość wzmacniania",
+    "remove_religious_aspect_christian_cost_modifier": "Koszt usunięcia aspektu religijnego",
+    "research_speed_modifier": "% miesięcznych postępów badań",
+    "skill_of_new_artists": "Zdolności nowych artystów",
+    "stability_cost": "Koszt inwestycji w stabilność",
+    "tax_income_efficiency": "Efektywność podatkowa",
+    "tolerance_heathen": "Tolerancja pogańskiej wiary",
+    "tolerance_heretic": "Tolerancja heretyckiej wiary",
+    "tolerance_own": "Tolerancja prawdziwej wiary",
+    "war_on_different_religion_cost_modifier": "Koszt wojny z inną religią"
+  },
+  "_modifier_descs": {
+    "add_religious_aspect_christian_cost_modifier": "Wpływa na koszt dodania aspektu religijnego.",
+    "antagonism_received_modifier": "Wpływa na to, ile antagonizmu generuje kraj poprzez swoje działania.",
+    "army_initiative": "Wpływa na inicjatywę pułku podczas bitwy.",
+    "army_maintenance_cost": "Zmienia ilość złota i siły żywej potrzebnych do utrzymania pułku.",
+    "army_movement_speed": "Wpływa na szybkość przemieszczania się armii między lokacjami.",
+    "ban_imports_of_livestock": "Blokuje Import na wszystkich rynkach posiadanych przez kraj dla towaru: livestock.",
+    "bank_interest": "Wpływa na Odsetki od pożyczek zaciągniętych w banku narodowym.",
+    "can_have_monasteries": "Wpływa na to, czy w kraj może posiadać budowle typu monastery, czy nie.",
+    "clergy_estate_max_tax": "Wpływa na Podatek maksymalny, jakim mogą być obłożeni duchowni.",
+    "clergy_estate_satisfaction_recovery": "Określa, jak szybko Satysfakcja stanowa stanu Duchowni rośnie do równowagi w tym kraju.",
+    "clergy_estate_target_satisfaction": "Wpływa na równowagę satysfakcji stanowej, jaką mają duchowni w tym kraju.",
+    "colonial_maintenance_cost": "Wpływa na miesięczny koszt kart kolonialnych.",
+    "country_cabinet_efficiency": "Wpływa na wydajność wszystkich postaci w gabinecie kraju.",
+    "court_spending_cost": "Wpływa na to, ile podstawy opodatkowania zostanie przeznaczone na utrzymanie dworu.",
+    "cultural_tradition_modifier": "Wpływa na tradycję kulturową naszej kultury podstawowej.",
+    "declaring_war_cost_modifier": "Wpływa na koszt wypowiedzenia wojny.",
+    "diplomatic_capacity_modifier": "Wpływa na liczbę dostępnych akcji dyplomatycznych, jakie może posiadać kraj.",
+    "discipline": "Wpływa na dyscyplinę pułku.",
+    "expand_rgo_farming_cost_modifier": "Wpływa na Koszt zwiększenia liczby Społeczności pracujących z surowcami wymagającymi gospodarstw rolniczych. Surowce wymagające rolnictwa。",
+    "expand_rgo_mining_cost_modifier": "Wpływa na Koszt zwiększenia liczby Społeczności pracujących z surowcami wymagającymi wydobycia w kopalni. Surowce wymagające wydobycia。",
+    "gender_equality": "Ma to wpływ na to, czy kobiety mogą pełnić te same Role co mężczyźni.",
+    "global_clergy_desired_pop": "Wpływa na maksymalną populację we wszystkich lokacjach w tym kraju dla stanu clergy.",
+    "global_clergy_estate_power": "Ma znaczenie dla wpływów stanowych, jakie posiadają duchowni w całym kraju.",
+    "global_clergy_max_literacy": "Wpływa na Piśmienność, jaką mogą się poszczycić clergy w tym kraju.",
+    "global_crown_estate_power": "Ma znaczenie dla wpływów stanowych, jakie posiada Korona, innymi słowy na wpływy korony w całym kraju.",
+    "global_defensive": "Wpływa jak szybko będzie przebiegać Oblężenie przeciwko krajowi.",
+    "global_devastation_recovery": "Wpływa na szybkość, z jaką Lokacje w kraju co miesiąc odzyskują Dobrobyt.",
+    "global_disease_resistance": "Wpływa na odporność na choroby we wszystkich lokacjach w kraju.",
+    "global_distance_from_capital_speed_propagation": "Wpływa na szybkość, z jaką Bliskość porusza się między wszystkimi lokacjami w kraju.",
+    "global_estate_target_satisfaction": "Wpływa na równowagę satysfakcji stanowej wszystkich stanów w kraju.",
+    "global_fish_output_modifier": "Modyfikuje produkcję w całym kraju dla towaru: fish.",
+    "global_garrison_size_modifier": "Wpływa na liczebność wszystkich garnizonów w kraju.",
+    "global_hostile_attrition": "Wpływa na Osłabienie wrogich armii we wszystkich posiadanych i kontrolowanych lokacjach.",
+    "global_life_expectancy": "Wiek, w którym postaciom w tym kraju zaczyna grozić śmierć ze starości.",
+    "global_lumber_output_modifier": "Modyfikuje produkcję w całym kraju dla towaru: lumber.",
+    "global_maritime_presence_modifier": "Wpływa na obecność morską w strefach morskich sąsiadujących z lokacjami posiadanymi przez Kraj.",
+    "global_max_literacy": "Wpływa na maksymalną Piśmienność wszystkich Społeczności w kraju.",
+    "global_max_rgo_size_modifier": "Wpływa na maksymalny rozmiar budynków pozyskujących surowce w całym kraju.",
+    "global_monthly_art_start_chance": "Wpływa na szansę rozpoczęcia tworzenia nowego dzieła sztuki przez artystów w kraju.",
+    "global_monthly_control": "O tyle zmieni się Kontrola we wszystkich lokacjach w kraju.",
+    "global_monthly_food_modifier": "Wpływa na ilość żywności produkowanej we wszystkich lokacjach w kraju.",
+    "global_monthly_prosperity": "Wpływa na comiesięczne zmiany w poziomie dobrobytu we wszystkich lokacjach w kraju.",
+    "global_pop_assimilation_speed_modifier": "Wpływa na szybkość asymilacji społeczności we wszystkich lokacjach w kraju.",
+    "global_pop_conversion_speed_modifier": "Wpływa na szybkość nawracania społeczności we wszystkich lokacjach w kraju.",
+    "global_pop_promotion_speed_modifier": "Wpływa na szybkość awansowania społeczności we wszystkich lokacjach w kraju.",
+    "global_population_growth": "Wpływa na Przyrost naturalny we wszystkich lokacjach w kraju.",
+    "global_production_efficiency": "Wpływa na koszt efektywność produkcyjną w całym kraju.",
+    "global_raw_material_output": "Wpływa na produkcję surowców we wszystkich lokacjach w kraju.",
+    "global_separatism": "Wpływa na Separatyzm we wszystkich lokacjach w kraju.",
+    "global_war_score_cost": "Wpływa na koszt wyniku wojennego potrzebnego do zajęcia terytorium przez ten kraj.",
+    "global_weaponry_output_modifier": "Modyfikuje produkcję w całym kraju dla towaru: weaponry.",
+    "global_wild_game_output_modifier": "Modyfikuje produkcję w całym kraju dla towaru: wild game.",
+    "global_wine_output_modifier": "Modyfikuje produkcję w całym kraju dla towaru: wine.",
+    "improve_relation_impact": "Wpływa na to, jak skutecznie kraj może poprawiać relacje.",
+    "land_morale_modifier": "Zmienia o określony procent maksymalne Morale, jakie może posiadać Pułk.",
+    "land_morale_recovery": "Wpływa na szybkość odzyskiwania Morale pułku, jeśli jest ono niższe od maksymalnego.",
+    "minting_income_factor": "Wpływa na to, ile złota zyska kraj z bicia waluty.",
+    "monthly_diplomats": "Wpływa na to, ilu dyplomatów otrzymuje miesięcznie kraj.",
+    "monthly_legitimacy": "Wpływa na ilość prawomocności zdobywanej miesięcznie przez kraj.",
+    "monthly_rebel_growth": "Wpływa na szybkość, z jaką Buntownicy przechodzą do rewolty lub wojny domowej.",
+    "monthly_religious_influence": "Wpływa na ilość wpływu religijnego zyskiwanego miesięcznie przez kraj.",
+    "monthly_towards_absolutism": "Wpływa na zmianę wartości społecznych w kierunku: absolutism.",
+    "monthly_towards_belligerent": "Wpływa na zmianę wartości społecznych w kierunku: belligerent.",
+    "monthly_towards_capital_economy": "Wpływa na zmianę wartości społecznych w kierunku: Stolica economy.",
+    "monthly_towards_centralization": "Wpływa na zmianę wartości społecznych w kierunku: centralization.",
+    "monthly_towards_communalism": "Wpływa na zmianę wartości społecznych w kierunku: communalism.",
+    "monthly_towards_conciliatory": "Wpływa na zmianę wartości społecznych w kierunku: conciliatory.",
+    "monthly_towards_decentralization": "Wpływa na zmianę wartości społecznych w kierunku: decentralization.",
+    "monthly_towards_free_subjects": "Wpływa na zmianę wartości społecznych w kierunku: free Podwładni.",
+    "monthly_towards_individualism": "Wpływa na zmianę wartości społecznych w kierunku: individualism.",
+    "monthly_towards_innovative": "Wpływa na zmianę wartości społecznych w kierunku: innovative.",
+    "monthly_towards_plutocracy": "Wpływa na zmianę wartości społecznych w kierunku: plutocracy.",
+    "monthly_towards_spiritualist": "Wpływa na zmianę wartości społecznych w kierunku: spiritualist.",
+    "monthly_towards_traditionalist": "Wpływa na zmianę wartości społecznych w kierunku: traditionalist.",
+    "monthly_war_exhaustion": "Wpływa na to, ile wyczerpania wojennego otrzymamy każdego miesiąca.",
+    "monthly_yanantin": "Wpływa na ilość yanantinu zyskiwanego miesięcznie przez kraj.",
+    "naval_morale_modifier": "Zmienia o określony procent maksymalne Morale, jakie może posiadać Okręt.",
+    "navy_initiative": "Wpływa na inicjatywę okrętu podczas bitwy.",
+    "peasants_estate_target_satisfaction": "Wpływa na równowagę satysfakcji stanowej, jaką mają włościanie w tym kraju.",
+    "pop_join_rebel_threshold": "Wpływa na próg satysfakcji, poniżej którego Społeczność może dołączyć do buntowników. Wartość nigdy nie może być niższa niż .",
+    "pop_leave_rebels_threshold": "Wpływa na próg satysfakcji, powyżej którego Społeczność może opuścić buntowników.",
+    "recruit_explorer_cost_modifier": "Wpływa na Koszt werbunku odkrywcy.",
+    "regiment_reinforcement_speed": "Wpływa na szybkość wzmocnienia pułku.",
+    "remove_religious_aspect_christian_cost_modifier": "Wpływa na koszt usunięcia aspektu religijnego.",
+    "research_speed_modifier": "Wpływa na tempo postępów badań w kraju.",
+    "skill_of_new_artists": "Wpływa na zdolności artystyczne nowych artystów.",
+    "stability_cost": "Wpływa na koszt inwestycji w stabilność.",
+    "tax_income_efficiency": "Wpływa na efektywność podatkową kraju.",
+    "tolerance_heathen": "Wpływa na tolerancję religii z tej innej grupy niż Religia podstawowa.",
+    "tolerance_heretic": "Wpływa na tolerancję religii z tej samej grupy co Religia podstawowa.",
+    "tolerance_own": "Wpływa na tolerancję religii państwowej.",
+    "war_on_different_religion_cost_modifier": "Wpływa na koszt wypowiedzenia wojny krajowi z inną religią."
+  }
+}

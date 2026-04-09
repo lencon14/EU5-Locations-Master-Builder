@@ -1,0 +1,842 @@
+{
+  "prima_scriptura": {
+    "name": "Prima Scriptura",
+    "desc": "Si les Saintes Écritures doivent être considérées comme la source centrale du salut, elles ne peuvent être considérées comme la seule source de révélation divine."
+  },
+  "five_doors": {
+    "name": "Les cinq portes",
+    "desc": "Certains parmi les nôtres pratiquent un style de méditation consistant à fermer toutes les portes d'une maison tout en ouvrant les cinq portes ou les cinq sens. Nous allons introduire cette pratique partout."
+  },
+  "holy_cooperation": {
+    "name": "Coopération sacrée",
+    "desc": "Un changement s'opérera en faveur de la promotion et de la participation active au travail productif. Cette philosophie s'étendra à nos communautés agricoles, en s'inspirant du modèle de la communauté coopérative sacrée des premiers chrétiens."
+  },
+  "twelve_emissaries": {
+    "name": "Les douze émissaires",
+    "desc": "Inspirés par l'organisation de certaines communautés, nous élirons parmi nos aînés et les plus parfaits douze sages qui feront office de conseil suprême, sans pour autant créer une véritable hiérarchie."
+  },
+  "arminianism": {
+    "name": "Arminianisme",
+    "desc": "L'arminianisme est basé sur les doctrines pluralistes et humanitaires du théologien réformé hollandais Jacobus Arminius."
+  },
+  "gomarism": {
+    "name": "Gomarisme",
+    "desc": "François Gomaer, dit Gomarius, s'est opposé aux croyances de Jacobus Arminius, qui enseignait une doctrine proche du pélagianisme et a tenté de créer une nouvelle école théologique à l'université où tous deux enseignaient."
+  },
+  "instituionalized_arminianism": {
+    "name": "Institutionnalisons l'Arminianisme",
+    "desc": "L'arminianisme est basé sur les doctrines pluralistes et humanitaires du théologien réformé hollandais Jacobus Arminius. Ce mouvement religieux est désormais institutionnalisé au sein de notre État."
+  },
+  "instituionalized_gomarism": {
+    "name": "Institutionnalisons le Gomarisme",
+    "desc": "François Gomaer, dit Gomarius, s'est opposé aux croyances de Jacobus Arminius, qui enseignait une doctrine proche du pélagianisme et a tenté de créer une nouvelle école théologique à l'université où tous deux enseignaient. Ce mouvement religieux est désormais institutionnalisé au sein de notre État."
+  },
+  "consolamentum": {
+    "name": "Consolamentum",
+    "desc": "Comme le processus de vie incite, inévitablement, au regret de nos péchés, la nécessité de recevoir une consolation pour entrer au Ciel dans la pureté et se rapprocher de Dieu devient évidente. En recevant le Consolamentum, notre peuple est absous de ses péchés à l'approche de la mort."
+  },
+  "pescatarianism": {
+    "name": "Pesco-végétarisme",
+    "desc": "Les animaux sont porteurs d'âmes réincarnées et, pour cette raison, nous ne pouvons pas les manger. Les poissons, êtres générés spontanément, ne peuvent être considérés comme des animaux et peuvent être mangés."
+  },
+  "the_perfects": {
+    "name": "Les parfaits",
+    "desc": "Ceux d'entre nous qui sont particulièrement engagés envers Dieu et les vertus que tous les humains devraient poursuivre sont appelés des parfaits. Ces hommes et ces femmes reçoivent le Consolamentum pour leur dévotion et deviennent des parfaits. Contrairement aux gens ordinaires, les parfaits reçoivent le Consolamentum deux fois dans leur vie : lorsqu'ils sont élevés à leur nouveau rôle et avant de mourir."
+  },
+  "adoptionism": {
+    "name": "Adoptianisme",
+    "desc": "Notre croyance postule que Jésus-Christ est devenu le Fils de Dieu lors de son baptême ou de sa résurrection, au lieu d'être éternellement divin."
+  },
+  "adult_baptism": {
+    "name": "Baptême des adultes",
+    "desc": "Le baptême d'un adulte sur la base d'une profession de foi en Jésus-Christ et en tant qu'admission dans une communauté locale de foi est le fait de ceux qui croient que la grâce salvatrice et l'appartenance à l'Église sont des dons de Dieu. La foi du récipiendaire doit être exprimée et ne peut être transmise ou transférée d'une personne à une autre."
+  },
+  "aniconism": {
+    "name": "Aniconisme",
+    "desc": "Les symboles ne sont pas un moyen digne de représenter notre Seigneur, car il s'agit d'idoles ou de personnes. Nous rejetterons toute représentation, dont la croix utilisée par les autres chrétiens."
+  },
+  "asceticism": {
+    "name": "Ascétisme",
+    "desc": "Les recherches matérialistes nous rendent aveugles à la vérité divine. Ce n'est qu'en nous consacrant à une vie simple et sans luxe que nous pourrons atteindre l'illumination spirituelle."
+  },
+  "bread_and_wine": {
+    "name": "Le pain et le vin",
+    "desc": "Nous croyons que seule une communion avec à la fois du pain et du vin est valide, même pour les membres laïcs. Nos ecclésiastiques administreront la communion sous les deux formes à tous les membres du service."
+  },
+  "clerical_poverty": {
+    "name": "Pauvreté cléricale",
+    "desc": "Le clergé ne devrait posséder aucune richesse et renoncer à toute possession matérielle. C'est à Dieu qu'il doit consacrer toute son attention, et non pas aux biens de ce bas monde."
+  },
+  "crown_as_head_of_faith": {
+    "name": "La Couronne comme autorité religieuse",
+    "desc": "Notre foi n'est plus soumise à l'autorité lointaine et corrompue d'un théocrate étranger. Toutes les questions religieuses sont désormais tranchées par notre Dirigeant en tant que gouverneur suprême de l'Église."
+  },
+  "freedom_to_preach": {
+    "name": "Liberté de prêche",
+    "desc": "Il existe certes de nombreux désaccords parmi les disciples, mais chaque école doit avoir le droit de prêcher librement tant qu'elle honore Dieu avec sincérité."
+  },
+  "gnosticism": {
+    "name": "Gnosticisme",
+    "desc": "Le gnosticisme est centré sur le salut personnel par la gnose. Nous échapperons au monde matériel et retournerons dans un royaume supérieur en recherchant une compréhension spirituelle."
+  },
+  "individual_creeds": {
+    "name": "Croyances individuelles",
+    "desc": "Permettre à notre peuple de formuler ses propres croyances encouragera la formation d'opinions individuelles et permettra d'ouvrir la voie au progrès !"
+  },
+  "monasticism": {
+    "name": "Monachisme",
+    "desc": "Les plaisirs de la table et de la boisson ne servent qu'à nous détourner du culte du divin. S'isoler dans des monastères reculés est le meilleur moyen d'éviter ces tentations."
+  },
+  "modalism": {
+    "name": "Modalisme",
+    "desc": "Nous croyons que Dieu est absolument unique et que les concepts trinitaires tels que le Père, le Fils et le Saint-Esprit ne sont que des modes différents par lesquels Dieu se manifeste."
+  },
+  "organized_through_bishops": {
+    "name": "Nomination des évêques",
+    "desc": "Au lieu de renoncer totalement à la nomination des évêques, ils serviront l'Église en tant qu'administrateurs de régions plus vastes."
+  },
+  "pacifism": {
+    "name": "Pacifisme",
+    "desc": "Bienheureux les faiseurs de paix, car ils seront appelés enfants de Dieu."
+  },
+  "parish_registers": {
+    "name": "Registres paroissiaux",
+    "desc": "Les détails des baptêmes, des mariages et des enterrements seront désormais consignés dans un registre paroissial. Chaque curé tiendra un livre où il inscrira ces événements et le conservera dans un coffre sûr à deux serrures."
+  },
+  "participation_women": {
+    "name": "La Participation des femmes",
+    "desc": "Bien que les femmes participent en tant qu'égales dans nos communautés, nous adopterons partout une règle générale pour qu'elles soient traitées comme les hommes."
+  },
+  "rejection_of_sacraments": {
+    "name": "Rejet des sacrements",
+    "desc": "Notre doctrine rejette la plupart des sacrements chrétiens, car ils sont essentiellement physiques et n'ont aucune importance. Seule compte la partie spirituelle, qui nous rapproche de Dieu."
+  },
+  "sola_fide": {
+    "name": "Sola Fide",
+    "desc": "Aucune bonne action ne peut satisfaire Dieu. Nous sommes graciés par la seule grâce divine, que Dieu a accordée par l'intermédiaire de son Fils unique, Jésus-Christ."
+  },
+  "sola_scriptura": {
+    "name": "Sola Scriptura",
+    "desc": "La Bible, parole de Dieu livrée à l'homme, est la seule autorité pour la doctrine chrétienne. Toute pratique religieuse qui ne peut s'appuyer sur une référence biblique doit être dénoncée comme une hérésie."
+  },
+  "soli_deo_gloria": {
+    "name": "Soli Deo Gloria",
+    "desc": "Toutes les réalisations humaines ne peuvent être créées que si elles sont consacrées à la louange de Dieu."
+  },
+  "translated_bibles": {
+    "name": "Traduction de la Bible",
+    "desc": "La traduction de la Bible dans une langue parlée par les habitants de notre pays leur offre la meilleure voie vers Dieu, d'une manière qui s'adresse à leur esprit et à leur cœur."
+  },
+  "usury_allowed": {
+    "name": "Usure autorisée",
+    "desc": "Les prêts monétaires avec intérêts qui enrichissent le prêteur sont désormais autorisés et ne sont plus considérés comme un péché."
+  },
+  "war_sermons": {
+    "name": "Sermons de guerre",
+    "desc": "En période de conflit, la foi préserve l'espoir de notre peuple. L'Église de notre royaume prêchera à partir du Livre saint pour maintenir le moral de la population, même pendant les heures les plus sombres."
+  },
+  "worship_nyambe_god": {
+    "name": "Vénérer Nyambe comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Nyambe en tant que mécène et protecteur."
+  },
+  "worship_nhialic_god": {
+    "name": "Vénérer Nhialic comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Nhialic en tant que mécène et protecteur."
+  },
+  "worship_du_chie_god": {
+    "name": "Vénérer Du Chie comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Du Chie en tant que mécène et protecteur."
+  },
+  "worship_ayum_god": {
+    "name": "Vénérer Ayum comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ayum en tant que mécène et protecteur."
+  },
+  "worship_alwet_god": {
+    "name": "Vénérer Alwet comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Alwet en tant que mécène et protecteur."
+  },
+  "worship_zanahary_god": {
+    "name": "Vénérer Zanahary comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Zanahary en tant que mécène et protecteur."
+  },
+  "worship_ratovantany_god": {
+    "name": "Vénérer Ratovantany comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ratovantany en tant que mécène et protecteur."
+  },
+  "worship_andrianerinerina_god": {
+    "name": "Vénérer Andrianerinerina comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Andrianerinerina en tant que mécène et protecteur."
+  },
+  "worship_andriambahomanana_god": {
+    "name": "Vénérer Andriambahomanana comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Andriambahomanana en tant que mécène et protecteur."
+  },
+  "worship_andriamahilala_god": {
+    "name": "Vénérer Andriamahilala comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Andriamahilala en tant que mécène et protecteur."
+  },
+  "worship_ngai_god": {
+    "name": "Vénérer Ngai comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ngai en tant que mécène et protecteur."
+  },
+  "worship_asis_god": {
+    "name": "Vénérer Asis comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Asis en tant que mécène et protecteur."
+  },
+  "worship_ilat_god": {
+    "name": "Vénérer Ilat comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ilat en tant que mécène et protecteur."
+  },
+  "worship_waaq_god": {
+    "name": "Vénérer Waaq comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Waaq en tant que mécène et protecteur."
+  },
+  "worship_kaggen_god": {
+    "name": "Vénérer Kaggen comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Kaggen en tant que mécène et protecteur."
+  },
+  "worship_hunntuattatteen_god": {
+    "name": "Vénérer Hunntuattatteen comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Hunntuattatteen en tant que mécène et protecteur."
+  },
+  "worship_kagara_god": {
+    "name": "Vénérer Kagara comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Kagara en tant que mécène et protecteur."
+  },
+  "worship_haunu_god": {
+    "name": "Vénérer Haunu comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Haunu en tant que mécène et protecteur."
+  },
+  "worship_akuj_god": {
+    "name": "Vénérer Akuj comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Akuj en tant que mécène et protecteur."
+  },
+  "worship_anyame_god": {
+    "name": "Vénérer Anyame comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Anyame en tant que mécène et protecteur."
+  },
+  "worship_asase_ya_god": {
+    "name": "Vénérer Asase Ya comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Asase Ya en tant que mécène et protecteur."
+  },
+  "worship_anansi_god": {
+    "name": "Vénérer Anansi comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Anansi en tant que mécène et protecteur."
+  },
+  "worship_tano_god": {
+    "name": "Vénérer Tano comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Tano en tant que mécène et protecteur."
+  },
+  "worship_legba_god": {
+    "name": "Vénérer Legba comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Legba en tant que mécène et protecteur."
+  },
+  "worship_mawu_god": {
+    "name": "Vénérer Mawu comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Mawu en tant que mécène et protecteur."
+  },
+  "worship_lisa_god": {
+    "name": "Vénérer Lisa comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Lisa en tant que mécène et protecteur."
+  },
+  "worship_sakpata_god": {
+    "name": "Vénérer Sakpata comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Sakpata en tant que mécène et protecteur."
+  },
+  "worship_olorun_god": {
+    "name": "Vénérer Olorun comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Olorun en tant que mécène et protecteur."
+  },
+  "worship_olokun_isese_god": {
+    "name": "Vénérer Olokun comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Olokun en tant que mécène et protecteur."
+  },
+  "worship_obatala_god": {
+    "name": "Vénérer Obatala comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Obatala en tant que mécène et protecteur."
+  },
+  "worship_ori_god": {
+    "name": "Vénérer Ori comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ori en tant que mécène et protecteur."
+  },
+  "worship_egbesu_god": {
+    "name": "Vénérer Egbesu comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Egbesu en tant que mécène et protecteur."
+  },
+  "worship_amadioha_god": {
+    "name": "Vénérer Amadioha comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Amadioha en tant que mécène et protecteur."
+  },
+  "worship_ikenga_god": {
+    "name": "Vénérer Ikenga comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ikenga en tant que mécène et protecteur."
+  },
+  "worship_agwu_nsi_god": {
+    "name": "Vénérer Agwu Nsi comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Agwu Nsi en tant que mécène et protecteur."
+  },
+  "worship_ogbunabali_god": {
+    "name": "Vénérer Ogbunabali comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ogbunabali en tant que mécène et protecteur."
+  },
+  "worship_takhar_god": {
+    "name": "Vénérer Takhar comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Takhar en tant que mécène et protecteur."
+  },
+  "worship_mindiss_god": {
+    "name": "Vénérer Mindiss comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Mindiss en tant que mécène et protecteur."
+  },
+  "worship_niparaya_god": {
+    "name": "Vénérer Niparaya comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Niparayaen tant que mécène et protecteur."
+  },
+  "worship_u_blei_nong_thaw_god": {
+    "name": "Vénérer U Blei Nong-thaw comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de U Blei Nong-thaw en tant que mécène et protecteur."
+  },
+  "worship_ulei_muluk_god": {
+    "name": "Vénérer Ulei Muluk comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ulei Muluk en tant que mécène et protecteur."
+  },
+  "worship_ulei_umtang_god": {
+    "name": "Vénérer Ulei Umtang comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ulei Umtang en tant que mécène et protecteur."
+  },
+  "worship_ulei_longspah_god": {
+    "name": "Vénérer Ulei Longspah comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ulei Longspah en tant que mécène et protecteur."
+  },
+  "worship_marang_buru_god": {
+    "name": "Vénérer Marang Buru comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Marang Buru en tant que mécène et protecteur."
+  },
+  "worship_dharti_ayo_god": {
+    "name": "Vénérer Dharti ayo comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Dharti ayo en tant que mécène et protecteur."
+  },
+  "worship_kotan_kar_kamuy_god": {
+    "name": "Vénérer Kotan-kar-kamuy comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Kotan-kar-kamuy en tant que mécène et protecteur."
+  },
+  "worship_kamuy_huci_god": {
+    "name": "Vénérer Kamuy-huci comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Kamuy-huci en tant que mécène et protecteur."
+  },
+  "worship_kim_un_kamuy_god": {
+    "name": "Vénérer Kim-un-kamuy comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Kim-un-kamuy en tant que mécène et protecteur."
+  },
+  "worship_rep_un_kamuy_god": {
+    "name": "Vénérer Rep-un-kamuy comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Rep-un-kamuy en tant que mécène et protecteur."
+  },
+  "worship_baradeo_god": {
+    "name": "Vénérer Baradeo comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Baradeo en tant que mécène et protecteur."
+  },
+  "worship_nat_awal_god": {
+    "name": "Vénérer Nat Awal comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Nat Awal en tant que mécène et protecteur."
+  },
+  "worship_aki_pen_god": {
+    "name": "Vénérer Aki Pen comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Aki Pen en tant que mécène et protecteur."
+  },
+  "worship_nat_awual_god": {
+    "name": "Vénérer Nat Awual comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Nat Awual en tant que mécène et protecteur."
+  },
+  "worship_phi_heaven_god": {
+    "name": "Vénérer Phi du ciel comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Phi du ciel en tant que mécène et protecteur."
+  },
+  "worship_phi_water_god": {
+    "name": "$PREFIX$$NAME$$RANK$",
+    "desc": "Nous privilégions le culte et l'adoration de Phi du ciel en tant que mécène et protecteur."
+  },
+  "worship_phi_earth_god": {
+    "name": "Vénérer Phi de la terre comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Phi de la terre en tant que mécène et protecteur."
+  },
+  "worship_phi_fire_god": {
+    "name": "Vénérer Phi du feu comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Phi du feu en tant que mécène et protecteur."
+  },
+  "worship_bathoubwrai_god": {
+    "name": "Vénérer Bathoubwrai comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Bathoubwrai en tant que mécène et protecteur."
+  },
+  "worship_mainao_god": {
+    "name": "Vénérer Mainao comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Mainao en tant que mécène et protecteur."
+  },
+  "worship_song_bwrai_god": {
+    "name": "Vénérer Song Bwrai comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Song Bwrai en tant que mécène et protecteur."
+  },
+  "worship_bura_bagh_raja_god": {
+    "name": "Vénérer Bura Bagh Raja comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Bura Bagh Raja en tant que mécène et protecteur."
+  },
+  "worship_donyi_god": {
+    "name": "Vénérer Donyi comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Donyi en tant que mécène et protecteur."
+  },
+  "worship_polo_god": {
+    "name": "Vénérer Polo comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Polo en tant que mécène et protecteur."
+  },
+  "worship_kine_nane_god": {
+    "name": "Vénérer Kine Nane comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Kine Nane en tant que mécène et protecteur."
+  },
+  "worship_doying_bote_god": {
+    "name": "Vénérer Doying Bote comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Doying Bote en tant que mécène et protecteur."
+  },
+  "worship_sumnima_god": {
+    "name": "Vénérer Sumnima comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Sumnima en tant que mécène et protecteur."
+  },
+  "worship_paruhang_god": {
+    "name": "Vénérer Paruhang comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Paruhang en tant que mécène et protecteur."
+  },
+  "worship_yuma_sammang_god": {
+    "name": "Vénérer Yuma Sammang comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Yuma Sammang en tant que mécène et protecteur."
+  },
+  "worship_pathian_god": {
+    "name": "Vénérer Pathian comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Pathian en tant que mécène et protecteur."
+  },
+  "worship_khuanu_god": {
+    "name": "Vénérer Khuanu comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Khuanu en tant que mécène et protecteur."
+  },
+  "worship_pu_vana_god": {
+    "name": "Vénérer Pu Vana comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Pu Vana en tant que mécène et protecteur."
+  },
+  "worship_sakhua_god": {
+    "name": "Vénérer Sakhua comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Sakhua en tant que mécène et protecteur."
+  },
+  "worship_sky_god": {
+    "name": "Vénérer la Divinité du ciel comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de la Divinité du ciel en tant que mécène et protecteur."
+  },
+  "worship_death_god": {
+    "name": "Vénérer la Divinité de la mort comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de la Divinité de la mort en tant que mécène et protecteur."
+  },
+  "worship_earth_god": {
+    "name": "Vénérer la Divinité de la terre comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de la Divinité de la terre en tant que mécène et protecteur."
+  },
+  "worship_water_god": {
+    "name": "Vénérer la Divinité des eaux comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de la Divinité des eaux en tant que mécène et protecteur."
+  },
+  "worship_creator_god": {
+    "name": "Vénérer la Divinité créatrice comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de la Divinité créatrice en tant que mécène et protecteur."
+  },
+  "worship_fire_god": {
+    "name": "Vénérer la Divinité du feu comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de la Divinité du feu en tant que mécène et protecteur."
+  },
+  "worship_fertility_god": {
+    "name": "Vénérer la Divinité de la fertilité comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de la Divinité de la fertilité en tant que mécène et protecteur."
+  },
+  "worship_war_god": {
+    "name": "Vénérer la Divinité de la guerre comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de la Divinité de la guerre en tant que mécène et protecteur."
+  },
+  "worship_wind_god": {
+    "name": "Vénérer la Divinité du vent comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de la Divinité du vent en tant que mécène et protecteur."
+  },
+  "worship_thunder_god": {
+    "name": "Vénérer la Divinité du tonnerre comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de la Divinité du tonnerre en tant que mécène et protecteur."
+  },
+  "adamite_services": {
+    "name": "Offices adamites",
+    "desc": "La secte des adamites insiste sur la nudité lors des offices religieux. Selon eux, ne pas arborer le moindre signe de statut ou de culture nous rend tous égaux aux yeux de Dieu, et permet de rappeler à tout un chacun notre part humanité commune et l'innocence qui était nôtre avant la Chute."
+  },
+  "punishment_of_sin": {
+    "name": "Châtiment du péché",
+    "desc": "Quiconque est pécheur doit être puni, quels que soient son rang ou sa fortune. Même les nobles ne sont pas au-dessus des lois de Dieu."
+  },
+  "worship_viracocha": {
+    "name": "Vénérer Wiraqucha comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Wiraqucha en tant que mécène et protecteur."
+  },
+  "worship_inti_god": {
+    "name": "Vénérer Inti comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Inti en tant que mécène et protecteur."
+  },
+  "worship_illapa_god": {
+    "name": "Vénérer Illapa comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Illapa en tant que mécène et protecteur."
+  },
+  "worship_supay_god": {
+    "name": "Vénérer Supay comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Supay en tant que mécène et protecteur."
+  },
+  "worship_mamaquilla": {
+    "name": "Vénérer Mamaquilla comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Mamaquilla en tant que mécène et protecteur."
+  },
+  "worship_pachamama": {
+    "name": "Vénérer Pachamama comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Pachamama en tant que mécène et protecteur."
+  },
+  "worship_mama_cocha": {
+    "name": "Vénérer Mama Qucha comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Mama Qucha en tant que mécène et protecteur."
+  },
+  "worship_urpihuachac": {
+    "name": "Vénérer Urpihuachac comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Urpihuachac en tant que mécène et protecteur."
+  },
+  "worship_chinchaycamac": {
+    "name": "Vénérer Uscovilca comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Uscovilca en tant que mécène et protecteur."
+  },
+  "worship_odin_god": {
+    "name": "Vénérer Óðinn comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Óðinn en tant que mécène et protecteur."
+  },
+  "worship_tor_god": {
+    "name": "Vénérer Þórr comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Þórren tant que mécène et protecteur."
+  },
+  "worship_tyr_god": {
+    "name": "Vénérer Týr comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Týr en tant que mécène et protecteur."
+  },
+  "worship_njord_god": {
+    "name": "Vénérer Njörðr comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Njörðr en tant que mécène et protecteur."
+  },
+  "worship_freyr_god": {
+    "name": "Vénérer Freyr comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Freyr en tant que mécène et protecteur."
+  },
+  "worship_freya_god": {
+    "name": "Vénérer Culte de Freyja comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Culte de Freyja en tant que mécène et protecteur."
+  },
+  "baptism_by_fire": {
+    "name": "Baptême par le feu",
+    "desc": "Notre foi ne croit pas que le baptême par l'eau soit permanent, comme l'a admis saint Jean-Baptiste. Ce n'est qu'en touchant les quatre côtés de la tête d'une personne avec une bougie allumée qu'un baptême permanent peut se produire."
+  },
+  "name_change": {
+    "name": "Changement de nom",
+    "desc": "Le pouvoir des noms est bien connu de nos communautés. Nos chefs religieux changent souvent de nom pour s'inspirer de ceux des disciples de saint Paul, tout comme les gens ordinaires changent le nom de leurs villages pour s'inspirer des lieux où notre saint patron a vécu."
+  },
+  "paulician_canon": {
+    "name": "Canon paulicien",
+    "desc": "Notre peuple rejette l'Ancien Testament et ses prophètes, comme il rejette l'inclusion des épîtres de saint Pierre. Seules les paroles de saint Paul sont appropriées."
+  },
+  "punishment_by_stoning": {
+    "name": "Châtiment par lapidation",
+    "desc": "La lapidation est une pratique courante pour punir les dissidents religieux de nos communautés qui se distinguent de leurs voisins. Il s'agit probablement d'un héritage de nos origines anatoliennes."
+  },
+  "justified_conflicts": {
+    "name": "Conflits justifiés",
+    "desc": "Notre Église nationale est menacée par les païens et les hérétiques. Si la guerre doit être menée pour la protégée, elle saura justifier par les Saintes Écritures ce combat légitime."
+  },
+  "pietism": {
+    "name": "Piétisme",
+    "desc": "Le piétisme se concentre sur la piété individuelle de chaque croyant et met l'accent sur la transformation intérieure qui mène à une vie chrétienne pieuse."
+  },
+  "worship_tengri_god": {
+    "name": "Vénérer Kök Teŋri comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Kök Teŋri en tant que mécène et protecteur."
+  },
+  "worship_umay_god": {
+    "name": "Vénérer Umay comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Umay en tant que mécène et protecteur."
+  },
+  "worship_ulgen_god": {
+    "name": "Vénérer Ülgen comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ülgen en tant que mécène et protecteur."
+  },
+  "worship_erlik_god": {
+    "name": "Vénérer Erlik comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Erlik en tant que mécène et protecteur."
+  },
+  "worship_kayra_god": {
+    "name": "Vénérer Kayra comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Kayra en tant que mécène et protecteur."
+  },
+  "worship_bai_baianai_god": {
+    "name": "Vénérer Bai Baianai comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Bai Baianai en tant que mécène et protecteur."
+  },
+  "worship_ak_ana_god": {
+    "name": "Vénérer Ak Ana comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Ak Ana en tant que mécène et protecteur."
+  },
+  "worship_mergen_god": {
+    "name": "Vénérer Mergen comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Mergen en tant que mécène et protecteur."
+  },
+  "worship_tlaloc_god": {
+    "name": "Vénérer Tlánoc comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Tlánoc en tant que mécène et protecteur."
+  },
+  "worship_huitzilopochtli_god": {
+    "name": "Vénérer Huītzilōpōchtli comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration deHuītzilōpōchtlien tant que mécène et protecteur."
+  },
+  "worship_quetzalcoatl_god": {
+    "name": "Vénérer Quetzalcóatl comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration deQuetzalcóatlen tant que mécène et protecteur."
+  },
+  "worship_tezcatlipoca_god": {
+    "name": "Vénérer Tēzcatlīpohca comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration deTēzcatlīpohcaen tant que mécène et protecteur."
+  },
+  "worship_xiuhtecuhtli_god": {
+    "name": "Vénérer Xiuhtēcuhtli comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration deXiuhtēcuhtlien tant que mécène et protecteur."
+  },
+  "worship_coatlicue_god": {
+    "name": "Vénérer Cōātlīcue comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration deCōātlīcueen tant que mécène et protecteur."
+  },
+  "worship_huehueteotl_god": {
+    "name": "Vénérer Huehuetéotl comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Xiuhtēcuhtli en tant que mécène et protecteur."
+  },
+  "worship_mesoamerican_quetzalcoatl_god": {
+    "name": "VénérerQuetzalcóatlcomme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration deQuetzalcóatlen tant que mécène et protecteur."
+  },
+  "worship_dzahui_god": {
+    "name": "Vénérer Dzahui comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration deTlánocen tant que mécène et protecteur."
+  },
+  "worship_chaac_god": {
+    "name": "Vénérer Chaac comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Tlánoc en tant que mécène et protecteur."
+  },
+  "worship_kukulkan_god": {
+    "name": "Vénérer K'uk'ulkan comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Quetzalcóatl en tant que mécène et protecteur."
+  },
+  "worship_kawiil_god": {
+    "name": "Vénérer K'awiil comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Xiuhtēcuhtli en tant que mécène et protecteur."
+  },
+  "worship_tepeu_god": {
+    "name": "Vénérer Tepeu comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Tepeu en tant que mécène et protecteur."
+  },
+  "worship_huracan_god": {
+    "name": "Vénérer Huracán comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Huracán en tant que mécène et protecteur."
+  },
+  "worship_hunhunahpu_god": {
+    "name": "Vénérer Hun-Hunahpú comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Hun-Hunahpú en tant que mécène et protecteur."
+  },
+  "worship_ixchel_god": {
+    "name": "Vénérer Ixchel comme notre dieu protecteur",
+    "desc": "Nous privilégions le culte et l'adoration de Cōātlīcue en tant que mécène et protecteur."
+  },
+  "_modifier_names": {
+    "add_religious_aspect_christian_cost_modifier": "Coût d'Ajout d'une Valeur religieuse",
+    "antagonism_received_modifier": "Antagonisme obtenu",
+    "army_initiative": "Initiative militaire",
+    "army_maintenance_cost": "Maintenance de l'Armée",
+    "army_movement_speed": "Vitesse de déplacement de l'Armée",
+    "ban_imports_of_livestock": "Interdire les Importations de",
+    "bank_interest": "Intérêts bancaires",
+    "can_have_monasteries": "Monastères autorisés",
+    "clergy_estate_max_tax": "Taxe maximum pour le Clergé",
+    "clergy_estate_satisfaction_recovery": "Récupération de satisfaction du Clergé",
+    "clergy_estate_target_satisfaction": "Équilibre de satisfaction du Clergé",
+    "colonial_maintenance_cost": "Maintenance coloniale",
+    "country_cabinet_efficiency": "Efficacité de notre Conseil",
+    "court_spending_cost": "Coût escompté de la cour",
+    "cultural_tradition_modifier": "% de tradition culturelle",
+    "declaring_war_cost_modifier": "Coût de Déclaration de guerre",
+    "diplomatic_capacity_modifier": "Capacité diplomatique",
+    "discipline": "Discipline",
+    "expand_rgo_farming_cost_modifier": "Coût de Développement de l'Agriculture",
+    "expand_rgo_mining_cost_modifier": "Coût de Développement du Minage",
+    "gender_equality": "Égalité des sexes",
+    "global_clergy_desired_pop": "Membres du autorisés",
+    "global_clergy_estate_power": "Puissance du Clergé",
+    "global_clergy_max_literacy": "Alphabétisation maximale pour le Clergé",
+    "global_crown_estate_power": "Puissance de la couronne",
+    "global_defensive": "Défense du Fort",
+    "global_devastation_recovery": "Rétablissement de la Prospérité",
+    "global_disease_resistance": "Résistance aux maladies",
+    "global_distance_from_capital_speed_propagation": "Vitesse de proximité",
+    "global_estate_target_satisfaction": "Équilibre de satisfaction des Ordres",
+    "global_fish_output_modifier": "Rendement du",
+    "global_garrison_size_modifier": "Effectifs des Garnisons",
+    "global_hostile_attrition": "Attrition hostile",
+    "global_life_expectancy": "Espérance de vie des Personnages",
+    "global_lumber_output_modifier": "Rendement du",
+    "global_maritime_presence_modifier": "% de Présence maritime",
+    "global_max_literacy": "Alphabétisation maximale",
+    "global_max_rgo_size_modifier": "Taille maximale de l'O.C.R.",
+    "global_monthly_art_start_chance": "Chances mensuelles relatives aux débuts des Artistes",
+    "global_monthly_control": "Contrôle mensuel",
+    "global_monthly_food_modifier": "% de Production de nourriture",
+    "global_monthly_prosperity": "Prospérité mensuelle",
+    "global_pop_assimilation_speed_modifier": "Vitesse d'assimilation des Groupes sociaux",
+    "global_pop_conversion_speed_modifier": "% de Vitesse de conversion des Groupes sociaux",
+    "global_pop_promotion_speed_modifier": "% de Vitesse de promotion des Groupes sociaux",
+    "global_population_growth": "Croissance démographique",
+    "global_production_efficiency": "Productivité",
+    "global_raw_material_output": "Rendement des matières premières",
+    "global_separatism": "Séparatisme",
+    "global_war_score_cost": "Coût en Score de guerre",
+    "global_weaponry_output_modifier": "Rendement des",
+    "global_wild_game_output_modifier": "Rendement du",
+    "global_wine_output_modifier": "Rendement du",
+    "improve_relation_impact": "Améliorer les relations",
+    "land_morale_modifier": "Moral de l'Armée",
+    "land_morale_recovery": "Vitesse de récupération du Moral de l'Armée",
+    "minting_income_factor": "Revenus de la Frappe de monnaie",
+    "monthly_diplomats": "Diplomates mensuels",
+    "monthly_legitimacy": "Légitimité mensuelle",
+    "monthly_rebel_growth": "Croissance mensuelle des Rebelles",
+    "monthly_religious_influence": "Influence religieuse mensuelle",
+    "monthly_towards_absolutism": "Progression mensuelle vers l'Absolutisme",
+    "monthly_towards_belligerent": "Progression mensuelle vers la Belligérance",
+    "monthly_towards_capital_economy": "Progression mensuelle vers l'Économie de capitaux",
+    "monthly_towards_centralization": "Progression mensuelle vers la Centralisation",
+    "monthly_towards_communalism": "Progression mensuelle vers le Communautarisme",
+    "monthly_towards_conciliatory": "Progression mensuelle vers la Conciliation",
+    "monthly_towards_decentralization": "Progression mensuelle vers la Décentralisation",
+    "monthly_towards_free_subjects": "Progression mensuelle vers les Sujets libres",
+    "monthly_towards_individualism": "Progression mensuelle vers l'Individualisme",
+    "monthly_towards_innovative": "Progression mensuelle vers l'Innovation",
+    "monthly_towards_plutocracy": "Progression mensuelle vers la Ploutocratie",
+    "monthly_towards_spiritualist": "Progression mensuelle vers le Spiritualisme",
+    "monthly_towards_traditionalist": "Progression mensuelle vers le Traditionalisme",
+    "monthly_war_exhaustion": "Lassitude de guerre mensuelle",
+    "monthly_yanantin": "Yanantin mensuel",
+    "naval_morale_modifier": "Moral de la Flotte",
+    "navy_initiative": "Initiative navale",
+    "peasants_estate_target_satisfaction": "Équilibre de satisfaction de la Paysannerie",
+    "pop_join_rebel_threshold": "Seuil des Groupes sociaux pour rejoindre les Rebelles",
+    "pop_leave_rebels_threshold": "Seuil des Groupes sociaux pour quitter les Rebelles",
+    "recruit_explorer_cost_modifier": "Recruter des Explorateurs",
+    "regiment_reinforcement_speed": "Vitesse de renforcement",
+    "remove_religious_aspect_christian_cost_modifier": "Coût de Suppression d'une Valeur religieuse",
+    "research_speed_modifier": "% de Progrès de recherche mensuel",
+    "skill_of_new_artists": "Compétence des nouveaux Artistes",
+    "stability_cost": "Coût de l'Investissement en Stabilité",
+    "tax_income_efficiency": "Efficacité fiscale",
+    "tolerance_heathen": "Tolérance envers les Croyances païennes",
+    "tolerance_heretic": "Tolérance envers les Croyances hérétiques",
+    "tolerance_own": "Tolérance envers la Vraie Foi",
+    "war_on_different_religion_cost_modifier": "Coût d'une Guerre contre une Religion différente"
+  },
+  "_modifier_descs": {
+    "add_religious_aspect_christian_cost_modifier": "Cela a un impact sur les Coût engendrés par l'ajout d'une Valeur religieuse.",
+    "antagonism_received_modifier": "Cela a un impact sur la quantité d'Antagonisme générée par les Actions d'un Pays.",
+    "army_initiative": "Cela a un impact sur l'Initiative d'un Régiment au cours d'une Bataille.",
+    "army_maintenance_cost": "Cela modifie la quantité d'Ducats et de Réserves nécessaire pour assurer la Maintenance d'un Régiment.",
+    "army_movement_speed": "Cela a un impact sur la vitesse à laquelle une Armée peut se déplacer d'un Lieu à un autre.",
+    "ban_imports_of_livestock": "Cela interdit l'Importation de livestock dans tous les Marchés détenus par un Pays.",
+    "bank_interest": "Cela a un impact sur les intérêts des Emprunts contractés auprès de la banque nationale.",
+    "can_have_monasteries": "Cela détermine si un Pays peut disposer de monasterys ou non.",
+    "clergy_estate_max_tax": "Cela a un impact sur la Taxe maximum collectée auprès du Clergé.",
+    "clergy_estate_satisfaction_recovery": "Cela a un impact sur la vitesse de la Satisfaction de l'ordre remonte vers l'Équilibre de satisfaction pour le Clergé dans ce Pays.",
+    "clergy_estate_target_satisfaction": "Cela a un impact sur l'Équilibre de satisfaction du Clergé de ce Pays.",
+    "colonial_maintenance_cost": "Cela a un impact sur le coût mensuel des Chartes coloniales.",
+    "country_cabinet_efficiency": "Cela a un impact sur l'Efficacité du conseil de tous les Personnages intégrés au Conseil d'un Pays.",
+    "court_spending_cost": "Cela a un impact sur la part escomptée de l'Assiette fiscale qui sera consacrée à la Coût de la Cour.",
+    "cultural_tradition_modifier": "Cela a un impact sur la Tradition culturelle de notre Culture principale.",
+    "declaring_war_cost_modifier": "Cela a un impact sur les coûts engendrés par la déclaration d'une Guerre.",
+    "diplomatic_capacity_modifier": "Cela a un impact sur la quantité de Capacité diplomatique utilisée qu'un Pays peut avoir.",
+    "discipline": "Cela a un impact sur la Discipline d'un Régiment.",
+    "expand_rgo_farming_cost_modifier": "Cela a un impact sur les coûts engendrés par l'augmentation du nombre de Groupes sociaux travaillant avec des Matières premières qui nécessitent d'exploiter des fermes. Matières premières nécessitant une activité d' Agriculture 。",
+    "expand_rgo_mining_cost_modifier": "Cela a un impact sur les coûts engendrés par l'augmentation du nombre de Groupes sociaux travaillant avec des Matières premières qui nécessitent d'exploiter des mines. Matières premières nécessitant une activité de Minage 。",
+    "gender_equality": "Cela a un impact sur la possibilité pour les femmes d'être nommées aux mêmes Rôles que les hommes.",
+    "global_clergy_desired_pop": "A un impact sur le nombre de clergy pouvant vivre dans tous les Lieux de ce Pays.",
+    "global_clergy_estate_power": "Cela a un impact sur la Puissance de l'ordre du Clergé dans l'ensemble du Pays.",
+    "global_clergy_max_literacy": "Cela a un impact sur l'Alphabétisation pour tous les clergy de ce Pays.",
+    "global_crown_estate_power": "Cela a un impact sur la Puissance de l'ordre de la Couronne ou, en d'autres termes, sur la Puissance de la couronne dans l'ensemble du Pays.",
+    "global_defensive": "Cela a un impact sur la vitesse à laquelle un Siège sera Effectifsé contre une Pays.",
+    "global_devastation_recovery": "Cela a un impact sur la vitesse à laquelle la Prospérité se rétablit chaque mois dans tous les Lieux d'un Pays.",
+    "global_disease_resistance": "Cela a un impact sur la Résistance aux maladies dans tous les Lieux d'un Pays.",
+    "global_distance_from_capital_speed_propagation": "Cela a un impact sur la vitesse à laquelle la Proximité progresse entre tous les Lieux d'un Pays.",
+    "global_estate_target_satisfaction": "Cela a un impact sur l'Équilibre de satisfaction de tous les Ordres du Pays.",
+    "global_fish_output_modifier": "Cela modifie le Rendement du fish dans l'ensemble du Pays.",
+    "global_garrison_size_modifier": "Cela a un impact sur les effectifs de toutes les Garnisons possédées par un Pays.",
+    "global_hostile_attrition": "Cela a un impact sur l'Attrition des Armées dans tous les Lieux que nous avons l'avantage de Posséder et qui sont sous notre Contrôle.",
+    "global_life_expectancy": "L'âge auquel les Personnages de ce Pays seront susceptibles de mourir de vieillesse.",
+    "global_lumber_output_modifier": "Cela modifie le Rendement du lumber dans l'ensemble du Pays.",
+    "global_maritime_presence_modifier": "Cela a un impact sur la Présence maritime dans toutes les Zones maritimes adjacentes des Lieux possédés par un Pays.",
+    "global_max_literacy": "Cela a un impact sur l'Alphabétisation maximale de tous les Groupes sociaux dans un Pays.",
+    "global_max_rgo_size_modifier": "Cela a un impact sur la taille maximale de tous les O.C.R. d'un Pays.",
+    "global_monthly_art_start_chance": "Cela a un impact sur les chances que les Artistes d'un Pays démarrent la création de nouvelles Œuvres d'art.",
+    "global_monthly_control": "Il s'agit des fluctuations de Contrôle dans tous les Lieux d'un Pays.",
+    "global_monthly_food_modifier": "Cela a un impact sur la quantité de Nourriture pouvant être produite dans tous les Lieux d'un Pays.",
+    "global_monthly_prosperity": "Cela a un impact sur l'évolution mensuelle de la Prospérité dans tous les Lieux d'un Pays.",
+    "global_pop_assimilation_speed_modifier": "Cela a un impact sur la vitesse d'Assimilation des Groupes sociaux dans tous les Lieux du Pays.",
+    "global_pop_conversion_speed_modifier": "Cela a un impact sur la vitesse de Conversion des Groupes sociaux dans tous les Lieux du Pays.",
+    "global_pop_promotion_speed_modifier": "Cela a un impact sur la vitesse à laquelle les Groupes sociaux sont promus dans tous les Lieux du Pays.",
+    "global_population_growth": "Cela a un impact sur la Croissance démographique de tous les Lieux d'un Pays.",
+    "global_production_efficiency": "Cela a un impact sur la Productivité dans l'ensemble du Pays.",
+    "global_raw_material_output": "Cela a un impact sur le Rendement des Matières premières de tous les Lieux d'un Pays.",
+    "global_separatism": "Cela a un impact sur le Séparatisme dans tous les Lieux d'un Pays.",
+    "global_war_score_cost": "Cela a un impact sur la proportion de Score de guerre que ce Pays devra débourser pour prendre un territoire.",
+    "global_weaponry_output_modifier": "Cela modifie le Rendement des weaponry dans l'ensemble du Pays.",
+    "global_wild_game_output_modifier": "Cela modifie le Rendement du wild game dans l'ensemble du Pays.",
+    "global_wine_output_modifier": "Cela modifie le Rendement du wine dans l'ensemble du Pays.",
+    "improve_relation_impact": "Cela a un impact sur la capacité d'un Pays à Améliorer les relations.",
+    "land_morale_modifier": "Cela modifie le Moral maximal dont un Régiment peut disposer et le remplace par un pourcentage.",
+    "land_morale_recovery": "Cela a un impact sur la vitesse de récupération du Moral d'un Régiment lorsqu'il est inférieur à son maximum.",
+    "minting_income_factor": "Cela a un impact sur la quantité d'Ducats qu'un Pays pourra obtenir grâce à la Frappe de la monnaie.",
+    "monthly_diplomats": "Cela a un impact sur le nombre de Diplomates qu'un Pays peut obtenir en un mois.",
+    "monthly_legitimacy": "Cela a un impact sur la quantité de Légitimité octroyée à un Pays chaque mois.",
+    "monthly_rebel_growth": "Cela a un impact sur la rapidité à laquelle les Rebelles évoluent vers une Insurrection ou une Guerre civile.",
+    "monthly_religious_influence": "Cela a un impact sur la quantité d'Influence religieuse octroyée à un Pays chaque mois.",
+    "monthly_towards_absolutism": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur de l'absolutism.",
+    "monthly_towards_belligerent": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur de la belligerent.",
+    "monthly_towards_capital_economy": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur de l'Capitale economy.",
+    "monthly_towards_centralization": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur de la centralization.",
+    "monthly_towards_communalism": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur du communalism.",
+    "monthly_towards_conciliatory": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur de la conciliatory.",
+    "monthly_towards_decentralization": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur de la decentralization.",
+    "monthly_towards_free_subjects": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur des free Vassaux.",
+    "monthly_towards_individualism": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur de l'individualism.",
+    "monthly_towards_innovative": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur de l'innovative.",
+    "monthly_towards_plutocracy": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur de la plutocracy.",
+    "monthly_towards_spiritualist": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur du spiritualist.",
+    "monthly_towards_traditionalist": "Cela a un impact sur le changement à l'égard des Valeurs sociétales en faveur du traditionalist.",
+    "monthly_war_exhaustion": "Cela a un impact sur la quantité de Lassitude de guerre que nous obtiendrons chaque mois.",
+    "monthly_yanantin": "Cela a un impact sur la quantité de Yanantin octroyée à un Pays chaque mois.",
+    "naval_morale_modifier": "Cela modifie le Moral maximal dont un Navire peut disposer et le remplace par un pourcentage.",
+    "navy_initiative": "Cela a un impact sur l'Initiative d'un Navire au cours d'une Bataille.",
+    "peasants_estate_target_satisfaction": "Cela a un impact sur l'Équilibre de satisfaction de la Paysannerie de ce Pays.",
+    "pop_join_rebel_threshold": "Cela a un impact sur le niveau de Satisfaction de la population qu'un Groupe social doit atteindre pour rejoindre les Rebelles. Il ne peut pas être inférieur à .",
+    "pop_leave_rebels_threshold": "Cela a un impact sur le niveau de Satisfaction de la population qu'un Groupe social doit atteindre pour rejoindre les Rebelles.",
+    "recruit_explorer_cost_modifier": "Cela a un impact sur les coûts engendrés par le recrutement d'un Explorateur.",
+    "regiment_reinforcement_speed": "Cela a un impact sur la vitesse à laquelle un Régiment peut se Renforcer.",
+    "remove_religious_aspect_christian_cost_modifier": "Cela a un impact sur les Coût engendrés par la suppression d'une Valeur religieuse.",
+    "research_speed_modifier": "Cela a un impact sur la génération de Progrès de recherche d'un Pays.",
+    "skill_of_new_artists": "Cela a un impact sur la Compétence artistique des nouveaux Artistes.",
+    "stability_cost": "Cela a un impact sur le coût de l'Investissement en stabilité.",
+    "tax_income_efficiency": "Cela a un impact sur l'Efficacité fiscale d'un Pays.",
+    "tolerance_heathen": "Cela a un impact sur la Tolérance des Religions faisant partie d'un Groupe de religions différent de celui auquel appartient la Religion majoritaire.",
+    "tolerance_heretic": "Cela a un impact sur la Tolérance des Religions faisant partie du même Groupe de religions que celui auquel appartient la Religion majoritaire.",
+    "tolerance_own": "Cela a un impact sur la Tolérance de la Religion majoritaire.",
+    "war_on_different_religion_cost_modifier": "Cela a un impact sur les coûts engendrés par la déclaration d'une Guerre envers une Nation de Religion différente."
+  }
+}

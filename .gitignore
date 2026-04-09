@@ -4,6 +4,7 @@ __pycache__/
 
 # Pipeline
 pipeline/raw/icons/
+pipeline/raw/coa/
 pipeline/output/
 
 # Legacy

@@ -1,285 +1,64 @@
 ---
 import Base from "../../../../layouts/Base.astro";
-import buildings from "../../../../data/buildings.json";
 import { LANG_CODES, type Lang } from "../../../../i18n/config";
+import { loadCore, loadLoc, loadBuildingLoc, gameTerm } from "../../../../i18n/data";
+import { t, tf } from "../../../../i18n/ui";
+import type { BuildingItem } from "../../../../i18n/types";
 
 export function getStaticPaths() {
+  const core = loadCore<BuildingItem>("buildings");
   return LANG_CODES.flatMap((lang) =>
-    buildings.map((b) => ({
+    core.map((b) => ({
       params: { lang, id: b.id },
       props: { lang, building: b },
     })),
   );
 }
 
-const { lang, building } = Astro.props as { lang: Lang; building: any };
-const displayName = lang === "ja" ? building.name_ja : building.name_en;
-const subName = lang === "ja" ? building.name_en : "";
+const { lang, building } = Astro.props as { lang: Lang; building: BuildingItem };
+const bLoc = loadBuildingLoc(lang);
+const bLocEn = lang !== "en" ? loadBuildingLoc("en") : bLoc;
+const goodsLoc = loadLoc("goods", lang);
 
-const categoryLabels: Record<string, string> = {
-  basic_industry_category: "基本産業",
-  colonial_category: "植民地建造物",
-  consumer_goods_category: "民需品",
-  cultural_category: "文化的建造物",
-  defense_category: "防衛建造物",
-  estate_category: "階級建造物",
-  government_category: "政府建造物",
-  infrastructure_category: "インフラ建造物",
-  military_category: "軍事施設",
-  naval_category: "海軍建造物",
-  religious_category: "宗教施設",
-  rgo_building_category: "原材料生産",
-  trade_category: "交易施設",
-  village_category: "村",
-  weapons_industry_category: "武器産業",
-};
+const loc = bLoc[building.id] ?? { name: building.id };
+const locEn = bLocEn[building.id] ?? { name: building.id };
+const displayName = loc.name;
+const subName = lang !== "en" ? locEn.name : "";
 
-const popTypeLabels: Record<string, string> = {
-  nobles: "貴族",
-  burghers: "市民",
-  clergy: "聖職者",
-  soldiers: "兵士",
-  laborers: "労働者",
-  peasants: "農民",
-  slaves: "奴隷",
-  tribesmen: "部族民",
-};
+const modifier = building.modifier;
+const rawModifier = building.raw_modifier;
+const productionMethods = building.production_methods;
+const conditionLines = loc.condition_lines ?? [];
+const requirements = building.requirements ?? [];
 
-const settlementLabels: Record<string, string> = {
-  rural_settlement: "農村",
-  town: "町",
-  city: "都市",
-};
-
-const modifierLabels: Record<string, string> = {
-  fort_level: "要塞レベル",
-  propagating_zone_of_control: "支配領域伝播",
-  local_garrison_size: "駐屯地規模",
-  local_garrison_growth: "駐屯地成長",
-  local_defensive: "防御力",
-  local_hostile_attrition: "敵軍損耗",
-  max_attrition: "最大損耗",
-  local_fort_maintenance_cost: "要塞維持費",
-  movement_cost: "移動コスト",
-  hostile_disembark_time_modifier: "敵上陸所要時間",
-  hostile_fleet_attrition: "敵艦隊損耗",
-  blocks_privateer_raids: "私掠船襲撃阻止",
-  blocks_vision_from_land: "陸上視界遮断",
-  blocks_vision_from_sea: "海上視界遮断",
-  local_manpower: "人的資源",
-  manpower_to_building_owner: "所有者への人的資源",
-  local_sailors: "水兵",
-  sailors_to_building_owner: "所有者への水兵",
-  can_recruit_regiment_in_this_location: "連隊徴兵可",
-  max_regiments_trained_at_same_time: "同時訓練連隊数",
-  local_levy_size_modifier: "徴兵規模",
-  local_navy_levy_size_modifier: "海軍徴兵規模",
-  local_mercenaries_modifier: "傭兵",
-  may_build_sofa_units: "ソファ兵編制可",
-  local_may_build_nahuatl_units: "ナワトル兵編制可",
-  can_build_ships_in_this_location: "造船可",
-  max_ships_built_at_same_time: "同時造船数",
-  local_ship_build_speed: "造船速度",
-  local_repair_speed: "修理速度",
-  local_navy_attrition: "海軍損耗",
-  harbor_suitability: "港湾適性",
-  local_maritime_presence: "海洋プレゼンス",
-  building_owner_maritime_presence: "所有者海洋プレゼンス",
-  building_owner_overlord_maritime_presence: "宗主国海洋プレゼンス",
-  local_pirate_spawn_chance: "海賊出現率",
-  local_tax: "税収",
-  local_production_efficiency: "生産効率",
-  local_trade_power: "交易力",
-  local_trade_protection_factor: "交易保護",
-  local_market_access: "市場アクセス",
-  local_trades_per_burgher: "市民あたり取引数",
-  local_merchant_capacity: "商人収容力",
-  local_merchant_power: "商人権力",
-  merchant_capacity_from_building: "建物による商人収容力",
-  merchant_power_from_building: "建物による商人権力",
-  gold_to_building_owner: "所有者への金収入",
-  scaled_gold_to_building_owner: "所有者への金収入（規模比例）",
-  scaled_gold_to_building_owner_overlord: "宗主国への金収入（規模比例）",
-  local_raw_material_output: "原材料産出",
-  local_build_buildings_cost: "建設コスト",
-  local_monthly_development: "月次開発度",
-  local_monthly_development_modifier: "月次開発度補正",
-  local_development_growth: "開発成長",
-  max_constructions_at_same_time: "同時建設数",
-  local_rgo_build_time: "資源施設建設時間",
-  local_road_building_time: "道路建設時間",
-  local_max_rgo_size: "最大資源施設数",
-  cannot_upgrade_location: "拠点昇格不可",
-  local_food_capacity: "食料容量",
-  local_monthly_food: "月次食料",
-  local_monthly_food_modifier: "月次食料補正",
-  local_population_capacity: "人口容量",
-  local_population_capacity_modifier: "人口容量補正",
-  local_population_growth: "人口増加",
-  local_life_expectancy: "平均寿命",
-  local_disease_resistance: "疫病抵抗",
-  local_migration_attraction: "移住魅力",
-  local_unrest: "不穏度",
-  local_pop_join_rebel_threshold: "反乱参加閾値",
-  local_monthly_prosperity: "月次繁栄度",
-  local_devastation_recovery: "荒廃回復",
-  local_pop_promotion_speed: "POP昇進速度",
-  local_pop_promotion_speed_modifier: "POP昇進速度補正",
-  local_pop_assimilation_speed_modifier: "POP同化速度補正",
-  local_pop_conversion_speed: "POP改宗速度",
-  local_pop_conversion_speed_modifier: "POP改宗速度補正",
-  local_tribal_promotion: "部族昇進",
-  local_slave_pop_satisfaction: "奴隷満足度",
-  local_monthly_literacy: "月次識字率",
-  local_max_literacy: "最大識字率",
-  local_burghers_max_literacy: "市民最大識字率",
-  local_clergy_max_literacy: "聖職者最大識字率",
-  local_nobles_max_literacy: "貴族最大識字率",
-  local_peasants_max_literacy: "農民最大識字率",
-  local_laborers_max_literacy: "労働者最大識字率",
-  local_soldiers_max_literacy: "兵士最大識字率",
-  local_institution_spread: "制度伝播",
-  local_institution_growth_modifier: "制度成長補正",
-  local_religious_unity: "宗教統一",
-  local_missionary_strength: "布教強度",
-  building_missionary_effort: "布教活動",
-  building_missionary_effort_scaled: "布教活動（規模比例）",
-  building_enslavement_power: "奴隷化力",
-  local_clergy_conversion_blocked: "聖職者改宗阻止",
-  gives_cardinal: "枢機卿付与",
-  has_parliament_seat: "議会議席",
-  local_cultural_tradition: "文化的伝統",
-  local_cultural_influence: "文化的影響力",
-  local_crown_estate_power: "王領地権力",
-  local_nobles_estate_power: "貴族階層権力",
-  local_clergy_estate_power: "聖職者階層権力",
-  local_burghers_estate_power: "市民階層権力",
-  local_peasants_estate_power: "農民階層権力",
-  local_tribes_estate_power: "部族階層権力",
-  local_nobles_desired_pop: "貴族希望人口",
-  local_clergy_desired_pop: "聖職者希望人口",
-  local_burghers_desired_pop: "市民希望人口",
-  local_laborers_desired_pop: "労働者希望人口",
-  local_soldiers_desired_pop: "兵士希望人口",
-  local_nobles_food_consumption: "貴族食料消費",
-  local_clergy_food_consumption: "聖職者食料消費",
-  local_burghers_food_consumption: "市民食料消費",
-  local_peasants_food_consumption: "農民食料消費",
-  local_peasant_enfranchisment: "農民参政権",
-  local_monthly_autonomy: "月次自治度",
-  local_monthly_control: "月次統制度",
-  local_max_control: "最大統制度",
-  local_proximity_source: "統治近接度",
-  local_distance_from_capital_speed_propagation: "首都距離伝播速度",
-  local_cloth_output_modifier: "生地産出補正",
-  local_copper_output_modifier: "銅産出補正",
-  local_cotton_output_modifier: "綿産出補正",
-  local_fish_output_modifier: "魚産出補正",
-  local_goods_gold_output_modifier: "金産出補正",
-  local_iron_output_modifier: "鉄産出補正",
-  local_lead_output_modifier: "鉛産出補正",
-  local_livestock_output_modifier: "家畜産出補正",
-  local_lumber_output_modifier: "木材産出補正",
-  local_millet_output_modifier: "雑穀産出補正",
-  local_rice_output_modifier: "米産出補正",
-  local_silk_output_modifier: "絹産出補正",
-  local_silver_output_modifier: "銀産出補正",
-  local_sugar_output_modifier: "砂糖産出補正",
-  local_tin_output_modifier: "スズ産出補正",
-  local_tobacco_output_modifier: "タバコ産出補正",
-  local_wheat_output_modifier: "小麦産出補正",
-};
-
-const methodCategoryLabels: Record<string, string> = {
-  building_maintenance: "維持",
-  guild_input: "ギルド投入",
-  workshop_input: "工房投入",
-  mills_input: "製粉投入",
-  manufactory_input: "工場投入",
-};
-
-function formatMethodName(name: string, buildingId: string): string {
-  let clean = name;
-  // Strip common suffixes
-  const suffixes: [RegExp, string][] = [
-    [/_maintenance$/, ""],
-    [/_requirements$/, ""],
-    [/_input$/, ""],
-    [/_construction$/, ""],
-  ];
-  for (const [pat, rep] of suffixes) {
-    clean = clean.replace(pat, rep);
-  }
-  // Strip building id from remaining
-  clean = clean.replace(new RegExp(`_?${buildingId}_?`), "_").replace(/^_|_$/g, "");
-  if (!clean) return "維持";
-  // Translate each word segment using goodsLabels or known terms
-  const words = clean.split("_");
-  const extraLabels: Record<string, string> = {
-    bavarian: "バイエルン", bricks: "レンガ", stone: "石", clay: "粘土",
-    honey: "蜂蜜", large: "大型", small: "小型", medium: "中型",
-    early: "初期", advanced: "上級", basic: "基礎",
-    local: "地方", royal: "王立", coastal: "沿岸",
-    muslim: "イスラム", christian: "キリスト教", eastern: "東方",
-    light: "軽", heavy: "重", raw: "原料",
-  };
-  const translated = words.map((w) => goodsLabels[w] || extraLabels[w] || w);
-  return translated.join("・") + "式";
+// Scaling labels
+const scalingLabels: Record<string, string> = {};
+for (const key of ["development", "population"]) {
+  scalingLabels[key] = gameTerm(lang, `scaling.${key}`);
 }
-
-const goodsLabels: Record<string, string> = {
-  alum: "ミョウバン", beer: "ビール", beeswax: "蜜蝋", books: "書物",
-  cannons: "大砲", clay: "粘土", cloth: "生地", coal: "石炭",
-  copper: "銅", cotton: "綿", dyes: "染料", elephants: "象",
-  fiber_crops: "繊維作物", fine_cloth: "高級生地", firearms: "火器",
-  fish: "魚", fruit: "果物", fur: "毛皮", furniture: "家具",
-  gems: "宝石", glass: "ガラス", goods_gold: "金", horses: "馬",
-  incense: "香料", iron: "鉄", ivory: "象牙", jewelry: "宝飾品",
-  lacquerware: "漆器", lead: "鉛", leather: "革", liquor: "酒",
-  livestock: "家畜", lumber: "木材", maize: "トウモロコシ",
-  marble: "大理石", masonry: "れんが", medicaments: "薬剤",
-  mercury: "水銀", millet: "雑穀", naval_supplies: "海軍用品",
-  paper: "紙", pepper: "コショウ", porcelain: "磁器",
-  potato: "ジャガイモ", pottery: "陶器", rice: "米", salt: "塩",
-  saltpeter: "硝石", sand: "砂", silk: "絹", silver: "銀",
-  slaves_goods: "奴隷", steel: "鋼", stone: "石材", sugar: "砂糖",
-  tar: "タール", tin: "スズ", tobacco: "タバコ", tools: "工具",
-  weaponry: "武器", wheat: "小麦", wild_game: "狩猟動物",
-  wine: "ワイン", wool: "羊毛",
-};
-
-type ModEntry = { key: string; value: number | boolean; name_ja?: string };
-const modifier = building.modifier as ModEntry[] | undefined;
-const rawModifier = (building as any).raw_modifier as ModEntry[] | undefined;
-const productionMethods = building.production_methods as Record<string, Record<string, any>> | undefined;
-const conditions = (building as any).conditions as {category: string; text: string}[] | undefined;
-
-const categoryIcons: Record<string, string> = {
-  flag: "\u{1F3F7}",
-  country: "\u{1F3DB}",
-  location: "\u{1F4CD}",
-  allow: "\u{1F512}",
-};
-
-const categoryCondLabels: Record<string, string> = {
-  flag: "属性",
-  country: "国家条件",
-  location: "立地条件",
-  allow: "建設許可",
-};
+// city+N pattern
+const cityLabel = gameTerm(lang, "scaling.city");
 
 function formatModValue(v: number | boolean): string {
-  if (typeof v === "boolean") return v ? "Yes" : "No";
+  if (typeof v === "boolean") return v ? t(lang, "buildings.detail.yes") : t(lang, "buildings.detail.no");
   if (v > 0 && v < 1) return `+${(v * 100).toFixed(1)}%`;
   if (v < 0 && v > -1) return `${(v * 100).toFixed(1)}%`;
   if (v > 0) return `+${v}`;
   return String(v);
 }
+
+function formatBuildTime(days: number): string {
+  if (days >= 365) {
+    const years = (days / 365).toFixed(1).replace('.0', '');
+    return tf(lang, "buildings.detail.years", { n: years });
+  }
+  return tf(lang, "buildings.detail.days", { n: days });
+}
 ---
 
 <Base lang={lang} title={displayName} canonicalPath={`/buildings/${building.id}/`}>
   <nav class="breadcrumb">
-    <a href={`/${lang}/eu5/buildings/`}>{lang === "ja" ? "建物一覧" : "Buildings"}</a>
+    <a href={`/${lang}/eu5/buildings/`}>{t(lang, 'buildings.breadcrumb')}</a>
     <span class="sep">&rsaquo;</span>
     <span>{displayName}</span>
   </nav>
@@ -301,43 +80,44 @@ function formatModValue(v: number | boolean): string {
 
   <div class="content-grid">
     <section class="props-card">
-      <h2>基本情報</h2>
+      <h2>{t(lang, 'common.basic_info')}</h2>
       <dl>
         <div class="prop-row">
-          <dt>カテゴリ</dt>
-          <dd>{categoryLabels[building.category] || building.category}</dd>
+          <dt>{t(lang, 'common.category')}</dt>
+          <dd>{building.category ? gameTerm(lang, `building_category.${building.category}`) : ""}</dd>
         </div>
         <div class="prop-row">
-          <dt>担当階層</dt>
+          <dt>{t(lang, 'buildings.detail.pop_type')}</dt>
           <dd>
             <span class="tag">
-              {popTypeLabels[building.pop_type] || building.pop_type}
+              {building.pop_type ? gameTerm(lang, `pop.${building.pop_type}`) : ""}
             </span>
           </dd>
         </div>
         <div class="prop-row">
-          <dt>最大レベル</dt>
+          <dt>{t(lang, 'buildings.detail.max_level')}</dt>
           <dd class="num-val">
             {building.max_levels}
-            {(building as any).max_levels_scaling && (
-              <span class="scaling-note">+ {(building as any).max_levels_scaling.join(" / ")}</span>
+            {building.max_levels_scaling && (
+              <span class="scaling-note">+ {building.max_levels_scaling.map(s => {
+                if (s.startsWith("city+")) return `${cityLabel}+${s.slice(5)}`;
+                return scalingLabels[s] ?? s;
+              }).join(" / ")}</span>
             )}
           </dd>
         </div>
         {
-          (building as any).build_days ? (
+          building.build_days ? (
             <div class="prop-row">
-              <dt>建設時間</dt>
+              <dt>{t(lang, 'buildings.detail.build_time')}</dt>
               <dd class="num-val">
-                {(building as any).build_days >= 365
-                  ? `${((building as any).build_days / 365).toFixed(1).replace('.0', '')}年`
-                  : `${(building as any).build_days}日`}
-                <span class="build-days-sub">({(building as any).build_days}日)</span>
+                {formatBuildTime(building.build_days)}
+                <span class="build-days-sub">({tf(lang, "buildings.detail.days", { n: building.build_days })})</span>
               </dd>
             </div>
           ) : building.build_time ? (
             <div class="prop-row">
-              <dt>建設時間</dt>
+              <dt>{t(lang, 'buildings.detail.build_time')}</dt>
               <dd>{building.build_time}</dd>
             </div>
           ) : null
@@ -345,38 +125,40 @@ function formatModValue(v: number | boolean): string {
         {
           building.expensive && (
             <div class="prop-row">
-              <dt>高コスト</dt>
+              <dt>{t(lang, 'buildings.detail.expensive')}</dt>
               <dd>
-                <span class="tag tag--warn">Yes</span>
+                <span class="tag tag--warn">{t(lang, 'buildings.detail.yes')}</span>
               </dd>
             </div>
           )
         }
-        <div class="prop-row">
-          <dt>入植地</dt>
-          <dd class="settlements">
-            {
-              building.settlements.map((s: string) => (
-                <span class="settlement-badge">
-                  {settlementLabels[s] || s}
-                </span>
-              ))
-            }
-          </dd>
-        </div>
+        {building.settlements && (
+          <div class="prop-row">
+            <dt>{t(lang, 'buildings.detail.settlement')}</dt>
+            <dd class="settlements">
+              {
+                building.settlements.map((s: string) => (
+                  <span class="settlement-badge">
+                    {gameTerm(lang, `settlement.${s}`)}
+                  </span>
+                ))
+              }
+            </dd>
+          </div>
+        )}
       </dl>
     </section>
 
     <div class="side-panels">
       {
-        conditions && conditions.length > 0 && (
+        conditionLines.length > 0 && (
           <section class="panel">
-            <h3>建設条件</h3>
+            <h3>{t(lang, 'buildings.detail.conditions')}</h3>
             <ul class="cond-list">
-              {conditions.map((c) => (
-                <li class={`cond-item cond-${c.category}`}>
-                  <span class="cond-cat">{categoryCondLabels[c.category] || c.category}</span>
-                  <span class="cond-text">{c.text}</span>
+              {requirements.map((req, i) => (
+                <li class={`cond-item cond-${req.scope}`}>
+                  <span class="cond-cat">{gameTerm(lang, `cond_category.${req.scope}`)}</span>
+                  <span class="cond-text">{conditionLines[i] ?? ""}</span>
                 </li>
               ))}
             </ul>
@@ -387,32 +169,37 @@ function formatModValue(v: number | boolean): string {
       {
         modifier && modifier.length > 0 && (
           <section class="panel">
-            <h3>効果</h3>
+            <h3>{t(lang, 'buildings.detail.effects')}</h3>
             <table>
               <thead>
                 <tr>
-                  <th>補正</th>
-                  <th class="num-head">値</th>
+                  <th>{t(lang, 'buildings.detail.modifier')}</th>
+                  <th class="num-head">{t(lang, 'buildings.detail.value')}</th>
                 </tr>
               </thead>
               <tbody>
-                {modifier.map((m) => (
-                  <tr>
-                    <td>
-                      {(m as any).desc_ja ? (
-                        <span class="has-tooltip" data-tip={(m as any).desc_ja}>
-                          {m.name_ja || modifierLabels[m.key] || m.key}
-                          <span class="tip-icon">?</span>
-                        </span>
-                      ) : (
-                        <span>{m.name_ja || modifierLabels[m.key] || m.key}</span>
-                      )}
-                    </td>
-                    <td class={`num ${typeof m.value === "number" && m.value > 0 ? "positive" : ""} ${typeof m.value === "number" && m.value < 0 ? "negative" : ""}`}>
-                      {formatModValue(m.value)}
-                    </td>
-                  </tr>
-                ))}
+                {modifier.map((m) => {
+                  const modLoc = loc.modifiers?.[m.key];
+                  const modName = modLoc?.name ?? m.key;
+                  const modDesc = modLoc?.desc;
+                  return (
+                    <tr>
+                      <td>
+                        {modDesc ? (
+                          <span class="has-tooltip" data-tip={modDesc}>
+                            {modName}
+                            <span class="tip-icon">?</span>
+                          </span>
+                        ) : (
+                          <span>{modName}</span>
+                        )}
+                      </td>
+                      <td class={`num ${typeof m.value === "number" && m.value > 0 ? "positive" : ""} ${typeof m.value === "number" && m.value < 0 ? "negative" : ""}`}>
+                        {formatModValue(m.value)}
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </section>
@@ -422,21 +209,24 @@ function formatModValue(v: number | boolean): string {
       {
         rawModifier && rawModifier.length > 0 && (
           <section class="panel">
-            <h3>固有効果</h3>
+            <h3>{t(lang, 'buildings.detail.raw_effects')}</h3>
             <table>
               <thead>
                 <tr>
-                  <th>補正</th>
-                  <th class="num-head">値</th>
+                  <th>{t(lang, 'buildings.detail.modifier')}</th>
+                  <th class="num-head">{t(lang, 'buildings.detail.value')}</th>
                 </tr>
               </thead>
               <tbody>
-                {rawModifier.map((m) => (
-                  <tr>
-                    <td>{m.name_ja || modifierLabels[m.key] || m.key}</td>
-                    <td class="num">{formatModValue(m.value)}</td>
-                  </tr>
-                ))}
+                {rawModifier.map((m) => {
+                  const modLoc = loc.raw_modifiers?.[m.key];
+                  return (
+                    <tr>
+                      <td>{modLoc?.name ?? m.key}</td>
+                      <td class="num">{formatModValue(m.value)}</td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </section>
@@ -447,64 +237,64 @@ function formatModValue(v: number | boolean): string {
         productionMethods && Object.keys(productionMethods).length > 0 && (() => {
           const methodEntries = Object.entries(productionMethods);
           const hasMultiple = methodEntries.length > 1;
-          const skipKeys = ["category", "produced", "output", "debug_max_profit", "_name_ja", "_category_ja"];
+          const pmLoc = loc.pm ?? {};
           return (
             <section class="panel production-sim">
-              <h3>生産方式{hasMultiple && <span class="method-count">{methodEntries.length}種</span>}</h3>
+              <h3>{t(lang, 'buildings.detail.production')}{hasMultiple && <span class="method-count">{tf(lang, 'buildings.detail.method_count', { count: methodEntries.length })}</span>}</h3>
               {hasMultiple && (
                 <div class="method-tabs">
-                  {methodEntries.map(([methodName, method], idx) => (
+                  {methodEntries.map(([methodName], idx) => (
                     <button
                       class={`method-tab ${idx === 0 ? "is-active" : ""}`}
                       data-method={idx}
                     >
-                      {method._name_ja || formatMethodName(methodName, building.id)}
+                      {pmLoc[methodName]?.name ?? methodName}
                     </button>
                   ))}
                 </div>
               )}
               {methodEntries.map(([methodName, method], idx) => {
-                const inputs = Object.entries(method).filter(([k]) => !skipKeys.includes(k));
-                const produced = method.produced as string | undefined;
-                const output = method.output as number | undefined;
-                const nameJa = method._name_ja as string | undefined;
-                const catJa = method._category_ja as string | undefined;
+                const goodsEntries = Object.entries(method.goods ?? {});
+                const produced = method.produced;
+                const output = method.output;
+                const pmName = pmLoc[methodName]?.name ?? methodName;
+                const pmCat = pmLoc[methodName]?.category ?? method.category;
                 return (
                   <div class={`method-pane ${idx === 0 ? "is-active" : ""}`} data-pane={idx}>
                     {!hasMultiple && (
                       <div class="method-header">
-                        <h4>{nameJa || formatMethodName(methodName, building.id)}</h4>
-                        {(catJa || method.category) && (
-                          <span class="method-cat">{catJa || methodCategoryLabels[method.category as string] || method.category}</span>
+                        <h4>{pmName}</h4>
+                        {pmCat && (
+                          <span class="method-cat">{pmCat}</span>
                         )}
                       </div>
                     )}
                     <div class="method-flow">
-                      {inputs.length > 0 && (
+                      {goodsEntries.length > 0 && (
                         <div class="flow-box flow-input">
-                          <span class="flow-label">投入</span>
-                          {inputs.map(([k, v]) => (
+                          <span class="flow-label">{t(lang, 'buildings.detail.input')}</span>
+                          {goodsEntries.map(([k, v]) => (
                             <div class="flow-item">
-                              <a href={`/goods/${k}/`}>{goodsLabels[k] || k}</a>
-                              <span class="flow-val">{v as number}</span>
+                              <a href={`/${lang}/eu5/goods/${k}/`}>{goodsLoc[k]?.name ?? k}</a>
+                              <span class="flow-val">{v}</span>
                             </div>
                           ))}
                         </div>
                       )}
-                      {(inputs.length > 0 && produced) && (
+                      {(goodsEntries.length > 0 && produced) && (
                         <div class="flow-arrow">&#x2192;</div>
                       )}
                       {produced && (
                         <div class="flow-box flow-output">
-                          <span class="flow-label">産出</span>
+                          <span class="flow-label">{t(lang, 'buildings.detail.output')}</span>
                           <div class="flow-item flow-item--produced">
-                            <a href={`/goods/${produced}/`}>{goodsLabels[produced] || produced}</a>
-                            {output && <span class="flow-val flow-val--out">&times;{output}</span>}
+                            <a href={`/${lang}/eu5/goods/${produced}/`}>{goodsLoc[produced]?.name ?? produced}</a>
+                            {output != null && <span class="flow-val flow-val--out">&times;{output}</span>}
                           </div>
                         </div>
                       )}
                     </div>
-                    {catJa && <span class="method-cat-badge">{catJa}</span>}
+                    {pmCat && <span class="method-cat-badge">{pmCat}</span>}
                   </div>
                 );
               })}
@@ -516,10 +306,10 @@ function formatModValue(v: number | boolean): string {
   </div>
 
   {
-    building.desc_ja && (
+    loc.desc && (
       <section class="description">
-        <h2>説明</h2>
-        <p>{building.desc_ja}</p>
+        <h2>{t(lang, 'common.description')}</h2>
+        <p>{loc.desc}</p>
       </section>
     )
   }
@@ -756,26 +546,11 @@ function formatModValue(v: number | boolean): string {
       border-bottom: none;
     }
 
-    .method-block {
-      margin-bottom: 1rem;
-    }
-
-    .method-block:last-child {
-      margin-bottom: 0;
-    }
-
     .method-header {
       display: flex;
       align-items: center;
       gap: 0.5rem;
       margin-bottom: 0.5rem;
-    }
-
-    .method-block h4 {
-      font-family: var(--font-body);
-      font-size: 0.8rem;
-      font-weight: 500;
-      color: var(--pale-gold);
     }
 
     .method-cat {
@@ -785,29 +560,6 @@ function formatModValue(v: number | boolean): string {
       background: var(--slate);
       padding: 0.05rem 0.35rem;
       border-radius: 2px;
-    }
-
-    .method-output {
-      margin-top: 0.5rem;
-      padding: 0.4rem 0.5rem;
-      background: rgba(76, 154, 90, 0.1);
-      border-radius: 2px;
-      font-size: 1rem;
-    }
-
-    .output-label {
-      color: var(--dusty-silver);
-      margin-right: 0.5rem;
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.03em;
-    }
-
-    .output-amount {
-      color: var(--forest-green);
-      font-weight: 500;
-      margin-left: 0.5rem;
-      font-variant-numeric: tabular-nums;
     }
 
     .description {

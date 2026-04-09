@@ -1,0 +1,873 @@
+{
+  "arasavalli_sun_temple": {
+    "name": "阿拉萨瓦利的太阳神庙"
+  },
+  "badrinath_temple": {
+    "name": "伯德里纳特神庙"
+  },
+  "baghdad_episcopal_see": {
+    "name": "巴格达牧座"
+  },
+  "bodh_gaya": {
+    "name": "菩提伽耶"
+  },
+  "chamundeshwari_temple": {
+    "name": "占闷提湿伐梨神庙"
+  },
+  "cholula_holy_city": {
+    "name": "乔卢拉圣城"
+  },
+  "constantinople_episcopal_see": {
+    "name": "君士坦丁堡牧座"
+  },
+  "deo_patan": {
+    "name": "索姆纳特神庙"
+  },
+  "dwarkadhish_temple": {
+    "name": "德瓦尔格之主奎师那神庙"
+  },
+  "ise_grand_shrine": {
+    "name": "伊势神宫"
+  },
+  "izumo_taisha": {
+    "name": "出云大社"
+  },
+  "jagannath_temple": {
+    "name": "世主奎师那神庙"
+  },
+  "jerusalem_episcopal_see_orthodox": {
+    "name": "东正教耶路撒冷牧座"
+  },
+  "jerusalem_the_holy_city_catholic": {
+    "name": "耶路撒冷圣城"
+  },
+  "kaaba": {
+    "name": "禁寺"
+  },
+  "kamakhya_temple": {
+    "name": "卡马基雅寺"
+  },
+  "kamakshi_amman_temple": {
+    "name": "爱目母神庙"
+  },
+  "krishna_janmasthan": {
+    "name": "奎师那诞生地"
+  },
+  "mahakaleshwar_jyotirlinga": {
+    "name": "摩诃迦丽湿伐罗神庙"
+  },
+  "mahalakshmi_temple": {
+    "name": "大吉祥天女神庙"
+  },
+  "mount_hiei": {
+    "name": "比叡山"
+  },
+  "palitana_temples": {
+    "name": "波利多拿寺"
+  },
+  "quri_kancha": {
+    "name": "库里坎查山"
+  },
+  "ramanathaswamy_temple": {
+    "name": "拉马纳塔斯瓦米神庙"
+  },
+  "ranganathaswamy_temple": {
+    "name": "兰加纳塔斯瓦米神庙"
+  },
+  "sharada_peeth": {
+    "name": "辩才天女庙"
+  },
+  "shikharji": {
+    "name": "尸佉罗时"
+  },
+  "shri_mayureshwar_mandir": {
+    "name": "孔雀之主神庙"
+  },
+  "tara_tarini_temple": {
+    "name": "多罗‑多梨尼神庙"
+  },
+  "varanasi_holy_city": {
+    "name": "瓦拉纳西圣城"
+  },
+  "vimala_temple": {
+    "name": "毗摩罗神庙"
+  },
+  "vishalakshi_temple": {
+    "name": "宽目女神庙"
+  },
+  "ahobilam_holy_city": {
+    "name": "阿霍比拉姆圣城"
+  },
+  "alexandria_holy_city_gnostic": {
+    "name": "亚历山大"
+  },
+  "antioch_holy_city_gnostic": {
+    "name": "安条克"
+  },
+  "anuradhapura_maha_viharaya": {
+    "name": "阿㝹罗陀补罗寺"
+  },
+  "bhu_varaha_swamy_temple": {
+    "name": "布筏罗诃斯瓦米神庙"
+  },
+  "biraja_temple": {
+    "name": "毗罗阇神庙"
+  },
+  "bolon_yej_te_naah": {
+    "name": "九锐矛铭文神庙"
+  },
+  "constantinople_holy_city_gnostic": {
+    "name": "君士坦丁堡"
+  },
+  "deo_surya_mandir": {
+    "name": "代奥的苏利耶神庙"
+  },
+  "gnana_saraswati_temple": {
+    "name": "智慧辩才天女庙"
+  },
+  "haridwar_kumbh_mela": {
+    "name": "赫里德瓦尔大壶节"
+  },
+  "imam_ali_shrine": {
+    "name": "伊玛目阿里圣陵"
+  },
+  "inti_waka": {
+    "name": "因蒂圣所"
+  },
+  "jerusalem_episcopal_see_nestorian": {
+    "name": "聂斯脱里派耶路撒冷牧座"
+  },
+  "jogulamba_temple": {
+    "name": "乔古兰巴神庙"
+  },
+  "kalighat_kali_temple": {
+    "name": "迦梨女神庙"
+  },
+  "kanchipuram_holy_city": {
+    "name": "甘吉布勒姆圣城"
+  },
+  "kumano_sanzan": {
+    "name": "熊野三山"
+  },
+  "lakshmi_narasimha_temple": {
+    "name": "拉克什米‑那罗辛哈神庙"
+  },
+  "mallikarjuna_temple": {
+    "name": "末利迦阿周那神庙"
+  },
+  "meenakshi_temple": {
+    "name": "鱼目女神庙"
+  },
+  "mount_emei": {
+    "name": "峨眉山"
+  },
+  "mount_girnar": {
+    "name": "耆栗那罗山"
+  },
+  "mount_jiuhua": {
+    "name": "九华山"
+  },
+  "mount_kouya": {
+    "name": "高野山"
+  },
+  "mount_lu": {
+    "name": "庐山"
+  },
+  "mount_putuo": {
+    "name": "普陀山"
+  },
+  "mount_wutai": {
+    "name": "五台山"
+  },
+  "nanto_shichi_daiji": {
+    "name": "南都七大寺"
+  },
+  "nashik_trimbakeshwar_simhastha": {
+    "name": "纳西克‑特里姆巴克什瓦尔狮子座节"
+  },
+  "parthasarathy_temple": {
+    "name": "阿周那之御者奎师那神庙"
+  },
+  "prayag_kumbh_mela": {
+    "name": "普拉亚格大壶节"
+  },
+  "prophets_mosque": {
+    "name": "先知清真寺"
+  },
+  "ram_janmabhoomi": {
+    "name": "罗摩降诞处"
+  },
+  "rome_holy_city_gnostic": {
+    "name": "罗马"
+  },
+  "shankari_devi_temple": {
+    "name": "商羯丽女神庙"
+  },
+  "sonagiri_temples": {
+    "name": "苏那耆梨寺"
+  },
+  "the_vatican": {
+    "name": "梵蒂冈的圣伯多禄大殿"
+  },
+  "titikaka": {
+    "name": "的的喀喀湖"
+  },
+  "varahaswamy_temple": {
+    "name": "筏罗诃斯瓦米神庙"
+  },
+  "alexandria_episcopal_see": {
+    "name": "亚历山大牧座"
+  },
+  "anantheshwara_temple": {
+    "name": "阿南特什瓦拉神庙"
+  },
+  "angamaly_episcopal_see": {
+    "name": "安加马利牧座"
+  },
+  "angkor_wat": {
+    "name": "吴哥窟"
+  },
+  "antioch_episcopal_see": {
+    "name": "安条克牧座"
+  },
+  "arulmigu_koniamman_temple": {
+    "name": "阿卢利弥具‑拘尼阎曼神庙"
+  },
+  "bajreshwari_mata_temple": {
+    "name": "婆折丽湿伐梨神庙"
+  },
+  "borobudur_temple": {
+    "name": "婆罗浮屠寺"
+  },
+  "brihadisvara_temple": {
+    "name": "婆利诃地湿伐罗神庙"
+  },
+  "chintaman_ganesh_temple": {
+    "name": "除障者伽内什神庙"
+  },
+  "dewa_sanzan": {
+    "name": "出羽三山"
+  },
+  "fars_episcopal_see": {
+    "name": "法尔斯牧座"
+  },
+  "fushimi_inari_taisha": {
+    "name": "伏见稻荷大社"
+  },
+  "guruvayur_temple": {
+    "name": "古鲁瓦尤尔神庙"
+  },
+  "imam_husayn_shrine": {
+    "name": "伊玛目侯赛因圣陵"
+  },
+  "jal_mandir": {
+    "name": "无罪之城"
+  },
+  "jerusalem_the_holy_city_islam": {
+    "name": "圣城古都斯"
+  },
+  "jyotisar": {
+    "name": "殊帝萨"
+  },
+  "kalika_mata_temple": {
+    "name": "伽利伽·摩多神庙"
+  },
+  "karpaka_vinayakar_temple": {
+    "name": "羯波迦‑频那夜迦神庙"
+  },
+  "kashima_shrine": {
+    "name": "鹿岛神宫"
+  },
+  "katas_raj_temples": {
+    "name": "迦多娑罗阇神庙"
+  },
+  "katori_shrine": {
+    "name": "香取神宫"
+  },
+  "kola_valvill_ramar_temple": {
+    "name": "拘缡伐鼻利‑罗秣神庙"
+  },
+  "konark_sun_temple": {
+    "name": "科纳克太阳神庙"
+  },
+  "kothandaramaswamy_temple": {
+    "name": "拘旦陀‑罗摩斯瓦米神庙"
+  },
+  "kukkuteswara_temple": {
+    "name": "库库特斯瓦拉神庙"
+  },
+  "kurmanathaswamy_temple": {
+    "name": "俱利摩神庙"
+  },
+  "lakshmi_temple": {
+    "name": "吉祥天女神庙"
+  },
+  "lakshminarasimha_temple": {
+    "name": "拉克什米那罗辛哈神庙"
+  },
+  "matsya_narayana": {
+    "name": "摩蹉那罗延神庙"
+  },
+  "mile_church": {
+    "name": "米列"
+  },
+  "mount_fanjing": {
+    "name": "梵净山"
+  },
+  "muktinath": {
+    "name": "穆克蒂纳特"
+  },
+  "nageshvara_jyotirlinga": {
+    "name": "纳格什瓦拉究提林迦"
+  },
+  "nithyakalyana_perumal_temple": {
+    "name": "尼搋羯耶那‑闭卢末神庙"
+  },
+  "pagan_holy_city": {
+    "name": "蒲甘城"
+  },
+  "pathirakali_amman_temple": {
+    "name": "贤迦梨母神庙"
+  },
+  "pyramid_magician": {
+    "name": "魔法师金字塔"
+  },
+  "radha_damodar_temple": {
+    "name": "拉妲奎师那神庙"
+  },
+  "rajagopalaswamy_temple": {
+    "name": "牧童主奎师那神庙"
+  },
+  "rome_episcopal_see": {
+    "name": "罗马牧座"
+  },
+  "samarkand_episcopal_see": {
+    "name": "撒马尔罕牧座"
+  },
+  "santiago_de_compostela_cathedral": {
+    "name": "圣地亚哥‑德孔波斯特拉"
+  },
+  "suryanar_kovil": {
+    "name": "苏利耶纳尔神庙"
+  },
+  "temple_jaguar": {
+    "name": "大美洲虎神庙"
+  },
+  "temple_kukulkan": {
+    "name": "羽蛇神庙"
+  },
+  "temple_of_confucius": {
+    "name": "孔庙"
+  },
+  "teotihuacan_holy_city": {
+    "name": "特奥蒂瓦坎圣城"
+  },
+  "thirukkadigai": {
+    "name": "蒂鲁卡迪盖"
+  },
+  "tollan_holy_city": {
+    "name": "图拉圣城"
+  },
+  "varaha_lakshmi_narasimha_temple": {
+    "name": "筏罗诃‑吉祥天女‑那罗辛哈神庙"
+  },
+  "vedadri_narasimha_temple": {
+    "name": "韦达德里的那罗辛哈神庙"
+  },
+  "vidisha_temples": {
+    "name": "毗提舍寺"
+  },
+  "amamangalam_maha_vishnu_temple": {
+    "name": "阿马曼加拉姆摩诃毗湿奴神庙"
+  },
+  "aranmula_parthasarathy_temple": {
+    "name": "阿兰穆拉的阿周那之御者神庙"
+  },
+  "canterbury_cathedral": {
+    "name": "坎特伯雷"
+  },
+  "cave_patriarchs": {
+    "name": "列祖之洞"
+  },
+  "chartres_cathedral": {
+    "name": "沙特尔"
+  },
+  "chausath_yogini_temple": {
+    "name": "六十四瑜伽女神庙"
+  },
+  "cologne_cathedral": {
+    "name": "科隆"
+  },
+  "dilwara_temples": {
+    "name": "地利缚罗寺"
+  },
+  "humcha_temples": {
+    "name": "颔遮寺"
+  },
+  "imam_reza_shrine": {
+    "name": "伊玛目礼萨圣陵"
+  },
+  "kalaram_temple": {
+    "name": "黑罗摩神庙"
+  },
+  "kattu_narasimhaperumal_temple": {
+    "name": "卡图那罗辛哈佩鲁马尔神庙"
+  },
+  "kesariyaji_tirth": {
+    "name": "吉娑哩耶圣所"
+  },
+  "kichakeshwari_temple": {
+    "name": "吉遮鸡湿伐梨神庙"
+  },
+  "kodandarama_temple": {
+    "name": "拘檀陀‑罗摩神庙"
+  },
+  "koneswaram_temple": {
+    "name": "亭可马里寺"
+  },
+  "kurma_varadaraja_swamy_temple": {
+    "name": "拘利摩‑伐罗陀罗阇斯瓦米神庙"
+  },
+  "maa_dewri_temple": {
+    "name": "提乌梨神庙"
+  },
+  "mahadev_temple": {
+    "name": "大天神庙"
+  },
+  "mahavinayak_temple": {
+    "name": "大毗那夜迦神庙"
+  },
+  "martand_sun_temple": {
+    "name": "马坦德太阳神庙"
+  },
+  "mayapan_holy_site": {
+    "name": "玛雅潘"
+  },
+  "mount_haku": {
+    "name": "白山"
+  },
+  "mount_misen": {
+    "name": "弥山"
+  },
+  "mount_nantai": {
+    "name": "男体山"
+  },
+  "mount_tate": {
+    "name": "立山"
+  },
+  "mundeshwari_temple": {
+    "name": "蒙提湿伐罗神庙"
+  },
+  "nachiyar_koil": {
+    "name": "那止抴神庙"
+  },
+  "nainativu_nagapooshani_amman_temple": {
+    "name": "奈那底乌‑那伽布沙尼女神神庙"
+  },
+  "narasimhaswamy_temple": {
+    "name": "纳拉辛哈斯瓦米神庙"
+  },
+  "narasingam_yoga_narasimha_perumal_temple": {
+    "name": "纳拉辛加姆的瑜伽‑那罗辛哈‑佩鲁马尔神庙"
+  },
+  "pandava_thoothar_perumal_temple": {
+    "name": "般度族闭卢末神庙"
+  },
+  "panniyur_sri_varahamurthy": {
+    "name": "般尼逾剌‑室利筏罗诃化身"
+  },
+  "ramchaura_mandir": {
+    "name": "罗摩兰花神庙"
+  },
+  "saint_katrine_monastery": {
+    "name": "圣埃卡特里纳修道院"
+  },
+  "shankhodara_temple": {
+    "name": "商拘陀罗神庙"
+  },
+  "shri_idagunji_maha_ganapati_temple": {
+    "name": "室利伊陀郡时‑摩诃伽那波底神庙"
+  },
+  "shwedagon_pagoda": {
+    "name": "大光金塔"
+  },
+  "sreevaraham_lakshmi_varaha_temple": {
+    "name": "斯里瓦拉哈姆的吉祥天女‑筏罗诃神庙"
+  },
+  "sringeri_sharadamba_temple": {
+    "name": "斯灵盖里辩才天女庙"
+  },
+  "swayambhu": {
+    "name": "四眼天神庙"
+  },
+  "thiruvallam_sree_parasurama_temple": {
+    "name": "耻卢伐蓝‑室利持斧罗摩"
+  },
+  "thommanon": {
+    "name": "塔玛侬神庙"
+  },
+  "thrikkakara_temple": {
+    "name": "特里卡卡拉神庙"
+  },
+  "trichambaram_temple": {
+    "name": "多梨占婆蓝神庙"
+  },
+  "udupi_sri_krishna_matha": {
+    "name": "乌杜比的奎师那神庙"
+  },
+  "ulagalantha_perumal_temple": {
+    "name": "乌拉加蓝塔佩鲁马尔神庙"
+  },
+  "umayyad_mosque": {
+    "name": "伍麦叶清真寺"
+  },
+  "vamana_temple": {
+    "name": "瓦玛纳神庙"
+  },
+  "varaha_temple": {
+    "name": "筏罗诃神庙"
+  },
+  "vinayaka_temple": {
+    "name": "毗那夜迦神庙"
+  },
+  "waka_pukllana": {
+    "name": "普拉那圣所"
+  },
+  "al_kazimiyya_mosque": {
+    "name": "卡济米耶圣陵"
+  },
+  "changu_narayan_temple": {
+    "name": "昌古纳拉扬神庙"
+  },
+  "chhinnamasta_temple": {
+    "name": "献首女神庙"
+  },
+  "ek_balam": {
+    "name": "埃克巴拉姆城"
+  },
+  "enryaku_ji": {
+    "name": "延历寺"
+  },
+  "fatima_masumeh_shrine": {
+    "name": "纯洁者法蒂玛圣陵"
+  },
+  "hampatu": {
+    "name": "安帕图圣山"
+  },
+  "ich_kaan_ti_ho": {
+    "name": "七子之像神庙"
+  },
+  "katarmal": {
+    "name": "迦吒罗末罗神庙"
+  },
+  "kulpakji_temple": {
+    "name": "屈禄波耆寺"
+  },
+  "llullaillaco": {
+    "name": "尤耶亚科山"
+  },
+  "mount_yoshino": {
+    "name": "吉野山"
+  },
+  "muktagiri_temples": {
+    "name": "穆羯帝耆梨寺"
+  },
+  "navlakha_temple": {
+    "name": "纳夫拉卡神庙"
+  },
+  "parshuram_kund": {
+    "name": "持斧罗摩池桥"
+  },
+  "polali_rajarajeshwari_temple": {
+    "name": "波罗利‑罗阇罗誓湿伐梨神庙"
+  },
+  "quewar": {
+    "name": "奎瓦尔圣山"
+  },
+  "ramapuram_sree_rama_temple": {
+    "name": "拉默布勒姆的罗摩神庙"
+  },
+  "shankhapur_temple": {
+    "name": "商羯罗补罗寺"
+  },
+  "shikoku_henro": {
+    "name": "四国遍路"
+  },
+  "shravanabelagola_holy_site": {
+    "name": "室罗伐拿白泽"
+  },
+  "sumiyoshi_taisha": {
+    "name": "住吉大社"
+  },
+  "suryavinayak_temple": {
+    "name": "苏利耶毗那夜迦神庙"
+  },
+  "tarapith": {
+    "name": "多罗比他寺"
+  },
+  "thirukkavalampadi": {
+    "name": "底禄迦伐蓝波地"
+  },
+  "usa_hachiman_jinguuji": {
+    "name": "宇佐八幡神宫寺"
+  },
+  "vilwadrinatha_temple": {
+    "name": "鼻缚陀梨那他神庙"
+  },
+  "vithoba_temple": {
+    "name": "鼻多呼婆神庙"
+  },
+  "wayna_qhari": {
+    "name": "瓦纳考里山"
+  },
+  "mount_fuji": {
+    "name": "富士山"
+  },
+  "mount_athos": {
+    "name": "阿索斯山"
+  },
+  "shrine": {
+    "name": "神社",
+    "desc": "建在具有重要精神意义的地方，神社作为这种精神的守护者，并组织对其的祭祀。"
+  },
+  "mountain": {
+    "name": "圣山",
+    "desc": "山峦自古以来就被视为神圣的源泉，许多山峰都被尊为圣地，甚至被视为神灵的化身。"
+  },
+  "temple": {
+    "name": "神庙",
+    "desc": "神庙是为教士的宗教职责而奉献的礼拜场所。虽然根据当地的宗教，神庙可以有不同的形态和形式，但他们的根本宗旨是一样的。"
+  },
+  "city": {
+    "name": "城市"
+  },
+  "episcopal_see": {
+    "name": "牧座",
+    "desc": "牧座指一个主教所管辖的区域，可为控制这一区域的countries带来额外增益。"
+  },
+  "orthodox_church_holy_site": {
+    "name": "东正教圣地",
+    "desc": "这是一处holy site，对所有orthodox信徒至关重要。"
+  },
+  "christian_holy_site": {
+    "name": "基督教圣地",
+    "desc": "这是一处holy site，对christian至关重要。"
+  },
+  "inti_holy_site": {
+    "name": "因蒂圣地",
+    "desc": "这是一处holy site，对所有inti信徒至关重要。"
+  },
+  "mayan_holy_site": {
+    "name": "玛雅圣地",
+    "desc": "这是一处holy site，对所有mayan信徒至关重要。"
+  },
+  "islam_holy_site": {
+    "name": "伊斯兰圣地",
+    "desc": "这是一处holy site，对所有muslimreligions信徒至关重要。"
+  },
+  "_modifier_names": {
+    "invite_religious_figure_different_school_cost_modifier": "邀请异学派宗教人士花费",
+    "invite_religious_figure_same_school_cost_modifier": "邀请同学派宗教人士花费",
+    "local_clergy_desired_pop": "教士岗位容量",
+    "local_clergy_max_literacy": "本地教士最大识字率",
+    "local_institution_growth_modifier": "本地思潮增长",
+    "local_max_control": "最大控制力",
+    "local_max_literacy": "本地最大识字率",
+    "local_monthly_food_modifier": "本地食物产出 %",
+    "local_monthly_prosperity": "本地每月繁荣度",
+    "local_population_capacity_modifier": "本地人口容量 %",
+    "local_production_efficiency": "加工生产效率",
+    "local_unrest": "本地叛乱度",
+    "monthly_religious_influence": "每月宗教影响力",
+    "religious_icon_power_modifier": "宗教圣像效果修正"
+  },
+  "_modifier_descs": {
+    "invite_religious_figure_different_school_cost_modifier": "影响邀请宗教人士所需的花费。",
+    "invite_religious_figure_same_school_cost_modifier": "影响邀请宗教人士所需的花费。",
+    "local_clergy_desired_pop": "影响该地点可以容纳的clergy数量。",
+    "local_clergy_max_literacy": "影响该地点所有clergy的识字率。",
+    "local_institution_growth_modifier": "影响思潮在该地点的扩散速度。",
+    "local_max_control": "修正地点的最大控制力值。",
+    "local_max_literacy": "影响一个地点中所有人群的最大识字率。",
+    "local_monthly_food_modifier": "影响这一地点的食物产量。",
+    "local_monthly_prosperity": "影响该地点中繁荣度的增减。",
+    "local_population_capacity_modifier": "影响该地点可容纳的人群数量。",
+    "local_production_efficiency": "影响该地点的生产效率。",
+    "local_unrest": "影响地点的叛乱度。",
+    "monthly_religious_influence": "影响一个国家每月获得多少宗教影响力。",
+    "religious_icon_power_modifier": "影响宗教中每个icon的效果。"
+  },
+  "_location_names": {
+    "nirmal": "尼尔默尔",
+    "saint_katrine": "圣凯瑟琳",
+    "maukallaqta": "毛卡拉克塔",
+    "borobudur": "婆罗浮屠",
+    "nasik": "纳西克",
+    "chavand": "恰万德",
+    "khajuraho": "克久拉霍",
+    "rome": "罗马",
+    "ichagarh": "伊查加尔",
+    "mayapan": "玛雅潘",
+    "kalingapattanam": "羯陵伽波多那",
+    "chakwal": "恰夸尔",
+    "achachiwa": "阿查奇瓦",
+    "baghdad": "巴格达",
+    "pithapuram": "毗多补罗",
+    "tehotihuacan": "特奥蒂瓦坎",
+    "srisailam": "室利势罗",
+    "badrinath": "伯德里纳特",
+    "durg": "杜尔格",
+    "mount_athos": "阿索斯山",
+    "kalotmul": "卡洛特穆尔",
+    "nagarkot": "讷格尔果德",
+    "sendamangalam": "森达曼加拉姆",
+    "bhanvad": "班瓦德",
+    "samarkand": "撒马尔罕",
+    "thiruvananthapuram": "特里凡得琅",
+    "sadiya": "萨地亚",
+    "qingyang": "青阳",
+    "husaynabad": "侯赛纳巴德",
+    "kangundi": "坎贡迪",
+    "fuji": "富士",
+    "tixi": "提溪",
+    "jaund": "焦恩德",
+    "jath": "杰特",
+    "deo": "提婆",
+    "rimaq": "里马克",
+    "qom": "库姆",
+    "kathmandu": "加德满都",
+    "saeki": "佐伯",
+    "hajipur": "哈吉普尔",
+    "emei": "峨眉",
+    "kanchipuram": "甘吉布勒姆",
+    "karikkode": "卡里科德",
+    "sirohi": "锡罗希",
+    "champaner": "尚庞",
+    "osaka": "大坂",
+    "varanasi": "瓦拉纳西",
+    "pomata": "波马塔",
+    "doboj": "多博伊",
+    "ujjain": "乌贾因",
+    "jianzhou_daizhou": "坚州",
+    "prayag": "普拉亚格",
+    "jajnagar": "贾杰纳加尔",
+    "constantinople": "君士坦丁堡",
+    "kolhapur": "戈尔哈布尔",
+    "keonjhar": "盖翁切尔",
+    "kashima": "鹿岛",
+    "tiruvannamalai": "提卢瓦那摩罗",
+    "karkala": "卡尔卡拉",
+    "ahobalam": "阿赫巴拉姆",
+    "guwahati": "古瓦哈蒂",
+    "bhongir": "邦吉尔",
+    "gawilgarh": "加维尔加尔",
+    "nara": "奈良",
+    "qufu": "曲阜",
+    "coimbatore": "哥印拜陀",
+    "dagon": "大光",
+    "hazaribagh": "赫扎里巴克",
+    "nander": "南德尔",
+    "tsuga": "都贺",
+    "madras": "马德拉斯",
+    "qusqu": "库斯科",
+    "canterbury": "坎特伯雷",
+    "radhanpur": "拉丹布尔",
+    "madurai": "马杜赖",
+    "ponnani": "蓬纳尼",
+    "lickanantay": "利卡南泰",
+    "dehua_jiujiang": "德化",
+    "niikawa": "新川",
+    "karbala": "卡尔巴拉",
+    "bhatkal": "婆吒迦罗",
+    "alexandria": "亚历山大",
+    "dvarasamudra": "德瓦拉萨穆德拉",
+    "shravanabelagola": "室罗伐拿白泽",
+    "tirupati": "蒂鲁帕蒂",
+    "puddokothai": "普杜科泰",
+    "bangalore": "班加罗尔",
+    "kataka": "卡塔卡",
+    "jaffna": "贾夫纳",
+    "mysore": "迈索尔",
+    "usa": "宇佐",
+    "wazirabad": "瓦济拉巴德",
+    "palitana": "巴利塔纳",
+    "pennadam": "彭纳达姆",
+    "kochi": "科钦",
+    "kuse": "久世",
+    "katori": "香取",
+    "chan_chan": "昌昌",
+    "trincomalee": "亭可马里",
+    "ganjam": "甘贾姆",
+    "antofagasta": "安托法加斯塔",
+    "sringeri": "斯灵盖里",
+    "antioch": "安条克",
+    "kozhikode": "科泽科德",
+    "pagan": "蒲甘",
+    "harishpur": "哈里什布尔",
+    "mathura": "马图拉",
+    "baak": "拉卡姆哈",
+    "sharda": "沙尔达",
+    "chichen_itza": "奇琴伊察",
+    "somnath": "索姆纳特",
+    "bhilsa": "比尔沙",
+    "kurnool": "卡努尔",
+    "higashimuro": "东牟娄",
+    "awadh": "阿瓦德",
+    "watarai": "度会",
+    "datia": "德蒂亚",
+    "kufa": "库法",
+    "kaga": "加贺",
+    "almora": "阿尔莫拉",
+    "junagarh": "朱纳格特",
+    "yax_mutal": "亚什穆塔尔",
+    "reyshahr": "雷沙赫尔",
+    "chartres": "沙特尔",
+    "awa_shikoku": "阿波",
+    "gaya": "迦耶",
+    "kodungallur": "科敦加卢尔",
+    "izumo": "出云",
+    "jerusalem": "耶路撒冷",
+    "kondavidu": "孔达维杜",
+    "cologne": "科隆",
+    "yoshino": "吉野",
+    "mecca": "麦加",
+    "nagapattinam": "纳加帕蒂南",
+    "tollan": "图拉",
+    "tho": "托",
+    "singarh": "辛加尔",
+    "baragram": "巴拉格拉姆",
+    "lo_mustang": "洛敏汤",
+    "dwarka": "德瓦卡",
+    "visakhapatnam": "维沙卡帕特南",
+    "kurita": "栗太",
+    "gangadvara": "恒河门",
+    "rajgir": "王舍城",
+    "mani": "马尼",
+    "naga": "那贺",
+    "hebron": "希伯伦",
+    "belur": "贝卢鲁",
+    "katrasgarh": "卡特拉斯加尔",
+    "srirangam": "斯里兰加姆",
+    "damascus": "大马士革",
+    "maduranthakam": "马杜兰塔卡姆",
+    "vellore": "韦洛尔",
+    "tagawa": "田川",
+    "santiago_compostela": "圣地亚哥‑德孔波斯特拉",
+    "puri": "补梨",
+    "palghat": "帕尔加特",
+    "cholollan": "乔卢拉",
+    "medina": "麦地那",
+    "changguo": "昌国",
+    "srinagar": "斯利那加",
+    "udupi": "乌度比",
+    "bednur": "比达努尔",
+    "kannur": "坎努尔",
+    "mashhad": "马什哈德",
+    "ramesvaram": "拉梅斯沃勒姆",
+    "manikandapuram": "马尼坎达普兰",
+    "karaikal": "加里加尔",
+    "thanesar": "坦内萨尔",
+    "angkor": "吴哥",
+    "thanjavur": "坦贾武尔"
+  }
+}

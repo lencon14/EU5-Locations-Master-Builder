@@ -2,2051 +2,6712 @@
   {
     "id": "bon",
     "group_id": "buddhist",
-    "color": "color_bon",
+    "modifier": [
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "global_estate_target_satisfaction",
+        "value": "small_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "monthly_karma",
+        "value": 0.1
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "opinions": {
+      "dongba_religion": "kindred",
+      "tibetan_buddhism": "kindred"
+    },
+    "language": "tibetan_language",
+    "mechanics": [
+      "has_karma"
+    ],
     "icon": "icons/religion/bon.png",
     "source_file": "buddhist.txt"
   },
   {
     "id": "mahayana",
     "group_id": "buddhist",
-    "color": "color_mahayana",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "monthly_karma",
+        "value": 0.1
+      },
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "max_sects": 3,
+    "language": "classical_chinese_language",
+    "mechanics": [
+      "has_karma"
+    ],
     "icon": "icons/religion/mahayana.png",
     "source_file": "buddhist.txt"
   },
   {
     "id": "shinto",
     "group_id": "buddhist",
-    "color": "color_shinto",
+    "modifier": [
+      {
+        "key": "global_max_literacy",
+        "value": 10
+      },
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "max_sects": 1,
+    "language": "japanese_language",
+    "mechanics": [
+      "has_purity",
+      "has_honor"
+    ],
     "icon": "icons/religion/shinto.png",
     "source_file": "buddhist.txt"
   },
   {
     "id": "theravada",
     "group_id": "buddhist",
-    "color": "color_theravada",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "monthly_karma",
+        "value": 0.1
+      },
+      {
+        "key": "country_cabinet_efficiency",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "max_sects": 1,
+    "language": "pali_language",
+    "mechanics": [
+      "has_karma"
+    ],
     "icon": "icons/religion/theravada.png",
     "source_file": "buddhist.txt"
   },
   {
     "id": "sammitiya",
     "group_id": "buddhist",
-    "color": "color_sammitiya",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "monthly_karma",
+        "value": 0.1
+      },
+      {
+        "key": "stability_investment",
+        "value": "tiny_stability_investment",
+        "scaled": true
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "mechanics": [
+      "has_karma"
+    ],
     "icon": "icons/religion/sammitiya.png",
     "source_file": "buddhist.txt"
   },
   {
     "id": "tibetan_buddhism",
     "group_id": "buddhist",
-    "color": "map_TIB",
+    "modifier": [
+      {
+        "key": "monthly_war_exhaustion",
+        "value": -0.05,
+        "inv": true
+      },
+      {
+        "key": "monthly_karma",
+        "value": 0.1
+      },
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "opinions": {
+      "bon": "positive"
+    },
+    "max_sects": 1,
+    "language": "tibetan_language",
+    "mechanics": [
+      "has_karma"
+    ],
     "icon": "icons/religion/tibetan_buddhism.png",
     "source_file": "buddhist.txt"
   },
   {
     "id": "sanjiao",
     "group_id": "buddhist",
-    "color": "map_chinese",
+    "modifier": [
+      {
+        "key": "allow_righteousness",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "allow_harmony",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "monthly_legitimacy",
+        "value": 0.05
+      },
+      {
+        "key": "global_max_literacy",
+        "value": 10
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "opinions": {
+      "mahayana": "kindred"
+    },
+    "max_sects": 3,
+    "language": "classical_chinese_language",
     "icon": "icons/religion/sanjiao.png",
     "source_file": "buddhist.txt"
   },
   {
     "id": "anglican",
     "group_id": "christian",
-    "color": "color_anglican",
+    "modifier": [
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "global_build_buildings_cost",
+        "value": -0.05,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "religious_aspects": 3,
+    "enable": "9999.1.1",
+    "mechanics": [
+      "has_religious_influence"
+    ],
     "icon": "icons/religion/anglican.png",
     "source_file": "christian.txt"
   },
   {
     "id": "bogomilism",
     "group_id": "christian",
-    "color": "color_bogomilism",
+    "modifier": [
+      {
+        "key": "global_clergy_estate_power",
+        "value": -0.5
+      },
+      {
+        "key": "global_peasants_estate_power",
+        "value": 0.5
+      },
+      {
+        "key": "is_battles_preordained",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "retreat_delay",
+        "value": 20
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "opinions": {
+      "catharism": "kindred"
+    },
+    "religious_aspects": 3,
+    "enable": "927.1.1",
+    "language": "church_slavonic_language",
+    "mechanics": [
+      "has_religious_influence"
+    ],
     "icon": "icons/religion/bogomilism.png",
     "source_file": "christian.txt"
   },
   {
     "id": "bosnian_church",
     "group_id": "christian",
-    "color": "color_bosnian_church",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1.5
+      },
+      {
+        "key": "clergy_estate_target_satisfaction",
+        "value": "medium_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "nobles_estate_target_satisfaction",
+        "value": "medium_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 900
+      }
+    ],
+    "opinions": {
+      "orthodox": "kindred",
+      "catholic": "kindred"
+    },
+    "language": "church_slavonic_language",
+    "mechanics": [
+      "has_religious_influence",
+      "has_canonization"
+    ],
     "icon": "icons/religion/bosnian_church.png",
     "source_file": "christian.txt"
   },
   {
     "id": "calvinist",
     "group_id": "christian",
-    "color": "color_calvinist",
+    "modifier": [
+      {
+        "key": "clergy_estate_target_satisfaction",
+        "value": "large_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "is_battles_preordained",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "retreat_delay",
+        "value": 20
+      },
+      {
+        "key": "global_monthly_art_start_chance",
+        "value": -0.1,
+        "inv": true
+      },
+      {
+        "key": "discipline",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "opinions": {
+      "hussite": "positive",
+      "lutheran": "positive",
+      "lollardy": "positive"
+    },
+    "religious_aspects": 3,
+    "enable": "9999.1.1",
+    "mechanics": [
+      "has_religious_influence"
+    ],
     "icon": "icons/religion/calvinist.png",
     "source_file": "christian.txt"
   },
   {
     "id": "catharism",
     "group_id": "christian",
-    "color": "color_catharism",
+    "modifier": [
+      {
+        "key": "global_clergy_estate_power",
+        "value": -0.5
+      },
+      {
+        "key": "global_burghers_estate_power",
+        "value": 0.25
+      },
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "gender_equality",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "opinions": {
+      "bogomilism": "kindred"
+    },
+    "religious_aspects": 3,
+    "enable": "1100.1.1",
+    "language": "latin_language",
+    "mechanics": [
+      "has_religious_influence"
+    ],
     "icon": "icons/religion/catharism.png",
     "source_file": "christian.txt"
   },
   {
     "id": "catholic",
     "group_id": "christian",
-    "color": "religion_catholic",
+    "modifier": [
+      {
+        "key": "clergy_estate_max_tax",
+        "value": -1.0
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "global_clergy_max_literacy",
+        "value": 25
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "block_from_change_to_empire_rank_catholic",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 900
+      },
+      {
+        "key": "cannot_declare_no_cb_wars_on_religion_head",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "opinions": {
+      "bogomilism": "enemy",
+      "bosnian_church": "enemy",
+      "catharism": "enemy",
+      "hussite": "enemy",
+      "orthodox": "kindred",
+      "waldensian": "enemy",
+      "judaism": "negative",
+      "sunni": "enemy",
+      "shia": "enemy",
+      "ibadi": "enemy"
+    },
+    "language": "latin_language",
+    "mechanics": [
+      "has_religious_influence",
+      "has_canonization",
+      "has_religious_head",
+      "has_cardinals",
+      "needs_reform"
+    ],
     "icon": "icons/religion/catholic.png",
     "source_file": "christian.txt"
   },
   {
     "id": "hussite",
     "group_id": "christian",
-    "color": "color_hussite",
+    "modifier": [
+      {
+        "key": "army_auxiliary_maintenance_cost_modifier",
+        "value": -0.25,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_pop_promotion_speed_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_pop_conversion_speed_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "opinions": {
+      "lutheran": "kindred",
+      "calvinist": "positive"
+    },
+    "religious_aspects": 3,
+    "enable": "9999.1.1",
+    "language": "czech_dialect",
+    "mechanics": [
+      "has_religious_influence"
+    ],
     "icon": "icons/religion/hussite.png",
     "source_file": "christian.txt"
   },
   {
     "id": "lollardy",
     "group_id": "christian",
-    "color": "color_lollardy",
+    "modifier": [
+      {
+        "key": "global_clergy_estate_power",
+        "value": -0.5
+      },
+      {
+        "key": "global_peasants_estate_power",
+        "value": 0.5
+      },
+      {
+        "key": "global_max_literacy",
+        "value": 10
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "opinions": {
+      "calvinist": "positive",
+      "lutheran": "positive"
+    },
+    "religious_aspects": 3,
+    "enable": "9999.1.1",
+    "mechanics": [
+      "has_religious_influence"
+    ],
     "icon": "icons/religion/lollardy.png",
     "source_file": "christian.txt"
   },
   {
     "id": "lutheran",
     "group_id": "christian",
-    "color": "color_lutheran",
+    "modifier": [
+      {
+        "key": "clergy_estate_target_satisfaction",
+        "value": "medium_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "tax_income_efficiency",
+        "value": "medium_tax_income_efficiency_bonus",
+        "scaled": true
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "opinions": {
+      "calvinist": "positive",
+      "hussite": "kindred",
+      "lollardy": "positive"
+    },
+    "religious_aspects": 3,
+    "enable": "9999.1.1",
+    "mechanics": [
+      "has_religious_influence"
+    ],
     "icon": "icons/religion/lutheran.png",
     "source_file": "christian.txt"
   },
   {
     "id": "miaphysite",
     "group_id": "christian",
-    "color": "color_miaphysite",
+    "modifier": [
+      {
+        "key": "clergy_estate_max_tax",
+        "value": -0.5
+      },
+      {
+        "key": "tolerance_own",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heretic",
+        "value": -1
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "opinions": {
+      "orthodox": "kindred"
+    },
+    "mechanics": [
+      "has_religious_influence",
+      "has_canonization",
+      "has_autocephalous_patriarchates",
+      "has_rite_power"
+    ],
     "icon": "icons/religion/miaphysite.png",
     "source_file": "christian.txt"
   },
   {
     "id": "nestorianism",
     "group_id": "christian",
-    "color": "color_nestorianism",
+    "modifier": [
+      {
+        "key": "clergy_estate_max_tax",
+        "value": -0.5
+      },
+      {
+        "key": "tolerance_own",
+        "value": 1
+      },
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "opinions": {
+      "miaphysite": "kindred"
+    },
+    "language": "aramaic_language",
+    "mechanics": [
+      "has_religious_influence",
+      "has_canonization",
+      "has_autocephalous_patriarchates"
+    ],
     "icon": "icons/religion/nestorianism.png",
     "source_file": "christian.txt"
   },
   {
     "id": "orthodox",
     "group_id": "christian",
-    "color": "religion_orthodox",
+    "modifier": [
+      {
+        "key": "stability_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "opinions": {
+      "bogomilism": "enemy",
+      "bosnian_church": "negative",
+      "catholic": "positive",
+      "paulicianism": "negative",
+      "sunni": "enemy",
+      "shia": "enemy",
+      "judaism": "positive"
+    },
+    "mechanics": [
+      "has_religious_influence",
+      "has_canonization",
+      "has_autocephalous_patriarchates",
+      "has_patriarchs",
+      "use_icons"
+    ],
     "icon": "icons/religion/orthodox.png",
     "source_file": "christian.txt"
   },
   {
     "id": "paulicianism",
     "group_id": "christian",
-    "color": "color_paulicianism",
+    "modifier": [
+      {
+        "key": "global_clergy_estate_power",
+        "value": -0.5
+      },
+      {
+        "key": "global_monthly_literacy",
+        "value": 0.01
+      },
+      {
+        "key": "global_pop_conversion_speed_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "religious_aspects": 3,
+    "enable": "620.1.1",
+    "language": "church_slavonic_language",
+    "mechanics": [
+      "has_religious_influence"
+    ],
     "icon": "icons/religion/paulicianism.png",
     "source_file": "christian.txt"
   },
   {
     "id": "strigolniki",
     "group_id": "christian",
-    "color": "color_strigolniki",
+    "modifier": [
+      {
+        "key": "global_clergy_estate_power",
+        "value": -0.5
+      },
+      {
+        "key": "global_peasants_estate_power",
+        "value": 0.25
+      },
+      {
+        "key": "global_burghers_estate_power",
+        "value": 0.25
+      },
+      {
+        "key": "global_max_literacy",
+        "value": 10
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "enable": "9999.1.1",
+    "language": "russian_dialect",
+    "mechanics": [
+      "has_religious_influence",
+      "has_canonization",
+      "has_autocephalous_patriarchates",
+      "has_patriarchs"
+    ],
     "icon": "icons/religion/strigolniki.png",
     "source_file": "christian.txt"
   },
   {
     "id": "waldensian",
     "group_id": "christian",
-    "color": "religion_waldensian",
+    "modifier": [
+      {
+        "key": "global_clergy_estate_power",
+        "value": -0.5
+      },
+      {
+        "key": "global_peasants_estate_power",
+        "value": 0.25
+      },
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "global_monthly_literacy",
+        "value": 0.02
+      },
+      {
+        "key": "monthly_religious_influence",
+        "value": 0.1
+      },
+      {
+        "key": "maximum_religious_influence",
+        "value": 400
+      }
+    ],
+    "religious_aspects": 3,
+    "enable": "1173.1.1",
+    "mechanics": [
+      "has_religious_influence"
+    ],
     "icon": "icons/religion/waldensian.png",
     "source_file": "christian.txt"
   },
   {
     "id": "hindu",
     "group_id": "dharmic",
-    "color": "color_hindu",
+    "modifier": [
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "tolerance_own",
+        "value": 1
+      },
+      {
+        "key": "number_of_allowed_religious_figures",
+        "value": 1
+      }
+    ],
+    "language": "sanskrit_language",
+    "mechanics": [
+      "has_avatars"
+    ],
     "icon": "icons/religion/hindu.png",
     "source_file": "dharmic.txt"
   },
   {
     "id": "jain",
     "group_id": "dharmic",
-    "color": "color_jain",
+    "modifier": [
+      {
+        "key": "cannot_declare_no_cb_wars",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "global_monthly_literacy",
+        "value": 0.03
+      },
+      {
+        "key": "allow_self_control",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "number_of_allowed_religious_figures",
+        "value": 1
+      }
+    ],
+    "mechanics": [
+      "has_karma"
+    ],
     "icon": "icons/religion/jain.png",
     "source_file": "dharmic.txt"
   },
   {
     "id": "sikhism",
     "group_id": "dharmic",
-    "color": "color_sikhism",
+    "modifier": [
+      {
+        "key": "research_speed_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_estate_target_satisfaction",
+        "value": "small_permanent_target_satisfaction",
+        "scaled": true
+      }
+    ],
+    "enable": "1526.01.01",
     "icon": "icons/religion/sikhism.png",
     "source_file": "dharmic.txt"
   },
   {
     "id": "druzism",
     "group_id": "druze_group",
-    "color": "religion_druzism",
+    "modifier": [
+      {
+        "key": "global_migration_speed_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "allow_mysticism_vs_jurisprudence",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      }
+    ],
+    "opinions": {
+      "catholic": "positive",
+      "bogomilism": "positive",
+      "bosnian_church": "positive",
+      "catharism": "positive",
+      "orthodox": "positive",
+      "miaphysite": "positive",
+      "nestorianism": "positive",
+      "paulicianism": "positive",
+      "strigolniki": "positive",
+      "waldensian": "positive",
+      "judaism": "negative"
+    },
+    "language": "levantine_dialect",
     "icon": "icons/religion/druzism.png",
     "source_file": "druze.txt"
   },
   {
     "id": "bantu_religion",
     "group_id": "folk_african_group",
-    "color": "map_bantu",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/bantu_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "lugbara_religion",
     "group_id": "folk_african_group",
-    "color": "map_lugbara",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/lugbara_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "cwezi_religion",
     "group_id": "folk_african_group",
-    "color": "map_cwezi",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/cwezi_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "bori_religion",
     "group_id": "folk_african_group",
-    "color": "map_zazzau",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/bori_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "muonyjang_religion",
     "group_id": "folk_african_group",
-    "color": "map_dinka",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/muonyjang_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "fomba_gasy_religion",
     "group_id": "folk_african_group",
-    "color": "color_culture_malagasy",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/fomba_gasy_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "maasai_religion",
     "group_id": "folk_african_group",
-    "color": "color_culture_maasai",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/maasai_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "asis_religion",
     "group_id": "folk_african_group",
-    "color": "color_culture_kalenjin",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/asis_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "waaqeffanna_religion",
     "group_id": "folk_african_group",
-    "color": "map_afre",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/waaqeffanna_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "badimo_religion",
     "group_id": "folk_african_group",
-    "color": "map_sotho",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/badimo_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "kaggen_religion",
     "group_id": "folk_african_group",
-    "color": "map_khoe",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kaggen_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "akuj_religion",
     "group_id": "folk_african_group",
-    "color": "color_culture_turkana",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/akuj_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "akan_religion",
     "group_id": "folk_african_group",
-    "color": "map_bonoman",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/akan_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "vodun_religion",
     "group_id": "folk_african_group",
-    "color": "map_ajan",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/vodun_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "abwoi_religion",
     "group_id": "folk_african_group",
-    "color": "map_benue",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/abwoi_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "isese_religion",
     "group_id": "folk_african_group",
-    "color": "map_oyo",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/isese_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "ijaw_religion",
     "group_id": "folk_african_group",
-    "color": "map_ijaw",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/ijaw_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "odinala_religion",
     "group_id": "folk_african_group",
-    "color": "map_nri",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/odinala_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "a_fat_roog_religion",
     "group_id": "folk_african_group",
-    "color": "map_serer",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/a_fat_roog_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "dogon_religion",
     "group_id": "folk_african_group",
-    "color": "map_dogon",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/dogon_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "nyama_religion",
     "group_id": "folk_african_group",
-    "color": "map_mandinka",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nyama_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "nyesoa_religion",
     "group_id": "folk_african_group",
-    "color": "map_eastern_kru",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nyesoa_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "karama_religion",
     "group_id": "folk_african_group",
-    "color": "map_zaghawa",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/karama_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "buyli_religion",
     "group_id": "folk_african_group",
-    "color": "map_dagbon",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/buyli_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "ebore_religion",
     "group_id": "folk_african_group",
-    "color": "map_gonja",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/ebore_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "adamawa_religion",
     "group_id": "folk_african_group",
-    "color": "map_adamawa",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/adamawa_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "geno_religion",
     "group_id": "folk_african_group",
-    "color": "map_fulo",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/geno_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "emit_religion",
     "group_id": "folk_african_group",
-    "color": "map_jola",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/emit_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "nhaala_religion",
     "group_id": "folk_african_group",
-    "color": "map_balanta",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nhaala_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "eso_religion",
     "group_id": "folk_african_group",
-    "color": "map_kabiye",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/eso_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "naa_wuni_religion",
     "group_id": "folk_african_group",
-    "color": "map_mamprugu",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/naa_wuni_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "kuru_masaba_religion",
     "group_id": "folk_african_group",
-    "color": "map_temne",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kuru_masaba_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "sao_religion",
     "group_id": "folk_african_group",
-    "color": "map_sao",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/sao_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "rogo_miki_religion",
     "group_id": "folk_african_group",
-    "color": "map_mossi",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/rogo_miki_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "songhai_religion",
     "group_id": "folk_african_group",
-    "color": "map_songhai",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/songhai_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "godala_religion",
     "group_id": "folk_african_group",
-    "color": "map_godala",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/godala_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "nyasaye_religion",
     "group_id": "folk_african_group",
-    "color": "color_culture_luo",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nyasaye_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "anna_religion",
     "group_id": "folk_african_group",
-    "color": "map_kunama",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/anna_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "rebba_religion",
     "group_id": "folk_african_group",
-    "color": "map_gumuz",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/rebba_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "omo_religion",
     "group_id": "folk_african_group",
-    "color": "map_omo",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/omo_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "musala_religion",
     "group_id": "folk_african_group",
-    "color": "rgb",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/musala_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "kalge_religion",
     "group_id": "folk_african_group",
-    "color": "map_daju",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kalge_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "mbori_religion",
     "group_id": "folk_african_group",
-    "color": "map_zande_culture",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/mbori_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "ori_religion",
     "group_id": "folk_african_group",
-    "color": "map_madi_culture",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/ori_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "ngbandi_religion",
     "group_id": "folk_african_group",
-    "color": "map_ngbandi",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/ngbandi_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "bua_religion",
     "group_id": "folk_african_group",
-    "color": "map_bua",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/bua_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "fang_religion",
     "group_id": "folk_african_group",
-    "color": "map_fang",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/fang_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "ajok_religion",
     "group_id": "folk_african_group",
-    "color": "map_otuho",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/ajok_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "banda_religion",
     "group_id": "folk_african_group",
-    "color": "map_banda",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/banda_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "guanche_religion",
     "group_id": "folk_african_group",
-    "color": "map_guanche",
+    "modifier": [
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.2
+      },
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/guanche_religion.png",
     "source_file": "folk_african.txt"
   },
   {
     "id": "kenos_religion",
     "group_id": "folk_argentinian_group",
-    "color": "map_selknam",
+    "modifier": [
+      {
+        "key": "navy_initiative",
+        "value": 0.2,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kenos_religion.png",
     "source_file": "folk_argentinian.txt"
   },
   {
     "id": "tain_feyentun_religion",
     "group_id": "folk_argentinian_group",
-    "color": "map_mapuche",
+    "modifier": [
+      {
+        "key": "navy_initiative",
+        "value": 0.2,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tain_feyentun_religion.png",
     "source_file": "folk_argentinian.txt"
   },
   {
     "id": "tokuah_religion",
     "group_id": "folk_argentinian_group",
-    "color": "map_wichi",
+    "modifier": [
+      {
+        "key": "navy_initiative",
+        "value": 0.2,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tokuah_religion.png",
     "source_file": "folk_argentinian.txt"
   },
   {
     "id": "kilyikhama_religion",
     "group_id": "folk_argentinian_group",
-    "color": "map_enlhet",
+    "modifier": [
+      {
+        "key": "navy_initiative",
+        "value": 0.2,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kilyikhama_religion.png",
     "source_file": "folk_argentinian.txt"
   },
   {
     "id": "pabichu_religion",
     "group_id": "folk_argentinian_group",
-    "color": "map_monkox",
+    "modifier": [
+      {
+        "key": "navy_initiative",
+        "value": 0.2,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/pabichu_religion.png",
     "source_file": "folk_argentinian.txt"
   },
   {
     "id": "mororuma_religion",
     "group_id": "folk_argentinian_group",
-    "color": "map_yuracare",
+    "modifier": [
+      {
+        "key": "navy_initiative",
+        "value": 0.2,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/mororuma_religion.png",
     "source_file": "folk_argentinian.txt"
   },
   {
     "id": "pericu_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_pericu",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/pericu_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "yuman_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_cochimi",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/yuman_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "cahita_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_pima",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/cahita_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "seri_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_seri",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/seri_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "guasave_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_guasave",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/guasave_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "tepehuan_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_tepehuan",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tepehuan_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "coahuilteco_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_coahuilteco",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/coahuilteco_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "irritila_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_irritila",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/irritila_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "karankawa_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_karankawa",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/karankawa_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "atakapa_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_atakapa",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/atakapa_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "kachina_religion",
     "group_id": "folk_aridoamerica_group",
-    "color": "map_ancestral_pueblo",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kachina_religion.png",
     "source_file": "folk_aridoamerica.txt"
   },
   {
     "id": "dongba_religion",
     "group_id": "folk_asian_group",
-    "color": "map_nashi",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "global_estate_target_satisfaction",
+        "value": "small_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "country_cabinet_efficiency",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "can_have_monasteries",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "opinions": {
+      "bon": "kindred",
+      "mahayana": "kindred",
+      "tibetan_buddhism": "kindred"
+    },
+    "religious_aspects": 1,
+    "language": "tibetan_language",
     "icon": "icons/religion/dongba_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "bimoism",
     "group_id": "folk_asian_group",
-    "color": "map_yi",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/bimoism.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "ka_niam_khasi_religion",
     "group_id": "folk_asian_group",
-    "color": "map_khasi",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/ka_niam_khasi_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "muong_religion",
     "group_id": "folk_asian_group",
-    "color": "map_muong",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/muong_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "sarna_religion",
     "group_id": "folk_asian_group",
-    "color": "map_santal",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/sarna_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "ainu_religion",
     "group_id": "folk_asian_group",
-    "color": "map_ANU",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/ainu_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "utaki_religion",
     "group_id": "folk_asian_group",
-    "color": "map_ryukyu",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/utaki_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "koyapunem_religion",
     "group_id": "folk_asian_group",
-    "color": "map_gondi_language",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/koyapunem_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "bathou_religion",
     "group_id": "folk_asian_group",
-    "color": "map_bodo",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/bathou_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "donyi_polo_religion",
     "group_id": "folk_asian_group",
-    "color": "map_tani",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/donyi_polo_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "kirat_mundhum_religion",
     "group_id": "folk_asian_group",
-    "color": "map_kirati",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kirat_mundhum_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "mizo_religion",
     "group_id": "folk_asian_group",
-    "color": "map_zo",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/mizo_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "gosain_religion",
     "group_id": "folk_asian_group",
-    "color": "map_malto",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/gosain_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "khond_religion",
     "group_id": "folk_asian_group",
-    "color": "map_khond",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/khond_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "wu_religion",
     "group_id": "folk_asian_group",
-    "color": "map_she",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/wu_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "yao_religion",
     "group_id": "folk_asian_group",
-    "color": "map_yao_china_culture",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/yao_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "nuo_religion",
     "group_id": "folk_asian_group",
-    "color": "map_tujia",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nuo_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "vedda_religion",
     "group_id": "folk_asian_group",
-    "color": "map_vedda",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/vedda_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "kam_religion",
     "group_id": "folk_asian_group",
-    "color": "map_kam",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kam_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "formosan_religion",
     "group_id": "folk_asian_group",
-    "color": "map_formosan",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/formosan_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "mulam_religion",
     "group_id": "folk_asian_group",
-    "color": "map_mulam",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/mulam_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "maonan_religion",
     "group_id": "folk_asian_group",
-    "color": "map_maonan",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/maonan_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "sui_religion",
     "group_id": "folk_asian_group",
-    "color": "map_sui",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/sui_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "lisu_religion",
     "group_id": "folk_asian_group",
-    "color": "map_lisu",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/lisu_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "ngacang_religion",
     "group_id": "folk_asian_group",
-    "color": "map_ngacang",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/ngacang_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "blang_religion",
     "group_id": "folk_asian_group",
-    "color": "map_blang",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/blang_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "hani_religion",
     "group_id": "folk_asian_group",
-    "color": "map_hani",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/hani_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "jino_religion",
     "group_id": "folk_asian_group",
-    "color": "map_jino",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/jino_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "lahu_religion",
     "group_id": "folk_asian_group",
-    "color": "map_lahu",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/lahu_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "nu_religion",
     "group_id": "folk_asian_group",
-    "color": "map_nu",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nu_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "jingpo_religion",
     "group_id": "folk_asian_group",
-    "color": "map_jingpo",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/jingpo_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "wa_religion",
     "group_id": "folk_asian_group",
-    "color": "map_wa",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/wa_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "monpa_religion",
     "group_id": "folk_asian_group",
-    "color": "map_monpa",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/monpa_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "mishmi_religion",
     "group_id": "folk_asian_group",
-    "color": "map_mishmi",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/mishmi_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "palaung_religion",
     "group_id": "folk_asian_group",
-    "color": "map_palaung",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/palaung_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "kundism_religion",
     "group_id": "folk_asian_group",
-    "color": "map_deori",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kundism_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "songsarek_religion",
     "group_id": "folk_asian_group",
-    "color": "map_garo",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/songsarek_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "tiwa_religion",
     "group_id": "folk_asian_group",
-    "color": "map_tiwa",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tiwa_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "koch_religion",
     "group_id": "folk_asian_group",
-    "color": "map_koch",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/koch_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "rabha_religion",
     "group_id": "folk_asian_group",
-    "color": "map_rabha",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/rabha_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "chutia_religion",
     "group_id": "folk_asian_group",
-    "color": "map_chutia",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/chutia_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "dimasa_religion",
     "group_id": "folk_asian_group",
-    "color": "map_dimasa",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/dimasa_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "karbi_religion",
     "group_id": "folk_asian_group",
-    "color": "map_karbi",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/karbi_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "sora_religion",
     "group_id": "folk_asian_group",
-    "color": "map_sora",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/sora_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "juang_religion",
     "group_id": "folk_asian_group",
-    "color": "map_juang",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/juang_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "kharia_religion",
     "group_id": "folk_asian_group",
-    "color": "map_kharia",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kharia_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "naga_religion",
     "group_id": "folk_asian_group",
-    "color": "map_naga",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/naga_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "karen_religion",
     "group_id": "folk_asian_group",
-    "color": "map_karen",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/karen_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "sedang_religion",
     "group_id": "folk_asian_group",
-    "color": "map_sedang",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/sedang_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "bahnar_religion",
     "group_id": "folk_asian_group",
-    "color": "map_bahnar",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/bahnar_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "bru_religion",
     "group_id": "folk_asian_group",
-    "color": "map_bru",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/bru_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "orang_asli_religion",
     "group_id": "folk_asian_group",
-    "color": "map_orang_asli",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/orang_asli_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "andamanese_religion",
     "group_id": "folk_asian_group",
-    "color": "map_andamanese",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/andamanese_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "nicobarese_religion",
     "group_id": "folk_asian_group",
-    "color": "map_nicobarese",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "merchant_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nicobarese_religion.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "chukchi_shamanism",
     "group_id": "folk_asian_group",
-    "color": "map_chukchishaman",
+    "modifier": [
+      {
+        "key": "land_morale_attrition_cost",
+        "value": -0.001,
+        "inv": true
+      },
+      {
+        "key": "naval_morale_attrition_cost",
+        "value": -0.001,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/chukchi_shamanism.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "hmongism",
     "group_id": "folk_asian_group",
-    "color": "religion_hmongism",
+    "modifier": [
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "global_population_capacity_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/hmongism.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "moism",
     "group_id": "folk_asian_group",
-    "color": "religion_moism",
+    "modifier": [
+      {
+        "key": "global_estate_target_satisfaction",
+        "value": "small_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "stability_investment",
+        "value": "tiny_stability_investment",
+        "scaled": true
+      }
+    ],
+    "opinions": {
+      "satsana_phi": "kindred"
+    },
+    "religious_aspects": 1,
     "icon": "icons/religion/moism.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "rmaism",
     "group_id": "folk_asian_group",
-    "color": "religion_rmaism",
+    "modifier": [
+      {
+        "key": "stability_investment",
+        "value": "tiny_stability_investment",
+        "scaled": true
+      },
+      {
+        "key": "monthly_prestige",
+        "value": 0.1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/rmaism.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "shamanism",
     "group_id": "folk_asian_group",
-    "color": "color_shamanism",
+    "modifier": [
+      {
+        "key": "stability_investment",
+        "value": "tiny_stability_investment",
+        "scaled": true
+      },
+      {
+        "key": "monthly_legitimacy",
+        "value": 0.1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/shamanism.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "tengri",
     "group_id": "folk_asian_group",
-    "color": "color_tengri",
+    "modifier": [
+      {
+        "key": "monthly_legitimacy",
+        "value": 0.1
+      },
+      {
+        "key": "army_cavalry_power",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tengri.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "tungusic_shamanism",
     "group_id": "folk_asian_group",
-    "color": "map_tungushaman",
+    "modifier": [
+      {
+        "key": "land_morale_attrition_cost",
+        "value": -0.01,
+        "inv": true
+      },
+      {
+        "key": "monthly_legitimacy",
+        "value": 0.1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tungusic_shamanism.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "yukaghir_shamanism",
     "group_id": "folk_asian_group",
-    "color": "map_yukaghirshaman",
+    "modifier": [
+      {
+        "key": "land_unit_attrition",
+        "value": -0.1,
+        "inv": true
+      },
+      {
+        "key": "movement_speed_if_no_road",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/yukaghir_shamanism.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "yupik_shamanism",
     "group_id": "folk_asian_group",
-    "color": "map_yupik_r",
+    "modifier": [
+      {
+        "key": "global_hostile_attrition",
+        "value": 1
+      },
+      {
+        "key": "trade_range_modifier",
+        "value": 0.2,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/yupik_shamanism.png",
     "source_file": "folk_asian.txt"
   },
   {
     "id": "dreamtime_religion",
     "group_id": "folk_australian_group",
-    "color": "map_noongar",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "retreat_delay",
+        "value": -5
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/dreamtime_religion.png",
     "source_file": "folk_australian.txt"
   },
   {
     "id": "akinha_ekugu_religion",
     "group_id": "folk_brazilian_group",
-    "color": "map_kuikuro",
+    "modifier": [
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.1
+      },
+      {
+        "key": "global_nobles_estate_power",
+        "value": -0.1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/akinha_ekugu_religion.png",
     "source_file": "folk_brazilian.txt"
   },
   {
     "id": "namandu_religion",
     "group_id": "folk_brazilian_group",
-    "color": "map_tupiniquim",
+    "modifier": [
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.1
+      },
+      {
+        "key": "global_nobles_estate_power",
+        "value": -0.1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/namandu_religion.png",
     "source_file": "folk_brazilian.txt"
   },
   {
     "id": "tunpa_religion",
     "group_id": "folk_brazilian_group",
-    "color": "map_ava",
+    "modifier": [
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.1
+      },
+      {
+        "key": "global_nobles_estate_power",
+        "value": -0.1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tunpa_religion.png",
     "source_file": "folk_brazilian.txt"
   },
   {
     "id": "doi_wahire_religion",
     "group_id": "folk_brazilian_group",
-    "color": "map_akwe",
+    "modifier": [
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.1
+      },
+      {
+        "key": "global_nobles_estate_power",
+        "value": -0.1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/doi_wahire_religion.png",
     "source_file": "folk_brazilian.txt"
   },
   {
     "id": "jurema_religion",
     "group_id": "folk_brazilian_group",
-    "color": "map_kiriri",
+    "modifier": [
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.1
+      },
+      {
+        "key": "global_nobles_estate_power",
+        "value": -0.1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/jurema_religion.png",
     "source_file": "folk_brazilian.txt"
   },
   {
     "id": "nallagdigua_religion",
     "group_id": "folk_brazilian_group",
-    "color": "map_guaikuru",
+    "modifier": [
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.1
+      },
+      {
+        "key": "global_nobles_estate_power",
+        "value": -0.1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nallagdigua_religion.png",
     "source_file": "folk_brazilian.txt"
   },
   {
     "id": "txapakura_religion",
     "group_id": "folk_brazilian_group",
-    "color": "map_txapakura",
+    "modifier": [
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_burghers_estate_power",
+        "value": -0.1
+      },
+      {
+        "key": "global_nobles_estate_power",
+        "value": -0.1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/txapakura_religion.png",
     "source_file": "folk_brazilian.txt"
   },
   {
     "id": "zemi_religion",
     "group_id": "folk_caribbean_group",
-    "color": "map_taino",
+    "modifier": [
+      {
+        "key": "navy_maintenance_cost",
+        "value": -0.05,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/zemi_religion.png",
     "source_file": "folk_caribbean.txt"
   },
   {
     "id": "lenca_religion",
     "group_id": "folk_central_american_group",
-    "color": "map_lenca",
+    "modifier": [
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/lenca_religion.png",
     "source_file": "folk_central_america.txt"
   },
   {
     "id": "pech_religion",
     "group_id": "folk_central_american_group",
-    "color": "map_pech",
+    "modifier": [
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/pech_religion.png",
     "source_file": "folk_central_america.txt"
   },
   {
     "id": "wan_aisa_religion",
     "group_id": "folk_central_american_group",
-    "color": "map_miskito",
+    "modifier": [
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/wan_aisa_religion.png",
     "source_file": "folk_central_america.txt"
   },
   {
     "id": "maleku_religion",
     "group_id": "folk_central_american_group",
-    "color": "map_maleku",
+    "modifier": [
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/maleku_religion.png",
     "source_file": "folk_central_america.txt"
   },
   {
     "id": "suwo_religion",
     "group_id": "folk_central_american_group",
-    "color": "map_cabecar",
+    "modifier": [
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/suwo_religion.png",
     "source_file": "folk_central_america.txt"
   },
   {
     "id": "chibcha_religion",
     "group_id": "folk_central_american_group",
-    "color": "map_guna",
+    "modifier": [
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/chibcha_religion.png",
     "source_file": "folk_central_america.txt"
   },
   {
     "id": "votian_religion",
     "group_id": "folk_european_group",
-    "color": "map_votian",
+    "modifier": [
+      {
+        "key": "global_defensive",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/votian_religion.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "hellenism_religion",
     "group_id": "folk_european_group",
-    "color": "map_greek",
+    "modifier": [
+      {
+        "key": "army_infantry_power",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "skill_of_new_artists",
+        "value": 0.1
+      }
+    ],
+    "religious_aspects": 1,
+    "enable": "9999.1.1",
     "icon": "icons/religion/hellenism_religion.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "karachay_balkar_paganism",
     "group_id": "folk_european_group",
-    "color": "religion_karachay_balkar",
+    "modifier": [
+      {
+        "key": "global_defensive",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "retreat_delay",
+        "value": -5
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/karachay_balkar_paganism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "khabzeism",
     "group_id": "folk_european_group",
-    "color": "religion_khabzeism",
+    "modifier": [
+      {
+        "key": "army_infantry_power",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "stability_investment",
+        "value": "tiny_stability_investment",
+        "scaled": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/khabzeism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "lezgin_paganism",
     "group_id": "folk_european_group",
-    "color": "religion_lezgin",
+    "modifier": [
+      {
+        "key": "global_defensive",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/lezgin_paganism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "norse",
     "group_id": "folk_european_group",
-    "color": "color_norse",
+    "modifier": [
+      {
+        "key": "auto_slave_raid_different_religion",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/norse.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "alan_paganism",
     "group_id": "folk_european_group",
-    "color": "religion_alan",
+    "modifier": [
+      {
+        "key": "army_cavalry_power",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "movement_speed_if_no_road",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/alan_paganism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "romuva",
     "group_id": "folk_european_group",
-    "color": "color_romuva",
+    "modifier": [
+      {
+        "key": "expand_rgo_forestry_cost_modifier",
+        "value": -0.2,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "army_cavalry_power",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/romuva.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "sapmi_shamanism",
     "group_id": "folk_european_group",
-    "color": "map_sapmi",
+    "modifier": [
+      {
+        "key": "expand_rgo_forestry_cost_modifier",
+        "value": -0.2,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "global_wild_game_output_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/sapmi_shamanism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "muinaisusko",
     "group_id": "folk_european_group",
-    "color": "map_tavastian",
+    "modifier": [
+      {
+        "key": "global_wild_game_output_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "land_morale_attrition_cost",
+        "value": -0.001,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/muinaisusko.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "vainakh_paganism",
     "group_id": "folk_european_group",
-    "color": "religion_vainakh",
+    "modifier": [
+      {
+        "key": "monthly_legitimacy",
+        "value": 0.1
+      },
+      {
+        "key": "global_defensive",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/vainakh_paganism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "mari_paganism",
     "group_id": "folk_european_group",
-    "color": "religion_mari",
+    "modifier": [
+      {
+        "key": "global_wild_game_output_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_defensive",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/mari_paganism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "udmurt_paganism",
     "group_id": "folk_european_group",
-    "color": "religion_udmurt",
+    "modifier": [
+      {
+        "key": "global_wild_game_output_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/udmurt_paganism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "komi_paganism",
     "group_id": "folk_european_group",
-    "color": "religion_komi",
+    "modifier": [
+      {
+        "key": "land_morale_attrition_cost",
+        "value": -0.001,
+        "inv": true
+      },
+      {
+        "key": "expand_rgo_forestry_cost_modifier",
+        "value": -0.2,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/komi_paganism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "samoyedic_paganism",
     "group_id": "folk_european_group",
-    "color": "religion_samoyedic",
+    "modifier": [
+      {
+        "key": "army_initiative",
+        "value": 0.2,
+        "pct": true
+      },
+      {
+        "key": "global_wild_game_output_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/samoyedic_paganism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "obian_paganism",
     "group_id": "folk_european_group",
-    "color": "religion_obian",
+    "modifier": [
+      {
+        "key": "trade_efficiency",
+        "value": "small_trade_efficiency_bonus",
+        "scaled": true
+      },
+      {
+        "key": "global_wild_game_output_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/obian_paganism.png",
     "source_file": "folk_european.txt"
   },
   {
     "id": "arosi_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_arosi",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/arosi_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "abu_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_kwaio",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/abu_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "ghari_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_ghari",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/ghari_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "nduke_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_nduke",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nduke_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "cheke_holo_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_cheke_holo",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/cheke_holo_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "vaghua_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_vaghua",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/vaghua_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "mu_ngava_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_mu_ngava",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/mu_ngava_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "natugu_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_natugu",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/natugu_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "qat_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_tolomako",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/qat_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "itaukei_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_itaukei",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/itaukei_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "kanak_religion",
     "group_id": "folk_melanesian_group",
-    "color": "map_xaracuu",
+    "modifier": [
+      {
+        "key": "global_sailors_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kanak_religion.png",
     "source_file": "folk_melanesia.txt"
   },
   {
     "id": "puntan_religion",
     "group_id": "folk_micronesian_group",
-    "color": "map_chamoru",
+    "modifier": [
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "navy_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/puntan_religion.png",
     "source_file": "folk_micronesia.txt"
   },
   {
     "id": "kajoor_ri_majel_religion",
     "group_id": "folk_micronesian_group",
-    "color": "map_kajoor_ri_majel",
+    "modifier": [
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "navy_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kajoor_ri_majel_religion.png",
     "source_file": "folk_micronesia.txt"
   },
   {
     "id": "yanolop_religion",
     "group_id": "folk_micronesian_group",
-    "color": "map_yap",
+    "modifier": [
+      {
+        "key": "army_disembark_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "navy_movement_speed",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/yanolop_religion.png",
     "source_file": "folk_micronesia.txt"
   },
   {
     "id": "inuit_religion",
     "group_id": "folk_north_american_group",
-    "color": "map_inuit",
+    "modifier": [
+      {
+        "key": "trade_efficiency",
+        "value": "small_trade_efficiency_bonus",
+        "scaled": true
+      },
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/inuit_religion.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "dene_religion",
     "group_id": "folk_north_american_group",
-    "color": "map_dene",
+    "modifier": [
+      {
+        "key": "trade_efficiency",
+        "value": "small_trade_efficiency_bonus",
+        "scaled": true
+      },
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/dene_religion.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "midewiwin_religion",
     "group_id": "folk_north_american_group",
-    "color": "map_anishinabe",
+    "modifier": [
+      {
+        "key": "trade_efficiency",
+        "value": "small_trade_efficiency_bonus",
+        "scaled": true
+      },
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/midewiwin_religion.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "dene_shamanism",
     "group_id": "folk_north_american_group",
-    "color": "map_deneshaman",
+    "modifier": [
+      {
+        "key": "naval_morale_attrition_cost",
+        "value": -0.01,
+        "inv": true
+      },
+      {
+        "key": "global_trade_protection_factor",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/dene_shamanism.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "dene_totemism",
     "group_id": "folk_north_american_group",
-    "color": "map_denesoline",
+    "modifier": [
+      {
+        "key": "naval_morale_attrition_cost",
+        "value": -0.01,
+        "inv": true
+      },
+      {
+        "key": "global_trade_protection_factor",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/dene_totemism.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "great_plains_shamanism",
     "group_id": "folk_north_american_group",
-    "color": "map_lahkota",
+    "modifier": [
+      {
+        "key": "movement_speed_if_no_road",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "trade_range_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/great_plains_shamanism.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "iroquoian_totemism",
     "group_id": "folk_north_american_group",
-    "color": "map_wendat",
+    "modifier": [
+      {
+        "key": "global_monthly_food_modifier",
+        "value": 0.1
+      },
+      {
+        "key": "expand_rgo_farming_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/iroquoian_totemism.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "mississippian_ceremonial",
     "group_id": "folk_north_american_group",
-    "color": "map_cahokia",
+    "modifier": [
+      {
+        "key": "global_monthly_development",
+        "value": 0.001
+      },
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/mississippian_ceremonial.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "paiute_shamanism",
     "group_id": "folk_north_american_group",
-    "color": "map_puhagim",
+    "modifier": [
+      {
+        "key": "global_pop_food_consumption",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "movement_speed_if_no_road",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/paiute_shamanism.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "pomo_shamanism",
     "group_id": "folk_north_american_group",
-    "color": "map_kuksu",
+    "modifier": [
+      {
+        "key": "global_monthly_food_modifier",
+        "value": 0.1
+      },
+      {
+        "key": "global_trade_protection_factor",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/pomo_shamanism.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "salishan_totemism",
     "group_id": "folk_north_american_group",
-    "color": "map_saltot",
+    "modifier": [
+      {
+        "key": "global_trade_protection_factor",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "land_morale_attrition_cost",
+        "value": -0.001,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/salishan_totemism.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "totemism",
     "group_id": "folk_north_american_group",
-    "color": "color_totemism",
+    "modifier": [
+      {
+        "key": "monthly_legitimacy",
+        "value": 0.1
+      },
+      {
+        "key": "trade_efficiency",
+        "value": "small_trade_efficiency_bonus",
+        "scaled": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/totemism.png",
     "source_file": "folk_north_america.txt"
   },
   {
     "id": "imunu_religion",
     "group_id": "folk_papuan_group",
-    "color": "map_biak",
+    "modifier": [
+      {
+        "key": "tolerance_heretic",
+        "value": 1
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      },
+      {
+        "key": "levy_combat_efficiency_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/imunu_religion.png",
     "source_file": "folk_papuan.txt"
   },
   {
     "id": "moksha_religion",
     "group_id": "folk_permic_group",
-    "color": "map_moksha",
+    "modifier": [
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_initiative",
+        "value": 0.2,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/moksha_religion.png",
     "source_file": "folk_permic.txt"
   },
   {
     "id": "erzya_religion",
     "group_id": "folk_permic_group",
-    "color": "map_erzya",
+    "modifier": [
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_initiative",
+        "value": 0.2,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/erzya_religion.png",
     "source_file": "folk_permic.txt"
   },
   {
     "id": "inti",
     "group_id": "folk_peruvian_group",
-    "color": "color_inti",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
+    "mechanics": [
+      "has_yanantin"
+    ],
     "icon": "icons/religion/inti.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "naylamp_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_xllang",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/naylamp_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "umina_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_guancavilca",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/umina_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "jama_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_jama_coaque",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/jama_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "pi_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_kanari",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/pi_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "arutam_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_shuar",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/arutam_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "chango_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_chango",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/chango_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "cebil_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_licanantay",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/cebil_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "yastay_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_pazioca",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/yastay_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "gos_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_lule",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/gos_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "pava_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_yurimagua",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/pava_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "chanka_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_chanka",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/chanka_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "chincha_religion",
     "group_id": "folk_peruvian_group",
-    "color": "map_chincha",
+    "modifier": [
+      {
+        "key": "army_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "army_reinforce_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.05,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/chincha_religion.png",
     "source_file": "folk_peruvian.txt"
   },
   {
     "id": "tapu_religion",
     "group_id": "folk_polynesian_group",
-    "color": "map_hawaiian",
+    "modifier": [
+      {
+        "key": "navy_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "allow_open_sea_exploration",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "exploration_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tapu_religion.png",
     "source_file": "folk_polynesia.txt"
   },
   {
     "id": "tokelauan_religion",
     "group_id": "folk_polynesian_group",
-    "color": "map_tokelauan",
+    "modifier": [
+      {
+        "key": "navy_movement_speed",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "allow_open_sea_exploration",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "exploration_maintenance_cost",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tokelauan_religion.png",
     "source_file": "folk_polynesia.txt"
   },
   {
     "id": "kaharingan_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_NSR",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kaharingan_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "kan_khwan_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_kayan",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kan_khwan_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "adat_puun_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_kenyah",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/adat_puun_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "momolianism_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_BEI",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/momolianism_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "besavik_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_punan",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/besavik_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "aluk_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_torajan",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/aluk_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "malesung_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_BOW",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/malesung_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "marapu_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_sumba",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/marapu_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "arat_sabulungan_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_mentawai",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/arat_sabulungan_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "pengarap_asal_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_SBG",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/pengarap_asal_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "ipok_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_MNU",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/ipok_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "banunut_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_BAI",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/banunut_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "lamoa_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_pamona",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/lamoa_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "tolotang_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_buginese",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tolotang_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "tolaki_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_tolaki",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tolaki_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "buton_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_BTN",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/buton_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "tomanuru_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_kaili",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/tomanuru_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "gorontalo_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_gorontalo",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/gorontalo_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "adat_musi_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_talaud",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/adat_musi_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "sangirese_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_sangirese",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/sangirese_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "wetarese_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_wetarese",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/wetarese_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "kirin_koda_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_LRT",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kirin_koda_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "dua_nggae_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_lio",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/dua_nggae_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "lamatuan_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_rotenese",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/lamatuan_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "naurus_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_seramese",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/naurus_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "mitu_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_kei",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/mitu_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "sula_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_sula",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/sula_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "kolano_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_TER",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/kolano_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "goma_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_JLO",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/goma_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "anitism_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_TDO",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/anitism_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "orang_laut_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_orang_laut",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/orang_laut_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "minangkabau_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_SGT",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/minangkabau_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "pelebegu_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_batak",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/pelebegu_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "nyang_serai_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_rejang",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nyang_serai_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "piil_pesenggiri_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_lampung",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/piil_pesenggiri_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "orang_rimba_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_orang_rimba",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/orang_rimba_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "enggano_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_enggano",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/enggano_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "degar_religion",
     "group_id": "folk_se_asian_group",
-    "color": "map_degar",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "trade_sea_movement_cost_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/degar_religion.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "sanamahism",
     "group_id": "folk_se_asian_group",
-    "color": "religion_sanamahism",
+    "modifier": [
+      {
+        "key": "cultural_tradition_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "tolerance_own",
+        "value": 1
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/sanamahism.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "satsana_phi",
     "group_id": "folk_se_asian_group",
-    "color": "religion_satsana_phi",
+    "modifier": [
+      {
+        "key": "cultural_influence_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "expand_rgo_forestry_cost_modifier",
+        "value": -0.2,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "opinions": {
+      "moism": "kindred"
+    },
+    "religious_aspects": 1,
     "icon": "icons/religion/satsana_phi.png",
     "source_file": "folk_se_asian.txt"
   },
   {
     "id": "maleiwa_religion",
     "group_id": "folk_south_american_group",
-    "color": "map_wayuu",
+    "modifier": [
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/maleiwa_religion.png",
     "source_file": "folk_south_american.txt"
   },
   {
     "id": "yopo_religion",
     "group_id": "folk_south_american_group",
-    "color": "map_guahibo",
+    "modifier": [
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/yopo_religion.png",
     "source_file": "folk_south_american.txt"
   },
   {
     "id": "sinu_religion",
     "group_id": "folk_south_american_group",
-    "color": "map_sinu",
+    "modifier": [
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/sinu_religion.png",
     "source_file": "folk_south_american.txt"
   },
   {
     "id": "warao_religion",
     "group_id": "folk_south_american_group",
-    "color": "map_warao",
+    "modifier": [
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/warao_religion.png",
     "source_file": "folk_south_american.txt"
   },
   {
     "id": "naoma_religion",
     "group_id": "folk_south_american_group",
-    "color": "map_tayrona",
+    "modifier": [
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/naoma_religion.png",
     "source_file": "folk_south_american.txt"
   },
   {
     "id": "muisca_religion",
     "group_id": "folk_south_american_group",
-    "color": "map_muisca",
+    "modifier": [
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/muisca_religion.png",
     "source_file": "folk_south_american.txt"
   },
   {
     "id": "nacuco_religion",
     "group_id": "folk_south_american_group",
-    "color": "map_panche",
+    "modifier": [
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nacuco_religion.png",
     "source_file": "folk_south_american.txt"
   },
   {
     "id": "jai_religion",
     "group_id": "folk_south_american_group",
-    "color": "map_embera",
+    "modifier": [
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/jai_religion.png",
     "source_file": "folk_south_american.txt"
   },
   {
     "id": "yage_religion",
     "group_id": "folk_south_american_group",
-    "color": "map_andaqui",
+    "modifier": [
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "food_consumption_modifier",
+        "value": -0.1,
+        "pct": true,
+        "inv": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/yage_religion.png",
     "source_file": "folk_south_american.txt"
   },
   {
     "id": "judaism",
     "group_id": "israelite_group",
-    "color": "religion_jewish",
+    "modifier": [
+      {
+        "key": "global_max_literacy",
+        "value": 5
+      },
+      {
+        "key": "clergy_estate_target_satisfaction",
+        "value": "medium_permanent_target_satisfaction",
+        "scaled": true
+      },
+      {
+        "key": "global_hostile_attrition",
+        "value": 1
+      }
+    ],
+    "opinions": {
+      "catholic": "negative",
+      "bogomilism": "negative",
+      "bosnian_church": "negative",
+      "catharism": "negative",
+      "orthodox": "negative",
+      "miaphysite": "negative",
+      "nestorianism": "negative",
+      "paulicianism": "negative",
+      "strigolniki": "negative",
+      "waldensian": "negative",
+      "druzism": "negative"
+    },
+    "language": "hebrew_language",
+    "mechanics": [
+      "culture_locked"
+    ],
     "icon": "icons/religion/judaism.png",
     "source_file": "israelite.txt"
   },
   {
     "id": "samaritanism",
     "group_id": "israelite_group",
-    "color": "religion_samaritanism",
+    "modifier": [
+      {
+        "key": "global_clergy_estate_power",
+        "value": 0.1
+      },
+      {
+        "key": "global_clergy_max_literacy",
+        "value": 10
+      }
+    ],
+    "language": "hebrew_language",
+    "mechanics": [
+      "culture_locked"
+    ],
     "icon": "icons/religion/samaritanism.png",
     "source_file": "israelite.txt"
   },
   {
     "id": "mandeaism",
     "group_id": "mandean_group",
-    "color": "religion_mandeaism",
+    "modifier": [
+      {
+        "key": "research_speed_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "global_defensive",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "language": "iraqi_dialect",
     "icon": "icons/religion/mandeaism.png",
     "source_file": "mandean.txt"
   },
   {
     "id": "manichaeism",
     "group_id": "manichaean_group",
-    "color": "religion_manichaeism",
+    "modifier": [
+      {
+        "key": "allow_self_control",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "tolerance_heathen",
+        "value": 1
+      }
+    ],
+    "opinions": {
+      "hindu": "kindred",
+      "jain": "kindred",
+      "mahayana": "kindred",
+      "nestorianism": "kindred",
+      "zoroastrian": "kindred"
+    },
+    "language": "aramaic_language",
     "icon": "icons/religion/manichaeism.png",
     "source_file": "manichaeism.txt"
   },
   {
     "id": "ibadi",
     "group_id": "muslim",
-    "color": "color_ibadi",
+    "modifier": [
+      {
+        "key": "global_merchant_power",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "ship_build_speed",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "allow_mysticism_vs_jurisprudence",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "ban_imports_of_wine",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "ban_imports_of_beer",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "ban_imports_of_liquor",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "number_of_allowed_religious_figures",
+        "value": 1
+      }
+    ],
+    "opinions": {
+      "sunni": "negative",
+      "catholic": "enemy"
+    },
+    "language": "classical_arabic_dialect",
     "icon": "icons/religion/ibadi.png",
     "source_file": "muslim.txt"
   },
   {
     "id": "shia",
     "group_id": "muslim",
-    "color": "color_shia",
+    "modifier": [
+      {
+        "key": "land_morale_modifier",
+        "value": 0.05,
+        "pct": true
+      },
+      {
+        "key": "allow_mysticism_vs_jurisprudence",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "ban_imports_of_wine",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "ban_imports_of_beer",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "ban_imports_of_liquor",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "number_of_allowed_religious_figures",
+        "value": 1
+      }
+    ],
+    "opinions": {
+      "sunni": "negative",
+      "catholic": "enemy"
+    },
+    "language": "classical_arabic_dialect",
     "icon": "icons/religion/shia.png",
     "source_file": "muslim.txt"
   },
   {
     "id": "sunni",
     "group_id": "muslim",
-    "color": "religion_sunni",
+    "modifier": [
+      {
+        "key": "trade_efficiency",
+        "value": "tiny_trade_efficiency_bonus",
+        "scaled": true
+      },
+      {
+        "key": "allow_mysticism_vs_jurisprudence",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "ban_imports_of_wine",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "ban_imports_of_beer",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "ban_imports_of_liquor",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "number_of_allowed_religious_figures",
+        "value": 1
+      }
+    ],
+    "opinions": {
+      "shia": "negative",
+      "catholic": "enemy"
+    },
+    "language": "classical_arabic_dialect",
     "icon": "icons/religion/sunni.png",
     "source_file": "muslim.txt"
   },
   {
     "id": "nahuatl",
     "group_id": "tonal_group",
-    "color": "color_nahuatl",
+    "modifier": [
+      {
+        "key": "land_morale_modifier",
+        "value": 0.1,
+        "pct": true
+      },
+      {
+        "key": "global_may_build_nahuatl_units",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "any_pop_can_be_slave",
+        "value": 1,
+        "bool": true
+      },
+      {
+        "key": "enable_doom",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/nahuatl.png",
     "source_file": "tonal.txt"
   },
   {
     "id": "mesoamerican",
     "group_id": "tonal_group",
-    "color": "color_mesoamerican",
+    "modifier": [
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/mesoamerican.png",
     "source_file": "tonal.txt"
   },
   {
     "id": "mayan",
     "group_id": "tonal_group",
-    "color": "color_mayan",
+    "modifier": [
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "levy_recovery_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
+    "mechanics": [
+      "has_religious_influence"
+    ],
     "icon": "icons/religion/mayan.png",
     "source_file": "tonal.txt"
   },
   {
     "id": "chichimecah_religion",
     "group_id": "tonal_group",
-    "color": "map_teulinchan",
+    "modifier": [
+      {
+        "key": "prestige_from_land_battle",
+        "value": 0.1
+      },
+      {
+        "key": "global_levy_size_modifier",
+        "value": 0.1,
+        "pct": true
+      }
+    ],
+    "religious_aspects": 1,
     "icon": "icons/religion/chichimecah_religion.png",
     "source_file": "tonal.txt"
   },
   {
     "id": "yazidism",
     "group_id": "yazidi_group",
-    "color": "religion_yazidism",
+    "modifier": [
+      {
+        "key": "tolerance_own",
+        "value": 1
+      },
+      {
+        "key": "global_separatism",
+        "value": -0.05,
+        "pct": true,
+        "inv": true
+      },
+      {
+        "key": "allow_mysticism_vs_jurisprudence",
+        "value": 1,
+        "bool": true
+      }
+    ],
+    "language": "kurdish_language",
     "icon": "icons/religion/yazidism.png",
     "source_file": "yazidi.txt"
   },
   {
     "id": "zoroastrian",
     "group_id": "zoroastrian_group",
-    "color": "religion_zoroastrian",
+    "modifier": [
+      {
+        "key": "tolerance_own",
+        "value": 1
+      },
+      {
+        "key": "trade_efficiency",
+        "value": "medium_trade_efficiency_bonus",
+        "scaled": true
+      }
+    ],
+    "language": "persian_language",
     "icon": "icons/religion/zoroastrian.png",
     "source_file": "zoroastrian.txt"
   }

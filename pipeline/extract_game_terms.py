@@ -28,6 +28,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -84,7 +85,7 @@ def extract_terms(game_code: str) -> dict[str, str]:
 
     concept_names: dict[str, str] = {}
     for k, v in concepts_loc.items():
-        if k.startswith("game_concept_") and not k.endswith("_desc") and not k.endswith("_short"):
+        if k.startswith("game_concept_") and not k.endswith(("_desc", "_i", "_s")):
             word = k[len("game_concept_"):]
             concept_names[word] = strip_markup(_resolve_dollar_vars(v))
 
@@ -94,16 +95,27 @@ def extract_terms(game_code: str) -> dict[str, str]:
         if pop_id not in concept_names:
             concept_names[pop_id] = pop_name
 
+    # Include religion names for resolving [ShowReligionName('catholic')] etc.
+    religion_loc = _load_loc("religion", game_code)
+    for rk, rv in religion_loc.items():
+        if rv and not rk.endswith(("_desc", "_ADJ")) and rk not in concept_names:
+            concept_names[rk] = rv
+
     def localize_desc(raw: str) -> str:
         """Resolve $refs$, strip markup, then replace concept words with localized names."""
-        text = strip_markup(_resolve_dollar_vars(raw))
+        # Add space between adjacent [x|e][y|e] to prevent concatenation
+        resolved = _resolve_dollar_vars(raw)
+        resolved = re.sub(r"\](\[)", r"] \1", resolved)
+        text = strip_markup(resolved)
+        # Strip any remaining [...] patterns
+        text = re.sub(r"\[[^\]]*\]", "", text)
         for word in sorted(concept_names.keys(), key=len, reverse=True):
             spaced = word.replace("_", " ")
             if spaced in text:
                 text = text.replace(spaced, concept_names[word])
             elif word in text:
                 text = text.replace(word, concept_names[word])
-        return text.strip()
+        return re.sub(r"\s+", " ", text).strip()
 
     # --- Pop types (from pops_l) ---
     for pop_id in ["nobles", "clergy", "burghers", "laborers",
@@ -151,6 +163,11 @@ def extract_terms(game_code: str) -> dict[str, str]:
         "game_concept_development": "field.development",
         "game_concept_wealth": "field.wealth",
         "game_concept_cost": "field.cost",
+        # Religion-related field labels
+        "game_concept_religion_group": "field.religion_group",
+        "game_concept_liturgical_language": "field.liturgical_language",
+        "game_concept_holy_site": "field.holy_site",
+        "game_concept_religious_opinion": "field.religious_opinion",
     }
     for concept_key, term_key in single_concepts.items():
         if concept_key in concepts_loc:
@@ -170,6 +187,25 @@ def extract_terms(game_code: str) -> dict[str, str]:
     field_labels = _build_field_labels(game_code)
     terms.update(field_labels)
 
+    # --- Building categories (from buildings_l) ---  [official-1:1]
+    buildings_loc = _load_loc("buildings", game_code)
+    _BUILDING_CATEGORIES = [
+        "basic_industry_category", "colonial_category", "consumer_goods_category",
+        "cultural_category", "defense_category", "estate_category",
+        "government_category", "infrastructure_category", "military_category",
+        "naval_category", "religious_category", "rgo_building_category",
+        "trade_category", "village_category", "weapons_industry_category",
+    ]
+    for cat_id in _BUILDING_CATEGORIES:
+        if cat_id in buildings_loc:
+            terms[f"building_category.{cat_id}"] = buildings_loc[cat_id]
+
+    # --- Scaling labels (from game_concepts) ---  [official-1:1]
+    for concept in ["development", "population"]:
+        gc_key = f"game_concept_{concept}"
+        if gc_key in concepts_loc:
+            terms[f"scaling.{concept}"] = concepts_loc[gc_key]
+
     return terms
 
 
@@ -186,36 +222,60 @@ def extract_terms(game_code: str) -> dict[str, str]:
 _FIELD_LABELS: dict[str, dict[str, str]] = {
     "english": {
         "pop.all": "All Pops",
-        "field.method": "Method",                             # no direct game concept; RGO extraction method
-        "field.origin": "Origin",                             # no direct game concept; old_world/new_world tag
-        "field.default_market_price": "Base Price",           # base + price (from base_production pattern)
-        "field.transport_cost": "Transport Cost",             # transport + cost
-        "field.demand_add": "Demand (Additive)",              # demand + additive
-        "field.demand_multiply": "Demand (Multiplicative)",   # demand + multiplicative
-        "field.development_threshold": "Required Development",# required + development
-        "field.wealth_impact_threshold": "Wealth Impact",     # wealth + impact
+        "field.method": "Method",
+        "field.origin": "Origin",
+        "field.default_market_price": "Base Price",
+        "field.transport_cost": "Transport Cost",
+        "field.demand_add": "Demand (Additive)",
+        "field.demand_multiply": "Demand (Multiplicative)",
+        "field.development_threshold": "Required Development",
+        "field.wealth_impact_threshold": "Wealth Impact",
+        "settlement.rural_settlement": "Rural Settlement",
+        "settlement.town": "Town",
+        "settlement.city": "City",
+        "cond_category.flag": "Trait",
+        "cond_category.country": "Country Condition",
+        "cond_category.location": "Location Condition",
+        "cond_category.allow": "Build Permission",
+        "scaling.city": "City",
     },
     "japanese": {
         "pop.all": "全POP",
-        "field.method": "生産方法",                     # game_concept_production_method
-        "field.origin": "産地",                         # no direct game concept
-        "field.default_market_price": "基準価格",       # from target_price_desc context
-        "field.transport_cost": "輸送コスト",           # 輸送 + コスト
-        "field.demand_add": "需要加算",                 # 需要 + 加算 (from modifier_desc)
-        "field.demand_multiply": "需要乗算",            # 需要 + 乗算 (from modifier_desc)
-        "field.development_threshold": "必要開発度",     # user confirmed
-        "field.wealth_impact_threshold": "富への影響係数", # user confirmed
+        "field.method": "生産方法",
+        "field.origin": "産地",
+        "field.default_market_price": "基準価格",
+        "field.transport_cost": "輸送コスト",
+        "field.demand_add": "需要加算",
+        "field.demand_multiply": "需要乗算",
+        "field.development_threshold": "必要開発度",
+        "field.wealth_impact_threshold": "富への影響係数",
+        "settlement.rural_settlement": "農村",
+        "settlement.town": "町",
+        "settlement.city": "都市",
+        "cond_category.flag": "属性",
+        "cond_category.country": "国家条件",
+        "cond_category.location": "立地条件",
+        "cond_category.allow": "建設許可",
+        "scaling.city": "都市",
     },
     "german": {
         "pop.all": "Alle Schichten",
         "field.method": "Produktionsmethode",
         "field.origin": "Herkunft",
-        "field.default_market_price": "Grundpreis",           # Grund + preis (from Grundproduktion pattern)
-        "field.transport_cost": "Transportkosten",            # Transport + Kosten
-        "field.demand_add": "Nachfrage (additiv)",            # Nachfrage + additiv
-        "field.demand_multiply": "Nachfrage (multiplikativ)", # Nachfrage + multiplikativ
+        "field.default_market_price": "Grundpreis",
+        "field.transport_cost": "Transportkosten",
+        "field.demand_add": "Nachfrage (additiv)",
+        "field.demand_multiply": "Nachfrage (multiplikativ)",
         "field.development_threshold": "Benötigte Entwicklung",
-        "field.wealth_impact_threshold": "Reichtumseffekt",   # Reichtum + Effekt
+        "field.wealth_impact_threshold": "Reichtumseffekt",
+        "settlement.rural_settlement": "Ländliche Siedlung",
+        "settlement.town": "Stadt",
+        "settlement.city": "Großstadt",
+        "cond_category.flag": "Eigenschaft",
+        "cond_category.country": "Landesbedingung",
+        "cond_category.location": "Standortbedingung",
+        "cond_category.allow": "Baugenehmigung",
+        "scaling.city": "Stadt",
     },
     "spanish": {
         "pop.all": "Todos",
@@ -227,6 +287,14 @@ _FIELD_LABELS: dict[str, dict[str, str]] = {
         "field.demand_multiply": "Demanda (multiplicativa)",
         "field.development_threshold": "Desarrollo requerido",
         "field.wealth_impact_threshold": "Impacto de riqueza",
+        "settlement.rural_settlement": "Asentamiento rural",
+        "settlement.town": "Pueblo",
+        "settlement.city": "Ciudad",
+        "cond_category.flag": "Rasgo",
+        "cond_category.country": "Condición de país",
+        "cond_category.location": "Condición de ubicación",
+        "cond_category.allow": "Permiso de construcción",
+        "scaling.city": "Ciudad",
     },
     "french": {
         "pop.all": "Tous",
@@ -238,17 +306,33 @@ _FIELD_LABELS: dict[str, dict[str, str]] = {
         "field.demand_multiply": "Demande (multiplicative)",
         "field.development_threshold": "Développement requis",
         "field.wealth_impact_threshold": "Impact de richesse",
+        "settlement.rural_settlement": "Colonie rurale",
+        "settlement.town": "Bourg",
+        "settlement.city": "Cité",
+        "cond_category.flag": "Trait",
+        "cond_category.country": "Condition de pays",
+        "cond_category.location": "Condition de lieu",
+        "cond_category.allow": "Autorisation de construction",
+        "scaling.city": "Cité",
     },
     "korean": {
         "pop.all": "전체",
         "field.method": "생산 방법",
         "field.origin": "원산지",
-        "field.default_market_price": "기준 가격",        # 기준 + 가격 (from 시장 가격)
-        "field.transport_cost": "운송 비용",              # 운송 + 비용
-        "field.demand_add": "수요 가산",                  # 수요 + 가산
-        "field.demand_multiply": "수요 승산",             # 수요 + 승산
-        "field.development_threshold": "필요 개발",       # 필요 + 개발
-        "field.wealth_impact_threshold": "자산 영향",     # 자산 + 영향
+        "field.default_market_price": "기준 가격",
+        "field.transport_cost": "운송 비용",
+        "field.demand_add": "수요 가산",
+        "field.demand_multiply": "수요 승산",
+        "field.development_threshold": "필요 개발",
+        "field.wealth_impact_threshold": "자산 영향",
+        "settlement.rural_settlement": "농촌",
+        "settlement.town": "마을",
+        "settlement.city": "도시",
+        "cond_category.flag": "속성",
+        "cond_category.country": "국가 조건",
+        "cond_category.location": "위치 조건",
+        "cond_category.allow": "건설 허가",
+        "scaling.city": "도시",
     },
     "polish": {
         "pop.all": "Wszyscy",
@@ -260,6 +344,14 @@ _FIELD_LABELS: dict[str, dict[str, str]] = {
         "field.demand_multiply": "Popyt (mnożnikowy)",
         "field.development_threshold": "Wymagany rozwój",
         "field.wealth_impact_threshold": "Wpływ bogactwa",
+        "settlement.rural_settlement": "Osada wiejska",
+        "settlement.town": "Miasto",
+        "settlement.city": "Metropolia",
+        "cond_category.flag": "Cecha",
+        "cond_category.country": "Warunek krajowy",
+        "cond_category.location": "Warunek lokalizacji",
+        "cond_category.allow": "Pozwolenie na budowę",
+        "scaling.city": "Miasto",
     },
     "braz_por": {
         "pop.all": "Todos",
@@ -271,6 +363,14 @@ _FIELD_LABELS: dict[str, dict[str, str]] = {
         "field.demand_multiply": "Demanda (multiplicativa)",
         "field.development_threshold": "Desenvolvimento necessário",
         "field.wealth_impact_threshold": "Impacto de riqueza",
+        "settlement.rural_settlement": "Assentamento rural",
+        "settlement.town": "Vila",
+        "settlement.city": "Cidade",
+        "cond_category.flag": "Característica",
+        "cond_category.country": "Condição de país",
+        "cond_category.location": "Condição de localização",
+        "cond_category.allow": "Permissão de construção",
+        "scaling.city": "Cidade",
     },
     "russian": {
         "pop.all": "Все",
@@ -282,6 +382,14 @@ _FIELD_LABELS: dict[str, dict[str, str]] = {
         "field.demand_multiply": "Спрос (мультипликативный)",
         "field.development_threshold": "Требуемое развитие",
         "field.wealth_impact_threshold": "Влияние богатства",
+        "settlement.rural_settlement": "Сельское поселение",
+        "settlement.town": "Городок",
+        "settlement.city": "Город",
+        "cond_category.flag": "Свойство",
+        "cond_category.country": "Условие страны",
+        "cond_category.location": "Условие местоположения",
+        "cond_category.allow": "Разрешение на строительство",
+        "scaling.city": "Город",
     },
     "turkish": {
         "pop.all": "Tümü",
@@ -293,17 +401,33 @@ _FIELD_LABELS: dict[str, dict[str, str]] = {
         "field.demand_multiply": "Talep (çarpımsal)",
         "field.development_threshold": "Gerekli gelişim",
         "field.wealth_impact_threshold": "Zenginlik etkisi",
+        "settlement.rural_settlement": "Kırsal yerleşim",
+        "settlement.town": "Kasaba",
+        "settlement.city": "Şehir",
+        "cond_category.flag": "Özellik",
+        "cond_category.country": "Ülke koşulu",
+        "cond_category.location": "Konum koşulu",
+        "cond_category.allow": "İnşaat izni",
+        "scaling.city": "Şehir",
     },
     "simp_chinese": {
         "pop.all": "全部",
         "field.method": "生产方式",
         "field.origin": "产地",
-        "field.default_market_price": "基础价格",         # 基础 + 价格
-        "field.transport_cost": "运输花费",               # 运输 + 花费
-        "field.demand_add": "需求加成",                   # 需求 + 加成
-        "field.demand_multiply": "需求倍率",              # 需求 + 倍率
-        "field.development_threshold": "所需发展度",       # 所需 + 发展度
-        "field.wealth_impact_threshold": "财富影响",       # 财富 + 影响
+        "field.default_market_price": "基础价格",
+        "field.transport_cost": "运输花费",
+        "field.demand_add": "需求加成",
+        "field.demand_multiply": "需求倍率",
+        "field.development_threshold": "所需发展度",
+        "field.wealth_impact_threshold": "财富影响",
+        "settlement.rural_settlement": "乡村",
+        "settlement.town": "城镇",
+        "settlement.city": "城市",
+        "cond_category.flag": "特性",
+        "cond_category.country": "国家条件",
+        "cond_category.location": "位置条件",
+        "cond_category.allow": "建造许可",
+        "scaling.city": "城市",
     },
 }
 

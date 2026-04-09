@@ -1,0 +1,873 @@
+{
+  "arasavalli_sun_temple": {
+    "name": "아라사발리 태양 사원"
+  },
+  "badrinath_temple": {
+    "name": "바드리나트 사원"
+  },
+  "baghdad_episcopal_see": {
+    "name": "바그다드 주교좌"
+  },
+  "bodh_gaya": {
+    "name": "부다가야"
+  },
+  "chamundeshwari_temple": {
+    "name": "차문데슈와리 사원"
+  },
+  "cholula_holy_city": {
+    "name": "성도 촐롤란"
+  },
+  "constantinople_episcopal_see": {
+    "name": "콘스탄티노플 총대주교좌"
+  },
+  "deo_patan": {
+    "name": "데오 파탄"
+  },
+  "dwarkadhish_temple": {
+    "name": "드와르카디시 사원"
+  },
+  "ise_grand_shrine": {
+    "name": "이세 신궁"
+  },
+  "izumo_taisha": {
+    "name": "이즈모 대사"
+  },
+  "jagannath_temple": {
+    "name": "자간나트 사원"
+  },
+  "jerusalem_episcopal_see_orthodox": {
+    "name": "정교회 예루살렘 총대주교좌"
+  },
+  "jerusalem_the_holy_city_catholic": {
+    "name": "예루살렘 성도"
+  },
+  "kaaba": {
+    "name": "마스지드 알하람"
+  },
+  "kamakhya_temple": {
+    "name": "카마키아 사원"
+  },
+  "kamakshi_amman_temple": {
+    "name": "카마크시 암만 사원"
+  },
+  "krishna_janmasthan": {
+    "name": "크리슈나 잔마스탄"
+  },
+  "mahakaleshwar_jyotirlinga": {
+    "name": "마하칼레슈와르 조티를링가"
+  },
+  "mahalakshmi_temple": {
+    "name": "마하락슈미 사원"
+  },
+  "mount_hiei": {
+    "name": "히에이산"
+  },
+  "palitana_temples": {
+    "name": "팔리타나 사원"
+  },
+  "quri_kancha": {
+    "name": "코리칸차"
+  },
+  "ramanathaswamy_temple": {
+    "name": "라마나타스와미 사원"
+  },
+  "ranganathaswamy_temple": {
+    "name": "랑가나타스와미 사원"
+  },
+  "sharada_peeth": {
+    "name": "샤라다 피트"
+  },
+  "shikharji": {
+    "name": "시카르지"
+  },
+  "shri_mayureshwar_mandir": {
+    "name": "슈리 마유레슈와르 만디르"
+  },
+  "tara_tarini_temple": {
+    "name": "타라 타리니 사원"
+  },
+  "varanasi_holy_city": {
+    "name": "바라나시 성도"
+  },
+  "vimala_temple": {
+    "name": "비말라 사원"
+  },
+  "vishalakshi_temple": {
+    "name": "비샬라크시 사원"
+  },
+  "ahobilam_holy_city": {
+    "name": "아호빌람 성도"
+  },
+  "alexandria_holy_city_gnostic": {
+    "name": "알렉산드리아"
+  },
+  "antioch_holy_city_gnostic": {
+    "name": "안티오크"
+  },
+  "anuradhapura_maha_viharaya": {
+    "name": "아누라다푸라 마하 비하라야"
+  },
+  "bhu_varaha_swamy_temple": {
+    "name": "부 바라하 스와미 사원"
+  },
+  "biraja_temple": {
+    "name": "비라자 사원"
+  },
+  "bolon_yej_te_naah": {
+    "name": "비문의 신전"
+  },
+  "constantinople_holy_city_gnostic": {
+    "name": "콘스탄티노플"
+  },
+  "deo_surya_mandir": {
+    "name": "데오 수리아 만디르"
+  },
+  "gnana_saraswati_temple": {
+    "name": "그나나 사라스와티 사원"
+  },
+  "haridwar_kumbh_mela": {
+    "name": "하리드와르 쿰브 멜라"
+  },
+  "imam_ali_shrine": {
+    "name": "이맘 알리 성묘"
+  },
+  "inti_waka": {
+    "name": "인티 와카"
+  },
+  "jerusalem_episcopal_see_nestorian": {
+    "name": "네스토리우스파 예루살렘 총대주교좌"
+  },
+  "jogulamba_temple": {
+    "name": "조굴람바 사원"
+  },
+  "kalighat_kali_temple": {
+    "name": "칼리가트 칼리 사원"
+  },
+  "kanchipuram_holy_city": {
+    "name": "칸치푸람 성도"
+  },
+  "kumano_sanzan": {
+    "name": "구마노 삼산"
+  },
+  "lakshmi_narasimha_temple": {
+    "name": "락슈미 나라심하 사원"
+  },
+  "mallikarjuna_temple": {
+    "name": "말리카르주나 사원"
+  },
+  "meenakshi_temple": {
+    "name": "미나크시 사원"
+  },
+  "mount_emei": {
+    "name": "아미산"
+  },
+  "mount_girnar": {
+    "name": "기르나르산"
+  },
+  "mount_jiuhua": {
+    "name": "구화산"
+  },
+  "mount_kouya": {
+    "name": "고야산"
+  },
+  "mount_lu": {
+    "name": "여산"
+  },
+  "mount_putuo": {
+    "name": "보타산"
+  },
+  "mount_wutai": {
+    "name": "오대산"
+  },
+  "nanto_shichi_daiji": {
+    "name": "남도 칠대사"
+  },
+  "nashik_trimbakeshwar_simhastha": {
+    "name": "나시크트림바케슈와르 심하스타"
+  },
+  "parthasarathy_temple": {
+    "name": "파르타사라티 사원"
+  },
+  "prayag_kumbh_mela": {
+    "name": "프라야그 쿰브 멜라"
+  },
+  "prophets_mosque": {
+    "name": "예언자의 모스크"
+  },
+  "ram_janmabhoomi": {
+    "name": "람 잔마부미"
+  },
+  "rome_holy_city_gnostic": {
+    "name": "로마"
+  },
+  "shankari_devi_temple": {
+    "name": "샨카리 데비 사원"
+  },
+  "sonagiri_temples": {
+    "name": "소나기리 사원"
+  },
+  "the_vatican": {
+    "name": "바티칸의 성 베드로 대성당"
+  },
+  "titikaka": {
+    "name": "티티카카"
+  },
+  "varahaswamy_temple": {
+    "name": "바라하스와미 사원"
+  },
+  "alexandria_episcopal_see": {
+    "name": "알렉산드리아 총대주교좌"
+  },
+  "anantheshwara_temple": {
+    "name": "아난테슈와라 사원"
+  },
+  "angamaly_episcopal_see": {
+    "name": "앙가말리 주교좌"
+  },
+  "angkor_wat": {
+    "name": "앙코르 와트"
+  },
+  "antioch_episcopal_see": {
+    "name": "안티오크 총대주교좌"
+  },
+  "arulmigu_koniamman_temple": {
+    "name": "아룰미구 코니암만 사원"
+  },
+  "bajreshwari_mata_temple": {
+    "name": "바즈레슈와리 마타 사원"
+  },
+  "borobudur_temple": {
+    "name": "보로부두르"
+  },
+  "brihadisvara_temple": {
+    "name": "브리하디스바라 사원"
+  },
+  "chintaman_ganesh_temple": {
+    "name": "친타만 가네시 사원"
+  },
+  "dewa_sanzan": {
+    "name": "데와 삼산"
+  },
+  "fars_episcopal_see": {
+    "name": "파르스 주교좌"
+  },
+  "fushimi_inari_taisha": {
+    "name": "후시미 이나리 대사"
+  },
+  "guruvayur_temple": {
+    "name": "구루바유르 사원"
+  },
+  "imam_husayn_shrine": {
+    "name": "이맘 후세인 성묘"
+  },
+  "jal_mandir": {
+    "name": "잘 만디르"
+  },
+  "jerusalem_the_holy_city_islam": {
+    "name": "성지 알쿠드스"
+  },
+  "jyotisar": {
+    "name": "조티사르"
+  },
+  "kalika_mata_temple": {
+    "name": "칼리카 마타 사원"
+  },
+  "karpaka_vinayakar_temple": {
+    "name": "카르파카 비나야카르 사원"
+  },
+  "kashima_shrine": {
+    "name": "가시마 신궁"
+  },
+  "katas_raj_temples": {
+    "name": "카타스 라지 사원군"
+  },
+  "katori_shrine": {
+    "name": "가토리 신궁"
+  },
+  "kola_valvill_ramar_temple": {
+    "name": "콜라 발빌 라마르 사원"
+  },
+  "konark_sun_temple": {
+    "name": "코나르크 태양 사원"
+  },
+  "kothandaramaswamy_temple": {
+    "name": "코탄다라마스와미 사원"
+  },
+  "kukkuteswara_temple": {
+    "name": "쿠쿠테스와라 사원"
+  },
+  "kurmanathaswamy_temple": {
+    "name": "쿠르마나타스와미 사원"
+  },
+  "lakshmi_temple": {
+    "name": "락슈미 사원"
+  },
+  "lakshminarasimha_temple": {
+    "name": "락슈미나라심하 사원"
+  },
+  "matsya_narayana": {
+    "name": "마츠야 나라야나"
+  },
+  "mile_church": {
+    "name": "마일"
+  },
+  "mount_fanjing": {
+    "name": "범정산"
+  },
+  "muktinath": {
+    "name": "묵티나트"
+  },
+  "nageshvara_jyotirlinga": {
+    "name": "나게슈와라 조티를링가"
+  },
+  "nithyakalyana_perumal_temple": {
+    "name": "니티아칼야나 페루말 사원"
+  },
+  "pagan_holy_city": {
+    "name": "바간"
+  },
+  "pathirakali_amman_temple": {
+    "name": "파티라칼리 암만 사원"
+  },
+  "pyramid_magician": {
+    "name": "마법사의 피라미드"
+  },
+  "radha_damodar_temple": {
+    "name": "라다 다모다르 사원"
+  },
+  "rajagopalaswamy_temple": {
+    "name": "라자고팔라스와미 사원"
+  },
+  "rome_episcopal_see": {
+    "name": "로마 총대주교좌"
+  },
+  "samarkand_episcopal_see": {
+    "name": "사마르칸트 주교좌"
+  },
+  "santiago_de_compostela_cathedral": {
+    "name": "산티아고데콤포스텔라"
+  },
+  "suryanar_kovil": {
+    "name": "수리아나르 코빌"
+  },
+  "temple_jaguar": {
+    "name": "재규어의 신전"
+  },
+  "temple_kukulkan": {
+    "name": "쿠쿨칸 신전"
+  },
+  "temple_of_confucius": {
+    "name": "공자묘"
+  },
+  "teotihuacan_holy_city": {
+    "name": "테오티우아칸 성도"
+  },
+  "thirukkadigai": {
+    "name": "티루카디가이"
+  },
+  "tollan_holy_city": {
+    "name": "톨란 성도"
+  },
+  "varaha_lakshmi_narasimha_temple": {
+    "name": "바라하 락슈미 나라심하 사원"
+  },
+  "vedadri_narasimha_temple": {
+    "name": "베다드리 나라심하 사원"
+  },
+  "vidisha_temples": {
+    "name": "비디샤 사원"
+  },
+  "amamangalam_maha_vishnu_temple": {
+    "name": "아마만갈람 마하 비슈누 사원"
+  },
+  "aranmula_parthasarathy_temple": {
+    "name": "아란물라 파르타사라티 사원"
+  },
+  "canterbury_cathedral": {
+    "name": "캔터베리"
+  },
+  "cave_patriarchs": {
+    "name": "막흐펠라 동굴"
+  },
+  "chartres_cathedral": {
+    "name": "샤르트르"
+  },
+  "chausath_yogini_temple": {
+    "name": "차우사트 요기니 사원"
+  },
+  "cologne_cathedral": {
+    "name": "쾰른"
+  },
+  "dilwara_temples": {
+    "name": "딜와라 사원"
+  },
+  "humcha_temples": {
+    "name": "훔차 사원"
+  },
+  "imam_reza_shrine": {
+    "name": "이맘 레자 성묘"
+  },
+  "kalaram_temple": {
+    "name": "칼라람 사원"
+  },
+  "kattu_narasimhaperumal_temple": {
+    "name": "카투 나라심하페루말 사원"
+  },
+  "kesariyaji_tirth": {
+    "name": "케사리야지 순례지"
+  },
+  "kichakeshwari_temple": {
+    "name": "키차케슈와리 사원"
+  },
+  "kodandarama_temple": {
+    "name": "코단다라마 사원"
+  },
+  "koneswaram_temple": {
+    "name": "코네스와람 사원"
+  },
+  "kurma_varadaraja_swamy_temple": {
+    "name": "쿠르마 바라다라자 스와미 사원"
+  },
+  "maa_dewri_temple": {
+    "name": "마 데우리 사원"
+  },
+  "mahadev_temple": {
+    "name": "마하데브 사원"
+  },
+  "mahavinayak_temple": {
+    "name": "마하비나야크 사원"
+  },
+  "martand_sun_temple": {
+    "name": "마르탄드 태양 사원"
+  },
+  "mayapan_holy_site": {
+    "name": "마야판"
+  },
+  "mount_haku": {
+    "name": "하쿠산"
+  },
+  "mount_misen": {
+    "name": "미센산"
+  },
+  "mount_nantai": {
+    "name": "난타이산"
+  },
+  "mount_tate": {
+    "name": "다테산"
+  },
+  "mundeshwari_temple": {
+    "name": "문데슈와리 사원"
+  },
+  "nachiyar_koil": {
+    "name": "나치야르 코일"
+  },
+  "nainativu_nagapooshani_amman_temple": {
+    "name": "나이나티부 나가푸샤니 암만 사원"
+  },
+  "narasimhaswamy_temple": {
+    "name": "나라심하스와미 사원"
+  },
+  "narasingam_yoga_narasimha_perumal_temple": {
+    "name": "나라싱감 요가 나라심하 페루말 사원"
+  },
+  "pandava_thoothar_perumal_temple": {
+    "name": "판다바 투타르 페루말 사원"
+  },
+  "panniyur_sri_varahamurthy": {
+    "name": "파니유르 스리 바라하무르티"
+  },
+  "ramchaura_mandir": {
+    "name": "람차우라 만디르"
+  },
+  "saint_katrine_monastery": {
+    "name": "성 카타리나 수도원"
+  },
+  "shankhodara_temple": {
+    "name": "샨코다라 사원"
+  },
+  "shri_idagunji_maha_ganapati_temple": {
+    "name": "슈리 이다군지 마하 가나파티 사원"
+  },
+  "shwedagon_pagoda": {
+    "name": "슈웨다곤 파고다"
+  },
+  "sreevaraham_lakshmi_varaha_temple": {
+    "name": "스리바라함 락슈미 바라하 사원"
+  },
+  "sringeri_sharadamba_temple": {
+    "name": "스링게리 샤라담바 사원"
+  },
+  "swayambhu": {
+    "name": "스와얌부"
+  },
+  "thiruvallam_sree_parasurama_temple": {
+    "name": "티루발람 스리 파라수라마 사원"
+  },
+  "thommanon": {
+    "name": "토마논"
+  },
+  "thrikkakara_temple": {
+    "name": "트리카카라 사원"
+  },
+  "trichambaram_temple": {
+    "name": "트리참바람 사원"
+  },
+  "udupi_sri_krishna_matha": {
+    "name": "우두피 스리 크리슈나 마타"
+  },
+  "ulagalantha_perumal_temple": {
+    "name": "울라갈란타 페루말 사원"
+  },
+  "umayyad_mosque": {
+    "name": "우마이야 모스크"
+  },
+  "vamana_temple": {
+    "name": "바마나 사원"
+  },
+  "varaha_temple": {
+    "name": "바라하 사원"
+  },
+  "vinayaka_temple": {
+    "name": "비나야카 사원"
+  },
+  "waka_pukllana": {
+    "name": "와카 푸클라나"
+  },
+  "al_kazimiyya_mosque": {
+    "name": "마스지드 알카지미야"
+  },
+  "changu_narayan_temple": {
+    "name": "창구 나라얀 사원"
+  },
+  "chhinnamasta_temple": {
+    "name": "친나마스타 사원"
+  },
+  "ek_balam": {
+    "name": "에크 발람"
+  },
+  "enryaku_ji": {
+    "name": "엔랴쿠지"
+  },
+  "fatima_masumeh_shrine": {
+    "name": "파티마 알마수마 성묘"
+  },
+  "hampatu": {
+    "name": "함푸아투"
+  },
+  "ich_kaan_ti_ho": {
+    "name": "이크 칸 티호"
+  },
+  "katarmal": {
+    "name": "카타르말"
+  },
+  "kulpakji_temple": {
+    "name": "클파크지 사원"
+  },
+  "llullaillaco": {
+    "name": "유야이야코"
+  },
+  "mount_yoshino": {
+    "name": "요시노산"
+  },
+  "muktagiri_temples": {
+    "name": "무크타지리 사원"
+  },
+  "navlakha_temple": {
+    "name": "나블라카 사원"
+  },
+  "parshuram_kund": {
+    "name": "파르슈람 쿤드"
+  },
+  "polali_rajarajeshwari_temple": {
+    "name": "폴랄리 라자라제슈와리 사원"
+  },
+  "quewar": {
+    "name": "케와르"
+  },
+  "ramapuram_sree_rama_temple": {
+    "name": "라마푸람 스리 라마 사원"
+  },
+  "shankhapur_temple": {
+    "name": "샨카푸르 사원"
+  },
+  "shikoku_henro": {
+    "name": "시코쿠 순례길"
+  },
+  "shravanabelagola_holy_site": {
+    "name": "슈라바나벨라골라"
+  },
+  "sumiyoshi_taisha": {
+    "name": "스미요시 대사"
+  },
+  "suryavinayak_temple": {
+    "name": "수리아비나야크 사원"
+  },
+  "tarapith": {
+    "name": "타라피트"
+  },
+  "thirukkavalampadi": {
+    "name": "티루카발람파디"
+  },
+  "usa_hachiman_jinguuji": {
+    "name": "우사 하치만 신궁"
+  },
+  "vilwadrinatha_temple": {
+    "name": "빌와드리나타 사원"
+  },
+  "vithoba_temple": {
+    "name": "비토바 사원"
+  },
+  "wayna_qhari": {
+    "name": "후아이나 카리"
+  },
+  "mount_fuji": {
+    "name": "후지산"
+  },
+  "mount_athos": {
+    "name": "아토스산"
+  },
+  "shrine": {
+    "name": "성지",
+    "desc": "영적으로 중요한 의미를 지닌 장소에 세워진 성지는 경배를 주관하고 영성을 수호합니다."
+  },
+  "mountain": {
+    "name": "성산",
+    "desc": "산은 예로부터 신성의 원천으로 여겨져 왔습니다. 실제로 많은 산이 성지로 간주되며, 때로는 신의 현신으로 숭상받기도 합니다."
+  },
+  "temple": {
+    "name": "사원",
+    "desc": "사원은 성직자들이 종교적 책무를 이행할 수 있도록 봉헌된 경배의 장소입니다. 그 형태와 모습은 지역마다 다소 차이가 있지만, 목적만은 언제나 같습니다."
+  },
+  "city": {
+    "name": "도시"
+  },
+  "episcopal_see": {
+    "name": "주교좌",
+    "desc": "주교좌란 주교가 관할하는 권역을 의미합니다. 주교좌를 지배하는 countries는 추가적인 혜택을 받습니다."
+  },
+  "orthodox_church_holy_site": {
+    "name": "정교회 성지",
+    "desc": "이곳은 orthodox 신앙을 믿는 이들이 중요하게 여기는 holy site입니다."
+  },
+  "christian_holy_site": {
+    "name": "기독교 성지",
+    "desc": "이곳은 christian 계통 종교에 중요한 holy site입니다."
+  },
+  "inti_holy_site": {
+    "name": "인티 성지",
+    "desc": "이곳은 inti 신앙을 믿는 이들이 중요하게 여기는 holy site입니다."
+  },
+  "mayan_holy_site": {
+    "name": "마야 성지",
+    "desc": "이곳은 mayan 신앙을 믿는 이들이 중요하게 여기는 holy site입니다."
+  },
+  "islam_holy_site": {
+    "name": "이슬람 성지",
+    "desc": "이곳은 muslim 계통 religions를 믿는 이들이 중요하게 여기는 holy site입니다."
+  },
+  "_modifier_names": {
+    "invite_religious_figure_different_school_cost_modifier": "새로운 학파의 종교계 인물 초빙 비용",
+    "invite_religious_figure_same_school_cost_modifier": "같은 학파의 종교계 인물 초빙 비용",
+    "local_clergy_desired_pop": "수용 가능한 성직자",
+    "local_clergy_max_literacy": "현지 성직자 최대 문해력",
+    "local_institution_growth_modifier": "제도 성장",
+    "local_max_control": "최대 지배",
+    "local_max_literacy": "현지 최대 문해력",
+    "local_monthly_food_modifier": "현지 식량 생산 %",
+    "local_monthly_prosperity": "현지 월간 번영",
+    "local_population_capacity_modifier": "현지 인구 한도 %",
+    "local_production_efficiency": "생산 효율",
+    "local_unrest": "불안도",
+    "monthly_religious_influence": "월간 종교적 영향력",
+    "religious_icon_power_modifier": "종교적 도상 능력 보정치"
+  },
+  "_modifier_descs": {
+    "invite_religious_figure_different_school_cost_modifier": "종교계 인물을 초빙하는 데 드는 비용에 영향을 줍니다.",
+    "invite_religious_figure_same_school_cost_modifier": "종교계 인물을 초빙하는 데 드는 비용에 영향을 줍니다.",
+    "local_clergy_desired_pop": "이 지점에 거주할 수 있는 clergy 수에 영향을 줍니다.",
+    "local_clergy_max_literacy": "이 지점에 있는 모든 clergy의 문해력에 영향을 줍니다.",
+    "local_institution_growth_modifier": "제도가 이 지점으로 전파되는 속도에 영향을 줍니다.",
+    "local_max_control": "지점의 최대 지배를 조정합니다.",
+    "local_max_literacy": "지점 내 모든 팝의 최대 문해력에 영향을 줍니다.",
+    "local_monthly_food_modifier": "지점에서 생산되는 식량의 양에 영향을 줍니다.",
+    "local_monthly_prosperity": "지점의 번영 증가 또는 감소에 영향을 줍니다.",
+    "local_population_capacity_modifier": "이 지점에 거주할 수 있는 팝 수에 영향을 줍니다.",
+    "local_production_efficiency": "이 지점의 생산 효율에 영향을 줍니다.",
+    "local_unrest": "지점의 불안도에 영향을 줍니다.",
+    "monthly_religious_influence": "국가가 매달 얻는 종교적 영향력의 양에 영향을 줍니다.",
+    "religious_icon_power_modifier": "특정 종교의 모든 icon이 지닌 능력에 영향을 줍니다."
+  },
+  "_location_names": {
+    "nirmal": "니르말",
+    "saint_katrine": "성 카트리나",
+    "maukallaqta": "마우칼락타",
+    "borobudur": "보로부두르",
+    "nasik": "나시크",
+    "chavand": "차반드",
+    "khajuraho": "카주라호",
+    "rome": "로마",
+    "ichagarh": "이차가르",
+    "mayapan": "마야판",
+    "kalingapattanam": "칼링가파타남",
+    "chakwal": "차크왈",
+    "achachiwa": "아차치와",
+    "baghdad": "바그다드",
+    "pithapuram": "피타푸람",
+    "tehotihuacan": "테오티우아칸",
+    "srisailam": "스리사일람",
+    "badrinath": "바드리나스",
+    "durg": "두르그",
+    "mount_athos": "아토스산",
+    "kalotmul": "칼로트물",
+    "nagarkot": "나가르코트",
+    "sendamangalam": "센다망갈람",
+    "bhanvad": "반바드",
+    "samarkand": "사마르칸트",
+    "thiruvananthapuram": "티루바난타푸람",
+    "sadiya": "사디야",
+    "qingyang": "칭양",
+    "husaynabad": "후세인아바드",
+    "kangundi": "캉군디",
+    "fuji": "후지",
+    "tixi": "티시",
+    "jaund": "자운드",
+    "jath": "자트",
+    "deo": "데오",
+    "rimaq": "리마크",
+    "qom": "콤",
+    "kathmandu": "카트만두",
+    "saeki": "사에키",
+    "hajipur": "하지푸르",
+    "emei": "어메이",
+    "kanchipuram": "칸치푸람",
+    "karikkode": "카리코드",
+    "sirohi": "시로히",
+    "champaner": "참파네르",
+    "osaka": "오사카",
+    "varanasi": "바라나시",
+    "pomata": "포마타",
+    "doboj": "도보이",
+    "ujjain": "우자인",
+    "jianzhou_daizhou": "젠저우",
+    "prayag": "프라야그",
+    "jajnagar": "자즈나가르",
+    "constantinople": "콘스탄티노플",
+    "kolhapur": "콜하푸르",
+    "keonjhar": "케온자르",
+    "kashima": "카시마",
+    "tiruvannamalai": "티루반나말라이",
+    "karkala": "카르칼라",
+    "ahobalam": "아호발람",
+    "guwahati": "구와하티",
+    "bhongir": "봉기르",
+    "gawilgarh": "가우일가르",
+    "nara": "나라",
+    "qufu": "취푸",
+    "coimbatore": "코임바토르",
+    "dagon": "다곤",
+    "hazaribagh": "하자리바그",
+    "nander": "난데르",
+    "tsuga": "츠가",
+    "madras": "마드라스",
+    "qusqu": "쿠스코",
+    "canterbury": "캔터베리",
+    "radhanpur": "라단푸르",
+    "madurai": "마두라이",
+    "ponnani": "폰나니",
+    "lickanantay": "리카난타이",
+    "dehua_jiujiang": "더화",
+    "niikawa": "니카와",
+    "karbala": "카르발라",
+    "bhatkal": "바트칼",
+    "alexandria": "알렉산드리아",
+    "dvarasamudra": "드바라사무드라",
+    "shravanabelagola": "슈라바나벨라골라",
+    "tirupati": "티루파티",
+    "puddokothai": "푸도코타이",
+    "bangalore": "방갈로르",
+    "kataka": "카타카",
+    "jaffna": "자프나",
+    "mysore": "마이소르",
+    "usa": "우사",
+    "wazirabad": "와지라바드",
+    "palitana": "팔리타나",
+    "pennadam": "펜나담",
+    "kochi": "코치",
+    "kuse": "쿠세",
+    "katori": "카토리",
+    "chan_chan": "찬찬",
+    "trincomalee": "트린코말리",
+    "ganjam": "간잠",
+    "antofagasta": "안토파가스타",
+    "sringeri": "스링게리",
+    "antioch": "안티오크",
+    "kozhikode": "코지코드",
+    "pagan": "파간",
+    "harishpur": "하리슈푸르",
+    "mathura": "마수라",
+    "baak": "라캄하",
+    "sharda": "샤르다",
+    "chichen_itza": "치첸 이차",
+    "somnath": "솜나트",
+    "bhilsa": "빌사",
+    "kurnool": "쿠르눌",
+    "higashimuro": "히가시무로",
+    "awadh": "아와드",
+    "watarai": "와타라이",
+    "datia": "다티아",
+    "kufa": "쿠파",
+    "kaga": "카가",
+    "almora": "알모라",
+    "junagarh": "주나가르",
+    "yax_mutal": "무탈",
+    "reyshahr": "레이샤흐르",
+    "chartres": "샤르트르",
+    "awa_shikoku": "아와",
+    "gaya": "가야",
+    "kodungallur": "코둥갈루르",
+    "izumo": "이즈모",
+    "jerusalem": "예루살렘",
+    "kondavidu": "콘다비두",
+    "cologne": "쾰른",
+    "yoshino": "요시노",
+    "mecca": "메카",
+    "nagapattinam": "나가파티남",
+    "tollan": "톨란",
+    "tho": "토호",
+    "singarh": "싱가르",
+    "baragram": "바라그람",
+    "lo_mustang": "로 무스탕",
+    "dwarka": "드와르카",
+    "visakhapatnam": "비사카파트남",
+    "kurita": "쿠리타",
+    "gangadvara": "강가드바라",
+    "rajgir": "라즈기르",
+    "mani": "마니",
+    "naga": "나가",
+    "hebron": "헤브론",
+    "belur": "벨루르",
+    "katrasgarh": "카트라스가르",
+    "srirangam": "스리랑감",
+    "damascus": "다마스쿠스",
+    "maduranthakam": "마두란타캄",
+    "vellore": "벨로르",
+    "tagawa": "타가와",
+    "santiago_compostela": "산티아고 데 콤포스텔라",
+    "puri": "푸리",
+    "palghat": "팔라카드",
+    "cholollan": "촐롤란",
+    "medina": "마디나",
+    "changguo": "창궈",
+    "srinagar": "스리나가르",
+    "udupi": "우두피",
+    "bednur": "베드누르",
+    "kannur": "칸누르",
+    "mashhad": "마슈하드",
+    "ramesvaram": "라메스바람",
+    "manikandapuram": "마니칸다푸람",
+    "karaikal": "카라이칼",
+    "thanesar": "타네사르",
+    "angkor": "앙코르",
+    "thanjavur": "탄자부르"
+  }
+}

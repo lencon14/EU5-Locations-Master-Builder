@@ -10,8 +10,9 @@
 - [x] 言語切替UI（ヘッダードロップダウン、キーボードナビ対応）
 - [x] ホームページ多言語化 + ルートリダイレクト（cookie→Accept-Language→en）
 - [x] 建物ページURL移行（/{lang}/eu5/buildings/...、名前 en/ja 切替）
-- [ ] extract_buildings.py のcore/loc分離（25個のloc参照、条件テキストi18n設計が必要）
-- [ ] 建物ページのフルi18n化（フィルターUI・ツールチップ・条件テキスト）
+- [x] extract_buildings.py のcore/loc分離（requirements AST + facets + 全11言語condition_lines）
+- [x] 建物ページのフルi18n化（facetsベースフィルタUI・条件テキスト・modifier/PM多言語化）
+- [ ] requirements AST 未対応パターン拡張（ネスト dict/list 形の culture/religion/tag、has_variable、has_estate_privilege 等 57キー）
 - [x] 残り9言語のサイトUI文言追加（de, es, fr, ko, pl, pt-br, ru, tr, zh-hans）
 
 ## サイトページ作成
@@ -22,7 +23,9 @@
 - [x] 建物（439件）— 一覧 + 詳細ページ（フィルタUI・ローカライズ・シミュレーター）
 - [x] トップページ（全11言語 + ルートリダイレクト）
 - [x] ナビゲーションメニュー（多言語対応済み）
-- [ ] 宗教（293件）— 一覧 + 詳細ページ
+- [x] 宗教（293件）— 一覧 + 詳細ページ（modifier/opinions/mechanics/聖地逆引き、$概念参照解決）
+- [x] 聖地（209件）— 一覧（宗教別グループ）+ 詳細ページ（タイプmodifier、イラスト、対象宗教リンク）
+- [x] 宗教アスペクト（163件）— B案: 独立ページ + 宗教詳細に逆引き（modifier/排他条件/opinions）
 - [ ] 国家（2,328件）— 一覧 + 詳細ページ
 - [ ] 政体（5件）— 一覧ページ
 - [ ] 法律（191件）— 一覧 + 詳細ページ

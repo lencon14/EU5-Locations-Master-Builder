@@ -1,0 +1,873 @@
+{
+  "arasavalli_sun_temple": {
+    "name": "Arasavalli Sun Temple"
+  },
+  "badrinath_temple": {
+    "name": "Badrinath Temple"
+  },
+  "baghdad_episcopal_see": {
+    "name": "Baghdad Episcopal See"
+  },
+  "bodh_gaya": {
+    "name": "Bodh Gayā"
+  },
+  "chamundeshwari_temple": {
+    "name": "Chamundeshwari Temple"
+  },
+  "cholula_holy_city": {
+    "name": "Cholollan Holy City"
+  },
+  "constantinople_episcopal_see": {
+    "name": "Constantinople Patriarchal See"
+  },
+  "deo_patan": {
+    "name": "Deo Patan"
+  },
+  "dwarkadhish_temple": {
+    "name": "Dwarkadhish Temple"
+  },
+  "ise_grand_shrine": {
+    "name": "Ise Grand Shrine"
+  },
+  "izumo_taisha": {
+    "name": "Izumo Taisha"
+  },
+  "jagannath_temple": {
+    "name": "Jagannath Temple"
+  },
+  "jerusalem_episcopal_see_orthodox": {
+    "name": "Orthodox Jerusalem Patriarchal See"
+  },
+  "jerusalem_the_holy_city_catholic": {
+    "name": "The Holy City of Jerusalem"
+  },
+  "kaaba": {
+    "name": "Al-Masjid al-Ḥarām"
+  },
+  "kamakhya_temple": {
+    "name": "Kamakhya Temple"
+  },
+  "kamakshi_amman_temple": {
+    "name": "Kamakshi Amman Temple"
+  },
+  "krishna_janmasthan": {
+    "name": "Krishna Janmasthan"
+  },
+  "mahakaleshwar_jyotirlinga": {
+    "name": "Mahakaleshwar Jyotirlinga"
+  },
+  "mahalakshmi_temple": {
+    "name": "Mahalakshmi Temple"
+  },
+  "mount_hiei": {
+    "name": "Mount Hiei"
+  },
+  "palitana_temples": {
+    "name": "Palitana Temples"
+  },
+  "quri_kancha": {
+    "name": "Quri Kancha"
+  },
+  "ramanathaswamy_temple": {
+    "name": "Ramanathaswamy Temple"
+  },
+  "ranganathaswamy_temple": {
+    "name": "Ranganathaswamy Temple"
+  },
+  "sharada_peeth": {
+    "name": "Sharada Peeth"
+  },
+  "shikharji": {
+    "name": "Śikharjī"
+  },
+  "shri_mayureshwar_mandir": {
+    "name": "Shri Mayureshwar Mandir"
+  },
+  "tara_tarini_temple": {
+    "name": "Tara Tarini Temple"
+  },
+  "varanasi_holy_city": {
+    "name": "Varanasi Holy City"
+  },
+  "vimala_temple": {
+    "name": "Vimala Temple"
+  },
+  "vishalakshi_temple": {
+    "name": "Vishalakshi Temple"
+  },
+  "ahobilam_holy_city": {
+    "name": "Ahobilam Holy City"
+  },
+  "alexandria_holy_city_gnostic": {
+    "name": "Alexandria"
+  },
+  "antioch_holy_city_gnostic": {
+    "name": "Antioch"
+  },
+  "anuradhapura_maha_viharaya": {
+    "name": "Anuradhapura Maha Viharaya"
+  },
+  "bhu_varaha_swamy_temple": {
+    "name": "Bhu Varaha Swamy Temple"
+  },
+  "biraja_temple": {
+    "name": "Biraja Temple"
+  },
+  "bolon_yej_te_naah": {
+    "name": "B'olon Yej Te' Naah"
+  },
+  "constantinople_holy_city_gnostic": {
+    "name": "Constantinople"
+  },
+  "deo_surya_mandir": {
+    "name": "Deo Surya Mandir"
+  },
+  "gnana_saraswati_temple": {
+    "name": "Gnana Saraswati Temple"
+  },
+  "haridwar_kumbh_mela": {
+    "name": "Haridwar Kumbh Mela"
+  },
+  "imam_ali_shrine": {
+    "name": "Imām 'Alī Shrine"
+  },
+  "inti_waka": {
+    "name": "Inti Wak'a"
+  },
+  "jerusalem_episcopal_see_nestorian": {
+    "name": "Nestorian Jerusalem Patriarchal See"
+  },
+  "jogulamba_temple": {
+    "name": "Jogulamba Temple"
+  },
+  "kalighat_kali_temple": {
+    "name": "Kalighat Kali Temple"
+  },
+  "kanchipuram_holy_city": {
+    "name": "Kanchipuram Holy City"
+  },
+  "kumano_sanzan": {
+    "name": "Kumano Sanzan"
+  },
+  "lakshmi_narasimha_temple": {
+    "name": "Lakshmi Narasimha Temple"
+  },
+  "mallikarjuna_temple": {
+    "name": "Mallikarjuna Temple"
+  },
+  "meenakshi_temple": {
+    "name": "Meenakshi Temple"
+  },
+  "mount_emei": {
+    "name": "Éméi Shān"
+  },
+  "mount_girnar": {
+    "name": "Mount Girnar"
+  },
+  "mount_jiuhua": {
+    "name": "Jǐuhuá Shān"
+  },
+  "mount_kouya": {
+    "name": "Mount Kōya"
+  },
+  "mount_lu": {
+    "name": "Lúshān"
+  },
+  "mount_putuo": {
+    "name": "Pǔtuó Shān"
+  },
+  "mount_wutai": {
+    "name": "Wǔtái Shān"
+  },
+  "nanto_shichi_daiji": {
+    "name": "Nanto Shichi Daiji"
+  },
+  "nashik_trimbakeshwar_simhastha": {
+    "name": "Nashik-Trimbakeshwar Simhastha"
+  },
+  "parthasarathy_temple": {
+    "name": "Parthasarathy Temple"
+  },
+  "prayag_kumbh_mela": {
+    "name": "Prayag Kumbh Mela"
+  },
+  "prophets_mosque": {
+    "name": "Al-Masjid an-Nabawī"
+  },
+  "ram_janmabhoomi": {
+    "name": "Ram Janmabhoomi"
+  },
+  "rome_holy_city_gnostic": {
+    "name": "Rome"
+  },
+  "shankari_devi_temple": {
+    "name": "Shankari Devī Temple"
+  },
+  "sonagiri_temples": {
+    "name": "Sonagiri Temples"
+  },
+  "the_vatican": {
+    "name": "Saint Peter in the Vatican"
+  },
+  "titikaka": {
+    "name": "Titi'kaka"
+  },
+  "varahaswamy_temple": {
+    "name": "Varahaswamy Temple"
+  },
+  "alexandria_episcopal_see": {
+    "name": "Alexandria Patriarchal See"
+  },
+  "anantheshwara_temple": {
+    "name": "Anantheshwara Temple"
+  },
+  "angamaly_episcopal_see": {
+    "name": "Angamaly Episcopal See"
+  },
+  "angkor_wat": {
+    "name": "Angkor Wat"
+  },
+  "antioch_episcopal_see": {
+    "name": "Antioch Patriarchal See"
+  },
+  "arulmigu_koniamman_temple": {
+    "name": "Arulmigu Koniamman Temple"
+  },
+  "bajreshwari_mata_temple": {
+    "name": "Bajreshwari Mata Temple"
+  },
+  "borobudur_temple": {
+    "name": "Borobudur"
+  },
+  "brihadisvara_temple": {
+    "name": "Brihadisvara Temple"
+  },
+  "chintaman_ganesh_temple": {
+    "name": "Chintaman Ganesh Temple"
+  },
+  "dewa_sanzan": {
+    "name": "Dewa Sanzan"
+  },
+  "fars_episcopal_see": {
+    "name": "Fars Episcopal See"
+  },
+  "fushimi_inari_taisha": {
+    "name": "Fushimi Inari Taisha"
+  },
+  "guruvayur_temple": {
+    "name": "Guruvayur Temple"
+  },
+  "imam_husayn_shrine": {
+    "name": "Imām Ḥusayn Shrine"
+  },
+  "jal_mandir": {
+    "name": "Jal Mandir"
+  },
+  "jerusalem_the_holy_city_islam": {
+    "name": "The Holy City of al-Quds"
+  },
+  "jyotisar": {
+    "name": "Jyotisar"
+  },
+  "kalika_mata_temple": {
+    "name": "Kalika Mata Temple"
+  },
+  "karpaka_vinayakar_temple": {
+    "name": "Karpaka Vinayakar Temple"
+  },
+  "kashima_shrine": {
+    "name": "Kashima Shrine"
+  },
+  "katas_raj_temples": {
+    "name": "Katas Raj Temples"
+  },
+  "katori_shrine": {
+    "name": "Katori Shrine"
+  },
+  "kola_valvill_ramar_temple": {
+    "name": "Kola Valvill Ramar Temple"
+  },
+  "konark_sun_temple": {
+    "name": "Konark Sun Temple"
+  },
+  "kothandaramaswamy_temple": {
+    "name": "Kothandaramaswamy Temple"
+  },
+  "kukkuteswara_temple": {
+    "name": "Kukkuteswara Temple"
+  },
+  "kurmanathaswamy_temple": {
+    "name": "Kurmanathaswamy Temple"
+  },
+  "lakshmi_temple": {
+    "name": "Lakshmi Temple"
+  },
+  "lakshminarasimha_temple": {
+    "name": "Lakshminarasimha Temple"
+  },
+  "matsya_narayana": {
+    "name": "Matsya Narayana"
+  },
+  "mile_church": {
+    "name": "Mile"
+  },
+  "mount_fanjing": {
+    "name": "Fànjìng Shān"
+  },
+  "muktinath": {
+    "name": "Muktinath"
+  },
+  "nageshvara_jyotirlinga": {
+    "name": "Nageshvara Jyotirlinga"
+  },
+  "nithyakalyana_perumal_temple": {
+    "name": "Nithyakalyana Perumal Temple"
+  },
+  "pagan_holy_city": {
+    "name": "Pagan"
+  },
+  "pathirakali_amman_temple": {
+    "name": "Pathirakali Amman Temple"
+  },
+  "pyramid_magician": {
+    "name": "Pyramid of the Magician"
+  },
+  "radha_damodar_temple": {
+    "name": "Radha Damodar Temple"
+  },
+  "rajagopalaswamy_temple": {
+    "name": "Rajagopalaswamy Temple"
+  },
+  "rome_episcopal_see": {
+    "name": "Rome Patriarchal See"
+  },
+  "samarkand_episcopal_see": {
+    "name": "Samarkand Episcopal See"
+  },
+  "santiago_de_compostela_cathedral": {
+    "name": "Santiago de Compostela"
+  },
+  "suryanar_kovil": {
+    "name": "Suryanar Kovil"
+  },
+  "temple_jaguar": {
+    "name": "Temple of the Great Jaguar"
+  },
+  "temple_kukulkan": {
+    "name": "Temple of K'uk'ulkan"
+  },
+  "temple_of_confucius": {
+    "name": "Temple of Confucius"
+  },
+  "teotihuacan_holy_city": {
+    "name": "Teōtīhuacān Holy City"
+  },
+  "thirukkadigai": {
+    "name": "Thirukkadigai"
+  },
+  "tollan_holy_city": {
+    "name": "Tōllān Holy City"
+  },
+  "varaha_lakshmi_narasimha_temple": {
+    "name": "Varaha Lakshmi Narasimha Temple"
+  },
+  "vedadri_narasimha_temple": {
+    "name": "Vedadri Narasimha Temple"
+  },
+  "vidisha_temples": {
+    "name": "Vidisha Temples"
+  },
+  "amamangalam_maha_vishnu_temple": {
+    "name": "Amamangalam Maha Vishnu Temple"
+  },
+  "aranmula_parthasarathy_temple": {
+    "name": "Aranmula Parthasarathy Temple"
+  },
+  "canterbury_cathedral": {
+    "name": "Canterbury"
+  },
+  "cave_patriarchs": {
+    "name": "Cave of the Patriarchs"
+  },
+  "chartres_cathedral": {
+    "name": "Chartres"
+  },
+  "chausath_yogini_temple": {
+    "name": "Chausath Yogini Temple"
+  },
+  "cologne_cathedral": {
+    "name": "Cologne"
+  },
+  "dilwara_temples": {
+    "name": "Dilwara Temples"
+  },
+  "humcha_temples": {
+    "name": "Humcha Temples"
+  },
+  "imam_reza_shrine": {
+    "name": "Imām Rezā Shrine"
+  },
+  "kalaram_temple": {
+    "name": "Kalaram Temple"
+  },
+  "kattu_narasimhaperumal_temple": {
+    "name": "Kattu Narasimhaperumal Temple"
+  },
+  "kesariyaji_tirth": {
+    "name": "Kesariyaji Tirth"
+  },
+  "kichakeshwari_temple": {
+    "name": "Kichakeshwari Temple"
+  },
+  "kodandarama_temple": {
+    "name": "Kodandarama Temple"
+  },
+  "koneswaram_temple": {
+    "name": "Koneswaram Temple"
+  },
+  "kurma_varadaraja_swamy_temple": {
+    "name": "Kurma Varadaraja Swamy Temple"
+  },
+  "maa_dewri_temple": {
+    "name": "Maa Dewri Temple"
+  },
+  "mahadev_temple": {
+    "name": "Mahadev Temple"
+  },
+  "mahavinayak_temple": {
+    "name": "Mahavinayak Temple"
+  },
+  "martand_sun_temple": {
+    "name": "Martand Sun Temple"
+  },
+  "mayapan_holy_site": {
+    "name": "Màayapáan"
+  },
+  "mount_haku": {
+    "name": "Mount Haku"
+  },
+  "mount_misen": {
+    "name": "Mount Misen"
+  },
+  "mount_nantai": {
+    "name": "Mount Nantai"
+  },
+  "mount_tate": {
+    "name": "Mount Tate"
+  },
+  "mundeshwari_temple": {
+    "name": "Mundeshwari Temple"
+  },
+  "nachiyar_koil": {
+    "name": "Nachiyar Koil"
+  },
+  "nainativu_nagapooshani_amman_temple": {
+    "name": "Nainativu Nagapooshani Amman Temple"
+  },
+  "narasimhaswamy_temple": {
+    "name": "Narasimhaswamy Temple"
+  },
+  "narasingam_yoga_narasimha_perumal_temple": {
+    "name": "Narasingam Yoga Narasimha Perumal Temple"
+  },
+  "pandava_thoothar_perumal_temple": {
+    "name": "Pandava Thoothar Perumal Temple"
+  },
+  "panniyur_sri_varahamurthy": {
+    "name": "Panniyur Sri Varahamurthy"
+  },
+  "ramchaura_mandir": {
+    "name": "Ramchaura Mandir"
+  },
+  "saint_katrine_monastery": {
+    "name": "Saint Catherine's Monastery"
+  },
+  "shankhodara_temple": {
+    "name": "Shankhodara Temple"
+  },
+  "shri_idagunji_maha_ganapati_temple": {
+    "name": "Shri Idagunji Maha Ganapati Temple"
+  },
+  "shwedagon_pagoda": {
+    "name": "Shwedagon Pagoda"
+  },
+  "sreevaraham_lakshmi_varaha_temple": {
+    "name": "Sreevaraham Lakshmi Varaha Temple"
+  },
+  "sringeri_sharadamba_temple": {
+    "name": "Sringeri Sharadamba Temple"
+  },
+  "swayambhu": {
+    "name": "Swayambhu"
+  },
+  "thiruvallam_sree_parasurama_temple": {
+    "name": "Thiruvallam Sree Parasurama Temple"
+  },
+  "thommanon": {
+    "name": "Thommanon"
+  },
+  "thrikkakara_temple": {
+    "name": "Thrikkakara Temple"
+  },
+  "trichambaram_temple": {
+    "name": "Trichambaram Temple"
+  },
+  "udupi_sri_krishna_matha": {
+    "name": "Udupi Sri Krishna Matha"
+  },
+  "ulagalantha_perumal_temple": {
+    "name": "Ulagalantha Perumal Temple"
+  },
+  "umayyad_mosque": {
+    "name": "Umayyad Mosque"
+  },
+  "vamana_temple": {
+    "name": "Vamana Temple"
+  },
+  "varaha_temple": {
+    "name": "Varaha Temple"
+  },
+  "vinayaka_temple": {
+    "name": "Vinayaka Temple"
+  },
+  "waka_pukllana": {
+    "name": "Wak'a Pukllana"
+  },
+  "al_kazimiyya_mosque": {
+    "name": "Masjid al-Kāẓimiyya"
+  },
+  "changu_narayan_temple": {
+    "name": "Changu Narayan Temple"
+  },
+  "chhinnamasta_temple": {
+    "name": "Chhinnamasta Temple"
+  },
+  "ek_balam": {
+    "name": "Ek' Balam"
+  },
+  "enryaku_ji": {
+    "name": "Enryaku-ji"
+  },
+  "fatima_masumeh_shrine": {
+    "name": "Fāṭima al-Ma'ṣūma Shrine"
+  },
+  "hampatu": {
+    "name": "Hamp'atu"
+  },
+  "ich_kaan_ti_ho": {
+    "name": "Ich Kaan Ti'Ho"
+  },
+  "katarmal": {
+    "name": "Katarmal"
+  },
+  "kulpakji_temple": {
+    "name": "Kulpakji Temple"
+  },
+  "llullaillaco": {
+    "name": "Llullaillaco"
+  },
+  "mount_yoshino": {
+    "name": "Mount Yoshino"
+  },
+  "muktagiri_temples": {
+    "name": "Muktagiri Temples"
+  },
+  "navlakha_temple": {
+    "name": "Navlakha Temple"
+  },
+  "parshuram_kund": {
+    "name": "Parshuram Kund"
+  },
+  "polali_rajarajeshwari_temple": {
+    "name": "Polali Rajarajeshwari Temple"
+  },
+  "quewar": {
+    "name": "Quewar"
+  },
+  "ramapuram_sree_rama_temple": {
+    "name": "Ramapuram Sree Rama Temple"
+  },
+  "shankhapur_temple": {
+    "name": "Shankhapur Temple"
+  },
+  "shikoku_henro": {
+    "name": "Shikoku Henro"
+  },
+  "shravanabelagola_holy_site": {
+    "name": "Shravanabelagola"
+  },
+  "sumiyoshi_taisha": {
+    "name": "Sumiyoshi Taisha"
+  },
+  "suryavinayak_temple": {
+    "name": "Suryavinayak Temple"
+  },
+  "tarapith": {
+    "name": "Tarapith"
+  },
+  "thirukkavalampadi": {
+    "name": "Thirukkavalampadi"
+  },
+  "usa_hachiman_jinguuji": {
+    "name": "Usa Hachiman Jingūji"
+  },
+  "vilwadrinatha_temple": {
+    "name": "Vilwadrinatha Temple"
+  },
+  "vithoba_temple": {
+    "name": "Vithoba Temple"
+  },
+  "wayna_qhari": {
+    "name": "Wayna Qhari"
+  },
+  "mount_fuji": {
+    "name": "Mount Fuji"
+  },
+  "mount_athos": {
+    "name": "Mount Athos"
+  },
+  "shrine": {
+    "name": "Shrine",
+    "desc": "Built on a place of significant spiritual relevance, a Shrine serves as a keeper of that spirituality and to organize worship of it."
+  },
+  "mountain": {
+    "name": "Mountain",
+    "desc": "Mountains have always been seen as sources of the divine, and many are revered as holy ground or even as manifestation of gods themselves."
+  },
+  "temple": {
+    "name": "Temple",
+    "desc": "A Temple is a place of worship dedicated for the religious duties of the Clergy. Although temples can come in different shapes and forms depending on the local religion, its purpose remains all the same."
+  },
+  "city": {
+    "name": "City"
+  },
+  "episcopal_see": {
+    "name": "Episcopal See",
+    "desc": "An Episcopal See is the area of a Bishop's jurisdiction. They give added benefits to countries that control them."
+  },
+  "orthodox_church_holy_site": {
+    "name": "Orthodox Holy Site",
+    "desc": "This is a holy site important to all following the orthodox faith."
+  },
+  "christian_holy_site": {
+    "name": "Christian Holy Site",
+    "desc": "This is a holy site important to christian religions."
+  },
+  "inti_holy_site": {
+    "name": "Inti Holy Site",
+    "desc": "This is a holy site important to all following the inti faith."
+  },
+  "mayan_holy_site": {
+    "name": "Mayan Holy Site",
+    "desc": "This is a holy site important to all following the mayan faith."
+  },
+  "islam_holy_site": {
+    "name": "Islamic Holy Site",
+    "desc": "This is a holy site important to all following the muslim religions."
+  },
+  "_modifier_names": {
+    "invite_religious_figure_different_school_cost_modifier": "Invite Religious Figure from New School Cost",
+    "invite_religious_figure_same_school_cost_modifier": "Invite Religious Figure from Same School Cost",
+    "local_clergy_desired_pop": "Possible Clerics",
+    "local_clergy_max_literacy": "Local Max Literacy for Clergy",
+    "local_institution_growth_modifier": "Institution Growth",
+    "local_max_control": "Max Control",
+    "local_max_literacy": "Local Max Literacy",
+    "local_monthly_food_modifier": "Local Food Production %",
+    "local_monthly_prosperity": "Local Monthly Prosperity",
+    "local_population_capacity_modifier": "Local Population Capacity %",
+    "local_production_efficiency": "Production Efficiency",
+    "local_unrest": "Unrest",
+    "monthly_religious_influence": "Monthly Religious Influence",
+    "religious_icon_power_modifier": "Religious Icon Power Modifier"
+  },
+  "_modifier_descs": {
+    "invite_religious_figure_different_school_cost_modifier": "This impacts how much it Costs to Invite Religious Figure.",
+    "invite_religious_figure_same_school_cost_modifier": "This impacts how much it Costs to Invite Religious Figure.",
+    "local_clergy_desired_pop": "Impacts how many clergy can live in this Location.",
+    "local_clergy_max_literacy": "This impacts the Literacy for all clergy in this Location.",
+    "local_institution_growth_modifier": "This impacts how quickly Institutions spread into this Location.",
+    "local_max_control": "This modifies the maximum Control of a Location.",
+    "local_max_literacy": "This impacts the maximum Literacy of all Pops in a Location.",
+    "local_monthly_food_modifier": "This impacts how much Food is produced in a Location.",
+    "local_monthly_prosperity": "This impacts the increase or decrease of Prosperity in a Location.",
+    "local_population_capacity_modifier": "This impacts how many Pops can live in this Location.",
+    "local_production_efficiency": "This impacts the Production Efficiency in this Location.",
+    "local_unrest": "This impacts the Unrest in a Location.",
+    "monthly_religious_influence": "This impacts how much Religious Influence a Country gets each month.",
+    "religious_icon_power_modifier": "This impacts the power of every icon in a Religion."
+  },
+  "_location_names": {
+    "nirmal": "Nirmal",
+    "saint_katrine": "Saint Katrine",
+    "maukallaqta": "Maukallaqta",
+    "borobudur": "Borobudur",
+    "nasik": "Nasik",
+    "chavand": "Chavand",
+    "khajuraho": "Khajuraho",
+    "rome": "Rome",
+    "ichagarh": "Ichagarh",
+    "mayapan": "Màayapáan",
+    "kalingapattanam": "Kalingapattanam",
+    "chakwal": "Chakwal",
+    "achachiwa": "Achachiwa",
+    "baghdad": "Baghdad",
+    "pithapuram": "Pithapuram",
+    "tehotihuacan": "Teōtīhuacān",
+    "srisailam": "Srisailam",
+    "badrinath": "Badrinath",
+    "durg": "Durg",
+    "mount_athos": "Mount Áthos",
+    "kalotmul": "Kalotmul",
+    "nagarkot": "Nagarkot",
+    "sendamangalam": "Sendamangalam",
+    "bhanvad": "Bhanvad",
+    "samarkand": "Samarkand",
+    "thiruvananthapuram": "Thiruvananthapuram",
+    "sadiya": "Sadiya",
+    "qingyang": "Qīngyáng",
+    "husaynabad": "Husaynabad",
+    "kangundi": "Kangundi",
+    "fuji": "Fuji",
+    "tixi": "Tíxī",
+    "jaund": "Jaund",
+    "jath": "Jath",
+    "deo": "Deo",
+    "rimaq": "Rimaq",
+    "qom": "Qom",
+    "kathmandu": "Kathmandu",
+    "saeki": "Saeki",
+    "hajipur": "Hajipur",
+    "emei": "Éméi",
+    "kanchipuram": "Kanchipuram",
+    "karikkode": "Karikkode",
+    "sirohi": "Sirohi",
+    "champaner": "Champaner",
+    "osaka": "Ōsaka",
+    "varanasi": "Varanasi",
+    "pomata": "Pomata",
+    "doboj": "Doboj",
+    "ujjain": "Ujjain",
+    "jianzhou_daizhou": "Jiānzhōu",
+    "prayag": "Prayag",
+    "jajnagar": "Jajnagar",
+    "constantinople": "Constantinople",
+    "kolhapur": "Kolhapur",
+    "keonjhar": "Keonjhar",
+    "kashima": "Kashima",
+    "tiruvannamalai": "Tiruvannamalai",
+    "karkala": "Karkala",
+    "ahobalam": "Ahobalam",
+    "guwahati": "Guwahati",
+    "bhongir": "Bhongir",
+    "gawilgarh": "Gawilgarh",
+    "nara": "Nara",
+    "qufu": "Qūfù",
+    "coimbatore": "Coimbatore",
+    "dagon": "Dagon",
+    "hazaribagh": "Hazaribagh",
+    "nander": "Nander",
+    "tsuga": "Tsuga",
+    "madras": "Madras",
+    "qusqu": "Qusqu",
+    "canterbury": "Canterbury",
+    "radhanpur": "Radhanpur",
+    "madurai": "Madurai",
+    "ponnani": "Ponnani",
+    "lickanantay": "Lickanantay",
+    "dehua_jiujiang": "Déhuà",
+    "niikawa": "Niikawa",
+    "karbala": "Karbala",
+    "bhatkal": "Bhatkal",
+    "alexandria": "Alexandria",
+    "dvarasamudra": "Dvarasamudra",
+    "shravanabelagola": "Shravanabelagola",
+    "tirupati": "Tirupati",
+    "puddokothai": "Puddokothai",
+    "bangalore": "Bangalore",
+    "kataka": "Kataka",
+    "jaffna": "Jaffna",
+    "mysore": "Mysore",
+    "usa": "Usa",
+    "wazirabad": "Wazirabad",
+    "palitana": "Palitana",
+    "pennadam": "Pennadam",
+    "kochi": "Kochi",
+    "kuse": "Kuse",
+    "katori": "Katori",
+    "chan_chan": "Chan Chan",
+    "trincomalee": "Trincomalee",
+    "ganjam": "Ganjam",
+    "antofagasta": "Antofagasta",
+    "sringeri": "Sringeri",
+    "antioch": "Antioch",
+    "kozhikode": "Kozhikode",
+    "pagan": "Pagan",
+    "harishpur": "Harishpur",
+    "mathura": "Mathura",
+    "baak": "Lakamha",
+    "sharda": "Sharda",
+    "chichen_itza": "Chi' ch'e'en its ja'",
+    "somnath": "Somnath",
+    "bhilsa": "Bhilsa",
+    "kurnool": "Kurnool",
+    "higashimuro": "Higashimuro",
+    "awadh": "Awadh",
+    "watarai": "Watarai",
+    "datia": "Datia",
+    "kufa": "Kufa",
+    "kaga": "Kaga",
+    "almora": "Almora",
+    "junagarh": "Junagarh",
+    "yax_mutal": "Mutal",
+    "reyshahr": "Reyshahr",
+    "chartres": "Chartres",
+    "awa_shikoku": "Awa",
+    "gaya": "Gaya",
+    "kodungallur": "Kodungallur",
+    "izumo": "Izumo",
+    "jerusalem": "Jerusalem",
+    "kondavidu": "Kondavidu",
+    "cologne": "Cologne",
+    "yoshino": "Yoshino",
+    "mecca": "Mecca",
+    "nagapattinam": "Nagapattinam",
+    "tollan": "Tōllān",
+    "tho": "T'Hó",
+    "singarh": "Singarh",
+    "baragram": "Baragram",
+    "lo_mustang": "Lo Mustang",
+    "dwarka": "Dwarka",
+    "visakhapatnam": "Visakhapatnam",
+    "kurita": "Kurita",
+    "gangadvara": "Gangadvara",
+    "rajgir": "Rajgir",
+    "mani": "Mani",
+    "naga": "Naga",
+    "hebron": "Hebron",
+    "belur": "Belur",
+    "katrasgarh": "Katrasgarh",
+    "srirangam": "Srirangam",
+    "damascus": "Damascus",
+    "maduranthakam": "Maduranthakam",
+    "vellore": "Vellore",
+    "tagawa": "Tagawa",
+    "santiago_compostela": "Santiago de Compostela",
+    "puri": "Puri",
+    "palghat": "Palghat",
+    "cholollan": "Cholollan",
+    "medina": "Madīna",
+    "changguo": "Chāngguó",
+    "srinagar": "Srinagar",
+    "udupi": "Udupi",
+    "bednur": "Bednur",
+    "kannur": "Kannur",
+    "mashhad": "Mašhad",
+    "ramesvaram": "Ramesvaram",
+    "manikandapuram": "Manikandapuram",
+    "karaikal": "Karaikal",
+    "thanesar": "Thanesar",
+    "angkor": "Angkor",
+    "thanjavur": "Thanjavur"
+  }
+}

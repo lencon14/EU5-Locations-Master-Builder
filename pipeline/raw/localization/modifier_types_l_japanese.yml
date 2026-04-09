@@ -1,4 +1,4 @@
-﻿l_japanese:
+l_japanese:
  MODIFIER_TYPE_NAME_trade_efficiency: "交易効率"
  MODIFIER_TYPE_DESC_trade_efficiency: "$game_concept_trade_efficiency_desc$"
  MODIFIER_TYPE_NAME_trade_income: "交易収入"
@@ -4258,3 +4258,4 @@
  MODIFIER_TYPE_DESC_mountain_wasteland_proximity_impact: "[ShowTopographyName('mountain_wasteland')]を通過するときの[proximity|e]コストに影響を与える。"
  MODIFIER_TYPE_NAME_ocean_wasteland_proximity_impact: "海の未開拓地が近接性に与える影響"
  MODIFIER_TYPE_DESC_ocean_wasteland_proximity_impact: "[ShowTopographyName('ocean_wasteland')]を通過するときの[proximity|e]コストに影響を与える。"
+

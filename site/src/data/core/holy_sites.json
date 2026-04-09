@@ -1,0 +1,2130 @@
+[
+  {
+    "id": "arasavalli_sun_temple",
+    "location": "kalingapattanam",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "badrinath_temple",
+    "location": "badrinath",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "baghdad_episcopal_see",
+    "location": "baghdad",
+    "type": "episcopal_see",
+    "importance": 5,
+    "religions": [
+      "nestorianism"
+    ],
+    "source_file": "nestorian.txt"
+  },
+  {
+    "id": "bodh_gaya",
+    "location": "gaya",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu",
+      "mahayana",
+      "theravada",
+      "tibetan_buddhism"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "chamundeshwari_temple",
+    "location": "mysore",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "cholula_holy_city",
+    "location": "cholollan",
+    "type": "city",
+    "importance": 5,
+    "religions": [
+      "mesoamerican",
+      "nahuatl"
+    ],
+    "source_file": "mesoamerican.txt"
+  },
+  {
+    "id": "constantinople_episcopal_see",
+    "location": "constantinople",
+    "type": "episcopal_see",
+    "importance": 5,
+    "religions": [
+      "orthodox",
+      "miaphysite"
+    ],
+    "source_file": "orthodox.txt"
+  },
+  {
+    "id": "deo_patan",
+    "location": "somnath",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "dwarkadhish_temple",
+    "location": "dwarka",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "ise_grand_shrine",
+    "location": "watarai",
+    "type": "shrine",
+    "importance": 5,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "izumo_taisha",
+    "location": "izumo",
+    "type": "shrine",
+    "importance": 5,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "jagannath_temple",
+    "location": "puri",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "jerusalem_episcopal_see_orthodox",
+    "location": "jerusalem",
+    "type": "episcopal_see",
+    "importance": 5,
+    "religions": [
+      "orthodox",
+      "miaphysite"
+    ],
+    "source_file": "orthodox.txt"
+  },
+  {
+    "id": "jerusalem_the_holy_city_catholic",
+    "location": "jerusalem",
+    "type": "christian_holy_site",
+    "importance": 5,
+    "religions": [
+      "catholic",
+      "bosnian_church",
+      "bogomilism",
+      "paulicianism"
+    ],
+    "source_file": "catholic.txt"
+  },
+  {
+    "id": "kaaba",
+    "location": "mecca",
+    "type": "islam_holy_site",
+    "importance": 5,
+    "religions": [
+      "sunni",
+      "shia",
+      "ibadi"
+    ],
+    "source_file": "islam.txt"
+  },
+  {
+    "id": "kamakhya_temple",
+    "location": "guwahati",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kamakshi_amman_temple",
+    "location": "kanchipuram",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "krishna_janmasthan",
+    "location": "mathura",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "mahakaleshwar_jyotirlinga",
+    "location": "ujjain",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "mahalakshmi_temple",
+    "location": "kolhapur",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "mount_fuji",
+    "location": "fuji",
+    "type": "mountain",
+    "importance": 5,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "mount_hiei",
+    "location": "kurita",
+    "type": "mountain",
+    "importance": 5,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "palitana_temples",
+    "location": "palitana",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "quri_kancha",
+    "location": "qusqu",
+    "type": "inti_holy_site",
+    "importance": 5,
+    "religions": [
+      "inti"
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "ramanathaswamy_temple",
+    "location": "ramesvaram",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "ranganathaswamy_temple",
+    "location": "srirangam",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "sharada_peeth",
+    "location": "sharda",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "shikharji",
+    "location": "katrasgarh",
+    "type": "mountain",
+    "importance": 5,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "shri_mayureshwar_mandir",
+    "location": "singarh",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "tara_tarini_temple",
+    "location": "ganjam",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "varanasi_holy_city",
+    "location": "varanasi",
+    "type": "city",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "vimala_temple",
+    "location": "puri",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "vishalakshi_temple",
+    "location": "varanasi",
+    "type": "temple",
+    "importance": 5,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "ahobilam_holy_city",
+    "location": "ahobalam",
+    "type": "city",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "alexandria_holy_city_gnostic",
+    "location": "alexandria",
+    "type": "city",
+    "importance": 4,
+    "religions": [
+      "bogomilism",
+      "paulicianism"
+    ],
+    "source_file": "bogomilism.txt"
+  },
+  {
+    "id": "antioch_holy_city_gnostic",
+    "location": "antioch",
+    "type": "city",
+    "importance": 4,
+    "religions": [
+      "bogomilism",
+      "paulicianism"
+    ],
+    "source_file": "bogomilism.txt"
+  },
+  {
+    "id": "anuradhapura_maha_viharaya",
+    "location": "angkor",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "theravada"
+    ],
+    "source_file": "theravada.txt"
+  },
+  {
+    "id": "bhu_varaha_swamy_temple",
+    "location": "pennadam",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "biraja_temple",
+    "location": "jajnagar",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "bolon_yej_te_naah",
+    "location": "baak",
+    "type": "mayan_holy_site",
+    "importance": 4,
+    "religions": [
+      "mayan"
+    ],
+    "source_file": "mayan.txt"
+  },
+  {
+    "id": "constantinople_holy_city_gnostic",
+    "location": "constantinople",
+    "type": "city",
+    "importance": 4,
+    "religions": [
+      "bogomilism",
+      "paulicianism"
+    ],
+    "source_file": "bogomilism.txt"
+  },
+  {
+    "id": "deo_surya_mandir",
+    "location": "deo",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "gnana_saraswati_temple",
+    "location": "nirmal",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "haridwar_kumbh_mela",
+    "location": "gangadvara",
+    "type": "city",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "imam_ali_shrine",
+    "location": "kufa",
+    "type": "islam_holy_site",
+    "importance": 4,
+    "religions": [
+      "shia"
+    ],
+    "source_file": "islam.txt"
+  },
+  {
+    "id": "inti_waka",
+    "location": "chan_chan",
+    "type": "inti_holy_site",
+    "importance": 4,
+    "religions": [
+      "inti"
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "jerusalem_episcopal_see_nestorian",
+    "location": "jerusalem",
+    "type": "episcopal_see",
+    "importance": 4,
+    "religions": [
+      "nestorianism"
+    ],
+    "source_file": "nestorian.txt"
+  },
+  {
+    "id": "jogulamba_temple",
+    "location": "kurnool",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kalighat_kali_temple",
+    "location": "husaynabad",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kanchipuram_holy_city",
+    "location": "kanchipuram",
+    "type": "city",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kumano_sanzan",
+    "location": "higashimuro",
+    "type": "mountain",
+    "importance": 4,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "lakshmi_narasimha_temple",
+    "location": "kondavidu",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "mallikarjuna_temple",
+    "location": "srisailam",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "meenakshi_temple",
+    "location": "madurai",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "mount_emei",
+    "location": "emei",
+    "type": "mountain",
+    "importance": 4,
+    "religions": [
+      "mahayana",
+      "sanjiao"
+    ],
+    "source_file": "mahayana.txt"
+  },
+  {
+    "id": "mount_girnar",
+    "location": "junagarh",
+    "type": "mountain",
+    "importance": 4,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "mount_jiuhua",
+    "location": "qingyang",
+    "type": "mountain",
+    "importance": 4,
+    "religions": [
+      "mahayana",
+      "sanjiao"
+    ],
+    "source_file": "mahayana.txt"
+  },
+  {
+    "id": "mount_kouya",
+    "location": "naga",
+    "type": "mountain",
+    "importance": 4,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "mount_lu",
+    "location": "dehua_jiujiang",
+    "type": "mountain",
+    "importance": 4,
+    "religions": [
+      "mahayana",
+      "sanjiao"
+    ],
+    "source_file": "mahayana.txt"
+  },
+  {
+    "id": "mount_putuo",
+    "location": "changguo",
+    "type": "mountain",
+    "importance": 4,
+    "religions": [
+      "mahayana",
+      "sanjiao"
+    ],
+    "source_file": "mahayana.txt"
+  },
+  {
+    "id": "mount_wutai",
+    "location": "jianzhou_daizhou",
+    "type": "mountain",
+    "importance": 4,
+    "religions": [
+      "mahayana",
+      "sanjiao"
+    ],
+    "source_file": "mahayana.txt"
+  },
+  {
+    "id": "nanto_shichi_daiji",
+    "location": "nara",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "nashik_trimbakeshwar_simhastha",
+    "location": "nasik",
+    "type": "city",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "parthasarathy_temple",
+    "location": "madras",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "prayag_kumbh_mela",
+    "location": "prayag",
+    "type": "city",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "prophets_mosque",
+    "location": "medina",
+    "type": "islam_holy_site",
+    "importance": 4,
+    "religions": [
+      "sunni",
+      "shia",
+      "ibadi"
+    ],
+    "source_file": "islam.txt"
+  },
+  {
+    "id": "ram_janmabhoomi",
+    "location": "awadh",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "rome_holy_city_gnostic",
+    "location": "rome",
+    "type": "city",
+    "importance": 4,
+    "religions": [
+      "bogomilism",
+      "paulicianism"
+    ],
+    "source_file": "bogomilism.txt"
+  },
+  {
+    "id": "shankari_devi_temple",
+    "location": "trincomalee",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "sonagiri_temples",
+    "location": "datia",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "the_vatican",
+    "location": "rome",
+    "type": "christian_holy_site",
+    "importance": 4,
+    "religions": [
+      "catholic",
+      "bosnian_church"
+    ],
+    "source_file": "catholic.txt"
+  },
+  {
+    "id": "titikaka",
+    "location": "pomata",
+    "type": "inti_holy_site",
+    "importance": 4,
+    "religions": [
+      "inti"
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "varahaswamy_temple",
+    "location": "tirupati",
+    "type": "temple",
+    "importance": 4,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "alexandria_episcopal_see",
+    "location": "alexandria",
+    "type": "episcopal_see",
+    "importance": 3,
+    "religions": [
+      "orthodox",
+      "miaphysite"
+    ],
+    "source_file": "orthodox.txt"
+  },
+  {
+    "id": "anantheshwara_temple",
+    "location": "udupi",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "angamaly_episcopal_see",
+    "location": "kochi",
+    "type": "episcopal_see",
+    "importance": 3,
+    "religions": [
+      "nestorianism"
+    ],
+    "source_file": "nestorian.txt"
+  },
+  {
+    "id": "angkor_wat",
+    "location": "angkor",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "theravada"
+    ],
+    "source_file": "theravada.txt"
+  },
+  {
+    "id": "antioch_episcopal_see",
+    "location": "antioch",
+    "type": "episcopal_see",
+    "importance": 3,
+    "religions": [
+      "orthodox",
+      "miaphysite"
+    ],
+    "source_file": "orthodox.txt"
+  },
+  {
+    "id": "arulmigu_koniamman_temple",
+    "location": "coimbatore",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "bajreshwari_mata_temple",
+    "location": "nagarkot",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "borobudur_temple",
+    "location": "borobudur",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "mahayana"
+    ],
+    "source_file": "mahayana.txt"
+  },
+  {
+    "id": "brihadisvara_temple",
+    "location": "thanjavur",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "chintaman_ganesh_temple",
+    "location": "ujjain",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "dewa_sanzan",
+    "location": "tagawa",
+    "type": "mountain",
+    "importance": 3,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "fars_episcopal_see",
+    "location": "reyshahr",
+    "type": "episcopal_see",
+    "importance": 3,
+    "religions": [
+      "nestorianism"
+    ],
+    "source_file": "nestorian.txt"
+  },
+  {
+    "id": "fushimi_inari_taisha",
+    "location": "kuse",
+    "type": "shrine",
+    "importance": 3,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "guruvayur_temple",
+    "location": "kodungallur",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "imam_husayn_shrine",
+    "location": "karbala",
+    "type": "islam_holy_site",
+    "importance": 3,
+    "religions": [
+      "shia"
+    ],
+    "source_file": "islam.txt"
+  },
+  {
+    "id": "jal_mandir",
+    "location": "rajgir",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "jerusalem_the_holy_city_islam",
+    "location": "jerusalem",
+    "type": "islam_holy_site",
+    "importance": 3,
+    "religions": [
+      "sunni"
+    ],
+    "source_file": "islam.txt"
+  },
+  {
+    "id": "jyotisar",
+    "location": "thanesar",
+    "type": "shrine",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kalika_mata_temple",
+    "location": "champaner",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "karpaka_vinayakar_temple",
+    "location": "puddokothai",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kashima_shrine",
+    "location": "kashima",
+    "type": "shrine",
+    "importance": 3,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "katas_raj_temples",
+    "location": "chakwal",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "katori_shrine",
+    "location": "katori",
+    "type": "shrine",
+    "importance": 3,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "kola_valvill_ramar_temple",
+    "location": "thanjavur",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "konark_sun_temple",
+    "location": "puri",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kothandaramaswamy_temple",
+    "location": "ramesvaram",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kukkuteswara_temple",
+    "location": "pithapuram",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kurmanathaswamy_temple",
+    "location": "kalingapattanam",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "lakshmi_temple",
+    "location": "khajuraho",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "lakshminarasimha_temple",
+    "location": "dvarasamudra",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "matsya_narayana",
+    "location": "bangalore",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "mile_church",
+    "location": "doboj",
+    "type": "christian_holy_site",
+    "importance": 3,
+    "religions": [
+      "bosnian_church"
+    ],
+    "source_file": "bosnian_church.txt"
+  },
+  {
+    "id": "mount_fanjing",
+    "location": "tixi",
+    "type": "mountain",
+    "importance": 3,
+    "religions": [
+      "mahayana",
+      "sanjiao"
+    ],
+    "source_file": "mahayana.txt"
+  },
+  {
+    "id": "muktinath",
+    "location": "lo_mustang",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu",
+      "mahayana",
+      "theravada",
+      "tibetan_buddhism"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "nageshvara_jyotirlinga",
+    "location": "nander",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "nithyakalyana_perumal_temple",
+    "location": "maduranthakam",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "pagan_holy_city",
+    "location": "pagan",
+    "type": "city",
+    "importance": 3,
+    "religions": [
+      "theravada"
+    ],
+    "source_file": "theravada.txt"
+  },
+  {
+    "id": "pathirakali_amman_temple",
+    "location": "trincomalee",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "pyramid_magician",
+    "location": "mani",
+    "type": "mayan_holy_site",
+    "importance": 3,
+    "religions": [
+      "mayan"
+    ],
+    "source_file": "mayan.txt"
+  },
+  {
+    "id": "radha_damodar_temple",
+    "location": "junagarh",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "rajagopalaswamy_temple",
+    "location": "nagapattinam",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "rome_episcopal_see",
+    "location": "rome",
+    "type": "episcopal_see",
+    "importance": 3,
+    "religions": [
+      "orthodox",
+      "miaphysite"
+    ],
+    "source_file": "orthodox.txt"
+  },
+  {
+    "id": "samarkand_episcopal_see",
+    "location": "samarkand",
+    "type": "episcopal_see",
+    "importance": 3,
+    "religions": [
+      "nestorianism"
+    ],
+    "source_file": "nestorian.txt"
+  },
+  {
+    "id": "santiago_de_compostela_cathedral",
+    "location": "santiago_compostela",
+    "type": "christian_holy_site",
+    "importance": 3,
+    "religions": [
+      "catholic",
+      "bosnian_church"
+    ],
+    "source_file": "catholic.txt"
+  },
+  {
+    "id": "suryanar_kovil",
+    "location": "thanjavur",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "temple_jaguar",
+    "location": "yax_mutal",
+    "type": "mayan_holy_site",
+    "importance": 3,
+    "religions": [
+      "mayan"
+    ],
+    "source_file": "mayan.txt"
+  },
+  {
+    "id": "temple_kukulkan",
+    "location": "chichen_itza",
+    "type": "mayan_holy_site",
+    "importance": 3,
+    "religions": [
+      "mayan"
+    ],
+    "source_file": "mayan.txt"
+  },
+  {
+    "id": "temple_of_confucius",
+    "location": "qufu",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "sanjiao"
+    ],
+    "source_file": "sanjiao.txt"
+  },
+  {
+    "id": "teotihuacan_holy_city",
+    "location": "tehotihuacan",
+    "type": "city",
+    "importance": 3,
+    "religions": [
+      "mesoamerican",
+      "nahuatl"
+    ],
+    "source_file": "mesoamerican.txt"
+  },
+  {
+    "id": "thirukkadigai",
+    "location": "vellore",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "tollan_holy_city",
+    "location": "tollan",
+    "type": "city",
+    "importance": 3,
+    "religions": [
+      "mesoamerican",
+      "nahuatl"
+    ],
+    "source_file": "mesoamerican.txt"
+  },
+  {
+    "id": "varaha_lakshmi_narasimha_temple",
+    "location": "visakhapatnam",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "vedadri_narasimha_temple",
+    "location": "wazirabad",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "vidisha_temples",
+    "location": "bhilsa",
+    "type": "temple",
+    "importance": 3,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "amamangalam_maha_vishnu_temple",
+    "location": "kozhikode",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "aranmula_parthasarathy_temple",
+    "location": "manikandapuram",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "canterbury_cathedral",
+    "location": "canterbury",
+    "type": "christian_holy_site",
+    "importance": 2,
+    "religions": [
+      "catholic"
+    ],
+    "source_file": "catholic.txt"
+  },
+  {
+    "id": "cave_patriarchs",
+    "location": "hebron",
+    "type": "islam_holy_site",
+    "importance": 2,
+    "religions": [
+      "sunni",
+      "ibadi"
+    ],
+    "source_file": "islam.txt"
+  },
+  {
+    "id": "chartres_cathedral",
+    "location": "chartres",
+    "type": "christian_holy_site",
+    "importance": 2,
+    "religions": [
+      "catholic"
+    ],
+    "source_file": "catholic.txt"
+  },
+  {
+    "id": "chausath_yogini_temple",
+    "location": "kataka",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "cologne_cathedral",
+    "location": "cologne",
+    "type": "christian_holy_site",
+    "importance": 2,
+    "religions": [
+      "catholic"
+    ],
+    "source_file": "catholic.txt"
+  },
+  {
+    "id": "dilwara_temples",
+    "location": "sirohi",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "humcha_temples",
+    "location": "bednur",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "imam_reza_shrine",
+    "location": "mashhad",
+    "type": "islam_holy_site",
+    "importance": 2,
+    "religions": [
+      "shia"
+    ],
+    "source_file": "islam.txt"
+  },
+  {
+    "id": "kalaram_temple",
+    "location": "nasik",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kattu_narasimhaperumal_temple",
+    "location": "srirangam",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kesariyaji_tirth",
+    "location": "chavand",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "kichakeshwari_temple",
+    "location": "keonjhar",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kodandarama_temple",
+    "location": "belur",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "koneswaram_temple",
+    "location": "trincomalee",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kurma_varadaraja_swamy_temple",
+    "location": "kangundi",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "maa_dewri_temple",
+    "location": "ichagarh",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "mahadev_temple",
+    "location": "durg",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "mahavinayak_temple",
+    "location": "harishpur",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "martand_sun_temple",
+    "location": "srinagar",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "mayapan_holy_site",
+    "location": "mayapan",
+    "type": "mayan_holy_site",
+    "importance": 2,
+    "religions": [
+      "mayan"
+    ],
+    "source_file": "mayan.txt"
+  },
+  {
+    "id": "mount_athos",
+    "location": "mount_athos",
+    "type": "orthodox_church_holy_site",
+    "importance": 2,
+    "religions": [
+      "orthodox"
+    ],
+    "source_file": "orthodox.txt"
+  },
+  {
+    "id": "mount_haku",
+    "location": "kaga",
+    "type": "mountain",
+    "importance": 2,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "mount_misen",
+    "location": "saeki",
+    "type": "mountain",
+    "importance": 2,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "mount_nantai",
+    "location": "tsuga",
+    "type": "mountain",
+    "importance": 2,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "mount_tate",
+    "location": "niikawa",
+    "type": "mountain",
+    "importance": 2,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "mundeshwari_temple",
+    "location": "jaund",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "nachiyar_koil",
+    "location": "thanjavur",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "nainativu_nagapooshani_amman_temple",
+    "location": "jaffna",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "narasimhaswamy_temple",
+    "location": "sendamangalam",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "narasingam_yoga_narasimha_perumal_temple",
+    "location": "madurai",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "pandava_thoothar_perumal_temple",
+    "location": "kanchipuram",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "panniyur_sri_varahamurthy",
+    "location": "ponnani",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "ramchaura_mandir",
+    "location": "hajipur",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "saint_katrine_monastery",
+    "location": "saint_katrine",
+    "type": "orthodox_church_holy_site",
+    "importance": 2,
+    "religions": [
+      "orthodox"
+    ],
+    "source_file": "orthodox.txt"
+  },
+  {
+    "id": "shankhodara_temple",
+    "location": "dwarka",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "shri_idagunji_maha_ganapati_temple",
+    "location": "bhatkal",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "shwedagon_pagoda",
+    "location": "dagon",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "theravada"
+    ],
+    "source_file": "theravada.txt"
+  },
+  {
+    "id": "sreevaraham_lakshmi_varaha_temple",
+    "location": "thiruvananthapuram",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "sringeri_sharadamba_temple",
+    "location": "sringeri",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "swayambhu",
+    "location": "kathmandu",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu",
+      "mahayana",
+      "theravada",
+      "tibetan_buddhism"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "thiruvallam_sree_parasurama_temple",
+    "location": "thiruvananthapuram",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "thommanon",
+    "location": "angkor",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "thrikkakara_temple",
+    "location": "kochi",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "trichambaram_temple",
+    "location": "kannur",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "udupi_sri_krishna_matha",
+    "location": "udupi",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "ulagalantha_perumal_temple",
+    "location": "tiruvannamalai",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "umayyad_mosque",
+    "location": "damascus",
+    "type": "islam_holy_site",
+    "importance": 2,
+    "religions": [
+      "sunni",
+      "ibadi"
+    ],
+    "source_file": "islam.txt"
+  },
+  {
+    "id": "vamana_temple",
+    "location": "khajuraho",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "varaha_temple",
+    "location": "khajuraho",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "vinayaka_temple",
+    "location": "tirupati",
+    "type": "temple",
+    "importance": 2,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "waka_pukllana",
+    "location": "rimaq",
+    "type": "inti_holy_site",
+    "importance": 2,
+    "religions": [
+      "inti"
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "al_kazimiyya_mosque",
+    "location": "baghdad",
+    "type": "islam_holy_site",
+    "importance": 1,
+    "religions": [
+      "shia"
+    ],
+    "source_file": "islam.txt"
+  },
+  {
+    "id": "changu_narayan_temple",
+    "location": "kathmandu",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "chhinnamasta_temple",
+    "location": "hazaribagh",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "ek_balam",
+    "location": "kalotmul",
+    "type": "mayan_holy_site",
+    "importance": 1,
+    "religions": [
+      "mayan"
+    ],
+    "source_file": "mayan.txt"
+  },
+  {
+    "id": "enryaku_ji",
+    "location": "kurita",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "fatima_masumeh_shrine",
+    "location": "qom",
+    "type": "islam_holy_site",
+    "importance": 1,
+    "religions": [
+      "shia"
+    ],
+    "source_file": "islam.txt"
+  },
+  {
+    "id": "hampatu",
+    "location": "achachiwa",
+    "type": "mountain",
+    "importance": 1,
+    "religions": [
+      "inti"
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "ich_kaan_ti_ho",
+    "location": "tho",
+    "type": "mayan_holy_site",
+    "importance": 1,
+    "religions": [
+      "mayan"
+    ],
+    "source_file": "mayan.txt"
+  },
+  {
+    "id": "katarmal",
+    "location": "almora",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "kulpakji_temple",
+    "location": "bhongir",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "llullaillaco",
+    "location": "antofagasta",
+    "type": "mountain",
+    "importance": 1,
+    "religions": [
+      "inti"
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "mount_yoshino",
+    "location": "yoshino",
+    "type": "mountain",
+    "importance": 1,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "muktagiri_temples",
+    "location": "gawilgarh",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "navlakha_temple",
+    "location": "bhanvad",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "parshuram_kund",
+    "location": "sadiya",
+    "type": "shrine",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "polali_rajarajeshwari_temple",
+    "location": "karkala",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "quewar",
+    "location": "lickanantay",
+    "type": "mountain",
+    "importance": 1,
+    "religions": [
+      "inti"
+    ],
+    "source_file": "inti.txt"
+  },
+  {
+    "id": "ramapuram_sree_rama_temple",
+    "location": "karikkode",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "shankhapur_temple",
+    "location": "radhanpur",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "shikoku_henro",
+    "location": "awa_shikoku",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "shravanabelagola_holy_site",
+    "location": "shravanabelagola",
+    "type": "city",
+    "importance": 1,
+    "religions": [
+      "jain"
+    ],
+    "source_file": "jain.txt"
+  },
+  {
+    "id": "sumiyoshi_taisha",
+    "location": "osaka",
+    "type": "shrine",
+    "importance": 1,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "suryavinayak_temple",
+    "location": "kathmandu",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "tarapith",
+    "location": "baragram",
+    "type": "shrine",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "thirukkavalampadi",
+    "location": "karaikal",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "usa_hachiman_jinguuji",
+    "location": "usa",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "shinto"
+    ],
+    "source_file": "shinto.txt"
+  },
+  {
+    "id": "vilwadrinatha_temple",
+    "location": "palghat",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "vithoba_temple",
+    "location": "jath",
+    "type": "temple",
+    "importance": 1,
+    "religions": [
+      "hindu"
+    ],
+    "source_file": "hindu.txt"
+  },
+  {
+    "id": "wayna_qhari",
+    "location": "maukallaqta",
+    "type": "mountain",
+    "importance": 1,
+    "religions": [
+      "inti"
+    ],
+    "source_file": "inti.txt"
+  }
+]

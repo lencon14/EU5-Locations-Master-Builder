@@ -21,7 +21,7 @@
 ## データパイプライン（pipeline/）
 
 - `fetch_raw.py` — SSH経由で全カテゴリのゲームデータを一括取得（シェル版 fetch_raw.sh は非推奨、Python版を使う）
-- 抽出スクリプト: `extract_goods.py`, `extract_buildings.py`, `extract_countries.py`, `extract_religions.py`, `extract_governments.py`
+- 抽出スクリプト: `extract_goods.py`, `extract_buildings.py`, `extract_countries.py`, `extract_religions.py`, `extract_governments.py`, `extract_holy_sites.py`
 - 共通モジュール: `paradox_parser.py`（Paradoxスクリプトパーサー）, `loc_parser.py`（ローカライズパーサー）
 - 全スクリプトは `cd pipeline && python3 <script>.py` で実行
 
@@ -35,6 +35,9 @@
 | 宗教 | 293 | extract_religions.py |
 | 政体 | 5 | extract_governments.py |
 | 法律 | 191 | extract_governments.py |
+| 聖地 | 209 | extract_holy_sites.py |
+| 聖地タイプ | 10 | extract_holy_sites.py |
+| 宗教アスペクト | 163 | extract_aspects.py |
 
 ### アイコンパイプライン
 
@@ -51,6 +54,8 @@
 | government_types | 8 |
 | laws | 205 |
 | building_categories / religious_* | 計 134 |
+| holy_site_types | 4 |
+| holy_site_illustrations | 16 |
 
 ## データ更新フロー（ゲームバージョンアップ時）
 
@@ -62,6 +67,32 @@
 6. `cp -r pipeline/output/icons site/public/`
 7. `cd site && npm run build` でサイトリビルド
 8. 変更をコミット
+
+## 翻訳品質ルール
+
+### 【必須】ゲーム用語の独自翻訳禁止
+- ゲーム内用語は必ず公式ローカライズファイル（`pipeline/raw/localization/`）から取得する
+- 公式訳が見つからない場合は英語のまま表示するか、ユーザーに確認する
+- 「だいたいこういう意味だろう」で訳を作らない
+
+### 【必須】ビルド後の翻訳漏れ全ページ監査
+新ページ作成・データ追加後は、ビルド後に `dist/ja/` の全ページから英語混入を自動検出するスクリプトを実行すること。レビュー依頼前に必ず実施する。
+
+チェック対象:
+1. `$variable$` 未解決
+2. modifier/mechanic名が raw key のまま（underscore 連結の英語）
+3. 日本語テキスト中の英単語混入（Clergy Estate 等）
+4. タイプ名・場所名が英語のまま
+5. 説明文が助詞で始まる（$変数$ が strip で消えた痕跡）
+
+### 【必須】新カテゴリ追加時の $variable$ 解決チェックリスト
+extract スクリプト作成後、出力 loc JSON の全言語・全値を `$` でスキャンし、未解決変数がゼロであることを確認する。
+
+確認項目:
+1. var_lookup に必要な loc ソースが全て含まれているか（pops, estate, buildings, location_names, game_concepts, cultures, country_names 等）
+2. メカニクス/タグ名のマッピングに全フラグが含まれているか
+3. modifier名の loc カバレッジが100%か
+4. タイプ名/カテゴリ名が全言語で loc にあるか
 
 ## 課題管理
 

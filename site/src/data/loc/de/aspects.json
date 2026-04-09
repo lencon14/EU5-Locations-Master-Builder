@@ -1,0 +1,842 @@
+{
+  "prima_scriptura": {
+    "name": "Prima Scriptura",
+    "desc": "Auch wenn die Heilige Schrift als zentrale Quelle der Erlösung betrachtet werden muss, kann sie nicht als einzige Quelle der himmlischen Offenbarung gelten."
+  },
+  "five_doors": {
+    "name": "Fünf Türen",
+    "desc": "Ein Teil unseres Volks praktiziert eine Form der Meditation, bei der alle Türen eines Hauses geschlossen werden, während sie zugleich die Fünf Türen oder fünf Sinne öffnet. Wir werden diese Praktik überall einführen."
+  },
+  "holy_cooperation": {
+    "name": "Gesegnete Mitwirkung",
+    "desc": "Wir werden uns darauf verlegen, die tatkräftige Mithilfe an produktiver Arbeit zu fördern. Dieses Ethos wird sich auch auf unsere landwirtschaftlichen Gemeinden erstrecken: Die frühen Christen mit ihren gesegneten Kommunen sollen unser Vorbild sein."
+  },
+  "twelve_emissaries": {
+    "name": "Zwölf Gesandte",
+    "desc": "Inspiriert von der Organisation einiger Gemeinden werden wir aus unseren Ältesten und Präfekten zwölf Weise auswählen, die als unser oberster Rat dienen sollen – aber ohne eine echte Hierarchie."
+  },
+  "arminianism": {
+    "name": "Arminianismus",
+    "desc": "Der Arminianismus beruht auf den pluralistischen und humanitären Ideen des holländischen reformierten Theologen Jacobus Arminius."
+  },
+  "gomarism": {
+    "name": "Gomarismus",
+    "desc": "Franciscus Gomarus widersprach dem Glauben von Jacobus Arminius, der die pelagianische Doktrin lehrte, und versuchte, eine neue Schule der Theologie an der Universität zu etablieren, wo sie beide lehrten."
+  },
+  "instituionalized_arminianism": {
+    "name": "Eingeführter Arminianismus",
+    "desc": "Der Arminianismus beruht auf den pluralistischen und humanitären Ideen des holländischen reformierten Theologen Jacobus Arminius. Diese religiöse Bewegung wurde in unserem Staat eingeführt."
+  },
+  "instituionalized_gomarism": {
+    "name": "Eingeführter Gomarismus",
+    "desc": "Franciscus Gomarus widersprach dem Glauben von Jacobus Arminius, der die pelagianische Doktrin lehrte, und versuchte, eine neue Schule der Theologie an der Universität zu etablieren, wo sie beide lehrten. Diese religiöse Bewegung wurde in unserem Staat eingeführt."
+  },
+  "consolamentum": {
+    "name": "Consolamentum",
+    "desc": "Da allein schon das Leben unausweichlich für Reue ob unserer Sünden sorgt, müssen wir „getröstet“ werden, um rein in den Himmel einzutreten und Gott näher zu kommen. Erhält man dieses Consolamentum, wird man auf der Schwelle zum Tod von seinen Sünden erlöst."
+  },
+  "pescatarianism": {
+    "name": "Pescetarismus",
+    "desc": "Tiere tragen wiedergeborene Seelen in sich, sodass wir sie nicht essen können. Doch Fische entstehen spontan, sodass sie nicht als Tiere gelten und verspeist werden können."
+  },
+  "the_perfects": {
+    "name": "Perfekte",
+    "desc": "Jene unter uns, die sich Gott und den Tugenden, nach denen alle Menschen streben sollten, besonders verpflichtet haben, wollen wir Perfekte nennen. Diese Männer und Frauen sollen im Gegensatz zu anderen das Consolamentum zweimal in ihrem Leben erhalten: wenn sie ihr neues Amt erhoben werden und kurz bevor sie sterben."
+  },
+  "adoptionism": {
+    "name": "Adoptianismus",
+    "desc": "Laut unserem Glauben wurde Jesus Christus erst bei der Taufe oder Auferstehung zu Gottes Sohn und war nicht schon immer göttlich."
+  },
+  "adult_baptism": {
+    "name": "Erwachsenentaufen",
+    "desc": "Die Erwachsenentaufe beruht auf dem Bekenntnis des Glaubens an Jesus Christus und auf dem Beitritt in die örtliche Glaubensgemeinschaft. Wer an sie glaubt, hält die rettende Gnade und die Kirchenmitgliedschaft für Gaben Gottes. Der Glaube des Täuflings muss von ihm selbst ausgesprochen und kann weder weitergegeben noch vom einen Menschen an einen anderen übertragen werden."
+  },
+  "aniconism": {
+    "name": "Abbildungsverbot",
+    "desc": "Es ist unangemessen, unseren Herrn durch Symbole darzustellen, da sie Mittel sind, um Götzen oder Menschen abzubilden. Wir werden jede Darstellung ablehnen – einschließlich die des Kreuzes, wie es andere Christen verwenden."
+  },
+  "asceticism": {
+    "name": "Askese",
+    "desc": "Materialistisches Streben blendet uns für die göttliche Wahrheit. Nur indem wir uns einem einfachen Leben ohne jeglichen Luxus verschreiben, erlangen wir spirituelle Erleuchtung."
+  },
+  "bread_and_wine": {
+    "name": "Brot und Wein",
+    "desc": "Wir glauben, dass nur ein Abendmahl, das sowohl Brot als auch Wein umfasst, gültig ist – selbst für Laienmitglieder. Unser Klerus spendet das Abendmahl unter beiderlei Gestalt beim Gottesdienst."
+  },
+  "clerical_poverty": {
+    "name": "Armutsideal",
+    "desc": "Der Klerus sollte keine Reichtümer besitzen und seine materiellen Besitztümer aufgeben. Er sollte sich Gott statt dem Weltlichen widmen."
+  },
+  "crown_as_head_of_faith": {
+    "name": "Krone als Glaubensoberhaupt",
+    "desc": "Die Kirche untersteht nicht länger einem einzelnen korrupten Theokraten in fremden Landen. Alle religiösen Belange wurden dem Herrscher übertragen, der als neues Glaubensoberhaupt fungiert."
+  },
+  "freedom_to_preach": {
+    "name": "Freie Predigten",
+    "desc": "Unter den Gläubigen gibt es viele Unstimmigkeiten, doch jede Sekte sollte zumindest frei predigen dürfen, solange sie Gott in ihrem Herzen trägt."
+  },
+  "gnosticism": {
+    "name": "Gnostizismus",
+    "desc": "Der Gnostizismus dreht sich um die persönliche Erlösung durch die Gnosis: Wir werden der stofflichen Welt entkommen und in ein höheres Reich zurückkehren, indem wir nach spirituellen Einblicken suchen."
+  },
+  "individual_creeds": {
+    "name": "Persönliche Bekenntnisse",
+    "desc": "Wenn wir es unserem Volk erlauben, eigene Bekenntnisse zu formulieren, ermutigen wir die Bildung eigener Meinungen und lassen so zu, dass der Weg zum Fortschritt gepflastert wird!"
+  },
+  "monasticism": {
+    "name": "Mönchtum",
+    "desc": "Die Freuden von edlen Speisen und Getränken lenken uns nur vom Dienst am Göttlichen ab. Wenn wir uns in abgelegenen Klöstern abkapseln, entgehen wir solchen Verlockungen am besten."
+  },
+  "modalism": {
+    "name": "Modalismus",
+    "desc": "Wir glauben, dass Gott ein Absolutum ist – dreieinige Konzepte wie Vater, Sohn und Heiliger Geist sind nur „Modi“, in denen sich Gott manifestiert."
+  },
+  "organized_through_bishops": {
+    "name": "Bischofruf",
+    "desc": "Anstatt die Ernennung von Bischöfen ganz zu verwerfen, dienen sie der Kirche stattdessen als Verwalter größerer Gebiete."
+  },
+  "pacifism": {
+    "name": "Pazifismus",
+    "desc": "Glücklich sind die, die Frieden stiften, denn Gott wird sie seine Kinder nennen."
+  },
+  "parish_registers": {
+    "name": "Kirchenbücher",
+    "desc": "Taufen, Eheschließungen und Bestattungen werden von nun an in einem Kirchenbuch festgehalten. Jeder Priester wird ein solches Register führen, in dem er diese Ereignisse verzeichnet, und es in einer sicheren Kiste mit zwei Schlössern verwahren."
+  },
+  "participation_women": {
+    "name": "Beteiligung von Frauen",
+    "desc": "Frauen dürfen bereits gleichwertig in unseren Gemeinden mitwirken, doch wir werden als allgemeine Regel einführen, dass sie überall wie Männer zu behandeln sind."
+  },
+  "rejection_of_sacraments": {
+    "name": "Ablehnung der Sakramente",
+    "desc": "Unser Doktrin lehnt die meisten christlichen Sakramente ab, da sie vor allem körperlich sind und damit keine Bedeutung besitzen. Allein der spirituelle Teil ist von Bedeutung, denn er bringt uns Gott näher."
+  },
+  "sola_fide": {
+    "name": "Sola Fide",
+    "desc": "Kein gutes Werk kann Gott zufriedenstellen. Uns wird allein durch Gottes Gnade vergeben, die Gott uns durch seinen einzigen Sohn Jesus Christus gewährt."
+  },
+  "sola_scriptura": {
+    "name": "Sola Scriptura",
+    "desc": "Die Bibel ist das Wort Gottes, das er den Menschen anvertraute. Somit ist sie die alleinige Autorität bezüglich der christlichen Doktrinen. Alle religiösen Praktiken, die nicht durch einen biblische Bezug unterfüttert werden, sind als Ketzerei anzuprangern."
+  },
+  "soli_deo_gloria": {
+    "name": "Soli Deo Gloria",
+    "desc": "Alles Menschenwerk kann nur geschaffen werden, weil Gott es erlaubt, und daher steht Gott auch sämtlicher Lobpreis zu."
+  },
+  "translated_bibles": {
+    "name": "Bibelübersetzungen",
+    "desc": "Die Übersetzung der Bibel in andere Sprachen gibt unserem Volk die Möglichkeit, einen Weg zu Gott zu finden, der zum Geist und zum Herzen der Menschen spricht."
+  },
+  "usury_allowed": {
+    "name": "Geldverleiherduldung",
+    "desc": "Verzinste Anleihen, an denen sich der Verleiher bereichern, sind nun erlaubt und werden nicht länger als sündhaft angesehen."
+  },
+  "war_sermons": {
+    "name": "Kriegspredigten",
+    "desc": "In Zeiten voller Spannungen bewahrt der Glaube die Hoffnung unseres Volkes. Unsere Landeskirche predigt aus der Heiligen Schrift, um die Moral der Bevölkerung auch in den dunkelsten Stunden hochzuhalten."
+  },
+  "worship_nyambe_god": {
+    "name": "Wir verehren Nyambe als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Nyambe als Schutzgottheit."
+  },
+  "worship_nhialic_god": {
+    "name": "Wir verehren Nhialic als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Nhialic als Schutzgottheit."
+  },
+  "worship_du_chie_god": {
+    "name": "Wir verehren Du Chie als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Du Chie als Schutzgottheit."
+  },
+  "worship_ayum_god": {
+    "name": "Wir verehren Ayum als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ayum als Schutzgottheit."
+  },
+  "worship_alwet_god": {
+    "name": "Wir verehren Alwet als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Alwet als Schutzgottheit."
+  },
+  "worship_zanahary_god": {
+    "name": "Wir verehren Zanahary als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Zanahary als Schutzgottheit."
+  },
+  "worship_ratovantany_god": {
+    "name": "Wir verehren Ratovantany als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ratovantany als Schutzgottheit."
+  },
+  "worship_andrianerinerina_god": {
+    "name": "Wir verehren Andrianerinerina als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Andrianerinerina als Schutzgottheit."
+  },
+  "worship_andriambahomanana_god": {
+    "name": "Wir verehren Andriambahomanana als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Andriambahomanana als Schutzgottheit."
+  },
+  "worship_andriamahilala_god": {
+    "name": "Wir verehren Andriamahilala als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Andriamahilala als Schutzgottheit."
+  },
+  "worship_ngai_god": {
+    "name": "Wir verehren Ngai als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ngai als Schutzgottheit."
+  },
+  "worship_asis_god": {
+    "name": "Wir verehren Asis als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Asis als Schutzgottheit."
+  },
+  "worship_ilat_god": {
+    "name": "Wir verehren Ilat als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ilat als Schutzgottheit."
+  },
+  "worship_waaq_god": {
+    "name": "Wir verehren Waaq als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Waaq als Schutzgottheit."
+  },
+  "worship_kaggen_god": {
+    "name": "Wir verehren Kaggen als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Kaggen als Schutzgottheit."
+  },
+  "worship_hunntuattatteen_god": {
+    "name": "Wir verehren Hunntuattatteen als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Hunntuattatteen als Schutzgottheit."
+  },
+  "worship_kagara_god": {
+    "name": "Wir verehren Kagara als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Kagara als Schutzgottheit."
+  },
+  "worship_haunu_god": {
+    "name": "Wir verehren Haunu als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Haunu als Schutzgottheit."
+  },
+  "worship_akuj_god": {
+    "name": "Wir verehren Akuj als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Akuj als Schutzgottheit."
+  },
+  "worship_anyame_god": {
+    "name": "Wir verehren Anyame als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Anyame als Schutzgottheit."
+  },
+  "worship_asase_ya_god": {
+    "name": "Wir verehren Asase Ya als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Asase Ya als Schutzgottheit."
+  },
+  "worship_anansi_god": {
+    "name": "Wir verehren Anansi als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Anansi als Schutzgottheit."
+  },
+  "worship_tano_god": {
+    "name": "Wir verehren Tano als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Tano als Schutzgottheit."
+  },
+  "worship_legba_god": {
+    "name": "Wir verehren Legba als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Legba als Schutzgottheit."
+  },
+  "worship_mawu_god": {
+    "name": "Wir verehren Mawu als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Mawu als Schutzgottheit."
+  },
+  "worship_lisa_god": {
+    "name": "Wir verehren Lisa als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Lisa als Schutzgottheit."
+  },
+  "worship_sakpata_god": {
+    "name": "Wir verehren Sakpata als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Sakpata als Schutzgottheit."
+  },
+  "worship_olorun_god": {
+    "name": "Wir verehren Olorun als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Olorun als Schutzgottheit."
+  },
+  "worship_olokun_isese_god": {
+    "name": "Wir verehren Olokun als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Olokun als Schutzgottheit."
+  },
+  "worship_obatala_god": {
+    "name": "Wir verehren Obatala als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Obatala als Schutzgottheit."
+  },
+  "worship_ori_god": {
+    "name": "Wir verehren Ori als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ori als Schutzgottheit."
+  },
+  "worship_egbesu_god": {
+    "name": "Wir verehren Egbesu als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Egbesu als Schutzgottheit."
+  },
+  "worship_amadioha_god": {
+    "name": "Wir verehren Amadioha als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Amadioha als Schutzgottheit."
+  },
+  "worship_ikenga_god": {
+    "name": "Wir verehren Ikenga als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ikenga als Schutzgottheit."
+  },
+  "worship_agwu_nsi_god": {
+    "name": "Wir verehren Agwu Nsi als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Agwu Nsi als Schutzgottheit."
+  },
+  "worship_ogbunabali_god": {
+    "name": "Wir verehren Ogbunabali als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ogbunabali als Schutzgottheit."
+  },
+  "worship_takhar_god": {
+    "name": "Wir verehren Takhar als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Takhar als Schutzgottheit."
+  },
+  "worship_mindiss_god": {
+    "name": "Wir verehren Mindiss als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Mindiss als Schutzgottheit."
+  },
+  "worship_niparaya_god": {
+    "name": "Wir verehren Obatala als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Niparaya als Schutzgottheit."
+  },
+  "worship_u_blei_nong_thaw_god": {
+    "name": "Wir verehren U Blei Nong-thaw als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf U Blei Nong-thaw als Schutzgottheit."
+  },
+  "worship_ulei_muluk_god": {
+    "name": "Wir verehren Ulei Muluk als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ulei Muluk als Schutzgottheit."
+  },
+  "worship_ulei_umtang_god": {
+    "name": "Wir verehren Ulei Umtang als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ulei Umtang als Schutzgottheit."
+  },
+  "worship_ulei_longspah_god": {
+    "name": "Wir verehren Ulei Longspah als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ulei Longspah als Schutzgottheit."
+  },
+  "worship_marang_buru_god": {
+    "name": "Wir verehren Marang Buru als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Marang Buru als Schutzgottheit."
+  },
+  "worship_dharti_ayo_god": {
+    "name": "Wir verehren Dharti ayo als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Dharti ayo als Schutzgottheit."
+  },
+  "worship_kotan_kar_kamuy_god": {
+    "name": "Wir verehren Kotan-kar-kamuy als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Kotan-kar-kamuy als Schutzgottheit."
+  },
+  "worship_kamuy_huci_god": {
+    "name": "Wir verehren Kamuy-huci als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Kamuy-huci als Schutzgottheit."
+  },
+  "worship_kim_un_kamuy_god": {
+    "name": "Wir verehren Kim-un-kamuy als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Kim-un-kamuy als Schutzgottheit."
+  },
+  "worship_rep_un_kamuy_god": {
+    "name": "Wir verehren Rep-un-kamuy als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Rep-un-kamuy als Schutzgottheit."
+  },
+  "worship_baradeo_god": {
+    "name": "Wir verehren Baradeo als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Baradeo als Schutzgottheit."
+  },
+  "worship_nat_awal_god": {
+    "name": "Wir verehren Nat Awal als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Nat Awal als Schutzgottheit."
+  },
+  "worship_aki_pen_god": {
+    "name": "Wir verehren Aki Pen als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Aki Pen als Schutzgottheit."
+  },
+  "worship_nat_awual_god": {
+    "name": "Wir verehren Nat Awual als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Nat Awual als Schutzgottheit."
+  },
+  "worship_phi_heaven_god": {
+    "name": "Wir verehren Phi des Himmels als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Phi des Himmels als Schutzgottheit."
+  },
+  "worship_phi_water_god": {
+    "name": "Wir verehren Phi des Himmels als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Phi des Himmels als Schutzgottheit."
+  },
+  "worship_phi_earth_god": {
+    "name": "Wir verehren Phi der Erde als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Phi der Erde als Schutzgottheit."
+  },
+  "worship_phi_fire_god": {
+    "name": "Wir verehren Phi des Feuers als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Phi des Feuers als Schutzgottheit."
+  },
+  "worship_bathoubwrai_god": {
+    "name": "Wir verehren Bathoubwrai als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Bathoubwrai als Schutzgottheit."
+  },
+  "worship_mainao_god": {
+    "name": "Wir verehren Mainao als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Mainao als Schutzgottheit."
+  },
+  "worship_song_bwrai_god": {
+    "name": "Wir verehren Song Bwrai als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Song Bwrai als Schutzgottheit."
+  },
+  "worship_bura_bagh_raja_god": {
+    "name": "Wir verehren Bura Bagh Raja als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Bura Bagh Raja als Schutzgottheit."
+  },
+  "worship_donyi_god": {
+    "name": "Wir verehren Donyi als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Donyi als Schutzgottheit."
+  },
+  "worship_polo_god": {
+    "name": "Wir verehren Polo als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Polo als Schutzgottheit."
+  },
+  "worship_kine_nane_god": {
+    "name": "Wir verehren Kine Nane als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Kine Nane als Schutzgottheit."
+  },
+  "worship_doying_bote_god": {
+    "name": "Wir verehren Doying Bote als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Doying Bote als Schutzgottheit."
+  },
+  "worship_sumnima_god": {
+    "name": "Wir verehren Sumnima als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Sumnima als Schutzgottheit."
+  },
+  "worship_paruhang_god": {
+    "name": "Wir verehren Paruhang als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Paruhang als Schutzgottheit."
+  },
+  "worship_yuma_sammang_god": {
+    "name": "Wir verehren Yuma Sammang als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Yuma Sammang als Schutzgottheit."
+  },
+  "worship_pathian_god": {
+    "name": "Wir verehren Pathian als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Pathian als Schutzgottheit."
+  },
+  "worship_khuanu_god": {
+    "name": "Wir verehren Khuanu als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Khuanu als Schutzgottheit."
+  },
+  "worship_pu_vana_god": {
+    "name": "Wir verehren Pu Vana als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Pu Vana als Schutzgottheit."
+  },
+  "worship_sakhua_god": {
+    "name": "Wir verehren Sakhua als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Sakhua als Schutzgottheit."
+  },
+  "worship_sky_god": {
+    "name": "Wir verehren die Himmelsgottheit als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf die Himmelsgottheit als Schutzgottheit."
+  },
+  "worship_death_god": {
+    "name": "Wir verehren die Todesgottheit als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf die Todesgottheit als Schutzgottheit."
+  },
+  "worship_earth_god": {
+    "name": "Wir verehren die Erdgottheit als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf die Erdgottheit als Schutzgottheit."
+  },
+  "worship_water_god": {
+    "name": "Wir verehren die Wassergottheit als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf die Wassergottheit als Schutzgottheit."
+  },
+  "worship_creator_god": {
+    "name": "Wir verehren die Schöpfergottheit als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf die Schöpfergottheit als Schutzgottheit."
+  },
+  "worship_fire_god": {
+    "name": "Wir verehren die Feuergottheit als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf die Feuergottheit als Schutzgottheit."
+  },
+  "worship_fertility_god": {
+    "name": "Wir verehren die Fruchtbarkeitsgottheit als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf die Fruchtbarkeitsgottheit als Schutzgottheit."
+  },
+  "worship_war_god": {
+    "name": "Wir verehren die Kriegsgottheit als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf die Kriegsgottheit als Schutzgottheit."
+  },
+  "worship_wind_god": {
+    "name": "Wir verehren die Windgottheit als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf die Windgottheit als Schutzgottheit."
+  },
+  "worship_thunder_god": {
+    "name": "Wir verehren die Donnergottheit als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf die Donnergottheit als Schutzgottheit."
+  },
+  "adamite_services": {
+    "name": "Adamiten-Gottesdienst",
+    "desc": "Die Sekte der Adamiten besteht auf Nacktheit während des Gottesdienstes. Ohne Zeichen von Status oder Kultur erscheinen wir in den Augen Gottes gleich – was uns eindrücklich an unsere gemeinsame Menschlichkeit und die Unschuld erinnert, die wir vor dem Sündenfall genossen."
+  },
+  "punishment_of_sin": {
+    "name": "Sündenschuld",
+    "desc": "All jene, die sündigen, müssen gleich bestraft werden, unabhängig von Reichtum und Rang. Selbst der Adel steht nicht über den Gesetzen Gottes."
+  },
+  "worship_viracocha": {
+    "name": "Wir verehren Wiraqucha als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Wiraqucha als Schutzgottheit."
+  },
+  "worship_inti_god": {
+    "name": "Wir verehren Inti als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Inti als Schutzgottheit."
+  },
+  "worship_illapa_god": {
+    "name": "Wir verehren Illapa als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Illapa als Schutzgottheit."
+  },
+  "worship_supay_god": {
+    "name": "Wir verehren Supay als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Supay als Schutzgottheit."
+  },
+  "worship_mamaquilla": {
+    "name": "Wir verehren Mamaquilla als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Mamaquilla als Schutzgottheit."
+  },
+  "worship_pachamama": {
+    "name": "Wir verehren Pachamama als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Pachamama als Schutzgottheit."
+  },
+  "worship_mama_cocha": {
+    "name": "Wir verehren Mama Qucha als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Mama Qucha als Schutzgottheit."
+  },
+  "worship_urpihuachac": {
+    "name": "Wir verehren Urpihuachac als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Urpihuachac als Schutzgottheit."
+  },
+  "worship_chinchaycamac": {
+    "name": "Wir verehren Uscovilca als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Uscovilca als Schutzgottheit."
+  },
+  "worship_odin_god": {
+    "name": "Wir verehren Óðinn als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Óðinn als Schutzgottheit."
+  },
+  "worship_tor_god": {
+    "name": "Wir verehren Þórr als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Þórr als Schutzgottheit."
+  },
+  "worship_tyr_god": {
+    "name": "Wir verehren Týr als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Týr als Schutzgottheit."
+  },
+  "worship_njord_god": {
+    "name": "Wir verehren Njörðr als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Njörðr als Schutzgottheit."
+  },
+  "worship_freyr_god": {
+    "name": "Wir verehren Freyr als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Freyr als Schutzgottheit."
+  },
+  "worship_freya_god": {
+    "name": "Wir verehren Freyja als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Freyja als Schutzgottheit."
+  },
+  "baptism_by_fire": {
+    "name": "Feuertaufe",
+    "desc": "Laut unserem Glauben ist die Taufe mit Wasser nicht von Dauer, wie auch Johannes der Täufer schon eingestand: Nur wenn wir die vier Seiten des Kopfes eines Täuflings mit einer brennenden Kerze berühren, hat diese Taufe Bestand."
+  },
+  "name_change": {
+    "name": "Namensannahme",
+    "desc": "In unseren Gemeinden weiß man nur allzu gut um die Macht von Namen. Die Anführer unseres Glaubens nahmen oft die Namen der Anhänger des Heiligen Paulus an, so wie die Gemeinen die Namen ihrer Siedlungen zu jenen ändern, in denen ihr Schutzheiliger lebte."
+  },
+  "paulician_canon": {
+    "name": "Paulikianischer Kanon",
+    "desc": "Unser Volk lehnt das Alte Testament und dessen Propheten ab, ebenso wie die Briefe des Petrus. Nur die Worte des Heiligen Paulus sind angemessen."
+  },
+  "punishment_by_stoning": {
+    "name": "Steinigung",
+    "desc": "Die Steinigung ist in unseren Gemeinden eine gebräuchliche Strafe für religiös Andersdenkende. Damit unterscheiden wir uns von unseren Nachbarn. Wahrscheinlich stammt diese Strafe noch aus unseren anatolischen Ursprüngen."
+  },
+  "justified_conflicts": {
+    "name": "Rechtschaffene Kriege",
+    "desc": "Die neue Kirche des Landes wird von Heiden wie Ketzern gleichermaßen bedroht. Einen Krieg der Selbsterhaltung wird die Kirche auch mit der Bibel begründen können."
+  },
+  "pietism": {
+    "name": "Pietismus",
+    "desc": "Der Schwerpunkt des Pietismus liegt auf der Frömmigkeit jedes einzelnen Gläubigen und betont die innere Verwandlung, die zu einem aufrichtigen christlichen Leben führt."
+  },
+  "worship_tengri_god": {
+    "name": "Wir verehren Kök Teŋri als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Kök Teŋri als Schutzgottheit."
+  },
+  "worship_umay_god": {
+    "name": "Wir verehren Umay als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Umay als Schutzgottheit."
+  },
+  "worship_ulgen_god": {
+    "name": "Wir verehren Ülgen als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ülgen als Schutzgottheit."
+  },
+  "worship_erlik_god": {
+    "name": "Wir verehren Erlik als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Erlik als Schutzgottheit."
+  },
+  "worship_kayra_god": {
+    "name": "Wir verehren Kayra als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Kayra als Schutzgottheit."
+  },
+  "worship_bai_baianai_god": {
+    "name": "Wir verehren Bai Baianai als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Bai Baianai als Schutzgottheit."
+  },
+  "worship_ak_ana_god": {
+    "name": "Wir verehren Ak Ana als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Ak Ana als Schutzgottheit."
+  },
+  "worship_mergen_god": {
+    "name": "Wir verehren Mergen als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Mergen als Schutzgottheit."
+  },
+  "worship_tlaloc_god": {
+    "name": "Wir verehren Tláloc als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Tláloc als Schutzgottheit."
+  },
+  "worship_huitzilopochtli_god": {
+    "name": "Wir verehren Huītzilōpōchtli als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Huītzilōpōchtli als Schutzgottheit."
+  },
+  "worship_quetzalcoatl_god": {
+    "name": "Wir verehren Quetzalcōātl als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Quetzalcōātl als Schutzgottheit."
+  },
+  "worship_tezcatlipoca_god": {
+    "name": "Wir verehren Tēzcatlīpohca als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Tēzcatlīpohca als Schutzgottheit."
+  },
+  "worship_xiuhtecuhtli_god": {
+    "name": "Wir verehren Xiuhtēcuhtli als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Xiuhtēcuhtli als Schutzgottheit."
+  },
+  "worship_coatlicue_god": {
+    "name": "Wir verehren Cōātlīcue als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Cōātlīcue als Schutzgottheit."
+  },
+  "worship_huehueteotl_god": {
+    "name": "Wir verehren Huehuetéotl als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Xiuhtēcuhtli als Schutzgottheit."
+  },
+  "worship_mesoamerican_quetzalcoatl_god": {
+    "name": "Wir verehren Quetzalcōātl als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Quetzalcōātl als Schutzgottheit."
+  },
+  "worship_dzahui_god": {
+    "name": "Wir verehren Dzahui als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Tláloc als Schutzgottheit."
+  },
+  "worship_chaac_god": {
+    "name": "Wir verehren Chaac als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Tláloc als Schutzgottheit."
+  },
+  "worship_kukulkan_god": {
+    "name": "Wir verehren K’uk’ulkan als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Quetzalcōātl als Schutzgottheit."
+  },
+  "worship_kawiil_god": {
+    "name": "Wir verehren K’awiil als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Xiuhtēcuhtli als Schutzgottheit."
+  },
+  "worship_tepeu_god": {
+    "name": "Wir verehren Egbesu als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Tepeu als Schutzgottheit."
+  },
+  "worship_huracan_god": {
+    "name": "Wir verehren Huracán als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Huracán als Schutzgottheit."
+  },
+  "worship_hunhunahpu_god": {
+    "name": "Wir verehren Hun-Hunahpú als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Hun-Hunahpú als Schutzgottheit."
+  },
+  "worship_ixchel_god": {
+    "name": "Wir verehren Ixchel als Schutzgottheit",
+    "desc": "Wir legen den Schwerpunkt unserer Verehrung und Anbetung auf Cōātlīcue als Schutzgottheit."
+  },
+  "_modifier_names": {
+    "add_religious_aspect_christian_cost_modifier": "Hinzufügungskosten (Glaubensaspekt)",
+    "antagonism_received_modifier": "Antagonismuszuwachs",
+    "army_initiative": "Armee-Initiative",
+    "army_maintenance_cost": "Armeeunterhalt",
+    "army_movement_speed": "Armee-Bewegungstempo",
+    "ban_imports_of_livestock": "Einfuhrverbot ()",
+    "bank_interest": "Bankzinsen",
+    "can_have_monasteries": "Klöster möglich",
+    "clergy_estate_max_tax": "Steuermaximum (Klerusstand)",
+    "clergy_estate_satisfaction_recovery": "Klerusstand-Zufriedenheitserholung",
+    "clergy_estate_target_satisfaction": "Klerusstand-Ausgewogenheit",
+    "colonial_maintenance_cost": "Kolonialunterhalt",
+    "country_cabinet_efficiency": "Effektivität unseres Kabinetts",
+    "court_spending_cost": "Erwartete Hofkosten",
+    "cultural_tradition_modifier": "Kulturtradition-Prozentsatz",
+    "declaring_war_cost_modifier": "Kriegserklärungskosten",
+    "diplomatic_capacity_modifier": "Diplomatiekapazität",
+    "discipline": "Disziplin",
+    "expand_rgo_farming_cost_modifier": "Ackerbau-Erweiterungskosten",
+    "expand_rgo_mining_cost_modifier": "Bergbau-Erweiterungskosten",
+    "gender_equality": "Gleichberechtigung möglich",
+    "global_clergy_desired_pop": "Mögliche",
+    "global_clergy_estate_power": "Klerusmacht",
+    "global_clergy_max_literacy": "Alphabetisierungsmaximum (Klerus)",
+    "global_crown_estate_power": "Kronmacht",
+    "global_defensive": "Festungsverteidigung",
+    "global_devastation_recovery": "Wohlstandserholung",
+    "global_disease_resistance": "Seuchenwiderstand",
+    "global_distance_from_capital_speed_propagation": "Nähetempo",
+    "global_estate_target_satisfaction": "Stände-Ausgewogenheit",
+    "global_fish_output_modifier": "-Ausstoß",
+    "global_garrison_size_modifier": "Garnisonsgröße",
+    "global_hostile_attrition": "Feindeszermürbung",
+    "global_life_expectancy": "Charakterlebenserwartung",
+    "global_lumber_output_modifier": "-Ausstoß",
+    "global_maritime_presence_modifier": "Marinepräsenz (Prozent)",
+    "global_max_literacy": "Alphabetisierungsmaximum",
+    "global_max_rgo_size_modifier": "RG-Maximalgröße",
+    "global_monthly_art_start_chance": "Monatliche Werkauftakt-Chance",
+    "global_monthly_control": "Monatliche Kontrolle",
+    "global_monthly_food_modifier": "Nahrungsherstellung (Prozent)",
+    "global_monthly_prosperity": "Monatlicher Wohlstand",
+    "global_pop_assimilation_speed_modifier": "Pop-Angleichungstempo",
+    "global_pop_conversion_speed_modifier": "Pop-Bekehrungstempo (Prozent)",
+    "global_pop_promotion_speed_modifier": "Pop-Aufstiegstempo (Prozent)",
+    "global_population_growth": "Bevölkerungswachstum",
+    "global_production_efficiency": "Produktionseffizienz",
+    "global_raw_material_output": "Rohstoffausstoß",
+    "global_separatism": "Separatismus",
+    "global_war_score_cost": "Kriegswertkosten",
+    "global_weaponry_output_modifier": "-Ausstoß",
+    "global_wild_game_output_modifier": "-Ausstoß",
+    "global_wine_output_modifier": "-Ausstoß",
+    "improve_relation_impact": "Beziehungsverbesserung",
+    "land_morale_modifier": "Armeemoral",
+    "land_morale_recovery": "Armeemoral-Erholungstempo",
+    "minting_income_factor": "Einnahmen (Münzprägung)",
+    "monthly_diplomats": "Monatliche Diplomaten",
+    "monthly_legitimacy": "Monatliche Legitimität",
+    "monthly_rebel_growth": "Monatlicher Rebellenzuwachs",
+    "monthly_religious_influence": "Monatlicher Glaubenseinfluss",
+    "monthly_towards_absolutism": "Monatlicher Fortschritt (Absolutismus)",
+    "monthly_towards_belligerent": "Monatlicher Fortschritt (Kriegstreiberei)",
+    "monthly_towards_capital_economy": "Monatlicher Fortschritt (Erwerbswirtschaft)",
+    "monthly_towards_centralization": "Monatlicher Fortschritt (Zentralisierung)",
+    "monthly_towards_communalism": "Monatlicher Fortschritt (Kommunalismus)",
+    "monthly_towards_conciliatory": "Monatlicher Fortschritt (Versöhnung)",
+    "monthly_towards_decentralization": "Monatlicher Fortschritt (Dezentralisierung)",
+    "monthly_towards_free_subjects": "Monatlicher Fortschritt (Selbstbestimmtheit)",
+    "monthly_towards_individualism": "Monatlicher Fortschritt (Individualismus)",
+    "monthly_towards_innovative": "Monatlicher Fortschritt (Innovation)",
+    "monthly_towards_plutocracy": "Monatlicher Fortschritt (Plutokratie)",
+    "monthly_towards_spiritualist": "Monatlicher Fortschritt (Spiritualität)",
+    "monthly_towards_traditionalist": "Monatlicher Fortschritt (Tradition)",
+    "monthly_war_exhaustion": "Monatliche Kriegsmüdigkeit",
+    "monthly_yanantin": "Monatlicher Yanantin",
+    "naval_morale_modifier": "Marinemoral",
+    "navy_initiative": "Marine-Initiative",
+    "peasants_estate_target_satisfaction": "Bauernstand-Ausgewogenheit",
+    "pop_join_rebel_threshold": "Pop-Rebellenschwelle (Beitritt)",
+    "pop_leave_rebels_threshold": "Pop-Rebellenschwelle (Austritt)",
+    "recruit_explorer_cost_modifier": "Entdecker-Rekrutierungskosten",
+    "regiment_reinforcement_speed": "Verstärkungstempo",
+    "remove_religious_aspect_christian_cost_modifier": "Entfernungskosten (Glaubensaspekt)",
+    "research_speed_modifier": "Monatlicher Forschungsfortschritt (Prozent)",
+    "skill_of_new_artists": "Geschick neuer Künstler",
+    "stability_cost": "Stabilitätsförderungskosten",
+    "tax_income_efficiency": "Steuereffizienz",
+    "tolerance_heathen": "Toleranz (Ungläubige)",
+    "tolerance_heretic": "Toleranz (Ketzer)",
+    "tolerance_own": "Toleranz (Wahrer Glaube)",
+    "war_on_different_religion_cost_modifier": "Kriegserklärungskosten (Andere Religion)"
+  },
+  "_modifier_descs": {
+    "add_religious_aspect_christian_cost_modifier": "Dies wirkt sich auf die Kosten des Hinzufügens eines Glaubensaspekts aus.",
+    "antagonism_received_modifier": "Dies wirkt sich darauf aus, wie viel Antagonismus ein Land mit seinen Aktionen erzeugt.",
+    "army_initiative": "Dies wirkt sich auf die Initiative eines Regimenter in der Schlacht aus.",
+    "army_maintenance_cost": "Dies ändert, wie viel Geld und Mannstärke für den Unterhalt eines Regimenter nötig sind.",
+    "army_movement_speed": "Dies wirkt sich darauf aus, wie schnell eine Armee sich zwischen Orten bewegen kann.",
+    "ban_imports_of_livestock": "Dies verhindert die Einfuhr von livestock in alle Märkte, die ein Land besitzt.",
+    "bank_interest": "Dies wirkt sich auf die Zinsen für Anleihen bei der Nationalbank aus.",
+    "can_have_monasteries": "Dies wirkt sich darauf aus, ob ein Land ein monastery haben kann oder nicht.",
+    "clergy_estate_max_tax": "Dies wirkt sich auf das Maximalsteuer aus, das vom Klerusstand erhoben werden kann.",
+    "clergy_estate_satisfaction_recovery": "Dies wirkt sich darauf aus, wie schnell die Standeszufriedenheit auf das Ausgewogenheit des Klerusstands im Land zurücksteigt.",
+    "clergy_estate_target_satisfaction": "Dies wirkt sich auf die Ausgewogenheit des Klerusstands in diesem Land aus.",
+    "colonial_maintenance_cost": "Dies wirkt sich auf die monatlichen Kosten von Kolonialbriefen aus.",
+    "country_cabinet_efficiency": "Dies wirkt sich auf die Kabinettseffizienz aller Charaktere aus, wenn sie im Kabinett eines Lands tätig sind.",
+    "court_spending_cost": "Dies beeinflusst, wie viel der Steuergrundlage für die Hofkosten veranschlagt wird.",
+    "cultural_tradition_modifier": "Dies wirkt sich auf die Kulturtradition unserer Primärkultur aus.",
+    "declaring_war_cost_modifier": "Dies wirkt sich darauf aus, wie viel die Erklärung eines Kriegs kostet.",
+    "diplomatic_capacity_modifier": "Dies wirkt sich darauf aus, wie viel Verwendete Diplomatiekapazität ein Land haben kann.",
+    "discipline": "Dies wirkt sich auf die Disziplin eines Regimenter aus.",
+    "expand_rgo_farming_cost_modifier": "Dies wirkt sich darauf aus, wie viel es kostet, die Menge an Pops zu erhöhen, die Rohstoffe abbauen, für die Höfe erforderlich sind. Rohstoffe, die Ackerbau erfordern。",
+    "expand_rgo_mining_cost_modifier": "Dies wirkt sich darauf aus, wie viel es kostet, die Menge an Pops zu erhöhen, die Rohstoffe abbauen, für die Minen erforderlich sind. Rohstoffe, die Bergbau erfordern。",
+    "gender_equality": "Dies wirkt sich daraus auf, ob Frauen dieselben Rollen wie Männer übernehmen können.",
+    "global_clergy_desired_pop": "Dies wirkt sich darauf aus, wie viele clergy an allen Orten eines Lands leben können.",
+    "global_clergy_estate_power": "Dies wirkt sich auf die Standesmacht des Klerusstands im ganzen Land aus.",
+    "global_clergy_max_literacy": "Dies wirkt sich auf die Alphabetisierung aller clergy in diesem Land aus.",
+    "global_crown_estate_power": "Dies wirkt sich auf die Standesmacht der Krone – oder anders gesagt die Kronmacht – im ganzen Land aus.",
+    "global_defensive": "Dies wirkt sich darauf aus, wie schnell eine Belagerung gegen ein Land vorankommt.",
+    "global_devastation_recovery": "Dies wirkt sich darauf aus, wie schnell sich der Wohlstand monatlich an allen Orten eines Lands erholt.",
+    "global_disease_resistance": "Dies wirkt sich auf den Seuchenwiderstand an allen Orten eines Lands aus.",
+    "global_distance_from_capital_speed_propagation": "Dies wirkt sich darauf aus, wie schnell Nähe sich an allen Orten in einem Land verbreitet.",
+    "global_estate_target_satisfaction": "Dies wirkt sich auf die Ausgewogenheit aller Stände im Land aus.",
+    "global_fish_output_modifier": "Dies passt den Ausstoß von fish im ganzen Land an.",
+    "global_garrison_size_modifier": "Dies wirkt sich auf die Größe aller Garnisonen aus, die ein Land hat.",
+    "global_hostile_attrition": "Dies wirkt sich auf die Zermürbung von feindlichen Armeen an allen Orten aus, die wir Besitzen und kontrollieren.",
+    "global_life_expectancy": "Das Alter, in dem Charaktere in diesem Land anfällig für Tod durch hohes Alter werden.",
+    "global_lumber_output_modifier": "Dies passt den Ausstoß von lumber im ganzen Land an.",
+    "global_maritime_presence_modifier": "Dies wirkt sich auf die Marinepräsenz in allen Seezonen aus, die an Orte im Besitz eines Lands angrenzen.",
+    "global_max_literacy": "Dies wirkt sich auf die maximale Alphabetisierung aller Pops in einem Land aus.",
+    "global_max_rgo_size_modifier": "Dies wirkt sich auf die maximale Größe sämtlicher RG in einem Land aus.",
+    "global_monthly_art_start_chance": "Dies wirkt sich auf die Wahrscheinlichkeit aus, dass Künstler in einem Land ein neues Kunstwerke in Angriff nehmen.",
+    "global_monthly_control": "Dies passt an, wie sehr sich die Kontrolle an allen Orten eines Lands ändert.",
+    "global_monthly_food_modifier": "Dies wirkt sich darauf aus, wie viel Nahrung an allen Orten eines Lands produziert wird.",
+    "global_monthly_prosperity": "Dies wirkt sich darauf aus, wie sich der Wohlstand an allen Orten in einem Land monatlich verändert.",
+    "global_pop_assimilation_speed_modifier": "Dies wirkt sich darauf aus, wie schnell Pops an allen Orten des Landes sich Angleichen.",
+    "global_pop_conversion_speed_modifier": "Dies wirkt sich darauf aus, wie schnell Pops an allen Orten des Landes bekehrt werden.",
+    "global_pop_promotion_speed_modifier": "Dies wirkt sich darauf aus, wie schnell Pops an allen Orten des Landes Aufsteigen.",
+    "global_population_growth": "Dies wirkt sich auf das Bevölkerungswachstum an allen Orten eines Lands aus.",
+    "global_production_efficiency": "Dies wirkt sich auf die Produktionseffizienz im ganzen Land aus.",
+    "global_raw_material_output": "Dies wirkt sich auf den Ausstoß von Rohstoffe an allen Orten in einem Land aus.",
+    "global_separatism": "Dies wirkt sich auf den Separatismus an allen Orten in einem Land aus.",
+    "global_war_score_cost": "Dies wirkt sich darauf aus, wie viel Kriegswert es dieses Land kostet, Territorium zu übernehmen.",
+    "global_weaponry_output_modifier": "Dies passt den Ausstoß von weaponry im ganzen Land an.",
+    "global_wild_game_output_modifier": "Dies passt den Ausstoß von wild game im ganzen Land an.",
+    "global_wine_output_modifier": "Dies passt den Ausstoß von wine im ganzen Land an.",
+    "improve_relation_impact": "Dies wirkt sich darauf aus, wie gut ein Land Beziehungen verbessern kann.",
+    "land_morale_modifier": "Dies passt die maximale Moral, die ein Regiment haben kann, um einen Prozentsatz an.",
+    "land_morale_recovery": "Dies wirkt sich darauf aus, wie schnell die Moral eines Regimenter sich erholt, wenn sie unter ihrem Maximum liegt.",
+    "minting_income_factor": "Dies wirkt sich darauf aus, wie viel Geld ein Land durch Münzprägung erhält.",
+    "monthly_diplomats": "Dies wirkt sich darauf aus, wie viele Diplomaten ein Land monatlich erhalten kann.",
+    "monthly_legitimacy": "Dies wirkt sich darauf aus, wie viel Legitimität ein Land monatlich erhält.",
+    "monthly_rebel_growth": "Dies wirkt sich darauf aus, wie schnell Rebellen zu einem Aufstand oder Bürgerkrieg voranschreiten.",
+    "monthly_religious_influence": "Dies wirkt sich darauf aus, wie viel Glaubenseinfluss ein Land monatlich erhält.",
+    "monthly_towards_absolutism": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts absolutism aus.",
+    "monthly_towards_belligerent": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerte belligerent aus.",
+    "monthly_towards_capital_economy": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts Hauptsitz economy aus.",
+    "monthly_towards_centralization": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts centralization aus.",
+    "monthly_towards_communalism": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts communalism aus.",
+    "monthly_towards_conciliatory": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts conciliatory aus.",
+    "monthly_towards_decentralization": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts decentralization aus.",
+    "monthly_towards_free_subjects": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts free Klientelländer aus.",
+    "monthly_towards_individualism": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts individualism aus.",
+    "monthly_towards_innovative": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts innovative aus.",
+    "monthly_towards_plutocracy": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts plutocracy aus.",
+    "monthly_towards_spiritualist": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts spiritualist aus.",
+    "monthly_towards_traditionalist": "Dies wirkt sich auf den Fortschritt in Richtung des Gesellschaftswerts traditionalist aus.",
+    "monthly_war_exhaustion": "Dies wirkt sich darauf aus, wie viel Kriegsmüdigkeit wir jeden Monat erhalten.",
+    "monthly_yanantin": "Dies wirkt sich darauf aus, wie viel Yanantin ein Land monatlich erhält.",
+    "naval_morale_modifier": "Dies passt die maximale Moral, die ein Schiff haben kann, um einen Prozentsatz an.",
+    "navy_initiative": "Dies wirkt sich auf die Initiative eines Schiffs in der Schlacht aus.",
+    "peasants_estate_target_satisfaction": "Dies wirkt sich auf die Ausgewogenheit des Gemeinenstands in diesem Land aus.",
+    "pop_join_rebel_threshold": "Dies wirkt sich auf die Stufe der Pop-Zufriedenheit aus, unter der eine Pop liegen muss, um sich Rebellen anzuschließen. Sie kann nie niedriger als sein.",
+    "pop_leave_rebels_threshold": "Dies wirkt sich auf die Stufe der Pop-Zufriedenheit aus, über der eine Pop liegen muss, um bei Rebellen auszutreten.",
+    "recruit_explorer_cost_modifier": "Dies wirkt sich darauf aus, wie viel das Rekrutieren eines Entdeckers kostet.",
+    "regiment_reinforcement_speed": "Dies wirkt sich darauf aus, wie schnell ein Regiment sich Verstärken kann.",
+    "remove_religious_aspect_christian_cost_modifier": "Dies wirkt sich auf die Kosten des Entfernens eines Glaubensaspekts aus.",
+    "research_speed_modifier": "Dies wirkt sich darauf aus, wie viel Forschungsfortschritt ein Land erzeugt.",
+    "skill_of_new_artists": "Dies wirkt sich auf die Kunstfertigkeit neuer Künstler aus.",
+    "stability_cost": "Dies wirkt sich auf die Kosten der Stabilitätsförderung aus.",
+    "tax_income_efficiency": "Dies wirkt sich auf die Steuereffizienz eines Lands aus.",
+    "tolerance_heathen": "Dies wirkt sich auf die Toleranz von Religionen aus, die zu einer anderen Religionsgruppe als die Primärreligion gehören.",
+    "tolerance_heretic": "Dies wirkt sich auf die Toleranz von Religionen aus, die zur selben Religionsgruppe wie die Primärreligion gehören.",
+    "tolerance_own": "Dies wirkt sich auf die Toleranz der Primärreligion aus.",
+    "war_on_different_religion_cost_modifier": "Dies wirkt sich darauf aus, wie viel die Erklärung eines Kriegs kostet, wenn es eine andere Religion hat."
+  }
+}

@@ -1,0 +1,842 @@
+{
+  "prima_scriptura": {
+    "name": "圣经首位论",
+    "desc": "尽管《圣经》必须被视为救赎的核心来源，但它不能被视作神圣启示的唯一来源。"
+  },
+  "five_doors": {
+    "name": "五门修行",
+    "desc": "部分民众实践着一种冥想方式：关闭房屋所有门，同时开启五感之门。我们将全面推行此修行法。"
+  },
+  "holy_cooperation": {
+    "name": "神圣协作",
+    "desc": "我们将转向倡导并积极参与生产劳动。此理念将延伸至农业社区，效仿早期基督徒的神圣协作社群模式。"
+  },
+  "twelve_emissaries": {
+    "name": "十二使徒议会",
+    "desc": "受部分社群组织启发，我们将从长者与完人中选举十二名智者组成最高议会，但不建立严格等级制度。"
+  },
+  "arminianism": {
+    "name": "阿民念派",
+    "desc": "阿民念派是以荷兰改革宗神学家雅各·阿民念所提出的人道主义与多元主义神学思想为基础的派别。"
+  },
+  "gomarism": {
+    "name": "戈马尔派",
+    "desc": "弗朗西斯·戈马尔反对传播伯拉纠主义的雅各·阿民念，并试图在他们二人共同执教的大学中建立新的神学学院。"
+  },
+  "instituionalized_arminianism": {
+    "name": "制度化的阿民念派",
+    "desc": "阿民念派是以荷兰改革宗神学家雅各·阿民念所提出的人道主义与多元主义神学思想为基础的派别。此宗教运动现已在我国制度化。"
+  },
+  "instituionalized_gomarism": {
+    "name": "制度化的戈马尔派",
+    "desc": "弗朗西斯·戈马尔反对传播伯拉纠主义的雅各·阿民念，并试图在他们二人共同执教的大学中建立新的神学学院。此宗教运动现已在我国制度化。"
+  },
+  "consolamentum": {
+    "name": "神慰圣事",
+    "desc": "因生活过程必然伴随对罪孽的悔恨，为纯洁进入天堂并亲近神，接受慰藉礼成为必要。民众临死前通过此礼得赦罪。"
+  },
+  "pescatarianism": {
+    "name": "鱼素主义",
+    "desc": "动物是转世灵魂的载体，因此我们不能食用它们。鱼类是自然生成的生物，并不被视为动物，所以可以食用。"
+  },
+  "the_perfects": {
+    "name": "完人",
+    "desc": "特别虔信神与人类美德者称为“完人”。这些男女因奉献接受慰藉礼成为完人。与常人不同，完人一生接受两次慰藉礼：晋位时与临终前。"
+  },
+  "adoptionism": {
+    "name": "嗣子论",
+    "desc": "我们的信条主张：耶稣基督于受洗或复活后方成为上帝之子，而非永恒具有神性。"
+  },
+  "adult_baptism": {
+    "name": "成人洗礼",
+    "desc": "基于对耶稣基督宣示信仰并加入地方信众团体，成人受洗者坚信救赎恩典与教会成员资格乃神所赐。受洗者须亲口表明信仰，此恩无法转移或代受。"
+  },
+  "aniconism": {
+    "name": "反圣像主义",
+    "desc": "任何具象化象征均属偶像崇拜或人为造作，并非表达我主信仰的正确方式。我们拒绝接受所有形象化宗教符号，其他基督教派别使用的十字架亦在此列。"
+  },
+  "asceticism": {
+    "name": "禁欲主义",
+    "desc": "物质享受会阻碍我们认识神圣真理。唯有摒弃奢侈、保持简朴生活，才能获得灵性觉醒。"
+  },
+  "bread_and_wine": {
+    "name": "饼酒同领",
+    "desc": "我们坚信圣餐必须同时领受饼与酒才有效，包括平信徒亦如此。神职人员需向全体信徒分发酒与饼两种形式的圣餐。"
+  },
+  "clerical_poverty": {
+    "name": "神职清贫",
+    "desc": "神职人员不可积累财富，应当舍弃世俗财物，专注侍奉神而非世俗事务。"
+  },
+  "crown_as_head_of_faith": {
+    "name": "君主乃信仰之首",
+    "desc": "教会不再从属于外部腐败的神权机构。所有宗教事务由世俗统治者裁决，君主成为信仰最高领袖。"
+  },
+  "freedom_to_preach": {
+    "name": "宣讲自由",
+    "desc": "尽管信徒存在分歧，各教派都享有宣讲自由，前提是心怀对神的敬畏。"
+  },
+  "gnosticism": {
+    "name": "诺斯替主义",
+    "desc": "诺斯替主义以灵知（诺斯）为个人救赎核心。我们通过寻求灵性觉悟脱离物质世界，回归神圣领域。"
+  },
+  "individual_creeds": {
+    "name": "个人信纲",
+    "desc": "允许信徒自行制定信纲，以此促进多元观点的形成，推动信仰进步！"
+  },
+  "monasticism": {
+    "name": "隐修制度",
+    "desc": "美食享乐会干扰神圣侍奉。进入偏远修道院隐居是避免此类诱惑的最佳方式。"
+  },
+  "modalism": {
+    "name": "形态论",
+    "desc": "我们坚信上帝是绝对独一的存在，圣三（圣父、圣子、圣灵）只是神在不同时期显现的形态。"
+  },
+  "organized_through_bishops": {
+    "name": "主教任命制",
+    "desc": "与其完全废除主教任命制度，不如让主教以区域管理者的身份服务教会。"
+  },
+  "pacifism": {
+    "name": "和平主义",
+    "desc": "使人和睦的人有福了，因为他们必称为神的儿子。"
+  },
+  "parish_registers": {
+    "name": "教区登记册",
+    "desc": "所有洗礼、婚礼、葬礼的详细信息必须记录在教区登记册。各堂区教区需准备专用册籍，保存在双锁保险箱中。"
+  },
+  "participation_women": {
+    "name": "女性平等参与",
+    "desc": "女性在教会中享有与男性平等的参与权，我们将推行普遍规则，确保男女待遇一致。"
+  },
+  "rejection_of_sacraments": {
+    "name": "拒行圣礼",
+    "desc": "我们的教义拒绝大多数基督教圣礼，因其本质为物质形式且无关紧要。唯有灵性部分能使人更亲近神。"
+  },
+  "sola_fide": {
+    "name": "唯独信心",
+    "desc": "善行无法取悦神。我们仅因神恩得赦免，此恩典通过其独子耶稣基督赐予我们。"
+  },
+  "sola_scriptura": {
+    "name": "唯独圣经",
+    "desc": "圣经是上帝传达给人类的真言，是基督教教义的唯一权威。一切没有引用圣经支持的宗教行为都将被斥为异端。"
+  },
+  "soli_deo_gloria": {
+    "name": "唯独神的荣耀",
+    "desc": "人类的一切成就，都只有以对上帝的赞美为献礼才能创造。"
+  },
+  "translated_bibles": {
+    "name": "译经运动",
+    "desc": "将圣经译为国民语言，可使其以触及心灵和启迪思想的方式获得通达神的最佳路径。"
+  },
+  "usury_allowed": {
+    "name": "允许取息",
+    "desc": "收取利息的货币贷款现在已被允许，这种贷款使放贷者致富，不再会被视为罪孽。"
+  },
+  "war_sermons": {
+    "name": "战时布道",
+    "desc": "战乱时期，信仰维系着人们的希望。即使在最黑暗的时刻，我国的教会也将手持圣典，坚持布道，以此鼓舞民众的士气。"
+  },
+  "worship_nyambe_god": {
+    "name": "尊奉尼扬贝为守护神",
+    "desc": "我们将把尼扬贝尊奉为我们最重要的守护神。"
+  },
+  "worship_nhialic_god": {
+    "name": "尊奉尼雅力克为守护神",
+    "desc": "我们将把尼雅力克尊奉为我们最重要的守护神。"
+  },
+  "worship_du_chie_god": {
+    "name": "尊奉杜奇耶为守护神",
+    "desc": "我们将把杜奇耶尊奉为我们最重要的守护神。"
+  },
+  "worship_ayum_god": {
+    "name": "尊奉阿尤姆为守护神",
+    "desc": "我们将把阿尤姆尊奉为我们最重要的守护神。"
+  },
+  "worship_alwet_god": {
+    "name": "尊奉阿尔韦特为守护神",
+    "desc": "我们将把阿尔韦特尊奉为我们最重要的守护神。"
+  },
+  "worship_zanahary_god": {
+    "name": "尊奉扎纳哈里为守护神",
+    "desc": "我们将把扎纳哈里尊奉为我们最重要的守护神。"
+  },
+  "worship_ratovantany_god": {
+    "name": "尊奉拉托万塔尼为守护神",
+    "desc": "我们将把拉托万塔尼尊奉为我们最重要的守护神。"
+  },
+  "worship_andrianerinerina_god": {
+    "name": "尊奉安德里亚内里内里纳为守护神",
+    "desc": "我们将把安德里亚内里内里纳尊奉为我们最重要的守护神。"
+  },
+  "worship_andriambahomanana_god": {
+    "name": "尊奉安德里亚姆巴霍马纳纳为守护神",
+    "desc": "我们将把安德里亚姆巴霍马纳纳尊奉为我们最重要的守护神。"
+  },
+  "worship_andriamahilala_god": {
+    "name": "尊奉安德里亚玛希拉拉为守护神",
+    "desc": "我们将把安德里亚玛希拉拉尊奉为我们最重要的守护神。"
+  },
+  "worship_ngai_god": {
+    "name": "尊奉恩加伊为守护神",
+    "desc": "我们将把恩加伊尊奉为我们最重要的守护神。"
+  },
+  "worship_asis_god": {
+    "name": "尊奉阿西斯为守护神",
+    "desc": "我们将把阿西斯尊奉为我们最重要的守护神。"
+  },
+  "worship_ilat_god": {
+    "name": "尊奉伊拉特为守护神",
+    "desc": "我们将把伊拉特尊奉为我们最重要的守护神。"
+  },
+  "worship_waaq_god": {
+    "name": "尊奉瓦格为守护神",
+    "desc": "我们将把瓦格尊奉为我们最重要的守护神。"
+  },
+  "worship_kaggen_god": {
+    "name": "尊奉卡根为守护神",
+    "desc": "我们将把卡根尊奉为我们最重要的守护神。"
+  },
+  "worship_hunntuattatteen_god": {
+    "name": "尊奉洪图亚塔滕为守护神",
+    "desc": "我们将把洪图亚塔滕尊奉为我们最重要的守护神。"
+  },
+  "worship_kagara_god": {
+    "name": "尊奉卡加拉为守护神",
+    "desc": "我们将把卡加拉尊奉为我们最重要的守护神。"
+  },
+  "worship_haunu_god": {
+    "name": "尊奉豪努为守护神",
+    "desc": "我们将把豪努尊奉为我们最重要的守护神。"
+  },
+  "worship_akuj_god": {
+    "name": "尊奉阿库吉为守护神",
+    "desc": "我们将把阿库吉尊奉为我们最重要的守护神。"
+  },
+  "worship_anyame_god": {
+    "name": "尊奉尼亚梅为守护神",
+    "desc": "我们将把尼亚梅尊奉为我们最重要的守护神。"
+  },
+  "worship_asase_ya_god": {
+    "name": "尊奉阿萨塞亚为守护神",
+    "desc": "我们将把阿萨塞亚尊奉为我们最重要的守护神。"
+  },
+  "worship_anansi_god": {
+    "name": "尊奉阿南西为守护神",
+    "desc": "我们将把阿南西尊奉为我们最重要的守护神。"
+  },
+  "worship_tano_god": {
+    "name": "尊奉塔诺为守护神",
+    "desc": "我们将把塔诺尊奉为我们最重要的守护神。"
+  },
+  "worship_legba_god": {
+    "name": "尊奉雷格巴为守护神",
+    "desc": "我们将把雷格巴尊奉为我们最重要的守护神。"
+  },
+  "worship_mawu_god": {
+    "name": "尊奉玛武为守护神",
+    "desc": "我们将把玛武尊奉为我们最重要的守护神。"
+  },
+  "worship_lisa_god": {
+    "name": "尊奉莉萨为守护神",
+    "desc": "我们将把莉萨尊奉为我们最重要的守护神。"
+  },
+  "worship_sakpata_god": {
+    "name": "尊奉萨克帕塔为守护神",
+    "desc": "我们将把萨克帕塔尊奉为我们最重要的守护神。"
+  },
+  "worship_olorun_god": {
+    "name": "尊奉欧洛伦为守护神",
+    "desc": "我们将把欧洛伦尊奉为我们最重要的守护神。"
+  },
+  "worship_olokun_isese_god": {
+    "name": "尊奉奥洛昆为守护神",
+    "desc": "我们将把奥洛昆尊奉为我们最重要的守护神。"
+  },
+  "worship_obatala_god": {
+    "name": "尊奉奥巴塔拉为守护神",
+    "desc": "我们将把奥巴塔拉尊奉为我们最重要的守护神。"
+  },
+  "worship_ori_god": {
+    "name": "尊奉奥里为守护神",
+    "desc": "我们将把奥里尊奉为我们最重要的守护神。"
+  },
+  "worship_egbesu_god": {
+    "name": "尊奉埃格贝苏为守护神",
+    "desc": "我们将把埃格贝苏尊奉为我们最重要的守护神。"
+  },
+  "worship_amadioha_god": {
+    "name": "尊奉阿马迪奥哈为守护神",
+    "desc": "我们将把阿马迪奥哈尊奉为我们最重要的守护神。"
+  },
+  "worship_ikenga_god": {
+    "name": "尊奉伊肯伽为守护神",
+    "desc": "我们将把伊肯伽尊奉为我们最重要的守护神。"
+  },
+  "worship_agwu_nsi_god": {
+    "name": "尊奉阿格乌为守护神",
+    "desc": "我们将把阿格乌尊奉为我们最重要的守护神。"
+  },
+  "worship_ogbunabali_god": {
+    "name": "尊奉奥古纳巴利为守护神",
+    "desc": "我们将把奥古纳巴利尊奉为我们最重要的守护神。"
+  },
+  "worship_takhar_god": {
+    "name": "尊奉塔卡尔为守护神",
+    "desc": "我们将把塔卡尔尊奉为我们最重要的守护神。"
+  },
+  "worship_mindiss_god": {
+    "name": "尊奉门迪丝为守护神",
+    "desc": "我们将把门迪丝尊奉为我们最重要的守护神。"
+  },
+  "worship_niparaya_god": {
+    "name": "尊奉尼帕拉亚为守护神",
+    "desc": "我们将把尼帕拉亚尊奉为我们最重要的守护神。"
+  },
+  "worship_u_blei_nong_thaw_god": {
+    "name": "尊奉乌勃黎·农陀为守护神",
+    "desc": "我们将把乌勃黎·农陀尊奉为我们最重要的守护神。"
+  },
+  "worship_ulei_muluk_god": {
+    "name": "尊奉乌雷·穆鹿为守护神",
+    "desc": "我们将把乌雷·穆鹿尊奉为我们最重要的守护神。"
+  },
+  "worship_ulei_umtang_god": {
+    "name": "尊奉乌雷·菴坦为守护神",
+    "desc": "我们将把乌雷·菴坦尊奉为我们最重要的守护神。"
+  },
+  "worship_ulei_longspah_god": {
+    "name": "尊奉乌雷·龙斯帕为守护神",
+    "desc": "我们将把乌雷·龙斯帕尊奉为我们最重要的守护神。"
+  },
+  "worship_marang_buru_god": {
+    "name": "尊奉摩烂迦补卢为守护神",
+    "desc": "我们将把摩烂迦补卢尊奉为我们最重要的守护神。"
+  },
+  "worship_dharti_ayo_god": {
+    "name": "尊奉陀利底阿瑜为守护神",
+    "desc": "我们将把陀利底阿瑜尊奉为我们最重要的守护神。"
+  },
+  "worship_kotan_kar_kamuy_god": {
+    "name": "尊奉村作神威为守护神",
+    "desc": "我们将把村作神威尊奉为我们最重要的守护神。"
+  },
+  "worship_kamuy_huci_god": {
+    "name": "尊奉神威媪为守护神",
+    "desc": "我们将把神威媪尊奉为我们最重要的守护神。"
+  },
+  "worship_kim_un_kamuy_god": {
+    "name": "尊奉山熊神威为守护神",
+    "desc": "我们将把山熊神威尊奉为我们最重要的守护神。"
+  },
+  "worship_rep_un_kamuy_god": {
+    "name": "尊奉海鲸神威为守护神",
+    "desc": "我们将把海鲸神威尊奉为我们最重要的守护神。"
+  },
+  "worship_baradeo_god": {
+    "name": "尊奉婆罗提乌为守护神",
+    "desc": "我们将把婆罗提乌尊奉为我们最重要的守护神。"
+  },
+  "worship_nat_awal_god": {
+    "name": "尊奉捺阿缚尔为守护神",
+    "desc": "我们将把捺阿缚尔尊奉为我们最重要的守护神。"
+  },
+  "worship_aki_pen_god": {
+    "name": "尊奉阿吉宾为守护神",
+    "desc": "我们将把阿吉宾尊奉为我们最重要的守护神。"
+  },
+  "worship_nat_awual_god": {
+    "name": "尊奉捺奥斡尔为守护神",
+    "desc": "我们将把捺奥斡尔尊奉为我们最重要的守护神。"
+  },
+  "worship_phi_heaven_god": {
+    "name": "尊奉丕天为守护神",
+    "desc": "我们将把丕天尊奉为我们最重要的守护神。"
+  },
+  "worship_phi_water_god": {
+    "name": "尊奉丕濮为守护神",
+    "desc": "我们将把丕濮尊奉为我们最重要的守护神。"
+  },
+  "worship_phi_earth_god": {
+    "name": "尊奉丕坂为守护神",
+    "desc": "我们将把丕坂尊奉为我们最重要的守护神。"
+  },
+  "worship_phi_fire_god": {
+    "name": "尊奉丕火为守护神",
+    "desc": "我们将把丕火尊奉为我们最重要的守护神。"
+  },
+  "worship_bathoubwrai_god": {
+    "name": "尊奉巴图布赖为守护神",
+    "desc": "我们将把巴图布赖尊奉为我们最重要的守护神。"
+  },
+  "worship_mainao_god": {
+    "name": "尊奉买瑙为守护神",
+    "desc": "我们将把买瑙尊奉为我们最重要的守护神。"
+  },
+  "worship_song_bwrai_god": {
+    "name": "尊奉宋布赖为守护神",
+    "desc": "我们将把宋布赖尊奉为我们最重要的守护神。"
+  },
+  "worship_bura_bagh_raja_god": {
+    "name": "尊奉布拉巴格王为守护神",
+    "desc": "我们将把布拉巴格王尊奉为我们最重要的守护神。"
+  },
+  "worship_donyi_god": {
+    "name": "尊奉冬尼为守护神",
+    "desc": "我们将把冬尼尊奉为我们最重要的守护神。"
+  },
+  "worship_polo_god": {
+    "name": "尊奉波罗为守护神",
+    "desc": "我们将把波罗尊奉为我们最重要的守护神。"
+  },
+  "worship_kine_nane_god": {
+    "name": "尊奉基内纳内为守护神",
+    "desc": "我们将把基内纳内尊奉为我们最重要的守护神。"
+  },
+  "worship_doying_bote_god": {
+    "name": "尊奉多英波特为守护神",
+    "desc": "我们将把多英波特尊奉为我们最重要的守护神。"
+  },
+  "worship_sumnima_god": {
+    "name": "尊奉松米玛为守护神",
+    "desc": "我们将把松米玛尊奉为我们最重要的守护神。"
+  },
+  "worship_paruhang_god": {
+    "name": "尊奉帕茹夯为守护神",
+    "desc": "我们将把帕茹夯尊奉为我们最重要的守护神。"
+  },
+  "worship_yuma_sammang_god": {
+    "name": "尊奉玉玛桑芒为守护神",
+    "desc": "我们将把玉玛桑芒尊奉为我们最重要的守护神。"
+  },
+  "worship_pathian_god": {
+    "name": "尊奉帕提安为守护神",
+    "desc": "我们将把帕提安尊奉为我们最重要的守护神。"
+  },
+  "worship_khuanu_god": {
+    "name": "尊奉库阿努为守护神",
+    "desc": "我们将把库阿努尊奉为我们最重要的守护神。"
+  },
+  "worship_pu_vana_god": {
+    "name": "尊奉普·瓦纳为守护神",
+    "desc": "我们将把普·瓦纳尊奉为我们最重要的守护神。"
+  },
+  "worship_sakhua_god": {
+    "name": "尊奉萨库阿为守护神",
+    "desc": "我们将把萨库阿尊奉为我们最重要的守护神。"
+  },
+  "worship_sky_god": {
+    "name": "尊奉天神为守护神",
+    "desc": "我们将把天神尊奉为我们最重要的守护神。"
+  },
+  "worship_death_god": {
+    "name": "尊奉死神为守护神",
+    "desc": "我们将把死神尊奉为我们最重要的守护神。"
+  },
+  "worship_earth_god": {
+    "name": "尊奉地神为守护神",
+    "desc": "我们将把地神尊奉为我们最重要的守护神。"
+  },
+  "worship_water_god": {
+    "name": "尊奉水神为守护神",
+    "desc": "我们将把水神尊奉为我们最重要的守护神。"
+  },
+  "worship_creator_god": {
+    "name": "尊奉造物神为守护神",
+    "desc": "我们将把造物神尊奉为我们最重要的守护神。"
+  },
+  "worship_fire_god": {
+    "name": "尊奉火神为守护神",
+    "desc": "我们将把火神尊奉为我们最重要的守护神。"
+  },
+  "worship_fertility_god": {
+    "name": "尊奉生育神为守护神",
+    "desc": "我们将把生育神尊奉为我们最重要的守护神。"
+  },
+  "worship_war_god": {
+    "name": "尊奉战神为守护神",
+    "desc": "我们将把战神尊奉为我们最重要的守护神。"
+  },
+  "worship_wind_god": {
+    "name": "尊奉风神为守护神",
+    "desc": "我们将把风神尊奉为我们最重要的守护神。"
+  },
+  "worship_thunder_god": {
+    "name": "尊奉雷神为守护神",
+    "desc": "我们将把雷神尊奉为我们最重要的守护神。"
+  },
+  "adamite_services": {
+    "name": "天体礼拜",
+    "desc": "亚当派的信条要求其信徒在进行礼拜时应赤身裸体。洗脱了身份地位和文化的浮饰，我们在上帝的眼里都是平等的，这都提醒着我们，人类在犯下堕落的原罪之前，曾共同享受着人性和天真的愉悦。"
+  },
+  "punishment_of_sin": {
+    "name": "罪罚平等",
+    "desc": "所有有罪者都将被等量齐观的惩罚，无论财富和地位。即使是尊贵之人也不能逾越天主的法律。"
+  },
+  "worship_viracocha": {
+    "name": "尊奉维拉科查为守护神",
+    "desc": "我们将把维拉科查尊奉为我们最重要的守护神。"
+  },
+  "worship_inti_god": {
+    "name": "尊奉因蒂为守护神",
+    "desc": "我们将把因蒂尊奉为我们最重要的守护神。"
+  },
+  "worship_illapa_god": {
+    "name": "尊奉伊利亚帕为守护神",
+    "desc": "我们将把伊利亚帕尊奉为我们最重要的守护神。"
+  },
+  "worship_supay_god": {
+    "name": "尊奉苏帕伊为守护神",
+    "desc": "我们将把苏帕伊尊奉为我们最重要的守护神。"
+  },
+  "worship_mamaquilla": {
+    "name": "尊奉玛玛·基利亚为守护神",
+    "desc": "我们将把玛玛·基利亚尊奉为我们最重要的守护神。"
+  },
+  "worship_pachamama": {
+    "name": "尊奉帕查玛玛为守护神",
+    "desc": "我们将把帕查玛玛尊奉为我们最重要的守护神。"
+  },
+  "worship_mama_cocha": {
+    "name": "尊奉玛玛·科查为守护神",
+    "desc": "我们将把玛玛·科查尊奉为我们最重要的守护神。"
+  },
+  "worship_urpihuachac": {
+    "name": "尊奉乌尔帕伊·瓦查克为守护神",
+    "desc": "我们将把乌尔帕伊·瓦查克尊奉为我们最重要的守护神。"
+  },
+  "worship_chinchaycamac": {
+    "name": "尊奉钦查卡马克为守护神",
+    "desc": "我们将把钦查卡马克尊奉为我们最重要的守护神。"
+  },
+  "worship_odin_god": {
+    "name": "尊奉奥丁为守护神",
+    "desc": "我们将把奥丁尊奉为我们最重要的守护神。"
+  },
+  "worship_tor_god": {
+    "name": "尊奉托尔为守护神",
+    "desc": "我们将把托尔尊奉为我们最重要的守护神。"
+  },
+  "worship_tyr_god": {
+    "name": "尊奉提尔为守护神",
+    "desc": "我们将把提尔尊奉为我们最重要的守护神。"
+  },
+  "worship_njord_god": {
+    "name": "尊奉尼奥尔德为守护神",
+    "desc": "我们将把尼奥尔德尊奉为我们最重要的守护神。"
+  },
+  "worship_freyr_god": {
+    "name": "尊奉弗雷为守护神",
+    "desc": "我们将把弗雷尊奉为我们最重要的守护神。"
+  },
+  "worship_freya_god": {
+    "name": "尊奉弗蕾亚为守护神",
+    "desc": "我们将把弗蕾亚尊奉为我们最重要的守护神。"
+  },
+  "baptism_by_fire": {
+    "name": "烛礼洗礼",
+    "desc": "我们的信仰并不认可水洗礼的永久，正如施洗者圣约翰所承认的那样。只有用燃烧的蜡烛触碰一个人头部的四个方向，才能实现永久的洗礼。"
+  },
+  "name_change": {
+    "name": "更名传统",
+    "desc": "我们社群深知名字的力量。信仰领袖常改为圣保罗追随者之名，民众则用主保圣徒居所地名命名定居点。"
+  },
+  "paulician_canon": {
+    "name": "保禄正典",
+    "desc": "我们拒绝《旧约》及其先知，正如他们不接纳彼得的书信一般。唯圣保禄之言方为天启。"
+  },
+  "punishment_by_stoning": {
+    "name": "石刑惩异",
+    "desc": "在我们的社区，石刑是惩处宗教异见者的常见手段，这一行为可能继承自安纳托利亚传统。"
+  },
+  "justified_conflicts": {
+    "name": "义战论",
+    "desc": "我国的新教会正遭遇异教和异端的威胁。在自我防卫战争中，教会将以圣经正当化我们的冲突。"
+  },
+  "pietism": {
+    "name": "虔敬主义",
+    "desc": "虔敬主义强调每位信徒的个人虔敬，注重内在转变以践行虔诚基督徒生活。"
+  },
+  "worship_tengri_god": {
+    "name": "尊奉长生天为守护神",
+    "desc": "我们将把长生天尊奉为我们最重要的守护神。"
+  },
+  "worship_umay_god": {
+    "name": "尊奉乌迈为守护神",
+    "desc": "我们将把乌迈尊奉为我们最重要的守护神。"
+  },
+  "worship_ulgen_god": {
+    "name": "尊奉于尔根为守护神",
+    "desc": "我们将把于尔根尊奉为我们最重要的守护神。"
+  },
+  "worship_erlik_god": {
+    "name": "尊奉尔力克为守护神",
+    "desc": "我们将把尔力克尊奉为我们最重要的守护神。"
+  },
+  "worship_kayra_god": {
+    "name": "尊奉凯尔拉为守护神",
+    "desc": "我们将把凯尔拉尊奉为我们最重要的守护神。"
+  },
+  "worship_bai_baianai_god": {
+    "name": "尊奉白白阿奶为守护神",
+    "desc": "我们将把白白阿奶尊奉为我们最重要的守护神。"
+  },
+  "worship_ak_ana_god": {
+    "name": "尊奉白母为守护神",
+    "desc": "我们将把白母尊奉为我们最重要的守护神。"
+  },
+  "worship_mergen_god": {
+    "name": "尊奉墨尔根为守护神",
+    "desc": "我们将把墨尔根尊奉为我们最重要的守护神。"
+  },
+  "worship_tlaloc_god": {
+    "name": "尊奉特拉洛克为守护神",
+    "desc": "我们将把特拉洛克尊奉为我们最重要的守护神。"
+  },
+  "worship_huitzilopochtli_god": {
+    "name": "尊奉维齐洛波奇特利为守护神",
+    "desc": "我们将把维齐洛波奇特利尊奉为我们最重要的守护神。"
+  },
+  "worship_quetzalcoatl_god": {
+    "name": "尊奉魁札尔·科亚特尔为守护神",
+    "desc": "我们将把魁札尔·科亚特尔尊奉为我们最重要的守护神。"
+  },
+  "worship_tezcatlipoca_god": {
+    "name": "尊奉特斯卡特利波卡为守护神",
+    "desc": "我们将把特斯卡特利波卡尊奉为我们最重要的守护神。"
+  },
+  "worship_xiuhtecuhtli_god": {
+    "name": "尊奉修特库特利为守护神",
+    "desc": "我们将把修特库特利尊奉为我们最重要的守护神。"
+  },
+  "worship_coatlicue_god": {
+    "name": "尊奉科瓦特利奎为守护神",
+    "desc": "我们将把科瓦特利奎尊奉为我们最重要的守护神。"
+  },
+  "worship_huehueteotl_god": {
+    "name": "尊奉休赫特奥特尔为守护神",
+    "desc": "我们将把修特库特利尊奉为我们最重要的守护神。"
+  },
+  "worship_mesoamerican_quetzalcoatl_god": {
+    "name": "尊奉魁札尔·科亚特尔为守护神",
+    "desc": "我们将把魁札尔·科亚特尔尊奉为我们最重要的守护神。"
+  },
+  "worship_dzahui_god": {
+    "name": "尊奉扎维为守护神",
+    "desc": "我们将把扎维尊奉为我们最重要的守护神。"
+  },
+  "worship_chaac_god": {
+    "name": "尊奉恰克为守护神",
+    "desc": "我们将把恰克尊奉为我们最重要的守护神。"
+  },
+  "worship_kukulkan_god": {
+    "name": "尊奉库库尔坎为守护神",
+    "desc": "我们将把魁札尔·科亚特尔尊奉为我们最重要的守护神。"
+  },
+  "worship_kawiil_god": {
+    "name": "尊奉卡威尔为守护神",
+    "desc": "我们将把修特库特利尊奉为我们最重要的守护神。"
+  },
+  "worship_tepeu_god": {
+    "name": "尊奉特佩乌为守护神",
+    "desc": "我们将把特佩乌尊奉为我们最重要的守护神。"
+  },
+  "worship_huracan_god": {
+    "name": "尊奉胡拉坎为守护神",
+    "desc": "我们将把胡拉坎尊奉为我们最重要的守护神。"
+  },
+  "worship_hunhunahpu_god": {
+    "name": "尊奉胡恩‑胡纳赫普为守护神",
+    "desc": "我们将把胡恩‑胡纳赫普尊奉为我们最重要的守护神。"
+  },
+  "worship_ixchel_god": {
+    "name": "尊奉伊希切尔为守护神",
+    "desc": "我们将把科瓦特利奎尊奉为我们最重要的守护神。"
+  },
+  "_modifier_names": {
+    "add_religious_aspect_christian_cost_modifier": "添加宗教信条花费",
+    "antagonism_received_modifier": "敌意产生修正",
+    "army_initiative": "陆军主动性",
+    "army_maintenance_cost": "陆军维护费",
+    "army_movement_speed": "陆军移动速度",
+    "ban_imports_of_livestock": "禁止进口",
+    "bank_interest": "银行利率",
+    "can_have_monasteries": "允许建造修道院",
+    "clergy_estate_max_tax": "教士阶层征税上限",
+    "clergy_estate_satisfaction_recovery": "教士阶层满意度恢复",
+    "clergy_estate_target_satisfaction": "教士阶层满意度均衡点",
+    "colonial_maintenance_cost": "殖民地维护费",
+    "country_cabinet_efficiency": "内阁效率",
+    "court_spending_cost": "预期宫廷支出",
+    "cultural_tradition_modifier": "文化传统%",
+    "declaring_war_cost_modifier": "宣战花费",
+    "diplomatic_capacity_modifier": "外交容量",
+    "discipline": "训练度",
+    "expand_rgo_farming_cost_modifier": "扩建农场花费",
+    "expand_rgo_mining_cost_modifier": "扩建矿场花费",
+    "gender_equality": "性别平等",
+    "global_clergy_desired_pop": "岗位容量",
+    "global_clergy_estate_power": "教士阶层力量",
+    "global_clergy_max_literacy": "教士最大识字率",
+    "global_crown_estate_power": "王室力量",
+    "global_defensive": "要塞防御",
+    "global_devastation_recovery": "繁荣度恢复",
+    "global_disease_resistance": "疫病抗性",
+    "global_distance_from_capital_speed_propagation": "邻近度速度",
+    "global_estate_target_satisfaction": "阶层满意度均衡点",
+    "global_fish_output_modifier": "产出",
+    "global_garrison_size_modifier": "驻军规模",
+    "global_hostile_attrition": "敌军损耗",
+    "global_life_expectancy": "角色预期寿命",
+    "global_lumber_output_modifier": "产出",
+    "global_maritime_presence_modifier": "海上存在 %",
+    "global_max_literacy": "最大识字率",
+    "global_max_rgo_size_modifier": "最大原产雇佣规模",
+    "global_monthly_art_start_chance": "艺术家每月创作几率",
+    "global_monthly_control": "每月控制力",
+    "global_monthly_food_modifier": "食物产出 %",
+    "global_monthly_prosperity": "每月繁荣度",
+    "global_pop_assimilation_speed_modifier": "人口同化速度",
+    "global_pop_conversion_speed_modifier": "人口皈依速度 %",
+    "global_pop_promotion_speed_modifier": "人口升级速度 %",
+    "global_population_growth": "人口增长",
+    "global_production_efficiency": "加工生产效率",
+    "global_raw_material_output": "原料生产产出",
+    "global_separatism": "分离主义",
+    "global_war_score_cost": "割让花费",
+    "global_weaponry_output_modifier": "产出",
+    "global_wild_game_output_modifier": "产出",
+    "global_wine_output_modifier": "产出",
+    "improve_relation_impact": "关系改善效率",
+    "land_morale_modifier": "陆军士气",
+    "land_morale_recovery": "陆军士气恢复速度",
+    "minting_income_factor": "铸币收入",
+    "monthly_diplomats": "每月外交官",
+    "monthly_legitimacy": "每月正统性",
+    "monthly_rebel_growth": "每月叛乱增长",
+    "monthly_religious_influence": "每月宗教影响力",
+    "monthly_towards_absolutism": "每月专制主义倾向",
+    "monthly_towards_belligerent": "每月好战姿态倾向",
+    "monthly_towards_capital_economy": "每月资本经济倾向",
+    "monthly_towards_centralization": "每月中央集权倾向",
+    "monthly_towards_communalism": "每月集体主义倾向",
+    "monthly_towards_conciliatory": "每月亲善姿态倾向",
+    "monthly_towards_decentralization": "每月地方分权倾向",
+    "monthly_towards_free_subjects": "每月自由民倾向",
+    "monthly_towards_individualism": "每月个人主义倾向",
+    "monthly_towards_innovative": "每月创新倾向",
+    "monthly_towards_plutocracy": "每月财阀政治倾向",
+    "monthly_towards_spiritualist": "每月属灵倾向",
+    "monthly_towards_traditionalist": "每月守旧倾向",
+    "monthly_war_exhaustion": "每月厌战度",
+    "monthly_yanantin": "每月亚南廷",
+    "naval_morale_modifier": "海军士气",
+    "navy_initiative": "海军主动性",
+    "peasants_estate_target_satisfaction": "农民阶层满意度均衡点",
+    "pop_join_rebel_threshold": "人口加入叛军的阈值",
+    "pop_leave_rebels_threshold": "人口脱离叛军的阈值",
+    "recruit_explorer_cost_modifier": "招募探险家花费",
+    "regiment_reinforcement_speed": "补员速度",
+    "remove_religious_aspect_christian_cost_modifier": "移除宗教信条花费",
+    "research_speed_modifier": "每月研究进度 %",
+    "skill_of_new_artists": "新晋艺术家技艺",
+    "stability_cost": "稳定度投资花费",
+    "tax_income_efficiency": "税收效率",
+    "tolerance_heathen": "异教容忍度",
+    "tolerance_heretic": "异端容忍度",
+    "tolerance_own": "正统信仰容忍度",
+    "war_on_different_religion_cost_modifier": "对异教国家宣战花费"
+  },
+  "_modifier_descs": {
+    "add_religious_aspect_christian_cost_modifier": "这影响了为宗教添加一项宗教信条的花费。",
+    "antagonism_received_modifier": "影响一个国家因其行为会产生多少敌意。",
+    "army_initiative": "影响军团在战斗中的主动性。",
+    "army_maintenance_cost": "改变维持一支军团所需的杜卡特与人力。",
+    "army_movement_speed": "影响陆军在地点之间移动的快慢。",
+    "ban_imports_of_livestock": "这会禁止一个国家拥有的所有市场的livestock 进口。",
+    "bank_interest": "影响国家银行贷款的利息。",
+    "can_have_monasteries": "这影响一个国家是否能拥有monastery建筑。",
+    "clergy_estate_max_tax": "影响可从教士征收的最高税率。",
+    "clergy_estate_satisfaction_recovery": "这影响该国家的教士的阶层满意度恢复至满意度均衡点的速度。",
+    "clergy_estate_target_satisfaction": "这影响该国家教士的满意度均衡点。",
+    "colonial_maintenance_cost": "影响每月特许殖民地的费用。",
+    "country_cabinet_efficiency": "影响国家内所有角色在内阁中的内阁效率。",
+    "court_spending_cost": "影响预计用于宫廷花费的税基比例。",
+    "cultural_tradition_modifier": "影响我国主流文化的文化传统。",
+    "declaring_war_cost_modifier": "这影响发动战争的花费。",
+    "diplomatic_capacity_modifier": "影响国家可使用的外交容量使用额数量。",
+    "discipline": "影响军团的训练度。",
+    "expand_rgo_farming_cost_modifier": "这会影响增加从事需要农场的原材料的人群所需的花费。 被视为 农场的 原材料。",
+    "expand_rgo_mining_cost_modifier": "这会影响增加从事需要矿场的原材料的人群所需的花费。 被视为 矿场的 原材料。",
+    "gender_equality": "决定女性是否可以担任与男性相同的职责。",
+    "global_clergy_desired_pop": "影响该国家所有地点可以容纳的clergy数量。",
+    "global_clergy_estate_power": "这影响整个国家的教士的阶层力量。",
+    "global_clergy_max_literacy": "影响该国家所有clergy的识字率。",
+    "global_crown_estate_power": "影响王室的阶层力量，换句话说，即是整个国家的国家力量。",
+    "global_defensive": "影响国家在围攻中被攻陷的速度。",
+    "global_devastation_recovery": "影响国家内所有地点每月繁荣度的恢复速度。",
+    "global_disease_resistance": "影响国家内所有地点的防疫能力。",
+    "global_distance_from_capital_speed_propagation": "影响邻近度在一个国家所有地点之间移动的速度。",
+    "global_estate_target_satisfaction": "这影响该国家所有阶层的满意度均衡点。",
+    "global_fish_output_modifier": "这修正整个国家的fish 产出。",
+    "global_garrison_size_modifier": "影响国家所有守军的规模。",
+    "global_hostile_attrition": "影响敌方 陆军处于我们所统治且控制力的所有领土上时承受的损耗。",
+    "global_life_expectancy": "国家内的角色开始面临因年老而死的年龄。",
+    "global_lumber_output_modifier": "这修正整个国家的lumber 产出。",
+    "global_maritime_presence_modifier": "影响国家在所有其拥有地点所邻接的海域中的海上存在。",
+    "global_max_literacy": "影响一个国家中所有人群的最大识字率。",
+    "global_max_rgo_size_modifier": "影响一个国家中所有原产的最大规模。",
+    "global_monthly_art_start_chance": "影响国家内艺术家开始创作新艺术品的几率。",
+    "global_monthly_control": "这表示国家中所有地点的控制力每月变化量。",
+    "global_monthly_food_modifier": "影响国家中所有地点的食物产量。",
+    "global_monthly_prosperity": "影响国家中所有地点的繁荣度每月变化量。",
+    "global_pop_assimilation_speed_modifier": "影响全国所有地点的人群 同化速度。",
+    "global_pop_conversion_speed_modifier": "影响全国所有地点的人群 皈依速度。",
+    "global_pop_promotion_speed_modifier": "影响全国所有地点的人群的升级速度。",
+    "global_population_growth": "影响国家中所有地点的人口增长。",
+    "global_production_efficiency": "影响整个国家的生产效率。",
+    "global_raw_material_output": "影响国家中所有地点的原材料的产出。",
+    "global_separatism": "影响国家内所有地点的分离主义。",
+    "global_war_score_cost": "影响一个国家在割让他国领土时需要多少消耗多少战争分数。",
+    "global_weaponry_output_modifier": "这修正整个国家的weaponry 产出。",
+    "global_wild_game_output_modifier": "这修正整个国家的wild game 产出。",
+    "global_wine_output_modifier": "这修正整个国家的wine 产出。",
+    "improve_relation_impact": "影响一个国家 改善关系的能力。",
+    "land_morale_modifier": "以百分比修正军团的士气上限。",
+    "land_morale_recovery": "这影响军团在士气未满时的恢复速度。",
+    "minting_income_factor": "影响国家从铸币中获得多少杜卡特。",
+    "monthly_diplomats": "影响国家每月获得的外交官数量。",
+    "monthly_legitimacy": "影响一个国家每月获得的正统性数量。",
+    "monthly_rebel_growth": "影响叛军走向叛乱或内战的速度。",
+    "monthly_religious_influence": "影响一个国家每月获得多少宗教影响力。",
+    "monthly_towards_absolutism": "这影响社会价值观向absolutism改变的进度。",
+    "monthly_towards_belligerent": "这影响社会价值观向belligerent改变的进度。",
+    "monthly_towards_capital_economy": "这影响社会价值观向首都 economy改变的进度。",
+    "monthly_towards_centralization": "这影响社会价值观向centralization改变的进度。",
+    "monthly_towards_communalism": "这影响社会价值观向communalism改变的进度。",
+    "monthly_towards_conciliatory": "这影响社会价值观向conciliatory改变的进度。",
+    "monthly_towards_decentralization": "这影响社会价值观向decentralization改变的进度。",
+    "monthly_towards_free_subjects": "这影响社会价值观向free 附属国改变的进度。",
+    "monthly_towards_individualism": "这影响社会价值观向individualism改变的进度。",
+    "monthly_towards_innovative": "这影响社会价值观向innovative改变的进度。",
+    "monthly_towards_plutocracy": "这影响社会价值观向plutocracy改变的进度。",
+    "monthly_towards_spiritualist": "这影响社会价值观向spiritualist改变的进度。",
+    "monthly_towards_traditionalist": "这影响社会价值观向traditionalist改变的进度。",
+    "monthly_war_exhaustion": "影响每月增加多少厌战度。",
+    "monthly_yanantin": "影响一个国家每月获得多少亚南廷。",
+    "naval_morale_modifier": "以百分比修正舰船的士气上限。",
+    "navy_initiative": "影响舰船在战斗中的主动性。",
+    "peasants_estate_target_satisfaction": "这影响该国家平民的满意度均衡点。",
+    "pop_join_rebel_threshold": "影响人群加入叛军所需的人群满意度阈值。该值永远不会低于。",
+    "pop_leave_rebels_threshold": "影响人群脱离叛军所需的人群满意度阈值。",
+    "recruit_explorer_cost_modifier": "影响招募探险家所需的花费。",
+    "regiment_reinforcement_speed": "影响军团的补员速度。",
+    "remove_religious_aspect_christian_cost_modifier": "这影响了为宗教移除一项宗教信条的花费。",
+    "research_speed_modifier": "影响国家的研究进度增长速度。",
+    "skill_of_new_artists": "影响新艺术家的技艺。",
+    "stability_cost": "影响稳定度投资的花费。",
+    "tax_income_efficiency": "影响国家的税收效率。",
+    "tolerance_heathen": "影响与主导宗教不同宗教组的宗教的容忍度。",
+    "tolerance_heretic": "影响与主导宗教同属宗教组的宗教的容忍度。",
+    "tolerance_own": "影响主导宗教的容忍度。",
+    "war_on_different_religion_cost_modifier": "这影响对不同宗教的国家发动战争的花费。"
+  }
+}

@@ -70,11 +70,11 @@ const cultureGroupLabels = (item.culture_groups ?? []).map((g) =>
   groupNames[g] ?? terms[g] ?? g.replace(/_group$/, "").replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
 );
 
-// Region display name (humanize file_region)
-const regionDisplay = item.file_region
-  .replace(/^_/, "")
-  .replace(/_/g, " ")
-  .replace(/\b\w/g, (c) => c.toUpperCase());
+// Region display name (from ui.ts with humanize fallback)
+const regionKey = `countries.region.${item.file_region}` as any;
+const regionKeyVal = t(lang, regionKey);
+const regionDisplay = regionKeyVal !== regionKey ? regionKeyVal
+  : item.file_region.replace(/^_/, "").replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
 // Capital display (from loc, handle possible list from duplicate keys)
 const rawCapital = Array.isArray(item.capital) ? item.capital[0] : item.capital;

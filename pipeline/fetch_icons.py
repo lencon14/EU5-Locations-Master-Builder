@@ -34,6 +34,7 @@ ICON_CATEGORIES = {
     "government_types": "government_types",
     "laws": "laws",
     "pops": "pops",
+    "holy_site_types": "holy_site_types",
 }
 
 

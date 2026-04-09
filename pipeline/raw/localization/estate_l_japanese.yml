@@ -1,4 +1,4 @@
-﻿l_japanese:
+l_japanese:
  nobles_estate: "貴族"
  nobles_estate_desc: "この階級は、わが国の土地貴族を表している。彼らの特権は古い歴史によって保証されており、元来そのほとんどは国家への並外れた奉仕に対する見返りとして与えられたものである。彼らの伝統的な務めは、国外の危険から国家を守り、統治者が平和を維持するのを助けることである。\n$estate_common_crown_ending$"
  clergy_estate: "聖職者"
@@ -687,3 +687,4 @@
  guild_investments_desc: "ギルドは生産過程の改善に向け、資金の一部を投じる合意に至った。多くの事業は失敗に終わるかもしれないが、いくつかは資本経済の構造を変える突破口をもたらす可能性がある。"
  statutes_of_piotrkow: "ピョートルクフ法令"
  statutes_of_piotrkow_desc: "この法令は、[ShowEstateTypeName('nobles_estate')]が自らの特権を強化しようとする試みの象徴であり、農奴制と貴族制が権力を握る構図を示すものである。下層階級や街の力を削ぐことにより、$nobles_estate$たちはその影響力を広げようとしている。"
+

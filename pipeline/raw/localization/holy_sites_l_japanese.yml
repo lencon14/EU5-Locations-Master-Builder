@@ -1,4 +1,4 @@
-﻿l_japanese:
+l_japanese:
  # Types
  shrine: "神社"
  shrine_desc: "$shrine$は信仰上重要な場所に建てられる。そして、その場所の神聖性を保護しつつ、崇拝を慣例化する。"
@@ -273,3 +273,4 @@
  kulpakji_temple: "クルパクジ寺院"
  shankhapur_temple: "シャンクハプール寺院"
  muktagiri_temples: "ムクタギリの寺院群"
+

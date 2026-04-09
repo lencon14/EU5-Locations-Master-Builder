@@ -11,6 +11,10 @@ export function getStaticPaths() {
 const { lang } = Astro.props as { lang: Lang };
 const goodsCount = loadCore("goods").length;
 const buildingsCount = 439; // legacy JSON count, until buildings core/loc ready
+const religionsCount = loadCore("religions").length;
+const holySitesCount = loadCore("holy_sites").length;
+const aspectsCount = loadCore("aspects").length;
+const countriesCount = loadCore("countries").length;
 ---
 
 <Base lang={lang} title="Europa Universalis V (EU5) — Paradoxpedia" fullTitle canonicalPath="/">
@@ -34,11 +38,31 @@ const buildingsCount = 439; // legacy JSON count, until buildings core/loc ready
       <p class="card-desc">{t(lang, "home.card.buildings_desc")}</p>
     </a>
 
-    <div class="card card--disabled">
-      <span class="card-label">{t(lang, "common.coming_soon")}</span>
-      <h2>{t(lang, "home.card.countries")}</h2>
-      <p class="card-desc">{t(lang, "home.card.countries_desc")}</p>
+    <div class="card card--with-subs">
+      <a href={localePath(lang, "/religions/")} class="card-main">
+        <span class="card-label">{t(lang, "common.database")}</span>
+        <h2>{t(lang, "nav.religions")}</h2>
+        <p class="stat">{religionsCount}</p>
+        <p class="card-desc">{t(lang, "home.card.religions_desc")}</p>
+      </a>
+      <div class="card-subs">
+        <a href={localePath(lang, "/holy-sites/")} class="card-sub">
+          <span class="card-sub-name">{t(lang, "nav.holy_sites")}</span>
+          <span class="card-sub-count">{holySitesCount}</span>
+        </a>
+        <a href={localePath(lang, "/aspects/")} class="card-sub">
+          <span class="card-sub-name">{t(lang, "nav.aspects")}</span>
+          <span class="card-sub-count">{aspectsCount}</span>
+        </a>
+      </div>
     </div>
+
+    <a href={localePath(lang, "/countries/")} class="card">
+      <span class="card-label">{t(lang, "common.database")}</span>
+      <h2>{t(lang, "home.card.countries")}</h2>
+      <p class="stat">{countriesCount}</p>
+      <p class="card-desc">{t(lang, "home.card.countries_desc")}</p>
+    </a>
   </section>
 
   <style>
@@ -75,8 +99,18 @@ const buildingsCount = 439; // legacy JSON count, until buildings core/loc ready
       transition: border-color 0.2s;
     }
 
-    a.card:hover {
+    a.card:hover,
+    .card--with-subs:hover {
       border-color: var(--royal-gold);
+      text-decoration: none;
+    }
+
+    .card-main {
+      display: block;
+      color: inherit;
+    }
+
+    .card-main:hover {
       text-decoration: none;
     }
 
@@ -112,6 +146,40 @@ const buildingsCount = 439; // legacy JSON count, until buildings core/loc ready
     .card-desc {
       color: var(--dusty-silver);
       font-size: 0.875rem;
+    }
+
+    .card-subs {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--iron-edge);
+    }
+
+    .card-sub {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.25rem 0.6rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 3px;
+      color: var(--dusty-silver);
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .card-sub:hover {
+      border-color: var(--royal-gold);
+      color: var(--pale-gold);
+      text-decoration: none;
+    }
+
+    .card-sub-count {
+      color: var(--royal-gold);
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
     }
   </style>
 </Base>

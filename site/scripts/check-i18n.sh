@@ -33,8 +33,8 @@ fi
 # 2. game_terms.json key set diff (not just count)
 echo ""
 echo "--- game_terms.json key coverage ---"
-EN_KEYS=$(python3 -c "import json; print('\n'.join(sorted(json.load(open('$DATA/loc/en/game_terms.json')).keys())))")
-EN_COUNT=$(echo "$EN_KEYS" | wc -l | tr -d ' ')
+EN_KEYS=$(python3 -c "import json; d=json.load(open('$DATA/loc/en/game_terms.json')); [print(k) for k in sorted(d.keys())]")
+EN_COUNT=$(echo "$EN_KEYS" | grep -c . || true)
 if [ "$EN_COUNT" -eq 0 ]; then
   echo "FAIL: English game_terms.json has 0 terms"
   ERRORS=$((ERRORS + 1))
@@ -46,7 +46,7 @@ for lang in de es fr ja ko pl pt-br ru tr zh-hans; do
     ERRORS=$((ERRORS + 1))
     continue
   fi
-  LANG_KEYS=$(python3 -c "import json; print('\n'.join(sorted(json.load(open('$FILE')).keys())))")
+  LANG_KEYS=$(python3 -c "import json; d=json.load(open('$FILE')); [print(k) for k in sorted(d.keys())]")
   MISSING=$(comm -23 <(echo "$EN_KEYS") <(echo "$LANG_KEYS"))
   EXTRA=$(comm -13 <(echo "$EN_KEYS") <(echo "$LANG_KEYS"))
   if [ -n "$MISSING" ]; then
@@ -55,7 +55,7 @@ for lang in de es fr ja ko pl pt-br ru tr zh-hans; do
   if [ -n "$EXTRA" ]; then
     echo "INFO: $lang extra keys: $(echo "$EXTRA" | tr '\n' ', ')"
   fi
-  COUNT=$(echo "$LANG_KEYS" | wc -l | tr -d ' ')
+  COUNT=$(echo "$LANG_KEYS" | grep -c . || true)
   if [ -z "$MISSING" ] && [ -z "$EXTRA" ]; then
     echo "OK: $lang — $COUNT terms"
   fi
@@ -134,16 +134,44 @@ fi
 echo ""
 echo "--- Page count per language ---"
 EN_PAGES=$(find "$DIST/en" -name "index.html" 2>/dev/null | wc -l | tr -d ' ')
-echo "  en: $EN_PAGES pages (reference)"
-for lang in de es fr ja ko pl pt-br ru tr zh-hans; do
-  COUNT=$(find "$DIST/$lang" -name "index.html" 2>/dev/null | wc -l | tr -d ' ')
-  if [ "$COUNT" -ne "$EN_PAGES" ]; then
-    echo "  FAIL: $lang: $COUNT pages (expected $EN_PAGES)"
+if [ "$EN_PAGES" -eq 0 ]; then
+  echo "FAIL: en has 0 pages — dist/en is missing or empty."
+  ERRORS=$((ERRORS + 1))
+else
+  echo "  en: $EN_PAGES pages (reference)"
+  for lang in de es fr ja ko pl pt-br ru tr zh-hans; do
+    COUNT=$(find "$DIST/$lang" -name "index.html" 2>/dev/null | wc -l | tr -d ' ')
+    if [ "$COUNT" -ne "$EN_PAGES" ]; then
+      echo "  FAIL: $lang: $COUNT pages (expected $EN_PAGES)"
+      ERRORS=$((ERRORS + 1))
+    else
+      echo "  $lang: $COUNT pages"
+    fi
+  done
+fi
+
+# 6. Full-page translation audit — all languages (visible text analysis)
+if ! python3 "$SCRIPT_DIR/audit_ja_pages.py"; then
+  ERRORS=$((ERRORS + 1))
+fi
+
+# 7. Tooltip coverage audit (data-tip counts, leak detection, English residue)
+# Known quality issues (FR/RU) are non-blocking, but 0-page scan is an error.
+echo ""
+echo "--- Tooltip coverage audit ---"
+PIPELINE_AUDIT="$SITE_DIR/../pipeline/audit_manifest.py"
+if [ -f "$PIPELINE_AUDIT" ]; then
+  AUDIT_OUT=$(python3 "$PIPELINE_AUDIT" 2>&1) || true
+  echo "$AUDIT_OUT"
+  if echo "$AUDIT_OUT" | grep -q "0 pages scanned"; then
+    echo "FAIL: Tooltip audit scanned 0 pages — build may be incomplete."
     ERRORS=$((ERRORS + 1))
-  else
-    echo "  $lang: $COUNT pages"
+  elif echo "$AUDIT_OUT" | grep -q "FAIL"; then
+    echo "WARN: Tooltip audit found issues (non-blocking)."
   fi
-done
+else
+  echo "SKIP: audit_manifest.py not found."
+fi
 
 echo ""
 if [ $ERRORS -gt 0 ]; then

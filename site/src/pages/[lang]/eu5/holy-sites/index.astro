@@ -1,0 +1,245 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
+import { loadCore, loadHolySiteLoc, loadReligionLoc } from "../../../../i18n/data";
+import { t, tf } from "../../../../i18n/ui";
+import { descToSimpleTooltip } from "../../../../i18n/render";
+import type { HolySiteItem } from "../../../../i18n/types";
+
+export function getStaticPaths() {
+  return LANG_CODES.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const core = loadCore<HolySiteItem>("holy_sites");
+const loc = loadHolySiteLoc(lang);
+const locEn = lang !== "en" ? loadHolySiteLoc("en") : loc;
+const relLoc = loadReligionLoc(lang);
+
+// Group by ALL religions (a site appears under every religion it belongs to)
+const grouped = new Map<string, HolySiteItem[]>();
+for (const s of core) {
+  const rels = s.religions?.length ? s.religions : ["other"];
+  for (const rel of rels) {
+    if (!grouped.has(rel)) grouped.set(rel, []);
+    grouped.get(rel)!.push(s);
+  }
+}
+
+// Sort groups by count desc
+const entries = [...grouped.entries()].sort((a, b) => b[1].length - a[1].length);
+
+// Importance stars
+function stars(n: number): string {
+  return "\u2605".repeat(n) + "\u2606".repeat(5 - n);
+}
+---
+
+<Base lang={lang} title={t(lang, "holy_sites.title")} canonicalPath="/holy-sites/">
+  <h1>{t(lang, "holy_sites.title")}</h1>
+  <p class="lead">{tf(lang, "common.items", { count: core.length })}</p>
+
+  <div class="filter-bar">
+    <input type="text" id="search" placeholder={t(lang, "common.search")} aria-label={t(lang, "common.search")} />
+  </div>
+
+  {
+    entries.map(([relId, items]) => {
+      const relName = relLoc[relId]?.name ?? relId;
+      const relDescTip = descToSimpleTooltip(relLoc[relId]?.desc);
+      return (
+        <section class="group-section" data-group={relId}>
+          <h2>
+            <img src={`/icons/religion/${relId}.png`} alt="" width="24" height="24" class="group-icon" />
+            {relDescTip ? (
+              <a href={localePath(lang, `/religions/${relId}/`)} class="group-name has-tip" data-tip={relDescTip}>{relName}</a>
+            ) : (
+              <a href={localePath(lang, `/religions/${relId}/`)} class="group-name">{relName}</a>
+            )}
+            <span class="group-count">{items.length}</span>
+          </h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>{t(lang, "holy_sites.col.name")}</th>
+                  {lang !== "en" && <th>{t(lang, "holy_sites.col.name_en")}</th>}
+                  <th>{t(lang, "holy_sites.col.type")}</th>
+                  <th class="imp-head">{t(lang, "holy_sites.col.importance")}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {items.map((s) => {
+                  const name = loc[s.id]?.name ?? s.id.replace(/_/g, ' ');
+                  const nameEn = lang !== "en" ? (locEn[s.id]?.name ?? s.id.replace(/_/g, ' ')) : "";
+                  const typeName = loc[s.type]?.name ?? s.type;
+                  const typeDesc = loc[s.type]?.desc;
+                  return (
+                    <tr
+                      class="hs-row"
+                      data-name={`${name} ${nameEn} ${s.id}`}
+                      data-href={localePath(lang, `/holy-sites/${s.id}/`)}
+                    >
+                      <td>
+                        <a href={localePath(lang, `/holy-sites/${s.id}/`)}>{name}</a>
+                      </td>
+                      {lang !== "en" && <td class="muted">{nameEn}</td>}
+                      <td>
+                        {typeDesc ? (
+                          <span class="type-tag has-tip" data-tip={typeDesc}>{typeName}</span>
+                        ) : (
+                          <span class="type-tag">{typeName}</span>
+                        )}
+                      </td>
+                      <td class="imp-cell">{stars(s.importance)}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      );
+    })
+  }
+
+  <script>
+    const input = document.getElementById("search") as HTMLInputElement;
+    const rows = document.querySelectorAll<HTMLTableRowElement>(".hs-row");
+
+    function normalize(s: string): string {
+      return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
+    input.addEventListener("input", () => {
+      const q = normalize(input.value);
+      rows.forEach((row) => {
+        const name = normalize(row.dataset.name || "");
+        row.style.display = name.includes(q) ? "" : "none";
+      });
+      document
+        .querySelectorAll<HTMLElement>(".group-section")
+        .forEach((sec) => {
+          const visible = sec.querySelectorAll(
+            '.hs-row:not([style*="display: none"])',
+          );
+          sec.style.display = visible.length > 0 ? "" : "none";
+        });
+    });
+
+    rows.forEach((row) => {
+      const href = row.dataset.href;
+      if (!href) return;
+      row.addEventListener("click", (e) => {
+        if ((e.target as HTMLElement).closest("a")) return;
+        window.location.href = href;
+      });
+    });
+  </script>
+
+  <style>
+    h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+    .lead { color: var(--dusty-silver); margin-bottom: 1.5rem; }
+    .filter-bar { margin-bottom: 2rem; }
+
+    #search {
+      width: 100%; max-width: 400px;
+      padding: 0.5rem 0.75rem; font-size: 1rem; font-family: var(--font-body);
+      background: var(--dark-walnut); border: 1px solid var(--iron-edge);
+      border-radius: 4px; color: var(--ivory);
+    }
+    #search::placeholder { color: var(--dim-stone); }
+    #search:focus { outline: none; border-color: var(--royal-gold); box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.2); }
+
+    .group-section { margin-bottom: 3rem; }
+    .group-section h2 {
+      font-size: 1.15rem; margin-bottom: 0.75rem;
+      display: flex; align-items: center; gap: 0.5rem;
+    }
+    .group-icon { image-rendering: pixelated; }
+    .group-name {
+      padding-bottom: 0.25rem; border-bottom: 2px solid var(--royal-gold);
+      color: var(--ivory);
+    }
+    .group-name:hover { color: var(--pale-gold); text-decoration: none; }
+    .group-count {
+      font-family: var(--font-body); font-size: 1rem; font-weight: 500;
+      color: var(--dusty-silver); background: var(--slate);
+      padding: 0.1rem 0.5rem; border-radius: 2px;
+    }
+
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; }
+    thead { background: var(--charred-oak); }
+    th {
+      padding: 0.5rem 0.75rem; text-align: left;
+      font-family: var(--font-body); font-weight: 500; font-size: 1rem;
+      color: var(--dusty-silver); text-transform: uppercase;
+      letter-spacing: 0.05em; border-bottom: 1px solid var(--iron-edge);
+    }
+    td {
+      padding: 0.5rem 0.75rem; font-size: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+    .muted { color: var(--dusty-silver); }
+
+    .type-tag {
+      display: inline-block;
+      background: rgba(201, 168, 76, 0.15); color: var(--pale-gold);
+      border-radius: 2px; padding: 0.1rem 0.5rem;
+      font-size: 1rem; font-weight: 500;
+    }
+
+    .imp-head { text-align: center; }
+    .imp-cell {
+      text-align: center; color: var(--royal-gold);
+      font-size: 0.9rem; letter-spacing: 0.05em;
+    }
+
+    tr[data-href] { cursor: pointer; }
+    tr:hover { background: var(--slate); }
+    td a { color: var(--ivory); font-weight: 500; }
+    td a:hover { color: var(--pale-gold); }
+
+    .has-tip {
+      position: relative;
+      cursor: help;
+      border-bottom: 1px dotted var(--dim-stone);
+    }
+    .has-tip::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 0;
+      width: max(200px, 100%);
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    .has-tip:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+    .type-tag.has-tip {
+      border-bottom: none;
+      cursor: help;
+    }
+    a.group-name.has-tip {
+      border-bottom: 2px solid var(--royal-gold);
+      cursor: help;
+    }
+  </style>
+</Base>
