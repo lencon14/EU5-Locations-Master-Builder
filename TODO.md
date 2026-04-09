@@ -56,6 +56,7 @@
 ## タイポグラフィ
 - [x] 全サイトのフォントサイズを DESIGN.md Type Scale に統一（見出し 1.15rem / 本文 1rem）
 - [x] ナビ・言語切替・テーブルヘッダー・タグを 1rem に統一
+- [x] CSS変数トークン化（--type-* 11トークン、207箇所置換、check-type-scale.sh でビルド時検証）
 
 ## パイプライン改善
 - [x] loc_parser.py — [word] / [ShowPopTypeName] のマークアップ処理修正
