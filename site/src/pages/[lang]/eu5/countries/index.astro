@@ -1,0 +1,365 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
+import { loadCore, loadLoc, loadReligionLoc } from "../../../../i18n/data";
+import { t, tf } from "../../../../i18n/ui";
+import type { CountryItem } from "../../../../i18n/types";
+
+export function getStaticPaths() {
+  return LANG_CODES.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const core = loadCore<CountryItem>("countries");
+const loc = loadLoc("countries", lang);
+const locEn = lang !== "en" ? loadLoc("countries", "en") : loc;
+const relLoc = loadReligionLoc(lang);
+const govLoc = loadLoc("governments", lang);
+const govLocEn = lang !== "en" ? loadLoc("governments", "en") : govLoc;
+
+// Group by file_region
+const grouped = new Map<string, CountryItem[]>();
+for (const c of core) {
+  const g = c.file_region;
+  if (!grouped.has(g)) grouped.set(g, []);
+  grouped.get(g)!.push(c);
+}
+const entries = [...grouped.entries()].sort((a, b) => b[1].length - a[1].length);
+
+// Display helpers
+function rankName(rank: string | undefined): string {
+  if (!rank) return "";
+  const key = `countries.rank.${rank}` as any;
+  const val = t(lang, key);
+  return val !== key ? val : rank.replace(/^rank_/, "").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+function govName(gov: string | undefined): string {
+  if (!gov) return "";
+  return govLoc[gov]?.name ?? govLocEn[gov]?.name ?? gov.replace(/_/g, " ");
+}
+function regionDisplay(region: string): string {
+  return region.replace(/^_/, "").replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+// Unique filter values
+const govTypes = ["monarchy", "tribe", "republic", "theocracy", "steppe_horde"];
+const rankTypes = ["rank_empire", "rank_kingdom", "rank_duchy", "rank_county"];
+---
+
+<Base lang={lang} title={t(lang, "countries.title")} canonicalPath="/countries/">
+  <h1>{t(lang, "countries.title")}</h1>
+  <p class="lead">{tf(lang, "common.items", { count: core.length })}</p>
+
+  <!-- Filter bar -->
+  <div class="filter-bar">
+    <input type="text" id="search" placeholder={t(lang, "common.search")} aria-label={t(lang, "common.search")} />
+    <select id="filter-gov" aria-label={t(lang, "countries.filter.gov")}>
+      <option value="">{t(lang, "countries.filter.gov")}</option>
+      {govTypes.map((g) => <option value={g}>{govName(g)}</option>)}
+    </select>
+    <select id="filter-rank" aria-label={t(lang, "countries.filter.rank")}>
+      <option value="">{t(lang, "countries.filter.rank")}</option>
+      {rankTypes.map((r) => <option value={r}>{rankName(r)}</option>)}
+    </select>
+    <span class="result-count" id="result-count"></span>
+  </div>
+
+  <!-- Region jump links -->
+  <nav class="region-nav" id="region-nav">
+    {entries.map(([region]) => (
+      <a href={`#region-${region}`} class="region-chip">{regionDisplay(region)}</a>
+    ))}
+  </nav>
+
+  {
+    entries.map(([region, items]) => {
+      const regionName = regionDisplay(region);
+      return (
+        <section class="group-section" data-group={region} id={`region-${region}`}>
+          <h2>
+            <span class="group-name">{regionName}</span>
+            <span class="group-count">{items.length}</span>
+          </h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th class="icon-head"></th>
+                  <th>{t(lang, "countries.col.name")}</th>
+                  {lang !== "en" && <th>{t(lang, "countries.col.name_en")}</th>}
+                  <th>{t(lang, "countries.col.religion")}</th>
+                  <th>{t(lang, "countries.col.gov")}</th>
+                  <th>{t(lang, "countries.col.rank")}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {items.map((c) => {
+                  const cName = loc[c.tag]?.name ?? c.tag;
+                  const cNameEn = lang !== "en" ? (locEn[c.tag]?.name ?? c.tag) : "";
+                  const cRel = relLoc[c.religion_definition ?? ""]?.name ?? c.religion_definition ?? "";
+                  const cGov = govName(c.government_type);
+                  const cRank = rankName(c.country_rank);
+                  return (
+                    <tr
+                      class="country-row"
+                      data-name={`${cName} ${cNameEn} ${c.tag}`}
+                      data-gov={c.government_type ?? ""}
+                      data-rank={c.country_rank ?? ""}
+                      data-href={localePath(lang, `/countries/${c.tag}/`)}
+                    >
+                      <td class="icon-cell">
+                        <img src={`/${c.icon}`} alt="" width="32" height="21" loading="lazy"
+                          onerror="this.style.display='none'" />
+                      </td>
+                      <td>
+                        <a href={localePath(lang, `/countries/${c.tag}/`)}>{cName}</a>
+                        {c.is_historic && <span class="historic-dot" title={t(lang, "countries.detail.historic")}>*</span>}
+                      </td>
+                      {lang !== "en" && <td class="muted">{cNameEn}</td>}
+                      <td class="muted">{cRel}</td>
+                      <td class="muted">{cGov}</td>
+                      <td class="muted">{cRank}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      );
+    })
+  }
+
+  <script>
+    const input = document.getElementById("search") as HTMLInputElement;
+    const filterGov = document.getElementById("filter-gov") as HTMLSelectElement;
+    const filterRank = document.getElementById("filter-rank") as HTMLSelectElement;
+    const resultCount = document.getElementById("result-count") as HTMLElement;
+    const rows = document.querySelectorAll<HTMLTableRowElement>(".country-row");
+    const sections = document.querySelectorAll<HTMLElement>(".group-section");
+    const regionChips = document.querySelectorAll<HTMLAnchorElement>(".region-chip");
+
+    function normalize(s: string): string {
+      return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
+    // Pre-compute normalized search strings
+    const normalizedNames = new Map<HTMLTableRowElement, string>();
+    rows.forEach((row) => normalizedNames.set(row, normalize(row.dataset.name || "")));
+
+    function applyFilters() {
+      const q = normalize(input.value);
+      const gov = filterGov.value;
+      const rank = filterRank.value;
+      let visible = 0;
+
+      rows.forEach((row) => {
+        const matchName = !q || normalizedNames.get(row)!.includes(q);
+        const matchGov = !gov || row.dataset.gov === gov;
+        const matchRank = !rank || row.dataset.rank === rank;
+        const show = matchName && matchGov && matchRank;
+        row.style.display = show ? "" : "none";
+        if (show) visible++;
+      });
+
+      const hasFilter = q || gov || rank;
+
+      // Update section visibility + group counts + region nav
+      sections.forEach((sec) => {
+        const visibleRows = sec.querySelectorAll('.country-row:not([style*="display: none"])');
+        sec.style.display = visibleRows.length > 0 ? "" : "none";
+        const badge = sec.querySelector(".group-count");
+        if (badge) {
+          const total = sec.querySelectorAll(".country-row").length;
+          badge.textContent = hasFilter ? `${visibleRows.length} / ${total}` : String(total);
+        }
+      });
+      regionChips.forEach((chip) => {
+        const region = chip.getAttribute("href")?.replace("#region-", "");
+        const sec = document.getElementById(`region-${region}`);
+        chip.style.display = sec && sec.style.display !== "none" ? "" : "none";
+      });
+
+      resultCount.textContent = hasFilter ? `${visible} / ${rows.length}` : "";
+    }
+
+    input.addEventListener("input", applyFilters);
+    filterGov.addEventListener("change", applyFilters);
+    filterRank.addEventListener("change", applyFilters);
+
+    // Row click navigation (event delegation)
+    document.addEventListener("click", (e) => {
+      const target = e.target as HTMLElement;
+      if (target.closest("a") || target.closest("select") || target.closest("input")) return;
+      const row = target.closest<HTMLTableRowElement>(".country-row");
+      if (row?.dataset.href) {
+        window.location.href = row.dataset.href;
+      }
+    });
+
+    // Smooth scroll for region jump links (event delegation)
+    document.querySelector(".region-nav")?.addEventListener("click", (e) => {
+      const chip = (e.target as HTMLElement).closest<HTMLAnchorElement>(".region-chip");
+      if (!chip) return;
+      e.preventDefault();
+      const target = document.querySelector(chip.getAttribute("href") ?? "");
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  </script>
+
+  <style>
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+    }
+    .lead {
+      color: var(--dusty-silver);
+      margin-bottom: 1.5rem;
+    }
+
+    /* Filter bar */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    #search {
+      flex: 1;
+      min-width: 200px;
+      max-width: 400px;
+      padding: 0.5rem 0.75rem;
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      color: var(--ivory);
+      font-size: 1rem;
+    }
+    #search:focus {
+      outline: none;
+      border-color: var(--royal-gold);
+      box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.2);
+    }
+    #search::placeholder { color: var(--dim-stone); }
+
+    select {
+      padding: 0.5rem 0.75rem;
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      color: var(--ivory);
+      font-size: 1rem;
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%239a9bab' stroke-width='1.5'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.6rem center;
+      padding-right: 2rem;
+    }
+    select:focus {
+      outline: none;
+      border-color: var(--royal-gold);
+      box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.2);
+    }
+    .result-count {
+      font-size: 0.875rem;
+      color: var(--dusty-silver);
+      margin-left: 0.25rem;
+    }
+
+    /* Region jump nav */
+    .region-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-bottom: 1.5rem;
+      padding: 0.75rem;
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+    }
+    .region-chip {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--iron-edge);
+      border-radius: 2px;
+      color: var(--dusty-silver);
+      font-size: 0.75rem;
+      text-decoration: none;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .region-chip:hover {
+      border-color: var(--royal-gold);
+      color: var(--pale-gold);
+    }
+
+    /* Group sections */
+    .group-section {
+      margin-bottom: 2rem;
+      scroll-margin-top: 4rem;
+    }
+    .group-section h2 {
+      font-size: 1.15rem;
+      font-family: var(--font-heading);
+      color: var(--pale-gold);
+      letter-spacing: 0.03em;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--gold-thread);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .group-count {
+      font-family: var(--font-body);
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: var(--dusty-silver);
+      background: var(--slate);
+      padding: 0.1rem 0.45rem;
+      border-radius: 2px;
+    }
+
+    /* Table */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; }
+    thead { background: var(--charred-oak); }
+    th {
+      padding: 0.4rem 0.75rem;
+      text-align: left;
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 0.75rem;
+      color: var(--dusty-silver);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+    td {
+      padding: 0.4rem 0.75rem;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+    .icon-head { width: 40px; }
+    .icon-cell { width: 40px; }
+    .icon-cell img { border-radius: 2px; vertical-align: middle; }
+    .country-row[data-href] { cursor: pointer; }
+    .country-row:hover { background: var(--slate); }
+    .country-row td a { color: var(--azure-banner); font-weight: 500; }
+    .country-row td a:hover { color: var(--pale-gold); }
+    .muted { color: var(--dusty-silver); }
+    .historic-dot {
+      color: var(--harvest-amber);
+      font-size: 0.75rem;
+      margin-left: 0.2rem;
+    }
+
+    @media (max-width: 640px) {
+      .filter-bar { flex-direction: column; }
+      #search { max-width: 100%; }
+      .region-nav { display: none; }
+    }
+  </style>
+</Base>

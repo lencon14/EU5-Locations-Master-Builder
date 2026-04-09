@@ -1,8910 +1,6977 @@
 {
-  "DUMMY": {
-    "name": "(플레이스홀더)",
-    "desc": ""
-  },
-  "PIR": {
-    "name": "해적단",
-    "desc": ""
-  },
-  "MER": {
-    "name": "용병단",
-    "desc": ""
-  },
   "SWE": {
-    "name": "스웨덴",
-    "desc": ""
+    "name": "스웨덴"
   },
   "DAN": {
-    "name": "덴마크",
-    "desc": ""
+    "name": "덴마크"
   },
   "SKE": {
-    "name": "스코네",
-    "desc": ""
+    "name": "스코네"
   },
   "NOR": {
-    "name": "노르웨이",
-    "desc": ""
+    "name": "노르웨이"
   },
   "FIN": {
-    "name": "핀란드",
-    "desc": ""
+    "name": "핀란드"
   },
   "BJA": {
-    "name": "뱌르미아",
-    "desc": ""
+    "name": "뱌르미아"
   },
   "TAV": {
-    "name": "타바스틀란드",
-    "desc": ""
+    "name": "타바스틀란드"
   },
   "KVE": {
-    "name": "크벤란드",
-    "desc": ""
+    "name": "크벤란드"
   },
   "SVO": {
-    "name": "사볼락스",
-    "desc": ""
+    "name": "사볼락스"
   },
   "ICE": {
-    "name": "아이슬란드",
-    "desc": ""
+    "name": "아이슬란드"
   },
   "GRL": {
-    "name": "그린란드",
-    "desc": ""
+    "name": "그린란드"
   },
   "SMI": {
-    "name": "사미",
-    "desc": ""
+    "name": "사미"
   },
   "AHI": {
-    "name": "아히",
-    "desc": ""
+    "name": "아히"
   },
   "ALY": {
-    "name": "알라이예",
-    "desc": ""
+    "name": "알라이예"
   },
   "ATQ": {
-    "name": "아르투크",
-    "desc": ""
+    "name": "아르투크"
   },
   "AYD": {
-    "name": "아이딘",
-    "desc": ""
+    "name": "아이딘"
   },
   "BFR": {
-    "name": "바프라",
-    "desc": ""
+    "name": "바프라"
   },
   "CIL": {
-    "name": "킬리키아",
-    "desc": ""
+    "name": "킬리키아"
   },
   "CND": {
-    "name": "잔다르",
-    "desc": ""
+    "name": "잔다르"
   },
   "CYP": {
-    "name": "키프로스",
-    "desc": ""
+    "name": "키프로스"
   },
   "DIL": {
-    "name": "딜마치",
-    "desc": ""
+    "name": "딜마치"
   },
   "DUL": {
-    "name": "둘카디르",
-    "desc": ""
+    "name": "둘카디르"
   },
   "ERE": {
-    "name": "에레트나",
-    "desc": ""
+    "name": "에레트나"
   },
   "GRM": {
-    "name": "게르미얀",
-    "desc": ""
+    "name": "게르미얀"
   },
   "HMD": {
-    "name": "하미드",
-    "desc": ""
+    "name": "하미드"
   },
   "HCI": {
-    "name": "하치에미르",
-    "desc": ""
+    "name": "하치에미르"
   },
   "HSN": {
-    "name": "아이유브",
-    "desc": ""
+    "name": "아이유브"
   },
   "INA": {
-    "name": "이난치",
-    "desc": ""
+    "name": "이난치"
   },
   "KAR": {
-    "name": "카라만",
-    "desc": ""
+    "name": "카라만"
   },
   "KBD": {
-    "name": "쿠바디",
-    "desc": ""
+    "name": "쿠바디"
   },
   "KRD": {
-    "name": "카라시",
-    "desc": ""
+    "name": "카라시"
   },
   "MEN": {
-    "name": "멘테셰",
-    "desc": ""
+    "name": "멘테셰"
   },
   "SHP": {
-    "name": "사히브 아타",
-    "desc": ""
+    "name": "사히브 아타"
   },
   "SRU": {
-    "name": "사루한",
-    "desc": ""
+    "name": "사루한"
   },
   "SUT": {
-    "name": "수타이",
-    "desc": ""
+    "name": "수타이"
   },
   "TDJ": {
-    "name": "타체틴",
-    "desc": ""
+    "name": "타체틴"
   },
   "TEK": {
-    "name": "테케",
-    "desc": ""
+    "name": "테케"
   },
   "TRE": {
-    "name": "트라페준타",
-    "desc": ""
+    "name": "트라페준타"
   },
   "TUR": {
-    "name": "오스만",
-    "desc": ""
+    "name": "오스만"
   },
   "BHT": {
-    "name": "보탄",
-    "desc": ""
+    "name": "보탄"
   },
   "BIN": {
-    "name": "차팍쿠르",
-    "desc": ""
+    "name": "차팍쿠르"
   },
   "BIT": {
-    "name": "비틀리스",
-    "desc": ""
+    "name": "비틀리스"
   },
   "CEM": {
-    "name": "체미슈게제크",
-    "desc": ""
+    "name": "체미슈게제크"
   },
   "DSN": {
-    "name": "다스니",
-    "desc": ""
+    "name": "다스니"
   },
   "DMB": {
-    "name": "돔볼리-보크트",
-    "desc": ""
+    "name": "돔볼리-보크트"
   },
   "EGL": {
-    "name": "에길",
-    "desc": ""
+    "name": "에길"
   },
   "HKK": {
-    "name": "하카리",
-    "desc": ""
+    "name": "하카리"
   },
   "HZN": {
-    "name": "히잔",
-    "desc": ""
+    "name": "히잔"
   },
   "HZR": {
-    "name": "하즈로",
-    "desc": ""
+    "name": "하즈로"
   },
   "JLM": {
-    "name": "졸마크",
-    "desc": ""
+    "name": "졸마크"
   },
   "MZJ": {
-    "name": "마젠자니",
-    "desc": ""
+    "name": "마젠자니"
   },
   "MUS": {
-    "name": "무스",
-    "desc": ""
+    "name": "무스"
   },
   "SOH": {
-    "name": "소흐리",
-    "desc": ""
+    "name": "소흐리"
   },
   "ZRQ": {
-    "name": "지르칸",
-    "desc": ""
+    "name": "지르칸"
   },
   "ZZR": {
-    "name": "제르자리",
-    "desc": ""
+    "name": "제르자리"
   },
   "KIL": {
-    "name": "킬리스",
-    "desc": ""
+    "name": "킬리스"
   },
   "TVS": {
-    "name": "타바스",
-    "desc": ""
+    "name": "타바스"
   },
   "QTO": {
-    "name": "키토",
-    "desc": ""
+    "name": "키토"
   },
   "CHM": {
-    "name": "치무",
-    "desc": ""
+    "name": "치무"
   },
   "XLL": {
-    "name": "슐랑",
-    "desc": ""
+    "name": "슐랑"
   },
   "CYA": {
-    "name": "사차프쿨라",
-    "desc": ""
+    "name": "사차프쿨라"
   },
   "TLN": {
-    "name": "탈란",
-    "desc": ""
+    "name": "탈란"
   },
   "ICM": {
-    "name": "이크마",
-    "desc": ""
+    "name": "이크마"
   },
   "WAN": {
-    "name": "완카",
-    "desc": ""
+    "name": "완카"
   },
   "HNK": {
-    "name": "하난 창카",
-    "desc": ""
+    "name": "하난 창카"
   },
   "URC": {
-    "name": "우린 창카",
-    "desc": ""
+    "name": "우린 창카"
   },
   "CIC": {
-    "name": "친차",
-    "desc": ""
+    "name": "친차"
   },
   "CSU": {
-    "name": "하난 쿠스코",
-    "desc": ""
+    "name": "하난 쿠스코"
   },
   "AYA": {
-    "name": "아야르마카",
-    "desc": ""
+    "name": "아야르마카"
   },
   "PIG": {
-    "name": "피나과",
-    "desc": ""
+    "name": "피나과"
   },
   "PCJ": {
-    "name": "파카 자키스",
-    "desc": ""
+    "name": "파카 자키스"
   },
   "LUP": {
-    "name": "루피자키",
-    "desc": ""
+    "name": "루피자키"
   },
   "OMG": {
-    "name": "오마과카",
-    "desc": ""
+    "name": "오마과카"
   },
   "CAV": {
-    "name": "칼바",
-    "desc": ""
+    "name": "칼바"
   },
   "MLT": {
-    "name": "말라카토",
-    "desc": ""
+    "name": "말라카토"
   },
   "GRR": {
-    "name": "가로참바",
-    "desc": ""
+    "name": "가로참바"
   },
   "MNT": {
-    "name": "만타",
-    "desc": ""
+    "name": "만타"
   },
   "GCV": {
-    "name": "관카빌카",
-    "desc": ""
+    "name": "관카빌카"
   },
   "BBA": {
-    "name": "바바",
-    "desc": ""
+    "name": "바바"
   },
   "SLL": {
-    "name": "샤발룰라",
-    "desc": ""
+    "name": "샤발룰라"
   },
   "HKR": {
-    "name": "하툰 카냐르",
-    "desc": ""
+    "name": "하툰 카냐르"
   },
   "CAX": {
-    "name": "카라",
-    "desc": ""
+    "name": "카라"
   },
   "PUU": {
-    "name": "푸루아",
-    "desc": ""
+    "name": "푸루아"
   },
   "CRA": {
-    "name": "차르카",
-    "desc": ""
+    "name": "차르카"
   },
   "KNA": {
-    "name": "카나",
-    "desc": ""
+    "name": "카나"
   },
   "KRK": {
-    "name": "카란카",
-    "desc": ""
+    "name": "카란카"
   },
   "QUL": {
-    "name": "쿨라",
-    "desc": ""
+    "name": "쿨라"
   },
   "SUR": {
-    "name": "수라",
-    "desc": ""
+    "name": "수라"
   },
   "PUK": {
-    "name": "푸카무루",
-    "desc": ""
+    "name": "푸카무루"
   },
   "BAG": {
-    "name": "바과",
-    "desc": ""
+    "name": "바과"
   },
   "HCH": {
-    "name": "우아마추코",
-    "desc": ""
+    "name": "우아마추코"
   },
   "CUI": {
-    "name": "쿠이스만쿠",
-    "desc": ""
+    "name": "쿠이스만쿠"
   },
   "HUA": {
-    "name": "우아일라스",
-    "desc": ""
+    "name": "우아일라스"
   },
   "XAU": {
-    "name": "사우사",
-    "desc": ""
+    "name": "사우사"
   },
   "CSA": {
-    "name": "카스마",
-    "desc": ""
+    "name": "카스마"
   },
   "CLQ": {
-    "name": "콜리케",
-    "desc": ""
+    "name": "콜리케"
   },
   "NTA": {
-    "name": "칸타",
-    "desc": ""
+    "name": "칸타"
   },
   "ATV": {
-    "name": "아타비요스",
-    "desc": ""
+    "name": "아타비요스"
   },
   "YAW": {
-    "name": "야우유",
-    "desc": ""
+    "name": "야우유"
   },
   "CCY": {
-    "name": "찬카이",
-    "desc": ""
+    "name": "찬카이"
   },
   "HPP": {
-    "name": "우안카팜파",
-    "desc": ""
+    "name": "우안카팜파"
   },
   "HCR": {
-    "name": "우아크라추코",
-    "desc": ""
+    "name": "우아크라추코"
   },
   "HRC": {
-    "name": "와르코",
-    "desc": ""
+    "name": "와르코"
   },
   "SRA": {
-    "name": "소라",
-    "desc": ""
+    "name": "소라"
   },
   "MYM": {
-    "name": "마욘마르카",
-    "desc": ""
+    "name": "마욘마르카"
   },
   "PCR": {
-    "name": "포크라",
-    "desc": ""
+    "name": "포크라"
   },
   "PCO": {
-    "name": "파리나코차",
-    "desc": ""
+    "name": "파리나코차"
   },
   "ANI": {
-    "name": "아루니",
-    "desc": ""
+    "name": "아루니"
   },
   "CHJ": {
-    "name": "추라혼",
-    "desc": ""
+    "name": "추라혼"
   },
   "CBY": {
-    "name": "치리바야",
-    "desc": ""
+    "name": "치리바야"
   },
   "CNC": {
-    "name": "칸치",
-    "desc": ""
+    "name": "칸치"
   },
   "LLG": {
-    "name": "코야과",
-    "desc": ""
+    "name": "코야과"
   },
   "AMN": {
-    "name": "카마나",
-    "desc": ""
+    "name": "카마나"
   },
   "UMA": {
-    "name": "우마수유스",
-    "desc": ""
+    "name": "우마수유스"
   },
   "QQH": {
-    "name": "카라 카라",
-    "desc": ""
+    "name": "카라 카라"
   },
   "CCT": {
-    "name": "칸투마르카니",
-    "desc": ""
+    "name": "칸투마르카니"
   },
   "TUP": {
-    "name": "투피사",
-    "desc": ""
+    "name": "투피사"
   },
   "CHW": {
-    "name": "추위",
-    "desc": ""
+    "name": "추위"
   },
   "KWY": {
-    "name": "칼라와야",
-    "desc": ""
+    "name": "칼라와야"
   },
   "KLL": {
-    "name": "킬라카",
-    "desc": ""
+    "name": "킬라카"
   },
   "KKE": {
-    "name": "킬케",
-    "desc": ""
+    "name": "킬케"
   },
   "CNO": {
-    "name": "초노",
-    "desc": ""
+    "name": "초노"
   },
   "BAU": {
-    "name": "바우레",
-    "desc": ""
+    "name": "바우레"
   },
   "ALC": {
-    "name": "알렌티악",
-    "desc": ""
+    "name": "알렌티악"
   },
   "MYC": {
-    "name": "밀카야크",
-    "desc": ""
+    "name": "밀카야크"
   },
   "PHE": {
-    "name": "피쿤체",
-    "desc": ""
+    "name": "피쿤체"
   },
   "CPU": {
-    "name": "쿠킴푸",
-    "desc": ""
+    "name": "쿠킴푸"
   },
   "CYC": {
-    "name": "코파야쿠",
-    "desc": ""
+    "name": "코파야쿠"
   },
   "CCH": {
-    "name": "칼차키",
-    "desc": ""
+    "name": "칼차키"
   },
   "QIM": {
-    "name": "키메스",
-    "desc": ""
+    "name": "키메스"
   },
   "QTR": {
-    "name": "키토르",
-    "desc": ""
+    "name": "키토르"
   },
   "YEM": {
-    "name": "예멘",
-    "desc": ""
+    "name": "예멘"
   },
   "JRW": {
-    "name": "자르완",
-    "desc": ""
+    "name": "자르완"
   },
   "OMA": {
-    "name": "오만",
-    "desc": ""
+    "name": "오만"
   },
   "MEC": {
-    "name": "메카",
-    "desc": ""
+    "name": "메카"
   },
   "SHM": {
-    "name": "샴마르",
-    "desc": ""
+    "name": "샴마르"
   },
   "ANZ": {
-    "name": "아니자",
-    "desc": ""
+    "name": "아니자"
   },
   "HUT": {
-    "name": "후타임",
-    "desc": ""
+    "name": "후타임"
   },
   "HRB": {
-    "name": "하르브",
-    "desc": ""
+    "name": "하르브"
   },
   "MUT": {
-    "name": "무타이르",
-    "desc": ""
+    "name": "무타이르"
   },
   "UTB": {
-    "name": "오타이바흐",
-    "desc": ""
+    "name": "오타이바흐"
   },
   "DWS": {
-    "name": "다와시르",
-    "desc": ""
+    "name": "다와시르"
   },
   "QHT": {
-    "name": "까흐탄",
-    "desc": ""
+    "name": "까흐탄"
   },
   "SBY": {
-    "name": "수바이",
-    "desc": ""
+    "name": "수바이"
   },
   "MRH": {
-    "name": "알 무라흐",
-    "desc": ""
+    "name": "알 무라흐"
   },
   "YAM": {
-    "name": "얌",
-    "desc": ""
+    "name": "얌"
   },
   "YAS": {
-    "name": "야스",
-    "desc": ""
+    "name": "야스"
   },
   "MDA": {
-    "name": "메디나",
-    "desc": ""
+    "name": "메디나"
   },
   "KLB": {
-    "name": "킬랍",
-    "desc": ""
+    "name": "킬랍"
   },
   "AAD": {
-    "name": "알 아이드",
-    "desc": ""
+    "name": "알 아이드"
   },
   "BNL": {
-    "name": "람",
-    "desc": ""
+    "name": "람"
   },
   "AZF": {
-    "name": "알자피르",
-    "desc": ""
+    "name": "알자피르"
   },
   "ZIB": {
-    "name": "지브",
-    "desc": ""
+    "name": "지브"
   },
   "DHF": {
-    "name": "도파르",
-    "desc": ""
+    "name": "도파르"
   },
   "ACX": {
-    "name": "아카시",
-    "desc": ""
+    "name": "아카시"
   },
   "COP": {
-    "name": "샤윌출 쿠냐차와이",
-    "desc": ""
+    "name": "샤윌출 쿠냐차와이"
   },
   "GUC": {
-    "name": "쿠아우치칠",
-    "desc": ""
+    "name": "쿠아우치칠"
   },
   "YRM": {
-    "name": "요레메",
-    "desc": ""
+    "name": "요레메"
   },
   "EUD": {
-    "name": "에우데베",
-    "desc": ""
+    "name": "에우데베"
   },
   "TGU": {
-    "name": "테귀스",
-    "desc": ""
+    "name": "테귀스"
   },
   "JOV": {
-    "name": "조바스",
-    "desc": ""
+    "name": "조바스"
   },
   "TEG": {
-    "name": "테귀마",
-    "desc": ""
+    "name": "테귀마"
   },
   "CNH": {
-    "name": "카위나치스",
-    "desc": ""
+    "name": "카위나치스"
   },
   "PIM": {
-    "name": "아키멜 오오담",
-    "desc": ""
+    "name": "아키멜 오오담"
   },
   "HHK": {
-    "name": "호호캄",
-    "desc": ""
+    "name": "호호캄"
   },
   "SOB": {
-    "name": "소바이푸리",
-    "desc": ""
+    "name": "소바이푸리"
   },
   "TOO": {
-    "name": "토호노 오오담",
-    "desc": ""
+    "name": "토호노 오오담"
   },
   "OOB": {
-    "name": "오옵",
-    "desc": ""
+    "name": "오옵"
   },
   "RAR": {
-    "name": "라라무리",
-    "desc": ""
+    "name": "라라무리"
   },
   "YAQ": {
-    "name": "야키",
-    "desc": ""
+    "name": "야키"
   },
   "HOP": {
-    "name": "호피",
-    "desc": ""
+    "name": "호피"
   },
   "DNE": {
-    "name": "디네",
-    "desc": ""
+    "name": "디네"
   },
   "ZNI": {
-    "name": "주니",
-    "desc": ""
+    "name": "주니"
   },
   "TEY": {
-    "name": "테이파나",
-    "desc": ""
+    "name": "테이파나"
   },
   "ISL": {
-    "name": "쉬에휘박",
-    "desc": ""
+    "name": "쉬에휘박"
   },
   "ACO": {
-    "name": "아아쿠",
-    "desc": ""
+    "name": "아아쿠"
   },
   "KER": {
-    "name": "치야",
-    "desc": ""
+    "name": "치야"
   },
   "TNN": {
-    "name": "타노",
-    "desc": ""
+    "name": "타노"
   },
   "TAO": {
-    "name": "이아츌로파이보",
-    "desc": ""
+    "name": "이아츌로파이보"
   },
   "TST": {
-    "name": "투프 슈르 티아",
-    "desc": ""
+    "name": "투프 슈르 티아"
   },
   "OHK": {
-    "name": "오크위 오윈게",
-    "desc": ""
+    "name": "오크위 오윈게"
   },
   "TTR": {
-    "name": "토토라메",
-    "desc": ""
+    "name": "토토라메"
   },
   "XIX": {
-    "name": "시시메",
-    "desc": ""
+    "name": "시시메"
   },
   "TAE": {
-    "name": "타우에",
-    "desc": ""
+    "name": "타우에"
   },
   "GUV": {
-    "name": "과사베",
-    "desc": ""
+    "name": "과사베"
   },
   "TPH": {
-    "name": "테페우안",
-    "desc": ""
+    "name": "테페우안"
   },
   "XUM": {
-    "name": "슈마노스",
-    "desc": ""
+    "name": "슈마노스"
   },
   "TML": {
-    "name": "타마울리테코",
-    "desc": ""
+    "name": "타마울리테코"
   },
   "CAD": {
-    "name": "아시이나이",
-    "desc": ""
+    "name": "아시이나이"
   },
   "KIH": {
-    "name": "키타이시",
-    "desc": ""
+    "name": "키타이시"
   },
   "HTS": {
-    "name": "히사치놈",
-    "desc": ""
+    "name": "히사치놈"
   },
   "NUW": {
-    "name": "누우비",
-    "desc": ""
+    "name": "누우비"
   },
   "NWV": {
-    "name": "누우부",
-    "desc": ""
+    "name": "누우부"
   },
   "CRO": {
-    "name": "크로아티아",
-    "desc": ""
+    "name": "크로아티아"
   },
   "ACH": {
-    "name": "아카이아",
-    "desc": ""
+    "name": "아카이아"
   },
   "ATH": {
-    "name": "아테네",
-    "desc": ""
+    "name": "아테네"
   },
   "CEP": {
-    "name": "케팔로니아",
-    "desc": ""
+    "name": "케팔로니아"
   },
   "LAT": {
-    "name": "콘스탄티노플",
-    "desc": ""
+    "name": "콘스탄티노플"
   },
   "NAX": {
-    "name": "낙소스",
-    "desc": ""
+    "name": "낙소스"
   },
   "EPI": {
-    "name": "에페이로스",
-    "desc": ""
+    "name": "에페이로스"
   },
   "BYZ": {
-    "name": "비잔티움",
-    "desc": ""
+    "name": "비잔티움"
   },
   "THE": {
-    "name": "테살로니카",
-    "desc": ""
+    "name": "테살로니카"
   },
   "THS": {
-    "name": "테살리아",
-    "desc": ""
+    "name": "테살리아"
   },
   "SER": {
-    "name": "세르비아",
-    "desc": ""
+    "name": "세르비아"
   },
   "ALB": {
-    "name": "알바니아",
-    "desc": ""
+    "name": "알바니아"
   },
   "THP": {
-    "name": "토피아",
-    "desc": ""
+    "name": "토피아"
   },
   "MZK": {
-    "name": "무자카",
-    "desc": ""
+    "name": "무자카"
   },
   "ANT": {
-    "name": "아리아니티",
-    "desc": ""
+    "name": "아리아니티"
   },
   "MTR": {
-    "name": "마타랑가",
-    "desc": ""
+    "name": "마타랑가"
   },
   "BOS": {
-    "name": "보스니아",
-    "desc": ""
+    "name": "보스니아"
   },
   "RAG": {
-    "name": "라구사",
-    "desc": ""
+    "name": "라구사"
   },
   "BUL": {
-    "name": "불가리아",
-    "desc": ""
+    "name": "불가리아"
   },
   "VID": {
-    "name": "비딘",
-    "desc": ""
+    "name": "비딘"
   },
   "CLI": {
-    "name": "첼레",
-    "desc": ""
+    "name": "첼레"
   },
   "NEO": {
-    "name": "네오파트리아",
-    "desc": ""
+    "name": "네오파트리아"
   },
   "BOD": {
-    "name": "보도니차",
-    "desc": ""
+    "name": "보도니차"
   },
   "ARG": {
-    "name": "아르고스",
-    "desc": ""
+    "name": "아르고스"
   },
   "KNI": {
-    "name": "구호 수도회",
-    "desc": ""
+    "name": "구호 수도회"
   },
   "CRT": {
-    "name": "칸디아",
-    "desc": ""
+    "name": "칸디아"
   },
   "NEG": {
-    "name": "네그로폰테",
-    "desc": ""
+    "name": "네그로폰테"
   },
   "SAO": {
-    "name": "살로나",
-    "desc": ""
+    "name": "살로나"
   },
   "CAR": {
-    "name": "카르니올라",
-    "desc": ""
+    "name": "카르니올라"
   },
   "TRO": {
-    "name": "트라부니아",
-    "desc": ""
+    "name": "트라부니아"
   },
   "GOR": {
-    "name": "고리치아",
-    "desc": ""
+    "name": "고리치아"
   },
   "LIV": {
-    "name": "리보니아",
-    "desc": ""
+    "name": "리보니아"
   },
   "TEU": {
-    "name": "튜튼",
-    "desc": ""
+    "name": "튜튼"
   },
   "ERM": {
-    "name": "바르미아",
-    "desc": ""
+    "name": "바르미아"
   },
   "CHL": {
-    "name": "헤움노",
-    "desc": ""
+    "name": "헤움노"
   },
   "PMS": {
-    "name": "포메사니아",
-    "desc": ""
+    "name": "포메사니아"
   },
   "SMD": {
-    "name": "자믈란트",
-    "desc": ""
+    "name": "자믈란트"
   },
   "BIO": {
-    "name": "외젤",
-    "desc": ""
+    "name": "외젤"
   },
   "KUR": {
-    "name": "쿠를란트",
-    "desc": ""
+    "name": "쿠를란트"
   },
   "BID": {
-    "name": "도르파트",
-    "desc": ""
+    "name": "도르파트"
   },
   "RIG": {
-    "name": "리가",
-    "desc": ""
+    "name": "리가"
   },
   "ARR": {
-    "name": "리가 라트비아",
-    "desc": ""
+    "name": "리가 라트비아"
   },
   "KRL": {
-    "name": "카렐리아",
-    "desc": ""
+    "name": "카렐리아"
   },
   "LIT": {
-    "name": "리투아니아",
-    "desc": ""
+    "name": "리투아니아"
   },
   "SXM": {
-    "name": "사모기티아",
-    "desc": ""
+    "name": "사모기티아"
   },
   "SGN": {
-    "name": "소나르가온",
-    "desc": ""
+    "name": "소나르가온"
   },
   "GAU": {
-    "name": "가우르",
-    "desc": ""
+    "name": "가우르"
   },
   "STN": {
-    "name": "삽타그람",
-    "desc": ""
+    "name": "삽타그람"
   },
   "AHO": {
-    "name": "아홈",
-    "desc": ""
+    "name": "아홈"
   },
   "KMA": {
-    "name": "카마타",
-    "desc": ""
+    "name": "카마타"
   },
   "DIM": {
-    "name": "디마사",
-    "desc": ""
+    "name": "디마사"
   },
   "TWI": {
-    "name": "트위프라",
-    "desc": ""
+    "name": "트위프라"
   },
   "CUT": {
-    "name": "추티아",
-    "desc": ""
+    "name": "추티아"
   },
   "JNT": {
-    "name": "자인티아",
-    "desc": ""
+    "name": "자인티아"
   },
   "TRF": {
-    "name": "타라프",
-    "desc": ""
+    "name": "타라프"
   },
   "LUR": {
-    "name": "라우르",
-    "desc": ""
+    "name": "라우르"
   },
   "BHP": {
-    "name": "말라붐",
-    "desc": ""
+    "name": "말라붐"
   },
   "CER": {
-    "name": "체로",
-    "desc": ""
+    "name": "체로"
   },
   "UJJ": {
-    "name": "우자이니야",
-    "desc": ""
+    "name": "우자이니야"
   },
   "RKS": {
-    "name": "락셀",
-    "desc": ""
+    "name": "락셀"
   },
   "ONW": {
-    "name": "오이니와르",
-    "desc": ""
+    "name": "오이니와르"
   },
   "KKR": {
-    "name": "코크라",
-    "desc": ""
+    "name": "코크라"
   },
   "GWL": {
-    "name": "가르왈",
-    "desc": ""
+    "name": "가르왈"
   },
   "KHS": {
-    "name": "카사",
-    "desc": ""
+    "name": "카사"
   },
   "KMN": {
-    "name": "쿠마온",
-    "desc": ""
+    "name": "쿠마온"
   },
   "KTU": {
-    "name": "카트만두",
-    "desc": ""
+    "name": "카트만두"
   },
   "DTI": {
-    "name": "도티",
-    "desc": ""
+    "name": "도티"
   },
   "SRM": {
-    "name": "나한",
-    "desc": ""
+    "name": "나한"
   },
   "JBL": {
-    "name": "주발",
-    "desc": ""
+    "name": "주발"
   },
   "LWA": {
-    "name": "림부완",
-    "desc": ""
+    "name": "림부완"
   },
   "CDD": {
-    "name": "차운단디",
-    "desc": ""
+    "name": "차운단디"
   },
   "DGL": {
-    "name": "몰디브",
-    "desc": ""
+    "name": "몰디브"
   },
   "KUI": {
-    "name": "쿠이쿠로",
-    "desc": ""
+    "name": "쿠이쿠로"
   },
   "MRJ": {
-    "name": "마라조아라",
-    "desc": ""
+    "name": "마라조아라"
   },
   "TPA": {
-    "name": "투피남바",
-    "desc": ""
+    "name": "투피남바"
   },
   "TPQ": {
-    "name": "투피니킹",
-    "desc": ""
+    "name": "투피니킹"
   },
   "CRJ": {
-    "name": "카리조",
-    "desc": ""
+    "name": "카리조"
   },
   "NDV": {
-    "name": "난데바",
-    "desc": ""
+    "name": "난데바"
   },
   "KIO": {
-    "name": "카이오와",
-    "desc": ""
+    "name": "카이오와"
   },
   "XTA": {
-    "name": "셰타",
-    "desc": ""
+    "name": "셰타"
   },
   "AVA": {
-    "name": "아바",
-    "desc": ""
+    "name": "아바"
   },
   "GCZ": {
-    "name": "고이타카스",
-    "desc": ""
+    "name": "고이타카스"
   },
   "AIM": {
-    "name": "아이모레",
-    "desc": ""
+    "name": "아이모레"
   },
   "KRR": {
-    "name": "키리리",
-    "desc": ""
+    "name": "키리리"
   },
   "CAE": {
-    "name": "카에테",
-    "desc": ""
+    "name": "카에테"
   },
   "SUC": {
-    "name": "수쿠루",
-    "desc": ""
+    "name": "수쿠루"
   },
   "POT": {
-    "name": "포티구아라",
-    "desc": ""
+    "name": "포티구아라"
   },
   "ENG": {
-    "name": "잉글랜드",
-    "desc": ""
+    "name": "잉글랜드"
   },
   "SCO": {
-    "name": "스코틀랜드",
-    "desc": ""
+    "name": "스코틀랜드"
   },
   "SBL": {
-    "name": "발리올",
-    "desc": ""
+    "name": "발리올"
   },
   "CLA": {
-    "name": "클랜더보이",
-    "desc": ""
+    "name": "클랜더보이"
   },
   "CLR": {
-    "name": "클랜리카르드",
-    "desc": ""
+    "name": "클랜리카르드"
   },
   "CWM": {
-    "name": "클랜윌리엄",
-    "desc": ""
+    "name": "클랜윌리엄"
   },
   "ULS": {
-    "name": "얼스터",
-    "desc": ""
+    "name": "얼스터"
   },
   "ORD": {
-    "name": "오먼드",
-    "desc": ""
+    "name": "오먼드"
   },
   "DMS": {
-    "name": "데스먼드",
-    "desc": ""
+    "name": "데스먼드"
   },
   "KID": {
-    "name": "킬데어",
-    "desc": ""
+    "name": "킬데어"
   },
   "BEA": {
-    "name": "베아라",
-    "desc": ""
+    "name": "베아라"
   },
   "CMA": {
-    "name": "서코노트",
-    "desc": ""
+    "name": "서코노트"
   },
   "UMH": {
-    "name": "오윌",
-    "desc": ""
+    "name": "오윌"
   },
   "OSS": {
-    "name": "오소리",
-    "desc": ""
+    "name": "오소리"
   },
   "MCM": {
-    "name": "먼스터",
-    "desc": ""
+    "name": "먼스터"
   },
   "OIL": {
-    "name": "오리엘",
-    "desc": ""
+    "name": "오리엘"
   },
   "AMA": {
-    "name": "아르마",
-    "desc": ""
+    "name": "아르마"
   },
   "DHM": {
-    "name": "더럼",
-    "desc": ""
+    "name": "더럼"
   },
   "CET": {
-    "name": "체스터",
-    "desc": ""
+    "name": "체스터"
   },
   "LAN": {
-    "name": "랭커스터",
-    "desc": ""
+    "name": "랭커스터"
   },
   "CNN": {
-    "name": "코노트",
-    "desc": ""
+    "name": "코노트"
   },
   "MTH": {
-    "name": "미스",
-    "desc": ""
+    "name": "미스"
   },
   "ANN": {
-    "name": "애널리",
-    "desc": ""
+    "name": "애널리"
   },
   "PLE": {
-    "name": "페일",
-    "desc": ""
+    "name": "페일"
   },
   "WLS": {
-    "name": "웨일스",
-    "desc": ""
+    "name": "웨일스"
   },
   "TYR": {
-    "name": "타이론",
-    "desc": ""
+    "name": "타이론"
   },
   "AMH": {
-    "name": "아르드마이어",
-    "desc": ""
+    "name": "아르드마이어"
   },
   "INI": {
-    "name": "이니쇼언",
-    "desc": ""
+    "name": "이니쇼언"
   },
   "LEI": {
-    "name": "렌스터",
-    "desc": ""
+    "name": "렌스터"
   },
   "TRY": {
-    "name": "티르코넬",
-    "desc": ""
+    "name": "티르코넬"
+  },
+  "KEE": {
+    "name": "키나트"
   },
   "GLS": {
-    "name": "글렌즈",
-    "desc": ""
+    "name": "글렌즈"
   },
   "IVG": {
-    "name": "아이베",
-    "desc": ""
+    "name": "아이베"
   },
   "HYM": {
-    "name": "하이 매니",
-    "desc": ""
+    "name": "하이 매니"
   },
   "IMA": {
-    "name": "이말",
-    "desc": ""
+    "name": "이말"
   },
   "DCI": {
-    "name": "데시스",
-    "desc": ""
+    "name": "데시스"
   },
   "TGH": {
-    "name": "티레라",
-    "desc": ""
+    "name": "티레라"
   },
   "ELY": {
-    "name": "일리",
-    "desc": ""
+    "name": "일리"
   },
   "FCL": {
-    "name": "피르컬",
-    "desc": ""
+    "name": "피르컬"
   },
   "LOI": {
-    "name": "군도",
-    "desc": ""
+    "name": "군도"
   },
   "FMA": {
-    "name": "페르마나",
-    "desc": ""
+    "name": "페르마나"
   },
   "BFN": {
-    "name": "서브레프니",
-    "desc": ""
+    "name": "서브레프니"
   },
   "CVN": {
-    "name": "동브레프니",
-    "desc": ""
+    "name": "동브레프니"
   },
   "MYO": {
-    "name": "메이요",
-    "desc": ""
+    "name": "메이요"
   },
   "THO": {
-    "name": "토먼드",
-    "desc": ""
+    "name": "토먼드"
   },
   "SLN": {
-    "name": "카버리",
-    "desc": ""
+    "name": "카버리"
   },
   "FLY": {
-    "name": "오팔리",
-    "desc": ""
+    "name": "오팔리"
   },
   "CRN": {
-    "name": "콘월",
-    "desc": ""
+    "name": "콘월"
   },
   "GWR": {
-    "name": "고웨르",
-    "desc": ""
+    "name": "고웨르"
   },
   "GMG": {
-    "name": "글러모건",
-    "desc": ""
+    "name": "글러모건"
   },
   "MAC": {
-    "name": "마르치",
-    "desc": ""
+    "name": "마르치"
   },
   "AUD": {
-    "name": "아룬델",
-    "desc": ""
+    "name": "아룬델"
   },
   "BRO": {
-    "name": "브레크녹",
-    "desc": ""
+    "name": "브레크녹"
   },
   "POS": {
-    "name": "포이스",
-    "desc": ""
+    "name": "포이스"
   },
   "EWY": {
-    "name": "에위아스",
-    "desc": ""
+    "name": "에위아스"
   },
   "CMS": {
-    "name": "케마이스",
-    "desc": ""
+    "name": "케마이스"
   },
   "PMB": {
-    "name": "펨브로크",
-    "desc": ""
+    "name": "펨브로크"
   },
   "DEN": {
-    "name": "덴비그흐",
-    "desc": ""
+    "name": "덴비그흐"
   },
   "GDD": {
-    "name": "귀네드",
-    "desc": ""
+    "name": "귀네드"
   },
   "PWS": {
-    "name": "포이스",
-    "desc": ""
+    "name": "포이스"
   },
   "DHB": {
-    "name": "데헤이바쓰",
-    "desc": ""
+    "name": "데헤이바쓰"
   },
   "MWG": {
-    "name": "모르간누그",
-    "desc": ""
+    "name": "모르간누그"
   },
   "BCN": {
-    "name": "브러허이뇨그",
-    "desc": ""
+    "name": "브러허이뇨그"
   },
   "GWT": {
-    "name": "그웬트",
-    "desc": ""
+    "name": "그웬트"
   },
   "MNN": {
-    "name": "맨",
-    "desc": ""
+    "name": "맨"
   },
   "ORK": {
-    "name": "오크니",
-    "desc": ""
+    "name": "오크니"
   },
   "MOY": {
-    "name": "모레이",
-    "desc": ""
+    "name": "모레이"
   },
   "ROS": {
-    "name": "로스",
-    "desc": ""
+    "name": "로스"
   },
   "NOL": {
-    "name": "노섬벌랜드",
-    "desc": ""
+    "name": "노섬벌랜드"
   },
   "GLY": {
-    "name": "갤러웨이",
-    "desc": ""
+    "name": "갤러웨이"
   },
   "TRT": {
-    "name": "타온타엔랏",
-    "desc": ""
+    "name": "타온타엔랏"
   },
   "AGW": {
-    "name": "아티그나완탄",
-    "desc": ""
+    "name": "아티그나완탄"
   },
   "ARN": {
-    "name": "아렌다로논",
-    "desc": ""
+    "name": "아렌다로논"
   },
   "ATG": {
-    "name": "아티그니농나학",
-    "desc": ""
+    "name": "아티그니농나학"
   },
   "ATC": {
-    "name": "아타론크로논",
-    "desc": ""
+    "name": "아타론크로논"
   },
   "ADR": {
-    "name": "아온디로논",
-    "desc": ""
+    "name": "아온디로논"
   },
   "ONG": {
-    "name": "옹니아아라",
-    "desc": ""
+    "name": "옹니아아라"
   },
   "TIO": {
-    "name": "티오논타테",
-    "desc": ""
+    "name": "티오논타테"
   },
   "OSG": {
-    "name": "오셰아가",
-    "desc": ""
+    "name": "오셰아가"
   },
   "MAS": {
-    "name": "마이수나",
-    "desc": ""
+    "name": "마이수나"
   },
   "STD": {
-    "name": "스타다코나",
-    "desc": ""
+    "name": "스타다코나"
   },
   "AGJ": {
-    "name": "아고주다",
-    "desc": ""
+    "name": "아고주다"
   },
   "SOK": {
-    "name": "마지프스코이악",
-    "desc": ""
+    "name": "마지프스코이악"
   },
   "PNS": {
-    "name": "아로사군타쿡",
-    "desc": ""
+    "name": "아로사군타쿡"
   },
   "MLS": {
-    "name": "월라스토크웨위윅",
-    "desc": ""
+    "name": "월라스토크웨위윅"
   },
   "AKW": {
-    "name": "아티카메크",
-    "desc": ""
+    "name": "아티카메크"
   },
   "TMG": {
-    "name": "테미카밍",
-    "desc": ""
+    "name": "테미카밍"
   },
   "ABT": {
-    "name": "아비티비",
-    "desc": ""
+    "name": "아비티비"
   },
   "OJI": {
-    "name": "오지브웨",
-    "desc": ""
+    "name": "오지브웨"
   },
   "ODW": {
-    "name": "오다와",
-    "desc": ""
+    "name": "오다와"
   },
   "NPS": {
-    "name": "니입싱",
-    "desc": ""
+    "name": "니입싱"
   },
   "MSG": {
-    "name": "미시사게",
-    "desc": ""
+    "name": "미시사게"
   },
   "HUN": {
-    "name": "헝가리",
-    "desc": ""
+    "name": "헝가리"
   },
   "WAL": {
-    "name": "왈라키아",
-    "desc": ""
+    "name": "왈라키아"
   },
   "BIA": {
-    "name": "바이아",
-    "desc": ""
+    "name": "바이아"
   },
   "BLD": {
-    "name": "브를라드",
-    "desc": ""
+    "name": "브를라드"
   },
   "HTN": {
-    "name": "호틴",
-    "desc": ""
+    "name": "호틴"
   },
   "HSC": {
-    "name": "한스카",
-    "desc": ""
+    "name": "한스카"
   },
   "IAS": {
-    "name": "이아시",
-    "desc": ""
+    "name": "이아시"
   },
   "SRC": {
-    "name": "소로카",
-    "desc": ""
+    "name": "소로카"
   },
   "SSI": {
-    "name": "스트러시네츠",
-    "desc": ""
+    "name": "스트러시네츠"
   },
   "TRA": {
-    "name": "트란실바니아",
-    "desc": ""
+    "name": "트란실바니아"
   },
   "GEO": {
-    "name": "조지아",
-    "desc": ""
+    "name": "조지아"
   },
   "AAI": {
-    "name": "알라스타니",
-    "desc": ""
+    "name": "알라스타니"
   },
   "IME": {
-    "name": "이메레티",
-    "desc": ""
+    "name": "이메레티"
   },
   "SME": {
-    "name": "삼츠헤",
-    "desc": ""
+    "name": "삼츠헤"
   },
   "SRV": {
-    "name": "시르반",
-    "desc": ""
+    "name": "시르반"
   },
   "AVR": {
-    "name": "아바리아",
-    "desc": ""
+    "name": "아바리아"
   },
   "TRK": {
-    "name": "타르키",
-    "desc": ""
+    "name": "타르키"
   },
   "ARM": {
-    "name": "아르메니아",
-    "desc": ""
+    "name": "아르메니아"
   },
   "AMB": {
-    "name": "암베르드",
-    "desc": ""
+    "name": "암베르드"
   },
   "VDZ": {
-    "name": "바요츠조르",
-    "desc": ""
+    "name": "바요츠조르"
   },
   "CIR": {
-    "name": "체르케스",
-    "desc": ""
+    "name": "체르케스"
   },
   "CPA": {
-    "name": "코파",
-    "desc": ""
+    "name": "코파"
   },
   "HTY": {
-    "name": "하투카이",
-    "desc": ""
+    "name": "하투카이"
   },
   "HYT": {
-    "name": "히투크",
-    "desc": ""
+    "name": "히투크"
   },
   "KDA": {
-    "name": "카바르디아",
-    "desc": ""
+    "name": "카바르디아"
   },
   "KIP": {
-    "name": "키피케",
-    "desc": ""
+    "name": "키피케"
   },
   "TEM": {
-    "name": "테미르고이",
-    "desc": ""
+    "name": "테미르고이"
   },
   "SKI": {
-    "name": "셰키",
-    "desc": ""
+    "name": "셰키"
   },
   "KCN": {
-    "name": "카첸",
-    "desc": ""
+    "name": "카첸"
   },
   "SYU": {
-    "name": "슈니크",
-    "desc": ""
+    "name": "슈니크"
   },
   "ALN": {
-    "name": "알라니아",
-    "desc": ""
+    "name": "알라니아"
   },
   "DZK": {
-    "name": "두르주케티아",
-    "desc": ""
+    "name": "두르주케티아"
   },
   "SMS": {
-    "name": "심시르",
-    "desc": ""
+    "name": "심시르"
   },
   "KAI": {
-    "name": "카이타그",
-    "desc": ""
+    "name": "카이타그"
   },
   "LEK": {
-    "name": "레키아",
-    "desc": ""
+    "name": "레키아"
   },
   "RUT": {
-    "name": "루툴",
-    "desc": ""
+    "name": "루툴"
   },
   "TBA": {
-    "name": "타바사란",
-    "desc": ""
+    "name": "타바사란"
   },
   "HAA": {
-    "name": "하아니닌",
-    "desc": ""
+    "name": "하아니닌"
   },
   "ASH": {
-    "name": "아샬라호",
-    "desc": ""
+    "name": "아샬라호"
   },
   "ASP": {
-    "name": "아시시피테",
-    "desc": ""
+    "name": "아시시피테"
   },
   "KTK": {
-    "name": "키티키티시",
-    "desc": ""
+    "name": "키티키티시"
   },
   "TVY": {
-    "name": "타오바야",
-    "desc": ""
+    "name": "타오바야"
   },
   "PTW": {
-    "name": "피타와리타",
-    "desc": ""
+    "name": "피타와리타"
   },
   "KIA": {
-    "name": "킷케하키",
-    "desc": ""
+    "name": "킷케하키"
   },
   "SII": {
-    "name": "스키리",
-    "desc": ""
+    "name": "스키리"
   },
   "TSW": {
-    "name": "차위",
-    "desc": ""
+    "name": "차위"
   },
   "SHH": {
-    "name": "사니시",
-    "desc": ""
+    "name": "사니시"
   },
   "NUE": {
-    "name": "누마카키",
-    "desc": ""
+    "name": "누마카키"
   },
   "HIR": {
-    "name": "히라차",
-    "desc": ""
+    "name": "히라차"
   },
   "PCH": {
-    "name": "파카하",
-    "desc": ""
+    "name": "파카하"
   },
   "CSQ": {
-    "name": "카스키",
-    "desc": ""
+    "name": "카스키"
   },
   "ANL": {
-    "name": "아닐코",
-    "desc": ""
+    "name": "아닐코"
   },
   "COL": {
-    "name": "콜리과",
-    "desc": ""
+    "name": "콜리과"
   },
   "CYS": {
-    "name": "타니코",
-    "desc": ""
+    "name": "타니코"
   },
   "CTI": {
-    "name": "치티머샤",
-    "desc": ""
+    "name": "치티머샤"
   },
   "BYG": {
-    "name": "바야굴라",
-    "desc": ""
+    "name": "바야굴라"
   },
   "NST": {
-    "name": "나시투시",
-    "desc": ""
+    "name": "나시투시"
   },
   "AVY": {
-    "name": "아보옐",
-    "desc": ""
+    "name": "아보옐"
   },
   "KDW": {
-    "name": "카다우다추",
-    "desc": ""
+    "name": "카다우다추"
   },
   "TUA": {
-    "name": "툴라",
-    "desc": ""
+    "name": "툴라"
   },
   "ISH": {
-    "name": "이샤크",
-    "desc": ""
+    "name": "이샤크"
   },
   "QMG": {
-    "name": "쿠아스미그도",
-    "desc": ""
+    "name": "쿠아스미그도"
   },
   "TWK": {
-    "name": "타와코니",
-    "desc": ""
+    "name": "타와코니"
   },
   "HNO": {
-    "name": "히노노에이노",
-    "desc": ""
+    "name": "히노노에이노"
   },
   "NWN": {
-    "name": "난우이네난",
-    "desc": ""
+    "name": "난우이네난"
   },
   "NDA": {
-    "name": "나코다",
-    "desc": ""
+    "name": "나코다"
   },
   "LKT": {
-    "name": "라코타",
-    "desc": ""
+    "name": "라코타"
   },
   "IKW": {
-    "name": "이탱크툰와나",
-    "desc": ""
+    "name": "이탱크툰와나"
   },
   "IUW": {
-    "name": "이택툰완",
-    "desc": ""
+    "name": "이택툰완"
   },
   "NCH": {
-    "name": "니우아치",
-    "desc": ""
+    "name": "니우아치"
   },
   "NKW": {
-    "name": "나카웨",
-    "desc": ""
+    "name": "나카웨"
   },
   "TTS": {
-    "name": "체체헤사헤세",
-    "desc": ""
+    "name": "체체헤사헤세"
   },
   "SOO": {
-    "name": "수타이오",
-    "desc": ""
+    "name": "수타이오"
   },
   "BKT": {
-    "name": "브데웨칸툰완",
-    "desc": ""
+    "name": "브데웨칸툰완"
   },
   "STW": {
-    "name": "시시툰완",
-    "desc": ""
+    "name": "시시툰완"
   },
   "WKH": {
-    "name": "와페쿠테",
-    "desc": ""
+    "name": "와페쿠테"
   },
   "WPW": {
-    "name": "와페툰완",
-    "desc": ""
+    "name": "와페툰완"
   },
   "MIK": {
-    "name": "미크맥",
-    "desc": ""
+    "name": "미크맥"
   },
   "PEN": {
-    "name": "페놉스콧",
-    "desc": ""
+    "name": "페놉스콧"
   },
   "PQD": {
-    "name": "파사마쿼디",
-    "desc": ""
+    "name": "파사마쿼디"
   },
   "WSK": {
-    "name": "웨스카리니",
-    "desc": ""
+    "name": "웨스카리니"
   },
   "KSP": {
-    "name": "키체시피리니",
-    "desc": ""
+    "name": "키체시피리니"
   },
   "KUS": {
-    "name": "쿠스카탄",
-    "desc": ""
+    "name": "쿠스카탄"
   },
   "QUA": {
-    "name": "쿠아우테말란",
-    "desc": ""
+    "name": "쿠아우테말란"
   },
   "LNC": {
-    "name": "렌카",
-    "desc": ""
+    "name": "렌카"
   },
   "XIN": {
-    "name": "신카",
-    "desc": ""
+    "name": "신카"
   },
   "GAR": {
-    "name": "가라비토",
-    "desc": ""
+    "name": "가라비토"
   },
   "GUO": {
-    "name": "과르코",
-    "desc": ""
+    "name": "과르코"
   },
   "PAC": {
-    "name": "파카카",
-    "desc": ""
+    "name": "파카카"
   },
   "NEK": {
-    "name": "네콕 야오틀",
-    "desc": ""
+    "name": "네콕 야오틀"
   },
   "CTO": {
-    "name": "코토",
-    "desc": ""
+    "name": "코토"
   },
   "TRC": {
-    "name": "타리아카",
-    "desc": ""
+    "name": "타리아카"
   },
   "CBC": {
-    "name": "카베카르",
-    "desc": ""
+    "name": "카베카르"
   },
   "MOX": {
-    "name": "목소",
-    "desc": ""
+    "name": "목소"
   },
   "MPC": {
-    "name": "마푸체",
-    "desc": ""
+    "name": "마푸체"
   },
   "CUA": {
-    "name": "차루아",
-    "desc": ""
+    "name": "차루아"
   },
   "TAI": {
-    "name": "타이로나",
-    "desc": ""
+    "name": "타이로나"
   },
   "ZIP": {
-    "name": "무이키타",
-    "desc": ""
+    "name": "무이키타"
   },
   "ZAQ": {
-    "name": "춘수아",
-    "desc": ""
+    "name": "춘수아"
   },
   "ZEN": {
-    "name": "세누",
-    "desc": ""
+    "name": "세누"
   },
   "QBY": {
-    "name": "킴바야",
-    "desc": ""
+    "name": "킴바야"
   },
   "GYP": {
-    "name": "과유페",
-    "desc": ""
+    "name": "과유페"
   },
   "CMG": {
-    "name": "쿠마나고토",
-    "desc": ""
+    "name": "쿠마나고토"
   },
   "PMN": {
-    "name": "페몬",
-    "desc": ""
+    "name": "페몬"
   },
   "CUC": {
-    "name": "쿠이카",
-    "desc": ""
+    "name": "쿠이카"
   },
   "TTY": {
-    "name": "타투이",
-    "desc": ""
+    "name": "타투이"
   },
   "THM": {
-    "name": "타하미",
-    "desc": ""
+    "name": "타하미"
   },
   "NUT": {
-    "name": "누타베스",
-    "desc": ""
+    "name": "누타베스"
   },
   "PIJ": {
-    "name": "피하오",
-    "desc": ""
+    "name": "피하오"
   },
   "COY": {
-    "name": "코야이마",
-    "desc": ""
+    "name": "코야이마"
   },
   "TAM": {
-    "name": "타마",
-    "desc": ""
+    "name": "타마"
   },
   "CIM": {
-    "name": "칼리마",
-    "desc": ""
+    "name": "칼리마"
   },
   "PUB": {
-    "name": "푸벤",
-    "desc": ""
+    "name": "푸벤"
   },
   "CML": {
-    "name": "치밀라",
-    "desc": ""
+    "name": "치밀라"
   },
   "TNO": {
-    "name": "마구아",
-    "desc": ""
+    "name": "마구아"
   },
   "MAE": {
-    "name": "마리엔",
-    "desc": ""
+    "name": "마리엔"
   },
   "MGU": {
-    "name": "마구아나",
-    "desc": ""
+    "name": "마구아나"
   },
   "JRG": {
-    "name": "하라구아",
-    "desc": ""
+    "name": "하라구아"
   },
   "HGY": {
-    "name": "이궤이",
-    "desc": ""
+    "name": "이궤이"
   },
   "GAY": {
-    "name": "과이니아",
-    "desc": ""
+    "name": "과이니아"
   },
   "BRK": {
-    "name": "보리켄",
-    "desc": ""
+    "name": "보리켄"
   },
   "CBO": {
-    "name": "시보네이",
-    "desc": ""
+    "name": "시보네이"
   },
   "LCY": {
-    "name": "루카얀",
-    "desc": ""
+    "name": "루카얀"
   },
   "MCX": {
-    "name": "마코릭스",
-    "desc": ""
+    "name": "마코릭스"
   },
   "CGY": {
-    "name": "시과요",
-    "desc": ""
+    "name": "시과요"
   },
   "IGR": {
-    "name": "이그네리",
-    "desc": ""
+    "name": "이그네리"
   },
   "KGN": {
-    "name": "칼리나고",
-    "desc": ""
+    "name": "칼리나고"
   },
   "AAL": {
-    "name": "알 알리",
-    "desc": ""
+    "name": "알 알리"
   },
   "AMR": {
-    "name": "알 미라",
-    "desc": ""
+    "name": "알 미라"
   },
   "DGE": {
-    "name": "되에르",
-    "desc": ""
+    "name": "되에르"
   },
   "FDL": {
-    "name": "알 파들",
-    "desc": ""
+    "name": "알 파들"
   },
   "JAL": {
-    "name": "잘라이르",
-    "desc": ""
+    "name": "잘라이르"
   },
   "HLL": {
-    "name": "힐라",
-    "desc": ""
+    "name": "힐라"
   },
   "KOJ": {
-    "name": "예루살렘",
-    "desc": ""
+    "name": "예루살렘"
   },
   "ARD": {
-    "name": "아르달란",
-    "desc": ""
+    "name": "아르달란"
   },
   "ATZ": {
-    "name": "아르타즈",
-    "desc": ""
+    "name": "아르타즈"
   },
   "DML": {
-    "name": "돔볼리",
-    "desc": ""
+    "name": "돔볼리"
   },
   "HBN": {
-    "name": "하스바니",
-    "desc": ""
+    "name": "하스바니"
   },
   "HDR": {
-    "name": "하두르",
-    "desc": ""
+    "name": "하두르"
   },
   "HNY": {
-    "name": "하스누야",
-    "desc": ""
+    "name": "하스누야"
   },
   "IHB": {
-    "name": "이스파바드",
-    "desc": ""
+    "name": "이스파바드"
   },
   "KLR": {
-    "name": "칼호르",
-    "desc": ""
+    "name": "칼호르"
   },
   "KTW": {
-    "name": "카르타위",
-    "desc": ""
+    "name": "카르타위"
   },
   "KEL": {
-    "name": "켈랄리",
-    "desc": ""
+    "name": "켈랄리"
   },
   "KKL": {
-    "name": "칼할",
-    "desc": ""
+    "name": "칼할"
   },
   "KRI": {
-    "name": "쿠라니",
-    "desc": ""
+    "name": "쿠라니"
   },
   "MKW": {
-    "name": "메르케완",
-    "desc": ""
+    "name": "메르케완"
   },
   "RKL": {
-    "name": "란칼리",
-    "desc": ""
+    "name": "란칼리"
   },
   "SLI": {
-    "name": "사불리",
-    "desc": ""
+    "name": "사불리"
   },
   "SYY": {
-    "name": "사키야",
-    "desc": ""
+    "name": "사키야"
   },
   "ZBR": {
-    "name": "제바리",
-    "desc": ""
+    "name": "제바리"
   },
   "AQQ": {
-    "name": "아그 코윤루",
-    "desc": ""
+    "name": "아그 코윤루"
   },
   "QAR": {
-    "name": "카라 코윤루",
-    "desc": ""
+    "name": "카라 코윤루"
   },
   "ZAN": {
-    "name": "킬와",
-    "desc": ""
+    "name": "킬와"
   },
   "PTE": {
-    "name": "파테",
-    "desc": ""
+    "name": "파테"
   },
   "MLI": {
-    "name": "말린디",
-    "desc": ""
+    "name": "말린디"
   },
   "INH": {
-    "name": "이냠바느",
-    "desc": ""
+    "name": "이냠바느"
   },
   "SFA": {
-    "name": "소팔라",
-    "desc": ""
+    "name": "소팔라"
   },
   "MBA": {
-    "name": "몸바사",
-    "desc": ""
+    "name": "몸바사"
   },
   "GED": {
-    "name": "게디",
-    "desc": ""
+    "name": "게디"
   },
   "UGW": {
-    "name": "웅와나",
-    "desc": ""
+    "name": "웅와나"
   },
   "LAM": {
-    "name": "라무",
-    "desc": ""
+    "name": "라무"
   },
   "VOH": {
-    "name": "보헤마르",
-    "desc": ""
+    "name": "보헤마르"
   },
   "NYM": {
-    "name": "보에니",
-    "desc": ""
+    "name": "보에니"
   },
   "VIL": {
-    "name": "빌리",
-    "desc": ""
+    "name": "빌리"
   },
   "TKE": {
-    "name": "바테케",
-    "desc": ""
+    "name": "바테케"
   },
   "ABD": {
-    "name": "암분두",
-    "desc": ""
+    "name": "암분두"
   },
   "CBD": {
-    "name": "카빈다",
-    "desc": ""
+    "name": "카빈다"
   },
   "YAK": {
-    "name": "야카",
-    "desc": ""
+    "name": "야카"
   },
   "CEW": {
-    "name": "체와",
-    "desc": ""
+    "name": "체와"
   },
   "PEM": {
-    "name": "펨바",
-    "desc": ""
+    "name": "펨바"
   },
   "ZZB": {
-    "name": "잔지바르",
-    "desc": ""
+    "name": "잔지바르"
   },
   "BMB": {
-    "name": "밤바오",
-    "desc": ""
+    "name": "밤바오"
   },
   "MOZ": {
-    "name": "모잠비크",
-    "desc": ""
+    "name": "모잠비크"
   },
   "AGH": {
-    "name": "앙고시",
-    "desc": ""
+    "name": "앙고시"
   },
   "QLM": {
-    "name": "켈리마느",
-    "desc": ""
+    "name": "켈리마느"
   },
   "ZMW": {
-    "name": "짐바브웨",
-    "desc": ""
+    "name": "짐바브웨"
   },
   "TNA": {
-    "name": "통가",
-    "desc": ""
+    "name": "통가"
   },
   "SEN": {
-    "name": "세나",
-    "desc": ""
+    "name": "세나"
   },
   "TSG": {
-    "name": "총가",
-    "desc": ""
+    "name": "총가"
   },
   "MNY": {
-    "name": "은다우",
-    "desc": ""
+    "name": "은다우"
   },
   "ZEZ": {
-    "name": "제주루",
-    "desc": ""
+    "name": "제주루"
   },
   "NBY": {
-    "name": "남비야",
-    "desc": ""
+    "name": "남비야"
   },
   "TBK": {
-    "name": "툼부카",
-    "desc": ""
+    "name": "툼부카"
   },
   "MRA": {
-    "name": "마라비",
-    "desc": ""
+    "name": "마라비"
   },
   "LDU": {
-    "name": "룬두",
-    "desc": ""
+    "name": "룬두"
   },
   "MKU": {
-    "name": "마쿠아",
-    "desc": ""
+    "name": "마쿠아"
   },
   "VAZ": {
-    "name": "바짐바",
-    "desc": ""
+    "name": "바짐바"
   },
   "MIR": {
-    "name": "이메리나",
-    "desc": ""
+    "name": "이메리나"
   },
   "NTL": {
-    "name": "마하장가",
-    "desc": ""
+    "name": "마하장가"
   },
   "MTO": {
-    "name": "마인티라노",
-    "desc": ""
+    "name": "마인티라노"
   },
   "AHY": {
-    "name": "안초히히",
-    "desc": ""
+    "name": "안초히히"
   },
   "MHL": {
-    "name": "마힐라카",
-    "desc": ""
+    "name": "마힐라카"
   },
   "IRD": {
-    "name": "이로도",
-    "desc": ""
+    "name": "이로도"
   },
   "BMK": {
-    "name": "베마네비카",
-    "desc": ""
+    "name": "베마네비카"
   },
   "ZFI": {
-    "name": "보히페노",
-    "desc": ""
+    "name": "보히페노"
   },
   "ABV": {
-    "name": "암보본타니",
-    "desc": ""
+    "name": "암보본타니"
   },
   "MBD": {
-    "name": "마나본드로",
-    "desc": ""
+    "name": "마나본드로"
   },
   "BTS": {
-    "name": "베치미사라카",
-    "desc": ""
+    "name": "베치미사라카"
   },
   "VEZ": {
-    "name": "베조",
-    "desc": ""
+    "name": "베조"
   },
   "SKA": {
-    "name": "사칼라바",
-    "desc": ""
+    "name": "사칼라바"
   },
   "MNB": {
-    "name": "메나베",
-    "desc": ""
+    "name": "메나베"
   },
   "BOI": {
-    "name": "보이나",
-    "desc": ""
+    "name": "보이나"
   },
   "ANK": {
-    "name": "안탄카라나",
-    "desc": ""
+    "name": "안탄카라나"
   },
   "BEZ": {
-    "name": "베자노자노",
-    "desc": ""
+    "name": "베자노자노"
   },
   "SIH": {
-    "name": "시하나카",
-    "desc": ""
+    "name": "시하나카"
   },
   "TND": {
-    "name": "탄드로이",
-    "desc": ""
+    "name": "탄드로이"
   },
   "ATK": {
-    "name": "안테사카",
-    "desc": ""
+    "name": "안테사카"
   },
   "BAA": {
-    "name": "바라",
-    "desc": ""
+    "name": "바라"
   },
   "ATM": {
-    "name": "안테모로",
-    "desc": ""
+    "name": "안테모로"
   },
   "ATF": {
-    "name": "안타이파시",
-    "desc": ""
+    "name": "안타이파시"
   },
   "ATB": {
-    "name": "안탐바호아카",
-    "desc": ""
+    "name": "안탐바호아카"
   },
   "TAL": {
-    "name": "타날라",
-    "desc": ""
+    "name": "타날라"
   },
   "BET": {
-    "name": "베칠레오",
-    "desc": ""
+    "name": "베칠레오"
   },
   "KIT": {
-    "name": "키타라",
-    "desc": ""
+    "name": "키타라"
   },
   "WNA": {
-    "name": "왕가",
-    "desc": ""
+    "name": "왕가"
   },
   "BNY": {
-    "name": "부뇨로",
-    "desc": ""
+    "name": "부뇨로"
   },
   "BUG": {
-    "name": "부간다",
-    "desc": ""
+    "name": "부간다"
   },
   "BSG": {
-    "name": "부소가",
-    "desc": ""
+    "name": "부소가"
   },
   "NKO": {
-    "name": "은코레",
-    "desc": ""
+    "name": "은코레"
   },
   "RWA": {
-    "name": "르완다",
-    "desc": ""
+    "name": "르완다"
   },
   "KRW": {
-    "name": "카라그웨",
-    "desc": ""
+    "name": "카라그웨"
   },
   "UBH": {
-    "name": "부하",
-    "desc": ""
+    "name": "부하"
   },
   "BUU": {
-    "name": "부룬디",
-    "desc": ""
+    "name": "부룬디"
   },
   "MAA": {
-    "name": "마사이",
-    "desc": ""
+    "name": "마사이"
   },
   "KOR": {
-    "name": "고려",
-    "desc": ""
+    "name": "고려"
   },
   "SSG": {
-    "name": "쌍성",
-    "desc": ""
+    "name": "쌍성"
+  },
+  "SYG": {
+    "name": "선양"
   },
   "TMN": {
-    "name": "탐라",
-    "desc": ""
+    "name": "탐라"
   },
   "JAP": {
-    "name": "일본",
-    "desc": ""
+    "name": "일본"
   },
   "NTC": {
-    "name": "지묘인",
-    "desc": ""
+    "name": "지묘인"
   },
   "STC": {
-    "name": "다이카쿠지",
-    "desc": ""
+    "name": "다이카쿠지"
   },
   "YMT": {
-    "name": "야마토",
-    "desc": ""
+    "name": "야마토"
   },
   "KOU": {
-    "name": "코우",
-    "desc": ""
+    "name": "코우"
   },
   "HSK": {
-    "name": "호소카와",
-    "desc": ""
+    "name": "호소카와"
   },
   "AKM": {
-    "name": "아카마츠",
-    "desc": ""
+    "name": "아카마츠"
   },
   "NKI": {
-    "name": "니츠키",
-    "desc": ""
+    "name": "니츠키"
   },
   "KTB": {
-    "name": "키타바타케",
-    "desc": ""
+    "name": "키타바타케"
   },
   "CJO": {
-    "name": "츄죠",
-    "desc": ""
+    "name": "츄죠"
   },
   "IMG": {
-    "name": "이마가와",
-    "desc": ""
+    "name": "이마가와"
   },
   "ISD": {
-    "name": "이시도",
-    "desc": ""
+    "name": "이시도"
   },
   "TKD": {
-    "name": "타케다",
-    "desc": ""
+    "name": "타케다"
   },
   "SBA": {
-    "name": "시바",
-    "desc": ""
+    "name": "시바"
   },
   "CBA": {
-    "name": "치바",
-    "desc": ""
+    "name": "치바"
   },
   "STK": {
-    "name": "사타케",
-    "desc": ""
+    "name": "사타케"
   },
   "KGK": {
-    "name": "쿄고쿠",
-    "desc": ""
+    "name": "쿄고쿠"
   },
   "TKI": {
-    "name": "토키",
-    "desc": ""
+    "name": "토키"
   },
   "OGS": {
-    "name": "오가사와라",
-    "desc": ""
+    "name": "오가사와라"
   },
   "UES": {
-    "name": "우에스기",
-    "desc": ""
+    "name": "우에스기"
   },
   "OYM": {
-    "name": "오야마",
-    "desc": ""
+    "name": "오야마"
   },
   "TGS": {
-    "name": "토가시",
-    "desc": ""
+    "name": "토가시"
   },
   "YSM": {
-    "name": "요시미",
-    "desc": ""
+    "name": "요시미"
   },
   "MMI": {
-    "name": "모모노이",
-    "desc": ""
+    "name": "모모노이"
   },
   "KRA": {
-    "name": "키라",
-    "desc": ""
+    "name": "키라"
   },
   "YMN": {
-    "name": "야마나",
-    "desc": ""
+    "name": "야마나"
   },
   "ENY": {
-    "name": "엔야",
-    "desc": ""
+    "name": "엔야"
   },
   "UEN": {
-    "name": "우에노",
-    "desc": ""
+    "name": "우에노"
   },
   "MTD": {
-    "name": "마츠다",
-    "desc": ""
+    "name": "마츠다"
   },
   "MNM": {
-    "name": "미나미",
-    "desc": ""
+    "name": "미나미"
   },
   "ASY": {
-    "name": "아사야마",
-    "desc": ""
+    "name": "아사야마"
   },
   "WSZ": {
-    "name": "와시즈",
-    "desc": ""
+    "name": "와시즈"
   },
   "KTO": {
-    "name": "코토",
-    "desc": ""
+    "name": "코토"
   },
   "HTK": {
-    "name": "하타케야마",
-    "desc": ""
+    "name": "하타케야마"
   },
   "KNO": {
-    "name": "카와노",
-    "desc": ""
+    "name": "카와노"
   },
   "SHN": {
-    "name": "쇼니",
-    "desc": ""
+    "name": "쇼니"
   },
   "KII": {
-    "name": "기이",
-    "desc": ""
+    "name": "기이"
   },
   "OTM": {
-    "name": "오토모",
-    "desc": ""
+    "name": "오토모"
   },
   "SMZ": {
-    "name": "시마즈",
-    "desc": ""
+    "name": "시마즈"
   },
   "NBU": {
-    "name": "난부",
-    "desc": ""
+    "name": "난부"
   },
   "KDO": {
-    "name": "쿠도",
-    "desc": ""
+    "name": "쿠도"
   },
   "OKI": {
-    "name": "오사키",
-    "desc": ""
+    "name": "오사키"
   },
   "MGM": {
-    "name": "모가미",
-    "desc": ""
+    "name": "모가미"
   },
   "KSI": {
-    "name": "카사이",
-    "desc": ""
+    "name": "카사이"
   },
   "SOM": {
-    "name": "소우마",
-    "desc": ""
+    "name": "소우마"
   },
   "DTE": {
-    "name": "다테",
-    "desc": ""
+    "name": "다테"
   },
   "ASN": {
-    "name": "아시나",
-    "desc": ""
+    "name": "아시나"
   },
   "YUK": {
-    "name": "유우키",
-    "desc": ""
+    "name": "유우키"
   },
   "OID": {
-    "name": "오이다",
-    "desc": ""
+    "name": "오이다"
   },
   "OGU": {
-    "name": "오구니",
-    "desc": ""
+    "name": "오구니"
   },
   "UTN": {
-    "name": "우츠노미야",
-    "desc": ""
+    "name": "우츠노미야"
   },
   "IIX": {
-    "name": "이이",
-    "desc": ""
+    "name": "이이"
   },
   "AKJ": {
-    "name": "아네노코우지",
-    "desc": ""
+    "name": "아네노코우지"
   },
   "KSN": {
-    "name": "쿠스노키",
-    "desc": ""
+    "name": "쿠스노키"
   },
   "ISK": {
-    "name": "잇시키",
-    "desc": ""
+    "name": "잇시키"
   },
   "NAW": {
-    "name": "나와",
-    "desc": ""
+    "name": "나와"
   },
   "MSD": {
-    "name": "마스다",
-    "desc": ""
+    "name": "마스다"
   },
   "OUC": {
-    "name": "오우치",
-    "desc": ""
+    "name": "오우치"
   },
   "TKN": {
-    "name": "토쿠노",
-    "desc": ""
+    "name": "토쿠노"
   },
   "DOI": {
-    "name": "도이",
-    "desc": ""
+    "name": "도이"
   },
   "KNT": {
-    "name": "쿠츠나",
-    "desc": ""
+    "name": "쿠츠나"
   },
   "SHJ": {
-    "name": "시죠",
-    "desc": ""
+    "name": "시죠"
   },
   "YSR": {
-    "name": "야마시로",
-    "desc": ""
+    "name": "야마시로"
   },
   "KKC": {
-    "name": "키쿠치",
-    "desc": ""
+    "name": "키쿠치"
   },
   "ASO": {
-    "name": "아소",
-    "desc": ""
+    "name": "아소"
   },
   "SGR": {
-    "name": "사가라",
-    "desc": ""
+    "name": "사가라"
   },
   "IJU": {
-    "name": "이쥬인",
-    "desc": ""
+    "name": "이쥬인"
   },
   "KMT": {
-    "name": "키모츠키",
-    "desc": ""
+    "name": "키모츠키"
   },
   "SOU": {
-    "name": "소우",
-    "desc": ""
+    "name": "소우"
   },
   "NAI": {
-    "name": "나가이",
-    "desc": ""
+    "name": "나가이"
   },
   "HEI": {
-    "name": "헤이",
-    "desc": ""
+    "name": "헤이"
   },
   "ANM": {
-    "name": "아소누마",
-    "desc": ""
+    "name": "아소누마"
   },
   "TZW": {
-    "name": "토자와",
-    "desc": ""
+    "name": "토자와"
   },
   "WAG": {
-    "name": "와가",
-    "desc": ""
+    "name": "와가"
   },
   "HIE": {
-    "name": "히에누키",
-    "desc": ""
+    "name": "히에누키"
   },
   "SGE": {
-    "name": "사가에",
-    "desc": ""
+    "name": "사가에"
   },
   "DHJ": {
-    "name": "다이호우지",
-    "desc": ""
+    "name": "다이호우지"
   },
   "NGM": {
-    "name": "나가누마",
-    "desc": ""
+    "name": "나가누마"
   },
   "NKD": {
-    "name": "니카이도",
-    "desc": ""
+    "name": "니카이도"
   },
   "TMR": {
-    "name": "타무라",
-    "desc": ""
+    "name": "타무라"
   },
   "IWS": {
-    "name": "이나와시로",
-    "desc": ""
+    "name": "이나와시로"
   },
   "ISW": {
-    "name": "이시카와",
-    "desc": ""
+    "name": "이시카와"
   },
   "MIU": {
-    "name": "미우라",
-    "desc": ""
+    "name": "미우라"
   },
   "SUW": {
-    "name": "스와",
-    "desc": ""
+    "name": "스와"
   },
   "RKK": {
-    "name": "롯카쿠",
-    "desc": ""
+    "name": "롯카쿠"
   },
   "MIY": {
-    "name": "미야",
-    "desc": ""
+    "name": "미야"
   },
   "KKW": {
-    "name": "킷카와",
-    "desc": ""
+    "name": "킷카와"
   },
   "MKT": {
-    "name": "무나카타",
-    "desc": ""
+    "name": "무나카타"
   },
   "ASA": {
-    "name": "아사쿠라",
-    "desc": ""
+    "name": "아사쿠라"
   },
   "CSK": {
-    "name": "쵸소카베",
-    "desc": ""
+    "name": "쵸소카베"
   },
   "ISE": {
-    "name": "이세",
-    "desc": ""
+    "name": "이세"
   },
   "IKE": {
-    "name": "이케다",
-    "desc": ""
+    "name": "이케다"
   },
   "ITO": {
-    "name": "이토",
-    "desc": ""
+    "name": "이토"
   },
   "MRI": {
-    "name": "모리",
-    "desc": ""
+    "name": "모리"
   },
   "ODA": {
-    "name": "오다",
-    "desc": ""
+    "name": "오다"
   },
   "AKT": {
-    "name": "안도",
-    "desc": ""
+    "name": "안도"
   },
   "ISA": {
-    "name": "이사",
-    "desc": ""
+    "name": "이사"
   },
   "TAK": {
-    "name": "다이조",
-    "desc": ""
+    "name": "다이조"
   },
   "KNB": {
-    "name": "카와노베",
-    "desc": ""
+    "name": "카와노베"
   },
   "HTA": {
-    "name": "하타",
-    "desc": ""
+    "name": "하타"
   },
   "MKO": {
-    "name": "마시코",
-    "desc": ""
+    "name": "마시코"
   },
   "TKO": {
-    "name": "타코",
-    "desc": ""
+    "name": "타코"
   },
   "NAS": {
-    "name": "나스",
-    "desc": ""
+    "name": "나스"
   },
   "OGO": {
-    "name": "오고",
-    "desc": ""
+    "name": "오고"
   },
   "NIT": {
-    "name": "닛타",
-    "desc": ""
+    "name": "닛타"
   },
   "YMG": {
-    "name": "야마구치",
-    "desc": ""
+    "name": "야마구치"
   },
   "TOS": {
-    "name": "토시마",
-    "desc": ""
+    "name": "토시마"
   },
   "HNM": {
-    "name": "혼마",
-    "desc": ""
+    "name": "혼마"
   },
   "UNN": {
-    "name": "운노",
-    "desc": ""
+    "name": "운노"
   },
   "KOK": {
-    "name": "코사카",
-    "desc": ""
+    "name": "코사카"
   },
   "TOY": {
-    "name": "토야마",
-    "desc": ""
+    "name": "토야마"
   },
   "HIG": {
-    "name": "토우",
-    "desc": ""
+    "name": "토우"
   },
   "EMA": {
-    "name": "에마",
-    "desc": ""
+    "name": "에마"
   },
   "NKJ": {
-    "name": "나카지마",
-    "desc": ""
+    "name": "나카지마"
   },
   "OBA": {
-    "name": "오바",
-    "desc": ""
+    "name": "오바"
   },
   "NGN": {
-    "name": "나가노",
-    "desc": ""
+    "name": "나가노"
   },
   "TKM": {
-    "name": "타카시마",
-    "desc": ""
+    "name": "타카시마"
   },
   "AIS": {
-    "name": "아이스",
-    "desc": ""
+    "name": "아이스"
   },
   "YUS": {
-    "name": "유아사",
-    "desc": ""
+    "name": "유아사"
   },
   "YAB": {
-    "name": "야베",
-    "desc": ""
+    "name": "야베"
   },
   "OGA": {
-    "name": "오가모",
-    "desc": ""
+    "name": "오가모"
   },
   "STU": {
-    "name": "스에츠구",
-    "desc": ""
+    "name": "스에츠구"
   },
   "MZW": {
-    "name": "미자와",
-    "desc": ""
+    "name": "미자와"
   },
   "MTY": {
-    "name": "미토야",
-    "desc": ""
+    "name": "미토야"
   },
   "AKN": {
-    "name": "아카나",
-    "desc": ""
+    "name": "아카나"
   },
   "GTO": {
-    "name": "고토",
-    "desc": ""
+    "name": "고토"
   },
   "SHO": {
-    "name": "쇼우",
-    "desc": ""
+    "name": "쇼우"
   },
   "HRG": {
-    "name": "히라가",
-    "desc": ""
+    "name": "히라가"
   },
   "KBK": {
-    "name": "코바야카와",
-    "desc": ""
+    "name": "코바야카와"
   },
   "WCH": {
-    "name": "와치",
-    "desc": ""
+    "name": "와치"
   },
   "MYH": {
-    "name": "미요시",
-    "desc": ""
+    "name": "미요시"
   },
   "SUE": {
-    "name": "스에",
-    "desc": ""
+    "name": "스에"
   },
   "MIG": {
-    "name": "미기타",
-    "desc": ""
+    "name": "미기타"
   },
   "KAG": {
-    "name": "카가와",
-    "desc": ""
+    "name": "카가와"
   },
   "KOZ": {
-    "name": "코자이",
-    "desc": ""
+    "name": "코자이"
   },
   "KNE": {
-    "name": "카네코",
-    "desc": ""
+    "name": "카네코"
   },
   "AKI": {
-    "name": "아키",
-    "desc": ""
+    "name": "아키"
   },
   "OHR": {
-    "name": "오히라",
-    "desc": ""
+    "name": "오히라"
   },
   "BZG": {
-    "name": "부젠 나가노",
-    "desc": ""
+    "name": "부젠 나가노"
   },
   "AKZ": {
-    "name": "아키즈키",
-    "desc": ""
+    "name": "아키즈키"
   },
   "AKU": {
-    "name": "타쿠",
-    "desc": ""
+    "name": "타쿠"
   },
   "AHT": {
-    "name": "하타",
-    "desc": ""
+    "name": "하타"
   },
   "ARI": {
-    "name": "아리마",
-    "desc": ""
+    "name": "아리마"
   },
   "OKR": {
-    "name": "오쿠라",
-    "desc": ""
+    "name": "오쿠라"
   },
   "TMD": {
-    "name": "츠치모치",
-    "desc": ""
+    "name": "츠치모치"
   },
   "KJK": {
-    "name": "카지키",
-    "desc": ""
+    "name": "카지키"
   },
   "HSR": {
-    "name": "히시카리",
-    "desc": ""
+    "name": "히시카리"
   },
   "ANU": {
-    "name": "아이누",
-    "desc": ""
+    "name": "아이누"
   },
   "HKZ": {
-    "name": "호쿠잔",
-    "desc": ""
+    "name": "호쿠잔"
   },
   "CHZ": {
-    "name": "츄잔",
-    "desc": ""
+    "name": "츄잔"
   },
   "NZN": {
-    "name": "난잔",
-    "desc": ""
+    "name": "난잔"
   },
   "CHI": {
-    "name": "중국",
-    "desc": ""
+    "name": "중국"
   },
   "YUA": {
-    "name": "원",
-    "desc": ""
+    "name": "원"
   },
   "MNG": {
-    "name": "명",
-    "desc": ""
+    "name": "명"
   },
   "CSO": {
-    "name": "송",
-    "desc": ""
+    "name": "송"
   },
   "WUU": {
-    "name": "오",
-    "desc": ""
+    "name": "오"
   },
   "CTW": {
-    "name": "천완",
-    "desc": ""
+    "name": "천완"
   },
   "CHE": {
-    "name": "진",
-    "desc": ""
+    "name": "진"
   },
   "CSH": {
-    "name": "순",
-    "desc": ""
+    "name": "순"
   },
   "CXI": {
-    "name": "하",
-    "desc": ""
+    "name": "하"
   },
   "CTG": {
-    "name": "동녕",
-    "desc": ""
+    "name": "동녕"
   },
   "CFN": {
-    "name": "방",
-    "desc": ""
+    "name": "방"
   },
   "CMO": {
-    "name": "모",
-    "desc": ""
+    "name": "모"
   },
   "CGU": {
-    "name": "곽",
-    "desc": ""
+    "name": "곽"
   },
   "CNP": {
-    "name": "남평",
-    "desc": ""
+    "name": "남평"
   },
   "CDN": {
-    "name": "둥관",
-    "desc": ""
+    "name": "둥관"
   },
   "CSI": {
-    "name": "리",
-    "desc": ""
+    "name": "리"
   },
   "CKO": {
-    "name": "코케 테무르",
-    "desc": ""
+    "name": "코케 테무르"
   },
   "CNA": {
-    "name": "나하추",
-    "desc": ""
+    "name": "나하추"
   },
   "MMA": {
-    "name": "몽 마오",
-    "desc": ""
+    "name": "몽 마오"
   },
   "MHK": {
-    "name": "몽 켕",
-    "desc": ""
+    "name": "몽 켕"
   },
   "MHN": {
-    "name": "몽 텐",
-    "desc": ""
+    "name": "몽 텐"
   },
   "MTG": {
-    "name": "몽 팅",
-    "desc": ""
+    "name": "몽 팅"
   },
   "MGN": {
-    "name": "몽 응음",
-    "desc": ""
+    "name": "몽 응음"
   },
   "MHA": {
-    "name": "몽 싸",
-    "desc": ""
+    "name": "몽 싸"
   },
   "MWO": {
-    "name": "몽 워",
-    "desc": ""
+    "name": "몽 워"
   },
   "MGK": {
-    "name": "몽 쿠",
-    "desc": ""
+    "name": "몽 쿠"
   },
   "YNJ": {
-    "name": "위안장",
-    "desc": ""
+    "name": "위안장"
   },
   "NWU": {
-    "name": "니우우",
-    "desc": ""
+    "name": "니우우"
+  },
+  "NYZ": {
+    "name": "닝위안저우"
   },
   "NLU": {
-    "name": "나로우",
-    "desc": ""
+    "name": "나로우"
   },
   "YJI": {
-    "name": "옌징",
-    "desc": ""
+    "name": "옌징"
+  },
+  "BZH": {
+    "name": "베이성"
+  },
+  "YAN": {
+    "name": "야오안"
+  },
+  "HQG": {
+    "name": "허칭"
+  },
+  "NNN": {
+    "name": "안난"
+  },
+  "AGN": {
+    "name": "안닝"
+  },
+  "MLE": {
+    "name": "미러"
+  },
+  "JSI": {
+    "name": "젠수이"
+  },
+  "SPG": {
+    "name": "스핑"
+  },
+  "NGZ": {
+    "name": "닝저우"
+  },
+  "LLS": {
+    "name": "뤄러스"
+  },
+  "CGZ": {
+    "name": "창저우"
   },
   "XLG": {
-    "name": "시엔롱",
-    "desc": ""
+    "name": "시엔롱"
+  },
+  "WDG": {
+    "name": "우딩"
+  },
+  "RND": {
+    "name": "런더"
+  },
+  "DCN": {
+    "name": "둥촨"
+  },
+  "WNG": {
+    "name": "우멍"
+  },
+  "MHU": {
+    "name": "마후"
+  },
+  "LBO": {
+    "name": "레이보"
+  },
+  "YNL": {
+    "name": "윈롄"
+  },
+  "ZNX": {
+    "name": "전슝"
+  },
+  "WSA": {
+    "name": "우싸"
+  },
+  "ZYI": {
+    "name": "잔이"
+  },
+  "QJG": {
+    "name": "취징"
+  },
+  "YZO": {
+    "name": "이쭤"
+  },
+  "MLG": {
+    "name": "마룽"
+  },
+  "LLN": {
+    "name": "루량"
+  },
+  "LXG": {
+    "name": "뤄슝"
+  },
+  "GGX": {
+    "name": "광시"
+  },
+  "SZG": {
+    "name": "스쭝"
+  },
+  "SXI": {
+    "name": "수이시"
+  },
+  "CLE": {
+    "name": "처레이"
+  },
+  "BZU": {
+    "name": "보저우"
+  },
+  "NPG": {
+    "name": "치장"
+  },
+  "RNG": {
+    "name": "룽"
+  },
+  "GNG": {
+    "name": "궁"
+  },
+  "ZNZ": {
+    "name": "전저우"
+  },
+  "SZU": {
+    "name": "스주"
+  },
+  "ZGL": {
+    "name": "중루"
+  },
+  "TGY": {
+    "name": "탕야"
+  },
+  "GLU": {
+    "name": "가오뤄"
+  },
+  "RGM": {
+    "name": "룽메이"
+  },
+  "TNP": {
+    "name": "톈핑"
+  },
+  "SGZ": {
+    "name": "쌍즈"
+  },
+  "DWG": {
+    "name": "다왕"
+  },
+  "YGS": {
+    "name": "융순"
+  },
+  "BJG": {
+    "name": "바오징"
+  },
+  "YYG": {
+    "name": "유양"
+  },
+  "PCD": {
+    "name": "핑차둥"
+  },
+  "SZH": {
+    "name": "쓰저우"
+  },
+  "YNH": {
+    "name": "옌허"
+  },
+  "TXI": {
+    "name": "티시"
+  },
+  "TGR": {
+    "name": "퉁런"
+  },
+  "QGS": {
+    "name": "충수이"
+  },
+  "WZH": {
+    "name": "우자이"
+  },
+  "PTZ": {
+    "name": "핑터우주커"
+  },
+  "LGQ": {
+    "name": "룽취안"
+  },
+  "RGS": {
+    "name": "룽산"
+  },
+  "BNI": {
+    "name": "바이니"
+  },
+  "COG": {
+    "name": "차오탕"
+  },
+  "XNL": {
+    "name": "신룽"
+  },
+  "ALI": {
+    "name": "카이리"
+  },
+  "SDG": {
+    "name": "수이둥"
+  },
+  "PYE": {
+    "name": "핑웨"
+  },
+  "DZH": {
+    "name": "디자이"
+  },
+  "XNG": {
+    "name": "셴닝"
+  },
+  "PDG": {
+    "name": "핑딩"
+  },
+  "PDN": {
+    "name": "푸딩"
+  },
+  "PGB": {
+    "name": "핑바"
+  },
+  "PAN": {
+    "name": "푸안"
+  },
+  "YNN": {
+    "name": "융닝"
+  },
+  "LIN": {
+    "name": "라이안"
+  },
+  "NLG": {
+    "name": "안룽"
+  },
+  "SHG": {
+    "name": "상린"
+  },
+  "QYN": {
+    "name": "칭위안"
+  },
+  "NDN": {
+    "name": "난단"
+  },
+  "DLN": {
+    "name": "둥란"
+  },
+  "XCG": {
+    "name": "신청"
+  },
+  "YSN": {
+    "name": "융순 좡"
+  },
+  "TNZ": {
+    "name": "톈저우"
+  },
+  "ADG": {
+    "name": "안딩"
+  },
+  "DYG": {
+    "name": "두양"
+  },
+  "ZNN": {
+    "name": "전안"
+  },
+  "TPG": {
+    "name": "타이핑"
+  },
+  "SMG": {
+    "name": "쓰밍"
+  },
+  "SGS": {
+    "name": "상쓰"
+  },
+  "GNN": {
+    "name": "광난"
+  },
+  "LZO": {
+    "name": "뤄쭤"
+  },
+  "FZH": {
+    "name": "푸저우"
+  },
+  "LZI": {
+    "name": "량흐짜이"
+  },
+  "SZI": {
+    "name": "서쯔"
+  },
+  "DYN": {
+    "name": "두윈"
+  },
+  "LTU": {
+    "name": "란투"
+  },
+  "GZH": {
+    "name": "구저우"
+  },
+  "LPG": {
+    "name": "리핑"
+  },
+  "ZLD": {
+    "name": "중린둥"
+  },
+  "HZH": {
+    "name": "훙저우"
+  },
+  "XSY": {
+    "name": "시산양"
+  },
+  "LNG": {
+    "name": "양"
   },
   "CDL": {
-    "name": "다리",
-    "desc": ""
+    "name": "다리"
   },
   "CHH": {
-    "name": "치앙 훙",
-    "desc": ""
+    "name": "치앙 훙"
   },
   "TIB": {
-    "name": "티베트",
-    "desc": ""
+    "name": "티베트"
   },
   "GUG": {
-    "name": "구게",
-    "desc": ""
+    "name": "구게"
   },
   "PUR": {
-    "name": "푸랑",
-    "desc": ""
+    "name": "푸랑"
   },
   "MAR": {
-    "name": "마르율",
-    "desc": ""
+    "name": "마르율"
   },
   "ZNK": {
-    "name": "잔스카르",
-    "desc": ""
+    "name": "잔스카르"
   },
   "CHG": {
-    "name": "차가타이",
-    "desc": ""
+    "name": "차가타이"
   },
   "TIM": {
-    "name": "티무르",
-    "desc": ""
+    "name": "티무르"
   },
   "QCH": {
-    "name": "코초",
-    "desc": ""
+    "name": "코초"
   },
   "MNL": {
-    "name": "망갈라이",
-    "desc": ""
+    "name": "망갈라이"
   },
   "MGG": {
-    "name": "망율 궁탕",
-    "desc": ""
+    "name": "망율 궁탕"
   },
   "POO": {
-    "name": "포보",
-    "desc": ""
+    "name": "포보"
   },
   "HOR": {
-    "name": "호르",
-    "desc": ""
+    "name": "호르"
   },
   "LGT": {
-    "name": "링창",
-    "desc": ""
+    "name": "링창"
   },
   "DRG": {
-    "name": "데르게",
-    "desc": ""
+    "name": "데르게"
   },
   "NCN": {
-    "name": "낭첸",
-    "desc": ""
+    "name": "낭첸"
   },
   "GNJ": {
-    "name": "곤조",
-    "desc": ""
+    "name": "곤조"
   },
   "BTG": {
-    "name": "바탕",
-    "desc": ""
+    "name": "바탕"
   },
   "NBH": {
-    "name": "눕호르",
-    "desc": ""
+    "name": "눕호르"
   },
   "LTN": {
-    "name": "리탕",
-    "desc": ""
+    "name": "리탕"
   },
   "NYA": {
-    "name": "냐롱",
-    "desc": ""
+    "name": "냐롱"
   },
   "GYT": {
-    "name": "걀탕",
-    "desc": ""
+    "name": "걀탕"
+  },
+  "YNG": {
+    "name": "융닝"
   },
   "TNQ": {
-    "name": "톈취안",
-    "desc": ""
+    "name": "톈취안"
   },
   "MCI": {
-    "name": "무치",
-    "desc": ""
+    "name": "무치"
   },
   "WMO": {
-    "name": "웨이마오",
-    "desc": ""
+    "name": "웨이마오"
   },
   "TSK": {
-    "name": "차코",
-    "desc": ""
+    "name": "차코"
   },
   "SNP": {
-    "name": "쑹판",
-    "desc": ""
+    "name": "쑹판"
   },
   "LGZ": {
-    "name": "룽저우",
-    "desc": ""
+    "name": "룽저우"
   },
   "MNZ": {
-    "name": "민저우",
-    "desc": ""
+    "name": "민저우"
   },
   "TAZ": {
-    "name": "타오저우",
-    "desc": ""
+    "name": "타오저우"
   },
   "KHG": {
-    "name": "카갸",
-    "desc": ""
+    "name": "카갸"
   },
   "HEZ": {
-    "name": "허저우",
-    "desc": ""
+    "name": "허저우"
   },
   "JIZ": {
-    "name": "지스저우",
-    "desc": ""
+    "name": "지스저우"
   },
   "BIR": {
-    "name": "비리",
-    "desc": ""
+    "name": "비리"
   },
   "GYE": {
-    "name": "껼롱",
-    "desc": ""
+    "name": "껼롱"
   },
   "GOL": {
-    "name": "궈러",
-    "desc": ""
+    "name": "궈러"
   },
   "CKL": {
-    "name": "미냑",
-    "desc": ""
+    "name": "미냑"
   },
   "AMD": {
-    "name": "암도",
-    "desc": ""
+    "name": "암도"
   },
   "MSH": {
-    "name": "미시미",
-    "desc": ""
+    "name": "미시미"
   },
   "TAN": {
-    "name": "타니",
-    "desc": ""
+    "name": "타니"
   },
   "MNP": {
-    "name": "몬파",
-    "desc": ""
+    "name": "몬파"
   },
   "LMN": {
-    "name": "로 몬",
-    "desc": ""
+    "name": "로 몬"
   },
   "LJG": {
-    "name": "리장",
-    "desc": ""
+    "name": "리장"
   },
   "SKK": {
-    "name": "시킴",
-    "desc": ""
+    "name": "시킴"
   },
   "DUR": {
-    "name": "다우르",
-    "desc": ""
+    "name": "다우르"
   },
   "EVK": {
-    "name": "에벤크",
-    "desc": ""
+    "name": "에벤크"
   },
   "NVK": {
-    "name": "니브흐",
-    "desc": ""
+    "name": "니브흐"
   },
   "ORC": {
-    "name": "오로치",
-    "desc": ""
+    "name": "오로치"
   },
   "ORQ": {
-    "name": "오르촌",
-    "desc": ""
+    "name": "오르촌"
   },
   "SIB": {
-    "name": "시버",
-    "desc": ""
+    "name": "시버"
   },
   "UDE": {
-    "name": "우데게",
-    "desc": ""
+    "name": "우데게"
   },
   "ULC": {
-    "name": "울치",
-    "desc": ""
+    "name": "울치"
   },
   "HDA": {
-    "name": "하다",
-    "desc": ""
+    "name": "하다"
   },
   "HOI": {
-    "name": "호이파",
-    "desc": ""
+    "name": "호이파"
   },
   "ULA": {
-    "name": "울라",
-    "desc": ""
+    "name": "울라"
   },
   "YEH": {
-    "name": "여허",
-    "desc": ""
+    "name": "여허"
   },
   "DNG": {
-    "name": "동고",
-    "desc": ""
+    "name": "동고"
   },
   "HJN": {
-    "name": "홀라온",
-    "desc": ""
+    "name": "홀라온"
   },
   "HNE": {
-    "name": "후너허",
-    "desc": ""
+    "name": "후너허"
   },
   "HUL": {
-    "name": "훌리가이",
-    "desc": ""
+    "name": "훌리가이"
   },
   "JEC": {
-    "name": "저천",
-    "desc": ""
+    "name": "저천"
   },
   "JUS": {
-    "name": "주사리",
-    "desc": ""
+    "name": "주사리"
   },
   "MAO": {
-    "name": "마올리안",
-    "desc": ""
+    "name": "마올리안"
   },
   "NEY": {
-    "name": "네옌",
-    "desc": ""
+    "name": "네옌"
   },
   "ODO": {
-    "name": "악다리",
-    "desc": ""
+    "name": "악다리"
   },
   "SSH": {
-    "name": "숙수후",
-    "desc": ""
+    "name": "숙수후"
   },
   "URY": {
-    "name": "우량카이",
-    "desc": ""
+    "name": "우량카이"
   },
   "WGG": {
-    "name": "왕기야",
-    "desc": ""
+    "name": "왕기야"
   },
   "YAL": {
-    "name": "얄루",
-    "desc": ""
+    "name": "얄루"
   },
   "AAR": {
-    "name": "압다리",
-    "desc": ""
+    "name": "압다리"
   },
   "AID": {
-    "name": "아이단",
-    "desc": ""
+    "name": "아이단"
   },
   "ASU": {
-    "name": "아수",
-    "desc": ""
+    "name": "아수"
   },
   "BAY": {
-    "name": "바얀",
-    "desc": ""
+    "name": "바얀"
   },
   "DLA": {
-    "name": "달라",
-    "desc": ""
+    "name": "달라"
   },
   "EJI": {
-    "name": "에지미",
-    "desc": ""
+    "name": "에지미"
   },
   "FLN": {
-    "name": "후룬",
-    "desc": ""
+    "name": "후룬"
   },
   "FUT": {
-    "name": "푸티",
-    "desc": ""
+    "name": "푸티"
   },
   "FUY": {
-    "name": "부유",
-    "desc": ""
+    "name": "부유"
   },
   "GIL": {
-    "name": "길레미",
-    "desc": ""
+    "name": "길레미"
   },
   "HIJ": {
-    "name": "히잔",
-    "desc": ""
+    "name": "히잔"
   },
   "HIY": {
-    "name": "하이얀",
-    "desc": ""
+    "name": "하이얀"
   },
   "HLN": {
-    "name": "할란",
-    "desc": ""
+    "name": "할란"
   },
   "HNC": {
-    "name": "훈춘",
-    "desc": ""
+    "name": "훈춘"
   },
   "HOT": {
-    "name": "호통기",
-    "desc": ""
+    "name": "호통기"
   },
   "HRO": {
-    "name": "호로",
-    "desc": ""
+    "name": "호로"
   },
   "HUI": {
-    "name": "후이바",
-    "desc": ""
+    "name": "후이바"
   },
   "HUR": {
-    "name": "후르가",
-    "desc": ""
+    "name": "후르가"
   },
   "ILU": {
-    "name": "이루",
-    "desc": ""
+    "name": "이루"
   },
   "IMN": {
-    "name": "이만카",
-    "desc": ""
+    "name": "이만카"
   },
   "ITU": {
-    "name": "이툰",
-    "desc": ""
+    "name": "이툰"
   },
   "JHT": {
-    "name": "주루 호톤",
-    "desc": ""
+    "name": "주루 호톤"
   },
   "LAL": {
-    "name": "랄린",
-    "desc": ""
+    "name": "랄린"
   },
   "LEF": {
-    "name": "레푸",
-    "desc": ""
+    "name": "레푸"
   },
   "LLU": {
-    "name": "랄루",
-    "desc": ""
+    "name": "랄루"
   },
   "MAH": {
-    "name": "마히얀",
-    "desc": ""
+    "name": "마히얀"
   },
   "MIC": {
-    "name": "미첸",
-    "desc": ""
+    "name": "미첸"
   },
   "MRE": {
-    "name": "무렌",
-    "desc": ""
+    "name": "무렌"
   },
   "MUH": {
-    "name": "무히야",
-    "desc": ""
+    "name": "무히야"
   },
   "MUU": {
-    "name": "물룬",
-    "desc": ""
+    "name": "물룬"
   },
   "NAL": {
-    "name": "나라지",
-    "desc": ""
+    "name": "나라지"
   },
   "NEM": {
-    "name": "네메르",
-    "desc": ""
+    "name": "네메르"
   },
   "NRO": {
-    "name": "노로",
-    "desc": ""
+    "name": "노로"
   },
   "SHI": {
-    "name": "실린",
-    "desc": ""
+    "name": "실린"
   },
   "SIR": {
-    "name": "시린",
-    "desc": ""
+    "name": "시린"
   },
   "SMN": {
-    "name": "실리미안",
-    "desc": ""
+    "name": "실리미안"
   },
   "SNC": {
-    "name": "산차하",
-    "desc": ""
+    "name": "산차하"
   },
   "SUI": {
-    "name": "수이푼",
-    "desc": ""
+    "name": "수이푼"
   },
   "TAS": {
-    "name": "타산",
-    "desc": ""
+    "name": "타산"
   },
   "TOD": {
-    "name": "토도",
-    "desc": ""
+    "name": "토도"
   },
   "TOX": {
-    "name": "톤",
-    "desc": ""
+    "name": "톤"
   },
   "USS": {
-    "name": "우수리",
-    "desc": ""
+    "name": "우수리"
   },
   "WEJ": {
-    "name": "웨지",
-    "desc": ""
+    "name": "웨지"
   },
   "WEK": {
-    "name": "워켄",
-    "desc": ""
+    "name": "워켄"
   },
   "WNL": {
-    "name": "완린",
-    "desc": ""
+    "name": "완린"
   },
   "WUY": {
-    "name": "우예우",
-    "desc": ""
+    "name": "우예우"
   },
   "YRN": {
-    "name": "야란",
-    "desc": ""
+    "name": "야란"
   },
   "YIM": {
-    "name": "이마후",
-    "desc": ""
+    "name": "이마후"
   },
   "YOO": {
-    "name": "요세",
-    "desc": ""
+    "name": "요세"
   },
   "KAD": {
-    "name": "둥",
-    "desc": ""
+    "name": "둥"
   },
   "TUJ": {
-    "name": "투자",
-    "desc": ""
+    "name": "투자"
   },
   "MNE": {
-    "name": "야오",
-    "desc": ""
+    "name": "야오"
   },
   "MIO": {
-    "name": "몽",
-    "desc": ""
+    "name": "몽"
   },
   "HQQ": {
-    "name": "하니",
-    "desc": ""
+    "name": "하니"
   },
   "YII": {
-    "name": "이",
-    "desc": ""
+    "name": "이"
   },
   "DDI": {
-    "name": "다이",
-    "desc": ""
+    "name": "다이"
   },
   "OIR": {
-    "name": "오이라트",
-    "desc": ""
+    "name": "오이라트"
   },
   "OGE": {
-    "name": "우구데이",
-    "desc": ""
+    "name": "우구데이"
   },
   "BAT": {
-    "name": "바아투드",
-    "desc": ""
+    "name": "바아투드"
   },
   "CRS": {
-    "name": "초로스",
-    "desc": ""
+    "name": "초로스"
   },
   "KHD": {
-    "name": "호이드",
-    "desc": ""
+    "name": "호이드"
   },
   "TRH": {
-    "name": "토르구트",
-    "desc": ""
+    "name": "토르구트"
   },
   "TVA": {
-    "name": "투바",
-    "desc": ""
+    "name": "투바"
   },
   "BGT": {
-    "name": "벨구테이",
-    "desc": ""
+    "name": "벨구테이"
   },
   "HCN": {
-    "name": "하치운",
-    "desc": ""
+    "name": "하치운"
   },
   "OTC": {
-    "name": "옷치긴",
-    "desc": ""
+    "name": "옷치긴"
   },
   "QAS": {
-    "name": "카사르",
-    "desc": ""
+    "name": "카사르"
   },
   "BKH": {
-    "name": "바다흐샨",
-    "desc": ""
+    "name": "바다흐샨"
   },
   "DGH": {
-    "name": "두글라트",
-    "desc": ""
+    "name": "두글라트"
   },
   "KRG": {
-    "name": "카라테긴",
-    "desc": ""
+    "name": "카라테긴"
   },
   "SRL": {
-    "name": "사리콜",
-    "desc": ""
+    "name": "사리콜"
   },
   "COO": {
-    "name": "쿠사",
-    "desc": ""
+    "name": "쿠사"
   },
   "OTL": {
-    "name": "오탈리",
-    "desc": ""
+    "name": "오탈리"
   },
   "COW": {
-    "name": "코웨타",
-    "desc": ""
+    "name": "코웨타"
   },
   "TUC": {
-    "name": "터카바치",
-    "desc": ""
+    "name": "터카바치"
   },
   "EUF": {
-    "name": "유폴라",
-    "desc": ""
+    "name": "유폴라"
   },
   "CPQ": {
-    "name": "카파체키",
-    "desc": ""
+    "name": "카파체키"
   },
   "TOA": {
-    "name": "토아",
-    "desc": ""
+    "name": "토아"
   },
   "OCT": {
-    "name": "오큐트",
-    "desc": ""
+    "name": "오큐트"
   },
   "HIT": {
-    "name": "아치크하타",
-    "desc": ""
+    "name": "아치크하타"
   },
   "ALA": {
-    "name": "알바마하",
-    "desc": ""
+    "name": "알바마하"
   },
   "KST": {
-    "name": "코아사티",
-    "desc": ""
+    "name": "코아사티"
   },
   "CHC": {
-    "name": "촉토",
-    "desc": ""
+    "name": "촉토"
   },
   "CHS": {
-    "name": "치카샤",
-    "desc": ""
+    "name": "치카샤"
   },
   "MCG": {
-    "name": "머스코지",
-    "desc": ""
+    "name": "머스코지"
   },
   "QGM": {
-    "name": "키괄탐",
-    "desc": ""
+    "name": "키괄탐"
   },
   "QUZ": {
-    "name": "퀴즈퀴즈",
-    "desc": ""
+    "name": "퀴즈퀴즈"
   },
   "NCZ": {
-    "name": "나체즈",
-    "desc": ""
+    "name": "나체즈"
   },
   "GUL": {
-    "name": "괄레",
-    "desc": ""
+    "name": "괄레"
   },
   "APA": {
-    "name": "아팔라치",
-    "desc": ""
+    "name": "아팔라치"
   },
   "KSK": {
-    "name": "카스키남포",
-    "desc": ""
+    "name": "카스키남포"
   },
   "KAW": {
-    "name": "코",
-    "desc": ""
+    "name": "코"
   },
   "UMO": {
-    "name": "우모호",
-    "desc": ""
+    "name": "우모호"
   },
   "WZZ": {
-    "name": "와자제",
-    "desc": ""
+    "name": "와자제"
   },
   "PPK": {
-    "name": "팬카",
-    "desc": ""
+    "name": "팬카"
   },
   "UGX": {
-    "name": "우각스파",
-    "desc": ""
+    "name": "우각스파"
   },
   "GWY": {
-    "name": "구와이히",
-    "desc": ""
+    "name": "구와이히"
   },
   "GDW": {
-    "name": "기두와",
-    "desc": ""
+    "name": "기두와"
   },
   "TSO": {
-    "name": "초야하",
-    "desc": ""
+    "name": "초야하"
   },
   "CFQ": {
-    "name": "코피타체키",
-    "desc": ""
+    "name": "코피타체키"
   },
   "JOA": {
-    "name": "조아라",
-    "desc": ""
+    "name": "조아라"
   },
   "TSN": {
-    "name": "체나코마카",
-    "desc": ""
+    "name": "체나코마카"
   },
   "ACL": {
-    "name": "아콜라피사",
-    "desc": ""
+    "name": "아콜라피사"
   },
   "MBL": {
-    "name": "토호메",
-    "desc": ""
+    "name": "토호메"
   },
   "CTT": {
-    "name": "차톳",
-    "desc": ""
+    "name": "차톳"
   },
   "YMS": {
-    "name": "야마시",
-    "desc": ""
+    "name": "야마시"
   },
   "CSB": {
-    "name": "쿠사보",
-    "desc": ""
+    "name": "쿠사보"
   },
   "CHK": {
-    "name": "카호키아",
-    "desc": ""
+    "name": "카호키아"
   },
   "HCK": {
-    "name": "후착",
-    "desc": ""
+    "name": "후착"
   },
   "BXJ": {
-    "name": "바쇼제",
-    "desc": ""
+    "name": "바쇼제"
   },
   "WGH": {
-    "name": "와그톡챠타",
-    "desc": ""
+    "name": "와그톡챠타"
   },
   "OFO": {
-    "name": "오포",
-    "desc": ""
+    "name": "오포"
   },
   "TKS": {
-    "name": "타넥스",
-    "desc": ""
+    "name": "타넥스"
   },
   "MTN": {
-    "name": "모네톤",
-    "desc": ""
+    "name": "모네톤"
   },
   "MNC": {
-    "name": "모나칸",
-    "desc": ""
+    "name": "모나칸"
   },
   "TTL": {
-    "name": "투텔로",
-    "desc": ""
+    "name": "투텔로"
   },
   "WCM": {
-    "name": "와카모",
-    "desc": ""
+    "name": "와카모"
   },
   "TMC": {
-    "name": "티무쿠아",
-    "desc": ""
+    "name": "티무쿠아"
   },
   "CLS": {
-    "name": "칼루사",
-    "desc": ""
+    "name": "칼루사"
   },
   "AIX": {
-    "name": "아이스",
-    "desc": ""
+    "name": "아이스"
   },
   "TBG": {
-    "name": "토코바가",
-    "desc": ""
+    "name": "토코바가"
   },
   "NTT": {
-    "name": "노토웨이",
-    "desc": ""
+    "name": "노토웨이"
   },
   "SKR": {
-    "name": "스카루레",
-    "desc": ""
+    "name": "스카루레"
   },
   "WRO": {
-    "name": "웬로로논",
-    "desc": ""
+    "name": "웬로로논"
   },
   "KEN": {
-    "name": "켄타이엔통가",
-    "desc": ""
+    "name": "켄타이엔통가"
   },
   "ERI": {
-    "name": "이릴호난",
-    "desc": ""
+    "name": "이릴호난"
   },
   "HON": {
-    "name": "호니아손트",
-    "desc": ""
+    "name": "호니아손트"
   },
   "ONJ": {
-    "name": "오노주타",
-    "desc": ""
+    "name": "오노주타"
   },
   "CTN": {
-    "name": "카란투안",
-    "desc": ""
+    "name": "카란투안"
   },
   "AKY": {
-    "name": "아트라콰예",
-    "desc": ""
+    "name": "아트라콰예"
   },
   "KKA": {
-    "name": "카니엔케하카",
-    "desc": ""
+    "name": "카니엔케하카"
   },
   "ONY": {
-    "name": "오뇨타아카",
-    "desc": ""
+    "name": "오뇨타아카"
   },
   "ONO": {
-    "name": "오논다게가",
-    "desc": ""
+    "name": "오논다게가"
   },
   "GYO": {
-    "name": "가요고호노",
-    "desc": ""
+    "name": "가요고호노"
   },
   "ONN": {
-    "name": "오논다가",
-    "desc": ""
+    "name": "오논다가"
   },
   "PML": {
-    "name": "팜리코",
-    "desc": ""
+    "name": "팜리코"
   },
   "DOE": {
-    "name": "도에그",
-    "desc": ""
+    "name": "도에그"
   },
   "PSC": {
-    "name": "피스카타웨이",
-    "desc": ""
+    "name": "피스카타웨이"
   },
   "NTK": {
-    "name": "넨테고",
-    "desc": ""
+    "name": "넨테고"
   },
   "RPP": {
-    "name": "래퍼핸녹",
-    "desc": ""
+    "name": "래퍼핸녹"
   },
   "CAA": {
-    "name": "크로아탄",
-    "desc": ""
+    "name": "크로아탄"
   },
   "NSM": {
-    "name": "낸스몬드",
-    "desc": ""
+    "name": "낸스몬드"
   },
   "ACW": {
-    "name": "아카우마케",
-    "desc": ""
+    "name": "아카우마케"
   },
   "MMQ": {
-    "name": "마마체크타우",
-    "desc": ""
+    "name": "마마체크타우"
   },
   "OSK": {
-    "name": "오사키이와키",
-    "desc": ""
+    "name": "오사키이와키"
   },
   "MSK": {
-    "name": "메스카우키",
-    "desc": ""
+    "name": "메스카우키"
   },
   "KIW": {
-    "name": "키위가파와",
-    "desc": ""
+    "name": "키위가파와"
   },
   "MCT": {
-    "name": "마스쿠텐",
-    "desc": ""
+    "name": "마스쿠텐"
   },
   "CLG": {
-    "name": "찰라가우타",
-    "desc": ""
+    "name": "찰라가우타"
   },
   "MKC": {
-    "name": "메코체",
-    "desc": ""
+    "name": "메코체"
   },
   "KPK": {
-    "name": "키스포코",
-    "desc": ""
+    "name": "키스포코"
   },
   "PKW": {
-    "name": "페코위",
-    "desc": ""
+    "name": "페코위"
   },
   "HAT": {
-    "name": "하타웨켈라",
-    "desc": ""
+    "name": "하타웨켈라"
   },
   "BDK": {
-    "name": "보데와도믹",
-    "desc": ""
+    "name": "보데와도믹"
   },
   "TMW": {
-    "name": "타마로와",
-    "desc": ""
+    "name": "타마로와"
   },
   "KHK": {
-    "name": "카호키아키",
-    "desc": ""
+    "name": "카호키아키"
   },
   "KKH": {
-    "name": "카스칸카함",
-    "desc": ""
+    "name": "카스칸카함"
   },
   "PEO": {
-    "name": "피와리와",
-    "desc": ""
+    "name": "피와리와"
   },
   "AKG": {
-    "name": "아차캉구엔",
-    "desc": ""
+    "name": "아차캉구엔"
   },
   "PIA": {
-    "name": "피안케쇼",
-    "desc": ""
+    "name": "피안케쇼"
   },
   "PEP": {
-    "name": "페피코키아",
-    "desc": ""
+    "name": "페피코키아"
   },
   "WEA": {
-    "name": "와야아탄와",
-    "desc": ""
+    "name": "와야아탄와"
   },
   "UNA": {
-    "name": "웬아미",
-    "desc": ""
+    "name": "웬아미"
   },
   "MNS": {
-    "name": "몬시",
-    "desc": ""
+    "name": "몬시"
   },
   "UNL": {
-    "name": "우날라츠코",
-    "desc": ""
+    "name": "우날라츠코"
   },
   "MCN": {
-    "name": "무헤쿤느우",
-    "desc": ""
+    "name": "무헤쿤느우"
   },
   "QRP": {
-    "name": "퀴리피",
-    "desc": ""
+    "name": "퀴리피"
   },
   "PCT": {
-    "name": "포컴턱",
-    "desc": ""
+    "name": "포컴턱"
   },
   "PQT": {
-    "name": "피쿼트",
-    "desc": ""
+    "name": "피쿼트"
   },
   "NRG": {
-    "name": "나이간셋",
-    "desc": ""
+    "name": "나이간셋"
   },
   "WMG": {
-    "name": "왐파노악",
-    "desc": ""
+    "name": "왐파노악"
   },
   "MSC": {
-    "name": "매사추세크",
-    "desc": ""
+    "name": "매사추세크"
   },
   "PCK": {
-    "name": "페나쿡",
-    "desc": ""
+    "name": "페나쿡"
   },
   "BQA": {
-    "name": "바르카",
-    "desc": ""
+    "name": "바르카"
   },
   "BKZ": {
-    "name": "바누 칸즈",
-    "desc": ""
+    "name": "바누 칸즈"
   },
   "FZA": {
-    "name": "페잔",
-    "desc": ""
+    "name": "페잔"
   },
   "MAM": {
-    "name": "이집트",
-    "desc": ""
+    "name": "이집트"
   },
   "SKN": {
-    "name": "수아킨",
-    "desc": ""
+    "name": "수아킨"
   },
   "TRP": {
-    "name": "트리폴리",
-    "desc": ""
+    "name": "트리폴리"
   },
   "BRI": {
-    "name": "브르타뉴",
-    "desc": ""
+    "name": "브르타뉴"
   },
   "FRA": {
-    "name": "프랑스",
-    "desc": ""
+    "name": "프랑스"
   },
   "BUR": {
-    "name": "부르고뉴",
-    "desc": ""
+    "name": "부르고뉴"
   },
   "FCB": {
-    "name": "프랑슈콩테",
-    "desc": ""
+    "name": "프랑슈콩테"
   },
   "AQN": {
-    "name": "아키텐",
-    "desc": ""
+    "name": "아키텐"
   },
   "ALE": {
-    "name": "알랑송",
-    "desc": ""
+    "name": "알랑송"
   },
   "AUX": {
-    "name": "오세르",
-    "desc": ""
+    "name": "오세르"
   },
   "SAN": {
-    "name": "상세르",
-    "desc": ""
+    "name": "상세르"
   },
   "AMG": {
-    "name": "아르마냑",
-    "desc": ""
+    "name": "아르마냑"
   },
   "AUV": {
-    "name": "오베르뉴",
-    "desc": ""
+    "name": "오베르뉴"
   },
   "BOU": {
-    "name": "부르봉",
-    "desc": ""
+    "name": "부르봉"
   },
   "CHP": {
-    "name": "샹파뉴",
-    "desc": ""
+    "name": "샹파뉴"
   },
   "DAU": {
-    "name": "비엔누아",
-    "desc": ""
+    "name": "비엔누아"
   },
   "EVR": {
-    "name": "에브뢰",
-    "desc": ""
+    "name": "에브뢰"
   },
   "FOI": {
-    "name": "푸아",
-    "desc": ""
+    "name": "푸아"
   },
   "GUY": {
-    "name": "가스코뉴",
-    "desc": ""
+    "name": "가스코뉴"
   },
   "NEV": {
-    "name": "느베르",
-    "desc": ""
+    "name": "느베르"
   },
   "NRB": {
-    "name": "나르본",
-    "desc": ""
+    "name": "나르본"
   },
   "NRM": {
-    "name": "노르망디",
-    "desc": ""
+    "name": "노르망디"
   },
   "JER": {
-    "name": "저지",
-    "desc": ""
+    "name": "저지"
   },
   "ORL": {
-    "name": "오를레앙",
-    "desc": ""
+    "name": "오를레앙"
   },
   "PIC": {
-    "name": "피카르디",
-    "desc": ""
+    "name": "피카르디"
   },
   "PRO": {
-    "name": "프로방스",
-    "desc": ""
+    "name": "프로방스"
   },
   "ORA": {
-    "name": "오랑주",
-    "desc": ""
+    "name": "오랑주"
   },
   "TOU": {
-    "name": "툴루즈",
-    "desc": ""
+    "name": "툴루즈"
   },
   "BER": {
-    "name": "베리",
-    "desc": ""
+    "name": "베리"
   },
   "LOR": {
-    "name": "로렌",
-    "desc": ""
+    "name": "로렌"
   },
   "BAR": {
-    "name": "바르",
-    "desc": ""
+    "name": "바르"
   },
   "DRE": {
-    "name": "드뢰",
-    "desc": ""
+    "name": "드뢰"
   },
   "MRT": {
-    "name": "모르탱",
-    "desc": ""
+    "name": "모르탱"
   },
   "POI": {
-    "name": "푸아투",
-    "desc": ""
+    "name": "푸아투"
   },
   "ANJ": {
-    "name": "앙주",
-    "desc": ""
+    "name": "앙주"
   },
   "MIE": {
-    "name": "멘",
-    "desc": ""
+    "name": "멘"
   },
   "VLS": {
-    "name": "발루아",
-    "desc": ""
+    "name": "발루아"
   },
   "PRC": {
-    "name": "페르슈",
-    "desc": ""
+    "name": "페르슈"
   },
   "FRZ": {
-    "name": "포레즈",
-    "desc": ""
+    "name": "포레즈"
   },
   "BLS": {
-    "name": "블루아",
-    "desc": ""
+    "name": "블루아"
   },
   "VDM": {
-    "name": "방돔",
-    "desc": ""
+    "name": "방돔"
   },
   "ETA": {
-    "name": "에탕프",
-    "desc": ""
+    "name": "에탕프"
   },
   "AST": {
-    "name": "아스타락",
-    "desc": ""
+    "name": "아스타락"
   },
   "COM": {
-    "name": "코망주",
-    "desc": ""
+    "name": "코망주"
   },
   "IJO": {
-    "name": "릴주르댕",
-    "desc": ""
+    "name": "릴주르댕"
   },
   "VLN": {
-    "name": "발랑티누아",
-    "desc": ""
+    "name": "발랑티누아"
   },
   "PER": {
-    "name": "페리고르",
-    "desc": ""
+    "name": "페리고르"
   },
   "TON": {
-    "name": "토네르",
-    "desc": ""
+    "name": "토네르"
   },
   "MON": {
-    "name": "몽포르",
-    "desc": ""
+    "name": "몽포르"
   },
   "AUM": {
-    "name": "오말",
-    "desc": ""
+    "name": "오말"
   },
   "ROU": {
-    "name": "루시",
-    "desc": ""
+    "name": "루시"
   },
   "BSC": {
-    "name": "브장송",
-    "desc": ""
+    "name": "브장송"
   },
   "ALS": {
-    "name": "스트라스보우르굼",
-    "desc": ""
+    "name": "스트라스보우르굼"
   },
   "MTB": {
-    "name": "몽벨리아르",
-    "desc": ""
+    "name": "몽벨리아르"
   },
   "TUL": {
-    "name": "툴",
-    "desc": ""
+    "name": "툴"
   },
   "VDU": {
-    "name": "베르됭",
-    "desc": ""
+    "name": "베르됭"
   },
   "MTZ": {
-    "name": "메스",
-    "desc": ""
+    "name": "메스"
   },
   "SLM": {
-    "name": "잘름",
-    "desc": ""
+    "name": "잘름"
   },
   "MOU": {
-    "name": "무종",
-    "desc": ""
+    "name": "무종"
   },
   "RET": {
-    "name": "레텔",
-    "desc": ""
+    "name": "레텔"
   },
   "CAM": {
-    "name": "캉브레지",
-    "desc": ""
+    "name": "캉브레지"
   },
   "BRR": {
-    "name": "베아른",
-    "desc": ""
+    "name": "베아른"
   },
   "MDM": {
-    "name": "마르상",
-    "desc": ""
+    "name": "마르상"
   },
   "FRT": {
-    "name": "피리트",
-    "desc": ""
+    "name": "피리트"
   },
   "MRC": {
-    "name": "라마르슈",
-    "desc": ""
+    "name": "라마르슈"
   },
   "VNT": {
-    "name": "방타두르",
-    "desc": ""
+    "name": "방타두르"
   },
   "RCC": {
-    "name": "로슈슈아르",
-    "desc": ""
+    "name": "로슈슈아르"
   },
   "CLT": {
-    "name": "카를라",
-    "desc": ""
+    "name": "카를라"
   },
   "ANG": {
-    "name": "앙굴렘",
-    "desc": ""
+    "name": "앙굴렘"
   },
   "DAM": {
-    "name": "다모트",
-    "desc": ""
+    "name": "다모트"
   },
   "ENN": {
-    "name": "엔나레아",
-    "desc": ""
+    "name": "엔나레아"
   },
   "DBE": {
-    "name": "도베아",
-    "desc": ""
+    "name": "도베아"
   },
   "END": {
-    "name": "엔데르타",
-    "desc": ""
+    "name": "엔데르타"
   },
   "ETH": {
-    "name": "에티오피아",
-    "desc": ""
+    "name": "에티오피아"
   },
   "GJJ": {
-    "name": "고잠",
-    "desc": ""
+    "name": "고잠"
   },
   "MED": {
-    "name": "메드리 바흐리",
-    "desc": ""
+    "name": "메드리 바흐리"
   },
   "BTI": {
-    "name": "시미엔",
-    "desc": ""
+    "name": "시미엔"
   },
   "ADA": {
-    "name": "아달",
-    "desc": ""
+    "name": "아달"
   },
   "AFA": {
-    "name": "단칼리",
-    "desc": ""
+    "name": "단칼리"
   },
   "ABB": {
-    "name": "아르바브니",
-    "desc": ""
+    "name": "아르바브니"
   },
   "AWS": {
-    "name": "아우사",
-    "desc": ""
+    "name": "아우사"
   },
   "BLE": {
-    "name": "발레",
-    "desc": ""
+    "name": "발레"
   },
   "DHK": {
-    "name": "달락",
-    "desc": ""
+    "name": "달락"
   },
   "DRA": {
-    "name": "다라",
-    "desc": ""
+    "name": "다라"
   },
   "DAW": {
-    "name": "다와로",
-    "desc": ""
+    "name": "다와로"
   },
   "HDY": {
-    "name": "하디야",
-    "desc": ""
+    "name": "하디야"
   },
   "IFA": {
-    "name": "이파트",
-    "desc": ""
+    "name": "이파트"
   },
   "HRL": {
-    "name": "할라",
-    "desc": ""
+    "name": "할라"
   },
   "SHK": {
-    "name": "샤르카",
-    "desc": ""
+    "name": "샤르카"
   },
   "SOA": {
-    "name": "셰와",
-    "desc": ""
+    "name": "셰와"
   },
   "AJU": {
-    "name": "아주란",
-    "desc": ""
+    "name": "아주란"
   },
   "GLE": {
-    "name": "겔레디",
-    "desc": ""
+    "name": "겔레디"
   },
   "MDI": {
-    "name": "모가디슈",
-    "desc": ""
+    "name": "모가디슈"
   },
   "WAR": {
-    "name": "와르상갈리",
-    "desc": ""
+    "name": "와르상갈리"
   },
   "TDE": {
-    "name": "타나데",
-    "desc": ""
+    "name": "타나데"
   },
   "ABW": {
-    "name": "알아브와브",
-    "desc": ""
+    "name": "알아브와브"
   },
   "ALO": {
-    "name": "알로디아",
-    "desc": ""
+    "name": "알로디아"
   },
   "MAK": {
-    "name": "마쿠리아",
-    "desc": ""
+    "name": "마쿠리아"
   },
   "BQL": {
-    "name": "바클린",
-    "desc": ""
+    "name": "바클린"
   },
   "BZN": {
-    "name": "바진",
-    "desc": ""
+    "name": "바진"
   },
   "JRN": {
-    "name": "자린",
-    "desc": ""
+    "name": "자린"
   },
   "NQS": {
-    "name": "나키스",
-    "desc": ""
+    "name": "나키스"
   },
   "QTA": {
-    "name": "카타",
-    "desc": ""
+    "name": "카타"
   },
   "DAJ": {
-    "name": "다주",
-    "desc": ""
+    "name": "다주"
   },
   "ORO": {
-    "name": "오로모",
-    "desc": ""
+    "name": "오로모"
   },
   "AFR": {
-    "name": "아프레",
-    "desc": ""
+    "name": "아프레"
   },
   "SDQ": {
-    "name": "사다카",
-    "desc": ""
+    "name": "사다카"
   },
   "FNJ": {
-    "name": "베르타",
-    "desc": ""
+    "name": "베르타"
   },
   "GUM": {
-    "name": "구무즈",
-    "desc": ""
+    "name": "구무즈"
   },
   "KUN": {
-    "name": "쿠나마",
-    "desc": ""
+    "name": "쿠나마"
   },
   "CAT": {
-    "name": "카탈루냐",
-    "desc": ""
+    "name": "카탈루냐"
   },
   "ANR": {
-    "name": "안도라",
-    "desc": ""
+    "name": "안도라"
   },
   "ARA": {
-    "name": "아라곤",
-    "desc": ""
+    "name": "아라곤"
   },
   "VAL": {
-    "name": "발렌시아",
-    "desc": ""
+    "name": "발렌시아"
   },
   "MLL": {
-    "name": "마요르카",
-    "desc": ""
+    "name": "마요르카"
   },
   "CAS": {
-    "name": "카스티야",
-    "desc": ""
+    "name": "카스티야"
   },
   "POR": {
-    "name": "포르투갈",
-    "desc": ""
+    "name": "포르투갈"
   },
   "LON": {
-    "name": "레온",
-    "desc": ""
+    "name": "레온"
   },
   "GLC": {
-    "name": "갈리시아",
-    "desc": ""
+    "name": "갈리시아"
   },
   "GRA": {
-    "name": "그라나다",
-    "desc": ""
+    "name": "그라나다"
   },
   "NAV": {
-    "name": "나바라",
-    "desc": ""
+    "name": "나바라"
   },
   "DLH": {
-    "name": "델리",
-    "desc": ""
+    "name": "델리"
   },
   "HSL": {
-    "name": "호이살라",
-    "desc": ""
+    "name": "호이살라"
   },
   "SMV": {
-    "name": "삼부바라야르",
-    "desc": ""
+    "name": "삼부바라야르"
   },
   "VIJ": {
-    "name": "비자야나가라",
-    "desc": ""
+    "name": "비자야나가라"
   },
   "MAB": {
-    "name": "마바르",
-    "desc": ""
+    "name": "마바르"
   },
   "TNK": {
-    "name": "판디아",
-    "desc": ""
+    "name": "판디아"
   },
   "RDY": {
-    "name": "레디",
-    "desc": ""
+    "name": "레디"
   },
   "YDR": {
-    "name": "야다바라야",
-    "desc": ""
+    "name": "야다바라야"
   },
   "ZMR": {
-    "name": "코지코드",
-    "desc": ""
+    "name": "코지코드"
   },
   "KLT": {
-    "name": "콜라투나두",
-    "desc": ""
+    "name": "콜라투나두"
   },
   "PDU": {
-    "name": "코친",
-    "desc": ""
+    "name": "코친"
   },
   "VND": {
-    "name": "베나드",
-    "desc": ""
+    "name": "베나드"
   },
   "KTN": {
-    "name": "쿠타나드",
-    "desc": ""
+    "name": "쿠타나드"
   },
   "KDU": {
-    "name": "파딘자테다투",
-    "desc": ""
+    "name": "파딘자테다투"
   },
   "KYA": {
-    "name": "코타얌",
-    "desc": ""
+    "name": "코타얌"
   },
   "VLD": {
-    "name": "발루바나드",
-    "desc": ""
+    "name": "발루바나드"
   },
   "ELA": {
-    "name": "엘라야다투",
-    "desc": ""
+    "name": "엘라야다투"
   },
   "TKU": {
-    "name": "테쿰쿠르",
-    "desc": ""
+    "name": "테쿰쿠르"
   },
   "VDK": {
-    "name": "바다쿰쿠르",
-    "desc": ""
+    "name": "바다쿰쿠르"
   },
   "ALU": {
-    "name": "알루파",
-    "desc": ""
+    "name": "알루파"
   },
   "STR": {
-    "name": "산타라",
-    "desc": ""
+    "name": "산타라"
   },
   "KPL": {
-    "name": "코풀라",
-    "desc": ""
+    "name": "코풀라"
   },
   "MSN": {
-    "name": "무수누리",
-    "desc": ""
+    "name": "무수누리"
   },
   "RCH": {
-    "name": "레체를라",
-    "desc": ""
+    "name": "레체를라"
   },
   "ORI": {
-    "name": "오리사",
-    "desc": ""
+    "name": "오리사"
   },
   "KNK": {
-    "name": "캉케르",
-    "desc": ""
+    "name": "캉케르"
   },
   "BST": {
-    "name": "바스타르",
-    "desc": ""
+    "name": "바스타르"
   },
   "JPO": {
-    "name": "난다푸르",
-    "desc": ""
+    "name": "난다푸르"
   },
   "BGL": {
-    "name": "바글라나",
-    "desc": ""
+    "name": "바글라나"
   },
   "CHD": {
-    "name": "찬다",
-    "desc": ""
+    "name": "찬다"
   },
   "BGR": {
-    "name": "반두가라",
-    "desc": ""
+    "name": "반두가라"
   },
   "WRG": {
-    "name": "와이라가르",
-    "desc": ""
+    "name": "와이라가르"
   },
   "GOA": {
-    "name": "고아",
-    "desc": ""
+    "name": "고아"
   },
   "HNV": {
-    "name": "혼나바라",
-    "desc": ""
+    "name": "혼나바라"
   },
   "DRP": {
-    "name": "람나가르",
-    "desc": ""
+    "name": "람나가르"
   },
   "JWR": {
-    "name": "자우하르",
-    "desc": ""
+    "name": "자우하르"
   },
   "DGR": {
-    "name": "바가르",
-    "desc": ""
+    "name": "바가르"
   },
   "MEW": {
-    "name": "메와르",
-    "desc": ""
+    "name": "메와르"
   },
   "IDR": {
-    "name": "이다르",
-    "desc": ""
+    "name": "이다르"
   },
   "JLR": {
-    "name": "잘로르",
-    "desc": ""
+    "name": "잘로르"
   },
   "CMN": {
-    "name": "참파네르",
-    "desc": ""
+    "name": "참파네르"
   },
   "RJI": {
-    "name": "라지피플라",
-    "desc": ""
+    "name": "라지피플라"
   },
   "KUT": {
-    "name": "쿠치",
-    "desc": ""
+    "name": "쿠치"
   },
   "SMA": {
-    "name": "삼마",
-    "desc": ""
+    "name": "삼마"
   },
   "SND": {
-    "name": "신드",
-    "desc": ""
+    "name": "신드"
   },
   "RNP": {
-    "name": "란푸르",
-    "desc": ""
+    "name": "란푸르"
   },
   "GHL": {
-    "name": "고힐바드",
-    "desc": ""
+    "name": "고힐바드"
   },
   "PLT": {
-    "name": "팔리타나",
-    "desc": ""
+    "name": "팔리타나"
   },
   "JNG": {
-    "name": "주나가르",
-    "desc": ""
+    "name": "주나가르"
   },
   "BHD": {
-    "name": "반바드",
-    "desc": ""
+    "name": "반바드"
   },
   "JLW": {
-    "name": "잘라와드",
-    "desc": ""
+    "name": "잘라와드"
   },
   "MRW": {
-    "name": "마르와르",
-    "desc": ""
+    "name": "마르와르"
   },
   "HAD": {
-    "name": "하도티",
-    "desc": ""
+    "name": "하도티"
   },
   "JSL": {
-    "name": "자이살메르",
-    "desc": ""
+    "name": "자이살메르"
   },
   "PGL": {
-    "name": "푸갈",
-    "desc": ""
+    "name": "푸갈"
   },
   "KLI": {
-    "name": "카라울리",
-    "desc": ""
+    "name": "카라울리"
   },
   "SHR": {
-    "name": "사하란",
-    "desc": ""
+    "name": "사하란"
   },
   "DRW": {
-    "name": "다드레와",
-    "desc": ""
+    "name": "다드레와"
   },
   "BWL": {
-    "name": "베니왈",
-    "desc": ""
+    "name": "베니왈"
   },
   "JHI": {
-    "name": "조히야",
-    "desc": ""
+    "name": "조히야"
   },
   "GDA": {
-    "name": "고다라",
-    "desc": ""
+    "name": "고다라"
   },
   "PNA": {
-    "name": "푸니아",
-    "desc": ""
+    "name": "푸니아"
   },
   "BHA": {
-    "name": "바트니르",
-    "desc": ""
+    "name": "바트니르"
   },
   "DOG": {
-    "name": "도그라",
-    "desc": ""
+    "name": "도그라"
   },
   "DHU": {
-    "name": "둔다르",
-    "desc": ""
+    "name": "둔다르"
   },
   "GWA": {
-    "name": "괄리오르",
-    "desc": ""
+    "name": "괄리오르"
   },
   "JJK": {
-    "name": "제자카부크티",
-    "desc": ""
+    "name": "제자카부크티"
   },
   "BND": {
-    "name": "분델칸드",
-    "desc": ""
+    "name": "분델칸드"
   },
   "BGK": {
-    "name": "바겔칸드",
-    "desc": ""
+    "name": "바겔칸드"
   },
   "MAU": {
-    "name": "마우 간지",
-    "desc": ""
+    "name": "마우 간지"
   },
   "KHR": {
-    "name": "케를라",
-    "desc": ""
+    "name": "케를라"
   },
   "GHR": {
-    "name": "가르하",
-    "desc": ""
+    "name": "가르하"
   },
   "RTP": {
-    "name": "라트나푸라",
-    "desc": ""
+    "name": "라트나푸라"
   },
   "BAD": {
-    "name": "바우드",
-    "desc": ""
+    "name": "바우드"
   },
   "NRS": {
-    "name": "나르싱푸르",
-    "desc": ""
+    "name": "나르싱푸르"
   },
   "KJA": {
-    "name": "케온자르",
-    "desc": ""
+    "name": "케온자르"
   },
   "PTN": {
-    "name": "파트나",
-    "desc": ""
+    "name": "파트나"
   },
   "PRT": {
-    "name": "만도르",
-    "desc": ""
+    "name": "만도르"
   },
   "KLH": {
-    "name": "칼라한디",
-    "desc": ""
+    "name": "칼라한디"
   },
   "SRG": {
-    "name": "사랑가르",
-    "desc": ""
+    "name": "사랑가르"
   },
   "PLA": {
-    "name": "팔 라하라",
-    "desc": ""
+    "name": "팔 라하라"
   },
   "BNA": {
-    "name": "보나이",
-    "desc": ""
+    "name": "보나이"
   },
   "MJU": {
-    "name": "마유르반지",
-    "desc": ""
+    "name": "마유르반지"
   },
   "DBD": {
-    "name": "담바데니야",
-    "desc": ""
+    "name": "담바데니야"
   },
   "JFN": {
-    "name": "자프나",
-    "desc": ""
+    "name": "자프나"
   },
   "NAG": {
-    "name": "나가르",
-    "desc": ""
+    "name": "나가르"
   },
   "SWT": {
-    "name": "스와트",
-    "desc": ""
+    "name": "스와트"
   },
   "HNZ": {
-    "name": "훈자",
-    "desc": ""
+    "name": "훈자"
   },
   "CTR": {
-    "name": "치트랄",
-    "desc": ""
+    "name": "치트랄"
   },
   "CRL": {
-    "name": "웃순",
-    "desc": ""
+    "name": "웃순"
   },
   "GLI": {
-    "name": "길기트",
-    "desc": ""
+    "name": "길기트"
   },
   "KSH": {
-    "name": "카슈미르",
-    "desc": ""
+    "name": "카슈미르"
   },
   "RJR": {
-    "name": "라주리",
-    "desc": ""
+    "name": "라주리"
   },
   "PNC": {
-    "name": "푼치",
-    "desc": ""
+    "name": "푼치"
   },
   "CBH": {
-    "name": "빔버",
-    "desc": ""
+    "name": "빔버"
   },
   "CAB": {
-    "name": "참바",
-    "desc": ""
+    "name": "참바"
   },
   "LHL": {
-    "name": "라훌",
-    "desc": ""
+    "name": "라훌"
   },
   "KLU": {
-    "name": "쿨루",
-    "desc": ""
+    "name": "쿨루"
   },
   "KSW": {
-    "name": "키슈트와르",
-    "desc": ""
+    "name": "키슈트와르"
   },
   "SKT": {
-    "name": "수켓",
-    "desc": ""
+    "name": "수켓"
   },
   "BSP": {
-    "name": "빌라스푸르",
-    "desc": ""
+    "name": "빌라스푸르"
   },
   "KTL": {
-    "name": "쿠틀레하르",
-    "desc": ""
+    "name": "쿠틀레하르"
   },
   "KGR": {
-    "name": "캉그라",
-    "desc": ""
+    "name": "캉그라"
   },
   "NRP": {
-    "name": "누르푸르",
-    "desc": ""
+    "name": "누르푸르"
   },
   "MAJ": {
-    "name": "마자파힛",
-    "desc": ""
+    "name": "마자파힛"
   },
   "BLI": {
-    "name": "발리",
-    "desc": ""
+    "name": "발리"
   },
   "SUN": {
-    "name": "순다",
-    "desc": ""
+    "name": "순다"
   },
   "JMB": {
-    "name": "믈라유",
-    "desc": ""
+    "name": "믈라유"
   },
   "ATJ": {
-    "name": "아체",
-    "desc": ""
+    "name": "아체"
   },
   "PSA": {
-    "name": "파사이",
-    "desc": ""
+    "name": "파사이"
   },
   "ARU": {
-    "name": "아루",
-    "desc": ""
+    "name": "아루"
   },
   "PNI": {
-    "name": "판나이",
-    "desc": ""
+    "name": "판나이"
   },
   "BUS": {
-    "name": "바루스",
-    "desc": ""
+    "name": "바루스"
   },
   "INR": {
-    "name": "인드라기리",
-    "desc": ""
+    "name": "인드라기리"
   },
   "SGT": {
-    "name": "시군투르",
-    "desc": ""
+    "name": "시군투르"
   },
   "PLB": {
-    "name": "팔렘방",
-    "desc": ""
+    "name": "팔렘방"
   },
   "LGE": {
-    "name": "링게",
-    "desc": ""
+    "name": "링게"
   },
   "TJP": {
-    "name": "탄중푸라",
-    "desc": ""
+    "name": "탄중푸라"
   },
   "NSR": {
-    "name": "난 사루나이",
-    "desc": ""
+    "name": "난 사루나이"
   },
   "KRP": {
-    "name": "쿠리판",
-    "desc": ""
+    "name": "쿠리판"
   },
   "MRP": {
-    "name": "쿠타이 마르타푸라",
-    "desc": ""
+    "name": "쿠타이 마르타푸라"
   },
   "KKG": {
-    "name": "쿠타이 카르타느가라",
-    "desc": ""
+    "name": "쿠타이 카르타느가라"
   },
   "SMB": {
-    "name": "삼바스",
-    "desc": ""
+    "name": "삼바스"
   },
   "TDG": {
-    "name": "티둥",
-    "desc": ""
+    "name": "티둥"
   },
   "BEI": {
-    "name": "브루나이",
-    "desc": ""
+    "name": "브루나이"
   },
   "MNU": {
-    "name": "멜라나우",
-    "desc": ""
+    "name": "멜라나우"
   },
   "SBG": {
-    "name": "산투봉",
-    "desc": ""
+    "name": "산투봉"
   },
   "SGU": {
-    "name": "상가우",
-    "desc": ""
+    "name": "상가우"
   },
   "LNK": {
-    "name": "란닥",
-    "desc": ""
+    "name": "란닥"
   },
   "SBU": {
-    "name": "슬림바우",
-    "desc": ""
+    "name": "슬림바우"
   },
   "SLA": {
-    "name": "실랏",
-    "desc": ""
+    "name": "실랏"
   },
   "BLN": {
-    "name": "볼라앙",
-    "desc": ""
+    "name": "볼라앙"
   },
   "GRT": {
-    "name": "고론탈로",
-    "desc": ""
+    "name": "고론탈로"
   },
   "PJT": {
-    "name": "푸자난티",
-    "desc": ""
+    "name": "푸자난티"
   },
   "BGG": {
-    "name": "방가",
-    "desc": ""
+    "name": "방가"
   },
   "LUW": {
-    "name": "루우",
-    "desc": ""
+    "name": "루우"
   },
   "BAI": {
-    "name": "방가이",
-    "desc": ""
+    "name": "방가이"
   },
   "BTE": {
-    "name": "반타엥",
-    "desc": ""
+    "name": "반타엥"
   },
   "GOW": {
-    "name": "고와",
-    "desc": ""
+    "name": "고와"
   },
   "BOW": {
-    "name": "보원테후",
-    "desc": ""
+    "name": "보원테후"
   },
   "BTN": {
-    "name": "부톤",
-    "desc": ""
+    "name": "부톤"
   },
   "MKG": {
-    "name": "메콩가",
-    "desc": ""
+    "name": "메콩가"
   },
   "KNW": {
-    "name": "코나웨",
-    "desc": ""
+    "name": "코나웨"
   },
   "MRN": {
-    "name": "모로네네",
-    "desc": ""
+    "name": "모로네네"
   },
   "CIN": {
-    "name": "치나",
-    "desc": ""
+    "name": "치나"
   },
   "KLS": {
-    "name": "칼리수수",
-    "desc": ""
+    "name": "칼리수수"
   },
   "WUN": {
-    "name": "무나",
-    "desc": ""
+    "name": "무나"
   },
   "BNE": {
-    "name": "보네",
-    "desc": ""
+    "name": "보네"
   },
   "SDR": {
-    "name": "시덴렝",
-    "desc": ""
+    "name": "시덴렝"
   },
   "RRU": {
-    "name": "바루",
-    "desc": ""
+    "name": "바루"
   },
   "SIG": {
-    "name": "시앙",
-    "desc": ""
+    "name": "시앙"
   },
   "PKR": {
-    "name": "파쏘꼬랑",
-    "desc": ""
+    "name": "파쏘꼬랑"
   },
   "SLP": {
-    "name": "셀라파랑",
-    "desc": ""
+    "name": "셀라파랑"
   },
   "BIM": {
-    "name": "비마",
-    "desc": ""
+    "name": "비마"
   },
   "DOM": {
-    "name": "돔푸",
-    "desc": ""
+    "name": "돔푸"
   },
   "NGL": {
-    "name": "응알리",
-    "desc": ""
+    "name": "응알리"
   },
   "TLW": {
-    "name": "탈리왕",
-    "desc": ""
+    "name": "탈리왕"
   },
   "LRT": {
-    "name": "라란투카",
-    "desc": ""
+    "name": "라란투카"
   },
   "WHL": {
-    "name": "웨할레",
-    "desc": ""
+    "name": "웨할레"
   },
   "BAC": {
-    "name": "바칸",
-    "desc": ""
+    "name": "바칸"
   },
   "TER": {
-    "name": "테르나테",
-    "desc": ""
+    "name": "테르나테"
   },
   "TID": {
-    "name": "티도레",
-    "desc": ""
+    "name": "티도레"
   },
   "LOL": {
-    "name": "로로다",
-    "desc": ""
+    "name": "로로다"
   },
   "JLO": {
-    "name": "자일롤로",
-    "desc": ""
+    "name": "자일롤로"
   },
   "MOO": {
-    "name": "모로",
-    "desc": ""
+    "name": "모로"
   },
   "SUL": {
-    "name": "루파 수그",
-    "desc": ""
+    "name": "루파 수그"
   },
   "MYI": {
-    "name": "마이",
-    "desc": ""
+    "name": "마이"
   },
   "CEB": {
-    "name": "세부",
-    "desc": ""
+    "name": "세부"
   },
   "TDO": {
-    "name": "톤도",
-    "desc": ""
+    "name": "톤도"
   },
   "MNA": {
-    "name": "마닐라",
-    "desc": ""
+    "name": "마닐라"
   },
   "MDY": {
-    "name": "마자야스",
-    "desc": ""
+    "name": "마자야스"
   },
   "PGS": {
-    "name": "카볼로안",
-    "desc": ""
+    "name": "카볼로안"
   },
   "BTU": {
-    "name": "부투안",
-    "desc": ""
+    "name": "부투안"
   },
   "MGD": {
-    "name": "웬두링",
-    "desc": ""
+    "name": "웬두링"
   },
   "KIM": {
-    "name": "킬리만",
-    "desc": ""
+    "name": "킬리만"
   },
   "LNO": {
-    "name": "라나오",
-    "desc": ""
+    "name": "라나오"
   },
   "IBL": {
-    "name": "이발론",
-    "desc": ""
+    "name": "이발론"
   },
   "PLL": {
-    "name": "풀릴루",
-    "desc": ""
+    "name": "풀릴루"
   },
   "TYY": {
-    "name": "타이타이",
-    "desc": ""
+    "name": "타이타이"
   },
   "KML": {
-    "name": "쿠말라랑",
-    "desc": ""
+    "name": "쿠말라랑"
   },
   "CNT": {
-    "name": "카인타",
-    "desc": ""
+    "name": "카인타"
   },
   "KAM": {
-    "name": "카이마나",
-    "desc": ""
+    "name": "카이마나"
   },
   "BOL": {
-    "name": "다피탄",
-    "desc": ""
+    "name": "다피탄"
   },
   "SML": {
-    "name": "산말란",
-    "desc": ""
+    "name": "산말란"
   },
   "ILC": {
-    "name": "일로코스",
-    "desc": ""
+    "name": "일로코스"
   },
   "WGE": {
-    "name": "와이게오",
-    "desc": ""
+    "name": "와이게오"
   },
   "MAD": {
-    "name": "마덴",
-    "desc": ""
+    "name": "마덴"
   },
   "MSL": {
-    "name": "미솔",
-    "desc": ""
+    "name": "미솔"
   },
   "ABA": {
-    "name": "알바",
-    "desc": ""
+    "name": "알바"
   },
   "ANC": {
-    "name": "안코나",
-    "desc": ""
+    "name": "안코나"
   },
   "AQU": {
-    "name": "아퀼레이아",
-    "desc": ""
+    "name": "아퀼레이아"
   },
   "ARB": {
-    "name": "아르보레아",
-    "desc": ""
+    "name": "아르보레아"
   },
   "ARZ": {
-    "name": "아레초",
-    "desc": ""
+    "name": "아레초"
   },
   "ASC": {
-    "name": "아스콜리",
-    "desc": ""
+    "name": "아스콜리"
   },
   "ASD": {
-    "name": "알레산드리아",
-    "desc": ""
+    "name": "알레산드리아"
   },
   "ATI": {
-    "name": "아스티",
-    "desc": ""
+    "name": "아스티"
   },
   "BLG": {
-    "name": "볼로냐",
-    "desc": ""
+    "name": "볼로냐"
   },
   "BRS": {
-    "name": "브레시아",
-    "desc": ""
+    "name": "브레시아"
   },
   "CAG": {
-    "name": "칼리아리",
-    "desc": ""
+    "name": "칼리아리"
   },
   "CDC": {
-    "name": "치타 디 카스텔로",
-    "desc": ""
+    "name": "치타 디 카스텔로"
   },
   "CEN": {
-    "name": "체네다",
-    "desc": ""
+    "name": "체네다"
   },
   "CES": {
-    "name": "체세나",
-    "desc": ""
+    "name": "체세나"
   },
   "CEV": {
-    "name": "체바",
-    "desc": ""
+    "name": "체바"
   },
   "CHX": {
-    "name": "키에리",
-    "desc": ""
+    "name": "키에리"
   },
   "CMR": {
-    "name": "카메리노",
-    "desc": ""
+    "name": "카메리노"
   },
   "CNV": {
-    "name": "카나베세",
-    "desc": ""
+    "name": "카나베세"
   },
   "COR": {
-    "name": "코르시카",
-    "desc": ""
+    "name": "코르시카"
   },
   "COT": {
-    "name": "코르토나",
-    "desc": ""
+    "name": "코르토나"
   },
   "CRM": {
-    "name": "크레모나",
-    "desc": ""
+    "name": "크레모나"
   },
   "CRR": {
-    "name": "피날레",
-    "desc": ""
+    "name": "피날레"
   },
   "FAB": {
-    "name": "파브리아노",
-    "desc": ""
+    "name": "파브리아노"
   },
   "FAE": {
-    "name": "파엔차",
-    "desc": ""
+    "name": "파엔차"
   },
   "FEL": {
-    "name": "펠트레",
-    "desc": ""
+    "name": "펠트레"
   },
   "FER": {
-    "name": "페라라",
-    "desc": ""
+    "name": "페라라"
   },
   "FLO": {
-    "name": "피렌체",
-    "desc": ""
+    "name": "피렌체"
   },
   "FRM": {
-    "name": "페르모",
-    "desc": ""
+    "name": "페르모"
   },
   "GAL": {
-    "name": "갈루라",
-    "desc": ""
+    "name": "갈루라"
   },
   "GEN": {
-    "name": "제노바",
-    "desc": ""
+    "name": "제노바"
   },
   "GUB": {
-    "name": "구비오",
-    "desc": ""
+    "name": "구비오"
   },
   "IMO": {
-    "name": "이몰라",
-    "desc": ""
+    "name": "이몰라"
   },
   "LUC": {
-    "name": "루카",
-    "desc": ""
+    "name": "루카"
   },
   "MAN": {
-    "name": "만토바",
-    "desc": ""
+    "name": "만토바"
   },
   "MFA": {
-    "name": "몬페라토",
-    "desc": ""
+    "name": "몬페라토"
   },
   "MLO": {
-    "name": "밀라노",
-    "desc": ""
+    "name": "밀라노"
   },
   "MND": {
-    "name": "몬도비",
-    "desc": ""
+    "name": "몬도비"
   },
   "MOD": {
-    "name": "모데나",
-    "desc": ""
+    "name": "모데나"
   },
   "MSP": {
-    "name": "말라스피나",
-    "desc": ""
+    "name": "말라스피나"
   },
   "MTA": {
-    "name": "마체라타",
-    "desc": ""
+    "name": "마체라타"
   },
   "NAP": {
-    "name": "나폴리",
-    "desc": ""
+    "name": "나폴리"
   },
   "PAD": {
-    "name": "파도바",
-    "desc": ""
+    "name": "파도바"
   },
   "PAP": {
-    "name": "로마",
-    "desc": ""
+    "name": "로마"
   },
   "PAR": {
-    "name": "파르마",
-    "desc": ""
+    "name": "파르마"
   },
   "PAV": {
-    "name": "파비아",
-    "desc": ""
+    "name": "파비아"
   },
   "PEA": {
-    "name": "페루자",
-    "desc": ""
+    "name": "페루자"
   },
   "PES": {
-    "name": "페사로",
-    "desc": ""
+    "name": "페사로"
   },
   "PIE": {
-    "name": "피에몬테",
-    "desc": ""
+    "name": "피에몬테"
   },
   "PIO": {
-    "name": "피옴비노",
-    "desc": ""
+    "name": "피옴비노"
   },
   "PIS": {
-    "name": "피사",
-    "desc": ""
+    "name": "피사"
   },
   "PRA": {
-    "name": "프라토",
-    "desc": ""
+    "name": "프라토"
   },
   "RAV": {
-    "name": "라벤나",
-    "desc": ""
+    "name": "라벤나"
   },
   "RGG": {
-    "name": "레조",
-    "desc": ""
+    "name": "레조"
   },
   "RIM": {
-    "name": "리미니",
-    "desc": ""
+    "name": "리미니"
   },
   "SAL": {
-    "name": "살루초",
-    "desc": ""
+    "name": "살루초"
   },
   "SAV": {
-    "name": "사보이아",
-    "desc": ""
+    "name": "사보이아"
   },
   "SCL": {
-    "name": "생클로드",
-    "desc": ""
+    "name": "생클로드"
   },
   "GNV": {
-    "name": "제네바",
-    "desc": ""
+    "name": "제네바"
   },
   "SIC": {
-    "name": "시칠리아",
-    "desc": ""
+    "name": "시칠리아"
   },
   "SIE": {
-    "name": "시에나",
-    "desc": ""
+    "name": "시에나"
   },
   "SPL": {
-    "name": "스폴레토",
-    "desc": ""
+    "name": "스폴레토"
   },
   "PTG": {
-    "name": "피틸리아노",
-    "desc": ""
+    "name": "피틸리아노"
   },
   "SSP": {
-    "name": "산세폴크로",
-    "desc": ""
+    "name": "산세폴크로"
   },
   "TNT": {
-    "name": "트렌토",
-    "desc": ""
+    "name": "트렌토"
   },
   "TOR": {
-    "name": "토레스",
-    "desc": ""
+    "name": "토레스"
   },
   "TRV": {
-    "name": "트레비소",
-    "desc": ""
+    "name": "트레비소"
   },
   "TTE": {
-    "name": "트리에스테",
-    "desc": ""
+    "name": "트리에스테"
   },
   "TTN": {
-    "name": "토르토나",
-    "desc": ""
+    "name": "토르토나"
   },
   "URB": {
-    "name": "우르비노",
-    "desc": ""
+    "name": "우르비노"
   },
   "VEN": {
-    "name": "베네치아",
-    "desc": ""
+    "name": "베네치아"
   },
   "VER": {
-    "name": "베로나",
-    "desc": ""
+    "name": "베로나"
   },
   "VIN": {
-    "name": "비첸차",
-    "desc": ""
+    "name": "비첸차"
   },
   "VLT": {
-    "name": "볼테라",
-    "desc": ""
+    "name": "볼테라"
   },
   "PRZ": {
-    "name": "페루치",
-    "desc": ""
+    "name": "페루치"
   },
   "BRD": {
-    "name": "바르디",
-    "desc": ""
+    "name": "바르디"
   },
   "ACC": {
-    "name": "아차이올리",
-    "desc": ""
+    "name": "아차이올리"
   },
   "PST": {
-    "name": "피스토이아",
-    "desc": ""
+    "name": "피스토이아"
   },
   "VUN": {
-    "name": "붕구",
-    "desc": ""
+    "name": "붕구"
   },
   "NSU": {
-    "name": "응수디",
-    "desc": ""
+    "name": "응수디"
   },
   "MPE": {
-    "name": "마구엘라",
-    "desc": ""
+    "name": "마구엘라"
   },
   "VNA": {
-    "name": "분다",
-    "desc": ""
+    "name": "분다"
   },
   "MBT": {
-    "name": "음바타",
-    "desc": ""
+    "name": "음바타"
   },
   "SOY": {
-    "name": "소요",
-    "desc": ""
+    "name": "소요"
   },
   "MOM": {
-    "name": "몸보아레스",
-    "desc": ""
+    "name": "몸보아레스"
   },
   "CHO": {
-    "name": "초크웨",
-    "desc": ""
+    "name": "초크웨"
   },
   "OVI": {
-    "name": "오빔분두",
-    "desc": ""
+    "name": "오빔분두"
   },
   "LND": {
-    "name": "룬다",
-    "desc": ""
+    "name": "룬다"
   },
   "LBA": {
-    "name": "루바",
-    "desc": ""
+    "name": "루바"
   },
   "KUB": {
-    "name": "쿠바",
-    "desc": ""
+    "name": "쿠바"
   },
   "LEG": {
-    "name": "레가",
-    "desc": ""
+    "name": "레가"
   },
   "SIK": {
-    "name": "씰룩",
-    "desc": ""
+    "name": "씰룩"
   },
   "HOL": {
-    "name": "홀란트",
-    "desc": ""
+    "name": "홀란트"
   },
   "ZEE": {
-    "name": "제일란트",
-    "desc": ""
+    "name": "제일란트"
   },
   "BRB": {
-    "name": "브라반트",
-    "desc": ""
+    "name": "브라반트"
   },
   "FLA": {
-    "name": "플란데런",
-    "desc": ""
+    "name": "플란데런"
   },
   "LUX": {
-    "name": "룩셈부르크",
-    "desc": ""
+    "name": "룩셈부르크"
   },
   "LIE": {
-    "name": "$liege$",
-    "desc": ""
+    "name": "리에주"
   },
   "CHN": {
-    "name": "치니",
-    "desc": ""
+    "name": "치니"
   },
   "LIM": {
-    "name": "림뷔르흐",
-    "desc": ""
+    "name": "림뷔르흐"
   },
   "NAM": {
-    "name": "나뮈르",
-    "desc": ""
+    "name": "나뮈르"
   },
   "LOO": {
-    "name": "룬",
-    "desc": ""
+    "name": "룬"
   },
   "VBG": {
-    "name": "발켄부르크",
-    "desc": ""
+    "name": "발켄부르크"
   },
   "HRN": {
-    "name": "호르네",
-    "desc": ""
+    "name": "호르네"
   },
   "CJK": {
-    "name": "카위크",
-    "desc": ""
+    "name": "카위크"
   },
   "UTR": {
-    "name": "위트레흐트",
-    "desc": ""
+    "name": "위트레흐트"
   },
   "FRI": {
-    "name": "프리슬란트",
-    "desc": ""
+    "name": "프리슬란트"
   },
   "STV": {
-    "name": "스타벨로-말메디",
-    "desc": ""
+    "name": "스타벨로-말메디"
   },
   "HAI": {
-    "name": "에노",
-    "desc": ""
+    "name": "에노"
   },
   "ARS": {
-    "name": "아르투아",
-    "desc": ""
+    "name": "아르투아"
   },
   "STP": {
-    "name": "생폴",
-    "desc": ""
+    "name": "생폴"
   },
   "BGN": {
-    "name": "불로뉴",
-    "desc": ""
+    "name": "불로뉴"
   },
   "BNT": {
-    "name": "벤트하임",
-    "desc": ""
+    "name": "벤트하임"
   },
   "BLL": {
-    "name": "부용",
-    "desc": ""
+    "name": "부용"
   },
   "HBG": {
-    "name": "하인스베르크",
-    "desc": ""
+    "name": "하인스베르크"
   },
   "MOR": {
-    "name": "모로코",
-    "desc": ""
+    "name": "모로코"
   },
   "FEZ": {
-    "name": "페스",
-    "desc": ""
+    "name": "페스"
   },
   "CNR": {
-    "name": "관체",
-    "desc": ""
+    "name": "관체"
   },
   "MRK": {
-    "name": "마라케시",
-    "desc": ""
+    "name": "마라케시"
   },
   "TET": {
-    "name": "테투안",
-    "desc": ""
+    "name": "테투안"
   },
   "SLE": {
-    "name": "살레",
-    "desc": ""
+    "name": "살레"
   },
   "TFL": {
-    "name": "타필랄트",
-    "desc": ""
+    "name": "타필랄트"
   },
   "SOS": {
-    "name": "슈쉬",
-    "desc": ""
+    "name": "슈쉬"
   },
   "TLE": {
-    "name": "틀렘센",
-    "desc": ""
+    "name": "틀렘센"
   },
   "ALG": {
-    "name": "알제",
-    "desc": ""
+    "name": "알제"
   },
   "TGT": {
-    "name": "투구르트",
-    "desc": ""
+    "name": "투구르트"
   },
   "KUK": {
-    "name": "쿠쿠",
-    "desc": ""
+    "name": "쿠쿠"
   },
   "AIT": {
-    "name": "아이트 압바스",
-    "desc": ""
+    "name": "아이트 압바스"
   },
   "MZB": {
-    "name": "므자브",
-    "desc": ""
+    "name": "므자브"
   },
   "TUN": {
-    "name": "튀니스",
-    "desc": ""
+    "name": "튀니스"
   },
   "DJE": {
-    "name": "제리드",
-    "desc": ""
+    "name": "제리드"
   },
   "GFS": {
-    "name": "가프사",
-    "desc": ""
+    "name": "가프사"
   },
   "GBS": {
-    "name": "가베스",
-    "desc": ""
+    "name": "가베스"
   },
   "BTL": {
-    "name": "텔리스",
-    "desc": ""
+    "name": "텔리스"
   },
   "ZAB": {
-    "name": "자브",
-    "desc": ""
+    "name": "자브"
   },
   "OGL": {
-    "name": "우아르글라",
-    "desc": ""
+    "name": "우아르글라"
   },
   "TAT": {
-    "name": "투아트",
-    "desc": ""
+    "name": "투아트"
   },
   "TAR": {
-    "name": "푸레페차",
-    "desc": ""
+    "name": "푸레페차"
   },
   "CRK": {
-    "name": "추루메쿠아",
-    "desc": ""
+    "name": "추루메쿠아"
   },
   "CTE": {
-    "name": "쿠이체오",
-    "desc": ""
+    "name": "쿠이체오"
   },
   "TUZ": {
-    "name": "토산틀란",
-    "desc": ""
+    "name": "토산틀란"
   },
   "TZI": {
-    "name": "치타쿠아로",
-    "desc": ""
+    "name": "치타쿠아로"
   },
   "TAX": {
-    "name": "타시마로아",
-    "desc": ""
+    "name": "타시마로아"
   },
   "TNC": {
-    "name": "테노치티틀란",
-    "desc": ""
+    "name": "테노치티틀란"
   },
   "TTZ": {
-    "name": "아콜루아칸",
-    "desc": ""
+    "name": "아콜루아칸"
   },
   "CUL": {
-    "name": "쿨루아칸",
-    "desc": ""
+    "name": "쿨루아칸"
   },
   "TEP": {
-    "name": "테파네카판",
-    "desc": ""
+    "name": "테파네카판"
   },
   "TCP": {
-    "name": "틀라코판",
-    "desc": ""
+    "name": "틀라코판"
   },
   "OTO": {
-    "name": "샬토칸",
-    "desc": ""
+    "name": "샬토칸"
   },
   "AXO": {
-    "name": "아쇼코판",
-    "desc": ""
+    "name": "아쇼코판"
   },
   "MET": {
-    "name": "메츠티틀란",
-    "desc": ""
+    "name": "메츠티틀란"
   },
   "HYC": {
-    "name": "우에야코코틀라",
-    "desc": ""
+    "name": "우에야코코틀라"
   },
   "TUT": {
-    "name": "토토테펙",
-    "desc": ""
+    "name": "토토테펙"
   },
   "XIL": {
-    "name": "실로테펙",
-    "desc": ""
+    "name": "실로테펙"
   },
   "ZIN": {
-    "name": "시나페쿠아로",
-    "desc": ""
+    "name": "시나페쿠아로"
   },
   "MAT": {
-    "name": "톨로칸",
-    "desc": ""
+    "name": "톨로칸"
   },
   "MLN": {
-    "name": "말리날코",
-    "desc": ""
+    "name": "말리날코"
   },
   "TLA": {
-    "name": "틱스틀라",
-    "desc": ""
+    "name": "틱스틀라"
   },
   "YPZ": {
-    "name": "요피친코",
-    "desc": ""
+    "name": "요피친코"
   },
   "CLP": {
-    "name": "칠라파",
-    "desc": ""
+    "name": "칠라파"
   },
   "OAP": {
-    "name": "오아판",
-    "desc": ""
+    "name": "오아판"
   },
   "TLX": {
-    "name": "틀라스칼란",
-    "desc": ""
+    "name": "틀라스칼란"
   },
   "ZAP": {
-    "name": "사치라",
-    "desc": ""
+    "name": "사치라"
   },
   "TPL": {
-    "name": "테포스코쿨라",
-    "desc": ""
+    "name": "테포스코쿨라"
   },
   "IXL": {
-    "name": "익스틀란",
-    "desc": ""
+    "name": "익스틀란"
   },
   "YDZ": {
-    "name": "요초카히",
-    "desc": ""
+    "name": "요초카히"
   },
   "YAU": {
-    "name": "야우테펙",
-    "desc": ""
+    "name": "야우테펙"
   },
   "THT": {
-    "name": "테우안테펙",
-    "desc": ""
+    "name": "테우안테펙"
   },
   "MIX": {
-    "name": "유쿠 자아",
-    "desc": ""
+    "name": "유쿠 자아"
   },
   "QIG": {
-    "name": "키에고키",
-    "desc": ""
+    "name": "키에고키"
   },
   "TZL": {
-    "name": "테오사코알코",
-    "desc": ""
+    "name": "테오사코알코"
   },
   "JUX": {
-    "name": "요조 쿠이야",
-    "desc": ""
+    "name": "요조 쿠이야"
   },
   "TCQ": {
-    "name": "은디시 누",
-    "desc": ""
+    "name": "은디시 누"
   },
   "YCH": {
-    "name": "유쿠 사투타",
-    "desc": ""
+    "name": "유쿠 사투타"
   },
   "COI": {
-    "name": "요조 쿠",
-    "desc": ""
+    "name": "요조 쿠"
   },
   "CCN": {
-    "name": "쿠이카틀란",
-    "desc": ""
+    "name": "쿠이카틀란"
   },
   "NND": {
-    "name": "뉴 은디이",
-    "desc": ""
+    "name": "뉴 은디이"
   },
   "MHT": {
-    "name": "미아우아틀란",
-    "desc": ""
+    "name": "미아우아틀란"
   },
   "TEO": {
-    "name": "테오티틀란",
-    "desc": ""
+    "name": "테오티틀란"
   },
   "CLM": {
-    "name": "콜리만",
-    "desc": ""
+    "name": "콜리만"
   },
   "TOT": {
-    "name": "셈포우알란",
-    "desc": ""
+    "name": "셈포우알란"
   },
   "MZT": {
-    "name": "미산틀라",
-    "desc": ""
+    "name": "미산틀라"
   },
   "PPT": {
-    "name": "파판틀란",
-    "desc": ""
+    "name": "파판틀란"
   },
   "QHZ": {
-    "name": "키아위스틀란",
-    "desc": ""
+    "name": "키아위스틀란"
   },
   "HST": {
-    "name": "테아요틀란",
-    "desc": ""
+    "name": "테아요틀란"
   },
   "MCC": {
-    "name": "미추아차판코",
-    "desc": ""
+    "name": "미추아차판코"
   },
   "TTC": {
-    "name": "탐톡",
-    "desc": ""
+    "name": "탐톡"
   },
   "TXP": {
-    "name": "툭스판",
-    "desc": ""
+    "name": "툭스판"
   },
   "OZL": {
-    "name": "오술루아마",
-    "desc": ""
+    "name": "오술루아마"
   },
   "OXT": {
-    "name": "옥스틀리판",
-    "desc": ""
+    "name": "옥스틀리판"
   },
   "TZH": {
-    "name": "치우코악",
-    "desc": ""
+    "name": "치우코악"
   },
   "TZP": {
-    "name": "테차포티틀란",
-    "desc": ""
+    "name": "테차포티틀란"
   },
   "XAL": {
-    "name": "샬리스코",
-    "desc": ""
+    "name": "샬리스코"
   },
   "TAA": {
-    "name": "틀랄판",
-    "desc": ""
+    "name": "틀랄판"
   },
   "TZZ": {
-    "name": "차포친고",
-    "desc": ""
+    "name": "차포친고"
   },
   "SNT": {
-    "name": "센티스팍",
-    "desc": ""
+    "name": "센티스팍"
   },
   "PAM": {
-    "name": "시오이",
-    "desc": ""
+    "name": "시오이"
   },
   "TNL": {
-    "name": "토날란",
-    "desc": ""
+    "name": "토날란"
   },
   "MXT": {
-    "name": "메스티카칸",
-    "desc": ""
+    "name": "메스티카칸"
   },
   "YAH": {
-    "name": "야우알리칸",
-    "desc": ""
+    "name": "야우알리칸"
   },
   "TPN": {
-    "name": "테크파티틀란",
-    "desc": ""
+    "name": "테크파티틀란"
   },
   "MIT": {
-    "name": "미틱",
-    "desc": ""
+    "name": "미틱"
   },
   "XLT": {
-    "name": "샬로스토티틀란",
-    "desc": ""
+    "name": "샬로스토티틀란"
   },
   "CON": {
-    "name": "코이난",
-    "desc": ""
+    "name": "코이난"
   },
   "ACA": {
-    "name": "아카틱",
-    "desc": ""
+    "name": "아카틱"
   },
   "TPC": {
-    "name": "테페칸",
-    "desc": ""
+    "name": "테페칸"
   },
   "TEL": {
-    "name": "카스칸",
-    "desc": ""
+    "name": "카스칸"
   },
   "XOC": {
-    "name": "쇼치필란",
-    "desc": ""
+    "name": "쇼치필란"
   },
   "ZAC": {
-    "name": "사카테카",
-    "desc": ""
+    "name": "사카테카"
   },
   "ZAI": {
-    "name": "사인",
-    "desc": ""
+    "name": "사인"
   },
   "GAM": {
-    "name": "과마르",
-    "desc": ""
+    "name": "과마르"
   },
   "SAU": {
-    "name": "사우사스",
-    "desc": ""
+    "name": "사우사스"
   },
   "GUX": {
-    "name": "과사반",
-    "desc": ""
+    "name": "과사반"
   },
   "IZT": {
-    "name": "이스타치치메카",
-    "desc": ""
+    "name": "이스타치치메카"
   },
   "ATO": {
-    "name": "아토크판",
-    "desc": ""
+    "name": "아토크판"
   },
   "TZC": {
-    "name": "톨란친코",
-    "desc": ""
+    "name": "톨란친코"
   },
   "CLC": {
-    "name": "찰코",
-    "desc": ""
+    "name": "찰코"
   },
   "HUX": {
-    "name": "와스테펙",
-    "desc": ""
+    "name": "와스테펙"
   },
   "CUU": {
-    "name": "쿠아우나우악",
-    "desc": ""
+    "name": "쿠아우나우악"
   },
   "TCH": {
-    "name": "틀라치코",
-    "desc": ""
+    "name": "틀라치코"
   },
   "OZT": {
-    "name": "오스토만",
-    "desc": ""
+    "name": "오스토만"
   },
   "TMS": {
-    "name": "테마스칼테펙",
-    "desc": ""
+    "name": "테마스칼테펙"
   },
   "TCC": {
-    "name": "테페코아퀼코",
-    "desc": ""
+    "name": "테페코아퀼코"
   },
   "CTL": {
-    "name": "치야우틀라",
-    "desc": ""
+    "name": "치야우틀라"
   },
   "TLL": {
-    "name": "테텔란",
-    "desc": ""
+    "name": "테텔란"
   },
   "ZOM": {
-    "name": "촘판코",
-    "desc": ""
+    "name": "촘판코"
   },
   "TLZ": {
-    "name": "틀랄코사우티틀란",
-    "desc": ""
+    "name": "틀랄코사우티틀란"
   },
   "UAU": {
-    "name": "쿠아우테오판",
-    "desc": ""
+    "name": "쿠아우테오판"
   },
   "YOH": {
-    "name": "요왈테펙",
-    "desc": ""
+    "name": "요왈테펙"
   },
   "TPT": {
-    "name": "테크판테펙",
-    "desc": ""
+    "name": "테크판테펙"
   },
   "CIH": {
-    "name": "시우아틀란",
-    "desc": ""
+    "name": "시우아틀란"
   },
   "ZCT": {
-    "name": "사카톨란",
-    "desc": ""
+    "name": "사카톨란"
   },
   "AJC": {
-    "name": "아쇼치틀란",
-    "desc": ""
+    "name": "아쇼치틀란"
   },
   "TLP": {
-    "name": "틀라판",
-    "desc": ""
+    "name": "틀라판"
   },
   "AYO": {
-    "name": "아요틀란",
-    "desc": ""
+    "name": "아요틀란"
   },
   "OMT": {
-    "name": "오메테펙",
-    "desc": ""
+    "name": "오메테펙"
   },
   "CTC": {
-    "name": "코아틀리카막",
-    "desc": ""
+    "name": "코아틀리카막"
   },
   "CTZ": {
-    "name": "코아차쿠알코",
-    "desc": ""
+    "name": "코아차쿠알코"
   },
   "TPY": {
-    "name": "테페야칵",
-    "desc": ""
+    "name": "테페야칵"
   },
   "CTX": {
-    "name": "쿠에틀라스틀란",
-    "desc": ""
+    "name": "쿠에틀라스틀란"
   },
   "CLL": {
-    "name": "촐롤란",
-    "desc": ""
+    "name": "촐롤란"
   },
   "HJZ": {
-    "name": "우에쇼친코",
-    "desc": ""
+    "name": "우에쇼친코"
   },
   "XCH": {
-    "name": "쇼치밀코",
-    "desc": ""
+    "name": "쇼치밀코"
   },
   "IXT": {
-    "name": "이스타카마스티틀란",
-    "desc": ""
+    "name": "이스타카마스티틀란"
   },
   "TEE": {
-    "name": "테텔라",
-    "desc": ""
+    "name": "테텔라"
   },
   "ZAT": {
-    "name": "사카틀란",
-    "desc": ""
+    "name": "사카틀란"
   },
   "TLQ": {
-    "name": "틀랄라우키테펙",
-    "desc": ""
+    "name": "틀랄라우키테펙"
   },
   "TCY": {
-    "name": "틀라파코얀",
-    "desc": ""
+    "name": "틀라파코얀"
   },
   "AHU": {
-    "name": "아우아카틀란",
-    "desc": ""
+    "name": "아우아카틀란"
   },
   "GCH": {
-    "name": "쿠아우치난코",
-    "desc": ""
+    "name": "쿠아우치난코"
   },
   "ETZ": {
-    "name": "에차틀란",
-    "desc": ""
+    "name": "에차틀란"
   },
   "XCT": {
-    "name": "쇼치테펙",
-    "desc": ""
+    "name": "쇼치테펙"
   },
   "AME": {
-    "name": "아메칸",
-    "desc": ""
+    "name": "아메칸"
   },
   "TNX": {
-    "name": "테나마스틀란",
-    "desc": ""
+    "name": "테나마스틀란"
   },
   "AML": {
-    "name": "아몰란",
-    "desc": ""
+    "name": "아몰란"
   },
   "CZL": {
-    "name": "코살라판",
-    "desc": ""
+    "name": "코살라판"
   },
   "TMT": {
-    "name": "토마틀란",
-    "desc": ""
+    "name": "토마틀란"
   },
   "MHC": {
-    "name": "멜라우아칸",
-    "desc": ""
+    "name": "멜라우아칸"
   },
   "XIH": {
-    "name": "시우틀란",
-    "desc": ""
+    "name": "시우틀란"
   },
   "ATL": {
-    "name": "아우틀란",
-    "desc": ""
+    "name": "아우틀란"
   },
   "CCL": {
-    "name": "코콜란",
-    "desc": ""
+    "name": "코콜란"
   },
   "HTZ": {
-    "name": "위츠킬릭",
-    "desc": ""
+    "name": "위츠킬릭"
   },
   "AZL": {
-    "name": "아스타틀란",
-    "desc": ""
+    "name": "아스타틀란"
   },
   "TZM": {
-    "name": "타마솔란",
-    "desc": ""
+    "name": "타마솔란"
   },
   "TLY": {
-    "name": "틀라파코야",
-    "desc": ""
+    "name": "틀라파코야"
   },
   "CAU": {
-    "name": "쿠아우틀란",
-    "desc": ""
+    "name": "쿠아우틀란"
   },
   "AMP": {
-    "name": "아마필라",
-    "desc": ""
+    "name": "아마필라"
   },
   "SAY": {
-    "name": "사욜란",
-    "desc": ""
+    "name": "사욜란"
   },
   "PTP": {
-    "name": "판테펙",
-    "desc": ""
+    "name": "판테펙"
   },
   "XAP": {
-    "name": "샬라판",
-    "desc": ""
+    "name": "샬라판"
   },
   "CUO": {
-    "name": "쿠아우토츠코",
-    "desc": ""
+    "name": "쿠아우토츠코"
   },
   "XIC": {
-    "name": "시코치말코",
-    "desc": ""
+    "name": "시코치말코"
   },
   "TOH": {
-    "name": "토치테펙",
-    "desc": ""
+    "name": "토치테펙"
   },
   "TTA": {
-    "name": "테우틸라",
-    "desc": ""
+    "name": "테우틸라"
   },
   "PTL": {
-    "name": "푹틀란",
-    "desc": ""
+    "name": "푹틀란"
   },
   "CSM": {
-    "name": "코사말로아판",
-    "desc": ""
+    "name": "코사말로아판"
   },
   "OTA": {
-    "name": "오타티틀란",
-    "desc": ""
+    "name": "오타티틀란"
   },
   "TLT": {
-    "name": "틀라코틀랄판",
-    "desc": ""
+    "name": "틀라코틀랄판"
   },
   "TOZ": {
-    "name": "토스틀란",
-    "desc": ""
+    "name": "토스틀란"
   },
   "IZC": {
-    "name": "이스타차칼라판",
-    "desc": ""
+    "name": "이스타차칼라판"
   },
   "TSE": {
-    "name": "테세초아칸",
-    "desc": ""
+    "name": "테세초아칸"
   },
   "CCP": {
-    "name": "쿠아우쿠에츠팔테펙",
-    "desc": ""
+    "name": "쿠아우쿠에츠팔테펙"
   },
   "OZU": {
-    "name": "오수마친",
-    "desc": ""
+    "name": "오수마친"
   },
   "ATP": {
-    "name": "아테펙",
-    "desc": ""
+    "name": "아테펙"
   },
   "CPN": {
-    "name": "초아판",
-    "desc": ""
+    "name": "초아판"
   },
   "XCP": {
-    "name": "쇼치아판",
-    "desc": ""
+    "name": "쇼치아판"
   },
   "ATT": {
-    "name": "아티틀란",
-    "desc": ""
+    "name": "아티틀란"
   },
   "IXA": {
-    "name": "이스타판",
-    "desc": ""
+    "name": "이스타판"
   },
   "CUZ": {
-    "name": "쿠차말라",
-    "desc": ""
+    "name": "쿠차말라"
   },
   "TLO": {
-    "name": "텔롤로아판",
-    "desc": ""
+    "name": "텔롤로아판"
   },
   "AMT": {
-    "name": "아마코스티틀란",
-    "desc": ""
+    "name": "아마코스티틀란"
   },
   "QLL": {
-    "name": "쿠아우케촐란",
-    "desc": ""
+    "name": "쿠아우케촐란"
   },
   "IZO": {
-    "name": "이초칸",
-    "desc": ""
+    "name": "이초칸"
   },
   "AXC": {
-    "name": "아쇼치아판",
-    "desc": ""
+    "name": "아쇼치아판"
   },
   "TPX": {
-    "name": "테페식",
-    "desc": ""
+    "name": "테페식"
   },
   "ZCZ": {
-    "name": "사카소나판",
-    "desc": ""
+    "name": "사카소나판"
   },
   "ITZ": {
-    "name": "이차",
-    "desc": ""
+    "name": "이차"
   },
   "COC": {
-    "name": "코콤",
-    "desc": ""
+    "name": "코콤"
   },
   "XIU": {
-    "name": "투툴시우",
-    "desc": ""
+    "name": "투툴시우"
   },
   "CNL": {
-    "name": "아 카눌",
-    "desc": ""
+    "name": "아 카눌"
   },
   "CKP": {
-    "name": "차칸 푸툼",
-    "desc": ""
+    "name": "차칸 푸툼"
   },
   "HEL": {
-    "name": "첼",
-    "desc": ""
+    "name": "첼"
   },
   "UAY": {
-    "name": "우아이밀",
-    "desc": ""
+    "name": "우아이밀"
   },
   "MOP": {
-    "name": "모판",
-    "desc": ""
+    "name": "모판"
   },
   "CTM": {
-    "name": "차악 테 에말",
-    "desc": ""
+    "name": "차악 테 에말"
   },
   "KOW": {
-    "name": "코워흐",
-    "desc": ""
+    "name": "코워흐"
   },
   "YOK": {
-    "name": "요코 타아놉",
-    "desc": ""
+    "name": "요코 타아놉"
   },
   "XOL": {
-    "name": "촐",
-    "desc": ""
+    "name": "촐"
   },
   "QEQ": {
-    "name": "케크치",
-    "desc": ""
+    "name": "케크치"
   },
   "KIC": {
-    "name": "키체",
-    "desc": ""
+    "name": "키체"
   },
   "CHT": {
-    "name": "초르티",
-    "desc": ""
+    "name": "초르티"
   },
   "LAC": {
-    "name": "소츠렙",
-    "desc": ""
+    "name": "소츠렙"
   },
   "KAQ": {
-    "name": "카크치켈",
-    "desc": ""
+    "name": "카크치켈"
   },
   "MMM": {
-    "name": "맘",
-    "desc": ""
+    "name": "맘"
   },
   "TOJ": {
-    "name": "토홀라발",
-    "desc": ""
+    "name": "토홀라발"
   },
   "TZE": {
-    "name": "첼탈",
-    "desc": ""
+    "name": "첼탈"
   },
   "TZU": {
-    "name": "츠우투힐",
-    "desc": ""
+    "name": "츠우투힐"
   },
   "QAN": {
-    "name": "칸호발",
-    "desc": ""
+    "name": "칸호발"
   },
   "TOQ": {
-    "name": "토케과",
-    "desc": ""
+    "name": "토케과"
   },
   "DIT": {
-    "name": "디트마르셴",
-    "desc": ""
+    "name": "디트마르셴"
   },
   "HSA": {
-    "name": "한자",
-    "desc": ""
+    "name": "한자"
   },
   "LUB": {
-    "name": "뤼베크",
-    "desc": ""
+    "name": "뤼베크"
   },
   "LBB": {
-    "name": "루베카",
-    "desc": ""
+    "name": "루베카"
   },
   "BRA": {
-    "name": "브란덴부르크",
-    "desc": ""
+    "name": "브란덴부르크"
   },
   "ALL": {
-    "name": "알슈테트",
-    "desc": ""
+    "name": "알슈테트"
   },
   "MAG": {
-    "name": "마그데부르크",
-    "desc": ""
+    "name": "마그데부르크"
   },
   "THU": {
-    "name": "튀링겐",
-    "desc": ""
+    "name": "튀링겐"
   },
   "BRE": {
-    "name": "브레마",
-    "desc": ""
+    "name": "브레마"
   },
   "BRM": {
-    "name": "브레멘",
-    "desc": ""
+    "name": "브레멘"
   },
   "MDN": {
-    "name": "민덴",
-    "desc": ""
+    "name": "민덴"
   },
   "NSA": {
-    "name": "나사우",
-    "desc": ""
+    "name": "나사우"
   },
   "NSH": {
-    "name": "나사우-하다마르",
-    "desc": ""
+    "name": "나사우-하다마르"
   },
   "NSS": {
-    "name": "나사우-지겐",
-    "desc": ""
+    "name": "나사우-지겐"
   },
   "NSD": {
-    "name": "나사우-딜렌부르크",
-    "desc": ""
+    "name": "나사우-딜렌부르크"
   },
   "BRG": {
-    "name": "베르크",
-    "desc": ""
+    "name": "베르크"
   },
   "KTZ": {
-    "name": "카체넬른보겐",
-    "desc": ""
+    "name": "카체넬른보겐"
   },
   "MAI": {
-    "name": "마인츠",
-    "desc": ""
+    "name": "마인츠"
   },
   "SAA": {
-    "name": "자르브뤼켄",
-    "desc": ""
+    "name": "자르브뤼켄"
   },
   "STE": {
-    "name": "슈테틴",
-    "desc": ""
+    "name": "슈테틴"
   },
   "HPL": {
-    "name": "홀슈타인-플뢴",
-    "desc": ""
+    "name": "홀슈타인-플뢴"
   },
   "HTR": {
-    "name": "홀슈타인-렌츠부르크",
-    "desc": ""
+    "name": "홀슈타인-렌츠부르크"
   },
   "SLV": {
-    "name": "슐레스비히",
-    "desc": ""
+    "name": "슐레스비히"
   },
   "HNB": {
-    "name": "헨네베르크",
-    "desc": ""
+    "name": "헨네베르크"
   },
   "SPY": {
-    "name": "슈피라",
-    "desc": ""
+    "name": "슈피라"
   },
   "PLN": {
-    "name": "플라우엔",
-    "desc": ""
+    "name": "플라우엔"
   },
   "MEI": {
-    "name": "마이센",
-    "desc": ""
+    "name": "마이센"
   },
   "LDB": {
-    "name": "란츠베르크",
-    "desc": ""
+    "name": "란츠베르크"
   },
   "GLA": {
-    "name": "글라우하우",
-    "desc": ""
+    "name": "글라우하우"
   },
   "SOR": {
-    "name": "루사티아",
-    "desc": ""
+    "name": "루사티아"
   },
   "SPB": {
-    "name": "슈프렘베르크",
-    "desc": ""
+    "name": "슈프렘베르크"
   },
   "SWB": {
-    "name": "작센-비텐베르크",
-    "desc": ""
+    "name": "작센-비텐베르크"
   },
   "RUP": {
-    "name": "루핀",
-    "desc": ""
+    "name": "루핀"
   },
   "HVB": {
-    "name": "하펠베르크",
-    "desc": ""
+    "name": "하펠베르크"
   },
   "SWR": {
-    "name": "슈베린",
-    "desc": ""
+    "name": "슈베린"
   },
   "WRN": {
-    "name": "바렌",
-    "desc": ""
+    "name": "바렌"
   },
   "MKL": {
-    "name": "메클렌부르크",
-    "desc": ""
+    "name": "메클렌부르크"
   },
   "RZB": {
-    "name": "라체부르크",
-    "desc": ""
+    "name": "라체부르크"
   },
   "RST": {
-    "name": "로스토크",
-    "desc": ""
+    "name": "로스토크"
   },
   "GSW": {
-    "name": "귀스트로",
-    "desc": ""
+    "name": "귀스트로"
   },
   "WOL": {
-    "name": "볼가스트",
-    "desc": ""
+    "name": "볼가스트"
   },
   "KMM": {
-    "name": "카민",
-    "desc": ""
+    "name": "카민"
   },
   "NWG": {
-    "name": "나우가르트",
-    "desc": ""
+    "name": "나우가르트"
   },
   "LAU": {
-    "name": "작센-라우엔부르크",
-    "desc": ""
+    "name": "작센-라우엔부르크"
   },
   "HAM": {
-    "name": "함부르크",
-    "desc": ""
+    "name": "함부르크"
   },
   "HBS": {
-    "name": "할버슈타트",
-    "desc": ""
+    "name": "할버슈타트"
   },
   "BBG": {
-    "name": "블랑켄부르크",
-    "desc": ""
+    "name": "블랑켄부르크"
   },
   "ANH": {
-    "name": "안할트",
-    "desc": ""
+    "name": "안할트"
   },
   "BNB": {
-    "name": "베른부르크",
-    "desc": ""
+    "name": "베른부르크"
   },
   "MFE": {
-    "name": "만스펠트",
-    "desc": ""
+    "name": "만스펠트"
   },
   "MRB": {
-    "name": "메르제부르크",
-    "desc": ""
+    "name": "메르제부르크"
   },
   "NMB": {
-    "name": "나움부르크",
-    "desc": ""
+    "name": "나움부르크"
   },
   "QUB": {
-    "name": "게라",
-    "desc": ""
+    "name": "게라"
   },
   "WMA": {
-    "name": "바이마르",
-    "desc": ""
+    "name": "바이마르"
   },
   "SWZ": {
-    "name": "슈바르츠부르크",
-    "desc": ""
+    "name": "슈바르츠부르크"
   },
   "FLD": {
-    "name": "풀다",
-    "desc": ""
+    "name": "풀다"
   },
   "SHS": {
-    "name": "존더스하우젠",
-    "desc": ""
+    "name": "존더스하우젠"
   },
   "NHS": {
-    "name": "노르트하우젠",
-    "desc": ""
+    "name": "노르트하우젠"
   },
   "MLH": {
-    "name": "뮐하우젠",
-    "desc": ""
+    "name": "뮐하우젠"
   },
   "ERF": {
-    "name": "에르푸르트",
-    "desc": ""
+    "name": "에르푸르트"
   },
   "HSF": {
-    "name": "헤르스펠트",
-    "desc": ""
+    "name": "헤르스펠트"
   },
   "HES": {
-    "name": "헤센",
-    "desc": ""
+    "name": "헤센"
   },
   "PDB": {
-    "name": "파더보른",
-    "desc": ""
+    "name": "파더보른"
   },
   "ZIG": {
-    "name": "치겐하인",
-    "desc": ""
+    "name": "치겐하인"
   },
   "HNA": {
-    "name": "하나우",
-    "desc": ""
+    "name": "하나우"
   },
   "BUD": {
-    "name": "뷔딩겐",
-    "desc": ""
+    "name": "뷔딩겐"
   },
   "WTZ": {
-    "name": "베츨라",
-    "desc": ""
+    "name": "베츨라"
   },
   "TRI": {
-    "name": "트리어",
-    "desc": ""
+    "name": "트리어"
   },
   "DIE": {
-    "name": "디츠",
-    "desc": ""
+    "name": "디츠"
   },
   "FRN": {
-    "name": "프랑크푸르트",
-    "desc": ""
+    "name": "프랑크푸르트"
   },
   "ERB": {
-    "name": "에르바흐",
-    "desc": ""
+    "name": "에르바흐"
   },
   "WRM": {
-    "name": "보름스",
-    "desc": ""
+    "name": "보름스"
   },
   "SYE": {
-    "name": "슈파이어",
-    "desc": ""
+    "name": "슈파이어"
   },
   "ZWE": {
-    "name": "츠바이브뤼켄",
-    "desc": ""
+    "name": "츠바이브뤼켄"
   },
   "LNN": {
-    "name": "라이닝겐",
-    "desc": ""
+    "name": "라이닝겐"
   },
   "SPO": {
-    "name": "슈폰하임",
-    "desc": ""
+    "name": "슈폰하임"
   },
   "SYN": {
-    "name": "자인",
-    "desc": ""
+    "name": "자인"
   },
   "KOL": {
-    "name": "쾰른",
-    "desc": ""
+    "name": "쾰른"
   },
   "DUN": {
-    "name": "다운",
-    "desc": ""
+    "name": "다운"
   },
   "APR": {
-    "name": "프뤔",
-    "desc": ""
+    "name": "프뤔"
   },
   "AAC": {
-    "name": "아헨",
-    "desc": ""
+    "name": "아헨"
   },
   "JUL": {
-    "name": "율리히",
-    "desc": ""
+    "name": "율리히"
   },
   "GEL": {
-    "name": "헬러",
-    "desc": ""
+    "name": "헬러"
   },
   "ZUT": {
-    "name": "쥐트펀",
-    "desc": ""
+    "name": "쥐트펀"
   },
   "GMK": {
-    "name": "마르크",
-    "desc": ""
+    "name": "마르크"
   },
   "WTG": {
-    "name": "비트겐슈타인",
-    "desc": ""
+    "name": "비트겐슈타인"
   },
   "DTM": {
-    "name": "도르트문트",
-    "desc": ""
+    "name": "도르트문트"
   },
   "ESS": {
-    "name": "에센",
-    "desc": ""
+    "name": "에센"
   },
   "MRS": {
-    "name": "뫼르스",
-    "desc": ""
+    "name": "뫼르스"
   },
   "KLE": {
-    "name": "클레페",
-    "desc": ""
+    "name": "클레페"
   },
   "ANB": {
-    "name": "아른스베르크",
-    "desc": ""
+    "name": "아른스베르크"
   },
   "LPP": {
-    "name": "리페",
-    "desc": ""
+    "name": "리페"
   },
   "HOX": {
-    "name": "코르바이",
-    "desc": ""
+    "name": "코르바이"
   },
   "RVB": {
-    "name": "라펜스베르크",
-    "desc": ""
+    "name": "라펜스베르크"
   },
   "OSN": {
-    "name": "오스나브뤼크",
-    "desc": ""
+    "name": "오스나브뤼크"
   },
   "TCK": {
-    "name": "테클렌부르크",
-    "desc": ""
+    "name": "테클렌부르크"
   },
   "MUN": {
-    "name": "뮌스터",
-    "desc": ""
+    "name": "뮌스터"
   },
   "LUN": {
-    "name": "뤼네부르크",
-    "desc": ""
+    "name": "뤼네부르크"
   },
   "BRU": {
-    "name": "브라운슈바이크",
-    "desc": ""
+    "name": "브라운슈바이크"
   },
   "GBH": {
-    "name": "그루벤하겐",
-    "desc": ""
+    "name": "그루벤하겐"
   },
   "HDH": {
-    "name": "힐데스하임",
-    "desc": ""
+    "name": "힐데스하임"
   },
   "GOS": {
-    "name": "고슬라르",
-    "desc": ""
+    "name": "고슬라르"
   },
   "SCB": {
-    "name": "샤우엔부르크",
-    "desc": ""
+    "name": "샤우엔부르크"
   },
   "HOY": {
-    "name": "호이아",
-    "desc": ""
+    "name": "호이아"
   },
   "NIE": {
-    "name": "닌부르크",
-    "desc": ""
+    "name": "닌부르크"
   },
   "DPH": {
-    "name": "디폴츠",
-    "desc": ""
+    "name": "디폴츠"
   },
   "VRD": {
-    "name": "페르덴",
-    "desc": ""
+    "name": "페르덴"
   },
   "RTB": {
-    "name": "리체뷔텔",
-    "desc": ""
+    "name": "리체뷔텔"
   },
   "OLD": {
-    "name": "올덴부르크",
-    "desc": ""
+    "name": "올덴부르크"
   },
   "BMS": {
-    "name": "미스니아",
-    "desc": ""
+    "name": "미스니아"
   },
   "BLB": {
-    "name": "레부스",
-    "desc": ""
+    "name": "레부스"
   },
   "BBD": {
-    "name": "브란덴부르굼",
-    "desc": ""
+    "name": "브란덴부르굼"
   },
   "HSP": {
-    "name": "홀슈타인-피네베르크",
-    "desc": ""
+    "name": "홀슈타인-피네베르크"
   },
   "BSK": {
-    "name": "베스코브-슈타르코브",
-    "desc": ""
+    "name": "베스코브-슈타르코브"
   },
   "WGO": {
-    "name": "베르니게로데",
-    "desc": ""
+    "name": "베르니게로데"
   },
   "BHL": {
-    "name": "바이힐링겐",
-    "desc": ""
+    "name": "바이힐링겐"
   },
   "GLN": {
-    "name": "글라이헨",
-    "desc": ""
+    "name": "글라이헨"
   },
   "WDE": {
-    "name": "발데크",
-    "desc": ""
+    "name": "발데크"
   },
   "RBG": {
-    "name": "리트베르크",
-    "desc": ""
+    "name": "리트베르크"
   },
   "NSW": {
-    "name": "나사우-바일부르크",
-    "desc": ""
+    "name": "나사우-바일부르크"
   },
   "NSI": {
-    "name": "나사우-이드슈타인",
-    "desc": ""
+    "name": "나사우-이드슈타인"
   },
   "RDL": {
-    "name": "리데젤",
-    "desc": ""
+    "name": "리데젤"
   },
   "NID": {
-    "name": "니다",
-    "desc": ""
+    "name": "니다"
   },
   "EVS": {
-    "name": "에베르슈타인",
-    "desc": ""
+    "name": "에베르슈타인"
   },
   "JEV": {
-    "name": "예퍼",
-    "desc": ""
+    "name": "예퍼"
   },
   "WIE": {
-    "name": "비트",
-    "desc": ""
+    "name": "비트"
   },
   "CHB": {
-    "name": "추판",
-    "desc": ""
+    "name": "추판"
   },
   "MZF": {
-    "name": "무자파르",
-    "desc": ""
+    "name": "무자파르"
   },
   "KRM": {
-    "name": "케르만",
-    "desc": ""
+    "name": "케르만"
   },
   "INJ": {
-    "name": "인주",
-    "desc": ""
+    "name": "인주"
   },
   "KHU": {
-    "name": "쿤지",
-    "desc": ""
+    "name": "쿤지"
   },
   "KRT": {
-    "name": "카르트",
-    "desc": ""
+    "name": "카르트"
   },
   "SRB": {
-    "name": "사르바다르",
-    "desc": ""
+    "name": "사르바다르"
   },
   "GRG": {
-    "name": "고르간",
-    "desc": ""
+    "name": "고르간"
   },
   "MIH": {
-    "name": "미라반",
-    "desc": ""
+    "name": "미라반"
   },
   "KHN": {
-    "name": "카란",
-    "desc": ""
+    "name": "카란"
   },
   "SHB": {
-    "name": "샤반카라",
-    "desc": ""
+    "name": "샤반카라"
   },
   "JUR": {
-    "name": "주르만",
-    "desc": ""
+    "name": "주르만"
   },
   "UGH": {
-    "name": "우간",
-    "desc": ""
+    "name": "우간"
   },
   "HZP": {
-    "name": "하자라습",
-    "desc": ""
+    "name": "하자라습"
   },
   "ORM": {
-    "name": "오르무스",
-    "desc": ""
+    "name": "오르무스"
   },
   "FAL": {
-    "name": "팔",
-    "desc": ""
+    "name": "팔"
   },
   "JSK": {
-    "name": "자스크",
-    "desc": ""
+    "name": "자스크"
   },
   "MZN": {
-    "name": "타바리스탄",
-    "desc": ""
+    "name": "타바리스탄"
   },
   "BDS": {
-    "name": "바두스판",
-    "desc": ""
+    "name": "바두스판"
   },
   "MKR": {
-    "name": "마크란",
-    "desc": ""
+    "name": "마크란"
   },
   "BMP": {
-    "name": "밤푸르",
-    "desc": ""
+    "name": "밤푸르"
   },
   "BLA": {
-    "name": "부레다",
-    "desc": ""
+    "name": "부레다"
   },
   "KLW": {
-    "name": "콜와",
-    "desc": ""
+    "name": "콜와"
   },
   "KHZ": {
-    "name": "쿠흐다",
-    "desc": ""
+    "name": "쿠흐다"
   },
   "KLA": {
-    "name": "칼라트",
-    "desc": ""
+    "name": "칼라트"
   },
   "LCK": {
-    "name": "코르시디",
-    "desc": ""
+    "name": "코르시디"
   },
   "LST": {
-    "name": "라레스탄",
-    "desc": ""
+    "name": "라레스탄"
   },
   "ERA": {
-    "name": "에란샤흐르",
-    "desc": ""
+    "name": "에란샤흐르"
   },
   "HDN": {
-    "name": "$hamadan$",
-    "desc": ""
+    "name": "하메단"
   },
   "QOM": {
-    "name": "$qom$",
-    "desc": ""
+    "name": "콤"
   },
   "KSA": {
-    "name": "$kashan$",
-    "desc": ""
+    "name": "카샨"
   },
   "ASR": {
-    "name": "$astarabad$",
-    "desc": ""
+    "name": "아스타라바드"
   },
   "JKR": {
-    "name": "자우니 쿠르반",
-    "desc": ""
+    "name": "자우니 쿠르반"
   },
   "SFR": {
-    "name": "$esfarayen$",
-    "desc": ""
+    "name": "에스파라옌"
   },
   "SBZ": {
-    "name": "$sabzevar$",
-    "desc": ""
+    "name": "사브제바르"
   },
   "KHT": {
-    "name": "$quhestan_area$",
-    "desc": ""
+    "name": "쿠히스탄"
   },
   "MRV": {
-    "name": "$merv$",
-    "desc": ""
+    "name": "메르브"
   },
   "KHF": {
-    "name": "카프",
-    "desc": ""
+    "name": "카프"
   },
   "HLG": {
-    "name": "훌라구",
-    "desc": ""
+    "name": "훌라구"
   },
   "NGD": {
-    "name": "네구데리",
-    "desc": ""
+    "name": "네구데리"
   },
   "QUN": {
-    "name": "카라우나스",
-    "desc": ""
+    "name": "카라우나스"
   },
   "BSD": {
-    "name": "베수드",
-    "desc": ""
+    "name": "베수드"
   },
   "ART": {
-    "name": "알랏",
-    "desc": ""
+    "name": "알랏"
   },
   "APD": {
-    "name": "아파르디",
-    "desc": ""
+    "name": "아파르디"
   },
   "SLD": {
-    "name": "술두스",
-    "desc": ""
+    "name": "술두스"
   },
   "BRL": {
-    "name": "바르라스",
-    "desc": ""
+    "name": "바르라스"
   },
   "YSU": {
-    "name": "야사우리",
-    "desc": ""
+    "name": "야사우리"
   },
   "KTT": {
-    "name": "쿠탈",
-    "desc": ""
+    "name": "쿠탈"
   },
   "JLY": {
-    "name": "잘라이르",
-    "desc": ""
+    "name": "잘라이르"
   },
   "LHJ": {
-    "name": "라히잔",
-    "desc": ""
+    "name": "라히잔"
   },
   "RNK": {
-    "name": "라네쿠흐",
-    "desc": ""
+    "name": "라네쿠흐"
   },
   "FMN": {
-    "name": "푸만",
-    "desc": ""
+    "name": "푸만"
   },
   "RSH": {
-    "name": "라슈트",
-    "desc": ""
+    "name": "라슈트"
   },
   "TLM": {
-    "name": "툴람",
-    "desc": ""
+    "name": "툴람"
   },
   "ABL": {
-    "name": "아르다빌",
-    "desc": ""
+    "name": "아르다빌"
   },
   "POL": {
-    "name": "폴란드",
-    "desc": ""
+    "name": "폴란드"
   },
   "SDZ": {
-    "name": "시에라츠",
-    "desc": ""
+    "name": "시에라츠"
   },
   "LCZ": {
-    "name": "웽치차",
-    "desc": ""
+    "name": "웽치차"
   },
   "PLK": {
-    "name": "프워츠크",
-    "desc": ""
+    "name": "프워츠크"
   },
   "RAW": {
-    "name": "라바",
-    "desc": ""
+    "name": "라바"
   },
   "CZK": {
-    "name": "체르스크",
-    "desc": ""
+    "name": "체르스크"
   },
   "INO": {
-    "name": "이노브로츠와프",
-    "desc": ""
+    "name": "이노브로츠와프"
   },
   "VOL": {
-    "name": "볼히니아",
-    "desc": ""
+    "name": "볼히니아"
   },
   "HAL": {
-    "name": "할리치",
-    "desc": ""
+    "name": "할리치"
   },
   "KIE": {
-    "name": "키예프",
-    "desc": ""
+    "name": "키예프"
   },
   "POK": {
-    "name": "폴로츠크",
-    "desc": ""
+    "name": "폴로츠크"
   },
   "TUV": {
-    "name": "투로프",
-    "desc": ""
+    "name": "투로프"
   },
   "PNK": {
-    "name": "핀스크",
-    "desc": ""
+    "name": "핀스크"
   },
   "SSK": {
-    "name": "슬루츠크",
-    "desc": ""
+    "name": "슬루츠크"
   },
   "VBK": {
-    "name": "비텝스크",
-    "desc": ""
+    "name": "비텝스크"
   },
   "MSV": {
-    "name": "므스티슬라블",
-    "desc": ""
+    "name": "므스티슬라블"
   },
   "MIS": {
-    "name": "민스크",
-    "desc": ""
+    "name": "민스크"
   },
   "NRK": {
-    "name": "나우가르두카스",
-    "desc": ""
+    "name": "나우가르두카스"
   },
   "DRU": {
-    "name": "드루츠크",
-    "desc": ""
+    "name": "드루츠크"
   },
   "ZAZ": {
-    "name": "자포리자",
-    "desc": ""
+    "name": "자포리자"
   },
   "ZAG": {
-    "name": "자간",
-    "desc": ""
+    "name": "자간"
   },
   "JAW": {
-    "name": "야보르",
-    "desc": ""
+    "name": "야보르"
   },
   "LGC": {
-    "name": "레그니차",
-    "desc": ""
+    "name": "레그니차"
   },
   "OEL": {
-    "name": "올레시니차",
-    "desc": ""
+    "name": "올레시니차"
   },
   "OPL": {
-    "name": "오폴레",
-    "desc": ""
+    "name": "오폴레"
   },
   "PDK": {
-    "name": "프루드니크",
-    "desc": ""
+    "name": "프루드니크"
   },
   "OSW": {
-    "name": "오시비엥침",
-    "desc": ""
+    "name": "오시비엥침"
   },
   "TES": {
-    "name": "치에신",
-    "desc": ""
+    "name": "치에신"
   },
   "BYM": {
-    "name": "비톰",
-    "desc": ""
+    "name": "비톰"
   },
   "RCB": {
-    "name": "라치부시",
-    "desc": ""
+    "name": "라치부시"
   },
   "SWD": {
-    "name": "시비드니차",
-    "desc": ""
+    "name": "시비드니차"
   },
   "SCI": {
-    "name": "시치나바",
-    "desc": ""
+    "name": "시치나바"
   },
   "ZIE": {
-    "name": "지엥비차",
-    "desc": ""
+    "name": "지엥비차"
   },
   "BRZ": {
-    "name": "브제크",
-    "desc": ""
+    "name": "브제크"
   },
   "NMS": {
-    "name": "나미수프",
-    "desc": ""
+    "name": "나미수프"
   },
   "STZ": {
-    "name": "스트셸체",
-    "desc": ""
+    "name": "스트셸체"
   },
   "NMD": {
-    "name": "니에모들린",
-    "desc": ""
+    "name": "니에모들린"
   },
   "SIZ": {
-    "name": "시에비에시",
-    "desc": ""
+    "name": "시에비에시"
   },
   "WRC": {
-    "name": "브로츠와프",
-    "desc": ""
+    "name": "브로츠와프"
   },
   "GLO": {
-    "name": "그워구프",
-    "desc": ""
+    "name": "그워구프"
   },
   "NYS": {
-    "name": "니사",
-    "desc": ""
+    "name": "니사"
   },
   "OPV": {
-    "name": "오파바",
-    "desc": ""
+    "name": "오파바"
   },
   "WAI": {
-    "name": "와이타하",
-    "desc": ""
+    "name": "와이타하"
   },
   "NPO": {
-    "name": "응아티 포로우",
-    "desc": ""
+    "name": "응아티 포로우"
   },
   "NKH": {
-    "name": "응아티 카훈구누",
-    "desc": ""
+    "name": "응아티 카훈구누"
   },
   "NTH": {
-    "name": "응아이 투호에",
-    "desc": ""
+    "name": "응아이 투호에"
   },
   "NGI": {
-    "name": "응아 오호",
-    "desc": ""
+    "name": "응아 오호"
   },
   "RAP": {
-    "name": "테 라푸와이",
-    "desc": ""
+    "name": "테 라푸와이"
   },
   "NGR": {
-    "name": "응아티 랑기누이",
-    "desc": ""
+    "name": "응아티 랑기누이"
   },
   "HWE": {
-    "name": "하웨아",
-    "desc": ""
+    "name": "하웨아"
   },
   "TNI": {
-    "name": "타이누이",
-    "desc": ""
+    "name": "타이누이"
   },
   "ARW": {
-    "name": "테 아라와",
-    "desc": ""
+    "name": "테 아라와"
   },
   "PUH": {
-    "name": "응아푸히",
-    "desc": ""
+    "name": "응아푸히"
   },
   "RGT": {
-    "name": "랑기타네",
-    "desc": ""
+    "name": "랑기타네"
   },
   "AWA": {
-    "name": "테 아티 아와",
-    "desc": ""
+    "name": "테 아티 아와"
   },
   "RUA": {
-    "name": "응아티 루아누이",
-    "desc": ""
+    "name": "응아티 루아누이"
   },
   "HAW": {
-    "name": "하와이",
-    "desc": ""
+    "name": "하와이"
   },
   "MUI": {
-    "name": "마우이",
-    "desc": ""
+    "name": "마우이"
   },
   "LHN": {
-    "name": "라하이나",
-    "desc": ""
+    "name": "라하이나"
   },
   "MLK": {
-    "name": "몰로카이",
-    "desc": ""
+    "name": "몰로카이"
   },
   "OAH": {
-    "name": "오아후",
-    "desc": ""
+    "name": "오아후"
   },
   "KAU": {
-    "name": "카우아이",
-    "desc": ""
+    "name": "카우아이"
   },
   "TOG": {
-    "name": "투이 통가",
-    "desc": ""
+    "name": "투이 통가"
   },
   "YAP": {
-    "name": "얍",
-    "desc": ""
+    "name": "얍"
   },
   "SAM": {
-    "name": "사모아",
-    "desc": ""
+    "name": "사모아"
   },
   "BUB": {
-    "name": "부르바사가",
-    "desc": ""
+    "name": "부르바사가"
   },
   "KBN": {
-    "name": "쿠부나",
-    "desc": ""
+    "name": "쿠부나"
   },
   "TOV": {
-    "name": "토바타",
-    "desc": ""
+    "name": "토바타"
   },
   "NOV": {
-    "name": "벨리키 노브고로드",
-    "desc": ""
+    "name": "벨리키 노브고로드"
   },
   "PSK": {
-    "name": "프스코프",
-    "desc": ""
+    "name": "프스코프"
   },
   "ORE": {
-    "name": "오레셰크",
-    "desc": ""
+    "name": "오레셰크"
   },
   "SMO": {
-    "name": "스몰렌스크",
-    "desc": ""
+    "name": "스몰렌스크"
   },
   "FMB": {
-    "name": "포민-베레주에스크",
-    "desc": ""
+    "name": "포민-베레주에스크"
   },
   "MOS": {
-    "name": "모스크바",
-    "desc": ""
+    "name": "모스크바"
   },
   "PZL": {
-    "name": "페레야슬라블-잘레스키",
-    "desc": ""
+    "name": "페레야슬라블-잘레스키"
   },
   "KLM": {
-    "name": "콜롬나",
-    "desc": ""
+    "name": "콜롬나"
   },
   "VLR": {
-    "name": "블라디미르",
-    "desc": ""
+    "name": "블라디미르"
   },
   "UGL": {
-    "name": "우글리치",
-    "desc": ""
+    "name": "우글리치"
   },
   "YRV": {
-    "name": "유리예프-폴스키",
-    "desc": ""
+    "name": "유리예프-폴스키"
   },
   "TPS": {
-    "name": "토로페츠",
-    "desc": ""
+    "name": "토로페츠"
   },
   "BLO": {
-    "name": "벨루제로",
-    "desc": ""
+    "name": "벨루제로"
   },
   "YAR": {
-    "name": "야로슬라블",
-    "desc": ""
+    "name": "야로슬라블"
   },
   "RSO": {
-    "name": "로스토프",
-    "desc": ""
+    "name": "로스토프"
   },
   "TVE": {
-    "name": "트베리",
-    "desc": ""
+    "name": "트베리"
   },
   "KAS": {
-    "name": "카신",
-    "desc": ""
+    "name": "카신"
   },
   "KLN": {
-    "name": "클린",
-    "desc": ""
+    "name": "클린"
   },
   "ZUB": {
-    "name": "줍초프",
-    "desc": ""
+    "name": "줍초프"
   },
   "DMI": {
-    "name": "드미트로프",
-    "desc": ""
+    "name": "드미트로프"
   },
   "GLM": {
-    "name": "갈리치-메르스키",
-    "desc": ""
+    "name": "갈리치-메르스키"
   },
   "RZH": {
-    "name": "르제프",
-    "desc": ""
+    "name": "르제프"
   },
   "VYA": {
-    "name": "뱌지마",
-    "desc": ""
+    "name": "뱌지마"
   },
   "TRB": {
-    "name": "트룹쳅스크",
-    "desc": ""
+    "name": "트룹쳅스크"
   },
   "BRY": {
-    "name": "브랸스크",
-    "desc": ""
+    "name": "브랸스크"
   },
   "CHR": {
-    "name": "체르니고프",
-    "desc": ""
+    "name": "체르니고프"
   },
   "STS": {
-    "name": "스타로두프-시베르스키",
-    "desc": ""
+    "name": "스타로두프-시베르스키"
   },
   "NVS": {
-    "name": "노브고로드-시베르스키",
-    "desc": ""
+    "name": "노브고로드-시베르스키"
   },
   "RYL": {
-    "name": "릴스크",
-    "desc": ""
+    "name": "릴스크"
   },
   "NSL": {
-    "name": "노보실",
-    "desc": ""
+    "name": "노보실"
   },
   "KCH": {
-    "name": "카라체프",
-    "desc": ""
+    "name": "카라체프"
   },
   "KZK": {
-    "name": "코젤스크",
-    "desc": ""
+    "name": "코젤스크"
   },
   "TRS": {
-    "name": "타루사",
-    "desc": ""
+    "name": "타루사"
   },
   "RYA": {
-    "name": "랴잔",
-    "desc": ""
+    "name": "랴잔"
   },
   "PRK": {
-    "name": "프론스크",
-    "desc": ""
+    "name": "프론스크"
   },
   "SKY": {
-    "name": "스타로두프",
-    "desc": ""
+    "name": "스타로두프"
   },
   "NZH": {
-    "name": "니즈니노브고로드",
-    "desc": ""
+    "name": "니즈니노브고로드"
   },
   "GRS": {
-    "name": "고로데츠",
-    "desc": ""
+    "name": "고로데츠"
   },
   "SZL": {
-    "name": "수즈달",
-    "desc": ""
+    "name": "수즈달"
   },
   "MRM": {
-    "name": "무롬",
-    "desc": ""
+    "name": "무롬"
   },
   "KOS": {
-    "name": "코스트로마",
-    "desc": ""
+    "name": "코스트로마"
   },
   "MOG": {
-    "name": "몰로가",
-    "desc": ""
+    "name": "몰로가"
   },
   "PRM": {
-    "name": "페름",
-    "desc": ""
+    "name": "페름"
   },
   "VYT": {
-    "name": "뱟카",
-    "desc": ""
+    "name": "뱟카"
   },
   "OBD": {
-    "name": "오브도르",
-    "desc": ""
+    "name": "오브도르"
   },
   "PLY": {
-    "name": "펠림",
-    "desc": ""
+    "name": "펠림"
   },
   "BAK": {
-    "name": "바르다크",
-    "desc": ""
+    "name": "바르다크"
   },
   "KND": {
-    "name": "콘다",
-    "desc": ""
+    "name": "콘다"
   },
   "BGJ": {
-    "name": "벨로고리예",
-    "desc": ""
+    "name": "벨로고리예"
   },
   "KOD": {
-    "name": "코다",
-    "desc": ""
+    "name": "코다"
   },
   "SVA": {
-    "name": "소시바",
-    "desc": ""
+    "name": "소시바"
   },
   "KZY": {
-    "name": "카짐",
-    "desc": ""
+    "name": "카짐"
   },
   "LYA": {
-    "name": "랴핀",
-    "desc": ""
+    "name": "랴핀"
   },
   "TBY": {
-    "name": "타보리",
-    "desc": ""
+    "name": "타보리"
   },
   "SLK": {
-    "name": "셀쿠프",
-    "desc": ""
+    "name": "셀쿠프"
   },
   "BRT": {
-    "name": "부랴티야",
-    "desc": ""
+    "name": "부랴티야"
   },
   "HGO": {
-    "name": "콩고라이",
-    "desc": ""
+    "name": "콩고라이"
   },
   "ALT": {
-    "name": "알타이",
-    "desc": ""
+    "name": "알타이"
   },
   "KMG": {
-    "name": "카마그",
-    "desc": ""
+    "name": "카마그"
   },
   "SAK": {
-    "name": "사하",
-    "desc": ""
+    "name": "사하"
   },
   "EVE": {
-    "name": "에벤",
-    "desc": ""
+    "name": "에벤"
   },
   "YKG": {
-    "name": "유카기르",
-    "desc": ""
+    "name": "유카기르"
   },
   "KYK": {
-    "name": "코랴크",
-    "desc": ""
+    "name": "코랴크"
   },
   "XHO": {
-    "name": "코사",
-    "desc": ""
+    "name": "코사"
   },
   "NGU": {
-    "name": "응구니",
-    "desc": ""
+    "name": "응구니"
   },
   "TWA": {
-    "name": "츠와나",
-    "desc": ""
+    "name": "츠와나"
   },
   "SOT": {
-    "name": "소토",
-    "desc": ""
+    "name": "소토"
   },
   "VED": {
-    "name": "벤다",
-    "desc": ""
+    "name": "벤다"
   },
   "KLG": {
-    "name": "칼랑가",
-    "desc": ""
+    "name": "칼랑가"
   },
   "KHM": {
-    "name": "크메르",
-    "desc": ""
+    "name": "크메르"
   },
   "CHA": {
-    "name": "참파",
-    "desc": ""
+    "name": "참파"
   },
   "DAI": {
-    "name": "대월",
-    "desc": ""
+    "name": "대월"
   },
   "SUK": {
-    "name": "수코타이",
-    "desc": ""
+    "name": "수코타이"
   },
   "LNA": {
-    "name": "란나",
-    "desc": ""
+    "name": "란나"
   },
   "LAV": {
-    "name": "라보",
-    "desc": ""
+    "name": "라보"
   },
   "ADH": {
-    "name": "아요디아",
-    "desc": ""
+    "name": "아요디아"
   },
   "PEG": {
-    "name": "한따와디",
-    "desc": ""
+    "name": "한따와디"
   },
   "SNG": {
-    "name": "싱가푸라",
-    "desc": ""
+    "name": "싱가푸라"
   },
   "LIG": {
-    "name": "리고르",
-    "desc": ""
+    "name": "리고르"
   },
   "LGK": {
-    "name": "랑카수카",
-    "desc": ""
+    "name": "랑카수카"
   },
   "KED": {
-    "name": "케다",
-    "desc": ""
+    "name": "케다"
   },
   "PAH": {
-    "name": "파항",
-    "desc": ""
+    "name": "파항"
   },
   "SPN": {
-    "name": "수판부리",
-    "desc": ""
+    "name": "수판부리"
   },
   "ARK": {
-    "name": "라웅옛",
-    "desc": ""
+    "name": "라웅옛"
   },
   "PIN": {
-    "name": "피냐",
-    "desc": ""
+    "name": "피냐"
   },
   "SAG": {
-    "name": "사가잉",
-    "desc": ""
+    "name": "사가잉"
   },
   "TNG": {
-    "name": "퉁구",
-    "desc": ""
+    "name": "퉁구"
   },
   "BPR": {
-    "name": "프롬",
-    "desc": ""
+    "name": "프롬"
   },
   "PHY": {
-    "name": "파야오",
-    "desc": ""
+    "name": "파야오"
   },
   "PUA": {
-    "name": "푸아",
-    "desc": ""
+    "name": "푸아"
   },
   "MUA": {
-    "name": "무앙 수아",
-    "desc": ""
+    "name": "무앙 수아"
   },
   "VTN": {
-    "name": "비엔티안",
-    "desc": ""
+    "name": "비엔티안"
   },
   "CBK": {
-    "name": "코브라",
-    "desc": ""
+    "name": "코브라"
   },
   "MYA": {
-    "name": "몽 양",
-    "desc": ""
+    "name": "몽 양"
   },
   "MKA": {
-    "name": "몽 카웅",
-    "desc": ""
+    "name": "몽 카웅"
   },
   "HKM": {
-    "name": "캄티",
-    "desc": ""
+    "name": "캄티"
   },
   "MKN": {
-    "name": "몽 콩",
-    "desc": ""
+    "name": "몽 콩"
   },
   "HHP": {
-    "name": "싸웅 쑵",
-    "desc": ""
+    "name": "싸웅 쑵"
   },
   "HSE": {
-    "name": "센위",
-    "desc": ""
+    "name": "센위"
   },
   "HSI": {
-    "name": "시포",
-    "desc": ""
+    "name": "시포"
   },
   "MNI": {
-    "name": "몽 나이",
-    "desc": ""
+    "name": "몽 나이"
   },
   "MGT": {
-    "name": "몽 밋",
-    "desc": ""
+    "name": "몽 밋"
   },
   "KAL": {
-    "name": "칼레",
-    "desc": ""
+    "name": "칼레"
   },
   "WNT": {
-    "name": "운토",
-    "desc": ""
+    "name": "운토"
   },
   "BHM": {
-    "name": "바모",
-    "desc": ""
+    "name": "바모"
   },
   "KTG": {
-    "name": "켕퉁",
-    "desc": ""
+    "name": "켕퉁"
   },
   "MLM": {
-    "name": "몽 렘",
-    "desc": ""
+    "name": "몽 렘"
   },
   "WAS": {
-    "name": "와",
-    "desc": ""
+    "name": "와"
   },
   "JGP": {
-    "name": "징포",
-    "desc": ""
+    "name": "징포"
   },
   "KRN": {
-    "name": "카렌",
-    "desc": ""
+    "name": "카렌"
   },
   "MUO": {
-    "name": "므엉",
-    "desc": ""
+    "name": "므엉"
   },
   "ASL": {
-    "name": "오랑 아슬리",
-    "desc": ""
+    "name": "오랑 아슬리"
   },
   "ZOO": {
-    "name": "조",
-    "desc": ""
+    "name": "조"
   },
   "ZHU": {
-    "name": "장",
-    "desc": ""
+    "name": "장"
   },
   "MLB": {
-    "name": "캉레이팍",
-    "desc": ""
+    "name": "캉레이팍"
   },
   "BES": {
-    "name": "베루아스",
-    "desc": ""
+    "name": "베루아스"
   },
   "MNJ": {
-    "name": "만중",
-    "desc": ""
+    "name": "만중"
   },
   "PTC": {
-    "name": "펫차부리",
-    "desc": ""
+    "name": "펫차부리"
   },
   "TSM": {
-    "name": "테나세림",
-    "desc": ""
+    "name": "테나세림"
   },
   "DEG": {
-    "name": "데가",
-    "desc": ""
+    "name": "데가"
   },
   "BHN": {
-    "name": "바나",
-    "desc": ""
+    "name": "바나"
   },
   "SED": {
-    "name": "세당",
-    "desc": ""
+    "name": "세당"
   },
   "BVK": {
-    "name": "브루",
-    "desc": ""
+    "name": "브루"
   },
   "KUY": {
-    "name": "쿠이",
-    "desc": ""
+    "name": "쿠이"
   },
   "KMU": {
-    "name": "크무",
-    "desc": ""
+    "name": "크무"
   },
   "NAA": {
-    "name": "나가",
-    "desc": ""
+    "name": "나가"
   },
   "HAB": {
-    "name": "오스트리아",
-    "desc": ""
+    "name": "오스트리아"
   },
   "BOH": {
-    "name": "보헤미아",
-    "desc": ""
+    "name": "보헤미아"
   },
   "MVA": {
-    "name": "모라비아",
-    "desc": ""
+    "name": "모라비아"
   },
   "PSS": {
-    "name": "파사우",
-    "desc": ""
+    "name": "파사우"
   },
   "AUG": {
-    "name": "아우구스타 빈델리코룸",
-    "desc": ""
+    "name": "아우구스타 빈델리코룸"
   },
   "AGC": {
-    "name": "아우크스부르크",
-    "desc": ""
+    "name": "아우크스부르크"
   },
   "UBV": {
-    "name": "오버바이에른",
-    "desc": ""
+    "name": "오버바이에른"
   },
   "LBV": {
-    "name": "니더바이에른",
-    "desc": ""
+    "name": "니더바이에른"
   },
   "SLZ": {
-    "name": "잘츠부르크",
-    "desc": ""
+    "name": "잘츠부르크"
   },
   "BAM": {
-    "name": "밤베르크",
-    "desc": ""
+    "name": "밤베르크"
   },
   "STY": {
-    "name": "슈타이어마르크",
-    "desc": ""
+    "name": "슈타이어마르크"
   },
   "CRH": {
-    "name": "케른텐",
-    "desc": ""
+    "name": "케른텐"
   },
   "TIR": {
-    "name": "티롤",
-    "desc": ""
+    "name": "티롤"
   },
   "WER": {
-    "name": "베르덴베르크",
-    "desc": ""
+    "name": "베르덴베르크"
   },
   "MBZ": {
-    "name": "브레겐츠",
-    "desc": ""
+    "name": "브레겐츠"
   },
   "MFK": {
-    "name": "펠트키르히",
-    "desc": ""
+    "name": "펠트키르히"
   },
   "BCH": {
-    "name": "쿠어",
-    "desc": ""
+    "name": "쿠어"
   },
   "STG": {
-    "name": "장크트갈렌",
-    "desc": ""
+    "name": "장크트갈렌"
   },
   "ZUR": {
-    "name": "취리히",
-    "desc": ""
+    "name": "취리히"
   },
   "SYZ": {
-    "name": "슈비츠",
-    "desc": ""
+    "name": "슈비츠"
   },
   "GLR": {
-    "name": "글라루스",
-    "desc": ""
+    "name": "글라루스"
   },
   "LCA": {
-    "name": "코모",
-    "desc": ""
+    "name": "코모"
   },
   "URI": {
-    "name": "우리",
-    "desc": ""
+    "name": "우리"
   },
   "OBW": {
-    "name": "옵발덴",
-    "desc": ""
+    "name": "옵발덴"
   },
   "LCU": {
-    "name": "루체른",
-    "desc": ""
+    "name": "루체른"
   },
   "SIT": {
-    "name": "시옹",
-    "desc": ""
+    "name": "시옹"
   },
   "SWI": {
-    "name": "스위스",
-    "desc": ""
+    "name": "스위스"
   },
   "BRN": {
-    "name": "베른",
-    "desc": ""
+    "name": "베른"
   },
   "SLT": {
-    "name": "졸로투른",
-    "desc": ""
+    "name": "졸로투른"
   },
   "NEU": {
-    "name": "뇌샤텔",
-    "desc": ""
+    "name": "뇌샤텔"
   },
   "BAS": {
-    "name": "바젤",
-    "desc": ""
+    "name": "바젤"
   },
   "LSA": {
-    "name": "로잔",
-    "desc": ""
+    "name": "로잔"
   },
   "KYB": {
-    "name": "키부르크",
-    "desc": ""
+    "name": "키부르크"
   },
   "TRN": {
-    "name": "투른",
-    "desc": ""
+    "name": "투른"
   },
   "BRC": {
-    "name": "베르히테스가덴",
-    "desc": ""
+    "name": "베르히테스가덴"
   },
   "GRF": {
-    "name": "그라페나우",
-    "desc": ""
+    "name": "그라페나우"
   },
   "PAL": {
-    "name": "라인",
-    "desc": ""
+    "name": "라인"
   },
   "REG": {
-    "name": "레겐스부르크",
-    "desc": ""
+    "name": "레겐스부르크"
   },
   "ANS": {
-    "name": "안스바흐",
-    "desc": ""
+    "name": "안스바흐"
   },
   "FRE": {
-    "name": "프라이징",
-    "desc": ""
+    "name": "프라이징"
   },
   "EIC": {
-    "name": "아이히슈테트",
-    "desc": ""
+    "name": "아이히슈테트"
   },
   "WEI": {
-    "name": "바이센부르크",
-    "desc": ""
+    "name": "바이센부르크"
   },
   "NUR": {
-    "name": "뉘른베르크",
-    "desc": ""
+    "name": "뉘른베르크"
   },
   "WBG": {
-    "name": "뷔르츠부르크",
-    "desc": ""
+    "name": "뷔르츠부르크"
   },
   "RIE": {
-    "name": "리네크",
-    "desc": ""
+    "name": "리네크"
   },
   "MSB": {
-    "name": "모스바흐",
-    "desc": ""
+    "name": "모스바흐"
   },
   "UFF": {
-    "name": "호엔로헤",
-    "desc": ""
+    "name": "호엔로헤"
   },
   "ROT": {
-    "name": "로텐부르크",
-    "desc": ""
+    "name": "로텐부르크"
   },
   "DNB": {
-    "name": "딩켈스뷜",
-    "desc": ""
+    "name": "딩켈스뷜"
   },
   "MEM": {
-    "name": "메밍겐",
-    "desc": ""
+    "name": "메밍겐"
   },
   "KMP": {
-    "name": "켐프텐",
-    "desc": ""
+    "name": "켐프텐"
   },
   "ULM": {
-    "name": "울름",
-    "desc": ""
+    "name": "울름"
   },
   "KNZ": {
-    "name": "콘스탄츠",
-    "desc": ""
+    "name": "콘스탄츠"
   },
   "WUR": {
-    "name": "뷔르템베르크",
-    "desc": ""
+    "name": "뷔르템베르크"
   },
   "OET": {
-    "name": "외팅겐",
-    "desc": ""
+    "name": "외팅겐"
   },
   "SWH": {
-    "name": "슈베비슈할",
-    "desc": ""
+    "name": "슈베비슈할"
   },
   "HBR": {
-    "name": "하일브론",
-    "desc": ""
+    "name": "하일브론"
   },
   "BDE": {
-    "name": "바덴",
-    "desc": ""
+    "name": "바덴"
   },
   "WDB": {
-    "name": "발트베르크",
-    "desc": ""
+    "name": "발트베르크"
   },
   "RVA": {
-    "name": "라벤스부르크",
-    "desc": ""
+    "name": "라벤스부르크"
   },
   "BIB": {
-    "name": "비베라흐",
-    "desc": ""
+    "name": "비베라흐"
   },
   "UBL": {
-    "name": "위버링겐",
-    "desc": ""
+    "name": "위버링겐"
   },
   "HHB": {
-    "name": "호엔베르크",
-    "desc": ""
+    "name": "호엔베르크"
   },
   "FBG": {
-    "name": "프라이부르크",
-    "desc": ""
+    "name": "프라이부르크"
   },
   "OFB": {
-    "name": "오펜부르크",
-    "desc": ""
+    "name": "오펜부르크"
   },
   "WLD": {
-    "name": "발트자센",
-    "desc": ""
+    "name": "발트자센"
   },
   "OGK": {
-    "name": "신성 로마",
-    "desc": ""
+    "name": "신성 로마"
   },
   "ORT": {
-    "name": "오르텐부르크",
-    "desc": ""
+    "name": "오르텐부르크"
   },
   "BXN": {
-    "name": "브릭센",
-    "desc": ""
+    "name": "브릭센"
   },
   "VUD": {
-    "name": "보주",
-    "desc": ""
+    "name": "보주"
   },
   "MSO": {
-    "name": "메소코",
-    "desc": ""
+    "name": "메소코"
   },
   "SGL": {
-    "name": "회색 동맹",
-    "desc": ""
+    "name": "회색 동맹"
   },
   "AOS": {
-    "name": "아오스타",
-    "desc": ""
+    "name": "아오스타"
   },
   "FLK": {
-    "name": "팔켄슈타인",
-    "desc": ""
+    "name": "팔켄슈타인"
   },
   "MDS": {
-    "name": "만더샤이트",
-    "desc": ""
+    "name": "만더샤이트"
   },
   "LDA": {
-    "name": "란다우",
-    "desc": ""
+    "name": "란다우"
   },
   "VEL": {
-    "name": "펠덴츠",
-    "desc": ""
+    "name": "펠덴츠"
   },
   "GRY": {
-    "name": "그뤼에르",
-    "desc": ""
+    "name": "그뤼에르"
   },
   "TGG": {
-    "name": "토겐부르크",
-    "desc": ""
+    "name": "토겐부르크"
   },
   "PSZ": {
-    "name": "지메른",
-    "desc": ""
+    "name": "지메른"
   },
   "HLE": {
-    "name": "하느님의 집 동맹",
-    "desc": ""
+    "name": "하느님의 집 동맹"
   },
   "SFC": {
-    "name": "스트라스부르크",
-    "desc": ""
+    "name": "스트라스부르크"
   },
   "CFC": {
-    "name": "콜마르",
-    "desc": ""
+    "name": "콜마르"
   },
   "MUR": {
-    "name": "무르바흐",
-    "desc": ""
+    "name": "무르바흐"
   },
   "HAG": {
-    "name": "아그노",
-    "desc": ""
+    "name": "아그노"
   },
   "MUL": {
-    "name": "뮐루즈",
-    "desc": ""
+    "name": "뮐루즈"
   },
   "LIC": {
-    "name": "리히텐베르크",
-    "desc": ""
+    "name": "리히텐베르크"
   },
   "BLM": {
-    "name": "벨몽",
-    "desc": ""
+    "name": "벨몽"
   },
   "DIS": {
-    "name": "디젠티스",
-    "desc": ""
+    "name": "디젠티스"
   },
   "FUR": {
-    "name": "퓌르스텐베르크",
-    "desc": ""
+    "name": "퓌르스텐베르크"
   },
   "GRK": {
-    "name": "구르크",
-    "desc": ""
+    "name": "구르크"
   },
   "HAC": {
-    "name": "하흐베르크",
-    "desc": ""
+    "name": "하흐베르크"
   },
   "SAW": {
-    "name": "자르베르덴",
-    "desc": ""
+    "name": "자르베르덴"
   },
   "SAB": {
-    "name": "자우젠베르크",
-    "desc": ""
+    "name": "자우젠베르크"
   },
   "THD": {
-    "name": "트루엔딩거",
-    "desc": ""
+    "name": "트루엔딩거"
   },
   "ELL": {
-    "name": "엘방겐",
-    "desc": ""
+    "name": "엘방겐"
   },
   "HEH": {
-    "name": "하이덴하임",
-    "desc": ""
+    "name": "하이덴하임"
   },
   "HLF": {
-    "name": "헬펜슈타인",
-    "desc": ""
+    "name": "헬펜슈타인"
   },
   "HOH": {
-    "name": "호엔촐레른",
-    "desc": ""
+    "name": "호엔촐레른"
   },
   "KIR": {
-    "name": "키르히베르크",
-    "desc": ""
+    "name": "키르히베르크"
   },
   "NEL": {
-    "name": "넬렌부르크",
-    "desc": ""
+    "name": "넬렌부르크"
   },
   "TUB": {
-    "name": "튀빙겐",
-    "desc": ""
+    "name": "튀빙겐"
   },
   "LEU": {
-    "name": "로이히텐베르크",
-    "desc": ""
+    "name": "로이히텐베르크"
   },
   "GLH": {
-    "name": "주치",
-    "desc": ""
+    "name": "주치"
   },
   "CRI": {
-    "name": "크림",
-    "desc": ""
+    "name": "크림"
   },
   "NOG": {
-    "name": "노가이",
-    "desc": ""
+    "name": "노가이"
   },
   "ATR": {
-    "name": "아스트라한",
-    "desc": ""
+    "name": "아스트라한"
   },
   "FEO": {
-    "name": "테오도로",
-    "desc": ""
+    "name": "테오도로"
   },
   "BSH": {
-    "name": "바시키르",
-    "desc": ""
+    "name": "바시키르"
   },
   "MGE": {
-    "name": "몽골",
-    "desc": ""
+    "name": "몽골"
   },
   "GAZ": {
-    "name": "가자리아",
-    "desc": ""
+    "name": "가자리아"
   },
   "JOL": {
-    "name": "졸로프",
-    "desc": ""
+    "name": "졸로프"
   },
   "FUL": {
-    "name": "대풀로",
-    "desc": ""
+    "name": "대풀로"
   },
   "MPR": {
-    "name": "맘프루구",
-    "desc": ""
+    "name": "맘프루구"
   },
   "DGB": {
-    "name": "다그본",
-    "desc": ""
+    "name": "다그본"
   },
   "KNG": {
-    "name": "콩",
-    "desc": ""
+    "name": "콩"
   },
   "BON": {
-    "name": "보노만",
-    "desc": ""
+    "name": "보노만"
   },
   "GYA": {
-    "name": "기아만",
-    "desc": ""
+    "name": "기아만"
   },
   "MNK": {
-    "name": "만케심",
-    "desc": ""
+    "name": "만케심"
   },
   "ZZZ": {
-    "name": "자자우",
-    "desc": ""
+    "name": "자자우"
   },
   "NUP": {
-    "name": "누페",
-    "desc": ""
+    "name": "누페"
   },
   "BEN": {
-    "name": "베냉",
-    "desc": ""
+    "name": "베냉"
   },
   "OYO": {
-    "name": "오요",
-    "desc": ""
+    "name": "오요"
   },
   "IFE": {
-    "name": "이페",
-    "desc": ""
+    "name": "이페"
   },
   "OWO": {
-    "name": "오워",
-    "desc": ""
+    "name": "오워"
   },
   "IJB": {
-    "name": "이제부",
-    "desc": ""
+    "name": "이제부"
   },
   "ISO": {
-    "name": "이세도",
-    "desc": ""
+    "name": "이세도"
   },
   "IYA": {
-    "name": "일라 야라",
-    "desc": ""
+    "name": "일라 야라"
   },
   "OKE": {
-    "name": "오케 일라",
-    "desc": ""
+    "name": "오케 일라"
   },
   "IJE": {
-    "name": "이제로",
-    "desc": ""
+    "name": "이제로"
   },
   "ADO": {
-    "name": "아도",
-    "desc": ""
+    "name": "아도"
   },
   "IJS": {
-    "name": "이제샤",
-    "desc": ""
+    "name": "이제샤"
   },
   "AKR": {
-    "name": "아쿠레",
-    "desc": ""
+    "name": "아쿠레"
   },
   "OND": {
-    "name": "온도",
-    "desc": ""
+    "name": "온도"
   },
   "AWO": {
-    "name": "아워리",
-    "desc": ""
+    "name": "아워리"
   },
   "KET": {
-    "name": "케투",
-    "desc": ""
+    "name": "케투"
   },
   "NRI": {
-    "name": "느리",
-    "desc": ""
+    "name": "느리"
   },
   "BMR": {
-    "name": "밤바라",
-    "desc": ""
+    "name": "밤바라"
   },
   "KBR": {
-    "name": "카부라",
-    "desc": ""
+    "name": "카부라"
   },
   "ZGH": {
-    "name": "자가",
-    "desc": ""
+    "name": "자가"
   },
   "BBK": {
-    "name": "밤북",
-    "desc": ""
+    "name": "밤북"
   },
   "DFN": {
-    "name": "디아푸누",
-    "desc": ""
+    "name": "디아푸누"
   },
   "GHA": {
-    "name": "가나",
-    "desc": ""
+    "name": "가나"
   },
   "KAB": {
-    "name": "카부",
-    "desc": ""
+    "name": "카부"
   },
   "MAL": {
-    "name": "말리",
-    "desc": ""
+    "name": "말리"
   },
   "SGH": {
-    "name": "상하나",
-    "desc": ""
+    "name": "상하나"
   },
   "TKR": {
-    "name": "타크루르",
-    "desc": ""
+    "name": "타크루르"
   },
   "TMK": {
-    "name": "타드메카",
-    "desc": ""
+    "name": "타드메카"
   },
   "TMB": {
-    "name": "팀북투",
-    "desc": ""
+    "name": "팀북투"
   },
   "TRG": {
-    "name": "투아레그",
-    "desc": ""
+    "name": "투아레그"
   },
   "SON": {
-    "name": "송가이",
-    "desc": ""
+    "name": "송가이"
   },
   "TFK": {
-    "name": "티라프카",
-    "desc": ""
+    "name": "티라프카"
   },
   "BOR": {
-    "name": "보르구",
-    "desc": ""
+    "name": "보르구"
   },
   "OUA": {
-    "name": "와가두구",
-    "desc": ""
+    "name": "와가두구"
   },
   "GWI": {
-    "name": "귀리코",
-    "desc": ""
+    "name": "귀리코"
   },
   "LIP": {
-    "name": "립타코",
-    "desc": ""
+    "name": "립타코"
   },
   "YAT": {
-    "name": "야텡가",
-    "desc": ""
+    "name": "야텡가"
   },
   "TEN": {
-    "name": "텐코도고",
-    "desc": ""
+    "name": "텐코도고"
   },
   "BSM": {
-    "name": "부수마",
-    "desc": ""
+    "name": "부수마"
   },
   "GUR": {
-    "name": "파다 응구르마",
-    "desc": ""
+    "name": "파다 응구르마"
   },
   "KAN": {
-    "name": "카노",
-    "desc": ""
+    "name": "카노"
   },
   "KTS": {
-    "name": "카치나",
-    "desc": ""
+    "name": "카치나"
   },
   "ZAM": {
-    "name": "잠파라",
-    "desc": ""
+    "name": "잠파라"
   },
   "KEB": {
-    "name": "케비",
-    "desc": ""
+    "name": "케비"
   },
   "RAN": {
-    "name": "라노",
-    "desc": ""
+    "name": "라노"
   },
   "GOB": {
-    "name": "고비르",
-    "desc": ""
+    "name": "고비르"
   },
   "DAA": {
-    "name": "다우라",
-    "desc": ""
+    "name": "다우라"
   },
   "KBO": {
-    "name": "카넴",
-    "desc": ""
+    "name": "카넴"
   },
   "YAO": {
-    "name": "빌랄라",
-    "desc": ""
+    "name": "빌랄라"
   },
   "KOT": {
-    "name": "사오",
-    "desc": ""
+    "name": "사오"
   },
   "BGI": {
-    "name": "바기르미",
-    "desc": ""
+    "name": "바기르미"
   },
   "MDR": {
-    "name": "만다라",
-    "desc": ""
+    "name": "만다라"
   },
   "ZGW": {
-    "name": "자가와",
-    "desc": ""
+    "name": "자가와"
   },
   "WAD": {
-    "name": "와다이",
-    "desc": ""
+    "name": "와다이"
   },
   "DAH": {
-    "name": "다호메이",
-    "desc": ""
+    "name": "다호메이"
   },
   "KLP": {
-    "name": "칼라푸야",
-    "desc": ""
+    "name": "칼라푸야"
   },
   "CNK": {
-    "name": "치누크",
-    "desc": ""
+    "name": "치누크"
   },
   "TSA": {
-    "name": "차모산",
-    "desc": ""
+    "name": "차모산"
   },
   "MKH": {
-    "name": "마카",
-    "desc": ""
+    "name": "마카"
   },
   "SKL": {
-    "name": "스클랄람",
-    "desc": ""
+    "name": "스클랄람"
   },
   "TWN": {
-    "name": "트와나",
-    "desc": ""
+    "name": "트와나"
   },
   "LHT": {
-    "name": "루슈치드",
-    "desc": ""
+    "name": "루슈치드"
   },
   "LHQ": {
-    "name": "락테미시",
-    "desc": ""
+    "name": "락테미시"
   },
   "HLM": {
-    "name": "할코멜렘",
-    "desc": ""
+    "name": "할코멜렘"
   },
   "SQH": {
-    "name": "스쿼미시",
-    "desc": ""
+    "name": "스쿼미시"
   },
   "KMK": {
-    "name": "코목스",
-    "desc": ""
+    "name": "코목스"
   },
   "NOO": {
-    "name": "누트카",
-    "desc": ""
+    "name": "누트카"
   },
   "KWA": {
-    "name": "콰키우틀",
-    "desc": ""
+    "name": "콰키우틀"
   },
   "OOW": {
-    "name": "우이크알라",
-    "desc": ""
+    "name": "우이크알라"
   },
   "NUX": {
-    "name": "누살크",
-    "desc": ""
+    "name": "누살크"
   },
   "HLK": {
-    "name": "헤일추크",
-    "desc": ""
+    "name": "헤일추크"
   },
   "HLA": {
-    "name": "하이슬라",
-    "desc": ""
+    "name": "하이슬라"
   },
   "TMH": {
-    "name": "침시안",
-    "desc": ""
+    "name": "침시안"
   },
   "XDA": {
-    "name": "하이다",
-    "desc": ""
+    "name": "하이다"
   },
   "TLG": {
-    "name": "틀링깃",
-    "desc": ""
+    "name": "틀링깃"
   }
 }

@@ -17,7 +17,8 @@ RAW_DIR = PIPELINE_DIR / "raw"
 
 EU5_BASE = r"C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis V"
 GAME = rf"{EU5_BASE}\game\in_game"
-LOC = rf"{EU5_BASE}\game\main_menu\localization"
+MAIN_MENU = rf"{EU5_BASE}\game\main_menu"
+LOC = rf"{MAIN_MENU}\localization"
 
 from languages import LANGUAGES
 
@@ -125,6 +126,21 @@ def fetch_religions():
     fetch_loc("religion")
 
 
+@category("holy_sites")
+def fetch_holy_sites():
+    print("[holy_sites]")
+    fetch_dir(rf"{GAME}\common\holy_sites", RAW_DIR / "holy_sites")
+    fetch_dir(rf"{GAME}\common\holy_site_types", RAW_DIR / "holy_site_types")
+    fetch_loc("holy_sites")
+
+
+@category("religious_aspects")
+def fetch_religious_aspects():
+    print("[religious_aspects]")
+    fetch_dir(rf"{GAME}\common\religious_aspects", RAW_DIR / "religious_aspects")
+    fetch_loc("religious_aspects")
+
+
 @category("countries")
 def fetch_countries():
     print("[countries]")
@@ -165,6 +181,61 @@ def fetch_game_terms():
     print("[game_terms]")
     fetch_loc("pops")
     fetch_loc("game_concepts")
+
+
+@category("building_deps")
+def fetch_building_deps():
+    """Fetch loc files needed for building condition text in all languages."""
+    print("[building_deps]")
+    fetch_loc("cultures")
+    fetch_loc("cultural_and_languages")
+    fetch_loc("culture_groups")
+    fetch_loc("advances")
+    fetch_loc("province_names")
+    fetch_loc("modifier_types")
+    fetch_loc("modifiers")
+    fetch_loc("estate")
+    fetch_loc("area")
+    fetch_loc("location_names")
+    fetch_loc("static_modifiers")
+
+
+@category("country_start")
+def fetch_country_start():
+    """Fetch country start data (10_countries.txt + templates) and extra loc."""
+    print("[country_start]")
+    local_dir = RAW_DIR / "country_start"
+    local_dir.mkdir(parents=True, exist_ok=True)
+    remote = rf"{MAIN_MENU}\setup\start\10_countries.txt"
+    content = ssh_read_file(remote)
+    content = content.replace("\r\n", "\n")
+    (local_dir / "10_countries.txt").write_text(content, encoding="utf-8")
+    print(f"  10_countries.txt ({len(content)} bytes)")
+    fetch_dir(rf"{MAIN_MENU}\setup\templates", local_dir / "templates")
+    fetch_loc("common_used_strings")
+    fetch_loc("formable_countries")
+
+
+@category("formable_countries")
+def fetch_formable_countries():
+    print("[formable_countries]")
+    fetch_dir(rf"{GAME}\common\formable_countries", RAW_DIR / "formable_countries")
+
+
+@category("country_ranks")
+def fetch_country_ranks():
+    print("[country_ranks]")
+    fetch_dir(rf"{GAME}\common\country_ranks", RAW_DIR / "country_ranks")
+
+
+@category("coat_of_arms")
+def fetch_coat_of_arms():
+    """Fetch CoA definitions and flag definitions (text only, not DDS)."""
+    print("[coat_of_arms]")
+    fetch_dir(rf"{MAIN_MENU}\common\coat_of_arms\coat_of_arms",
+              RAW_DIR / "coat_of_arms")
+    fetch_dir(rf"{MAIN_MENU}\common\flag_definitions",
+              RAW_DIR / "flag_definitions")
 
 
 def fetch_version():

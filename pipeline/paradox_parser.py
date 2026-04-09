@@ -122,7 +122,7 @@ def _parse_block(tokens: list[tuple[str, str]], pos: int) -> tuple[dict | list, 
         for k, v in items:
             if k in result:
                 existing = result[k]
-                if isinstance(existing, list) and not isinstance(v, dict):
+                if isinstance(existing, list):
                     existing.append(v)
                 else:
                     result[k] = [existing, v]
@@ -164,10 +164,19 @@ def parse(text: str) -> dict[str, Value]:
                 if typ2 == "lbrace":
                     pos += 1
                     child, pos = _parse_block(tokens, pos)
-                    result[key] = child
+                    v = child
                 else:
-                    result[key] = _coerce(val2)
+                    v = _coerce(val2)
                     pos += 1
+                # Handle duplicate keys (same logic as _parse_block)
+                if key in result:
+                    existing = result[key]
+                    if isinstance(existing, list):
+                        existing.append(v)
+                    else:
+                        result[key] = [existing, v]
+                else:
+                    result[key] = v
             else:
                 pos += 1
         else:

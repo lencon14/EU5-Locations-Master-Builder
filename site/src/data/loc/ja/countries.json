@@ -1,8910 +1,6977 @@
 {
-  "DUMMY": {
-    "name": "（placeholder）",
-    "desc": ""
-  },
-  "PIR": {
-    "name": "海賊団",
-    "desc": ""
-  },
-  "MER": {
-    "name": "傭兵団",
-    "desc": ""
-  },
   "SWE": {
-    "name": "スウェーデン",
-    "desc": ""
+    "name": "スウェーデン"
   },
   "DAN": {
-    "name": "デンマーク",
-    "desc": ""
+    "name": "デンマーク"
   },
   "SKE": {
-    "name": "スコーネ",
-    "desc": ""
+    "name": "スコーネ"
   },
   "NOR": {
-    "name": "ノルウェー",
-    "desc": ""
+    "name": "ノルウェー"
   },
   "FIN": {
-    "name": "フィンランド",
-    "desc": ""
+    "name": "フィンランド"
   },
   "BJA": {
-    "name": "ビャルマ",
-    "desc": ""
+    "name": "ビャルマ"
   },
   "TAV": {
-    "name": "タヴァストランド",
-    "desc": ""
+    "name": "タヴァストランド"
   },
   "KVE": {
-    "name": "クヴェンランド",
-    "desc": ""
+    "name": "クヴェンランド"
   },
   "SVO": {
-    "name": "サヴォ",
-    "desc": ""
+    "name": "サヴォ"
   },
   "ICE": {
-    "name": "アイスランド",
-    "desc": ""
+    "name": "アイスランド"
   },
   "GRL": {
-    "name": "グリーンランド",
-    "desc": ""
+    "name": "グリーンランド"
   },
   "SMI": {
-    "name": "サーミ",
-    "desc": ""
+    "name": "サーミ"
   },
   "AHI": {
-    "name": "アヒ",
-    "desc": ""
+    "name": "アヒ"
   },
   "ALY": {
-    "name": "アライエ",
-    "desc": ""
+    "name": "アライエ"
   },
   "ATQ": {
-    "name": "アルトゥキド",
-    "desc": ""
+    "name": "アルトゥキド"
   },
   "AYD": {
-    "name": "アイディン",
-    "desc": ""
+    "name": "アイディン"
   },
   "BFR": {
-    "name": "バフラ",
-    "desc": ""
+    "name": "バフラ"
   },
   "CIL": {
-    "name": "キリキア",
-    "desc": ""
+    "name": "キリキア"
   },
   "CND": {
-    "name": "カンダール",
-    "desc": ""
+    "name": "カンダール"
   },
   "CYP": {
-    "name": "キプロス",
-    "desc": ""
+    "name": "キプロス"
   },
   "DIL": {
-    "name": "ディルマチッド",
-    "desc": ""
+    "name": "ディルマチッド"
   },
   "DUL": {
-    "name": "ドゥルカディル",
-    "desc": ""
+    "name": "ドゥルカディル"
   },
   "ERE": {
-    "name": "エレトナ",
-    "desc": ""
+    "name": "エレトナ"
   },
   "GRM": {
-    "name": "ゲルミヤ",
-    "desc": ""
+    "name": "ゲルミヤ"
   },
   "HMD": {
-    "name": "ハミド",
-    "desc": ""
+    "name": "ハミド"
   },
   "HCI": {
-    "name": "ハシミール",
-    "desc": ""
+    "name": "ハシミール"
   },
   "HSN": {
-    "name": "アイユーブ",
-    "desc": ""
+    "name": "アイユーブ"
   },
   "INA": {
-    "name": "イナンチッド",
-    "desc": ""
+    "name": "イナンチッド"
   },
   "KAR": {
-    "name": "カラマン",
-    "desc": ""
+    "name": "カラマン"
   },
   "KBD": {
-    "name": "クバディッド",
-    "desc": ""
+    "name": "クバディッド"
   },
   "KRD": {
-    "name": "カラシド",
-    "desc": ""
+    "name": "カラシド"
   },
   "MEN": {
-    "name": "メンテシュイド",
-    "desc": ""
+    "name": "メンテシュイド"
   },
   "SHP": {
-    "name": "サヒブ・アタイド",
-    "desc": ""
+    "name": "サヒブ・アタイド"
   },
   "SRU": {
-    "name": "サルハン",
-    "desc": ""
+    "name": "サルハン"
   },
   "SUT": {
-    "name": "スータイド",
-    "desc": ""
+    "name": "スータイド"
   },
   "TDJ": {
-    "name": "タチェティニッド",
-    "desc": ""
+    "name": "タチェティニッド"
   },
   "TEK": {
-    "name": "テケ",
-    "desc": ""
+    "name": "テケ"
   },
   "TRE": {
-    "name": "トレビゾンド",
-    "desc": ""
+    "name": "トレビゾンド"
   },
   "TUR": {
-    "name": "オスマン",
-    "desc": ""
+    "name": "オスマン"
   },
   "BHT": {
-    "name": "ボータン",
-    "desc": ""
+    "name": "ボータン"
   },
   "BIN": {
-    "name": "チャパクチュール",
-    "desc": ""
+    "name": "チャパクチュール"
   },
   "BIT": {
-    "name": "ビトリス",
-    "desc": ""
+    "name": "ビトリス"
   },
   "CEM": {
-    "name": "チェミシュゲゼク",
-    "desc": ""
+    "name": "チェミシュゲゼク"
   },
   "DSN": {
-    "name": "ダスニ",
-    "desc": ""
+    "name": "ダスニ"
   },
   "DMB": {
-    "name": "ドンボリ・ボフト",
-    "desc": ""
+    "name": "ドンボリ・ボフト"
   },
   "EGL": {
-    "name": "エギル",
-    "desc": ""
+    "name": "エギル"
   },
   "HKK": {
-    "name": "ハッカリ",
-    "desc": ""
+    "name": "ハッカリ"
   },
   "HZN": {
-    "name": "ヒザン",
-    "desc": ""
+    "name": "ヒザン"
   },
   "HZR": {
-    "name": "ハズロ",
-    "desc": ""
+    "name": "ハズロ"
   },
   "JLM": {
-    "name": "ジョルマーク",
-    "desc": ""
+    "name": "ジョルマーク"
   },
   "MZJ": {
-    "name": "マゼンジャニ",
-    "desc": ""
+    "name": "マゼンジャニ"
   },
   "MUS": {
-    "name": "ムス",
-    "desc": ""
+    "name": "ムス"
   },
   "SOH": {
-    "name": "ソウリ",
-    "desc": ""
+    "name": "ソウリ"
   },
   "ZRQ": {
-    "name": "ジルカン",
-    "desc": ""
+    "name": "ジルカン"
   },
   "ZZR": {
-    "name": "ゼルザリ",
-    "desc": ""
+    "name": "ゼルザリ"
   },
   "KIL": {
-    "name": "キリス",
-    "desc": ""
+    "name": "キリス"
   },
   "TVS": {
-    "name": "タヴァス",
-    "desc": ""
+    "name": "タヴァス"
   },
   "QTO": {
-    "name": "キト",
-    "desc": ""
+    "name": "キト"
   },
   "CHM": {
-    "name": "チムー",
-    "desc": ""
+    "name": "チムー"
   },
   "XLL": {
-    "name": "シュラン",
-    "desc": ""
+    "name": "シュラン"
   },
   "CYA": {
-    "name": "サチャ＝プ＝クーヤ",
-    "desc": ""
+    "name": "サチャ＝プ＝クーヤ"
   },
   "TLN": {
-    "name": "タヤン",
-    "desc": ""
+    "name": "タヤン"
   },
   "ICM": {
-    "name": "イチマ",
-    "desc": ""
+    "name": "イチマ"
   },
   "WAN": {
-    "name": "ワンカ",
-    "desc": ""
+    "name": "ワンカ"
   },
   "HNK": {
-    "name": "ハナン・チャンカ",
-    "desc": ""
+    "name": "ハナン・チャンカ"
   },
   "URC": {
-    "name": "ウリン・チャンカ",
-    "desc": ""
+    "name": "ウリン・チャンカ"
   },
   "CIC": {
-    "name": "チンチャ",
-    "desc": ""
+    "name": "チンチャ"
   },
   "CSU": {
-    "name": "クスク",
-    "desc": ""
+    "name": "クスク"
   },
   "AYA": {
-    "name": "アヤルマカ",
-    "desc": ""
+    "name": "アヤルマカ"
   },
   "PIG": {
-    "name": "ピナグア",
-    "desc": ""
+    "name": "ピナグア"
   },
   "PCJ": {
-    "name": "パカ・ハキス",
-    "desc": ""
+    "name": "パカ・ハキス"
   },
   "LUP": {
-    "name": "ルピハキ",
-    "desc": ""
+    "name": "ルピハキ"
   },
   "OMG": {
-    "name": "オマグアカ",
-    "desc": ""
+    "name": "オマグアカ"
   },
   "CAV": {
-    "name": "カルバ",
-    "desc": ""
+    "name": "カルバ"
   },
   "MLT": {
-    "name": "マラカト",
-    "desc": ""
+    "name": "マラカト"
   },
   "GRR": {
-    "name": "ガロチャンバ",
-    "desc": ""
+    "name": "ガロチャンバ"
   },
   "MNT": {
-    "name": "マンタ",
-    "desc": ""
+    "name": "マンタ"
   },
   "GCV": {
-    "name": "グアンカビルカ",
-    "desc": ""
+    "name": "グアンカビルカ"
   },
   "BBA": {
-    "name": "ババ",
-    "desc": ""
+    "name": "ババ"
   },
   "SLL": {
-    "name": "シャバルラ",
-    "desc": ""
+    "name": "シャバルラ"
   },
   "HKR": {
-    "name": "ハトゥン・カニャル",
-    "desc": ""
+    "name": "ハトゥン・カニャル"
   },
   "CAX": {
-    "name": "カラ",
-    "desc": ""
+    "name": "カラ"
   },
   "PUU": {
-    "name": "プルワ",
-    "desc": ""
+    "name": "プルワ"
   },
   "CRA": {
-    "name": "チャルカ",
-    "desc": ""
+    "name": "チャルカ"
   },
   "KNA": {
-    "name": "カナ",
-    "desc": ""
+    "name": "カナ"
   },
   "KRK": {
-    "name": "カランカ",
-    "desc": ""
+    "name": "カランカ"
   },
   "QUL": {
-    "name": "クーリャ",
-    "desc": ""
+    "name": "クーリャ"
   },
   "SUR": {
-    "name": "スラ",
-    "desc": ""
+    "name": "スラ"
   },
   "PUK": {
-    "name": "プカムル",
-    "desc": ""
+    "name": "プカムル"
   },
   "BAG": {
-    "name": "バグア",
-    "desc": ""
+    "name": "バグア"
   },
   "HCH": {
-    "name": "ワマチュコ",
-    "desc": ""
+    "name": "ワマチュコ"
   },
   "CUI": {
-    "name": "クイスマンク",
-    "desc": ""
+    "name": "クイスマンク"
   },
   "HUA": {
-    "name": "ワイラス",
-    "desc": ""
+    "name": "ワイラス"
   },
   "XAU": {
-    "name": "シャウシャ",
-    "desc": ""
+    "name": "シャウシャ"
   },
   "CSA": {
-    "name": "カスマ",
-    "desc": ""
+    "name": "カスマ"
   },
   "CLQ": {
-    "name": "コリケ",
-    "desc": ""
+    "name": "コリケ"
   },
   "NTA": {
-    "name": "カンタ",
-    "desc": ""
+    "name": "カンタ"
   },
   "ATV": {
-    "name": "アタビリョス",
-    "desc": ""
+    "name": "アタビリョス"
   },
   "YAW": {
-    "name": "ヤウユ",
-    "desc": ""
+    "name": "ヤウユ"
   },
   "CCY": {
-    "name": "チャンカイ",
-    "desc": ""
+    "name": "チャンカイ"
   },
   "HPP": {
-    "name": "ワンカパンパ",
-    "desc": ""
+    "name": "ワンカパンパ"
   },
   "HCR": {
-    "name": "ワクラチュコ",
-    "desc": ""
+    "name": "ワクラチュコ"
   },
   "HRC": {
-    "name": "ワルコ",
-    "desc": ""
+    "name": "ワルコ"
   },
   "SRA": {
-    "name": "ソラ",
-    "desc": ""
+    "name": "ソラ"
   },
   "MYM": {
-    "name": "マヨンマルカ",
-    "desc": ""
+    "name": "マヨンマルカ"
   },
   "PCR": {
-    "name": "ポクラ",
-    "desc": ""
+    "name": "ポクラ"
   },
   "PCO": {
-    "name": "パリナコチャ",
-    "desc": ""
+    "name": "パリナコチャ"
   },
   "ANI": {
-    "name": "アルニ",
-    "desc": ""
+    "name": "アルニ"
   },
   "CHJ": {
-    "name": "チュラホン",
-    "desc": ""
+    "name": "チュラホン"
   },
   "CBY": {
-    "name": "チリバヤ",
-    "desc": ""
+    "name": "チリバヤ"
   },
   "CNC": {
-    "name": "カンチ",
-    "desc": ""
+    "name": "カンチ"
   },
   "LLG": {
-    "name": "コリャグア",
-    "desc": ""
+    "name": "コリャグア"
   },
   "AMN": {
-    "name": "カマナ",
-    "desc": ""
+    "name": "カマナ"
   },
   "UMA": {
-    "name": "ウマスユユス",
-    "desc": ""
+    "name": "ウマスユユス"
   },
   "QQH": {
-    "name": "カラ・カラ",
-    "desc": ""
+    "name": "カラ・カラ"
   },
   "CCT": {
-    "name": "カンタマルカニ",
-    "desc": ""
+    "name": "カンタマルカニ"
   },
   "TUP": {
-    "name": "トゥピサ",
-    "desc": ""
+    "name": "トゥピサ"
   },
   "CHW": {
-    "name": "チュウィ",
-    "desc": ""
+    "name": "チュウィ"
   },
   "KWY": {
-    "name": "カヤワヤ",
-    "desc": ""
+    "name": "カヤワヤ"
   },
   "KLL": {
-    "name": "キラカ",
-    "desc": ""
+    "name": "キラカ"
   },
   "KKE": {
-    "name": "キルケ",
-    "desc": ""
+    "name": "キルケ"
   },
   "CNO": {
-    "name": "チョノ",
-    "desc": ""
+    "name": "チョノ"
   },
   "BAU": {
-    "name": "バウレ",
-    "desc": ""
+    "name": "バウレ"
   },
   "ALC": {
-    "name": "アレンティアク",
-    "desc": ""
+    "name": "アレンティアク"
   },
   "MYC": {
-    "name": "ミルカヤック",
-    "desc": ""
+    "name": "ミルカヤック"
   },
   "PHE": {
-    "name": "ピクンチェ",
-    "desc": ""
+    "name": "ピクンチェ"
   },
   "CPU": {
-    "name": "クキンプ",
-    "desc": ""
+    "name": "クキンプ"
   },
   "CYC": {
-    "name": "コパヤク",
-    "desc": ""
+    "name": "コパヤク"
   },
   "CCH": {
-    "name": "カルチャキ",
-    "desc": ""
+    "name": "カルチャキ"
   },
   "QIM": {
-    "name": "キルメス",
-    "desc": ""
+    "name": "キルメス"
   },
   "QTR": {
-    "name": "キトール",
-    "desc": ""
+    "name": "キトール"
   },
   "YEM": {
-    "name": "イエメン",
-    "desc": ""
+    "name": "イエメン"
   },
   "JRW": {
-    "name": "ジャルワーン",
-    "desc": ""
+    "name": "ジャルワーン"
   },
   "OMA": {
-    "name": "オマーン",
-    "desc": ""
+    "name": "オマーン"
   },
   "MEC": {
-    "name": "メッカ",
-    "desc": ""
+    "name": "メッカ"
   },
   "SHM": {
-    "name": "シャンマル",
-    "desc": ""
+    "name": "シャンマル"
   },
   "ANZ": {
-    "name": "アナザ",
-    "desc": ""
+    "name": "アナザ"
   },
   "HUT": {
-    "name": "フタイム",
-    "desc": ""
+    "name": "フタイム"
   },
   "HRB": {
-    "name": "ハールブ",
-    "desc": ""
+    "name": "ハールブ"
   },
   "MUT": {
-    "name": "ムタイル",
-    "desc": ""
+    "name": "ムタイル"
   },
   "UTB": {
-    "name": "オタイバ",
-    "desc": ""
+    "name": "オタイバ"
   },
   "DWS": {
-    "name": "ダワーシル",
-    "desc": ""
+    "name": "ダワーシル"
   },
   "QHT": {
-    "name": "カターン",
-    "desc": ""
+    "name": "カターン"
   },
   "SBY": {
-    "name": "スバイ",
-    "desc": ""
+    "name": "スバイ"
   },
   "MRH": {
-    "name": "アル・ムッラ",
-    "desc": ""
+    "name": "アル・ムッラ"
   },
   "YAM": {
-    "name": "ヤン",
-    "desc": ""
+    "name": "ヤン"
   },
   "YAS": {
-    "name": "ヤス",
-    "desc": ""
+    "name": "ヤス"
   },
   "MDA": {
-    "name": "メディーナ",
-    "desc": ""
+    "name": "メディーナ"
   },
   "KLB": {
-    "name": "キラーブ",
-    "desc": ""
+    "name": "キラーブ"
   },
   "AAD": {
-    "name": "アル・アイズ",
-    "desc": ""
+    "name": "アル・アイズ"
   },
   "BNL": {
-    "name": "ラム",
-    "desc": ""
+    "name": "ラム"
   },
   "AZF": {
-    "name": "アル＝ザフィール",
-    "desc": ""
+    "name": "アル＝ザフィール"
   },
   "ZIB": {
-    "name": "ジブ",
-    "desc": ""
+    "name": "ジブ"
   },
   "DHF": {
-    "name": "ドファール",
-    "desc": ""
+    "name": "ドファール"
   },
   "ACX": {
-    "name": "アカセー",
-    "desc": ""
+    "name": "アカセー"
   },
   "COP": {
-    "name": "シャウィットル・クウィンチャーウェイ",
-    "desc": ""
+    "name": "シャウィットル・クウィンチャーウェイ"
   },
   "GUC": {
-    "name": "クワウチチル",
-    "desc": ""
+    "name": "クワウチチル"
   },
   "YRM": {
-    "name": "ヨレメ",
-    "desc": ""
+    "name": "ヨレメ"
   },
   "EUD": {
-    "name": "エウデヴェ",
-    "desc": ""
+    "name": "エウデヴェ"
   },
   "TGU": {
-    "name": "テギュイス",
-    "desc": ""
+    "name": "テギュイス"
   },
   "JOV": {
-    "name": "ホヴァス",
-    "desc": ""
+    "name": "ホヴァス"
   },
   "TEG": {
-    "name": "テギュイマ",
-    "desc": ""
+    "name": "テギュイマ"
   },
   "CNH": {
-    "name": "カウィナチス",
-    "desc": ""
+    "name": "カウィナチス"
   },
   "PIM": {
-    "name": "アキメル・オオッダム",
-    "desc": ""
+    "name": "アキメル・オオッダム"
   },
   "HHK": {
-    "name": "ホホカム",
-    "desc": ""
+    "name": "ホホカム"
   },
   "SOB": {
-    "name": "ソバイプリ",
-    "desc": ""
+    "name": "ソバイプリ"
   },
   "TOO": {
-    "name": "トホノ・オオッダム",
-    "desc": ""
+    "name": "トホノ・オオッダム"
   },
   "OOB": {
-    "name": "オオッブ",
-    "desc": ""
+    "name": "オオッブ"
   },
   "RAR": {
-    "name": "ララームリ",
-    "desc": ""
+    "name": "ララームリ"
   },
   "YAQ": {
-    "name": "ヤキ",
-    "desc": ""
+    "name": "ヤキ"
   },
   "HOP": {
-    "name": "ホピ",
-    "desc": ""
+    "name": "ホピ"
   },
   "DNE": {
-    "name": "ディネ",
-    "desc": ""
+    "name": "ディネ"
   },
   "ZNI": {
-    "name": "ズニ",
-    "desc": ""
+    "name": "ズニ"
   },
   "TEY": {
-    "name": "テイパナ",
-    "desc": ""
+    "name": "テイパナ"
   },
   "ISL": {
-    "name": "シーウィフバク",
-    "desc": ""
+    "name": "シーウィフバク"
   },
   "ACO": {
-    "name": "アークウ",
-    "desc": ""
+    "name": "アークウ"
   },
   "KER": {
-    "name": "ツィーヤ",
-    "desc": ""
+    "name": "ツィーヤ"
   },
   "TNN": {
-    "name": "タノ",
-    "desc": ""
+    "name": "タノ"
   },
   "TAO": {
-    "name": "ィアロファイボ",
-    "desc": ""
+    "name": "ィアロファイボ"
   },
   "TST": {
-    "name": "トゥフ・シュル・ティア",
-    "desc": ""
+    "name": "トゥフ・シュル・ティア"
   },
   "OHK": {
-    "name": "オーキーウィ・オーウィンゲ",
-    "desc": ""
+    "name": "オーキーウィ・オーウィンゲ"
   },
   "TTR": {
-    "name": "トトラメ",
-    "desc": ""
+    "name": "トトラメ"
   },
   "XIX": {
-    "name": "シシメ",
-    "desc": ""
+    "name": "シシメ"
   },
   "TAE": {
-    "name": "タウエ",
-    "desc": ""
+    "name": "タウエ"
   },
   "GUV": {
-    "name": "グアサベ",
-    "desc": ""
+    "name": "グアサベ"
   },
   "TPH": {
-    "name": "テペワン",
-    "desc": ""
+    "name": "テペワン"
   },
   "XUM": {
-    "name": "シュマノス",
-    "desc": ""
+    "name": "シュマノス"
   },
   "TML": {
-    "name": "タマウリテコ",
-    "desc": ""
+    "name": "タマウリテコ"
   },
   "CAD": {
-    "name": "ハシイナイ",
-    "desc": ""
+    "name": "ハシイナイ"
   },
   "KIH": {
-    "name": "キータイシュ",
-    "desc": ""
+    "name": "キータイシュ"
   },
   "HTS": {
-    "name": "ヒサツィノム",
-    "desc": ""
+    "name": "ヒサツィノム"
   },
   "NUW": {
-    "name": "ヌウヴィ",
-    "desc": ""
+    "name": "ヌウヴィ"
   },
   "NWV": {
-    "name": "ヌウヴ",
-    "desc": ""
+    "name": "ヌウヴ"
   },
   "CRO": {
-    "name": "クロアチア",
-    "desc": ""
+    "name": "クロアチア"
   },
   "ACH": {
-    "name": "アカイア",
-    "desc": ""
+    "name": "アカイア"
   },
   "ATH": {
-    "name": "アテネ",
-    "desc": ""
+    "name": "アテネ"
   },
   "CEP": {
-    "name": "ケファロニア",
-    "desc": ""
+    "name": "ケファロニア"
   },
   "LAT": {
-    "name": "コンスタンティノープル",
-    "desc": ""
+    "name": "コンスタンティノープル"
   },
   "NAX": {
-    "name": "ナクソス",
-    "desc": ""
+    "name": "ナクソス"
   },
   "EPI": {
-    "name": "イピルス",
-    "desc": ""
+    "name": "イピルス"
   },
   "BYZ": {
-    "name": "ビザンツ",
-    "desc": ""
+    "name": "ビザンツ"
   },
   "THE": {
-    "name": "テッサロニキ",
-    "desc": ""
+    "name": "テッサロニキ"
   },
   "THS": {
-    "name": "テッサリア",
-    "desc": ""
+    "name": "テッサリア"
   },
   "SER": {
-    "name": "セルビア",
-    "desc": ""
+    "name": "セルビア"
   },
   "ALB": {
-    "name": "アルバニア",
-    "desc": ""
+    "name": "アルバニア"
   },
   "THP": {
-    "name": "トピア",
-    "desc": ""
+    "name": "トピア"
   },
   "MZK": {
-    "name": "ムザカ",
-    "desc": ""
+    "name": "ムザカ"
   },
   "ANT": {
-    "name": "アリアニティ",
-    "desc": ""
+    "name": "アリアニティ"
   },
   "MTR": {
-    "name": "マタランガ",
-    "desc": ""
+    "name": "マタランガ"
   },
   "BOS": {
-    "name": "ボスニア",
-    "desc": ""
+    "name": "ボスニア"
   },
   "RAG": {
-    "name": "ラグーザ",
-    "desc": ""
+    "name": "ラグーザ"
   },
   "BUL": {
-    "name": "ブルガリア",
-    "desc": ""
+    "name": "ブルガリア"
   },
   "VID": {
-    "name": "ヴィディン",
-    "desc": ""
+    "name": "ヴィディン"
   },
   "CLI": {
-    "name": "ツィリ",
-    "desc": ""
+    "name": "ツィリ"
   },
   "NEO": {
-    "name": "ネオパトリア",
-    "desc": ""
+    "name": "ネオパトリア"
   },
   "BOD": {
-    "name": "ボドニツァ",
-    "desc": ""
+    "name": "ボドニツァ"
   },
   "ARG": {
-    "name": "アルゴス",
-    "desc": ""
+    "name": "アルゴス"
   },
   "KNI": {
-    "name": "聖ヨハネ",
-    "desc": ""
+    "name": "聖ヨハネ"
   },
   "CRT": {
-    "name": "キャンディア",
-    "desc": ""
+    "name": "キャンディア"
   },
   "NEG": {
-    "name": "ネグロポンテ",
-    "desc": ""
+    "name": "ネグロポンテ"
   },
   "SAO": {
-    "name": "サロナ",
-    "desc": ""
+    "name": "サロナ"
   },
   "CAR": {
-    "name": "カルニオラ",
-    "desc": ""
+    "name": "カルニオラ"
   },
   "TRO": {
-    "name": "トラヴニア",
-    "desc": ""
+    "name": "トラヴニア"
   },
   "GOR": {
-    "name": "ゴリツィア",
-    "desc": ""
+    "name": "ゴリツィア"
   },
   "LIV": {
-    "name": "リヴォニア",
-    "desc": ""
+    "name": "リヴォニア"
   },
   "TEU": {
-    "name": "チュートン",
-    "desc": ""
+    "name": "チュートン"
   },
   "ERM": {
-    "name": "ヴァルミア",
-    "desc": ""
+    "name": "ヴァルミア"
   },
   "CHL": {
-    "name": "ヘウムノ",
-    "desc": ""
+    "name": "ヘウムノ"
   },
   "PMS": {
-    "name": "ポメザニア",
-    "desc": ""
+    "name": "ポメザニア"
   },
   "SMD": {
-    "name": "ザムランド",
-    "desc": ""
+    "name": "ザムランド"
   },
   "BIO": {
-    "name": "オーゼル",
-    "desc": ""
+    "name": "オーゼル"
   },
   "KUR": {
-    "name": "クールラント",
-    "desc": ""
+    "name": "クールラント"
   },
   "BID": {
-    "name": "ドルパット",
-    "desc": ""
+    "name": "ドルパット"
   },
   "RIG": {
-    "name": "リガ",
-    "desc": ""
+    "name": "リガ"
   },
   "ARR": {
-    "name": "ラトビア・リガ",
-    "desc": ""
+    "name": "ラトビア・リガ"
   },
   "KRL": {
-    "name": "カレリア",
-    "desc": ""
+    "name": "カレリア"
   },
   "LIT": {
-    "name": "リトアニア",
-    "desc": ""
+    "name": "リトアニア"
   },
   "SXM": {
-    "name": "ジェマイティヤ",
-    "desc": ""
+    "name": "ジェマイティヤ"
   },
   "SGN": {
-    "name": "ソーナールガーオン",
-    "desc": ""
+    "name": "ソーナールガーオン"
   },
   "GAU": {
-    "name": "ガウル",
-    "desc": ""
+    "name": "ガウル"
   },
   "STN": {
-    "name": "サプタグラム",
-    "desc": ""
+    "name": "サプタグラム"
   },
   "AHO": {
-    "name": "アホム",
-    "desc": ""
+    "name": "アホム"
   },
   "KMA": {
-    "name": "カマタ",
-    "desc": ""
+    "name": "カマタ"
   },
   "DIM": {
-    "name": "ディマサ",
-    "desc": ""
+    "name": "ディマサ"
   },
   "TWI": {
-    "name": "トゥイプラ",
-    "desc": ""
+    "name": "トゥイプラ"
   },
   "CUT": {
-    "name": "チュティヤ",
-    "desc": ""
+    "name": "チュティヤ"
   },
   "JNT": {
-    "name": "ジャインティア",
-    "desc": ""
+    "name": "ジャインティア"
   },
   "TRF": {
-    "name": "タラフ",
-    "desc": ""
+    "name": "タラフ"
   },
   "LUR": {
-    "name": "ラウル",
-    "desc": ""
+    "name": "ラウル"
   },
   "BHP": {
-    "name": "マッラブーム",
-    "desc": ""
+    "name": "マッラブーム"
   },
   "CER": {
-    "name": "チェロ",
-    "desc": ""
+    "name": "チェロ"
   },
   "UJJ": {
-    "name": "ウッジャイニヤ",
-    "desc": ""
+    "name": "ウッジャイニヤ"
   },
   "RKS": {
-    "name": "ラクセル",
-    "desc": ""
+    "name": "ラクセル"
   },
   "ONW": {
-    "name": "オイニワル",
-    "desc": ""
+    "name": "オイニワル"
   },
   "KKR": {
-    "name": "ホクラ",
-    "desc": ""
+    "name": "ホクラ"
   },
   "GWL": {
-    "name": "ガルワール",
-    "desc": ""
+    "name": "ガルワール"
   },
   "KHS": {
-    "name": "カサ",
-    "desc": ""
+    "name": "カサ"
   },
   "KMN": {
-    "name": "クマーウーン",
-    "desc": ""
+    "name": "クマーウーン"
   },
   "KTU": {
-    "name": "カトマンズ",
-    "desc": ""
+    "name": "カトマンズ"
   },
   "DTI": {
-    "name": "ドーティ",
-    "desc": ""
+    "name": "ドーティ"
   },
   "SRM": {
-    "name": "ナハン",
-    "desc": ""
+    "name": "ナハン"
   },
   "JBL": {
-    "name": "ジュッバル",
-    "desc": ""
+    "name": "ジュッバル"
   },
   "LWA": {
-    "name": "リンブワン",
-    "desc": ""
+    "name": "リンブワン"
   },
   "CDD": {
-    "name": "チャウンダンディ",
-    "desc": ""
+    "name": "チャウンダンディ"
   },
   "DGL": {
-    "name": "モルディブ",
-    "desc": ""
+    "name": "モルディブ"
   },
   "KUI": {
-    "name": "クイクロ",
-    "desc": ""
+    "name": "クイクロ"
   },
   "MRJ": {
-    "name": "マラジョアラ",
-    "desc": ""
+    "name": "マラジョアラ"
   },
   "TPA": {
-    "name": "トゥピナンバ",
-    "desc": ""
+    "name": "トゥピナンバ"
   },
   "TPQ": {
-    "name": "トゥピニキム",
-    "desc": ""
+    "name": "トゥピニキム"
   },
   "CRJ": {
-    "name": "カリージョ",
-    "desc": ""
+    "name": "カリージョ"
   },
   "NDV": {
-    "name": "ニャンデーヴァ",
-    "desc": ""
+    "name": "ニャンデーヴァ"
   },
   "KIO": {
-    "name": "カイオワ",
-    "desc": ""
+    "name": "カイオワ"
   },
   "XTA": {
-    "name": "シェタ",
-    "desc": ""
+    "name": "シェタ"
   },
   "AVA": {
-    "name": "アヴァ",
-    "desc": ""
+    "name": "アヴァ"
   },
   "GCZ": {
-    "name": "ゴイタカ",
-    "desc": ""
+    "name": "ゴイタカ"
   },
   "AIM": {
-    "name": "アイモア",
-    "desc": ""
+    "name": "アイモア"
   },
   "KRR": {
-    "name": "キリリ",
-    "desc": ""
+    "name": "キリリ"
   },
   "CAE": {
-    "name": "カエテ",
-    "desc": ""
+    "name": "カエテ"
   },
   "SUC": {
-    "name": "スクル",
-    "desc": ""
+    "name": "スクル"
   },
   "POT": {
-    "name": "ポチグァラ",
-    "desc": ""
+    "name": "ポチグァラ"
   },
   "ENG": {
-    "name": "イングランド",
-    "desc": ""
+    "name": "イングランド"
   },
   "SCO": {
-    "name": "スコットランド",
-    "desc": ""
+    "name": "スコットランド"
   },
   "SBL": {
-    "name": "ベイリャル",
-    "desc": ""
+    "name": "ベイリャル"
   },
   "CLA": {
-    "name": "クランデボイ",
-    "desc": ""
+    "name": "クランデボイ"
   },
   "CLR": {
-    "name": "クランリカード",
-    "desc": ""
+    "name": "クランリカード"
   },
   "CWM": {
-    "name": "クランウィリアム",
-    "desc": ""
+    "name": "クランウィリアム"
   },
   "ULS": {
-    "name": "アルスター",
-    "desc": ""
+    "name": "アルスター"
   },
   "ORD": {
-    "name": "オーモンド",
-    "desc": ""
+    "name": "オーモンド"
   },
   "DMS": {
-    "name": "デズモンド",
-    "desc": ""
+    "name": "デズモンド"
   },
   "KID": {
-    "name": "キルデア",
-    "desc": ""
+    "name": "キルデア"
   },
   "BEA": {
-    "name": "ベアーレ",
-    "desc": ""
+    "name": "ベアーレ"
   },
   "CMA": {
-    "name": "西コノート",
-    "desc": ""
+    "name": "西コノート"
   },
   "UMH": {
-    "name": "オーウィル",
-    "desc": ""
+    "name": "オーウィル"
   },
   "OSS": {
-    "name": "オッソリー",
-    "desc": ""
+    "name": "オッソリー"
   },
   "MCM": {
-    "name": "マンスター",
-    "desc": ""
+    "name": "マンスター"
   },
   "OIL": {
-    "name": "オリール",
-    "desc": ""
+    "name": "オリール"
   },
   "AMA": {
-    "name": "アーマー",
-    "desc": ""
+    "name": "アーマー"
   },
   "DHM": {
-    "name": "ダラム",
-    "desc": ""
+    "name": "ダラム"
   },
   "CET": {
-    "name": "チェスター",
-    "desc": ""
+    "name": "チェスター"
   },
   "LAN": {
-    "name": "ランカスター",
-    "desc": ""
+    "name": "ランカスター"
   },
   "CNN": {
-    "name": "コノート",
-    "desc": ""
+    "name": "コノート"
   },
   "MTH": {
-    "name": "ミーズ",
-    "desc": ""
+    "name": "ミーズ"
   },
   "ANN": {
-    "name": "アナリー",
-    "desc": ""
+    "name": "アナリー"
   },
   "PLE": {
-    "name": "ペイル",
-    "desc": ""
+    "name": "ペイル"
   },
   "WLS": {
-    "name": "ウェールズ",
-    "desc": ""
+    "name": "ウェールズ"
   },
   "TYR": {
-    "name": "ティローン",
-    "desc": ""
+    "name": "ティローン"
   },
   "AMH": {
-    "name": "アードマイア",
-    "desc": ""
+    "name": "アードマイア"
   },
   "INI": {
-    "name": "イニショーエン",
-    "desc": ""
+    "name": "イニショーエン"
   },
   "LEI": {
-    "name": "レンスター",
-    "desc": ""
+    "name": "レンスター"
   },
   "TRY": {
-    "name": "ティアコネル",
-    "desc": ""
+    "name": "ティアコネル"
+  },
+  "KEE": {
+    "name": "キーナート"
   },
   "GLS": {
-    "name": "グレンズ",
-    "desc": ""
+    "name": "グレンズ"
   },
   "IVG": {
-    "name": "アイヴァー",
-    "desc": ""
+    "name": "アイヴァー"
   },
   "HYM": {
-    "name": "イウォーニャ",
-    "desc": ""
+    "name": "イウォーニャ"
   },
   "IMA": {
-    "name": "イマール",
-    "desc": ""
+    "name": "イマール"
   },
   "DCI": {
-    "name": "デシーズ",
-    "desc": ""
+    "name": "デシーズ"
   },
   "TGH": {
-    "name": "ティレラ",
-    "desc": ""
+    "name": "ティレラ"
   },
   "ELY": {
-    "name": "イーリー",
-    "desc": ""
+    "name": "イーリー"
   },
   "FCL": {
-    "name": "フィロアル",
-    "desc": ""
+    "name": "フィロアル"
   },
   "LOI": {
-    "name": "アイルズ",
-    "desc": ""
+    "name": "アイルズ"
   },
   "FMA": {
-    "name": "ファーマナ",
-    "desc": ""
+    "name": "ファーマナ"
   },
   "BFN": {
-    "name": "西ブレフネ",
-    "desc": ""
+    "name": "西ブレフネ"
   },
   "CVN": {
-    "name": "東ブレフネ",
-    "desc": ""
+    "name": "東ブレフネ"
   },
   "MYO": {
-    "name": "メイヨー",
-    "desc": ""
+    "name": "メイヨー"
   },
   "THO": {
-    "name": "ソモンド",
-    "desc": ""
+    "name": "ソモンド"
   },
   "SLN": {
-    "name": "カーバリー",
-    "desc": ""
+    "name": "カーバリー"
   },
   "FLY": {
-    "name": "オファリー",
-    "desc": ""
+    "name": "オファリー"
   },
   "CRN": {
-    "name": "コーンウォール",
-    "desc": ""
+    "name": "コーンウォール"
   },
   "GWR": {
-    "name": "ガウワー",
-    "desc": ""
+    "name": "ガウワー"
   },
   "GMG": {
-    "name": "グラモーガン",
-    "desc": ""
+    "name": "グラモーガン"
   },
   "MAC": {
-    "name": "マーチ",
-    "desc": ""
+    "name": "マーチ"
   },
   "AUD": {
-    "name": "アランデル",
-    "desc": ""
+    "name": "アランデル"
   },
   "BRO": {
-    "name": "ブレックノック",
-    "desc": ""
+    "name": "ブレックノック"
   },
   "POS": {
-    "name": "ポウイス",
-    "desc": ""
+    "name": "ポウイス"
   },
   "EWY": {
-    "name": "エウィアス",
-    "desc": ""
+    "name": "エウィアス"
   },
   "CMS": {
-    "name": "ケマイス",
-    "desc": ""
+    "name": "ケマイス"
   },
   "PMB": {
-    "name": "ペンブローク",
-    "desc": ""
+    "name": "ペンブローク"
   },
   "DEN": {
-    "name": "デンビー",
-    "desc": ""
+    "name": "デンビー"
   },
   "GDD": {
-    "name": "グウィネズ",
-    "desc": ""
+    "name": "グウィネズ"
   },
   "PWS": {
-    "name": "ポウィス",
-    "desc": ""
+    "name": "ポウィス"
   },
   "DHB": {
-    "name": "デヘウバース",
-    "desc": ""
+    "name": "デヘウバース"
   },
   "MWG": {
-    "name": "モルガンウィグ",
-    "desc": ""
+    "name": "モルガンウィグ"
   },
   "BCN": {
-    "name": "ブリヘイニオグ",
-    "desc": ""
+    "name": "ブリヘイニオグ"
   },
   "GWT": {
-    "name": "グウェント",
-    "desc": ""
+    "name": "グウェント"
   },
   "MNN": {
-    "name": "マン",
-    "desc": ""
+    "name": "マン"
   },
   "ORK": {
-    "name": "オークニー",
-    "desc": ""
+    "name": "オークニー"
   },
   "MOY": {
-    "name": "マレー",
-    "desc": ""
+    "name": "マレー"
   },
   "ROS": {
-    "name": "ロス",
-    "desc": ""
+    "name": "ロス"
   },
   "NOL": {
-    "name": "ノーサンバーランド",
-    "desc": ""
+    "name": "ノーサンバーランド"
   },
   "GLY": {
-    "name": "ギャロウェイ",
-    "desc": ""
+    "name": "ギャロウェイ"
   },
   "TRT": {
-    "name": "タオンタエンラット",
-    "desc": ""
+    "name": "タオンタエンラット"
   },
   "AGW": {
-    "name": "アティグナワンタン",
-    "desc": ""
+    "name": "アティグナワンタン"
   },
   "ARN": {
-    "name": "アレンダロノン",
-    "desc": ""
+    "name": "アレンダロノン"
   },
   "ATG": {
-    "name": "アティグニーノンガハック",
-    "desc": ""
+    "name": "アティグニーノンガハック"
   },
   "ATC": {
-    "name": "アタロンクロノン",
-    "desc": ""
+    "name": "アタロンクロノン"
   },
   "ADR": {
-    "name": "アオンディロノン",
-    "desc": ""
+    "name": "アオンディロノン"
   },
   "ONG": {
-    "name": "オンニアーラ",
-    "desc": ""
+    "name": "オンニアーラ"
   },
   "TIO": {
-    "name": "タイオノンタッティ",
-    "desc": ""
+    "name": "タイオノンタッティ"
   },
   "OSG": {
-    "name": "オシアガ",
-    "desc": ""
+    "name": "オシアガ"
   },
   "MAS": {
-    "name": "メイソウナ",
-    "desc": ""
+    "name": "メイソウナ"
   },
   "STD": {
-    "name": "スタダコナ",
-    "desc": ""
+    "name": "スタダコナ"
   },
   "AGJ": {
-    "name": "アゴジュダ",
-    "desc": ""
+    "name": "アゴジュダ"
   },
   "SOK": {
-    "name": "マジプスコイアック",
-    "desc": ""
+    "name": "マジプスコイアック"
   },
   "PNS": {
-    "name": "アロサグンタクック",
-    "desc": ""
+    "name": "アロサグンタクック"
   },
   "MLS": {
-    "name": "ウォラストクウェウィイク",
-    "desc": ""
+    "name": "ウォラストクウェウィイク"
   },
   "AKW": {
-    "name": "アティカメク",
-    "desc": ""
+    "name": "アティカメク"
   },
   "TMG": {
-    "name": "テミカミング",
-    "desc": ""
+    "name": "テミカミング"
   },
   "ABT": {
-    "name": "アビティビ",
-    "desc": ""
+    "name": "アビティビ"
   },
   "OJI": {
-    "name": "オジブワ",
-    "desc": ""
+    "name": "オジブワ"
   },
   "ODW": {
-    "name": "オダワ",
-    "desc": ""
+    "name": "オダワ"
   },
   "NPS": {
-    "name": "ニーピシング",
-    "desc": ""
+    "name": "ニーピシング"
   },
   "MSG": {
-    "name": "ミシサージ",
-    "desc": ""
+    "name": "ミシサージ"
   },
   "HUN": {
-    "name": "ハンガリー",
-    "desc": ""
+    "name": "ハンガリー"
   },
   "WAL": {
-    "name": "ワラキア",
-    "desc": ""
+    "name": "ワラキア"
   },
   "BIA": {
-    "name": "バイア",
-    "desc": ""
+    "name": "バイア"
   },
   "BLD": {
-    "name": "バルラド",
-    "desc": ""
+    "name": "バルラド"
   },
   "HTN": {
-    "name": "ホティン",
-    "desc": ""
+    "name": "ホティン"
   },
   "HSC": {
-    "name": "ハンスカ",
-    "desc": ""
+    "name": "ハンスカ"
   },
   "IAS": {
-    "name": "イアシ",
-    "desc": ""
+    "name": "イアシ"
   },
   "SRC": {
-    "name": "ソロカ",
-    "desc": ""
+    "name": "ソロカ"
   },
   "SSI": {
-    "name": "ストラシャインツ",
-    "desc": ""
+    "name": "ストラシャインツ"
   },
   "TRA": {
-    "name": "トランシルヴァニア",
-    "desc": ""
+    "name": "トランシルヴァニア"
   },
   "GEO": {
-    "name": "グルジア",
-    "desc": ""
+    "name": "グルジア"
   },
   "AAI": {
-    "name": "アラスタニ",
-    "desc": ""
+    "name": "アラスタニ"
   },
   "IME": {
-    "name": "イメレティ",
-    "desc": ""
+    "name": "イメレティ"
   },
   "SME": {
-    "name": "サムツヘ",
-    "desc": ""
+    "name": "サムツヘ"
   },
   "SRV": {
-    "name": "シルヴァーン",
-    "desc": ""
+    "name": "シルヴァーン"
   },
   "AVR": {
-    "name": "アヴァリア",
-    "desc": ""
+    "name": "アヴァリア"
   },
   "TRK": {
-    "name": "タルキ",
-    "desc": ""
+    "name": "タルキ"
   },
   "ARM": {
-    "name": "アルメニア",
-    "desc": ""
+    "name": "アルメニア"
   },
   "AMB": {
-    "name": "アンベルド",
-    "desc": ""
+    "name": "アンベルド"
   },
   "VDZ": {
-    "name": "ヴァヨツ・ヅォル",
-    "desc": ""
+    "name": "ヴァヨツ・ヅォル"
   },
   "CIR": {
-    "name": "チェルケシア",
-    "desc": ""
+    "name": "チェルケシア"
   },
   "CPA": {
-    "name": "コパ",
-    "desc": ""
+    "name": "コパ"
   },
   "HTY": {
-    "name": "ハトゥカイ",
-    "desc": ""
+    "name": "ハトゥカイ"
   },
   "HYT": {
-    "name": "ヒュトゥク",
-    "desc": ""
+    "name": "ヒュトゥク"
   },
   "KDA": {
-    "name": "カバルダ",
-    "desc": ""
+    "name": "カバルダ"
   },
   "KIP": {
-    "name": "キピケ",
-    "desc": ""
+    "name": "キピケ"
   },
   "TEM": {
-    "name": "テミルゴイ",
-    "desc": ""
+    "name": "テミルゴイ"
   },
   "SKI": {
-    "name": "シャキ",
-    "desc": ""
+    "name": "シャキ"
   },
   "KCN": {
-    "name": "ハチェン",
-    "desc": ""
+    "name": "ハチェン"
   },
   "SYU": {
-    "name": "スユニク",
-    "desc": ""
+    "name": "スユニク"
   },
   "ALN": {
-    "name": "アラニア",
-    "desc": ""
+    "name": "アラニア"
   },
   "DZK": {
-    "name": "ドゥルズケティア",
-    "desc": ""
+    "name": "ドゥルズケティア"
   },
   "SMS": {
-    "name": "シムシル",
-    "desc": ""
+    "name": "シムシル"
   },
   "KAI": {
-    "name": "カイタグ",
-    "desc": ""
+    "name": "カイタグ"
   },
   "LEK": {
-    "name": "レキア",
-    "desc": ""
+    "name": "レキア"
   },
   "RUT": {
-    "name": "ルトゥル",
-    "desc": ""
+    "name": "ルトゥル"
   },
   "TBA": {
-    "name": "タバサラン",
-    "desc": ""
+    "name": "タバサラン"
   },
   "HAA": {
-    "name": "ハニーニン",
-    "desc": ""
+    "name": "ハニーニン"
   },
   "ASH": {
-    "name": "アシャラホ",
-    "desc": ""
+    "name": "アシャラホ"
   },
   "ASP": {
-    "name": "アッシュッペ",
-    "desc": ""
+    "name": "アッシュッペ"
   },
   "KTK": {
-    "name": "キティキティシュ",
-    "desc": ""
+    "name": "キティキティシュ"
   },
   "TVY": {
-    "name": "タオバヤ",
-    "desc": ""
+    "name": "タオバヤ"
   },
   "PTW": {
-    "name": "ピタワリタ",
-    "desc": ""
+    "name": "ピタワリタ"
   },
   "KIA": {
-    "name": "キットケーキ",
-    "desc": ""
+    "name": "キットケーキ"
   },
   "SII": {
-    "name": "スキリ",
-    "desc": ""
+    "name": "スキリ"
   },
   "TSW": {
-    "name": "ツァウィ",
-    "desc": ""
+    "name": "ツァウィ"
   },
   "SHH": {
-    "name": "サニッシュ",
-    "desc": ""
+    "name": "サニッシュ"
   },
   "NUE": {
-    "name": "ヌマカキ",
-    "desc": ""
+    "name": "ヌマカキ"
   },
   "HIR": {
-    "name": "ヒダーツァ",
-    "desc": ""
+    "name": "ヒダーツァ"
   },
   "PCH": {
-    "name": "パカハ",
-    "desc": ""
+    "name": "パカハ"
   },
   "CSQ": {
-    "name": "キャスキ",
-    "desc": ""
+    "name": "キャスキ"
   },
   "ANL": {
-    "name": "アニルコ",
-    "desc": ""
+    "name": "アニルコ"
   },
   "COL": {
-    "name": "コリグア",
-    "desc": ""
+    "name": "コリグア"
   },
   "CYS": {
-    "name": "タニコ",
-    "desc": ""
+    "name": "タニコ"
   },
   "CTI": {
-    "name": "チティマシャ",
-    "desc": ""
+    "name": "チティマシャ"
   },
   "BYG": {
-    "name": "バヤゴウラ",
-    "desc": ""
+    "name": "バヤゴウラ"
   },
   "NST": {
-    "name": "ナシトゥシュ",
-    "desc": ""
+    "name": "ナシトゥシュ"
   },
   "AVY": {
-    "name": "アヴォイル",
-    "desc": ""
+    "name": "アヴォイル"
   },
   "KDW": {
-    "name": "カダウダーチュ",
-    "desc": ""
+    "name": "カダウダーチュ"
   },
   "TUA": {
-    "name": "トゥラ",
-    "desc": ""
+    "name": "トゥラ"
   },
   "ISH": {
-    "name": "イシャク",
-    "desc": ""
+    "name": "イシャク"
   },
   "QMG": {
-    "name": "クァスミグド",
-    "desc": ""
+    "name": "クァスミグド"
   },
   "TWK": {
-    "name": "タワコニ",
-    "desc": ""
+    "name": "タワコニ"
   },
   "HNO": {
-    "name": "ヒノノエイノ",
-    "desc": ""
+    "name": "ヒノノエイノ"
   },
   "NWN": {
-    "name": "ナンウイネナン",
-    "desc": ""
+    "name": "ナンウイネナン"
   },
   "NDA": {
-    "name": "ナコダ",
-    "desc": ""
+    "name": "ナコダ"
   },
   "LKT": {
-    "name": "ラコタ",
-    "desc": ""
+    "name": "ラコタ"
   },
   "IKW": {
-    "name": "ヤンクトナイ",
-    "desc": ""
+    "name": "ヤンクトナイ"
   },
   "IUW": {
-    "name": "イサクトゥンワン",
-    "desc": ""
+    "name": "イサクトゥンワン"
   },
   "NCH": {
-    "name": "ニウアチ",
-    "desc": ""
+    "name": "ニウアチ"
   },
   "NKW": {
-    "name": "ナカウェ",
-    "desc": ""
+    "name": "ナカウェ"
   },
   "TTS": {
-    "name": "ツェツェヘサヘセ",
-    "desc": ""
+    "name": "ツェツェヘサヘセ"
   },
   "SOO": {
-    "name": "ソタエオオ",
-    "desc": ""
+    "name": "ソタエオオ"
   },
   "BKT": {
-    "name": "ブデウェカントゥンワン",
-    "desc": ""
+    "name": "ブデウェカントゥンワン"
   },
   "STW": {
-    "name": "シシトゥンワン",
-    "desc": ""
+    "name": "シシトゥンワン"
   },
   "WKH": {
-    "name": "ワペクテ",
-    "desc": ""
+    "name": "ワペクテ"
   },
   "WPW": {
-    "name": "ワペトゥンワン",
-    "desc": ""
+    "name": "ワペトゥンワン"
   },
   "MIK": {
-    "name": "ミクマク",
-    "desc": ""
+    "name": "ミクマク"
   },
   "PEN": {
-    "name": "ペノブスコット",
-    "desc": ""
+    "name": "ペノブスコット"
   },
   "PQD": {
-    "name": "パッサマクォディ",
-    "desc": ""
+    "name": "パッサマクォディ"
   },
   "WSK": {
-    "name": "ウェスカリニ",
-    "desc": ""
+    "name": "ウェスカリニ"
   },
   "KSP": {
-    "name": "キチェシピリニ",
-    "desc": ""
+    "name": "キチェシピリニ"
   },
   "KUS": {
-    "name": "クスカタン",
-    "desc": ""
+    "name": "クスカタン"
   },
   "QUA": {
-    "name": "クアウテマラン",
-    "desc": ""
+    "name": "クアウテマラン"
   },
   "LNC": {
-    "name": "レンカ",
-    "desc": ""
+    "name": "レンカ"
   },
   "XIN": {
-    "name": "シンカ",
-    "desc": ""
+    "name": "シンカ"
   },
   "GAR": {
-    "name": "ガラビト",
-    "desc": ""
+    "name": "ガラビト"
   },
   "GUO": {
-    "name": "グアルコ",
-    "desc": ""
+    "name": "グアルコ"
   },
   "PAC": {
-    "name": "パカカ",
-    "desc": ""
+    "name": "パカカ"
   },
   "NEK": {
-    "name": "ネコク・ヤオトル",
-    "desc": ""
+    "name": "ネコク・ヤオトル"
   },
   "CTO": {
-    "name": "コト",
-    "desc": ""
+    "name": "コト"
   },
   "TRC": {
-    "name": "タリアカ",
-    "desc": ""
+    "name": "タリアカ"
   },
   "CBC": {
-    "name": "カベカル",
-    "desc": ""
+    "name": "カベカル"
   },
   "MOX": {
-    "name": "モックソ",
-    "desc": ""
+    "name": "モックソ"
   },
   "MPC": {
-    "name": "マプチェ",
-    "desc": ""
+    "name": "マプチェ"
   },
   "CUA": {
-    "name": "チャルーア",
-    "desc": ""
+    "name": "チャルーア"
   },
   "TAI": {
-    "name": "タイロナ",
-    "desc": ""
+    "name": "タイロナ"
   },
   "ZIP": {
-    "name": "ムイクイタ",
-    "desc": ""
+    "name": "ムイクイタ"
   },
   "ZAQ": {
-    "name": "チュンスア",
-    "desc": ""
+    "name": "チュンスア"
   },
   "ZEN": {
-    "name": "ゼヌー",
-    "desc": ""
+    "name": "ゼヌー"
   },
   "QBY": {
-    "name": "キンバヤ",
-    "desc": ""
+    "name": "キンバヤ"
   },
   "GYP": {
-    "name": "グアユペ",
-    "desc": ""
+    "name": "グアユペ"
   },
   "CMG": {
-    "name": "クマナゴト",
-    "desc": ""
+    "name": "クマナゴト"
   },
   "PMN": {
-    "name": "ペモン",
-    "desc": ""
+    "name": "ペモン"
   },
   "CUC": {
-    "name": "クイカ",
-    "desc": ""
+    "name": "クイカ"
   },
   "TTY": {
-    "name": "タトゥイ",
-    "desc": ""
+    "name": "タトゥイ"
   },
   "THM": {
-    "name": "タハミ",
-    "desc": ""
+    "name": "タハミ"
   },
   "NUT": {
-    "name": "ヌタベス",
-    "desc": ""
+    "name": "ヌタベス"
   },
   "PIJ": {
-    "name": "ピハオ",
-    "desc": ""
+    "name": "ピハオ"
   },
   "COY": {
-    "name": "コヤイマ",
-    "desc": ""
+    "name": "コヤイマ"
   },
   "TAM": {
-    "name": "タマ",
-    "desc": ""
+    "name": "タマ"
   },
   "CIM": {
-    "name": "ハリーマ",
-    "desc": ""
+    "name": "ハリーマ"
   },
   "PUB": {
-    "name": "プベン",
-    "desc": ""
+    "name": "プベン"
   },
   "CML": {
-    "name": "チミラ",
-    "desc": ""
+    "name": "チミラ"
   },
   "TNO": {
-    "name": "マグア",
-    "desc": ""
+    "name": "マグア"
   },
   "MAE": {
-    "name": "マリエン",
-    "desc": ""
+    "name": "マリエン"
   },
   "MGU": {
-    "name": "マグアナ",
-    "desc": ""
+    "name": "マグアナ"
   },
   "JRG": {
-    "name": "ハラグア",
-    "desc": ""
+    "name": "ハラグア"
   },
   "HGY": {
-    "name": "イグエイ",
-    "desc": ""
+    "name": "イグエイ"
   },
   "GAY": {
-    "name": "グアイニア",
-    "desc": ""
+    "name": "グアイニア"
   },
   "BRK": {
-    "name": "ボリケン",
-    "desc": ""
+    "name": "ボリケン"
   },
   "CBO": {
-    "name": "シボネイ",
-    "desc": ""
+    "name": "シボネイ"
   },
   "LCY": {
-    "name": "ルカヤン",
-    "desc": ""
+    "name": "ルカヤン"
   },
   "MCX": {
-    "name": "マコリス",
-    "desc": ""
+    "name": "マコリス"
   },
   "CGY": {
-    "name": "シグアヨ",
-    "desc": ""
+    "name": "シグアヨ"
   },
   "IGR": {
-    "name": "イグネリ",
-    "desc": ""
+    "name": "イグネリ"
   },
   "KGN": {
-    "name": "カリナゴ",
-    "desc": ""
+    "name": "カリナゴ"
   },
   "AAL": {
-    "name": "アル・アリー",
-    "desc": ""
+    "name": "アル・アリー"
   },
   "AMR": {
-    "name": "アル・ミラ",
-    "desc": ""
+    "name": "アル・ミラ"
   },
   "DGE": {
-    "name": "ドーガー",
-    "desc": ""
+    "name": "ドーガー"
   },
   "FDL": {
-    "name": "アール・ファドル",
-    "desc": ""
+    "name": "アール・ファドル"
   },
   "JAL": {
-    "name": "ジャライール",
-    "desc": ""
+    "name": "ジャライール"
   },
   "HLL": {
-    "name": "ヒッラ",
-    "desc": ""
+    "name": "ヒッラ"
   },
   "KOJ": {
-    "name": "エルサレム",
-    "desc": ""
+    "name": "エルサレム"
   },
   "ARD": {
-    "name": "アルダラン",
-    "desc": ""
+    "name": "アルダラン"
   },
   "ATZ": {
-    "name": "アルタス",
-    "desc": ""
+    "name": "アルタス"
   },
   "DML": {
-    "name": "ドンボリ",
-    "desc": ""
+    "name": "ドンボリ"
   },
   "HBN": {
-    "name": "ハスバニ",
-    "desc": ""
+    "name": "ハスバニ"
   },
   "HDR": {
-    "name": "ハドフール",
-    "desc": ""
+    "name": "ハドフール"
   },
   "HNY": {
-    "name": "ハスヌヤ",
-    "desc": ""
+    "name": "ハスヌヤ"
   },
   "IHB": {
-    "name": "イスパバード",
-    "desc": ""
+    "name": "イスパバード"
   },
   "KLR": {
-    "name": "カルホル",
-    "desc": ""
+    "name": "カルホル"
   },
   "KTW": {
-    "name": "カルタウィ",
-    "desc": ""
+    "name": "カルタウィ"
   },
   "KEL": {
-    "name": "ケラリ",
-    "desc": ""
+    "name": "ケラリ"
   },
   "KKL": {
-    "name": "カルカル",
-    "desc": ""
+    "name": "カルカル"
   },
   "KRI": {
-    "name": "クラニ",
-    "desc": ""
+    "name": "クラニ"
   },
   "MKW": {
-    "name": "メルケワン",
-    "desc": ""
+    "name": "メルケワン"
   },
   "RKL": {
-    "name": "ランカリ",
-    "desc": ""
+    "name": "ランカリ"
   },
   "SLI": {
-    "name": "サブリ",
-    "desc": ""
+    "name": "サブリ"
   },
   "SYY": {
-    "name": "サキーヤ",
-    "desc": ""
+    "name": "サキーヤ"
   },
   "ZBR": {
-    "name": "ゼバリ",
-    "desc": ""
+    "name": "ゼバリ"
   },
   "AQQ": {
-    "name": "白羊朝",
-    "desc": ""
+    "name": "白羊朝"
   },
   "QAR": {
-    "name": "黒羊朝",
-    "desc": ""
+    "name": "黒羊朝"
   },
   "ZAN": {
-    "name": "キルワ",
-    "desc": ""
+    "name": "キルワ"
   },
   "PTE": {
-    "name": "パテ",
-    "desc": ""
+    "name": "パテ"
   },
   "MLI": {
-    "name": "マリンディ",
-    "desc": ""
+    "name": "マリンディ"
   },
   "INH": {
-    "name": "インハンバネ",
-    "desc": ""
+    "name": "インハンバネ"
   },
   "SFA": {
-    "name": "ソファラ",
-    "desc": ""
+    "name": "ソファラ"
   },
   "MBA": {
-    "name": "モンバサ",
-    "desc": ""
+    "name": "モンバサ"
   },
   "GED": {
-    "name": "ゲディ",
-    "desc": ""
+    "name": "ゲディ"
   },
   "UGW": {
-    "name": "ウングワナ",
-    "desc": ""
+    "name": "ウングワナ"
   },
   "LAM": {
-    "name": "ラム",
-    "desc": ""
+    "name": "ラム"
   },
   "VOH": {
-    "name": "ヴォヘマール",
-    "desc": ""
+    "name": "ヴォヘマール"
   },
   "NYM": {
-    "name": "ブエニ",
-    "desc": ""
+    "name": "ブエニ"
   },
   "VIL": {
-    "name": "ヴィリ",
-    "desc": ""
+    "name": "ヴィリ"
   },
   "TKE": {
-    "name": "バテケ",
-    "desc": ""
+    "name": "バテケ"
   },
   "ABD": {
-    "name": "アンブンドゥ",
-    "desc": ""
+    "name": "アンブンドゥ"
   },
   "CBD": {
-    "name": "カビンダ",
-    "desc": ""
+    "name": "カビンダ"
   },
   "YAK": {
-    "name": "ヤカ",
-    "desc": ""
+    "name": "ヤカ"
   },
   "CEW": {
-    "name": "チェワ",
-    "desc": ""
+    "name": "チェワ"
   },
   "PEM": {
-    "name": "ペンバ",
-    "desc": ""
+    "name": "ペンバ"
   },
   "ZZB": {
-    "name": "ザンジバル",
-    "desc": ""
+    "name": "ザンジバル"
   },
   "BMB": {
-    "name": "バンバオ",
-    "desc": ""
+    "name": "バンバオ"
   },
   "MOZ": {
-    "name": "モザンビーク",
-    "desc": ""
+    "name": "モザンビーク"
   },
   "AGH": {
-    "name": "アンゴシェ",
-    "desc": ""
+    "name": "アンゴシェ"
   },
   "QLM": {
-    "name": "ケリマネ",
-    "desc": ""
+    "name": "ケリマネ"
   },
   "ZMW": {
-    "name": "ジンバブエ",
-    "desc": ""
+    "name": "ジンバブエ"
   },
   "TNA": {
-    "name": "トンガ",
-    "desc": ""
+    "name": "トンガ"
   },
   "SEN": {
-    "name": "セナ",
-    "desc": ""
+    "name": "セナ"
   },
   "TSG": {
-    "name": "ツォンガ",
-    "desc": ""
+    "name": "ツォンガ"
   },
   "MNY": {
-    "name": "ンダウ",
-    "desc": ""
+    "name": "ンダウ"
   },
   "ZEZ": {
-    "name": "ゼズル",
-    "desc": ""
+    "name": "ゼズル"
   },
   "NBY": {
-    "name": "ナンビャ",
-    "desc": ""
+    "name": "ナンビャ"
   },
   "TBK": {
-    "name": "トゥンブカ",
-    "desc": ""
+    "name": "トゥンブカ"
   },
   "MRA": {
-    "name": "マラヴィ",
-    "desc": ""
+    "name": "マラヴィ"
   },
   "LDU": {
-    "name": "ルンドゥ",
-    "desc": ""
+    "name": "ルンドゥ"
   },
   "MKU": {
-    "name": "マクア",
-    "desc": ""
+    "name": "マクア"
   },
   "VAZ": {
-    "name": "バジンバ",
-    "desc": ""
+    "name": "バジンバ"
   },
   "MIR": {
-    "name": "イメリナ",
-    "desc": ""
+    "name": "イメリナ"
   },
   "NTL": {
-    "name": "マジュンガ",
-    "desc": ""
+    "name": "マジュンガ"
   },
   "MTO": {
-    "name": "メインティラーノ",
-    "desc": ""
+    "name": "メインティラーノ"
   },
   "AHY": {
-    "name": "アンツヒヒ",
-    "desc": ""
+    "name": "アンツヒヒ"
   },
   "MHL": {
-    "name": "マヒラカ",
-    "desc": ""
+    "name": "マヒラカ"
   },
   "IRD": {
-    "name": "イロド",
-    "desc": ""
+    "name": "イロド"
   },
   "BMK": {
-    "name": "ベマネヴィカ",
-    "desc": ""
+    "name": "ベマネヴィカ"
   },
   "ZFI": {
-    "name": "ヴォヒペノ",
-    "desc": ""
+    "name": "ヴォヒペノ"
   },
   "ABV": {
-    "name": "アンボヴォンタニ",
-    "desc": ""
+    "name": "アンボヴォンタニ"
   },
   "MBD": {
-    "name": "マナボンドロ",
-    "desc": ""
+    "name": "マナボンドロ"
   },
   "BTS": {
-    "name": "ベツミサラカ",
-    "desc": ""
+    "name": "ベツミサラカ"
   },
   "VEZ": {
-    "name": "ヴェゾ",
-    "desc": ""
+    "name": "ヴェゾ"
   },
   "SKA": {
-    "name": "サカラバ",
-    "desc": ""
+    "name": "サカラバ"
   },
   "MNB": {
-    "name": "メナベ",
-    "desc": ""
+    "name": "メナベ"
   },
   "BOI": {
-    "name": "ボイナ",
-    "desc": ""
+    "name": "ボイナ"
   },
   "ANK": {
-    "name": "アンタンカラナ",
-    "desc": ""
+    "name": "アンタンカラナ"
   },
   "BEZ": {
-    "name": "ベサノサノ",
-    "desc": ""
+    "name": "ベサノサノ"
   },
   "SIH": {
-    "name": "シハナカ",
-    "desc": ""
+    "name": "シハナカ"
   },
   "TND": {
-    "name": "タンドロイ",
-    "desc": ""
+    "name": "タンドロイ"
   },
   "ATK": {
-    "name": "アンテサカ",
-    "desc": ""
+    "name": "アンテサカ"
   },
   "BAA": {
-    "name": "バラ",
-    "desc": ""
+    "name": "バラ"
   },
   "ATM": {
-    "name": "アンテモーロ",
-    "desc": ""
+    "name": "アンテモーロ"
   },
   "ATF": {
-    "name": "アンタイファシー",
-    "desc": ""
+    "name": "アンタイファシー"
   },
   "ATB": {
-    "name": "アンタンバホアカ",
-    "desc": ""
+    "name": "アンタンバホアカ"
   },
   "TAL": {
-    "name": "タナラ",
-    "desc": ""
+    "name": "タナラ"
   },
   "BET": {
-    "name": "ベチレオ",
-    "desc": ""
+    "name": "ベチレオ"
   },
   "KIT": {
-    "name": "キタラ",
-    "desc": ""
+    "name": "キタラ"
   },
   "WNA": {
-    "name": "ワンガ",
-    "desc": ""
+    "name": "ワンガ"
   },
   "BNY": {
-    "name": "ブニョロ",
-    "desc": ""
+    "name": "ブニョロ"
   },
   "BUG": {
-    "name": "ブガンダ",
-    "desc": ""
+    "name": "ブガンダ"
   },
   "BSG": {
-    "name": "ブソガ",
-    "desc": ""
+    "name": "ブソガ"
   },
   "NKO": {
-    "name": "ンコレ",
-    "desc": ""
+    "name": "ンコレ"
   },
   "RWA": {
-    "name": "ルワンダ",
-    "desc": ""
+    "name": "ルワンダ"
   },
   "KRW": {
-    "name": "カラグウェ",
-    "desc": ""
+    "name": "カラグウェ"
   },
   "UBH": {
-    "name": "ブハ",
-    "desc": ""
+    "name": "ブハ"
   },
   "BUU": {
-    "name": "ブルンジ",
-    "desc": ""
+    "name": "ブルンジ"
   },
   "MAA": {
-    "name": "マサイ",
-    "desc": ""
+    "name": "マサイ"
   },
   "KOR": {
-    "name": "高麗",
-    "desc": ""
+    "name": "高麗"
   },
   "SSG": {
-    "name": "双城",
-    "desc": ""
+    "name": "双城"
+  },
+  "SYG": {
+    "name": "瀋陽"
   },
   "TMN": {
-    "name": "耽羅",
-    "desc": ""
+    "name": "耽羅"
   },
   "JAP": {
-    "name": "日本",
-    "desc": ""
+    "name": "日本"
   },
   "NTC": {
-    "name": "持明院",
-    "desc": ""
+    "name": "持明院"
   },
   "STC": {
-    "name": "大覚寺",
-    "desc": ""
+    "name": "大覚寺"
   },
   "YMT": {
-    "name": "大和",
-    "desc": ""
+    "name": "大和"
   },
   "KOU": {
-    "name": "高",
-    "desc": ""
+    "name": "高"
   },
   "HSK": {
-    "name": "細川",
-    "desc": ""
+    "name": "細川"
   },
   "AKM": {
-    "name": "赤松",
-    "desc": ""
+    "name": "赤松"
   },
   "NKI": {
-    "name": "仁木",
-    "desc": ""
+    "name": "仁木"
   },
   "KTB": {
-    "name": "北畠",
-    "desc": ""
+    "name": "北畠"
   },
   "CJO": {
-    "name": "中条",
-    "desc": ""
+    "name": "中条"
   },
   "IMG": {
-    "name": "今川",
-    "desc": ""
+    "name": "今川"
   },
   "ISD": {
-    "name": "石塔",
-    "desc": ""
+    "name": "石塔"
   },
   "TKD": {
-    "name": "武田",
-    "desc": ""
+    "name": "武田"
   },
   "SBA": {
-    "name": "斯波",
-    "desc": ""
+    "name": "斯波"
   },
   "CBA": {
-    "name": "千葉",
-    "desc": ""
+    "name": "千葉"
   },
   "STK": {
-    "name": "佐竹",
-    "desc": ""
+    "name": "佐竹"
   },
   "KGK": {
-    "name": "京極",
-    "desc": ""
+    "name": "京極"
   },
   "TKI": {
-    "name": "土岐",
-    "desc": ""
+    "name": "土岐"
   },
   "OGS": {
-    "name": "小笠原",
-    "desc": ""
+    "name": "小笠原"
   },
   "UES": {
-    "name": "上杉",
-    "desc": ""
+    "name": "上杉"
   },
   "OYM": {
-    "name": "小山",
-    "desc": ""
+    "name": "小山"
   },
   "TGS": {
-    "name": "富樫",
-    "desc": ""
+    "name": "富樫"
   },
   "YSM": {
-    "name": "吉見",
-    "desc": ""
+    "name": "吉見"
   },
   "MMI": {
-    "name": "桃井",
-    "desc": ""
+    "name": "桃井"
   },
   "KRA": {
-    "name": "吉良",
-    "desc": ""
+    "name": "吉良"
   },
   "YMN": {
-    "name": "山名",
-    "desc": ""
+    "name": "山名"
   },
   "ENY": {
-    "name": "塩冶",
-    "desc": ""
+    "name": "塩冶"
   },
   "UEN": {
-    "name": "上野",
-    "desc": ""
+    "name": "上野"
   },
   "MTD": {
-    "name": "松田",
-    "desc": ""
+    "name": "松田"
   },
   "MNM": {
-    "name": "南",
-    "desc": ""
+    "name": "南"
   },
   "ASY": {
-    "name": "朝山",
-    "desc": ""
+    "name": "朝山"
   },
   "WSZ": {
-    "name": "鷲津",
-    "desc": ""
+    "name": "鷲津"
   },
   "KTO": {
-    "name": "厚東",
-    "desc": ""
+    "name": "厚東"
   },
   "HTK": {
-    "name": "畠山",
-    "desc": ""
+    "name": "畠山"
   },
   "KNO": {
-    "name": "河野",
-    "desc": ""
+    "name": "河野"
   },
   "SHN": {
-    "name": "少弐",
-    "desc": ""
+    "name": "少弐"
   },
   "KII": {
-    "name": "城井",
-    "desc": ""
+    "name": "城井"
   },
   "OTM": {
-    "name": "大友",
-    "desc": ""
+    "name": "大友"
   },
   "SMZ": {
-    "name": "島津",
-    "desc": ""
+    "name": "島津"
   },
   "NBU": {
-    "name": "南部",
-    "desc": ""
+    "name": "南部"
   },
   "KDO": {
-    "name": "工藤",
-    "desc": ""
+    "name": "工藤"
   },
   "OKI": {
-    "name": "大崎",
-    "desc": ""
+    "name": "大崎"
   },
   "MGM": {
-    "name": "最上",
-    "desc": ""
+    "name": "最上"
   },
   "KSI": {
-    "name": "葛西",
-    "desc": ""
+    "name": "葛西"
   },
   "SOM": {
-    "name": "相馬",
-    "desc": ""
+    "name": "相馬"
   },
   "DTE": {
-    "name": "伊達",
-    "desc": ""
+    "name": "伊達"
   },
   "ASN": {
-    "name": "蘆名",
-    "desc": ""
+    "name": "蘆名"
   },
   "YUK": {
-    "name": "結城",
-    "desc": ""
+    "name": "結城"
   },
   "OID": {
-    "name": "大井田",
-    "desc": ""
+    "name": "大井田"
   },
   "OGU": {
-    "name": "小国",
-    "desc": ""
+    "name": "小国"
   },
   "UTN": {
-    "name": "宇都宮",
-    "desc": ""
+    "name": "宇都宮"
   },
   "IIX": {
-    "name": "井伊",
-    "desc": ""
+    "name": "井伊"
   },
   "AKJ": {
-    "name": "姉小路",
-    "desc": ""
+    "name": "姉小路"
   },
   "KSN": {
-    "name": "楠木",
-    "desc": ""
+    "name": "楠木"
   },
   "ISK": {
-    "name": "一色",
-    "desc": ""
+    "name": "一色"
   },
   "NAW": {
-    "name": "名和",
-    "desc": ""
+    "name": "名和"
   },
   "MSD": {
-    "name": "益田",
-    "desc": ""
+    "name": "益田"
   },
   "OUC": {
-    "name": "大内",
-    "desc": ""
+    "name": "大内"
   },
   "TKN": {
-    "name": "得能",
-    "desc": ""
+    "name": "得能"
   },
   "DOI": {
-    "name": "土居",
-    "desc": ""
+    "name": "土居"
   },
   "KNT": {
-    "name": "忽那",
-    "desc": ""
+    "name": "忽那"
   },
   "SHJ": {
-    "name": "四条",
-    "desc": ""
+    "name": "四条"
   },
   "YSR": {
-    "name": "山代",
-    "desc": ""
+    "name": "山代"
   },
   "KKC": {
-    "name": "菊池",
-    "desc": ""
+    "name": "菊池"
   },
   "ASO": {
-    "name": "阿蘇",
-    "desc": ""
+    "name": "阿蘇"
   },
   "SGR": {
-    "name": "相良",
-    "desc": ""
+    "name": "相良"
   },
   "IJU": {
-    "name": "伊集院",
-    "desc": ""
+    "name": "伊集院"
   },
   "KMT": {
-    "name": "肝付",
-    "desc": ""
+    "name": "肝付"
   },
   "SOU": {
-    "name": "宗",
-    "desc": ""
+    "name": "宗"
   },
   "NAI": {
-    "name": "長井",
-    "desc": ""
+    "name": "長井"
   },
   "HEI": {
-    "name": "閉伊",
-    "desc": ""
+    "name": "閉伊"
   },
   "ANM": {
-    "name": "阿曽沼",
-    "desc": ""
+    "name": "阿曽沼"
   },
   "TZW": {
-    "name": "戸沢",
-    "desc": ""
+    "name": "戸沢"
   },
   "WAG": {
-    "name": "和賀",
-    "desc": ""
+    "name": "和賀"
   },
   "HIE": {
-    "name": "稗貫",
-    "desc": ""
+    "name": "稗貫"
   },
   "SGE": {
-    "name": "寒河江",
-    "desc": ""
+    "name": "寒河江"
   },
   "DHJ": {
-    "name": "大宝寺",
-    "desc": ""
+    "name": "大宝寺"
   },
   "NGM": {
-    "name": "長沼",
-    "desc": ""
+    "name": "長沼"
   },
   "NKD": {
-    "name": "二階堂",
-    "desc": ""
+    "name": "二階堂"
   },
   "TMR": {
-    "name": "田村",
-    "desc": ""
+    "name": "田村"
   },
   "IWS": {
-    "name": "猪苗代",
-    "desc": ""
+    "name": "猪苗代"
   },
   "ISW": {
-    "name": "石川",
-    "desc": ""
+    "name": "石川"
   },
   "MIU": {
-    "name": "三浦",
-    "desc": ""
+    "name": "三浦"
   },
   "SUW": {
-    "name": "諏訪",
-    "desc": ""
+    "name": "諏訪"
   },
   "RKK": {
-    "name": "六角",
-    "desc": ""
+    "name": "六角"
   },
   "MIY": {
-    "name": "宮",
-    "desc": ""
+    "name": "宮"
   },
   "KKW": {
-    "name": "吉川",
-    "desc": ""
+    "name": "吉川"
   },
   "MKT": {
-    "name": "宗像",
-    "desc": ""
+    "name": "宗像"
   },
   "ASA": {
-    "name": "朝倉",
-    "desc": ""
+    "name": "朝倉"
   },
   "CSK": {
-    "name": "長宗我部",
-    "desc": ""
+    "name": "長宗我部"
   },
   "ISE": {
-    "name": "伊勢",
-    "desc": ""
+    "name": "伊勢"
   },
   "IKE": {
-    "name": "池田",
-    "desc": ""
+    "name": "池田"
   },
   "ITO": {
-    "name": "伊東",
-    "desc": ""
+    "name": "伊東"
   },
   "MRI": {
-    "name": "毛利",
-    "desc": ""
+    "name": "毛利"
   },
   "ODA": {
-    "name": "織田",
-    "desc": ""
+    "name": "織田"
   },
   "AKT": {
-    "name": "安藤",
-    "desc": ""
+    "name": "安藤"
   },
   "ISA": {
-    "name": "伊佐",
-    "desc": ""
+    "name": "伊佐"
   },
   "TAK": {
-    "name": "大掾",
-    "desc": ""
+    "name": "大掾"
   },
   "KNB": {
-    "name": "川野辺",
-    "desc": ""
+    "name": "川野辺"
   },
   "HTA": {
-    "name": "八田",
-    "desc": ""
+    "name": "八田"
   },
   "MKO": {
-    "name": "益子",
-    "desc": ""
+    "name": "益子"
   },
   "TKO": {
-    "name": "多功",
-    "desc": ""
+    "name": "多功"
   },
   "NAS": {
-    "name": "那須",
-    "desc": ""
+    "name": "那須"
   },
   "OGO": {
-    "name": "大胡",
-    "desc": ""
+    "name": "大胡"
   },
   "NIT": {
-    "name": "新田",
-    "desc": ""
+    "name": "新田"
   },
   "YMG": {
-    "name": "山口",
-    "desc": ""
+    "name": "山口"
   },
   "TOS": {
-    "name": "豊島",
-    "desc": ""
+    "name": "豊島"
   },
   "HNM": {
-    "name": "本間",
-    "desc": ""
+    "name": "本間"
   },
   "UNN": {
-    "name": "海野",
-    "desc": ""
+    "name": "海野"
   },
   "KOK": {
-    "name": "香坂",
-    "desc": ""
+    "name": "香坂"
   },
   "TOY": {
-    "name": "遠山",
-    "desc": ""
+    "name": "遠山"
   },
   "HIG": {
-    "name": "東",
-    "desc": ""
+    "name": "東"
   },
   "EMA": {
-    "name": "江馬",
-    "desc": ""
+    "name": "江馬"
   },
   "NKJ": {
-    "name": "中島",
-    "desc": ""
+    "name": "中島"
   },
   "OBA": {
-    "name": "大庭",
-    "desc": ""
+    "name": "大庭"
   },
   "NGN": {
-    "name": "長野",
-    "desc": ""
+    "name": "長野"
   },
   "TKM": {
-    "name": "高島",
-    "desc": ""
+    "name": "高島"
   },
   "AIS": {
-    "name": "愛洲",
-    "desc": ""
+    "name": "愛洲"
   },
   "YUS": {
-    "name": "湯浅",
-    "desc": ""
+    "name": "湯浅"
   },
   "YAB": {
-    "name": "矢部",
-    "desc": ""
+    "name": "矢部"
   },
   "OGA": {
-    "name": "小鴨",
-    "desc": ""
+    "name": "小鴨"
   },
   "STU": {
-    "name": "末次",
-    "desc": ""
+    "name": "末次"
   },
   "MZW": {
-    "name": "三沢",
-    "desc": ""
+    "name": "三沢"
   },
   "MTY": {
-    "name": "三刀屋",
-    "desc": ""
+    "name": "三刀屋"
   },
   "AKN": {
-    "name": "赤穴",
-    "desc": ""
+    "name": "赤穴"
   },
   "GTO": {
-    "name": "後藤",
-    "desc": ""
+    "name": "後藤"
   },
   "SHO": {
-    "name": "庄",
-    "desc": ""
+    "name": "庄"
   },
   "HRG": {
-    "name": "平賀",
-    "desc": ""
+    "name": "平賀"
   },
   "KBK": {
-    "name": "小早川",
-    "desc": ""
+    "name": "小早川"
   },
   "WCH": {
-    "name": "和智",
-    "desc": ""
+    "name": "和智"
   },
   "MYH": {
-    "name": "三好",
-    "desc": ""
+    "name": "三好"
   },
   "SUE": {
-    "name": "陶",
-    "desc": ""
+    "name": "陶"
   },
   "MIG": {
-    "name": "右田",
-    "desc": ""
+    "name": "右田"
   },
   "KAG": {
-    "name": "香川",
-    "desc": ""
+    "name": "香川"
   },
   "KOZ": {
-    "name": "香西",
-    "desc": ""
+    "name": "香西"
   },
   "KNE": {
-    "name": "金子",
-    "desc": ""
+    "name": "金子"
   },
   "AKI": {
-    "name": "安芸",
-    "desc": ""
+    "name": "安芸"
   },
   "OHR": {
-    "name": "大平",
-    "desc": ""
+    "name": "大平"
   },
   "BZG": {
-    "name": "豊前長野",
-    "desc": ""
+    "name": "豊前長野"
   },
   "AKZ": {
-    "name": "秋月",
-    "desc": ""
+    "name": "秋月"
   },
   "AKU": {
-    "name": "多久",
-    "desc": ""
+    "name": "多久"
   },
   "AHT": {
-    "name": "波多",
-    "desc": ""
+    "name": "波多"
   },
   "ARI": {
-    "name": "有馬",
-    "desc": ""
+    "name": "有馬"
   },
   "OKR": {
-    "name": "大蔵",
-    "desc": ""
+    "name": "大蔵"
   },
   "TMD": {
-    "name": "土持",
-    "desc": ""
+    "name": "土持"
   },
   "KJK": {
-    "name": "加治木",
-    "desc": ""
+    "name": "加治木"
   },
   "HSR": {
-    "name": "菱刈",
-    "desc": ""
+    "name": "菱刈"
   },
   "ANU": {
-    "name": "アイヌ",
-    "desc": ""
+    "name": "アイヌ"
   },
   "HKZ": {
-    "name": "北山",
-    "desc": ""
+    "name": "北山"
   },
   "CHZ": {
-    "name": "中山",
-    "desc": ""
+    "name": "中山"
   },
   "NZN": {
-    "name": "南山",
-    "desc": ""
+    "name": "南山"
   },
   "CHI": {
-    "name": "中国",
-    "desc": ""
+    "name": "中国"
   },
   "YUA": {
-    "name": "元",
-    "desc": ""
+    "name": "元"
   },
   "MNG": {
-    "name": "明",
-    "desc": ""
+    "name": "明"
   },
   "CSO": {
-    "name": "宋",
-    "desc": ""
+    "name": "宋"
   },
   "WUU": {
-    "name": "呉",
-    "desc": ""
+    "name": "呉"
   },
   "CTW": {
-    "name": "天完",
-    "desc": ""
+    "name": "天完"
   },
   "CHE": {
-    "name": "陳",
-    "desc": ""
+    "name": "陳"
   },
   "CSH": {
-    "name": "順",
-    "desc": ""
+    "name": "順"
   },
   "CXI": {
-    "name": "夏",
-    "desc": ""
+    "name": "夏"
   },
   "CTG": {
-    "name": "東寧",
-    "desc": ""
+    "name": "東寧"
   },
   "CFN": {
-    "name": "方",
-    "desc": ""
+    "name": "方"
   },
   "CMO": {
-    "name": "毛",
-    "desc": ""
+    "name": "毛"
   },
   "CGU": {
-    "name": "郭",
-    "desc": ""
+    "name": "郭"
   },
   "CNP": {
-    "name": "南平",
-    "desc": ""
+    "name": "南平"
   },
   "CDN": {
-    "name": "東莞",
-    "desc": ""
+    "name": "東莞"
   },
   "CSI": {
-    "name": "李",
-    "desc": ""
+    "name": "李"
   },
   "CKO": {
-    "name": "ココ・テムル",
-    "desc": ""
+    "name": "ココ・テムル"
   },
   "CNA": {
-    "name": "ナガチュ",
-    "desc": ""
+    "name": "ナガチュ"
   },
   "MMA": {
-    "name": "勐卯",
-    "desc": ""
+    "name": "勐卯"
   },
   "MHK": {
-    "name": "勐景",
-    "desc": ""
+    "name": "勐景"
   },
   "MHN": {
-    "name": "勐天",
-    "desc": ""
+    "name": "勐天"
   },
   "MTG": {
-    "name": "勐廷",
-    "desc": ""
+    "name": "勐廷"
   },
   "MGN": {
-    "name": "勐云",
-    "desc": ""
+    "name": "勐云"
   },
   "MHA": {
-    "name": "勐哈",
-    "desc": ""
+    "name": "勐哈"
   },
   "MWO": {
-    "name": "モン・ウォ",
-    "desc": ""
+    "name": "モン・ウォ"
   },
   "MGK": {
-    "name": "勐古",
-    "desc": ""
+    "name": "勐古"
   },
   "YNJ": {
-    "name": "元江",
-    "desc": ""
+    "name": "元江"
   },
   "NWU": {
-    "name": "牛武",
-    "desc": ""
+    "name": "牛武"
+  },
+  "NYZ": {
+    "name": "寧遠州"
   },
   "NLU": {
-    "name": "那楼",
-    "desc": ""
+    "name": "那楼"
   },
   "YJI": {
-    "name": "燕京",
-    "desc": ""
+    "name": "燕京"
+  },
+  "BZH": {
+    "name": "北盛"
+  },
+  "YAN": {
+    "name": "姚安"
+  },
+  "HQG": {
+    "name": "鶴慶"
+  },
+  "NNN": {
+    "name": "安南"
+  },
+  "AGN": {
+    "name": "安宁"
+  },
+  "MLE": {
+    "name": "弥勒"
+  },
+  "JSI": {
+    "name": "建水"
+  },
+  "SPG": {
+    "name": "石屏"
+  },
+  "NGZ": {
+    "name": "寧州"
+  },
+  "LLS": {
+    "name": "ロロシ"
+  },
+  "CGZ": {
+    "name": "常州"
   },
   "XLG": {
-    "name": "仙龍",
-    "desc": ""
+    "name": "仙龍"
+  },
+  "WDG": {
+    "name": "武定"
+  },
+  "RND": {
+    "name": "仁德"
+  },
+  "DCN": {
+    "name": "東川"
+  },
+  "WNG": {
+    "name": "烏蒙"
+  },
+  "MHU": {
+    "name": "馬湖"
+  },
+  "LBO": {
+    "name": "雷波"
+  },
+  "YNL": {
+    "name": "雲連"
+  },
+  "ZNX": {
+    "name": "鎮雄"
+  },
+  "WSA": {
+    "name": "烏撒"
+  },
+  "ZYI": {
+    "name": "霑益"
+  },
+  "QJG": {
+    "name": "曲靖"
+  },
+  "YZO": {
+    "name": "宜左"
+  },
+  "MLG": {
+    "name": "馬龍"
+  },
+  "LLN": {
+    "name": "陸良"
+  },
+  "LXG": {
+    "name": "羅雄"
+  },
+  "GGX": {
+    "name": "廣西"
+  },
+  "SZG": {
+    "name": "師宗"
+  },
+  "SXI": {
+    "name": "水西"
+  },
+  "CLE": {
+    "name": "車里"
+  },
+  "BZU": {
+    "name": "播州"
+  },
+  "NPG": {
+    "name": "綦江"
+  },
+  "RNG": {
+    "name": "容"
+  },
+  "GNG": {
+    "name": "鞏"
+  },
+  "ZNZ": {
+    "name": "鄭州"
+  },
+  "SZU": {
+    "name": "石柱"
+  },
+  "ZGL": {
+    "name": "中路"
+  },
+  "TGY": {
+    "name": "唐崖"
+  },
+  "GLU": {
+    "name": "高羅"
+  },
+  "RGM": {
+    "name": "容美"
+  },
+  "TNP": {
+    "name": "天平"
+  },
+  "SGZ": {
+    "name": "桑植"
+  },
+  "DWG": {
+    "name": "大王"
+  },
+  "YGS": {
+    "name": "永順"
+  },
+  "BJG": {
+    "name": "保靖"
+  },
+  "YYG": {
+    "name": "酉陽"
+  },
+  "PCD": {
+    "name": "坪茶洞"
+  },
+  "SZH": {
+    "name": "思州"
+  },
+  "YNH": {
+    "name": "沿河"
+  },
+  "TXI": {
+    "name": "梯渓"
+  },
+  "TGR": {
+    "name": "銅仁"
+  },
+  "QGS": {
+    "name": "瓊水"
+  },
+  "WZH": {
+    "name": "武寨"
+  },
+  "PTZ": {
+    "name": "坪頭哲柯"
+  },
+  "LGQ": {
+    "name": "龍泉"
+  },
+  "RGS": {
+    "name": "榕山"
+  },
+  "BNI": {
+    "name": "白泥"
+  },
+  "COG": {
+    "name": "草塘"
+  },
+  "XNL": {
+    "name": "新龍"
+  },
+  "ALI": {
+    "name": "凱里"
+  },
+  "SDG": {
+    "name": "水東"
+  },
+  "PYE": {
+    "name": "平越"
+  },
+  "DZH": {
+    "name": "底寨"
+  },
+  "XNG": {
+    "name": "咸寧"
+  },
+  "PDG": {
+    "name": "平定"
+  },
+  "PDN": {
+    "name": "普定"
+  },
+  "PGB": {
+    "name": "平壩"
+  },
+  "PAN": {
+    "name": "普安"
+  },
+  "YNN": {
+    "name": "永寧"
+  },
+  "LIN": {
+    "name": "来安"
+  },
+  "NLG": {
+    "name": "安龍"
+  },
+  "SHG": {
+    "name": "上林"
+  },
+  "QYN": {
+    "name": "慶遠"
+  },
+  "NDN": {
+    "name": "南丹"
+  },
+  "DLN": {
+    "name": "東蘭"
+  },
+  "XCG": {
+    "name": "新城"
+  },
+  "YSN": {
+    "name": "永順チワン"
+  },
+  "TNZ": {
+    "name": "田州"
+  },
+  "ADG": {
+    "name": "安定"
+  },
+  "DYG": {
+    "name": "獨陽"
+  },
+  "ZNN": {
+    "name": "鎮安"
+  },
+  "TPG": {
+    "name": "太平"
+  },
+  "SMG": {
+    "name": "思明"
+  },
+  "SGS": {
+    "name": "上思"
+  },
+  "GNN": {
+    "name": "廣南"
+  },
+  "LZO": {
+    "name": "羅佐"
+  },
+  "FZH": {
+    "name": "撫州"
+  },
+  "LZI": {
+    "name": "良寨"
+  },
+  "SZI": {
+    "name": "社孜"
+  },
+  "DYN": {
+    "name": "都勻"
+  },
+  "LTU": {
+    "name": "爛土"
+  },
+  "GZH": {
+    "name": "古州"
+  },
+  "LPG": {
+    "name": "黎平"
+  },
+  "ZLD": {
+    "name": "中林東"
+  },
+  "HZH": {
+    "name": "洪州"
+  },
+  "XSY": {
+    "name": "西山陽"
+  },
+  "LNG": {
+    "name": "梁"
   },
   "CDL": {
-    "name": "大理",
-    "desc": ""
+    "name": "大理"
   },
   "CHH": {
-    "name": "景洪",
-    "desc": ""
+    "name": "景洪"
   },
   "TIB": {
-    "name": "チベット",
-    "desc": ""
+    "name": "チベット"
   },
   "GUG": {
-    "name": "グゲ",
-    "desc": ""
+    "name": "グゲ"
   },
   "PUR": {
-    "name": "プラン",
-    "desc": ""
+    "name": "プラン"
   },
   "MAR": {
-    "name": "マリュル",
-    "desc": ""
+    "name": "マリュル"
   },
   "ZNK": {
-    "name": "ザンスカル",
-    "desc": ""
+    "name": "ザンスカル"
   },
   "CHG": {
-    "name": "チャガタイ",
-    "desc": ""
+    "name": "チャガタイ"
   },
   "TIM": {
-    "name": "ティムール",
-    "desc": ""
+    "name": "ティムール"
   },
   "QCH": {
-    "name": "コーチョ",
-    "desc": ""
+    "name": "コーチョ"
   },
   "MNL": {
-    "name": "マンガライ",
-    "desc": ""
+    "name": "マンガライ"
   },
   "MGG": {
-    "name": "マンユル・グンタン",
-    "desc": ""
+    "name": "マンユル・グンタン"
   },
   "POO": {
-    "name": "ポウォ",
-    "desc": ""
+    "name": "ポウォ"
   },
   "HOR": {
-    "name": "ホル",
-    "desc": ""
+    "name": "ホル"
   },
   "LGT": {
-    "name": "リンツァン",
-    "desc": ""
+    "name": "リンツァン"
   },
   "DRG": {
-    "name": "デルゲ",
-    "desc": ""
+    "name": "デルゲ"
   },
   "NCN": {
-    "name": "ナンチェン",
-    "desc": ""
+    "name": "ナンチェン"
   },
   "GNJ": {
-    "name": "ゴンジョ",
-    "desc": ""
+    "name": "ゴンジョ"
   },
   "BTG": {
-    "name": "バタン",
-    "desc": ""
+    "name": "バタン"
   },
   "NBH": {
-    "name": "ヌブホル",
-    "desc": ""
+    "name": "ヌブホル"
   },
   "LTN": {
-    "name": "リタン",
-    "desc": ""
+    "name": "リタン"
   },
   "NYA": {
-    "name": "ニャロン",
-    "desc": ""
+    "name": "ニャロン"
   },
   "GYT": {
-    "name": "ギェルタン",
-    "desc": ""
+    "name": "ギェルタン"
+  },
+  "YNG": {
+    "name": "永寧"
   },
   "TNQ": {
-    "name": "テンチュアン",
-    "desc": ""
+    "name": "テンチュアン"
   },
   "MCI": {
-    "name": "ムチ",
-    "desc": ""
+    "name": "ムチ"
   },
   "WMO": {
-    "name": "ウェイマオ",
-    "desc": ""
+    "name": "ウェイマオ"
   },
   "TSK": {
-    "name": "ツァホ",
-    "desc": ""
+    "name": "ツァホ"
   },
   "SNP": {
-    "name": "ソンパン",
-    "desc": ""
+    "name": "ソンパン"
   },
   "LGZ": {
-    "name": "ロンジョウ",
-    "desc": ""
+    "name": "ロンジョウ"
   },
   "MNZ": {
-    "name": "ミンジョウ",
-    "desc": ""
+    "name": "ミンジョウ"
   },
   "TAZ": {
-    "name": "タオジョウ",
-    "desc": ""
+    "name": "タオジョウ"
   },
   "KHG": {
-    "name": "カギャ",
-    "desc": ""
+    "name": "カギャ"
   },
   "HEZ": {
-    "name": "ホージョウ",
-    "desc": ""
+    "name": "ホージョウ"
   },
   "JIZ": {
-    "name": "ジーシージョウ",
-    "desc": ""
+    "name": "ジーシージョウ"
   },
   "BIR": {
-    "name": "ビリ",
-    "desc": ""
+    "name": "ビリ"
   },
   "GYE": {
-    "name": "ギェルロン",
-    "desc": ""
+    "name": "ギェルロン"
   },
   "GOL": {
-    "name": "ゴロク",
-    "desc": ""
+    "name": "ゴロク"
   },
   "CKL": {
-    "name": "ミニャク",
-    "desc": ""
+    "name": "ミニャク"
   },
   "AMD": {
-    "name": "アムド",
-    "desc": ""
+    "name": "アムド"
   },
   "MSH": {
-    "name": "ミシミ",
-    "desc": ""
+    "name": "ミシミ"
   },
   "TAN": {
-    "name": "タニ",
-    "desc": ""
+    "name": "タニ"
   },
   "MNP": {
-    "name": "モンパ",
-    "desc": ""
+    "name": "モンパ"
   },
   "LMN": {
-    "name": "ロ・モン",
-    "desc": ""
+    "name": "ロ・モン"
   },
   "LJG": {
-    "name": "麗江",
-    "desc": ""
+    "name": "麗江"
   },
   "SKK": {
-    "name": "シッキム",
-    "desc": ""
+    "name": "シッキム"
   },
   "DUR": {
-    "name": "ダウル",
-    "desc": ""
+    "name": "ダウル"
   },
   "EVK": {
-    "name": "エヴェンキ",
-    "desc": ""
+    "name": "エヴェンキ"
   },
   "NVK": {
-    "name": "ニヴフ",
-    "desc": ""
+    "name": "ニヴフ"
   },
   "ORC": {
-    "name": "オロチ",
-    "desc": ""
+    "name": "オロチ"
   },
   "ORQ": {
-    "name": "オロチョン",
-    "desc": ""
+    "name": "オロチョン"
   },
   "SIB": {
-    "name": "シベ",
-    "desc": ""
+    "name": "シベ"
   },
   "UDE": {
-    "name": "ウデゲ",
-    "desc": ""
+    "name": "ウデゲ"
   },
   "ULC": {
-    "name": "ウリチ",
-    "desc": ""
+    "name": "ウリチ"
   },
   "HDA": {
-    "name": "哈達",
-    "desc": ""
+    "name": "哈達"
   },
   "HOI": {
-    "name": "輝発",
-    "desc": ""
+    "name": "輝発"
   },
   "ULA": {
-    "name": "烏拉",
-    "desc": ""
+    "name": "烏拉"
   },
   "YEH": {
-    "name": "葉赫",
-    "desc": ""
+    "name": "葉赫"
   },
   "DNG": {
-    "name": "董鄂",
-    "desc": ""
+    "name": "董鄂"
   },
   "HJN": {
-    "name": "忽剌温",
-    "desc": ""
+    "name": "忽剌温"
   },
   "HNE": {
-    "name": "渾河",
-    "desc": ""
+    "name": "渾河"
   },
   "HUL": {
-    "name": "胡里改",
-    "desc": ""
+    "name": "胡里改"
   },
   "JEC": {
-    "name": "哲陳",
-    "desc": ""
+    "name": "哲陳"
   },
   "JUS": {
-    "name": "ジュシェリ",
-    "desc": ""
+    "name": "ジュシェリ"
   },
   "MAO": {
-    "name": "毛憐",
-    "desc": ""
+    "name": "毛憐"
   },
   "NEY": {
-    "name": "訥殷",
-    "desc": ""
+    "name": "訥殷"
   },
   "ODO": {
-    "name": "斡朵里",
-    "desc": ""
+    "name": "斡朵里"
   },
   "SSH": {
-    "name": "蘇克素護",
-    "desc": ""
+    "name": "蘇克素護"
   },
   "URY": {
-    "name": "兀良哈",
-    "desc": ""
+    "name": "兀良哈"
   },
   "WGG": {
-    "name": "完顔",
-    "desc": ""
+    "name": "完顔"
   },
   "YAL": {
-    "name": "鴨緑",
-    "desc": ""
+    "name": "鴨緑"
   },
   "AAR": {
-    "name": "アブダリ",
-    "desc": ""
+    "name": "アブダリ"
   },
   "AID": {
-    "name": "アイダン",
-    "desc": ""
+    "name": "アイダン"
   },
   "ASU": {
-    "name": "アス",
-    "desc": ""
+    "name": "アス"
   },
   "BAY": {
-    "name": "バヤン",
-    "desc": ""
+    "name": "バヤン"
   },
   "DLA": {
-    "name": "ダラ",
-    "desc": ""
+    "name": "ダラ"
   },
   "EJI": {
-    "name": "エジミ",
-    "desc": ""
+    "name": "エジミ"
   },
   "FLN": {
-    "name": "フルン",
-    "desc": ""
+    "name": "フルン"
   },
   "FUT": {
-    "name": "フティ",
-    "desc": ""
+    "name": "フティ"
   },
   "FUY": {
-    "name": "フユ",
-    "desc": ""
+    "name": "フユ"
   },
   "GIL": {
-    "name": "ギレミ",
-    "desc": ""
+    "name": "ギレミ"
   },
   "HIJ": {
-    "name": "ヒジャン",
-    "desc": ""
+    "name": "ヒジャン"
   },
   "HIY": {
-    "name": "ハイヤン",
-    "desc": ""
+    "name": "ハイヤン"
   },
   "HLN": {
-    "name": "ハラン",
-    "desc": ""
+    "name": "ハラン"
   },
   "HNC": {
-    "name": "渾春",
-    "desc": ""
+    "name": "渾春"
   },
   "HOT": {
-    "name": "ホトンギ",
-    "desc": ""
+    "name": "ホトンギ"
   },
   "HRO": {
-    "name": "ホロ",
-    "desc": ""
+    "name": "ホロ"
   },
   "HUI": {
-    "name": "フイバ",
-    "desc": ""
+    "name": "フイバ"
   },
   "HUR": {
-    "name": "虎爾哈",
-    "desc": ""
+    "name": "虎爾哈"
   },
   "ILU": {
-    "name": "イル",
-    "desc": ""
+    "name": "イル"
   },
   "IMN": {
-    "name": "イマンカ",
-    "desc": ""
+    "name": "イマンカ"
   },
   "ITU": {
-    "name": "イトゥン",
-    "desc": ""
+    "name": "イトゥン"
   },
   "JHT": {
-    "name": "双城堡",
-    "desc": ""
+    "name": "双城堡"
   },
   "LAL": {
-    "name": "拉林",
-    "desc": ""
+    "name": "拉林"
   },
   "LEF": {
-    "name": "楽富",
-    "desc": ""
+    "name": "楽富"
   },
   "LLU": {
-    "name": "ラル",
-    "desc": ""
+    "name": "ラル"
   },
   "MAH": {
-    "name": "マヒヤン",
-    "desc": ""
+    "name": "マヒヤン"
   },
   "MIC": {
-    "name": "ミチェン",
-    "desc": ""
+    "name": "ミチェン"
   },
   "MRE": {
-    "name": "ムレン",
-    "desc": ""
+    "name": "ムレン"
   },
   "MUH": {
-    "name": "ムヒヤ",
-    "desc": ""
+    "name": "ムヒヤ"
   },
   "MUU": {
-    "name": "木倫",
-    "desc": ""
+    "name": "木倫"
   },
   "NAL": {
-    "name": "ナラジ",
-    "desc": ""
+    "name": "ナラジ"
   },
   "NEM": {
-    "name": "ネメル",
-    "desc": ""
+    "name": "ネメル"
   },
   "NRO": {
-    "name": "ノロ",
-    "desc": ""
+    "name": "ノロ"
   },
   "SHI": {
-    "name": "シリン",
-    "desc": ""
+    "name": "シリン"
   },
   "SIR": {
-    "name": "シリン",
-    "desc": ""
+    "name": "シリン"
   },
   "SMN": {
-    "name": "シリミアン",
-    "desc": ""
+    "name": "シリミアン"
   },
   "SNC": {
-    "name": "サンチャハ",
-    "desc": ""
+    "name": "サンチャハ"
   },
   "SUI": {
-    "name": "綏芬",
-    "desc": ""
+    "name": "綏芬"
   },
   "TAS": {
-    "name": "タシャン",
-    "desc": ""
+    "name": "タシャン"
   },
   "TOD": {
-    "name": "トド",
-    "desc": ""
+    "name": "トド"
   },
   "TOX": {
-    "name": "トン",
-    "desc": ""
+    "name": "トン"
   },
   "USS": {
-    "name": "ウスリー",
-    "desc": ""
+    "name": "ウスリー"
   },
   "WEJ": {
-    "name": "ウェジ",
-    "desc": ""
+    "name": "ウェジ"
   },
   "WEK": {
-    "name": "ウェケン",
-    "desc": ""
+    "name": "ウェケン"
   },
   "WNL": {
-    "name": "ワンリン",
-    "desc": ""
+    "name": "ワンリン"
   },
   "WUY": {
-    "name": "ウイェウ",
-    "desc": ""
+    "name": "ウイェウ"
   },
   "YRN": {
-    "name": "ヤラン",
-    "desc": ""
+    "name": "ヤラン"
   },
   "YIM": {
-    "name": "イマフ",
-    "desc": ""
+    "name": "イマフ"
   },
   "YOO": {
-    "name": "ヨオセ",
-    "desc": ""
+    "name": "ヨオセ"
   },
   "KAD": {
-    "name": "カム",
-    "desc": ""
+    "name": "カム"
   },
   "TUJ": {
-    "name": "トゥジャ",
-    "desc": ""
+    "name": "トゥジャ"
   },
   "MNE": {
-    "name": "ヤオ",
-    "desc": ""
+    "name": "ヤオ"
   },
   "MIO": {
-    "name": "モン",
-    "desc": ""
+    "name": "モン"
   },
   "HQQ": {
-    "name": "ハニ",
-    "desc": ""
+    "name": "ハニ"
   },
   "YII": {
-    "name": "イ",
-    "desc": ""
+    "name": "イ"
   },
   "DDI": {
-    "name": "ダイ",
-    "desc": ""
+    "name": "ダイ"
   },
   "OIR": {
-    "name": "オイラト",
-    "desc": ""
+    "name": "オイラト"
   },
   "OGE": {
-    "name": "オゲデイ",
-    "desc": ""
+    "name": "オゲデイ"
   },
   "BAT": {
-    "name": "バアトド",
-    "desc": ""
+    "name": "バアトド"
   },
   "CRS": {
-    "name": "チョロス",
-    "desc": ""
+    "name": "チョロス"
   },
   "KHD": {
-    "name": "ホイド",
-    "desc": ""
+    "name": "ホイド"
   },
   "TRH": {
-    "name": "トルグート",
-    "desc": ""
+    "name": "トルグート"
   },
   "TVA": {
-    "name": "トゥバ",
-    "desc": ""
+    "name": "トゥバ"
   },
   "BGT": {
-    "name": "ベルグテイ",
-    "desc": ""
+    "name": "ベルグテイ"
   },
   "HCN": {
-    "name": "ハチウン",
-    "desc": ""
+    "name": "ハチウン"
   },
   "OTC": {
-    "name": "オッチギン",
-    "desc": ""
+    "name": "オッチギン"
   },
   "QAS": {
-    "name": "カサル",
-    "desc": ""
+    "name": "カサル"
   },
   "BKH": {
-    "name": "バダフシャン",
-    "desc": ""
+    "name": "バダフシャン"
   },
   "DGH": {
-    "name": "ドゥグラト",
-    "desc": ""
+    "name": "ドゥグラト"
   },
   "KRG": {
-    "name": "カラテギン",
-    "desc": ""
+    "name": "カラテギン"
   },
   "SRL": {
-    "name": "サリコル",
-    "desc": ""
+    "name": "サリコル"
   },
   "COO": {
-    "name": "クーサ",
-    "desc": ""
+    "name": "クーサ"
   },
   "OTL": {
-    "name": "オタリ",
-    "desc": ""
+    "name": "オタリ"
   },
   "COW": {
-    "name": "コウェタ",
-    "desc": ""
+    "name": "コウェタ"
   },
   "TUC": {
-    "name": "タッカブーティー",
-    "desc": ""
+    "name": "タッカブーティー"
   },
   "EUF": {
-    "name": "ユフォーラ",
-    "desc": ""
+    "name": "ユフォーラ"
   },
   "CPQ": {
-    "name": "カパチェキ",
-    "desc": ""
+    "name": "カパチェキ"
   },
   "TOA": {
-    "name": "トア",
-    "desc": ""
+    "name": "トア"
   },
   "OCT": {
-    "name": "オキュート",
-    "desc": ""
+    "name": "オキュート"
   },
   "HIT": {
-    "name": "アートゥシク＝ハタ",
-    "desc": ""
+    "name": "アートゥシク＝ハタ"
   },
   "ALA": {
-    "name": "アラバマ",
-    "desc": ""
+    "name": "アラバマ"
   },
   "KST": {
-    "name": "コアサティ",
-    "desc": ""
+    "name": "コアサティ"
   },
   "CHC": {
-    "name": "チャータ",
-    "desc": ""
+    "name": "チャータ"
   },
   "CHS": {
-    "name": "チカシャ",
-    "desc": ""
+    "name": "チカシャ"
   },
   "MCG": {
-    "name": "マスコジー",
-    "desc": ""
+    "name": "マスコジー"
   },
   "QGM": {
-    "name": "クイグアルタム",
-    "desc": ""
+    "name": "クイグアルタム"
   },
   "QUZ": {
-    "name": "キズキズ",
-    "desc": ""
+    "name": "キズキズ"
   },
   "NCZ": {
-    "name": "ナチェズ",
-    "desc": ""
+    "name": "ナチェズ"
   },
   "GUL": {
-    "name": "グアル",
-    "desc": ""
+    "name": "グアル"
   },
   "APA": {
-    "name": "アパラチー",
-    "desc": ""
+    "name": "アパラチー"
   },
   "KSK": {
-    "name": "カスキノンポ",
-    "desc": ""
+    "name": "カスキノンポ"
   },
   "KAW": {
-    "name": "カウ",
-    "desc": ""
+    "name": "カウ"
   },
   "UMO": {
-    "name": "ウモホ",
-    "desc": ""
+    "name": "ウモホ"
   },
   "WZZ": {
-    "name": "ワザジェ",
-    "desc": ""
+    "name": "ワザジェ"
   },
   "PPK": {
-    "name": "パンカ",
-    "desc": ""
+    "name": "パンカ"
   },
   "UGX": {
-    "name": "ウガクスパ",
-    "desc": ""
+    "name": "ウガクスパ"
   },
   "GWY": {
-    "name": "グワイヒ",
-    "desc": ""
+    "name": "グワイヒ"
   },
   "GDW": {
-    "name": "ギドゥワ",
-    "desc": ""
+    "name": "ギドゥワ"
   },
   "TSO": {
-    "name": "ツォヤハ",
-    "desc": ""
+    "name": "ツォヤハ"
   },
   "CFQ": {
-    "name": "コフィタケ",
-    "desc": ""
+    "name": "コフィタケ"
   },
   "JOA": {
-    "name": "ジョアラ",
-    "desc": ""
+    "name": "ジョアラ"
   },
   "TSN": {
-    "name": "セナコマカ",
-    "desc": ""
+    "name": "セナコマカ"
   },
   "ACL": {
-    "name": "アコラピッサ",
-    "desc": ""
+    "name": "アコラピッサ"
   },
   "MBL": {
-    "name": "トホメ",
-    "desc": ""
+    "name": "トホメ"
   },
   "CTT": {
-    "name": "チャトト",
-    "desc": ""
+    "name": "チャトト"
   },
   "YMS": {
-    "name": "ヤマシー",
-    "desc": ""
+    "name": "ヤマシー"
   },
   "CSB": {
-    "name": "クサボ",
-    "desc": ""
+    "name": "クサボ"
   },
   "CHK": {
-    "name": "カホキア",
-    "desc": ""
+    "name": "カホキア"
   },
   "HCK": {
-    "name": "フーカク",
-    "desc": ""
+    "name": "フーカク"
   },
   "BXJ": {
-    "name": "バーコジェ",
-    "desc": ""
+    "name": "バーコジェ"
   },
   "WGH": {
-    "name": "ワフトフタッタ",
-    "desc": ""
+    "name": "ワフトフタッタ"
   },
   "OFO": {
-    "name": "オレオ",
-    "desc": ""
+    "name": "オレオ"
   },
   "TKS": {
-    "name": "タネクス",
-    "desc": ""
+    "name": "タネクス"
   },
   "MTN": {
-    "name": "モネトン",
-    "desc": ""
+    "name": "モネトン"
   },
   "MNC": {
-    "name": "モナカン",
-    "desc": ""
+    "name": "モナカン"
   },
   "TTL": {
-    "name": "トゥテーロ",
-    "desc": ""
+    "name": "トゥテーロ"
   },
   "WCM": {
-    "name": "ワカマー",
-    "desc": ""
+    "name": "ワカマー"
   },
   "TMC": {
-    "name": "ティムクア",
-    "desc": ""
+    "name": "ティムクア"
   },
   "CLS": {
-    "name": "カルーサ",
-    "desc": ""
+    "name": "カルーサ"
   },
   "AIX": {
-    "name": "アイス",
-    "desc": ""
+    "name": "アイス"
   },
   "TBG": {
-    "name": "トコバガ",
-    "desc": ""
+    "name": "トコバガ"
   },
   "NTT": {
-    "name": "ノットウェイ",
-    "desc": ""
+    "name": "ノットウェイ"
   },
   "SKR": {
-    "name": "スカルーレ",
-    "desc": ""
+    "name": "スカルーレ"
   },
   "WRO": {
-    "name": "ウェンロウロノン",
-    "desc": ""
+    "name": "ウェンロウロノン"
   },
   "KEN": {
-    "name": "ケンタイエントンガ",
-    "desc": ""
+    "name": "ケンタイエントンガ"
   },
   "ERI": {
-    "name": "エリーイアナン",
-    "desc": ""
+    "name": "エリーイアナン"
   },
   "HON": {
-    "name": "オニアソント",
-    "desc": ""
+    "name": "オニアソント"
   },
   "ONJ": {
-    "name": "オノジュタ",
-    "desc": ""
+    "name": "オノジュタ"
   },
   "CTN": {
-    "name": "カランタウアン",
-    "desc": ""
+    "name": "カランタウアン"
   },
   "AKY": {
-    "name": "アトラクウェイ",
-    "desc": ""
+    "name": "アトラクウェイ"
   },
   "KKA": {
-    "name": "カニエンケハカ",
-    "desc": ""
+    "name": "カニエンケハカ"
   },
   "ONY": {
-    "name": "オニョタアカ",
-    "desc": ""
+    "name": "オニョタアカ"
   },
   "ONO": {
-    "name": "オノンダゲガ",
-    "desc": ""
+    "name": "オノンダゲガ"
   },
   "GYO": {
-    "name": "ガヨゴホーノ",
-    "desc": ""
+    "name": "ガヨゴホーノ"
   },
   "ONN": {
-    "name": "オノンドワガ",
-    "desc": ""
+    "name": "オノンドワガ"
   },
   "PML": {
-    "name": "パムリコ",
-    "desc": ""
+    "name": "パムリコ"
   },
   "DOE": {
-    "name": "ドーグ",
-    "desc": ""
+    "name": "ドーグ"
   },
   "PSC": {
-    "name": "ピスカタウェイ",
-    "desc": ""
+    "name": "ピスカタウェイ"
   },
   "NTK": {
-    "name": "ネンテゴー",
-    "desc": ""
+    "name": "ネンテゴー"
   },
   "RPP": {
-    "name": "ラパハノック",
-    "desc": ""
+    "name": "ラパハノック"
   },
   "CAA": {
-    "name": "クロアタン",
-    "desc": ""
+    "name": "クロアタン"
   },
   "NSM": {
-    "name": "ナンセモンド",
-    "desc": ""
+    "name": "ナンセモンド"
   },
   "ACW": {
-    "name": "アッカワマケ",
-    "desc": ""
+    "name": "アッカワマケ"
   },
   "MMQ": {
-    "name": "ママセクタウ",
-    "desc": ""
+    "name": "ママセクタウ"
   },
   "OSK": {
-    "name": "オサアキイワキ",
-    "desc": ""
+    "name": "オサアキイワキ"
   },
   "MSK": {
-    "name": "メスカウキ",
-    "desc": ""
+    "name": "メスカウキ"
   },
   "KIW": {
-    "name": "キウィガパワ",
-    "desc": ""
+    "name": "キウィガパワ"
   },
   "MCT": {
-    "name": "マスカウテン",
-    "desc": ""
+    "name": "マスカウテン"
   },
   "CLG": {
-    "name": "チャラウガウサ",
-    "desc": ""
+    "name": "チャラウガウサ"
   },
   "MKC": {
-    "name": "メコチェ",
-    "desc": ""
+    "name": "メコチェ"
   },
   "KPK": {
-    "name": "キスポコ",
-    "desc": ""
+    "name": "キスポコ"
   },
   "PKW": {
-    "name": "ペコウィ",
-    "desc": ""
+    "name": "ペコウィ"
   },
   "HAT": {
-    "name": "ハサウェケラ",
-    "desc": ""
+    "name": "ハサウェケラ"
   },
   "BDK": {
-    "name": "ボデワドミク",
-    "desc": ""
+    "name": "ボデワドミク"
   },
   "TMW": {
-    "name": "タマロワ",
-    "desc": ""
+    "name": "タマロワ"
   },
   "KHK": {
-    "name": "カホキアキ",
-    "desc": ""
+    "name": "カホキアキ"
   },
   "KKH": {
-    "name": "カスカンカハム",
-    "desc": ""
+    "name": "カスカンカハム"
   },
   "PEO": {
-    "name": "ペーワレーワ",
-    "desc": ""
+    "name": "ペーワレーワ"
   },
   "AKG": {
-    "name": "アチャカンゴウエン",
-    "desc": ""
+    "name": "アチャカンゴウエン"
   },
   "PIA": {
-    "name": "ピアンカショー",
-    "desc": ""
+    "name": "ピアンカショー"
   },
   "PEP": {
-    "name": "ペピコキア",
-    "desc": ""
+    "name": "ペピコキア"
   },
   "WEA": {
-    "name": "ワアヤアンタンワ",
-    "desc": ""
+    "name": "ワアヤアンタンワ"
   },
   "UNA": {
-    "name": "ウェナミ",
-    "desc": ""
+    "name": "ウェナミ"
   },
   "MNS": {
-    "name": "モンシー",
-    "desc": ""
+    "name": "モンシー"
   },
   "UNL": {
-    "name": "ウナラッチコ",
-    "desc": ""
+    "name": "ウナラッチコ"
   },
   "MCN": {
-    "name": "ムヘックンヌウ",
-    "desc": ""
+    "name": "ムヘックンヌウ"
   },
   "QRP": {
-    "name": "クイリピ",
-    "desc": ""
+    "name": "クイリピ"
   },
   "PCT": {
-    "name": "ポコムタック",
-    "desc": ""
+    "name": "ポコムタック"
   },
   "PQT": {
-    "name": "ピクォート",
-    "desc": ""
+    "name": "ピクォート"
   },
   "NRG": {
-    "name": "ナイガンセット",
-    "desc": ""
+    "name": "ナイガンセット"
   },
   "WMG": {
-    "name": "ウォパナーク",
-    "desc": ""
+    "name": "ウォパナーク"
   },
   "MSC": {
-    "name": "マサチューセック",
-    "desc": ""
+    "name": "マサチューセック"
   },
   "PCK": {
-    "name": "ペナクック",
-    "desc": ""
+    "name": "ペナクック"
   },
   "BQA": {
-    "name": "バルカ",
-    "desc": ""
+    "name": "バルカ"
   },
   "BKZ": {
-    "name": "バヌ・カンズ",
-    "desc": ""
+    "name": "バヌ・カンズ"
   },
   "FZA": {
-    "name": "フェザン",
-    "desc": ""
+    "name": "フェザン"
   },
   "MAM": {
-    "name": "エジプト",
-    "desc": ""
+    "name": "エジプト"
   },
   "SKN": {
-    "name": "スアキン",
-    "desc": ""
+    "name": "スアキン"
   },
   "TRP": {
-    "name": "トリポリ",
-    "desc": ""
+    "name": "トリポリ"
   },
   "BRI": {
-    "name": "ブルターニュ",
-    "desc": ""
+    "name": "ブルターニュ"
   },
   "FRA": {
-    "name": "フランス",
-    "desc": ""
+    "name": "フランス"
   },
   "BUR": {
-    "name": "ブルゴーニュ",
-    "desc": ""
+    "name": "ブルゴーニュ"
   },
   "FCB": {
-    "name": "フランシュ＝コンテ",
-    "desc": ""
+    "name": "フランシュ＝コンテ"
   },
   "AQN": {
-    "name": "アキテーヌ",
-    "desc": ""
+    "name": "アキテーヌ"
   },
   "ALE": {
-    "name": "アランソン",
-    "desc": ""
+    "name": "アランソン"
   },
   "AUX": {
-    "name": "オセール",
-    "desc": ""
+    "name": "オセール"
   },
   "SAN": {
-    "name": "サンセール",
-    "desc": ""
+    "name": "サンセール"
   },
   "AMG": {
-    "name": "アルマニャック",
-    "desc": ""
+    "name": "アルマニャック"
   },
   "AUV": {
-    "name": "オーヴェルニュ",
-    "desc": ""
+    "name": "オーヴェルニュ"
   },
   "BOU": {
-    "name": "ブルボン",
-    "desc": ""
+    "name": "ブルボン"
   },
   "CHP": {
-    "name": "シャンパーニュ",
-    "desc": ""
+    "name": "シャンパーニュ"
   },
   "DAU": {
-    "name": "ヴィエノワ",
-    "desc": ""
+    "name": "ヴィエノワ"
   },
   "EVR": {
-    "name": "エヴルー",
-    "desc": ""
+    "name": "エヴルー"
   },
   "FOI": {
-    "name": "フォワ",
-    "desc": ""
+    "name": "フォワ"
   },
   "GUY": {
-    "name": "ガスコーニュ",
-    "desc": ""
+    "name": "ガスコーニュ"
   },
   "NEV": {
-    "name": "ネヴァース",
-    "desc": ""
+    "name": "ネヴァース"
   },
   "NRB": {
-    "name": "ナルボンヌ",
-    "desc": ""
+    "name": "ナルボンヌ"
   },
   "NRM": {
-    "name": "ノルマンディー",
-    "desc": ""
+    "name": "ノルマンディー"
   },
   "JER": {
-    "name": "ジャージー",
-    "desc": ""
+    "name": "ジャージー"
   },
   "ORL": {
-    "name": "オルレアン",
-    "desc": ""
+    "name": "オルレアン"
   },
   "PIC": {
-    "name": "ピカルディ",
-    "desc": ""
+    "name": "ピカルディ"
   },
   "PRO": {
-    "name": "プロヴァンス",
-    "desc": ""
+    "name": "プロヴァンス"
   },
   "ORA": {
-    "name": "オランジュ",
-    "desc": ""
+    "name": "オランジュ"
   },
   "TOU": {
-    "name": "トゥールーズ",
-    "desc": ""
+    "name": "トゥールーズ"
   },
   "BER": {
-    "name": "ベリー",
-    "desc": ""
+    "name": "ベリー"
   },
   "LOR": {
-    "name": "ロレーヌ",
-    "desc": ""
+    "name": "ロレーヌ"
   },
   "BAR": {
-    "name": "バル",
-    "desc": ""
+    "name": "バル"
   },
   "DRE": {
-    "name": "ドリュー",
-    "desc": ""
+    "name": "ドリュー"
   },
   "MRT": {
-    "name": "モルテン",
-    "desc": ""
+    "name": "モルテン"
   },
   "POI": {
-    "name": "ポワトゥー",
-    "desc": ""
+    "name": "ポワトゥー"
   },
   "ANJ": {
-    "name": "アンジュー",
-    "desc": ""
+    "name": "アンジュー"
   },
   "MIE": {
-    "name": "メイン",
-    "desc": ""
+    "name": "メイン"
   },
   "VLS": {
-    "name": "ヴァロワ",
-    "desc": ""
+    "name": "ヴァロワ"
   },
   "PRC": {
-    "name": "ペルシュ",
-    "desc": ""
+    "name": "ペルシュ"
   },
   "FRZ": {
-    "name": "フォレス",
-    "desc": ""
+    "name": "フォレス"
   },
   "BLS": {
-    "name": "ブロワ",
-    "desc": ""
+    "name": "ブロワ"
   },
   "VDM": {
-    "name": "ヴァンドーム",
-    "desc": ""
+    "name": "ヴァンドーム"
   },
   "ETA": {
-    "name": "エタン",
-    "desc": ""
+    "name": "エタン"
   },
   "AST": {
-    "name": "アスタラック",
-    "desc": ""
+    "name": "アスタラック"
   },
   "COM": {
-    "name": "コミング",
-    "desc": ""
+    "name": "コミング"
   },
   "IJO": {
-    "name": "リル＝ジュルダン",
-    "desc": ""
+    "name": "リル＝ジュルダン"
   },
   "VLN": {
-    "name": "ヴァレンティノワ",
-    "desc": ""
+    "name": "ヴァレンティノワ"
   },
   "PER": {
-    "name": "ペリゴール",
-    "desc": ""
+    "name": "ペリゴール"
   },
   "TON": {
-    "name": "トネール",
-    "desc": ""
+    "name": "トネール"
   },
   "MON": {
-    "name": "モンフォール",
-    "desc": ""
+    "name": "モンフォール"
   },
   "AUM": {
-    "name": "オーマレ",
-    "desc": ""
+    "name": "オーマレ"
   },
   "ROU": {
-    "name": "ルーシー",
-    "desc": ""
+    "name": "ルーシー"
   },
   "BSC": {
-    "name": "ブザンソン",
-    "desc": ""
+    "name": "ブザンソン"
   },
   "ALS": {
-    "name": "ストラスブール",
-    "desc": ""
+    "name": "ストラスブール"
   },
   "MTB": {
-    "name": "モンベリアール",
-    "desc": ""
+    "name": "モンベリアール"
   },
   "TUL": {
-    "name": "トゥール",
-    "desc": ""
+    "name": "トゥール"
   },
   "VDU": {
-    "name": "ヴェルダン",
-    "desc": ""
+    "name": "ヴェルダン"
   },
   "MTZ": {
-    "name": "メッツ",
-    "desc": ""
+    "name": "メッツ"
   },
   "SLM": {
-    "name": "サルム",
-    "desc": ""
+    "name": "サルム"
   },
   "MOU": {
-    "name": "ムゾン",
-    "desc": ""
+    "name": "ムゾン"
   },
   "RET": {
-    "name": "レテル",
-    "desc": ""
+    "name": "レテル"
   },
   "CAM": {
-    "name": "カンブレシス",
-    "desc": ""
+    "name": "カンブレシス"
   },
   "BRR": {
-    "name": "ベアルン",
-    "desc": ""
+    "name": "ベアルン"
   },
   "MDM": {
-    "name": "モン＝ド＝マルサン",
-    "desc": ""
+    "name": "モン＝ド＝マルサン"
   },
   "FRT": {
-    "name": "フェレット",
-    "desc": ""
+    "name": "フェレット"
   },
   "MRC": {
-    "name": "ラ・マルシェ",
-    "desc": ""
+    "name": "ラ・マルシェ"
   },
   "VNT": {
-    "name": "ヴァンタドゥール",
-    "desc": ""
+    "name": "ヴァンタドゥール"
   },
   "RCC": {
-    "name": "ロシュシュアール",
-    "desc": ""
+    "name": "ロシュシュアール"
   },
   "CLT": {
-    "name": "カーラット",
-    "desc": ""
+    "name": "カーラット"
   },
   "ANG": {
-    "name": "アングレーム",
-    "desc": ""
+    "name": "アングレーム"
   },
   "DAM": {
-    "name": "ダモット",
-    "desc": ""
+    "name": "ダモット"
   },
   "ENN": {
-    "name": "エンナレア",
-    "desc": ""
+    "name": "エンナレア"
   },
   "DBE": {
-    "name": "ドベア",
-    "desc": ""
+    "name": "ドベア"
   },
   "END": {
-    "name": "エンダータ",
-    "desc": ""
+    "name": "エンダータ"
   },
   "ETH": {
-    "name": "エチオピア",
-    "desc": ""
+    "name": "エチオピア"
   },
   "GJJ": {
-    "name": "ゴージャム",
-    "desc": ""
+    "name": "ゴージャム"
   },
   "MED": {
-    "name": "メドリ・バーリ",
-    "desc": ""
+    "name": "メドリ・バーリ"
   },
   "BTI": {
-    "name": "シミエン",
-    "desc": ""
+    "name": "シミエン"
   },
   "ADA": {
-    "name": "アダル",
-    "desc": ""
+    "name": "アダル"
   },
   "AFA": {
-    "name": "ダンカリ",
-    "desc": ""
+    "name": "ダンカリ"
   },
   "ABB": {
-    "name": "アルバーブニ",
-    "desc": ""
+    "name": "アルバーブニ"
   },
   "AWS": {
-    "name": "アウサ",
-    "desc": ""
+    "name": "アウサ"
   },
   "BLE": {
-    "name": "ベール",
-    "desc": ""
+    "name": "ベール"
   },
   "DHK": {
-    "name": "ダラク",
-    "desc": ""
+    "name": "ダラク"
   },
   "DRA": {
-    "name": "ダラ",
-    "desc": ""
+    "name": "ダラ"
   },
   "DAW": {
-    "name": "ダワロ",
-    "desc": ""
+    "name": "ダワロ"
   },
   "HDY": {
-    "name": "ハディーヤ",
-    "desc": ""
+    "name": "ハディーヤ"
   },
   "IFA": {
-    "name": "イファット",
-    "desc": ""
+    "name": "イファット"
   },
   "HRL": {
-    "name": "ハルラ",
-    "desc": ""
+    "name": "ハルラ"
   },
   "SHK": {
-    "name": "シャルカ",
-    "desc": ""
+    "name": "シャルカ"
   },
   "SOA": {
-    "name": "シェワ",
-    "desc": ""
+    "name": "シェワ"
   },
   "AJU": {
-    "name": "アジュラン",
-    "desc": ""
+    "name": "アジュラン"
   },
   "GLE": {
-    "name": "ジェレディ",
-    "desc": ""
+    "name": "ジェレディ"
   },
   "MDI": {
-    "name": "モガディシュ",
-    "desc": ""
+    "name": "モガディシュ"
   },
   "WAR": {
-    "name": "ワルサンガリ",
-    "desc": ""
+    "name": "ワルサンガリ"
   },
   "TDE": {
-    "name": "タナデ",
-    "desc": ""
+    "name": "タナデ"
   },
   "ABW": {
-    "name": "アル・アブワブ",
-    "desc": ""
+    "name": "アル・アブワブ"
   },
   "ALO": {
-    "name": "アロディア",
-    "desc": ""
+    "name": "アロディア"
   },
   "MAK": {
-    "name": "マクリア",
-    "desc": ""
+    "name": "マクリア"
   },
   "BQL": {
-    "name": "バクリン",
-    "desc": ""
+    "name": "バクリン"
   },
   "BZN": {
-    "name": "バジン",
-    "desc": ""
+    "name": "バジン"
   },
   "JRN": {
-    "name": "ジャリン",
-    "desc": ""
+    "name": "ジャリン"
   },
   "NQS": {
-    "name": "ナキス",
-    "desc": ""
+    "name": "ナキス"
   },
   "QTA": {
-    "name": "カタ",
-    "desc": ""
+    "name": "カタ"
   },
   "DAJ": {
-    "name": "ダジュ",
-    "desc": ""
+    "name": "ダジュ"
   },
   "ORO": {
-    "name": "オロモ",
-    "desc": ""
+    "name": "オロモ"
   },
   "AFR": {
-    "name": "アフレ",
-    "desc": ""
+    "name": "アフレ"
   },
   "SDQ": {
-    "name": "サダカ",
-    "desc": ""
+    "name": "サダカ"
   },
   "FNJ": {
-    "name": "ベルタ",
-    "desc": ""
+    "name": "ベルタ"
   },
   "GUM": {
-    "name": "グムズ",
-    "desc": ""
+    "name": "グムズ"
   },
   "KUN": {
-    "name": "クナマ",
-    "desc": ""
+    "name": "クナマ"
   },
   "CAT": {
-    "name": "カタルーニャ",
-    "desc": ""
+    "name": "カタルーニャ"
   },
   "ANR": {
-    "name": "アンドラ",
-    "desc": ""
+    "name": "アンドラ"
   },
   "ARA": {
-    "name": "アラゴン",
-    "desc": ""
+    "name": "アラゴン"
   },
   "VAL": {
-    "name": "ヴァレンシア",
-    "desc": ""
+    "name": "ヴァレンシア"
   },
   "MLL": {
-    "name": "マヨルカ",
-    "desc": ""
+    "name": "マヨルカ"
   },
   "CAS": {
-    "name": "カスティーリャ",
-    "desc": ""
+    "name": "カスティーリャ"
   },
   "POR": {
-    "name": "ポルトガル",
-    "desc": ""
+    "name": "ポルトガル"
   },
   "LON": {
-    "name": "レオーン",
-    "desc": ""
+    "name": "レオーン"
   },
   "GLC": {
-    "name": "ガリシア",
-    "desc": ""
+    "name": "ガリシア"
   },
   "GRA": {
-    "name": "グラナダ",
-    "desc": ""
+    "name": "グラナダ"
   },
   "NAV": {
-    "name": "ナバラ",
-    "desc": ""
+    "name": "ナバラ"
   },
   "DLH": {
-    "name": "デリー",
-    "desc": ""
+    "name": "デリー"
   },
   "HSL": {
-    "name": "ホイサラ",
-    "desc": ""
+    "name": "ホイサラ"
   },
   "SMV": {
-    "name": "サンブヴァラヤル",
-    "desc": ""
+    "name": "サンブヴァラヤル"
   },
   "VIJ": {
-    "name": "ヴィジャヤナガル",
-    "desc": ""
+    "name": "ヴィジャヤナガル"
   },
   "MAB": {
-    "name": "マバール",
-    "desc": ""
+    "name": "マバール"
   },
   "TNK": {
-    "name": "パーンディヤ",
-    "desc": ""
+    "name": "パーンディヤ"
   },
   "RDY": {
-    "name": "レッディ",
-    "desc": ""
+    "name": "レッディ"
   },
   "YDR": {
-    "name": "ヤダヴァラヤ",
-    "desc": ""
+    "name": "ヤダヴァラヤ"
   },
   "ZMR": {
-    "name": "コーリコード",
-    "desc": ""
+    "name": "コーリコード"
   },
   "KLT": {
-    "name": "コラトゥナドゥ",
-    "desc": ""
+    "name": "コラトゥナドゥ"
   },
   "PDU": {
-    "name": "コーチン",
-    "desc": ""
+    "name": "コーチン"
   },
   "VND": {
-    "name": "ヴェーナートゥ",
-    "desc": ""
+    "name": "ヴェーナートゥ"
   },
   "KTN": {
-    "name": "クッタナド",
-    "desc": ""
+    "name": "クッタナド"
   },
   "KDU": {
-    "name": "パディンジャッテダトゥ",
-    "desc": ""
+    "name": "パディンジャッテダトゥ"
   },
   "KYA": {
-    "name": "コッタヤム",
-    "desc": ""
+    "name": "コッタヤム"
   },
   "VLD": {
-    "name": "ヴァルヴァナドゥ",
-    "desc": ""
+    "name": "ヴァルヴァナドゥ"
   },
   "ELA": {
-    "name": "エーラヤダトゥ",
-    "desc": ""
+    "name": "エーラヤダトゥ"
   },
   "TKU": {
-    "name": "テックムクル",
-    "desc": ""
+    "name": "テックムクル"
   },
   "VDK": {
-    "name": "ヴァダックムクル",
-    "desc": ""
+    "name": "ヴァダックムクル"
   },
   "ALU": {
-    "name": "アルパ",
-    "desc": ""
+    "name": "アルパ"
   },
   "STR": {
-    "name": "サンタラ",
-    "desc": ""
+    "name": "サンタラ"
   },
   "KPL": {
-    "name": "コップラ",
-    "desc": ""
+    "name": "コップラ"
   },
   "MSN": {
-    "name": "ムスニリ",
-    "desc": ""
+    "name": "ムスニリ"
   },
   "RCH": {
-    "name": "レチェーラ",
-    "desc": ""
+    "name": "レチェーラ"
   },
   "ORI": {
-    "name": "オリッサ",
-    "desc": ""
+    "name": "オリッサ"
   },
   "KNK": {
-    "name": "カンカー",
-    "desc": ""
+    "name": "カンカー"
   },
   "BST": {
-    "name": "バスタル",
-    "desc": ""
+    "name": "バスタル"
   },
   "JPO": {
-    "name": "ナンダプール",
-    "desc": ""
+    "name": "ナンダプール"
   },
   "BGL": {
-    "name": "バグラナ",
-    "desc": ""
+    "name": "バグラナ"
   },
   "CHD": {
-    "name": "チャンダ",
-    "desc": ""
+    "name": "チャンダ"
   },
   "BGR": {
-    "name": "バンドゥガラ",
-    "desc": ""
+    "name": "バンドゥガラ"
   },
   "WRG": {
-    "name": "ワイラガル",
-    "desc": ""
+    "name": "ワイラガル"
   },
   "GOA": {
-    "name": "ゴア",
-    "desc": ""
+    "name": "ゴア"
   },
   "HNV": {
-    "name": "ホンナヴァラ",
-    "desc": ""
+    "name": "ホンナヴァラ"
   },
   "DRP": {
-    "name": "ラムナガル",
-    "desc": ""
+    "name": "ラムナガル"
   },
   "JWR": {
-    "name": "ジャワル",
-    "desc": ""
+    "name": "ジャワル"
   },
   "DGR": {
-    "name": "バガー",
-    "desc": ""
+    "name": "バガー"
   },
   "MEW": {
-    "name": "メワール",
-    "desc": ""
+    "name": "メワール"
   },
   "IDR": {
-    "name": "イダー",
-    "desc": ""
+    "name": "イダー"
   },
   "JLR": {
-    "name": "ジャロール",
-    "desc": ""
+    "name": "ジャロール"
   },
   "CMN": {
-    "name": "チャンパナー",
-    "desc": ""
+    "name": "チャンパナー"
   },
   "RJI": {
-    "name": "ラジピプラ",
-    "desc": ""
+    "name": "ラジピプラ"
   },
   "KUT": {
-    "name": "クッチ",
-    "desc": ""
+    "name": "クッチ"
   },
   "SMA": {
-    "name": "サンマ",
-    "desc": ""
+    "name": "サンマ"
   },
   "SND": {
-    "name": "シンド",
-    "desc": ""
+    "name": "シンド"
   },
   "RNP": {
-    "name": "ランプール",
-    "desc": ""
+    "name": "ランプール"
   },
   "GHL": {
-    "name": "ゴヒルヴァード",
-    "desc": ""
+    "name": "ゴヒルヴァード"
   },
   "PLT": {
-    "name": "パリタナ",
-    "desc": ""
+    "name": "パリタナ"
   },
   "JNG": {
-    "name": "ジュナーガル",
-    "desc": ""
+    "name": "ジュナーガル"
   },
   "BHD": {
-    "name": "バーンヴァード",
-    "desc": ""
+    "name": "バーンヴァード"
   },
   "JLW": {
-    "name": "ジャラワド",
-    "desc": ""
+    "name": "ジャラワド"
   },
   "MRW": {
-    "name": "マルワール",
-    "desc": ""
+    "name": "マルワール"
   },
   "HAD": {
-    "name": "ハドティ",
-    "desc": ""
+    "name": "ハドティ"
   },
   "JSL": {
-    "name": "ジャイサルメール",
-    "desc": ""
+    "name": "ジャイサルメール"
   },
   "PGL": {
-    "name": "プガル",
-    "desc": ""
+    "name": "プガル"
   },
   "KLI": {
-    "name": "カラウリ",
-    "desc": ""
+    "name": "カラウリ"
   },
   "SHR": {
-    "name": "サハラン",
-    "desc": ""
+    "name": "サハラン"
   },
   "DRW": {
-    "name": "ダドレワ",
-    "desc": ""
+    "name": "ダドレワ"
   },
   "BWL": {
-    "name": "ベニワル",
-    "desc": ""
+    "name": "ベニワル"
   },
   "JHI": {
-    "name": "ジョヒヤ",
-    "desc": ""
+    "name": "ジョヒヤ"
   },
   "GDA": {
-    "name": "ゴダラ",
-    "desc": ""
+    "name": "ゴダラ"
   },
   "PNA": {
-    "name": "プニア",
-    "desc": ""
+    "name": "プニア"
   },
   "BHA": {
-    "name": "バトニル",
-    "desc": ""
+    "name": "バトニル"
   },
   "DOG": {
-    "name": "ドグラ",
-    "desc": ""
+    "name": "ドグラ"
   },
   "DHU": {
-    "name": "ドゥンダル",
-    "desc": ""
+    "name": "ドゥンダル"
   },
   "GWA": {
-    "name": "グワリオール",
-    "desc": ""
+    "name": "グワリオール"
   },
   "JJK": {
-    "name": "ジェジャカブクティ",
-    "desc": ""
+    "name": "ジェジャカブクティ"
   },
   "BND": {
-    "name": "ブンデルカンド",
-    "desc": ""
+    "name": "ブンデルカンド"
   },
   "BGK": {
-    "name": "ベーグルカンド",
-    "desc": ""
+    "name": "ベーグルカンド"
   },
   "MAU": {
-    "name": "マウ・ガンジ",
-    "desc": ""
+    "name": "マウ・ガンジ"
   },
   "KHR": {
-    "name": "ケルラ",
-    "desc": ""
+    "name": "ケルラ"
   },
   "GHR": {
-    "name": "ガルハ",
-    "desc": ""
+    "name": "ガルハ"
   },
   "RTP": {
-    "name": "ラトナプラ",
-    "desc": ""
+    "name": "ラトナプラ"
   },
   "BAD": {
-    "name": "バウード",
-    "desc": ""
+    "name": "バウード"
   },
   "NRS": {
-    "name": "ナーシングプール",
-    "desc": ""
+    "name": "ナーシングプール"
   },
   "KJA": {
-    "name": "キョンジャル",
-    "desc": ""
+    "name": "キョンジャル"
   },
   "PTN": {
-    "name": "パトナ",
-    "desc": ""
+    "name": "パトナ"
   },
   "PRT": {
-    "name": "マンドール",
-    "desc": ""
+    "name": "マンドール"
   },
   "KLH": {
-    "name": "カラハンディ",
-    "desc": ""
+    "name": "カラハンディ"
   },
   "SRG": {
-    "name": "サランガル",
-    "desc": ""
+    "name": "サランガル"
   },
   "PLA": {
-    "name": "パル・ラハラ",
-    "desc": ""
+    "name": "パル・ラハラ"
   },
   "BNA": {
-    "name": "ボナイ",
-    "desc": ""
+    "name": "ボナイ"
   },
   "MJU": {
-    "name": "マユルバンジ",
-    "desc": ""
+    "name": "マユルバンジ"
   },
   "DBD": {
-    "name": "ダンバデニヤ",
-    "desc": ""
+    "name": "ダンバデニヤ"
   },
   "JFN": {
-    "name": "ジャフナ",
-    "desc": ""
+    "name": "ジャフナ"
   },
   "NAG": {
-    "name": "ナガル",
-    "desc": ""
+    "name": "ナガル"
   },
   "SWT": {
-    "name": "スワート",
-    "desc": ""
+    "name": "スワート"
   },
   "HNZ": {
-    "name": "フンザ",
-    "desc": ""
+    "name": "フンザ"
   },
   "CTR": {
-    "name": "チトラル",
-    "desc": ""
+    "name": "チトラル"
   },
   "CRL": {
-    "name": "ウルツン",
-    "desc": ""
+    "name": "ウルツン"
   },
   "GLI": {
-    "name": "ギルギット",
-    "desc": ""
+    "name": "ギルギット"
   },
   "KSH": {
-    "name": "カシミール",
-    "desc": ""
+    "name": "カシミール"
   },
   "RJR": {
-    "name": "ラジョウリ",
-    "desc": ""
+    "name": "ラジョウリ"
   },
   "PNC": {
-    "name": "プーンチ",
-    "desc": ""
+    "name": "プーンチ"
   },
   "CBH": {
-    "name": "ビンバー",
-    "desc": ""
+    "name": "ビンバー"
   },
   "CAB": {
-    "name": "チャンバ",
-    "desc": ""
+    "name": "チャンバ"
   },
   "LHL": {
-    "name": "ラフル",
-    "desc": ""
+    "name": "ラフル"
   },
   "KLU": {
-    "name": "クユ",
-    "desc": ""
+    "name": "クユ"
   },
   "KSW": {
-    "name": "キシュトワル",
-    "desc": ""
+    "name": "キシュトワル"
   },
   "SKT": {
-    "name": "スケト",
-    "desc": ""
+    "name": "スケト"
   },
   "BSP": {
-    "name": "ビラースプル",
-    "desc": ""
+    "name": "ビラースプル"
   },
   "KTL": {
-    "name": "クトレハール",
-    "desc": ""
+    "name": "クトレハール"
   },
   "KGR": {
-    "name": "カーングラ",
-    "desc": ""
+    "name": "カーングラ"
   },
   "NRP": {
-    "name": "ヌールプル",
-    "desc": ""
+    "name": "ヌールプル"
   },
   "MAJ": {
-    "name": "マジャパヒト",
-    "desc": ""
+    "name": "マジャパヒト"
   },
   "BLI": {
-    "name": "バリ",
-    "desc": ""
+    "name": "バリ"
   },
   "SUN": {
-    "name": "スンダ",
-    "desc": ""
+    "name": "スンダ"
   },
   "JMB": {
-    "name": "メラユ",
-    "desc": ""
+    "name": "メラユ"
   },
   "ATJ": {
-    "name": "アチェ",
-    "desc": ""
+    "name": "アチェ"
   },
   "PSA": {
-    "name": "パサイ",
-    "desc": ""
+    "name": "パサイ"
   },
   "ARU": {
-    "name": "アル",
-    "desc": ""
+    "name": "アル"
   },
   "PNI": {
-    "name": "パンナイ",
-    "desc": ""
+    "name": "パンナイ"
   },
   "BUS": {
-    "name": "バルス",
-    "desc": ""
+    "name": "バルス"
   },
   "INR": {
-    "name": "イドゥラギリ",
-    "desc": ""
+    "name": "イドゥラギリ"
   },
   "SGT": {
-    "name": "シグントゥル",
-    "desc": ""
+    "name": "シグントゥル"
   },
   "PLB": {
-    "name": "パレンバン",
-    "desc": ""
+    "name": "パレンバン"
   },
   "LGE": {
-    "name": "リンゲ",
-    "desc": ""
+    "name": "リンゲ"
   },
   "TJP": {
-    "name": "タンジュンプラ",
-    "desc": ""
+    "name": "タンジュンプラ"
   },
   "NSR": {
-    "name": "ナン・サルナイ",
-    "desc": ""
+    "name": "ナン・サルナイ"
   },
   "KRP": {
-    "name": "クリパン",
-    "desc": ""
+    "name": "クリパン"
   },
   "MRP": {
-    "name": "クタイ・マルタプラ",
-    "desc": ""
+    "name": "クタイ・マルタプラ"
   },
   "KKG": {
-    "name": "クタイ・カルタネガラ",
-    "desc": ""
+    "name": "クタイ・カルタネガラ"
   },
   "SMB": {
-    "name": "サンバス",
-    "desc": ""
+    "name": "サンバス"
   },
   "TDG": {
-    "name": "ティドゥング",
-    "desc": ""
+    "name": "ティドゥング"
   },
   "BEI": {
-    "name": "ブルネイ",
-    "desc": ""
+    "name": "ブルネイ"
   },
   "MNU": {
-    "name": "メラナウ",
-    "desc": ""
+    "name": "メラナウ"
   },
   "SBG": {
-    "name": "サントゥボン",
-    "desc": ""
+    "name": "サントゥボン"
   },
   "SGU": {
-    "name": "サンガウ",
-    "desc": ""
+    "name": "サンガウ"
   },
   "LNK": {
-    "name": "ランダク",
-    "desc": ""
+    "name": "ランダク"
   },
   "SBU": {
-    "name": "セリンバウ",
-    "desc": ""
+    "name": "セリンバウ"
   },
   "SLA": {
-    "name": "シラット",
-    "desc": ""
+    "name": "シラット"
   },
   "BLN": {
-    "name": "ボラーン",
-    "desc": ""
+    "name": "ボラーン"
   },
   "GRT": {
-    "name": "ゴロンタロ",
-    "desc": ""
+    "name": "ゴロンタロ"
   },
   "PJT": {
-    "name": "プジャナンティ",
-    "desc": ""
+    "name": "プジャナンティ"
   },
   "BGG": {
-    "name": "バンガ",
-    "desc": ""
+    "name": "バンガ"
   },
   "LUW": {
-    "name": "ルウ",
-    "desc": ""
+    "name": "ルウ"
   },
   "BAI": {
-    "name": "バンガイ",
-    "desc": ""
+    "name": "バンガイ"
   },
   "BTE": {
-    "name": "バンテン",
-    "desc": ""
+    "name": "バンテン"
   },
   "GOW": {
-    "name": "ゴワ",
-    "desc": ""
+    "name": "ゴワ"
   },
   "BOW": {
-    "name": "ボウォンテフ",
-    "desc": ""
+    "name": "ボウォンテフ"
   },
   "BTN": {
-    "name": "ブトゥン",
-    "desc": ""
+    "name": "ブトゥン"
   },
   "MKG": {
-    "name": "メコンガ",
-    "desc": ""
+    "name": "メコンガ"
   },
   "KNW": {
-    "name": "コナウェ",
-    "desc": ""
+    "name": "コナウェ"
   },
   "MRN": {
-    "name": "モロネネ",
-    "desc": ""
+    "name": "モロネネ"
   },
   "CIN": {
-    "name": "チナ",
-    "desc": ""
+    "name": "チナ"
   },
   "KLS": {
-    "name": "カリスス",
-    "desc": ""
+    "name": "カリスス"
   },
   "WUN": {
-    "name": "ムナ",
-    "desc": ""
+    "name": "ムナ"
   },
   "BNE": {
-    "name": "ボネ",
-    "desc": ""
+    "name": "ボネ"
   },
   "SDR": {
-    "name": "シデンレング",
-    "desc": ""
+    "name": "シデンレング"
   },
   "RRU": {
-    "name": "バル",
-    "desc": ""
+    "name": "バル"
   },
   "SIG": {
-    "name": "シアン",
-    "desc": ""
+    "name": "シアン"
   },
   "PKR": {
-    "name": "パソッコラン",
-    "desc": ""
+    "name": "パソッコラン"
   },
   "SLP": {
-    "name": "セラパラン",
-    "desc": ""
+    "name": "セラパラン"
   },
   "BIM": {
-    "name": "ビマ",
-    "desc": ""
+    "name": "ビマ"
   },
   "DOM": {
-    "name": "ドンプ",
-    "desc": ""
+    "name": "ドンプ"
   },
   "NGL": {
-    "name": "ンガリ",
-    "desc": ""
+    "name": "ンガリ"
   },
   "TLW": {
-    "name": "タリワン",
-    "desc": ""
+    "name": "タリワン"
   },
   "LRT": {
-    "name": "ラランツカ",
-    "desc": ""
+    "name": "ラランツカ"
   },
   "WHL": {
-    "name": "ウェハレ",
-    "desc": ""
+    "name": "ウェハレ"
   },
   "BAC": {
-    "name": "バカン",
-    "desc": ""
+    "name": "バカン"
   },
   "TER": {
-    "name": "テルナテ",
-    "desc": ""
+    "name": "テルナテ"
   },
   "TID": {
-    "name": "ティドレ",
-    "desc": ""
+    "name": "ティドレ"
   },
   "LOL": {
-    "name": "ロロダ",
-    "desc": ""
+    "name": "ロロダ"
   },
   "JLO": {
-    "name": "ジャイロロ",
-    "desc": ""
+    "name": "ジャイロロ"
   },
   "MOO": {
-    "name": "モロ",
-    "desc": ""
+    "name": "モロ"
   },
   "SUL": {
-    "name": "ルパ・スグ",
-    "desc": ""
+    "name": "ルパ・スグ"
   },
   "MYI": {
-    "name": "マ＝イ",
-    "desc": ""
+    "name": "マ＝イ"
   },
   "CEB": {
-    "name": "セブ",
-    "desc": ""
+    "name": "セブ"
   },
   "TDO": {
-    "name": "トンド",
-    "desc": ""
+    "name": "トンド"
   },
   "MNA": {
-    "name": "マイニラ",
-    "desc": ""
+    "name": "マイニラ"
   },
   "MDY": {
-    "name": "マディヤ＝アス",
-    "desc": ""
+    "name": "マディヤ＝アス"
   },
   "PGS": {
-    "name": "カボロアン",
-    "desc": ""
+    "name": "カボロアン"
   },
   "BTU": {
-    "name": "ブトゥアン",
-    "desc": ""
+    "name": "ブトゥアン"
   },
   "MGD": {
-    "name": "ウェンドゥリング",
-    "desc": ""
+    "name": "ウェンドゥリング"
   },
   "KIM": {
-    "name": "キリマン",
-    "desc": ""
+    "name": "キリマン"
   },
   "LNO": {
-    "name": "ラナオ",
-    "desc": ""
+    "name": "ラナオ"
   },
   "IBL": {
-    "name": "イバロン",
-    "desc": ""
+    "name": "イバロン"
   },
   "PLL": {
-    "name": "プリル",
-    "desc": ""
+    "name": "プリル"
   },
   "TYY": {
-    "name": "タイタイ",
-    "desc": ""
+    "name": "タイタイ"
   },
   "KML": {
-    "name": "クマラーラン",
-    "desc": ""
+    "name": "クマラーラン"
   },
   "CNT": {
-    "name": "カインタ",
-    "desc": ""
+    "name": "カインタ"
   },
   "KAM": {
-    "name": "カイマナ",
-    "desc": ""
+    "name": "カイマナ"
   },
   "BOL": {
-    "name": "ダピタン",
-    "desc": ""
+    "name": "ダピタン"
   },
   "SML": {
-    "name": "サンマラン",
-    "desc": ""
+    "name": "サンマラン"
   },
   "ILC": {
-    "name": "イロコス",
-    "desc": ""
+    "name": "イロコス"
   },
   "WGE": {
-    "name": "ワイゲオ",
-    "desc": ""
+    "name": "ワイゲオ"
   },
   "MAD": {
-    "name": "マデン",
-    "desc": ""
+    "name": "マデン"
   },
   "MSL": {
-    "name": "ミソール",
-    "desc": ""
+    "name": "ミソール"
   },
   "ABA": {
-    "name": "アルバ",
-    "desc": ""
+    "name": "アルバ"
   },
   "ANC": {
-    "name": "アンコーナ",
-    "desc": ""
+    "name": "アンコーナ"
   },
   "AQU": {
-    "name": "アクイレイア",
-    "desc": ""
+    "name": "アクイレイア"
   },
   "ARB": {
-    "name": "アルボレア",
-    "desc": ""
+    "name": "アルボレア"
   },
   "ARZ": {
-    "name": "アレッツォ",
-    "desc": ""
+    "name": "アレッツォ"
   },
   "ASC": {
-    "name": "アスコリ",
-    "desc": ""
+    "name": "アスコリ"
   },
   "ASD": {
-    "name": "アレッサンドリア",
-    "desc": ""
+    "name": "アレッサンドリア"
   },
   "ATI": {
-    "name": "アスティ",
-    "desc": ""
+    "name": "アスティ"
   },
   "BLG": {
-    "name": "ボローニャ",
-    "desc": ""
+    "name": "ボローニャ"
   },
   "BRS": {
-    "name": "ブレシア",
-    "desc": ""
+    "name": "ブレシア"
   },
   "CAG": {
-    "name": "カリアリ",
-    "desc": ""
+    "name": "カリアリ"
   },
   "CDC": {
-    "name": "チッタ・ディ・カステッロ",
-    "desc": ""
+    "name": "チッタ・ディ・カステッロ"
   },
   "CEN": {
-    "name": "セネダ",
-    "desc": ""
+    "name": "セネダ"
   },
   "CES": {
-    "name": "チェセーナ",
-    "desc": ""
+    "name": "チェセーナ"
   },
   "CEV": {
-    "name": "チェヴァ",
-    "desc": ""
+    "name": "チェヴァ"
   },
   "CHX": {
-    "name": "キエーリ",
-    "desc": ""
+    "name": "キエーリ"
   },
   "CMR": {
-    "name": "カメリーノ",
-    "desc": ""
+    "name": "カメリーノ"
   },
   "CNV": {
-    "name": "カナヴェーゼ",
-    "desc": ""
+    "name": "カナヴェーゼ"
   },
   "COR": {
-    "name": "コルシカ",
-    "desc": ""
+    "name": "コルシカ"
   },
   "COT": {
-    "name": "コルトーナ",
-    "desc": ""
+    "name": "コルトーナ"
   },
   "CRM": {
-    "name": "クレモナ",
-    "desc": ""
+    "name": "クレモナ"
   },
   "CRR": {
-    "name": "フィナーレ",
-    "desc": ""
+    "name": "フィナーレ"
   },
   "FAB": {
-    "name": "ファブリアーノ",
-    "desc": ""
+    "name": "ファブリアーノ"
   },
   "FAE": {
-    "name": "ファエンツァ",
-    "desc": ""
+    "name": "ファエンツァ"
   },
   "FEL": {
-    "name": "フェルトレ",
-    "desc": ""
+    "name": "フェルトレ"
   },
   "FER": {
-    "name": "フェラーラ",
-    "desc": ""
+    "name": "フェラーラ"
   },
   "FLO": {
-    "name": "フィレンツェ",
-    "desc": ""
+    "name": "フィレンツェ"
   },
   "FRM": {
-    "name": "フェルモ",
-    "desc": ""
+    "name": "フェルモ"
   },
   "GAL": {
-    "name": "ガッルーラ",
-    "desc": ""
+    "name": "ガッルーラ"
   },
   "GEN": {
-    "name": "ジェノヴァ",
-    "desc": ""
+    "name": "ジェノヴァ"
   },
   "GUB": {
-    "name": "グッビオ",
-    "desc": ""
+    "name": "グッビオ"
   },
   "IMO": {
-    "name": "イモラ",
-    "desc": ""
+    "name": "イモラ"
   },
   "LUC": {
-    "name": "ルッカ",
-    "desc": ""
+    "name": "ルッカ"
   },
   "MAN": {
-    "name": "マントヴァ",
-    "desc": ""
+    "name": "マントヴァ"
   },
   "MFA": {
-    "name": "モンフェッラート",
-    "desc": ""
+    "name": "モンフェッラート"
   },
   "MLO": {
-    "name": "ミラノ",
-    "desc": ""
+    "name": "ミラノ"
   },
   "MND": {
-    "name": "モンドヴィ",
-    "desc": ""
+    "name": "モンドヴィ"
   },
   "MOD": {
-    "name": "モデナ",
-    "desc": ""
+    "name": "モデナ"
   },
   "MSP": {
-    "name": "マラスピナ",
-    "desc": ""
+    "name": "マラスピナ"
   },
   "MTA": {
-    "name": "マチェラータ",
-    "desc": ""
+    "name": "マチェラータ"
   },
   "NAP": {
-    "name": "ナポリ",
-    "desc": ""
+    "name": "ナポリ"
   },
   "PAD": {
-    "name": "パドヴァ",
-    "desc": ""
+    "name": "パドヴァ"
   },
   "PAP": {
-    "name": "ローマ",
-    "desc": ""
+    "name": "ローマ"
   },
   "PAR": {
-    "name": "パルマ",
-    "desc": ""
+    "name": "パルマ"
   },
   "PAV": {
-    "name": "パヴィア",
-    "desc": ""
+    "name": "パヴィア"
   },
   "PEA": {
-    "name": "ペルージャ",
-    "desc": ""
+    "name": "ペルージャ"
   },
   "PES": {
-    "name": "ペーザロ",
-    "desc": ""
+    "name": "ペーザロ"
   },
   "PIE": {
-    "name": "ピエモンテ",
-    "desc": ""
+    "name": "ピエモンテ"
   },
   "PIO": {
-    "name": "ピオンビーノ",
-    "desc": ""
+    "name": "ピオンビーノ"
   },
   "PIS": {
-    "name": "ピサ",
-    "desc": ""
+    "name": "ピサ"
   },
   "PRA": {
-    "name": "プラト",
-    "desc": ""
+    "name": "プラト"
   },
   "RAV": {
-    "name": "ラヴェンナ",
-    "desc": ""
+    "name": "ラヴェンナ"
   },
   "RGG": {
-    "name": "レッジョ",
-    "desc": ""
+    "name": "レッジョ"
   },
   "RIM": {
-    "name": "リミニ",
-    "desc": ""
+    "name": "リミニ"
   },
   "SAL": {
-    "name": "サルッツォ",
-    "desc": ""
+    "name": "サルッツォ"
   },
   "SAV": {
-    "name": "サボイ",
-    "desc": ""
+    "name": "サボイ"
   },
   "SCL": {
-    "name": "サンクロード",
-    "desc": ""
+    "name": "サンクロード"
   },
   "GNV": {
-    "name": "ジュネーヴ",
-    "desc": ""
+    "name": "ジュネーヴ"
   },
   "SIC": {
-    "name": "シチリア",
-    "desc": ""
+    "name": "シチリア"
   },
   "SIE": {
-    "name": "シエナ",
-    "desc": ""
+    "name": "シエナ"
   },
   "SPL": {
-    "name": "スポレート",
-    "desc": ""
+    "name": "スポレート"
   },
   "PTG": {
-    "name": "ピティリアーノ",
-    "desc": ""
+    "name": "ピティリアーノ"
   },
   "SSP": {
-    "name": "サンセポルクロ",
-    "desc": ""
+    "name": "サンセポルクロ"
   },
   "TNT": {
-    "name": "トレント",
-    "desc": ""
+    "name": "トレント"
   },
   "TOR": {
-    "name": "トーレス",
-    "desc": ""
+    "name": "トーレス"
   },
   "TRV": {
-    "name": "トレヴィーゾ",
-    "desc": ""
+    "name": "トレヴィーゾ"
   },
   "TTE": {
-    "name": "トリエステ",
-    "desc": ""
+    "name": "トリエステ"
   },
   "TTN": {
-    "name": "トルトナ",
-    "desc": ""
+    "name": "トルトナ"
   },
   "URB": {
-    "name": "ウルビーノ",
-    "desc": ""
+    "name": "ウルビーノ"
   },
   "VEN": {
-    "name": "ヴェネツィア",
-    "desc": ""
+    "name": "ヴェネツィア"
   },
   "VER": {
-    "name": "ヴェローナ",
-    "desc": ""
+    "name": "ヴェローナ"
   },
   "VIN": {
-    "name": "ヴィチェンツァ",
-    "desc": ""
+    "name": "ヴィチェンツァ"
   },
   "VLT": {
-    "name": "ヴォルテッラ",
-    "desc": ""
+    "name": "ヴォルテッラ"
   },
   "PRZ": {
-    "name": "ペルッツィ",
-    "desc": ""
+    "name": "ペルッツィ"
   },
   "BRD": {
-    "name": "バルディ",
-    "desc": ""
+    "name": "バルディ"
   },
   "ACC": {
-    "name": "アッチャイオリ",
-    "desc": ""
+    "name": "アッチャイオリ"
   },
   "PST": {
-    "name": "ピストイア",
-    "desc": ""
+    "name": "ピストイア"
   },
   "VUN": {
-    "name": "ヴング",
-    "desc": ""
+    "name": "ヴング"
   },
   "NSU": {
-    "name": "ンスディ",
-    "desc": ""
+    "name": "ンスディ"
   },
   "MPE": {
-    "name": "マゲラ",
-    "desc": ""
+    "name": "マゲラ"
   },
   "VNA": {
-    "name": "ヴンダ",
-    "desc": ""
+    "name": "ヴンダ"
   },
   "MBT": {
-    "name": "ムバタ",
-    "desc": ""
+    "name": "ムバタ"
   },
   "SOY": {
-    "name": "ソヨ",
-    "desc": ""
+    "name": "ソヨ"
   },
   "MOM": {
-    "name": "モンボアーレス",
-    "desc": ""
+    "name": "モンボアーレス"
   },
   "CHO": {
-    "name": "チョクウェ",
-    "desc": ""
+    "name": "チョクウェ"
   },
   "OVI": {
-    "name": "オヴィンブンドゥ",
-    "desc": ""
+    "name": "オヴィンブンドゥ"
   },
   "LND": {
-    "name": "ルンダ",
-    "desc": ""
+    "name": "ルンダ"
   },
   "LBA": {
-    "name": "ルバ",
-    "desc": ""
+    "name": "ルバ"
   },
   "KUB": {
-    "name": "クバ",
-    "desc": ""
+    "name": "クバ"
   },
   "LEG": {
-    "name": "レガ",
-    "desc": ""
+    "name": "レガ"
   },
   "SIK": {
-    "name": "シルック",
-    "desc": ""
+    "name": "シルック"
   },
   "HOL": {
-    "name": "ホラント",
-    "desc": ""
+    "name": "ホラント"
   },
   "ZEE": {
-    "name": "ゼーラント",
-    "desc": ""
+    "name": "ゼーラント"
   },
   "BRB": {
-    "name": "ブラバント",
-    "desc": ""
+    "name": "ブラバント"
   },
   "FLA": {
-    "name": "フランドル",
-    "desc": ""
+    "name": "フランドル"
   },
   "LUX": {
-    "name": "ルクセンブルク",
-    "desc": ""
+    "name": "ルクセンブルク"
   },
   "LIE": {
-    "name": "$liege$",
-    "desc": ""
+    "name": "リエージュ"
   },
   "CHN": {
-    "name": "チニー",
-    "desc": ""
+    "name": "チニー"
   },
   "LIM": {
-    "name": "ランブール",
-    "desc": ""
+    "name": "ランブール"
   },
   "NAM": {
-    "name": "ナミュール",
-    "desc": ""
+    "name": "ナミュール"
   },
   "LOO": {
-    "name": "ルーン",
-    "desc": ""
+    "name": "ルーン"
   },
   "VBG": {
-    "name": "ファルケンブルク",
-    "desc": ""
+    "name": "ファルケンブルク"
   },
   "HRN": {
-    "name": "ホーン",
-    "desc": ""
+    "name": "ホーン"
   },
   "CJK": {
-    "name": "クイック",
-    "desc": ""
+    "name": "クイック"
   },
   "UTR": {
-    "name": "ユトレヒト",
-    "desc": ""
+    "name": "ユトレヒト"
   },
   "FRI": {
-    "name": "フリジア",
-    "desc": ""
+    "name": "フリジア"
   },
   "STV": {
-    "name": "スタヴェロ＝マルメディ",
-    "desc": ""
+    "name": "スタヴェロ＝マルメディ"
   },
   "HAI": {
-    "name": "エノー",
-    "desc": ""
+    "name": "エノー"
   },
   "ARS": {
-    "name": "アルトワ",
-    "desc": ""
+    "name": "アルトワ"
   },
   "STP": {
-    "name": "サンポール",
-    "desc": ""
+    "name": "サンポール"
   },
   "BGN": {
-    "name": "ブローニュ",
-    "desc": ""
+    "name": "ブローニュ"
   },
   "BNT": {
-    "name": "ベントハイム",
-    "desc": ""
+    "name": "ベントハイム"
   },
   "BLL": {
-    "name": "ブイヨン",
-    "desc": ""
+    "name": "ブイヨン"
   },
   "HBG": {
-    "name": "ハインスベルク",
-    "desc": ""
+    "name": "ハインスベルク"
   },
   "MOR": {
-    "name": "モロッコ",
-    "desc": ""
+    "name": "モロッコ"
   },
   "FEZ": {
-    "name": "フェズ",
-    "desc": ""
+    "name": "フェズ"
   },
   "CNR": {
-    "name": "グアンチェ",
-    "desc": ""
+    "name": "グアンチェ"
   },
   "MRK": {
-    "name": "マラケシュ",
-    "desc": ""
+    "name": "マラケシュ"
   },
   "TET": {
-    "name": "テトゥアン",
-    "desc": ""
+    "name": "テトゥアン"
   },
   "SLE": {
-    "name": "サレ",
-    "desc": ""
+    "name": "サレ"
   },
   "TFL": {
-    "name": "タフィラルト",
-    "desc": ""
+    "name": "タフィラルト"
   },
   "SOS": {
-    "name": "サス",
-    "desc": ""
+    "name": "サス"
   },
   "TLE": {
-    "name": "トレムセン",
-    "desc": ""
+    "name": "トレムセン"
   },
   "ALG": {
-    "name": "アルジェ",
-    "desc": ""
+    "name": "アルジェ"
   },
   "TGT": {
-    "name": "トゥグール",
-    "desc": ""
+    "name": "トゥグール"
   },
   "KUK": {
-    "name": "クク",
-    "desc": ""
+    "name": "クク"
   },
   "AIT": {
-    "name": "アイト・アッバース",
-    "desc": ""
+    "name": "アイト・アッバース"
   },
   "MZB": {
-    "name": "ムザブ",
-    "desc": ""
+    "name": "ムザブ"
   },
   "TUN": {
-    "name": "トゥニス",
-    "desc": ""
+    "name": "トゥニス"
   },
   "DJE": {
-    "name": "ジェリド",
-    "desc": ""
+    "name": "ジェリド"
   },
   "GFS": {
-    "name": "ガフサ",
-    "desc": ""
+    "name": "ガフサ"
   },
   "GBS": {
-    "name": "ガベス",
-    "desc": ""
+    "name": "ガベス"
   },
   "BTL": {
-    "name": "テリーズ",
-    "desc": ""
+    "name": "テリーズ"
   },
   "ZAB": {
-    "name": "ザブ",
-    "desc": ""
+    "name": "ザブ"
   },
   "OGL": {
-    "name": "ワルグラ",
-    "desc": ""
+    "name": "ワルグラ"
   },
   "TAT": {
-    "name": "トゥアット",
-    "desc": ""
+    "name": "トゥアット"
   },
   "TAR": {
-    "name": "プレペチャ",
-    "desc": ""
+    "name": "プレペチャ"
   },
   "CRK": {
-    "name": "チュルメクア",
-    "desc": ""
+    "name": "チュルメクア"
   },
   "CTE": {
-    "name": "クイツェオ",
-    "desc": ""
+    "name": "クイツェオ"
   },
   "TUZ": {
-    "name": "トザントラン",
-    "desc": ""
+    "name": "トザントラン"
   },
   "TZI": {
-    "name": "ツィタクアロ",
-    "desc": ""
+    "name": "ツィタクアロ"
   },
   "TAX": {
-    "name": "タシマロア",
-    "desc": ""
+    "name": "タシマロア"
   },
   "TNC": {
-    "name": "テノチティトラン",
-    "desc": ""
+    "name": "テノチティトラン"
   },
   "TTZ": {
-    "name": "アコルワカン",
-    "desc": ""
+    "name": "アコルワカン"
   },
   "CUL": {
-    "name": "クルワカン",
-    "desc": ""
+    "name": "クルワカン"
   },
   "TEP": {
-    "name": "テパネカパン",
-    "desc": ""
+    "name": "テパネカパン"
   },
   "TCP": {
-    "name": "トラコパン",
-    "desc": ""
+    "name": "トラコパン"
   },
   "OTO": {
-    "name": "ザルトカン",
-    "desc": ""
+    "name": "ザルトカン"
   },
   "AXO": {
-    "name": "アコパン",
-    "desc": ""
+    "name": "アコパン"
   },
   "MET": {
-    "name": "メツティトラン",
-    "desc": ""
+    "name": "メツティトラン"
   },
   "HYC": {
-    "name": "ウェヤココトラ",
-    "desc": ""
+    "name": "ウェヤココトラ"
   },
   "TUT": {
-    "name": "トトテペク",
-    "desc": ""
+    "name": "トトテペク"
   },
   "XIL": {
-    "name": "シロテペク",
-    "desc": ""
+    "name": "シロテペク"
   },
   "ZIN": {
-    "name": "シナペクアロ",
-    "desc": ""
+    "name": "シナペクアロ"
   },
   "MAT": {
-    "name": "トローカン",
-    "desc": ""
+    "name": "トローカン"
   },
   "MLN": {
-    "name": "マリナルコ",
-    "desc": ""
+    "name": "マリナルコ"
   },
   "TLA": {
-    "name": "ティシュトラ",
-    "desc": ""
+    "name": "ティシュトラ"
   },
   "YPZ": {
-    "name": "ジョピツィンコ",
-    "desc": ""
+    "name": "ジョピツィンコ"
   },
   "CLP": {
-    "name": "チラパ",
-    "desc": ""
+    "name": "チラパ"
   },
   "OAP": {
-    "name": "オアパン",
-    "desc": ""
+    "name": "オアパン"
   },
   "TLX": {
-    "name": "トラスカラン",
-    "desc": ""
+    "name": "トラスカラン"
   },
   "ZAP": {
-    "name": "ザアチラ",
-    "desc": ""
+    "name": "ザアチラ"
   },
   "TPL": {
-    "name": "テポスコクラ",
-    "desc": ""
+    "name": "テポスコクラ"
   },
   "IXL": {
-    "name": "イシュトラン",
-    "desc": ""
+    "name": "イシュトラン"
   },
   "YDZ": {
-    "name": "ヨドサカヒ",
-    "desc": ""
+    "name": "ヨドサカヒ"
   },
   "YAU": {
-    "name": "ヤウテペク",
-    "desc": ""
+    "name": "ヤウテペク"
   },
   "THT": {
-    "name": "テワンテペク",
-    "desc": ""
+    "name": "テワンテペク"
   },
   "MIX": {
-    "name": "ユク・ドゥザ",
-    "desc": ""
+    "name": "ユク・ドゥザ"
   },
   "QIG": {
-    "name": "キエゴキ",
-    "desc": ""
+    "name": "キエゴキ"
   },
   "TZL": {
-    "name": "テオサコアウコ",
-    "desc": ""
+    "name": "テオサコアウコ"
   },
   "JUX": {
-    "name": "ヨドソ・クイヤ",
-    "desc": ""
+    "name": "ヨドソ・クイヤ"
   },
   "TCQ": {
-    "name": "ンディシ・ヌー",
-    "desc": ""
+    "name": "ンディシ・ヌー"
   },
   "YCH": {
-    "name": "ユク・サトゥータ",
-    "desc": ""
+    "name": "ユク・サトゥータ"
   },
   "COI": {
-    "name": "ヨドゾー・クー",
-    "desc": ""
+    "name": "ヨドゾー・クー"
   },
   "CCN": {
-    "name": "クイカトラン",
-    "desc": ""
+    "name": "クイカトラン"
   },
   "NND": {
-    "name": "ニャウ・ンディイ",
-    "desc": ""
+    "name": "ニャウ・ンディイ"
   },
   "MHT": {
-    "name": "ミアワトラン",
-    "desc": ""
+    "name": "ミアワトラン"
   },
   "TEO": {
-    "name": "テオティトラン",
-    "desc": ""
+    "name": "テオティトラン"
   },
   "CLM": {
-    "name": "コリマン",
-    "desc": ""
+    "name": "コリマン"
   },
   "TOT": {
-    "name": "チェンポワラン",
-    "desc": ""
+    "name": "チェンポワラン"
   },
   "MZT": {
-    "name": "ミサントラ",
-    "desc": ""
+    "name": "ミサントラ"
   },
   "PPT": {
-    "name": "パパントラン",
-    "desc": ""
+    "name": "パパントラン"
   },
   "QHZ": {
-    "name": "クアホイツトラン",
-    "desc": ""
+    "name": "クアホイツトラン"
   },
   "HST": {
-    "name": "テアヨトラン",
-    "desc": ""
+    "name": "テアヨトラン"
   },
   "MCC": {
-    "name": "チュアチャパンコ",
-    "desc": ""
+    "name": "チュアチャパンコ"
   },
   "TTC": {
-    "name": "タムトク",
-    "desc": ""
+    "name": "タムトク"
   },
   "TXP": {
-    "name": "トゥスパン",
-    "desc": ""
+    "name": "トゥスパン"
   },
   "OZL": {
-    "name": "オスルアマ",
-    "desc": ""
+    "name": "オスルアマ"
   },
   "OXT": {
-    "name": "オストリパン",
-    "desc": ""
+    "name": "オストリパン"
   },
   "TZH": {
-    "name": "ツィウコアック",
-    "desc": ""
+    "name": "ツィウコアック"
   },
   "TZP": {
-    "name": "テツポティトラン",
-    "desc": ""
+    "name": "テツポティトラン"
   },
   "XAL": {
-    "name": "ハリスコ",
-    "desc": ""
+    "name": "ハリスコ"
   },
   "TAA": {
-    "name": "トラルパン",
-    "desc": ""
+    "name": "トラルパン"
   },
   "TZZ": {
-    "name": "ツァポツィンゴ",
-    "desc": ""
+    "name": "ツァポツィンゴ"
   },
   "SNT": {
-    "name": "センティスパック",
-    "desc": ""
+    "name": "センティスパック"
   },
   "PAM": {
-    "name": "シオイ",
-    "desc": ""
+    "name": "シオイ"
   },
   "TNL": {
-    "name": "トナラン",
-    "desc": ""
+    "name": "トナラン"
   },
   "MXT": {
-    "name": "メシュティカカン",
-    "desc": ""
+    "name": "メシュティカカン"
   },
   "YAH": {
-    "name": "ヤワリカン",
-    "desc": ""
+    "name": "ヤワリカン"
   },
   "TPN": {
-    "name": "テクパティトラン",
-    "desc": ""
+    "name": "テクパティトラン"
   },
   "MIT": {
-    "name": "ミティク",
-    "desc": ""
+    "name": "ミティク"
   },
   "XLT": {
-    "name": "シャロストティトラン",
-    "desc": ""
+    "name": "シャロストティトラン"
   },
   "CON": {
-    "name": "コイナン",
-    "desc": ""
+    "name": "コイナン"
   },
   "ACA": {
-    "name": "アカティク",
-    "desc": ""
+    "name": "アカティク"
   },
   "TPC": {
-    "name": "テペカン",
-    "desc": ""
+    "name": "テペカン"
   },
   "TEL": {
-    "name": "カクスカン",
-    "desc": ""
+    "name": "カクスカン"
   },
   "XOC": {
-    "name": "ショチピラン",
-    "desc": ""
+    "name": "ショチピラン"
   },
   "ZAC": {
-    "name": "ザカテカ",
-    "desc": ""
+    "name": "ザカテカ"
   },
   "ZAI": {
-    "name": "ザーイン",
-    "desc": ""
+    "name": "ザーイン"
   },
   "GAM": {
-    "name": "グアマー",
-    "desc": ""
+    "name": "グアマー"
   },
   "SAU": {
-    "name": "サウザス",
-    "desc": ""
+    "name": "サウザス"
   },
   "GUX": {
-    "name": "グアキサバン",
-    "desc": ""
+    "name": "グアキサバン"
   },
   "IZT": {
-    "name": "イズタチチメカ",
-    "desc": ""
+    "name": "イズタチチメカ"
   },
   "ATO": {
-    "name": "アトクパン",
-    "desc": ""
+    "name": "アトクパン"
   },
   "TZC": {
-    "name": "トランツィンコ",
-    "desc": ""
+    "name": "トランツィンコ"
   },
   "CLC": {
-    "name": "チャルコ",
-    "desc": ""
+    "name": "チャルコ"
   },
   "HUX": {
-    "name": "フアステペック",
-    "desc": ""
+    "name": "フアステペック"
   },
   "CUU": {
-    "name": "クアウナワク",
-    "desc": ""
+    "name": "クアウナワク"
   },
   "TCH": {
-    "name": "トラコ",
-    "desc": ""
+    "name": "トラコ"
   },
   "OZT": {
-    "name": "オズトマン",
-    "desc": ""
+    "name": "オズトマン"
   },
   "TMS": {
-    "name": "テマスカルテペック",
-    "desc": ""
+    "name": "テマスカルテペック"
   },
   "TCC": {
-    "name": "テペコアキュルコ",
-    "desc": ""
+    "name": "テペコアキュルコ"
   },
   "CTL": {
-    "name": "チヤトラ",
-    "desc": ""
+    "name": "チヤトラ"
   },
   "TLL": {
-    "name": "テテラン",
-    "desc": ""
+    "name": "テテラン"
   },
   "ZOM": {
-    "name": "ツォンパンコ",
-    "desc": ""
+    "name": "ツォンパンコ"
   },
   "TLZ": {
-    "name": "トラルコサウティトラン",
-    "desc": ""
+    "name": "トラルコサウティトラン"
   },
   "UAU": {
-    "name": "クアウテオパン",
-    "desc": ""
+    "name": "クアウテオパン"
   },
   "YOH": {
-    "name": "ヨウアルテペック",
-    "desc": ""
+    "name": "ヨウアルテペック"
   },
   "TPT": {
-    "name": "テクパンテペック",
-    "desc": ""
+    "name": "テクパンテペック"
   },
   "CIH": {
-    "name": "シワトラン",
-    "desc": ""
+    "name": "シワトラン"
   },
   "ZCT": {
-    "name": "ザカトラン",
-    "desc": ""
+    "name": "ザカトラン"
   },
   "AJC": {
-    "name": "アクソチトラン",
-    "desc": ""
+    "name": "アクソチトラン"
   },
   "TLP": {
-    "name": "トラパン",
-    "desc": ""
+    "name": "トラパン"
   },
   "AYO": {
-    "name": "アヨトラン",
-    "desc": ""
+    "name": "アヨトラン"
   },
   "OMT": {
-    "name": "オメテペック",
-    "desc": ""
+    "name": "オメテペック"
   },
   "CTC": {
-    "name": "コアトリカマク",
-    "desc": ""
+    "name": "コアトリカマク"
   },
   "CTZ": {
-    "name": "コアツァクアルコ",
-    "desc": ""
+    "name": "コアツァクアルコ"
   },
   "TPY": {
-    "name": "テペヤカク",
-    "desc": ""
+    "name": "テペヤカク"
   },
   "CTX": {
-    "name": "クエトラシュトラン",
-    "desc": ""
+    "name": "クエトラシュトラン"
   },
   "CLL": {
-    "name": "チョロラン",
-    "desc": ""
+    "name": "チョロラン"
   },
   "HJZ": {
-    "name": "ウェショツィンコ",
-    "desc": ""
+    "name": "ウェショツィンコ"
   },
   "XCH": {
-    "name": "ソチミルコ",
-    "desc": ""
+    "name": "ソチミルコ"
   },
   "IXT": {
-    "name": "イシュタカマシュティトラン",
-    "desc": ""
+    "name": "イシュタカマシュティトラン"
   },
   "TEE": {
-    "name": "テテラ",
-    "desc": ""
+    "name": "テテラ"
   },
   "ZAT": {
-    "name": "サカトラン",
-    "desc": ""
+    "name": "サカトラン"
   },
   "TLQ": {
-    "name": "トラトラウキテペク",
-    "desc": ""
+    "name": "トラトラウキテペク"
   },
   "TCY": {
-    "name": "トラパコヤン",
-    "desc": ""
+    "name": "トラパコヤン"
   },
   "AHU": {
-    "name": "アワカトラン",
-    "desc": ""
+    "name": "アワカトラン"
   },
   "GCH": {
-    "name": "クアウチナンコ",
-    "desc": ""
+    "name": "クアウチナンコ"
   },
   "ETZ": {
-    "name": "エツァトラン",
-    "desc": ""
+    "name": "エツァトラン"
   },
   "XCT": {
-    "name": "ソチテペク",
-    "desc": ""
+    "name": "ソチテペク"
   },
   "AME": {
-    "name": "アメカン",
-    "desc": ""
+    "name": "アメカン"
   },
   "TNX": {
-    "name": "テナマストラン",
-    "desc": ""
+    "name": "テナマストラン"
   },
   "AML": {
-    "name": "アモラン",
-    "desc": ""
+    "name": "アモラン"
   },
   "CZL": {
-    "name": "コザラパン",
-    "desc": ""
+    "name": "コザラパン"
   },
   "TMT": {
-    "name": "トマトラン",
-    "desc": ""
+    "name": "トマトラン"
   },
   "MHC": {
-    "name": "メラワカン",
-    "desc": ""
+    "name": "メラワカン"
   },
   "XIH": {
-    "name": "シュウトラン",
-    "desc": ""
+    "name": "シュウトラン"
   },
   "ATL": {
-    "name": "アウトラン",
-    "desc": ""
+    "name": "アウトラン"
   },
   "CCL": {
-    "name": "ココラン",
-    "desc": ""
+    "name": "ココラン"
   },
   "HTZ": {
-    "name": "ウィツキリク",
-    "desc": ""
+    "name": "ウィツキリク"
   },
   "AZL": {
-    "name": "アスタトラン",
-    "desc": ""
+    "name": "アスタトラン"
   },
   "TZM": {
-    "name": "タマソラン",
-    "desc": ""
+    "name": "タマソラン"
   },
   "TLY": {
-    "name": "トラパコヤ",
-    "desc": ""
+    "name": "トラパコヤ"
   },
   "CAU": {
-    "name": "クアウトラン",
-    "desc": ""
+    "name": "クアウトラン"
   },
   "AMP": {
-    "name": "アマピラ",
-    "desc": ""
+    "name": "アマピラ"
   },
   "SAY": {
-    "name": "サヨラン",
-    "desc": ""
+    "name": "サヨラン"
   },
   "PTP": {
-    "name": "パンテペク",
-    "desc": ""
+    "name": "パンテペク"
   },
   "XAP": {
-    "name": "シャラパン",
-    "desc": ""
+    "name": "シャラパン"
   },
   "CUO": {
-    "name": "クアウトッコ",
-    "desc": ""
+    "name": "クアウトッコ"
   },
   "XIC": {
-    "name": "シコチマルコ",
-    "desc": ""
+    "name": "シコチマルコ"
   },
   "TOH": {
-    "name": "トクテペック",
-    "desc": ""
+    "name": "トクテペック"
   },
   "TTA": {
-    "name": "テウティラ",
-    "desc": ""
+    "name": "テウティラ"
   },
   "PTL": {
-    "name": "プクトラン",
-    "desc": ""
+    "name": "プクトラン"
   },
   "CSM": {
-    "name": "コサマロアパン",
-    "desc": ""
+    "name": "コサマロアパン"
   },
   "OTA": {
-    "name": "オタティトラン",
-    "desc": ""
+    "name": "オタティトラン"
   },
   "TLT": {
-    "name": "トラコトラルパン",
-    "desc": ""
+    "name": "トラコトラルパン"
   },
   "TOZ": {
-    "name": "トストラン",
-    "desc": ""
+    "name": "トストラン"
   },
   "IZC": {
-    "name": "イシュタチャカラパン",
-    "desc": ""
+    "name": "イシュタチャカラパン"
   },
   "TSE": {
-    "name": "テセチョアカン",
-    "desc": ""
+    "name": "テセチョアカン"
   },
   "CCP": {
-    "name": "クアウクエツパルテペク",
-    "desc": ""
+    "name": "クアウクエツパルテペク"
   },
   "OZU": {
-    "name": "オスマツィン",
-    "desc": ""
+    "name": "オスマツィン"
   },
   "ATP": {
-    "name": "アテペク",
-    "desc": ""
+    "name": "アテペク"
   },
   "CPN": {
-    "name": "ツォワパン",
-    "desc": ""
+    "name": "ツォワパン"
   },
   "XCP": {
-    "name": "ショチアパン",
-    "desc": ""
+    "name": "ショチアパン"
   },
   "ATT": {
-    "name": "アティトラン",
-    "desc": ""
+    "name": "アティトラン"
   },
   "IXA": {
-    "name": "イスタパン",
-    "desc": ""
+    "name": "イスタパン"
   },
   "CUZ": {
-    "name": "クツァマラ",
-    "desc": ""
+    "name": "クツァマラ"
   },
   "TLO": {
-    "name": "テロロアパン",
-    "desc": ""
+    "name": "テロロアパン"
   },
   "AMT": {
-    "name": "アマコスティトラン",
-    "desc": ""
+    "name": "アマコスティトラン"
   },
   "QLL": {
-    "name": "クアウケチョラン",
-    "desc": ""
+    "name": "クアウケチョラン"
   },
   "IZO": {
-    "name": "イトソカン",
-    "desc": ""
+    "name": "イトソカン"
   },
   "AXC": {
-    "name": "アショチアパン",
-    "desc": ""
+    "name": "アショチアパン"
   },
   "TPX": {
-    "name": "テペシク",
-    "desc": ""
+    "name": "テペシク"
   },
   "ZCZ": {
-    "name": "ザカソナパン",
-    "desc": ""
+    "name": "ザカソナパン"
   },
   "ITZ": {
-    "name": "イツァ",
-    "desc": ""
+    "name": "イツァ"
   },
   "COC": {
-    "name": "ココム",
-    "desc": ""
+    "name": "ココム"
   },
   "XIU": {
-    "name": "チュチュル＝シウ",
-    "desc": ""
+    "name": "チュチュル＝シウ"
   },
   "CNL": {
-    "name": "ア・カヌル",
-    "desc": ""
+    "name": "ア・カヌル"
   },
   "CKP": {
-    "name": "チャカン・プトゥム",
-    "desc": ""
+    "name": "チャカン・プトゥム"
   },
   "HEL": {
-    "name": "チェル",
-    "desc": ""
+    "name": "チェル"
   },
   "UAY": {
-    "name": "ウアイミル",
-    "desc": ""
+    "name": "ウアイミル"
   },
   "MOP": {
-    "name": "モパン",
-    "desc": ""
+    "name": "モパン"
   },
   "CTM": {
-    "name": "チャーク・テ・エマル",
-    "desc": ""
+    "name": "チャーク・テ・エマル"
   },
   "KOW": {
-    "name": "コウォジ",
-    "desc": ""
+    "name": "コウォジ"
   },
   "YOK": {
-    "name": "ヨコ・タアノブ",
-    "desc": ""
+    "name": "ヨコ・タアノブ"
   },
   "XOL": {
-    "name": "チョル",
-    "desc": ""
+    "name": "チョル"
   },
   "QEQ": {
-    "name": "ケクチ",
-    "desc": ""
+    "name": "ケクチ"
   },
   "KIC": {
-    "name": "キチェ",
-    "desc": ""
+    "name": "キチェ"
   },
   "CHT": {
-    "name": "チョルティ",
-    "desc": ""
+    "name": "チョルティ"
   },
   "LAC": {
-    "name": "ソツレブ",
-    "desc": ""
+    "name": "ソツレブ"
   },
   "KAQ": {
-    "name": "カクチケル",
-    "desc": ""
+    "name": "カクチケル"
   },
   "MMM": {
-    "name": "マム",
-    "desc": ""
+    "name": "マム"
   },
   "TOJ": {
-    "name": "トホラバル",
-    "desc": ""
+    "name": "トホラバル"
   },
   "TZE": {
-    "name": "ツェルタル",
-    "desc": ""
+    "name": "ツェルタル"
   },
   "TZU": {
-    "name": "ツウトゥヒル",
-    "desc": ""
+    "name": "ツウトゥヒル"
   },
   "QAN": {
-    "name": "カンホバル",
-    "desc": ""
+    "name": "カンホバル"
   },
   "TOQ": {
-    "name": "トケグア",
-    "desc": ""
+    "name": "トケグア"
   },
   "DIT": {
-    "name": "ディートマルシェン",
-    "desc": ""
+    "name": "ディートマルシェン"
   },
   "HSA": {
-    "name": "ハンザ",
-    "desc": ""
+    "name": "ハンザ"
   },
   "LUB": {
-    "name": "リューベック",
-    "desc": ""
+    "name": "リューベック"
   },
   "LBB": {
-    "name": "リューベッカ",
-    "desc": ""
+    "name": "リューベッカ"
   },
   "BRA": {
-    "name": "ブランデンブルク",
-    "desc": ""
+    "name": "ブランデンブルク"
   },
   "ALL": {
-    "name": "オールステット",
-    "desc": ""
+    "name": "オールステット"
   },
   "MAG": {
-    "name": "マグデブルク",
-    "desc": ""
+    "name": "マグデブルク"
   },
   "THU": {
-    "name": "テューリンゲン",
-    "desc": ""
+    "name": "テューリンゲン"
   },
   "BRE": {
-    "name": "ブレマ",
-    "desc": ""
+    "name": "ブレマ"
   },
   "BRM": {
-    "name": "ブレーメン",
-    "desc": ""
+    "name": "ブレーメン"
   },
   "MDN": {
-    "name": "ミンデン",
-    "desc": ""
+    "name": "ミンデン"
   },
   "NSA": {
-    "name": "ナッソー",
-    "desc": ""
+    "name": "ナッソー"
   },
   "NSH": {
-    "name": "ナッソー・ハダマール",
-    "desc": ""
+    "name": "ナッソー・ハダマール"
   },
   "NSS": {
-    "name": "ナッソー・ジーゲン",
-    "desc": ""
+    "name": "ナッソー・ジーゲン"
   },
   "NSD": {
-    "name": "ナッソー・ディレンブルク",
-    "desc": ""
+    "name": "ナッソー・ディレンブルク"
   },
   "BRG": {
-    "name": "ベルク",
-    "desc": ""
+    "name": "ベルク"
   },
   "KTZ": {
-    "name": "カッツェネルンボーゲン",
-    "desc": ""
+    "name": "カッツェネルンボーゲン"
   },
   "MAI": {
-    "name": "マインツ",
-    "desc": ""
+    "name": "マインツ"
   },
   "SAA": {
-    "name": "ザールブリュッケン",
-    "desc": ""
+    "name": "ザールブリュッケン"
   },
   "STE": {
-    "name": "シュテティン",
-    "desc": ""
+    "name": "シュテティン"
   },
   "HPL": {
-    "name": "ホルシュタイン＝プレーン",
-    "desc": ""
+    "name": "ホルシュタイン＝プレーン"
   },
   "HTR": {
-    "name": "ホルシュタイン＝レンヅブルク",
-    "desc": ""
+    "name": "ホルシュタイン＝レンヅブルク"
   },
   "SLV": {
-    "name": "シュレスヴィヒ",
-    "desc": ""
+    "name": "シュレスヴィヒ"
   },
   "HNB": {
-    "name": "ヘネベルグ",
-    "desc": ""
+    "name": "ヘネベルグ"
   },
   "SPY": {
-    "name": "スピラ",
-    "desc": ""
+    "name": "スピラ"
   },
   "PLN": {
-    "name": "プラウエン",
-    "desc": ""
+    "name": "プラウエン"
   },
   "MEI": {
-    "name": "マイセン",
-    "desc": ""
+    "name": "マイセン"
   },
   "LDB": {
-    "name": "ランズベルク",
-    "desc": ""
+    "name": "ランズベルク"
   },
   "GLA": {
-    "name": "グラウハウ",
-    "desc": ""
+    "name": "グラウハウ"
   },
   "SOR": {
-    "name": "ルサチア",
-    "desc": ""
+    "name": "ルサチア"
   },
   "SPB": {
-    "name": "シュプレンベルク",
-    "desc": ""
+    "name": "シュプレンベルク"
   },
   "SWB": {
-    "name": "ザクセ＝ヴィッテンベルク",
-    "desc": ""
+    "name": "ザクセ＝ヴィッテンベルク"
   },
   "RUP": {
-    "name": "ルピーン",
-    "desc": ""
+    "name": "ルピーン"
   },
   "HVB": {
-    "name": "ハーフェルベルク",
-    "desc": ""
+    "name": "ハーフェルベルク"
   },
   "SWR": {
-    "name": "シュヴェリン",
-    "desc": ""
+    "name": "シュヴェリン"
   },
   "WRN": {
-    "name": "ヴァーレン",
-    "desc": ""
+    "name": "ヴァーレン"
   },
   "MKL": {
-    "name": "メクレンブルク",
-    "desc": ""
+    "name": "メクレンブルク"
   },
   "RZB": {
-    "name": "ラッツェブルク",
-    "desc": ""
+    "name": "ラッツェブルク"
   },
   "RST": {
-    "name": "ロストック",
-    "desc": ""
+    "name": "ロストック"
   },
   "GSW": {
-    "name": "ギュストロー",
-    "desc": ""
+    "name": "ギュストロー"
   },
   "WOL": {
-    "name": "ヴォルガスト",
-    "desc": ""
+    "name": "ヴォルガスト"
   },
   "KMM": {
-    "name": "カンミン",
-    "desc": ""
+    "name": "カンミン"
   },
   "NWG": {
-    "name": "ナウガード",
-    "desc": ""
+    "name": "ナウガード"
   },
   "LAU": {
-    "name": "ザクセン＝ラウエンブルク",
-    "desc": ""
+    "name": "ザクセン＝ラウエンブルク"
   },
   "HAM": {
-    "name": "ハンブルク",
-    "desc": ""
+    "name": "ハンブルク"
   },
   "HBS": {
-    "name": "ハルバーシュタット",
-    "desc": ""
+    "name": "ハルバーシュタット"
   },
   "BBG": {
-    "name": "ブランケンブルク",
-    "desc": ""
+    "name": "ブランケンブルク"
   },
   "ANH": {
-    "name": "アンハルト",
-    "desc": ""
+    "name": "アンハルト"
   },
   "BNB": {
-    "name": "ベルンブルグ",
-    "desc": ""
+    "name": "ベルンブルグ"
   },
   "MFE": {
-    "name": "マンスフェルド",
-    "desc": ""
+    "name": "マンスフェルド"
   },
   "MRB": {
-    "name": "メルゼブルク",
-    "desc": ""
+    "name": "メルゼブルク"
   },
   "NMB": {
-    "name": "ナウムブルク",
-    "desc": ""
+    "name": "ナウムブルク"
   },
   "QUB": {
-    "name": "ゲラ",
-    "desc": ""
+    "name": "ゲラ"
   },
   "WMA": {
-    "name": "ワイマール",
-    "desc": ""
+    "name": "ワイマール"
   },
   "SWZ": {
-    "name": "シュヴァルツブルク",
-    "desc": ""
+    "name": "シュヴァルツブルク"
   },
   "FLD": {
-    "name": "フルダ",
-    "desc": ""
+    "name": "フルダ"
   },
   "SHS": {
-    "name": "ゾンダースハウゼン",
-    "desc": ""
+    "name": "ゾンダースハウゼン"
   },
   "NHS": {
-    "name": "ノルトハウゼン",
-    "desc": ""
+    "name": "ノルトハウゼン"
   },
   "MLH": {
-    "name": "ミュールハウゼン",
-    "desc": ""
+    "name": "ミュールハウゼン"
   },
   "ERF": {
-    "name": "エアフルト",
-    "desc": ""
+    "name": "エアフルト"
   },
   "HSF": {
-    "name": "ハースフェルド",
-    "desc": ""
+    "name": "ハースフェルド"
   },
   "HES": {
-    "name": "ヘッセ",
-    "desc": ""
+    "name": "ヘッセ"
   },
   "PDB": {
-    "name": "パーダーボルン",
-    "desc": ""
+    "name": "パーダーボルン"
   },
   "ZIG": {
-    "name": "ツエーゲンハイン",
-    "desc": ""
+    "name": "ツエーゲンハイン"
   },
   "HNA": {
-    "name": "ハナウ",
-    "desc": ""
+    "name": "ハナウ"
   },
   "BUD": {
-    "name": "ブディンゲン",
-    "desc": ""
+    "name": "ブディンゲン"
   },
   "WTZ": {
-    "name": "ウェッツラー",
-    "desc": ""
+    "name": "ウェッツラー"
   },
   "TRI": {
-    "name": "トリアー",
-    "desc": ""
+    "name": "トリアー"
   },
   "DIE": {
-    "name": "ディエス",
-    "desc": ""
+    "name": "ディエス"
   },
   "FRN": {
-    "name": "フランクフルト",
-    "desc": ""
+    "name": "フランクフルト"
   },
   "ERB": {
-    "name": "エアバッハ",
-    "desc": ""
+    "name": "エアバッハ"
   },
   "WRM": {
-    "name": "ヴォルムス",
-    "desc": ""
+    "name": "ヴォルムス"
   },
   "SYE": {
-    "name": "シュパイアー",
-    "desc": ""
+    "name": "シュパイアー"
   },
   "ZWE": {
-    "name": "ツヴァイブリュッケン",
-    "desc": ""
+    "name": "ツヴァイブリュッケン"
   },
   "LNN": {
-    "name": "ライニンゲン",
-    "desc": ""
+    "name": "ライニンゲン"
   },
   "SPO": {
-    "name": "シュポンハイム",
-    "desc": ""
+    "name": "シュポンハイム"
   },
   "SYN": {
-    "name": "サイン",
-    "desc": ""
+    "name": "サイン"
   },
   "KOL": {
-    "name": "ケルン",
-    "desc": ""
+    "name": "ケルン"
   },
   "DUN": {
-    "name": "ダウン",
-    "desc": ""
+    "name": "ダウン"
   },
   "APR": {
-    "name": "プリュム",
-    "desc": ""
+    "name": "プリュム"
   },
   "AAC": {
-    "name": "アーヘン",
-    "desc": ""
+    "name": "アーヘン"
   },
   "JUL": {
-    "name": "ユーリッヒ",
-    "desc": ""
+    "name": "ユーリッヒ"
   },
   "GEL": {
-    "name": "ゲルダーズ",
-    "desc": ""
+    "name": "ゲルダーズ"
   },
   "ZUT": {
-    "name": "ズトフェン",
-    "desc": ""
+    "name": "ズトフェン"
   },
   "GMK": {
-    "name": "マーク",
-    "desc": ""
+    "name": "マーク"
   },
   "WTG": {
-    "name": "ウィトゲンシュタイン",
-    "desc": ""
+    "name": "ウィトゲンシュタイン"
   },
   "DTM": {
-    "name": "ドルトムント",
-    "desc": ""
+    "name": "ドルトムント"
   },
   "ESS": {
-    "name": "エッセン",
-    "desc": ""
+    "name": "エッセン"
   },
   "MRS": {
-    "name": "モース",
-    "desc": ""
+    "name": "モース"
   },
   "KLE": {
-    "name": "クレベス",
-    "desc": ""
+    "name": "クレベス"
   },
   "ANB": {
-    "name": "アーンスベルク",
-    "desc": ""
+    "name": "アーンスベルク"
   },
   "LPP": {
-    "name": "リッペ",
-    "desc": ""
+    "name": "リッペ"
   },
   "HOX": {
-    "name": "コーヴィー",
-    "desc": ""
+    "name": "コーヴィー"
   },
   "RVB": {
-    "name": "レーヴェンスベルク",
-    "desc": ""
+    "name": "レーヴェンスベルク"
   },
   "OSN": {
-    "name": "オスナブリュック",
-    "desc": ""
+    "name": "オスナブリュック"
   },
   "TCK": {
-    "name": "テクレンブルク",
-    "desc": ""
+    "name": "テクレンブルク"
   },
   "MUN": {
-    "name": "ミュンスター",
-    "desc": ""
+    "name": "ミュンスター"
   },
   "LUN": {
-    "name": "リューネブルク",
-    "desc": ""
+    "name": "リューネブルク"
   },
   "BRU": {
-    "name": "ブランズウィック",
-    "desc": ""
+    "name": "ブランズウィック"
   },
   "GBH": {
-    "name": "グルーベンハーゲン",
-    "desc": ""
+    "name": "グルーベンハーゲン"
   },
   "HDH": {
-    "name": "ヒルデスハイム",
-    "desc": ""
+    "name": "ヒルデスハイム"
   },
   "GOS": {
-    "name": "ゴスラー",
-    "desc": ""
+    "name": "ゴスラー"
   },
   "SCB": {
-    "name": "シャウエンブルク",
-    "desc": ""
+    "name": "シャウエンブルク"
   },
   "HOY": {
-    "name": "ホヤ",
-    "desc": ""
+    "name": "ホヤ"
   },
   "NIE": {
-    "name": "ニエンブルク",
-    "desc": ""
+    "name": "ニエンブルク"
   },
   "DPH": {
-    "name": "ディフォルツ",
-    "desc": ""
+    "name": "ディフォルツ"
   },
   "VRD": {
-    "name": "ヴェルデン",
-    "desc": ""
+    "name": "ヴェルデン"
   },
   "RTB": {
-    "name": "リッツビュッテル",
-    "desc": ""
+    "name": "リッツビュッテル"
   },
   "OLD": {
-    "name": "オルデンブルク",
-    "desc": ""
+    "name": "オルデンブルク"
   },
   "BMS": {
-    "name": "ミスニア",
-    "desc": ""
+    "name": "ミスニア"
   },
   "BLB": {
-    "name": "レーバス",
-    "desc": ""
+    "name": "レーバス"
   },
   "BBD": {
-    "name": "ブランデンブルグム",
-    "desc": ""
+    "name": "ブランデンブルグム"
   },
   "HSP": {
-    "name": "ホルシュテイン＝ピネベルク",
-    "desc": ""
+    "name": "ホルシュテイン＝ピネベルク"
   },
   "BSK": {
-    "name": "ベスコフ＝シュタルコフ",
-    "desc": ""
+    "name": "ベスコフ＝シュタルコフ"
   },
   "WGO": {
-    "name": "ヴェルニゲローデ",
-    "desc": ""
+    "name": "ヴェルニゲローデ"
   },
   "BHL": {
-    "name": "ベヒリンゲン",
-    "desc": ""
+    "name": "ベヒリンゲン"
   },
   "GLN": {
-    "name": "グライヘン",
-    "desc": ""
+    "name": "グライヘン"
   },
   "WDE": {
-    "name": "ヴァルデック",
-    "desc": ""
+    "name": "ヴァルデック"
   },
   "RBG": {
-    "name": "リートベルグ",
-    "desc": ""
+    "name": "リートベルグ"
   },
   "NSW": {
-    "name": "ナッソー・ワイルバーグ",
-    "desc": ""
+    "name": "ナッソー・ワイルバーグ"
   },
   "NSI": {
-    "name": "ナッソー・イドシュタイン",
-    "desc": ""
+    "name": "ナッソー・イドシュタイン"
   },
   "RDL": {
-    "name": "リーデゼル",
-    "desc": ""
+    "name": "リーデゼル"
   },
   "NID": {
-    "name": "ニダ",
-    "desc": ""
+    "name": "ニダ"
   },
   "EVS": {
-    "name": "エバースタイン",
-    "desc": ""
+    "name": "エバースタイン"
   },
   "JEV": {
-    "name": "イェファー",
-    "desc": ""
+    "name": "イェファー"
   },
   "WIE": {
-    "name": "ウィード",
-    "desc": ""
+    "name": "ウィード"
   },
   "CHB": {
-    "name": "チョバン",
-    "desc": ""
+    "name": "チョバン"
   },
   "MZF": {
-    "name": "ムザッファル",
-    "desc": ""
+    "name": "ムザッファル"
   },
   "KRM": {
-    "name": "ケルマーン",
-    "desc": ""
+    "name": "ケルマーン"
   },
   "INJ": {
-    "name": "インジュー",
-    "desc": ""
+    "name": "インジュー"
   },
   "KHU": {
-    "name": "フンジュ",
-    "desc": ""
+    "name": "フンジュ"
   },
   "KRT": {
-    "name": "カルト",
-    "desc": ""
+    "name": "カルト"
   },
   "SRB": {
-    "name": "サルバダールズ",
-    "desc": ""
+    "name": "サルバダールズ"
   },
   "GRG": {
-    "name": "グルガン",
-    "desc": ""
+    "name": "グルガン"
   },
   "MIH": {
-    "name": "ミフラバン",
-    "desc": ""
+    "name": "ミフラバン"
   },
   "KHN": {
-    "name": "カーラン",
-    "desc": ""
+    "name": "カーラン"
   },
   "SHB": {
-    "name": "シャバンカラ",
-    "desc": ""
+    "name": "シャバンカラ"
   },
   "JUR": {
-    "name": "ジュルマニッズ",
-    "desc": ""
+    "name": "ジュルマニッズ"
   },
   "UGH": {
-    "name": "ウーガニッズ",
-    "desc": ""
+    "name": "ウーガニッズ"
   },
   "HZP": {
-    "name": "ハザーラスプ",
-    "desc": ""
+    "name": "ハザーラスプ"
   },
   "ORM": {
-    "name": "オルムズ",
-    "desc": ""
+    "name": "オルムズ"
   },
   "FAL": {
-    "name": "ファル",
-    "desc": ""
+    "name": "ファル"
   },
   "JSK": {
-    "name": "ジャースク",
-    "desc": ""
+    "name": "ジャースク"
   },
   "MZN": {
-    "name": "タバリスタン",
-    "desc": ""
+    "name": "タバリスタン"
   },
   "BDS": {
-    "name": "バドゥスパニ",
-    "desc": ""
+    "name": "バドゥスパニ"
   },
   "MKR": {
-    "name": "マクラン",
-    "desc": ""
+    "name": "マクラン"
   },
   "BMP": {
-    "name": "バンプール",
-    "desc": ""
+    "name": "バンプール"
   },
   "BLA": {
-    "name": "ブレダ",
-    "desc": ""
+    "name": "ブレダ"
   },
   "KLW": {
-    "name": "コルワ",
-    "desc": ""
+    "name": "コルワ"
   },
   "KHZ": {
-    "name": "フズダル",
-    "desc": ""
+    "name": "フズダル"
   },
   "KLA": {
-    "name": "カラート",
-    "desc": ""
+    "name": "カラート"
   },
   "LCK": {
-    "name": "ホルシディ",
-    "desc": ""
+    "name": "ホルシディ"
   },
   "LST": {
-    "name": "ラレスターン",
-    "desc": ""
+    "name": "ラレスターン"
   },
   "ERA": {
-    "name": "エーラーンシャフル",
-    "desc": ""
+    "name": "エーラーンシャフル"
   },
   "HDN": {
-    "name": "$hamadan$",
-    "desc": ""
+    "name": "ハメダーン"
   },
   "QOM": {
-    "name": "$qom$",
-    "desc": ""
+    "name": "ゴム"
   },
   "KSA": {
-    "name": "$kashan$",
-    "desc": ""
+    "name": "カーシャーン"
   },
   "ASR": {
-    "name": "$astarabad$",
-    "desc": ""
+    "name": "アスタラーバード"
   },
   "JKR": {
-    "name": "ジャウニ・クルバン",
-    "desc": ""
+    "name": "ジャウニ・クルバン"
   },
   "SFR": {
-    "name": "$esfarayen$",
-    "desc": ""
+    "name": "エスファラーヤン"
   },
   "SBZ": {
-    "name": "$sabzevar$",
-    "desc": ""
+    "name": "サブゼヴァール"
   },
   "KHT": {
-    "name": "$quhestan_area$",
-    "desc": ""
+    "name": "クヒスターン"
   },
   "MRV": {
-    "name": "$merv$",
-    "desc": ""
+    "name": "メルヴ"
   },
   "KHF": {
-    "name": "ハーフ",
-    "desc": ""
+    "name": "ハーフ"
   },
   "HLG": {
-    "name": "フレグ",
-    "desc": ""
+    "name": "フレグ"
   },
   "NGD": {
-    "name": "ネグデリ",
-    "desc": ""
+    "name": "ネグデリ"
   },
   "QUN": {
-    "name": "カラウナス",
-    "desc": ""
+    "name": "カラウナス"
   },
   "BSD": {
-    "name": "ベスド",
-    "desc": ""
+    "name": "ベスド"
   },
   "ART": {
-    "name": "アーラト",
-    "desc": ""
+    "name": "アーラト"
   },
   "APD": {
-    "name": "アパルティ",
-    "desc": ""
+    "name": "アパルティ"
   },
   "SLD": {
-    "name": "スルドゥス",
-    "desc": ""
+    "name": "スルドゥス"
   },
   "BRL": {
-    "name": "バルラス",
-    "desc": ""
+    "name": "バルラス"
   },
   "YSU": {
-    "name": "ヤサウリ",
-    "desc": ""
+    "name": "ヤサウリ"
   },
   "KTT": {
-    "name": "フッタル",
-    "desc": ""
+    "name": "フッタル"
   },
   "JLY": {
-    "name": "ジャライルス",
-    "desc": ""
+    "name": "ジャライルス"
   },
   "LHJ": {
-    "name": "ラーヒジャーン",
-    "desc": ""
+    "name": "ラーヒジャーン"
   },
   "RNK": {
-    "name": "ラネクーフ",
-    "desc": ""
+    "name": "ラネクーフ"
   },
   "FMN": {
-    "name": "フマン",
-    "desc": ""
+    "name": "フマン"
   },
   "RSH": {
-    "name": "ラシュト",
-    "desc": ""
+    "name": "ラシュト"
   },
   "TLM": {
-    "name": "トゥラム",
-    "desc": ""
+    "name": "トゥラム"
   },
   "ABL": {
-    "name": "アルダビール",
-    "desc": ""
+    "name": "アルダビール"
   },
   "POL": {
-    "name": "ポーランド",
-    "desc": ""
+    "name": "ポーランド"
   },
   "SDZ": {
-    "name": "シェラジ",
-    "desc": ""
+    "name": "シェラジ"
   },
   "LCZ": {
-    "name": "ウェンチツァ",
-    "desc": ""
+    "name": "ウェンチツァ"
   },
   "PLK": {
-    "name": "プウォック",
-    "desc": ""
+    "name": "プウォック"
   },
   "RAW": {
-    "name": "ラワ",
-    "desc": ""
+    "name": "ラワ"
   },
   "CZK": {
-    "name": "チェルスク",
-    "desc": ""
+    "name": "チェルスク"
   },
   "INO": {
-    "name": "イノヴロツワフ",
-    "desc": ""
+    "name": "イノヴロツワフ"
   },
   "VOL": {
-    "name": "ヴォルィーニ",
-    "desc": ""
+    "name": "ヴォルィーニ"
   },
   "HAL": {
-    "name": "ハルィチ",
-    "desc": ""
+    "name": "ハルィチ"
   },
   "KIE": {
-    "name": "キーウ",
-    "desc": ""
+    "name": "キーウ"
   },
   "POK": {
-    "name": "ポロツク",
-    "desc": ""
+    "name": "ポロツク"
   },
   "TUV": {
-    "name": "トゥロフ",
-    "desc": ""
+    "name": "トゥロフ"
   },
   "PNK": {
-    "name": "ピンスク",
-    "desc": ""
+    "name": "ピンスク"
   },
   "SSK": {
-    "name": "スルツク",
-    "desc": ""
+    "name": "スルツク"
   },
   "VBK": {
-    "name": "ヴィテブスク",
-    "desc": ""
+    "name": "ヴィテブスク"
   },
   "MSV": {
-    "name": "ムスチスラヴリ",
-    "desc": ""
+    "name": "ムスチスラヴリ"
   },
   "MIS": {
-    "name": "ミンスク",
-    "desc": ""
+    "name": "ミンスク"
   },
   "NRK": {
-    "name": "ノヴォグルドク",
-    "desc": ""
+    "name": "ノヴォグルドク"
   },
   "DRU": {
-    "name": "ドルツク",
-    "desc": ""
+    "name": "ドルツク"
   },
   "ZAZ": {
-    "name": "ザポリージャ",
-    "desc": ""
+    "name": "ザポリージャ"
   },
   "ZAG": {
-    "name": "ジャガン",
-    "desc": ""
+    "name": "ジャガン"
   },
   "JAW": {
-    "name": "ジャワー",
-    "desc": ""
+    "name": "ジャワー"
   },
   "LGC": {
-    "name": "レグニツァ",
-    "desc": ""
+    "name": "レグニツァ"
   },
   "OEL": {
-    "name": "オレシニツァ",
-    "desc": ""
+    "name": "オレシニツァ"
   },
   "OPL": {
-    "name": "オポール",
-    "desc": ""
+    "name": "オポール"
   },
   "PDK": {
-    "name": "プルドニク",
-    "desc": ""
+    "name": "プルドニク"
   },
   "OSW": {
-    "name": "オシフィエンチム",
-    "desc": ""
+    "name": "オシフィエンチム"
   },
   "TES": {
-    "name": "チエジン",
-    "desc": ""
+    "name": "チエジン"
   },
   "BYM": {
-    "name": "ビトム",
-    "desc": ""
+    "name": "ビトム"
   },
   "RCB": {
-    "name": "ラツィブシュ",
-    "desc": ""
+    "name": "ラツィブシュ"
   },
   "SWD": {
-    "name": "シフィドニツァ",
-    "desc": ""
+    "name": "シフィドニツァ"
   },
   "SCI": {
-    "name": "シナヴァ",
-    "desc": ""
+    "name": "シナヴァ"
   },
   "ZIE": {
-    "name": "ジェンビツァ",
-    "desc": ""
+    "name": "ジェンビツァ"
   },
   "BRZ": {
-    "name": "ブジェグ",
-    "desc": ""
+    "name": "ブジェグ"
   },
   "NMS": {
-    "name": "ナミスウフ",
-    "desc": ""
+    "name": "ナミスウフ"
   },
   "STZ": {
-    "name": "ストシェルツェ",
-    "desc": ""
+    "name": "ストシェルツェ"
   },
   "NMD": {
-    "name": "ニェモドリン",
-    "desc": ""
+    "name": "ニェモドリン"
   },
   "SIZ": {
-    "name": "シェヴェジ",
-    "desc": ""
+    "name": "シェヴェジ"
   },
   "WRC": {
-    "name": "ヴロツワフ",
-    "desc": ""
+    "name": "ヴロツワフ"
   },
   "GLO": {
-    "name": "グウォグフ",
-    "desc": ""
+    "name": "グウォグフ"
   },
   "NYS": {
-    "name": "ニサ",
-    "desc": ""
+    "name": "ニサ"
   },
   "OPV": {
-    "name": "オパヴァ",
-    "desc": ""
+    "name": "オパヴァ"
   },
   "WAI": {
-    "name": "ワイタハ",
-    "desc": ""
+    "name": "ワイタハ"
   },
   "NPO": {
-    "name": "ンガティ・ポロウ",
-    "desc": ""
+    "name": "ンガティ・ポロウ"
   },
   "NKH": {
-    "name": "ンガティ・カフングヌ",
-    "desc": ""
+    "name": "ンガティ・カフングヌ"
   },
   "NTH": {
-    "name": "ンガイ・トゥフエ",
-    "desc": ""
+    "name": "ンガイ・トゥフエ"
   },
   "NGI": {
-    "name": "ンガ・オホ",
-    "desc": ""
+    "name": "ンガ・オホ"
   },
   "RAP": {
-    "name": "テ・ラプワイ",
-    "desc": ""
+    "name": "テ・ラプワイ"
   },
   "NGR": {
-    "name": "ンガティ・ランギヌイ",
-    "desc": ""
+    "name": "ンガティ・ランギヌイ"
   },
   "HWE": {
-    "name": "ハウェア",
-    "desc": ""
+    "name": "ハウェア"
   },
   "TNI": {
-    "name": "タイヌイ",
-    "desc": ""
+    "name": "タイヌイ"
   },
   "ARW": {
-    "name": "テ・アラワ",
-    "desc": ""
+    "name": "テ・アラワ"
   },
   "PUH": {
-    "name": "ナープヒ",
-    "desc": ""
+    "name": "ナープヒ"
   },
   "RGT": {
-    "name": "ランギタネ",
-    "desc": ""
+    "name": "ランギタネ"
   },
   "AWA": {
-    "name": "テ・アティ・アワ",
-    "desc": ""
+    "name": "テ・アティ・アワ"
   },
   "RUA": {
-    "name": "ンガティ・ルアヌイ",
-    "desc": ""
+    "name": "ンガティ・ルアヌイ"
   },
   "HAW": {
-    "name": "ハワイ",
-    "desc": ""
+    "name": "ハワイ"
   },
   "MUI": {
-    "name": "マウイ",
-    "desc": ""
+    "name": "マウイ"
   },
   "LHN": {
-    "name": "ラハイナ",
-    "desc": ""
+    "name": "ラハイナ"
   },
   "MLK": {
-    "name": "モロカイ",
-    "desc": ""
+    "name": "モロカイ"
   },
   "OAH": {
-    "name": "オアフ",
-    "desc": ""
+    "name": "オアフ"
   },
   "KAU": {
-    "name": "カウアイ",
-    "desc": ""
+    "name": "カウアイ"
   },
   "TOG": {
-    "name": "トゥイ・トンガ",
-    "desc": ""
+    "name": "トゥイ・トンガ"
   },
   "YAP": {
-    "name": "ヤップ",
-    "desc": ""
+    "name": "ヤップ"
   },
   "SAM": {
-    "name": "サモア",
-    "desc": ""
+    "name": "サモア"
   },
   "BUB": {
-    "name": "ブレバサガ",
-    "desc": ""
+    "name": "ブレバサガ"
   },
   "KBN": {
-    "name": "クブナ",
-    "desc": ""
+    "name": "クブナ"
   },
   "TOV": {
-    "name": "トヴァタ",
-    "desc": ""
+    "name": "トヴァタ"
   },
   "NOV": {
-    "name": "ヴェリーキー・ノヴゴロド",
-    "desc": ""
+    "name": "ヴェリーキー・ノヴゴロド"
   },
   "PSK": {
-    "name": "プスコフ",
-    "desc": ""
+    "name": "プスコフ"
   },
   "ORE": {
-    "name": "オレシェク",
-    "desc": ""
+    "name": "オレシェク"
   },
   "SMO": {
-    "name": "スモレンスク",
-    "desc": ""
+    "name": "スモレンスク"
   },
   "FMB": {
-    "name": "フォミン＝ベレズエスク",
-    "desc": ""
+    "name": "フォミン＝ベレズエスク"
   },
   "MOS": {
-    "name": "モスクワ",
-    "desc": ""
+    "name": "モスクワ"
   },
   "PZL": {
-    "name": "ペレヤスラヴリ＝ザレスキー",
-    "desc": ""
+    "name": "ペレヤスラヴリ＝ザレスキー"
   },
   "KLM": {
-    "name": "コロムナ",
-    "desc": ""
+    "name": "コロムナ"
   },
   "VLR": {
-    "name": "ウラジーミル",
-    "desc": ""
+    "name": "ウラジーミル"
   },
   "UGL": {
-    "name": "ウグリチ",
-    "desc": ""
+    "name": "ウグリチ"
   },
   "YRV": {
-    "name": "ユーリエフ・ポリスキー",
-    "desc": ""
+    "name": "ユーリエフ・ポリスキー"
   },
   "TPS": {
-    "name": "トロペツ",
-    "desc": ""
+    "name": "トロペツ"
   },
   "BLO": {
-    "name": "ベロオーゼロ",
-    "desc": ""
+    "name": "ベロオーゼロ"
   },
   "YAR": {
-    "name": "ヤロスラヴリ",
-    "desc": ""
+    "name": "ヤロスラヴリ"
   },
   "RSO": {
-    "name": "ロストフ",
-    "desc": ""
+    "name": "ロストフ"
   },
   "TVE": {
-    "name": "トヴェリ",
-    "desc": ""
+    "name": "トヴェリ"
   },
   "KAS": {
-    "name": "カシン",
-    "desc": ""
+    "name": "カシン"
   },
   "KLN": {
-    "name": "クリン",
-    "desc": ""
+    "name": "クリン"
   },
   "ZUB": {
-    "name": "ズブツォフ",
-    "desc": ""
+    "name": "ズブツォフ"
   },
   "DMI": {
-    "name": "ドミトロフ",
-    "desc": ""
+    "name": "ドミトロフ"
   },
   "GLM": {
-    "name": "ガーリチ＝メルスキー",
-    "desc": ""
+    "name": "ガーリチ＝メルスキー"
   },
   "RZH": {
-    "name": "ルジェフ",
-    "desc": ""
+    "name": "ルジェフ"
   },
   "VYA": {
-    "name": "ヴャジマ",
-    "desc": ""
+    "name": "ヴャジマ"
   },
   "TRB": {
-    "name": "トルブチェフスク",
-    "desc": ""
+    "name": "トルブチェフスク"
   },
   "BRY": {
-    "name": "ブリャンスク",
-    "desc": ""
+    "name": "ブリャンスク"
   },
   "CHR": {
-    "name": "チェルニーヒウ",
-    "desc": ""
+    "name": "チェルニーヒウ"
   },
   "STS": {
-    "name": "スタロドゥーブ＝シヴェルスキー",
-    "desc": ""
+    "name": "スタロドゥーブ＝シヴェルスキー"
   },
   "NVS": {
-    "name": "ノヴゴロド＝シヴェルスキー",
-    "desc": ""
+    "name": "ノヴゴロド＝シヴェルスキー"
   },
   "RYL": {
-    "name": "ルィリスク",
-    "desc": ""
+    "name": "ルィリスク"
   },
   "NSL": {
-    "name": "ノヴォシリ",
-    "desc": ""
+    "name": "ノヴォシリ"
   },
   "KCH": {
-    "name": "カラチェフ",
-    "desc": ""
+    "name": "カラチェフ"
   },
   "KZK": {
-    "name": "コゼリスク",
-    "desc": ""
+    "name": "コゼリスク"
   },
   "TRS": {
-    "name": "タルーサ",
-    "desc": ""
+    "name": "タルーサ"
   },
   "RYA": {
-    "name": "リャザン",
-    "desc": ""
+    "name": "リャザン"
   },
   "PRK": {
-    "name": "プロンスク",
-    "desc": ""
+    "name": "プロンスク"
   },
   "SKY": {
-    "name": "スタロドゥーブ",
-    "desc": ""
+    "name": "スタロドゥーブ"
   },
   "NZH": {
-    "name": "ニジニ・ノヴゴロド",
-    "desc": ""
+    "name": "ニジニ・ノヴゴロド"
   },
   "GRS": {
-    "name": "ゴロジェッツ",
-    "desc": ""
+    "name": "ゴロジェッツ"
   },
   "SZL": {
-    "name": "スーズダリ",
-    "desc": ""
+    "name": "スーズダリ"
   },
   "MRM": {
-    "name": "ムーロム",
-    "desc": ""
+    "name": "ムーロム"
   },
   "KOS": {
-    "name": "コストロマ",
-    "desc": ""
+    "name": "コストロマ"
   },
   "MOG": {
-    "name": "モロガ",
-    "desc": ""
+    "name": "モロガ"
   },
   "PRM": {
-    "name": "ペルミ",
-    "desc": ""
+    "name": "ペルミ"
   },
   "VYT": {
-    "name": "ヴャトカ",
-    "desc": ""
+    "name": "ヴャトカ"
   },
   "OBD": {
-    "name": "オブドル",
-    "desc": ""
+    "name": "オブドル"
   },
   "PLY": {
-    "name": "ペリム",
-    "desc": ""
+    "name": "ペリム"
   },
   "BAK": {
-    "name": "バルダク",
-    "desc": ""
+    "name": "バルダク"
   },
   "KND": {
-    "name": "コンダ",
-    "desc": ""
+    "name": "コンダ"
   },
   "BGJ": {
-    "name": "ベロゴーリエ",
-    "desc": ""
+    "name": "ベロゴーリエ"
   },
   "KOD": {
-    "name": "コダ",
-    "desc": ""
+    "name": "コダ"
   },
   "SVA": {
-    "name": "ソスヴァ",
-    "desc": ""
+    "name": "ソスヴァ"
   },
   "KZY": {
-    "name": "カジム",
-    "desc": ""
+    "name": "カジム"
   },
   "LYA": {
-    "name": "リャーピン",
-    "desc": ""
+    "name": "リャーピン"
   },
   "TBY": {
-    "name": "タバリー",
-    "desc": ""
+    "name": "タバリー"
   },
   "SLK": {
-    "name": "セリクプ",
-    "desc": ""
+    "name": "セリクプ"
   },
   "BRT": {
-    "name": "ブリヤート",
-    "desc": ""
+    "name": "ブリヤート"
   },
   "HGO": {
-    "name": "コンゴライ",
-    "desc": ""
+    "name": "コンゴライ"
   },
   "ALT": {
-    "name": "アルタイ",
-    "desc": ""
+    "name": "アルタイ"
   },
   "KMG": {
-    "name": "カマグ",
-    "desc": ""
+    "name": "カマグ"
   },
   "SAK": {
-    "name": "サハ",
-    "desc": ""
+    "name": "サハ"
   },
   "EVE": {
-    "name": "イーヴン",
-    "desc": ""
+    "name": "イーヴン"
   },
   "YKG": {
-    "name": "ユカギール",
-    "desc": ""
+    "name": "ユカギール"
   },
   "KYK": {
-    "name": "コリャック",
-    "desc": ""
+    "name": "コリャック"
   },
   "XHO": {
-    "name": "コーサ",
-    "desc": ""
+    "name": "コーサ"
   },
   "NGU": {
-    "name": "ングニ",
-    "desc": ""
+    "name": "ングニ"
   },
   "TWA": {
-    "name": "ツワナ",
-    "desc": ""
+    "name": "ツワナ"
   },
   "SOT": {
-    "name": "ソート",
-    "desc": ""
+    "name": "ソート"
   },
   "VED": {
-    "name": "ヴェンダ",
-    "desc": ""
+    "name": "ヴェンダ"
   },
   "KLG": {
-    "name": "カランガ",
-    "desc": ""
+    "name": "カランガ"
   },
   "KHM": {
-    "name": "クメール",
-    "desc": ""
+    "name": "クメール"
   },
   "CHA": {
-    "name": "チャンパ",
-    "desc": ""
+    "name": "チャンパ"
   },
   "DAI": {
-    "name": "大越",
-    "desc": ""
+    "name": "大越"
   },
   "SUK": {
-    "name": "スコータイ",
-    "desc": ""
+    "name": "スコータイ"
   },
   "LNA": {
-    "name": "ラーンナー",
-    "desc": ""
+    "name": "ラーンナー"
   },
   "LAV": {
-    "name": "ラヴォ",
-    "desc": ""
+    "name": "ラヴォ"
   },
   "ADH": {
-    "name": "アヨーディヤ",
-    "desc": ""
+    "name": "アヨーディヤ"
   },
   "PEG": {
-    "name": "ハンタワディ",
-    "desc": ""
+    "name": "ハンタワディ"
   },
   "SNG": {
-    "name": "シンガプーラ",
-    "desc": ""
+    "name": "シンガプーラ"
   },
   "LIG": {
-    "name": "リゴール",
-    "desc": ""
+    "name": "リゴール"
   },
   "LGK": {
-    "name": "ランカスカ",
-    "desc": ""
+    "name": "ランカスカ"
   },
   "KED": {
-    "name": "ケダ",
-    "desc": ""
+    "name": "ケダ"
   },
   "PAH": {
-    "name": "パハン",
-    "desc": ""
+    "name": "パハン"
   },
   "SPN": {
-    "name": "スパンブリー",
-    "desc": ""
+    "name": "スパンブリー"
   },
   "ARK": {
-    "name": "ラウンジェット",
-    "desc": ""
+    "name": "ラウンジェット"
   },
   "PIN": {
-    "name": "ピニャ",
-    "desc": ""
+    "name": "ピニャ"
   },
   "SAG": {
-    "name": "サガイン",
-    "desc": ""
+    "name": "サガイン"
   },
   "TNG": {
-    "name": "タウンゴー",
-    "desc": ""
+    "name": "タウンゴー"
   },
   "BPR": {
-    "name": "ピイ",
-    "desc": ""
+    "name": "ピイ"
   },
   "PHY": {
-    "name": "パヤオ",
-    "desc": ""
+    "name": "パヤオ"
   },
   "PUA": {
-    "name": "プア",
-    "desc": ""
+    "name": "プア"
   },
   "MUA": {
-    "name": "ムアン・スア",
-    "desc": ""
+    "name": "ムアン・スア"
   },
   "VTN": {
-    "name": "ヴィエンチャン",
-    "desc": ""
+    "name": "ヴィエンチャン"
   },
   "CBK": {
-    "name": "コブラ",
-    "desc": ""
+    "name": "コブラ"
   },
   "MYA": {
-    "name": "モン・ヤン",
-    "desc": ""
+    "name": "モン・ヤン"
   },
   "MKA": {
-    "name": "モン・カウン",
-    "desc": ""
+    "name": "モン・カウン"
   },
   "HKM": {
-    "name": "ハクンティ",
-    "desc": ""
+    "name": "ハクンティ"
   },
   "MKN": {
-    "name": "モン・コン",
-    "desc": ""
+    "name": "モン・コン"
   },
   "HHP": {
-    "name": "ハサウン・フスップ",
-    "desc": ""
+    "name": "ハサウン・フスップ"
   },
   "HSE": {
-    "name": "センウィー",
-    "desc": ""
+    "name": "センウィー"
   },
   "HSI": {
-    "name": "シポー",
-    "desc": ""
+    "name": "シポー"
   },
   "MNI": {
-    "name": "モン・ナイ",
-    "desc": ""
+    "name": "モン・ナイ"
   },
   "MGT": {
-    "name": "モン・ミッ",
-    "desc": ""
+    "name": "モン・ミッ"
   },
   "KAL": {
-    "name": "カレ",
-    "desc": ""
+    "name": "カレ"
   },
   "WNT": {
-    "name": "ウントー",
-    "desc": ""
+    "name": "ウントー"
   },
   "BHM": {
-    "name": "バモー",
-    "desc": ""
+    "name": "バモー"
   },
   "KTG": {
-    "name": "ケントゥン",
-    "desc": ""
+    "name": "ケントゥン"
   },
   "MLM": {
-    "name": "モン・レム",
-    "desc": ""
+    "name": "モン・レム"
   },
   "WAS": {
-    "name": "ワ",
-    "desc": ""
+    "name": "ワ"
   },
   "JGP": {
-    "name": "チンポー",
-    "desc": ""
+    "name": "チンポー"
   },
   "KRN": {
-    "name": "カレン",
-    "desc": ""
+    "name": "カレン"
   },
   "MUO": {
-    "name": "ムオン",
-    "desc": ""
+    "name": "ムオン"
   },
   "ASL": {
-    "name": "オラン・アスリ",
-    "desc": ""
+    "name": "オラン・アスリ"
   },
   "ZOO": {
-    "name": "ゾー",
-    "desc": ""
+    "name": "ゾー"
   },
   "ZHU": {
-    "name": "チワン",
-    "desc": ""
+    "name": "チワン"
   },
   "MLB": {
-    "name": "カングレイパック",
-    "desc": ""
+    "name": "カングレイパック"
   },
   "BES": {
-    "name": "ベルアス",
-    "desc": ""
+    "name": "ベルアス"
   },
   "MNJ": {
-    "name": "マンジュン",
-    "desc": ""
+    "name": "マンジュン"
   },
   "PTC": {
-    "name": "ペッチャブリー",
-    "desc": ""
+    "name": "ペッチャブリー"
   },
   "TSM": {
-    "name": "テナセリム",
-    "desc": ""
+    "name": "テナセリム"
   },
   "DEG": {
-    "name": "デガ",
-    "desc": ""
+    "name": "デガ"
   },
   "BHN": {
-    "name": "バナール",
-    "desc": ""
+    "name": "バナール"
   },
   "SED": {
-    "name": "セダン",
-    "desc": ""
+    "name": "セダン"
   },
   "BVK": {
-    "name": "ブル",
-    "desc": ""
+    "name": "ブル"
   },
   "KUY": {
-    "name": "クイ",
-    "desc": ""
+    "name": "クイ"
   },
   "KMU": {
-    "name": "クムー",
-    "desc": ""
+    "name": "クムー"
   },
   "NAA": {
-    "name": "ナガ",
-    "desc": ""
+    "name": "ナガ"
   },
   "HAB": {
-    "name": "オーストリア",
-    "desc": ""
+    "name": "オーストリア"
   },
   "BOH": {
-    "name": "ボヘミア",
-    "desc": ""
+    "name": "ボヘミア"
   },
   "MVA": {
-    "name": "モラヴィア",
-    "desc": ""
+    "name": "モラヴィア"
   },
   "PSS": {
-    "name": "パッサウ",
-    "desc": ""
+    "name": "パッサウ"
   },
   "AUG": {
-    "name": "アウグスタ・ヴィンデリコルム",
-    "desc": ""
+    "name": "アウグスタ・ヴィンデリコルム"
   },
   "AGC": {
-    "name": "アウクスブルク",
-    "desc": ""
+    "name": "アウクスブルク"
   },
   "UBV": {
-    "name": "オーバーバイエルン",
-    "desc": ""
+    "name": "オーバーバイエルン"
   },
   "LBV": {
-    "name": "ニーダーバイエルン",
-    "desc": ""
+    "name": "ニーダーバイエルン"
   },
   "SLZ": {
-    "name": "ザルツブルク",
-    "desc": ""
+    "name": "ザルツブルク"
   },
   "BAM": {
-    "name": "バンベルク",
-    "desc": ""
+    "name": "バンベルク"
   },
   "STY": {
-    "name": "シュタイアーマルク",
-    "desc": ""
+    "name": "シュタイアーマルク"
   },
   "CRH": {
-    "name": "カリンティア",
-    "desc": ""
+    "name": "カリンティア"
   },
   "TIR": {
-    "name": "ティロール",
-    "desc": ""
+    "name": "ティロール"
   },
   "WER": {
-    "name": "ヴェルデンベルク",
-    "desc": ""
+    "name": "ヴェルデンベルク"
   },
   "MBZ": {
-    "name": "ブレゲンツ",
-    "desc": ""
+    "name": "ブレゲンツ"
   },
   "MFK": {
-    "name": "フェルトキルヒ",
-    "desc": ""
+    "name": "フェルトキルヒ"
   },
   "BCH": {
-    "name": "チュール",
-    "desc": ""
+    "name": "チュール"
   },
   "STG": {
-    "name": "ザンクトガレン",
-    "desc": ""
+    "name": "ザンクトガレン"
   },
   "ZUR": {
-    "name": "チューリッヒ",
-    "desc": ""
+    "name": "チューリッヒ"
   },
   "SYZ": {
-    "name": "シュヴィーツ",
-    "desc": ""
+    "name": "シュヴィーツ"
   },
   "GLR": {
-    "name": "グラールス",
-    "desc": ""
+    "name": "グラールス"
   },
   "LCA": {
-    "name": "コモ",
-    "desc": ""
+    "name": "コモ"
   },
   "URI": {
-    "name": "ウリ",
-    "desc": ""
+    "name": "ウリ"
   },
   "OBW": {
-    "name": "オブワルデン",
-    "desc": ""
+    "name": "オブワルデン"
   },
   "LCU": {
-    "name": "ルツェルン",
-    "desc": ""
+    "name": "ルツェルン"
   },
   "SIT": {
-    "name": "シオン",
-    "desc": ""
+    "name": "シオン"
   },
   "SWI": {
-    "name": "スイス",
-    "desc": ""
+    "name": "スイス"
   },
   "BRN": {
-    "name": "ベルン",
-    "desc": ""
+    "name": "ベルン"
   },
   "SLT": {
-    "name": "ソロトゥルン",
-    "desc": ""
+    "name": "ソロトゥルン"
   },
   "NEU": {
-    "name": "ヌーシャテル",
-    "desc": ""
+    "name": "ヌーシャテル"
   },
   "BAS": {
-    "name": "バーゼル",
-    "desc": ""
+    "name": "バーゼル"
   },
   "LSA": {
-    "name": "ローザンヌ",
-    "desc": ""
+    "name": "ローザンヌ"
   },
   "KYB": {
-    "name": "カイブルグ",
-    "desc": ""
+    "name": "カイブルグ"
   },
   "TRN": {
-    "name": "トゥルン",
-    "desc": ""
+    "name": "トゥルン"
   },
   "BRC": {
-    "name": "ベルヒテスガーデン",
-    "desc": ""
+    "name": "ベルヒテスガーデン"
   },
   "GRF": {
-    "name": "グラフェナウ",
-    "desc": ""
+    "name": "グラフェナウ"
   },
   "PAL": {
-    "name": "ライン",
-    "desc": ""
+    "name": "ライン"
   },
   "REG": {
-    "name": "レーゲンスブルク",
-    "desc": ""
+    "name": "レーゲンスブルク"
   },
   "ANS": {
-    "name": "アンスバッハ",
-    "desc": ""
+    "name": "アンスバッハ"
   },
   "FRE": {
-    "name": "フライジング",
-    "desc": ""
+    "name": "フライジング"
   },
   "EIC": {
-    "name": "アイヒシュテット",
-    "desc": ""
+    "name": "アイヒシュテット"
   },
   "WEI": {
-    "name": "ヴァイセンブルク",
-    "desc": ""
+    "name": "ヴァイセンブルク"
   },
   "NUR": {
-    "name": "ニュルンベルク",
-    "desc": ""
+    "name": "ニュルンベルク"
   },
   "WBG": {
-    "name": "ヴュルツブルク",
-    "desc": ""
+    "name": "ヴュルツブルク"
   },
   "RIE": {
-    "name": "リエネック",
-    "desc": ""
+    "name": "リエネック"
   },
   "MSB": {
-    "name": "モスバッハ",
-    "desc": ""
+    "name": "モスバッハ"
   },
   "UFF": {
-    "name": "ホーエンローエ",
-    "desc": ""
+    "name": "ホーエンローエ"
   },
   "ROT": {
-    "name": "ローテンブルク",
-    "desc": ""
+    "name": "ローテンブルク"
   },
   "DNB": {
-    "name": "ディンケルスビュール",
-    "desc": ""
+    "name": "ディンケルスビュール"
   },
   "MEM": {
-    "name": "メミンゲン",
-    "desc": ""
+    "name": "メミンゲン"
   },
   "KMP": {
-    "name": "ケンプテン",
-    "desc": ""
+    "name": "ケンプテン"
   },
   "ULM": {
-    "name": "ウルム",
-    "desc": ""
+    "name": "ウルム"
   },
   "KNZ": {
-    "name": "コンスタンツ",
-    "desc": ""
+    "name": "コンスタンツ"
   },
   "WUR": {
-    "name": "ヴュルテンベルク",
-    "desc": ""
+    "name": "ヴュルテンベルク"
   },
   "OET": {
-    "name": "エッティンゲン",
-    "desc": ""
+    "name": "エッティンゲン"
   },
   "SWH": {
-    "name": "シュヴェービッシュ・ハル",
-    "desc": ""
+    "name": "シュヴェービッシュ・ハル"
   },
   "HBR": {
-    "name": "ハイルブロン",
-    "desc": ""
+    "name": "ハイルブロン"
   },
   "BDE": {
-    "name": "バーデン",
-    "desc": ""
+    "name": "バーデン"
   },
   "WDB": {
-    "name": "ヴァルトベルク",
-    "desc": ""
+    "name": "ヴァルトベルク"
   },
   "RVA": {
-    "name": "レーヴェンスブルク",
-    "desc": ""
+    "name": "レーヴェンスブルク"
   },
   "BIB": {
-    "name": "ビーベラッハ",
-    "desc": ""
+    "name": "ビーベラッハ"
   },
   "UBL": {
-    "name": "ユーバリンゲン",
-    "desc": ""
+    "name": "ユーバリンゲン"
   },
   "HHB": {
-    "name": "ホーエンベルク",
-    "desc": ""
+    "name": "ホーエンベルク"
   },
   "FBG": {
-    "name": "フライブルク",
-    "desc": ""
+    "name": "フライブルク"
   },
   "OFB": {
-    "name": "オッフェンブルク",
-    "desc": ""
+    "name": "オッフェンブルク"
   },
   "WLD": {
-    "name": "ヴァルトザッセン",
-    "desc": ""
+    "name": "ヴァルトザッセン"
   },
   "OGK": {
-    "name": "神聖ローマ",
-    "desc": ""
+    "name": "神聖ローマ"
   },
   "ORT": {
-    "name": "オルテンブルク",
-    "desc": ""
+    "name": "オルテンブルク"
   },
   "BXN": {
-    "name": "ブリクセン",
-    "desc": ""
+    "name": "ブリクセン"
   },
   "VUD": {
-    "name": "ヴォー",
-    "desc": ""
+    "name": "ヴォー"
   },
   "MSO": {
-    "name": "メソッコ",
-    "desc": ""
+    "name": "メソッコ"
   },
   "SGL": {
-    "name": "灰色同盟",
-    "desc": ""
+    "name": "灰色同盟"
   },
   "AOS": {
-    "name": "アオスタ",
-    "desc": ""
+    "name": "アオスタ"
   },
   "FLK": {
-    "name": "ファルケンシュタイン",
-    "desc": ""
+    "name": "ファルケンシュタイン"
   },
   "MDS": {
-    "name": "マンデルシャイト",
-    "desc": ""
+    "name": "マンデルシャイト"
   },
   "LDA": {
-    "name": "ランドー",
-    "desc": ""
+    "name": "ランドー"
   },
   "VEL": {
-    "name": "フェルデンツ",
-    "desc": ""
+    "name": "フェルデンツ"
   },
   "GRY": {
-    "name": "グリュイエール",
-    "desc": ""
+    "name": "グリュイエール"
   },
   "TGG": {
-    "name": "トッゲンブルク",
-    "desc": ""
+    "name": "トッゲンブルク"
   },
   "PSZ": {
-    "name": "ジンメルン",
-    "desc": ""
+    "name": "ジンメルン"
   },
   "HLE": {
-    "name": "神の家同盟",
-    "desc": ""
+    "name": "神の家同盟"
   },
   "SFC": {
-    "name": "ストラスブール",
-    "desc": ""
+    "name": "ストラスブール"
   },
   "CFC": {
-    "name": "コルマール",
-    "desc": ""
+    "name": "コルマール"
   },
   "MUR": {
-    "name": "マーバッハ",
-    "desc": ""
+    "name": "マーバッハ"
   },
   "HAG": {
-    "name": "ハーゲナウ",
-    "desc": ""
+    "name": "ハーゲナウ"
   },
   "MUL": {
-    "name": "ミュールーズ",
-    "desc": ""
+    "name": "ミュールーズ"
   },
   "LIC": {
-    "name": "リヒテンベルク",
-    "desc": ""
+    "name": "リヒテンベルク"
   },
   "BLM": {
-    "name": "ベルモント",
-    "desc": ""
+    "name": "ベルモント"
   },
   "DIS": {
-    "name": "ディセンティス",
-    "desc": ""
+    "name": "ディセンティス"
   },
   "FUR": {
-    "name": "フュルステンベルク",
-    "desc": ""
+    "name": "フュルステンベルク"
   },
   "GRK": {
-    "name": "グルック",
-    "desc": ""
+    "name": "グルック"
   },
   "HAC": {
-    "name": "ハッハベルク",
-    "desc": ""
+    "name": "ハッハベルク"
   },
   "SAW": {
-    "name": "ザールヴェルデン",
-    "desc": ""
+    "name": "ザールヴェルデン"
   },
   "SAB": {
-    "name": "ザウゼンバーグ",
-    "desc": ""
+    "name": "ザウゼンバーグ"
   },
   "THD": {
-    "name": "トゥルーヘンディンゲン",
-    "desc": ""
+    "name": "トゥルーヘンディンゲン"
   },
   "ELL": {
-    "name": "エルヴァンゲン",
-    "desc": ""
+    "name": "エルヴァンゲン"
   },
   "HEH": {
-    "name": "ハイデンハイム",
-    "desc": ""
+    "name": "ハイデンハイム"
   },
   "HLF": {
-    "name": "ヘルフェンシュタイン",
-    "desc": ""
+    "name": "ヘルフェンシュタイン"
   },
   "HOH": {
-    "name": "ホーエンツォレルン",
-    "desc": ""
+    "name": "ホーエンツォレルン"
   },
   "KIR": {
-    "name": "キルヒベルク",
-    "desc": ""
+    "name": "キルヒベルク"
   },
   "NEL": {
-    "name": "ネレンブルク",
-    "desc": ""
+    "name": "ネレンブルク"
   },
   "TUB": {
-    "name": "チュービンゲン",
-    "desc": ""
+    "name": "チュービンゲン"
   },
   "LEU": {
-    "name": "ロイヒテンベルク",
-    "desc": ""
+    "name": "ロイヒテンベルク"
   },
   "GLH": {
-    "name": "ジョチ",
-    "desc": ""
+    "name": "ジョチ"
   },
   "CRI": {
-    "name": "クリミア",
-    "desc": ""
+    "name": "クリミア"
   },
   "NOG": {
-    "name": "ノガイ",
-    "desc": ""
+    "name": "ノガイ"
   },
   "ATR": {
-    "name": "アストラハン",
-    "desc": ""
+    "name": "アストラハン"
   },
   "FEO": {
-    "name": "テオドロ",
-    "desc": ""
+    "name": "テオドロ"
   },
   "BSH": {
-    "name": "バシキール",
-    "desc": ""
+    "name": "バシキール"
   },
   "MGE": {
-    "name": "モンゴル",
-    "desc": ""
+    "name": "モンゴル"
   },
   "GAZ": {
-    "name": "ガザリア",
-    "desc": ""
+    "name": "ガザリア"
   },
   "JOL": {
-    "name": "ジョロフ",
-    "desc": ""
+    "name": "ジョロフ"
   },
   "FUL": {
-    "name": "グレート・フーロ",
-    "desc": ""
+    "name": "グレート・フーロ"
   },
   "MPR": {
-    "name": "マンプルグ",
-    "desc": ""
+    "name": "マンプルグ"
   },
   "DGB": {
-    "name": "ダグボン",
-    "desc": ""
+    "name": "ダグボン"
   },
   "KNG": {
-    "name": "コン",
-    "desc": ""
+    "name": "コン"
   },
   "BON": {
-    "name": "ボノマン",
-    "desc": ""
+    "name": "ボノマン"
   },
   "GYA": {
-    "name": "ギャアマン",
-    "desc": ""
+    "name": "ギャアマン"
   },
   "MNK": {
-    "name": "マンケシム",
-    "desc": ""
+    "name": "マンケシム"
   },
   "ZZZ": {
-    "name": "ザザウ",
-    "desc": ""
+    "name": "ザザウ"
   },
   "NUP": {
-    "name": "ヌペ",
-    "desc": ""
+    "name": "ヌペ"
   },
   "BEN": {
-    "name": "ベナン",
-    "desc": ""
+    "name": "ベナン"
   },
   "OYO": {
-    "name": "オヨ",
-    "desc": ""
+    "name": "オヨ"
   },
   "IFE": {
-    "name": "イフェ",
-    "desc": ""
+    "name": "イフェ"
   },
   "OWO": {
-    "name": "オウォ",
-    "desc": ""
+    "name": "オウォ"
   },
   "IJB": {
-    "name": "イジェブ",
-    "desc": ""
+    "name": "イジェブ"
   },
   "ISO": {
-    "name": "イセド",
-    "desc": ""
+    "name": "イセド"
   },
   "IYA": {
-    "name": "イラ・ヤラ",
-    "desc": ""
+    "name": "イラ・ヤラ"
   },
   "OKE": {
-    "name": "オケ＝イラ",
-    "desc": ""
+    "name": "オケ＝イラ"
   },
   "IJE": {
-    "name": "イジェロ",
-    "desc": ""
+    "name": "イジェロ"
   },
   "ADO": {
-    "name": "アド",
-    "desc": ""
+    "name": "アド"
   },
   "IJS": {
-    "name": "イジェシャ",
-    "desc": ""
+    "name": "イジェシャ"
   },
   "AKR": {
-    "name": "アクレ",
-    "desc": ""
+    "name": "アクレ"
   },
   "OND": {
-    "name": "オンド",
-    "desc": ""
+    "name": "オンド"
   },
   "AWO": {
-    "name": "アウォリ",
-    "desc": ""
+    "name": "アウォリ"
   },
   "KET": {
-    "name": "ケトゥ",
-    "desc": ""
+    "name": "ケトゥ"
   },
   "NRI": {
-    "name": "ヌリ",
-    "desc": ""
+    "name": "ヌリ"
   },
   "BMR": {
-    "name": "バンバラ",
-    "desc": ""
+    "name": "バンバラ"
   },
   "KBR": {
-    "name": "カブラ",
-    "desc": ""
+    "name": "カブラ"
   },
   "ZGH": {
-    "name": "ザガ",
-    "desc": ""
+    "name": "ザガ"
   },
   "BBK": {
-    "name": "バンブク",
-    "desc": ""
+    "name": "バンブク"
   },
   "DFN": {
-    "name": "ディアフヌ",
-    "desc": ""
+    "name": "ディアフヌ"
   },
   "GHA": {
-    "name": "ガーナ",
-    "desc": ""
+    "name": "ガーナ"
   },
   "KAB": {
-    "name": "カアブ",
-    "desc": ""
+    "name": "カアブ"
   },
   "MAL": {
-    "name": "マリ",
-    "desc": ""
+    "name": "マリ"
   },
   "SGH": {
-    "name": "サンガナ",
-    "desc": ""
+    "name": "サンガナ"
   },
   "TKR": {
-    "name": "タクルール",
-    "desc": ""
+    "name": "タクルール"
   },
   "TMK": {
-    "name": "タードメッカ",
-    "desc": ""
+    "name": "タードメッカ"
   },
   "TMB": {
-    "name": "トンブクトゥ",
-    "desc": ""
+    "name": "トンブクトゥ"
   },
   "TRG": {
-    "name": "トゥアレグ",
-    "desc": ""
+    "name": "トゥアレグ"
   },
   "SON": {
-    "name": "ソンガイ",
-    "desc": ""
+    "name": "ソンガイ"
   },
   "TFK": {
-    "name": "ティラフカ",
-    "desc": ""
+    "name": "ティラフカ"
   },
   "BOR": {
-    "name": "ボルグ",
-    "desc": ""
+    "name": "ボルグ"
   },
   "OUA": {
-    "name": "ワガドゥグ",
-    "desc": ""
+    "name": "ワガドゥグ"
   },
   "GWI": {
-    "name": "グイリコ",
-    "desc": ""
+    "name": "グイリコ"
   },
   "LIP": {
-    "name": "リプタコ",
-    "desc": ""
+    "name": "リプタコ"
   },
   "YAT": {
-    "name": "ヤテンガ",
-    "desc": ""
+    "name": "ヤテンガ"
   },
   "TEN": {
-    "name": "テンコドゴ",
-    "desc": ""
+    "name": "テンコドゴ"
   },
   "BSM": {
-    "name": "ブスマ",
-    "desc": ""
+    "name": "ブスマ"
   },
   "GUR": {
-    "name": "ファダ・ングルマ",
-    "desc": ""
+    "name": "ファダ・ングルマ"
   },
   "KAN": {
-    "name": "カノ",
-    "desc": ""
+    "name": "カノ"
   },
   "KTS": {
-    "name": "カツィナ",
-    "desc": ""
+    "name": "カツィナ"
   },
   "ZAM": {
-    "name": "ザンファラ",
-    "desc": ""
+    "name": "ザンファラ"
   },
   "KEB": {
-    "name": "ケビ",
-    "desc": ""
+    "name": "ケビ"
   },
   "RAN": {
-    "name": "ラノ",
-    "desc": ""
+    "name": "ラノ"
   },
   "GOB": {
-    "name": "ゴビル",
-    "desc": ""
+    "name": "ゴビル"
   },
   "DAA": {
-    "name": "ダウラ",
-    "desc": ""
+    "name": "ダウラ"
   },
   "KBO": {
-    "name": "カネム",
-    "desc": ""
+    "name": "カネム"
   },
   "YAO": {
-    "name": "ビララ",
-    "desc": ""
+    "name": "ビララ"
   },
   "KOT": {
-    "name": "サオ",
-    "desc": ""
+    "name": "サオ"
   },
   "BGI": {
-    "name": "バギルミ",
-    "desc": ""
+    "name": "バギルミ"
   },
   "MDR": {
-    "name": "マンダラ",
-    "desc": ""
+    "name": "マンダラ"
   },
   "ZGW": {
-    "name": "ザガワ",
-    "desc": ""
+    "name": "ザガワ"
   },
   "WAD": {
-    "name": "ワダイ",
-    "desc": ""
+    "name": "ワダイ"
   },
   "DAH": {
-    "name": "ダホメ",
-    "desc": ""
+    "name": "ダホメ"
   },
   "KLP": {
-    "name": "カラプヤ",
-    "desc": ""
+    "name": "カラプヤ"
   },
   "CNK": {
-    "name": "チヌーク",
-    "desc": ""
+    "name": "チヌーク"
   },
   "TSA": {
-    "name": "ツァモサ",
-    "desc": ""
+    "name": "ツァモサ"
   },
   "MKH": {
-    "name": "マカー",
-    "desc": ""
+    "name": "マカー"
   },
   "SKL": {
-    "name": "スクララム",
-    "desc": ""
+    "name": "スクララム"
   },
   "TWN": {
-    "name": "トワナ",
-    "desc": ""
+    "name": "トワナ"
   },
   "LHT": {
-    "name": "ルシュートシード",
-    "desc": ""
+    "name": "ルシュートシード"
   },
   "LHQ": {
-    "name": "ラフテミシュ",
-    "desc": ""
+    "name": "ラフテミシュ"
   },
   "HLM": {
-    "name": "ハルコメレム",
-    "desc": ""
+    "name": "ハルコメレム"
   },
   "SQH": {
-    "name": "スクォーミッシュ",
-    "desc": ""
+    "name": "スクォーミッシュ"
   },
   "KMK": {
-    "name": "コモクス",
-    "desc": ""
+    "name": "コモクス"
   },
   "NOO": {
-    "name": "ヌートカ",
-    "desc": ""
+    "name": "ヌートカ"
   },
   "KWA": {
-    "name": "クワキウトル",
-    "desc": ""
+    "name": "クワキウトル"
   },
   "OOW": {
-    "name": "ウーウィクヤラ",
-    "desc": ""
+    "name": "ウーウィクヤラ"
   },
   "NUX": {
-    "name": "ヌクサルク",
-    "desc": ""
+    "name": "ヌクサルク"
   },
   "HLK": {
-    "name": "ヘイルツク",
-    "desc": ""
+    "name": "ヘイルツク"
   },
   "HLA": {
-    "name": "ハイスラ",
-    "desc": ""
+    "name": "ハイスラ"
   },
   "TMH": {
-    "name": "ツィムシア",
-    "desc": ""
+    "name": "ツィムシア"
   },
   "XDA": {
-    "name": "ハイダ",
-    "desc": ""
+    "name": "ハイダ"
   },
   "TLG": {
-    "name": "トリンギット",
-    "desc": ""
+    "name": "トリンギット"
   }
 }

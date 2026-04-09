@@ -1,0 +1,488 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANG_CODES, type Lang, localePath } from "../../../../i18n/config";
+import { loadCore, loadLoc, loadGameTerms, loadReligionLoc } from "../../../../i18n/data";
+import { t, tf } from "../../../../i18n/ui";
+import type { CountryItem } from "../../../../i18n/types";
+
+export function getStaticPaths() {
+  const core = loadCore<CountryItem>("countries");
+  return LANG_CODES.flatMap((lang) =>
+    core.map((item) => ({
+      params: { lang, id: item.tag },
+      props: { lang, item },
+    })),
+  );
+}
+
+const { lang, item } = Astro.props as { lang: Lang; item: CountryItem };
+const core = loadCore<CountryItem>("countries");
+const loc = loadLoc("countries", lang);
+const locEn = lang !== "en" ? loadLoc("countries", "en") : loc;
+const relLoc = loadReligionLoc(lang);
+const govLoc = loadLoc("governments", lang);
+const govLocEn = lang !== "en" ? loadLoc("governments", "en") : govLoc;
+const terms = loadGameTerms(lang);
+
+const name = loc[item.tag]?.name ?? item.tag;
+const nameEn = locEn[item.tag]?.name ?? item.tag;
+const desc = loc[item.tag]?.desc;
+
+// Related countries (same file_region, exclude self)
+const related = core.filter((c) => c.file_region === item.file_region && c.tag !== item.tag);
+const RELATED_LIMIT = 50;
+
+// Government type from loc (full i18n)
+function govName(gov: string): string {
+  return govLoc[gov]?.name ?? govLocEn[gov]?.name ?? gov.replace(/_/g, " ");
+}
+function govDesc(gov: string): string | undefined {
+  return govLoc[gov]?.desc ?? govLocEn[gov]?.desc;
+}
+
+// Rank display (government_names loc doesn't have base rank keys, use UI strings)
+function rankName(rank: string): string {
+  const key = `countries.rank.${rank}` as any;
+  const val = t(lang, key);
+  return val !== key ? val : rank.replace(/^rank_/, "").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+// Difficulty stars
+function difficultyStars(n: number): string {
+  return "\u2605".repeat(n) + "\u2606".repeat(5 - n);
+}
+
+// Heir selection display
+function heirName(heir: string): string {
+  return terms[heir] ?? heir.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+// Culture / religion display names
+const cultureName = terms[item.culture_definition ?? ""]
+  ?? item.culture_definition?.replace(/_/g, " ") ?? "";
+const religionName = relLoc[item.religion_definition ?? ""]?.name
+  ?? item.religion_definition?.replace(/_/g, " ") ?? "";
+const cultureGroupNames = (item.culture_groups ?? []).map((g) =>
+  terms[g] ?? g.replace(/_group$/, "").replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+);
+
+// Region display name (humanize file_region)
+const regionDisplay = item.file_region
+  .replace(/^_/, "")
+  .replace(/_/g, " ")
+  .replace(/\b\w/g, (c) => c.toUpperCase());
+
+// Capital display (handle possible list from duplicate keys in game data)
+const rawCapital = Array.isArray(item.capital) ? item.capital[0] : item.capital;
+const capitalName = terms[rawCapital ?? ""]
+  ?? rawCapital?.replace(/_/g, " ").replace(/\b\w/g, (c: string) => c.toUpperCase()) ?? "";
+
+// Formable rule display (from ui.ts)
+function ruleName(rule: string): string {
+  const key = `countries.rule.${rule}` as any;
+  const val = t(lang, key);
+  return val !== key ? val : rule;
+}
+
+// Description category display (from ui.ts)
+function descCatName(cat: string): string {
+  const key = `countries.desccat.${cat}` as any;
+  const val = t(lang, key);
+  return val !== key ? val : cat;
+}
+---
+
+<Base
+  lang={lang}
+  title={name}
+  description={desc ? `${name} — ${desc.slice(0, 120)}` : undefined}
+  canonicalPath={`/countries/${item.tag}/`}
+>
+  <nav class="breadcrumb">
+    <a href={localePath(lang, "/")}>{t(lang, "nav.home")}</a>
+    <span class="sep">&rsaquo;</span>
+    <a href={localePath(lang, "/countries/")}>{t(lang, "countries.breadcrumb")}</a>
+    <span class="sep">&rsaquo;</span>
+    <span>{name}</span>
+  </nav>
+
+  <header class="country-header">
+    <div class="header-title">
+      <img src={`/${item.icon}`} alt="" width="48" height="32" class="coa-icon"
+        onerror="this.style.display='none'" />
+      <div>
+        <h1>{name}</h1>
+        <div class="header-sub">
+          {lang !== "en" && <span class="en-name">{nameEn}</span>}
+          <code class="id-badge">{item.tag}</code>
+          {item.is_historic && <span class="historic-badge">{t(lang, "countries.detail.historic")}</span>}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="props-card">
+    <h2>{t(lang, "common.basic_info")}</h2>
+    <dl>
+      {item.capital && (
+        <div class="prop-row">
+          <dt>{t(lang, "countries.detail.capital")}</dt>
+          <dd>{capitalName}</dd>
+        </div>
+      )}
+      {item.country_rank && (
+        <div class="prop-row">
+          <dt>{t(lang, "countries.detail.rank")}</dt>
+          <dd><span class={`rank-tag rank-${item.country_rank}`}>{rankName(item.country_rank)}</span></dd>
+        </div>
+      )}
+      {item.government_type && (
+        <div class="prop-row">
+          <dt>{t(lang, "countries.detail.gov_type")}</dt>
+          <dd>
+            {govDesc(item.government_type) ? (
+              <span class="has-tip" data-tip={govDesc(item.government_type)}>{govName(item.government_type)}</span>
+            ) : govName(item.government_type)}
+          </dd>
+        </div>
+      )}
+      {item.heir_selection && (
+        <div class="prop-row">
+          <dt>{t(lang, "countries.detail.heir")}</dt>
+          <dd>{heirName(item.heir_selection)}</dd>
+        </div>
+      )}
+      {item.religion_definition && (
+        <div class="prop-row">
+          <dt>{t(lang, "countries.detail.religion")}</dt>
+          <dd>
+            {(() => {
+              const relDesc = relLoc[item.religion_definition ?? ""]?.desc?.slice(0, 150);
+              return relDesc ? (
+                <a href={localePath(lang, `/religions/${item.religion_definition}/`)}
+                   class="rel-link has-tip" data-tip={relDesc}>
+                  {religionName}
+                </a>
+              ) : (
+                <a href={localePath(lang, `/religions/${item.religion_definition}/`)}
+                   class="rel-link">
+                  {religionName}
+                </a>
+              );
+            })()}
+          </dd>
+        </div>
+      )}
+      {item.culture_definition && (
+        <div class="prop-row">
+          <dt>{t(lang, "countries.detail.culture")}</dt>
+          <dd>{cultureName}</dd>
+        </div>
+      )}
+      {cultureGroupNames.length > 0 && (
+        <div class="prop-row">
+          <dt>{t(lang, "countries.detail.culture_group")}</dt>
+          <dd class="group-tags">
+            {cultureGroupNames.map((g) => <span class="tag">{g}</span>)}
+          </dd>
+        </div>
+      )}
+      {item.difficulty != null && (
+        <div class="prop-row">
+          <dt>{t(lang, "countries.detail.difficulty")}</dt>
+          <dd class="stars">{difficultyStars(item.difficulty)}</dd>
+        </div>
+      )}
+      {item.description_category && (
+        <div class="prop-row">
+          <dt>{t(lang, "countries.detail.desc_category")}</dt>
+          <dd>{descCatName(item.description_category)}</dd>
+        </div>
+      )}
+      {item.starting_tech != null && (
+        <div class="prop-row">
+          <dt>{t(lang, "countries.detail.starting_tech")}</dt>
+          <dd>{item.starting_tech}</dd>
+        </div>
+      )}
+    </dl>
+  </section>
+
+  {item.is_formable && (
+    <section class="props-card formable-card">
+      <h2>{t(lang, "countries.detail.formable")}</h2>
+      <dl>
+        {item.formable_level != null && (
+          <div class="prop-row">
+            <dt>{t(lang, "countries.detail.formable_level")}</dt>
+            <dd><span class="tag">Tier {item.formable_level}</span></dd>
+          </div>
+        )}
+        {item.formable_rule && (
+          <div class="prop-row">
+            <dt>{t(lang, "countries.detail.formable_rule")}</dt>
+            <dd><span class={`rule-tag rule-${item.formable_rule}`}>{ruleName(item.formable_rule)}</span></dd>
+          </div>
+        )}
+      </dl>
+    </section>
+  )}
+
+  {desc && (
+    <section class="description">
+      <h2>{t(lang, "common.description")}</h2>
+      <p>{desc}</p>
+    </section>
+  )}
+
+  {related.length > 0 && (
+    <section class="related">
+      <h2>
+        {t(lang, "countries.detail.related")}
+        <span class="related-count">{related.length}</span>
+      </h2>
+      <div class="table-wrap"><table>
+        <thead>
+          <tr>
+            <th class="icon-head"></th>
+            <th>{t(lang, "countries.col.name")}</th>
+            {lang !== "en" && <th>{t(lang, "countries.col.name_en")}</th>}
+            <th>{t(lang, "countries.col.religion")}</th>
+            <th>{t(lang, "countries.col.gov")}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {related.slice(0, RELATED_LIMIT).map((c) => {
+            const cName = loc[c.tag]?.name ?? c.tag;
+            const cNameEn = locEn[c.tag]?.name ?? c.tag;
+            const cRel = relLoc[c.religion_definition ?? ""]?.name ?? c.religion_definition ?? "";
+            const cGov = c.government_type ? govName(c.government_type) : "";
+            return (
+              <tr class="rel-row" data-href={localePath(lang, `/countries/${c.tag}/`)}>
+                <td class="icon-cell">
+                  <img src={`/${c.icon}`} alt="" width="32" height="21" loading="lazy"
+                    onerror="this.style.display='none'" />
+                </td>
+                <td><a href={localePath(lang, `/countries/${c.tag}/`)}>{cName}</a></td>
+                {lang !== "en" && <td class="muted">{cNameEn}</td>}
+                <td class="muted">{cRel}</td>
+                <td class="muted">{cGov}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table></div>
+      {related.length > RELATED_LIMIT && (
+        <p class="truncated-note">
+          {tf(lang, "countries.related.truncated", { shown: RELATED_LIMIT, total: related.length })}
+          {" — "}
+          <a href={localePath(lang, "/countries/")}>{t(lang, "countries.breadcrumb")}</a>
+        </p>
+      )}
+    </section>
+  )}
+
+  <style>
+    .breadcrumb {
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+      color: var(--dusty-silver);
+    }
+    .breadcrumb .sep { margin: 0 0.4rem; color: var(--dim-stone); }
+    .breadcrumb span:last-child { color: var(--ivory); }
+
+    .country-header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--gold-thread);
+    }
+    .header-title {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .coa-icon {
+      border: 1px solid var(--iron-edge);
+      border-radius: 2px;
+      background: var(--charred-oak);
+    }
+    .country-header h1 {
+      font-size: 2rem;
+      color: var(--royal-gold);
+      margin-bottom: 0.15rem;
+    }
+    .header-sub {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .en-name { color: var(--dusty-silver); font-size: 1rem; }
+    .id-badge {
+      background: var(--charred-oak); border: 1px solid var(--iron-edge);
+      border-radius: 2px; padding: 0.1rem 0.5rem;
+      font-size: 1rem; color: var(--dim-stone);
+    }
+    .historic-badge {
+      background: rgba(201, 148, 76, 0.15); color: var(--harvest-amber);
+      border-radius: 2px; padding: 0.1rem 0.5rem;
+      font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .props-card, .description, .related {
+      background: var(--dark-walnut);
+      border: 1px solid var(--iron-edge);
+      border-radius: 4px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .props-card h2, .description h2, .related h2 {
+      font-size: 1.15rem;
+      font-family: var(--font-body);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--dusty-silver);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--iron-edge);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .formable-card { border-color: rgba(201, 168, 76, 0.3); }
+
+    dl { display: flex; flex-direction: column; gap: 0; }
+    .prop-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0.4rem 0; border-bottom: 1px solid var(--iron-edge);
+    }
+    .prop-row:last-child { border-bottom: none; }
+    dt { font-size: 1rem; color: var(--dusty-silver); }
+    dd { font-size: 1rem; font-weight: 500; }
+
+    .tag {
+      display: inline-block;
+      background: rgba(201, 168, 76, 0.15); color: var(--pale-gold);
+      border-radius: 2px; padding: 0.1rem 0.5rem;
+      font-size: 1rem; font-weight: 500;
+    }
+    .group-tags { display: flex; gap: 0.3rem; flex-wrap: wrap; justify-content: flex-end; }
+
+    .rank-tag {
+      display: inline-block; border-radius: 2px;
+      padding: 0.1rem 0.5rem; font-size: 1rem; font-weight: 600;
+    }
+    .rank-rank_county { background: rgba(154, 155, 171, 0.15); color: var(--dusty-silver); }
+    .rank-rank_duchy { background: rgba(74, 142, 201, 0.15); color: var(--azure-banner); }
+    .rank-rank_kingdom { background: rgba(201, 168, 76, 0.15); color: var(--royal-gold); }
+    .rank-rank_empire { background: rgba(196, 79, 79, 0.15); color: var(--crest-red); }
+
+    .rule-tag {
+      display: inline-block; border-radius: 2px;
+      padding: 0.1rem 0.5rem; font-size: 1rem; font-weight: 500;
+    }
+    .rule-historical { background: rgba(76, 154, 90, 0.15); color: var(--forest-green); }
+    .rule-plausible { background: rgba(201, 168, 76, 0.15); color: var(--pale-gold); }
+    .rule-fantasy { background: rgba(196, 79, 79, 0.15); color: var(--crest-red); }
+
+    .stars { color: var(--royal-gold); font-size: 1rem; letter-spacing: 0.05em; }
+
+    .rel-link { color: var(--azure-banner); }
+    .rel-link:hover { color: var(--pale-gold); }
+
+    .description p { color: var(--dusty-silver); font-size: 1rem; line-height: 1.8; }
+
+    .related-count {
+      font-family: var(--font-body);
+      font-size: 0.7rem; font-weight: 500;
+      color: var(--dusty-silver); background: var(--slate);
+      padding: 0.1rem 0.45rem; border-radius: 2px;
+    }
+
+    .table-wrap { overflow-x: auto; }
+    .related table { width: 100%; border-collapse: collapse; }
+    .related thead { background: var(--charred-oak); }
+    .related th {
+      padding: 0.4rem 0.75rem; text-align: left;
+      font-family: var(--font-body); font-weight: 500;
+      font-size: 1rem; color: var(--dusty-silver);
+      text-transform: uppercase; letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+    .related td {
+      padding: 0.4rem 0.75rem; font-size: 1rem;
+      border-bottom: 1px solid var(--iron-edge);
+    }
+    .related tr:last-child td { border-bottom: none; }
+    .rel-row[data-href] { cursor: pointer; }
+    .rel-row:hover { background: var(--slate); }
+    .rel-row td a { color: var(--ivory); font-weight: 500; }
+    .rel-row td a:hover { color: var(--pale-gold); }
+    .icon-head { width: 40px; }
+    .icon-cell { width: 40px; }
+    .icon-cell img { border-radius: 2px; vertical-align: middle; }
+    .muted { color: var(--dusty-silver); }
+
+    .truncated-note {
+      margin-top: 0.75rem;
+      font-size: 0.875rem;
+      color: var(--dim-stone);
+      text-align: center;
+    }
+    .truncated-note a { color: var(--azure-banner); }
+    .truncated-note a:hover { color: var(--pale-gold); }
+
+    /* Tooltips */
+    .has-tip {
+      position: relative;
+      cursor: help;
+      border-bottom: 1px dotted var(--dim-stone);
+    }
+    .rel-link.has-tip { border-bottom: none; }
+    .has-tip::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 0;
+      width: max(200px, 100%);
+      max-width: 320px;
+      padding: 0.5rem 0.75rem;
+      background: var(--charred-oak);
+      border: 1px solid var(--gold-thread);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--dusty-silver);
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s, visibility 0.2s;
+      z-index: 20;
+      pointer-events: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    .has-tip:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+    .has-tip:not([data-tip])::after,
+    .has-tip[data-tip=""]::after {
+      display: none;
+    }
+  </style>
+
+  <script>
+    document.querySelectorAll<HTMLTableRowElement>(".rel-row").forEach((row) => {
+      const href = row.dataset.href;
+      if (!href) return;
+      row.addEventListener("click", (e) => {
+        if ((e.target as HTMLElement).closest("a")) return;
+        window.location.href = href;
+      });
+    });
+  </script>
+</Base>

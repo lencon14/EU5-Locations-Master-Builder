@@ -1,4 +1,4 @@
-﻿l_japanese:
+l_japanese:
  #Positive Response
  common_string_brilliant: "素晴らしい！"
  common_string_excellent: "素晴らしい。"
@@ -84,3 +84,4 @@
  common_string_shaikh_al_islam: "シェイヒュルイスラーム"
  genghis_khan_name: "#TOOLTIP:CHARACTER,[GetCharacter('genghis_khan').GetID],X #L [GetCharacter('genghis_khan').GetNicknameWithNoTooltip]、$rank_kingdom_horde_ruler_suffix_male$#!#!"
  genghis_khan_name_no_tooltip: "$name_genghis$・$rank_kingdom_horde_ruler_suffix_male$"
+

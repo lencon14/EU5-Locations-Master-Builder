@@ -1,8906 +1,6977 @@
 {
-  "DUMMY": {
-    "name": "(placeholder)",
-    "desc": ""
-  },
-  "PIR": {
-    "name": "Pirates",
-    "desc": ""
-  },
-  "MER": {
-    "name": "Mercenaries",
-    "desc": ""
-  },
   "SWE": {
-    "name": "Sweden",
-    "desc": ""
+    "name": "Sweden"
   },
   "DAN": {
-    "name": "Denmark",
-    "desc": ""
+    "name": "Denmark"
   },
   "SKE": {
-    "name": "Scania",
-    "desc": ""
+    "name": "Scania"
   },
   "NOR": {
-    "name": "Norway",
-    "desc": ""
+    "name": "Norway"
   },
   "FIN": {
-    "name": "Finland",
-    "desc": ""
+    "name": "Finland"
   },
   "BJA": {
-    "name": "Bjarmia",
-    "desc": ""
+    "name": "Bjarmia"
   },
   "TAV": {
-    "name": "Tavastland",
-    "desc": ""
+    "name": "Tavastland"
   },
   "KVE": {
-    "name": "Kvenland",
-    "desc": ""
+    "name": "Kvenland"
   },
   "SVO": {
-    "name": "Savolax",
-    "desc": ""
+    "name": "Savolax"
   },
   "ICE": {
-    "name": "Iceland",
-    "desc": ""
+    "name": "Iceland"
   },
   "GRL": {
-    "name": "Greenland",
-    "desc": ""
+    "name": "Greenland"
   },
   "SMI": {
-    "name": "Sápmi",
-    "desc": ""
+    "name": "Sápmi"
   },
   "AHI": {
-    "name": "Ahis",
-    "desc": ""
+    "name": "Ahis"
   },
   "ALY": {
-    "name": "Alaiye",
-    "desc": ""
+    "name": "Alaiye"
   },
   "ATQ": {
-    "name": "Artuqids",
-    "desc": ""
+    "name": "Artuqids"
   },
   "AYD": {
-    "name": "Aydınids",
-    "desc": ""
+    "name": "Aydınids"
   },
   "BFR": {
-    "name": "Bafra",
-    "desc": ""
+    "name": "Bafra"
   },
   "CIL": {
-    "name": "Cilicia",
-    "desc": ""
+    "name": "Cilicia"
   },
   "CND": {
-    "name": "Candarids",
-    "desc": ""
+    "name": "Candarids"
   },
   "CYP": {
-    "name": "Cyprus",
-    "desc": ""
+    "name": "Cyprus"
   },
   "DIL": {
-    "name": "Dilmaçids",
-    "desc": ""
+    "name": "Dilmaçids"
   },
   "DUL": {
-    "name": "Dulkadirids",
-    "desc": ""
+    "name": "Dulkadirids"
   },
   "ERE": {
-    "name": "Eretnids",
-    "desc": ""
+    "name": "Eretnids"
   },
   "GRM": {
-    "name": "Germiyanids",
-    "desc": ""
+    "name": "Germiyanids"
   },
   "HMD": {
-    "name": "Hamidids",
-    "desc": ""
+    "name": "Hamidids"
   },
   "HCI": {
-    "name": "Haciemirids",
-    "desc": ""
+    "name": "Haciemirids"
   },
   "HSN": {
-    "name": "Ayyubids",
-    "desc": ""
+    "name": "Ayyubids"
   },
   "INA": {
-    "name": "İnançids",
-    "desc": ""
+    "name": "İnançids"
   },
   "KAR": {
-    "name": "Karamanids",
-    "desc": ""
+    "name": "Karamanids"
   },
   "KBD": {
-    "name": "Kubadids",
-    "desc": ""
+    "name": "Kubadids"
   },
   "KRD": {
-    "name": "Karasids",
-    "desc": ""
+    "name": "Karasids"
   },
   "MEN": {
-    "name": "Menteşeids",
-    "desc": ""
+    "name": "Menteşeids"
   },
   "SHP": {
-    "name": "Sahib Ataids",
-    "desc": ""
+    "name": "Sahib Ataids"
   },
   "SRU": {
-    "name": "Saruhanids",
-    "desc": ""
+    "name": "Saruhanids"
   },
   "SUT": {
-    "name": "Sutayids",
-    "desc": ""
+    "name": "Sutayids"
   },
   "TDJ": {
-    "name": "Tacettinids",
-    "desc": ""
+    "name": "Tacettinids"
   },
   "TEK": {
-    "name": "Teke",
-    "desc": ""
+    "name": "Teke"
   },
   "TRE": {
-    "name": "Trebizond",
-    "desc": ""
+    "name": "Trebizond"
   },
   "TUR": {
-    "name": "Ottomans",
-    "desc": ""
+    "name": "Ottomans"
   },
   "BHT": {
-    "name": "Bohtan",
-    "desc": ""
+    "name": "Bohtan"
   },
   "BIN": {
-    "name": "Çapakçur",
-    "desc": ""
+    "name": "Çapakçur"
   },
   "BIT": {
-    "name": "Bitlis",
-    "desc": ""
+    "name": "Bitlis"
   },
   "CEM": {
-    "name": "Çemişgezek",
-    "desc": ""
+    "name": "Çemişgezek"
   },
   "DSN": {
-    "name": "Dasni",
-    "desc": ""
+    "name": "Dasni"
   },
   "DMB": {
-    "name": "Domboli-Bokht",
-    "desc": ""
+    "name": "Domboli-Bokht"
   },
   "EGL": {
-    "name": "Egil",
-    "desc": ""
+    "name": "Egil"
   },
   "HKK": {
-    "name": "Hakkari",
-    "desc": ""
+    "name": "Hakkari"
   },
   "HZN": {
-    "name": "Hizan",
-    "desc": ""
+    "name": "Hizan"
   },
   "HZR": {
-    "name": "Hazro",
-    "desc": ""
+    "name": "Hazro"
   },
   "JLM": {
-    "name": "Jolemark",
-    "desc": ""
+    "name": "Jolemark"
   },
   "MZJ": {
-    "name": "Mazenjani",
-    "desc": ""
+    "name": "Mazenjani"
   },
   "MUS": {
-    "name": "Mus",
-    "desc": ""
+    "name": "Mus"
   },
   "SOH": {
-    "name": "Sohri",
-    "desc": ""
+    "name": "Sohri"
   },
   "ZRQ": {
-    "name": "Zirqan",
-    "desc": ""
+    "name": "Zirqan"
   },
   "ZZR": {
-    "name": "Zerzari",
-    "desc": ""
+    "name": "Zerzari"
   },
   "KIL": {
-    "name": "Kilis",
-    "desc": ""
+    "name": "Kilis"
   },
   "TVS": {
-    "name": "Tavas",
-    "desc": ""
+    "name": "Tavas"
   },
   "QTO": {
-    "name": "Quito",
-    "desc": ""
+    "name": "Quito"
   },
   "CHM": {
-    "name": "Chimu",
-    "desc": ""
+    "name": "Chimu"
   },
   "XLL": {
-    "name": "Xllang",
-    "desc": ""
+    "name": "Xllang"
   },
   "CYA": {
-    "name": "Sacha-p-qulla",
-    "desc": ""
+    "name": "Sacha-p-qulla"
   },
   "TLN": {
-    "name": "Tallan",
-    "desc": ""
+    "name": "Tallan"
   },
   "ICM": {
-    "name": "Ichma",
-    "desc": ""
+    "name": "Ichma"
   },
   "WAN": {
-    "name": "Wanka",
-    "desc": ""
+    "name": "Wanka"
   },
   "HNK": {
-    "name": "Hanan Chanka",
-    "desc": ""
+    "name": "Hanan Chanka"
   },
   "URC": {
-    "name": "Urin Chanka",
-    "desc": ""
+    "name": "Urin Chanka"
   },
   "CIC": {
-    "name": "Chincha",
-    "desc": ""
+    "name": "Chincha"
   },
   "CSU": {
-    "name": "Qusqu",
-    "desc": ""
+    "name": "Qusqu"
   },
   "AYA": {
-    "name": "Ayarmaca",
-    "desc": ""
+    "name": "Ayarmaca"
   },
   "PIG": {
-    "name": "Pinagua",
-    "desc": ""
+    "name": "Pinagua"
   },
   "PCJ": {
-    "name": "Paka Jaqis",
-    "desc": ""
+    "name": "Paka Jaqis"
   },
   "LUP": {
-    "name": "Lupijaki",
-    "desc": ""
+    "name": "Lupijaki"
   },
   "OMG": {
-    "name": "Omaguaca",
-    "desc": ""
+    "name": "Omaguaca"
   },
   "CAV": {
-    "name": "Calva",
-    "desc": ""
+    "name": "Calva"
   },
   "MLT": {
-    "name": "Malacato",
-    "desc": ""
+    "name": "Malacato"
   },
   "GRR": {
-    "name": "Garrochamba",
-    "desc": ""
+    "name": "Garrochamba"
   },
   "MNT": {
-    "name": "Manta",
-    "desc": ""
+    "name": "Manta"
   },
   "GCV": {
-    "name": "Guancavilca",
-    "desc": ""
+    "name": "Guancavilca"
   },
   "BBA": {
-    "name": "Baba",
-    "desc": ""
+    "name": "Baba"
   },
   "SLL": {
-    "name": "Shabalula",
-    "desc": ""
+    "name": "Shabalula"
   },
   "HKR": {
-    "name": "Hatun Kañar",
-    "desc": ""
+    "name": "Hatun Kañar"
   },
   "CAX": {
-    "name": "Cara",
-    "desc": ""
+    "name": "Cara"
   },
   "PUU": {
-    "name": "Puruhá",
-    "desc": ""
+    "name": "Puruhá"
   },
   "CRA": {
-    "name": "Charka",
-    "desc": ""
+    "name": "Charka"
   },
   "KNA": {
-    "name": "Kana",
-    "desc": ""
+    "name": "Kana"
   },
   "KRK": {
-    "name": "Karanka",
-    "desc": ""
+    "name": "Karanka"
   },
   "QUL": {
-    "name": "Qulla",
-    "desc": ""
+    "name": "Qulla"
   },
   "SUR": {
-    "name": "Sura",
-    "desc": ""
+    "name": "Sura"
   },
   "PUK": {
-    "name": "Pukamuru",
-    "desc": ""
+    "name": "Pukamuru"
   },
   "BAG": {
-    "name": "Bagua",
-    "desc": ""
+    "name": "Bagua"
   },
   "HCH": {
-    "name": "Huamachuco",
-    "desc": ""
+    "name": "Huamachuco"
   },
   "CUI": {
-    "name": "Cuismancu",
-    "desc": ""
+    "name": "Cuismancu"
   },
   "HUA": {
-    "name": "Huaylas",
-    "desc": ""
+    "name": "Huaylas"
   },
   "XAU": {
-    "name": "Xauxa",
-    "desc": ""
+    "name": "Xauxa"
   },
   "CSA": {
-    "name": "Casma",
-    "desc": ""
+    "name": "Casma"
   },
   "CLQ": {
-    "name": "Collique",
-    "desc": ""
+    "name": "Collique"
   },
   "NTA": {
-    "name": "Canta",
-    "desc": ""
+    "name": "Canta"
   },
   "ATV": {
-    "name": "Atavillos",
-    "desc": ""
+    "name": "Atavillos"
   },
   "YAW": {
-    "name": "Yawyu",
-    "desc": ""
+    "name": "Yawyu"
   },
   "CCY": {
-    "name": "Chancay",
-    "desc": ""
+    "name": "Chancay"
   },
   "HPP": {
-    "name": "Huancapampa",
-    "desc": ""
+    "name": "Huancapampa"
   },
   "HCR": {
-    "name": "Huacrachuco",
-    "desc": ""
+    "name": "Huacrachuco"
   },
   "HRC": {
-    "name": "Huarco",
-    "desc": ""
+    "name": "Huarco"
   },
   "SRA": {
-    "name": "Sora",
-    "desc": ""
+    "name": "Sora"
   },
   "MYM": {
-    "name": "Mayonmarka",
-    "desc": ""
+    "name": "Mayonmarka"
   },
   "PCR": {
-    "name": "Pocra",
-    "desc": ""
+    "name": "Pocra"
   },
   "PCO": {
-    "name": "Parinacocha",
-    "desc": ""
+    "name": "Parinacocha"
   },
   "ANI": {
-    "name": "Aruni",
-    "desc": ""
+    "name": "Aruni"
   },
   "CHJ": {
-    "name": "Churajon",
-    "desc": ""
+    "name": "Churajon"
   },
   "CBY": {
-    "name": "Chiribaya",
-    "desc": ""
+    "name": "Chiribaya"
   },
   "CNC": {
-    "name": "Canchi",
-    "desc": ""
+    "name": "Canchi"
   },
   "LLG": {
-    "name": "Collagua",
-    "desc": ""
+    "name": "Collagua"
   },
   "AMN": {
-    "name": "Camana",
-    "desc": ""
+    "name": "Camana"
   },
   "UMA": {
-    "name": "Umasuyus",
-    "desc": ""
+    "name": "Umasuyus"
   },
   "QQH": {
-    "name": "Qhara Qhara",
-    "desc": ""
+    "name": "Qhara Qhara"
   },
   "CCT": {
-    "name": "Ccantumarcani",
-    "desc": ""
+    "name": "Ccantumarcani"
   },
   "TUP": {
-    "name": "Tupiza",
-    "desc": ""
+    "name": "Tupiza"
   },
   "CHW": {
-    "name": "Chuwi",
-    "desc": ""
+    "name": "Chuwi"
   },
   "KWY": {
-    "name": "Kallawaya",
-    "desc": ""
+    "name": "Kallawaya"
   },
   "KLL": {
-    "name": "Killaka",
-    "desc": ""
+    "name": "Killaka"
   },
   "KKE": {
-    "name": "Killke",
-    "desc": ""
+    "name": "Killke"
   },
   "CNO": {
-    "name": "Chono",
-    "desc": ""
+    "name": "Chono"
   },
   "BAU": {
-    "name": "Bauré",
-    "desc": ""
+    "name": "Bauré"
   },
   "ALC": {
-    "name": "Allentiac",
-    "desc": ""
+    "name": "Allentiac"
   },
   "MYC": {
-    "name": "Millcayac",
-    "desc": ""
+    "name": "Millcayac"
   },
   "PHE": {
-    "name": "Picunche",
-    "desc": ""
+    "name": "Picunche"
   },
   "CPU": {
-    "name": "Cuquimpu",
-    "desc": ""
+    "name": "Cuquimpu"
   },
   "CYC": {
-    "name": "Copayacu",
-    "desc": ""
+    "name": "Copayacu"
   },
   "CCH": {
-    "name": "Calchaqui",
-    "desc": ""
+    "name": "Calchaqui"
   },
   "QIM": {
-    "name": "Quimes",
-    "desc": ""
+    "name": "Quimes"
   },
   "QTR": {
-    "name": "Quitor",
-    "desc": ""
+    "name": "Quitor"
   },
   "YEM": {
-    "name": "Yemen",
-    "desc": ""
+    "name": "Yemen"
   },
   "JRW": {
-    "name": "Jarwanids",
-    "desc": ""
+    "name": "Jarwanids"
   },
   "OMA": {
-    "name": "Oman",
-    "desc": ""
+    "name": "Oman"
   },
   "MEC": {
-    "name": "Mecca",
-    "desc": ""
+    "name": "Mecca"
   },
   "SHM": {
-    "name": "Shammar",
-    "desc": ""
+    "name": "Shammar"
   },
   "ANZ": {
-    "name": "Anizah",
-    "desc": ""
+    "name": "Anizah"
   },
   "HUT": {
-    "name": "Hutaym",
-    "desc": ""
+    "name": "Hutaym"
   },
   "HRB": {
-    "name": "Harb",
-    "desc": ""
+    "name": "Harb"
   },
   "MUT": {
-    "name": "Mutayr",
-    "desc": ""
+    "name": "Mutayr"
   },
   "UTB": {
-    "name": "Otaibah",
-    "desc": ""
+    "name": "Otaibah"
   },
   "DWS": {
-    "name": "Dawasir",
-    "desc": ""
+    "name": "Dawasir"
   },
   "QHT": {
-    "name": "Qahtān",
-    "desc": ""
+    "name": "Qahtān"
   },
   "SBY": {
-    "name": "Subay",
-    "desc": ""
+    "name": "Subay"
   },
   "MRH": {
-    "name": "Al Murrah",
-    "desc": ""
+    "name": "Al Murrah"
   },
   "YAM": {
-    "name": "Yām",
-    "desc": ""
+    "name": "Yām"
   },
   "YAS": {
-    "name": "Yas",
-    "desc": ""
+    "name": "Yas"
   },
   "MDA": {
-    "name": "Medina",
-    "desc": ""
+    "name": "Medina"
   },
   "KLB": {
-    "name": "Kilab",
-    "desc": ""
+    "name": "Kilab"
   },
   "AAD": {
-    "name": "Al A'idh",
-    "desc": ""
+    "name": "Al A'idh"
   },
   "BNL": {
-    "name": "Lam",
-    "desc": ""
+    "name": "Lam"
   },
   "AZF": {
-    "name": "Al-Zafir",
-    "desc": ""
+    "name": "Al-Zafir"
   },
   "ZIB": {
-    "name": "Zi'b",
-    "desc": ""
+    "name": "Zi'b"
   },
   "DHF": {
-    "name": "Dhofar",
-    "desc": ""
+    "name": "Dhofar"
   },
   "ACX": {
-    "name": "Acaxee",
-    "desc": ""
+    "name": "Acaxee"
   },
   "COP": {
-    "name": "Xawiƚƚ Kwñchawaay",
-    "desc": ""
+    "name": "Xawiƚƚ Kwñchawaay"
   },
   "GUC": {
-    "name": "Cuauchichil",
-    "desc": ""
+    "name": "Cuauchichil"
   },
   "YRM": {
-    "name": "Yoreme",
-    "desc": ""
+    "name": "Yoreme"
   },
   "EUD": {
-    "name": "Eudeve",
-    "desc": ""
+    "name": "Eudeve"
   },
   "TGU": {
-    "name": "Tegüis",
-    "desc": ""
+    "name": "Tegüis"
   },
   "JOV": {
-    "name": "Jovas",
-    "desc": ""
+    "name": "Jovas"
   },
   "TEG": {
-    "name": "Tegüima",
-    "desc": ""
+    "name": "Tegüima"
   },
   "CNH": {
-    "name": "Caüinachis",
-    "desc": ""
+    "name": "Caüinachis"
   },
   "PIM": {
-    "name": "Akimel O'odham",
-    "desc": ""
+    "name": "Akimel O'odham"
   },
   "HHK": {
-    "name": "Hohokam",
-    "desc": ""
+    "name": "Hohokam"
   },
   "SOB": {
-    "name": "Sobaipuri",
-    "desc": ""
+    "name": "Sobaipuri"
   },
   "TOO": {
-    "name": "Tohono O'odham",
-    "desc": ""
+    "name": "Tohono O'odham"
   },
   "OOB": {
-    "name": "O'ob",
-    "desc": ""
+    "name": "O'ob"
   },
   "RAR": {
-    "name": "Rarámuri",
-    "desc": ""
+    "name": "Rarámuri"
   },
   "YAQ": {
-    "name": "Yaqui",
-    "desc": ""
+    "name": "Yaqui"
   },
   "HOP": {
-    "name": "Hopi",
-    "desc": ""
+    "name": "Hopi"
   },
   "DNE": {
-    "name": "Diné",
-    "desc": ""
+    "name": "Diné"
   },
   "ZNI": {
-    "name": "Zuni",
-    "desc": ""
+    "name": "Zuni"
   },
   "TEY": {
-    "name": "Teypana",
-    "desc": ""
+    "name": "Teypana"
   },
   "ISL": {
-    "name": "Shiewhibak",
-    "desc": ""
+    "name": "Shiewhibak"
   },
   "ACO": {
-    "name": "Áak'u",
-    "desc": ""
+    "name": "Áak'u"
   },
   "KER": {
-    "name": "Tsi'ya",
-    "desc": ""
+    "name": "Tsi'ya"
   },
   "TNN": {
-    "name": "Tano",
-    "desc": ""
+    "name": "Tano"
   },
   "TAO": {
-    "name": "Iałopháybo",
-    "desc": ""
+    "name": "Iałopháybo"
   },
   "TST": {
-    "name": "Tuf Shur Tia",
-    "desc": ""
+    "name": "Tuf Shur Tia"
   },
   "OHK": {
-    "name": "Ohkwee Ówîngeh",
-    "desc": ""
+    "name": "Ohkwee Ówîngeh"
   },
   "TTR": {
-    "name": "Totorame",
-    "desc": ""
+    "name": "Totorame"
   },
   "XIX": {
-    "name": "Xixime",
-    "desc": ""
+    "name": "Xixime"
   },
   "TAE": {
-    "name": "Tahue",
-    "desc": ""
+    "name": "Tahue"
   },
   "GUV": {
-    "name": "Guasave",
-    "desc": ""
+    "name": "Guasave"
   },
   "TPH": {
-    "name": "Tepehuan",
-    "desc": ""
+    "name": "Tepehuan"
   },
   "XUM": {
-    "name": "Xumanos",
-    "desc": ""
+    "name": "Xumanos"
   },
   "TML": {
-    "name": "Tamauliteco",
-    "desc": ""
+    "name": "Tamauliteco"
   },
   "CAD": {
-    "name": "Hasíinay",
-    "desc": ""
+    "name": "Hasíinay"
   },
   "KIH": {
-    "name": "K'itaish",
-    "desc": ""
+    "name": "K'itaish"
   },
   "HTS": {
-    "name": "Hisatsinom",
-    "desc": ""
+    "name": "Hisatsinom"
   },
   "NUW": {
-    "name": "Nuwuvi",
-    "desc": ""
+    "name": "Nuwuvi"
   },
   "NWV": {
-    "name": "Nuwuvu",
-    "desc": ""
+    "name": "Nuwuvu"
   },
   "CRO": {
-    "name": "Croatia",
-    "desc": ""
+    "name": "Croatia"
   },
   "ACH": {
-    "name": "Achaea",
-    "desc": ""
+    "name": "Achaea"
   },
   "ATH": {
-    "name": "Athens",
-    "desc": ""
+    "name": "Athens"
   },
   "CEP": {
-    "name": "Cephalonia",
-    "desc": ""
+    "name": "Cephalonia"
   },
   "LAT": {
-    "name": "Constantinople",
-    "desc": ""
+    "name": "Constantinople"
   },
   "NAX": {
-    "name": "Naxos",
-    "desc": ""
+    "name": "Naxos"
   },
   "EPI": {
-    "name": "Epirus",
-    "desc": ""
+    "name": "Epirus"
   },
   "BYZ": {
-    "name": "Byzantium",
-    "desc": ""
+    "name": "Byzantium"
   },
   "THE": {
-    "name": "Thessalonica",
-    "desc": ""
+    "name": "Thessalonica"
   },
   "THS": {
-    "name": "Thessaly",
-    "desc": ""
+    "name": "Thessaly"
   },
   "SER": {
-    "name": "Serbia",
-    "desc": ""
+    "name": "Serbia"
   },
   "ALB": {
-    "name": "Albania",
-    "desc": ""
+    "name": "Albania"
   },
   "THP": {
-    "name": "Thopia",
-    "desc": ""
+    "name": "Thopia"
   },
   "MZK": {
-    "name": "Muzaka",
-    "desc": ""
+    "name": "Muzaka"
   },
   "ANT": {
-    "name": "Arianiti",
-    "desc": ""
+    "name": "Arianiti"
   },
   "MTR": {
-    "name": "Mataranga",
-    "desc": ""
+    "name": "Mataranga"
   },
   "BOS": {
-    "name": "Bosnia",
-    "desc": ""
+    "name": "Bosnia"
   },
   "RAG": {
-    "name": "Ragusa",
-    "desc": ""
+    "name": "Ragusa"
   },
   "BUL": {
-    "name": "Bulgaria",
-    "desc": ""
+    "name": "Bulgaria"
   },
   "VID": {
-    "name": "Vidin",
-    "desc": ""
+    "name": "Vidin"
   },
   "CLI": {
-    "name": "Cilli",
-    "desc": ""
+    "name": "Cilli"
   },
   "NEO": {
-    "name": "Neopatria",
-    "desc": ""
+    "name": "Neopatria"
   },
   "BOD": {
-    "name": "Bodonitsa",
-    "desc": ""
+    "name": "Bodonitsa"
   },
   "ARG": {
-    "name": "Argos",
-    "desc": ""
+    "name": "Argos"
   },
   "KNI": {
-    "name": "Knights Hospitaller",
-    "desc": ""
+    "name": "Knights Hospitaller"
   },
   "CRT": {
-    "name": "Candia",
-    "desc": ""
+    "name": "Candia"
   },
   "NEG": {
-    "name": "Negroponte",
-    "desc": ""
+    "name": "Negroponte"
   },
   "SAO": {
-    "name": "Salona",
-    "desc": ""
+    "name": "Salona"
   },
   "CAR": {
-    "name": "Carniola",
-    "desc": ""
+    "name": "Carniola"
   },
   "TRO": {
-    "name": "Travunija",
-    "desc": ""
+    "name": "Travunija"
   },
   "GOR": {
-    "name": "Gorizia",
-    "desc": ""
+    "name": "Gorizia"
   },
   "LIV": {
-    "name": "Livonia",
-    "desc": ""
+    "name": "Livonia"
   },
   "TEU": {
-    "name": "Teutons",
-    "desc": ""
+    "name": "Teutons"
   },
   "ERM": {
-    "name": "Warmia",
-    "desc": ""
+    "name": "Warmia"
   },
   "CHL": {
-    "name": "Chełmno",
-    "desc": ""
+    "name": "Chełmno"
   },
   "PMS": {
-    "name": "Pomesania",
-    "desc": ""
+    "name": "Pomesania"
   },
   "SMD": {
-    "name": "Samland",
-    "desc": ""
+    "name": "Samland"
   },
   "BIO": {
-    "name": "Ösel",
-    "desc": ""
+    "name": "Ösel"
   },
   "KUR": {
-    "name": "Courland",
-    "desc": ""
+    "name": "Courland"
   },
   "BID": {
-    "name": "Dorpat",
-    "desc": ""
+    "name": "Dorpat"
   },
   "RIG": {
-    "name": "Riga",
-    "desc": ""
+    "name": "Riga"
   },
   "ARR": {
-    "name": "Riga Lettoniae",
-    "desc": ""
+    "name": "Riga Lettoniae"
   },
   "KRL": {
-    "name": "Karelia",
-    "desc": ""
+    "name": "Karelia"
   },
   "LIT": {
-    "name": "Lithuania",
-    "desc": ""
+    "name": "Lithuania"
   },
   "SXM": {
-    "name": "Samogitia",
-    "desc": ""
+    "name": "Samogitia"
   },
   "SGN": {
-    "name": "Sonargaon",
-    "desc": ""
+    "name": "Sonargaon"
   },
   "GAU": {
-    "name": "Gaur",
-    "desc": ""
+    "name": "Gaur"
   },
   "STN": {
-    "name": "Saptagram",
-    "desc": ""
+    "name": "Saptagram"
   },
   "AHO": {
-    "name": "Ahom",
-    "desc": ""
+    "name": "Ahom"
   },
   "KMA": {
-    "name": "Kamata",
-    "desc": ""
+    "name": "Kamata"
   },
   "DIM": {
-    "name": "Dimasa",
-    "desc": ""
+    "name": "Dimasa"
   },
   "TWI": {
-    "name": "Twipra",
-    "desc": ""
+    "name": "Twipra"
   },
   "CUT": {
-    "name": "Chutia",
-    "desc": ""
+    "name": "Chutia"
   },
   "JNT": {
-    "name": "Jaintia",
-    "desc": ""
+    "name": "Jaintia"
   },
   "TRF": {
-    "name": "Taraf",
-    "desc": ""
+    "name": "Taraf"
   },
   "LUR": {
-    "name": "Laur",
-    "desc": ""
+    "name": "Laur"
   },
   "BHP": {
-    "name": "Mallabhum",
-    "desc": ""
+    "name": "Mallabhum"
   },
   "CER": {
-    "name": "Chero",
-    "desc": ""
+    "name": "Chero"
   },
   "UJJ": {
-    "name": "Ujjainiya",
-    "desc": ""
+    "name": "Ujjainiya"
   },
   "RKS": {
-    "name": "Raksel",
-    "desc": ""
+    "name": "Raksel"
   },
   "ONW": {
-    "name": "Oiniwar",
-    "desc": ""
+    "name": "Oiniwar"
   },
   "KKR": {
-    "name": "Khokhra",
-    "desc": ""
+    "name": "Khokhra"
   },
   "GWL": {
-    "name": "Garhwal",
-    "desc": ""
+    "name": "Garhwal"
   },
   "KHS": {
-    "name": "Khasa",
-    "desc": ""
+    "name": "Khasa"
   },
   "KMN": {
-    "name": "Kumaon",
-    "desc": ""
+    "name": "Kumaon"
   },
   "KTU": {
-    "name": "Kathmandu",
-    "desc": ""
+    "name": "Kathmandu"
   },
   "DTI": {
-    "name": "Doti",
-    "desc": ""
+    "name": "Doti"
   },
   "SRM": {
-    "name": "Nahan",
-    "desc": ""
+    "name": "Nahan"
   },
   "JBL": {
-    "name": "Jubbal",
-    "desc": ""
+    "name": "Jubbal"
   },
   "LWA": {
-    "name": "Limbuwan",
-    "desc": ""
+    "name": "Limbuwan"
   },
   "CDD": {
-    "name": "Chaundandi",
-    "desc": ""
+    "name": "Chaundandi"
   },
   "DGL": {
-    "name": "Maldives",
-    "desc": ""
+    "name": "Maldives"
   },
   "KUI": {
-    "name": "Kuikuro",
-    "desc": ""
+    "name": "Kuikuro"
   },
   "MRJ": {
-    "name": "Marajoara",
-    "desc": ""
+    "name": "Marajoara"
   },
   "TPA": {
-    "name": "Tupinamba",
-    "desc": ""
+    "name": "Tupinamba"
   },
   "TPQ": {
-    "name": "Tupiniquim",
-    "desc": ""
+    "name": "Tupiniquim"
   },
   "CRJ": {
-    "name": "Carijó",
-    "desc": ""
+    "name": "Carijó"
   },
   "NDV": {
-    "name": "Ñandeva",
-    "desc": ""
+    "name": "Ñandeva"
   },
   "KIO": {
-    "name": "Kaiowá",
-    "desc": ""
+    "name": "Kaiowá"
   },
   "XTA": {
-    "name": "Xetá",
-    "desc": ""
+    "name": "Xetá"
   },
   "AVA": {
-    "name": "Ava",
-    "desc": ""
+    "name": "Ava"
   },
   "GCZ": {
-    "name": "Goitacaz",
-    "desc": ""
+    "name": "Goitacaz"
   },
   "AIM": {
-    "name": "Aimoré",
-    "desc": ""
+    "name": "Aimoré"
   },
   "KRR": {
-    "name": "Kiriri",
-    "desc": ""
+    "name": "Kiriri"
   },
   "CAE": {
-    "name": "Caeté",
-    "desc": ""
+    "name": "Caeté"
   },
   "SUC": {
-    "name": "Sucuru",
-    "desc": ""
+    "name": "Sucuru"
   },
   "POT": {
-    "name": "Potiguara",
-    "desc": ""
+    "name": "Potiguara"
   },
   "ENG": {
-    "name": "England",
-    "desc": ""
+    "name": "England"
   },
   "SCO": {
-    "name": "Scotland",
-    "desc": ""
+    "name": "Scotland"
   },
   "SBL": {
-    "name": "Balliol",
-    "desc": ""
+    "name": "Balliol"
   },
   "CLA": {
-    "name": "Clandeboye",
-    "desc": ""
+    "name": "Clandeboye"
   },
   "CLR": {
-    "name": "Clanricarde",
-    "desc": ""
+    "name": "Clanricarde"
   },
   "CWM": {
-    "name": "Clanwilliam",
-    "desc": ""
+    "name": "Clanwilliam"
   },
   "ULS": {
-    "name": "Ulster",
-    "desc": ""
+    "name": "Ulster"
   },
   "ORD": {
-    "name": "Ormond",
-    "desc": ""
+    "name": "Ormond"
   },
   "DMS": {
-    "name": "Desmond",
-    "desc": ""
+    "name": "Desmond"
   },
   "KID": {
-    "name": "Kildare",
-    "desc": ""
+    "name": "Kildare"
   },
   "BEA": {
-    "name": "Beare",
-    "desc": ""
+    "name": "Beare"
   },
   "CMA": {
-    "name": "West Connacht",
-    "desc": ""
+    "name": "West Connacht"
   },
   "UMH": {
-    "name": "Owill",
-    "desc": ""
+    "name": "Owill"
   },
   "OSS": {
-    "name": "Ossory",
-    "desc": ""
+    "name": "Ossory"
   },
   "MCM": {
-    "name": "Munster",
-    "desc": ""
+    "name": "Munster"
   },
   "OIL": {
-    "name": "Oriel",
-    "desc": ""
+    "name": "Oriel"
   },
   "AMA": {
-    "name": "Armagh",
-    "desc": ""
+    "name": "Armagh"
   },
   "DHM": {
-    "name": "Durham",
-    "desc": ""
+    "name": "Durham"
   },
   "CET": {
-    "name": "Chester",
-    "desc": ""
+    "name": "Chester"
   },
   "LAN": {
-    "name": "Lancaster",
-    "desc": ""
+    "name": "Lancaster"
   },
   "CNN": {
-    "name": "Connacht",
-    "desc": ""
+    "name": "Connacht"
   },
   "MTH": {
-    "name": "Meath",
-    "desc": ""
+    "name": "Meath"
   },
   "ANN": {
-    "name": "Annaly",
-    "desc": ""
+    "name": "Annaly"
   },
   "PLE": {
-    "name": "Pale",
-    "desc": ""
+    "name": "Pale"
   },
   "WLS": {
-    "name": "Wales",
-    "desc": ""
+    "name": "Wales"
   },
   "TYR": {
-    "name": "Tyrone",
-    "desc": ""
+    "name": "Tyrone"
   },
   "AMH": {
-    "name": "Ardmire",
-    "desc": ""
+    "name": "Ardmire"
   },
   "INI": {
-    "name": "Inishowen",
-    "desc": ""
+    "name": "Inishowen"
   },
   "LEI": {
-    "name": "Leinster",
-    "desc": ""
+    "name": "Leinster"
   },
   "TRY": {
-    "name": "Tyrconnell",
-    "desc": ""
+    "name": "Tyrconnell"
+  },
+  "KEE": {
+    "name": "Keenaght"
   },
   "GLS": {
-    "name": "Glens",
-    "desc": ""
+    "name": "Glens"
   },
   "IVG": {
-    "name": "Iveagh",
-    "desc": ""
+    "name": "Iveagh"
   },
   "HYM": {
-    "name": "Hy Many",
-    "desc": ""
+    "name": "Hy Many"
   },
   "IMA": {
-    "name": "Imaal",
-    "desc": ""
+    "name": "Imaal"
   },
   "DCI": {
-    "name": "Decies",
-    "desc": ""
+    "name": "Decies"
   },
   "TGH": {
-    "name": "Tireragh",
-    "desc": ""
+    "name": "Tireragh"
   },
   "ELY": {
-    "name": "Ely",
-    "desc": ""
+    "name": "Ely"
   },
   "FCL": {
-    "name": "Firceall",
-    "desc": ""
+    "name": "Firceall"
   },
   "LOI": {
-    "name": "Isles",
-    "desc": ""
+    "name": "Isles"
   },
   "FMA": {
-    "name": "Fermanagh",
-    "desc": ""
+    "name": "Fermanagh"
   },
   "BFN": {
-    "name": "West Breifne",
-    "desc": ""
+    "name": "West Breifne"
   },
   "CVN": {
-    "name": "East Breifne",
-    "desc": ""
+    "name": "East Breifne"
   },
   "MYO": {
-    "name": "Mayo",
-    "desc": ""
+    "name": "Mayo"
   },
   "THO": {
-    "name": "Thomond",
-    "desc": ""
+    "name": "Thomond"
   },
   "SLN": {
-    "name": "Carbury",
-    "desc": ""
+    "name": "Carbury"
   },
   "FLY": {
-    "name": "Offaly",
-    "desc": ""
+    "name": "Offaly"
   },
   "CRN": {
-    "name": "Cornwall",
-    "desc": ""
+    "name": "Cornwall"
   },
   "GWR": {
-    "name": "Gower",
-    "desc": ""
+    "name": "Gower"
   },
   "GMG": {
-    "name": "Glamorgan",
-    "desc": ""
+    "name": "Glamorgan"
   },
   "MAC": {
-    "name": "March",
-    "desc": ""
+    "name": "March"
   },
   "AUD": {
-    "name": "Arundel",
-    "desc": ""
+    "name": "Arundel"
   },
   "BRO": {
-    "name": "Brecknock",
-    "desc": ""
+    "name": "Brecknock"
   },
   "POS": {
-    "name": "Powis",
-    "desc": ""
+    "name": "Powis"
   },
   "EWY": {
-    "name": "Ewyas",
-    "desc": ""
+    "name": "Ewyas"
   },
   "CMS": {
-    "name": "Cemais",
-    "desc": ""
+    "name": "Cemais"
   },
   "PMB": {
-    "name": "Pembroke",
-    "desc": ""
+    "name": "Pembroke"
   },
   "DEN": {
-    "name": "Denbigh",
-    "desc": ""
+    "name": "Denbigh"
   },
   "GDD": {
-    "name": "Gwynedd",
-    "desc": ""
+    "name": "Gwynedd"
   },
   "PWS": {
-    "name": "Powys",
-    "desc": ""
+    "name": "Powys"
   },
   "DHB": {
-    "name": "Deheubarth",
-    "desc": ""
+    "name": "Deheubarth"
   },
   "MWG": {
-    "name": "Morgannwg",
-    "desc": ""
+    "name": "Morgannwg"
   },
   "BCN": {
-    "name": "Brycheiniog",
-    "desc": ""
+    "name": "Brycheiniog"
   },
   "GWT": {
-    "name": "Gwent",
-    "desc": ""
+    "name": "Gwent"
   },
   "MNN": {
-    "name": "Mann",
-    "desc": ""
+    "name": "Mann"
   },
   "ORK": {
-    "name": "Orkney",
-    "desc": ""
+    "name": "Orkney"
   },
   "MOY": {
-    "name": "Moray",
-    "desc": ""
+    "name": "Moray"
   },
   "ROS": {
-    "name": "Ross",
-    "desc": ""
+    "name": "Ross"
   },
   "NOL": {
-    "name": "Northumberland",
-    "desc": ""
+    "name": "Northumberland"
   },
   "GLY": {
-    "name": "Galloway",
-    "desc": ""
+    "name": "Galloway"
   },
   "TRT": {
-    "name": "Taontaenrat",
-    "desc": ""
+    "name": "Taontaenrat"
   },
   "AGW": {
-    "name": "Attignawantan",
-    "desc": ""
+    "name": "Attignawantan"
   },
   "ARN": {
-    "name": "Arendaronon",
-    "desc": ""
+    "name": "Arendaronon"
   },
   "ATG": {
-    "name": "Attigneenonghahac",
-    "desc": ""
+    "name": "Attigneenonghahac"
   },
   "ATC": {
-    "name": "Ataronchronon",
-    "desc": ""
+    "name": "Ataronchronon"
   },
   "ADR": {
-    "name": "Aondironon",
-    "desc": ""
+    "name": "Aondironon"
   },
   "ONG": {
-    "name": "Onghniaahra",
-    "desc": ""
+    "name": "Onghniaahra"
   },
   "TIO": {
-    "name": "Tionontate",
-    "desc": ""
+    "name": "Tionontate"
   },
   "OSG": {
-    "name": "Osheaga",
-    "desc": ""
+    "name": "Osheaga"
   },
   "MAS": {
-    "name": "Maisouna",
-    "desc": ""
+    "name": "Maisouna"
   },
   "STD": {
-    "name": "Stadacona",
-    "desc": ""
+    "name": "Stadacona"
   },
   "AGJ": {
-    "name": "Agojuda",
-    "desc": ""
+    "name": "Agojuda"
   },
   "SOK": {
-    "name": "Mazipskoiak",
-    "desc": ""
+    "name": "Mazipskoiak"
   },
   "PNS": {
-    "name": "Arosaguntacook",
-    "desc": ""
+    "name": "Arosaguntacook"
   },
   "MLS": {
-    "name": "Wolastokwewiyik",
-    "desc": ""
+    "name": "Wolastokwewiyik"
   },
   "AKW": {
-    "name": "Atikamekw",
-    "desc": ""
+    "name": "Atikamekw"
   },
   "TMG": {
-    "name": "Temikaming",
-    "desc": ""
+    "name": "Temikaming"
   },
   "ABT": {
-    "name": "Abitibi",
-    "desc": ""
+    "name": "Abitibi"
   },
   "OJI": {
-    "name": "Ojibwe",
-    "desc": ""
+    "name": "Ojibwe"
   },
   "ODW": {
-    "name": "Odawa",
-    "desc": ""
+    "name": "Odawa"
   },
   "NPS": {
-    "name": "Niipsing",
-    "desc": ""
+    "name": "Niipsing"
   },
   "MSG": {
-    "name": "Missisage",
-    "desc": ""
+    "name": "Missisage"
   },
   "HUN": {
-    "name": "Hungary",
-    "desc": ""
+    "name": "Hungary"
   },
   "WAL": {
-    "name": "Wallachia",
-    "desc": ""
+    "name": "Wallachia"
   },
   "BIA": {
-    "name": "Baia",
-    "desc": ""
+    "name": "Baia"
   },
   "BLD": {
-    "name": "Bârlad",
-    "desc": ""
+    "name": "Bârlad"
   },
   "HTN": {
-    "name": "Hotin",
-    "desc": ""
+    "name": "Hotin"
   },
   "HSC": {
-    "name": "Hansca",
-    "desc": ""
+    "name": "Hansca"
   },
   "IAS": {
-    "name": "Iaşi",
-    "desc": ""
+    "name": "Iaşi"
   },
   "SRC": {
-    "name": "Soroca",
-    "desc": ""
+    "name": "Soroca"
   },
   "SSI": {
-    "name": "Străşineţ",
-    "desc": ""
+    "name": "Străşineţ"
   },
   "TRA": {
-    "name": "Transylvania",
-    "desc": ""
+    "name": "Transylvania"
   },
   "GEO": {
-    "name": "Georgia",
-    "desc": ""
+    "name": "Georgia"
   },
   "AAI": {
-    "name": "Alastani",
-    "desc": ""
+    "name": "Alastani"
   },
   "IME": {
-    "name": "Imereti",
-    "desc": ""
+    "name": "Imereti"
   },
   "SME": {
-    "name": "Samtskhe",
-    "desc": ""
+    "name": "Samtskhe"
   },
   "SRV": {
-    "name": "Shirvan",
-    "desc": ""
+    "name": "Shirvan"
   },
   "AVR": {
-    "name": "Avaria",
-    "desc": ""
+    "name": "Avaria"
   },
   "TRK": {
-    "name": "Tarki",
-    "desc": ""
+    "name": "Tarki"
   },
   "ARM": {
-    "name": "Armenia",
-    "desc": ""
+    "name": "Armenia"
   },
   "AMB": {
-    "name": "Amberd",
-    "desc": ""
+    "name": "Amberd"
   },
   "VDZ": {
-    "name": "Vayots Dzor",
-    "desc": ""
+    "name": "Vayots Dzor"
   },
   "CIR": {
-    "name": "Circassia",
-    "desc": ""
+    "name": "Circassia"
   },
   "CPA": {
-    "name": "Copa",
-    "desc": ""
+    "name": "Copa"
   },
   "HTY": {
-    "name": "Hatukay",
-    "desc": ""
+    "name": "Hatukay"
   },
   "HYT": {
-    "name": "Hytuk",
-    "desc": ""
+    "name": "Hytuk"
   },
   "KDA": {
-    "name": "Kabardia",
-    "desc": ""
+    "name": "Kabardia"
   },
   "KIP": {
-    "name": "Kipike",
-    "desc": ""
+    "name": "Kipike"
   },
   "TEM": {
-    "name": "Temirgoy",
-    "desc": ""
+    "name": "Temirgoy"
   },
   "SKI": {
-    "name": "Shaki",
-    "desc": ""
+    "name": "Shaki"
   },
   "KCN": {
-    "name": "Khachen",
-    "desc": ""
+    "name": "Khachen"
   },
   "SYU": {
-    "name": "Syunik",
-    "desc": ""
+    "name": "Syunik"
   },
   "ALN": {
-    "name": "Alania",
-    "desc": ""
+    "name": "Alania"
   },
   "DZK": {
-    "name": "Durdzuketia",
-    "desc": ""
+    "name": "Durdzuketia"
   },
   "SMS": {
-    "name": "Simsir",
-    "desc": ""
+    "name": "Simsir"
   },
   "KAI": {
-    "name": "Kaitag",
-    "desc": ""
+    "name": "Kaitag"
   },
   "LEK": {
-    "name": "Lekia",
-    "desc": ""
+    "name": "Lekia"
   },
   "RUT": {
-    "name": "Rutul",
-    "desc": ""
+    "name": "Rutul"
   },
   "TBA": {
-    "name": "Tabasaran",
-    "desc": ""
+    "name": "Tabasaran"
   },
   "HAA": {
-    "name": "Haaninin",
-    "desc": ""
+    "name": "Haaninin"
   },
   "ASH": {
-    "name": "Ashalaho",
-    "desc": ""
+    "name": "Ashalaho"
   },
   "ASP": {
-    "name": "Ashshipite",
-    "desc": ""
+    "name": "Ashshipite"
   },
   "KTK": {
-    "name": "Kitikiti'sh",
-    "desc": ""
+    "name": "Kitikiti'sh"
   },
   "TVY": {
-    "name": "Taovaya",
-    "desc": ""
+    "name": "Taovaya"
   },
   "PTW": {
-    "name": "Pitahwarita",
-    "desc": ""
+    "name": "Pitahwarita"
   },
   "KIA": {
-    "name": "Kitkehaki",
-    "desc": ""
+    "name": "Kitkehaki"
   },
   "SII": {
-    "name": "Skiri",
-    "desc": ""
+    "name": "Skiri"
   },
   "TSW": {
-    "name": "Tsawi",
-    "desc": ""
+    "name": "Tsawi"
   },
   "SHH": {
-    "name": "Sahnish",
-    "desc": ""
+    "name": "Sahnish"
   },
   "NUE": {
-    "name": "Numakaki",
-    "desc": ""
+    "name": "Numakaki"
   },
   "HIR": {
-    "name": "Hiraaca",
-    "desc": ""
+    "name": "Hiraaca"
   },
   "PCH": {
-    "name": "Pacaha",
-    "desc": ""
+    "name": "Pacaha"
   },
   "CSQ": {
-    "name": "Casqui",
-    "desc": ""
+    "name": "Casqui"
   },
   "ANL": {
-    "name": "Anilco",
-    "desc": ""
+    "name": "Anilco"
   },
   "COL": {
-    "name": "Coligua",
-    "desc": ""
+    "name": "Coligua"
   },
   "CYS": {
-    "name": "Tanico",
-    "desc": ""
+    "name": "Tanico"
   },
   "CTI": {
-    "name": "Chitimacha",
-    "desc": ""
+    "name": "Chitimacha"
   },
   "BYG": {
-    "name": "Bayagoula",
-    "desc": ""
+    "name": "Bayagoula"
   },
   "NST": {
-    "name": "Nashit'ush",
-    "desc": ""
+    "name": "Nashit'ush"
   },
   "AVY": {
-    "name": "Avoyel",
-    "desc": ""
+    "name": "Avoyel"
   },
   "KDW": {
-    "name": "Kadawdaachuh",
-    "desc": ""
+    "name": "Kadawdaachuh"
   },
   "TUA": {
-    "name": "Tula",
-    "desc": ""
+    "name": "Tula"
   },
   "ISH": {
-    "name": "Ishak",
-    "desc": ""
+    "name": "Ishak"
   },
   "QMG": {
-    "name": "Quasmigdo",
-    "desc": ""
+    "name": "Quasmigdo"
   },
   "TWK": {
-    "name": "Tawakoni",
-    "desc": ""
+    "name": "Tawakoni"
   },
   "HNO": {
-    "name": "Hinono'eino",
-    "desc": ""
+    "name": "Hinono'eino"
   },
   "NWN": {
-    "name": "Nanwuine'nan",
-    "desc": ""
+    "name": "Nanwuine'nan"
   },
   "NDA": {
-    "name": "Nakoda",
-    "desc": ""
+    "name": "Nakoda"
   },
   "LKT": {
-    "name": "Lakota",
-    "desc": ""
+    "name": "Lakota"
   },
   "IKW": {
-    "name": "Ithanktunwanna",
-    "desc": ""
+    "name": "Ithanktunwanna"
   },
   "IUW": {
-    "name": "Ithaktunwan",
-    "desc": ""
+    "name": "Ithaktunwan"
   },
   "NCH": {
-    "name": "Niuachi",
-    "desc": ""
+    "name": "Niuachi"
   },
   "NKW": {
-    "name": "Nakawe",
-    "desc": ""
+    "name": "Nakawe"
   },
   "TTS": {
-    "name": "Tsetsehesahese",
-    "desc": ""
+    "name": "Tsetsehesahese"
   },
   "SOO": {
-    "name": "So'taeo'o",
-    "desc": ""
+    "name": "So'taeo'o"
   },
   "BKT": {
-    "name": "Bdewekhantunwan",
-    "desc": ""
+    "name": "Bdewekhantunwan"
   },
   "STW": {
-    "name": "Sisithunwan",
-    "desc": ""
+    "name": "Sisithunwan"
   },
   "WKH": {
-    "name": "Wahpekhute",
-    "desc": ""
+    "name": "Wahpekhute"
   },
   "WPW": {
-    "name": "Wahpetunwan",
-    "desc": ""
+    "name": "Wahpetunwan"
   },
   "MIK": {
-    "name": "Mi'kmaq",
-    "desc": ""
+    "name": "Mi'kmaq"
+  },
+  "PEN": {
+    "name": "Penobscot"
   },
   "PQD": {
-    "name": "Passamaquoddy",
-    "desc": ""
+    "name": "Passamaquoddy"
   },
   "WSK": {
-    "name": "Weskarini",
-    "desc": ""
+    "name": "Weskarini"
   },
   "KSP": {
-    "name": "Kichesipirini",
-    "desc": ""
+    "name": "Kichesipirini"
   },
   "KUS": {
-    "name": "Kuskatan",
-    "desc": ""
+    "name": "Kuskatan"
   },
   "QUA": {
-    "name": "Cuauhtemallan",
-    "desc": ""
+    "name": "Cuauhtemallan"
   },
   "LNC": {
-    "name": "Lenca",
-    "desc": ""
+    "name": "Lenca"
   },
   "XIN": {
-    "name": "Xinca",
-    "desc": ""
+    "name": "Xinca"
   },
   "GAR": {
-    "name": "Garabito",
-    "desc": ""
+    "name": "Garabito"
   },
   "GUO": {
-    "name": "Guarco",
-    "desc": ""
+    "name": "Guarco"
   },
   "PAC": {
-    "name": "Pacaca",
-    "desc": ""
+    "name": "Pacaca"
   },
   "NEK": {
-    "name": "Nekok Yaotl",
-    "desc": ""
+    "name": "Nekok Yaotl"
   },
   "CTO": {
-    "name": "Coto",
-    "desc": ""
+    "name": "Coto"
   },
   "TRC": {
-    "name": "Tariaca",
-    "desc": ""
+    "name": "Tariaca"
   },
   "CBC": {
-    "name": "Cabecar",
-    "desc": ""
+    "name": "Cabecar"
   },
   "MOX": {
-    "name": "Moxo",
-    "desc": ""
+    "name": "Moxo"
   },
   "MPC": {
-    "name": "Mapuche",
-    "desc": ""
+    "name": "Mapuche"
   },
   "CUA": {
-    "name": "Charrua",
-    "desc": ""
+    "name": "Charrua"
   },
   "TAI": {
-    "name": "Tairona",
-    "desc": ""
+    "name": "Tairona"
   },
   "ZIP": {
-    "name": "Muyquyta",
-    "desc": ""
+    "name": "Muyquyta"
   },
   "ZAQ": {
-    "name": "Chunsua",
-    "desc": ""
+    "name": "Chunsua"
   },
   "ZEN": {
-    "name": "Zenú",
-    "desc": ""
+    "name": "Zenú"
   },
   "QBY": {
-    "name": "Quimbaya",
-    "desc": ""
+    "name": "Quimbaya"
   },
   "GYP": {
-    "name": "Guayupe",
-    "desc": ""
+    "name": "Guayupe"
   },
   "CMG": {
-    "name": "Cumanagoto",
-    "desc": ""
+    "name": "Cumanagoto"
   },
   "PMN": {
-    "name": "Pemon",
-    "desc": ""
+    "name": "Pemon"
   },
   "CUC": {
-    "name": "Cuica",
-    "desc": ""
+    "name": "Cuica"
   },
   "TTY": {
-    "name": "Tatuy",
-    "desc": ""
+    "name": "Tatuy"
   },
   "THM": {
-    "name": "Tahami",
-    "desc": ""
+    "name": "Tahami"
   },
   "NUT": {
-    "name": "Nutabes",
-    "desc": ""
+    "name": "Nutabes"
   },
   "PIJ": {
-    "name": "Pijao",
-    "desc": ""
+    "name": "Pijao"
   },
   "COY": {
-    "name": "Coyaima",
-    "desc": ""
+    "name": "Coyaima"
   },
   "TAM": {
-    "name": "Tama",
-    "desc": ""
+    "name": "Tama"
   },
   "CIM": {
-    "name": "Calima",
-    "desc": ""
+    "name": "Calima"
   },
   "PUB": {
-    "name": "Puben",
-    "desc": ""
+    "name": "Puben"
   },
   "CML": {
-    "name": "Chimila",
-    "desc": ""
+    "name": "Chimila"
   },
   "TNO": {
-    "name": "Magua",
-    "desc": ""
+    "name": "Magua"
   },
   "MAE": {
-    "name": "Marien",
-    "desc": ""
+    "name": "Marien"
   },
   "MGU": {
-    "name": "Maguana",
-    "desc": ""
+    "name": "Maguana"
   },
   "JRG": {
-    "name": "Jaragua",
-    "desc": ""
+    "name": "Jaragua"
   },
   "HGY": {
-    "name": "Higuey",
-    "desc": ""
+    "name": "Higuey"
   },
   "GAY": {
-    "name": "Guaynia",
-    "desc": ""
+    "name": "Guaynia"
   },
   "BRK": {
-    "name": "Boriken",
-    "desc": ""
+    "name": "Boriken"
   },
   "CBO": {
-    "name": "Ciboney",
-    "desc": ""
+    "name": "Ciboney"
   },
   "LCY": {
-    "name": "Lucayan",
-    "desc": ""
+    "name": "Lucayan"
   },
   "MCX": {
-    "name": "Macorix",
-    "desc": ""
+    "name": "Macorix"
   },
   "CGY": {
-    "name": "Ciguayo",
-    "desc": ""
+    "name": "Ciguayo"
   },
   "IGR": {
-    "name": "Igneri",
-    "desc": ""
+    "name": "Igneri"
   },
   "KGN": {
-    "name": "Kalinago",
-    "desc": ""
+    "name": "Kalinago"
   },
   "AAL": {
-    "name": "Al 'Alī",
-    "desc": ""
+    "name": "Al 'Alī"
   },
   "AMR": {
-    "name": "Al Mira",
-    "desc": ""
+    "name": "Al Mira"
   },
   "DGE": {
-    "name": "Döger",
-    "desc": ""
+    "name": "Döger"
   },
   "FDL": {
-    "name": "Āl Faḍl",
-    "desc": ""
+    "name": "Āl Faḍl"
   },
   "JAL": {
-    "name": "Jalayirids",
-    "desc": ""
+    "name": "Jalayirids"
   },
   "HLL": {
-    "name": "Hillah",
-    "desc": ""
+    "name": "Hillah"
   },
   "KOJ": {
-    "name": "Jerusalem",
-    "desc": ""
+    "name": "Jerusalem"
   },
   "ARD": {
-    "name": "Ardalan",
-    "desc": ""
+    "name": "Ardalan"
   },
   "ATZ": {
-    "name": "Artaz",
-    "desc": ""
+    "name": "Artaz"
   },
   "DML": {
-    "name": "Domboli",
-    "desc": ""
+    "name": "Domboli"
   },
   "HBN": {
-    "name": "Hasbani",
-    "desc": ""
+    "name": "Hasbani"
   },
   "HDR": {
-    "name": "Hadhur",
-    "desc": ""
+    "name": "Hadhur"
   },
   "HNY": {
-    "name": "Hasnuya",
-    "desc": ""
+    "name": "Hasnuya"
   },
   "IHB": {
-    "name": "Ispahbad",
-    "desc": ""
+    "name": "Ispahbad"
   },
   "KLR": {
-    "name": "Kalhor",
-    "desc": ""
+    "name": "Kalhor"
   },
   "KTW": {
-    "name": "Kartawi",
-    "desc": ""
+    "name": "Kartawi"
   },
   "KEL": {
-    "name": "Kelali",
-    "desc": ""
+    "name": "Kelali"
   },
   "KKL": {
-    "name": "Khalkhal",
-    "desc": ""
+    "name": "Khalkhal"
   },
   "KRI": {
-    "name": "Kurani",
-    "desc": ""
+    "name": "Kurani"
   },
   "MKW": {
-    "name": "Merkewan",
-    "desc": ""
+    "name": "Merkewan"
   },
   "RKL": {
-    "name": "Rankali",
-    "desc": ""
+    "name": "Rankali"
   },
   "SLI": {
-    "name": "Sabuli",
-    "desc": ""
+    "name": "Sabuli"
   },
   "SYY": {
-    "name": "Saqiyya",
-    "desc": ""
+    "name": "Saqiyya"
   },
   "ZBR": {
-    "name": "Zebari",
-    "desc": ""
+    "name": "Zebari"
   },
   "AQQ": {
-    "name": "Aq Qoyunlu",
-    "desc": ""
+    "name": "Aq Qoyunlu"
   },
   "QAR": {
-    "name": "Qara Qoyunlu",
-    "desc": ""
+    "name": "Qara Qoyunlu"
   },
   "ZAN": {
-    "name": "Kilwa",
-    "desc": ""
+    "name": "Kilwa"
   },
   "PTE": {
-    "name": "Pate",
-    "desc": ""
+    "name": "Pate"
   },
   "MLI": {
-    "name": "Malindi",
-    "desc": ""
+    "name": "Malindi"
   },
   "INH": {
-    "name": "Inhambane",
-    "desc": ""
+    "name": "Inhambane"
   },
   "SFA": {
-    "name": "Sofala",
-    "desc": ""
+    "name": "Sofala"
   },
   "MBA": {
-    "name": "Mombassa",
-    "desc": ""
+    "name": "Mombassa"
   },
   "GED": {
-    "name": "Gedi",
-    "desc": ""
+    "name": "Gedi"
   },
   "UGW": {
-    "name": "Ungwana",
-    "desc": ""
+    "name": "Ungwana"
   },
   "LAM": {
-    "name": "Lamu",
-    "desc": ""
+    "name": "Lamu"
   },
   "VOH": {
-    "name": "Vohemar",
-    "desc": ""
+    "name": "Vohemar"
   },
   "NYM": {
-    "name": "Boeny",
-    "desc": ""
+    "name": "Boeny"
   },
   "VIL": {
-    "name": "Vili",
-    "desc": ""
+    "name": "Vili"
   },
   "TKE": {
-    "name": "Bateke",
-    "desc": ""
+    "name": "Bateke"
   },
   "ABD": {
-    "name": "Ambundu",
-    "desc": ""
+    "name": "Ambundu"
   },
   "CBD": {
-    "name": "Cabinda",
-    "desc": ""
+    "name": "Cabinda"
   },
   "YAK": {
-    "name": "Yaka",
-    "desc": ""
+    "name": "Yaka"
   },
   "CEW": {
-    "name": "Chewa",
-    "desc": ""
+    "name": "Chewa"
   },
   "PEM": {
-    "name": "Pemba",
-    "desc": ""
+    "name": "Pemba"
   },
   "ZZB": {
-    "name": "Zanzibar",
-    "desc": ""
+    "name": "Zanzibar"
   },
   "BMB": {
-    "name": "Bambao",
-    "desc": ""
+    "name": "Bambao"
   },
   "MOZ": {
-    "name": "Mozambique",
-    "desc": ""
+    "name": "Mozambique"
   },
   "AGH": {
-    "name": "Angoche",
-    "desc": ""
+    "name": "Angoche"
   },
   "QLM": {
-    "name": "Quelimane",
-    "desc": ""
+    "name": "Quelimane"
   },
   "ZMW": {
-    "name": "Zimbabwe",
-    "desc": ""
+    "name": "Zimbabwe"
   },
   "TNA": {
-    "name": "Tonga",
-    "desc": ""
+    "name": "Tonga"
   },
   "SEN": {
-    "name": "Sena",
-    "desc": ""
+    "name": "Sena"
   },
   "TSG": {
-    "name": "Tsonga",
-    "desc": ""
+    "name": "Tsonga"
   },
   "MNY": {
-    "name": "Ndau",
-    "desc": ""
+    "name": "Ndau"
   },
   "ZEZ": {
-    "name": "Zezuru",
-    "desc": ""
+    "name": "Zezuru"
   },
   "NBY": {
-    "name": "Nambya",
-    "desc": ""
+    "name": "Nambya"
   },
   "TBK": {
-    "name": "Tumbuka",
-    "desc": ""
+    "name": "Tumbuka"
   },
   "MRA": {
-    "name": "Maravi",
-    "desc": ""
+    "name": "Maravi"
   },
   "LDU": {
-    "name": "Lundu",
-    "desc": ""
+    "name": "Lundu"
   },
   "MKU": {
-    "name": "Makua",
-    "desc": ""
+    "name": "Makua"
   },
   "VAZ": {
-    "name": "Vazimba",
-    "desc": ""
+    "name": "Vazimba"
   },
   "MIR": {
-    "name": "Imerina",
-    "desc": ""
+    "name": "Imerina"
   },
   "NTL": {
-    "name": "Mahajangā",
-    "desc": ""
+    "name": "Mahajangā"
   },
   "MTO": {
-    "name": "Maintirano",
-    "desc": ""
+    "name": "Maintirano"
   },
   "AHY": {
-    "name": "Antsohihy",
-    "desc": ""
+    "name": "Antsohihy"
   },
   "MHL": {
-    "name": "Mahilaka",
-    "desc": ""
+    "name": "Mahilaka"
   },
   "IRD": {
-    "name": "Irodo",
-    "desc": ""
+    "name": "Irodo"
   },
   "BMK": {
-    "name": "Bemanevika",
-    "desc": ""
+    "name": "Bemanevika"
   },
   "ZFI": {
-    "name": "Vohipeno",
-    "desc": ""
+    "name": "Vohipeno"
   },
   "ABV": {
-    "name": "Ambovontany",
-    "desc": ""
+    "name": "Ambovontany"
   },
   "MBD": {
-    "name": "Manabondro",
-    "desc": ""
+    "name": "Manabondro"
   },
   "BTS": {
-    "name": "Betsimisaraka",
-    "desc": ""
+    "name": "Betsimisaraka"
   },
   "VEZ": {
-    "name": "Vezo",
-    "desc": ""
+    "name": "Vezo"
   },
   "SKA": {
-    "name": "Sakalava",
-    "desc": ""
+    "name": "Sakalava"
   },
   "MNB": {
-    "name": "Menabe",
-    "desc": ""
+    "name": "Menabe"
   },
   "BOI": {
-    "name": "Boina",
-    "desc": ""
+    "name": "Boina"
   },
   "ANK": {
-    "name": "Antankarana",
-    "desc": ""
+    "name": "Antankarana"
   },
   "BEZ": {
-    "name": "Bezanozano",
-    "desc": ""
+    "name": "Bezanozano"
   },
   "SIH": {
-    "name": "Sihanaka",
-    "desc": ""
+    "name": "Sihanaka"
   },
   "TND": {
-    "name": "Tandroy",
-    "desc": ""
+    "name": "Tandroy"
   },
   "ATK": {
-    "name": "Antesaka",
-    "desc": ""
+    "name": "Antesaka"
   },
   "BAA": {
-    "name": "Bara",
-    "desc": ""
+    "name": "Bara"
   },
   "ATM": {
-    "name": "Antemoro",
-    "desc": ""
+    "name": "Antemoro"
   },
   "ATF": {
-    "name": "Antaifasy",
-    "desc": ""
+    "name": "Antaifasy"
   },
   "ATB": {
-    "name": "Antambahoaka",
-    "desc": ""
+    "name": "Antambahoaka"
   },
   "TAL": {
-    "name": "Tanala",
-    "desc": ""
+    "name": "Tanala"
   },
   "BET": {
-    "name": "Betsileo",
-    "desc": ""
+    "name": "Betsileo"
   },
   "KIT": {
-    "name": "Kitara",
-    "desc": ""
+    "name": "Kitara"
   },
   "WNA": {
-    "name": "Wanga",
-    "desc": ""
+    "name": "Wanga"
   },
   "BNY": {
-    "name": "Bunyoro",
-    "desc": ""
+    "name": "Bunyoro"
   },
   "BUG": {
-    "name": "Buganda",
-    "desc": ""
+    "name": "Buganda"
   },
   "BSG": {
-    "name": "Busoga",
-    "desc": ""
+    "name": "Busoga"
   },
   "NKO": {
-    "name": "Nkore",
-    "desc": ""
+    "name": "Nkore"
   },
   "RWA": {
-    "name": "Rwanda",
-    "desc": ""
+    "name": "Rwanda"
   },
   "KRW": {
-    "name": "Karagwe",
-    "desc": ""
+    "name": "Karagwe"
   },
   "UBH": {
-    "name": "Buha",
-    "desc": ""
+    "name": "Buha"
   },
   "BUU": {
-    "name": "Burundi",
-    "desc": ""
+    "name": "Burundi"
   },
   "MAA": {
-    "name": "Maasai",
-    "desc": ""
+    "name": "Maasai"
   },
   "KOR": {
-    "name": "Goryeo",
-    "desc": ""
+    "name": "Goryeo"
   },
   "SSG": {
-    "name": "Ssangseong",
-    "desc": ""
+    "name": "Ssangseong"
+  },
+  "SYG": {
+    "name": "Shěnyáng"
   },
   "TMN": {
-    "name": "Tamna",
-    "desc": ""
+    "name": "Tamna"
   },
   "JAP": {
-    "name": "Japan",
-    "desc": ""
+    "name": "Japan"
   },
   "NTC": {
-    "name": "Jimyōin",
-    "desc": ""
+    "name": "Jimyōin"
   },
   "STC": {
-    "name": "Daikakuji",
-    "desc": ""
+    "name": "Daikakuji"
   },
   "YMT": {
-    "name": "Yamato",
-    "desc": ""
+    "name": "Yamato"
   },
   "KOU": {
-    "name": "Kō",
-    "desc": ""
+    "name": "Kō"
   },
   "HSK": {
-    "name": "Hosokawa",
-    "desc": ""
+    "name": "Hosokawa"
   },
   "AKM": {
-    "name": "Akamatsu",
-    "desc": ""
+    "name": "Akamatsu"
   },
   "NKI": {
-    "name": "Nitsuki",
-    "desc": ""
+    "name": "Nitsuki"
   },
   "KTB": {
-    "name": "Kitabatake",
-    "desc": ""
+    "name": "Kitabatake"
   },
   "CJO": {
-    "name": "Chūjō",
-    "desc": ""
+    "name": "Chūjō"
   },
   "IMG": {
-    "name": "Imagawa",
-    "desc": ""
+    "name": "Imagawa"
   },
   "ISD": {
-    "name": "Ishidō",
-    "desc": ""
+    "name": "Ishidō"
   },
   "TKD": {
-    "name": "Takeda",
-    "desc": ""
+    "name": "Takeda"
   },
   "SBA": {
-    "name": "Shiba",
-    "desc": ""
+    "name": "Shiba"
   },
   "CBA": {
-    "name": "Chiba",
-    "desc": ""
+    "name": "Chiba"
   },
   "STK": {
-    "name": "Satake",
-    "desc": ""
+    "name": "Satake"
   },
   "KGK": {
-    "name": "Kyōgoku",
-    "desc": ""
+    "name": "Kyōgoku"
   },
   "TKI": {
-    "name": "Toki",
-    "desc": ""
+    "name": "Toki"
   },
   "OGS": {
-    "name": "Ogasawara",
-    "desc": ""
+    "name": "Ogasawara"
   },
   "UES": {
-    "name": "Uesugi",
-    "desc": ""
+    "name": "Uesugi"
   },
   "OYM": {
-    "name": "Oyama",
-    "desc": ""
+    "name": "Oyama"
   },
   "TGS": {
-    "name": "Togashi",
-    "desc": ""
+    "name": "Togashi"
   },
   "YSM": {
-    "name": "Yoshimi",
-    "desc": ""
+    "name": "Yoshimi"
   },
   "MMI": {
-    "name": "Momonoi",
-    "desc": ""
+    "name": "Momonoi"
   },
   "KRA": {
-    "name": "Kira",
-    "desc": ""
+    "name": "Kira"
   },
   "YMN": {
-    "name": "Yamana",
-    "desc": ""
+    "name": "Yamana"
   },
   "ENY": {
-    "name": "En'ya",
-    "desc": ""
+    "name": "En'ya"
   },
   "UEN": {
-    "name": "Ueno",
-    "desc": ""
+    "name": "Ueno"
   },
   "MTD": {
-    "name": "Matsuda",
-    "desc": ""
+    "name": "Matsuda"
   },
   "MNM": {
-    "name": "Minami",
-    "desc": ""
+    "name": "Minami"
   },
   "ASY": {
-    "name": "Asayama",
-    "desc": ""
+    "name": "Asayama"
   },
   "WSZ": {
-    "name": "Washizu",
-    "desc": ""
+    "name": "Washizu"
   },
   "KTO": {
-    "name": "Kotō",
-    "desc": ""
+    "name": "Kotō"
   },
   "HTK": {
-    "name": "Hatakeyama",
-    "desc": ""
+    "name": "Hatakeyama"
   },
   "KNO": {
-    "name": "Kawano",
-    "desc": ""
+    "name": "Kawano"
   },
   "SHN": {
-    "name": "Shōni",
-    "desc": ""
+    "name": "Shōni"
   },
   "KII": {
-    "name": "Kii",
-    "desc": ""
+    "name": "Kii"
   },
   "OTM": {
-    "name": "Ōtomo",
-    "desc": ""
+    "name": "Ōtomo"
   },
   "SMZ": {
-    "name": "Shimazu",
-    "desc": ""
+    "name": "Shimazu"
   },
   "NBU": {
-    "name": "Nanbu",
-    "desc": ""
+    "name": "Nanbu"
   },
   "KDO": {
-    "name": "Kudō",
-    "desc": ""
+    "name": "Kudō"
   },
   "OKI": {
-    "name": "Ōsaki",
-    "desc": ""
+    "name": "Ōsaki"
   },
   "MGM": {
-    "name": "Mogami",
-    "desc": ""
+    "name": "Mogami"
   },
   "KSI": {
-    "name": "Kasai",
-    "desc": ""
+    "name": "Kasai"
   },
   "SOM": {
-    "name": "Sōma",
-    "desc": ""
+    "name": "Sōma"
   },
   "DTE": {
-    "name": "Date",
-    "desc": ""
+    "name": "Date"
   },
   "ASN": {
-    "name": "Ashina",
-    "desc": ""
+    "name": "Ashina"
   },
   "YUK": {
-    "name": "Yūki",
-    "desc": ""
+    "name": "Yūki"
   },
   "OID": {
-    "name": "Ōida",
-    "desc": ""
+    "name": "Ōida"
   },
   "OGU": {
-    "name": "Oguni",
-    "desc": ""
+    "name": "Oguni"
   },
   "UTN": {
-    "name": "Utsunomiya",
-    "desc": ""
+    "name": "Utsunomiya"
   },
   "IIX": {
-    "name": "Ii",
-    "desc": ""
+    "name": "Ii"
   },
   "AKJ": {
-    "name": "Anenokōji",
-    "desc": ""
+    "name": "Anenokōji"
   },
   "KSN": {
-    "name": "Kusunoki",
-    "desc": ""
+    "name": "Kusunoki"
   },
   "ISK": {
-    "name": "Isshiki",
-    "desc": ""
+    "name": "Isshiki"
   },
   "NAW": {
-    "name": "Nawa",
-    "desc": ""
+    "name": "Nawa"
   },
   "MSD": {
-    "name": "Masuda",
-    "desc": ""
+    "name": "Masuda"
   },
   "OUC": {
-    "name": "Ōuchi",
-    "desc": ""
+    "name": "Ōuchi"
   },
   "TKN": {
-    "name": "Tokunō",
-    "desc": ""
+    "name": "Tokunō"
   },
   "DOI": {
-    "name": "Doi",
-    "desc": ""
+    "name": "Doi"
   },
   "KNT": {
-    "name": "Kutsuna",
-    "desc": ""
+    "name": "Kutsuna"
   },
   "SHJ": {
-    "name": "Shijō",
-    "desc": ""
+    "name": "Shijō"
   },
   "YSR": {
-    "name": "Yamashiro",
-    "desc": ""
+    "name": "Yamashiro"
   },
   "KKC": {
-    "name": "Kikuchi",
-    "desc": ""
+    "name": "Kikuchi"
   },
   "ASO": {
-    "name": "Aso",
-    "desc": ""
+    "name": "Aso"
   },
   "SGR": {
-    "name": "Sagara",
-    "desc": ""
+    "name": "Sagara"
   },
   "IJU": {
-    "name": "Ijūin",
-    "desc": ""
+    "name": "Ijūin"
   },
   "KMT": {
-    "name": "Kimotsuki",
-    "desc": ""
+    "name": "Kimotsuki"
   },
   "SOU": {
-    "name": "Sō",
-    "desc": ""
+    "name": "Sō"
   },
   "NAI": {
-    "name": "Nagai",
-    "desc": ""
+    "name": "Nagai"
   },
   "HEI": {
-    "name": "Hei",
-    "desc": ""
+    "name": "Hei"
   },
   "ANM": {
-    "name": "Asonuma",
-    "desc": ""
+    "name": "Asonuma"
   },
   "TZW": {
-    "name": "Tozawa",
-    "desc": ""
+    "name": "Tozawa"
   },
   "WAG": {
-    "name": "Waga",
-    "desc": ""
+    "name": "Waga"
   },
   "HIE": {
-    "name": "Hienuki",
-    "desc": ""
+    "name": "Hienuki"
   },
   "SGE": {
-    "name": "Sagae",
-    "desc": ""
+    "name": "Sagae"
   },
   "DHJ": {
-    "name": "Daihōji",
-    "desc": ""
+    "name": "Daihōji"
   },
   "NGM": {
-    "name": "Naganuma",
-    "desc": ""
+    "name": "Naganuma"
   },
   "NKD": {
-    "name": "Nikaidō",
-    "desc": ""
+    "name": "Nikaidō"
   },
   "TMR": {
-    "name": "Tamura",
-    "desc": ""
+    "name": "Tamura"
   },
   "IWS": {
-    "name": "Inawashiro",
-    "desc": ""
+    "name": "Inawashiro"
   },
   "ISW": {
-    "name": "Ishikawa",
-    "desc": ""
+    "name": "Ishikawa"
   },
   "MIU": {
-    "name": "Miura",
-    "desc": ""
+    "name": "Miura"
   },
   "SUW": {
-    "name": "Suwa",
-    "desc": ""
+    "name": "Suwa"
   },
   "RKK": {
-    "name": "Rokkaku",
-    "desc": ""
+    "name": "Rokkaku"
   },
   "MIY": {
-    "name": "Miya",
-    "desc": ""
+    "name": "Miya"
   },
   "KKW": {
-    "name": "Kikkawa",
-    "desc": ""
+    "name": "Kikkawa"
   },
   "MKT": {
-    "name": "Munakata",
-    "desc": ""
+    "name": "Munakata"
   },
   "ASA": {
-    "name": "Asakura",
-    "desc": ""
+    "name": "Asakura"
   },
   "CSK": {
-    "name": "Chōsokabe",
-    "desc": ""
+    "name": "Chōsokabe"
   },
   "ISE": {
-    "name": "Ise",
-    "desc": ""
+    "name": "Ise"
   },
   "IKE": {
-    "name": "Ikeda",
-    "desc": ""
+    "name": "Ikeda"
   },
   "ITO": {
-    "name": "Itō",
-    "desc": ""
+    "name": "Itō"
   },
   "MRI": {
-    "name": "Mōri",
-    "desc": ""
+    "name": "Mōri"
   },
   "ODA": {
-    "name": "Oda",
-    "desc": ""
+    "name": "Oda"
   },
   "AKT": {
-    "name": "Andō",
-    "desc": ""
+    "name": "Andō"
   },
   "ISA": {
-    "name": "Isa",
-    "desc": ""
+    "name": "Isa"
   },
   "TAK": {
-    "name": "Daijō",
-    "desc": ""
+    "name": "Daijō"
   },
   "KNB": {
-    "name": "Kawanobe",
-    "desc": ""
+    "name": "Kawanobe"
   },
   "HTA": {
-    "name": "Hatta",
-    "desc": ""
+    "name": "Hatta"
   },
   "MKO": {
-    "name": "Mashiko",
-    "desc": ""
+    "name": "Mashiko"
   },
   "TKO": {
-    "name": "Takō",
-    "desc": ""
+    "name": "Takō"
   },
   "NAS": {
-    "name": "Nasu",
-    "desc": ""
+    "name": "Nasu"
   },
   "OGO": {
-    "name": "Ōgo",
-    "desc": ""
+    "name": "Ōgo"
   },
   "NIT": {
-    "name": "Nitta",
-    "desc": ""
+    "name": "Nitta"
   },
   "YMG": {
-    "name": "Yamaguchi",
-    "desc": ""
+    "name": "Yamaguchi"
   },
   "TOS": {
-    "name": "Toshima",
-    "desc": ""
+    "name": "Toshima"
   },
   "HNM": {
-    "name": "Honma",
-    "desc": ""
+    "name": "Honma"
   },
   "UNN": {
-    "name": "Unnō",
-    "desc": ""
+    "name": "Unnō"
   },
   "KOK": {
-    "name": "Kōsaka",
-    "desc": ""
+    "name": "Kōsaka"
   },
   "TOY": {
-    "name": "Tōyama",
-    "desc": ""
+    "name": "Tōyama"
   },
   "HIG": {
-    "name": "Tō",
-    "desc": ""
+    "name": "Tō"
   },
   "EMA": {
-    "name": "Ema",
-    "desc": ""
+    "name": "Ema"
   },
   "NKJ": {
-    "name": "Nakajima",
-    "desc": ""
+    "name": "Nakajima"
   },
   "OBA": {
-    "name": "Ōba",
-    "desc": ""
+    "name": "Ōba"
   },
   "NGN": {
-    "name": "Nagano",
-    "desc": ""
+    "name": "Nagano"
   },
   "TKM": {
-    "name": "Takashima",
-    "desc": ""
+    "name": "Takashima"
   },
   "AIS": {
-    "name": "Aisu",
-    "desc": ""
+    "name": "Aisu"
   },
   "YUS": {
-    "name": "Yuasa",
-    "desc": ""
+    "name": "Yuasa"
   },
   "YAB": {
-    "name": "Yabe",
-    "desc": ""
+    "name": "Yabe"
   },
   "OGA": {
-    "name": "Ogamo",
-    "desc": ""
+    "name": "Ogamo"
   },
   "STU": {
-    "name": "Suetsugu",
-    "desc": ""
+    "name": "Suetsugu"
   },
   "MZW": {
-    "name": "Mizawa",
-    "desc": ""
+    "name": "Mizawa"
   },
   "MTY": {
-    "name": "Mitoya",
-    "desc": ""
+    "name": "Mitoya"
   },
   "AKN": {
-    "name": "Akana",
-    "desc": ""
+    "name": "Akana"
   },
   "GTO": {
-    "name": "Gotō",
-    "desc": ""
+    "name": "Gotō"
   },
   "SHO": {
-    "name": "Shō",
-    "desc": ""
+    "name": "Shō"
   },
   "HRG": {
-    "name": "Hiraga",
-    "desc": ""
+    "name": "Hiraga"
   },
   "KBK": {
-    "name": "Kobayakawa",
-    "desc": ""
+    "name": "Kobayakawa"
   },
   "WCH": {
-    "name": "Wachi",
-    "desc": ""
+    "name": "Wachi"
   },
   "MYH": {
-    "name": "Miyoshi",
-    "desc": ""
+    "name": "Miyoshi"
   },
   "SUE": {
-    "name": "Sue",
-    "desc": ""
+    "name": "Sue"
   },
   "MIG": {
-    "name": "Migita",
-    "desc": ""
+    "name": "Migita"
   },
   "KAG": {
-    "name": "Kagawa",
-    "desc": ""
+    "name": "Kagawa"
   },
   "KOZ": {
-    "name": "Kōzai",
-    "desc": ""
+    "name": "Kōzai"
   },
   "KNE": {
-    "name": "Kaneko",
-    "desc": ""
+    "name": "Kaneko"
   },
   "AKI": {
-    "name": "Aki",
-    "desc": ""
+    "name": "Aki"
   },
   "OHR": {
-    "name": "Ōhira",
-    "desc": ""
+    "name": "Ōhira"
   },
   "BZG": {
-    "name": "Buzen Nagano",
-    "desc": ""
+    "name": "Buzen Nagano"
   },
   "AKZ": {
-    "name": "Akizuki",
-    "desc": ""
+    "name": "Akizuki"
   },
   "AKU": {
-    "name": "Taku",
-    "desc": ""
+    "name": "Taku"
   },
   "AHT": {
-    "name": "Hata",
-    "desc": ""
+    "name": "Hata"
   },
   "ARI": {
-    "name": "Arima",
-    "desc": ""
+    "name": "Arima"
   },
   "OKR": {
-    "name": "Ōkura",
-    "desc": ""
+    "name": "Ōkura"
   },
   "TMD": {
-    "name": "Tsuchimochi",
-    "desc": ""
+    "name": "Tsuchimochi"
   },
   "KJK": {
-    "name": "Kajiki",
-    "desc": ""
+    "name": "Kajiki"
   },
   "HSR": {
-    "name": "Hishikari",
-    "desc": ""
+    "name": "Hishikari"
   },
   "ANU": {
-    "name": "Ainu",
-    "desc": ""
+    "name": "Ainu"
   },
   "HKZ": {
-    "name": "Hokuzan",
-    "desc": ""
+    "name": "Hokuzan"
   },
   "CHZ": {
-    "name": "Chūzan",
-    "desc": ""
+    "name": "Chūzan"
   },
   "NZN": {
-    "name": "Nanzan",
-    "desc": ""
+    "name": "Nanzan"
   },
   "CHI": {
-    "name": "China",
-    "desc": ""
+    "name": "China"
   },
   "YUA": {
-    "name": "Yuán",
-    "desc": ""
+    "name": "Yuán"
   },
   "MNG": {
-    "name": "Míng",
-    "desc": ""
+    "name": "Míng"
   },
   "CSO": {
-    "name": "Sòng",
-    "desc": ""
+    "name": "Sòng"
   },
   "WUU": {
-    "name": "Wú",
-    "desc": ""
+    "name": "Wú"
   },
   "CTW": {
-    "name": "Tiānwán",
-    "desc": ""
+    "name": "Tiānwán"
   },
   "CHE": {
-    "name": "Chén",
-    "desc": ""
+    "name": "Chén"
   },
   "CSH": {
-    "name": "Shùn",
-    "desc": ""
+    "name": "Shùn"
   },
   "CXI": {
-    "name": "Xià",
-    "desc": ""
+    "name": "Xià"
   },
   "CTG": {
-    "name": "Tûng-nèn",
-    "desc": ""
+    "name": "Tûng-nèn"
   },
   "CFN": {
-    "name": "Fāng",
-    "desc": ""
+    "name": "Fāng"
   },
   "CMO": {
-    "name": "Máo",
-    "desc": ""
+    "name": "Máo"
   },
   "CGU": {
-    "name": "Guō",
-    "desc": ""
+    "name": "Guō"
   },
   "CNP": {
-    "name": "Nánpíng",
-    "desc": ""
+    "name": "Nánpíng"
   },
   "CDN": {
-    "name": "Dōngguǎn",
-    "desc": ""
+    "name": "Dōngguǎn"
   },
   "CSI": {
-    "name": "Lǐ",
-    "desc": ""
+    "name": "Lǐ"
   },
   "CKO": {
-    "name": "Köke Temür",
-    "desc": ""
+    "name": "Köke Temür"
   },
   "CNA": {
-    "name": "Naghachu",
-    "desc": ""
+    "name": "Naghachu"
   },
   "MMA": {
-    "name": "Möng Mao",
-    "desc": ""
+    "name": "Möng Mao"
   },
   "MHK": {
-    "name": "Möng Hkeng",
-    "desc": ""
+    "name": "Möng Hkeng"
   },
   "MHN": {
-    "name": "Möng Hten",
-    "desc": ""
+    "name": "Möng Hten"
   },
   "MTG": {
-    "name": "Möng Ting",
-    "desc": ""
+    "name": "Möng Ting"
   },
   "MGN": {
-    "name": "Möng Ngüm",
-    "desc": ""
+    "name": "Möng Ngüm"
   },
   "MHA": {
-    "name": "Möng Hsa",
-    "desc": ""
+    "name": "Möng Hsa"
   },
   "MWO": {
-    "name": "Möng Wo",
-    "desc": ""
+    "name": "Möng Wo"
   },
   "MGK": {
-    "name": "Möng Ku",
-    "desc": ""
+    "name": "Möng Ku"
   },
   "YNJ": {
-    "name": "Yuánjiāng",
-    "desc": ""
+    "name": "Yuánjiāng"
   },
   "NWU": {
-    "name": "Niuwu",
-    "desc": ""
+    "name": "Niuwu"
+  },
+  "NYZ": {
+    "name": "Níngyuǎnzhōu"
   },
   "NLU": {
-    "name": "Nalou",
-    "desc": ""
+    "name": "Nalou"
   },
   "YJI": {
-    "name": "Yánjǐng",
-    "desc": ""
+    "name": "Yánjǐng"
+  },
+  "BZH": {
+    "name": "Běishèng"
+  },
+  "YAN": {
+    "name": "Yáo'ān"
+  },
+  "HQG": {
+    "name": "Hèqìng"
+  },
+  "NNN": {
+    "name": "Ānnán"
+  },
+  "AGN": {
+    "name": "Āníng"
+  },
+  "MLE": {
+    "name": "Mílè"
+  },
+  "JSI": {
+    "name": "Jiànshuǐ"
+  },
+  "SPG": {
+    "name": "Shípíng"
+  },
+  "NGZ": {
+    "name": "Níngzhōu"
+  },
+  "LLS": {
+    "name": "Luóluósī"
+  },
+  "CGZ": {
+    "name": "Chāngzhōu"
   },
   "XLG": {
-    "name": "Xianlong",
-    "desc": ""
+    "name": "Xianlong"
+  },
+  "WDG": {
+    "name": "Wǔdìng"
+  },
+  "RND": {
+    "name": "Réndé"
+  },
+  "DCN": {
+    "name": "Dōngchuān"
+  },
+  "WNG": {
+    "name": "Wūméng"
+  },
+  "MHU": {
+    "name": "Mǎhú"
+  },
+  "LBO": {
+    "name": "Léibō"
+  },
+  "YNL": {
+    "name": "Yúnlián"
+  },
+  "ZNX": {
+    "name": "Zhènxióng"
+  },
+  "WSA": {
+    "name": "Wūsā"
+  },
+  "ZYI": {
+    "name": "Zhānyì"
+  },
+  "QJG": {
+    "name": "Qūjìng"
+  },
+  "YZO": {
+    "name": "Yìzuǒ"
+  },
+  "MLG": {
+    "name": "Mǎlóng"
+  },
+  "LLN": {
+    "name": "Lùliáng"
+  },
+  "LXG": {
+    "name": "Luōxióng"
+  },
+  "GGX": {
+    "name": "Guǎngxī"
+  },
+  "SZG": {
+    "name": "Shīzōng"
+  },
+  "SXI": {
+    "name": "Shǔixī"
+  },
+  "CLE": {
+    "name": "Chēlēi"
+  },
+  "BZU": {
+    "name": "Bōzhōu"
+  },
+  "NPG": {
+    "name": "Qíjiāng"
+  },
+  "RNG": {
+    "name": "Róng"
+  },
+  "GNG": {
+    "name": "Gǒng"
+  },
+  "ZNZ": {
+    "name": "Zhēnzhōu"
+  },
+  "SZU": {
+    "name": "Shízhù"
+  },
+  "ZGL": {
+    "name": "Zhōnglù"
+  },
+  "TGY": {
+    "name": "Tángyá"
+  },
+  "GLU": {
+    "name": "Gāoluó"
+  },
+  "RGM": {
+    "name": "Róngměi"
+  },
+  "TNP": {
+    "name": "Tiānpíng"
+  },
+  "SGZ": {
+    "name": "Sāngzhí"
+  },
+  "DWG": {
+    "name": "Dàwáng"
+  },
+  "YGS": {
+    "name": "Yǒngshùn"
+  },
+  "BJG": {
+    "name": "Bǎojìng"
+  },
+  "YYG": {
+    "name": "Yǒuyáng"
+  },
+  "PCD": {
+    "name": "Píngchádòng"
+  },
+  "SZH": {
+    "name": "Sīzhōu"
+  },
+  "YNH": {
+    "name": "Yánhé"
+  },
+  "TXI": {
+    "name": "Tíxī"
+  },
+  "TGR": {
+    "name": "Tóngrén"
+  },
+  "QGS": {
+    "name": "Qióngshuǐ"
+  },
+  "WZH": {
+    "name": "Wǔzhài"
+  },
+  "PTZ": {
+    "name": "Píngtóuzhekě"
+  },
+  "LGQ": {
+    "name": "Lóngquán"
+  },
+  "RGS": {
+    "name": "Rongshan"
+  },
+  "BNI": {
+    "name": "Báiní"
+  },
+  "COG": {
+    "name": "Cǎotáng"
+  },
+  "XNL": {
+    "name": "Xinlong"
+  },
+  "ALI": {
+    "name": "Kǎilǐ"
+  },
+  "SDG": {
+    "name": "Shǔidōng"
+  },
+  "PYE": {
+    "name": "Píngyuè"
+  },
+  "DZH": {
+    "name": "Dǐzhài"
+  },
+  "XNG": {
+    "name": "Xianning"
+  },
+  "PDG": {
+    "name": "Píngdìng"
+  },
+  "PDN": {
+    "name": "Pǔdìng"
+  },
+  "PGB": {
+    "name": "Píngbà"
+  },
+  "PAN": {
+    "name": "Pǔ'ān"
+  },
+  "YNN": {
+    "name": "Yongning"
+  },
+  "LIN": {
+    "name": "Lai'an"
+  },
+  "NLG": {
+    "name": "Ānlóng"
+  },
+  "SHG": {
+    "name": "Shanglin"
+  },
+  "QYN": {
+    "name": "Qìngyuǎn"
+  },
+  "NDN": {
+    "name": "Nándān"
+  },
+  "DLN": {
+    "name": "Dōnglán"
+  },
+  "XCG": {
+    "name": "Xīnchéng"
+  },
+  "YSN": {
+    "name": "Yǒngshùn Zhuang"
+  },
+  "TNZ": {
+    "name": "Tiánzhōu"
+  },
+  "ADG": {
+    "name": "Āndìng"
+  },
+  "DYG": {
+    "name": "Dǔyáng"
+  },
+  "ZNN": {
+    "name": "Zhèn'ān"
+  },
+  "TPG": {
+    "name": "Tàipíng"
+  },
+  "SMG": {
+    "name": "Sīmíng"
+  },
+  "SGS": {
+    "name": "Shàngsī"
+  },
+  "GNN": {
+    "name": "Guǎngnán"
+  },
+  "LZO": {
+    "name": "Luózuǒ"
+  },
+  "FZH": {
+    "name": "Fùzhōu"
+  },
+  "LZI": {
+    "name": "Lianghzai"
+  },
+  "SZI": {
+    "name": "Shezi"
+  },
+  "DYN": {
+    "name": "Dūyún"
+  },
+  "LTU": {
+    "name": "Làntǔ"
+  },
+  "GZH": {
+    "name": "Gǔzhōu"
+  },
+  "LPG": {
+    "name": "Lípíng"
+  },
+  "ZLD": {
+    "name": "Zhonglindong"
+  },
+  "HZH": {
+    "name": "Hóngzhōu"
+  },
+  "XSY": {
+    "name": "Xīshānyáng"
+  },
+  "LNG": {
+    "name": "Liáng"
   },
   "CDL": {
-    "name": "Dali",
-    "desc": ""
+    "name": "Dali"
   },
   "CHH": {
-    "name": "Chiang Hung",
-    "desc": ""
+    "name": "Chiang Hung"
   },
   "TIB": {
-    "name": "Tibet",
-    "desc": ""
+    "name": "Tibet"
   },
   "GUG": {
-    "name": "Guge",
-    "desc": ""
+    "name": "Guge"
   },
   "PUR": {
-    "name": "Purang",
-    "desc": ""
+    "name": "Purang"
   },
   "MAR": {
-    "name": "Maryul",
-    "desc": ""
+    "name": "Maryul"
   },
   "ZNK": {
-    "name": "Zanskar",
-    "desc": ""
+    "name": "Zanskar"
   },
   "CHG": {
-    "name": "Chagatai",
-    "desc": ""
+    "name": "Chagatai"
   },
   "TIM": {
-    "name": "Timurid",
-    "desc": ""
+    "name": "Timurid"
   },
   "QCH": {
-    "name": "Qocho",
-    "desc": ""
+    "name": "Qocho"
   },
   "MNL": {
-    "name": "Mangalai",
-    "desc": ""
+    "name": "Mangalai"
   },
   "MGG": {
-    "name": "Mangyül Gungthang",
-    "desc": ""
+    "name": "Mangyül Gungthang"
   },
   "POO": {
-    "name": "Powo",
-    "desc": ""
+    "name": "Powo"
   },
   "HOR": {
-    "name": "Hor",
-    "desc": ""
+    "name": "Hor"
   },
   "LGT": {
-    "name": "Lingtsang",
-    "desc": ""
+    "name": "Lingtsang"
   },
   "DRG": {
-    "name": "Derge",
-    "desc": ""
+    "name": "Derge"
   },
   "NCN": {
-    "name": "Nangchen",
-    "desc": ""
+    "name": "Nangchen"
   },
   "GNJ": {
-    "name": "Gonjo",
-    "desc": ""
+    "name": "Gonjo"
   },
   "BTG": {
-    "name": "Batang",
-    "desc": ""
+    "name": "Batang"
   },
   "NBH": {
-    "name": "Nubhor",
-    "desc": ""
+    "name": "Nubhor"
   },
   "LTN": {
-    "name": "Litang",
-    "desc": ""
+    "name": "Litang"
   },
   "NYA": {
-    "name": "Nyarong",
-    "desc": ""
+    "name": "Nyarong"
   },
   "GYT": {
-    "name": "Gyelthang",
-    "desc": ""
+    "name": "Gyelthang"
+  },
+  "YNG": {
+    "name": "Yǒngníng"
   },
   "TNQ": {
-    "name": "Tiānquán",
-    "desc": ""
+    "name": "Tiānquán"
   },
   "MCI": {
-    "name": "Muchi",
-    "desc": ""
+    "name": "Muchi"
   },
   "WMO": {
-    "name": "Wēimào",
-    "desc": ""
+    "name": "Wēimào"
   },
   "TSK": {
-    "name": "Tsakho",
-    "desc": ""
+    "name": "Tsakho"
   },
   "SNP": {
-    "name": "Sōngpān",
-    "desc": ""
+    "name": "Sōngpān"
   },
   "LGZ": {
-    "name": "Lóngzhōu",
-    "desc": ""
+    "name": "Lóngzhōu"
   },
   "MNZ": {
-    "name": "Mínzhōu",
-    "desc": ""
+    "name": "Mínzhōu"
   },
   "TAZ": {
-    "name": "Táozhōu",
-    "desc": ""
+    "name": "Táozhōu"
   },
   "KHG": {
-    "name": "Khagya",
-    "desc": ""
+    "name": "Khagya"
   },
   "HEZ": {
-    "name": "Hézhōu",
-    "desc": ""
+    "name": "Hézhōu"
   },
   "JIZ": {
-    "name": "Jīshízhōu",
-    "desc": ""
+    "name": "Jīshízhōu"
   },
   "BIR": {
-    "name": "Biri",
-    "desc": ""
+    "name": "Biri"
   },
   "GYE": {
-    "name": "Gyelrong",
-    "desc": ""
+    "name": "Gyelrong"
   },
   "GOL": {
-    "name": "Golog",
-    "desc": ""
+    "name": "Golog"
   },
   "CKL": {
-    "name": "Minyag",
-    "desc": ""
+    "name": "Minyag"
   },
   "AMD": {
-    "name": "Amdo",
-    "desc": ""
+    "name": "Amdo"
   },
   "MSH": {
-    "name": "Mishimi",
-    "desc": ""
+    "name": "Mishimi"
   },
   "TAN": {
-    "name": "Tani",
-    "desc": ""
+    "name": "Tani"
   },
   "MNP": {
-    "name": "Monpa",
-    "desc": ""
+    "name": "Monpa"
   },
   "LMN": {
-    "name": "Lho Mon",
-    "desc": ""
+    "name": "Lho Mon"
   },
   "LJG": {
-    "name": "Lijiang",
-    "desc": ""
+    "name": "Lijiang"
   },
   "SKK": {
-    "name": "Sikkim",
-    "desc": ""
+    "name": "Sikkim"
   },
   "DUR": {
-    "name": "Daur",
-    "desc": ""
+    "name": "Daur"
   },
   "EVK": {
-    "name": "Evenk",
-    "desc": ""
+    "name": "Evenk"
   },
   "NVK": {
-    "name": "Nivkh",
-    "desc": ""
+    "name": "Nivkh"
   },
   "ORC": {
-    "name": "Oroch",
-    "desc": ""
+    "name": "Oroch"
   },
   "ORQ": {
-    "name": "Oroqen",
-    "desc": ""
+    "name": "Oroqen"
   },
   "SIB": {
-    "name": "Sibe",
-    "desc": ""
+    "name": "Sibe"
   },
   "UDE": {
-    "name": "Udege",
-    "desc": ""
+    "name": "Udege"
   },
   "ULC": {
-    "name": "Ulch",
-    "desc": ""
+    "name": "Ulch"
   },
   "HDA": {
-    "name": "Hada",
-    "desc": ""
+    "name": "Hada"
   },
   "HOI": {
-    "name": "Hoifa",
-    "desc": ""
+    "name": "Hoifa"
   },
   "ULA": {
-    "name": "Ula",
-    "desc": ""
+    "name": "Ula"
   },
   "YEH": {
-    "name": "Yehe",
-    "desc": ""
+    "name": "Yehe"
   },
   "DNG": {
-    "name": "Donggo",
-    "desc": ""
+    "name": "Donggo"
   },
   "HJN": {
-    "name": "Holjaon",
-    "desc": ""
+    "name": "Holjaon"
   },
   "HNE": {
-    "name": "Hunehe",
-    "desc": ""
+    "name": "Hunehe"
   },
   "HUL": {
-    "name": "Huligai",
-    "desc": ""
+    "name": "Huligai"
   },
   "JEC": {
-    "name": "Jecen",
-    "desc": ""
+    "name": "Jecen"
   },
   "JUS": {
-    "name": "Jusheri",
-    "desc": ""
+    "name": "Jusheri"
   },
   "MAO": {
-    "name": "Maolian",
-    "desc": ""
+    "name": "Maolian"
   },
   "NEY": {
-    "name": "Neyen",
-    "desc": ""
+    "name": "Neyen"
   },
   "ODO": {
-    "name": "Odoli",
-    "desc": ""
+    "name": "Odoli"
   },
   "SSH": {
-    "name": "Suksuhu",
-    "desc": ""
+    "name": "Suksuhu"
   },
   "URY": {
-    "name": "Uryangkhad",
-    "desc": ""
+    "name": "Uryangkhad"
   },
   "WGG": {
-    "name": "Wanggiya",
-    "desc": ""
+    "name": "Wanggiya"
   },
   "YAL": {
-    "name": "Yalu",
-    "desc": ""
+    "name": "Yalu"
   },
   "AAR": {
-    "name": "Abdari",
-    "desc": ""
+    "name": "Abdari"
   },
   "AID": {
-    "name": "Aidan",
-    "desc": ""
+    "name": "Aidan"
   },
   "ASU": {
-    "name": "Asu",
-    "desc": ""
+    "name": "Asu"
   },
   "BAY": {
-    "name": "Bayan",
-    "desc": ""
+    "name": "Bayan"
   },
   "DLA": {
-    "name": "Dala",
-    "desc": ""
+    "name": "Dala"
   },
   "EJI": {
-    "name": "Ejimi",
-    "desc": ""
+    "name": "Ejimi"
   },
   "FLN": {
-    "name": "Fulun",
-    "desc": ""
+    "name": "Fulun"
   },
   "FUT": {
-    "name": "Futi",
-    "desc": ""
+    "name": "Futi"
   },
   "FUY": {
-    "name": "Fuyu",
-    "desc": ""
+    "name": "Fuyu"
   },
   "GIL": {
-    "name": "Gilemi",
-    "desc": ""
+    "name": "Gilemi"
   },
   "HIJ": {
-    "name": "Hijan",
-    "desc": ""
+    "name": "Hijan"
   },
   "HIY": {
-    "name": "Haiyan",
-    "desc": ""
+    "name": "Haiyan"
   },
   "HLN": {
-    "name": "Halan",
-    "desc": ""
+    "name": "Halan"
   },
   "HNC": {
-    "name": "Huncun",
-    "desc": ""
+    "name": "Huncun"
   },
   "HOT": {
-    "name": "Hotonggi",
-    "desc": ""
+    "name": "Hotonggi"
   },
   "HRO": {
-    "name": "Horo",
-    "desc": ""
+    "name": "Horo"
   },
   "HUI": {
-    "name": "Huiba",
-    "desc": ""
+    "name": "Huiba"
   },
   "HUR": {
-    "name": "Hūrga",
-    "desc": ""
+    "name": "Hūrga"
   },
   "ILU": {
-    "name": "Ilu",
-    "desc": ""
+    "name": "Ilu"
   },
   "IMN": {
-    "name": "Imanka",
-    "desc": ""
+    "name": "Imanka"
   },
   "ITU": {
-    "name": "Itun",
-    "desc": ""
+    "name": "Itun"
   },
   "JHT": {
-    "name": "Juru Hoton",
-    "desc": ""
+    "name": "Juru Hoton"
   },
   "LAL": {
-    "name": "Lalin",
-    "desc": ""
+    "name": "Lalin"
   },
   "LEF": {
-    "name": "Lefu",
-    "desc": ""
+    "name": "Lefu"
   },
   "LLU": {
-    "name": "Lalu",
-    "desc": ""
+    "name": "Lalu"
   },
   "MAH": {
-    "name": "Mahiyan",
-    "desc": ""
+    "name": "Mahiyan"
   },
   "MIC": {
-    "name": "Michen",
-    "desc": ""
+    "name": "Michen"
   },
   "MRE": {
-    "name": "Muren",
-    "desc": ""
+    "name": "Muren"
   },
   "MUH": {
-    "name": "Muhiya",
-    "desc": ""
+    "name": "Muhiya"
   },
   "MUU": {
-    "name": "Mulun",
-    "desc": ""
+    "name": "Mulun"
   },
   "NAL": {
-    "name": "Nalaji",
-    "desc": ""
+    "name": "Nalaji"
   },
   "NEM": {
-    "name": "Nemer",
-    "desc": ""
+    "name": "Nemer"
   },
   "NRO": {
-    "name": "Noro",
-    "desc": ""
+    "name": "Noro"
   },
   "SHI": {
-    "name": "Shilin",
-    "desc": ""
+    "name": "Shilin"
   },
   "SIR": {
-    "name": "Sirin",
-    "desc": ""
+    "name": "Sirin"
   },
   "SMN": {
-    "name": "Shilimian",
-    "desc": ""
+    "name": "Shilimian"
   },
   "SNC": {
-    "name": "Sancaha",
-    "desc": ""
+    "name": "Sancaha"
   },
   "SUI": {
-    "name": "Suifun",
-    "desc": ""
+    "name": "Suifun"
   },
   "TAS": {
-    "name": "Tashan",
-    "desc": ""
+    "name": "Tashan"
   },
   "TOD": {
-    "name": "Todo",
-    "desc": ""
+    "name": "Todo"
   },
   "TOX": {
-    "name": "Ton",
-    "desc": ""
+    "name": "Ton"
   },
   "USS": {
-    "name": "Ussuri",
-    "desc": ""
+    "name": "Ussuri"
   },
   "WEJ": {
-    "name": "Weji",
-    "desc": ""
+    "name": "Weji"
   },
   "WEK": {
-    "name": "Weken",
-    "desc": ""
+    "name": "Weken"
   },
   "WNL": {
-    "name": "Wanlin",
-    "desc": ""
+    "name": "Wanlin"
   },
   "WUY": {
-    "name": "Wuyewu",
-    "desc": ""
+    "name": "Wuyewu"
   },
   "YRN": {
-    "name": "Yaran",
-    "desc": ""
+    "name": "Yaran"
   },
   "YIM": {
-    "name": "Yimahu",
-    "desc": ""
+    "name": "Yimahu"
   },
   "YOO": {
-    "name": "Yoose",
-    "desc": ""
+    "name": "Yoose"
   },
   "KAD": {
-    "name": "Kam",
-    "desc": ""
+    "name": "Kam"
   },
   "TUJ": {
-    "name": "Tujia",
-    "desc": ""
+    "name": "Tujia"
   },
   "MNE": {
-    "name": "Yáo",
-    "desc": ""
+    "name": "Yáo"
   },
   "MIO": {
-    "name": "Hmong",
-    "desc": ""
+    "name": "Hmong"
   },
   "HQQ": {
-    "name": "Hani",
-    "desc": ""
+    "name": "Hani"
   },
   "YII": {
-    "name": "Yi",
-    "desc": ""
+    "name": "Yi"
   },
   "DDI": {
-    "name": "Dai",
-    "desc": ""
+    "name": "Dai"
   },
   "OIR": {
-    "name": "Oirat",
-    "desc": ""
+    "name": "Oirat"
   },
   "OGE": {
-    "name": "Ögedei",
-    "desc": ""
+    "name": "Ögedei"
   },
   "BAT": {
-    "name": "Baatud",
-    "desc": ""
+    "name": "Baatud"
   },
   "CRS": {
-    "name": "Choros",
-    "desc": ""
+    "name": "Choros"
   },
   "KHD": {
-    "name": "Khoid",
-    "desc": ""
+    "name": "Khoid"
   },
   "TRH": {
-    "name": "Torghut",
-    "desc": ""
+    "name": "Torghut"
   },
   "TVA": {
-    "name": "Tuva",
-    "desc": ""
+    "name": "Tuva"
   },
   "BGT": {
-    "name": "Belgutei",
-    "desc": ""
+    "name": "Belgutei"
   },
   "HCN": {
-    "name": "Hachiun",
-    "desc": ""
+    "name": "Hachiun"
   },
   "OTC": {
-    "name": "Otchigin",
-    "desc": ""
+    "name": "Otchigin"
   },
   "QAS": {
-    "name": "Qasar",
-    "desc": ""
+    "name": "Qasar"
   },
   "BKH": {
-    "name": "Badakhshan",
-    "desc": ""
+    "name": "Badakhshan"
   },
   "DGH": {
-    "name": "Dughlat",
-    "desc": ""
+    "name": "Dughlat"
   },
   "KRG": {
-    "name": "Karategin",
-    "desc": ""
+    "name": "Karategin"
   },
   "SRL": {
-    "name": "Sarikol",
-    "desc": ""
+    "name": "Sarikol"
   },
   "COO": {
-    "name": "Coosa",
-    "desc": ""
+    "name": "Coosa"
   },
   "OTL": {
-    "name": "Otali",
-    "desc": ""
+    "name": "Otali"
   },
   "COW": {
-    "name": "Coweta",
-    "desc": ""
+    "name": "Coweta"
   },
   "TUC": {
-    "name": "Tuckabutchee",
-    "desc": ""
+    "name": "Tuckabutchee"
   },
   "EUF": {
-    "name": "Eufaula",
-    "desc": ""
+    "name": "Eufaula"
   },
   "CPQ": {
-    "name": "Capachequi",
-    "desc": ""
+    "name": "Capachequi"
   },
   "TOA": {
-    "name": "Toa",
-    "desc": ""
+    "name": "Toa"
   },
   "OCT": {
-    "name": "Ocute",
-    "desc": ""
+    "name": "Ocute"
   },
   "HIT": {
-    "name": "Atcik-Hata",
-    "desc": ""
+    "name": "Atcik-Hata"
   },
   "ALA": {
-    "name": "Albaamaha",
-    "desc": ""
+    "name": "Albaamaha"
   },
   "KST": {
-    "name": "Koasati",
-    "desc": ""
+    "name": "Koasati"
   },
   "CHC": {
-    "name": "Chahta",
-    "desc": ""
+    "name": "Chahta"
   },
   "CHS": {
-    "name": "Chickasha",
-    "desc": ""
+    "name": "Chickasha"
   },
   "MCG": {
-    "name": "Muscogee",
-    "desc": ""
+    "name": "Muscogee"
   },
   "QGM": {
-    "name": "Quigualtam",
-    "desc": ""
+    "name": "Quigualtam"
   },
   "QUZ": {
-    "name": "Quizquiz",
-    "desc": ""
+    "name": "Quizquiz"
   },
   "NCZ": {
-    "name": "Natchez",
-    "desc": ""
+    "name": "Natchez"
   },
   "GUL": {
-    "name": "Guale",
-    "desc": ""
+    "name": "Guale"
   },
   "APA": {
-    "name": "Apalachee",
-    "desc": ""
+    "name": "Apalachee"
   },
   "KSK": {
-    "name": "Kaskinampo",
-    "desc": ""
+    "name": "Kaskinampo"
   },
   "KAW": {
-    "name": "Kaw",
-    "desc": ""
+    "name": "Kaw"
   },
   "UMO": {
-    "name": "Umoho",
-    "desc": ""
+    "name": "Umoho"
   },
   "WZZ": {
-    "name": "Wazhazhe",
-    "desc": ""
+    "name": "Wazhazhe"
   },
   "PPK": {
-    "name": "Ppanka",
-    "desc": ""
+    "name": "Ppanka"
   },
   "UGX": {
-    "name": "Ugaxpah",
-    "desc": ""
+    "name": "Ugaxpah"
   },
   "GWY": {
-    "name": "Guwayihi",
-    "desc": ""
+    "name": "Guwayihi"
   },
   "GDW": {
-    "name": "Giduwa",
-    "desc": ""
+    "name": "Giduwa"
   },
   "TSO": {
-    "name": "Tsoyaha",
-    "desc": ""
+    "name": "Tsoyaha"
   },
   "CFQ": {
-    "name": "Cofitachequi",
-    "desc": ""
+    "name": "Cofitachequi"
   },
   "JOA": {
-    "name": "Joara",
-    "desc": ""
+    "name": "Joara"
   },
   "TSN": {
-    "name": "Tsenacommacah",
-    "desc": ""
+    "name": "Tsenacommacah"
   },
   "ACL": {
-    "name": "Acolapissa",
-    "desc": ""
+    "name": "Acolapissa"
   },
   "MBL": {
-    "name": "Tohomé",
-    "desc": ""
+    "name": "Tohomé"
   },
   "CTT": {
-    "name": "Chatot",
-    "desc": ""
+    "name": "Chatot"
   },
   "YMS": {
-    "name": "Yamasee",
-    "desc": ""
+    "name": "Yamasee"
   },
   "CSB": {
-    "name": "Cusabo",
-    "desc": ""
+    "name": "Cusabo"
   },
   "CHK": {
-    "name": "Cahokia",
-    "desc": ""
+    "name": "Cahokia"
   },
   "HCK": {
-    "name": "Hoocak",
-    "desc": ""
+    "name": "Hoocak"
   },
   "BXJ": {
-    "name": "Baxoje",
-    "desc": ""
+    "name": "Baxoje"
   },
   "WGH": {
-    "name": "Waghtochtatta",
-    "desc": ""
+    "name": "Waghtochtatta"
   },
   "OFO": {
-    "name": "Ofo",
-    "desc": ""
+    "name": "Ofo"
   },
   "TKS": {
-    "name": "Taneks",
-    "desc": ""
+    "name": "Taneks"
   },
   "MTN": {
-    "name": "Moneton",
-    "desc": ""
+    "name": "Moneton"
   },
   "MNC": {
-    "name": "Monacan",
-    "desc": ""
+    "name": "Monacan"
   },
   "TTL": {
-    "name": "Tutelo",
-    "desc": ""
+    "name": "Tutelo"
   },
   "WCM": {
-    "name": "Waccamaw",
-    "desc": ""
+    "name": "Waccamaw"
   },
   "TMC": {
-    "name": "Timucua",
-    "desc": ""
+    "name": "Timucua"
   },
   "CLS": {
-    "name": "Calusa",
-    "desc": ""
+    "name": "Calusa"
   },
   "AIX": {
-    "name": "Ais",
-    "desc": ""
+    "name": "Ais"
   },
   "TBG": {
-    "name": "Tocobaga",
-    "desc": ""
+    "name": "Tocobaga"
   },
   "NTT": {
-    "name": "Nottoway",
-    "desc": ""
+    "name": "Nottoway"
   },
   "SKR": {
-    "name": "Skarùre",
-    "desc": ""
+    "name": "Skarùre"
   },
   "WRO": {
-    "name": "Wenrohronon",
-    "desc": ""
+    "name": "Wenrohronon"
   },
   "KEN": {
-    "name": "Kentaientonga",
-    "desc": ""
+    "name": "Kentaientonga"
   },
   "ERI": {
-    "name": "Erielhonan",
-    "desc": ""
+    "name": "Erielhonan"
   },
   "HON": {
-    "name": "Honniasont",
-    "desc": ""
+    "name": "Honniasont"
   },
   "ONJ": {
-    "name": "Onojutta",
-    "desc": ""
+    "name": "Onojutta"
   },
   "CTN": {
-    "name": "Carantouan",
-    "desc": ""
+    "name": "Carantouan"
   },
   "AKY": {
-    "name": "Atrakwaye",
-    "desc": ""
+    "name": "Atrakwaye"
   },
   "KKA": {
-    "name": "Kanien'kehaka",
-    "desc": ""
+    "name": "Kanien'kehaka"
   },
   "ONY": {
-    "name": "Onyota'aka",
-    "desc": ""
+    "name": "Onyota'aka"
   },
   "ONO": {
-    "name": "Ononda'gega'",
-    "desc": ""
+    "name": "Ononda'gega'"
   },
   "GYO": {
-    "name": "Gayogohono",
-    "desc": ""
+    "name": "Gayogohono"
   },
   "ONN": {
-    "name": "Onondowa'ga",
-    "desc": ""
+    "name": "Onondowa'ga"
   },
   "PML": {
-    "name": "Pamlico",
-    "desc": ""
+    "name": "Pamlico"
   },
   "DOE": {
-    "name": "Doeg",
-    "desc": ""
+    "name": "Doeg"
   },
   "PSC": {
-    "name": "Piscataway",
-    "desc": ""
+    "name": "Piscataway"
   },
   "NTK": {
-    "name": "Nentego",
-    "desc": ""
+    "name": "Nentego"
   },
   "RPP": {
-    "name": "Rappahannock",
-    "desc": ""
+    "name": "Rappahannock"
   },
   "CAA": {
-    "name": "Croatan",
-    "desc": ""
+    "name": "Croatan"
   },
   "NSM": {
-    "name": "Nansemond",
-    "desc": ""
+    "name": "Nansemond"
   },
   "ACW": {
-    "name": "Accawmacke",
-    "desc": ""
+    "name": "Accawmacke"
   },
   "MMQ": {
-    "name": "Mamaceqtaw",
-    "desc": ""
+    "name": "Mamaceqtaw"
   },
   "OSK": {
-    "name": "Osaakiiwaki",
-    "desc": ""
+    "name": "Osaakiiwaki"
   },
   "MSK": {
-    "name": "Meskawki",
-    "desc": ""
+    "name": "Meskawki"
   },
   "KIW": {
-    "name": "Kiwigapawa",
-    "desc": ""
+    "name": "Kiwigapawa"
   },
   "MCT": {
-    "name": "Mascouten",
-    "desc": ""
+    "name": "Mascouten"
   },
   "CLG": {
-    "name": "Chalahgawtha",
-    "desc": ""
+    "name": "Chalahgawtha"
   },
   "MKC": {
-    "name": "Mekoche",
-    "desc": ""
+    "name": "Mekoche"
   },
   "KPK": {
-    "name": "Kispoko",
-    "desc": ""
+    "name": "Kispoko"
   },
   "PKW": {
-    "name": "Pekowi",
-    "desc": ""
+    "name": "Pekowi"
   },
   "HAT": {
-    "name": "Hathawekela",
-    "desc": ""
+    "name": "Hathawekela"
   },
   "BDK": {
-    "name": "Bodewadomik",
-    "desc": ""
+    "name": "Bodewadomik"
   },
   "TMW": {
-    "name": "Tamarowa",
-    "desc": ""
+    "name": "Tamarowa"
   },
   "KHK": {
-    "name": "Kahokiaki",
-    "desc": ""
+    "name": "Kahokiaki"
   },
   "KKH": {
-    "name": "Kaskankaham",
-    "desc": ""
+    "name": "Kaskankaham"
   },
   "PEO": {
-    "name": "Peewareewa",
-    "desc": ""
+    "name": "Peewareewa"
   },
   "AKG": {
-    "name": "Atchakangouen",
-    "desc": ""
+    "name": "Atchakangouen"
   },
   "PIA": {
-    "name": "Piankeshaw",
-    "desc": ""
+    "name": "Piankeshaw"
   },
   "PEP": {
-    "name": "Pepikokia",
-    "desc": ""
+    "name": "Pepikokia"
   },
   "WEA": {
-    "name": "Waayaahtanwa",
-    "desc": ""
+    "name": "Waayaahtanwa"
   },
   "UNA": {
-    "name": "Wënami",
-    "desc": ""
+    "name": "Wënami"
   },
   "MNS": {
-    "name": "Monsii",
-    "desc": ""
+    "name": "Monsii"
   },
   "UNL": {
-    "name": "W'nalātchtko",
-    "desc": ""
+    "name": "W'nalātchtko"
   },
   "MCN": {
-    "name": "Muhhekunneuw",
-    "desc": ""
+    "name": "Muhhekunneuw"
   },
   "QRP": {
-    "name": "Quiripi",
-    "desc": ""
+    "name": "Quiripi"
   },
   "PCT": {
-    "name": "Pocomtuc",
-    "desc": ""
+    "name": "Pocomtuc"
   },
   "PQT": {
-    "name": "Pequot",
-    "desc": ""
+    "name": "Pequot"
   },
   "NRG": {
-    "name": "Naiganset",
-    "desc": ""
+    "name": "Naiganset"
   },
   "WMG": {
-    "name": "Wopanaak",
-    "desc": ""
+    "name": "Wopanaak"
   },
   "MSC": {
-    "name": "Massachuseuck",
-    "desc": ""
+    "name": "Massachuseuck"
   },
   "PCK": {
-    "name": "Penakuk",
-    "desc": ""
+    "name": "Penakuk"
   },
   "BQA": {
-    "name": "Barqa",
-    "desc": ""
+    "name": "Barqa"
   },
   "BKZ": {
-    "name": "Banu Kanz",
-    "desc": ""
+    "name": "Banu Kanz"
   },
   "FZA": {
-    "name": "Fezzan",
-    "desc": ""
+    "name": "Fezzan"
   },
   "MAM": {
-    "name": "Egypt",
-    "desc": ""
+    "name": "Egypt"
   },
   "SKN": {
-    "name": "Suakin",
-    "desc": ""
+    "name": "Suakin"
   },
   "TRP": {
-    "name": "Tripoli",
-    "desc": ""
+    "name": "Tripoli"
   },
   "BRI": {
-    "name": "Brittany",
-    "desc": ""
+    "name": "Brittany"
   },
   "FRA": {
-    "name": "France",
-    "desc": ""
+    "name": "France"
   },
   "BUR": {
-    "name": "Burgundy",
-    "desc": ""
+    "name": "Burgundy"
   },
   "FCB": {
-    "name": "Franche-Comté",
-    "desc": ""
+    "name": "Franche-Comté"
   },
   "AQN": {
-    "name": "Aquitaine",
-    "desc": ""
+    "name": "Aquitaine"
   },
   "ALE": {
-    "name": "Alençon",
-    "desc": ""
+    "name": "Alençon"
   },
   "AUX": {
-    "name": "Auxerre",
-    "desc": ""
+    "name": "Auxerre"
   },
   "SAN": {
-    "name": "Sancerre",
-    "desc": ""
+    "name": "Sancerre"
   },
   "AMG": {
-    "name": "Armagnac",
-    "desc": ""
+    "name": "Armagnac"
   },
   "AUV": {
-    "name": "Auvergne",
-    "desc": ""
+    "name": "Auvergne"
   },
   "BOU": {
-    "name": "Bourbon",
-    "desc": ""
+    "name": "Bourbon"
   },
   "CHP": {
-    "name": "Champagne",
-    "desc": ""
+    "name": "Champagne"
   },
   "DAU": {
-    "name": "Viennois",
-    "desc": ""
+    "name": "Viennois"
   },
   "EVR": {
-    "name": "Evreux",
-    "desc": ""
+    "name": "Evreux"
   },
   "FOI": {
-    "name": "Foix",
-    "desc": ""
+    "name": "Foix"
   },
   "GUY": {
-    "name": "Gascony",
-    "desc": ""
+    "name": "Gascony"
   },
   "NEV": {
-    "name": "Nevers",
-    "desc": ""
+    "name": "Nevers"
   },
   "NRB": {
-    "name": "Narbonne",
-    "desc": ""
+    "name": "Narbonne"
   },
   "NRM": {
-    "name": "Normandy",
-    "desc": ""
+    "name": "Normandy"
   },
   "JER": {
-    "name": "Jersey",
-    "desc": ""
+    "name": "Jersey"
   },
   "ORL": {
-    "name": "Orleans",
-    "desc": ""
+    "name": "Orleans"
   },
   "PIC": {
-    "name": "Picardy",
-    "desc": ""
+    "name": "Picardy"
   },
   "PRO": {
-    "name": "Provence",
-    "desc": ""
+    "name": "Provence"
   },
   "ORA": {
-    "name": "Orange",
-    "desc": ""
+    "name": "Orange"
   },
   "TOU": {
-    "name": "Toulouse",
-    "desc": ""
+    "name": "Toulouse"
   },
   "BER": {
-    "name": "Berry",
-    "desc": ""
+    "name": "Berry"
   },
   "LOR": {
-    "name": "Lorraine",
-    "desc": ""
+    "name": "Lorraine"
   },
   "BAR": {
-    "name": "Bar",
-    "desc": ""
+    "name": "Bar"
   },
   "DRE": {
-    "name": "Dreux",
-    "desc": ""
+    "name": "Dreux"
   },
   "MRT": {
-    "name": "Mortain",
-    "desc": ""
+    "name": "Mortain"
   },
   "POI": {
-    "name": "Poitou",
-    "desc": ""
+    "name": "Poitou"
   },
   "ANJ": {
-    "name": "Anjou",
-    "desc": ""
+    "name": "Anjou"
   },
   "MIE": {
-    "name": "Maine",
-    "desc": ""
+    "name": "Maine"
   },
   "VLS": {
-    "name": "Valois",
-    "desc": ""
+    "name": "Valois"
   },
   "PRC": {
-    "name": "Perche",
-    "desc": ""
+    "name": "Perche"
   },
   "FRZ": {
-    "name": "Forez",
-    "desc": ""
+    "name": "Forez"
   },
   "BLS": {
-    "name": "Blois",
-    "desc": ""
+    "name": "Blois"
   },
   "VDM": {
-    "name": "Vendôme",
-    "desc": ""
+    "name": "Vendôme"
   },
   "ETA": {
-    "name": "Étampes",
-    "desc": ""
+    "name": "Étampes"
   },
   "AST": {
-    "name": "Astarac",
-    "desc": ""
+    "name": "Astarac"
   },
   "COM": {
-    "name": "Comminges",
-    "desc": ""
+    "name": "Comminges"
   },
   "IJO": {
-    "name": "L'Isle-Jourdain",
-    "desc": ""
+    "name": "L'Isle-Jourdain"
   },
   "VLN": {
-    "name": "Valentinois",
-    "desc": ""
+    "name": "Valentinois"
   },
   "PER": {
-    "name": "Périgord",
-    "desc": ""
+    "name": "Périgord"
   },
   "TON": {
-    "name": "Tonnerre",
-    "desc": ""
+    "name": "Tonnerre"
   },
   "MON": {
-    "name": "Montfort",
-    "desc": ""
+    "name": "Montfort"
   },
   "AUM": {
-    "name": "Aumale",
-    "desc": ""
+    "name": "Aumale"
   },
   "ROU": {
-    "name": "Roucy",
-    "desc": ""
+    "name": "Roucy"
   },
   "BSC": {
-    "name": "Besançon",
-    "desc": ""
+    "name": "Besançon"
   },
   "ALS": {
-    "name": "Strasbourgum",
-    "desc": ""
+    "name": "Strasbourgum"
   },
   "MTB": {
-    "name": "Montbéliard",
-    "desc": ""
+    "name": "Montbéliard"
   },
   "TUL": {
-    "name": "Toul",
-    "desc": ""
+    "name": "Toul"
   },
   "VDU": {
-    "name": "Verdun",
-    "desc": ""
+    "name": "Verdun"
   },
   "MTZ": {
-    "name": "Metz",
-    "desc": ""
+    "name": "Metz"
   },
   "SLM": {
-    "name": "Salm",
-    "desc": ""
+    "name": "Salm"
   },
   "MOU": {
-    "name": "Mouzon",
-    "desc": ""
+    "name": "Mouzon"
   },
   "RET": {
-    "name": "Rethel",
-    "desc": ""
+    "name": "Rethel"
   },
   "CAM": {
-    "name": "Cambrésis",
-    "desc": ""
+    "name": "Cambrésis"
   },
   "BRR": {
-    "name": "Béarn",
-    "desc": ""
+    "name": "Béarn"
   },
   "MDM": {
-    "name": "Marsan",
-    "desc": ""
+    "name": "Marsan"
   },
   "FRT": {
-    "name": "Ferrette",
-    "desc": ""
+    "name": "Ferrette"
   },
   "MRC": {
-    "name": "La Marche",
-    "desc": ""
+    "name": "La Marche"
   },
   "VNT": {
-    "name": "Ventadour",
-    "desc": ""
+    "name": "Ventadour"
   },
   "RCC": {
-    "name": "Rochechouart",
-    "desc": ""
+    "name": "Rochechouart"
   },
   "CLT": {
-    "name": "Carlat",
-    "desc": ""
+    "name": "Carlat"
   },
   "ANG": {
-    "name": "Angoulême",
-    "desc": ""
+    "name": "Angoulême"
   },
   "DAM": {
-    "name": "Damot",
-    "desc": ""
+    "name": "Damot"
   },
   "ENN": {
-    "name": "Ennarea",
-    "desc": ""
+    "name": "Ennarea"
   },
   "DBE": {
-    "name": "Dobe'a",
-    "desc": ""
+    "name": "Dobe'a"
   },
   "END": {
-    "name": "Enderta",
-    "desc": ""
+    "name": "Enderta"
   },
   "ETH": {
-    "name": "Ethiopia",
-    "desc": ""
+    "name": "Ethiopia"
   },
   "GJJ": {
-    "name": "Gojjam",
-    "desc": ""
+    "name": "Gojjam"
   },
   "MED": {
-    "name": "Medri Bahri",
-    "desc": ""
+    "name": "Medri Bahri"
   },
   "BTI": {
-    "name": "Simien",
-    "desc": ""
+    "name": "Simien"
   },
   "ADA": {
-    "name": "Adal",
-    "desc": ""
+    "name": "Adal"
   },
   "AFA": {
-    "name": "Dankali",
-    "desc": ""
+    "name": "Dankali"
   },
   "ABB": {
-    "name": "Arbabni",
-    "desc": ""
+    "name": "Arbabni"
   },
   "AWS": {
-    "name": "Aussa",
-    "desc": ""
+    "name": "Aussa"
   },
   "BLE": {
-    "name": "Bale",
-    "desc": ""
+    "name": "Bale"
   },
   "DHK": {
-    "name": "Dahlak",
-    "desc": ""
+    "name": "Dahlak"
   },
   "DRA": {
-    "name": "Dara",
-    "desc": ""
+    "name": "Dara"
   },
   "DAW": {
-    "name": "Dawaro",
-    "desc": ""
+    "name": "Dawaro"
   },
   "HDY": {
-    "name": "Hadiya",
-    "desc": ""
+    "name": "Hadiya"
   },
   "IFA": {
-    "name": "Ifat",
-    "desc": ""
+    "name": "Ifat"
   },
   "HRL": {
-    "name": "Harla",
-    "desc": ""
+    "name": "Harla"
   },
   "SHK": {
-    "name": "Sharkha",
-    "desc": ""
+    "name": "Sharkha"
   },
   "SOA": {
-    "name": "Shewa",
-    "desc": ""
+    "name": "Shewa"
   },
   "AJU": {
-    "name": "Ajuran",
-    "desc": ""
+    "name": "Ajuran"
   },
   "GLE": {
-    "name": "Geledi",
-    "desc": ""
+    "name": "Geledi"
   },
   "MDI": {
-    "name": "Mogadishu",
-    "desc": ""
+    "name": "Mogadishu"
   },
   "WAR": {
-    "name": "Warsangali",
-    "desc": ""
+    "name": "Warsangali"
   },
   "TDE": {
-    "name": "Tanade",
-    "desc": ""
+    "name": "Tanade"
   },
   "ABW": {
-    "name": "Al-Abwab",
-    "desc": ""
+    "name": "Al-Abwab"
   },
   "ALO": {
-    "name": "Alodia",
-    "desc": ""
+    "name": "Alodia"
   },
   "MAK": {
-    "name": "Makuria",
-    "desc": ""
+    "name": "Makuria"
   },
   "BQL": {
-    "name": "Baqlin",
-    "desc": ""
+    "name": "Baqlin"
   },
   "BZN": {
-    "name": "Bazin",
-    "desc": ""
+    "name": "Bazin"
   },
   "JRN": {
-    "name": "Jarin",
-    "desc": ""
+    "name": "Jarin"
   },
   "NQS": {
-    "name": "Naqis",
-    "desc": ""
+    "name": "Naqis"
   },
   "QTA": {
-    "name": "Qata",
-    "desc": ""
+    "name": "Qata"
   },
   "DAJ": {
-    "name": "Daju",
-    "desc": ""
+    "name": "Daju"
   },
   "ORO": {
-    "name": "Oromo",
-    "desc": ""
+    "name": "Oromo"
   },
   "AFR": {
-    "name": "Afre",
-    "desc": ""
+    "name": "Afre"
   },
   "SDQ": {
-    "name": "Sadaqa",
-    "desc": ""
+    "name": "Sadaqa"
   },
   "FNJ": {
-    "name": "Berta",
-    "desc": ""
+    "name": "Berta"
   },
   "GUM": {
-    "name": "Gumuz",
-    "desc": ""
+    "name": "Gumuz"
   },
   "KUN": {
-    "name": "Kunama",
-    "desc": ""
+    "name": "Kunama"
   },
   "CAT": {
-    "name": "Catalonia",
-    "desc": ""
+    "name": "Catalonia"
   },
   "ANR": {
-    "name": "Andorra",
-    "desc": ""
+    "name": "Andorra"
   },
   "ARA": {
-    "name": "Aragon",
-    "desc": ""
+    "name": "Aragon"
   },
   "VAL": {
-    "name": "Valencia",
-    "desc": ""
+    "name": "Valencia"
   },
   "MLL": {
-    "name": "Mallorca",
-    "desc": ""
+    "name": "Mallorca"
   },
   "CAS": {
-    "name": "Castile",
-    "desc": ""
+    "name": "Castile"
   },
   "POR": {
-    "name": "Portugal",
-    "desc": ""
+    "name": "Portugal"
   },
   "LON": {
-    "name": "León",
-    "desc": ""
+    "name": "León"
   },
   "GLC": {
-    "name": "Galicia",
-    "desc": ""
+    "name": "Galicia"
   },
   "GRA": {
-    "name": "Granada",
-    "desc": ""
+    "name": "Granada"
   },
   "NAV": {
-    "name": "Navarre",
-    "desc": ""
+    "name": "Navarre"
   },
   "DLH": {
-    "name": "Delhi",
-    "desc": ""
+    "name": "Delhi"
   },
   "HSL": {
-    "name": "Hoysala",
-    "desc": ""
+    "name": "Hoysala"
   },
   "SMV": {
-    "name": "Sambuvarayar",
-    "desc": ""
+    "name": "Sambuvarayar"
   },
   "VIJ": {
-    "name": "Vijayanagar",
-    "desc": ""
+    "name": "Vijayanagar"
   },
   "MAB": {
-    "name": "Ma'bar",
-    "desc": ""
+    "name": "Ma'bar"
   },
   "TNK": {
-    "name": "Pandya",
-    "desc": ""
+    "name": "Pandya"
   },
   "RDY": {
-    "name": "Reddi",
-    "desc": ""
+    "name": "Reddi"
   },
   "YDR": {
-    "name": "Yadavaraya",
-    "desc": ""
+    "name": "Yadavaraya"
   },
   "ZMR": {
-    "name": "Kozhikode",
-    "desc": ""
+    "name": "Kozhikode"
   },
   "KLT": {
-    "name": "Kolathunadu",
-    "desc": ""
+    "name": "Kolathunadu"
   },
   "PDU": {
-    "name": "Cochin",
-    "desc": ""
+    "name": "Cochin"
   },
   "VND": {
-    "name": "Venad",
-    "desc": ""
+    "name": "Venad"
   },
   "KTN": {
-    "name": "Kuttanad",
-    "desc": ""
+    "name": "Kuttanad"
   },
   "KDU": {
-    "name": "Padinjattedathu",
-    "desc": ""
+    "name": "Padinjattedathu"
   },
   "KYA": {
-    "name": "Kottayam",
-    "desc": ""
+    "name": "Kottayam"
   },
   "VLD": {
-    "name": "Valluvanad",
-    "desc": ""
+    "name": "Valluvanad"
   },
   "ELA": {
-    "name": "Elayadathu",
-    "desc": ""
+    "name": "Elayadathu"
   },
   "TKU": {
-    "name": "Thekkumkur",
-    "desc": ""
+    "name": "Thekkumkur"
   },
   "VDK": {
-    "name": "Vadakkumkur",
-    "desc": ""
+    "name": "Vadakkumkur"
   },
   "ALU": {
-    "name": "Alupa",
-    "desc": ""
+    "name": "Alupa"
   },
   "STR": {
-    "name": "Santara",
-    "desc": ""
+    "name": "Santara"
   },
   "KPL": {
-    "name": "Koppula",
-    "desc": ""
+    "name": "Koppula"
   },
   "MSN": {
-    "name": "Musuniri",
-    "desc": ""
+    "name": "Musuniri"
   },
   "RCH": {
-    "name": "Recherla",
-    "desc": ""
+    "name": "Recherla"
   },
   "ORI": {
-    "name": "Orissa",
-    "desc": ""
+    "name": "Orissa"
   },
   "KNK": {
-    "name": "Kanker",
-    "desc": ""
+    "name": "Kanker"
   },
   "BST": {
-    "name": "Bastar",
-    "desc": ""
+    "name": "Bastar"
   },
   "JPO": {
-    "name": "Nandapur",
-    "desc": ""
+    "name": "Nandapur"
   },
   "BGL": {
-    "name": "Baglana",
-    "desc": ""
+    "name": "Baglana"
   },
   "CHD": {
-    "name": "Chanda",
-    "desc": ""
+    "name": "Chanda"
   },
   "BGR": {
-    "name": "Bandhugara",
-    "desc": ""
+    "name": "Bandhugara"
   },
   "WRG": {
-    "name": "Wairagarh",
-    "desc": ""
+    "name": "Wairagarh"
   },
   "GOA": {
-    "name": "Goa",
-    "desc": ""
+    "name": "Goa"
   },
   "HNV": {
-    "name": "Honnavara",
-    "desc": ""
+    "name": "Honnavara"
   },
   "DRP": {
-    "name": "Ramnagar",
-    "desc": ""
+    "name": "Ramnagar"
   },
   "JWR": {
-    "name": "Jawhar",
-    "desc": ""
+    "name": "Jawhar"
   },
   "DGR": {
-    "name": "Bagar",
-    "desc": ""
+    "name": "Bagar"
   },
   "MEW": {
-    "name": "Mewar",
-    "desc": ""
+    "name": "Mewar"
   },
   "IDR": {
-    "name": "Idar",
-    "desc": ""
+    "name": "Idar"
   },
   "JLR": {
-    "name": "Jalore",
-    "desc": ""
+    "name": "Jalore"
   },
   "CMN": {
-    "name": "Champaner",
-    "desc": ""
+    "name": "Champaner"
   },
   "RJI": {
-    "name": "Rajpipla",
-    "desc": ""
+    "name": "Rajpipla"
   },
   "KUT": {
-    "name": "Kutch",
-    "desc": ""
+    "name": "Kutch"
   },
   "SMA": {
-    "name": "Samma",
-    "desc": ""
+    "name": "Samma"
   },
   "SND": {
-    "name": "Sindh",
-    "desc": ""
+    "name": "Sindh"
   },
   "RNP": {
-    "name": "Ranpur",
-    "desc": ""
+    "name": "Ranpur"
   },
   "GHL": {
-    "name": "Gohilvad",
-    "desc": ""
+    "name": "Gohilvad"
   },
   "PLT": {
-    "name": "Palitana",
-    "desc": ""
+    "name": "Palitana"
   },
   "JNG": {
-    "name": "Junagarh",
-    "desc": ""
+    "name": "Junagarh"
   },
   "BHD": {
-    "name": "Bhanvad",
-    "desc": ""
+    "name": "Bhanvad"
   },
   "JLW": {
-    "name": "Jhalawad",
-    "desc": ""
+    "name": "Jhalawad"
   },
   "MRW": {
-    "name": "Marwar",
-    "desc": ""
+    "name": "Marwar"
   },
   "HAD": {
-    "name": "Hadoti",
-    "desc": ""
+    "name": "Hadoti"
   },
   "JSL": {
-    "name": "Jaisalmer",
-    "desc": ""
+    "name": "Jaisalmer"
   },
   "PGL": {
-    "name": "Pugal",
-    "desc": ""
+    "name": "Pugal"
   },
   "KLI": {
-    "name": "Karauli",
-    "desc": ""
+    "name": "Karauli"
   },
   "SHR": {
-    "name": "Saharan",
-    "desc": ""
+    "name": "Saharan"
   },
   "DRW": {
-    "name": "Dadrewa",
-    "desc": ""
+    "name": "Dadrewa"
   },
   "BWL": {
-    "name": "Beniwal",
-    "desc": ""
+    "name": "Beniwal"
   },
   "JHI": {
-    "name": "Johiya",
-    "desc": ""
+    "name": "Johiya"
   },
   "GDA": {
-    "name": "Godara",
-    "desc": ""
+    "name": "Godara"
   },
   "PNA": {
-    "name": "Punia",
-    "desc": ""
+    "name": "Punia"
   },
   "BHA": {
-    "name": "Bhatnir",
-    "desc": ""
+    "name": "Bhatnir"
   },
   "DOG": {
-    "name": "Dogra",
-    "desc": ""
+    "name": "Dogra"
   },
   "DHU": {
-    "name": "Dhundhar",
-    "desc": ""
+    "name": "Dhundhar"
   },
   "GWA": {
-    "name": "Gwalior",
-    "desc": ""
+    "name": "Gwalior"
   },
   "JJK": {
-    "name": "Jejakabhukti",
-    "desc": ""
+    "name": "Jejakabhukti"
   },
   "BND": {
-    "name": "Bundelkhand",
-    "desc": ""
+    "name": "Bundelkhand"
   },
   "BGK": {
-    "name": "Bagelkhand",
-    "desc": ""
+    "name": "Bagelkhand"
   },
   "MAU": {
-    "name": "Mau Ganj",
-    "desc": ""
+    "name": "Mau Ganj"
   },
   "KHR": {
-    "name": "Kherla",
-    "desc": ""
+    "name": "Kherla"
   },
   "GHR": {
-    "name": "Garha",
-    "desc": ""
+    "name": "Garha"
   },
   "RTP": {
-    "name": "Ratnapura",
-    "desc": ""
+    "name": "Ratnapura"
   },
   "BAD": {
-    "name": "Baudh",
-    "desc": ""
+    "name": "Baudh"
   },
   "NRS": {
-    "name": "Narsinghpur",
-    "desc": ""
+    "name": "Narsinghpur"
   },
   "KJA": {
-    "name": "Keonjhar",
-    "desc": ""
+    "name": "Keonjhar"
   },
   "PTN": {
-    "name": "Patna",
-    "desc": ""
+    "name": "Patna"
   },
   "PRT": {
-    "name": "Mandore",
-    "desc": ""
+    "name": "Mandore"
   },
   "KLH": {
-    "name": "Kalahandi",
-    "desc": ""
+    "name": "Kalahandi"
   },
   "SRG": {
-    "name": "Sarangarh",
-    "desc": ""
+    "name": "Sarangarh"
   },
   "PLA": {
-    "name": "Pal Lahara",
-    "desc": ""
+    "name": "Pal Lahara"
   },
   "BNA": {
-    "name": "Bonai",
-    "desc": ""
+    "name": "Bonai"
   },
   "MJU": {
-    "name": "Mayurbhanj",
-    "desc": ""
+    "name": "Mayurbhanj"
   },
   "DBD": {
-    "name": "Dambadeniya",
-    "desc": ""
+    "name": "Dambadeniya"
   },
   "JFN": {
-    "name": "Jaffna",
-    "desc": ""
+    "name": "Jaffna"
   },
   "NAG": {
-    "name": "Nagar",
-    "desc": ""
+    "name": "Nagar"
   },
   "SWT": {
-    "name": "Swat",
-    "desc": ""
+    "name": "Swat"
   },
   "HNZ": {
-    "name": "Hunza",
-    "desc": ""
+    "name": "Hunza"
   },
   "CTR": {
-    "name": "Chitral",
-    "desc": ""
+    "name": "Chitral"
   },
   "CRL": {
-    "name": "Urtsun",
-    "desc": ""
+    "name": "Urtsun"
   },
   "GLI": {
-    "name": "Gilgit",
-    "desc": ""
+    "name": "Gilgit"
   },
   "KSH": {
-    "name": "Kashmir",
-    "desc": ""
+    "name": "Kashmir"
   },
   "RJR": {
-    "name": "Rajouri",
-    "desc": ""
+    "name": "Rajouri"
   },
   "PNC": {
-    "name": "Poonch",
-    "desc": ""
+    "name": "Poonch"
   },
   "CBH": {
-    "name": "Bhimber",
-    "desc": ""
+    "name": "Bhimber"
   },
   "CAB": {
-    "name": "Chamba",
-    "desc": ""
+    "name": "Chamba"
   },
   "LHL": {
-    "name": "Lahul",
-    "desc": ""
+    "name": "Lahul"
   },
   "KLU": {
-    "name": "Kullu",
-    "desc": ""
+    "name": "Kullu"
   },
   "KSW": {
-    "name": "Kishtwar",
-    "desc": ""
+    "name": "Kishtwar"
   },
   "SKT": {
-    "name": "Suket",
-    "desc": ""
+    "name": "Suket"
   },
   "BSP": {
-    "name": "Bilaspur",
-    "desc": ""
+    "name": "Bilaspur"
   },
   "KTL": {
-    "name": "Kutlehar",
-    "desc": ""
+    "name": "Kutlehar"
   },
   "KGR": {
-    "name": "Kangra",
-    "desc": ""
+    "name": "Kangra"
   },
   "NRP": {
-    "name": "Nurpur",
-    "desc": ""
+    "name": "Nurpur"
   },
   "MAJ": {
-    "name": "Majapahit",
-    "desc": ""
+    "name": "Majapahit"
   },
   "BLI": {
-    "name": "Bali",
-    "desc": ""
+    "name": "Bali"
   },
   "SUN": {
-    "name": "Sunda",
-    "desc": ""
+    "name": "Sunda"
   },
   "JMB": {
-    "name": "Melayu",
-    "desc": ""
+    "name": "Melayu"
   },
   "ATJ": {
-    "name": "Aceh",
-    "desc": ""
+    "name": "Aceh"
   },
   "PSA": {
-    "name": "Pasai",
-    "desc": ""
+    "name": "Pasai"
   },
   "ARU": {
-    "name": "Aru",
-    "desc": ""
+    "name": "Aru"
   },
   "PNI": {
-    "name": "Pannai",
-    "desc": ""
+    "name": "Pannai"
   },
   "BUS": {
-    "name": "Barus",
-    "desc": ""
+    "name": "Barus"
   },
   "INR": {
-    "name": "Indragiri",
-    "desc": ""
+    "name": "Indragiri"
   },
   "SGT": {
-    "name": "Siguntur",
-    "desc": ""
+    "name": "Siguntur"
   },
   "PLB": {
-    "name": "Palembang",
-    "desc": ""
+    "name": "Palembang"
   },
   "LGE": {
-    "name": "Linge",
-    "desc": ""
+    "name": "Linge"
   },
   "TJP": {
-    "name": "Tanjungpura",
-    "desc": ""
+    "name": "Tanjungpura"
   },
   "NSR": {
-    "name": "Nan Sarunai",
-    "desc": ""
+    "name": "Nan Sarunai"
   },
   "KRP": {
-    "name": "Kuripan",
-    "desc": ""
+    "name": "Kuripan"
   },
   "MRP": {
-    "name": "Kutai Martapura",
-    "desc": ""
+    "name": "Kutai Martapura"
   },
   "KKG": {
-    "name": "Kutai Kartanegara",
-    "desc": ""
+    "name": "Kutai Kartanegara"
   },
   "SMB": {
-    "name": "Sambas",
-    "desc": ""
+    "name": "Sambas"
   },
   "TDG": {
-    "name": "Tidung",
-    "desc": ""
+    "name": "Tidung"
   },
   "BEI": {
-    "name": "Brunei",
-    "desc": ""
+    "name": "Brunei"
   },
   "MNU": {
-    "name": "Melanau",
-    "desc": ""
+    "name": "Melanau"
   },
   "SBG": {
-    "name": "Santubong",
-    "desc": ""
+    "name": "Santubong"
   },
   "SGU": {
-    "name": "Sanggau",
-    "desc": ""
+    "name": "Sanggau"
   },
   "LNK": {
-    "name": "Landak",
-    "desc": ""
+    "name": "Landak"
   },
   "SBU": {
-    "name": "Selimbau",
-    "desc": ""
+    "name": "Selimbau"
   },
   "SLA": {
-    "name": "Silat",
-    "desc": ""
+    "name": "Silat"
   },
   "BLN": {
-    "name": "Bolaang",
-    "desc": ""
+    "name": "Bolaang"
   },
   "GRT": {
-    "name": "Gorontalo",
-    "desc": ""
+    "name": "Gorontalo"
   },
   "PJT": {
-    "name": "Pudjananti",
-    "desc": ""
+    "name": "Pudjananti"
   },
   "BGG": {
-    "name": "Bangga",
-    "desc": ""
+    "name": "Bangga"
   },
   "LUW": {
-    "name": "Luwu",
-    "desc": ""
+    "name": "Luwu"
   },
   "BAI": {
-    "name": "Banggai",
-    "desc": ""
+    "name": "Banggai"
   },
   "BTE": {
-    "name": "Bantaeng",
-    "desc": ""
+    "name": "Bantaeng"
   },
   "GOW": {
-    "name": "Gowa",
-    "desc": ""
+    "name": "Gowa"
   },
   "BOW": {
-    "name": "Bowontehu",
-    "desc": ""
+    "name": "Bowontehu"
   },
   "BTN": {
-    "name": "Buton",
-    "desc": ""
+    "name": "Buton"
   },
   "MKG": {
-    "name": "Mekongga",
-    "desc": ""
+    "name": "Mekongga"
   },
   "KNW": {
-    "name": "Konawe",
-    "desc": ""
+    "name": "Konawe"
   },
   "MRN": {
-    "name": "Moronene",
-    "desc": ""
+    "name": "Moronene"
   },
   "CIN": {
-    "name": "Cina",
-    "desc": ""
+    "name": "Cina"
   },
   "KLS": {
-    "name": "Kalisusu",
-    "desc": ""
+    "name": "Kalisusu"
   },
   "WUN": {
-    "name": "Muna",
-    "desc": ""
+    "name": "Muna"
   },
   "BNE": {
-    "name": "Bone",
-    "desc": ""
+    "name": "Bone"
   },
   "SDR": {
-    "name": "Sidenreng",
-    "desc": ""
+    "name": "Sidenreng"
   },
   "RRU": {
-    "name": "Barru",
-    "desc": ""
+    "name": "Barru"
   },
   "SIG": {
-    "name": "Siang",
-    "desc": ""
+    "name": "Siang"
   },
   "PKR": {
-    "name": "Passokkorang",
-    "desc": ""
+    "name": "Passokkorang"
   },
   "SLP": {
-    "name": "Selaparang",
-    "desc": ""
+    "name": "Selaparang"
   },
   "BIM": {
-    "name": "Bima",
-    "desc": ""
+    "name": "Bima"
   },
   "DOM": {
-    "name": "Dompu",
-    "desc": ""
+    "name": "Dompu"
   },
   "NGL": {
-    "name": "Ngali",
-    "desc": ""
+    "name": "Ngali"
   },
   "TLW": {
-    "name": "Taliwang",
-    "desc": ""
+    "name": "Taliwang"
   },
   "LRT": {
-    "name": "Larantuka",
-    "desc": ""
+    "name": "Larantuka"
   },
   "WHL": {
-    "name": "Wehale",
-    "desc": ""
+    "name": "Wehale"
   },
   "BAC": {
-    "name": "Bacan",
-    "desc": ""
+    "name": "Bacan"
   },
   "TER": {
-    "name": "Ternate",
-    "desc": ""
+    "name": "Ternate"
   },
   "TID": {
-    "name": "Tidore",
-    "desc": ""
+    "name": "Tidore"
   },
   "LOL": {
-    "name": "Loloda",
-    "desc": ""
+    "name": "Loloda"
   },
   "JLO": {
-    "name": "Jailolo",
-    "desc": ""
+    "name": "Jailolo"
   },
   "MOO": {
-    "name": "Moro",
-    "desc": ""
+    "name": "Moro"
   },
   "SUL": {
-    "name": "Lupah Sug",
-    "desc": ""
+    "name": "Lupah Sug"
   },
   "MYI": {
-    "name": "Ma-i",
-    "desc": ""
+    "name": "Ma-i"
   },
   "CEB": {
-    "name": "Cebu",
-    "desc": ""
+    "name": "Cebu"
   },
   "TDO": {
-    "name": "Tondo",
-    "desc": ""
+    "name": "Tondo"
   },
   "MNA": {
-    "name": "Maynila",
-    "desc": ""
+    "name": "Maynila"
   },
   "MDY": {
-    "name": "Madya-as",
-    "desc": ""
+    "name": "Madya-as"
   },
   "PGS": {
-    "name": "Caboloan",
-    "desc": ""
+    "name": "Caboloan"
   },
   "BTU": {
-    "name": "Butuan",
-    "desc": ""
+    "name": "Butuan"
   },
   "MGD": {
-    "name": "Wenduling",
-    "desc": ""
+    "name": "Wenduling"
   },
   "KIM": {
-    "name": "Kiliman",
-    "desc": ""
+    "name": "Kiliman"
   },
   "LNO": {
-    "name": "Lanao",
-    "desc": ""
+    "name": "Lanao"
   },
   "IBL": {
-    "name": "Ibalon",
-    "desc": ""
+    "name": "Ibalon"
   },
   "PLL": {
-    "name": "Pulilu",
-    "desc": ""
+    "name": "Pulilu"
   },
   "TYY": {
-    "name": "Taytay",
-    "desc": ""
+    "name": "Taytay"
   },
   "KML": {
-    "name": "Kumalarang",
-    "desc": ""
+    "name": "Kumalarang"
   },
   "CNT": {
-    "name": "Cainta",
-    "desc": ""
+    "name": "Cainta"
   },
   "KAM": {
-    "name": "Kaimana",
-    "desc": ""
+    "name": "Kaimana"
   },
   "BOL": {
-    "name": "Dapitan",
-    "desc": ""
+    "name": "Dapitan"
   },
   "SML": {
-    "name": "Sanmalan",
-    "desc": ""
+    "name": "Sanmalan"
   },
   "ILC": {
-    "name": "Ilocos",
-    "desc": ""
+    "name": "Ilocos"
   },
   "WGE": {
-    "name": "Waigeo",
-    "desc": ""
+    "name": "Waigeo"
   },
   "MAD": {
-    "name": "Maden",
-    "desc": ""
+    "name": "Maden"
   },
   "MSL": {
-    "name": "Misool",
-    "desc": ""
+    "name": "Misool"
   },
   "ABA": {
-    "name": "Alba",
-    "desc": ""
+    "name": "Alba"
   },
   "ANC": {
-    "name": "Ancona",
-    "desc": ""
+    "name": "Ancona"
   },
   "AQU": {
-    "name": "Aquileia",
-    "desc": ""
+    "name": "Aquileia"
   },
   "ARB": {
-    "name": "Arborea",
-    "desc": ""
+    "name": "Arborea"
   },
   "ARZ": {
-    "name": "Arezzo",
-    "desc": ""
+    "name": "Arezzo"
   },
   "ASC": {
-    "name": "Ascoli",
-    "desc": ""
+    "name": "Ascoli"
   },
   "ASD": {
-    "name": "Alessandria",
-    "desc": ""
+    "name": "Alessandria"
   },
   "ATI": {
-    "name": "Asti",
-    "desc": ""
+    "name": "Asti"
   },
   "BLG": {
-    "name": "Bologna",
-    "desc": ""
+    "name": "Bologna"
   },
   "BRS": {
-    "name": "Brescia",
-    "desc": ""
+    "name": "Brescia"
   },
   "CAG": {
-    "name": "Cagliari",
-    "desc": ""
+    "name": "Cagliari"
   },
   "CDC": {
-    "name": "Città di Castello",
-    "desc": ""
+    "name": "Città di Castello"
   },
   "CEN": {
-    "name": "Ceneda",
-    "desc": ""
+    "name": "Ceneda"
   },
   "CES": {
-    "name": "Cesena",
-    "desc": ""
+    "name": "Cesena"
   },
   "CEV": {
-    "name": "Ceva",
-    "desc": ""
+    "name": "Ceva"
   },
   "CHX": {
-    "name": "Chieri",
-    "desc": ""
+    "name": "Chieri"
   },
   "CMR": {
-    "name": "Camerino",
-    "desc": ""
+    "name": "Camerino"
   },
   "CNV": {
-    "name": "Canavese",
-    "desc": ""
+    "name": "Canavese"
   },
   "COR": {
-    "name": "Corsica",
-    "desc": ""
+    "name": "Corsica"
   },
   "COT": {
-    "name": "Cortona",
-    "desc": ""
+    "name": "Cortona"
   },
   "CRM": {
-    "name": "Cremona",
-    "desc": ""
+    "name": "Cremona"
   },
   "CRR": {
-    "name": "Finale",
-    "desc": ""
+    "name": "Finale"
   },
   "FAB": {
-    "name": "Fabriano",
-    "desc": ""
+    "name": "Fabriano"
   },
   "FAE": {
-    "name": "Faenza",
-    "desc": ""
+    "name": "Faenza"
   },
   "FEL": {
-    "name": "Feltre",
-    "desc": ""
+    "name": "Feltre"
   },
   "FER": {
-    "name": "Ferrara",
-    "desc": ""
+    "name": "Ferrara"
   },
   "FLO": {
-    "name": "Florence",
-    "desc": ""
+    "name": "Florence"
   },
   "FRM": {
-    "name": "Fermo",
-    "desc": ""
+    "name": "Fermo"
   },
   "GAL": {
-    "name": "Gallura",
-    "desc": ""
+    "name": "Gallura"
   },
   "GEN": {
-    "name": "Genoa",
-    "desc": ""
+    "name": "Genoa"
   },
   "GUB": {
-    "name": "Gubbio",
-    "desc": ""
+    "name": "Gubbio"
   },
   "IMO": {
-    "name": "Imola",
-    "desc": ""
+    "name": "Imola"
   },
   "LUC": {
-    "name": "Lucca",
-    "desc": ""
+    "name": "Lucca"
   },
   "MAN": {
-    "name": "Mantua",
-    "desc": ""
+    "name": "Mantua"
   },
   "MFA": {
-    "name": "Montferrat",
-    "desc": ""
+    "name": "Montferrat"
   },
   "MLO": {
-    "name": "Milan",
-    "desc": ""
+    "name": "Milan"
   },
   "MND": {
-    "name": "Mondovi",
-    "desc": ""
+    "name": "Mondovi"
   },
   "MOD": {
-    "name": "Modena",
-    "desc": ""
+    "name": "Modena"
   },
   "MSP": {
-    "name": "Malaspina",
-    "desc": ""
+    "name": "Malaspina"
   },
   "MTA": {
-    "name": "Macerata",
-    "desc": ""
+    "name": "Macerata"
   },
   "NAP": {
-    "name": "Naples",
-    "desc": ""
+    "name": "Naples"
   },
   "PAD": {
-    "name": "Padua",
-    "desc": ""
+    "name": "Padua"
   },
   "PAP": {
-    "name": "Rome",
-    "desc": ""
+    "name": "Rome"
   },
   "PAR": {
-    "name": "Parma",
-    "desc": ""
+    "name": "Parma"
   },
   "PAV": {
-    "name": "Pavia",
-    "desc": ""
+    "name": "Pavia"
   },
   "PEA": {
-    "name": "Perugia",
-    "desc": ""
+    "name": "Perugia"
   },
   "PES": {
-    "name": "Pesaro",
-    "desc": ""
+    "name": "Pesaro"
   },
   "PIE": {
-    "name": "Piedmont",
-    "desc": ""
+    "name": "Piedmont"
   },
   "PIO": {
-    "name": "Piombino",
-    "desc": ""
+    "name": "Piombino"
   },
   "PIS": {
-    "name": "Pisa",
-    "desc": ""
+    "name": "Pisa"
   },
   "PRA": {
-    "name": "Prato",
-    "desc": ""
+    "name": "Prato"
   },
   "RAV": {
-    "name": "Ravenna",
-    "desc": ""
+    "name": "Ravenna"
   },
   "RGG": {
-    "name": "Reggio",
-    "desc": ""
+    "name": "Reggio"
   },
   "RIM": {
-    "name": "Rimini",
-    "desc": ""
+    "name": "Rimini"
   },
   "SAL": {
-    "name": "Saluzzo",
-    "desc": ""
+    "name": "Saluzzo"
   },
   "SAV": {
-    "name": "Savoy",
-    "desc": ""
+    "name": "Savoy"
   },
   "SCL": {
-    "name": "Saint-Claude",
-    "desc": ""
+    "name": "Saint-Claude"
   },
   "GNV": {
-    "name": "Genève",
-    "desc": ""
+    "name": "Genève"
   },
   "SIC": {
-    "name": "Sicily",
-    "desc": ""
+    "name": "Sicily"
   },
   "SIE": {
-    "name": "Siena",
-    "desc": ""
+    "name": "Siena"
   },
   "SPL": {
-    "name": "Spoleto",
-    "desc": ""
+    "name": "Spoleto"
   },
   "PTG": {
-    "name": "Pitigliano",
-    "desc": ""
+    "name": "Pitigliano"
   },
   "SSP": {
-    "name": "Sansepolcro",
-    "desc": ""
+    "name": "Sansepolcro"
   },
   "TNT": {
-    "name": "Trent",
-    "desc": ""
+    "name": "Trent"
   },
   "TOR": {
-    "name": "Torres",
-    "desc": ""
+    "name": "Torres"
   },
   "TRV": {
-    "name": "Treviso",
-    "desc": ""
+    "name": "Treviso"
   },
   "TTE": {
-    "name": "Trieste",
-    "desc": ""
+    "name": "Trieste"
   },
   "TTN": {
-    "name": "Tortona",
-    "desc": ""
+    "name": "Tortona"
   },
   "URB": {
-    "name": "Urbino",
-    "desc": ""
+    "name": "Urbino"
   },
   "VEN": {
-    "name": "Venice",
-    "desc": ""
+    "name": "Venice"
   },
   "VER": {
-    "name": "Verona",
-    "desc": ""
+    "name": "Verona"
   },
   "VIN": {
-    "name": "Vicenza",
-    "desc": ""
+    "name": "Vicenza"
   },
   "VLT": {
-    "name": "Volterra",
-    "desc": ""
+    "name": "Volterra"
   },
   "PRZ": {
-    "name": "Peruzzi",
-    "desc": ""
+    "name": "Peruzzi"
   },
   "BRD": {
-    "name": "Bardi",
-    "desc": ""
+    "name": "Bardi"
   },
   "ACC": {
-    "name": "Acciaioli",
-    "desc": ""
+    "name": "Acciaioli"
   },
   "PST": {
-    "name": "Pistoia",
-    "desc": ""
+    "name": "Pistoia"
   },
   "VUN": {
-    "name": "Vungu",
-    "desc": ""
+    "name": "Vungu"
   },
   "NSU": {
-    "name": "Nsudi",
-    "desc": ""
+    "name": "Nsudi"
   },
   "MPE": {
-    "name": "Maguela",
-    "desc": ""
+    "name": "Maguela"
   },
   "VNA": {
-    "name": "Vunda",
-    "desc": ""
+    "name": "Vunda"
   },
   "MBT": {
-    "name": "Mbata",
-    "desc": ""
+    "name": "Mbata"
   },
   "SOY": {
-    "name": "Soyo",
-    "desc": ""
+    "name": "Soyo"
   },
   "MOM": {
-    "name": "Momboares",
-    "desc": ""
+    "name": "Momboares"
   },
   "CHO": {
-    "name": "Chokwe",
-    "desc": ""
+    "name": "Chokwe"
   },
   "OVI": {
-    "name": "Ovimbundu",
-    "desc": ""
+    "name": "Ovimbundu"
   },
   "LND": {
-    "name": "Lunda",
-    "desc": ""
+    "name": "Lunda"
   },
   "LBA": {
-    "name": "Luba",
-    "desc": ""
+    "name": "Luba"
   },
   "KUB": {
-    "name": "Kuba",
-    "desc": ""
+    "name": "Kuba"
   },
   "LEG": {
-    "name": "Lega",
-    "desc": ""
+    "name": "Lega"
   },
   "SIK": {
-    "name": "Shilluk",
-    "desc": ""
+    "name": "Shilluk"
   },
   "HOL": {
-    "name": "Holland",
-    "desc": ""
+    "name": "Holland"
   },
   "ZEE": {
-    "name": "Zeeland",
-    "desc": ""
+    "name": "Zeeland"
   },
   "BRB": {
-    "name": "Brabant",
-    "desc": ""
+    "name": "Brabant"
   },
   "FLA": {
-    "name": "Flanders",
-    "desc": ""
+    "name": "Flanders"
   },
   "LUX": {
-    "name": "Luxembourg",
-    "desc": ""
+    "name": "Luxembourg"
   },
   "LIE": {
-    "name": "$liege$",
-    "desc": ""
+    "name": "Liège"
   },
   "CHN": {
-    "name": "Chiny",
-    "desc": ""
+    "name": "Chiny"
   },
   "LIM": {
-    "name": "Limbourg",
-    "desc": ""
+    "name": "Limbourg"
   },
   "NAM": {
-    "name": "Namur",
-    "desc": ""
+    "name": "Namur"
   },
   "LOO": {
-    "name": "Loon",
-    "desc": ""
+    "name": "Loon"
   },
   "VBG": {
-    "name": "Valkenburg",
-    "desc": ""
+    "name": "Valkenburg"
   },
   "HRN": {
-    "name": "Horne",
-    "desc": ""
+    "name": "Horne"
   },
   "CJK": {
-    "name": "Cuijk",
-    "desc": ""
+    "name": "Cuijk"
   },
   "UTR": {
-    "name": "Utrecht",
-    "desc": ""
+    "name": "Utrecht"
   },
   "FRI": {
-    "name": "Frisia",
-    "desc": ""
+    "name": "Frisia"
   },
   "STV": {
-    "name": "Stavelot-Malmedy",
-    "desc": ""
+    "name": "Stavelot-Malmedy"
   },
   "HAI": {
-    "name": "Hainaut",
-    "desc": ""
+    "name": "Hainaut"
   },
   "ARS": {
-    "name": "Artois",
-    "desc": ""
+    "name": "Artois"
   },
   "STP": {
-    "name": "Saint-Pol",
-    "desc": ""
+    "name": "Saint-Pol"
   },
   "BGN": {
-    "name": "Boulogne",
-    "desc": ""
+    "name": "Boulogne"
   },
   "BNT": {
-    "name": "Bentheim",
-    "desc": ""
+    "name": "Bentheim"
   },
   "BLL": {
-    "name": "Bouillon",
-    "desc": ""
+    "name": "Bouillon"
   },
   "HBG": {
-    "name": "Heinsberg",
-    "desc": ""
+    "name": "Heinsberg"
   },
   "MOR": {
-    "name": "Morocco",
-    "desc": ""
+    "name": "Morocco"
   },
   "FEZ": {
-    "name": "Fez",
-    "desc": ""
+    "name": "Fez"
   },
   "CNR": {
-    "name": "Guanche",
-    "desc": ""
+    "name": "Guanche"
   },
   "MRK": {
-    "name": "Marrakesh",
-    "desc": ""
+    "name": "Marrakesh"
   },
   "TET": {
-    "name": "Tétouan",
-    "desc": ""
+    "name": "Tétouan"
   },
   "SLE": {
-    "name": "Salé",
-    "desc": ""
+    "name": "Salé"
   },
   "TFL": {
-    "name": "Tafilalt",
-    "desc": ""
+    "name": "Tafilalt"
   },
   "SOS": {
-    "name": "Sus",
-    "desc": ""
+    "name": "Sus"
   },
   "TLE": {
-    "name": "Tlemcen",
-    "desc": ""
+    "name": "Tlemcen"
   },
   "ALG": {
-    "name": "Algiers",
-    "desc": ""
+    "name": "Algiers"
   },
   "TGT": {
-    "name": "Touggourt",
-    "desc": ""
+    "name": "Touggourt"
   },
   "KUK": {
-    "name": "Kuku",
-    "desc": ""
+    "name": "Kuku"
   },
   "AIT": {
-    "name": "Ait Abbas",
-    "desc": ""
+    "name": "Ait Abbas"
   },
   "MZB": {
-    "name": "Mzab",
-    "desc": ""
+    "name": "Mzab"
   },
   "TUN": {
-    "name": "Tunis",
-    "desc": ""
+    "name": "Tunis"
   },
   "DJE": {
-    "name": "Djerid",
-    "desc": ""
+    "name": "Djerid"
   },
   "GFS": {
-    "name": "Gafsa",
-    "desc": ""
+    "name": "Gafsa"
   },
   "GBS": {
-    "name": "Gabès",
-    "desc": ""
+    "name": "Gabès"
   },
   "BTL": {
-    "name": "Tellīs",
-    "desc": ""
+    "name": "Tellīs"
   },
   "ZAB": {
-    "name": "Zab",
-    "desc": ""
+    "name": "Zab"
   },
   "OGL": {
-    "name": "Ouargla",
-    "desc": ""
+    "name": "Ouargla"
   },
   "TAT": {
-    "name": "Touat",
-    "desc": ""
+    "name": "Touat"
   },
   "TAR": {
-    "name": "Purépecha",
-    "desc": ""
+    "name": "Purépecha"
   },
   "CRK": {
-    "name": "Churumekua",
-    "desc": ""
+    "name": "Churumekua"
   },
   "CTE": {
-    "name": "Cuitzeo",
-    "desc": ""
+    "name": "Cuitzeo"
   },
   "TUZ": {
-    "name": "Tozantlan",
-    "desc": ""
+    "name": "Tozantlan"
   },
   "TZI": {
-    "name": "Tzitacuaro",
-    "desc": ""
+    "name": "Tzitacuaro"
   },
   "TAX": {
-    "name": "Taximaroa",
-    "desc": ""
+    "name": "Taximaroa"
   },
   "TNC": {
-    "name": "Tenōchtitlan",
-    "desc": ""
+    "name": "Tenōchtitlan"
   },
   "TTZ": {
-    "name": "Acolhuacan",
-    "desc": ""
+    "name": "Acolhuacan"
   },
   "CUL": {
-    "name": "Culhuacan",
-    "desc": ""
+    "name": "Culhuacan"
   },
   "TEP": {
-    "name": "Tepanecapan",
-    "desc": ""
+    "name": "Tepanecapan"
   },
   "TCP": {
-    "name": "Tlacōpan",
-    "desc": ""
+    "name": "Tlacōpan"
   },
   "OTO": {
-    "name": "Xaltocan",
-    "desc": ""
+    "name": "Xaltocan"
   },
   "AXO": {
-    "name": "Axocopan",
-    "desc": ""
+    "name": "Axocopan"
   },
   "MET": {
-    "name": "Metztitlan",
-    "desc": ""
+    "name": "Metztitlan"
   },
   "HYC": {
-    "name": "Hueyacocotla",
-    "desc": ""
+    "name": "Hueyacocotla"
   },
   "TUT": {
-    "name": "Tototepec",
-    "desc": ""
+    "name": "Tototepec"
   },
   "XIL": {
-    "name": "Xilotepec",
-    "desc": ""
+    "name": "Xilotepec"
   },
   "ZIN": {
-    "name": "Zinapecuaro",
-    "desc": ""
+    "name": "Zinapecuaro"
   },
   "MAT": {
-    "name": "Tollohcan",
-    "desc": ""
+    "name": "Tollohcan"
   },
   "MLN": {
-    "name": "Malinalco",
-    "desc": ""
+    "name": "Malinalco"
   },
   "TLA": {
-    "name": "Tixtla",
-    "desc": ""
+    "name": "Tixtla"
   },
   "YPZ": {
-    "name": "Yopitzinco",
-    "desc": ""
+    "name": "Yopitzinco"
   },
   "CLP": {
-    "name": "Chilapa",
-    "desc": ""
+    "name": "Chilapa"
   },
   "OAP": {
-    "name": "Oapan",
-    "desc": ""
+    "name": "Oapan"
   },
   "TLX": {
-    "name": "Tlaxcallan",
-    "desc": ""
+    "name": "Tlaxcallan"
   },
   "ZAP": {
-    "name": "Zaachila",
-    "desc": ""
+    "name": "Zaachila"
   },
   "TPL": {
-    "name": "Teposcocula",
-    "desc": ""
+    "name": "Teposcocula"
   },
   "IXL": {
-    "name": "Ixtlan",
-    "desc": ""
+    "name": "Ixtlan"
   },
   "YDZ": {
-    "name": "Yodzocahi",
-    "desc": ""
+    "name": "Yodzocahi"
   },
   "YAU": {
-    "name": "Yautepec",
-    "desc": ""
+    "name": "Yautepec"
   },
   "THT": {
-    "name": "Tehuantepec",
-    "desc": ""
+    "name": "Tehuantepec"
   },
   "MIX": {
-    "name": "Yucu Dzaa",
-    "desc": ""
+    "name": "Yucu Dzaa"
   },
   "QIG": {
-    "name": "Quiegoqui",
-    "desc": ""
+    "name": "Quiegoqui"
   },
   "TZL": {
-    "name": "Teozacoalco",
-    "desc": ""
+    "name": "Teozacoalco"
   },
   "JUX": {
-    "name": "Yodzo Cuiya",
-    "desc": ""
+    "name": "Yodzo Cuiya"
   },
   "TCQ": {
-    "name": "Ndisi Nuu",
-    "desc": ""
+    "name": "Ndisi Nuu"
   },
   "YCH": {
-    "name": "Yucu Satuta",
-    "desc": ""
+    "name": "Yucu Satuta"
   },
   "COI": {
-    "name": "Yodzo Coo",
-    "desc": ""
+    "name": "Yodzo Coo"
   },
   "CCN": {
-    "name": "Cuicatlan",
-    "desc": ""
+    "name": "Cuicatlan"
   },
   "NND": {
-    "name": "Ñuu Ndiyi",
-    "desc": ""
+    "name": "Ñuu Ndiyi"
   },
   "MHT": {
-    "name": "Miahuatlan",
-    "desc": ""
+    "name": "Miahuatlan"
   },
   "TEO": {
-    "name": "Teotitlan",
-    "desc": ""
+    "name": "Teotitlan"
   },
   "CLM": {
-    "name": "Coliman",
-    "desc": ""
+    "name": "Coliman"
   },
   "TOT": {
-    "name": "Cempohuallan",
-    "desc": ""
+    "name": "Cempohuallan"
   },
   "MZT": {
-    "name": "Mizantla",
-    "desc": ""
+    "name": "Mizantla"
   },
   "PPT": {
-    "name": "Papantlan",
-    "desc": ""
+    "name": "Papantlan"
   },
   "QHZ": {
-    "name": "Quiahuiztlan",
-    "desc": ""
+    "name": "Quiahuiztlan"
   },
   "HST": {
-    "name": "Teayotlan",
-    "desc": ""
+    "name": "Teayotlan"
   },
   "MCC": {
-    "name": "Michuachapanco",
-    "desc": ""
+    "name": "Michuachapanco"
   },
   "TTC": {
-    "name": "Tamtoc",
-    "desc": ""
+    "name": "Tamtoc"
   },
   "TXP": {
-    "name": "Tuxpan",
-    "desc": ""
+    "name": "Tuxpan"
   },
   "OZL": {
-    "name": "Ozuluama",
-    "desc": ""
+    "name": "Ozuluama"
   },
   "OXT": {
-    "name": "Oxtlipan",
-    "desc": ""
+    "name": "Oxtlipan"
   },
   "TZH": {
-    "name": "Tziuhcoac",
-    "desc": ""
+    "name": "Tziuhcoac"
   },
   "TZP": {
-    "name": "Tetzapotitlan",
-    "desc": ""
+    "name": "Tetzapotitlan"
   },
   "XAL": {
-    "name": "Xalisco",
-    "desc": ""
+    "name": "Xalisco"
   },
   "TAA": {
-    "name": "Tlalpan",
-    "desc": ""
+    "name": "Tlalpan"
   },
   "TZZ": {
-    "name": "Tzapotzingo",
-    "desc": ""
+    "name": "Tzapotzingo"
   },
   "SNT": {
-    "name": "Sentispac",
-    "desc": ""
+    "name": "Sentispac"
   },
   "PAM": {
-    "name": "Xi'oi",
-    "desc": ""
+    "name": "Xi'oi"
   },
   "TNL": {
-    "name": "Tonallan",
-    "desc": ""
+    "name": "Tonallan"
   },
   "MXT": {
-    "name": "Mexticacan",
-    "desc": ""
+    "name": "Mexticacan"
   },
   "YAH": {
-    "name": "Yahualican",
-    "desc": ""
+    "name": "Yahualican"
   },
   "TPN": {
-    "name": "Tecpatitlan",
-    "desc": ""
+    "name": "Tecpatitlan"
   },
   "MIT": {
-    "name": "Mitic",
-    "desc": ""
+    "name": "Mitic"
   },
   "XLT": {
-    "name": "Xalostotitlan",
-    "desc": ""
+    "name": "Xalostotitlan"
   },
   "CON": {
-    "name": "Coinan",
-    "desc": ""
+    "name": "Coinan"
   },
   "ACA": {
-    "name": "Acatic",
-    "desc": ""
+    "name": "Acatic"
   },
   "TPC": {
-    "name": "Tepecan",
-    "desc": ""
+    "name": "Tepecan"
   },
   "TEL": {
-    "name": "Caxcan",
-    "desc": ""
+    "name": "Caxcan"
   },
   "XOC": {
-    "name": "Xochipillan",
-    "desc": ""
+    "name": "Xochipillan"
   },
   "ZAC": {
-    "name": "Zacatecah",
-    "desc": ""
+    "name": "Zacatecah"
   },
   "ZAI": {
-    "name": "Zaín",
-    "desc": ""
+    "name": "Zaín"
   },
   "GAM": {
-    "name": "Guamar",
-    "desc": ""
+    "name": "Guamar"
   },
   "SAU": {
-    "name": "Sauzas",
-    "desc": ""
+    "name": "Sauzas"
   },
   "GUX": {
-    "name": "Guaxaban",
-    "desc": ""
+    "name": "Guaxaban"
   },
   "IZT": {
-    "name": "Iztachichimecah",
-    "desc": ""
+    "name": "Iztachichimecah"
   },
   "ATO": {
-    "name": "Atocpan",
-    "desc": ""
+    "name": "Atocpan"
   },
   "TZC": {
-    "name": "Tollantzinco",
-    "desc": ""
+    "name": "Tollantzinco"
   },
   "CLC": {
-    "name": "Chalco",
-    "desc": ""
+    "name": "Chalco"
   },
   "HUX": {
-    "name": "Huaxtepec",
-    "desc": ""
+    "name": "Huaxtepec"
   },
   "CUU": {
-    "name": "Cuauhnahuac",
-    "desc": ""
+    "name": "Cuauhnahuac"
   },
   "TCH": {
-    "name": "Tlachco",
-    "desc": ""
+    "name": "Tlachco"
   },
   "OZT": {
-    "name": "Oztoman",
-    "desc": ""
+    "name": "Oztoman"
   },
   "TMS": {
-    "name": "Temascaltepec",
-    "desc": ""
+    "name": "Temascaltepec"
   },
   "TCC": {
-    "name": "Tepecoacuilco",
-    "desc": ""
+    "name": "Tepecoacuilco"
   },
   "CTL": {
-    "name": "Chiyautla",
-    "desc": ""
+    "name": "Chiyautla"
   },
   "TLL": {
-    "name": "Tetellan",
-    "desc": ""
+    "name": "Tetellan"
   },
   "ZOM": {
-    "name": "Tzompanco",
-    "desc": ""
+    "name": "Tzompanco"
   },
   "TLZ": {
-    "name": "Tlalcozauhtitlan",
-    "desc": ""
+    "name": "Tlalcozauhtitlan"
   },
   "UAU": {
-    "name": "Cuauhteopan",
-    "desc": ""
+    "name": "Cuauhteopan"
   },
   "YOH": {
-    "name": "Yohualtepec",
-    "desc": ""
+    "name": "Yohualtepec"
   },
   "TPT": {
-    "name": "Tecpantepec",
-    "desc": ""
+    "name": "Tecpantepec"
   },
   "CIH": {
-    "name": "Cihuatlan",
-    "desc": ""
+    "name": "Cihuatlan"
   },
   "ZCT": {
-    "name": "Zacatollan",
-    "desc": ""
+    "name": "Zacatollan"
   },
   "AJC": {
-    "name": "Axochitlan",
-    "desc": ""
+    "name": "Axochitlan"
   },
   "TLP": {
-    "name": "Tlapan",
-    "desc": ""
+    "name": "Tlapan"
   },
   "AYO": {
-    "name": "Ayotlan",
-    "desc": ""
+    "name": "Ayotlan"
   },
   "OMT": {
-    "name": "Ometepec",
-    "desc": ""
+    "name": "Ometepec"
   },
   "CTC": {
-    "name": "Coatlicamac",
-    "desc": ""
+    "name": "Coatlicamac"
   },
   "CTZ": {
-    "name": "Coatzacualco",
-    "desc": ""
+    "name": "Coatzacualco"
   },
   "TPY": {
-    "name": "Tepeyacac",
-    "desc": ""
+    "name": "Tepeyacac"
   },
   "CTX": {
-    "name": "Cuetlaxtlan",
-    "desc": ""
+    "name": "Cuetlaxtlan"
   },
   "CLL": {
-    "name": "Cholollan",
-    "desc": ""
+    "name": "Cholollan"
   },
   "HJZ": {
-    "name": "Huexotzinco",
-    "desc": ""
+    "name": "Huexotzinco"
   },
   "XCH": {
-    "name": "Xochimilco",
-    "desc": ""
+    "name": "Xochimilco"
   },
   "IXT": {
-    "name": "Ixtacamaxtitlan",
-    "desc": ""
+    "name": "Ixtacamaxtitlan"
   },
   "TEE": {
-    "name": "Tetela",
-    "desc": ""
+    "name": "Tetela"
   },
   "ZAT": {
-    "name": "Zacatlan",
-    "desc": ""
+    "name": "Zacatlan"
   },
   "TLQ": {
-    "name": "Tlatlauquitepec",
-    "desc": ""
+    "name": "Tlatlauquitepec"
   },
   "TCY": {
-    "name": "Tlapacoyan",
-    "desc": ""
+    "name": "Tlapacoyan"
   },
   "AHU": {
-    "name": "Ahuacatlan",
-    "desc": ""
+    "name": "Ahuacatlan"
   },
   "GCH": {
-    "name": "Cuauhchinanco",
-    "desc": ""
+    "name": "Cuauhchinanco"
   },
   "ETZ": {
-    "name": "Etzatlan",
-    "desc": ""
+    "name": "Etzatlan"
   },
   "XCT": {
-    "name": "Xochitepec",
-    "desc": ""
+    "name": "Xochitepec"
   },
   "AME": {
-    "name": "Amecan",
-    "desc": ""
+    "name": "Amecan"
   },
   "TNX": {
-    "name": "Tenamaztlan",
-    "desc": ""
+    "name": "Tenamaztlan"
   },
   "AML": {
-    "name": "Amollan",
-    "desc": ""
+    "name": "Amollan"
   },
   "CZL": {
-    "name": "Cozalapan",
-    "desc": ""
+    "name": "Cozalapan"
   },
   "TMT": {
-    "name": "Tomatlan",
-    "desc": ""
+    "name": "Tomatlan"
   },
   "MHC": {
-    "name": "Melahuacan",
-    "desc": ""
+    "name": "Melahuacan"
   },
   "XIH": {
-    "name": "Xiuhtlan",
-    "desc": ""
+    "name": "Xiuhtlan"
   },
   "ATL": {
-    "name": "Autlan",
-    "desc": ""
+    "name": "Autlan"
   },
   "CCL": {
-    "name": "Cocollan",
-    "desc": ""
+    "name": "Cocollan"
   },
   "HTZ": {
-    "name": "Huitzquilic",
-    "desc": ""
+    "name": "Huitzquilic"
   },
   "AZL": {
-    "name": "Aztatlan",
-    "desc": ""
+    "name": "Aztatlan"
   },
   "TZM": {
-    "name": "Tamazollan",
-    "desc": ""
+    "name": "Tamazollan"
   },
   "TLY": {
-    "name": "Tlapacoya",
-    "desc": ""
+    "name": "Tlapacoya"
   },
   "CAU": {
-    "name": "Cuauhtlan",
-    "desc": ""
+    "name": "Cuauhtlan"
   },
   "AMP": {
-    "name": "Amapila",
-    "desc": ""
+    "name": "Amapila"
   },
   "SAY": {
-    "name": "Sayollan",
-    "desc": ""
+    "name": "Sayollan"
   },
   "PTP": {
-    "name": "Pantepec",
-    "desc": ""
+    "name": "Pantepec"
   },
   "XAP": {
-    "name": "Xalapan",
-    "desc": ""
+    "name": "Xalapan"
   },
   "CUO": {
-    "name": "Cuauhtochco",
-    "desc": ""
+    "name": "Cuauhtochco"
   },
   "XIC": {
-    "name": "Xicochimalco",
-    "desc": ""
+    "name": "Xicochimalco"
   },
   "TOH": {
-    "name": "Tochtepec",
-    "desc": ""
+    "name": "Tochtepec"
   },
   "TTA": {
-    "name": "Teutila",
-    "desc": ""
+    "name": "Teutila"
   },
   "PTL": {
-    "name": "Puctlan",
-    "desc": ""
+    "name": "Puctlan"
   },
   "CSM": {
-    "name": "Cozamaloapan",
-    "desc": ""
+    "name": "Cozamaloapan"
   },
   "OTA": {
-    "name": "Otatitlan",
-    "desc": ""
+    "name": "Otatitlan"
   },
   "TLT": {
-    "name": "Tlacotlalpan",
-    "desc": ""
+    "name": "Tlacotlalpan"
   },
   "TOZ": {
-    "name": "Toztlan",
-    "desc": ""
+    "name": "Toztlan"
   },
   "IZC": {
-    "name": "Iztachacalapan",
-    "desc": ""
+    "name": "Iztachacalapan"
   },
   "TSE": {
-    "name": "Tesechoacan",
-    "desc": ""
+    "name": "Tesechoacan"
   },
   "CCP": {
-    "name": "Cuauhcuetzpaltepec",
-    "desc": ""
+    "name": "Cuauhcuetzpaltepec"
   },
   "OZU": {
-    "name": "Ozumatzin",
-    "desc": ""
+    "name": "Ozumatzin"
   },
   "ATP": {
-    "name": "Atepec",
-    "desc": ""
+    "name": "Atepec"
   },
   "CPN": {
-    "name": "Tzoapan",
-    "desc": ""
+    "name": "Tzoapan"
   },
   "XCP": {
-    "name": "Xochiapan",
-    "desc": ""
+    "name": "Xochiapan"
   },
   "ATT": {
-    "name": "Atitlan",
-    "desc": ""
+    "name": "Atitlan"
   },
   "IXA": {
-    "name": "Iztapan",
-    "desc": ""
+    "name": "Iztapan"
   },
   "CUZ": {
-    "name": "Cutzamala",
-    "desc": ""
+    "name": "Cutzamala"
   },
   "TLO": {
-    "name": "Teloloapan",
-    "desc": ""
+    "name": "Teloloapan"
   },
   "AMT": {
-    "name": "Amacoztitlan",
-    "desc": ""
+    "name": "Amacoztitlan"
   },
   "QLL": {
-    "name": "Quauhquechollan",
-    "desc": ""
+    "name": "Quauhquechollan"
   },
   "IZO": {
-    "name": "Itzohcan",
-    "desc": ""
+    "name": "Itzohcan"
   },
   "AXC": {
-    "name": "Axochiapan",
-    "desc": ""
+    "name": "Axochiapan"
   },
   "TPX": {
-    "name": "Tepexic",
-    "desc": ""
+    "name": "Tepexic"
   },
   "ZCZ": {
-    "name": "Zacazonapan",
-    "desc": ""
+    "name": "Zacazonapan"
   },
   "ITZ": {
-    "name": "Itza",
-    "desc": ""
+    "name": "Itza"
   },
   "COC": {
-    "name": "Cocom",
-    "desc": ""
+    "name": "Cocom"
   },
   "XIU": {
-    "name": "Tutul-Xiu",
-    "desc": ""
+    "name": "Tutul-Xiu"
   },
   "CNL": {
-    "name": "Ah Canul",
-    "desc": ""
+    "name": "Ah Canul"
   },
   "CKP": {
-    "name": "Chakan Putum",
-    "desc": ""
+    "name": "Chakan Putum"
   },
   "HEL": {
-    "name": "Chel",
-    "desc": ""
+    "name": "Chel"
   },
   "UAY": {
-    "name": "Uaymil",
-    "desc": ""
+    "name": "Uaymil"
   },
   "MOP": {
-    "name": "Mopan",
-    "desc": ""
+    "name": "Mopan"
   },
   "CTM": {
-    "name": "Cháak te' éemal",
-    "desc": ""
+    "name": "Cháak te' éemal"
   },
   "KOW": {
-    "name": "Kowoj",
-    "desc": ""
+    "name": "Kowoj"
   },
   "YOK": {
-    "name": "Yoko t'aanob",
-    "desc": ""
+    "name": "Yoko t'aanob"
   },
   "XOL": {
-    "name": "Ch'ol",
-    "desc": ""
+    "name": "Ch'ol"
   },
   "QEQ": {
-    "name": "Q'eqchi'",
-    "desc": ""
+    "name": "Q'eqchi'"
   },
   "KIC": {
-    "name": "K'iche'",
-    "desc": ""
+    "name": "K'iche'"
   },
   "CHT": {
-    "name": "Chorti",
-    "desc": ""
+    "name": "Chorti"
   },
   "LAC": {
-    "name": "Sotz'leb",
-    "desc": ""
+    "name": "Sotz'leb"
   },
   "KAQ": {
-    "name": "Kaqchikel",
-    "desc": ""
+    "name": "Kaqchikel"
   },
   "MMM": {
-    "name": "Mam",
-    "desc": ""
+    "name": "Mam"
   },
   "TOJ": {
-    "name": "Tojolabal",
-    "desc": ""
+    "name": "Tojolabal"
   },
   "TZE": {
-    "name": "Tzeltal",
-    "desc": ""
+    "name": "Tzeltal"
   },
   "TZU": {
-    "name": "Tz'utujil",
-    "desc": ""
+    "name": "Tz'utujil"
   },
   "QAN": {
-    "name": "Q'anjob'al",
-    "desc": ""
+    "name": "Q'anjob'al"
   },
   "TOQ": {
-    "name": "Toquegua",
-    "desc": ""
+    "name": "Toquegua"
   },
   "DIT": {
-    "name": "Dithmarschen",
-    "desc": ""
+    "name": "Dithmarschen"
   },
   "HSA": {
-    "name": "Hansa",
-    "desc": ""
+    "name": "Hansa"
   },
   "LUB": {
-    "name": "Lübeck",
-    "desc": ""
+    "name": "Lübeck"
   },
   "LBB": {
-    "name": "Lubeca",
-    "desc": ""
+    "name": "Lubeca"
   },
   "BRA": {
-    "name": "Brandenburg",
-    "desc": ""
+    "name": "Brandenburg"
   },
   "ALL": {
-    "name": "Allstedt",
-    "desc": ""
+    "name": "Allstedt"
   },
   "MAG": {
-    "name": "Magdeburg",
-    "desc": ""
+    "name": "Magdeburg"
   },
   "THU": {
-    "name": "Thuringia",
-    "desc": ""
+    "name": "Thuringia"
   },
   "BRE": {
-    "name": "Brema",
-    "desc": ""
+    "name": "Brema"
   },
   "BRM": {
-    "name": "Bremen",
-    "desc": ""
+    "name": "Bremen"
   },
   "MDN": {
-    "name": "Minden",
-    "desc": ""
+    "name": "Minden"
   },
   "NSA": {
-    "name": "Nassau",
-    "desc": ""
+    "name": "Nassau"
   },
   "NSH": {
-    "name": "Nassau-Hadamar",
-    "desc": ""
+    "name": "Nassau-Hadamar"
   },
   "NSS": {
-    "name": "Nassau-Siegen",
-    "desc": ""
+    "name": "Nassau-Siegen"
   },
   "NSD": {
-    "name": "Nassau-Dillenburg",
-    "desc": ""
+    "name": "Nassau-Dillenburg"
   },
   "BRG": {
-    "name": "Berg",
-    "desc": ""
+    "name": "Berg"
   },
   "KTZ": {
-    "name": "Katzenelnbogen",
-    "desc": ""
+    "name": "Katzenelnbogen"
   },
   "MAI": {
-    "name": "Mainz",
-    "desc": ""
+    "name": "Mainz"
   },
   "SAA": {
-    "name": "Saarbrücken",
-    "desc": ""
+    "name": "Saarbrücken"
   },
   "STE": {
-    "name": "Stettin",
-    "desc": ""
+    "name": "Stettin"
   },
   "HPL": {
-    "name": "Holstein-Plön",
-    "desc": ""
+    "name": "Holstein-Plön"
   },
   "HTR": {
-    "name": "Holstein-Rendsburg",
-    "desc": ""
+    "name": "Holstein-Rendsburg"
   },
   "SLV": {
-    "name": "Schleswig",
-    "desc": ""
+    "name": "Schleswig"
   },
   "HNB": {
-    "name": "Henneberg",
-    "desc": ""
+    "name": "Henneberg"
   },
   "SPY": {
-    "name": "Spira",
-    "desc": ""
+    "name": "Spira"
   },
   "PLN": {
-    "name": "Plauen",
-    "desc": ""
+    "name": "Plauen"
   },
   "MEI": {
-    "name": "Meissen",
-    "desc": ""
+    "name": "Meissen"
   },
   "LDB": {
-    "name": "Landsberg",
-    "desc": ""
+    "name": "Landsberg"
   },
   "GLA": {
-    "name": "Glauchau",
-    "desc": ""
+    "name": "Glauchau"
   },
   "SOR": {
-    "name": "Lusatia",
-    "desc": ""
+    "name": "Lusatia"
   },
   "SPB": {
-    "name": "Spremberg",
-    "desc": ""
+    "name": "Spremberg"
   },
   "SWB": {
-    "name": "Saxe-Wittenberg",
-    "desc": ""
+    "name": "Saxe-Wittenberg"
   },
   "RUP": {
-    "name": "Ruppin",
-    "desc": ""
+    "name": "Ruppin"
   },
   "HVB": {
-    "name": "Havelberg",
-    "desc": ""
+    "name": "Havelberg"
   },
   "SWR": {
-    "name": "Schwerin",
-    "desc": ""
+    "name": "Schwerin"
   },
   "WRN": {
-    "name": "Waren",
-    "desc": ""
+    "name": "Waren"
   },
   "MKL": {
-    "name": "Mecklenburg",
-    "desc": ""
+    "name": "Mecklenburg"
   },
   "RZB": {
-    "name": "Ratzeburg",
-    "desc": ""
+    "name": "Ratzeburg"
   },
   "RST": {
-    "name": "Rostock",
-    "desc": ""
+    "name": "Rostock"
   },
   "GSW": {
-    "name": "Güstrow",
-    "desc": ""
+    "name": "Güstrow"
   },
   "WOL": {
-    "name": "Wolgast",
-    "desc": ""
+    "name": "Wolgast"
   },
   "KMM": {
-    "name": "Cammin",
-    "desc": ""
+    "name": "Cammin"
   },
   "NWG": {
-    "name": "Naugard",
-    "desc": ""
+    "name": "Naugard"
   },
   "LAU": {
-    "name": "Saxe-Lauenburg",
-    "desc": ""
+    "name": "Saxe-Lauenburg"
   },
   "HAM": {
-    "name": "Hamburg",
-    "desc": ""
+    "name": "Hamburg"
   },
   "HBS": {
-    "name": "Halberstadt",
-    "desc": ""
+    "name": "Halberstadt"
   },
   "BBG": {
-    "name": "Blankenburg",
-    "desc": ""
+    "name": "Blankenburg"
   },
   "ANH": {
-    "name": "Anhalt",
-    "desc": ""
+    "name": "Anhalt"
   },
   "BNB": {
-    "name": "Bernburg",
-    "desc": ""
+    "name": "Bernburg"
   },
   "MFE": {
-    "name": "Mansfeld",
-    "desc": ""
+    "name": "Mansfeld"
   },
   "MRB": {
-    "name": "Merseburg",
-    "desc": ""
+    "name": "Merseburg"
   },
   "NMB": {
-    "name": "Naumburg",
-    "desc": ""
+    "name": "Naumburg"
   },
   "QUB": {
-    "name": "Gera",
-    "desc": ""
+    "name": "Gera"
   },
   "WMA": {
-    "name": "Weimar",
-    "desc": ""
+    "name": "Weimar"
   },
   "SWZ": {
-    "name": "Schwarzburg",
-    "desc": ""
+    "name": "Schwarzburg"
   },
   "FLD": {
-    "name": "Fulda",
-    "desc": ""
+    "name": "Fulda"
   },
   "SHS": {
-    "name": "Sondershausen",
-    "desc": ""
+    "name": "Sondershausen"
   },
   "NHS": {
-    "name": "Nordhausen",
-    "desc": ""
+    "name": "Nordhausen"
   },
   "MLH": {
-    "name": "Mühlhausen",
-    "desc": ""
+    "name": "Mühlhausen"
   },
   "ERF": {
-    "name": "Erfurt",
-    "desc": ""
+    "name": "Erfurt"
   },
   "HSF": {
-    "name": "Hersfeld",
-    "desc": ""
+    "name": "Hersfeld"
   },
   "HES": {
-    "name": "Hesse",
-    "desc": ""
+    "name": "Hesse"
   },
   "PDB": {
-    "name": "Paderborn",
-    "desc": ""
+    "name": "Paderborn"
   },
   "ZIG": {
-    "name": "Ziegenhain",
-    "desc": ""
+    "name": "Ziegenhain"
   },
   "HNA": {
-    "name": "Hanau",
-    "desc": ""
+    "name": "Hanau"
   },
   "BUD": {
-    "name": "Büdingen",
-    "desc": ""
+    "name": "Büdingen"
   },
   "WTZ": {
-    "name": "Wetzlar",
-    "desc": ""
+    "name": "Wetzlar"
   },
   "TRI": {
-    "name": "Trier",
-    "desc": ""
+    "name": "Trier"
   },
   "DIE": {
-    "name": "Diez",
-    "desc": ""
+    "name": "Diez"
   },
   "FRN": {
-    "name": "Frankfurt",
-    "desc": ""
+    "name": "Frankfurt"
   },
   "ERB": {
-    "name": "Erbach",
-    "desc": ""
+    "name": "Erbach"
   },
   "WRM": {
-    "name": "Worms",
-    "desc": ""
+    "name": "Worms"
   },
   "SYE": {
-    "name": "Speyer",
-    "desc": ""
+    "name": "Speyer"
   },
   "ZWE": {
-    "name": "Zweibrücken",
-    "desc": ""
+    "name": "Zweibrücken"
   },
   "LNN": {
-    "name": "Leiningen",
-    "desc": ""
+    "name": "Leiningen"
   },
   "SPO": {
-    "name": "Sponheim",
-    "desc": ""
+    "name": "Sponheim"
   },
   "SYN": {
-    "name": "Sayn",
-    "desc": ""
+    "name": "Sayn"
   },
   "KOL": {
-    "name": "Cologne",
-    "desc": ""
+    "name": "Cologne"
   },
   "DUN": {
-    "name": "Daun",
-    "desc": ""
+    "name": "Daun"
   },
   "APR": {
-    "name": "Prüm",
-    "desc": ""
+    "name": "Prüm"
   },
   "AAC": {
-    "name": "Aachen",
-    "desc": ""
+    "name": "Aachen"
   },
   "JUL": {
-    "name": "Jülich",
-    "desc": ""
+    "name": "Jülich"
   },
   "GEL": {
-    "name": "Guelders",
-    "desc": ""
+    "name": "Guelders"
   },
   "ZUT": {
-    "name": "Zutphen",
-    "desc": ""
+    "name": "Zutphen"
   },
   "GMK": {
-    "name": "Mark",
-    "desc": ""
+    "name": "Mark"
   },
   "WTG": {
-    "name": "Wittgenstein",
-    "desc": ""
+    "name": "Wittgenstein"
   },
   "DTM": {
-    "name": "Dortmund",
-    "desc": ""
+    "name": "Dortmund"
   },
   "ESS": {
-    "name": "Essen",
-    "desc": ""
+    "name": "Essen"
   },
   "MRS": {
-    "name": "Moers",
-    "desc": ""
+    "name": "Moers"
   },
   "KLE": {
-    "name": "Cleves",
-    "desc": ""
+    "name": "Cleves"
   },
   "ANB": {
-    "name": "Arnsberg",
-    "desc": ""
+    "name": "Arnsberg"
   },
   "LPP": {
-    "name": "Lippe",
-    "desc": ""
+    "name": "Lippe"
   },
   "HOX": {
-    "name": "Corvey",
-    "desc": ""
+    "name": "Corvey"
   },
   "RVB": {
-    "name": "Ravensberg",
-    "desc": ""
+    "name": "Ravensberg"
   },
   "OSN": {
-    "name": "Osnabrück",
-    "desc": ""
+    "name": "Osnabrück"
   },
   "TCK": {
-    "name": "Tecklenburg",
-    "desc": ""
+    "name": "Tecklenburg"
   },
   "MUN": {
-    "name": "Münster",
-    "desc": ""
+    "name": "Münster"
   },
   "LUN": {
-    "name": "Lüneburg",
-    "desc": ""
+    "name": "Lüneburg"
   },
   "BRU": {
-    "name": "Brunswick",
-    "desc": ""
+    "name": "Brunswick"
   },
   "GBH": {
-    "name": "Grubenhagen",
-    "desc": ""
+    "name": "Grubenhagen"
   },
   "HDH": {
-    "name": "Hildesheim",
-    "desc": ""
+    "name": "Hildesheim"
   },
   "GOS": {
-    "name": "Goslar",
-    "desc": ""
+    "name": "Goslar"
   },
   "SCB": {
-    "name": "Schauenburg",
-    "desc": ""
+    "name": "Schauenburg"
   },
   "HOY": {
-    "name": "Hoya",
-    "desc": ""
+    "name": "Hoya"
   },
   "NIE": {
-    "name": "Nienburg",
-    "desc": ""
+    "name": "Nienburg"
   },
   "DPH": {
-    "name": "Diepholz",
-    "desc": ""
+    "name": "Diepholz"
   },
   "VRD": {
-    "name": "Verden",
-    "desc": ""
+    "name": "Verden"
   },
   "RTB": {
-    "name": "Ritzebüttel",
-    "desc": ""
+    "name": "Ritzebüttel"
   },
   "OLD": {
-    "name": "Oldenburg",
-    "desc": ""
+    "name": "Oldenburg"
   },
   "BMS": {
-    "name": "Misnia",
-    "desc": ""
+    "name": "Misnia"
   },
   "BLB": {
-    "name": "Lebus",
-    "desc": ""
+    "name": "Lebus"
   },
   "BBD": {
-    "name": "Brandenburgum",
-    "desc": ""
+    "name": "Brandenburgum"
   },
   "HSP": {
-    "name": "Holstein-Pinneberg",
-    "desc": ""
+    "name": "Holstein-Pinneberg"
   },
   "BSK": {
-    "name": "Beeskow-Starkow",
-    "desc": ""
+    "name": "Beeskow-Starkow"
   },
   "WGO": {
-    "name": "Wernigerode",
-    "desc": ""
+    "name": "Wernigerode"
   },
   "BHL": {
-    "name": "Beichlingen",
-    "desc": ""
+    "name": "Beichlingen"
   },
   "GLN": {
-    "name": "Gleichen",
-    "desc": ""
+    "name": "Gleichen"
   },
   "WDE": {
-    "name": "Waldeck",
-    "desc": ""
+    "name": "Waldeck"
   },
   "RBG": {
-    "name": "Rietberg",
-    "desc": ""
+    "name": "Rietberg"
   },
   "NSW": {
-    "name": "Nassau-Weilburg",
-    "desc": ""
+    "name": "Nassau-Weilburg"
   },
   "NSI": {
-    "name": "Nassau-Idstein",
-    "desc": ""
+    "name": "Nassau-Idstein"
   },
   "RDL": {
-    "name": "Riedesel",
-    "desc": ""
+    "name": "Riedesel"
   },
   "NID": {
-    "name": "Nidda",
-    "desc": ""
+    "name": "Nidda"
   },
   "EVS": {
-    "name": "Everstein",
-    "desc": ""
+    "name": "Everstein"
   },
   "JEV": {
-    "name": "Jever",
-    "desc": ""
+    "name": "Jever"
   },
   "WIE": {
-    "name": "Wied",
-    "desc": ""
+    "name": "Wied"
   },
   "CHB": {
-    "name": "Chobanids",
-    "desc": ""
+    "name": "Chobanids"
   },
   "MZF": {
-    "name": "Muzaffarids",
-    "desc": ""
+    "name": "Muzaffarids"
   },
   "KRM": {
-    "name": "Kerman",
-    "desc": ""
+    "name": "Kerman"
   },
   "INJ": {
-    "name": "Injuids",
-    "desc": ""
+    "name": "Injuids"
   },
   "KHU": {
-    "name": "Khunj",
-    "desc": ""
+    "name": "Khunj"
   },
   "KRT": {
-    "name": "Kartids",
-    "desc": ""
+    "name": "Kartids"
   },
   "SRB": {
-    "name": "Sarbadars",
-    "desc": ""
+    "name": "Sarbadars"
   },
   "GRG": {
-    "name": "Gurgan",
-    "desc": ""
+    "name": "Gurgan"
   },
   "MIH": {
-    "name": "Mihrabanids",
-    "desc": ""
+    "name": "Mihrabanids"
   },
   "KHN": {
-    "name": "Kharan",
-    "desc": ""
+    "name": "Kharan"
   },
   "SHB": {
-    "name": "Shabankara",
-    "desc": ""
+    "name": "Shabankara"
   },
   "JUR": {
-    "name": "Jurmanids",
-    "desc": ""
+    "name": "Jurmanids"
   },
   "UGH": {
-    "name": "Ughanids",
-    "desc": ""
+    "name": "Ughanids"
   },
   "HZP": {
-    "name": "Hazaraspids",
-    "desc": ""
+    "name": "Hazaraspids"
   },
   "ORM": {
-    "name": "Ormus",
-    "desc": ""
+    "name": "Ormus"
   },
   "FAL": {
-    "name": "Fal",
-    "desc": ""
+    "name": "Fal"
   },
   "JSK": {
-    "name": "Jāsk",
-    "desc": ""
+    "name": "Jāsk"
   },
   "MZN": {
-    "name": "Tabaristan",
-    "desc": ""
+    "name": "Tabaristan"
   },
   "BDS": {
-    "name": "Baduspanids",
-    "desc": ""
+    "name": "Baduspanids"
   },
   "MKR": {
-    "name": "Makran",
-    "desc": ""
+    "name": "Makran"
   },
   "BMP": {
-    "name": "Bampūr",
-    "desc": ""
+    "name": "Bampūr"
   },
   "BLA": {
-    "name": "Buleda",
-    "desc": ""
+    "name": "Buleda"
   },
   "KLW": {
-    "name": "Kolwa",
-    "desc": ""
+    "name": "Kolwa"
   },
   "KHZ": {
-    "name": "Khuzdar",
-    "desc": ""
+    "name": "Khuzdar"
   },
   "KLA": {
-    "name": "Kalāt",
-    "desc": ""
+    "name": "Kalāt"
   },
   "LCK": {
-    "name": "Khorshidi",
-    "desc": ""
+    "name": "Khorshidi"
   },
   "LST": {
-    "name": "Larestan",
-    "desc": ""
+    "name": "Larestan"
   },
   "ERA": {
-    "name": "Ērānšahr",
-    "desc": ""
+    "name": "Ērānšahr"
   },
   "HDN": {
-    "name": "$hamadan$",
-    "desc": ""
+    "name": "Hamedān"
   },
   "QOM": {
-    "name": "$qom$",
-    "desc": ""
+    "name": "Qom"
   },
   "KSA": {
-    "name": "$kashan$",
-    "desc": ""
+    "name": "Kāshān"
   },
   "ASR": {
-    "name": "$astarabad$",
-    "desc": ""
+    "name": "Astarābād"
   },
   "JKR": {
-    "name": "Jauni Kurban",
-    "desc": ""
+    "name": "Jauni Kurban"
   },
   "SFR": {
-    "name": "$esfarayen$",
-    "desc": ""
+    "name": "Esfarāyen"
   },
   "SBZ": {
-    "name": "$sabzevar$",
-    "desc": ""
+    "name": "Sabzevār"
   },
   "KHT": {
-    "name": "$quhestan_area$",
-    "desc": ""
+    "name": "Kuhistān"
   },
   "MRV": {
-    "name": "$merv$",
-    "desc": ""
+    "name": "Merv"
   },
   "KHF": {
-    "name": "Khaf",
-    "desc": ""
+    "name": "Khaf"
   },
   "HLG": {
-    "name": "Hüleguids",
-    "desc": ""
+    "name": "Hüleguids"
   },
   "NGD": {
-    "name": "Negüderi",
-    "desc": ""
+    "name": "Negüderi"
   },
   "QUN": {
-    "name": "Qara'unas",
-    "desc": ""
+    "name": "Qara'unas"
   },
   "BSD": {
-    "name": "Besüd",
-    "desc": ""
+    "name": "Besüd"
   },
   "ART": {
-    "name": "Arlat",
-    "desc": ""
+    "name": "Arlat"
   },
   "APD": {
-    "name": "Apardi",
-    "desc": ""
+    "name": "Apardi"
   },
   "SLD": {
-    "name": "Suldus",
-    "desc": ""
+    "name": "Suldus"
   },
   "BRL": {
-    "name": "Barlas",
-    "desc": ""
+    "name": "Barlas"
   },
   "YSU": {
-    "name": "Yasa'uri",
-    "desc": ""
+    "name": "Yasa'uri"
   },
   "KTT": {
-    "name": "Khuttal",
-    "desc": ""
+    "name": "Khuttal"
   },
   "JLY": {
-    "name": "Jalayirs",
-    "desc": ""
+    "name": "Jalayirs"
   },
   "LHJ": {
-    "name": "Lahijan",
-    "desc": ""
+    "name": "Lahijan"
   },
   "RNK": {
-    "name": "Ranekouh",
-    "desc": ""
+    "name": "Ranekouh"
   },
   "FMN": {
-    "name": "Fuman",
-    "desc": ""
+    "name": "Fuman"
   },
   "RSH": {
-    "name": "Rasht",
-    "desc": ""
+    "name": "Rasht"
   },
   "TLM": {
-    "name": "Tulam",
-    "desc": ""
+    "name": "Tulam"
   },
   "ABL": {
-    "name": "Ardabil",
-    "desc": ""
+    "name": "Ardabil"
   },
   "POL": {
-    "name": "Poland",
-    "desc": ""
+    "name": "Poland"
   },
   "SDZ": {
-    "name": "Sieradz",
-    "desc": ""
+    "name": "Sieradz"
   },
   "LCZ": {
-    "name": "Łęczyca",
-    "desc": ""
+    "name": "Łęczyca"
   },
   "PLK": {
-    "name": "Płock",
-    "desc": ""
+    "name": "Płock"
   },
   "RAW": {
-    "name": "Rawa",
-    "desc": ""
+    "name": "Rawa"
   },
   "CZK": {
-    "name": "Czersk",
-    "desc": ""
+    "name": "Czersk"
   },
   "INO": {
-    "name": "Inowrocław",
-    "desc": ""
+    "name": "Inowrocław"
   },
   "VOL": {
-    "name": "Volhynia",
-    "desc": ""
+    "name": "Volhynia"
   },
   "HAL": {
-    "name": "Halych",
-    "desc": ""
+    "name": "Halych"
   },
   "KIE": {
-    "name": "Kyiv",
-    "desc": ""
+    "name": "Kyiv"
   },
   "POK": {
-    "name": "Polotsk",
-    "desc": ""
+    "name": "Polotsk"
   },
   "TUV": {
-    "name": "Turov",
-    "desc": ""
+    "name": "Turov"
   },
   "PNK": {
-    "name": "Pinsk",
-    "desc": ""
+    "name": "Pinsk"
   },
   "SSK": {
-    "name": "Slutsk",
-    "desc": ""
+    "name": "Slutsk"
   },
   "VBK": {
-    "name": "Vitebsk",
-    "desc": ""
+    "name": "Vitebsk"
   },
   "MSV": {
-    "name": "Mstislavl",
-    "desc": ""
+    "name": "Mstislavl"
   },
   "MIS": {
-    "name": "Minsk",
-    "desc": ""
+    "name": "Minsk"
   },
   "NRK": {
-    "name": "Novogrudok",
-    "desc": ""
+    "name": "Novogrudok"
   },
   "DRU": {
-    "name": "Drutsk",
-    "desc": ""
+    "name": "Drutsk"
   },
   "ZAZ": {
-    "name": "Zaporizhia",
-    "desc": ""
+    "name": "Zaporizhia"
   },
   "ZAG": {
-    "name": "Żagań",
-    "desc": ""
+    "name": "Żagań"
   },
   "JAW": {
-    "name": "Jawor",
-    "desc": ""
+    "name": "Jawor"
   },
   "LGC": {
-    "name": "Legnica",
-    "desc": ""
+    "name": "Legnica"
   },
   "OEL": {
-    "name": "Oleśnica",
-    "desc": ""
+    "name": "Oleśnica"
   },
   "OPL": {
-    "name": "Opole",
-    "desc": ""
+    "name": "Opole"
   },
   "PDK": {
-    "name": "Prudnik",
-    "desc": ""
+    "name": "Prudnik"
   },
   "OSW": {
-    "name": "Oświęcim",
-    "desc": ""
+    "name": "Oświęcim"
   },
   "TES": {
-    "name": "Cieszyn",
-    "desc": ""
+    "name": "Cieszyn"
   },
   "BYM": {
-    "name": "Bytom",
-    "desc": ""
+    "name": "Bytom"
   },
   "RCB": {
-    "name": "Racibórz",
-    "desc": ""
+    "name": "Racibórz"
   },
   "SWD": {
-    "name": "Świdnica",
-    "desc": ""
+    "name": "Świdnica"
   },
   "SCI": {
-    "name": "Ścinawa",
-    "desc": ""
+    "name": "Ścinawa"
   },
   "ZIE": {
-    "name": "Ziębica",
-    "desc": ""
+    "name": "Ziębica"
   },
   "BRZ": {
-    "name": "Brzeg",
-    "desc": ""
+    "name": "Brzeg"
   },
   "NMS": {
-    "name": "Namysłów",
-    "desc": ""
+    "name": "Namysłów"
   },
   "STZ": {
-    "name": "Strzelce",
-    "desc": ""
+    "name": "Strzelce"
   },
   "NMD": {
-    "name": "Niemodlin",
-    "desc": ""
+    "name": "Niemodlin"
   },
   "SIZ": {
-    "name": "Siewierz",
-    "desc": ""
+    "name": "Siewierz"
   },
   "WRC": {
-    "name": "Wrocław",
-    "desc": ""
+    "name": "Wrocław"
   },
   "GLO": {
-    "name": "Głogów",
-    "desc": ""
+    "name": "Głogów"
   },
   "NYS": {
-    "name": "Nysa",
-    "desc": ""
+    "name": "Nysa"
   },
   "OPV": {
-    "name": "Opava",
-    "desc": ""
+    "name": "Opava"
   },
   "WAI": {
-    "name": "Waitaha",
-    "desc": ""
+    "name": "Waitaha"
   },
   "NPO": {
-    "name": "Ngāti Porou",
-    "desc": ""
+    "name": "Ngāti Porou"
   },
   "NKH": {
-    "name": "Ngāti Kahungunu",
-    "desc": ""
+    "name": "Ngāti Kahungunu"
   },
   "NTH": {
-    "name": "Ngāi Tūhoe",
-    "desc": ""
+    "name": "Ngāi Tūhoe"
   },
   "NGI": {
-    "name": "Ngā Oho",
-    "desc": ""
+    "name": "Ngā Oho"
   },
   "RAP": {
-    "name": "Te Rapuwai",
-    "desc": ""
+    "name": "Te Rapuwai"
   },
   "NGR": {
-    "name": "Ngāti Ranginui",
-    "desc": ""
+    "name": "Ngāti Ranginui"
   },
   "HWE": {
-    "name": "Hawea",
-    "desc": ""
+    "name": "Hawea"
   },
   "TNI": {
-    "name": "Tainui",
-    "desc": ""
+    "name": "Tainui"
   },
   "ARW": {
-    "name": "Te Arawa",
-    "desc": ""
+    "name": "Te Arawa"
   },
   "PUH": {
-    "name": "Ngāpuhi",
-    "desc": ""
+    "name": "Ngāpuhi"
   },
   "RGT": {
-    "name": "Rangitāne",
-    "desc": ""
+    "name": "Rangitāne"
   },
   "AWA": {
-    "name": "Te Āti Awa",
-    "desc": ""
+    "name": "Te Āti Awa"
   },
   "RUA": {
-    "name": "Ngāti Ruanui",
-    "desc": ""
+    "name": "Ngāti Ruanui"
   },
   "HAW": {
-    "name": "Hawai'i",
-    "desc": ""
+    "name": "Hawai'i"
   },
   "MUI": {
-    "name": "Maui",
-    "desc": ""
+    "name": "Maui"
   },
   "LHN": {
-    "name": "Lahaina",
-    "desc": ""
+    "name": "Lahaina"
   },
   "MLK": {
-    "name": "Moloka'i",
-    "desc": ""
+    "name": "Moloka'i"
   },
   "OAH": {
-    "name": "O'ahu",
-    "desc": ""
+    "name": "O'ahu"
   },
   "KAU": {
-    "name": "Kaua'i",
-    "desc": ""
+    "name": "Kaua'i"
   },
   "TOG": {
-    "name": "Tu'i Tonga",
-    "desc": ""
+    "name": "Tu'i Tonga"
   },
   "YAP": {
-    "name": "Yap",
-    "desc": ""
+    "name": "Yap"
   },
   "SAM": {
-    "name": "Samoa",
-    "desc": ""
+    "name": "Samoa"
   },
   "BUB": {
-    "name": "Burebasaga",
-    "desc": ""
+    "name": "Burebasaga"
   },
   "KBN": {
-    "name": "Kubuna",
-    "desc": ""
+    "name": "Kubuna"
   },
   "TOV": {
-    "name": "Tovata",
-    "desc": ""
+    "name": "Tovata"
   },
   "NOV": {
-    "name": "Velikiy Novgorod",
-    "desc": ""
+    "name": "Velikiy Novgorod"
   },
   "PSK": {
-    "name": "Pskov",
-    "desc": ""
+    "name": "Pskov"
   },
   "ORE": {
-    "name": "Oreshek",
-    "desc": ""
+    "name": "Oreshek"
   },
   "SMO": {
-    "name": "Smolensk",
-    "desc": ""
+    "name": "Smolensk"
   },
   "FMB": {
-    "name": "Fomin-Berezuesk",
-    "desc": ""
+    "name": "Fomin-Berezuesk"
   },
   "MOS": {
-    "name": "Muscovy",
-    "desc": ""
+    "name": "Muscovy"
   },
   "PZL": {
-    "name": "Pereyaslavl-Zalessky",
-    "desc": ""
+    "name": "Pereyaslavl-Zalessky"
   },
   "KLM": {
-    "name": "Kolomna",
-    "desc": ""
+    "name": "Kolomna"
   },
   "VLR": {
-    "name": "Vladimir",
-    "desc": ""
+    "name": "Vladimir"
   },
   "UGL": {
-    "name": "Uglich",
-    "desc": ""
+    "name": "Uglich"
   },
   "YRV": {
-    "name": "Yuriev-Polsky",
-    "desc": ""
+    "name": "Yuriev-Polsky"
   },
   "TPS": {
-    "name": "Toropets",
-    "desc": ""
+    "name": "Toropets"
   },
   "BLO": {
-    "name": "Beloozero",
-    "desc": ""
+    "name": "Beloozero"
   },
   "YAR": {
-    "name": "Yaroslavl",
-    "desc": ""
+    "name": "Yaroslavl"
   },
   "RSO": {
-    "name": "Rostov",
-    "desc": ""
+    "name": "Rostov"
   },
   "TVE": {
-    "name": "Tver",
-    "desc": ""
+    "name": "Tver"
   },
   "KAS": {
-    "name": "Kashin",
-    "desc": ""
+    "name": "Kashin"
   },
   "KLN": {
-    "name": "Klin",
-    "desc": ""
+    "name": "Klin"
   },
   "ZUB": {
-    "name": "Zubtsov",
-    "desc": ""
+    "name": "Zubtsov"
   },
   "DMI": {
-    "name": "Dmitrov",
-    "desc": ""
+    "name": "Dmitrov"
   },
   "GLM": {
-    "name": "Galich-Mersky",
-    "desc": ""
+    "name": "Galich-Mersky"
   },
   "RZH": {
-    "name": "Rzhev",
-    "desc": ""
+    "name": "Rzhev"
   },
   "VYA": {
-    "name": "Vyazma",
-    "desc": ""
+    "name": "Vyazma"
   },
   "TRB": {
-    "name": "Trubchevsk",
-    "desc": ""
+    "name": "Trubchevsk"
   },
   "BRY": {
-    "name": "Bryansk",
-    "desc": ""
+    "name": "Bryansk"
   },
   "CHR": {
-    "name": "Chernihiv",
-    "desc": ""
+    "name": "Chernihiv"
   },
   "STS": {
-    "name": "Starodub-Siverskyi",
-    "desc": ""
+    "name": "Starodub-Siverskyi"
   },
   "NVS": {
-    "name": "Novgorod-Siverskyi",
-    "desc": ""
+    "name": "Novgorod-Siverskyi"
   },
   "RYL": {
-    "name": "Rylsk",
-    "desc": ""
+    "name": "Rylsk"
   },
   "NSL": {
-    "name": "Novosil",
-    "desc": ""
+    "name": "Novosil"
   },
   "KCH": {
-    "name": "Karachev",
-    "desc": ""
+    "name": "Karachev"
   },
   "KZK": {
-    "name": "Kozelsk",
-    "desc": ""
+    "name": "Kozelsk"
   },
   "TRS": {
-    "name": "Tarusa",
-    "desc": ""
+    "name": "Tarusa"
   },
   "RYA": {
-    "name": "Ryazan",
-    "desc": ""
+    "name": "Ryazan"
   },
   "PRK": {
-    "name": "Pronsk",
-    "desc": ""
+    "name": "Pronsk"
   },
   "SKY": {
-    "name": "Starodub",
-    "desc": ""
+    "name": "Starodub"
   },
   "NZH": {
-    "name": "Nizhny Novgorod",
-    "desc": ""
+    "name": "Nizhny Novgorod"
   },
   "GRS": {
-    "name": "Gorodets",
-    "desc": ""
+    "name": "Gorodets"
   },
   "SZL": {
-    "name": "Suzdal",
-    "desc": ""
+    "name": "Suzdal"
   },
   "MRM": {
-    "name": "Murom",
-    "desc": ""
+    "name": "Murom"
   },
   "KOS": {
-    "name": "Kostroma",
-    "desc": ""
+    "name": "Kostroma"
   },
   "MOG": {
-    "name": "Mologa",
-    "desc": ""
+    "name": "Mologa"
   },
   "PRM": {
-    "name": "Perm",
-    "desc": ""
+    "name": "Perm"
   },
   "VYT": {
-    "name": "Vyatka",
-    "desc": ""
+    "name": "Vyatka"
   },
   "OBD": {
-    "name": "Obdor",
-    "desc": ""
+    "name": "Obdor"
   },
   "PLY": {
-    "name": "Pelym",
-    "desc": ""
+    "name": "Pelym"
   },
   "BAK": {
-    "name": "Bardak",
-    "desc": ""
+    "name": "Bardak"
   },
   "KND": {
-    "name": "Konda",
-    "desc": ""
+    "name": "Konda"
   },
   "BGJ": {
-    "name": "Belogorye",
-    "desc": ""
+    "name": "Belogorye"
   },
   "KOD": {
-    "name": "Koda",
-    "desc": ""
+    "name": "Koda"
   },
   "SVA": {
-    "name": "Sosva",
-    "desc": ""
+    "name": "Sosva"
   },
   "KZY": {
-    "name": "Kazym",
-    "desc": ""
+    "name": "Kazym"
   },
   "LYA": {
-    "name": "Lyapin",
-    "desc": ""
+    "name": "Lyapin"
   },
   "TBY": {
-    "name": "Tabary",
-    "desc": ""
+    "name": "Tabary"
   },
   "SLK": {
-    "name": "Selkup",
-    "desc": ""
+    "name": "Selkup"
   },
   "BRT": {
-    "name": "Buryatia",
-    "desc": ""
+    "name": "Buryatia"
   },
   "HGO": {
-    "name": "Khongorai",
-    "desc": ""
+    "name": "Khongorai"
   },
   "ALT": {
-    "name": "Altai",
-    "desc": ""
+    "name": "Altai"
   },
   "KMG": {
-    "name": "Khamag",
-    "desc": ""
+    "name": "Khamag"
   },
   "SAK": {
-    "name": "Sakha",
-    "desc": ""
+    "name": "Sakha"
   },
   "EVE": {
-    "name": "Even",
-    "desc": ""
+    "name": "Even"
   },
   "YKG": {
-    "name": "Yukaghir",
-    "desc": ""
+    "name": "Yukaghir"
   },
   "KYK": {
-    "name": "Koryak",
-    "desc": ""
+    "name": "Koryak"
   },
   "XHO": {
-    "name": "Xhosa",
-    "desc": ""
+    "name": "Xhosa"
   },
   "NGU": {
-    "name": "Nguni",
-    "desc": ""
+    "name": "Nguni"
   },
   "TWA": {
-    "name": "Tswana",
-    "desc": ""
+    "name": "Tswana"
   },
   "SOT": {
-    "name": "Sotho",
-    "desc": ""
+    "name": "Sotho"
   },
   "VED": {
-    "name": "Venda",
-    "desc": ""
+    "name": "Venda"
   },
   "KLG": {
-    "name": "Kalanga",
-    "desc": ""
+    "name": "Kalanga"
   },
   "KHM": {
-    "name": "Khmer",
-    "desc": ""
+    "name": "Khmer"
   },
   "CHA": {
-    "name": "Champa",
-    "desc": ""
+    "name": "Champa"
   },
   "DAI": {
-    "name": "Đại Việt",
-    "desc": ""
+    "name": "Đại Việt"
   },
   "SUK": {
-    "name": "Sukhothai",
-    "desc": ""
+    "name": "Sukhothai"
   },
   "LNA": {
-    "name": "Lan Na",
-    "desc": ""
+    "name": "Lan Na"
   },
   "LAV": {
-    "name": "Lavo",
-    "desc": ""
+    "name": "Lavo"
   },
   "ADH": {
-    "name": "Ayodhya",
-    "desc": ""
+    "name": "Ayodhya"
   },
   "PEG": {
-    "name": "Hanthawaddy",
-    "desc": ""
+    "name": "Hanthawaddy"
   },
   "SNG": {
-    "name": "Singapura",
-    "desc": ""
+    "name": "Singapura"
   },
   "LIG": {
-    "name": "Ligor",
-    "desc": ""
+    "name": "Ligor"
   },
   "LGK": {
-    "name": "Langkasuka",
-    "desc": ""
+    "name": "Langkasuka"
   },
   "KED": {
-    "name": "Kedah",
-    "desc": ""
+    "name": "Kedah"
   },
   "PAH": {
-    "name": "Pahang",
-    "desc": ""
+    "name": "Pahang"
   },
   "SPN": {
-    "name": "Suphanburi",
-    "desc": ""
+    "name": "Suphanburi"
   },
   "ARK": {
-    "name": "Launggyet",
-    "desc": ""
+    "name": "Launggyet"
   },
   "PIN": {
-    "name": "Pinya",
-    "desc": ""
+    "name": "Pinya"
   },
   "SAG": {
-    "name": "Sagaing",
-    "desc": ""
+    "name": "Sagaing"
   },
   "TNG": {
-    "name": "Toungoo",
-    "desc": ""
+    "name": "Toungoo"
   },
   "BPR": {
-    "name": "Prome",
-    "desc": ""
+    "name": "Prome"
   },
   "PHY": {
-    "name": "Phayao",
-    "desc": ""
+    "name": "Phayao"
   },
   "PUA": {
-    "name": "Pua",
-    "desc": ""
+    "name": "Pua"
   },
   "MUA": {
-    "name": "Muang Sua",
-    "desc": ""
+    "name": "Muang Sua"
   },
   "VTN": {
-    "name": "Vientiane",
-    "desc": ""
+    "name": "Vientiane"
   },
   "CBK": {
-    "name": "Cobra",
-    "desc": ""
+    "name": "Cobra"
   },
   "MYA": {
-    "name": "Möng Yang",
-    "desc": ""
+    "name": "Möng Yang"
   },
   "MKA": {
-    "name": "Möng Kawng",
-    "desc": ""
+    "name": "Möng Kawng"
   },
   "HKM": {
-    "name": "Hkamti",
-    "desc": ""
+    "name": "Hkamti"
   },
   "MKN": {
-    "name": "Möng Köng",
-    "desc": ""
+    "name": "Möng Köng"
   },
   "HHP": {
-    "name": "Hsawng Hsup",
-    "desc": ""
+    "name": "Hsawng Hsup"
   },
   "HSE": {
-    "name": "Hsenwi",
-    "desc": ""
+    "name": "Hsenwi"
   },
   "HSI": {
-    "name": "Hsipaw",
-    "desc": ""
+    "name": "Hsipaw"
   },
   "MNI": {
-    "name": "Möng Nai",
-    "desc": ""
+    "name": "Möng Nai"
   },
   "MGT": {
-    "name": "Möng Mit",
-    "desc": ""
+    "name": "Möng Mit"
   },
   "KAL": {
-    "name": "Kale",
-    "desc": ""
+    "name": "Kale"
   },
   "WNT": {
-    "name": "Wuntho",
-    "desc": ""
+    "name": "Wuntho"
   },
   "BHM": {
-    "name": "Bhamo",
-    "desc": ""
+    "name": "Bhamo"
   },
   "KTG": {
-    "name": "Kengtung",
-    "desc": ""
+    "name": "Kengtung"
   },
   "MLM": {
-    "name": "Mong Lem",
-    "desc": ""
+    "name": "Mong Lem"
   },
   "WAS": {
-    "name": "Wa",
-    "desc": ""
+    "name": "Wa"
   },
   "JGP": {
-    "name": "Jingpo",
-    "desc": ""
+    "name": "Jingpo"
   },
   "KRN": {
-    "name": "Karen",
-    "desc": ""
+    "name": "Karen"
   },
   "MUO": {
-    "name": "Muong",
-    "desc": ""
+    "name": "Muong"
   },
   "ASL": {
-    "name": "Orang Asli",
-    "desc": ""
+    "name": "Orang Asli"
   },
   "ZOO": {
-    "name": "Zo",
-    "desc": ""
+    "name": "Zo"
   },
   "ZHU": {
-    "name": "Zhuang",
-    "desc": ""
+    "name": "Zhuang"
   },
   "MLB": {
-    "name": "Kangleipak",
-    "desc": ""
+    "name": "Kangleipak"
   },
   "BES": {
-    "name": "Beruas",
-    "desc": ""
+    "name": "Beruas"
   },
   "MNJ": {
-    "name": "Manjung",
-    "desc": ""
+    "name": "Manjung"
   },
   "PTC": {
-    "name": "Phetchaburi",
-    "desc": ""
+    "name": "Phetchaburi"
   },
   "TSM": {
-    "name": "Tenasserim",
-    "desc": ""
+    "name": "Tenasserim"
   },
   "DEG": {
-    "name": "Degar",
-    "desc": ""
+    "name": "Degar"
   },
   "BHN": {
-    "name": "Bahnar",
-    "desc": ""
+    "name": "Bahnar"
   },
   "SED": {
-    "name": "Sedang",
-    "desc": ""
+    "name": "Sedang"
   },
   "BVK": {
-    "name": "Bru",
-    "desc": ""
+    "name": "Bru"
   },
   "KUY": {
-    "name": "Kuy",
-    "desc": ""
+    "name": "Kuy"
   },
   "KMU": {
-    "name": "Khmu",
-    "desc": ""
+    "name": "Khmu"
   },
   "NAA": {
-    "name": "Naga",
-    "desc": ""
+    "name": "Naga"
   },
   "HAB": {
-    "name": "Austria",
-    "desc": ""
+    "name": "Austria"
   },
   "BOH": {
-    "name": "Bohemia",
-    "desc": ""
+    "name": "Bohemia"
   },
   "MVA": {
-    "name": "Moravia",
-    "desc": ""
+    "name": "Moravia"
   },
   "PSS": {
-    "name": "Passau",
-    "desc": ""
+    "name": "Passau"
   },
   "AUG": {
-    "name": "Augusta Vindelicorum",
-    "desc": ""
+    "name": "Augusta Vindelicorum"
   },
   "AGC": {
-    "name": "Augsburg",
-    "desc": ""
+    "name": "Augsburg"
   },
   "UBV": {
-    "name": "Upper Bavaria",
-    "desc": ""
+    "name": "Upper Bavaria"
   },
   "LBV": {
-    "name": "Lower Bavaria",
-    "desc": ""
+    "name": "Lower Bavaria"
   },
   "SLZ": {
-    "name": "Salzburg",
-    "desc": ""
+    "name": "Salzburg"
   },
   "BAM": {
-    "name": "Bamberg",
-    "desc": ""
+    "name": "Bamberg"
   },
   "STY": {
-    "name": "Styria",
-    "desc": ""
+    "name": "Styria"
   },
   "CRH": {
-    "name": "Carinthia",
-    "desc": ""
+    "name": "Carinthia"
   },
   "TIR": {
-    "name": "Tyrol",
-    "desc": ""
+    "name": "Tyrol"
   },
   "WER": {
-    "name": "Werdenberg",
-    "desc": ""
+    "name": "Werdenberg"
   },
   "MBZ": {
-    "name": "Bregenz",
-    "desc": ""
+    "name": "Bregenz"
   },
   "MFK": {
-    "name": "Feldkirch",
-    "desc": ""
+    "name": "Feldkirch"
   },
   "BCH": {
-    "name": "Chur",
-    "desc": ""
+    "name": "Chur"
   },
   "STG": {
-    "name": "St. Gallen",
-    "desc": ""
+    "name": "St. Gallen"
   },
   "ZUR": {
-    "name": "Zürich",
-    "desc": ""
+    "name": "Zürich"
   },
   "SYZ": {
-    "name": "Schwyz",
-    "desc": ""
+    "name": "Schwyz"
   },
   "GLR": {
-    "name": "Glarus",
-    "desc": ""
+    "name": "Glarus"
   },
   "LCA": {
-    "name": "Como",
-    "desc": ""
+    "name": "Como"
   },
   "URI": {
-    "name": "Uri",
-    "desc": ""
+    "name": "Uri"
   },
   "OBW": {
-    "name": "Obwalden",
-    "desc": ""
+    "name": "Obwalden"
   },
   "LCU": {
-    "name": "Lucerne",
-    "desc": ""
+    "name": "Lucerne"
   },
   "SIT": {
-    "name": "Sion",
-    "desc": ""
+    "name": "Sion"
   },
   "SWI": {
-    "name": "Switzerland",
-    "desc": ""
+    "name": "Switzerland"
   },
   "BRN": {
-    "name": "Bern",
-    "desc": ""
+    "name": "Bern"
   },
   "SLT": {
-    "name": "Solothurn",
-    "desc": ""
+    "name": "Solothurn"
   },
   "NEU": {
-    "name": "Neuchâtel",
-    "desc": ""
+    "name": "Neuchâtel"
   },
   "BAS": {
-    "name": "Basel",
-    "desc": ""
+    "name": "Basel"
   },
   "LSA": {
-    "name": "Lausanne",
-    "desc": ""
+    "name": "Lausanne"
   },
   "KYB": {
-    "name": "Kyburg",
-    "desc": ""
+    "name": "Kyburg"
   },
   "TRN": {
-    "name": "Turn",
-    "desc": ""
+    "name": "Turn"
   },
   "BRC": {
-    "name": "Berchtesgaden",
-    "desc": ""
+    "name": "Berchtesgaden"
   },
   "GRF": {
-    "name": "Grafenau",
-    "desc": ""
+    "name": "Grafenau"
   },
   "PAL": {
-    "name": "Rhine",
-    "desc": ""
+    "name": "Rhine"
   },
   "REG": {
-    "name": "Regensburg",
-    "desc": ""
+    "name": "Regensburg"
   },
   "ANS": {
-    "name": "Ansbach",
-    "desc": ""
+    "name": "Ansbach"
   },
   "FRE": {
-    "name": "Freising",
-    "desc": ""
+    "name": "Freising"
   },
   "EIC": {
-    "name": "Eichstätt",
-    "desc": ""
+    "name": "Eichstätt"
   },
   "WEI": {
-    "name": "Weißenburg",
-    "desc": ""
+    "name": "Weißenburg"
   },
   "NUR": {
-    "name": "Nuremberg",
-    "desc": ""
+    "name": "Nuremberg"
   },
   "WBG": {
-    "name": "Würzburg",
-    "desc": ""
+    "name": "Würzburg"
   },
   "RIE": {
-    "name": "Rieneck",
-    "desc": ""
+    "name": "Rieneck"
   },
   "MSB": {
-    "name": "Mosbach",
-    "desc": ""
+    "name": "Mosbach"
   },
   "UFF": {
-    "name": "Hohenlohe",
-    "desc": ""
+    "name": "Hohenlohe"
   },
   "ROT": {
-    "name": "Rothenburg",
-    "desc": ""
+    "name": "Rothenburg"
   },
   "DNB": {
-    "name": "Dinkelsbühl",
-    "desc": ""
+    "name": "Dinkelsbühl"
   },
   "MEM": {
-    "name": "Memmingen",
-    "desc": ""
+    "name": "Memmingen"
   },
   "KMP": {
-    "name": "Kempten",
-    "desc": ""
+    "name": "Kempten"
   },
   "ULM": {
-    "name": "Ulm",
-    "desc": ""
+    "name": "Ulm"
   },
   "KNZ": {
-    "name": "Konstanz",
-    "desc": ""
+    "name": "Konstanz"
   },
   "WUR": {
-    "name": "Württemberg",
-    "desc": ""
+    "name": "Württemberg"
   },
   "OET": {
-    "name": "Oettingen",
-    "desc": ""
+    "name": "Oettingen"
   },
   "SWH": {
-    "name": "Schwäbisch Hall",
-    "desc": ""
+    "name": "Schwäbisch Hall"
   },
   "HBR": {
-    "name": "Heilbronn",
-    "desc": ""
+    "name": "Heilbronn"
   },
   "BDE": {
-    "name": "Baden",
-    "desc": ""
+    "name": "Baden"
   },
   "WDB": {
-    "name": "Waldberg",
-    "desc": ""
+    "name": "Waldberg"
   },
   "RVA": {
-    "name": "Ravensburg",
-    "desc": ""
+    "name": "Ravensburg"
   },
   "BIB": {
-    "name": "Biberach",
-    "desc": ""
+    "name": "Biberach"
   },
   "UBL": {
-    "name": "Überlingen",
-    "desc": ""
+    "name": "Überlingen"
   },
   "HHB": {
-    "name": "Hohenberg",
-    "desc": ""
+    "name": "Hohenberg"
   },
   "FBG": {
-    "name": "Freiburg",
-    "desc": ""
+    "name": "Freiburg"
   },
   "OFB": {
-    "name": "Offenburg",
-    "desc": ""
+    "name": "Offenburg"
   },
   "WLD": {
-    "name": "Waldsassen",
-    "desc": ""
+    "name": "Waldsassen"
   },
   "OGK": {
-    "name": "Holy Roman",
-    "desc": ""
+    "name": "Holy Roman"
   },
   "ORT": {
-    "name": "Ortenburg",
-    "desc": ""
+    "name": "Ortenburg"
   },
   "BXN": {
-    "name": "Brixen",
-    "desc": ""
+    "name": "Brixen"
   },
   "VUD": {
-    "name": "Vaud",
-    "desc": ""
+    "name": "Vaud"
   },
   "MSO": {
-    "name": "Mesocco",
-    "desc": ""
+    "name": "Mesocco"
   },
   "SGL": {
-    "name": "Grey League",
-    "desc": ""
+    "name": "Grey League"
   },
   "AOS": {
-    "name": "Aosta",
-    "desc": ""
+    "name": "Aosta"
   },
   "FLK": {
-    "name": "Falkenstein",
-    "desc": ""
+    "name": "Falkenstein"
   },
   "MDS": {
-    "name": "Manderscheid",
-    "desc": ""
+    "name": "Manderscheid"
   },
   "LDA": {
-    "name": "Landau",
-    "desc": ""
+    "name": "Landau"
   },
   "VEL": {
-    "name": "Veldenz",
-    "desc": ""
+    "name": "Veldenz"
   },
   "GRY": {
-    "name": "Gruyere",
-    "desc": ""
+    "name": "Gruyere"
   },
   "TGG": {
-    "name": "Toggenburg",
-    "desc": ""
+    "name": "Toggenburg"
   },
   "PSZ": {
-    "name": "Simmern",
-    "desc": ""
+    "name": "Simmern"
   },
   "HLE": {
-    "name": "God's House League",
-    "desc": ""
+    "name": "God's House League"
   },
   "SFC": {
-    "name": "Strasbourg",
-    "desc": ""
+    "name": "Strasbourg"
   },
   "CFC": {
-    "name": "Colmar",
-    "desc": ""
+    "name": "Colmar"
   },
   "MUR": {
-    "name": "Murbach",
-    "desc": ""
+    "name": "Murbach"
   },
   "HAG": {
-    "name": "Haguenau",
-    "desc": ""
+    "name": "Haguenau"
   },
   "MUL": {
-    "name": "Mulhouse",
-    "desc": ""
+    "name": "Mulhouse"
   },
   "LIC": {
-    "name": "Lichtenberg",
-    "desc": ""
+    "name": "Lichtenberg"
   },
   "BLM": {
-    "name": "Belmont",
-    "desc": ""
+    "name": "Belmont"
   },
   "DIS": {
-    "name": "Disentis",
-    "desc": ""
+    "name": "Disentis"
   },
   "FUR": {
-    "name": "Fürstenberg",
-    "desc": ""
+    "name": "Fürstenberg"
   },
   "GRK": {
-    "name": "Gurk",
-    "desc": ""
+    "name": "Gurk"
   },
   "HAC": {
-    "name": "Hachberg",
-    "desc": ""
+    "name": "Hachberg"
   },
   "SAW": {
-    "name": "Saarwerden",
-    "desc": ""
+    "name": "Saarwerden"
   },
   "SAB": {
-    "name": "Sausenberg",
-    "desc": ""
+    "name": "Sausenberg"
   },
   "THD": {
-    "name": "Truhendingen",
-    "desc": ""
+    "name": "Truhendingen"
   },
   "ELL": {
-    "name": "Ellwangen",
-    "desc": ""
+    "name": "Ellwangen"
   },
   "HEH": {
-    "name": "Heidenheim",
-    "desc": ""
+    "name": "Heidenheim"
   },
   "HLF": {
-    "name": "Helfenstein",
-    "desc": ""
+    "name": "Helfenstein"
   },
   "HOH": {
-    "name": "Hohenzollern",
-    "desc": ""
+    "name": "Hohenzollern"
   },
   "KIR": {
-    "name": "Kirchberg",
-    "desc": ""
+    "name": "Kirchberg"
   },
   "NEL": {
-    "name": "Nellenburg",
-    "desc": ""
+    "name": "Nellenburg"
   },
   "TUB": {
-    "name": "Tübingen",
-    "desc": ""
+    "name": "Tübingen"
   },
   "LEU": {
-    "name": "Leuchtenberg",
-    "desc": ""
+    "name": "Leuchtenberg"
   },
   "GLH": {
-    "name": "Jochi",
-    "desc": ""
+    "name": "Jochi"
   },
   "CRI": {
-    "name": "Crimea",
-    "desc": ""
+    "name": "Crimea"
   },
   "NOG": {
-    "name": "Nogai",
-    "desc": ""
+    "name": "Nogai"
   },
   "ATR": {
-    "name": "Astrakhan",
-    "desc": ""
+    "name": "Astrakhan"
   },
   "FEO": {
-    "name": "Theodoro",
-    "desc": ""
+    "name": "Theodoro"
   },
   "BSH": {
-    "name": "Bashkir",
-    "desc": ""
+    "name": "Bashkir"
   },
   "MGE": {
-    "name": "Mongolia",
-    "desc": ""
+    "name": "Mongolia"
   },
   "GAZ": {
-    "name": "Gazaria",
-    "desc": ""
+    "name": "Gazaria"
   },
   "JOL": {
-    "name": "Jolof",
-    "desc": ""
+    "name": "Jolof"
   },
   "FUL": {
-    "name": "Great Fulo",
-    "desc": ""
+    "name": "Great Fulo"
   },
   "MPR": {
-    "name": "Mamprugu",
-    "desc": ""
+    "name": "Mamprugu"
   },
   "DGB": {
-    "name": "Dagbon",
-    "desc": ""
+    "name": "Dagbon"
   },
   "KNG": {
-    "name": "Kong",
-    "desc": ""
+    "name": "Kong"
   },
   "BON": {
-    "name": "Bonoman",
-    "desc": ""
+    "name": "Bonoman"
   },
   "GYA": {
-    "name": "Gyaaman",
-    "desc": ""
+    "name": "Gyaaman"
   },
   "MNK": {
-    "name": "Mankessim",
-    "desc": ""
+    "name": "Mankessim"
   },
   "ZZZ": {
-    "name": "Zazzau",
-    "desc": ""
+    "name": "Zazzau"
   },
   "NUP": {
-    "name": "Nupe",
-    "desc": ""
+    "name": "Nupe"
   },
   "BEN": {
-    "name": "Benin",
-    "desc": ""
+    "name": "Benin"
   },
   "OYO": {
-    "name": "Oyo",
-    "desc": ""
+    "name": "Oyo"
   },
   "IFE": {
-    "name": "Ife",
-    "desc": ""
+    "name": "Ife"
   },
   "OWO": {
-    "name": "Owo",
-    "desc": ""
+    "name": "Owo"
   },
   "IJB": {
-    "name": "Ijebu",
-    "desc": ""
+    "name": "Ijebu"
   },
   "ISO": {
-    "name": "Isedo",
-    "desc": ""
+    "name": "Isedo"
   },
   "IYA": {
-    "name": "Ila Yara",
-    "desc": ""
+    "name": "Ila Yara"
   },
   "OKE": {
-    "name": "Oke-Ila",
-    "desc": ""
+    "name": "Oke-Ila"
   },
   "IJE": {
-    "name": "Ijero",
-    "desc": ""
+    "name": "Ijero"
   },
   "ADO": {
-    "name": "Ado",
-    "desc": ""
+    "name": "Ado"
   },
   "IJS": {
-    "name": "Ijesha",
-    "desc": ""
+    "name": "Ijesha"
   },
   "AKR": {
-    "name": "Akure",
-    "desc": ""
+    "name": "Akure"
   },
   "OND": {
-    "name": "Ondo",
-    "desc": ""
+    "name": "Ondo"
   },
   "AWO": {
-    "name": "Awori",
-    "desc": ""
+    "name": "Awori"
   },
   "KET": {
-    "name": "Ketu",
-    "desc": ""
+    "name": "Ketu"
   },
   "NRI": {
-    "name": "Nri",
-    "desc": ""
+    "name": "Nri"
   },
   "BMR": {
-    "name": "Bambara",
-    "desc": ""
+    "name": "Bambara"
   },
   "KBR": {
-    "name": "Kabura",
-    "desc": ""
+    "name": "Kabura"
   },
   "ZGH": {
-    "name": "Zagha",
-    "desc": ""
+    "name": "Zagha"
   },
   "BBK": {
-    "name": "Bambuk",
-    "desc": ""
+    "name": "Bambuk"
   },
   "DFN": {
-    "name": "Diafunu",
-    "desc": ""
+    "name": "Diafunu"
   },
   "GHA": {
-    "name": "Ghana",
-    "desc": ""
+    "name": "Ghana"
   },
   "KAB": {
-    "name": "Kaabu",
-    "desc": ""
+    "name": "Kaabu"
   },
   "MAL": {
-    "name": "Mali",
-    "desc": ""
+    "name": "Mali"
   },
   "SGH": {
-    "name": "Sanghana",
-    "desc": ""
+    "name": "Sanghana"
   },
   "TKR": {
-    "name": "Takrur",
-    "desc": ""
+    "name": "Takrur"
   },
   "TMK": {
-    "name": "Tadmekka",
-    "desc": ""
+    "name": "Tadmekka"
   },
   "TMB": {
-    "name": "Timbuktu",
-    "desc": ""
+    "name": "Timbuktu"
   },
   "TRG": {
-    "name": "Tuareg",
-    "desc": ""
+    "name": "Tuareg"
   },
   "SON": {
-    "name": "Songhai",
-    "desc": ""
+    "name": "Songhai"
   },
   "TFK": {
-    "name": "Tirafka",
-    "desc": ""
+    "name": "Tirafka"
   },
   "BOR": {
-    "name": "Borgu",
-    "desc": ""
+    "name": "Borgu"
   },
   "OUA": {
-    "name": "Wagadugu",
-    "desc": ""
+    "name": "Wagadugu"
   },
   "GWI": {
-    "name": "Gwiriko",
-    "desc": ""
+    "name": "Gwiriko"
   },
   "LIP": {
-    "name": "Liptako",
-    "desc": ""
+    "name": "Liptako"
   },
   "YAT": {
-    "name": "Yatenga",
-    "desc": ""
+    "name": "Yatenga"
   },
   "TEN": {
-    "name": "Tenkodogo",
-    "desc": ""
+    "name": "Tenkodogo"
   },
   "BSM": {
-    "name": "Boussouma",
-    "desc": ""
+    "name": "Boussouma"
   },
   "GUR": {
-    "name": "Fada N'gourma",
-    "desc": ""
+    "name": "Fada N'gourma"
   },
   "KAN": {
-    "name": "Kano",
-    "desc": ""
+    "name": "Kano"
   },
   "KTS": {
-    "name": "Katsina",
-    "desc": ""
+    "name": "Katsina"
   },
   "ZAM": {
-    "name": "Zamfara",
-    "desc": ""
+    "name": "Zamfara"
   },
   "KEB": {
-    "name": "Kebbi",
-    "desc": ""
+    "name": "Kebbi"
   },
   "RAN": {
-    "name": "Rano",
-    "desc": ""
+    "name": "Rano"
   },
   "GOB": {
-    "name": "Gobir",
-    "desc": ""
+    "name": "Gobir"
   },
   "DAA": {
-    "name": "Daura",
-    "desc": ""
+    "name": "Daura"
   },
   "KBO": {
-    "name": "Kanem",
-    "desc": ""
+    "name": "Kanem"
   },
   "YAO": {
-    "name": "Bilala",
-    "desc": ""
+    "name": "Bilala"
   },
   "KOT": {
-    "name": "Sao",
-    "desc": ""
+    "name": "Sao"
   },
   "BGI": {
-    "name": "Baguirmi",
-    "desc": ""
+    "name": "Baguirmi"
   },
   "MDR": {
-    "name": "Mandara",
-    "desc": ""
+    "name": "Mandara"
   },
   "ZGW": {
-    "name": "Zaghawa",
-    "desc": ""
+    "name": "Zaghawa"
   },
   "WAD": {
-    "name": "Wadai",
-    "desc": ""
+    "name": "Wadai"
   },
   "DAH": {
-    "name": "Dahomey",
-    "desc": ""
+    "name": "Dahomey"
   },
   "KLP": {
-    "name": "Kalapuya",
-    "desc": ""
+    "name": "Kalapuya"
   },
   "CNK": {
-    "name": "Chinook",
-    "desc": ""
+    "name": "Chinook"
   },
   "TSA": {
-    "name": "Tsamosa",
-    "desc": ""
+    "name": "Tsamosa"
   },
   "MKH": {
-    "name": "Makah",
-    "desc": ""
+    "name": "Makah"
   },
   "SKL": {
-    "name": "S'Klallam",
-    "desc": ""
+    "name": "S'Klallam"
   },
   "TWN": {
-    "name": "Twana",
-    "desc": ""
+    "name": "Twana"
   },
   "LHT": {
-    "name": "Lushootseed",
-    "desc": ""
+    "name": "Lushootseed"
   },
   "LHQ": {
-    "name": "Lhaq'temish",
-    "desc": ""
+    "name": "Lhaq'temish"
   },
   "HLM": {
-    "name": "Halkomelem",
-    "desc": ""
+    "name": "Halkomelem"
   },
   "SQH": {
-    "name": "Squamish",
-    "desc": ""
+    "name": "Squamish"
   },
   "KMK": {
-    "name": "K'omoks",
-    "desc": ""
+    "name": "K'omoks"
   },
   "NOO": {
-    "name": "Nootkah",
-    "desc": ""
+    "name": "Nootkah"
   },
   "KWA": {
-    "name": "Kwakiutl",
-    "desc": ""
+    "name": "Kwakiutl"
   },
   "OOW": {
-    "name": "Oowekyala",
-    "desc": ""
+    "name": "Oowekyala"
   },
   "NUX": {
-    "name": "Nuxalc",
-    "desc": ""
+    "name": "Nuxalc"
   },
   "HLK": {
-    "name": "Heiltsuk",
-    "desc": ""
+    "name": "Heiltsuk"
   },
   "HLA": {
-    "name": "Haisla",
-    "desc": ""
+    "name": "Haisla"
   },
   "TMH": {
-    "name": "Tsimishia",
-    "desc": ""
+    "name": "Tsimishia"
   },
   "XDA": {
-    "name": "Xaayda",
-    "desc": ""
+    "name": "Xaayda"
   },
   "TLG": {
-    "name": "Tlingit",
-    "desc": ""
+    "name": "Tlingit"
   }
 }

@@ -1,8910 +1,6977 @@
 {
-  "DUMMY": {
-    "name": "（占位符）",
-    "desc": ""
-  },
-  "PIR": {
-    "name": "海盗",
-    "desc": ""
-  },
-  "MER": {
-    "name": "雇佣兵",
-    "desc": ""
-  },
   "SWE": {
-    "name": "瑞典",
-    "desc": ""
+    "name": "瑞典"
   },
   "DAN": {
-    "name": "丹麦",
-    "desc": ""
+    "name": "丹麦"
   },
   "SKE": {
-    "name": "斯堪尼亚",
-    "desc": ""
+    "name": "斯堪尼亚"
   },
   "NOR": {
-    "name": "挪威",
-    "desc": ""
+    "name": "挪威"
   },
   "FIN": {
-    "name": "芬兰",
-    "desc": ""
+    "name": "芬兰"
   },
   "BJA": {
-    "name": "比亚尔米亚",
-    "desc": ""
+    "name": "比亚尔米亚"
   },
   "TAV": {
-    "name": "塔瓦斯特兰",
-    "desc": ""
+    "name": "塔瓦斯特兰"
   },
   "KVE": {
-    "name": "克文兰",
-    "desc": ""
+    "name": "克文兰"
   },
   "SVO": {
-    "name": "萨沃拉克斯",
-    "desc": ""
+    "name": "萨沃拉克斯"
   },
   "ICE": {
-    "name": "冰岛",
-    "desc": ""
+    "name": "冰岛"
   },
   "GRL": {
-    "name": "格陵兰",
-    "desc": ""
+    "name": "格陵兰"
   },
   "SMI": {
-    "name": "萨普米",
-    "desc": ""
+    "name": "萨普米"
   },
   "AHI": {
-    "name": "艾赫",
-    "desc": ""
+    "name": "艾赫"
   },
   "ALY": {
-    "name": "阿拉耶",
-    "desc": ""
+    "name": "阿拉耶"
   },
   "ATQ": {
-    "name": "阿尔图格",
-    "desc": ""
+    "name": "阿尔图格"
   },
   "AYD": {
-    "name": "艾登",
-    "desc": ""
+    "name": "艾登"
   },
   "BFR": {
-    "name": "巴夫拉",
-    "desc": ""
+    "name": "巴夫拉"
   },
   "CIL": {
-    "name": "奇里乞亚",
-    "desc": ""
+    "name": "奇里乞亚"
   },
   "CND": {
-    "name": "詹达尔",
-    "desc": ""
+    "name": "詹达尔"
   },
   "CYP": {
-    "name": "塞浦路斯",
-    "desc": ""
+    "name": "塞浦路斯"
   },
   "DIL": {
-    "name": "迪尔马奇",
-    "desc": ""
+    "name": "迪尔马奇"
   },
   "DUL": {
-    "name": "杜尔卡迪尔",
-    "desc": ""
+    "name": "杜尔卡迪尔"
   },
   "ERE": {
-    "name": "埃雷特纳",
-    "desc": ""
+    "name": "埃雷特纳"
   },
   "GRM": {
-    "name": "盖尔米扬",
-    "desc": ""
+    "name": "盖尔米扬"
   },
   "HMD": {
-    "name": "哈米德",
-    "desc": ""
+    "name": "哈米德"
   },
   "HCI": {
-    "name": "哈吉埃米尔",
-    "desc": ""
+    "name": "哈吉埃米尔"
   },
   "HSN": {
-    "name": "阿尤布",
-    "desc": ""
+    "name": "阿尤布"
   },
   "INA": {
-    "name": "伊南奇",
-    "desc": ""
+    "name": "伊南奇"
   },
   "KAR": {
-    "name": "卡拉曼",
-    "desc": ""
+    "name": "卡拉曼"
   },
   "KBD": {
-    "name": "库巴德",
-    "desc": ""
+    "name": "库巴德"
   },
   "KRD": {
-    "name": "卡拉斯",
-    "desc": ""
+    "name": "卡拉斯"
   },
   "MEN": {
-    "name": "门泰谢",
-    "desc": ""
+    "name": "门泰谢"
   },
   "SHP": {
-    "name": "萨希布‑阿塔",
-    "desc": ""
+    "name": "萨希布‑阿塔"
   },
   "SRU": {
-    "name": "萨鲁汗",
-    "desc": ""
+    "name": "萨鲁汗"
   },
   "SUT": {
-    "name": "速台",
-    "desc": ""
+    "name": "速台"
   },
   "TDJ": {
-    "name": "塔杰迪尼",
-    "desc": ""
+    "name": "塔杰迪尼"
   },
   "TEK": {
-    "name": "泰凯",
-    "desc": ""
+    "name": "泰凯"
   },
   "TRE": {
-    "name": "特拉比松",
-    "desc": ""
+    "name": "特拉比松"
   },
   "TUR": {
-    "name": "奥斯曼",
-    "desc": ""
+    "name": "奥斯曼"
   },
   "BHT": {
-    "name": "博赫丹",
-    "desc": ""
+    "name": "博赫丹"
   },
   "BIN": {
-    "name": "恰帕克丘尔",
-    "desc": ""
+    "name": "恰帕克丘尔"
   },
   "BIT": {
-    "name": "比特利斯",
-    "desc": ""
+    "name": "比特利斯"
   },
   "CEM": {
-    "name": "切米什盖泽克",
-    "desc": ""
+    "name": "切米什盖泽克"
   },
   "DSN": {
-    "name": "达斯尼",
-    "desc": ""
+    "name": "达斯尼"
   },
   "DMB": {
-    "name": "东博利‑博赫特",
-    "desc": ""
+    "name": "东博利‑博赫特"
   },
   "EGL": {
-    "name": "埃伊尔",
-    "desc": ""
+    "name": "埃伊尔"
   },
   "HKK": {
-    "name": "哈卡里",
-    "desc": ""
+    "name": "哈卡里"
   },
   "HZN": {
-    "name": "希赞",
-    "desc": ""
+    "name": "希赞"
   },
   "HZR": {
-    "name": "哈兹里",
-    "desc": ""
+    "name": "哈兹里"
   },
   "JLM": {
-    "name": "乔勒马克",
-    "desc": ""
+    "name": "乔勒马克"
   },
   "MZJ": {
-    "name": "马赞贾尼",
-    "desc": ""
+    "name": "马赞贾尼"
   },
   "MUS": {
-    "name": "穆什",
-    "desc": ""
+    "name": "穆什"
   },
   "SOH": {
-    "name": "索赫里",
-    "desc": ""
+    "name": "索赫里"
   },
   "ZRQ": {
-    "name": "齐尔坎",
-    "desc": ""
+    "name": "齐尔坎"
   },
   "ZZR": {
-    "name": "泽尔扎里",
-    "desc": ""
+    "name": "泽尔扎里"
   },
   "KIL": {
-    "name": "基利斯",
-    "desc": ""
+    "name": "基利斯"
   },
   "TVS": {
-    "name": "塔瓦斯",
-    "desc": ""
+    "name": "塔瓦斯"
   },
   "QTO": {
-    "name": "基多",
-    "desc": ""
+    "name": "基多"
   },
   "CHM": {
-    "name": "奇穆",
-    "desc": ""
+    "name": "奇穆"
   },
   "XLL": {
-    "name": "什扬",
-    "desc": ""
+    "name": "什扬"
   },
   "CYA": {
-    "name": "查查波亚",
-    "desc": ""
+    "name": "查查波亚"
   },
   "TLN": {
-    "name": "塔阳",
-    "desc": ""
+    "name": "塔阳"
   },
   "ICM": {
-    "name": "依其马",
-    "desc": ""
+    "name": "依其马"
   },
   "WAN": {
-    "name": "万卡",
-    "desc": ""
+    "name": "万卡"
   },
   "HNK": {
-    "name": "哈南·昌卡",
-    "desc": ""
+    "name": "哈南·昌卡"
   },
   "URC": {
-    "name": "乌林·昌卡",
-    "desc": ""
+    "name": "乌林·昌卡"
   },
   "CIC": {
-    "name": "钦查",
-    "desc": ""
+    "name": "钦查"
   },
   "CSU": {
-    "name": "库斯科",
-    "desc": ""
+    "name": "库斯科"
   },
   "AYA": {
-    "name": "阿亚尔马卡",
-    "desc": ""
+    "name": "阿亚尔马卡"
   },
   "PIG": {
-    "name": "皮纳瓜",
-    "desc": ""
+    "name": "皮纳瓜"
   },
   "PCJ": {
-    "name": "帕卡贾基斯",
-    "desc": ""
+    "name": "帕卡贾基斯"
   },
   "LUP": {
-    "name": "卢皮哈基",
-    "desc": ""
+    "name": "卢皮哈基"
   },
   "OMG": {
-    "name": "奥马瓦卡",
-    "desc": ""
+    "name": "奥马瓦卡"
   },
   "CAV": {
-    "name": "卡尔瓦",
-    "desc": ""
+    "name": "卡尔瓦"
   },
   "MLT": {
-    "name": "马拉卡托",
-    "desc": ""
+    "name": "马拉卡托"
   },
   "GRR": {
-    "name": "加罗钱巴",
-    "desc": ""
+    "name": "加罗钱巴"
   },
   "MNT": {
-    "name": "曼塔",
-    "desc": ""
+    "name": "曼塔"
   },
   "GCV": {
-    "name": "万卡维尔卡",
-    "desc": ""
+    "name": "万卡维尔卡"
   },
   "BBA": {
-    "name": "巴巴",
-    "desc": ""
+    "name": "巴巴"
   },
   "SLL": {
-    "name": "沙巴卢拉",
-    "desc": ""
+    "name": "沙巴卢拉"
   },
   "HKR": {
-    "name": "哈通卡尼亚尔",
-    "desc": ""
+    "name": "哈通卡尼亚尔"
   },
   "CAX": {
-    "name": "卡兰基",
-    "desc": ""
+    "name": "卡兰基"
   },
   "PUU": {
-    "name": "普鲁哈",
-    "desc": ""
+    "name": "普鲁哈"
   },
   "CRA": {
-    "name": "查克拉",
-    "desc": ""
+    "name": "查克拉"
   },
   "KNA": {
-    "name": "卡纳",
-    "desc": ""
+    "name": "卡纳"
   },
   "KRK": {
-    "name": "卡朗卡",
-    "desc": ""
+    "name": "卡朗卡"
   },
   "QUL": {
-    "name": "库尧",
-    "desc": ""
+    "name": "库尧"
   },
   "SUR": {
-    "name": "苏拉",
-    "desc": ""
+    "name": "苏拉"
   },
   "PUK": {
-    "name": "普卡穆鲁",
-    "desc": ""
+    "name": "普卡穆鲁"
   },
   "BAG": {
-    "name": "巴瓜",
-    "desc": ""
+    "name": "巴瓜"
   },
   "HCH": {
-    "name": "瓦马丘科",
-    "desc": ""
+    "name": "瓦马丘科"
   },
   "CUI": {
-    "name": "奎斯曼库",
-    "desc": ""
+    "name": "奎斯曼库"
   },
   "HUA": {
-    "name": "瓦伊拉斯",
-    "desc": ""
+    "name": "瓦伊拉斯"
   },
   "XAU": {
-    "name": "豪哈",
-    "desc": ""
+    "name": "豪哈"
   },
   "CSA": {
-    "name": "卡斯马",
-    "desc": ""
+    "name": "卡斯马"
   },
   "CLQ": {
-    "name": "科利克",
-    "desc": ""
+    "name": "科利克"
   },
   "NTA": {
-    "name": "坎塔",
-    "desc": ""
+    "name": "坎塔"
   },
   "ATV": {
-    "name": "阿塔维约斯",
-    "desc": ""
+    "name": "阿塔维约斯"
   },
   "YAW": {
-    "name": "亚维尤",
-    "desc": ""
+    "name": "亚维尤"
   },
   "CCY": {
-    "name": "钱凯",
-    "desc": ""
+    "name": "钱凯"
   },
   "HPP": {
-    "name": "万卡潘帕",
-    "desc": ""
+    "name": "万卡潘帕"
   },
   "HCR": {
-    "name": "瓦克拉丘科",
-    "desc": ""
+    "name": "瓦克拉丘科"
   },
   "HRC": {
-    "name": "瓦尔科",
-    "desc": ""
+    "name": "瓦尔科"
   },
   "SRA": {
-    "name": "索拉",
-    "desc": ""
+    "name": "索拉"
   },
   "MYM": {
-    "name": "马永马尔卡",
-    "desc": ""
+    "name": "马永马尔卡"
   },
   "PCR": {
-    "name": "波克拉",
-    "desc": ""
+    "name": "波克拉"
   },
   "PCO": {
-    "name": "帕里纳科查",
-    "desc": ""
+    "name": "帕里纳科查"
   },
   "ANI": {
-    "name": "阿鲁尼",
-    "desc": ""
+    "name": "阿鲁尼"
   },
   "CHJ": {
-    "name": "丘拉洪",
-    "desc": ""
+    "name": "丘拉洪"
   },
   "CBY": {
-    "name": "奇里巴亚",
-    "desc": ""
+    "name": "奇里巴亚"
   },
   "CNC": {
-    "name": "坎奇",
-    "desc": ""
+    "name": "坎奇"
   },
   "LLG": {
-    "name": "科利亚瓜",
-    "desc": ""
+    "name": "科利亚瓜"
   },
   "AMN": {
-    "name": "卡马纳",
-    "desc": ""
+    "name": "卡马纳"
   },
   "UMA": {
-    "name": "乌马苏尤斯",
-    "desc": ""
+    "name": "乌马苏尤斯"
   },
   "QQH": {
-    "name": "卡拉卡拉",
-    "desc": ""
+    "name": "卡拉卡拉"
   },
   "CCT": {
-    "name": "坎图马尔卡尼",
-    "desc": ""
+    "name": "坎图马尔卡尼"
   },
   "TUP": {
-    "name": "图皮萨",
-    "desc": ""
+    "name": "图皮萨"
   },
   "CHW": {
-    "name": "丘维",
-    "desc": ""
+    "name": "丘维"
   },
   "KWY": {
-    "name": "卡亚瓦亚",
-    "desc": ""
+    "name": "卡亚瓦亚"
   },
   "KLL": {
-    "name": "基利亚卡",
-    "desc": ""
+    "name": "基利亚卡"
   },
   "KKE": {
-    "name": "基利克",
-    "desc": ""
+    "name": "基利克"
   },
   "CNO": {
-    "name": "乔诺",
-    "desc": ""
+    "name": "乔诺"
   },
   "BAU": {
-    "name": "鲍雷",
-    "desc": ""
+    "name": "鲍雷"
   },
   "ALC": {
-    "name": "阿伦蒂亚克",
-    "desc": ""
+    "name": "阿伦蒂亚克"
   },
   "MYC": {
-    "name": "米尔卡亚克",
-    "desc": ""
+    "name": "米尔卡亚克"
   },
   "PHE": {
-    "name": "皮昆切",
-    "desc": ""
+    "name": "皮昆切"
   },
   "CPU": {
-    "name": "库奎姆普",
-    "desc": ""
+    "name": "库奎姆普"
   },
   "CYC": {
-    "name": "科帕亚库",
-    "desc": ""
+    "name": "科帕亚库"
   },
   "CCH": {
-    "name": "查尔查奇",
-    "desc": ""
+    "name": "查尔查奇"
   },
   "QIM": {
-    "name": "基尔梅斯",
-    "desc": ""
+    "name": "基尔梅斯"
   },
   "QTR": {
-    "name": "基多尔",
-    "desc": ""
+    "name": "基多尔"
   },
   "YEM": {
-    "name": "也门",
-    "desc": ""
+    "name": "也门"
   },
   "JRW": {
-    "name": "贾尔万",
-    "desc": ""
+    "name": "贾尔万"
   },
   "OMA": {
-    "name": "阿曼",
-    "desc": ""
+    "name": "阿曼"
   },
   "MEC": {
-    "name": "麦加",
-    "desc": ""
+    "name": "麦加"
   },
   "SHM": {
-    "name": "舍迈尔",
-    "desc": ""
+    "name": "舍迈尔"
   },
   "ANZ": {
-    "name": "阿尼扎",
-    "desc": ""
+    "name": "阿尼扎"
   },
   "HUT": {
-    "name": "胡泰姆",
-    "desc": ""
+    "name": "胡泰姆"
   },
   "HRB": {
-    "name": "哈尔卜",
-    "desc": ""
+    "name": "哈尔卜"
   },
   "MUT": {
-    "name": "穆塔伊尔",
-    "desc": ""
+    "name": "穆塔伊尔"
   },
   "UTB": {
-    "name": "乌泰巴",
-    "desc": ""
+    "name": "乌泰巴"
   },
   "DWS": {
-    "name": "代瓦西尔",
-    "desc": ""
+    "name": "代瓦西尔"
   },
   "QHT": {
-    "name": "盖哈坦",
-    "desc": ""
+    "name": "盖哈坦"
   },
   "SBY": {
-    "name": "苏拜",
-    "desc": ""
+    "name": "苏拜"
   },
   "MRH": {
-    "name": "穆拉",
-    "desc": ""
+    "name": "穆拉"
   },
   "YAM": {
-    "name": "亚姆",
-    "desc": ""
+    "name": "亚姆"
   },
   "YAS": {
-    "name": "亚斯",
-    "desc": ""
+    "name": "亚斯"
   },
   "MDA": {
-    "name": "麦地那",
-    "desc": ""
+    "name": "麦地那"
   },
   "KLB": {
-    "name": "基拉卜",
-    "desc": ""
+    "name": "基拉卜"
   },
   "AAD": {
-    "name": "阿伊兹",
-    "desc": ""
+    "name": "阿伊兹"
   },
   "BNL": {
-    "name": "拉姆",
-    "desc": ""
+    "name": "拉姆"
   },
   "AZF": {
-    "name": "扎菲尔",
-    "desc": ""
+    "name": "扎菲尔"
   },
   "ZIB": {
-    "name": "齐卜",
-    "desc": ""
+    "name": "齐卜"
   },
   "DHF": {
-    "name": "佐法尔",
-    "desc": ""
+    "name": "佐法尔"
   },
   "ACX": {
-    "name": "阿卡塞",
-    "desc": ""
+    "name": "阿卡塞"
   },
   "COP": {
-    "name": "哈维希‑库尼查瓦伊",
-    "desc": ""
+    "name": "哈维希‑库尼查瓦伊"
   },
   "GUC": {
-    "name": "夸乌奇奇尔",
-    "desc": ""
+    "name": "夸乌奇奇尔"
   },
   "YRM": {
-    "name": "约雷梅",
-    "desc": ""
+    "name": "约雷梅"
   },
   "EUD": {
-    "name": "尤德韦",
-    "desc": ""
+    "name": "尤德韦"
   },
   "TGU": {
-    "name": "特圭斯",
-    "desc": ""
+    "name": "特圭斯"
   },
   "JOV": {
-    "name": "霍瓦斯",
-    "desc": ""
+    "name": "霍瓦斯"
   },
   "TEG": {
-    "name": "特圭马",
-    "desc": ""
+    "name": "特圭马"
   },
   "CNH": {
-    "name": "卡维纳奇斯",
-    "desc": ""
+    "name": "卡维纳奇斯"
   },
   "PIM": {
-    "name": "阿基梅尔奥德汉",
-    "desc": ""
+    "name": "阿基梅尔奥德汉"
   },
   "HHK": {
-    "name": "霍霍坎",
-    "desc": ""
+    "name": "霍霍坎"
   },
   "SOB": {
-    "name": "索拜普里",
-    "desc": ""
+    "name": "索拜普里"
   },
   "TOO": {
-    "name": "托霍诺奥德汉",
-    "desc": ""
+    "name": "托霍诺奥德汉"
   },
   "OOB": {
-    "name": "奥奥布",
-    "desc": ""
+    "name": "奥奥布"
   },
   "RAR": {
-    "name": "拉拉穆里",
-    "desc": ""
+    "name": "拉拉穆里"
   },
   "YAQ": {
-    "name": "亚基",
-    "desc": ""
+    "name": "亚基"
   },
   "HOP": {
-    "name": "霍皮",
-    "desc": ""
+    "name": "霍皮"
   },
   "DNE": {
-    "name": "迪内",
-    "desc": ""
+    "name": "迪内"
   },
   "ZNI": {
-    "name": "祖尼",
-    "desc": ""
+    "name": "祖尼"
   },
   "TEY": {
-    "name": "泰帕纳",
-    "desc": ""
+    "name": "泰帕纳"
   },
   "ISL": {
-    "name": "希维巴克",
-    "desc": ""
+    "name": "希维巴克"
   },
   "ACO": {
-    "name": "阿库",
-    "desc": ""
+    "name": "阿库"
   },
   "KER": {
-    "name": "齐亚",
-    "desc": ""
+    "name": "齐亚"
   },
   "TNN": {
-    "name": "塔诺",
-    "desc": ""
+    "name": "塔诺"
   },
   "TAO": {
-    "name": "亚洛法伊博",
-    "desc": ""
+    "name": "亚洛法伊博"
   },
   "TST": {
-    "name": "图夫舒尔蒂亚",
-    "desc": ""
+    "name": "图夫舒尔蒂亚"
   },
   "OHK": {
-    "name": "奥奎‑奥温格",
-    "desc": ""
+    "name": "奥奎‑奥温格"
   },
   "TTR": {
-    "name": "托托拉梅",
-    "desc": ""
+    "name": "托托拉梅"
   },
   "XIX": {
-    "name": "希希梅",
-    "desc": ""
+    "name": "希希梅"
   },
   "TAE": {
-    "name": "塔惠",
-    "desc": ""
+    "name": "塔惠"
   },
   "GUV": {
-    "name": "瓜萨韦",
-    "desc": ""
+    "name": "瓜萨韦"
   },
   "TPH": {
-    "name": "特佩万",
-    "desc": ""
+    "name": "特佩万"
   },
   "XUM": {
-    "name": "休马诺斯",
-    "desc": ""
+    "name": "休马诺斯"
   },
   "TML": {
-    "name": "塔毛利特科",
-    "desc": ""
+    "name": "塔毛利特科"
   },
   "CAD": {
-    "name": "哈西奈",
-    "desc": ""
+    "name": "哈西奈"
   },
   "KIH": {
-    "name": "基泰什",
-    "desc": ""
+    "name": "基泰什"
   },
   "HTS": {
-    "name": "希萨齐农",
-    "desc": ""
+    "name": "希萨齐农"
   },
   "NUW": {
-    "name": "努维",
-    "desc": ""
+    "name": "努维"
   },
   "NWV": {
-    "name": "努武",
-    "desc": ""
+    "name": "努武"
   },
   "CRO": {
-    "name": "克罗地亚",
-    "desc": ""
+    "name": "克罗地亚"
   },
   "ACH": {
-    "name": "亚该亚",
-    "desc": ""
+    "name": "亚该亚"
   },
   "ATH": {
-    "name": "雅典",
-    "desc": ""
+    "name": "雅典"
   },
   "CEP": {
-    "name": "凯法洛尼亚",
-    "desc": ""
+    "name": "凯法洛尼亚"
   },
   "LAT": {
-    "name": "君士坦丁堡",
-    "desc": ""
+    "name": "君士坦丁堡"
   },
   "NAX": {
-    "name": "纳克索斯",
-    "desc": ""
+    "name": "纳克索斯"
   },
   "EPI": {
-    "name": "伊庇鲁斯",
-    "desc": ""
+    "name": "伊庇鲁斯"
   },
   "BYZ": {
-    "name": "拜占庭",
-    "desc": ""
+    "name": "拜占庭"
   },
   "THE": {
-    "name": "帖撒罗尼迦",
-    "desc": ""
+    "name": "帖撒罗尼迦"
   },
   "THS": {
-    "name": "色萨利",
-    "desc": ""
+    "name": "色萨利"
   },
   "SER": {
-    "name": "塞尔维亚",
-    "desc": ""
+    "name": "塞尔维亚"
   },
   "ALB": {
-    "name": "阿尔巴尼亚",
-    "desc": ""
+    "name": "阿尔巴尼亚"
   },
   "THP": {
-    "name": "托皮亚",
-    "desc": ""
+    "name": "托皮亚"
   },
   "MZK": {
-    "name": "穆扎卡",
-    "desc": ""
+    "name": "穆扎卡"
   },
   "ANT": {
-    "name": "阿里亚尼蒂",
-    "desc": ""
+    "name": "阿里亚尼蒂"
   },
   "MTR": {
-    "name": "马特兰加",
-    "desc": ""
+    "name": "马特兰加"
   },
   "BOS": {
-    "name": "波斯尼亚",
-    "desc": ""
+    "name": "波斯尼亚"
   },
   "RAG": {
-    "name": "拉古萨",
-    "desc": ""
+    "name": "拉古萨"
   },
   "BUL": {
-    "name": "保加利亚",
-    "desc": ""
+    "name": "保加利亚"
   },
   "VID": {
-    "name": "维丁",
-    "desc": ""
+    "name": "维丁"
   },
   "CLI": {
-    "name": "采列",
-    "desc": ""
+    "name": "采列"
   },
   "NEO": {
-    "name": "新帕特里亚",
-    "desc": ""
+    "name": "新帕特里亚"
   },
   "BOD": {
-    "name": "博多尼察",
-    "desc": ""
+    "name": "博多尼察"
   },
   "ARG": {
-    "name": "阿尔戈斯",
-    "desc": ""
+    "name": "阿尔戈斯"
   },
   "KNI": {
-    "name": "医院",
-    "desc": ""
+    "name": "医院"
   },
   "CRT": {
-    "name": "干地亚",
-    "desc": ""
+    "name": "干地亚"
   },
   "NEG": {
-    "name": "内格罗蓬特",
-    "desc": ""
+    "name": "内格罗蓬特"
   },
   "SAO": {
-    "name": "萨洛纳",
-    "desc": ""
+    "name": "萨洛纳"
   },
   "CAR": {
-    "name": "卡尼奥拉",
-    "desc": ""
+    "name": "卡尼奥拉"
   },
   "TRO": {
-    "name": "特拉武尼亚",
-    "desc": ""
+    "name": "特拉武尼亚"
   },
   "GOR": {
-    "name": "戈里齐亚",
-    "desc": ""
+    "name": "戈里齐亚"
   },
   "LIV": {
-    "name": "利沃尼亚",
-    "desc": ""
+    "name": "利沃尼亚"
   },
   "TEU": {
-    "name": "条顿",
-    "desc": ""
+    "name": "条顿"
   },
   "ERM": {
-    "name": "瓦尔米亚",
-    "desc": ""
+    "name": "瓦尔米亚"
   },
   "CHL": {
-    "name": "海乌姆诺",
-    "desc": ""
+    "name": "海乌姆诺"
   },
   "PMS": {
-    "name": "波美萨尼亚",
-    "desc": ""
+    "name": "波美萨尼亚"
   },
   "SMD": {
-    "name": "萨姆兰",
-    "desc": ""
+    "name": "萨姆兰"
   },
   "BIO": {
-    "name": "厄塞尔",
-    "desc": ""
+    "name": "厄塞尔"
   },
   "KUR": {
-    "name": "库尔兰",
-    "desc": ""
+    "name": "库尔兰"
   },
   "BID": {
-    "name": "多尔帕特",
-    "desc": ""
+    "name": "多尔帕特"
   },
   "RIG": {
-    "name": "里加",
-    "desc": ""
+    "name": "里加"
   },
   "ARR": {
-    "name": "里加‑利沃尼亚",
-    "desc": ""
+    "name": "里加‑利沃尼亚"
   },
   "KRL": {
-    "name": "卡累利阿",
-    "desc": ""
+    "name": "卡累利阿"
   },
   "LIT": {
-    "name": "立陶宛",
-    "desc": ""
+    "name": "立陶宛"
   },
   "SXM": {
-    "name": "萨莫吉蒂亚",
-    "desc": ""
+    "name": "萨莫吉蒂亚"
   },
   "SGN": {
-    "name": "索纳尔冈",
-    "desc": ""
+    "name": "索纳尔冈"
   },
   "GAU": {
-    "name": "高达",
-    "desc": ""
+    "name": "高达"
   },
   "STN": {
-    "name": "萨普塔格拉姆",
-    "desc": ""
+    "name": "萨普塔格拉姆"
   },
   "AHO": {
-    "name": "阿洪姆",
-    "desc": ""
+    "name": "阿洪姆"
   },
   "KMA": {
-    "name": "卡玛塔",
-    "desc": ""
+    "name": "卡玛塔"
   },
   "DIM": {
-    "name": "底马撒",
-    "desc": ""
+    "name": "底马撒"
   },
   "TWI": {
-    "name": "特里普拉",
-    "desc": ""
+    "name": "特里普拉"
   },
   "CUT": {
-    "name": "久蒂亚",
-    "desc": ""
+    "name": "久蒂亚"
   },
   "JNT": {
-    "name": "贾因蒂亚",
-    "desc": ""
+    "name": "贾因蒂亚"
   },
   "TRF": {
-    "name": "塔拉夫",
-    "desc": ""
+    "name": "塔拉夫"
   },
   "LUR": {
-    "name": "劳尔",
-    "desc": ""
+    "name": "劳尔"
   },
   "BHP": {
-    "name": "马拉布姆",
-    "desc": ""
+    "name": "马拉布姆"
   },
   "CER": {
-    "name": "哲卢",
-    "desc": ""
+    "name": "哲卢"
   },
   "UJJ": {
-    "name": "乌贾伊尼亚",
-    "desc": ""
+    "name": "乌贾伊尼亚"
   },
   "RKS": {
-    "name": "拉克塞尔",
-    "desc": ""
+    "name": "拉克塞尔"
   },
   "ONW": {
-    "name": "乌尼瓦尔",
-    "desc": ""
+    "name": "乌尼瓦尔"
   },
   "KKR": {
-    "name": "科赫罗",
-    "desc": ""
+    "name": "科赫罗"
   },
   "GWL": {
-    "name": "加瓦尔",
-    "desc": ""
+    "name": "加瓦尔"
   },
   "KHS": {
-    "name": "卡萨",
-    "desc": ""
+    "name": "卡萨"
   },
   "KMN": {
-    "name": "库马翁",
-    "desc": ""
+    "name": "库马翁"
   },
   "KTU": {
-    "name": "加德满都",
-    "desc": ""
+    "name": "加德满都"
   },
   "DTI": {
-    "name": "多提",
-    "desc": ""
+    "name": "多提"
   },
   "SRM": {
-    "name": "那罕",
-    "desc": ""
+    "name": "那罕"
   },
   "JBL": {
-    "name": "久巴尔",
-    "desc": ""
+    "name": "久巴尔"
   },
   "LWA": {
-    "name": "林布旺",
-    "desc": ""
+    "name": "林布旺"
   },
   "CDD": {
-    "name": "琼丹迪",
-    "desc": ""
+    "name": "琼丹迪"
   },
   "DGL": {
-    "name": "马尔代夫",
-    "desc": ""
+    "name": "马尔代夫"
   },
   "KUI": {
-    "name": "奎库罗",
-    "desc": ""
+    "name": "奎库罗"
   },
   "MRJ": {
-    "name": "马拉若阿拉",
-    "desc": ""
+    "name": "马拉若阿拉"
   },
   "TPA": {
-    "name": "图皮南巴",
-    "desc": ""
+    "name": "图皮南巴"
   },
   "TPQ": {
-    "name": "图皮尼金",
-    "desc": ""
+    "name": "图皮尼金"
   },
   "CRJ": {
-    "name": "卡里若",
-    "desc": ""
+    "name": "卡里若"
   },
   "NDV": {
-    "name": "南德瓦",
-    "desc": ""
+    "name": "南德瓦"
   },
   "KIO": {
-    "name": "卡约瓦",
-    "desc": ""
+    "name": "卡约瓦"
   },
   "XTA": {
-    "name": "谢塔",
-    "desc": ""
+    "name": "谢塔"
   },
   "AVA": {
-    "name": "瓜拉尼",
-    "desc": ""
+    "name": "瓜拉尼"
   },
   "GCZ": {
-    "name": "戈伊塔卡斯",
-    "desc": ""
+    "name": "戈伊塔卡斯"
   },
   "AIM": {
-    "name": "艾莫雷",
-    "desc": ""
+    "name": "艾莫雷"
   },
   "KRR": {
-    "name": "基里里",
-    "desc": ""
+    "name": "基里里"
   },
   "CAE": {
-    "name": "卡埃特",
-    "desc": ""
+    "name": "卡埃特"
   },
   "SUC": {
-    "name": "苏库鲁",
-    "desc": ""
+    "name": "苏库鲁"
   },
   "POT": {
-    "name": "波蒂瓜拉",
-    "desc": ""
+    "name": "波蒂瓜拉"
   },
   "ENG": {
-    "name": "英格兰",
-    "desc": ""
+    "name": "英格兰"
   },
   "SCO": {
-    "name": "苏格兰",
-    "desc": ""
+    "name": "苏格兰"
   },
   "SBL": {
-    "name": "巴利奥尔",
-    "desc": ""
+    "name": "巴利奥尔"
   },
   "CLA": {
-    "name": "克兰迪博伊",
-    "desc": ""
+    "name": "克兰迪博伊"
   },
   "CLR": {
-    "name": "克兰里卡德",
-    "desc": ""
+    "name": "克兰里卡德"
   },
   "CWM": {
-    "name": "克兰威廉",
-    "desc": ""
+    "name": "克兰威廉"
   },
   "ULS": {
-    "name": "阿尔斯特",
-    "desc": ""
+    "name": "阿尔斯特"
   },
   "ORD": {
-    "name": "奥蒙德",
-    "desc": ""
+    "name": "奥蒙德"
   },
   "DMS": {
-    "name": "德斯蒙德",
-    "desc": ""
+    "name": "德斯蒙德"
   },
   "KID": {
-    "name": "基尔代尔",
-    "desc": ""
+    "name": "基尔代尔"
   },
   "BEA": {
-    "name": "比尔",
-    "desc": ""
+    "name": "比尔"
   },
   "CMA": {
-    "name": "西康诺特",
-    "desc": ""
+    "name": "西康诺特"
   },
   "UMH": {
-    "name": "奥维尔",
-    "desc": ""
+    "name": "奥维尔"
   },
   "OSS": {
-    "name": "奥索里",
-    "desc": ""
+    "name": "奥索里"
   },
   "MCM": {
-    "name": "芒斯特",
-    "desc": ""
+    "name": "芒斯特"
   },
   "OIL": {
-    "name": "奥里尔",
-    "desc": ""
+    "name": "奥里尔"
   },
   "AMA": {
-    "name": "阿马",
-    "desc": ""
+    "name": "阿马"
   },
   "DHM": {
-    "name": "达勒姆",
-    "desc": ""
+    "name": "达勒姆"
   },
   "CET": {
-    "name": "切斯特",
-    "desc": ""
+    "name": "切斯特"
   },
   "LAN": {
-    "name": "兰开斯特",
-    "desc": ""
+    "name": "兰开斯特"
   },
   "CNN": {
-    "name": "康诺特",
-    "desc": ""
+    "name": "康诺特"
   },
   "MTH": {
-    "name": "米斯",
-    "desc": ""
+    "name": "米斯"
   },
   "ANN": {
-    "name": "安纳利",
-    "desc": ""
+    "name": "安纳利"
   },
   "PLE": {
-    "name": "帕莱",
-    "desc": ""
+    "name": "帕莱"
   },
   "WLS": {
-    "name": "威尔士",
-    "desc": ""
+    "name": "威尔士"
   },
   "TYR": {
-    "name": "蒂龙",
-    "desc": ""
+    "name": "蒂龙"
   },
   "AMH": {
-    "name": "阿德迈尔",
-    "desc": ""
+    "name": "阿德迈尔"
   },
   "INI": {
-    "name": "因尼肖温",
-    "desc": ""
+    "name": "因尼肖温"
   },
   "LEI": {
-    "name": "伦斯特",
-    "desc": ""
+    "name": "伦斯特"
   },
   "TRY": {
-    "name": "蒂康奈尔",
-    "desc": ""
+    "name": "蒂康奈尔"
+  },
+  "KEE": {
+    "name": "基纳特"
   },
   "GLS": {
-    "name": "格伦斯",
-    "desc": ""
+    "name": "格伦斯"
   },
   "IVG": {
-    "name": "艾维",
-    "desc": ""
+    "name": "艾维"
   },
   "HYM": {
-    "name": "伊瓦内",
-    "desc": ""
+    "name": "伊瓦内"
   },
   "IMA": {
-    "name": "伊马尔",
-    "desc": ""
+    "name": "伊马尔"
   },
   "DCI": {
-    "name": "迪希斯",
-    "desc": ""
+    "name": "迪希斯"
   },
   "TGH": {
-    "name": "蒂勒拉",
-    "desc": ""
+    "name": "蒂勒拉"
   },
   "ELY": {
-    "name": "伊莱",
-    "desc": ""
+    "name": "伊莱"
   },
   "FCL": {
-    "name": "菲斯卡尔",
-    "desc": ""
+    "name": "菲斯卡尔"
   },
   "LOI": {
-    "name": "群岛",
-    "desc": ""
+    "name": "群岛"
   },
   "FMA": {
-    "name": "弗马纳",
-    "desc": ""
+    "name": "弗马纳"
   },
   "BFN": {
-    "name": "西布雷夫讷",
-    "desc": ""
+    "name": "西布雷夫讷"
   },
   "CVN": {
-    "name": "东布雷夫讷",
-    "desc": ""
+    "name": "东布雷夫讷"
   },
   "MYO": {
-    "name": "梅奧",
-    "desc": ""
+    "name": "梅奧"
   },
   "THO": {
-    "name": "托蒙德",
-    "desc": ""
+    "name": "托蒙德"
   },
   "SLN": {
-    "name": "卡伯里",
-    "desc": ""
+    "name": "卡伯里"
   },
   "FLY": {
-    "name": "奥法利",
-    "desc": ""
+    "name": "奥法利"
   },
   "CRN": {
-    "name": "康沃尔",
-    "desc": ""
+    "name": "康沃尔"
   },
   "GWR": {
-    "name": "高尔",
-    "desc": ""
+    "name": "高尔"
   },
   "GMG": {
-    "name": "格拉摩根",
-    "desc": ""
+    "name": "格拉摩根"
   },
   "MAC": {
-    "name": "边区",
-    "desc": ""
+    "name": "边区"
   },
   "AUD": {
-    "name": "阿伦德尔",
-    "desc": ""
+    "name": "阿伦德尔"
   },
   "BRO": {
-    "name": "布雷克诺克",
-    "desc": ""
+    "name": "布雷克诺克"
   },
   "POS": {
-    "name": "波伊斯",
-    "desc": ""
+    "name": "波伊斯"
   },
   "EWY": {
-    "name": "尤亚斯",
-    "desc": ""
+    "name": "尤亚斯"
   },
   "CMS": {
-    "name": "凯迈斯",
-    "desc": ""
+    "name": "凯迈斯"
   },
   "PMB": {
-    "name": "彭布罗克",
-    "desc": ""
+    "name": "彭布罗克"
   },
   "DEN": {
-    "name": "登比",
-    "desc": ""
+    "name": "登比"
   },
   "GDD": {
-    "name": "圭内斯",
-    "desc": ""
+    "name": "圭内斯"
   },
   "PWS": {
-    "name": "波伊斯",
-    "desc": ""
+    "name": "波伊斯"
   },
   "DHB": {
-    "name": "德赫巴思",
-    "desc": ""
+    "name": "德赫巴思"
   },
   "MWG": {
-    "name": "莫甘努格",
-    "desc": ""
+    "name": "莫甘努格"
   },
   "BCN": {
-    "name": "布里黑尼奥格",
-    "desc": ""
+    "name": "布里黑尼奥格"
   },
   "GWT": {
-    "name": "格温特",
-    "desc": ""
+    "name": "格温特"
   },
   "MNN": {
-    "name": "马恩",
-    "desc": ""
+    "name": "马恩"
   },
   "ORK": {
-    "name": "奥克尼",
-    "desc": ""
+    "name": "奥克尼"
   },
   "MOY": {
-    "name": "默里",
-    "desc": ""
+    "name": "默里"
   },
   "ROS": {
-    "name": "罗斯",
-    "desc": ""
+    "name": "罗斯"
   },
   "NOL": {
-    "name": "诺森伯兰",
-    "desc": ""
+    "name": "诺森伯兰"
   },
   "GLY": {
-    "name": "加洛韦",
-    "desc": ""
+    "name": "加洛韦"
   },
   "TRT": {
-    "name": "陶安泰恩拉特",
-    "desc": ""
+    "name": "陶安泰恩拉特"
   },
   "AGW": {
-    "name": "阿蒂格纳万坦",
-    "desc": ""
+    "name": "阿蒂格纳万坦"
   },
   "ARN": {
-    "name": "阿伦达罗农",
-    "desc": ""
+    "name": "阿伦达罗农"
   },
   "ATG": {
-    "name": "阿蒂格尼农纳哈克",
-    "desc": ""
+    "name": "阿蒂格尼农纳哈克"
   },
   "ATC": {
-    "name": "阿塔龙克罗农",
-    "desc": ""
+    "name": "阿塔龙克罗农"
   },
   "ADR": {
-    "name": "阿昂迪罗农",
-    "desc": ""
+    "name": "阿昂迪罗农"
   },
   "ONG": {
-    "name": "翁尼亚拉",
-    "desc": ""
+    "name": "翁尼亚拉"
   },
   "TIO": {
-    "name": "提奥农塔特",
-    "desc": ""
+    "name": "提奥农塔特"
   },
   "OSG": {
-    "name": "奥谢阿加",
-    "desc": ""
+    "name": "奥谢阿加"
   },
   "MAS": {
-    "name": "迈索纳",
-    "desc": ""
+    "name": "迈索纳"
   },
   "STD": {
-    "name": "斯塔达科纳",
-    "desc": ""
+    "name": "斯塔达科纳"
   },
   "AGJ": {
-    "name": "阿古朱达",
-    "desc": ""
+    "name": "阿古朱达"
   },
   "SOK": {
-    "name": "马齐普斯科亚克",
-    "desc": ""
+    "name": "马齐普斯科亚克"
   },
   "PNS": {
-    "name": "阿罗萨贡塔库克",
-    "desc": ""
+    "name": "阿罗萨贡塔库克"
   },
   "MLS": {
-    "name": "沃拉斯托基维克",
-    "desc": ""
+    "name": "沃拉斯托基维克"
   },
   "AKW": {
-    "name": "阿提卡梅克",
-    "desc": ""
+    "name": "阿提卡梅克"
   },
   "TMG": {
-    "name": "蒂米斯卡明",
-    "desc": ""
+    "name": "蒂米斯卡明"
   },
   "ABT": {
-    "name": "阿比蒂比",
-    "desc": ""
+    "name": "阿比蒂比"
   },
   "OJI": {
-    "name": "奥吉布瓦",
-    "desc": ""
+    "name": "奥吉布瓦"
   },
   "ODW": {
-    "name": "渥达瓦",
-    "desc": ""
+    "name": "渥达瓦"
   },
   "NPS": {
-    "name": "尼皮辛",
-    "desc": ""
+    "name": "尼皮辛"
   },
   "MSG": {
-    "name": "米西索加",
-    "desc": ""
+    "name": "米西索加"
   },
   "HUN": {
-    "name": "匈牙利",
-    "desc": ""
+    "name": "匈牙利"
   },
   "WAL": {
-    "name": "瓦拉几亚",
-    "desc": ""
+    "name": "瓦拉几亚"
   },
   "BIA": {
-    "name": "巴亚",
-    "desc": ""
+    "name": "巴亚"
   },
   "BLD": {
-    "name": "伯尔拉德",
-    "desc": ""
+    "name": "伯尔拉德"
   },
   "HTN": {
-    "name": "霍京",
-    "desc": ""
+    "name": "霍京"
   },
   "HSC": {
-    "name": "汉斯卡",
-    "desc": ""
+    "name": "汉斯卡"
   },
   "IAS": {
-    "name": "雅西",
-    "desc": ""
+    "name": "雅西"
   },
   "SRC": {
-    "name": "索罗卡",
-    "desc": ""
+    "name": "索罗卡"
   },
   "SSI": {
-    "name": "斯托罗日涅茨",
-    "desc": ""
+    "name": "斯托罗日涅茨"
   },
   "TRA": {
-    "name": "特兰西瓦尼亚",
-    "desc": ""
+    "name": "特兰西瓦尼亚"
   },
   "GEO": {
-    "name": "格鲁吉亚",
-    "desc": ""
+    "name": "格鲁吉亚"
   },
   "AAI": {
-    "name": "阿拉斯塔尼",
-    "desc": ""
+    "name": "阿拉斯塔尼"
   },
   "IME": {
-    "name": "伊梅列季",
-    "desc": ""
+    "name": "伊梅列季"
   },
   "SME": {
-    "name": "萨姆茨赫",
-    "desc": ""
+    "name": "萨姆茨赫"
   },
   "SRV": {
-    "name": "希尔凡",
-    "desc": ""
+    "name": "希尔凡"
   },
   "AVR": {
-    "name": "阿瓦尔",
-    "desc": ""
+    "name": "阿瓦尔"
   },
   "TRK": {
-    "name": "塔尔基",
-    "desc": ""
+    "name": "塔尔基"
   },
   "ARM": {
-    "name": "亚美尼亚",
-    "desc": ""
+    "name": "亚美尼亚"
   },
   "AMB": {
-    "name": "安贝尔特",
-    "desc": ""
+    "name": "安贝尔特"
   },
   "VDZ": {
-    "name": "瓦约茨佐尔",
-    "desc": ""
+    "name": "瓦约茨佐尔"
   },
   "CIR": {
-    "name": "切尔克西亚",
-    "desc": ""
+    "name": "切尔克西亚"
   },
   "CPA": {
-    "name": "科帕",
-    "desc": ""
+    "name": "科帕"
   },
   "HTY": {
-    "name": "哈图凯",
-    "desc": ""
+    "name": "哈图凯"
   },
   "HYT": {
-    "name": "海图克",
-    "desc": ""
+    "name": "海图克"
   },
   "KDA": {
-    "name": "卡巴尔达",
-    "desc": ""
+    "name": "卡巴尔达"
   },
   "KIP": {
-    "name": "奇皮克",
-    "desc": ""
+    "name": "奇皮克"
   },
   "TEM": {
-    "name": "铁米尔戈伊",
-    "desc": ""
+    "name": "铁米尔戈伊"
   },
   "SKI": {
-    "name": "沙基",
-    "desc": ""
+    "name": "沙基"
   },
   "KCN": {
-    "name": "哈琴",
-    "desc": ""
+    "name": "哈琴"
   },
   "SYU": {
-    "name": "休尼克",
-    "desc": ""
+    "name": "休尼克"
   },
   "ALN": {
-    "name": "阿兰尼亚",
-    "desc": ""
+    "name": "阿兰尼亚"
   },
   "DZK": {
-    "name": "杜尔祖克",
-    "desc": ""
+    "name": "杜尔祖克"
   },
   "SMS": {
-    "name": "西姆西尔",
-    "desc": ""
+    "name": "西姆西尔"
   },
   "KAI": {
-    "name": "凯塔格",
-    "desc": ""
+    "name": "凯塔格"
   },
   "LEK": {
-    "name": "莱基亚",
-    "desc": ""
+    "name": "莱基亚"
   },
   "RUT": {
-    "name": "鲁图尔",
-    "desc": ""
+    "name": "鲁图尔"
   },
   "TBA": {
-    "name": "塔巴萨兰",
-    "desc": ""
+    "name": "塔巴萨兰"
   },
   "HAA": {
-    "name": "汉尼宁",
-    "desc": ""
+    "name": "汉尼宁"
   },
   "ASH": {
-    "name": "阿沙拉霍",
-    "desc": ""
+    "name": "阿沙拉霍"
   },
   "ASP": {
-    "name": "阿什希皮特",
-    "desc": ""
+    "name": "阿什希皮特"
   },
   "KTK": {
-    "name": "基蒂基蒂什",
-    "desc": ""
+    "name": "基蒂基蒂什"
   },
   "TVY": {
-    "name": "陶瓦亚",
-    "desc": ""
+    "name": "陶瓦亚"
   },
   "PTW": {
-    "name": "皮塔瓦里塔",
-    "desc": ""
+    "name": "皮塔瓦里塔"
   },
   "KIA": {
-    "name": "基特凯哈基",
-    "desc": ""
+    "name": "基特凯哈基"
   },
   "SII": {
-    "name": "斯基里",
-    "desc": ""
+    "name": "斯基里"
   },
   "TSW": {
-    "name": "察维",
-    "desc": ""
+    "name": "察维"
   },
   "SHH": {
-    "name": "萨尼什",
-    "desc": ""
+    "name": "萨尼什"
   },
   "NUE": {
-    "name": "努马卡基",
-    "desc": ""
+    "name": "努马卡基"
   },
   "HIR": {
-    "name": "希拉卡",
-    "desc": ""
+    "name": "希拉卡"
   },
   "PCH": {
-    "name": "帕卡哈",
-    "desc": ""
+    "name": "帕卡哈"
   },
   "CSQ": {
-    "name": "卡斯奎",
-    "desc": ""
+    "name": "卡斯奎"
   },
   "ANL": {
-    "name": "阿尼尔科",
-    "desc": ""
+    "name": "阿尼尔科"
   },
   "COL": {
-    "name": "科立瓜",
-    "desc": ""
+    "name": "科立瓜"
   },
   "CYS": {
-    "name": "塔尼科",
-    "desc": ""
+    "name": "塔尼科"
   },
   "CTI": {
-    "name": "奇蒂马查",
-    "desc": ""
+    "name": "奇蒂马查"
   },
   "BYG": {
-    "name": "巴亚古拉",
-    "desc": ""
+    "name": "巴亚古拉"
   },
   "NST": {
-    "name": "纳什图什",
-    "desc": ""
+    "name": "纳什图什"
   },
   "AVY": {
-    "name": "阿沃耶尔",
-    "desc": ""
+    "name": "阿沃耶尔"
   },
   "KDW": {
-    "name": "卡达达楚",
-    "desc": ""
+    "name": "卡达达楚"
   },
   "TUA": {
-    "name": "图利亚",
-    "desc": ""
+    "name": "图利亚"
   },
   "ISH": {
-    "name": "伊沙克",
-    "desc": ""
+    "name": "伊沙克"
   },
   "QMG": {
-    "name": "夸斯米格多",
-    "desc": ""
+    "name": "夸斯米格多"
   },
   "TWK": {
-    "name": "塔瓦科尼",
-    "desc": ""
+    "name": "塔瓦科尼"
   },
   "HNO": {
-    "name": "希诺埃尼诺",
-    "desc": ""
+    "name": "希诺埃尼诺"
   },
   "NWN": {
-    "name": "阿西尼博因",
-    "desc": ""
+    "name": "阿西尼博因"
   },
   "NDA": {
-    "name": "纳科达",
-    "desc": ""
+    "name": "纳科达"
   },
   "LKT": {
-    "name": "拉科塔",
-    "desc": ""
+    "name": "拉科塔"
   },
   "IKW": {
-    "name": "伊桑克图纳纳",
-    "desc": ""
+    "name": "伊桑克图纳纳"
   },
   "IUW": {
-    "name": "伊桑克通万",
-    "desc": ""
+    "name": "伊桑克通万"
   },
   "NCH": {
-    "name": "纽阿奇",
-    "desc": ""
+    "name": "纽阿奇"
   },
   "NKW": {
-    "name": "纳卡韦",
-    "desc": ""
+    "name": "纳卡韦"
   },
   "TTS": {
-    "name": "齐齐斯塔斯",
-    "desc": ""
+    "name": "齐齐斯塔斯"
   },
   "SOO": {
-    "name": "苏泰奥",
-    "desc": ""
+    "name": "苏泰奥"
   },
   "BKT": {
-    "name": "布德韦坎通万",
-    "desc": ""
+    "name": "布德韦坎通万"
   },
   "STW": {
-    "name": "锡西屯万",
-    "desc": ""
+    "name": "锡西屯万"
   },
   "WKH": {
-    "name": "瓦佩库特",
-    "desc": ""
+    "name": "瓦佩库特"
   },
   "WPW": {
-    "name": "瓦佩图万",
-    "desc": ""
+    "name": "瓦佩图万"
   },
   "MIK": {
-    "name": "米克马克",
-    "desc": ""
+    "name": "米克马克"
   },
   "PEN": {
-    "name": "佩诺布斯科特",
-    "desc": ""
+    "name": "佩诺布斯科特"
   },
   "PQD": {
-    "name": "帕萨马科迪",
-    "desc": ""
+    "name": "帕萨马科迪"
   },
   "WSK": {
-    "name": "韦斯卡里尼",
-    "desc": ""
+    "name": "韦斯卡里尼"
   },
   "KSP": {
-    "name": "基切西皮里尼",
-    "desc": ""
+    "name": "基切西皮里尼"
   },
   "KUS": {
-    "name": "库斯卡坦",
-    "desc": ""
+    "name": "库斯卡坦"
   },
   "QUA": {
-    "name": "奎特马兰",
-    "desc": ""
+    "name": "奎特马兰"
   },
   "LNC": {
-    "name": "伦卡",
-    "desc": ""
+    "name": "伦卡"
   },
   "XIN": {
-    "name": "辛卡",
-    "desc": ""
+    "name": "辛卡"
   },
   "GAR": {
-    "name": "加瓦比托",
-    "desc": ""
+    "name": "加瓦比托"
   },
   "GUO": {
-    "name": "瓜尔科",
-    "desc": ""
+    "name": "瓜尔科"
   },
   "PAC": {
-    "name": "帕卡卡",
-    "desc": ""
+    "name": "帕卡卡"
   },
   "NEK": {
-    "name": "内科克尧特尔",
-    "desc": ""
+    "name": "内科克尧特尔"
   },
   "CTO": {
-    "name": "科托",
-    "desc": ""
+    "name": "科托"
   },
   "TRC": {
-    "name": "塔里亚卡",
-    "desc": ""
+    "name": "塔里亚卡"
   },
   "CBC": {
-    "name": "卡贝卡尔",
-    "desc": ""
+    "name": "卡贝卡尔"
   },
   "MOX": {
-    "name": "莫霍",
-    "desc": ""
+    "name": "莫霍"
   },
   "MPC": {
-    "name": "马普切",
-    "desc": ""
+    "name": "马普切"
   },
   "CUA": {
-    "name": "查鲁亚",
-    "desc": ""
+    "name": "查鲁亚"
   },
   "TAI": {
-    "name": "泰罗纳",
-    "desc": ""
+    "name": "泰罗纳"
   },
   "ZIP": {
-    "name": "穆伊奎塔",
-    "desc": ""
+    "name": "穆伊奎塔"
   },
   "ZAQ": {
-    "name": "琼苏阿",
-    "desc": ""
+    "name": "琼苏阿"
   },
   "ZEN": {
-    "name": "塞努",
-    "desc": ""
+    "name": "塞努"
   },
   "QBY": {
-    "name": "金巴亚",
-    "desc": ""
+    "name": "金巴亚"
   },
   "GYP": {
-    "name": "瓜尤佩",
-    "desc": ""
+    "name": "瓜尤佩"
   },
   "CMG": {
-    "name": "库马纳戈托",
-    "desc": ""
+    "name": "库马纳戈托"
   },
   "PMN": {
-    "name": "佩蒙",
-    "desc": ""
+    "name": "佩蒙"
   },
   "CUC": {
-    "name": "奎卡",
-    "desc": ""
+    "name": "奎卡"
   },
   "TTY": {
-    "name": "塔图伊",
-    "desc": ""
+    "name": "塔图伊"
   },
   "THM": {
-    "name": "塔哈米",
-    "desc": ""
+    "name": "塔哈米"
   },
   "NUT": {
-    "name": "努塔贝",
-    "desc": ""
+    "name": "努塔贝"
   },
   "PIJ": {
-    "name": "皮豪",
-    "desc": ""
+    "name": "皮豪"
   },
   "COY": {
-    "name": "科亚伊马",
-    "desc": ""
+    "name": "科亚伊马"
   },
   "TAM": {
-    "name": "塔马",
-    "desc": ""
+    "name": "塔马"
   },
   "CIM": {
-    "name": "卡利马",
-    "desc": ""
+    "name": "卡利马"
   },
   "PUB": {
-    "name": "普本",
-    "desc": ""
+    "name": "普本"
   },
   "CML": {
-    "name": "奇米拉",
-    "desc": ""
+    "name": "奇米拉"
   },
   "TNO": {
-    "name": "马瓜",
-    "desc": ""
+    "name": "马瓜"
   },
   "MAE": {
-    "name": "马里安",
-    "desc": ""
+    "name": "马里安"
   },
   "MGU": {
-    "name": "马瓜纳",
-    "desc": ""
+    "name": "马瓜纳"
   },
   "JRG": {
-    "name": "哈拉瓜",
-    "desc": ""
+    "name": "哈拉瓜"
   },
   "HGY": {
-    "name": "伊圭",
-    "desc": ""
+    "name": "伊圭"
   },
   "GAY": {
-    "name": "瓜伊尼亚",
-    "desc": ""
+    "name": "瓜伊尼亚"
   },
   "BRK": {
-    "name": "博里肯",
-    "desc": ""
+    "name": "博里肯"
   },
   "CBO": {
-    "name": "西沃内",
-    "desc": ""
+    "name": "西沃内"
   },
   "LCY": {
-    "name": "卢卡约",
-    "desc": ""
+    "name": "卢卡约"
   },
   "MCX": {
-    "name": "马科里斯",
-    "desc": ""
+    "name": "马科里斯"
   },
   "CGY": {
-    "name": "西瓜约",
-    "desc": ""
+    "name": "西瓜约"
   },
   "IGR": {
-    "name": "伊涅里",
-    "desc": ""
+    "name": "伊涅里"
   },
   "KGN": {
-    "name": "卡利纳戈",
-    "desc": ""
+    "name": "卡利纳戈"
   },
   "AAL": {
-    "name": "阿里",
-    "desc": ""
+    "name": "阿里"
   },
   "AMR": {
-    "name": "米拉",
-    "desc": ""
+    "name": "米拉"
   },
   "DGE": {
-    "name": "都客儿",
-    "desc": ""
+    "name": "都客儿"
   },
   "FDL": {
-    "name": "法德勒",
-    "desc": ""
+    "name": "法德勒"
   },
   "JAL": {
-    "name": "札剌亦儿",
-    "desc": ""
+    "name": "札剌亦儿"
   },
   "HLL": {
-    "name": "希拉",
-    "desc": ""
+    "name": "希拉"
   },
   "KOJ": {
-    "name": "耶路撒冷",
-    "desc": ""
+    "name": "耶路撒冷"
   },
   "ARD": {
-    "name": "阿达兰",
-    "desc": ""
+    "name": "阿达兰"
   },
   "ATZ": {
-    "name": "阿尔塔兹",
-    "desc": ""
+    "name": "阿尔塔兹"
   },
   "DML": {
-    "name": "东博利",
-    "desc": ""
+    "name": "东博利"
   },
   "HBN": {
-    "name": "哈斯巴尼",
-    "desc": ""
+    "name": "哈斯巴尼"
   },
   "HDR": {
-    "name": "哈杜尔",
-    "desc": ""
+    "name": "哈杜尔"
   },
   "HNY": {
-    "name": "哈斯努亚",
-    "desc": ""
+    "name": "哈斯努亚"
   },
   "IHB": {
-    "name": "伊斯帕巴德",
-    "desc": ""
+    "name": "伊斯帕巴德"
   },
   "KLR": {
-    "name": "卡尔霍尔",
-    "desc": ""
+    "name": "卡尔霍尔"
   },
   "KTW": {
-    "name": "卡尔塔维",
-    "desc": ""
+    "name": "卡尔塔维"
   },
   "KEL": {
-    "name": "克拉里",
-    "desc": ""
+    "name": "克拉里"
   },
   "KKL": {
-    "name": "哈勒哈里",
-    "desc": ""
+    "name": "哈勒哈里"
   },
   "KRI": {
-    "name": "库拉尼",
-    "desc": ""
+    "name": "库拉尼"
   },
   "MKW": {
-    "name": "梅尔克万",
-    "desc": ""
+    "name": "梅尔克万"
   },
   "RKL": {
-    "name": "兰卡利",
-    "desc": ""
+    "name": "兰卡利"
   },
   "SLI": {
-    "name": "萨布利",
-    "desc": ""
+    "name": "萨布利"
   },
   "SYY": {
-    "name": "萨基亚",
-    "desc": ""
+    "name": "萨基亚"
   },
   "ZBR": {
-    "name": "泽巴里",
-    "desc": ""
+    "name": "泽巴里"
   },
   "AQQ": {
-    "name": "白羊",
-    "desc": ""
+    "name": "白羊"
   },
   "QAR": {
-    "name": "黑羊",
-    "desc": ""
+    "name": "黑羊"
   },
   "ZAN": {
-    "name": "基卢瓦",
-    "desc": ""
+    "name": "基卢瓦"
   },
   "PTE": {
-    "name": "帕泰",
-    "desc": ""
+    "name": "帕泰"
   },
   "MLI": {
-    "name": "马林迪",
-    "desc": ""
+    "name": "马林迪"
   },
   "INH": {
-    "name": "伊尼扬巴内",
-    "desc": ""
+    "name": "伊尼扬巴内"
   },
   "SFA": {
-    "name": "索法拉",
-    "desc": ""
+    "name": "索法拉"
   },
   "MBA": {
-    "name": "蒙巴萨",
-    "desc": ""
+    "name": "蒙巴萨"
   },
   "GED": {
-    "name": "格迪",
-    "desc": ""
+    "name": "格迪"
   },
   "UGW": {
-    "name": "翁瓜纳",
-    "desc": ""
+    "name": "翁瓜纳"
   },
   "LAM": {
-    "name": "拉穆",
-    "desc": ""
+    "name": "拉穆"
   },
   "VOH": {
-    "name": "武海马尔",
-    "desc": ""
+    "name": "武海马尔"
   },
   "NYM": {
-    "name": "布埃尼",
-    "desc": ""
+    "name": "布埃尼"
   },
   "VIL": {
-    "name": "维利",
-    "desc": ""
+    "name": "维利"
   },
   "TKE": {
-    "name": "巴太凯",
-    "desc": ""
+    "name": "巴太凯"
   },
   "ABD": {
-    "name": "安本杜",
-    "desc": ""
+    "name": "安本杜"
   },
   "CBD": {
-    "name": "卡宾达",
-    "desc": ""
+    "name": "卡宾达"
   },
   "YAK": {
-    "name": "雅卡",
-    "desc": ""
+    "name": "雅卡"
   },
   "CEW": {
-    "name": "切瓦",
-    "desc": ""
+    "name": "切瓦"
   },
   "PEM": {
-    "name": "奔巴",
-    "desc": ""
+    "name": "奔巴"
   },
   "ZZB": {
-    "name": "桑给巴尔",
-    "desc": ""
+    "name": "桑给巴尔"
   },
   "BMB": {
-    "name": "奔巴欧",
-    "desc": ""
+    "name": "奔巴欧"
   },
   "MOZ": {
-    "name": "莫桑比克",
-    "desc": ""
+    "name": "莫桑比克"
   },
   "AGH": {
-    "name": "安戈谢",
-    "desc": ""
+    "name": "安戈谢"
   },
   "QLM": {
-    "name": "克利马内",
-    "desc": ""
+    "name": "克利马内"
   },
   "ZMW": {
-    "name": "津巴布韦",
-    "desc": ""
+    "name": "津巴布韦"
   },
   "TNA": {
-    "name": "通加",
-    "desc": ""
+    "name": "通加"
   },
   "SEN": {
-    "name": "塞纳",
-    "desc": ""
+    "name": "塞纳"
   },
   "TSG": {
-    "name": "聪加",
-    "desc": ""
+    "name": "聪加"
   },
   "MNY": {
-    "name": "恩达乌",
-    "desc": ""
+    "name": "恩达乌"
   },
   "ZEZ": {
-    "name": "泽祖鲁",
-    "desc": ""
+    "name": "泽祖鲁"
   },
   "NBY": {
-    "name": "南比亚",
-    "desc": ""
+    "name": "南比亚"
   },
   "TBK": {
-    "name": "通布卡",
-    "desc": ""
+    "name": "通布卡"
   },
   "MRA": {
-    "name": "马拉维",
-    "desc": ""
+    "name": "马拉维"
   },
   "LDU": {
-    "name": "隆杜",
-    "desc": ""
+    "name": "隆杜"
   },
   "MKU": {
-    "name": "马夸",
-    "desc": ""
+    "name": "马夸"
   },
   "VAZ": {
-    "name": "瓦赞巴",
-    "desc": ""
+    "name": "瓦赞巴"
   },
   "MIR": {
-    "name": "梅里纳",
-    "desc": ""
+    "name": "梅里纳"
   },
   "NTL": {
-    "name": "马哈赞加",
-    "desc": ""
+    "name": "马哈赞加"
   },
   "MTO": {
-    "name": "迈因蒂拉努",
-    "desc": ""
+    "name": "迈因蒂拉努"
   },
   "AHY": {
-    "name": "安楚希希",
-    "desc": ""
+    "name": "安楚希希"
   },
   "MHL": {
-    "name": "马希拉卡",
-    "desc": ""
+    "name": "马希拉卡"
   },
   "IRD": {
-    "name": "伊鲁杜",
-    "desc": ""
+    "name": "伊鲁杜"
   },
   "BMK": {
-    "name": "贝马内维卡",
-    "desc": ""
+    "name": "贝马内维卡"
   },
   "ZFI": {
-    "name": "武希佩努",
-    "desc": ""
+    "name": "武希佩努"
   },
   "ABV": {
-    "name": "安布翁塔尼",
-    "desc": ""
+    "name": "安布翁塔尼"
   },
   "MBD": {
-    "name": "马纳邦德罗",
-    "desc": ""
+    "name": "马纳邦德罗"
   },
   "BTS": {
-    "name": "贝齐米萨拉卡",
-    "desc": ""
+    "name": "贝齐米萨拉卡"
   },
   "VEZ": {
-    "name": "威祖",
-    "desc": ""
+    "name": "威祖"
   },
   "SKA": {
-    "name": "萨卡拉瓦",
-    "desc": ""
+    "name": "萨卡拉瓦"
   },
   "MNB": {
-    "name": "梅纳贝",
-    "desc": ""
+    "name": "梅纳贝"
   },
   "BOI": {
-    "name": "博伊纳",
-    "desc": ""
+    "name": "博伊纳"
   },
   "ANK": {
-    "name": "安坦卡拉纳",
-    "desc": ""
+    "name": "安坦卡拉纳"
   },
   "BEZ": {
-    "name": "贝扎诺扎诺",
-    "desc": ""
+    "name": "贝扎诺扎诺"
   },
   "SIH": {
-    "name": "西哈纳卡",
-    "desc": ""
+    "name": "西哈纳卡"
   },
   "TND": {
-    "name": "坦德罗伊",
-    "desc": ""
+    "name": "坦德罗伊"
   },
   "ATK": {
-    "name": "安特萨卡",
-    "desc": ""
+    "name": "安特萨卡"
   },
   "BAA": {
-    "name": "巴拉",
-    "desc": ""
+    "name": "巴拉"
   },
   "ATM": {
-    "name": "安泰莫罗",
-    "desc": ""
+    "name": "安泰莫罗"
   },
   "ATF": {
-    "name": "安泰法西",
-    "desc": ""
+    "name": "安泰法西"
   },
   "ATB": {
-    "name": "安坦巴华卡",
-    "desc": ""
+    "name": "安坦巴华卡"
   },
   "TAL": {
-    "name": "塔纳拉",
-    "desc": ""
+    "name": "塔纳拉"
   },
   "BET": {
-    "name": "贝齐略",
-    "desc": ""
+    "name": "贝齐略"
   },
   "KIT": {
-    "name": "基塔拉",
-    "desc": ""
+    "name": "基塔拉"
   },
   "WNA": {
-    "name": "万加",
-    "desc": ""
+    "name": "万加"
   },
   "BNY": {
-    "name": "布尼奥罗",
-    "desc": ""
+    "name": "布尼奥罗"
   },
   "BUG": {
-    "name": "布干达",
-    "desc": ""
+    "name": "布干达"
   },
   "BSG": {
-    "name": "布索加",
-    "desc": ""
+    "name": "布索加"
   },
   "NKO": {
-    "name": "安科莱",
-    "desc": ""
+    "name": "安科莱"
   },
   "RWA": {
-    "name": "卢旺达",
-    "desc": ""
+    "name": "卢旺达"
   },
   "KRW": {
-    "name": "卡拉圭",
-    "desc": ""
+    "name": "卡拉圭"
   },
   "UBH": {
-    "name": "布哈",
-    "desc": ""
+    "name": "布哈"
   },
   "BUU": {
-    "name": "布隆迪",
-    "desc": ""
+    "name": "布隆迪"
   },
   "MAA": {
-    "name": "马赛",
-    "desc": ""
+    "name": "马赛"
   },
   "KOR": {
-    "name": "高丽",
-    "desc": ""
+    "name": "高丽"
   },
   "SSG": {
-    "name": "双城",
-    "desc": ""
+    "name": "双城"
+  },
+  "SYG": {
+    "name": "沈阳"
   },
   "TMN": {
-    "name": "耽罗",
-    "desc": ""
+    "name": "耽罗"
   },
   "JAP": {
-    "name": "日本",
-    "desc": ""
+    "name": "日本"
   },
   "NTC": {
-    "name": "持明院",
-    "desc": ""
+    "name": "持明院"
   },
   "STC": {
-    "name": "大觉寺",
-    "desc": ""
+    "name": "大觉寺"
   },
   "YMT": {
-    "name": "大和",
-    "desc": ""
+    "name": "大和"
   },
   "KOU": {
-    "name": "高",
-    "desc": ""
+    "name": "高"
   },
   "HSK": {
-    "name": "细川",
-    "desc": ""
+    "name": "细川"
   },
   "AKM": {
-    "name": "赤松",
-    "desc": ""
+    "name": "赤松"
   },
   "NKI": {
-    "name": "仁木",
-    "desc": ""
+    "name": "仁木"
   },
   "KTB": {
-    "name": "北畠",
-    "desc": ""
+    "name": "北畠"
   },
   "CJO": {
-    "name": "中条",
-    "desc": ""
+    "name": "中条"
   },
   "IMG": {
-    "name": "今川",
-    "desc": ""
+    "name": "今川"
   },
   "ISD": {
-    "name": "石塔",
-    "desc": ""
+    "name": "石塔"
   },
   "TKD": {
-    "name": "武田",
-    "desc": ""
+    "name": "武田"
   },
   "SBA": {
-    "name": "斯波",
-    "desc": ""
+    "name": "斯波"
   },
   "CBA": {
-    "name": "千叶",
-    "desc": ""
+    "name": "千叶"
   },
   "STK": {
-    "name": "佐竹",
-    "desc": ""
+    "name": "佐竹"
   },
   "KGK": {
-    "name": "京极",
-    "desc": ""
+    "name": "京极"
   },
   "TKI": {
-    "name": "土岐",
-    "desc": ""
+    "name": "土岐"
   },
   "OGS": {
-    "name": "小笠原",
-    "desc": ""
+    "name": "小笠原"
   },
   "UES": {
-    "name": "上杉",
-    "desc": ""
+    "name": "上杉"
   },
   "OYM": {
-    "name": "小山",
-    "desc": ""
+    "name": "小山"
   },
   "TGS": {
-    "name": "富㭴",
-    "desc": ""
+    "name": "富㭴"
   },
   "YSM": {
-    "name": "吉见",
-    "desc": ""
+    "name": "吉见"
   },
   "MMI": {
-    "name": "桃井",
-    "desc": ""
+    "name": "桃井"
   },
   "KRA": {
-    "name": "吉良",
-    "desc": ""
+    "name": "吉良"
   },
   "YMN": {
-    "name": "山名",
-    "desc": ""
+    "name": "山名"
   },
   "ENY": {
-    "name": "盐冶",
-    "desc": ""
+    "name": "盐冶"
   },
   "UEN": {
-    "name": "上野",
-    "desc": ""
+    "name": "上野"
   },
   "MTD": {
-    "name": "松田",
-    "desc": ""
+    "name": "松田"
   },
   "MNM": {
-    "name": "南",
-    "desc": ""
+    "name": "南"
   },
   "ASY": {
-    "name": "朝山",
-    "desc": ""
+    "name": "朝山"
   },
   "WSZ": {
-    "name": "鹫头",
-    "desc": ""
+    "name": "鹫头"
   },
   "KTO": {
-    "name": "厚东",
-    "desc": ""
+    "name": "厚东"
   },
   "HTK": {
-    "name": "畠山",
-    "desc": ""
+    "name": "畠山"
   },
   "KNO": {
-    "name": "河野",
-    "desc": ""
+    "name": "河野"
   },
   "SHN": {
-    "name": "少贰",
-    "desc": ""
+    "name": "少贰"
   },
   "KII": {
-    "name": "城井",
-    "desc": ""
+    "name": "城井"
   },
   "OTM": {
-    "name": "大友",
-    "desc": ""
+    "name": "大友"
   },
   "SMZ": {
-    "name": "岛津",
-    "desc": ""
+    "name": "岛津"
   },
   "NBU": {
-    "name": "南部",
-    "desc": ""
+    "name": "南部"
   },
   "KDO": {
-    "name": "工藤",
-    "desc": ""
+    "name": "工藤"
   },
   "OKI": {
-    "name": "大崎",
-    "desc": ""
+    "name": "大崎"
   },
   "MGM": {
-    "name": "最上",
-    "desc": ""
+    "name": "最上"
   },
   "KSI": {
-    "name": "葛西",
-    "desc": ""
+    "name": "葛西"
   },
   "SOM": {
-    "name": "相马",
-    "desc": ""
+    "name": "相马"
   },
   "DTE": {
-    "name": "伊达",
-    "desc": ""
+    "name": "伊达"
   },
   "ASN": {
-    "name": "芦名",
-    "desc": ""
+    "name": "芦名"
   },
   "YUK": {
-    "name": "结城",
-    "desc": ""
+    "name": "结城"
   },
   "OID": {
-    "name": "大井田",
-    "desc": ""
+    "name": "大井田"
   },
   "OGU": {
-    "name": "小国",
-    "desc": ""
+    "name": "小国"
   },
   "UTN": {
-    "name": "宇都宫",
-    "desc": ""
+    "name": "宇都宫"
   },
   "IIX": {
-    "name": "井伊",
-    "desc": ""
+    "name": "井伊"
   },
   "AKJ": {
-    "name": "姊小路",
-    "desc": ""
+    "name": "姊小路"
   },
   "KSN": {
-    "name": "楠木",
-    "desc": ""
+    "name": "楠木"
   },
   "ISK": {
-    "name": "一色",
-    "desc": ""
+    "name": "一色"
   },
   "NAW": {
-    "name": "名和",
-    "desc": ""
+    "name": "名和"
   },
   "MSD": {
-    "name": "益田",
-    "desc": ""
+    "name": "益田"
   },
   "OUC": {
-    "name": "大内",
-    "desc": ""
+    "name": "大内"
   },
   "TKN": {
-    "name": "得能",
-    "desc": ""
+    "name": "得能"
   },
   "DOI": {
-    "name": "土居",
-    "desc": ""
+    "name": "土居"
   },
   "KNT": {
-    "name": "忽那",
-    "desc": ""
+    "name": "忽那"
   },
   "SHJ": {
-    "name": "四条",
-    "desc": ""
+    "name": "四条"
   },
   "YSR": {
-    "name": "山代",
-    "desc": ""
+    "name": "山代"
   },
   "KKC": {
-    "name": "菊池",
-    "desc": ""
+    "name": "菊池"
   },
   "ASO": {
-    "name": "阿苏",
-    "desc": ""
+    "name": "阿苏"
   },
   "SGR": {
-    "name": "相良",
-    "desc": ""
+    "name": "相良"
   },
   "IJU": {
-    "name": "伊集院",
-    "desc": ""
+    "name": "伊集院"
   },
   "KMT": {
-    "name": "肝付",
-    "desc": ""
+    "name": "肝付"
   },
   "SOU": {
-    "name": "宗",
-    "desc": ""
+    "name": "宗"
   },
   "NAI": {
-    "name": "长井",
-    "desc": ""
+    "name": "长井"
   },
   "HEI": {
-    "name": "闭伊",
-    "desc": ""
+    "name": "闭伊"
   },
   "ANM": {
-    "name": "阿曾沼",
-    "desc": ""
+    "name": "阿曾沼"
   },
   "TZW": {
-    "name": "户泽",
-    "desc": ""
+    "name": "户泽"
   },
   "WAG": {
-    "name": "和贺",
-    "desc": ""
+    "name": "和贺"
   },
   "HIE": {
-    "name": "稗贯",
-    "desc": ""
+    "name": "稗贯"
   },
   "SGE": {
-    "name": "寒河江",
-    "desc": ""
+    "name": "寒河江"
   },
   "DHJ": {
-    "name": "大宝寺",
-    "desc": ""
+    "name": "大宝寺"
   },
   "NGM": {
-    "name": "长沼",
-    "desc": ""
+    "name": "长沼"
   },
   "NKD": {
-    "name": "二阶堂",
-    "desc": ""
+    "name": "二阶堂"
   },
   "TMR": {
-    "name": "田村",
-    "desc": ""
+    "name": "田村"
   },
   "IWS": {
-    "name": "猪苗代",
-    "desc": ""
+    "name": "猪苗代"
   },
   "ISW": {
-    "name": "石川",
-    "desc": ""
+    "name": "石川"
   },
   "MIU": {
-    "name": "三浦",
-    "desc": ""
+    "name": "三浦"
   },
   "SUW": {
-    "name": "诹访",
-    "desc": ""
+    "name": "诹访"
   },
   "RKK": {
-    "name": "六角",
-    "desc": ""
+    "name": "六角"
   },
   "MIY": {
-    "name": "宫",
-    "desc": ""
+    "name": "宫"
   },
   "KKW": {
-    "name": "吉川",
-    "desc": ""
+    "name": "吉川"
   },
   "MKT": {
-    "name": "宗像",
-    "desc": ""
+    "name": "宗像"
   },
   "ASA": {
-    "name": "朝仓",
-    "desc": ""
+    "name": "朝仓"
   },
   "CSK": {
-    "name": "长宗我部",
-    "desc": ""
+    "name": "长宗我部"
   },
   "ISE": {
-    "name": "伊势",
-    "desc": ""
+    "name": "伊势"
   },
   "IKE": {
-    "name": "池田",
-    "desc": ""
+    "name": "池田"
   },
   "ITO": {
-    "name": "伊东",
-    "desc": ""
+    "name": "伊东"
   },
   "MRI": {
-    "name": "毛利",
-    "desc": ""
+    "name": "毛利"
   },
   "ODA": {
-    "name": "织田",
-    "desc": ""
+    "name": "织田"
   },
   "AKT": {
-    "name": "安东",
-    "desc": ""
+    "name": "安东"
   },
   "ISA": {
-    "name": "伊佐",
-    "desc": ""
+    "name": "伊佐"
   },
   "TAK": {
-    "name": "大掾",
-    "desc": ""
+    "name": "大掾"
   },
   "KNB": {
-    "name": "川野边",
-    "desc": ""
+    "name": "川野边"
   },
   "HTA": {
-    "name": "八田",
-    "desc": ""
+    "name": "八田"
   },
   "MKO": {
-    "name": "益子",
-    "desc": ""
+    "name": "益子"
   },
   "TKO": {
-    "name": "多功",
-    "desc": ""
+    "name": "多功"
   },
   "NAS": {
-    "name": "那须",
-    "desc": ""
+    "name": "那须"
   },
   "OGO": {
-    "name": "大胡",
-    "desc": ""
+    "name": "大胡"
   },
   "NIT": {
-    "name": "新田",
-    "desc": ""
+    "name": "新田"
   },
   "YMG": {
-    "name": "山口",
-    "desc": ""
+    "name": "山口"
   },
   "TOS": {
-    "name": "丰岛",
-    "desc": ""
+    "name": "丰岛"
   },
   "HNM": {
-    "name": "本间",
-    "desc": ""
+    "name": "本间"
   },
   "UNN": {
-    "name": "海野",
-    "desc": ""
+    "name": "海野"
   },
   "KOK": {
-    "name": "香坂",
-    "desc": ""
+    "name": "香坂"
   },
   "TOY": {
-    "name": "远山",
-    "desc": ""
+    "name": "远山"
   },
   "HIG": {
-    "name": "东",
-    "desc": ""
+    "name": "东"
   },
   "EMA": {
-    "name": "江马",
-    "desc": ""
+    "name": "江马"
   },
   "NKJ": {
-    "name": "中岛",
-    "desc": ""
+    "name": "中岛"
   },
   "OBA": {
-    "name": "大庭",
-    "desc": ""
+    "name": "大庭"
   },
   "NGN": {
-    "name": "长野",
-    "desc": ""
+    "name": "长野"
   },
   "TKM": {
-    "name": "高岛",
-    "desc": ""
+    "name": "高岛"
   },
   "AIS": {
-    "name": "爱洲",
-    "desc": ""
+    "name": "爱洲"
   },
   "YUS": {
-    "name": "汤浅",
-    "desc": ""
+    "name": "汤浅"
   },
   "YAB": {
-    "name": "矢部",
-    "desc": ""
+    "name": "矢部"
   },
   "OGA": {
-    "name": "小鸭",
-    "desc": ""
+    "name": "小鸭"
   },
   "STU": {
-    "name": "末次",
-    "desc": ""
+    "name": "末次"
   },
   "MZW": {
-    "name": "三泽",
-    "desc": ""
+    "name": "三泽"
   },
   "MTY": {
-    "name": "三刀屋",
-    "desc": ""
+    "name": "三刀屋"
   },
   "AKN": {
-    "name": "赤穴",
-    "desc": ""
+    "name": "赤穴"
   },
   "GTO": {
-    "name": "后藤",
-    "desc": ""
+    "name": "后藤"
   },
   "SHO": {
-    "name": "庄",
-    "desc": ""
+    "name": "庄"
   },
   "HRG": {
-    "name": "平贺",
-    "desc": ""
+    "name": "平贺"
   },
   "KBK": {
-    "name": "小早川",
-    "desc": ""
+    "name": "小早川"
   },
   "WCH": {
-    "name": "和智",
-    "desc": ""
+    "name": "和智"
   },
   "MYH": {
-    "name": "三吉",
-    "desc": ""
+    "name": "三吉"
   },
   "SUE": {
-    "name": "陶",
-    "desc": ""
+    "name": "陶"
   },
   "MIG": {
-    "name": "右田",
-    "desc": ""
+    "name": "右田"
   },
   "KAG": {
-    "name": "香川",
-    "desc": ""
+    "name": "香川"
   },
   "KOZ": {
-    "name": "香西",
-    "desc": ""
+    "name": "香西"
   },
   "KNE": {
-    "name": "金子",
-    "desc": ""
+    "name": "金子"
   },
   "AKI": {
-    "name": "安艺",
-    "desc": ""
+    "name": "安艺"
   },
   "OHR": {
-    "name": "大平",
-    "desc": ""
+    "name": "大平"
   },
   "BZG": {
-    "name": "丰前长野",
-    "desc": ""
+    "name": "丰前长野"
   },
   "AKZ": {
-    "name": "秋月",
-    "desc": ""
+    "name": "秋月"
   },
   "AKU": {
-    "name": "多久",
-    "desc": ""
+    "name": "多久"
   },
   "AHT": {
-    "name": "波多",
-    "desc": ""
+    "name": "波多"
   },
   "ARI": {
-    "name": "有马",
-    "desc": ""
+    "name": "有马"
   },
   "OKR": {
-    "name": "大藏",
-    "desc": ""
+    "name": "大藏"
   },
   "TMD": {
-    "name": "土持",
-    "desc": ""
+    "name": "土持"
   },
   "KJK": {
-    "name": "加治木",
-    "desc": ""
+    "name": "加治木"
   },
   "HSR": {
-    "name": "菱刈",
-    "desc": ""
+    "name": "菱刈"
   },
   "ANU": {
-    "name": "阿伊努",
-    "desc": ""
+    "name": "阿伊努"
   },
   "HKZ": {
-    "name": "北山",
-    "desc": ""
+    "name": "北山"
   },
   "CHZ": {
-    "name": "中山",
-    "desc": ""
+    "name": "中山"
   },
   "NZN": {
-    "name": "南山",
-    "desc": ""
+    "name": "南山"
   },
   "CHI": {
-    "name": "中华",
-    "desc": ""
+    "name": "中华"
   },
   "YUA": {
-    "name": "元",
-    "desc": ""
+    "name": "元"
   },
   "MNG": {
-    "name": "明",
-    "desc": ""
+    "name": "明"
   },
   "CSO": {
-    "name": "宋",
-    "desc": ""
+    "name": "宋"
   },
   "WUU": {
-    "name": "吴",
-    "desc": ""
+    "name": "吴"
   },
   "CTW": {
-    "name": "天完",
-    "desc": ""
+    "name": "天完"
   },
   "CHE": {
-    "name": "汉",
-    "desc": ""
+    "name": "汉"
   },
   "CSH": {
-    "name": "顺",
-    "desc": ""
+    "name": "顺"
   },
   "CXI": {
-    "name": "夏",
-    "desc": ""
+    "name": "夏"
   },
   "CTG": {
-    "name": "东宁",
-    "desc": ""
+    "name": "东宁"
   },
   "CFN": {
-    "name": "方",
-    "desc": ""
+    "name": "方"
   },
   "CMO": {
-    "name": "毛",
-    "desc": ""
+    "name": "毛"
   },
   "CGU": {
-    "name": "郭",
-    "desc": ""
+    "name": "郭"
   },
   "CNP": {
-    "name": "南平",
-    "desc": ""
+    "name": "南平"
   },
   "CDN": {
-    "name": "东莞",
-    "desc": ""
+    "name": "东莞"
   },
   "CSI": {
-    "name": "李",
-    "desc": ""
+    "name": "李"
   },
   "CKO": {
-    "name": "扩廓帖木儿",
-    "desc": ""
+    "name": "扩廓帖木儿"
   },
   "CNA": {
-    "name": "纳哈出",
-    "desc": ""
+    "name": "纳哈出"
   },
   "MMA": {
-    "name": "勐卯",
-    "desc": ""
+    "name": "勐卯"
   },
   "MHK": {
-    "name": "勐亨",
-    "desc": ""
+    "name": "勐亨"
   },
   "MHN": {
-    "name": "勐甸",
-    "desc": ""
+    "name": "勐甸"
   },
   "MTG": {
-    "name": "勐汀",
-    "desc": ""
+    "name": "勐汀"
   },
   "MGN": {
-    "name": "勐恩",
-    "desc": ""
+    "name": "勐恩"
   },
   "MHA": {
-    "name": "勐沙",
-    "desc": ""
+    "name": "勐沙"
   },
   "MWO": {
-    "name": "勐沃",
-    "desc": ""
+    "name": "勐沃"
   },
   "MGK": {
-    "name": "勐沽",
-    "desc": ""
+    "name": "勐沽"
   },
   "YNJ": {
-    "name": "元江",
-    "desc": ""
+    "name": "元江"
   },
   "NWU": {
-    "name": "钮兀",
-    "desc": ""
+    "name": "钮兀"
+  },
+  "NYZ": {
+    "name": "宁远州"
   },
   "NLU": {
-    "name": "纳楼",
-    "desc": ""
+    "name": "纳楼"
   },
   "YJI": {
-    "name": "盐井",
-    "desc": ""
+    "name": "盐井"
+  },
+  "BZH": {
+    "name": "北胜"
+  },
+  "YAN": {
+    "name": "姚安"
+  },
+  "HQG": {
+    "name": "鹤庆"
+  },
+  "NNN": {
+    "name": "安南"
+  },
+  "AGN": {
+    "name": "阿宁"
+  },
+  "MLE": {
+    "name": "弥勒"
+  },
+  "JSI": {
+    "name": "建水"
+  },
+  "SPG": {
+    "name": "石屏"
+  },
+  "NGZ": {
+    "name": "宁州"
+  },
+  "LLS": {
+    "name": "罗罗斯"
+  },
+  "CGZ": {
+    "name": "昌州"
   },
   "XLG": {
-    "name": "仙龙",
-    "desc": ""
+    "name": "仙龙"
+  },
+  "WDG": {
+    "name": "武定"
+  },
+  "RND": {
+    "name": "仁德"
+  },
+  "DCN": {
+    "name": "东川"
+  },
+  "WNG": {
+    "name": "乌蒙"
+  },
+  "MHU": {
+    "name": "马湖"
+  },
+  "LBO": {
+    "name": "雷波"
+  },
+  "YNL": {
+    "name": "筠连"
+  },
+  "ZNX": {
+    "name": "镇雄"
+  },
+  "WSA": {
+    "name": "乌撒"
+  },
+  "ZYI": {
+    "name": "沾益"
+  },
+  "QJG": {
+    "name": "曲靖"
+  },
+  "YZO": {
+    "name": "亦佐"
+  },
+  "MLG": {
+    "name": "马龙"
+  },
+  "LLN": {
+    "name": "陆良"
+  },
+  "LXG": {
+    "name": "罗雄"
+  },
+  "GGX": {
+    "name": "广西"
+  },
+  "SZG": {
+    "name": "师宗"
+  },
+  "SXI": {
+    "name": "水西"
+  },
+  "CLE": {
+    "name": "车勒"
+  },
+  "BZU": {
+    "name": "播州"
+  },
+  "NPG": {
+    "name": "綦江"
+  },
+  "RNG": {
+    "name": "戎"
+  },
+  "GNG": {
+    "name": "珙"
+  },
+  "ZNZ": {
+    "name": "真州"
+  },
+  "SZU": {
+    "name": "石柱"
+  },
+  "ZGL": {
+    "name": "忠路"
+  },
+  "TGY": {
+    "name": "唐崖"
+  },
+  "GLU": {
+    "name": "高罗"
+  },
+  "RGM": {
+    "name": "容美"
+  },
+  "TNP": {
+    "name": "添平"
+  },
+  "SGZ": {
+    "name": "桑植"
+  },
+  "DWG": {
+    "name": "大王"
+  },
+  "YGS": {
+    "name": "永顺"
+  },
+  "BJG": {
+    "name": "保靖"
+  },
+  "YYG": {
+    "name": "酉阳"
+  },
+  "PCD": {
+    "name": "平茶洞"
+  },
+  "SZH": {
+    "name": "思州"
+  },
+  "YNH": {
+    "name": "沿河"
+  },
+  "TXI": {
+    "name": "提溪"
+  },
+  "TGR": {
+    "name": "铜仁"
+  },
+  "QGS": {
+    "name": "邛水"
+  },
+  "WZH": {
+    "name": "五寨"
+  },
+  "PTZ": {
+    "name": "平头著可"
+  },
+  "LGQ": {
+    "name": "龙泉"
+  },
+  "RGS": {
+    "name": "容山"
+  },
+  "BNI": {
+    "name": "白泥"
+  },
+  "COG": {
+    "name": "草塘"
+  },
+  "XNL": {
+    "name": "兴隆"
+  },
+  "ALI": {
+    "name": "凯里"
+  },
+  "SDG": {
+    "name": "水东"
+  },
+  "PYE": {
+    "name": "平越"
+  },
+  "DZH": {
+    "name": "底寨"
+  },
+  "XNG": {
+    "name": "咸宁"
+  },
+  "PDG": {
+    "name": "平定"
+  },
+  "PDN": {
+    "name": "普定"
+  },
+  "PGB": {
+    "name": "平坝"
+  },
+  "PAN": {
+    "name": "普安"
+  },
+  "YNN": {
+    "name": "永宁僮"
+  },
+  "LIN": {
+    "name": "来安"
+  },
+  "NLG": {
+    "name": "安龙"
+  },
+  "SHG": {
+    "name": "上林"
+  },
+  "QYN": {
+    "name": "庆远"
+  },
+  "NDN": {
+    "name": "南丹"
+  },
+  "DLN": {
+    "name": "东兰"
+  },
+  "XCG": {
+    "name": "忻城"
+  },
+  "YSN": {
+    "name": "永顺僮"
+  },
+  "TNZ": {
+    "name": "田州"
+  },
+  "ADG": {
+    "name": "安定"
+  },
+  "DYG": {
+    "name": "都阳"
+  },
+  "ZNN": {
+    "name": "镇安"
+  },
+  "TPG": {
+    "name": "太平"
+  },
+  "SMG": {
+    "name": "思明"
+  },
+  "SGS": {
+    "name": "上思"
+  },
+  "GNN": {
+    "name": "广南"
+  },
+  "LZO": {
+    "name": "罗佐"
+  },
+  "FZH": {
+    "name": "富州"
+  },
+  "LZI": {
+    "name": "良寨"
+  },
+  "SZI": {
+    "name": "舍资"
+  },
+  "DYN": {
+    "name": "都匀"
+  },
+  "LTU": {
+    "name": "烂土"
+  },
+  "GZH": {
+    "name": "古州"
+  },
+  "LPG": {
+    "name": "黎平"
+  },
+  "ZLD": {
+    "name": "中林峒"
+  },
+  "HZH": {
+    "name": "洪州"
+  },
+  "XSY": {
+    "name": "西山阳"
+  },
+  "LNG": {
+    "name": "梁"
   },
   "CDL": {
-    "name": "大理",
-    "desc": ""
+    "name": "大理"
   },
   "CHH": {
-    "name": "景洪",
-    "desc": ""
+    "name": "景洪"
   },
   "TIB": {
-    "name": "吐蕃",
-    "desc": ""
+    "name": "吐蕃"
   },
   "GUG": {
-    "name": "古格",
-    "desc": ""
+    "name": "古格"
   },
   "PUR": {
-    "name": "布让",
-    "desc": ""
+    "name": "布让"
   },
   "MAR": {
-    "name": "麻域",
-    "desc": ""
+    "name": "麻域"
   },
   "ZNK": {
-    "name": "桑迦",
-    "desc": ""
+    "name": "桑迦"
   },
   "CHG": {
-    "name": "察合台",
-    "desc": ""
+    "name": "察合台"
   },
   "TIM": {
-    "name": "帖木儿",
-    "desc": ""
+    "name": "帖木儿"
   },
   "QCH": {
-    "name": "高昌",
-    "desc": ""
+    "name": "高昌"
   },
   "MNL": {
-    "name": "曼尕赖",
-    "desc": ""
+    "name": "曼尕赖"
   },
   "MGG": {
-    "name": "芒隅贡塘",
-    "desc": ""
+    "name": "芒隅贡塘"
   },
   "POO": {
-    "name": "波窝",
-    "desc": ""
+    "name": "波窝"
   },
   "HOR": {
-    "name": "霍尔巴",
-    "desc": ""
+    "name": "霍尔巴"
   },
   "LGT": {
-    "name": "灵藏",
-    "desc": ""
+    "name": "灵藏"
   },
   "DRG": {
-    "name": "德格",
-    "desc": ""
+    "name": "德格"
   },
   "NCN": {
-    "name": "囊谦",
-    "desc": ""
+    "name": "囊谦"
   },
   "GNJ": {
-    "name": "贡觉",
-    "desc": ""
+    "name": "贡觉"
   },
   "BTG": {
-    "name": "巴塘",
-    "desc": ""
+    "name": "巴塘"
   },
   "NBH": {
-    "name": "西霍尔",
-    "desc": ""
+    "name": "西霍尔"
   },
   "LTN": {
-    "name": "理塘",
-    "desc": ""
+    "name": "理塘"
   },
   "NYA": {
-    "name": "娘绒",
-    "desc": ""
+    "name": "娘绒"
   },
   "GYT": {
-    "name": "建塘",
-    "desc": ""
+    "name": "建塘"
+  },
+  "YNG": {
+    "name": "永宁"
   },
   "TNQ": {
-    "name": "天全",
-    "desc": ""
+    "name": "天全"
   },
   "MCI": {
-    "name": "木赤",
-    "desc": ""
+    "name": "木赤"
   },
   "WMO": {
-    "name": "威茂",
-    "desc": ""
+    "name": "威茂"
   },
   "TSK": {
-    "name": "杂谷",
-    "desc": ""
+    "name": "杂谷"
   },
   "SNP": {
-    "name": "松潘",
-    "desc": ""
+    "name": "松潘"
   },
   "LGZ": {
-    "name": "龙州",
-    "desc": ""
+    "name": "龙州"
   },
   "MNZ": {
-    "name": "岷州",
-    "desc": ""
+    "name": "岷州"
   },
   "TAZ": {
-    "name": "洮州",
-    "desc": ""
+    "name": "洮州"
   },
   "KHG": {
-    "name": "卡加",
-    "desc": ""
+    "name": "卡加"
   },
   "HEZ": {
-    "name": "河州",
-    "desc": ""
+    "name": "河州"
   },
   "JIZ": {
-    "name": "积石州",
-    "desc": ""
+    "name": "积石州"
   },
   "BIR": {
-    "name": "毕日",
-    "desc": ""
+    "name": "毕日"
   },
   "GYE": {
-    "name": "嘉绒",
-    "desc": ""
+    "name": "嘉绒"
   },
   "GOL": {
-    "name": "果洛",
-    "desc": ""
+    "name": "果洛"
   },
   "CKL": {
-    "name": "明正",
-    "desc": ""
+    "name": "明正"
   },
   "AMD": {
-    "name": "安多",
-    "desc": ""
+    "name": "安多"
   },
   "MSH": {
-    "name": "僜",
-    "desc": ""
+    "name": "僜"
   },
   "TAN": {
-    "name": "珞巴",
-    "desc": ""
+    "name": "珞巴"
   },
   "MNP": {
-    "name": "门巴",
-    "desc": ""
+    "name": "门巴"
   },
   "LMN": {
-    "name": "珞门",
-    "desc": ""
+    "name": "珞门"
   },
   "LJG": {
-    "name": "丽江",
-    "desc": ""
+    "name": "丽江"
   },
   "SKK": {
-    "name": "锡金",
-    "desc": ""
+    "name": "锡金"
   },
   "DUR": {
-    "name": "达斡尔",
-    "desc": ""
+    "name": "达斡尔"
   },
   "EVK": {
-    "name": "鄂温克",
-    "desc": ""
+    "name": "鄂温克"
   },
   "NVK": {
-    "name": "尼夫赫",
-    "desc": ""
+    "name": "尼夫赫"
   },
   "ORC": {
-    "name": "奥罗奇",
-    "desc": ""
+    "name": "奥罗奇"
   },
   "ORQ": {
-    "name": "鄂伦春",
-    "desc": ""
+    "name": "鄂伦春"
   },
   "SIB": {
-    "name": "锡伯",
-    "desc": ""
+    "name": "锡伯"
   },
   "UDE": {
-    "name": "兀狄哈",
-    "desc": ""
+    "name": "兀狄哈"
   },
   "ULC": {
-    "name": "乌尔奇",
-    "desc": ""
+    "name": "乌尔奇"
   },
   "HDA": {
-    "name": "哈达",
-    "desc": ""
+    "name": "哈达"
   },
   "HOI": {
-    "name": "辉发",
-    "desc": ""
+    "name": "辉发"
   },
   "ULA": {
-    "name": "乌拉",
-    "desc": ""
+    "name": "乌拉"
   },
   "YEH": {
-    "name": "叶赫",
-    "desc": ""
+    "name": "叶赫"
   },
   "DNG": {
-    "name": "董鄂",
-    "desc": ""
+    "name": "董鄂"
   },
   "HJN": {
-    "name": "忽剌温",
-    "desc": ""
+    "name": "忽剌温"
   },
   "HNE": {
-    "name": "浑河",
-    "desc": ""
+    "name": "浑河"
   },
   "HUL": {
-    "name": "胡里改",
-    "desc": ""
+    "name": "胡里改"
   },
   "JEC": {
-    "name": "哲陈",
-    "desc": ""
+    "name": "哲陈"
   },
   "JUS": {
-    "name": "朱舍里",
-    "desc": ""
+    "name": "朱舍里"
   },
   "MAO": {
-    "name": "毛怜",
-    "desc": ""
+    "name": "毛怜"
   },
   "NEY": {
-    "name": "讷殷",
-    "desc": ""
+    "name": "讷殷"
   },
   "ODO": {
-    "name": "斡朵里",
-    "desc": ""
+    "name": "斡朵里"
   },
   "SSH": {
-    "name": "苏克素护",
-    "desc": ""
+    "name": "苏克素护"
   },
   "URY": {
-    "name": "兀良哈",
-    "desc": ""
+    "name": "兀良哈"
   },
   "WGG": {
-    "name": "完颜",
-    "desc": ""
+    "name": "完颜"
   },
   "YAL": {
-    "name": "鸭绿",
-    "desc": ""
+    "name": "鸭绿"
   },
   "AAR": {
-    "name": "阿卜达里",
-    "desc": ""
+    "name": "阿卜达里"
   },
   "AID": {
-    "name": "艾丹",
-    "desc": ""
+    "name": "艾丹"
   },
   "ASU": {
-    "name": "阿苏",
-    "desc": ""
+    "name": "阿苏"
   },
   "BAY": {
-    "name": "巴彦",
-    "desc": ""
+    "name": "巴彦"
   },
   "DLA": {
-    "name": "达拉",
-    "desc": ""
+    "name": "达拉"
   },
   "EJI": {
-    "name": "埃吉米",
-    "desc": ""
+    "name": "埃吉米"
   },
   "FLN": {
-    "name": "富伦",
-    "desc": ""
+    "name": "富伦"
   },
   "FUT": {
-    "name": "弗提",
-    "desc": ""
+    "name": "弗提"
   },
   "FUY": {
-    "name": "福余",
-    "desc": ""
+    "name": "福余"
   },
   "GIL": {
-    "name": "吉烈迷",
-    "desc": ""
+    "name": "吉烈迷"
   },
   "HIJ": {
-    "name": "希安",
-    "desc": ""
+    "name": "希安"
   },
   "HIY": {
-    "name": "哈伊彦",
-    "desc": ""
+    "name": "哈伊彦"
   },
   "HLN": {
-    "name": "哈兰",
-    "desc": ""
+    "name": "哈兰"
   },
   "HNC": {
-    "name": "珲春",
-    "desc": ""
+    "name": "珲春"
   },
   "HOT": {
-    "name": "禾屯吉",
-    "desc": ""
+    "name": "禾屯吉"
   },
   "HRO": {
-    "name": "霍罗",
-    "desc": ""
+    "name": "霍罗"
   },
   "HUI": {
-    "name": "惠巴",
-    "desc": ""
+    "name": "惠巴"
   },
   "HUR": {
-    "name": "虎尔哈",
-    "desc": ""
+    "name": "虎尔哈"
   },
   "ILU": {
-    "name": "伊卢",
-    "desc": ""
+    "name": "伊卢"
   },
   "IMN": {
-    "name": "伊曼卡",
-    "desc": ""
+    "name": "伊曼卡"
   },
   "ITU": {
-    "name": "伊图",
-    "desc": ""
+    "name": "伊图"
   },
   "JHT": {
-    "name": "双城子",
-    "desc": ""
+    "name": "双城子"
   },
   "LAL": {
-    "name": "拉林",
-    "desc": ""
+    "name": "拉林"
   },
   "LEF": {
-    "name": "勒富",
-    "desc": ""
+    "name": "勒富"
   },
   "LLU": {
-    "name": "拉卢",
-    "desc": ""
+    "name": "拉卢"
   },
   "MAH": {
-    "name": "马希安",
-    "desc": ""
+    "name": "马希安"
   },
   "MIC": {
-    "name": "密陈",
-    "desc": ""
+    "name": "密陈"
   },
   "MRE": {
-    "name": "穆伦",
-    "desc": ""
+    "name": "穆伦"
   },
   "MUH": {
-    "name": "穆希亚",
-    "desc": ""
+    "name": "穆希亚"
   },
   "MUU": {
-    "name": "穆棱",
-    "desc": ""
+    "name": "穆棱"
   },
   "NAL": {
-    "name": "纳拉吉",
-    "desc": ""
+    "name": "纳拉吉"
   },
   "NEM": {
-    "name": "内梅尔",
-    "desc": ""
+    "name": "内梅尔"
   },
   "NRO": {
-    "name": "诺罗",
-    "desc": ""
+    "name": "诺罗"
   },
   "SHI": {
-    "name": "施林",
-    "desc": ""
+    "name": "施林"
   },
   "SIR": {
-    "name": "西林",
-    "desc": ""
+    "name": "西林"
   },
   "SMN": {
-    "name": "失里绵",
-    "desc": ""
+    "name": "失里绵"
   },
   "SNC": {
-    "name": "三察哈",
-    "desc": ""
+    "name": "三察哈"
   },
   "SUI": {
-    "name": "绥芬",
-    "desc": ""
+    "name": "绥芬"
   },
   "TAS": {
-    "name": "塔山",
-    "desc": ""
+    "name": "塔山"
   },
   "TOD": {
-    "name": "托多",
-    "desc": ""
+    "name": "托多"
   },
   "TOX": {
-    "name": "屯",
-    "desc": ""
+    "name": "屯"
   },
   "USS": {
-    "name": "乌苏里",
-    "desc": ""
+    "name": "乌苏里"
   },
   "WEJ": {
-    "name": "窝集",
-    "desc": ""
+    "name": "窝集"
   },
   "WEK": {
-    "name": "倭肯",
-    "desc": ""
+    "name": "倭肯"
   },
   "WNL": {
-    "name": "万林",
-    "desc": ""
+    "name": "万林"
   },
   "WUY": {
-    "name": "兀也吾",
-    "desc": ""
+    "name": "兀也吾"
   },
   "YRN": {
-    "name": "雅兰",
-    "desc": ""
+    "name": "雅兰"
   },
   "YIM": {
-    "name": "亦马忽",
-    "desc": ""
+    "name": "亦马忽"
   },
   "YOO": {
-    "name": "约瑟",
-    "desc": ""
+    "name": "约瑟"
   },
   "KAD": {
-    "name": "侗",
-    "desc": ""
+    "name": "侗"
   },
   "TUJ": {
-    "name": "土家",
-    "desc": ""
+    "name": "土家"
   },
   "MNE": {
-    "name": "瑶",
-    "desc": ""
+    "name": "瑶"
   },
   "MIO": {
-    "name": "苗",
-    "desc": ""
+    "name": "苗"
   },
   "HQQ": {
-    "name": "哈尼",
-    "desc": ""
+    "name": "哈尼"
   },
   "YII": {
-    "name": "彝",
-    "desc": ""
+    "name": "彝"
   },
   "DDI": {
-    "name": "傣",
-    "desc": ""
+    "name": "傣"
   },
   "OIR": {
-    "name": "瓦剌",
-    "desc": ""
+    "name": "瓦剌"
   },
   "OGE": {
-    "name": "窝阔台",
-    "desc": ""
+    "name": "窝阔台"
   },
   "BAT": {
-    "name": "巴图特",
-    "desc": ""
+    "name": "巴图特"
   },
   "CRS": {
-    "name": "绰罗斯",
-    "desc": ""
+    "name": "绰罗斯"
   },
   "KHD": {
-    "name": "辉特",
-    "desc": ""
+    "name": "辉特"
   },
   "TRH": {
-    "name": "土尔扈特",
-    "desc": ""
+    "name": "土尔扈特"
   },
   "TVA": {
-    "name": "图瓦",
-    "desc": ""
+    "name": "图瓦"
   },
   "BGT": {
-    "name": "别勒古台",
-    "desc": ""
+    "name": "别勒古台"
   },
   "HCN": {
-    "name": "合赤温",
-    "desc": ""
+    "name": "合赤温"
   },
   "OTC": {
-    "name": "斡惕赤斤",
-    "desc": ""
+    "name": "斡惕赤斤"
   },
   "QAS": {
-    "name": "合撒儿",
-    "desc": ""
+    "name": "合撒儿"
   },
   "BKH": {
-    "name": "巴达赫尚",
-    "desc": ""
+    "name": "巴达赫尚"
   },
   "DGH": {
-    "name": "朵豁剌惕",
-    "desc": ""
+    "name": "朵豁剌惕"
   },
   "KRG": {
-    "name": "卡拉捷金",
-    "desc": ""
+    "name": "卡拉捷金"
   },
   "SRL": {
-    "name": "萨雷阔勒",
-    "desc": ""
+    "name": "萨雷阔勒"
   },
   "COO": {
-    "name": "库萨",
-    "desc": ""
+    "name": "库萨"
   },
   "OTL": {
-    "name": "奥塔利",
-    "desc": ""
+    "name": "奥塔利"
   },
   "COW": {
-    "name": "考维塔",
-    "desc": ""
+    "name": "考维塔"
   },
   "TUC": {
-    "name": "塔卡巴奇",
-    "desc": ""
+    "name": "塔卡巴奇"
   },
   "EUF": {
-    "name": "尤福拉",
-    "desc": ""
+    "name": "尤福拉"
   },
   "CPQ": {
-    "name": "卡帕切基",
-    "desc": ""
+    "name": "卡帕切基"
   },
   "TOA": {
-    "name": "托亚",
-    "desc": ""
+    "name": "托亚"
   },
   "OCT": {
-    "name": "奥库特",
-    "desc": ""
+    "name": "奥库特"
   },
   "HIT": {
-    "name": "阿奇克哈塔",
-    "desc": ""
+    "name": "阿奇克哈塔"
   },
   "ALA": {
-    "name": "阿拉巴莫",
-    "desc": ""
+    "name": "阿拉巴莫"
   },
   "KST": {
-    "name": "科阿萨蒂",
-    "desc": ""
+    "name": "科阿萨蒂"
   },
   "CHC": {
-    "name": "乔克托",
-    "desc": ""
+    "name": "乔克托"
   },
   "CHS": {
-    "name": "奇克索",
-    "desc": ""
+    "name": "奇克索"
   },
   "MCG": {
-    "name": "马斯科吉",
-    "desc": ""
+    "name": "马斯科吉"
   },
   "QGM": {
-    "name": "奎瓜尔塔姆",
-    "desc": ""
+    "name": "奎瓜尔塔姆"
   },
   "QUZ": {
-    "name": "基斯基斯",
-    "desc": ""
+    "name": "基斯基斯"
   },
   "NCZ": {
-    "name": "纳奇兹",
-    "desc": ""
+    "name": "纳奇兹"
   },
   "GUL": {
-    "name": "瓜莱",
-    "desc": ""
+    "name": "瓜莱"
   },
   "APA": {
-    "name": "阿巴拉契",
-    "desc": ""
+    "name": "阿巴拉契"
   },
   "KSK": {
-    "name": "卡斯基南波",
-    "desc": ""
+    "name": "卡斯基南波"
   },
   "KAW": {
-    "name": "坎扎",
-    "desc": ""
+    "name": "坎扎"
   },
   "UMO": {
-    "name": "乌莫霍",
-    "desc": ""
+    "name": "乌莫霍"
   },
   "WZZ": {
-    "name": "瓦扎哲",
-    "desc": ""
+    "name": "瓦扎哲"
   },
   "PPK": {
-    "name": "潘卡",
-    "desc": ""
+    "name": "潘卡"
   },
   "UGX": {
-    "name": "乌加克斯帕",
-    "desc": ""
+    "name": "乌加克斯帕"
   },
   "GWY": {
-    "name": "古瓦伊希",
-    "desc": ""
+    "name": "古瓦伊希"
   },
   "GDW": {
-    "name": "基杜瓦",
-    "desc": ""
+    "name": "基杜瓦"
   },
   "TSO": {
-    "name": "佐亚哈",
-    "desc": ""
+    "name": "佐亚哈"
   },
   "CFQ": {
-    "name": "科菲塔切基",
-    "desc": ""
+    "name": "科菲塔切基"
   },
   "JOA": {
-    "name": "乔阿拉",
-    "desc": ""
+    "name": "乔阿拉"
   },
   "TSN": {
-    "name": "塞纳科马克",
-    "desc": ""
+    "name": "塞纳科马克"
   },
   "ACL": {
-    "name": "阿科拉皮萨",
-    "desc": ""
+    "name": "阿科拉皮萨"
   },
   "MBL": {
-    "name": "托霍梅",
-    "desc": ""
+    "name": "托霍梅"
   },
   "CTT": {
-    "name": "查托特",
-    "desc": ""
+    "name": "查托特"
   },
   "YMS": {
-    "name": "亚马西",
-    "desc": ""
+    "name": "亚马西"
   },
   "CSB": {
-    "name": "库萨博",
-    "desc": ""
+    "name": "库萨博"
   },
   "CHK": {
-    "name": "卡霍基亚",
-    "desc": ""
+    "name": "卡霍基亚"
   },
   "HCK": {
-    "name": "霍查克",
-    "desc": ""
+    "name": "霍查克"
   },
   "BXJ": {
-    "name": "巴荷杰",
-    "desc": ""
+    "name": "巴荷杰"
   },
   "WGH": {
-    "name": "瓦格托克塔塔",
-    "desc": ""
+    "name": "瓦格托克塔塔"
   },
   "OFO": {
-    "name": "奥夫",
-    "desc": ""
+    "name": "奥夫"
   },
   "TKS": {
-    "name": "塔内克斯",
-    "desc": ""
+    "name": "塔内克斯"
   },
   "MTN": {
-    "name": "莫内顿",
-    "desc": ""
+    "name": "莫内顿"
   },
   "MNC": {
-    "name": "莫纳坎",
-    "desc": ""
+    "name": "莫纳坎"
   },
   "TTL": {
-    "name": "图特洛",
-    "desc": ""
+    "name": "图特洛"
   },
   "WCM": {
-    "name": "沃卡莫",
-    "desc": ""
+    "name": "沃卡莫"
   },
   "TMC": {
-    "name": "蒂穆夸",
-    "desc": ""
+    "name": "蒂穆夸"
   },
   "CLS": {
-    "name": "卡卢萨",
-    "desc": ""
+    "name": "卡卢萨"
   },
   "AIX": {
-    "name": "艾斯",
-    "desc": ""
+    "name": "艾斯"
   },
   "TBG": {
-    "name": "托科巴加",
-    "desc": ""
+    "name": "托科巴加"
   },
   "NTT": {
-    "name": "诺托韦",
-    "desc": ""
+    "name": "诺托韦"
   },
   "SKR": {
-    "name": "斯卡鲁雷",
-    "desc": ""
+    "name": "斯卡鲁雷"
   },
   "WRO": {
-    "name": "温罗赫农",
-    "desc": ""
+    "name": "温罗赫农"
   },
   "KEN": {
-    "name": "肯塔恩通加",
-    "desc": ""
+    "name": "肯塔恩通加"
   },
   "ERI": {
-    "name": "伊利霍南",
-    "desc": ""
+    "name": "伊利霍南"
   },
   "HON": {
-    "name": "奥尼亚松特",
-    "desc": ""
+    "name": "奥尼亚松特"
   },
   "ONJ": {
-    "name": "奥诺朱塔",
-    "desc": ""
+    "name": "奥诺朱塔"
   },
   "CTN": {
-    "name": "卡伦图安",
-    "desc": ""
+    "name": "卡伦图安"
   },
   "AKY": {
-    "name": "阿特拉夸耶",
-    "desc": ""
+    "name": "阿特拉夸耶"
   },
   "KKA": {
-    "name": "卡尼恩凯哈卡",
-    "desc": ""
+    "name": "卡尼恩凯哈卡"
   },
   "ONY": {
-    "name": "奥尼奥塔阿卡",
-    "desc": ""
+    "name": "奥尼奥塔阿卡"
   },
   "ONO": {
-    "name": "奥农达格加",
-    "desc": ""
+    "name": "奥农达格加"
   },
   "GYO": {
-    "name": "加耶戈霍诺",
-    "desc": ""
+    "name": "加耶戈霍诺"
   },
   "ONN": {
-    "name": "奥农多瓦加",
-    "desc": ""
+    "name": "奥农多瓦加"
   },
   "PML": {
-    "name": "帕姆利科",
-    "desc": ""
+    "name": "帕姆利科"
   },
   "DOE": {
-    "name": "多埃格",
-    "desc": ""
+    "name": "多埃格"
   },
   "PSC": {
-    "name": "皮斯卡塔韦",
-    "desc": ""
+    "name": "皮斯卡塔韦"
   },
   "NTK": {
-    "name": "嫩特戈",
-    "desc": ""
+    "name": "嫩特戈"
   },
   "RPP": {
-    "name": "拉帕汉诺克",
-    "desc": ""
+    "name": "拉帕汉诺克"
   },
   "CAA": {
-    "name": "克洛坦",
-    "desc": ""
+    "name": "克洛坦"
   },
   "NSM": {
-    "name": "南塞蒙德",
-    "desc": ""
+    "name": "南塞蒙德"
   },
   "ACW": {
-    "name": "阿卡瓦马基",
-    "desc": ""
+    "name": "阿卡瓦马基"
   },
   "MMQ": {
-    "name": "马马切陶",
-    "desc": ""
+    "name": "马马切陶"
   },
   "OSK": {
-    "name": "奥萨基瓦基",
-    "desc": ""
+    "name": "奥萨基瓦基"
   },
   "MSK": {
-    "name": "梅斯夸基",
-    "desc": ""
+    "name": "梅斯夸基"
   },
   "KIW": {
-    "name": "基维加帕瓦",
-    "desc": ""
+    "name": "基维加帕瓦"
   },
   "MCT": {
-    "name": "马斯古顿",
-    "desc": ""
+    "name": "马斯古顿"
   },
   "CLG": {
-    "name": "查拉高萨",
-    "desc": ""
+    "name": "查拉高萨"
   },
   "MKC": {
-    "name": "梅科奇",
-    "desc": ""
+    "name": "梅科奇"
   },
   "KPK": {
-    "name": "基斯波科",
-    "desc": ""
+    "name": "基斯波科"
   },
   "PKW": {
-    "name": "佩科维",
-    "desc": ""
+    "name": "佩科维"
   },
   "HAT": {
-    "name": "哈萨韦克拉",
-    "desc": ""
+    "name": "哈萨韦克拉"
   },
   "BDK": {
-    "name": "博德瓦多米克",
-    "desc": ""
+    "name": "博德瓦多米克"
   },
   "TMW": {
-    "name": "塔马罗瓦",
-    "desc": ""
+    "name": "塔马罗瓦"
   },
   "KHK": {
-    "name": "卡霍齐亚基",
-    "desc": ""
+    "name": "卡霍齐亚基"
   },
   "KKH": {
-    "name": "卡斯坎卡汉",
-    "desc": ""
+    "name": "卡斯坎卡汉"
   },
   "PEO": {
-    "name": "佩瓦雷瓦",
-    "desc": ""
+    "name": "佩瓦雷瓦"
   },
   "AKG": {
-    "name": "阿查坎古恩",
-    "desc": ""
+    "name": "阿查坎古恩"
   },
   "PIA": {
-    "name": "皮安克肖",
-    "desc": ""
+    "name": "皮安克肖"
   },
   "PEP": {
-    "name": "佩皮科基亚",
-    "desc": ""
+    "name": "佩皮科基亚"
   },
   "WEA": {
-    "name": "威亚坦瓦",
-    "desc": ""
+    "name": "威亚坦瓦"
   },
   "UNA": {
-    "name": "乌纳米",
-    "desc": ""
+    "name": "乌纳米"
   },
   "MNS": {
-    "name": "蒙西",
-    "desc": ""
+    "name": "蒙西"
   },
   "UNL": {
-    "name": "乌纳拉奇戈",
-    "desc": ""
+    "name": "乌纳拉奇戈"
   },
   "MCN": {
-    "name": "穆赫康纽",
-    "desc": ""
+    "name": "穆赫康纽"
   },
   "QRP": {
-    "name": "奎里皮",
-    "desc": ""
+    "name": "奎里皮"
   },
   "PCT": {
-    "name": "波康塔克",
-    "desc": ""
+    "name": "波康塔克"
   },
   "PQT": {
-    "name": "佩科特",
-    "desc": ""
+    "name": "佩科特"
   },
   "NRG": {
-    "name": "纳伊甘塞特",
-    "desc": ""
+    "name": "纳伊甘塞特"
   },
   "WMG": {
-    "name": "万帕诺亚格",
-    "desc": ""
+    "name": "万帕诺亚格"
   },
   "MSC": {
-    "name": "马萨诸塞",
-    "desc": ""
+    "name": "马萨诸塞"
   },
   "PCK": {
-    "name": "佩纳库克",
-    "desc": ""
+    "name": "佩纳库克"
   },
   "BQA": {
-    "name": "拜尔盖",
-    "desc": ""
+    "name": "拜尔盖"
   },
   "BKZ": {
-    "name": "巴努‑坎兹",
-    "desc": ""
+    "name": "巴努‑坎兹"
   },
   "FZA": {
-    "name": "费赞",
-    "desc": ""
+    "name": "费赞"
   },
   "MAM": {
-    "name": "埃及",
-    "desc": ""
+    "name": "埃及"
   },
   "SKN": {
-    "name": "萨瓦金",
-    "desc": ""
+    "name": "萨瓦金"
   },
   "TRP": {
-    "name": "的黎波里",
-    "desc": ""
+    "name": "的黎波里"
   },
   "BRI": {
-    "name": "布列塔尼",
-    "desc": ""
+    "name": "布列塔尼"
   },
   "FRA": {
-    "name": "法兰西",
-    "desc": ""
+    "name": "法兰西"
   },
   "BUR": {
-    "name": "勃艮第",
-    "desc": ""
+    "name": "勃艮第"
   },
   "FCB": {
-    "name": "弗朗什‑孔泰",
-    "desc": ""
+    "name": "弗朗什‑孔泰"
   },
   "AQN": {
-    "name": "阿基坦",
-    "desc": ""
+    "name": "阿基坦"
   },
   "ALE": {
-    "name": "阿朗松",
-    "desc": ""
+    "name": "阿朗松"
   },
   "AUX": {
-    "name": "欧塞尔",
-    "desc": ""
+    "name": "欧塞尔"
   },
   "SAN": {
-    "name": "桑塞尔",
-    "desc": ""
+    "name": "桑塞尔"
   },
   "AMG": {
-    "name": "阿马尼亚克",
-    "desc": ""
+    "name": "阿马尼亚克"
   },
   "AUV": {
-    "name": "奥弗涅",
-    "desc": ""
+    "name": "奥弗涅"
   },
   "BOU": {
-    "name": "波旁",
-    "desc": ""
+    "name": "波旁"
   },
   "CHP": {
-    "name": "香槟",
-    "desc": ""
+    "name": "香槟"
   },
   "DAU": {
-    "name": "维埃努瓦",
-    "desc": ""
+    "name": "维埃努瓦"
   },
   "EVR": {
-    "name": "埃夫勒",
-    "desc": ""
+    "name": "埃夫勒"
   },
   "FOI": {
-    "name": "富瓦",
-    "desc": ""
+    "name": "富瓦"
   },
   "GUY": {
-    "name": "加斯科涅",
-    "desc": ""
+    "name": "加斯科涅"
   },
   "NEV": {
-    "name": "讷韦尔",
-    "desc": ""
+    "name": "讷韦尔"
   },
   "NRB": {
-    "name": "纳博讷",
-    "desc": ""
+    "name": "纳博讷"
   },
   "NRM": {
-    "name": "诺曼底",
-    "desc": ""
+    "name": "诺曼底"
   },
   "JER": {
-    "name": "泽西",
-    "desc": ""
+    "name": "泽西"
   },
   "ORL": {
-    "name": "奥尔良",
-    "desc": ""
+    "name": "奥尔良"
   },
   "PIC": {
-    "name": "皮卡第",
-    "desc": ""
+    "name": "皮卡第"
   },
   "PRO": {
-    "name": "普罗旺斯",
-    "desc": ""
+    "name": "普罗旺斯"
   },
   "ORA": {
-    "name": "奥朗日",
-    "desc": ""
+    "name": "奥朗日"
   },
   "TOU": {
-    "name": "图卢兹",
-    "desc": ""
+    "name": "图卢兹"
   },
   "BER": {
-    "name": "贝里",
-    "desc": ""
+    "name": "贝里"
   },
   "LOR": {
-    "name": "洛林",
-    "desc": ""
+    "name": "洛林"
   },
   "BAR": {
-    "name": "巴尔",
-    "desc": ""
+    "name": "巴尔"
   },
   "DRE": {
-    "name": "德勒",
-    "desc": ""
+    "name": "德勒"
   },
   "MRT": {
-    "name": "莫尔坦",
-    "desc": ""
+    "name": "莫尔坦"
   },
   "POI": {
-    "name": "普瓦图",
-    "desc": ""
+    "name": "普瓦图"
   },
   "ANJ": {
-    "name": "安茹",
-    "desc": ""
+    "name": "安茹"
   },
   "MIE": {
-    "name": "曼恩",
-    "desc": ""
+    "name": "曼恩"
   },
   "VLS": {
-    "name": "瓦卢瓦",
-    "desc": ""
+    "name": "瓦卢瓦"
   },
   "PRC": {
-    "name": "佩尔什",
-    "desc": ""
+    "name": "佩尔什"
   },
   "FRZ": {
-    "name": "福雷",
-    "desc": ""
+    "name": "福雷"
   },
   "BLS": {
-    "name": "布卢瓦",
-    "desc": ""
+    "name": "布卢瓦"
   },
   "VDM": {
-    "name": "旺多姆",
-    "desc": ""
+    "name": "旺多姆"
   },
   "ETA": {
-    "name": "埃唐普",
-    "desc": ""
+    "name": "埃唐普"
   },
   "AST": {
-    "name": "阿斯塔拉克",
-    "desc": ""
+    "name": "阿斯塔拉克"
   },
   "COM": {
-    "name": "科曼日",
-    "desc": ""
+    "name": "科曼日"
   },
   "IJO": {
-    "name": "利勒茹尔丹",
-    "desc": ""
+    "name": "利勒茹尔丹"
   },
   "VLN": {
-    "name": "瓦朗蒂努瓦",
-    "desc": ""
+    "name": "瓦朗蒂努瓦"
   },
   "PER": {
-    "name": "佩里戈尔",
-    "desc": ""
+    "name": "佩里戈尔"
   },
   "TON": {
-    "name": "托内尔",
-    "desc": ""
+    "name": "托内尔"
   },
   "MON": {
-    "name": "蒙福尔",
-    "desc": ""
+    "name": "蒙福尔"
   },
   "AUM": {
-    "name": "欧马勒",
-    "desc": ""
+    "name": "欧马勒"
   },
   "ROU": {
-    "name": "鲁西",
-    "desc": ""
+    "name": "鲁西"
   },
   "BSC": {
-    "name": "贝桑松",
-    "desc": ""
+    "name": "贝桑松"
   },
   "ALS": {
-    "name": "斯特拉斯堡",
-    "desc": ""
+    "name": "斯特拉斯堡"
   },
   "MTB": {
-    "name": "蒙贝利亚尔",
-    "desc": ""
+    "name": "蒙贝利亚尔"
   },
   "TUL": {
-    "name": "图勒",
-    "desc": ""
+    "name": "图勒"
   },
   "VDU": {
-    "name": "凡尔登",
-    "desc": ""
+    "name": "凡尔登"
   },
   "MTZ": {
-    "name": "梅斯",
-    "desc": ""
+    "name": "梅斯"
   },
   "SLM": {
-    "name": "萨尔姆",
-    "desc": ""
+    "name": "萨尔姆"
   },
   "MOU": {
-    "name": "穆宗",
-    "desc": ""
+    "name": "穆宗"
   },
   "RET": {
-    "name": "勒泰勒",
-    "desc": ""
+    "name": "勒泰勒"
   },
   "CAM": {
-    "name": "康布雷",
-    "desc": ""
+    "name": "康布雷"
   },
   "BRR": {
-    "name": "贝阿恩",
-    "desc": ""
+    "name": "贝阿恩"
   },
   "MDM": {
-    "name": "马桑",
-    "desc": ""
+    "name": "马桑"
   },
   "FRT": {
-    "name": "费雷特",
-    "desc": ""
+    "name": "费雷特"
   },
   "MRC": {
-    "name": "拉马什",
-    "desc": ""
+    "name": "拉马什"
   },
   "VNT": {
-    "name": "旺塔杜尔",
-    "desc": ""
+    "name": "旺塔杜尔"
   },
   "RCC": {
-    "name": "罗什舒阿尔",
-    "desc": ""
+    "name": "罗什舒阿尔"
   },
   "CLT": {
-    "name": "卡拉",
-    "desc": ""
+    "name": "卡拉"
   },
   "ANG": {
-    "name": "昂古莱姆",
-    "desc": ""
+    "name": "昂古莱姆"
   },
   "DAM": {
-    "name": "达莫特",
-    "desc": ""
+    "name": "达莫特"
   },
   "ENN": {
-    "name": "恩纳雷亚",
-    "desc": ""
+    "name": "恩纳雷亚"
   },
   "DBE": {
-    "name": "多贝亚",
-    "desc": ""
+    "name": "多贝亚"
   },
   "END": {
-    "name": "恩德塔",
-    "desc": ""
+    "name": "恩德塔"
   },
   "ETH": {
-    "name": "埃塞俄比亚",
-    "desc": ""
+    "name": "埃塞俄比亚"
   },
   "GJJ": {
-    "name": "戈贾姆",
-    "desc": ""
+    "name": "戈贾姆"
   },
   "MED": {
-    "name": "梅德里巴赫里",
-    "desc": ""
+    "name": "梅德里巴赫里"
   },
   "BTI": {
-    "name": "塞米恩",
-    "desc": ""
+    "name": "塞米恩"
   },
   "ADA": {
-    "name": "阿达尔",
-    "desc": ""
+    "name": "阿达尔"
   },
   "AFA": {
-    "name": "丹卡利",
-    "desc": ""
+    "name": "丹卡利"
   },
   "ABB": {
-    "name": "阿尔巴卜尼",
-    "desc": ""
+    "name": "阿尔巴卜尼"
   },
   "AWS": {
-    "name": "奥萨",
-    "desc": ""
+    "name": "奥萨"
   },
   "BLE": {
-    "name": "巴莱",
-    "desc": ""
+    "name": "巴莱"
   },
   "DHK": {
-    "name": "达赫拉克",
-    "desc": ""
+    "name": "达赫拉克"
   },
   "DRA": {
-    "name": "达拉",
-    "desc": ""
+    "name": "达拉"
   },
   "DAW": {
-    "name": "达瓦罗",
-    "desc": ""
+    "name": "达瓦罗"
   },
   "HDY": {
-    "name": "哈迪亚",
-    "desc": ""
+    "name": "哈迪亚"
   },
   "IFA": {
-    "name": "伊法特",
-    "desc": ""
+    "name": "伊法特"
   },
   "HRL": {
-    "name": "哈尔拉",
-    "desc": ""
+    "name": "哈尔拉"
   },
   "SHK": {
-    "name": "沙尔卡",
-    "desc": ""
+    "name": "沙尔卡"
   },
   "SOA": {
-    "name": "绍阿",
-    "desc": ""
+    "name": "绍阿"
   },
   "AJU": {
-    "name": "阿朱兰",
-    "desc": ""
+    "name": "阿朱兰"
   },
   "GLE": {
-    "name": "格勒迪",
-    "desc": ""
+    "name": "格勒迪"
   },
   "MDI": {
-    "name": "摩加迪沙",
-    "desc": ""
+    "name": "摩加迪沙"
   },
   "WAR": {
-    "name": "瓦桑加利",
-    "desc": ""
+    "name": "瓦桑加利"
   },
   "TDE": {
-    "name": "塔纳德",
-    "desc": ""
+    "name": "塔纳德"
   },
   "ABW": {
-    "name": "艾卜瓦卜",
-    "desc": ""
+    "name": "艾卜瓦卜"
   },
   "ALO": {
-    "name": "阿洛迪亚",
-    "desc": ""
+    "name": "阿洛迪亚"
   },
   "MAK": {
-    "name": "马库里亚",
-    "desc": ""
+    "name": "马库里亚"
   },
   "BQL": {
-    "name": "巴格林",
-    "desc": ""
+    "name": "巴格林"
   },
   "BZN": {
-    "name": "巴津",
-    "desc": ""
+    "name": "巴津"
   },
   "JRN": {
-    "name": "贾林",
-    "desc": ""
+    "name": "贾林"
   },
   "NQS": {
-    "name": "纳吉斯",
-    "desc": ""
+    "name": "纳吉斯"
   },
   "QTA": {
-    "name": "咖塔",
-    "desc": ""
+    "name": "咖塔"
   },
   "DAJ": {
-    "name": "达朱",
-    "desc": ""
+    "name": "达朱"
   },
   "ORO": {
-    "name": "奥罗莫",
-    "desc": ""
+    "name": "奥罗莫"
   },
   "AFR": {
-    "name": "阿夫勒",
-    "desc": ""
+    "name": "阿夫勒"
   },
   "SDQ": {
-    "name": "撒达卡",
-    "desc": ""
+    "name": "撒达卡"
   },
   "FNJ": {
-    "name": "贝尔塔",
-    "desc": ""
+    "name": "贝尔塔"
   },
   "GUM": {
-    "name": "古马兹",
-    "desc": ""
+    "name": "古马兹"
   },
   "KUN": {
-    "name": "库纳马",
-    "desc": ""
+    "name": "库纳马"
   },
   "CAT": {
-    "name": "加泰罗尼亚",
-    "desc": ""
+    "name": "加泰罗尼亚"
   },
   "ANR": {
-    "name": "安道尔",
-    "desc": ""
+    "name": "安道尔"
   },
   "ARA": {
-    "name": "阿拉贡",
-    "desc": ""
+    "name": "阿拉贡"
   },
   "VAL": {
-    "name": "巴伦西亚",
-    "desc": ""
+    "name": "巴伦西亚"
   },
   "MLL": {
-    "name": "马略卡",
-    "desc": ""
+    "name": "马略卡"
   },
   "CAS": {
-    "name": "卡斯蒂利亚",
-    "desc": ""
+    "name": "卡斯蒂利亚"
   },
   "POR": {
-    "name": "葡萄牙",
-    "desc": ""
+    "name": "葡萄牙"
   },
   "LON": {
-    "name": "莱昂",
-    "desc": ""
+    "name": "莱昂"
   },
   "GLC": {
-    "name": "加利西亚",
-    "desc": ""
+    "name": "加利西亚"
   },
   "GRA": {
-    "name": "格拉纳达",
-    "desc": ""
+    "name": "格拉纳达"
   },
   "NAV": {
-    "name": "纳瓦拉",
-    "desc": ""
+    "name": "纳瓦拉"
   },
   "DLH": {
-    "name": "德里",
-    "desc": ""
+    "name": "德里"
   },
   "HSL": {
-    "name": "曷萨拉",
-    "desc": ""
+    "name": "曷萨拉"
   },
   "SMV": {
-    "name": "三补缚罗耶尔",
-    "desc": ""
+    "name": "三补缚罗耶尔"
   },
   "VIJ": {
-    "name": "毗奢耶那伽罗",
-    "desc": ""
+    "name": "毗奢耶那伽罗"
   },
   "MAB": {
-    "name": "马巴尔",
-    "desc": ""
+    "name": "马巴尔"
   },
   "TNK": {
-    "name": "潘地亚",
-    "desc": ""
+    "name": "潘地亚"
   },
   "RDY": {
-    "name": "罗底",
-    "desc": ""
+    "name": "罗底"
   },
   "YDR": {
-    "name": "亚达瓦拉亚",
-    "desc": ""
+    "name": "亚达瓦拉亚"
   },
   "ZMR": {
-    "name": "科泽科德",
-    "desc": ""
+    "name": "科泽科德"
   },
   "KLT": {
-    "name": "科拉舒纳德",
-    "desc": ""
+    "name": "科拉舒纳德"
   },
   "PDU": {
-    "name": "科钦",
-    "desc": ""
+    "name": "科钦"
   },
   "VND": {
-    "name": "吠那住",
-    "desc": ""
+    "name": "吠那住"
   },
   "KTN": {
-    "name": "库塔纳德",
-    "desc": ""
+    "name": "库塔纳德"
   },
   "KDU": {
-    "name": "帕金杰塔杜",
-    "desc": ""
+    "name": "帕金杰塔杜"
   },
   "KYA": {
-    "name": "科塔亚姆",
-    "desc": ""
+    "name": "科塔亚姆"
   },
   "VLD": {
-    "name": "瓦卢瓦纳德",
-    "desc": ""
+    "name": "瓦卢瓦纳德"
   },
   "ELA": {
-    "name": "伊罗耶达都",
-    "desc": ""
+    "name": "伊罗耶达都"
   },
   "TKU": {
-    "name": "特昆库尔",
-    "desc": ""
+    "name": "特昆库尔"
   },
   "VDK": {
-    "name": "瓦达库姆库尔",
-    "desc": ""
+    "name": "瓦达库姆库尔"
   },
   "ALU": {
-    "name": "阿楼波",
-    "desc": ""
+    "name": "阿楼波"
   },
   "STR": {
-    "name": "桑塔拉",
-    "desc": ""
+    "name": "桑塔拉"
   },
   "KPL": {
-    "name": "科普拉",
-    "desc": ""
+    "name": "科普拉"
   },
   "MSN": {
-    "name": "穆苏尼里",
-    "desc": ""
+    "name": "穆苏尼里"
   },
   "RCH": {
-    "name": "隶契罗",
-    "desc": ""
+    "name": "隶契罗"
   },
   "ORI": {
-    "name": "奥里萨",
-    "desc": ""
+    "name": "奥里萨"
   },
   "KNK": {
-    "name": "甘盖尔",
-    "desc": ""
+    "name": "甘盖尔"
   },
   "BST": {
-    "name": "巴斯塔尔",
-    "desc": ""
+    "name": "巴斯塔尔"
   },
   "JPO": {
-    "name": "嫩德布尔",
-    "desc": ""
+    "name": "嫩德布尔"
   },
   "BGL": {
-    "name": "巴格拉纳",
-    "desc": ""
+    "name": "巴格拉纳"
   },
   "CHD": {
-    "name": "钱达",
-    "desc": ""
+    "name": "钱达"
   },
   "BGR": {
-    "name": "班杜加拉",
-    "desc": ""
+    "name": "班杜加拉"
   },
   "WRG": {
-    "name": "韦拉加尔",
-    "desc": ""
+    "name": "韦拉加尔"
   },
   "GOA": {
-    "name": "果阿",
-    "desc": ""
+    "name": "果阿"
   },
   "HNV": {
-    "name": "霍纳沃尔",
-    "desc": ""
+    "name": "霍纳沃尔"
   },
   "DRP": {
-    "name": "拉姆讷格尔",
-    "desc": ""
+    "name": "拉姆讷格尔"
   },
   "JWR": {
-    "name": "乔哈尔",
-    "desc": ""
+    "name": "乔哈尔"
   },
   "DGR": {
-    "name": "婆迦尔",
-    "desc": ""
+    "name": "婆迦尔"
   },
   "MEW": {
-    "name": "梅瓦尔",
-    "desc": ""
+    "name": "梅瓦尔"
   },
   "IDR": {
-    "name": "伊德尔",
-    "desc": ""
+    "name": "伊德尔"
   },
   "JLR": {
-    "name": "贾洛尔",
-    "desc": ""
+    "name": "贾洛尔"
   },
   "CMN": {
-    "name": "尚庞",
-    "desc": ""
+    "name": "尚庞"
   },
   "RJI": {
-    "name": "拉杰毕普拉",
-    "desc": ""
+    "name": "拉杰毕普拉"
   },
   "KUT": {
-    "name": "卡奇",
-    "desc": ""
+    "name": "卡奇"
   },
   "SMA": {
-    "name": "萨姆玛",
-    "desc": ""
+    "name": "萨姆玛"
   },
   "SND": {
-    "name": "信德",
-    "desc": ""
+    "name": "信德"
   },
   "RNP": {
-    "name": "兰普尔",
-    "desc": ""
+    "name": "兰普尔"
   },
   "GHL": {
-    "name": "格锡瓦德",
-    "desc": ""
+    "name": "格锡瓦德"
   },
   "PLT": {
-    "name": "巴利塔纳",
-    "desc": ""
+    "name": "巴利塔纳"
   },
   "JNG": {
-    "name": "朱纳格利",
-    "desc": ""
+    "name": "朱纳格利"
   },
   "BHD": {
-    "name": "班瓦德",
-    "desc": ""
+    "name": "班瓦德"
   },
   "JLW": {
-    "name": "贾拉瓦德",
-    "desc": ""
+    "name": "贾拉瓦德"
   },
   "MRW": {
-    "name": "马尔瓦尔",
-    "desc": ""
+    "name": "马尔瓦尔"
   },
   "HAD": {
-    "name": "哈多蒂",
-    "desc": ""
+    "name": "哈多蒂"
   },
   "JSL": {
-    "name": "斋沙默尔",
-    "desc": ""
+    "name": "斋沙默尔"
   },
   "PGL": {
-    "name": "布格尔",
-    "desc": ""
+    "name": "布格尔"
   },
   "KLI": {
-    "name": "格劳利",
-    "desc": ""
+    "name": "格劳利"
   },
   "SHR": {
-    "name": "撒哈拉",
-    "desc": ""
+    "name": "撒哈拉"
   },
   "DRW": {
-    "name": "陀多瓦",
-    "desc": ""
+    "name": "陀多瓦"
   },
   "BWL": {
-    "name": "贝尼瓦尔",
-    "desc": ""
+    "name": "贝尼瓦尔"
   },
   "JHI": {
-    "name": "乔希亚",
-    "desc": ""
+    "name": "乔希亚"
   },
   "GDA": {
-    "name": "果达拉",
-    "desc": ""
+    "name": "果达拉"
   },
   "PNA": {
-    "name": "普尼亚",
-    "desc": ""
+    "name": "普尼亚"
   },
   "BHA": {
-    "name": "巴特尼尔",
-    "desc": ""
+    "name": "巴特尼尔"
   },
   "DOG": {
-    "name": "多格拉",
-    "desc": ""
+    "name": "多格拉"
   },
   "DHU": {
-    "name": "敦达尔",
-    "desc": ""
+    "name": "敦达尔"
   },
   "GWA": {
-    "name": "瓜廖尔",
-    "desc": ""
+    "name": "瓜廖尔"
   },
   "JJK": {
-    "name": "杰贾卡布克提",
-    "desc": ""
+    "name": "杰贾卡布克提"
   },
   "BND": {
-    "name": "本德尔肯德",
-    "desc": ""
+    "name": "本德尔肯德"
   },
   "BGK": {
-    "name": "巴格尔坎德",
-    "desc": ""
+    "name": "巴格尔坎德"
   },
   "MAU": {
-    "name": "毛甘吉",
-    "desc": ""
+    "name": "毛甘吉"
   },
   "KHR": {
-    "name": "凯尔拉",
-    "desc": ""
+    "name": "凯尔拉"
   },
   "GHR": {
-    "name": "加尔哈",
-    "desc": ""
+    "name": "加尔哈"
   },
   "RTP": {
-    "name": "拉特纳普勒",
-    "desc": ""
+    "name": "拉特纳普勒"
   },
   "BAD": {
-    "name": "包特",
-    "desc": ""
+    "name": "包特"
   },
   "NRS": {
-    "name": "讷尔辛格布尔",
-    "desc": ""
+    "name": "讷尔辛格布尔"
   },
   "KJA": {
-    "name": "盖翁切尔",
-    "desc": ""
+    "name": "盖翁切尔"
   },
   "PTN": {
-    "name": "巴特那",
-    "desc": ""
+    "name": "巴特那"
   },
   "PRT": {
-    "name": "曼多尔",
-    "desc": ""
+    "name": "曼多尔"
   },
   "KLH": {
-    "name": "卡拉汉迪",
-    "desc": ""
+    "name": "卡拉汉迪"
   },
   "SRG": {
-    "name": "萨兰加尔",
-    "desc": ""
+    "name": "萨兰加尔"
   },
   "PLA": {
-    "name": "帕尔拉哈拉",
-    "desc": ""
+    "name": "帕尔拉哈拉"
   },
   "BNA": {
-    "name": "钵奈",
-    "desc": ""
+    "name": "钵奈"
   },
   "MJU": {
-    "name": "马尤布汉杰",
-    "desc": ""
+    "name": "马尤布汉杰"
   },
   "DBD": {
-    "name": "檀婆提尼耶",
-    "desc": ""
+    "name": "檀婆提尼耶"
   },
   "JFN": {
-    "name": "贾夫纳",
-    "desc": ""
+    "name": "贾夫纳"
   },
   "NAG": {
-    "name": "那迦罗",
-    "desc": ""
+    "name": "那迦罗"
   },
   "SWT": {
-    "name": "斯瓦特",
-    "desc": ""
+    "name": "斯瓦特"
   },
   "HNZ": {
-    "name": "罕萨",
-    "desc": ""
+    "name": "罕萨"
   },
   "CTR": {
-    "name": "吉德拉尔",
-    "desc": ""
+    "name": "吉德拉尔"
   },
   "CRL": {
-    "name": "乌尔岑",
-    "desc": ""
+    "name": "乌尔岑"
   },
   "GLI": {
-    "name": "吉尔吉特",
-    "desc": ""
+    "name": "吉尔吉特"
   },
   "KSH": {
-    "name": "克什米尔",
-    "desc": ""
+    "name": "克什米尔"
   },
   "RJR": {
-    "name": "拉久里",
-    "desc": ""
+    "name": "拉久里"
   },
   "PNC": {
-    "name": "蓬奇",
-    "desc": ""
+    "name": "蓬奇"
   },
   "CBH": {
-    "name": "比姆贝尔",
-    "desc": ""
+    "name": "比姆贝尔"
   },
   "CAB": {
-    "name": "昌巴",
-    "desc": ""
+    "name": "昌巴"
   },
   "LHL": {
-    "name": "拉胡尔",
-    "desc": ""
+    "name": "拉胡尔"
   },
   "KLU": {
-    "name": "古卢",
-    "desc": ""
+    "name": "古卢"
   },
   "KSW": {
-    "name": "吉什德瓦尔",
-    "desc": ""
+    "name": "吉什德瓦尔"
   },
   "SKT": {
-    "name": "苏盖德",
-    "desc": ""
+    "name": "苏盖德"
   },
   "BSP": {
-    "name": "比拉斯布尔",
-    "desc": ""
+    "name": "比拉斯布尔"
   },
   "KTL": {
-    "name": "库特勒哈尔",
-    "desc": ""
+    "name": "库特勒哈尔"
   },
   "KGR": {
-    "name": "冈格拉",
-    "desc": ""
+    "name": "冈格拉"
   },
   "NRP": {
-    "name": "努尔布尔",
-    "desc": ""
+    "name": "努尔布尔"
   },
   "MAJ": {
-    "name": "满者伯夷",
-    "desc": ""
+    "name": "满者伯夷"
   },
   "BLI": {
-    "name": "巴厘",
-    "desc": ""
+    "name": "巴厘"
   },
   "SUN": {
-    "name": "巽他",
-    "desc": ""
+    "name": "巽他"
   },
   "JMB": {
-    "name": "末罗瑜",
-    "desc": ""
+    "name": "末罗瑜"
   },
   "ATJ": {
-    "name": "亚齐",
-    "desc": ""
+    "name": "亚齐"
   },
   "PSA": {
-    "name": "八昔",
-    "desc": ""
+    "name": "八昔"
   },
   "ARU": {
-    "name": "哑鲁",
-    "desc": ""
+    "name": "哑鲁"
   },
   "PNI": {
-    "name": "潘奈",
-    "desc": ""
+    "name": "潘奈"
   },
   "BUS": {
-    "name": "巴鲁斯",
-    "desc": ""
+    "name": "巴鲁斯"
   },
   "INR": {
-    "name": "丁机宜",
-    "desc": ""
+    "name": "丁机宜"
   },
   "SGT": {
-    "name": "西昆图尔",
-    "desc": ""
+    "name": "西昆图尔"
   },
   "PLB": {
-    "name": "巴邻旁",
-    "desc": ""
+    "name": "巴邻旁"
   },
   "LGE": {
-    "name": "邻稽",
-    "desc": ""
+    "name": "邻稽"
   },
   "TJP": {
-    "name": "丹戎武罗",
-    "desc": ""
+    "name": "丹戎武罗"
   },
   "NSR": {
-    "name": "楠沙鲁奈",
-    "desc": ""
+    "name": "楠沙鲁奈"
   },
   "KRP": {
-    "name": "固里班",
-    "desc": ""
+    "name": "固里班"
   },
   "MRP": {
-    "name": "古泰‑摩多补罗",
-    "desc": ""
+    "name": "古泰‑摩多补罗"
   },
   "KKG": {
-    "name": "古泰‑卡塔内加拉",
-    "desc": ""
+    "name": "古泰‑卡塔内加拉"
   },
   "SMB": {
-    "name": "三发",
-    "desc": ""
+    "name": "三发"
   },
   "TDG": {
-    "name": "缇洞",
-    "desc": ""
+    "name": "缇洞"
   },
   "BEI": {
-    "name": "文莱",
-    "desc": ""
+    "name": "文莱"
   },
   "MNU": {
-    "name": "梅拉瑙",
-    "desc": ""
+    "name": "梅拉瑙"
   },
   "SBG": {
-    "name": "山都望",
-    "desc": ""
+    "name": "山都望"
   },
   "SGU": {
-    "name": "桑高",
-    "desc": ""
+    "name": "桑高"
   },
   "LNK": {
-    "name": "万那",
-    "desc": ""
+    "name": "万那"
   },
   "SBU": {
-    "name": "塞林包",
-    "desc": ""
+    "name": "塞林包"
   },
   "SLA": {
-    "name": "锡拉特",
-    "desc": ""
+    "name": "锡拉特"
   },
   "BLN": {
-    "name": "博朗",
-    "desc": ""
+    "name": "博朗"
   },
   "GRT": {
-    "name": "哥伦打洛",
-    "desc": ""
+    "name": "哥伦打洛"
   },
   "PJT": {
-    "name": "普占纳提",
-    "desc": ""
+    "name": "普占纳提"
   },
   "BGG": {
-    "name": "邦贾",
-    "desc": ""
+    "name": "邦贾"
   },
   "LUW": {
-    "name": "鲁乌",
-    "desc": ""
+    "name": "鲁乌"
   },
   "BAI": {
-    "name": "邦盖",
-    "desc": ""
+    "name": "邦盖"
   },
   "BTE": {
-    "name": "班塔恩",
-    "desc": ""
+    "name": "班塔恩"
   },
   "GOW": {
-    "name": "戈瓦",
-    "desc": ""
+    "name": "戈瓦"
   },
   "BOW": {
-    "name": "博翁特胡",
-    "desc": ""
+    "name": "博翁特胡"
   },
   "BTN": {
-    "name": "布敦",
-    "desc": ""
+    "name": "布敦"
   },
   "MKG": {
-    "name": "梅孔加",
-    "desc": ""
+    "name": "梅孔加"
   },
   "KNW": {
-    "name": "哥那威",
-    "desc": ""
+    "name": "哥那威"
   },
   "MRN": {
-    "name": "莫罗内内",
-    "desc": ""
+    "name": "莫罗内内"
   },
   "CIN": {
-    "name": "至那",
-    "desc": ""
+    "name": "至那"
   },
   "KLS": {
-    "name": "卡利苏苏",
-    "desc": ""
+    "name": "卡利苏苏"
   },
   "WUN": {
-    "name": "穆纳",
-    "desc": ""
+    "name": "穆纳"
   },
   "BNE": {
-    "name": "波尼",
-    "desc": ""
+    "name": "波尼"
   },
   "SDR": {
-    "name": "锡登伦",
-    "desc": ""
+    "name": "锡登伦"
   },
   "RRU": {
-    "name": "巴鲁",
-    "desc": ""
+    "name": "巴鲁"
   },
   "SIG": {
-    "name": "锡昂",
-    "desc": ""
+    "name": "锡昂"
   },
   "PKR": {
-    "name": "帕索科朗",
-    "desc": ""
+    "name": "帕索科朗"
   },
   "SLP": {
-    "name": "沙拉巴朗",
-    "desc": ""
+    "name": "沙拉巴朗"
   },
   "BIM": {
-    "name": "比马",
-    "desc": ""
+    "name": "比马"
   },
   "DOM": {
-    "name": "栋普",
-    "desc": ""
+    "name": "栋普"
   },
   "NGL": {
-    "name": "恩加利",
-    "desc": ""
+    "name": "恩加利"
   },
   "TLW": {
-    "name": "塔利旺",
-    "desc": ""
+    "name": "塔利旺"
   },
   "LRT": {
-    "name": "拉兰图卡",
-    "desc": ""
+    "name": "拉兰图卡"
   },
   "WHL": {
-    "name": "韦哈勒",
-    "desc": ""
+    "name": "韦哈勒"
   },
   "BAC": {
-    "name": "巴占",
-    "desc": ""
+    "name": "巴占"
   },
   "TER": {
-    "name": "特尔纳特",
-    "desc": ""
+    "name": "特尔纳特"
   },
   "TID": {
-    "name": "蒂多雷",
-    "desc": ""
+    "name": "蒂多雷"
   },
   "LOL": {
-    "name": "洛洛达",
-    "desc": ""
+    "name": "洛洛达"
   },
   "JLO": {
-    "name": "贾伊洛洛",
-    "desc": ""
+    "name": "贾伊洛洛"
   },
   "MOO": {
-    "name": "摩洛",
-    "desc": ""
+    "name": "摩洛"
   },
   "SUL": {
-    "name": "卢帕苏格",
-    "desc": ""
+    "name": "卢帕苏格"
   },
   "MYI": {
-    "name": "麻逸",
-    "desc": ""
+    "name": "麻逸"
   },
   "CEB": {
-    "name": "宿务",
-    "desc": ""
+    "name": "宿务"
   },
   "TDO": {
-    "name": "汤都",
-    "desc": ""
+    "name": "汤都"
   },
   "MNA": {
-    "name": "马尼拉",
-    "desc": ""
+    "name": "马尼拉"
   },
   "MDY": {
-    "name": "马迪亚斯",
-    "desc": ""
+    "name": "马迪亚斯"
   },
   "PGS": {
-    "name": "邦阿西楠",
-    "desc": ""
+    "name": "邦阿西楠"
   },
   "BTU": {
-    "name": "武端",
-    "desc": ""
+    "name": "武端"
   },
   "MGD": {
-    "name": "文都灵",
-    "desc": ""
+    "name": "文都灵"
   },
   "KIM": {
-    "name": "奇里曼",
-    "desc": ""
+    "name": "奇里曼"
   },
   "LNO": {
-    "name": "拉瑙",
-    "desc": ""
+    "name": "拉瑙"
   },
   "IBL": {
-    "name": "伊巴隆",
-    "desc": ""
+    "name": "伊巴隆"
   },
   "PLL": {
-    "name": "普利禄",
-    "desc": ""
+    "name": "普利禄"
   },
   "TYY": {
-    "name": "泰泰",
-    "desc": ""
+    "name": "泰泰"
   },
   "KML": {
-    "name": "古麻剌朗",
-    "desc": ""
+    "name": "古麻剌朗"
   },
   "CNT": {
-    "name": "卡伊安塔",
-    "desc": ""
+    "name": "卡伊安塔"
   },
   "KAM": {
-    "name": "凯马纳",
-    "desc": ""
+    "name": "凯马纳"
   },
   "BOL": {
-    "name": "达皮丹",
-    "desc": ""
+    "name": "达皮丹"
   },
   "SML": {
-    "name": "三马兰",
-    "desc": ""
+    "name": "三马兰"
   },
   "ILC": {
-    "name": "伊罗戈",
-    "desc": ""
+    "name": "伊罗戈"
   },
   "WGE": {
-    "name": "卫古",
-    "desc": ""
+    "name": "卫古"
   },
   "MAD": {
-    "name": "马登",
-    "desc": ""
+    "name": "马登"
   },
   "MSL": {
-    "name": "米苏尔",
-    "desc": ""
+    "name": "米苏尔"
   },
   "ABA": {
-    "name": "阿尔巴",
-    "desc": ""
+    "name": "阿尔巴"
   },
   "ANC": {
-    "name": "安科纳",
-    "desc": ""
+    "name": "安科纳"
   },
   "AQU": {
-    "name": "阿奎莱亚",
-    "desc": ""
+    "name": "阿奎莱亚"
   },
   "ARB": {
-    "name": "阿尔博雷阿",
-    "desc": ""
+    "name": "阿尔博雷阿"
   },
   "ARZ": {
-    "name": "阿雷佐",
-    "desc": ""
+    "name": "阿雷佐"
   },
   "ASC": {
-    "name": "阿斯科利",
-    "desc": ""
+    "name": "阿斯科利"
   },
   "ASD": {
-    "name": "亚历山德里亚",
-    "desc": ""
+    "name": "亚历山德里亚"
   },
   "ATI": {
-    "name": "阿斯蒂",
-    "desc": ""
+    "name": "阿斯蒂"
   },
   "BLG": {
-    "name": "博洛尼亚",
-    "desc": ""
+    "name": "博洛尼亚"
   },
   "BRS": {
-    "name": "布雷西亚",
-    "desc": ""
+    "name": "布雷西亚"
   },
   "CAG": {
-    "name": "卡利亚里",
-    "desc": ""
+    "name": "卡利亚里"
   },
   "CDC": {
-    "name": "卡斯泰洛",
-    "desc": ""
+    "name": "卡斯泰洛"
   },
   "CEN": {
-    "name": "切内达",
-    "desc": ""
+    "name": "切内达"
   },
   "CES": {
-    "name": "切塞纳",
-    "desc": ""
+    "name": "切塞纳"
   },
   "CEV": {
-    "name": "切瓦",
-    "desc": ""
+    "name": "切瓦"
   },
   "CHX": {
-    "name": "基耶里",
-    "desc": ""
+    "name": "基耶里"
   },
   "CMR": {
-    "name": "卡梅里诺",
-    "desc": ""
+    "name": "卡梅里诺"
   },
   "CNV": {
-    "name": "卡纳韦塞",
-    "desc": ""
+    "name": "卡纳韦塞"
   },
   "COR": {
-    "name": "科西嘉",
-    "desc": ""
+    "name": "科西嘉"
   },
   "COT": {
-    "name": "科尔托纳",
-    "desc": ""
+    "name": "科尔托纳"
   },
   "CRM": {
-    "name": "克雷莫纳",
-    "desc": ""
+    "name": "克雷莫纳"
   },
   "CRR": {
-    "name": "菲纳莱",
-    "desc": ""
+    "name": "菲纳莱"
   },
   "FAB": {
-    "name": "法布里亚诺",
-    "desc": ""
+    "name": "法布里亚诺"
   },
   "FAE": {
-    "name": "法恩扎",
-    "desc": ""
+    "name": "法恩扎"
   },
   "FEL": {
-    "name": "费尔特雷",
-    "desc": ""
+    "name": "费尔特雷"
   },
   "FER": {
-    "name": "费拉拉",
-    "desc": ""
+    "name": "费拉拉"
   },
   "FLO": {
-    "name": "佛罗伦萨",
-    "desc": ""
+    "name": "佛罗伦萨"
   },
   "FRM": {
-    "name": "费尔莫",
-    "desc": ""
+    "name": "费尔莫"
   },
   "GAL": {
-    "name": "加卢拉",
-    "desc": ""
+    "name": "加卢拉"
   },
   "GEN": {
-    "name": "热那亚",
-    "desc": ""
+    "name": "热那亚"
   },
   "GUB": {
-    "name": "古比奥",
-    "desc": ""
+    "name": "古比奥"
   },
   "IMO": {
-    "name": "伊莫拉",
-    "desc": ""
+    "name": "伊莫拉"
   },
   "LUC": {
-    "name": "卢卡",
-    "desc": ""
+    "name": "卢卡"
   },
   "MAN": {
-    "name": "曼托瓦",
-    "desc": ""
+    "name": "曼托瓦"
   },
   "MFA": {
-    "name": "蒙费拉托",
-    "desc": ""
+    "name": "蒙费拉托"
   },
   "MLO": {
-    "name": "米兰",
-    "desc": ""
+    "name": "米兰"
   },
   "MND": {
-    "name": "蒙多维",
-    "desc": ""
+    "name": "蒙多维"
   },
   "MOD": {
-    "name": "摩德纳",
-    "desc": ""
+    "name": "摩德纳"
   },
   "MSP": {
-    "name": "马拉斯皮纳",
-    "desc": ""
+    "name": "马拉斯皮纳"
   },
   "MTA": {
-    "name": "马切拉塔",
-    "desc": ""
+    "name": "马切拉塔"
   },
   "NAP": {
-    "name": "那不勒斯",
-    "desc": ""
+    "name": "那不勒斯"
   },
   "PAD": {
-    "name": "帕多瓦",
-    "desc": ""
+    "name": "帕多瓦"
   },
   "PAP": {
-    "name": "罗马",
-    "desc": ""
+    "name": "罗马"
   },
   "PAR": {
-    "name": "帕尔马",
-    "desc": ""
+    "name": "帕尔马"
   },
   "PAV": {
-    "name": "帕维亚",
-    "desc": ""
+    "name": "帕维亚"
   },
   "PEA": {
-    "name": "佩鲁贾",
-    "desc": ""
+    "name": "佩鲁贾"
   },
   "PES": {
-    "name": "佩萨罗",
-    "desc": ""
+    "name": "佩萨罗"
   },
   "PIE": {
-    "name": "皮埃蒙特",
-    "desc": ""
+    "name": "皮埃蒙特"
   },
   "PIO": {
-    "name": "皮翁比诺",
-    "desc": ""
+    "name": "皮翁比诺"
   },
   "PIS": {
-    "name": "比萨",
-    "desc": ""
+    "name": "比萨"
   },
   "PRA": {
-    "name": "普拉托",
-    "desc": ""
+    "name": "普拉托"
   },
   "RAV": {
-    "name": "拉文纳",
-    "desc": ""
+    "name": "拉文纳"
   },
   "RGG": {
-    "name": "雷焦",
-    "desc": ""
+    "name": "雷焦"
   },
   "RIM": {
-    "name": "里米尼",
-    "desc": ""
+    "name": "里米尼"
   },
   "SAL": {
-    "name": "萨卢佐",
-    "desc": ""
+    "name": "萨卢佐"
   },
   "SAV": {
-    "name": "萨伏依",
-    "desc": ""
+    "name": "萨伏依"
   },
   "SCL": {
-    "name": "圣克洛德",
-    "desc": ""
+    "name": "圣克洛德"
   },
   "GNV": {
-    "name": "日内瓦",
-    "desc": ""
+    "name": "日内瓦"
   },
   "SIC": {
-    "name": "西西里",
-    "desc": ""
+    "name": "西西里"
   },
   "SIE": {
-    "name": "锡耶纳",
-    "desc": ""
+    "name": "锡耶纳"
   },
   "SPL": {
-    "name": "斯波莱托",
-    "desc": ""
+    "name": "斯波莱托"
   },
   "PTG": {
-    "name": "皮蒂利亚诺",
-    "desc": ""
+    "name": "皮蒂利亚诺"
   },
   "SSP": {
-    "name": "圣塞波尔克罗",
-    "desc": ""
+    "name": "圣塞波尔克罗"
   },
   "TNT": {
-    "name": "特伦托",
-    "desc": ""
+    "name": "特伦托"
   },
   "TOR": {
-    "name": "托雷斯",
-    "desc": ""
+    "name": "托雷斯"
   },
   "TRV": {
-    "name": "特雷维索",
-    "desc": ""
+    "name": "特雷维索"
   },
   "TTE": {
-    "name": "的里雅斯特",
-    "desc": ""
+    "name": "的里雅斯特"
   },
   "TTN": {
-    "name": "托尔托纳",
-    "desc": ""
+    "name": "托尔托纳"
   },
   "URB": {
-    "name": "乌尔比诺",
-    "desc": ""
+    "name": "乌尔比诺"
   },
   "VEN": {
-    "name": "威尼斯",
-    "desc": ""
+    "name": "威尼斯"
   },
   "VER": {
-    "name": "维罗纳",
-    "desc": ""
+    "name": "维罗纳"
   },
   "VIN": {
-    "name": "维琴察",
-    "desc": ""
+    "name": "维琴察"
   },
   "VLT": {
-    "name": "沃尔泰拉",
-    "desc": ""
+    "name": "沃尔泰拉"
   },
   "PRZ": {
-    "name": "佩鲁齐",
-    "desc": ""
+    "name": "佩鲁齐"
   },
   "BRD": {
-    "name": "巴尔迪",
-    "desc": ""
+    "name": "巴尔迪"
   },
   "ACC": {
-    "name": "阿恰约利",
-    "desc": ""
+    "name": "阿恰约利"
   },
   "PST": {
-    "name": "皮斯托亚",
-    "desc": ""
+    "name": "皮斯托亚"
   },
   "VUN": {
-    "name": "温古",
-    "desc": ""
+    "name": "温古"
   },
   "NSU": {
-    "name": "恩苏迪",
-    "desc": ""
+    "name": "恩苏迪"
   },
   "MPE": {
-    "name": "马圭拉",
-    "desc": ""
+    "name": "马圭拉"
   },
   "VNA": {
-    "name": "温达",
-    "desc": ""
+    "name": "温达"
   },
   "MBT": {
-    "name": "姆巴塔",
-    "desc": ""
+    "name": "姆巴塔"
   },
   "SOY": {
-    "name": "索约",
-    "desc": ""
+    "name": "索约"
   },
   "MOM": {
-    "name": "蒙博阿勒",
-    "desc": ""
+    "name": "蒙博阿勒"
   },
   "CHO": {
-    "name": "乔奎",
-    "desc": ""
+    "name": "乔奎"
   },
   "OVI": {
-    "name": "奥文本杜",
-    "desc": ""
+    "name": "奥文本杜"
   },
   "LND": {
-    "name": "隆达",
-    "desc": ""
+    "name": "隆达"
   },
   "LBA": {
-    "name": "卢巴",
-    "desc": ""
+    "name": "卢巴"
   },
   "KUB": {
-    "name": "库巴",
-    "desc": ""
+    "name": "库巴"
   },
   "LEG": {
-    "name": "莱加",
-    "desc": ""
+    "name": "莱加"
   },
   "SIK": {
-    "name": "希卢克",
-    "desc": ""
+    "name": "希卢克"
   },
   "HOL": {
-    "name": "荷兰",
-    "desc": ""
+    "name": "荷兰"
   },
   "ZEE": {
-    "name": "泽兰",
-    "desc": ""
+    "name": "泽兰"
   },
   "BRB": {
-    "name": "布拉班特",
-    "desc": ""
+    "name": "布拉班特"
   },
   "FLA": {
-    "name": "佛兰德",
-    "desc": ""
+    "name": "佛兰德"
   },
   "LUX": {
-    "name": "卢森堡",
-    "desc": ""
+    "name": "卢森堡"
   },
   "LIE": {
-    "name": "$liege$",
-    "desc": ""
+    "name": "列日"
   },
   "CHN": {
-    "name": "希尼",
-    "desc": ""
+    "name": "希尼"
   },
   "LIM": {
-    "name": "林堡",
-    "desc": ""
+    "name": "林堡"
   },
   "NAM": {
-    "name": "那慕尔",
-    "desc": ""
+    "name": "那慕尔"
   },
   "LOO": {
-    "name": "洛恩",
-    "desc": ""
+    "name": "洛恩"
   },
   "VBG": {
-    "name": "法尔肯堡",
-    "desc": ""
+    "name": "法尔肯堡"
   },
   "HRN": {
-    "name": "霍恩",
-    "desc": ""
+    "name": "霍恩"
   },
   "CJK": {
-    "name": "克伊克",
-    "desc": ""
+    "name": "克伊克"
   },
   "UTR": {
-    "name": "乌得勒支",
-    "desc": ""
+    "name": "乌得勒支"
   },
   "FRI": {
-    "name": "弗里西亚",
-    "desc": ""
+    "name": "弗里西亚"
   },
   "STV": {
-    "name": "斯塔沃洛‑马尔梅迪",
-    "desc": ""
+    "name": "斯塔沃洛‑马尔梅迪"
   },
   "HAI": {
-    "name": "埃诺",
-    "desc": ""
+    "name": "埃诺"
   },
   "ARS": {
-    "name": "阿图瓦",
-    "desc": ""
+    "name": "阿图瓦"
   },
   "STP": {
-    "name": "圣波勒",
-    "desc": ""
+    "name": "圣波勒"
   },
   "BGN": {
-    "name": "布洛涅",
-    "desc": ""
+    "name": "布洛涅"
   },
   "BNT": {
-    "name": "本特海姆",
-    "desc": ""
+    "name": "本特海姆"
   },
   "BLL": {
-    "name": "布永",
-    "desc": ""
+    "name": "布永"
   },
   "HBG": {
-    "name": "海因斯贝格",
-    "desc": ""
+    "name": "海因斯贝格"
   },
   "MOR": {
-    "name": "摩洛哥",
-    "desc": ""
+    "name": "摩洛哥"
   },
   "FEZ": {
-    "name": "非斯",
-    "desc": ""
+    "name": "非斯"
   },
   "CNR": {
-    "name": "关切",
-    "desc": ""
+    "name": "关切"
   },
   "MRK": {
-    "name": "马拉喀什",
-    "desc": ""
+    "name": "马拉喀什"
   },
   "TET": {
-    "name": "得土安",
-    "desc": ""
+    "name": "得土安"
   },
   "SLE": {
-    "name": "塞拉",
-    "desc": ""
+    "name": "塞拉"
   },
   "TFL": {
-    "name": "塔菲拉勒特",
-    "desc": ""
+    "name": "塔菲拉勒特"
   },
   "SOS": {
-    "name": "苏斯",
-    "desc": ""
+    "name": "苏斯"
   },
   "TLE": {
-    "name": "特莱姆森",
-    "desc": ""
+    "name": "特莱姆森"
   },
   "ALG": {
-    "name": "阿尔及尔",
-    "desc": ""
+    "name": "阿尔及尔"
   },
   "TGT": {
-    "name": "图古尔特",
-    "desc": ""
+    "name": "图古尔特"
   },
   "KUK": {
-    "name": "库库",
-    "desc": ""
+    "name": "库库"
   },
   "AIT": {
-    "name": "阿伊特阿巴斯",
-    "desc": ""
+    "name": "阿伊特阿巴斯"
   },
   "MZB": {
-    "name": "姆扎卜",
-    "desc": ""
+    "name": "姆扎卜"
   },
   "TUN": {
-    "name": "突尼斯",
-    "desc": ""
+    "name": "突尼斯"
   },
   "DJE": {
-    "name": "杰里德",
-    "desc": ""
+    "name": "杰里德"
   },
   "GFS": {
-    "name": "加夫萨",
-    "desc": ""
+    "name": "加夫萨"
   },
   "GBS": {
-    "name": "加贝斯",
-    "desc": ""
+    "name": "加贝斯"
   },
   "BTL": {
-    "name": "泰利斯",
-    "desc": ""
+    "name": "泰利斯"
   },
   "ZAB": {
-    "name": "扎卜",
-    "desc": ""
+    "name": "扎卜"
   },
   "OGL": {
-    "name": "瓦尔格拉",
-    "desc": ""
+    "name": "瓦尔格拉"
   },
   "TAT": {
-    "name": "图瓦特",
-    "desc": ""
+    "name": "图瓦特"
   },
   "TAR": {
-    "name": "普雷佩查",
-    "desc": ""
+    "name": "普雷佩查"
   },
   "CRK": {
-    "name": "楚鲁梅夸",
-    "desc": ""
+    "name": "楚鲁梅夸"
   },
   "CTE": {
-    "name": "奎采奥",
-    "desc": ""
+    "name": "奎采奥"
   },
   "TUZ": {
-    "name": "托赞特兰",
-    "desc": ""
+    "name": "托赞特兰"
   },
   "TZI": {
-    "name": "茨塔夸罗",
-    "desc": ""
+    "name": "茨塔夸罗"
   },
   "TAX": {
-    "name": "塔希马罗阿",
-    "desc": ""
+    "name": "塔希马罗阿"
   },
   "TNC": {
-    "name": "特诺奇蒂特兰",
-    "desc": ""
+    "name": "特诺奇蒂特兰"
   },
   "TTZ": {
-    "name": "阿科尔瓦坎",
-    "desc": ""
+    "name": "阿科尔瓦坎"
   },
   "CUL": {
-    "name": "库尔瓦坎",
-    "desc": ""
+    "name": "库尔瓦坎"
   },
   "TEP": {
-    "name": "特帕内卡潘",
-    "desc": ""
+    "name": "特帕内卡潘"
   },
   "TCP": {
-    "name": "特拉科潘",
-    "desc": ""
+    "name": "特拉科潘"
   },
   "OTO": {
-    "name": "夏尔托坎",
-    "desc": ""
+    "name": "夏尔托坎"
   },
   "AXO": {
-    "name": "阿霍科潘",
-    "desc": ""
+    "name": "阿霍科潘"
   },
   "MET": {
-    "name": "梅茨蒂特兰",
-    "desc": ""
+    "name": "梅茨蒂特兰"
   },
   "HYC": {
-    "name": "韦亚科科特拉",
-    "desc": ""
+    "name": "韦亚科科特拉"
   },
   "TUT": {
-    "name": "托托特佩克",
-    "desc": ""
+    "name": "托托特佩克"
   },
   "XIL": {
-    "name": "希洛特佩克",
-    "desc": ""
+    "name": "希洛特佩克"
   },
   "ZIN": {
-    "name": "锡纳佩夸罗",
-    "desc": ""
+    "name": "锡纳佩夸罗"
   },
   "MAT": {
-    "name": "托洛坎",
-    "desc": ""
+    "name": "托洛坎"
   },
   "MLN": {
-    "name": "马利纳尔科",
-    "desc": ""
+    "name": "马利纳尔科"
   },
   "TLA": {
-    "name": "蒂斯特拉",
-    "desc": ""
+    "name": "蒂斯特拉"
   },
   "YPZ": {
-    "name": "约皮钦科",
-    "desc": ""
+    "name": "约皮钦科"
   },
   "CLP": {
-    "name": "奇拉帕",
-    "desc": ""
+    "name": "奇拉帕"
   },
   "OAP": {
-    "name": "奥阿潘",
-    "desc": ""
+    "name": "奥阿潘"
   },
   "TLX": {
-    "name": "特拉斯卡兰",
-    "desc": ""
+    "name": "特拉斯卡兰"
   },
   "ZAP": {
-    "name": "扎奇拉",
-    "desc": ""
+    "name": "扎奇拉"
   },
   "TPL": {
-    "name": "特波斯科库拉",
-    "desc": ""
+    "name": "特波斯科库拉"
   },
   "IXL": {
-    "name": "伊斯特兰",
-    "desc": ""
+    "name": "伊斯特兰"
   },
   "YDZ": {
-    "name": "约佐卡伊",
-    "desc": ""
+    "name": "约佐卡伊"
   },
   "YAU": {
-    "name": "尧特佩克",
-    "desc": ""
+    "name": "尧特佩克"
   },
   "THT": {
-    "name": "特万特佩克",
-    "desc": ""
+    "name": "特万特佩克"
   },
   "MIX": {
-    "name": "玉库扎",
-    "desc": ""
+    "name": "玉库扎"
   },
   "QIG": {
-    "name": "基耶戈基",
-    "desc": ""
+    "name": "基耶戈基"
   },
   "TZL": {
-    "name": "特奥萨科阿尔科",
-    "desc": ""
+    "name": "特奥萨科阿尔科"
   },
   "JUX": {
-    "name": "尤佐奎亚",
-    "desc": ""
+    "name": "尤佐奎亚"
   },
   "TCQ": {
-    "name": "恩迪西努",
-    "desc": ""
+    "name": "恩迪西努"
   },
   "YCH": {
-    "name": "玉库萨图塔",
-    "desc": ""
+    "name": "玉库萨图塔"
   },
   "COI": {
-    "name": "尤佐库",
-    "desc": ""
+    "name": "尤佐库"
   },
   "CCN": {
-    "name": "奎卡特兰",
-    "desc": ""
+    "name": "奎卡特兰"
   },
   "NND": {
-    "name": "纽恩迪伊",
-    "desc": ""
+    "name": "纽恩迪伊"
   },
   "MHT": {
-    "name": "米亚瓦特兰",
-    "desc": ""
+    "name": "米亚瓦特兰"
   },
   "TEO": {
-    "name": "特奥蒂特兰",
-    "desc": ""
+    "name": "特奥蒂特兰"
   },
   "CLM": {
-    "name": "科利马",
-    "desc": ""
+    "name": "科利马"
   },
   "TOT": {
-    "name": "森波阿兰",
-    "desc": ""
+    "name": "森波阿兰"
   },
   "MZT": {
-    "name": "米赞特拉",
-    "desc": ""
+    "name": "米赞特拉"
   },
   "PPT": {
-    "name": "帕潘特兰",
-    "desc": ""
+    "name": "帕潘特兰"
   },
   "QHZ": {
-    "name": "基亚维斯特兰",
-    "desc": ""
+    "name": "基亚维斯特兰"
   },
   "HST": {
-    "name": "特奥约特兰",
-    "desc": ""
+    "name": "特奥约特兰"
   },
   "MCC": {
-    "name": "米却阿潘科",
-    "desc": ""
+    "name": "米却阿潘科"
   },
   "TTC": {
-    "name": "塔姆托克",
-    "desc": ""
+    "name": "塔姆托克"
   },
   "TXP": {
-    "name": "图斯潘",
-    "desc": ""
+    "name": "图斯潘"
   },
   "OZL": {
-    "name": "奥苏卢阿马",
-    "desc": ""
+    "name": "奥苏卢阿马"
   },
   "OXT": {
-    "name": "奥斯特利潘",
-    "desc": ""
+    "name": "奥斯特利潘"
   },
   "TZH": {
-    "name": "齐乌科阿克",
-    "desc": ""
+    "name": "齐乌科阿克"
   },
   "TZP": {
-    "name": "特察波蒂特兰",
-    "desc": ""
+    "name": "特察波蒂特兰"
   },
   "XAL": {
-    "name": "哈利斯科",
-    "desc": ""
+    "name": "哈利斯科"
   },
   "TAA": {
-    "name": "特拉尔潘",
-    "desc": ""
+    "name": "特拉尔潘"
   },
   "TZZ": {
-    "name": "察波钦戈",
-    "desc": ""
+    "name": "察波钦戈"
   },
   "SNT": {
-    "name": "森蒂斯帕克",
-    "desc": ""
+    "name": "森蒂斯帕克"
   },
   "PAM": {
-    "name": "希奥伊",
-    "desc": ""
+    "name": "希奥伊"
   },
   "TNL": {
-    "name": "托纳兰",
-    "desc": ""
+    "name": "托纳兰"
   },
   "MXT": {
-    "name": "梅什蒂卡坎",
-    "desc": ""
+    "name": "梅什蒂卡坎"
   },
   "YAH": {
-    "name": "亚瓦利坎",
-    "desc": ""
+    "name": "亚瓦利坎"
   },
   "TPN": {
-    "name": "特克帕蒂特兰",
-    "desc": ""
+    "name": "特克帕蒂特兰"
   },
   "MIT": {
-    "name": "米蒂克",
-    "desc": ""
+    "name": "米蒂克"
   },
   "XLT": {
-    "name": "沙洛斯托蒂特兰",
-    "desc": ""
+    "name": "沙洛斯托蒂特兰"
   },
   "CON": {
-    "name": "科伊南",
-    "desc": ""
+    "name": "科伊南"
   },
   "ACA": {
-    "name": "阿卡蒂克",
-    "desc": ""
+    "name": "阿卡蒂克"
   },
   "TPC": {
-    "name": "特佩坎",
-    "desc": ""
+    "name": "特佩坎"
   },
   "TEL": {
-    "name": "卡什坎",
-    "desc": ""
+    "name": "卡什坎"
   },
   "XOC": {
-    "name": "索奇皮尔兰",
-    "desc": ""
+    "name": "索奇皮尔兰"
   },
   "ZAC": {
-    "name": "萨卡特卡",
-    "desc": ""
+    "name": "萨卡特卡"
   },
   "ZAI": {
-    "name": "萨因",
-    "desc": ""
+    "name": "萨因"
   },
   "GAM": {
-    "name": "瓜马尔",
-    "desc": ""
+    "name": "瓜马尔"
   },
   "SAU": {
-    "name": "绍萨",
-    "desc": ""
+    "name": "绍萨"
   },
   "GUX": {
-    "name": "瓜沙班",
-    "desc": ""
+    "name": "瓜沙班"
   },
   "IZT": {
-    "name": "伊斯塔奇奇梅卡",
-    "desc": ""
+    "name": "伊斯塔奇奇梅卡"
   },
   "ATO": {
-    "name": "阿托克潘",
-    "desc": ""
+    "name": "阿托克潘"
   },
   "TZC": {
-    "name": "图拉钦科",
-    "desc": ""
+    "name": "图拉钦科"
   },
   "CLC": {
-    "name": "查尔科",
-    "desc": ""
+    "name": "查尔科"
   },
   "HUX": {
-    "name": "瓦斯特佩克",
-    "desc": ""
+    "name": "瓦斯特佩克"
   },
   "CUU": {
-    "name": "库埃纳瓦卡",
-    "desc": ""
+    "name": "库埃纳瓦卡"
   },
   "TCH": {
-    "name": "特拉奇科",
-    "desc": ""
+    "name": "特拉奇科"
   },
   "OZT": {
-    "name": "奥斯托曼",
-    "desc": ""
+    "name": "奥斯托曼"
   },
   "TMS": {
-    "name": "特马斯卡尔特佩克",
-    "desc": ""
+    "name": "特马斯卡尔特佩克"
   },
   "TCC": {
-    "name": "特佩科阿奎尔科",
-    "desc": ""
+    "name": "特佩科阿奎尔科"
   },
   "CTL": {
-    "name": "奇尧特拉",
-    "desc": ""
+    "name": "奇尧特拉"
   },
   "TLL": {
-    "name": "特特兰",
-    "desc": ""
+    "name": "特特兰"
   },
   "ZOM": {
-    "name": "聪潘科",
-    "desc": ""
+    "name": "聪潘科"
   },
   "TLZ": {
-    "name": "特拉尔科萨乌蒂特兰",
-    "desc": ""
+    "name": "特拉尔科萨乌蒂特兰"
   },
   "UAU": {
-    "name": "夸乌特奥潘",
-    "desc": ""
+    "name": "夸乌特奥潘"
   },
   "YOH": {
-    "name": "约瓦尔特佩克",
-    "desc": ""
+    "name": "约瓦尔特佩克"
   },
   "TPT": {
-    "name": "特克潘特佩克",
-    "desc": ""
+    "name": "特克潘特佩克"
   },
   "CIH": {
-    "name": "锡瓦特兰",
-    "desc": ""
+    "name": "锡瓦特兰"
   },
   "ZCT": {
-    "name": "萨卡图拉",
-    "desc": ""
+    "name": "萨卡图拉"
   },
   "AJC": {
-    "name": "阿霍奇特兰",
-    "desc": ""
+    "name": "阿霍奇特兰"
   },
   "TLP": {
-    "name": "特拉潘",
-    "desc": ""
+    "name": "特拉潘"
   },
   "AYO": {
-    "name": "阿约特兰",
-    "desc": ""
+    "name": "阿约特兰"
   },
   "OMT": {
-    "name": "奥梅特佩克",
-    "desc": ""
+    "name": "奥梅特佩克"
   },
   "CTC": {
-    "name": "夸特利卡马克",
-    "desc": ""
+    "name": "夸特利卡马克"
   },
   "CTZ": {
-    "name": "科亚特萨夸尔科",
-    "desc": ""
+    "name": "科亚特萨夸尔科"
   },
   "TPY": {
-    "name": "特佩亚卡",
-    "desc": ""
+    "name": "特佩亚卡"
   },
   "CTX": {
-    "name": "奎特拉斯特兰",
-    "desc": ""
+    "name": "奎特拉斯特兰"
   },
   "CLL": {
-    "name": "乔卢拉",
-    "desc": ""
+    "name": "乔卢拉"
   },
   "HJZ": {
-    "name": "韦霍津戈",
-    "desc": ""
+    "name": "韦霍津戈"
   },
   "XCH": {
-    "name": "霍奇米尔科",
-    "desc": ""
+    "name": "霍奇米尔科"
   },
   "IXT": {
-    "name": "伊斯塔卡马什蒂特兰",
-    "desc": ""
+    "name": "伊斯塔卡马什蒂特兰"
   },
   "TEE": {
-    "name": "特特拉",
-    "desc": ""
+    "name": "特特拉"
   },
   "ZAT": {
-    "name": "萨卡特兰",
-    "desc": ""
+    "name": "萨卡特兰"
   },
   "TLQ": {
-    "name": "特拉劳基特佩克",
-    "desc": ""
+    "name": "特拉劳基特佩克"
   },
   "TCY": {
-    "name": "特拉帕科扬",
-    "desc": ""
+    "name": "特拉帕科扬"
   },
   "AHU": {
-    "name": "阿瓦卡特兰",
-    "desc": ""
+    "name": "阿瓦卡特兰"
   },
   "GCH": {
-    "name": "夸乌奇南科",
-    "desc": ""
+    "name": "夸乌奇南科"
   },
   "ETZ": {
-    "name": "埃察特兰",
-    "desc": ""
+    "name": "埃察特兰"
   },
   "XCT": {
-    "name": "霍奇特佩克",
-    "desc": ""
+    "name": "霍奇特佩克"
   },
   "AME": {
-    "name": "阿梅坎",
-    "desc": ""
+    "name": "阿梅坎"
   },
   "TNX": {
-    "name": "特纳马斯特兰",
-    "desc": ""
+    "name": "特纳马斯特兰"
   },
   "AML": {
-    "name": "阿莫兰",
-    "desc": ""
+    "name": "阿莫兰"
   },
   "CZL": {
-    "name": "科萨拉潘",
-    "desc": ""
+    "name": "科萨拉潘"
   },
   "TMT": {
-    "name": "托马特兰",
-    "desc": ""
+    "name": "托马特兰"
   },
   "MHC": {
-    "name": "梅拉瓦坎",
-    "desc": ""
+    "name": "梅拉瓦坎"
   },
   "XIH": {
-    "name": "修特兰",
-    "desc": ""
+    "name": "修特兰"
   },
   "ATL": {
-    "name": "奥特兰",
-    "desc": ""
+    "name": "奥特兰"
   },
   "CCL": {
-    "name": "科科兰",
-    "desc": ""
+    "name": "科科兰"
   },
   "HTZ": {
-    "name": "惠茨奎利克",
-    "desc": ""
+    "name": "惠茨奎利克"
   },
   "AZL": {
-    "name": "阿兹塔特兰",
-    "desc": ""
+    "name": "阿兹塔特兰"
   },
   "TZM": {
-    "name": "塔马索兰",
-    "desc": ""
+    "name": "塔马索兰"
   },
   "TLY": {
-    "name": "特拉帕科亚",
-    "desc": ""
+    "name": "特拉帕科亚"
   },
   "CAU": {
-    "name": "夸乌特兰",
-    "desc": ""
+    "name": "夸乌特兰"
   },
   "AMP": {
-    "name": "阿马皮拉",
-    "desc": ""
+    "name": "阿马皮拉"
   },
   "SAY": {
-    "name": "萨约兰",
-    "desc": ""
+    "name": "萨约兰"
   },
   "PTP": {
-    "name": "潘特佩克",
-    "desc": ""
+    "name": "潘特佩克"
   },
   "XAP": {
-    "name": "哈拉潘",
-    "desc": ""
+    "name": "哈拉潘"
   },
   "CUO": {
-    "name": "夸赫托奇科",
-    "desc": ""
+    "name": "夸赫托奇科"
   },
   "XIC": {
-    "name": "希科奇马尔科",
-    "desc": ""
+    "name": "希科奇马尔科"
   },
   "TOH": {
-    "name": "托奇特佩克",
-    "desc": ""
+    "name": "托奇特佩克"
   },
   "TTA": {
-    "name": "特乌蒂拉",
-    "desc": ""
+    "name": "特乌蒂拉"
   },
   "PTL": {
-    "name": "普克特兰",
-    "desc": ""
+    "name": "普克特兰"
   },
   "CSM": {
-    "name": "科萨马洛阿潘",
-    "desc": ""
+    "name": "科萨马洛阿潘"
   },
   "OTA": {
-    "name": "奥塔蒂特兰",
-    "desc": ""
+    "name": "奥塔蒂特兰"
   },
   "TLT": {
-    "name": "特拉科特拉尔潘",
-    "desc": ""
+    "name": "特拉科特拉尔潘"
   },
   "TOZ": {
-    "name": "托斯特兰",
-    "desc": ""
+    "name": "托斯特兰"
   },
   "IZC": {
-    "name": "伊斯塔查卡拉潘",
-    "desc": ""
+    "name": "伊斯塔查卡拉潘"
   },
   "TSE": {
-    "name": "特塞乔阿坎",
-    "desc": ""
+    "name": "特塞乔阿坎"
   },
   "CCP": {
-    "name": "夸乌奎茨帕尔特佩克",
-    "desc": ""
+    "name": "夸乌奎茨帕尔特佩克"
   },
   "OZU": {
-    "name": "奥苏马钦",
-    "desc": ""
+    "name": "奥苏马钦"
   },
   "ATP": {
-    "name": "阿特佩克",
-    "desc": ""
+    "name": "阿特佩克"
   },
   "CPN": {
-    "name": "佐阿潘",
-    "desc": ""
+    "name": "佐阿潘"
   },
   "XCP": {
-    "name": "霍奇阿潘",
-    "desc": ""
+    "name": "霍奇阿潘"
   },
   "ATT": {
-    "name": "阿蒂特兰",
-    "desc": ""
+    "name": "阿蒂特兰"
   },
   "IXA": {
-    "name": "伊斯塔潘",
-    "desc": ""
+    "name": "伊斯塔潘"
   },
   "CUZ": {
-    "name": "库察马拉",
-    "desc": ""
+    "name": "库察马拉"
   },
   "TLO": {
-    "name": "特洛洛瓦潘",
-    "desc": ""
+    "name": "特洛洛瓦潘"
   },
   "AMT": {
-    "name": "阿玛科兹蒂特兰",
-    "desc": ""
+    "name": "阿玛科兹蒂特兰"
   },
   "QLL": {
-    "name": "夸乌克奇奥兰",
-    "desc": ""
+    "name": "夸乌克奇奥兰"
   },
   "IZO": {
-    "name": "伊佐坎",
-    "desc": ""
+    "name": "伊佐坎"
   },
   "AXC": {
-    "name": "阿索奇亚潘",
-    "desc": ""
+    "name": "阿索奇亚潘"
   },
   "TPX": {
-    "name": "特佩西克",
-    "desc": ""
+    "name": "特佩西克"
   },
   "ZCZ": {
-    "name": "萨卡索纳潘",
-    "desc": ""
+    "name": "萨卡索纳潘"
   },
   "ITZ": {
-    "name": "伊察",
-    "desc": ""
+    "name": "伊察"
   },
   "COC": {
-    "name": "科科姆",
-    "desc": ""
+    "name": "科科姆"
   },
   "XIU": {
-    "name": "图图尔休",
-    "desc": ""
+    "name": "图图尔休"
   },
   "CNL": {
-    "name": "阿卡努尔",
-    "desc": ""
+    "name": "阿卡努尔"
   },
   "CKP": {
-    "name": "查坎普图姆",
-    "desc": ""
+    "name": "查坎普图姆"
   },
   "HEL": {
-    "name": "切尔",
-    "desc": ""
+    "name": "切尔"
   },
   "UAY": {
-    "name": "瓦伊米尔",
-    "desc": ""
+    "name": "瓦伊米尔"
   },
   "MOP": {
-    "name": "莫潘",
-    "desc": ""
+    "name": "莫潘"
   },
   "CTM": {
-    "name": "查克特埃马尔",
-    "desc": ""
+    "name": "查克特埃马尔"
   },
   "KOW": {
-    "name": "科沃伊",
-    "desc": ""
+    "name": "科沃伊"
   },
   "YOK": {
-    "name": "约科坦",
-    "desc": ""
+    "name": "约科坦"
   },
   "XOL": {
-    "name": "乔尔",
-    "desc": ""
+    "name": "乔尔"
   },
   "QEQ": {
-    "name": "凯克奇",
-    "desc": ""
+    "name": "凯克奇"
   },
   "KIC": {
-    "name": "基切",
-    "desc": ""
+    "name": "基切"
   },
   "CHT": {
-    "name": "乔尔蒂",
-    "desc": ""
+    "name": "乔尔蒂"
   },
   "LAC": {
-    "name": "索茨莱布",
-    "desc": ""
+    "name": "索茨莱布"
   },
   "KAQ": {
-    "name": "卡克奇克尔",
-    "desc": ""
+    "name": "卡克奇克尔"
   },
   "MMM": {
-    "name": "玛姆",
-    "desc": ""
+    "name": "玛姆"
   },
   "TOJ": {
-    "name": "托霍拉瓦尔",
-    "desc": ""
+    "name": "托霍拉瓦尔"
   },
   "TZE": {
-    "name": "策尔塔尔",
-    "desc": ""
+    "name": "策尔塔尔"
   },
   "TZU": {
-    "name": "楚图希尔",
-    "desc": ""
+    "name": "楚图希尔"
   },
   "QAN": {
-    "name": "坎霍瓦尔",
-    "desc": ""
+    "name": "坎霍瓦尔"
   },
   "TOQ": {
-    "name": "托克瓜",
-    "desc": ""
+    "name": "托克瓜"
   },
   "DIT": {
-    "name": "迪特马尔申",
-    "desc": ""
+    "name": "迪特马尔申"
   },
   "HSA": {
-    "name": "汉萨",
-    "desc": ""
+    "name": "汉萨"
   },
   "LUB": {
-    "name": "吕贝克",
-    "desc": ""
+    "name": "吕贝克"
   },
   "LBB": {
-    "name": "吕贝卡",
-    "desc": ""
+    "name": "吕贝卡"
   },
   "BRA": {
-    "name": "勃兰登堡",
-    "desc": ""
+    "name": "勃兰登堡"
   },
   "ALL": {
-    "name": "阿尔施泰特",
-    "desc": ""
+    "name": "阿尔施泰特"
   },
   "MAG": {
-    "name": "马格德堡",
-    "desc": ""
+    "name": "马格德堡"
   },
   "THU": {
-    "name": "图林根",
-    "desc": ""
+    "name": "图林根"
   },
   "BRE": {
-    "name": "不来梅",
-    "desc": ""
+    "name": "不来梅"
   },
   "BRM": {
-    "name": "不来梅",
-    "desc": ""
+    "name": "不来梅"
   },
   "MDN": {
-    "name": "明登",
-    "desc": ""
+    "name": "明登"
   },
   "NSA": {
-    "name": "拿骚",
-    "desc": ""
+    "name": "拿骚"
   },
   "NSH": {
-    "name": "拿骚‑哈达马尔",
-    "desc": ""
+    "name": "拿骚‑哈达马尔"
   },
   "NSS": {
-    "name": "拿骚‑锡根",
-    "desc": ""
+    "name": "拿骚‑锡根"
   },
   "NSD": {
-    "name": "拿骚‑迪伦堡",
-    "desc": ""
+    "name": "拿骚‑迪伦堡"
   },
   "BRG": {
-    "name": "贝格",
-    "desc": ""
+    "name": "贝格"
   },
   "KTZ": {
-    "name": "卡岑埃尔恩博根",
-    "desc": ""
+    "name": "卡岑埃尔恩博根"
   },
   "MAI": {
-    "name": "美因茨",
-    "desc": ""
+    "name": "美因茨"
   },
   "SAA": {
-    "name": "萨尔布吕肯",
-    "desc": ""
+    "name": "萨尔布吕肯"
   },
   "STE": {
-    "name": "斯德丁",
-    "desc": ""
+    "name": "斯德丁"
   },
   "HPL": {
-    "name": "荷尔斯泰因‑普伦",
-    "desc": ""
+    "name": "荷尔斯泰因‑普伦"
   },
   "HTR": {
-    "name": "荷尔斯泰因‑伦茨堡",
-    "desc": ""
+    "name": "荷尔斯泰因‑伦茨堡"
   },
   "SLV": {
-    "name": "石勒苏益格",
-    "desc": ""
+    "name": "石勒苏益格"
   },
   "HNB": {
-    "name": "亨讷贝格",
-    "desc": ""
+    "name": "亨讷贝格"
   },
   "SPY": {
-    "name": "斯皮拉",
-    "desc": ""
+    "name": "斯皮拉"
   },
   "PLN": {
-    "name": "普劳恩",
-    "desc": ""
+    "name": "普劳恩"
   },
   "MEI": {
-    "name": "迈森",
-    "desc": ""
+    "name": "迈森"
   },
   "LDB": {
-    "name": "兰茨贝格",
-    "desc": ""
+    "name": "兰茨贝格"
   },
   "GLA": {
-    "name": "格劳豪",
-    "desc": ""
+    "name": "格劳豪"
   },
   "SOR": {
-    "name": "卢萨蒂亚",
-    "desc": ""
+    "name": "卢萨蒂亚"
   },
   "SPB": {
-    "name": "施普伦贝格",
-    "desc": ""
+    "name": "施普伦贝格"
   },
   "SWB": {
-    "name": "萨克森‑维滕贝格",
-    "desc": ""
+    "name": "萨克森‑维滕贝格"
   },
   "RUP": {
-    "name": "鲁平",
-    "desc": ""
+    "name": "鲁平"
   },
   "HVB": {
-    "name": "哈弗尔贝格",
-    "desc": ""
+    "name": "哈弗尔贝格"
   },
   "SWR": {
-    "name": "什未林",
-    "desc": ""
+    "name": "什未林"
   },
   "WRN": {
-    "name": "瓦伦",
-    "desc": ""
+    "name": "瓦伦"
   },
   "MKL": {
-    "name": "梅克伦堡",
-    "desc": ""
+    "name": "梅克伦堡"
   },
   "RZB": {
-    "name": "拉策堡",
-    "desc": ""
+    "name": "拉策堡"
   },
   "RST": {
-    "name": "罗斯托克",
-    "desc": ""
+    "name": "罗斯托克"
   },
   "GSW": {
-    "name": "居斯特罗",
-    "desc": ""
+    "name": "居斯特罗"
   },
   "WOL": {
-    "name": "沃尔加斯特",
-    "desc": ""
+    "name": "沃尔加斯特"
   },
   "KMM": {
-    "name": "卡明",
-    "desc": ""
+    "name": "卡明"
   },
   "NWG": {
-    "name": "瑙加德",
-    "desc": ""
+    "name": "瑙加德"
   },
   "LAU": {
-    "name": "萨克森‑劳恩堡",
-    "desc": ""
+    "name": "萨克森‑劳恩堡"
   },
   "HAM": {
-    "name": "汉堡",
-    "desc": ""
+    "name": "汉堡"
   },
   "HBS": {
-    "name": "哈尔伯施塔特",
-    "desc": ""
+    "name": "哈尔伯施塔特"
   },
   "BBG": {
-    "name": "布兰肯堡",
-    "desc": ""
+    "name": "布兰肯堡"
   },
   "ANH": {
-    "name": "安哈尔特",
-    "desc": ""
+    "name": "安哈尔特"
   },
   "BNB": {
-    "name": "贝恩堡",
-    "desc": ""
+    "name": "贝恩堡"
   },
   "MFE": {
-    "name": "曼斯费尔德",
-    "desc": ""
+    "name": "曼斯费尔德"
   },
   "MRB": {
-    "name": "梅泽堡",
-    "desc": ""
+    "name": "梅泽堡"
   },
   "NMB": {
-    "name": "瑙姆堡",
-    "desc": ""
+    "name": "瑙姆堡"
   },
   "QUB": {
-    "name": "格拉",
-    "desc": ""
+    "name": "格拉"
   },
   "WMA": {
-    "name": "魏玛",
-    "desc": ""
+    "name": "魏玛"
   },
   "SWZ": {
-    "name": "施瓦茨堡",
-    "desc": ""
+    "name": "施瓦茨堡"
   },
   "FLD": {
-    "name": "富尔达",
-    "desc": ""
+    "name": "富尔达"
   },
   "SHS": {
-    "name": "松德斯豪森",
-    "desc": ""
+    "name": "松德斯豪森"
   },
   "NHS": {
-    "name": "诺德豪森",
-    "desc": ""
+    "name": "诺德豪森"
   },
   "MLH": {
-    "name": "米尔豪森",
-    "desc": ""
+    "name": "米尔豪森"
   },
   "ERF": {
-    "name": "爱尔福特",
-    "desc": ""
+    "name": "爱尔福特"
   },
   "HSF": {
-    "name": "黑斯费尔德",
-    "desc": ""
+    "name": "黑斯费尔德"
   },
   "HES": {
-    "name": "黑森",
-    "desc": ""
+    "name": "黑森"
   },
   "PDB": {
-    "name": "帕德博恩",
-    "desc": ""
+    "name": "帕德博恩"
   },
   "ZIG": {
-    "name": "齐根海恩",
-    "desc": ""
+    "name": "齐根海恩"
   },
   "HNA": {
-    "name": "哈瑙",
-    "desc": ""
+    "name": "哈瑙"
   },
   "BUD": {
-    "name": "比丁根",
-    "desc": ""
+    "name": "比丁根"
   },
   "WTZ": {
-    "name": "韦茨拉尔",
-    "desc": ""
+    "name": "韦茨拉尔"
   },
   "TRI": {
-    "name": "特里尔",
-    "desc": ""
+    "name": "特里尔"
   },
   "DIE": {
-    "name": "迪茨",
-    "desc": ""
+    "name": "迪茨"
   },
   "FRN": {
-    "name": "法兰克福",
-    "desc": ""
+    "name": "法兰克福"
   },
   "ERB": {
-    "name": "埃尔巴赫",
-    "desc": ""
+    "name": "埃尔巴赫"
   },
   "WRM": {
-    "name": "沃尔姆斯",
-    "desc": ""
+    "name": "沃尔姆斯"
   },
   "SYE": {
-    "name": "施派尔",
-    "desc": ""
+    "name": "施派尔"
   },
   "ZWE": {
-    "name": "茨韦布吕肯",
-    "desc": ""
+    "name": "茨韦布吕肯"
   },
   "LNN": {
-    "name": "莱宁根",
-    "desc": ""
+    "name": "莱宁根"
   },
   "SPO": {
-    "name": "施蓬海姆",
-    "desc": ""
+    "name": "施蓬海姆"
   },
   "SYN": {
-    "name": "赛恩",
-    "desc": ""
+    "name": "赛恩"
   },
   "KOL": {
-    "name": "科隆",
-    "desc": ""
+    "name": "科隆"
   },
   "DUN": {
-    "name": "道恩",
-    "desc": ""
+    "name": "道恩"
   },
   "APR": {
-    "name": "普吕姆",
-    "desc": ""
+    "name": "普吕姆"
   },
   "AAC": {
-    "name": "亚琛",
-    "desc": ""
+    "name": "亚琛"
   },
   "JUL": {
-    "name": "于利希",
-    "desc": ""
+    "name": "于利希"
   },
   "GEL": {
-    "name": "海尔雷",
-    "desc": ""
+    "name": "海尔雷"
   },
   "ZUT": {
-    "name": "聚特芬",
-    "desc": ""
+    "name": "聚特芬"
   },
   "GMK": {
-    "name": "马克",
-    "desc": ""
+    "name": "马克"
   },
   "WTG": {
-    "name": "维特根斯坦",
-    "desc": ""
+    "name": "维特根斯坦"
   },
   "DTM": {
-    "name": "多特蒙德",
-    "desc": ""
+    "name": "多特蒙德"
   },
   "ESS": {
-    "name": "埃森",
-    "desc": ""
+    "name": "埃森"
   },
   "MRS": {
-    "name": "默尔斯",
-    "desc": ""
+    "name": "默尔斯"
   },
   "KLE": {
-    "name": "克莱沃",
-    "desc": ""
+    "name": "克莱沃"
   },
   "ANB": {
-    "name": "阿恩斯贝格",
-    "desc": ""
+    "name": "阿恩斯贝格"
   },
   "LPP": {
-    "name": "利珀",
-    "desc": ""
+    "name": "利珀"
   },
   "HOX": {
-    "name": "科维",
-    "desc": ""
+    "name": "科维"
   },
   "RVB": {
-    "name": "拉芬斯贝格",
-    "desc": ""
+    "name": "拉芬斯贝格"
   },
   "OSN": {
-    "name": "奥斯纳布吕克",
-    "desc": ""
+    "name": "奥斯纳布吕克"
   },
   "TCK": {
-    "name": "泰克伦堡",
-    "desc": ""
+    "name": "泰克伦堡"
   },
   "MUN": {
-    "name": "明斯特",
-    "desc": ""
+    "name": "明斯特"
   },
   "LUN": {
-    "name": "吕讷堡",
-    "desc": ""
+    "name": "吕讷堡"
   },
   "BRU": {
-    "name": "不伦瑞克",
-    "desc": ""
+    "name": "不伦瑞克"
   },
   "GBH": {
-    "name": "格鲁本哈根",
-    "desc": ""
+    "name": "格鲁本哈根"
   },
   "HDH": {
-    "name": "希尔德斯海姆",
-    "desc": ""
+    "name": "希尔德斯海姆"
   },
   "GOS": {
-    "name": "戈斯拉尔",
-    "desc": ""
+    "name": "戈斯拉尔"
   },
   "SCB": {
-    "name": "绍恩堡",
-    "desc": ""
+    "name": "绍恩堡"
   },
   "HOY": {
-    "name": "霍亚",
-    "desc": ""
+    "name": "霍亚"
   },
   "NIE": {
-    "name": "宁堡",
-    "desc": ""
+    "name": "宁堡"
   },
   "DPH": {
-    "name": "迪普霍尔茨",
-    "desc": ""
+    "name": "迪普霍尔茨"
   },
   "VRD": {
-    "name": "费尔登",
-    "desc": ""
+    "name": "费尔登"
   },
   "RTB": {
-    "name": "里策比特尔",
-    "desc": ""
+    "name": "里策比特尔"
   },
   "OLD": {
-    "name": "奥尔登堡",
-    "desc": ""
+    "name": "奥尔登堡"
   },
   "BMS": {
-    "name": "迈森尼亚",
-    "desc": ""
+    "name": "迈森尼亚"
   },
   "BLB": {
-    "name": "莱布斯",
-    "desc": ""
+    "name": "莱布斯"
   },
   "BBD": {
-    "name": "勃兰登贝格",
-    "desc": ""
+    "name": "勃兰登贝格"
   },
   "HSP": {
-    "name": "荷尔斯泰因‑平讷贝格",
-    "desc": ""
+    "name": "荷尔斯泰因‑平讷贝格"
   },
   "BSK": {
-    "name": "贝斯科",
-    "desc": ""
+    "name": "贝斯科"
   },
   "WGO": {
-    "name": "韦尼格罗德",
-    "desc": ""
+    "name": "韦尼格罗德"
   },
   "BHL": {
-    "name": "拜希林根",
-    "desc": ""
+    "name": "拜希林根"
   },
   "GLN": {
-    "name": "格莱兴",
-    "desc": ""
+    "name": "格莱兴"
   },
   "WDE": {
-    "name": "瓦尔代克",
-    "desc": ""
+    "name": "瓦尔代克"
   },
   "RBG": {
-    "name": "里特贝格",
-    "desc": ""
+    "name": "里特贝格"
   },
   "NSW": {
-    "name": "拿骚‑魏尔堡",
-    "desc": ""
+    "name": "拿骚‑魏尔堡"
   },
   "NSI": {
-    "name": "拿骚‑伊德施泰因",
-    "desc": ""
+    "name": "拿骚‑伊德施泰因"
   },
   "RDL": {
-    "name": "里德泽尔",
-    "desc": ""
+    "name": "里德泽尔"
   },
   "NID": {
-    "name": "尼达",
-    "desc": ""
+    "name": "尼达"
   },
   "EVS": {
-    "name": "埃弗施泰因",
-    "desc": ""
+    "name": "埃弗施泰因"
   },
   "JEV": {
-    "name": "耶弗尔",
-    "desc": ""
+    "name": "耶弗尔"
   },
   "WIE": {
-    "name": "维德",
-    "desc": ""
+    "name": "维德"
   },
   "CHB": {
-    "name": "出班",
-    "desc": ""
+    "name": "出班"
   },
   "MZF": {
-    "name": "穆扎法尔",
-    "desc": ""
+    "name": "穆扎法尔"
   },
   "KRM": {
-    "name": "克尔曼",
-    "desc": ""
+    "name": "克尔曼"
   },
   "INJ": {
-    "name": "因珠",
-    "desc": ""
+    "name": "因珠"
   },
   "KHU": {
-    "name": "洪季",
-    "desc": ""
+    "name": "洪季"
   },
   "KRT": {
-    "name": "库尔特",
-    "desc": ""
+    "name": "库尔特"
   },
   "SRB": {
-    "name": "萨尔毕道朗",
-    "desc": ""
+    "name": "萨尔毕道朗"
   },
   "GRG": {
-    "name": "朱里章",
-    "desc": ""
+    "name": "朱里章"
   },
   "MIH": {
-    "name": "米赫拉班",
-    "desc": ""
+    "name": "米赫拉班"
   },
   "KHN": {
-    "name": "卡兰",
-    "desc": ""
+    "name": "卡兰"
   },
   "SHB": {
-    "name": "沙班卡拉",
-    "desc": ""
+    "name": "沙班卡拉"
   },
   "JUR": {
-    "name": "尤尔曼",
-    "desc": ""
+    "name": "尤尔曼"
   },
   "UGH": {
-    "name": "乌格罕",
-    "desc": ""
+    "name": "乌格罕"
   },
   "HZP": {
-    "name": "哈扎拉斯普",
-    "desc": ""
+    "name": "哈扎拉斯普"
   },
   "ORM": {
-    "name": "霍尔木兹",
-    "desc": ""
+    "name": "霍尔木兹"
   },
   "FAL": {
-    "name": "法勒",
-    "desc": ""
+    "name": "法勒"
   },
   "JSK": {
-    "name": "贾斯克",
-    "desc": ""
+    "name": "贾斯克"
   },
   "MZN": {
-    "name": "塔巴里斯坦",
-    "desc": ""
+    "name": "塔巴里斯坦"
   },
   "BDS": {
-    "name": "巴杜斯潘",
-    "desc": ""
+    "name": "巴杜斯潘"
   },
   "MKR": {
-    "name": "莫克兰",
-    "desc": ""
+    "name": "莫克兰"
   },
   "BMP": {
-    "name": "班布尔",
-    "desc": ""
+    "name": "班布尔"
   },
   "BLA": {
-    "name": "布莱达",
-    "desc": ""
+    "name": "布莱达"
   },
   "KLW": {
-    "name": "戈尔瓦",
-    "desc": ""
+    "name": "戈尔瓦"
   },
   "KHZ": {
-    "name": "胡兹达尔",
-    "desc": ""
+    "name": "胡兹达尔"
   },
   "KLA": {
-    "name": "卡拉特",
-    "desc": ""
+    "name": "卡拉特"
   },
   "LCK": {
-    "name": "霍什迪",
-    "desc": ""
+    "name": "霍什迪"
   },
   "LST": {
-    "name": "拉雷斯坦",
-    "desc": ""
+    "name": "拉雷斯坦"
   },
   "ERA": {
-    "name": "埃兰沙赫尔",
-    "desc": ""
+    "name": "埃兰沙赫尔"
   },
   "HDN": {
-    "name": "$hamadan$",
-    "desc": ""
+    "name": "哈马丹"
   },
   "QOM": {
-    "name": "$qom$",
-    "desc": ""
+    "name": "库姆"
   },
   "KSA": {
-    "name": "$kashan$",
-    "desc": ""
+    "name": "卡尚"
   },
   "ASR": {
-    "name": "$astarabad$",
-    "desc": ""
+    "name": "阿斯塔拉巴德"
   },
   "JKR": {
-    "name": "札兀尼·库尔班",
-    "desc": ""
+    "name": "札兀尼·库尔班"
   },
   "SFR": {
-    "name": "$esfarayen$",
-    "desc": ""
+    "name": "埃斯法拉延"
   },
   "SBZ": {
-    "name": "$sabzevar$",
-    "desc": ""
+    "name": "萨卜泽瓦尔"
   },
   "KHT": {
-    "name": "$quhestan_area$",
-    "desc": ""
+    "name": "库希斯坦"
   },
   "MRV": {
-    "name": "$merv$",
-    "desc": ""
+    "name": "木鹿"
   },
   "KHF": {
-    "name": "哈夫",
-    "desc": ""
+    "name": "哈夫"
   },
   "HLG": {
-    "name": "旭烈兀",
-    "desc": ""
+    "name": "旭烈兀"
   },
   "NGD": {
-    "name": "捏兀迭里",
-    "desc": ""
+    "name": "捏兀迭里"
   },
   "QUN": {
-    "name": "哈剌兀纳思",
-    "desc": ""
+    "name": "哈剌兀纳思"
   },
   "BSD": {
-    "name": "别速惕",
-    "desc": ""
+    "name": "别速惕"
   },
   "ART": {
-    "name": "阿鲁剌惕",
-    "desc": ""
+    "name": "阿鲁剌惕"
   },
   "APD": {
-    "name": "阿帕儿迪",
-    "desc": ""
+    "name": "阿帕儿迪"
   },
   "SLD": {
-    "name": "速勒都思",
-    "desc": ""
+    "name": "速勒都思"
   },
   "BRL": {
-    "name": "巴鲁剌思",
-    "desc": ""
+    "name": "巴鲁剌思"
   },
   "YSU": {
-    "name": "札撒兀里",
-    "desc": ""
+    "name": "札撒兀里"
   },
   "KTT": {
-    "name": "忽都",
-    "desc": ""
+    "name": "忽都"
   },
   "JLY": {
-    "name": "札剌伊尔",
-    "desc": ""
+    "name": "札剌伊尔"
   },
   "LHJ": {
-    "name": "拉希詹",
-    "desc": ""
+    "name": "拉希詹"
   },
   "RNK": {
-    "name": "拉内库赫",
-    "desc": ""
+    "name": "拉内库赫"
   },
   "FMN": {
-    "name": "富曼",
-    "desc": ""
+    "name": "富曼"
   },
   "RSH": {
-    "name": "拉什特",
-    "desc": ""
+    "name": "拉什特"
   },
   "TLM": {
-    "name": "图勒姆",
-    "desc": ""
+    "name": "图勒姆"
   },
   "ABL": {
-    "name": "阿尔达比勒",
-    "desc": ""
+    "name": "阿尔达比勒"
   },
   "POL": {
-    "name": "波兰",
-    "desc": ""
+    "name": "波兰"
   },
   "SDZ": {
-    "name": "谢拉兹",
-    "desc": ""
+    "name": "谢拉兹"
   },
   "LCZ": {
-    "name": "文奇察",
-    "desc": ""
+    "name": "文奇察"
   },
   "PLK": {
-    "name": "普沃茨克",
-    "desc": ""
+    "name": "普沃茨克"
   },
   "RAW": {
-    "name": "拉瓦",
-    "desc": ""
+    "name": "拉瓦"
   },
   "CZK": {
-    "name": "切尔斯克",
-    "desc": ""
+    "name": "切尔斯克"
   },
   "INO": {
-    "name": "伊诺弗罗茨瓦夫",
-    "desc": ""
+    "name": "伊诺弗罗茨瓦夫"
   },
   "VOL": {
-    "name": "沃里尼亚",
-    "desc": ""
+    "name": "沃里尼亚"
   },
   "HAL": {
-    "name": "哈利奇",
-    "desc": ""
+    "name": "哈利奇"
   },
   "KIE": {
-    "name": "基辅",
-    "desc": ""
+    "name": "基辅"
   },
   "POK": {
-    "name": "波洛茨克",
-    "desc": ""
+    "name": "波洛茨克"
   },
   "TUV": {
-    "name": "图罗夫",
-    "desc": ""
+    "name": "图罗夫"
   },
   "PNK": {
-    "name": "平斯克",
-    "desc": ""
+    "name": "平斯克"
   },
   "SSK": {
-    "name": "斯卢茨克",
-    "desc": ""
+    "name": "斯卢茨克"
   },
   "VBK": {
-    "name": "维捷布斯克",
-    "desc": ""
+    "name": "维捷布斯克"
   },
   "MSV": {
-    "name": "姆斯季斯拉夫尔",
-    "desc": ""
+    "name": "姆斯季斯拉夫尔"
   },
   "MIS": {
-    "name": "明斯克",
-    "desc": ""
+    "name": "明斯克"
   },
   "NRK": {
-    "name": "新格鲁多克",
-    "desc": ""
+    "name": "新格鲁多克"
   },
   "DRU": {
-    "name": "德鲁茨克",
-    "desc": ""
+    "name": "德鲁茨克"
   },
   "ZAZ": {
-    "name": "扎波罗热",
-    "desc": ""
+    "name": "扎波罗热"
   },
   "ZAG": {
-    "name": "扎甘",
-    "desc": ""
+    "name": "扎甘"
   },
   "JAW": {
-    "name": "亚沃尔",
-    "desc": ""
+    "name": "亚沃尔"
   },
   "LGC": {
-    "name": "莱格尼察",
-    "desc": ""
+    "name": "莱格尼察"
   },
   "OEL": {
-    "name": "奥莱希尼察",
-    "desc": ""
+    "name": "奥莱希尼察"
   },
   "OPL": {
-    "name": "奥波莱",
-    "desc": ""
+    "name": "奥波莱"
   },
   "PDK": {
-    "name": "普鲁德尼克",
-    "desc": ""
+    "name": "普鲁德尼克"
   },
   "OSW": {
-    "name": "奥斯威辛",
-    "desc": ""
+    "name": "奥斯威辛"
   },
   "TES": {
-    "name": "切申",
-    "desc": ""
+    "name": "切申"
   },
   "BYM": {
-    "name": "比托姆",
-    "desc": ""
+    "name": "比托姆"
   },
   "RCB": {
-    "name": "拉齐布日",
-    "desc": ""
+    "name": "拉齐布日"
   },
   "SWD": {
-    "name": "希维德尼察",
-    "desc": ""
+    "name": "希维德尼察"
   },
   "SCI": {
-    "name": "希齐纳瓦",
-    "desc": ""
+    "name": "希齐纳瓦"
   },
   "ZIE": {
-    "name": "津比采",
-    "desc": ""
+    "name": "津比采"
   },
   "BRZ": {
-    "name": "布热格",
-    "desc": ""
+    "name": "布热格"
   },
   "NMS": {
-    "name": "纳梅斯武夫",
-    "desc": ""
+    "name": "纳梅斯武夫"
   },
   "STZ": {
-    "name": "斯切尔采",
-    "desc": ""
+    "name": "斯切尔采"
   },
   "NMD": {
-    "name": "涅莫德林",
-    "desc": ""
+    "name": "涅莫德林"
   },
   "SIZ": {
-    "name": "谢维日",
-    "desc": ""
+    "name": "谢维日"
   },
   "WRC": {
-    "name": "弗罗茨瓦夫",
-    "desc": ""
+    "name": "弗罗茨瓦夫"
   },
   "GLO": {
-    "name": "格沃古夫",
-    "desc": ""
+    "name": "格沃古夫"
   },
   "NYS": {
-    "name": "尼萨",
-    "desc": ""
+    "name": "尼萨"
   },
   "OPV": {
-    "name": "奥帕瓦",
-    "desc": ""
+    "name": "奥帕瓦"
   },
   "WAI": {
-    "name": "怀塔哈",
-    "desc": ""
+    "name": "怀塔哈"
   },
   "NPO": {
-    "name": "雅提波卢",
-    "desc": ""
+    "name": "雅提波卢"
   },
   "NKH": {
-    "name": "雅提卡胡伍努",
-    "desc": ""
+    "name": "雅提卡胡伍努"
   },
   "NTH": {
-    "name": "雅屠霍依",
-    "desc": ""
+    "name": "雅屠霍依"
   },
   "NGI": {
-    "name": "雅沃霍",
-    "desc": ""
+    "name": "雅沃霍"
   },
   "RAP": {
-    "name": "特拉普怀",
-    "desc": ""
+    "name": "特拉普怀"
   },
   "NGR": {
-    "name": "雅提拉宜努伊",
-    "desc": ""
+    "name": "雅提拉宜努伊"
   },
   "HWE": {
-    "name": "哈威亚",
-    "desc": ""
+    "name": "哈威亚"
   },
   "TNI": {
-    "name": "泰努伊",
-    "desc": ""
+    "name": "泰努伊"
   },
   "ARW": {
-    "name": "特阿拉瓦",
-    "desc": ""
+    "name": "特阿拉瓦"
   },
   "PUH": {
-    "name": "雅普依",
-    "desc": ""
+    "name": "雅普依"
   },
   "RGT": {
-    "name": "朗吉塔尼",
-    "desc": ""
+    "name": "朗吉塔尼"
   },
   "AWA": {
-    "name": "特阿提亚瓦",
-    "desc": ""
+    "name": "特阿提亚瓦"
   },
   "RUA": {
-    "name": "雅提卢阿努依",
-    "desc": ""
+    "name": "雅提卢阿努依"
   },
   "HAW": {
-    "name": "夏威夷",
-    "desc": ""
+    "name": "夏威夷"
   },
   "MUI": {
-    "name": "毛伊",
-    "desc": ""
+    "name": "毛伊"
   },
   "LHN": {
-    "name": "拉海纳",
-    "desc": ""
+    "name": "拉海纳"
   },
   "MLK": {
-    "name": "莫洛卡伊",
-    "desc": ""
+    "name": "莫洛卡伊"
   },
   "OAH": {
-    "name": "瓦胡",
-    "desc": ""
+    "name": "瓦胡"
   },
   "KAU": {
-    "name": "考爱",
-    "desc": ""
+    "name": "考爱"
   },
   "TOG": {
-    "name": "图伊汤加",
-    "desc": ""
+    "name": "图伊汤加"
   },
   "YAP": {
-    "name": "雅浦",
-    "desc": ""
+    "name": "雅浦"
   },
   "SAM": {
-    "name": "萨摩亚",
-    "desc": ""
+    "name": "萨摩亚"
   },
   "BUB": {
-    "name": "布雷巴萨加",
-    "desc": ""
+    "name": "布雷巴萨加"
   },
   "KBN": {
-    "name": "库布纳",
-    "desc": ""
+    "name": "库布纳"
   },
   "TOV": {
-    "name": "托瓦塔",
-    "desc": ""
+    "name": "托瓦塔"
   },
   "NOV": {
-    "name": "大诺夫哥罗德",
-    "desc": ""
+    "name": "大诺夫哥罗德"
   },
   "PSK": {
-    "name": "普斯科夫",
-    "desc": ""
+    "name": "普斯科夫"
   },
   "ORE": {
-    "name": "奥列舍克",
-    "desc": ""
+    "name": "奥列舍克"
   },
   "SMO": {
-    "name": "斯摩棱斯克",
-    "desc": ""
+    "name": "斯摩棱斯克"
   },
   "FMB": {
-    "name": "福明‑别列祖斯克",
-    "desc": ""
+    "name": "福明‑别列祖斯克"
   },
   "MOS": {
-    "name": "莫斯科",
-    "desc": ""
+    "name": "莫斯科"
   },
   "PZL": {
-    "name": "佩列斯拉夫尔‑扎列斯基",
-    "desc": ""
+    "name": "佩列斯拉夫尔‑扎列斯基"
   },
   "KLM": {
-    "name": "科洛姆纳",
-    "desc": ""
+    "name": "科洛姆纳"
   },
   "VLR": {
-    "name": "弗拉基米尔",
-    "desc": ""
+    "name": "弗拉基米尔"
   },
   "UGL": {
-    "name": "乌格利奇",
-    "desc": ""
+    "name": "乌格利奇"
   },
   "YRV": {
-    "name": "尤里耶夫‑波利斯基",
-    "desc": ""
+    "name": "尤里耶夫‑波利斯基"
   },
   "TPS": {
-    "name": "托罗佩茨",
-    "desc": ""
+    "name": "托罗佩茨"
   },
   "BLO": {
-    "name": "别洛奥泽罗",
-    "desc": ""
+    "name": "别洛奥泽罗"
   },
   "YAR": {
-    "name": "雅罗斯拉夫尔",
-    "desc": ""
+    "name": "雅罗斯拉夫尔"
   },
   "RSO": {
-    "name": "罗斯托夫",
-    "desc": ""
+    "name": "罗斯托夫"
   },
   "TVE": {
-    "name": "特维尔",
-    "desc": ""
+    "name": "特维尔"
   },
   "KAS": {
-    "name": "卡申",
-    "desc": ""
+    "name": "卡申"
   },
   "KLN": {
-    "name": "克林",
-    "desc": ""
+    "name": "克林"
   },
   "ZUB": {
-    "name": "祖布佐夫",
-    "desc": ""
+    "name": "祖布佐夫"
   },
   "DMI": {
-    "name": "德米特罗夫",
-    "desc": ""
+    "name": "德米特罗夫"
   },
   "GLM": {
-    "name": "加利奇‑梅尔斯基",
-    "desc": ""
+    "name": "加利奇‑梅尔斯基"
   },
   "RZH": {
-    "name": "勒热夫",
-    "desc": ""
+    "name": "勒热夫"
   },
   "VYA": {
-    "name": "维亚济马",
-    "desc": ""
+    "name": "维亚济马"
   },
   "TRB": {
-    "name": "特鲁布切夫斯克",
-    "desc": ""
+    "name": "特鲁布切夫斯克"
   },
   "BRY": {
-    "name": "布良斯克",
-    "desc": ""
+    "name": "布良斯克"
   },
   "CHR": {
-    "name": "切尔尼戈夫",
-    "desc": ""
+    "name": "切尔尼戈夫"
   },
   "STS": {
-    "name": "斯塔罗杜布‑西韦尔斯基",
-    "desc": ""
+    "name": "斯塔罗杜布‑西韦尔斯基"
   },
   "NVS": {
-    "name": "诺夫霍罗德‑西韦尔斯基",
-    "desc": ""
+    "name": "诺夫霍罗德‑西韦尔斯基"
   },
   "RYL": {
-    "name": "雷利斯克",
-    "desc": ""
+    "name": "雷利斯克"
   },
   "NSL": {
-    "name": "诺沃西利",
-    "desc": ""
+    "name": "诺沃西利"
   },
   "KCH": {
-    "name": "卡拉切夫",
-    "desc": ""
+    "name": "卡拉切夫"
   },
   "KZK": {
-    "name": "科泽利斯克",
-    "desc": ""
+    "name": "科泽利斯克"
   },
   "TRS": {
-    "name": "塔鲁萨",
-    "desc": ""
+    "name": "塔鲁萨"
   },
   "RYA": {
-    "name": "梁赞",
-    "desc": ""
+    "name": "梁赞"
   },
   "PRK": {
-    "name": "普龙斯克",
-    "desc": ""
+    "name": "普龙斯克"
   },
   "SKY": {
-    "name": "斯塔罗杜布",
-    "desc": ""
+    "name": "斯塔罗杜布"
   },
   "NZH": {
-    "name": "下诺夫哥罗德",
-    "desc": ""
+    "name": "下诺夫哥罗德"
   },
   "GRS": {
-    "name": "戈罗杰茨",
-    "desc": ""
+    "name": "戈罗杰茨"
   },
   "SZL": {
-    "name": "苏兹达尔",
-    "desc": ""
+    "name": "苏兹达尔"
   },
   "MRM": {
-    "name": "穆罗姆",
-    "desc": ""
+    "name": "穆罗姆"
   },
   "KOS": {
-    "name": "科斯特罗马",
-    "desc": ""
+    "name": "科斯特罗马"
   },
   "MOG": {
-    "name": "莫洛加",
-    "desc": ""
+    "name": "莫洛加"
   },
   "PRM": {
-    "name": "彼尔姆",
-    "desc": ""
+    "name": "彼尔姆"
   },
   "VYT": {
-    "name": "维亚特卡",
-    "desc": ""
+    "name": "维亚特卡"
   },
   "OBD": {
-    "name": "奥布多尔",
-    "desc": ""
+    "name": "奥布多尔"
   },
   "PLY": {
-    "name": "佩雷姆",
-    "desc": ""
+    "name": "佩雷姆"
   },
   "BAK": {
-    "name": "巴尔达克",
-    "desc": ""
+    "name": "巴尔达克"
   },
   "KND": {
-    "name": "孔达",
-    "desc": ""
+    "name": "孔达"
   },
   "BGJ": {
-    "name": "别洛戈里耶",
-    "desc": ""
+    "name": "别洛戈里耶"
   },
   "KOD": {
-    "name": "科达",
-    "desc": ""
+    "name": "科达"
   },
   "SVA": {
-    "name": "索西瓦",
-    "desc": ""
+    "name": "索西瓦"
   },
   "KZY": {
-    "name": "卡济姆",
-    "desc": ""
+    "name": "卡济姆"
   },
   "LYA": {
-    "name": "利亚平",
-    "desc": ""
+    "name": "利亚平"
   },
   "TBY": {
-    "name": "塔巴里",
-    "desc": ""
+    "name": "塔巴里"
   },
   "SLK": {
-    "name": "塞尔库普",
-    "desc": ""
+    "name": "塞尔库普"
   },
   "BRT": {
-    "name": "布里亚特",
-    "desc": ""
+    "name": "布里亚特"
   },
   "HGO": {
-    "name": "洪戈赖",
-    "desc": ""
+    "name": "洪戈赖"
   },
   "ALT": {
-    "name": "阿尔泰",
-    "desc": ""
+    "name": "阿尔泰"
   },
   "KMG": {
-    "name": "蒙兀",
-    "desc": ""
+    "name": "蒙兀"
   },
   "SAK": {
-    "name": "萨哈",
-    "desc": ""
+    "name": "萨哈"
   },
   "EVE": {
-    "name": "鄂温",
-    "desc": ""
+    "name": "鄂温"
   },
   "YKG": {
-    "name": "尤卡吉尔",
-    "desc": ""
+    "name": "尤卡吉尔"
   },
   "KYK": {
-    "name": "科里亚克",
-    "desc": ""
+    "name": "科里亚克"
   },
   "XHO": {
-    "name": "科萨",
-    "desc": ""
+    "name": "科萨"
   },
   "NGU": {
-    "name": "恩古尼",
-    "desc": ""
+    "name": "恩古尼"
   },
   "TWA": {
-    "name": "茨瓦纳",
-    "desc": ""
+    "name": "茨瓦纳"
   },
   "SOT": {
-    "name": "索托",
-    "desc": ""
+    "name": "索托"
   },
   "VED": {
-    "name": "文达",
-    "desc": ""
+    "name": "文达"
   },
   "KLG": {
-    "name": "卡兰加",
-    "desc": ""
+    "name": "卡兰加"
   },
   "KHM": {
-    "name": "高棉",
-    "desc": ""
+    "name": "高棉"
   },
   "CHA": {
-    "name": "占婆",
-    "desc": ""
+    "name": "占婆"
   },
   "DAI": {
-    "name": "大越",
-    "desc": ""
+    "name": "大越"
   },
   "SUK": {
-    "name": "素可泰",
-    "desc": ""
+    "name": "素可泰"
   },
   "LNA": {
-    "name": "兰纳",
-    "desc": ""
+    "name": "兰纳"
   },
   "LAV": {
-    "name": "罗涡",
-    "desc": ""
+    "name": "罗涡"
   },
   "ADH": {
-    "name": "阿踰陀",
-    "desc": ""
+    "name": "阿踰陀"
   },
   "PEG": {
-    "name": "汉达瓦底",
-    "desc": ""
+    "name": "汉达瓦底"
   },
   "SNG": {
-    "name": "新加坡",
-    "desc": ""
+    "name": "新加坡"
   },
   "LIG": {
-    "name": "洛坤",
-    "desc": ""
+    "name": "洛坤"
   },
   "LGK": {
-    "name": "狼牙修",
-    "desc": ""
+    "name": "狼牙修"
   },
   "KED": {
-    "name": "吉打",
-    "desc": ""
+    "name": "吉打"
   },
   "PAH": {
-    "name": "彭亨",
-    "desc": ""
+    "name": "彭亨"
   },
   "SPN": {
-    "name": "素攀武里",
-    "desc": ""
+    "name": "素攀武里"
   },
   "ARK": {
-    "name": "隆邑",
-    "desc": ""
+    "name": "隆邑"
   },
   "PIN": {
-    "name": "彬牙",
-    "desc": ""
+    "name": "彬牙"
   },
   "SAG": {
-    "name": "实皆",
-    "desc": ""
+    "name": "实皆"
   },
   "TNG": {
-    "name": "东吁",
-    "desc": ""
+    "name": "东吁"
   },
   "BPR": {
-    "name": "卑谬",
-    "desc": ""
+    "name": "卑谬"
   },
   "PHY": {
-    "name": "帕尧",
-    "desc": ""
+    "name": "帕尧"
   },
   "PUA": {
-    "name": "磨",
-    "desc": ""
+    "name": "磨"
   },
   "MUA": {
-    "name": "孟挝",
-    "desc": ""
+    "name": "孟挝"
   },
   "VTN": {
-    "name": "万象",
-    "desc": ""
+    "name": "万象"
   },
   "CBK": {
-    "name": "牛吼",
-    "desc": ""
+    "name": "牛吼"
   },
   "MYA": {
-    "name": "孟养",
-    "desc": ""
+    "name": "孟养"
   },
   "MKA": {
-    "name": "孟拱",
-    "desc": ""
+    "name": "孟拱"
   },
   "HKM": {
-    "name": "坎底",
-    "desc": ""
+    "name": "坎底"
   },
   "MKN": {
-    "name": "孟昆",
-    "desc": ""
+    "name": "孟昆"
   },
   "HHP": {
-    "name": "双肃",
-    "desc": ""
+    "name": "双肃"
   },
   "HSE": {
-    "name": "兴威",
-    "desc": ""
+    "name": "兴威"
   },
   "HSI": {
-    "name": "昔卜",
-    "desc": ""
+    "name": "昔卜"
   },
   "MNI": {
-    "name": "孟乃",
-    "desc": ""
+    "name": "孟乃"
   },
   "MGT": {
-    "name": "孟弥",
-    "desc": ""
+    "name": "孟弥"
   },
   "KAL": {
-    "name": "格礼",
-    "desc": ""
+    "name": "格礼"
   },
   "WNT": {
-    "name": "文多",
-    "desc": ""
+    "name": "文多"
   },
   "BHM": {
-    "name": "八莫",
-    "desc": ""
+    "name": "八莫"
   },
   "KTG": {
-    "name": "景栋",
-    "desc": ""
+    "name": "景栋"
   },
   "MLM": {
-    "name": "孟连",
-    "desc": ""
+    "name": "孟连"
   },
   "WAS": {
-    "name": "佤",
-    "desc": ""
+    "name": "佤"
   },
   "JGP": {
-    "name": "景颇",
-    "desc": ""
+    "name": "景颇"
   },
   "KRN": {
-    "name": "克伦",
-    "desc": ""
+    "name": "克伦"
   },
   "MUO": {
-    "name": "芒",
-    "desc": ""
+    "name": "芒"
   },
   "ASL": {
-    "name": "阿斯里",
-    "desc": ""
+    "name": "阿斯里"
   },
   "ZOO": {
-    "name": "佐",
-    "desc": ""
+    "name": "佐"
   },
   "ZHU": {
-    "name": "壮",
-    "desc": ""
+    "name": "壮"
   },
   "MLB": {
-    "name": "刚莱博",
-    "desc": ""
+    "name": "刚莱博"
   },
   "BES": {
-    "name": "木威",
-    "desc": ""
+    "name": "木威"
   },
   "MNJ": {
-    "name": "曼绒",
-    "desc": ""
+    "name": "曼绒"
   },
   "PTC": {
-    "name": "碧武里",
-    "desc": ""
+    "name": "碧武里"
   },
   "TSM": {
-    "name": "丹那沙林",
-    "desc": ""
+    "name": "丹那沙林"
   },
   "DEG": {
-    "name": "德加",
-    "desc": ""
+    "name": "德加"
   },
   "BHN": {
-    "name": "巴拿",
-    "desc": ""
+    "name": "巴拿"
   },
   "SED": {
-    "name": "色当",
-    "desc": ""
+    "name": "色当"
   },
   "BVK": {
-    "name": "布鲁",
-    "desc": ""
+    "name": "布鲁"
   },
   "KUY": {
-    "name": "归",
-    "desc": ""
+    "name": "归"
   },
   "KMU": {
-    "name": "克木",
-    "desc": ""
+    "name": "克木"
   },
   "NAA": {
-    "name": "那加",
-    "desc": ""
+    "name": "那加"
   },
   "HAB": {
-    "name": "奥地利",
-    "desc": ""
+    "name": "奥地利"
   },
   "BOH": {
-    "name": "波希米亚",
-    "desc": ""
+    "name": "波希米亚"
   },
   "MVA": {
-    "name": "摩拉维亚",
-    "desc": ""
+    "name": "摩拉维亚"
   },
   "PSS": {
-    "name": "帕绍",
-    "desc": ""
+    "name": "帕绍"
   },
   "AUG": {
-    "name": "奥古斯塔-温德利科鲁姆",
-    "desc": ""
+    "name": "奥古斯塔-温德利科鲁姆"
   },
   "AGC": {
-    "name": "奥格斯堡",
-    "desc": ""
+    "name": "奥格斯堡"
   },
   "UBV": {
-    "name": "上巴伐利亚",
-    "desc": ""
+    "name": "上巴伐利亚"
   },
   "LBV": {
-    "name": "下巴伐利亚",
-    "desc": ""
+    "name": "下巴伐利亚"
   },
   "SLZ": {
-    "name": "萨尔茨堡",
-    "desc": ""
+    "name": "萨尔茨堡"
   },
   "BAM": {
-    "name": "班贝格",
-    "desc": ""
+    "name": "班贝格"
   },
   "STY": {
-    "name": "施蒂里亚",
-    "desc": ""
+    "name": "施蒂里亚"
   },
   "CRH": {
-    "name": "卡林西亚",
-    "desc": ""
+    "name": "卡林西亚"
   },
   "TIR": {
-    "name": "蒂罗尔",
-    "desc": ""
+    "name": "蒂罗尔"
   },
   "WER": {
-    "name": "韦尔登贝格",
-    "desc": ""
+    "name": "韦尔登贝格"
   },
   "MBZ": {
-    "name": "布雷根茨",
-    "desc": ""
+    "name": "布雷根茨"
   },
   "MFK": {
-    "name": "费尔德基希",
-    "desc": ""
+    "name": "费尔德基希"
   },
   "BCH": {
-    "name": "库尔",
-    "desc": ""
+    "name": "库尔"
   },
   "STG": {
-    "name": "圣加仑",
-    "desc": ""
+    "name": "圣加仑"
   },
   "ZUR": {
-    "name": "苏黎世",
-    "desc": ""
+    "name": "苏黎世"
   },
   "SYZ": {
-    "name": "施维茨",
-    "desc": ""
+    "name": "施维茨"
   },
   "GLR": {
-    "name": "格拉鲁斯",
-    "desc": ""
+    "name": "格拉鲁斯"
   },
   "LCA": {
-    "name": "科莫",
-    "desc": ""
+    "name": "科莫"
   },
   "URI": {
-    "name": "乌利",
-    "desc": ""
+    "name": "乌利"
   },
   "OBW": {
-    "name": "上瓦尔登",
-    "desc": ""
+    "name": "上瓦尔登"
   },
   "LCU": {
-    "name": "卢塞恩",
-    "desc": ""
+    "name": "卢塞恩"
   },
   "SIT": {
-    "name": "锡永",
-    "desc": ""
+    "name": "锡永"
   },
   "SWI": {
-    "name": "瑞士",
-    "desc": ""
+    "name": "瑞士"
   },
   "BRN": {
-    "name": "伯尔尼",
-    "desc": ""
+    "name": "伯尔尼"
   },
   "SLT": {
-    "name": "索洛图恩",
-    "desc": ""
+    "name": "索洛图恩"
   },
   "NEU": {
-    "name": "纳沙泰尔",
-    "desc": ""
+    "name": "纳沙泰尔"
   },
   "BAS": {
-    "name": "巴塞尔",
-    "desc": ""
+    "name": "巴塞尔"
   },
   "LSA": {
-    "name": "洛桑",
-    "desc": ""
+    "name": "洛桑"
   },
   "KYB": {
-    "name": "基堡",
-    "desc": ""
+    "name": "基堡"
   },
   "TRN": {
-    "name": "图恩",
-    "desc": ""
+    "name": "图恩"
   },
   "BRC": {
-    "name": "贝希特斯加登",
-    "desc": ""
+    "name": "贝希特斯加登"
   },
   "GRF": {
-    "name": "格拉弗瑙",
-    "desc": ""
+    "name": "格拉弗瑙"
   },
   "PAL": {
-    "name": "莱茵",
-    "desc": ""
+    "name": "莱茵"
   },
   "REG": {
-    "name": "雷根斯堡",
-    "desc": ""
+    "name": "雷根斯堡"
   },
   "ANS": {
-    "name": "安斯巴赫",
-    "desc": ""
+    "name": "安斯巴赫"
   },
   "FRE": {
-    "name": "弗赖辛",
-    "desc": ""
+    "name": "弗赖辛"
   },
   "EIC": {
-    "name": "艾希施泰特",
-    "desc": ""
+    "name": "艾希施泰特"
   },
   "WEI": {
-    "name": "魏森堡",
-    "desc": ""
+    "name": "魏森堡"
   },
   "NUR": {
-    "name": "纽伦堡",
-    "desc": ""
+    "name": "纽伦堡"
   },
   "WBG": {
-    "name": "维尔茨堡",
-    "desc": ""
+    "name": "维尔茨堡"
   },
   "RIE": {
-    "name": "里内克",
-    "desc": ""
+    "name": "里内克"
   },
   "MSB": {
-    "name": "莫斯巴赫",
-    "desc": ""
+    "name": "莫斯巴赫"
   },
   "UFF": {
-    "name": "霍恩洛厄",
-    "desc": ""
+    "name": "霍恩洛厄"
   },
   "ROT": {
-    "name": "罗滕堡",
-    "desc": ""
+    "name": "罗滕堡"
   },
   "DNB": {
-    "name": "丁克尔斯比尔",
-    "desc": ""
+    "name": "丁克尔斯比尔"
   },
   "MEM": {
-    "name": "梅明根",
-    "desc": ""
+    "name": "梅明根"
   },
   "KMP": {
-    "name": "肯普滕",
-    "desc": ""
+    "name": "肯普滕"
   },
   "ULM": {
-    "name": "乌尔姆",
-    "desc": ""
+    "name": "乌尔姆"
   },
   "KNZ": {
-    "name": "康斯坦茨",
-    "desc": ""
+    "name": "康斯坦茨"
   },
   "WUR": {
-    "name": "符腾堡",
-    "desc": ""
+    "name": "符腾堡"
   },
   "OET": {
-    "name": "厄廷根",
-    "desc": ""
+    "name": "厄廷根"
   },
   "SWH": {
-    "name": "施瓦本哈尔",
-    "desc": ""
+    "name": "施瓦本哈尔"
   },
   "HBR": {
-    "name": "海尔布隆",
-    "desc": ""
+    "name": "海尔布隆"
   },
   "BDE": {
-    "name": "巴登",
-    "desc": ""
+    "name": "巴登"
   },
   "WDB": {
-    "name": "瓦尔德贝格",
-    "desc": ""
+    "name": "瓦尔德贝格"
   },
   "RVA": {
-    "name": "拉芬斯堡",
-    "desc": ""
+    "name": "拉芬斯堡"
   },
   "BIB": {
-    "name": "比伯拉赫",
-    "desc": ""
+    "name": "比伯拉赫"
   },
   "UBL": {
-    "name": "于伯林根",
-    "desc": ""
+    "name": "于伯林根"
   },
   "HHB": {
-    "name": "霍恩贝格",
-    "desc": ""
+    "name": "霍恩贝格"
   },
   "FBG": {
-    "name": "弗赖堡",
-    "desc": ""
+    "name": "弗赖堡"
   },
   "OFB": {
-    "name": "奥芬堡",
-    "desc": ""
+    "name": "奥芬堡"
   },
   "WLD": {
-    "name": "瓦尔德萨森",
-    "desc": ""
+    "name": "瓦尔德萨森"
   },
   "OGK": {
-    "name": "神圣罗马",
-    "desc": ""
+    "name": "神圣罗马"
   },
   "ORT": {
-    "name": "奥尔滕堡",
-    "desc": ""
+    "name": "奥尔滕堡"
   },
   "BXN": {
-    "name": "布里克森",
-    "desc": ""
+    "name": "布里克森"
   },
   "VUD": {
-    "name": "沃",
-    "desc": ""
+    "name": "沃"
   },
   "MSO": {
-    "name": "梅索科",
-    "desc": ""
+    "name": "梅索科"
   },
   "SGL": {
-    "name": "灰色同盟",
-    "desc": ""
+    "name": "灰色同盟"
   },
   "AOS": {
-    "name": "奥斯塔",
-    "desc": ""
+    "name": "奥斯塔"
   },
   "FLK": {
-    "name": "法尔肯施泰因",
-    "desc": ""
+    "name": "法尔肯施泰因"
   },
   "MDS": {
-    "name": "曼德沙伊德",
-    "desc": ""
+    "name": "曼德沙伊德"
   },
   "LDA": {
-    "name": "兰道",
-    "desc": ""
+    "name": "兰道"
   },
   "VEL": {
-    "name": "费尔登茨",
-    "desc": ""
+    "name": "费尔登茨"
   },
   "GRY": {
-    "name": "格吕耶尔",
-    "desc": ""
+    "name": "格吕耶尔"
   },
   "TGG": {
-    "name": "吐根堡",
-    "desc": ""
+    "name": "吐根堡"
   },
   "PSZ": {
-    "name": "锡门",
-    "desc": ""
+    "name": "锡门"
   },
   "HLE": {
-    "name": "神所同盟",
-    "desc": ""
+    "name": "神所同盟"
   },
   "SFC": {
-    "name": "斯特拉斯堡",
-    "desc": ""
+    "name": "斯特拉斯堡"
   },
   "CFC": {
-    "name": "科尔马",
-    "desc": ""
+    "name": "科尔马"
   },
   "MUR": {
-    "name": "米尔巴克",
-    "desc": ""
+    "name": "米尔巴克"
   },
   "HAG": {
-    "name": "阿格诺",
-    "desc": ""
+    "name": "阿格诺"
   },
   "MUL": {
-    "name": "米卢斯",
-    "desc": ""
+    "name": "米卢斯"
   },
   "LIC": {
-    "name": "利希滕贝格",
-    "desc": ""
+    "name": "利希滕贝格"
   },
   "BLM": {
-    "name": "贝尔蒙",
-    "desc": ""
+    "name": "贝尔蒙"
   },
   "DIS": {
-    "name": "迪森蒂斯",
-    "desc": ""
+    "name": "迪森蒂斯"
   },
   "FUR": {
-    "name": "菲尔斯滕贝格",
-    "desc": ""
+    "name": "菲尔斯滕贝格"
   },
   "GRK": {
-    "name": "古尔克",
-    "desc": ""
+    "name": "古尔克"
   },
   "HAC": {
-    "name": "哈赫贝格",
-    "desc": ""
+    "name": "哈赫贝格"
   },
   "SAW": {
-    "name": "萨尔韦尔登",
-    "desc": ""
+    "name": "萨尔韦尔登"
   },
   "SAB": {
-    "name": "绍森贝格",
-    "desc": ""
+    "name": "绍森贝格"
   },
   "THD": {
-    "name": "特鲁亨丁根",
-    "desc": ""
+    "name": "特鲁亨丁根"
   },
   "ELL": {
-    "name": "埃尔旺根",
-    "desc": ""
+    "name": "埃尔旺根"
   },
   "HEH": {
-    "name": "海登海姆",
-    "desc": ""
+    "name": "海登海姆"
   },
   "HLF": {
-    "name": "黑尔芬施泰因",
-    "desc": ""
+    "name": "黑尔芬施泰因"
   },
   "HOH": {
-    "name": "霍亨索伦",
-    "desc": ""
+    "name": "霍亨索伦"
   },
   "KIR": {
-    "name": "基希贝格",
-    "desc": ""
+    "name": "基希贝格"
   },
   "NEL": {
-    "name": "内伦堡",
-    "desc": ""
+    "name": "内伦堡"
   },
   "TUB": {
-    "name": "蒂宾根",
-    "desc": ""
+    "name": "蒂宾根"
   },
   "LEU": {
-    "name": "洛伊希滕贝格",
-    "desc": ""
+    "name": "洛伊希滕贝格"
   },
   "GLH": {
-    "name": "术赤",
-    "desc": ""
+    "name": "术赤"
   },
   "CRI": {
-    "name": "克里米亚",
-    "desc": ""
+    "name": "克里米亚"
   },
   "NOG": {
-    "name": "诺盖",
-    "desc": ""
+    "name": "诺盖"
   },
   "ATR": {
-    "name": "阿斯特拉罕",
-    "desc": ""
+    "name": "阿斯特拉罕"
   },
   "FEO": {
-    "name": "狄奥多罗",
-    "desc": ""
+    "name": "狄奥多罗"
   },
   "BSH": {
-    "name": "巴什基尔",
-    "desc": ""
+    "name": "巴什基尔"
   },
   "MGE": {
-    "name": "蒙古",
-    "desc": ""
+    "name": "蒙古"
   },
   "GAZ": {
-    "name": "加扎里亚",
-    "desc": ""
+    "name": "加扎里亚"
   },
   "JOL": {
-    "name": "乔洛夫",
-    "desc": ""
+    "name": "乔洛夫"
   },
   "FUL": {
-    "name": "大富洛",
-    "desc": ""
+    "name": "大富洛"
   },
   "MPR": {
-    "name": "曼普鲁古",
-    "desc": ""
+    "name": "曼普鲁古"
   },
   "DGB": {
-    "name": "达格邦",
-    "desc": ""
+    "name": "达格邦"
   },
   "KNG": {
-    "name": "孔格",
-    "desc": ""
+    "name": "孔格"
   },
   "BON": {
-    "name": "博诺曼",
-    "desc": ""
+    "name": "博诺曼"
   },
   "GYA": {
-    "name": "贾阿曼",
-    "desc": ""
+    "name": "贾阿曼"
   },
   "MNK": {
-    "name": "曼凯西姆",
-    "desc": ""
+    "name": "曼凯西姆"
   },
   "ZZZ": {
-    "name": "扎造",
-    "desc": ""
+    "name": "扎造"
   },
   "NUP": {
-    "name": "努佩",
-    "desc": ""
+    "name": "努佩"
   },
   "BEN": {
-    "name": "贝宁",
-    "desc": ""
+    "name": "贝宁"
   },
   "OYO": {
-    "name": "奥约",
-    "desc": ""
+    "name": "奥约"
   },
   "IFE": {
-    "name": "伊费",
-    "desc": ""
+    "name": "伊费"
   },
   "OWO": {
-    "name": "奥沃",
-    "desc": ""
+    "name": "奥沃"
   },
   "IJB": {
-    "name": "伊杰布",
-    "desc": ""
+    "name": "伊杰布"
   },
   "ISO": {
-    "name": "伊塞多",
-    "desc": ""
+    "name": "伊塞多"
   },
   "IYA": {
-    "name": "伊拉雅拉",
-    "desc": ""
+    "name": "伊拉雅拉"
   },
   "OKE": {
-    "name": "奥凯伊拉",
-    "desc": ""
+    "name": "奥凯伊拉"
   },
   "IJE": {
-    "name": "伊杰罗",
-    "desc": ""
+    "name": "伊杰罗"
   },
   "ADO": {
-    "name": "阿多",
-    "desc": ""
+    "name": "阿多"
   },
   "IJS": {
-    "name": "伊杰沙",
-    "desc": ""
+    "name": "伊杰沙"
   },
   "AKR": {
-    "name": "阿库雷",
-    "desc": ""
+    "name": "阿库雷"
   },
   "OND": {
-    "name": "翁多",
-    "desc": ""
+    "name": "翁多"
   },
   "AWO": {
-    "name": "阿沃里",
-    "desc": ""
+    "name": "阿沃里"
   },
   "KET": {
-    "name": "凯图",
-    "desc": ""
+    "name": "凯图"
   },
   "NRI": {
-    "name": "恩里",
-    "desc": ""
+    "name": "恩里"
   },
   "BMR": {
-    "name": "班巴拉",
-    "desc": ""
+    "name": "班巴拉"
   },
   "KBR": {
-    "name": "卡布拉",
-    "desc": ""
+    "name": "卡布拉"
   },
   "ZGH": {
-    "name": "扎加",
-    "desc": ""
+    "name": "扎加"
   },
   "BBK": {
-    "name": "邦布",
-    "desc": ""
+    "name": "邦布"
   },
   "DFN": {
-    "name": "贾富努",
-    "desc": ""
+    "name": "贾富努"
   },
   "GHA": {
-    "name": "加纳",
-    "desc": ""
+    "name": "加纳"
   },
   "KAB": {
-    "name": "卡布",
-    "desc": ""
+    "name": "卡布"
   },
   "MAL": {
-    "name": "马里",
-    "desc": ""
+    "name": "马里"
   },
   "SGH": {
-    "name": "桑哈纳",
-    "desc": ""
+    "name": "桑哈纳"
   },
   "TKR": {
-    "name": "塔克鲁尔",
-    "desc": ""
+    "name": "塔克鲁尔"
   },
   "TMK": {
-    "name": "塔得迈卡",
-    "desc": ""
+    "name": "塔得迈卡"
   },
   "TMB": {
-    "name": "廷巴克图",
-    "desc": ""
+    "name": "廷巴克图"
   },
   "TRG": {
-    "name": "图阿雷格",
-    "desc": ""
+    "name": "图阿雷格"
   },
   "SON": {
-    "name": "桑海",
-    "desc": ""
+    "name": "桑海"
   },
   "TFK": {
-    "name": "提拉夫卡",
-    "desc": ""
+    "name": "提拉夫卡"
   },
   "BOR": {
-    "name": "博尔古",
-    "desc": ""
+    "name": "博尔古"
   },
   "OUA": {
-    "name": "瓦加杜古",
-    "desc": ""
+    "name": "瓦加杜古"
   },
   "GWI": {
-    "name": "圭里科",
-    "desc": ""
+    "name": "圭里科"
   },
   "LIP": {
-    "name": "利普塔科",
-    "desc": ""
+    "name": "利普塔科"
   },
   "YAT": {
-    "name": "亚滕加",
-    "desc": ""
+    "name": "亚滕加"
   },
   "TEN": {
-    "name": "滕科多戈",
-    "desc": ""
+    "name": "滕科多戈"
   },
   "BSM": {
-    "name": "布苏马",
-    "desc": ""
+    "name": "布苏马"
   },
   "GUR": {
-    "name": "法达恩古尔马",
-    "desc": ""
+    "name": "法达恩古尔马"
   },
   "KAN": {
-    "name": "卡诺",
-    "desc": ""
+    "name": "卡诺"
   },
   "KTS": {
-    "name": "卡齐纳",
-    "desc": ""
+    "name": "卡齐纳"
   },
   "ZAM": {
-    "name": "扎姆法拉",
-    "desc": ""
+    "name": "扎姆法拉"
   },
   "KEB": {
-    "name": "凯比",
-    "desc": ""
+    "name": "凯比"
   },
   "RAN": {
-    "name": "拉诺",
-    "desc": ""
+    "name": "拉诺"
   },
   "GOB": {
-    "name": "戈比尔",
-    "desc": ""
+    "name": "戈比尔"
   },
   "DAA": {
-    "name": "道拉",
-    "desc": ""
+    "name": "道拉"
   },
   "KBO": {
-    "name": "加奈姆",
-    "desc": ""
+    "name": "加奈姆"
   },
   "YAO": {
-    "name": "比拉拉",
-    "desc": ""
+    "name": "比拉拉"
   },
   "KOT": {
-    "name": "萨奥",
-    "desc": ""
+    "name": "萨奥"
   },
   "BGI": {
-    "name": "巴吉尔米",
-    "desc": ""
+    "name": "巴吉尔米"
   },
   "MDR": {
-    "name": "曼达拉",
-    "desc": ""
+    "name": "曼达拉"
   },
   "ZGW": {
-    "name": "扎加瓦",
-    "desc": ""
+    "name": "扎加瓦"
   },
   "WAD": {
-    "name": "瓦达伊",
-    "desc": ""
+    "name": "瓦达伊"
   },
   "DAH": {
-    "name": "达荷美",
-    "desc": ""
+    "name": "达荷美"
   },
   "KLP": {
-    "name": "卡拉普亚",
-    "desc": ""
+    "name": "卡拉普亚"
   },
   "CNK": {
-    "name": "奇努克",
-    "desc": ""
+    "name": "奇努克"
   },
   "TSA": {
-    "name": "萨莫萨",
-    "desc": ""
+    "name": "萨莫萨"
   },
   "MKH": {
-    "name": "马卡",
-    "desc": ""
+    "name": "马卡"
   },
   "SKL": {
-    "name": "斯克勒拉姆",
-    "desc": ""
+    "name": "斯克勒拉姆"
   },
   "TWN": {
-    "name": "特瓦纳",
-    "desc": ""
+    "name": "特瓦纳"
   },
   "LHT": {
-    "name": "卢舒特西德",
-    "desc": ""
+    "name": "卢舒特西德"
   },
   "LHQ": {
-    "name": "拉克特米什",
-    "desc": ""
+    "name": "拉克特米什"
   },
   "HLM": {
-    "name": "哈尔科梅勒姆",
-    "desc": ""
+    "name": "哈尔科梅勒姆"
   },
   "SQH": {
-    "name": "斯阔米什",
-    "desc": ""
+    "name": "斯阔米什"
   },
   "KMK": {
-    "name": "科莫克斯",
-    "desc": ""
+    "name": "科莫克斯"
   },
   "NOO": {
-    "name": "努特卡",
-    "desc": ""
+    "name": "努特卡"
   },
   "KWA": {
-    "name": "夸扣特尔",
-    "desc": ""
+    "name": "夸扣特尔"
   },
   "OOW": {
-    "name": "奥维基亚拉",
-    "desc": ""
+    "name": "奥维基亚拉"
   },
   "NUX": {
-    "name": "努哈尔克",
-    "desc": ""
+    "name": "努哈尔克"
   },
   "HLK": {
-    "name": "海尔楚克",
-    "desc": ""
+    "name": "海尔楚克"
   },
   "HLA": {
-    "name": "海斯拉",
-    "desc": ""
+    "name": "海斯拉"
   },
   "TMH": {
-    "name": "齐米夏",
-    "desc": ""
+    "name": "齐米夏"
   },
   "XDA": {
-    "name": "海达",
-    "desc": ""
+    "name": "海达"
   },
   "TLG": {
-    "name": "特林吉特",
-    "desc": ""
+    "name": "特林吉特"
   }
 }
