@@ -72,7 +72,7 @@ Gold は権威と歴史を表す。派手にならないよう彩度を抑えた
 |-------------|------|--------|------|-----|
 | `--type-display` | 2.5rem (40px) | 700 | Cinzel | ホームHeroタイトル |
 | `--type-h1` | 2rem (32px) | 700 | Cinzel | ページ見出し |
-| `--type-h1-lg` | 1.75rem (28px) | 700 | Cinzel | 大型サブ見出し |
+| `--type-h1-compact` | 1.75rem (28px) | 700 | Cinzel | 制約付きページ見出し |
 | `--type-h2` | 1.25rem (20px) | 600 | Cinzel | セクション見出し |
 | `--type-h3` | 1.15rem (18.4px) | 600 | Cinzel | カード見出し、テーブルグループ |
 | `--type-body` | 1rem (16px) | 400 | Inter | 本文、テーブルセル、ラベル |
