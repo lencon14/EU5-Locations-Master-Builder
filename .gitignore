@@ -14,7 +14,13 @@ legacy/
 .tmp/
 *.bak.*
 
-# Astro site
-site/node_modules/
+# Node
+node_modules/
+
+# Astro
+.astro/
 site/dist/
-site/.astro/
+
+# Claude Code
+.claude/
+.agents/
